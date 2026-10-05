@@ -1,0 +1,33 @@
+schema_version: "1.0"
+provenance_id: "__PROVENANCE_ID__"
+recorded_at: "__ISO8601_TIMESTAMP__"
+
+source:
+  evidence_ref: "__EVIDENCE_REF__"
+  source_system: "__SOURCE_SYSTEM__"
+  source_object: "__SOURCE_OBJECT_ID_OR_URI__"
+  retrieval_timestamp: "__ISO8601_TIMESTAMP__"
+
+observation:
+  raw_observation_ref: "__RAW_OBSERVATION_REF__"
+  normalization_rule: "__RULE_OR_NONE__"
+
+derivation:
+  derived_artifact_ref: null
+  derivation_rule: null
+  software_or_script_ref: null
+
+interpretation:
+  statement: "__BOUNDED_INTERPRETATION__"
+  uncertainty: "__KNOWN_UNCERTAINTY__"
+  absence_claim: false
+
+reporting:
+  output_ref: null
+  conclusion_scope: "__OBJECT_LAYER_TIMEPOINT_OR_AGGREGATE__"
+
+change_history:
+  supersedes: null
+  correction_ref: null
+  amendment_ref: null
+  deviation_ref: null
