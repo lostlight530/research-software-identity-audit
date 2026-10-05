@@ -1,0 +1,33 @@
+schema_version: "1.0"
+analysis_id: "__ANALYSIS_ID__"
+created_at: "__ISO8601_TIMESTAMP__"
+classification: "__PREREGISTERED_OR_EXPLORATORY_POST_HOC__"
+
+research_question:
+  id: "__RQ1_TO_RQ5_OR_EXPLORATORY__"
+  statement: "__QUESTION_OR_SCOPE__"
+
+inputs:
+  observation_refs: []
+  batch_refs: []
+  evidence_scope: "__DIRECTLY_OBSERVED_ONLY__"
+
+method:
+  operation: "__COUNT_PROPORTION_TIMESTAMP_DIFFERENCE_PROPAGATION_ORDER_STATE_TRANSITION_CROSS_LAYER_COMPARISON_OR_OTHER__"
+  implementation_ref: "__SCRIPT_NOTEBOOK_OR_MANUAL_METHOD__"
+  imputation: false
+  causal_model: false
+  inferential_model: false
+
+outputs:
+  artifacts: []
+  generated_at: "__ISO8601_TIMESTAMP__"
+
+interpretation:
+  conclusion: "__PROVISIONAL_OR_FINAL_BOUNDED_CONCLUSION__"
+  uncertainty: "__LIMITATIONS__"
+  retest_condition: "__WHEN_THIS_SHOULD_BE_REVISITED__"
+
+governance:
+  amendment_refs: []
+  deviation_refs: []
