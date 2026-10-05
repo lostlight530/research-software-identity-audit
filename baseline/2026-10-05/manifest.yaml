@@ -1,0 +1,57 @@
+schema_version: "1.0"
+baseline_id: "baseline-2026-10-05-asia-shanghai"
+
+cutoff:
+  timestamp: "2026-10-05T23:59:59+08:00"
+  timezone: "Asia/Shanghai"
+
+reconciliation:
+  executed_at_approx: "2026-10-06T00:33:54+08:00"
+  method: "public API verification + existing frozen evidence + user-supplied public pages"
+  raw_record: "raw-reconciliation-record-2026-10-06.md"
+  retrospective_reconstruction_possible: true
+  prospective_dataset: false
+
+fixed_corpus:
+  object_count: 10
+  object_ids: ["RS01","RS02","RS03","RS04","RS05","RS06","RS07","RS08","RS09","RS10"]
+  concept_doi_count: 10
+  version_doi_count: 30
+  total_doi_count: 40
+
+research_contract:
+  preregistered_infrastructure_layer_count: 6
+  object_layer_units_per_scheduled_timepoint: 60
+  operational_platform_count: 7
+  platform_checks_if_all_queried: 70
+  platform_checks_replace_preregistered_denominator: false
+
+current_reconciled_state:
+  openalex_work_records: 40
+  openalex_latest_versions_found: 10
+  openaire_latest_versions_found: 10
+  orcid_work_groups_total: 12
+  orcid_work_summaries_total: 54
+  orcid_fixed_corpus_groups: 10
+  orcid_fixed_corpus_summaries: 52
+  osf_registration_doi: "10.17605/OSF.IO/5B329"
+  companion_repository_concept_doi: "10.5281/zenodo.23166490"
+  companion_repository_version_doi: "10.5281/zenodo.23166491"
+  software_heritage_october_content_identity: "NOT_VERIFIED"
+
+peripheral_objects:
+  osf_registration:
+    in_fixed_corpus: false
+    role: "frozen research contract"
+  research_control_repository:
+    in_fixed_corpus: false
+    role: "research execution, evidence, provenance, and analysis infrastructure"
+
+epistemic_guards:
+  - "OpenAIRE and OpenAlex are distinct operational platforms but map to the same preregistered discovery_graph layer."
+  - "HTTP 404 or an empty result does not by itself prove global absence."
+  - "HTTP 429 is rate limiting and must remain a distinct state."
+  - "ORCID source summaries are not independent works."
+  - "OpenAlex Works are not independent software families."
+  - "Current Zenodo counters must not be backdated without contemporaneous evidence."
+  - "Software Heritage October content identity remains NOT_VERIFIED until full evidence exists."
