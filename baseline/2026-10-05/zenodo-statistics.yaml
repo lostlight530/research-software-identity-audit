@@ -1,0 +1,124 @@
+schema_version: "1.0"
+captured_at_approx: "2026-10-06T00:33:54+08:00"
+timezone: "Asia/Shanghai"
+latest_release_window: "2026-10-04T21:00:00+08:00/2026-10-04T21:01:59+08:00"
+counter_semantics:
+  family_views: "software-family cumulative views observed at capture time"
+  family_unique_views: "software-family cumulative unique views observed at capture time"
+  family_downloads: "software-family cumulative downloads observed at capture time"
+  family_unique_downloads: "software-family cumulative unique downloads observed at capture time"
+  version_views: "views for the current 2026-10-04 version record observed at capture time"
+  version_unique_views: "unique views for the current 2026-10-04 version records observed at capture time; aggregate only in source evidence"
+  version_downloads: "downloads for the current 2026-10-04 version record observed at capture time"
+  historical_backdating_permitted: false
+
+totals:
+  family_views: 581
+  family_unique_views: 556
+  family_downloads: 7
+  family_unique_downloads: 6
+  latest_version_views: 15
+  latest_version_unique_views: 13
+  latest_version_downloads: 0
+
+records:
+  - object_id: RS01
+    record_id: 23137203
+    views: 78
+    unique_views: 76
+    version_views: 0
+    downloads: 4
+    unique_downloads: 3
+    version_downloads: 0
+    bytes: 11095238
+    md5: "d2283b879c6d25563e63ddeb1ed6be1f"
+  - object_id: RS02
+    record_id: 23137204
+    views: 54
+    unique_views: 50
+    version_views: 5
+    downloads: 0
+    unique_downloads: 0
+    version_downloads: 0
+    bytes: 12728661
+    md5: "c37e31b66de62e49abec7062675a95ff"
+  - object_id: RS03
+    record_id: 23137205
+    views: 75
+    unique_views: 71
+    version_views: 2
+    downloads: 0
+    unique_downloads: 0
+    version_downloads: 0
+    bytes: 896794
+    md5: "c8d389bca1267da645e4421f37c9fe28"
+  - object_id: RS04
+    record_id: 23137206
+    views: 38
+    unique_views: 37
+    version_views: 0
+    downloads: 0
+    unique_downloads: 0
+    version_downloads: 0
+    bytes: 645244
+    md5: "5473247d7d47712ad47e30318750d383"
+  - object_id: RS05
+    record_id: 23137207
+    views: 63
+    unique_views: 58
+    version_views: 1
+    downloads: 1
+    unique_downloads: 1
+    version_downloads: 0
+    bytes: 1140108
+    md5: "e1249d15935e916f5f990ee0df4febbd"
+  - object_id: RS06
+    record_id: 23137211
+    views: 62
+    unique_views: 59
+    version_views: 3
+    downloads: 0
+    unique_downloads: 0
+    version_downloads: 0
+    bytes: 751981
+    md5: "963e6ef5b3f41a87bdbf2a4fb1420b3a"
+  - object_id: RS07
+    record_id: 23137214
+    views: 65
+    unique_views: 61
+    version_views: 0
+    downloads: 1
+    unique_downloads: 1
+    version_downloads: 0
+    bytes: 718863
+    md5: "1389072888492917df227a8991c53b3e"
+  - object_id: RS08
+    record_id: 23137219
+    views: 50
+    unique_views: 50
+    version_views: 1
+    downloads: 1
+    unique_downloads: 1
+    version_downloads: 0
+    bytes: 405188
+    md5: "458665b81bf9db3be1bb33da52b69427"
+  - object_id: RS09
+    record_id: 23137215
+    views: 39
+    unique_views: 38
+    version_views: 2
+    downloads: 0
+    unique_downloads: 0
+    version_downloads: 0
+    bytes: 483651
+    md5: "d1df434fbd7e03b6ec7af08ea8378248"
+  - object_id: RS10
+    record_id: 23137216
+    views: 57
+    unique_views: 56
+    version_views: 1
+    downloads: 0
+    unique_downloads: 0
+    version_downloads: 0
+    bytes: 417127
+    md5: "726213c9129422f39aa131cad65b5c68"
