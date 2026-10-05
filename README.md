@@ -169,6 +169,33 @@ These layers are intentionally treated as different systems with different obser
 
 They must not be interpreted as if they provided equivalent guarantees.
 
+## Operational platforms
+
+The six preregistered layers are analytical categories, not a requirement that exactly six concrete services be queried.
+
+The current operational platform vocabulary is:
+
+```text
+GitHub
+Zenodo
+DataCite
+ORCID
+Software Heritage
+OpenAIRE
+OpenAlex
+```
+
+OpenAIRE and OpenAlex are intentionally recorded as separate platforms because they expose different records, clocks, processing states, and failure modes. Both map to the single preregistered `discovery_graph` layer.
+
+Therefore:
+
+```text
+10 × 6 = 60 preregistered object-layer units
+10 × 7 = 70 possible object-platform checks
+```
+
+The second quantity is evidence-collection granularity and does not replace the preregistered denominator.
+
 ---
 
 # Unit of observation
@@ -430,6 +457,12 @@ Earlier release waves and their previously collected observations form a fixed b
 
 Historical observations must not be retrospectively altered or reclassified merely to improve consistency with later evidence.
 
+The first repository baseline package uses a cutoff of **2026-10-05 23:59:59 Asia/Shanghai** and preserves a Codex-generated reconciliation collected at approximately **2026-10-06 00:33:54 Asia/Shanghai**.
+
+That package lives under `baseline/2026-10-05/`.
+
+The collection clock is not backdated to the baseline cutoff. In particular, Zenodo counters observed on 2026-10-06 remain 2026-10-06 observations even when they describe releases published on 2026-10-04.
+
 ## Prospective observation window
 
 The new dataset begins only after registration and the first eligible new release event.
@@ -550,11 +583,14 @@ The repository is expected to evolve around the following structure:
 ```text
 .
 ├── README.md
+├── DATA_HANDLING.md
 ├── CITATION.cff
 ├── codemeta.json
 ├── .zenodo.json
 ├── .github/
-│   └── PULL_REQUEST_TEMPLATE.md
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   └── workflows/
+│       └── validate.yml
 │
 ├── contract/
 │   ├── preregistration.md
@@ -564,6 +600,18 @@ The repository is expected to evolve around the following structure:
 ├── corpus/
 │   └── object-manifest.csv
 │
+├── baseline/
+│   ├── README.md
+│   └── 2026-10-05/
+│       ├── README.md
+│       ├── manifest.yaml
+│       ├── raw-reconciliation-record-2026-10-06.md
+│       ├── reconciliation-notes.md
+│       ├── source-ledger.yaml
+│       ├── doi-map.csv
+│       ├── platform-state.yaml
+│       └── zenodo-statistics.yaml
+│
 ├── schedule/
 │   └── README.md
 │
@@ -571,6 +619,7 @@ The repository is expected to evolve around the following structure:
 │   ├── observation.schema.json
 │   ├── state-taxonomy.yaml
 │   ├── infrastructure-layers.yaml
+│   ├── platforms.yaml
 │   └── counting-rules.md
 │
 ├── observations/
@@ -592,19 +641,11 @@ The repository is expected to evolve around the following structure:
 │   └── identifiers.yaml
 │
 ├── templates/
-│   ├── observation-record.template.json
-│   ├── evidence-record.template.yaml
-│   ├── observation-batch.template.yaml
-│   ├── schedule-declaration.template.yaml
-│   ├── provenance-record.template.yaml
-│   ├── correction-event.template.yaml
-│   ├── analysis-manifest.template.yaml
-│   ├── amendment.template.md
-│   ├── deviation.template.md
-│   └── release-checklist.template.md
+│   └── ...
 │
 ├── tools/
-│   └── README.md
+│   ├── README.md
+│   └── check.py
 │
 ├── AMENDMENTS.md
 └── DEVIATIONS.md
@@ -713,6 +754,16 @@ Records may be corrected.
 Rate limits may differ.
 
 For that reason, captured historical evidence and current live state are treated as different evidence objects.
+
+---
+
+# Public data and privacy
+
+The study primarily uses public research-software and scholarly-metadata surfaces. Canonical public identifiers such as DOI, ORCID, public repository URLs, public release tags, and public scholarly record IDs are retained when necessary for reproducibility rather than pseudonymized.
+
+Public accessibility does not mean everything visible should be collected. Credentials, API keys, cookies, session identifiers, private/expiring share tokens, IP addresses, unrelated visitor telemetry, private messages, and incidental personal information are excluded from committed evidence.
+
+See `DATA_HANDLING.md` for the full policy.
 
 ---
 
