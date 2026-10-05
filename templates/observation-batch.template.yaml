@@ -1,0 +1,34 @@
+schema_version: "1.0"
+batch_id: "__BATCH_ID__"
+schedule_ref: "__SCHEDULE_ID_OR_COMMIT__"
+observation_timepoint: "__TIMEPOINT_ID__"
+
+trigger_event:
+  object_id: "__TRIGGER_OBJECT_ID__"
+  release_id: "__RELEASE_TAG_OR_IDENTIFIER__"
+  release_timestamp: "__ISO8601_TIMESTAMP__"
+  evidence_ref: "__EVIDENCE_REF__"
+
+planned_scope:
+  object_manifest: "corpus/object-manifest.csv"
+  object_count: 10
+  layer_count: 6
+  planned_object_layer_units: 60
+
+execution:
+  started_at: "__ISO8601_TIMESTAMP__"
+  completed_at: null
+  attempted_units: null
+  completed_units: null
+  failed_units: null
+  partial_units: null
+  unresolved_units: null
+
+completeness:
+  all_planned_units_accounted_for: false
+  omitted_units: []
+  notes: "__NOTES__"
+
+governance:
+  amendment_refs: []
+  deviation_refs: []
