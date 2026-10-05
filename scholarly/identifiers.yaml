@@ -1,0 +1,34 @@
+schema_version: "1.0"
+recorded_date: "2026-10-05"
+
+repository:
+  github: "https://github.com/lostlight530/research-software-identity-audit"
+  github_repository_id: 1405944227
+  current_release_tag: "beta"
+
+zenodo:
+  concept_doi:
+    value: "10.5281/zenodo.23166490"
+    role: "version-independent DOI / badge target for the repository"
+  beta_release_doi:
+    value: "10.5281/zenodo.23166491"
+    role: "DOI reported for the archived beta release"
+  badge_image: "https://zenodo.org/badge/1405944227.svg"
+  provenance: "Zenodo GitHub integration DOI/badge panel supplied for this repository on 2026-10-05"
+
+osf:
+  registration:
+    url: "https://osf.io/5b329/overview"
+    doi: "10.17605/OSF.IO/5B329"
+    role: "frozen preregistered research contract"
+  project:
+    url: "https://osf.io/wa5v8"
+    role: "associated live OSF project"
+
+author:
+  name: "Xuanyi Jiang"
+  affiliation: "Independent Researcher"
+  orcid: "https://orcid.org/0009-0001-3617-0832"
+
+identity_boundary:
+  statement: "GitHub repository, Zenodo concept record, Zenodo version record, OSF registration, OSF project, and ORCID identity are linked but non-equivalent scholarly objects."
