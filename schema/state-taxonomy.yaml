@@ -1,0 +1,23 @@
+schema_version: "1.0"
+primary_observation_states:
+  - id: observed
+    absence_claim: false
+  - id: not_found
+    absence_claim: false
+  - id: rate_limited
+    absence_claim: false
+  - id: unresolved
+    absence_claim: false
+  - id: partially_verified
+    absence_claim: false
+  - id: fully_verified
+    absence_claim: false
+attempt_status:
+  allowed: [completed, failed]
+absence_interpretation:
+  default: not_permitted
+  allowed: [not_permitted, contract_supported]
+governance:
+  preserve_original_state: true
+  no_imputation: true
+  incomplete_state_is_not_global_absence: true
