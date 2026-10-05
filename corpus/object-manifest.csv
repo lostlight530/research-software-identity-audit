@@ -1,0 +1,11 @@
+object_id,software_family,source_repository,corpus_role,status
+RS01,welcome-to-github,https://github.com/lostlight530/welcome-to-github,preregistered_sample,fixed
+RS02,zero-entropy-lab,https://github.com/lostlight530/zero-entropy-lab,preregistered_sample,fixed
+RS03,Axiom-0,https://github.com/lostlight530/Axiom-0,preregistered_sample,fixed
+RS04,reflective-continuum,https://github.com/lostlight530/reflective-continuum,preregistered_sample,fixed
+RS05,agent-foundations,https://github.com/lostlight530/agent-foundations,preregistered_sample,fixed
+RS06,auto-doc-engine,https://github.com/lostlight530/auto-doc-engine,preregistered_sample,fixed
+RS07,epistemic-pipeline,https://github.com/lostlight530/epistemic-pipeline,preregistered_sample,fixed
+RS08,sci-render-kit,https://github.com/lostlight530/sci-render-kit,preregistered_sample,fixed
+RS09,china-agentic-observatory,https://github.com/lostlight530/china-agentic-observatory,preregistered_sample,fixed
+RS10,agentic-frontier-observatory,https://github.com/lostlight530/agentic-frontier-observatory,preregistered_sample,fixed

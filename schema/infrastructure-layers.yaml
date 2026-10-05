@@ -1,0 +1,23 @@
+schema_version: "1.0"
+layers:
+  - id: source_repository
+    label: "Source repository"
+    observes: [source_history, releases, repository_identity, release_timestamp]
+  - id: archival_repository
+    label: "Archival repository"
+    observes: [deposited_record, archival_release, archival_identifier]
+  - id: identifier_registration
+    label: "Identifier registration"
+    observes: [persistent_identifier_metadata, version_identifier, family_or_concept_relationship]
+  - id: author_registry
+    label: "Author registry"
+    observes: [attribution, work_record, grouping, source_summary]
+  - id: preservation_archive
+    label: "Preservation archive"
+    observes: [preserved_source_or_deposit, archival_origin, resolvability]
+  - id: discovery_graph
+    label: "Discovery graph"
+    observes: [indexed_or_discovered_record, identifier_match, downstream_representation]
+principle:
+  equivalent_guarantees_across_layers: false
+  interpret_each_layer_by_its_observable_contract: true

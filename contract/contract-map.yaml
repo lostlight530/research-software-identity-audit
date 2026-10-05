@@ -1,0 +1,34 @@
+schema_version: "1.0"
+study:
+  title: "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+  registration_url: "https://osf.io/5b329/overview"
+  registration_doi: "10.17605/OSF.IO/5B329"
+  associated_project_url: "https://osf.io/wa5v8"
+  registered_date: "2026-10-05"
+  design:
+    randomized: false
+    descriptive: true
+    causal_interpretation: false
+    longitudinal: true
+    repeated_measures: true
+corpus:
+  fixed_object_count: 10
+  additions_after_registration: false
+infrastructure:
+  fixed_layer_count: 6
+observation_unit:
+  expression: "software_object × infrastructure_layer × observation_timepoint"
+  object_layer_units_per_timepoint: 60
+analysis:
+  inferential_statistics: false
+  imputation: false
+  composite_global_score: false
+evidence:
+  absence_requires_contract_support: true
+  preserve_incomplete_states: true
+  historical_baseline_is_fixed: true
+governance:
+  amendments_must_be_logged: true
+  deviations_must_be_logged: true
+  exploratory_work_must_be_labeled: true
+  operational_specifications_require_provenance: true
