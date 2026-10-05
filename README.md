@@ -1,5 +1,6 @@
 # research-software-identity-audit
 
+[![DOI](https://zenodo.org/badge/1405944227.svg)](https://doi.org/10.5281/zenodo.23166490)
 
 > Research infrastructure for a prospective longitudinal audit of research software identity propagation across open scholarly infrastructures.
 
@@ -779,11 +780,16 @@ Prospective observations are kept distinct from the historical baseline.
 
 # Citation
 
-The preregistered research plan can currently be cited as:
+The frozen preregistered research plan can be cited as:
 
 > Jiang, X. (2026, October 5). *Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures*. OSF. https://doi.org/10.17605/OSF.IO/5B329
 
-A repository-specific citation record will be maintained in `CITATION.cff` once the research repository itself reaches a citable release state.
+The research software infrastructure is also archived and citable through Zenodo:
+
+- **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.23166490
+- **Archived `beta` release DOI:** https://doi.org/10.5281/zenodo.23166491
+
+Machine-readable citation metadata is maintained in `CITATION.cff`, `codemeta.json`, and `.zenodo.json`. See `scholarly/CITATION.md` for identifier-specific citation guidance.
 
 ---
 
@@ -820,6 +826,14 @@ https://doi.org/10.17605/OSF.IO/5B329
 ### Associated OSF Project
 
 https://osf.io/wa5v8
+
+### Zenodo — all versions
+
+https://doi.org/10.5281/zenodo.23166490
+
+### Zenodo — beta release
+
+https://doi.org/10.5281/zenodo.23166491
 
 ### ORCID
 
