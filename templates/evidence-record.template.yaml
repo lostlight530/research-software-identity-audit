@@ -1,0 +1,29 @@
+schema_version: "1.0"
+evidence_id: "__EVIDENCE_ID__"
+observation_id: "__OBSERVATION_ID__"
+
+capture:
+  captured_at: "__ISO8601_TIMESTAMP__"
+  source_system: "__SOURCE_SYSTEM__"
+  source_locator: "__URL_ENDPOINT_OR_RECORD_ID__"
+  retrieval_method: "__WEB_API_EXPORT_OR_OTHER__"
+  retrieved_by: "__HUMAN_TOOL_OR_AUTOMATION__"
+
+response:
+  access_state: "__SUCCESS_RATE_LIMITED_FAILED_PARTIAL_OR_OTHER__"
+  http_status: null
+  pagination_complete: null
+  raw_response_preserved: null
+
+artifact:
+  path_or_uri: "__EVIDENCE_ARTIFACT_PATH_OR_URI__"
+  media_type: "__MEDIA_TYPE__"
+  digest_algorithm: null
+  digest_value: null
+
+epistemic_boundary:
+  historical_capture: null
+  live_state_at_capture_only: true
+  absence_supported_by_contract: false
+
+notes: "__NOTES__"
