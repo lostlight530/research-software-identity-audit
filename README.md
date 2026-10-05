@@ -552,6 +552,9 @@ The repository is expected to evolve around the following structure:
 ├── README.md
 ├── CITATION.cff
 ├── codemeta.json
+├── .zenodo.json
+├── .github/
+│   └── PULL_REQUEST_TEMPLATE.md
 │
 ├── contract/
 │   ├── preregistration.md
@@ -580,10 +583,27 @@ The repository is expected to evolve around the following structure:
 ├── analysis/
 │   └── README.md
 │
-├── tools/
+├── provenance/
 │   └── README.md
 │
-├── provenance/
+├── scholarly/
+│   ├── README.md
+│   ├── CITATION.md
+│   └── identifiers.yaml
+│
+├── templates/
+│   ├── observation-record.template.json
+│   ├── evidence-record.template.yaml
+│   ├── observation-batch.template.yaml
+│   ├── schedule-declaration.template.yaml
+│   ├── provenance-record.template.yaml
+│   ├── correction-event.template.yaml
+│   ├── analysis-manifest.template.yaml
+│   ├── amendment.template.md
+│   ├── deviation.template.md
+│   └── release-checklist.template.md
+│
+├── tools/
 │   └── README.md
 │
 ├── AMENDMENTS.md
