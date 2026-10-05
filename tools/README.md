@@ -9,7 +9,11 @@ Tooling must not silently change research semantics.
 Run:
 
 ```bash
-python tools/check.py
+# bootstrap/default: report findings without blocking work
+python tools/check.py --mode advisory
+
+# explicit enforcement when you intentionally want a hard gate
+python tools/check.py --mode strict
 ```
 
 The checker is dependency-free and currently verifies:
@@ -27,7 +31,7 @@ The checker is dependency-free and currently verifies:
 - live Zenodo counters cannot be backdated;
 - the public-data handling policy retains its key exclusions.
 
-GitHub Actions runs the checker on pull requests and pushes to `main`.
+GitHub Actions currently runs the checker in **advisory mode** on pull requests and pushes to `main`. Contract findings are surfaced as warnings but do not block ordinary repository work during bootstrap/baseline reconciliation. Strict mode is opt-in and should only become the default gate after the baseline/schema have stabilized.
 
 ## General tooling responsibilities
 
