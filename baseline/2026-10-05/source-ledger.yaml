@@ -1,0 +1,27 @@
+schema_version: "1.0"
+reconciliation_record: "raw-reconciliation-record-2026-10-06.md"
+generated_by: "Codex"
+collection_time_approx: "2026-10-06T00:33:54+08:00"
+timezone: "Asia/Shanghai"
+
+source_classes:
+  public_api_verified:
+    - "DataCite fixed-corpus DOI query"
+    - "DataCite OSF registration DOI"
+    - "DataCite research-control repository concept/version DOI"
+    - "ORCID public Works API"
+    - "OpenAlex fixed-corpus Works and author endpoints"
+    - "OpenAIRE per-DOI research product queries"
+    - "Zenodo public record APIs"
+    - "GitHub public repository metadata"
+  user_supplied_public_pages_supported_by_api:
+    - "OpenAlex website work count and filters"
+  historical_frozen_evidence:
+    - "2026-10-03 and 2026-10-04 Software Heritage verification scope"
+    - "fixed-corpus release, DataCite registration, and ORCID notification timelines"
+    - "2026-10-05 manuscript and unified supplementary evidence"
+
+provenance_rules:
+  - "Public API response observed after cutoff is timestamped at retrieval and is not silently backdated."
+  - "Historical claims require a timestamp-bearing record, frozen evidence, or a contract-supported historical field."
+  - "Raw source records are not overwritten by later reconciliation."
