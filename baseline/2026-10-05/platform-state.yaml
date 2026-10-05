@@ -1,0 +1,66 @@
+schema_version: "1.0"
+reconciled_at_approx: "2026-10-06T00:33:54+08:00"
+timezone: "Asia/Shanghai"
+
+fixed_corpus:
+  github:
+    layer: source_repository
+    summary: "ten public repositories"
+  zenodo:
+    layer: archival_repository
+    concept_dois: 10
+    version_dois: 30
+    latest_version_release_date: "2026-10-04"
+  datacite:
+    layer: identifier_registration
+    fixed_corpus_dois_found: 40
+  orcid:
+    layer: author_registry
+    fixed_corpus_work_groups: 10
+    fixed_corpus_source_summaries: 52
+    total_work_groups_visible: 12
+    total_source_summaries_visible: 54
+  software_heritage:
+    layer: preservation_archive
+    october_latest_content_identity: "NOT_VERIFIED"
+    fully_reverified_objects: 2
+    partially_reverified_objects: 1
+    rate_limited_then_stopped_objects: 2
+    unqueried_objects: 5
+  openaire:
+    layer: discovery_graph
+    latest_versions_found: 10
+    latest_version_type: "software"
+    latest_version_state: "UNDER_CURATION"
+  openalex:
+    layer: discovery_graph
+    fixed_corpus_works_found: 40
+    latest_versions_found: 10
+    works_endpoint_count: 40
+    website_work_count: 40
+    author_entity_works_count: 30
+    author_entity_updated_date: "2026-10-01T12:39:15"
+    interpretation: "author summary field lag; not evidence that the ten latest works are missing"
+
+peripheral_research_objects:
+  osf_registration:
+    doi: "10.17605/OSF.IO/5B329"
+    fixed_corpus_member: false
+    observed:
+      osf: "public"
+      datacite: "registered"
+      orcid: "independent work group observed"
+      internet_archive: "public copy observed"
+      openaire: "0 results in reconciliation query"
+      openalex: "DOI query 404 in reconciliation query"
+  research_control_repository:
+    concept_doi: "10.5281/zenodo.23166490"
+    beta_version_doi: "10.5281/zenodo.23166491"
+    fixed_corpus_member: false
+    observed:
+      github: "public"
+      zenodo: "published"
+      datacite: "concept and beta version registered"
+      openaire: "beta version found; software; UNDER_CURATION"
+      orcid: "software work group sourced from OpenAIRE"
+      openalex: "beta DOI query 404 in reconciliation query"

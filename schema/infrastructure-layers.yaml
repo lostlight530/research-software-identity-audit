@@ -21,3 +21,8 @@ layers:
 principle:
   equivalent_guarantees_across_layers: false
   interpret_each_layer_by_its_observable_contract: true
+
+operational_granularity:
+  platform_mapping_ref: "schema/platforms.yaml"
+  multiple_platforms_may_map_to_one_layer: true
+  platform_count_changes_preregistered_layer_count: false
