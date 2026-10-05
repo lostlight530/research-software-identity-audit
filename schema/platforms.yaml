@@ -1,0 +1,43 @@
+schema_version: "1.0"
+
+purpose: >
+  Operational platform vocabulary used to collect evidence at finer granularity
+  than the six preregistered infrastructure layers. Platform distinctions do not
+  change the frozen six-layer research contract or the 60 object-layer units per
+  scheduled observation point.
+
+platforms:
+  - id: github
+    label: "GitHub"
+    infrastructure_layer: source_repository
+  - id: zenodo
+    label: "Zenodo"
+    infrastructure_layer: archival_repository
+  - id: datacite
+    label: "DataCite"
+    infrastructure_layer: identifier_registration
+  - id: orcid
+    label: "ORCID"
+    infrastructure_layer: author_registry
+  - id: software_heritage
+    label: "Software Heritage"
+    infrastructure_layer: preservation_archive
+  - id: openaire
+    label: "OpenAIRE"
+    infrastructure_layer: discovery_graph
+  - id: openalex
+    label: "OpenAlex"
+    infrastructure_layer: discovery_graph
+
+counting:
+  preregistered_layer_count: 6
+  fixed_object_count: 10
+  preregistered_object_layer_units_per_timepoint: 60
+  operational_platform_count: 7
+  operational_platform_checks_if_all_queried: 70
+  platform_checks_replace_preregistered_denominator: false
+
+interpretation:
+  - "OpenAIRE and OpenAlex are recorded separately because they expose distinct records, states, clocks, and failure modes."
+  - "Multiple platforms may instantiate one preregistered infrastructure layer."
+  - "Platform-level observations may support one layer-level interpretation, but platform counts must not be relabeled as preregistered object-layer units."
