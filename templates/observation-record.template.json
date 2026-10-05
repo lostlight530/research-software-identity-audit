@@ -1,0 +1,29 @@
+{
+  "observation_id": "EXAMPLE-DO-NOT-ANALYZE",
+  "object_id": "RS01",
+  "infrastructure_layer": "source_repository",
+  "observation_timepoint": "TEMPLATE_ONLY",
+  "release_event_timestamp": null,
+  "retrieval_timestamp": "2026-10-05T00:00:00Z",
+  "attempt_status": "completed",
+  "observation_state": "observed",
+  "failure_reason": null,
+  "platform_response": null,
+  "pagination_complete": null,
+  "identifier_type": null,
+  "identifier_value": null,
+  "family_identifier": null,
+  "version_identifier": null,
+  "creator_identifier": null,
+  "source_attribution": null,
+  "verification_mechanism": null,
+  "aggregation_state": null,
+  "discovery_state": null,
+  "preservation_state": null,
+  "correction_event": false,
+  "amendment_ref": null,
+  "evidence_refs": [
+    "evidence/EXAMPLE-DO-NOT-USE"
+  ],
+  "notes": "Template only. Copy, assign a real observation ID and timestamps, and replace all example values before operational use."
+}

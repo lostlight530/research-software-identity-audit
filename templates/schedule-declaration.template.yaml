@@ -1,0 +1,29 @@
+schema_version: "1.0"
+schedule_id: "__SCHEDULE_ID__"
+declared_at: "__ISO8601_TIMESTAMP__"
+declared_by: "Xuanyi Jiang"
+status: "__PROPOSED_OR_ACTIVE__"
+
+authority:
+  preregistration_doi: "10.17605/OSF.IO/5B329"
+  classification: "operational_specification"
+  note: "Concrete offsets declared here are operational specifications unless independently evidenced in the frozen registration."
+
+trigger:
+  event: "first_eligible_post_registration_software_release"
+  eligibility_rule_ref: "contract/preregistration.md"
+
+timepoints:
+  - id: "__TIMEPOINT_ID__"
+    offset_or_rule: "__OFFSET_OR_OPERATIONAL_RULE__"
+    tolerance: "__OPTIONAL_TOLERANCE__"
+
+scope:
+  object_manifest: "corpus/object-manifest.csv"
+  infrastructure_layers: "schema/infrastructure-layers.yaml"
+  planned_units_per_timepoint: 60
+
+change_control:
+  amendments_log: "AMENDMENTS.md"
+  deviations_log: "DEVIATIONS.md"
+  previous_schedule: null

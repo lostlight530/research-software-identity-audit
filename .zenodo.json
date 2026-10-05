@@ -1,0 +1,30 @@
+{
+  "title": "Research Software Identity Audit",
+  "upload_type": "software",
+  "description": "Operational, evidence, provenance, and reproducibility infrastructure for the OSF-preregistered longitudinal audit of research software identity propagation across open scholarly infrastructures. This repository supports the study and is not an eleventh research-software object in the fixed ten-object corpus.",
+  "creators": [
+    {
+      "name": "Jiang, Xuanyi",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0001-3617-0832"
+    }
+  ],
+  "keywords": [
+    "research software",
+    "scholarly infrastructure",
+    "reproducible research",
+    "software preservation",
+    "open science"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.17605/OSF.IO/5B329",
+      "relation": "isSupplementTo"
+    },
+    {
+      "identifier": "https://osf.io/wa5v8",
+      "relation": "isSupplementTo"
+    }
+  ],
+  "notes": "The OSF registration is the frozen research contract. GitHub and Zenodo provide the live implementation and archival/citation surfaces for this research infrastructure."
+}

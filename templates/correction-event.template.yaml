@@ -1,0 +1,31 @@
+schema_version: "1.0"
+correction_id: "__CORRECTION_ID__"
+recorded_at: "__ISO8601_TIMESTAMP__"
+effective_at: "__ISO8601_TIMESTAMP_OR_UNKNOWN__"
+
+target:
+  object_id: "__RS01_TO_RS10__"
+  infrastructure_layer: "__LAYER_ID__"
+  observation_id: "__OBSERVATION_ID__"
+
+previous_state:
+  observation_state: "__PREVIOUS_STATE__"
+  evidence_refs: []
+
+new_state:
+  observation_state: "__NEW_STATE__"
+  evidence_refs: []
+
+cause:
+  category: "__METADATA_PLATFORM_DISCOVERY_ATTRIBUTION_IDENTIFIER_OR_OTHER__"
+  description: "__WHAT_CHANGED__"
+  actor_or_source: "__IF_KNOWN__"
+
+interpretation:
+  historical_record_preserved: true
+  changes_prior_conclusion: null
+  impact: "__NONE_BOUNDED_MATERIAL_OR_UNRESOLVED__"
+
+related:
+  amendment_ref: null
+  deviation_ref: null
