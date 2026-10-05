@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lostlight530/research-software-identity-audit/blob/main/schema/observation.schema.json",
+  "title": "Research Software Identity Audit Observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "observation_id",
+    "object_id",
+    "infrastructure_layer",
+    "observation_timepoint",
+    "retrieval_timestamp",
+    "attempt_status",
+    "observation_state",
+    "evidence_refs"
+  ],
+  "properties": {
+    "observation_id": {"type": "string", "minLength": 1},
+    "object_id": {"type": "string", "pattern": "^RS(0[1-9]|10)$"},
+    "infrastructure_layer": {
+      "type": "string",
+      "enum": [
+        "source_repository",
+        "archival_repository",
+        "identifier_registration",
+        "author_registry",
+        "preservation_archive",
+        "discovery_graph"
+      ]
+    },
+    "observation_timepoint": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Operational schedule label; provenance is maintained separately from the frozen registration."
+    },
+    "release_event_timestamp": {"type": ["string", "null"], "format": "date-time"},
+    "retrieval_timestamp": {"type": "string", "format": "date-time"},
+    "attempt_status": {"type": "string", "enum": ["completed", "failed"]},
+    "observation_state": {
+      "type": "string",
+      "enum": ["observed", "not_found", "rate_limited", "unresolved", "partially_verified", "fully_verified"]
+    },
+    "failure_reason": {"type": ["string", "null"]},
+    "platform_response": {"type": ["string", "integer", "null"]},
+    "pagination_complete": {"type": ["boolean", "null"]},
+    "identifier_type": {"type": ["string", "null"]},
+    "identifier_value": {"type": ["string", "null"]},
+    "family_identifier": {"type": ["string", "null"]},
+    "version_identifier": {"type": ["string", "null"]},
+    "creator_identifier": {"type": ["string", "null"]},
+    "source_attribution": {"type": ["string", "null"]},
+    "verification_mechanism": {"type": ["string", "null"]},
+    "aggregation_state": {"type": ["string", "null"]},
+    "discovery_state": {"type": ["string", "null"]},
+    "preservation_state": {"type": ["string", "null"]},
+    "correction_event": {"type": ["boolean", "null"]},
+    "amendment_ref": {"type": ["string", "null"]},
+    "evidence_refs": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "notes": {"type": ["string", "null"]}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"attempt_status": {"const": "failed"}}},
+      "then": {"required": ["failure_reason"]}
+    }
+  ]
+}
