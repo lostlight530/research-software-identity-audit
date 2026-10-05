@@ -8,6 +8,7 @@
     "observation_id",
     "object_id",
     "infrastructure_layer",
+    "platform",
     "observation_timepoint",
     "retrieval_timestamp",
     "attempt_status",
@@ -15,8 +16,14 @@
     "evidence_refs"
   ],
   "properties": {
-    "observation_id": {"type": "string", "minLength": 1},
-    "object_id": {"type": "string", "pattern": "^RS(0[1-9]|10)$"},
+    "observation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "object_id": {
+      "type": "string",
+      "pattern": "^RS(0[1-9]|10)$"
+    },
     "infrastructure_layer": {
       "type": "string",
       "enum": [
@@ -33,48 +40,195 @@
       "minLength": 1,
       "description": "Operational schedule label; provenance is maintained separately from the frozen registration."
     },
-    "release_event_timestamp": {"type": ["string", "null"], "format": "date-time"},
-    "retrieval_timestamp": {"type": "string", "format": "date-time"},
-    "attempt_status": {"type": "string", "enum": ["completed", "failed"]},
+    "release_event_timestamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "retrieval_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "attempt_status": {
+      "type": "string",
+      "enum": [
+        "completed",
+        "failed"
+      ]
+    },
     "observation_state": {
       "type": "string",
-      "enum": ["observed", "not_found", "rate_limited", "unresolved", "partially_verified", "fully_verified"]
+      "enum": [
+        "observed",
+        "not_found",
+        "rate_limited",
+        "unresolved",
+        "partially_verified",
+        "fully_verified"
+      ]
     },
-    "failure_reason": {"type": ["string", "null"]},
-    "platform_response": {"type": ["string", "integer", "null"]},
-    "pagination_complete": {"type": ["boolean", "null"]},
-    "identifier_type": {"type": ["string", "null"]},
-    "identifier_value": {"type": ["string", "null"]},
-    "family_identifier": {"type": ["string", "null"]},
-    "version_identifier": {"type": ["string", "null"]},
-    "creator_identifier": {"type": ["string", "null"]},
-    "source_attribution": {"type": ["string", "null"]},
-    "verification_mechanism": {"type": ["string", "null"]},
-    "aggregation_state": {"type": ["string", "null"]},
-    "discovery_state": {"type": ["string", "null"]},
-    "preservation_state": {"type": ["string", "null"]},
-    "correction_event": {"type": ["boolean", "null"]},
-    "amendment_ref": {"type": ["string", "null"]},
+    "failure_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "platform_response": {
+      "type": [
+        "string",
+        "integer",
+        "null"
+      ]
+    },
+    "pagination_complete": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "identifier_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "identifier_value": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "family_identifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version_identifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "creator_identifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_attribution": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verification_mechanism": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "aggregation_state": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "discovery_state": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "preservation_state": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "correction_event": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "amendment_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
     "evidence_refs": {
       "type": "array",
       "minItems": 1,
-      "items": {"type": "string", "minLength": 1}
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     },
-    "notes": {"type": ["string", "null"]}
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "github",
+        "zenodo",
+        "datacite",
+        "orcid",
+        "software_heritage",
+        "openaire",
+        "openalex"
+      ],
+      "description": "Concrete operational platform. See schema/platforms.yaml. Multiple platforms may map to one preregistered infrastructure layer."
+    },
+    "dataset_phase": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "historical_baseline",
+        "prospective",
+        null
+      ],
+      "description": "Optional explicit period label. Baseline records remain outside the prospective dataset."
+    },
+    "retrospective_reconstruction": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "True when a historical state is reconstructed after the relevant historical time rather than captured contemporaneously."
+    }
   },
   "allOf": [
     {
       "if": {
         "properties": {
-          "attempt_status": {"const": "failed"}
+          "attempt_status": {
+            "const": "failed"
+          }
         },
-        "required": ["attempt_status"]
+        "required": [
+          "attempt_status"
+        ]
       },
       "then": {
         "properties": {
-          "failure_reason": {"type": "string", "minLength": 1}
+          "failure_reason": {
+            "type": "string",
+            "minLength": 1
+          }
         },
-        "required": ["failure_reason"]
+        "required": [
+          "failure_reason"
+        ]
       }
     }
   ]
