@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this research software infrastructure, please cite the archived software release and the preregistered study as appropriate."
+title: "Research Software Identity Audit"
+type: software
+authors:
+  - family-names: "Jiang"
+    given-names: "Xuanyi"
+    orcid: "https://orcid.org/0009-0001-3617-0832"
+    affiliation: "Independent Researcher"
+version: "beta"
+doi: "10.5281/zenodo.23166491"
+date-released: 2026-10-05
+repository-code: "https://github.com/lostlight530/research-software-identity-audit"
+url: "https://doi.org/10.5281/zenodo.23166490"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23166490"
+    description: "Zenodo concept DOI for all versions of this repository"
+  - type: doi
+    value: "10.17605/OSF.IO/5B329"
+    description: "DOI of the frozen OSF preregistration governing the study"
+keywords:
+  - "research software"
+  - "scholarly infrastructure"
+  - "reproducible research"
+  - "software preservation"
+  - "open science"
+abstract: >-
+  Operational, evidence, provenance, and reproducibility infrastructure for the
+  preregistered longitudinal audit of research software identity propagation
+  across open scholarly infrastructures. This repository is research
+  infrastructure and is not an eleventh object in the fixed ten-object study
+  corpus.
