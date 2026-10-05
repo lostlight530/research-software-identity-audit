@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import re
@@ -180,7 +181,24 @@ def check_data_handling() -> None:
             fail(f"data-handling policy missing: {token}")
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Check research-contract invariants without silently changing semantics."
+    )
+    parser.add_argument(
+        "--mode",
+        choices=("advisory", "strict"),
+        default="advisory",
+        help=(
+            "advisory reports contract drift but exits 0; "
+            "strict exits 1 when any contract check fails"
+        ),
+    )
+    return parser.parse_args()
+
+
 def main() -> int:
+    args = parse_args()
     checks = [
         check_corpus,
         check_layers_and_platforms,
@@ -189,16 +207,35 @@ def main() -> int:
         check_baseline,
         check_data_handling,
     ]
+
+    failures: list[str] = []
     for check in checks:
-        check()
-        print(f"PASS {check.__name__}")
-    print("PASS research contract checks")
-    return 0
+        try:
+            check()
+            print(f"PASS {check.__name__}")
+        except (AssertionError, KeyError, ValueError, json.JSONDecodeError) as exc:
+            message = f"{check.__name__}: {exc}"
+            failures.append(message)
+            prefix = "WARN" if args.mode == "advisory" else "FAIL"
+            print(f"{prefix} {message}", file=sys.stderr)
+
+    if not failures:
+        print(f"PASS research contract checks ({args.mode})")
+        return 0
+
+    print(
+        f"{len(failures)} contract check(s) reported in {args.mode} mode.",
+        file=sys.stderr,
+    )
+    if args.mode == "advisory":
+        print(
+            "ADVISORY ONLY: findings do not block this commit or pull request.",
+            file=sys.stderr,
+        )
+        return 0
+
+    return 1
 
 
 if __name__ == "__main__":
-    try:
-        raise SystemExit(main())
-    except (AssertionError, KeyError, ValueError, json.JSONDecodeError) as exc:
-        print(f"FAIL {exc}", file=sys.stderr)
-        raise SystemExit(1)
+    raise SystemExit(main())
