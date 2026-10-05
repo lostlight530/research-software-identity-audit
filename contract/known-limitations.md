@@ -25,3 +25,7 @@ Repository releases, DOI registration, author-registry ingestion, preservation, 
 Rate limits, pagination, platform errors, and endpoint availability can prevent complete retrieval.
 
 **Handling:** preserve the attempt and reason; do not drop the cell or infer absence.
+
+## KL-005 — Analytical layers and operational platforms differ
+
+The frozen research contract defines six scholarly-infrastructure layers. Operational evidence collection may use multiple concrete platforms within one layer. In the current mapping, OpenAIRE and OpenAlex are separate platforms under the single preregistered `discovery_graph` layer. Platform-level checks improve observability but do not change the six-layer contract or the 60 object-layer units per scheduled timepoint.
