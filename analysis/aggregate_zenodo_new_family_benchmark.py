@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Aggregate independently retrieved Zenodo newborn-family benchmark shards."""
+"""Aggregate Zenodo evidence shards into an age-matched primary benchmark.
+
+The primary cohort matches the targets by first publication date. The wider
+retrieval window is retained only as secondary context. Cohort membership is
+frozen by the shared created cutoff; stats.views remains a live platform metric
+observed across a bounded retrieval interval rather than one exact instant.
+"""
 
 from __future__ import annotations
 
@@ -44,11 +50,56 @@ def gini(values):
     return (2 * sum((i + 1) * x for i, x in enumerate(xs)) / (n * total)) - (n + 1) / n
 
 
+def rank_rows(rows):
+    ranked = [dict(row) for row in rows]
+    ranked.sort(key=lambda x: (-x["views"], x["family_id"]))
+    n = len(ranked)
+    if n == 0:
+        raise RuntimeError("cannot rank an empty cohort")
+    values = [x["views"] for x in ranked]
+    for item in ranked:
+        v = item["views"]
+        greater = sum(1 for x in values if x > v)
+        equal = sum(1 for x in values if x == v)
+        item["rank_min"] = greater + 1
+        item["rank_max"] = greater + equal
+        item["tie_count"] = equal
+        item["percentile_from_rank_min"] = round(100 * (n - item["rank_min"] + 1) / n, 4)
+        item["percentile_from_rank_max"] = round(100 * (n - item["rank_max"] + 1) / n, 4)
+        item["top_fraction_percent_from_rank_min"] = round(100 * item["rank_min"] / n, 4)
+        item["top_fraction_percent_from_rank_max"] = round(100 * item["rank_max"] / n, 4)
+    return ranked
+
+
+def cohort_stats(ranked):
+    values = [x["views"] for x in ranked]
+    return {
+        "concept_family_count": len(ranked),
+        "median_views": statistics.median(values),
+        "p75_views_linear": quantile_linear(values, 0.75),
+        "p90_views_linear": quantile_linear(values, 0.90),
+        "p95_views_linear": quantile_linear(values, 0.95),
+        "min_views": min(values),
+        "max_views": max(values),
+    }
+
+
+def compact_neighbor(item):
+    return {
+        "family_id": item["family_id"],
+        "title": item["title"],
+        "views": item["views"],
+        "rank_min": item["rank_min"],
+        "rank_max": item["rank_max"],
+    }
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", required=True)
     ap.add_argument("--targets", default="baseline/2026-10-05/doi-map.csv")
     ap.add_argument("--output", default="benchmark-output")
+    ap.add_argument("--primary-birth-date")
     args = ap.parse_args()
 
     root = Path(args.input)
@@ -93,22 +144,8 @@ def main():
                 else:
                     by_family[fid] = normalized
 
-    cohort = list(by_family.values())
-    cohort.sort(key=lambda x: (-x["views"], x["family_id"]))
+    cohort = rank_rows(list(by_family.values()))
     n = len(cohort)
-    if n == 0:
-        raise RuntimeError("aggregated cohort is empty")
-
-    views = [x["views"] for x in cohort]
-    for item in cohort:
-        v = item["views"]
-        greater = sum(1 for x in views if x > v)
-        equal = sum(1 for x in views if x == v)
-        item["rank_min"] = greater + 1
-        item["rank_max"] = greater + equal
-        item["tie_count"] = equal
-        item["percentile_from_rank_min"] = round(100 * (n - item["rank_min"] + 1) / n, 4)
-        item["top_fraction_percent"] = round(100 * item["rank_min"] / n, 4)
 
     with open(args.targets, newline="", encoding="utf-8") as fh:
         target_manifest = list(csv.DictReader(fh))
@@ -116,25 +153,58 @@ def main():
     cohort_by_concept = {x["concept_doi"]: x for x in cohort}
     missing = sorted(set(target_concepts) - set(cohort_by_concept))
     if missing:
-        raise RuntimeError(f"target family missing from exact cohort: {missing}")
+        raise RuntimeError(f"target family missing from retrieval window: {missing}")
+
+    target_birth_dates = sorted({
+        cohort_by_concept[concept]["first_publication_date"] for concept in target_concepts
+    })
+    if args.primary_birth_date:
+        primary_birth_date = args.primary_birth_date
+        mismatched = sorted(
+            concept for concept in target_concepts
+            if cohort_by_concept[concept]["first_publication_date"] != primary_birth_date
+        )
+        if mismatched:
+            raise RuntimeError(
+                f"targets do not all match primary birth date {primary_birth_date}: {mismatched}"
+            )
+    else:
+        if len(target_birth_dates) != 1:
+            raise RuntimeError(
+                "targets do not share one first publication date; define a justified "
+                "--primary-birth-date before ranking"
+            )
+        primary_birth_date = target_birth_dates[0]
+
+    primary = rank_rows([
+        row for row in cohort if row["first_publication_date"] == primary_birth_date
+    ])
+    primary_by_concept = {x["concept_doi"]: x for x in primary}
+    missing_primary = sorted(set(target_concepts) - set(primary_by_concept))
+    if missing_primary:
+        raise RuntimeError(
+            f"target family missing from age-matched primary cohort: {missing_primary}"
+        )
 
     targets = []
     for concept, manifest in target_concepts.items():
-        match = cohort_by_concept[concept]
-        idx = cohort.index(match)
+        match = primary_by_concept[concept]
+        window_match = cohort_by_concept[concept]
+        idx = primary.index(match)
         targets.append({
             "object_id": manifest["object_id"],
             "repository": manifest["repository"],
             "concept_doi": manifest["concept_doi"],
             "match": match,
-            "nearest_above": [
-                {"family_id": x["family_id"], "title": x["title"], "views": x["views"], "rank_min": x["rank_min"]}
-                for x in cohort[max(0, idx - 5):idx]
-            ],
-            "nearest_below": [
-                {"family_id": x["family_id"], "title": x["title"], "views": x["views"], "rank_min": x["rank_min"]}
-                for x in cohort[idx + 1:idx + 6]
-            ],
+            "nearest_above": [compact_neighbor(x) for x in primary[max(0, idx - 5):idx]],
+            "nearest_below": [compact_neighbor(x) for x in primary[idx + 1:idx + 6]],
+            "secondary_window_rank": {
+                "rank_min": window_match["rank_min"],
+                "rank_max": window_match["rank_max"],
+                "tie_count": window_match["tie_count"],
+                "percentile_from_rank_min": window_match["percentile_from_rank_min"],
+                "percentile_from_rank_max": window_match["percentile_from_rank_max"],
+            },
         })
 
     targets.sort(key=lambda t: t["object_id"])
@@ -142,7 +212,8 @@ def main():
     target_total = sum(target_views)
     shares = [v / target_total for v in target_views] if target_total else [0.0] * len(target_views)
     hhi = sum(s * s for s in shares)
-    cohort_median = statistics.median(views)
+    primary_stats = cohort_stats(primary)
+    window_stats = cohort_stats(cohort)
 
     shard_summaries = []
     unstable_shards = []
