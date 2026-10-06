@@ -218,10 +218,19 @@ def main():
     shard_summaries = []
     unstable_shards = []
     raw_page_count = 0
+    cutoffs = set()
+    retrieval_starts = []
+    retrieval_finishes = []
     for path in summary_files:
         data = json.loads(path.read_text(encoding="utf-8"))
         shard_summaries.append(data)
         raw_page_count += len(data.get("raw_evidence") or [])
+        if data.get("created_cutoff"):
+            cutoffs.add(data["created_cutoff"])
+        if data.get("run_started_utc"):
+            retrieval_starts.append(data["run_started_utc"])
+        if data.get("run_finished_utc"):
+            retrieval_finishes.append(data["run_finished_utc"])
         for shard in data.get("shards") or []:
             if shard.get("total_changed_during_shard"):
                 unstable_shards.append(shard)
@@ -233,47 +242,62 @@ def main():
         )
         raise RuntimeError(
             f"{len(unstable_shards)} date shards changed hit totals during retrieval; "
-            "rerun before claiming an exact cohort"
+            "rerun before reporting the benchmark"
+        )
+    if len(cutoffs) != 1:
+        raise RuntimeError(
+            f"expected one shared created cutoff across shards, observed: {sorted(cutoffs)}"
         )
 
     summary = {
-        "benchmark_class": "exploratory_new_zenodo_software_family",
+        "benchmark_class": "exploratory_age_matched_zenodo_software_family",
         "prospective_dataset_member": False,
         "aggregated_at_utc": datetime.now(timezone.utc).isoformat(),
         "cohort_contract": {
             "resource_type": "software",
-            "first_publication_date_start": "2026-09-16",
-            "first_publication_date_end": "2026-10-06",
             "unit": "concept_family",
             "eligibility": "metadata.relations.version.index == 0 after all_versions retrieval",
+            "primary_match_rule": "first_publication_date equals the shared target first_publication_date",
+            "primary_birth_date": primary_birth_date,
+            "secondary_window_start": min(x["first_publication_date"] for x in cohort),
+            "secondary_window_end": max(x["first_publication_date"] for x in cohort),
             "ranking_metric": "stats.views (family cumulative)",
             "version_local_control": "stats.version_views",
+            "membership_created_cutoff_utc": next(iter(cutoffs)),
+        },
+        "metric_snapshot_semantics": (
+            "Cohort membership is frozen by the shared created cutoff. stats.views is a live "
+            "platform statistic observed across the shard retrieval interval; ranks are bounded "
+            "observed-snapshot ranks, not a reconstruction of one exact event-time instant."
+        ),
+        "retrieval_window_utc": {
+            "start": min(retrieval_starts) if retrieval_starts else None,
+            "end": max(retrieval_finishes) if retrieval_finishes else None,
         },
         "retrieval_strategy": "7 parallel date-range shards; daily publication-date queries; all_versions=true; client-side index==0",
         "shard_artifact_count": len(cohort_files),
         "raw_page_count": raw_page_count,
-        "exact_concept_family_count": n,
         "duplicate_cross_shard_count": len(duplicate_cross_shard),
         "duplicates": duplicate_cross_shard,
-        "cohort": {
-            "median_views": cohort_median,
-            "p75_views_linear": quantile_linear(views, 0.75),
-            "p90_views_linear": quantile_linear(views, 0.90),
-            "p95_views_linear": quantile_linear(views, 0.95),
-            "min_views": min(views),
-            "max_views": max(views),
-        },
+        "primary_cohort": primary_stats,
+        "secondary_window_cohort": window_stats,
         "targets": targets,
         "target_portfolio": {
             "views_total": target_total,
             "median_views": statistics.median(target_views),
             "min_views": min(target_views),
             "max_views": max(target_views),
-            "median_vs_cohort_median_multiplier": (
-                statistics.median(target_views) / cohort_median if cohort_median else None
+            "median_vs_primary_cohort_median_multiplier": (
+                statistics.median(target_views) / primary_stats["median_views"]
+                if primary_stats["median_views"] else None
             ),
-            "floor_vs_cohort_median_multiplier": (
-                min(target_views) / cohort_median if cohort_median else None
+            "floor_vs_primary_cohort_median_multiplier": (
+                min(target_views) / primary_stats["median_views"]
+                if primary_stats["median_views"] else None
+            ),
+            "median_vs_secondary_window_median_multiplier": (
+                statistics.median(target_views) / window_stats["median_views"]
+                if window_stats["median_views"] else None
             ),
             "hhi": hhi,
             "effective_repository_count": (1 / hhi) if hhi else None,
@@ -294,7 +318,12 @@ def main():
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    with (out / "cohort.csv").open("w", newline="", encoding="utf-8") as fh:
+    with (out / "primary-cohort.csv").open("w", newline="", encoding="utf-8") as fh:
+        fields = list(primary[0].keys())
+        w = csv.DictWriter(fh, fieldnames=fields)
+        w.writeheader()
+        w.writerows(primary)
+    with (out / "window-cohort.csv").open("w", newline="", encoding="utf-8") as fh:
         fields = list(cohort[0].keys())
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
@@ -303,7 +332,9 @@ def main():
         fields = [
             "object_id", "repository", "concept_doi", "views", "unique_views",
             "rank_min", "rank_max", "tie_count", "percentile_from_rank_min",
-            "top_fraction_percent", "first_publication_date", "is_last",
+            "percentile_from_rank_max", "top_fraction_percent_from_rank_min",
+            "top_fraction_percent_from_rank_max", "first_publication_date", "is_last",
+            "secondary_window_rank_min", "secondary_window_rank_max",
         ]
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
@@ -312,6 +343,8 @@ def main():
                 "object_id": target["object_id"],
                 "repository": target["repository"],
                 "concept_doi": target["concept_doi"],
+                "secondary_window_rank_min": target["secondary_window_rank"]["rank_min"],
+                "secondary_window_rank_max": target["secondary_window_rank"]["rank_max"],
             }
             for key in fields:
                 if key not in row:
@@ -319,18 +352,27 @@ def main():
             w.writerow(row)
 
     print(json.dumps({
-        "cohort_n": n,
-        "median_views": cohort_median,
-        "p75_views": summary["cohort"]["p75_views_linear"],
-        "p90_views": summary["cohort"]["p90_views_linear"],
-        "p95_views": summary["cohort"]["p95_views_linear"],
+        "primary_birth_date": primary_birth_date,
+        "primary_cohort_n": primary_stats["concept_family_count"],
+        "primary_median_views": primary_stats["median_views"],
+        "primary_p75_views": primary_stats["p75_views_linear"],
+        "primary_p90_views": primary_stats["p90_views_linear"],
+        "primary_p95_views": primary_stats["p95_views_linear"],
+        "secondary_window_n": window_stats["concept_family_count"],
+        "secondary_window_median_views": window_stats["median_views"],
         "targets": [
             {
                 "repo": t["repository"],
                 "views": t["match"]["views"],
-                "rank": [t["match"]["rank_min"], t["match"]["rank_max"]],
-                "percentile": t["match"]["percentile_from_rank_min"],
-                "top_percent": t["match"]["top_fraction_percent"],
+                "primary_rank": [t["match"]["rank_min"], t["match"]["rank_max"]],
+                "primary_percentile_interval": [
+                    t["match"]["percentile_from_rank_max"],
+                    t["match"]["percentile_from_rank_min"],
+                ],
+                "secondary_window_rank": [
+                    t["secondary_window_rank"]["rank_min"],
+                    t["secondary_window_rank"]["rank_max"],
+                ],
             }
             for t in targets
         ],
