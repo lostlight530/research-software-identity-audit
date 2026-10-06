@@ -13,6 +13,10 @@ zenodo:
   beta_release_doi:
     value: "10.5281/zenodo.23166491"
     role: "DOI reported for the archived beta release"
+  current_release_doi:
+    value: "10.5281/zenodo.23176748"
+    role: "version DOI for v2026.10-initial-research-runtime"
+    registered_at: "2026-10-06T02:48:21Z"
   badge_image: "https://zenodo.org/badge/1405944227.svg"
   provenance: "Zenodo GitHub integration DOI/badge panel supplied for this repository on 2026-10-05"
 
@@ -39,5 +43,6 @@ release_history:
     zenodo_version_doi: "10.5281/zenodo.23166491"
   - tag: "v2026.10-initial-research-runtime"
     released: "2026-10-06"
-    zenodo_version_doi: null
-    note: "Version DOI intentionally left unset until the archive actually exists."
+    github_published_at: "2026-10-06T02:48:16Z"
+    zenodo_version_doi: "10.5281/zenodo.23176748"
+    datacite_registered_at: "2026-10-06T02:48:21Z"

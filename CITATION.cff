@@ -10,6 +10,9 @@ authors:
 repository-code: "https://github.com/lostlight530/research-software-identity-audit"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.23176748"
+    description: "Zenodo version DOI for v2026.10-initial-research-runtime"
+  - type: doi
     value: "10.5281/zenodo.23166490"
     description: "Zenodo concept DOI for all versions of this repository"
   - type: doi

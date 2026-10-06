@@ -15,3 +15,8 @@ Use this area for:
 
 Monitoring records must preserve true retrieval time and must not be relabeled
 later as preregistered prospective observations.
+
+
+Post-release reconciliation records may also be stored here when they observe
+the research-control repository or scholarly infrastructure before an eligible
+fixed-corpus release begins the prospective dataset.
