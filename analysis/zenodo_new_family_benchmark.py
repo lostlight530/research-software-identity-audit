@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Exact exploratory benchmark for newborn Zenodo Software concept families.
 
-Evidence-backed query contract for the current Zenodo Records API:
-- resource_type.type:software
-- metadata.publication_date
-- metadata.relations.version.index
-- all_versions=true so non-latest first versions remain searchable
+Evidence-backed retrieval contract for the current Zenodo Records API:
+- searchable: resource_type.type:software
+- searchable: metadata.publication_date
+- returned but not reliably searchable: metadata.relations.version.index
+- all_versions=true so non-latest first versions remain retrievable
 
-The unit is the concept family. Eligibility is version.index == 0 with first
+The unit is the concept family. Eligibility is determined client-side from
+metadata.relations.version.index == 0 after date-sharded retrieval, with first
 publication date in [start, end]. Ranking uses stats.views, which Zenodo exposes
 as family-cumulative views even on a non-latest version record; version_views
 remains the version-local counter.
@@ -170,8 +171,7 @@ def save_raw(raw_dir: Path, day: str, page: int, raw: bytes, url: str, evidence,
 def search_day(day: str, raw_dir: Path, evidence):
     query = (
         "resource_type.type:software "
-        f"AND metadata.publication_date:[{day} TO {day}] "
-        "AND metadata.relations.version.index:0"
+        f"AND metadata.publication_date:[{day} TO {day}]"
     )
     page = 1
     records = []
@@ -206,11 +206,6 @@ def search_day(day: str, raw_dir: Path, evidence):
         reported_total_last = reported
 
         for rec in hits:
-            idx = version_index(rec)
-            if idx != 0:
-                raise RuntimeError(
-                    f"query contract drift on {day}: returned version index {idx} for record {rec.get('id')}"
-                )
             if pubdate(rec) != day:
                 raise RuntimeError(
                     f"date-shard drift on {day}: record {rec.get('id')} publication_date={pubdate(rec)!r}"
@@ -277,6 +272,8 @@ def main():
         shard_summaries.append(shard)
         print(json.dumps(shard), flush=True)
         for rec in records:
+            if version_index(rec) != 0:
+                continue
             fid = family_id(rec)
             if not fid:
                 raise RuntimeError(f"first-version record without family id: {rec.get('id')}")
@@ -355,11 +352,11 @@ def main():
             "first_publication_date_start": args.start,
             "first_publication_date_end": args.end,
             "unit": "concept_family",
-            "eligibility_query": "metadata.relations.version.index:0",
+            "eligibility_query": "client-side metadata.relations.version.index == 0",
             "ranking_metric": "stats.views (family cumulative)",
             "version_local_control": "stats.version_views",
         },
-        "retrieval_strategy": "daily first-version shards with all_versions=true",
+        "retrieval_strategy": "daily publication-date shards with all_versions=true, then client-side index==0 filter",
         "exact_concept_family_count": n,
         "duplicate_family_record_count": len(duplicate_family_records),
         "duplicates": duplicate_family_records,
