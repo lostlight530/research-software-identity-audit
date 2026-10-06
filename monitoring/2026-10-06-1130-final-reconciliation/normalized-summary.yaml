@@ -91,8 +91,16 @@ epistemic_status:
 
 openaire:
   source_class: "user_supplied_public_page"
-  orcid_linked_software_result_count: 11
-  result_pages: 3
+  link_service_or_ui_count_observed: 11
+  link_service_or_ui_pages_observed: 3
+  exact_orcid_pid_search:
+    pid: "0009-0001-3617-0832"
+    research_products: 1
+    projects: 0
+    data_sources: 0
+    organizations: 0
+    source: "user_supplied_public_page"
+    matched_control_repository_beta: true
   control_repository_beta:
     observed_in_results: true
     record_type: "Research software"
@@ -101,4 +109,4 @@ openaire:
     doi: "10.5281/zenodo.23166491"
     author_display: "lostlight530"
   independent_fetch_status: "UNRESOLVED"
-  interpretation: "The 11-link OpenAIRE result count is an operational discovery count and does not expand the fixed ten-object corpus."
+  interpretation: "The earlier 11-link UI count is not treated as an ORCID PID search result count. Exact ORCID PID search reports one research product: the research-control-repository beta. Neither count expands the fixed ten-object corpus."

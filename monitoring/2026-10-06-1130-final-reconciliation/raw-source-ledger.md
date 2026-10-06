@@ -104,3 +104,24 @@ User-supplied public OpenAIRE page at the final checkpoint reports:
 This source is retained as user-supplied public-page evidence because the
 OpenAIRE page could not be independently fetched during this reconciliation.
 The reported count is therefore not promoted beyond the supplied page state.
+
+
+### OpenAIRE count clarification
+
+A later user-supplied OpenAIRE exact PID search for ORCID
+`0009-0001-3617-0832` reports:
+
+- Research products: `1`;
+- Projects: `0`;
+- Data sources: `0`;
+- Organizations: `0`;
+- Source filter: Zenodo `(1)`;
+- the sole research product is
+  `lostlight530/research-software-identity-audit: Beta— Research Runtime Bootstrap`,
+  DOI `10.5281/zenodo.23166491`.
+
+This evidence shows that the earlier displayed `11 ORCID links` / three-page
+count must not be interpreted as eleven research products returned by exact
+ORCID PID search. The original page evidence is preserved above; its count is
+reclassified as a Link-service/UI count whose exact entity semantics were not
+established in that observation.
