@@ -1,0 +1,270 @@
+#!/usr/bin/env python3
+"""Aggregate independently retrieved Zenodo newborn-family benchmark shards."""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import math
+import statistics
+from datetime import datetime, timezone
+from pathlib import Path
+
+
+def as_int(value):
+    return int(value or 0)
+
+
+def as_bool(value):
+    return str(value).lower() in {"1", "true", "yes"}
+
+
+def quantile_linear(values, q):
+    xs = sorted(values)
+    if not xs:
+        return None
+    if len(xs) == 1:
+        return float(xs[0])
+    pos = (len(xs) - 1) * q
+    lo = math.floor(pos)
+    hi = math.ceil(pos)
+    if lo == hi:
+        return float(xs[lo])
+    frac = pos - lo
+    return xs[lo] * (1 - frac) + xs[hi] * frac
+
+
+def gini(values):
+    xs = sorted(float(x) for x in values if x >= 0)
+    n = len(xs)
+    total = sum(xs)
+    if n == 0 or total == 0:
+        return 0.0
+    return (2 * sum((i + 1) * x for i, x in enumerate(xs)) / (n * total)) - (n + 1) / n
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--input", required=True)
+    ap.add_argument("--targets", default="baseline/2026-10-05/doi-map.csv")
+    ap.add_argument("--output", default="benchmark-output")
+    args = ap.parse_args()
+
+    root = Path(args.input)
+    out = Path(args.output)
+    out.mkdir(parents=True, exist_ok=True)
+
+    cohort_files = sorted(root.glob("**/cohort.csv"))
+    summary_files = sorted(root.glob("**/shard-summary.json"))
+    if not cohort_files:
+        raise RuntimeError(f"no cohort.csv shard files under {root}")
+
+    by_family = {}
+    duplicate_cross_shard = []
+    for path in cohort_files:
+        with path.open(newline="", encoding="utf-8") as fh:
+            for row in csv.DictReader(fh):
+                fid = row["family_id"]
+                normalized = {
+                    "family_id": fid,
+                    "concept_doi": row["concept_doi"].lower(),
+                    "first_record_id": row["first_record_id"],
+                    "first_version_doi": row["first_version_doi"].lower(),
+                    "first_publication_date": row["first_publication_date"],
+                    "title": row["title"],
+                    "is_last": as_bool(row["is_last"]),
+                    "views": as_int(row["views"]),
+                    "unique_views": as_int(row["unique_views"]),
+                    "downloads": as_int(row["downloads"]),
+                    "unique_downloads": as_int(row["unique_downloads"]),
+                    "version_views": as_int(row["version_views"]),
+                    "version_unique_views": as_int(row["version_unique_views"]),
+                }
+                if fid in by_family:
+                    duplicate_cross_shard.append({
+                        "family_id": fid,
+                        "first": by_family[fid]["first_record_id"],
+                        "duplicate": normalized["first_record_id"],
+                        "source": str(path),
+                    })
+                    if normalized["first_record_id"] < by_family[fid]["first_record_id"]:
+                        by_family[fid] = normalized
+                else:
+                    by_family[fid] = normalized
+
+    cohort = list(by_family.values())
+    cohort.sort(key=lambda x: (-x["views"], x["family_id"]))
+    n = len(cohort)
+    if n == 0:
+        raise RuntimeError("aggregated cohort is empty")
+
+    views = [x["views"] for x in cohort]
+    for item in cohort:
+        v = item["views"]
+        greater = sum(1 for x in views if x > v)
+        equal = sum(1 for x in views if x == v)
+        item["rank_min"] = greater + 1
+        item["rank_max"] = greater + equal
+        item["tie_count"] = equal
+        item["percentile_from_rank_min"] = round(100 * (n - item["rank_min"] + 1) / n, 4)
+        item["top_fraction_percent"] = round(100 * item["rank_min"] / n, 4)
+
+    with open(args.targets, newline="", encoding="utf-8") as fh:
+        target_manifest = list(csv.DictReader(fh))
+    target_concepts = {r["concept_doi"].lower(): r for r in target_manifest}
+    cohort_by_concept = {x["concept_doi"]: x for x in cohort}
+    missing = sorted(set(target_concepts) - set(cohort_by_concept))
+    if missing:
+        raise RuntimeError(f"target family missing from exact cohort: {missing}")
+
+    targets = []
+    for concept, manifest in target_concepts.items():
+        match = cohort_by_concept[concept]
+        idx = cohort.index(match)
+        targets.append({
+            "object_id": manifest["object_id"],
+            "repository": manifest["repository"],
+            "concept_doi": manifest["concept_doi"],
+            "match": match,
+            "nearest_above": [
+                {"family_id": x["family_id"], "title": x["title"], "views": x["views"], "rank_min": x["rank_min"]}
+                for x in cohort[max(0, idx - 5):idx]
+            ],
+            "nearest_below": [
+                {"family_id": x["family_id"], "title": x["title"], "views": x["views"], "rank_min": x["rank_min"]}
+                for x in cohort[idx + 1:idx + 6]
+            ],
+        })
+
+    targets.sort(key=lambda t: t["object_id"])
+    target_views = [t["match"]["views"] for t in targets]
+    target_total = sum(target_views)
+    shares = [v / target_total for v in target_views] if target_total else [0.0] * len(target_views)
+    hhi = sum(s * s for s in shares)
+    cohort_median = statistics.median(views)
+
+    shard_summaries = []
+    unstable_shards = []
+    raw_page_count = 0
+    for path in summary_files:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        shard_summaries.append(data)
+        raw_page_count += len(data.get("raw_evidence") or [])
+        for shard in data.get("shards") or []:
+            if shard.get("total_changed_during_shard"):
+                unstable_shards.append(shard)
+
+    if unstable_shards:
+        (out / "unstable-shards.json").write_text(
+            json.dumps(unstable_shards, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        raise RuntimeError(
+            f"{len(unstable_shards)} date shards changed hit totals during retrieval; "
+            "rerun before claiming an exact cohort"
+        )
+
+    summary = {
+        "benchmark_class": "exploratory_new_zenodo_software_family",
+        "prospective_dataset_member": False,
+        "aggregated_at_utc": datetime.now(timezone.utc).isoformat(),
+        "cohort_contract": {
+            "resource_type": "software",
+            "first_publication_date_start": "2026-09-16",
+            "first_publication_date_end": "2026-10-06",
+            "unit": "concept_family",
+            "eligibility": "metadata.relations.version.index == 0 after all_versions retrieval",
+            "ranking_metric": "stats.views (family cumulative)",
+            "version_local_control": "stats.version_views",
+        },
+        "retrieval_strategy": "7 parallel date-range shards; daily publication-date queries; all_versions=true; client-side index==0",
+        "shard_artifact_count": len(cohort_files),
+        "raw_page_count": raw_page_count,
+        "exact_concept_family_count": n,
+        "duplicate_cross_shard_count": len(duplicate_cross_shard),
+        "duplicates": duplicate_cross_shard,
+        "cohort": {
+            "median_views": cohort_median,
+            "p75_views_linear": quantile_linear(views, 0.75),
+            "p90_views_linear": quantile_linear(views, 0.90),
+            "p95_views_linear": quantile_linear(views, 0.95),
+            "min_views": min(views),
+            "max_views": max(views),
+        },
+        "targets": targets,
+        "target_portfolio": {
+            "views_total": target_total,
+            "median_views": statistics.median(target_views),
+            "min_views": min(target_views),
+            "max_views": max(target_views),
+            "median_vs_cohort_median_multiplier": (
+                statistics.median(target_views) / cohort_median if cohort_median else None
+            ),
+            "floor_vs_cohort_median_multiplier": (
+                min(target_views) / cohort_median if cohort_median else None
+            ),
+            "hhi": hhi,
+            "effective_repository_count": (1 / hhi) if hhi else None,
+            "gini": gini(target_views),
+        },
+        "shard_summaries": [
+            {
+                "start": x.get("start"),
+                "end": x.get("end"),
+                "eligible_first_version_family_count": x.get("eligible_first_version_family_count"),
+                "raw_page_count": len(x.get("raw_evidence") or []),
+            }
+            for x in shard_summaries
+        ],
+    }
+
+    (out / "summary.json").write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    with (out / "cohort.csv").open("w", newline="", encoding="utf-8") as fh:
+        fields = list(cohort[0].keys())
+        w = csv.DictWriter(fh, fieldnames=fields)
+        w.writeheader()
+        w.writerows(cohort)
+    with (out / "targets.csv").open("w", newline="", encoding="utf-8") as fh:
+        fields = [
+            "object_id", "repository", "concept_doi", "views", "unique_views",
+            "rank_min", "rank_max", "tie_count", "percentile_from_rank_min",
+            "top_fraction_percent", "first_publication_date", "is_last",
+        ]
+        w = csv.DictWriter(fh, fieldnames=fields)
+        w.writeheader()
+        for target in targets:
+            row = {
+                "object_id": target["object_id"],
+                "repository": target["repository"],
+                "concept_doi": target["concept_doi"],
+            }
+            for key in fields:
+                if key not in row:
+                    row[key] = target["match"].get(key)
+            w.writerow(row)
+
+    print(json.dumps({
+        "cohort_n": n,
+        "median_views": cohort_median,
+        "p75_views": summary["cohort"]["p75_views_linear"],
+        "p90_views": summary["cohort"]["p90_views_linear"],
+        "p95_views": summary["cohort"]["p95_views_linear"],
+        "targets": [
+            {
+                "repo": t["repository"],
+                "views": t["match"]["views"],
+                "rank": [t["match"]["rank_min"], t["match"]["rank_max"]],
+                "percentile": t["match"]["percentile_from_rank_min"],
+                "top_percent": t["match"]["top_fraction_percent"],
+            }
+            for t in targets
+        ],
+    }, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()
