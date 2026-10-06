@@ -106,7 +106,7 @@ def cohort_stats(ranked, metric):
 
 
 def compact_neighbor(item, metric):
-    return {
+    neighbor = {
         "family_id": item["family_id"],
         "title": item["title"],
         "ranking_metric": metric,
@@ -114,6 +114,8 @@ def compact_neighbor(item, metric):
         "rank_min": item["rank_min"],
         "rank_max": item["rank_max"],
     }
+    neighbor[metric] = item[metric]
+    return neighbor
 
 
 def main():
@@ -362,6 +364,14 @@ def main():
             for x in shard_summaries
         ],
     }
+
+    if args.metric == "views":
+        summary["target_portfolio"].update({
+            "views_total": summary["target_portfolio"]["metric_total"],
+            "median_views": summary["target_portfolio"]["median_metric_value"],
+            "min_views": summary["target_portfolio"]["min_metric_value"],
+            "max_views": summary["target_portfolio"]["max_metric_value"],
+        })
 
     (out / "summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n",
