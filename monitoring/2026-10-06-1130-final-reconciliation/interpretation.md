@@ -95,3 +95,20 @@ remain analytically distinct.
 The initial research runtime, baseline, release lineage, ORCID aggregation,
 duplicate corrections, and post-release scholarly propagation have now been
 reconciled without expanding the preregistered sample.
+
+
+## OpenAIRE discovery state
+
+The user-supplied OpenAIRE public page reports 11 ORCID-linked software results
+and includes the research-control repository beta DOI
+`10.5281/zenodo.23166491` as a Zenodo **Research software** record.
+
+This is retained as evidence that the control repository has propagated onto the
+OpenAIRE discovery surface.
+
+The reported `11` is an OpenAIRE search/link count, not a new preregistered
+sample size. The fixed corpus remains RS01-RS10.
+
+Because the OpenAIRE page could not be independently fetched during this
+reconciliation, the exact current page state remains source-reported rather
+than independently re-observed.
