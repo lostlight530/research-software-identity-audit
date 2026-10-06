@@ -6,26 +6,16 @@
   "codeRepository": "https://github.com/lostlight530/research-software-identity-audit",
   "url": "https://github.com/lostlight530/research-software-identity-audit",
   "identifier": "https://doi.org/10.5281/zenodo.23166490",
-  "version": "beta",
   "datePublished": "2026-10-05",
+  "license": "https://spdx.org/licenses/MIT.html",
   "author": {
-    "@id": "https://orcid.org/0009-0001-3617-0832",
     "@type": "Person",
-    "givenName": "Xuanyi",
-    "familyName": "Jiang",
-    "affiliation": {
-      "@type": "Organization",
-      "name": "Independent Researcher"
-    }
-  },
-  "maintainer": {
     "@id": "https://orcid.org/0009-0001-3617-0832",
-    "@type": "Person",
-    "givenName": "Xuanyi",
-    "familyName": "Jiang"
+    "name": "lightlost",
+    "url": "https://github.com/lostlight530"
   },
   "applicationCategory": "Research Software Infrastructure",
-  "developmentStatus": "active",
+  "isAccessibleForFree": true,
   "keywords": [
     "research software",
     "scholarly infrastructure",
