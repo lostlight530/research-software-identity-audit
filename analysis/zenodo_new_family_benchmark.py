@@ -255,6 +255,7 @@ def main():
     ap.add_argument("--end", default="2026-10-06")
     ap.add_argument("--targets", default="baseline/2026-10-05/doi-map.csv")
     ap.add_argument("--output", default="benchmark-output")
+    ap.add_argument("--shard-only", action="store_true")
     args = ap.parse_args()
 
     out = Path(args.output)
@@ -294,6 +295,37 @@ def main():
     n = len(cohort)
     if n == 0:
         raise RuntimeError("eligible newborn software-family cohort is empty")
+
+    if args.shard_only:
+        fields = list(cohort[0].keys())
+        with open(out / "cohort.csv", "w", newline="", encoding="utf-8") as fh:
+            w = csv.DictWriter(fh, fieldnames=fields)
+            w.writeheader()
+            w.writerows(cohort)
+        shard_summary = {
+            "benchmark_class": "exploratory_new_zenodo_software_family_shard",
+            "prospective_dataset_member": False,
+            "start": args.start,
+            "end": args.end,
+            "run_started_utc": run_started,
+            "run_finished_utc": datetime.now(timezone.utc).isoformat(),
+            "eligible_first_version_family_count": n,
+            "duplicate_family_record_count": len(duplicate_family_records),
+            "duplicates": duplicate_family_records,
+            "shards": shard_summaries,
+            "raw_evidence": evidence,
+        }
+        (out / "shard-summary.json").write_text(
+            json.dumps(shard_summary, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        print(json.dumps({
+            "shard_start": args.start,
+            "shard_end": args.end,
+            "eligible_first_version_families": n,
+            "raw_pages": len(evidence),
+        }, ensure_ascii=False), flush=True)
+        return
 
     # Sanity-check the ten preregistered software families before ranking.
     target_rows = []
