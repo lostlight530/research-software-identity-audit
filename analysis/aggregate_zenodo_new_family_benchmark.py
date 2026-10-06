@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Aggregate Zenodo evidence shards into an age-matched primary benchmark.
+"""Aggregate Zenodo benchmark shards into a same-publication-date primary benchmark.
 
-The primary cohort matches the targets by first publication date. The wider
-retrieval window is retained only as secondary context. Cohort membership is
-frozen by the shared created cutoff; stats.views remains a live platform metric
-observed across a bounded retrieval interval rather than one exact instant.
+The primary comparison cohort shares the exact publication_date value exposed by
+Zenodo for the target software families. This is date-resolution matching, not
+sub-day age matching. The wider first-release window is retained only as secondary context.
+Cohort membership is frozen by the shared `created_cutoff` recorded by retrieval
+shards, while `stats.views` remains a live platform statistic observed across a
+bounded retrieval interval rather than at one exact instant.
 """
 
 from __future__ import annotations
@@ -99,7 +101,10 @@ def main():
     ap.add_argument("--input", required=True)
     ap.add_argument("--targets", default="baseline/2026-10-05/doi-map.csv")
     ap.add_argument("--output", default="benchmark-output")
-    ap.add_argument("--primary-birth-date")
+    ap.add_argument(
+        "--primary-publication-date",
+        help="Publication date for the same-date primary cohort; defaults to the shared target first publication date.",
+    )
     args = ap.parse_args()
 
     root = Path(args.input)
@@ -108,8 +113,8 @@ def main():
 
     cohort_files = sorted(root.glob("**/cohort.csv"))
     summary_files = sorted(root.glob("**/shard-summary.json"))
-    if not cohort_files:
-        raise RuntimeError(f"no cohort.csv shard files under {root}")
+    if not cohort_files or not summary_files:
+        raise RuntimeError(f"missing cohort or shard-summary files under {root}")
 
     by_family = {}
     duplicate_cross_shard = []
@@ -144,76 +149,53 @@ def main():
                 else:
                     by_family[fid] = normalized
 
-    cohort = rank_rows(list(by_family.values()))
-    n = len(cohort)
+    window_rows = list(by_family.values())
+    if not window_rows:
+        raise RuntimeError("aggregated window cohort is empty")
 
     with open(args.targets, newline="", encoding="utf-8") as fh:
         target_manifest = list(csv.DictReader(fh))
     target_concepts = {r["concept_doi"].lower(): r for r in target_manifest}
-    cohort_by_concept = {x["concept_doi"]: x for x in cohort}
-    missing = sorted(set(target_concepts) - set(cohort_by_concept))
+    window_by_concept = {x["concept_doi"]: x for x in window_rows}
+    missing = sorted(set(target_concepts) - set(window_by_concept))
     if missing:
         raise RuntimeError(f"target family missing from retrieval window: {missing}")
 
-    target_birth_dates = sorted({
-        cohort_by_concept[concept]["first_publication_date"] for concept in target_concepts
+    observed_target_birth_dates = sorted({
+        window_by_concept[concept]["first_publication_date"] for concept in target_concepts
     })
-    if args.primary_birth_date:
-        primary_birth_date = args.primary_birth_date
-        mismatched = sorted(
+    if args.primary_publication_date:
+        primary_publication_date = args.primary_publication_date
+        off_date = sorted(
             concept for concept in target_concepts
-            if cohort_by_concept[concept]["first_publication_date"] != primary_birth_date
+            if window_by_concept[concept]["first_publication_date"] != primary_publication_date
         )
-        if mismatched:
+        if off_date:
             raise RuntimeError(
-                f"targets do not all match primary birth date {primary_birth_date}: {mismatched}"
+                f"targets do not all match primary publication date {primary_publication_date}: {off_date}"
             )
     else:
-        if len(target_birth_dates) != 1:
+        if len(observed_target_birth_dates) != 1:
             raise RuntimeError(
-                "targets do not share one first publication date; define a justified "
-                "--primary-birth-date before ranking"
+                "targets do not share one first publication date; pass --primary-publication-date "
+                "only after defining a justified matching rule"
             )
-        primary_birth_date = target_birth_dates[0]
+        primary_publication_date = observed_target_birth_dates[0]
 
-    primary = rank_rows([
-        row for row in cohort if row["first_publication_date"] == primary_birth_date
-    ])
+    primary_rows = [
+        row for row in window_rows if row["first_publication_date"] == primary_publication_date
+    ]
+    if not primary_rows:
+        raise RuntimeError(f"no software families found for primary publication date {primary_publication_date}")
+
+    primary = rank_rows(primary_rows)
+    window = rank_rows(window_rows)
     primary_by_concept = {x["concept_doi"]: x for x in primary}
+    window_ranked_by_concept = {x["concept_doi"]: x for x in window}
+
     missing_primary = sorted(set(target_concepts) - set(primary_by_concept))
     if missing_primary:
-        raise RuntimeError(
-            f"target family missing from age-matched primary cohort: {missing_primary}"
-        )
-
-    targets = []
-    for concept, manifest in target_concepts.items():
-        match = primary_by_concept[concept]
-        window_match = cohort_by_concept[concept]
-        idx = primary.index(match)
-        targets.append({
-            "object_id": manifest["object_id"],
-            "repository": manifest["repository"],
-            "concept_doi": manifest["concept_doi"],
-            "match": match,
-            "nearest_above": [compact_neighbor(x) for x in primary[max(0, idx - 5):idx]],
-            "nearest_below": [compact_neighbor(x) for x in primary[idx + 1:idx + 6]],
-            "secondary_window_rank": {
-                "rank_min": window_match["rank_min"],
-                "rank_max": window_match["rank_max"],
-                "tie_count": window_match["tie_count"],
-                "percentile_from_rank_min": window_match["percentile_from_rank_min"],
-                "percentile_from_rank_max": window_match["percentile_from_rank_max"],
-            },
-        })
-
-    targets.sort(key=lambda t: t["object_id"])
-    target_views = [t["match"]["views"] for t in targets]
-    target_total = sum(target_views)
-    shares = [v / target_total for v in target_views] if target_total else [0.0] * len(target_views)
-    hhi = sum(s * s for s in shares)
-    primary_stats = cohort_stats(primary)
-    window_stats = cohort_stats(cohort)
+        raise RuntimeError(f"target family missing from same-publication-date primary cohort: {missing_primary}")
 
     shard_summaries = []
     unstable_shards = []
@@ -235,6 +217,8 @@ def main():
             if shard.get("total_changed_during_shard"):
                 unstable_shards.append(shard)
 
+    shard_summaries.sort(key=lambda x: (x.get("start") or "", x.get("end") or ""))
+
     if unstable_shards:
         (out / "unstable-shards.json").write_text(
             json.dumps(unstable_shards, ensure_ascii=False, indent=2) + "\n",
@@ -245,12 +229,40 @@ def main():
             "rerun before reporting the benchmark"
         )
     if len(cutoffs) != 1:
-        raise RuntimeError(
-            f"expected one shared created cutoff across shards, observed: {sorted(cutoffs)}"
-        )
+        raise RuntimeError(f"expected one shared created_cutoff across shards, observed: {sorted(cutoffs)}")
+
+    targets = []
+    for concept, manifest in target_concepts.items():
+        match = primary_by_concept[concept]
+        window_match = window_ranked_by_concept[concept]
+        higher = [x for x in primary if x["views"] > match["views"]]
+        lower = [x for x in primary if x["views"] < match["views"]]
+        targets.append({
+            "object_id": manifest["object_id"],
+            "repository": manifest["repository"],
+            "concept_doi": manifest["concept_doi"],
+            "match": match,
+            "nearest_strictly_higher": [compact_neighbor(x) for x in higher[-5:]],
+            "nearest_strictly_lower": [compact_neighbor(x) for x in lower[:5]],
+            "secondary_window_rank": {
+                "rank_min": window_match["rank_min"],
+                "rank_max": window_match["rank_max"],
+                "tie_count": window_match["tie_count"],
+                "percentile_from_rank_min": window_match["percentile_from_rank_min"],
+                "percentile_from_rank_max": window_match["percentile_from_rank_max"],
+            },
+        })
+    targets.sort(key=lambda t: t["object_id"])
+
+    target_views = [t["match"]["views"] for t in targets]
+    target_total = sum(target_views)
+    shares = [v / target_total for v in target_views] if target_total else [0.0] * len(target_views)
+    hhi = sum(s * s for s in shares)
+    primary_stats = cohort_stats(primary)
+    window_stats = cohort_stats(window)
 
     summary = {
-        "benchmark_class": "exploratory_age_matched_zenodo_software_family",
+        "benchmark_class": "exploratory_same_publication_date_zenodo_software_family",
         "prospective_dataset_member": False,
         "aggregated_at_utc": datetime.now(timezone.utc).isoformat(),
         "cohort_contract": {
@@ -258,17 +270,18 @@ def main():
             "unit": "concept_family",
             "eligibility": "metadata.relations.version.index == 0 after all_versions retrieval",
             "primary_match_rule": "first_publication_date equals the shared target first_publication_date",
-            "primary_birth_date": primary_birth_date,
-            "secondary_window_start": min(x["first_publication_date"] for x in cohort),
-            "secondary_window_end": max(x["first_publication_date"] for x in cohort),
+            "matching_resolution": "calendar_date",
+            "primary_publication_date": primary_publication_date,
+            "secondary_window_start": min(x["first_publication_date"] for x in window_rows),
+            "secondary_window_end": max(x["first_publication_date"] for x in window_rows),
             "ranking_metric": "stats.views (family cumulative)",
             "version_local_control": "stats.version_views",
             "membership_created_cutoff_utc": next(iter(cutoffs)),
         },
         "metric_snapshot_semantics": (
-            "Cohort membership is frozen by the shared created cutoff. stats.views is a live "
-            "platform statistic observed across the shard retrieval interval; ranks are bounded "
-            "observed-snapshot ranks, not a reconstruction of one exact event-time instant."
+            "Cohort membership is frozen by the shared created cutoff. The primary cohort is matched at Zenodo publication_date "
+            "calendar-date resolution. stats.views is a live platform statistic observed across the shard retrieval interval, "
+            "so reported ranks are bounded observed-snapshot ranks, not a reconstruction of one exact event-time instant."
         ),
         "retrieval_window_utc": {
             "start": min(retrieval_starts) if retrieval_starts else None,
@@ -299,6 +312,10 @@ def main():
                 statistics.median(target_views) / window_stats["median_views"]
                 if window_stats["median_views"] else None
             ),
+            "floor_vs_secondary_window_median_multiplier": (
+                min(target_views) / window_stats["median_views"]
+                if window_stats["median_views"] else None
+            ),
             "hhi": hhi,
             "effective_repository_count": (1 / hhi) if hhi else None,
             "gini": gini(target_views),
@@ -307,6 +324,9 @@ def main():
             {
                 "start": x.get("start"),
                 "end": x.get("end"),
+                "created_cutoff": x.get("created_cutoff"),
+                "run_started_utc": x.get("run_started_utc"),
+                "run_finished_utc": x.get("run_finished_utc"),
                 "eligible_first_version_family_count": x.get("eligible_first_version_family_count"),
                 "raw_page_count": len(x.get("raw_evidence") or []),
             }
@@ -324,10 +344,10 @@ def main():
         w.writeheader()
         w.writerows(primary)
     with (out / "window-cohort.csv").open("w", newline="", encoding="utf-8") as fh:
-        fields = list(cohort[0].keys())
+        fields = list(window[0].keys())
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
-        w.writerows(cohort)
+        w.writerows(window)
     with (out / "targets.csv").open("w", newline="", encoding="utf-8") as fh:
         fields = [
             "object_id", "repository", "concept_doi", "views", "unique_views",
@@ -339,6 +359,7 @@ def main():
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
         for target in targets:
+            match = target["match"]
             row = {
                 "object_id": target["object_id"],
                 "repository": target["repository"],
@@ -348,11 +369,11 @@ def main():
             }
             for key in fields:
                 if key not in row:
-                    row[key] = target["match"].get(key)
+                    row[key] = match.get(key)
             w.writerow(row)
 
     print(json.dumps({
-        "primary_birth_date": primary_birth_date,
+        "primary_publication_date": primary_publication_date,
         "primary_cohort_n": primary_stats["concept_family_count"],
         "primary_median_views": primary_stats["median_views"],
         "primary_p75_views": primary_stats["p75_views_linear"],
