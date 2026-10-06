@@ -181,6 +181,45 @@ def check_data_handling() -> None:
             fail(f"data-handling policy missing: {token}")
 
 
+
+def check_canonical_object_mapping() -> None:
+    expected = {
+        "RS01": ("welcome-to-github", "23137203"),
+        "RS02": ("zero-entropy-lab", "23137204"),
+        "RS03": ("Axiom-0", "23137205"),
+        "RS04": ("reflective-continuum", "23137206"),
+        "RS05": ("agent-foundations", "23137207"),
+        "RS06": ("auto-doc-engine", "23137215"),
+        "RS07": ("epistemic-pipeline", "23137216"),
+        "RS08": ("sci-render-kit", "23137219"),
+        "RS09": ("china-agentic-observatory", "23137211"),
+        "RS10": ("agentic-frontier-observatory", "23137214"),
+    }
+
+    with (ROOT / "baseline/2026-10-05/doi-map.csv").open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    observed = {
+        row["object_id"]: (row["repository"], row["latest_version_doi_2026_10_04"].rsplit(".", 1)[-1])
+        for row in rows
+    }
+    if observed != expected:
+        fail(f"baseline DOI map drifted from fixed corpus: {observed}")
+
+    delta_path = ROOT / "monitoring/2026-10-06-wave-01/zenodo-view-delta.csv"
+    if delta_path.exists():
+        with delta_path.open(encoding="utf-8", newline="") as handle:
+            delta_rows = list(csv.DictReader(handle))
+        ids = [row["object_id"] for row in delta_rows]
+        if ids != EXPECTED_OBJECTS:
+            fail("Wave 1 delta rows must use the canonical RS01-RS10 order")
+        if sum(int(row["t0_views"]) for row in delta_rows) != 575:
+            fail("Wave 1 T0 view total must be 575")
+        if sum(int(row["t1_views"]) for row in delta_rows) != 616:
+            fail("Wave 1 T1 view total must be 616")
+        if sum(int(row["delta_views"]) for row in delta_rows) != 41:
+            fail("Wave 1 view delta total must be 41")
+
+
 def check_repository_governance() -> None:
     required_files = (
         "LICENSE",
@@ -251,6 +290,7 @@ def main() -> int:
         check_baseline,
         check_data_handling,
         check_repository_governance,
+        check_canonical_object_mapping,
     ]
 
     failures: list[str] = []
