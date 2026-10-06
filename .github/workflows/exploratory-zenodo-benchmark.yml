@@ -1,0 +1,38 @@
+name: Exploratory Zenodo newborn-family benchmark
+
+on:
+  pull_request:
+    paths:
+      - "analysis/zenodo_new_family_benchmark.py"
+      - ".github/workflows/exploratory-zenodo-benchmark.yml"
+      - "baseline/2026-10-05/doi-map.csv"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run exact first-version cohort benchmark
+        run: |
+          python analysis/zenodo_new_family_benchmark.py \
+            --start 2026-09-16 \
+            --end 2026-10-06 \
+            --output benchmark-output
+      - name: Show summary
+        if: always()
+        run: |
+          if [ -f benchmark-output/summary.json ]; then
+            python -m json.tool benchmark-output/summary.json
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: zenodo-new-family-benchmark
+          path: benchmark-output/
+          if-no-files-found: warn
+          retention-days: 14
