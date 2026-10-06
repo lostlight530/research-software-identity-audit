@@ -841,14 +841,6 @@ Prospective observations are kept distinct from the historical baseline.
 
 ---
 
-# Scholarly identity
-
-**Author:** Xuanyi Jiang  
-**Affiliation:** Independent Researcher  
-**ORCID:** https://orcid.org/0009-0001-3617-0832
-
----
-
 # Citation
 
 The frozen preregistered research plan can be cited as:
@@ -866,21 +858,13 @@ Machine-readable citation metadata is maintained in `CITATION.cff`, `codemeta.js
 
 # Licensing
 
-Licensing is handled according to artifact type rather than assuming that one license is appropriate for every component.
+Repository-owned software, schemas, templates, tooling, and documentation are released under the **MIT License** unless a file states otherwise.
 
-The repository may contain:
+Third-party evidence and externally sourced material retain their original attribution, rights, and source terms; inclusion in this repository does not relicense them.
 
-- research documentation and study materials
-- software and analysis tooling
-- observation datasets
-- evidence records
-- metadata and machine-readable schemas
+The frozen OSF preregistration is a separate scholarly object released under **CC BY 4.0**.
 
-Specific licensing terms will be declared explicitly for each relevant artifact class.
-
-The OSF preregistration itself is released under **CC BY 4.0**.
-
-No broader reuse permission should be inferred for repository components until their applicable license has been declared.
+See [LICENSING.md](./LICENSING.md) for scope details.
 
 ---
 

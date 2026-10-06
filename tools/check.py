@@ -181,6 +181,50 @@ def check_data_handling() -> None:
             fail(f"data-handling policy missing: {token}")
 
 
+def check_repository_governance() -> None:
+    required_files = (
+        "LICENSE",
+        "LICENSING.md",
+        "AUTHORS",
+        "CONTRIBUTING.md",
+        "SECURITY.md",
+        "CODE_OF_CONDUCT.md",
+        "RELEASE_POLICY.md",
+        "OPEN_RESEARCH.md",
+        "RESEARCH_TEMPLATE.md",
+        ".github/PULL_REQUEST_TEMPLATE.md",
+        ".github/ISSUE_TEMPLATE/bug_report.md",
+        ".github/ISSUE_TEMPLATE/feature_request.md",
+        ".github/ISSUE_TEMPLATE/research_correction.md",
+    )
+    for path in required_files:
+        if not (ROOT / path).is_file():
+            fail(f"missing repository governance file: {path}")
+
+    license_text = read_text("LICENSE")
+    if not license_text.startswith("MIT License"):
+        fail("repository-owned material must retain the MIT license")
+
+    cff = read_text("CITATION.cff")
+    if 'name: "lightlost"' not in cff:
+        fail("CITATION.cff software author must match the ten-repository template")
+    if 'license: MIT' not in cff:
+        fail("CITATION.cff must declare MIT")
+
+    codemeta = json.loads(read_text("codemeta.json"))
+    if codemeta.get("author", {}).get("name") != "lightlost":
+        fail("CodeMeta software author must match the ten-repository template")
+    if codemeta.get("license") != "https://spdx.org/licenses/MIT.html":
+        fail("CodeMeta must use the SPDX MIT license URL")
+
+    zenodo = json.loads(read_text(".zenodo.json"))
+    creators = zenodo.get("creators", [])
+    if not creators or creators[0].get("name") != "lightlost":
+        fail(".zenodo.json creator must match the repository software-author template")
+    if zenodo.get("license") != "MIT":
+        fail(".zenodo.json must declare MIT")
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Check research-contract invariants without silently changing semantics."
@@ -206,6 +250,7 @@ def main() -> int:
         check_observations,
         check_baseline,
         check_data_handling,
+        check_repository_governance,
     ]
 
     failures: list[str] = []

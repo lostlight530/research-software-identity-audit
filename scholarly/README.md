@@ -38,10 +38,6 @@ The associated OSF project remains a live project surface for ongoing study mate
 
 Neither OSF identifier is interchangeable with a Zenodo software DOI.
 
-## ORCID role
-
-ORCID `0009-0001-3617-0832` anchors the scholarly author identity used in `CITATION.cff`, `.zenodo.json`, and `codemeta.json`.
-
-## Identity rule
+## Scholarly-object boundary
 
 GitHub repository identity, Zenodo concept record, Zenodo version record, OSF registration, OSF project, ORCID attribution, and downstream discovery records are related but non-equivalent scholarly objects.
