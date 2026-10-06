@@ -1,4 +1,4 @@
-name: Exploratory Zenodo age-matched birth-cohort benchmark
+name: Exploratory Zenodo same-publication-date benchmark
 
 on:
   pull_request:
@@ -31,13 +31,12 @@ jobs:
           - { start: "2026-10-04", end: "2026-10-06", key: "07" }
     steps:
       - uses: actions/checkout@v4
-      - name: Retrieve first-version evidence shard
+      - name: Retrieve frozen-membership first-version shard
         run: |
           python analysis/zenodo_new_family_benchmark.py \
             --start ${{ matrix.start }} \
             --end ${{ matrix.end }} \
             --output shard-output \
-            --shard-only \
             --created-cutoff "2026-10-06T04:10:45Z"
       - uses: actions/upload-artifact@v4
         if: always()
@@ -57,18 +56,18 @@ jobs:
         with:
           pattern: zenodo-new-family-shard-*
           path: benchmark-shards
-      - name: Aggregate age-matched primary cohort and window context
+      - name: Aggregate same-publication-date primary benchmark
         run: |
           python analysis/aggregate_zenodo_new_family_benchmark.py \
             --input benchmark-shards \
             --targets baseline/2026-10-05/doi-map.csv \
-            --primary-birth-date 2026-09-16 \
+            --primary-publication-date 2026-09-16 \
             --output benchmark-output
       - name: Show benchmark summary
         run: python -m json.tool benchmark-output/summary.json
       - uses: actions/upload-artifact@v4
         with:
-          name: zenodo-age-matched-benchmark-final
+          name: zenodo-same-publication-date-benchmark-final
           path: benchmark-output/
           if-no-files-found: error
           retention-days: 14
