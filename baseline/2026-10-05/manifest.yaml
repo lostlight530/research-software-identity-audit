@@ -12,6 +12,8 @@ reconciliation:
   raw_record: "raw-reconciliation-record-2026-10-06.md"
   reconciliation_notes: "reconciliation-notes.md"
   source_ledger: "source-ledger.yaml"
+  correction_history:
+    - "correction-object-id-mapping-2026-10-06.md"
   retrospective_reconstruction_possible: true
   prospective_dataset: false
 
@@ -52,6 +54,12 @@ current_reconciled_state:
     latest_version_unique_views: 13
     latest_version_downloads: 0
     historical_backdating_permitted: false
+  cutoff_ledger:
+    timestamp: "2026-10-05T23:59:59+08:00"
+    family_views: 575
+    family_downloads: 7
+    source: "Wave 1 differential ledger supplied on 2026-10-06"
+    note: "This cutoff ledger is distinct from the later 00:33:54 reconciliation capture of 581 views."
 
 peripheral_objects:
   osf_registration:
