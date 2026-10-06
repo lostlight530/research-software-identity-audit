@@ -33,3 +33,16 @@ Use the version-specific Zenodo DOI when the exact archived `beta` release is th
 OSF preregistration DOI, Zenodo concept DOI, Zenodo release DOI, GitHub URL, OSF project URL, and ORCID are related identifiers with different referents.
 
 Do not substitute one for another merely because they belong to the same research lifecycle.
+
+
+## Current archived release
+
+The current formal initial-runtime release is:
+
+- tag: `v2026.10-initial-research-runtime`
+- version DOI: `10.5281/zenodo.23176748`
+- concept DOI: `10.5281/zenodo.23166490`
+- GitHub published: `2026-10-06T02:48:16Z`
+- DataCite registered: `2026-10-06T02:48:21Z`
+
+Use the version DOI when citing this exact archived release and the concept DOI when referring to the evolving software family.
