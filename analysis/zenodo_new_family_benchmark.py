@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """Exact exploratory benchmark for newborn Zenodo Software concept families.
 
-Cohort contract:
-- family first publication date in [start, end]
-- unit = Zenodo concept family
-- ranking metric = latest record family-cumulative stats.views
+Evidence-backed query contract for the current Zenodo Records API:
+- resource_type.type:software
+- metadata.publication_date
+- metadata.relations.version.index
+- all_versions=true so non-latest first versions remain searchable
 
-Retrieval strategy:
-1) Search latest Software records by publication date, split by the officially
-   searchable relations.version.count field.
-2) count == 1 records are newborn on their publication date.
-3) count >= 2 records are candidates; follow each record's links.versions and
-   locate metadata.relations.version.index == 0 to establish family birth.
-4) Abort on unresolved/missing target evidence; never impute.
+The unit is the concept family. Eligibility is version.index == 0 with first
+publication date in [start, end]. Ranking uses stats.views, which Zenodo exposes
+as family-cumulative views even on a non-latest version record; version_views
+remains the version-local counter.
 
-This is exploratory analysis and is not a preregistered prospective observation.
+The date window is sharded by day to stay below the search API's 10k result
+window. Raw pages and hashes are retained. This is exploratory analysis, not a
+preregistered prospective observation.
 """
 
 from __future__ import annotations
@@ -30,7 +30,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 API = "https://zenodo.org/api/records"
@@ -73,12 +73,12 @@ def iter_dates(start: str, end: str):
         cur += timedelta(days=1)
 
 
-def metadata(record):
+def md(record):
     return record.get("metadata") or {}
 
 
 def version_relation(record):
-    rels = metadata(record).get("relations") or record.get("relations") or {}
+    rels = md(record).get("relations") or {}
     versions = rels.get("version") or []
     return versions[0] if versions else {}
 
@@ -91,9 +91,8 @@ def version_index(record):
 
 
 def family_id(record):
-    for key in ("conceptrecid", "conceptid"):
-        if record.get(key) is not None:
-            return str(record[key])
+    if record.get("conceptrecid") is not None:
+        return str(record["conceptrecid"])
     parent = version_relation(record).get("parent") or {}
     if parent.get("pid_value") is not None:
         return str(parent["pid_value"])
@@ -104,23 +103,20 @@ def concept_doi(record):
     value = record.get("conceptdoi")
     if value:
         return str(value).lower()
-    parent = version_relation(record).get("parent") or {}
-    pid = parent.get("pid_value")
-    if pid and str(pid).isdigit():
-        return f"10.5281/zenodo.{pid}"
-    return ""
+    fid = family_id(record)
+    return f"10.5281/zenodo.{fid}" if fid.isdigit() else ""
 
 
 def record_doi(record):
-    if record.get("doi"):
-        return str(record["doi"]).lower()
+    value = record.get("doi")
+    if value:
+        return str(value).lower()
     pids = record.get("pids") or {}
-    doi = pids.get("doi") or {}
-    return str(doi.get("identifier") or "").lower()
+    return str((pids.get("doi") or {}).get("identifier") or "").lower()
 
 
 def pubdate(record):
-    return str(metadata(record).get("publication_date") or record.get("publication_date") or "")
+    return str(md(record).get("publication_date") or "")
 
 
 def stat(record, key):
@@ -154,98 +150,101 @@ def gini(values):
     return (2 * sum((i + 1) * x for i, x in enumerate(xs)) / (n * total)) - (n + 1) / n
 
 
-def save_raw(raw_dir: Path, relpath: str, raw: bytes, url: str, evidence):
-    path = raw_dir / relpath
+def save_raw(raw_dir: Path, day: str, page: int, raw: bytes, url: str, evidence, headers):
+    path = raw_dir / day / f"page-{page:05d}.json.gz"
     path.parent.mkdir(parents=True, exist_ok=True)
     with gzip.open(path, "wb") as fh:
         fh.write(raw)
     evidence.append({
         "path": str(path),
         "url": url,
+        "retrieved_at_utc": datetime.now(timezone.utc).isoformat(),
         "sha256": hashlib.sha256(raw).hexdigest(),
         "bytes": len(raw),
+        "ratelimit_limit": headers.get("X-RateLimit-Limit"),
+        "ratelimit_remaining": headers.get("X-RateLimit-Remaining"),
+        "ratelimit_reset": headers.get("X-RateLimit-Reset"),
     })
 
 
-def search_pages(query: str, raw_dir: Path, raw_prefix: str, evidence):
+def search_day(day: str, raw_dir: Path, evidence):
+    query = (
+        "resource_type.type:software "
+        f"AND metadata.publication_date:[{day} TO {day}] "
+        "AND metadata.relations.version.index:0"
+    )
     page = 1
     records = []
-    reported_total = None
+    reported_total_first = None
+    reported_total_last = None
+    size = 100
+
     while True:
         params = urllib.parse.urlencode({
             "q": query,
-            "all_versions": "false",
+            "all_versions": "true",
             "page": page,
-            "size": 25,
+            "size": size,
+            "sort": "mostrecent",
         })
         url = f"{API}?{params}"
-        payload, raw, headers = fetch_json(url)
-        save_raw(raw_dir, f"{raw_prefix}/page-{page:05d}.json.gz", raw, url, evidence)
+        try:
+            payload, raw, headers = fetch_json(url)
+        except urllib.error.HTTPError as exc:
+            # Current anonymous deployments may cap page size below 100.
+            if exc.code == 400 and page == 1 and size != 25:
+                size = 25
+                continue
+            raise
+
+        save_raw(raw_dir, day, page, raw, url, evidence, headers)
         hits_obj = payload.get("hits") or {}
         hits = hits_obj.get("hits") or []
-        if reported_total is None:
-            reported_total = total_value(hits_obj.get("total"))
+        reported = total_value(hits_obj.get("total"))
+        if reported_total_first is None:
+            reported_total_first = reported
+        reported_total_last = reported
+
+        for rec in hits:
+            idx = version_index(rec)
+            if idx != 0:
+                raise RuntimeError(
+                    f"query contract drift on {day}: returned version index {idx} for record {rec.get('id')}"
+                )
+            if pubdate(rec) != day:
+                raise RuntimeError(
+                    f"date-shard drift on {day}: record {rec.get('id')} publication_date={pubdate(rec)!r}"
+                )
         records.extend(hits)
+
         next_url = (payload.get("links") or {}).get("next")
         if not next_url or not hits:
             break
         page += 1
-        # Be polite; fetch_json also obeys Retry-After on 429.
-        time.sleep(0.20)
-    if reported_total is not None and len(records) != reported_total:
-        raise RuntimeError(
-            f"pagination mismatch for {query!r}: reported={reported_total}, retrieved={len(records)}"
-        )
-    return records
+        time.sleep(0.15)
+
+    # Live Zenodo can change during retrieval. We preserve both totals and
+    # require only that every returned family is unique after global dedup.
+    return records, {
+        "date": day,
+        "page_size": size,
+        "pages": page,
+        "records_retrieved": len(records),
+        "reported_total_first": reported_total_first,
+        "reported_total_last": reported_total_last,
+        "total_changed_during_shard": reported_total_first != reported_total_last,
+    }
 
 
-def fetch_versions(latest_record, raw_dir: Path, evidence):
-    url = (latest_record.get("links") or {}).get("versions")
-    if not url:
-        raise RuntimeError(
-            f"multi-version family {family_id(latest_record)} lacks links.versions"
-        )
-
-    page = 1
-    versions = []
-    current = url
-    while current:
-        # The versions endpoint may already include query parameters.
-        parsed = urllib.parse.urlsplit(current)
-        params = dict(urllib.parse.parse_qsl(parsed.query, keep_blank_values=True))
-        params.setdefault("size", "25")
-        params["page"] = str(page)
-        current_url = urllib.parse.urlunsplit(
-            (parsed.scheme, parsed.netloc, parsed.path, urllib.parse.urlencode(params), parsed.fragment)
-        )
-        payload, raw, headers = fetch_json(current_url)
-        fid = family_id(latest_record) or str(latest_record.get("id") or "unknown")
-        save_raw(raw_dir, f"versions/{fid}/page-{page:05d}.json.gz", raw, current_url, evidence)
-        hits_obj = payload.get("hits") or {}
-        hits = hits_obj.get("hits") or []
-        versions.extend(hits)
-        next_url = (payload.get("links") or {}).get("next")
-        if not next_url or not hits:
-            break
-        current = next_url
-        page += 1
-        time.sleep(0.20)
-    return versions
-
-
-def normalize_latest(record, birth_record, birth_source):
-    md = metadata(record)
+def normalize(record):
     return {
         "family_id": family_id(record),
         "concept_doi": concept_doi(record),
-        "latest_record_id": str(record.get("id") or record.get("recid") or ""),
-        "latest_version_doi": record_doi(record),
-        "latest_publication_date": pubdate(record),
-        "first_record_id": str(birth_record.get("id") or birth_record.get("recid") or ""),
-        "first_version_doi": record_doi(birth_record),
-        "first_publication_date": pubdate(birth_record),
-        "birth_source": birth_source,
-        "title": md.get("title") or record.get("title") or "",
+        "first_record_id": str(record.get("id") or record.get("recid") or ""),
+        "first_version_doi": record_doi(record),
+        "first_publication_date": pubdate(record),
+        "title": md(record).get("title") or record.get("title") or "",
+        "is_last": bool(version_relation(record).get("is_last")),
         "views": stat(record, "views"),
         "unique_views": stat(record, "unique_views"),
         "downloads": stat(record, "downloads"),
@@ -264,100 +263,51 @@ def main():
     args = ap.parse_args()
 
     out = Path(args.output)
-    raw_dir = out / "raw"
+    raw_dir = out / "raw-first-version-pages"
     raw_dir.mkdir(parents=True, exist_ok=True)
     evidence = []
+    shard_summaries = []
+    by_family = {}
+    duplicate_family_records = []
 
-    latest_single = []
-    latest_multi = []
-    shard_counts = []
+    run_started = datetime.now(timezone.utc).isoformat()
 
     for day in iter_dates(args.start, args.end):
-        q_single = (
-            f"resource_type.type:software AND publicationdate:{day} "
-            "AND relations.version.count:1"
-        )
-        q_multi = (
-            f"resource_type.type:software AND publicationdate:{day} "
-            "AND relations.version.count:[2 TO *]"
-        )
-        singles = search_pages(q_single, raw_dir, f"latest/single/{day}", evidence)
-        multis = search_pages(q_multi, raw_dir, f"latest/multi/{day}", evidence)
-        latest_single.extend(singles)
-        latest_multi.extend(multis)
-        shard_counts.append({"date": day, "single": len(singles), "multi": len(multis)})
-        print(json.dumps({"date": day, "single": len(singles), "multi": len(multis)}), flush=True)
-
-    latest_by_family = {}
-    source_class = {}
-    for rec in latest_single:
-        fid = family_id(rec)
-        if not fid:
-            raise RuntimeError(f"single-version record without family id: {rec.get('id')}")
-        latest_by_family[fid] = rec
-        source_class[fid] = "single"
-    for rec in latest_multi:
-        fid = family_id(rec)
-        if not fid:
-            raise RuntimeError(f"multi-version record without family id: {rec.get('id')}")
-        if fid in latest_by_family and latest_by_family[fid].get("id") != rec.get("id"):
-            raise RuntimeError(f"family {fid} appeared in both single and multi latest sets")
-        latest_by_family[fid] = rec
-        source_class[fid] = "multi"
-
-    cohort = []
-    excluded_old_families = []
-    unresolved = []
-
-    for fid, latest in latest_by_family.items():
-        if source_class[fid] == "single":
-            birth = latest
-            birth_source = "version_count_1"
-        else:
-            versions = fetch_versions(latest, raw_dir, evidence)
-            firsts = [v for v in versions if version_index(v) == 0]
-            if len(firsts) != 1:
-                unresolved.append({
+        records, shard = search_day(day, raw_dir, evidence)
+        shard_summaries.append(shard)
+        print(json.dumps(shard), flush=True)
+        for rec in records:
+            fid = family_id(rec)
+            if not fid:
+                raise RuntimeError(f"first-version record without family id: {rec.get('id')}")
+            if fid in by_family:
+                duplicate_family_records.append({
                     "family_id": fid,
-                    "reason": "expected_exactly_one_version_index_0",
-                    "observed_first_count": len(firsts),
-                    "version_records_retrieved": len(versions),
+                    "kept_record_id": str(by_family[fid].get("id")),
+                    "duplicate_record_id": str(rec.get("id")),
                 })
-                continue
-            birth = firsts[0]
-            birth_source = "links.versions_index_0"
+                # Deterministic tie-break; duplicates remain explicitly reported.
+                if str(rec.get("id")) < str(by_family[fid].get("id")):
+                    by_family[fid] = rec
+            else:
+                by_family[fid] = rec
 
-        first_date = pubdate(birth)
-        if not first_date:
-            unresolved.append({"family_id": fid, "reason": "missing_first_publication_date"})
-            continue
-
-        if args.start <= first_date <= args.end:
-            cohort.append(normalize_latest(latest, birth, birth_source))
-        else:
-            excluded_old_families.append({
-                "family_id": fid,
-                "concept_doi": concept_doi(latest),
-                "title": metadata(latest).get("title") or latest.get("title") or "",
-                "latest_publication_date": pubdate(latest),
-                "first_publication_date": first_date,
-            })
-
-    if unresolved:
-        (out / "unresolved.json").write_text(
-            json.dumps(unresolved, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-        )
-        raise RuntimeError(f"unresolved family birth evidence for {len(unresolved)} families")
-
-    # A latest-only family should be unique in the cohort.
-    ids = [x["family_id"] for x in cohort]
-    if len(ids) != len(set(ids)):
-        raise RuntimeError("duplicate concept family in final cohort")
-
+    cohort = [normalize(rec) for rec in by_family.values()]
     cohort.sort(key=lambda x: (-x["views"], x["family_id"]))
     n = len(cohort)
     if n == 0:
         raise RuntimeError("eligible newborn software-family cohort is empty")
+
+    # Sanity-check the ten preregistered software families before ranking.
+    target_rows = []
+    with open(args.targets, newline="", encoding="utf-8") as fh:
+        target_manifest = list(csv.DictReader(fh))
+
+    target_concepts = {r["concept_doi"].lower(): r for r in target_manifest}
+    found_target_concepts = {x["concept_doi"] for x in cohort if x["concept_doi"] in target_concepts}
+    if len(found_target_concepts) != len(target_manifest):
+        missing = sorted(set(target_concepts) - found_target_concepts)
+        raise RuntimeError(f"target family missing from exact cohort: {missing}")
 
     views = [x["views"] for x in cohort]
     for item in cohort:
@@ -370,34 +320,24 @@ def main():
         item["percentile_from_rank_min"] = round(100 * (n - item["rank_min"] + 1) / n, 4)
         item["top_fraction_percent"] = round(100 * item["rank_min"] / n, 4)
 
-    target_rows = []
-    with open(args.targets, newline="", encoding="utf-8") as fh:
-        for row in csv.DictReader(fh):
-            concept = row["concept_doi"].lower()
-            suffix = concept.rsplit(".", 1)[-1]
-            match = next(
-                (x for x in cohort if x["concept_doi"] == concept or x["family_id"] == suffix),
-                None,
-            )
-            if match is None:
-                raise RuntimeError(f"target family missing from cohort: {row['repository']} {concept}")
-            index = cohort.index(match)
-            above = cohort[max(0, index - 5):index]
-            below = cohort[index + 1:index + 6]
-            target_rows.append({
-                "object_id": row["object_id"],
-                "repository": row["repository"],
-                "concept_doi": row["concept_doi"],
-                "match": match,
-                "nearest_above": [
-                    {"family_id": x["family_id"], "title": x["title"], "views": x["views"], "rank_min": x["rank_min"]}
-                    for x in above
-                ],
-                "nearest_below": [
-                    {"family_id": x["family_id"], "title": x["title"], "views": x["views"], "rank_min": x["rank_min"]}
-                    for x in below
-                ],
-            })
+    for manifest in target_manifest:
+        concept = manifest["concept_doi"].lower()
+        match = next(x for x in cohort if x["concept_doi"] == concept)
+        idx = cohort.index(match)
+        target_rows.append({
+            "object_id": manifest["object_id"],
+            "repository": manifest["repository"],
+            "concept_doi": manifest["concept_doi"],
+            "match": match,
+            "nearest_above": [
+                {"family_id": x["family_id"], "title": x["title"], "views": x["views"], "rank_min": x["rank_min"]}
+                for x in cohort[max(0, idx - 5):idx]
+            ],
+            "nearest_below": [
+                {"family_id": x["family_id"], "title": x["title"], "views": x["views"], "rank_min": x["rank_min"]}
+                for x in cohort[idx + 1:idx + 6]
+            ],
+        })
 
     target_views = [t["match"]["views"] for t in target_rows]
     target_total = sum(target_views)
@@ -408,20 +348,22 @@ def main():
     summary = {
         "benchmark_class": "exploratory_new_zenodo_software_family",
         "prospective_dataset_member": False,
+        "run_started_utc": run_started,
+        "run_finished_utc": datetime.now(timezone.utc).isoformat(),
         "cohort_contract": {
             "resource_type": "software",
             "first_publication_date_start": args.start,
             "first_publication_date_end": args.end,
             "unit": "concept_family",
-            "ranking_metric": "latest_record.stats.views_family_cumulative",
+            "eligibility_query": "metadata.relations.version.index:0",
+            "ranking_metric": "stats.views (family cumulative)",
+            "version_local_control": "stats.version_views",
         },
-        "retrieval_strategy": "latest_only_daily_shards_plus_versions_for_multiversion_families",
-        "latest_candidate_family_count": len(latest_by_family),
-        "single_version_candidate_count": len(latest_single),
-        "multi_version_candidate_count": len(latest_multi),
-        "excluded_pre_window_family_count": len(excluded_old_families),
+        "retrieval_strategy": "daily first-version shards with all_versions=true",
         "exact_concept_family_count": n,
-        "shard_counts": shard_counts,
+        "duplicate_family_record_count": len(duplicate_family_records),
+        "duplicates": duplicate_family_records,
+        "shards": shard_summaries,
         "cohort": {
             "median_views": cohort_median,
             "p75_views_linear": quantile_linear(views, 0.75),
@@ -452,10 +394,6 @@ def main():
     (out / "summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    (out / "excluded-old-families.json").write_text(
-        json.dumps(excluded_old_families, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
 
     with open(out / "cohort.csv", "w", newline="", encoding="utf-8") as fh:
         fields = list(cohort[0].keys())
@@ -467,7 +405,7 @@ def main():
         fields = [
             "object_id", "repository", "concept_doi", "views", "unique_views",
             "rank_min", "rank_max", "tie_count", "percentile_from_rank_min",
-            "top_fraction_percent", "first_publication_date", "latest_publication_date",
+            "top_fraction_percent", "first_publication_date", "is_last",
         ]
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
@@ -484,8 +422,6 @@ def main():
 
     print(json.dumps({
         "cohort_n": n,
-        "candidate_families": len(latest_by_family),
-        "excluded_old_families": len(excluded_old_families),
         "median_views": cohort_median,
         "p75_views": summary["cohort"]["p75_views_linear"],
         "p90_views": summary["cohort"]["p90_views_linear"],
