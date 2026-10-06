@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "analysis/zenodo_new_family_benchmark.py"
+      - "analysis/aggregate_zenodo_new_family_benchmark.py"
       - ".github/workflows/exploratory-zenodo-benchmark.yml"
       - "baseline/2026-10-05/doi-map.csv"
   workflow_dispatch:
@@ -12,27 +13,60 @@ permissions:
   contents: read
 
 jobs:
-  benchmark:
+  shard:
+    name: shard ${{ matrix.start }}..${{ matrix.end }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      max-parallel: 7
+      matrix:
+        include:
+          - { start: "2026-09-16", end: "2026-09-18", key: "01" }
+          - { start: "2026-09-19", end: "2026-09-21", key: "02" }
+          - { start: "2026-09-22", end: "2026-09-24", key: "03" }
+          - { start: "2026-09-25", end: "2026-09-27", key: "04" }
+          - { start: "2026-09-28", end: "2026-09-30", key: "05" }
+          - { start: "2026-10-01", end: "2026-10-03", key: "06" }
+          - { start: "2026-10-04", end: "2026-10-06", key: "07" }
     steps:
       - uses: actions/checkout@v4
-      - name: Run exact first-version cohort benchmark
+      - name: Retrieve exact first-version shard
         run: |
           python analysis/zenodo_new_family_benchmark.py \
-            --start 2026-09-16 \
-            --end 2026-10-06 \
-            --output benchmark-output
-      - name: Show summary
-        if: always()
-        run: |
-          if [ -f benchmark-output/summary.json ]; then
-            python -m json.tool benchmark-output/summary.json
-          fi
+            --start ${{ matrix.start }} \
+            --end ${{ matrix.end }} \
+            --output shard-output \
+            --shard-only
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: zenodo-new-family-benchmark
+          name: zenodo-new-family-shard-${{ matrix.key }}
+          path: shard-output/
+          if-no-files-found: error
+          retention-days: 14
+
+  aggregate:
+    needs: shard
+    if: always() && needs.shard.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: zenodo-new-family-shard-*
+          path: benchmark-shards
+      - name: Aggregate exact cohort and target ranks
+        run: |
+          python analysis/aggregate_zenodo_new_family_benchmark.py \
+            --input benchmark-shards \
+            --targets baseline/2026-10-05/doi-map.csv \
+            --output benchmark-output
+      - name: Show exact summary
+        run: python -m json.tool benchmark-output/summary.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zenodo-new-family-benchmark-final
           path: benchmark-output/
-          if-no-files-found: warn
+          if-no-files-found: error
           retention-days: 14
