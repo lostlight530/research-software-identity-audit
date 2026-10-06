@@ -6,7 +6,7 @@
   "codeRepository": "https://github.com/lostlight530/research-software-identity-audit",
   "url": "https://github.com/lostlight530/research-software-identity-audit",
   "identifier": "https://doi.org/10.5281/zenodo.23166490",
-  "datePublished": "2026-10-05",
+  "datePublished": "2026-10-06",
   "license": "https://spdx.org/licenses/MIT.html",
   "author": {
     "@type": "Person",
@@ -22,5 +22,6 @@
     "reproducible research",
     "software preservation",
     "open science"
-  ]
+  ],
+  "version": "v2026.10-initial-research-runtime"
 }

@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this repository in your work, please cite it using the metadata below."
 title: "Research Software Identity Audit"
 type: software
+version: "v2026.10-initial-research-runtime"
 authors:
   - name: "lightlost"
     orcid: "https://orcid.org/0009-0001-3617-0832"
@@ -14,7 +15,7 @@ identifiers:
   - type: doi
     value: "10.17605/OSF.IO/5B329"
     description: "DOI of the frozen OSF preregistration governing the study"
-date-released: 2026-10-05
+date-released: 2026-10-06
 license: MIT
 abstract: >-
   Operational, evidence, provenance, and reproducibility infrastructure for the
