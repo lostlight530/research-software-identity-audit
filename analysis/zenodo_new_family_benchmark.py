@@ -168,11 +168,13 @@ def save_raw(raw_dir: Path, day: str, page: int, raw: bytes, url: str, evidence,
     })
 
 
-def search_day(day: str, raw_dir: Path, evidence):
+def search_day(day: str, raw_dir: Path, evidence, created_cutoff=None):
     query = (
         "resource_type.type:software "
         f"AND metadata.publication_date:[{day} TO {day}]"
     )
+    if created_cutoff:
+        query += f' AND created:[* TO "{created_cutoff}"]'
     page = 1
     records = []
     reported_total_first = None
@@ -256,6 +258,7 @@ def main():
     ap.add_argument("--targets", default="baseline/2026-10-05/doi-map.csv")
     ap.add_argument("--output", default="benchmark-output")
     ap.add_argument("--shard-only", action="store_true")
+    ap.add_argument("--created-cutoff", required=False)
     args = ap.parse_args()
 
     out = Path(args.output)
@@ -269,7 +272,7 @@ def main():
     run_started = datetime.now(timezone.utc).isoformat()
 
     for day in iter_dates(args.start, args.end):
-        records, shard = search_day(day, raw_dir, evidence)
+        records, shard = search_day(day, raw_dir, evidence, args.created_cutoff)
         shard_summaries.append(shard)
         print(json.dumps(shard), flush=True)
         for rec in records:
@@ -307,8 +310,10 @@ def main():
             "prospective_dataset_member": False,
             "start": args.start,
             "end": args.end,
+            "created_cutoff": args.created_cutoff,
             "run_started_utc": run_started,
             "run_finished_utc": datetime.now(timezone.utc).isoformat(),
+        "created_cutoff": args.created_cutoff,
             "eligible_first_version_family_count": n,
             "duplicate_family_record_count": len(duplicate_family_records),
             "duplicates": duplicate_family_records,
