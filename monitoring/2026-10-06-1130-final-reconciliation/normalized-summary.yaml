@@ -1,0 +1,89 @@
+schema_version: "1.0"
+record_id: "post-release-reconciliation-2026-10-06-1130"
+record_class: "post_release_reconciliation"
+prospective_dataset_member: false
+logical_checkpoint: "2026-10-06T11:30:00+08:00"
+timezone: "Asia/Shanghai"
+timing_note: "The logical checkpoint is 11:30 Asia/Shanghai; platform evidence retains its own actual timestamps and no pre-11:30 retrieval is rewritten as contemporaneous 11:30 evidence."
+
+study_boundary:
+  fixed_research_software_objects: 10
+  research_control_repository: 1
+  repository_families_observed: 11
+  control_repository_is_rs11: false
+
+work_identification:
+  metric_name: "identified scholarly work records under the project counting convention"
+  fixed_corpus_doi_records: 40
+  research_control_repository_version_records: 2
+  osf_preregistration_record: 1
+  total_identified_works: 43
+  research_control_repository_concept_identifier_additional: 1
+  physical_doi_identifiers_total: 44
+  note: "The control-repository concept DOI is a family identifier and is not counted as an additional work in the 43-work identification metric."
+
+research_control_repository:
+  github_release:
+    tag: "v2026.10-initial-research-runtime"
+    published_at: "2026-10-06T02:48:16Z"
+  zenodo:
+    concept_doi: "10.5281/zenodo.23166490"
+    beta_version_doi: "10.5281/zenodo.23166491"
+    current_version_doi: "10.5281/zenodo.23176748"
+    version_count: 2
+  datacite:
+    current_version_registered_at: "2026-10-06T02:48:21Z"
+    current_version_state: "findable"
+    concept_version_count: 2
+    citation_count_current_version: 1
+    citation_target: "10.17605/osf.io/5b329"
+    citation_interpretation: "metadata-defined self-citation relation to the preregistration; not an independent external literature citation"
+  latency:
+    github_release_to_datacite_seconds: 5.0
+    datacite_to_orcid_current_version_seconds: 1.765
+    github_release_to_orcid_current_version_seconds: 6.765
+
+orcid:
+  work_groups: 12
+  fixed_corpus_groups: 10
+  research_control_repository_groups: 1
+  osf_preregistration_groups: 1
+  final_source_summaries: 54
+  fixed_corpus_expected_sources_per_group: 5
+  research_control_repository_sources: 3
+  osf_preregistration_sources: 1
+  duplicate_cleanup:
+    - title: "Zero-Entropy Lab"
+      before_sources: 6
+      after_sources: 5
+      deleted_put_code: 228686992
+      deleted_put_code_post_cleanup_state: "HTTP_404"
+      surviving_put_code: 228686993
+      surviving_source: "DataCite"
+      surviving_version_doi: "10.5281/zenodo.23137204"
+      surviving_concept_doi: "10.5281/zenodo.22791081"
+    - title: "Agent Foundations"
+      before_sources: 6
+      after_sources: 5
+      deleted_put_code: 228686999
+      deleted_put_code_post_cleanup_state: "HTTP_404"
+      surviving_put_code: 228686998
+      surviving_source: "DataCite"
+      surviving_version_doi: "10.5281/zenodo.23137207"
+      surviving_concept_doi: "10.5281/zenodo.22791169"
+
+openalex:
+  author_id: "A5151904252"
+  author_profile_cached_works_count: 30
+  author_profile_updated_date: "2026-10-01T12:39:15"
+  live_author_works_query_count: 40
+  current_control_repository_version_doi_lookup: "HTTP_404"
+  osf_preregistration_doi_lookup: "HTTP_404"
+  interpretation: "Author-profile works_count is stale relative to the live works query; neither value is rewritten to force consistency."
+
+epistemic_status:
+  fixed_corpus_openalex_works: "observed_40"
+  control_repository_openalex_current_version: "not_found_by_exact_doi_query"
+  osf_openalex: "not_found_by_exact_doi_query"
+  orcid_duplicate_cleanup: "verified"
+  external_citation_claim: "not_supported"
