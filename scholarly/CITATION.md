@@ -24,11 +24,9 @@ Use the version-specific Zenodo DOI when the exact archived `beta` release is th
 
 **https://doi.org/10.5281/zenodo.23166491**
 
-## Cite the author
+## Software author
 
-Author identity is anchored by:
-
-**Xuanyi Jiang — ORCID https://orcid.org/0009-0001-3617-0832**
+**lightlost — ORCID https://orcid.org/0009-0001-3617-0832**
 
 ## Boundary rule
 
