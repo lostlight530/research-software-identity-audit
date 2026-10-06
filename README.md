@@ -626,6 +626,10 @@ The repository is expected to evolve around the following structure:
 │   ├── raw/
 │   └── derived/
 │
+├── monitoring/
+│   ├── README.md
+│   └── 2026-10-06-wave-01/
+│
 ├── evidence/
 │   └── README.md
 │
@@ -838,6 +842,8 @@ The OSF preregistration is public and frozen.
 This repository provides the live operational layer for the prospective research lifecycle.
 
 Prospective observations are kept distinct from the historical baseline.
+
+Pre-eligibility monitoring is also kept separate from the prospective dataset under `monitoring/`.
 
 ---
 
