@@ -8,6 +8,17 @@ on:
       - ".github/workflows/exploratory-zenodo-benchmark.yml"
       - "baseline/2026-10-05/doi-map.csv"
   workflow_dispatch:
+    inputs:
+      metric:
+        description: "Exploratory ranking metric"
+        required: true
+        default: "views"
+        type: choice
+        options:
+          - views
+          - unique_views
+          - downloads
+          - unique_downloads
 
 permissions:
   contents: read
@@ -62,6 +73,7 @@ jobs:
             --input benchmark-shards \
             --targets baseline/2026-10-05/doi-map.csv \
             --primary-publication-date 2026-09-16 \
+            --metric "${{ inputs.metric || 'views' }}" \
             --output benchmark-output
       - name: Show benchmark summary
         run: python -m json.tool benchmark-output/summary.json
