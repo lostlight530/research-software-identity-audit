@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
-"""Retrieve evidence shards for the exploratory Zenodo birth-cohort benchmark.
+"""Retrieve frozen-membership Zenodo first-version shards for the exploratory benchmark.
 
-Evidence-backed retrieval contract for the current Zenodo Records API:
+Observed Zenodo Records API contract used here:
 - searchable: resource_type.type:software
 - searchable: metadata.publication_date
 - returned but not reliably searchable: metadata.relations.version.index
-- all_versions=true so non-latest first versions remain retrievable
+- all_versions=true keeps non-latest first versions retrievable
 
-The retrieval unit is the concept family. Eligibility is determined client-side
-from metadata.relations.version.index == 0 after date-sharded retrieval, with
-first publication date in [start, end]. Ranking is performed by the separate
-aggregator so the primary comparison can be age-matched to the target birth date.
+This script only retrieves and normalizes shard evidence. Benchmark cohort construction,
+matching, and ranking live in aggregate_zenodo_new_family_benchmark.py so there is one
+ranking implementation rather than two drifting copies.
 
-The date window is sharded by day to stay below the search API's 10k result
-window. Raw pages and hashes are retained. This is exploratory analysis, not a
-preregistered prospective observation.
+Cohort membership is frozen with --created-cutoff. Platform statistics such as
+stats.views remain live values observed during retrieval; they are not historical
+values reconstructed at the membership cutoff.
 """
 
 from __future__ import annotations
@@ -24,8 +23,6 @@ import csv
 import gzip
 import hashlib
 import json
-import math
-import statistics
 import time
 import urllib.error
 import urllib.parse
@@ -68,6 +65,8 @@ def total_value(value):
 def iter_dates(start: str, end: str):
     cur = date.fromisoformat(start)
     stop = date.fromisoformat(end)
+    if stop < cur:
+        raise ValueError(f"end date {end} precedes start date {start}")
     while cur <= stop:
         yield cur.isoformat()
         cur += timedelta(days=1)
@@ -126,30 +125,6 @@ def stat(record, key):
         return 0
 
 
-def quantile_linear(values, q):
-    xs = sorted(values)
-    if not xs:
-        return None
-    if len(xs) == 1:
-        return float(xs[0])
-    pos = (len(xs) - 1) * q
-    lo = math.floor(pos)
-    hi = math.ceil(pos)
-    if lo == hi:
-        return float(xs[lo])
-    frac = pos - lo
-    return xs[lo] * (1 - frac) + xs[hi] * frac
-
-
-def gini(values):
-    xs = sorted(float(x) for x in values if x >= 0)
-    n = len(xs)
-    total = sum(xs)
-    if n == 0 or total == 0:
-        return 0.0
-    return (2 * sum((i + 1) * x for i, x in enumerate(xs)) / (n * total)) - (n + 1) / n
-
-
 def save_raw(raw_dir: Path, day: str, page: int, raw: bytes, url: str, evidence, headers):
     path = raw_dir / day / f"page-{page:05d}.json.gz"
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -167,13 +142,12 @@ def save_raw(raw_dir: Path, day: str, page: int, raw: bytes, url: str, evidence,
     })
 
 
-def search_day(day: str, raw_dir: Path, evidence, created_cutoff=None):
+def search_day(day: str, raw_dir: Path, evidence, created_cutoff: str):
     query = (
         "resource_type.type:software "
-        f"AND metadata.publication_date:[{day} TO {day}]"
+        f"AND metadata.publication_date:[{day} TO {day}] "
+        f'AND created:[* TO "{created_cutoff}"]'
     )
-    if created_cutoff:
-        query += f' AND created:[* TO "{created_cutoff}"]'
     page = 1
     records = []
     reported_total_first = None
@@ -219,8 +193,6 @@ def search_day(day: str, raw_dir: Path, evidence, created_cutoff=None):
         page += 1
         time.sleep(0.15)
 
-    # Live Zenodo can change during retrieval. We preserve both totals and
-    # require only that every returned family is unique after global dedup.
     return records, {
         "date": day,
         "page_size": size,
@@ -252,13 +224,18 @@ def normalize(record):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--start", default="2026-09-16")
-    ap.add_argument("--end", default="2026-10-06")
-    ap.add_argument("--targets", default="baseline/2026-10-05/doi-map.csv")
-    ap.add_argument("--output", default="benchmark-output")
-    ap.add_argument("--shard-only", action="store_true")
-    ap.add_argument("--created-cutoff", required=False)
+    ap.add_argument("--start", required=True)
+    ap.add_argument("--end", required=True)
+    ap.add_argument("--output", default="shard-output")
+    ap.add_argument(
+        "--created-cutoff",
+        required=True,
+        help="UTC cutoff that freezes benchmark membership; stats remain live at retrieval time.",
+    )
     args = ap.parse_args()
+
+    # Validate without changing the supplied ISO text used in provenance.
+    datetime.fromisoformat(args.created_cutoff.replace("Z", "+00:00"))
 
     out = Path(args.output)
     raw_dir = out / "raw-first-version-pages"
@@ -267,7 +244,6 @@ def main():
     shard_summaries = []
     by_family = {}
     duplicate_family_records = []
-
     run_started = datetime.now(timezone.utc).isoformat()
 
     for day in iter_dates(args.start, args.end):
@@ -286,189 +262,50 @@ def main():
                     "kept_record_id": str(by_family[fid].get("id")),
                     "duplicate_record_id": str(rec.get("id")),
                 })
-                # Deterministic tie-break; duplicates remain explicitly reported.
                 if str(rec.get("id")) < str(by_family[fid].get("id")):
                     by_family[fid] = rec
             else:
                 by_family[fid] = rec
 
     cohort = [normalize(rec) for rec in by_family.values()]
-    cohort.sort(key=lambda x: (-x["views"], x["family_id"]))
-    n = len(cohort)
-    if n == 0:
-        raise RuntimeError("eligible newborn software-family cohort is empty")
+    cohort.sort(key=lambda x: (x["first_publication_date"], x["family_id"]))
+    if not cohort:
+        raise RuntimeError("eligible newborn software-family shard is empty")
 
-    if args.shard_only:
-        fields = list(cohort[0].keys())
-        with open(out / "cohort.csv", "w", newline="", encoding="utf-8") as fh:
-            w = csv.DictWriter(fh, fieldnames=fields)
-            w.writeheader()
-            w.writerows(cohort)
-        shard_summary = {
-            "benchmark_class": "exploratory_new_zenodo_software_family_shard",
-            "prospective_dataset_member": False,
-            "start": args.start,
-            "end": args.end,
-            "created_cutoff": args.created_cutoff,
-            "run_started_utc": run_started,
-            "run_finished_utc": datetime.now(timezone.utc).isoformat(),
-            "eligible_first_version_family_count": n,
-            "duplicate_family_record_count": len(duplicate_family_records),
-            "duplicates": duplicate_family_records,
-            "shards": shard_summaries,
-            "raw_evidence": evidence,
-        }
-        (out / "shard-summary.json").write_text(
-            json.dumps(shard_summary, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
-        print(json.dumps({
-            "shard_start": args.start,
-            "shard_end": args.end,
-            "eligible_first_version_families": n,
-            "raw_pages": len(evidence),
-        }, ensure_ascii=False), flush=True)
-        return
-
-    # Sanity-check the ten preregistered software families before ranking.
-    target_rows = []
-    with open(args.targets, newline="", encoding="utf-8") as fh:
-        target_manifest = list(csv.DictReader(fh))
-
-    target_concepts = {r["concept_doi"].lower(): r for r in target_manifest}
-    found_target_concepts = {x["concept_doi"] for x in cohort if x["concept_doi"] in target_concepts}
-    if len(found_target_concepts) != len(target_manifest):
-        missing = sorted(set(target_concepts) - found_target_concepts)
-        raise RuntimeError(f"target family missing from exact cohort: {missing}")
-
-    views = [x["views"] for x in cohort]
-    for item in cohort:
-        v = item["views"]
-        greater = sum(1 for x in views if x > v)
-        equal = sum(1 for x in views if x == v)
-        item["rank_min"] = greater + 1
-        item["rank_max"] = greater + equal
-        item["tie_count"] = equal
-        item["percentile_from_rank_min"] = round(100 * (n - item["rank_min"] + 1) / n, 4)
-        item["top_fraction_percent"] = round(100 * item["rank_min"] / n, 4)
-
-    for manifest in target_manifest:
-        concept = manifest["concept_doi"].lower()
-        match = next(x for x in cohort if x["concept_doi"] == concept)
-        idx = cohort.index(match)
-        target_rows.append({
-            "object_id": manifest["object_id"],
-            "repository": manifest["repository"],
-            "concept_doi": manifest["concept_doi"],
-            "match": match,
-            "nearest_above": [
-                {"family_id": x["family_id"], "title": x["title"], "views": x["views"], "rank_min": x["rank_min"]}
-                for x in cohort[max(0, idx - 5):idx]
-            ],
-            "nearest_below": [
-                {"family_id": x["family_id"], "title": x["title"], "views": x["views"], "rank_min": x["rank_min"]}
-                for x in cohort[idx + 1:idx + 6]
-            ],
-        })
-
-    target_views = [t["match"]["views"] for t in target_rows]
-    target_total = sum(target_views)
-    shares = [v / target_total for v in target_views] if target_total else [0.0] * len(target_views)
-    hhi = sum(s * s for s in shares)
-    cohort_median = statistics.median(views)
-
-    summary = {
-        "benchmark_class": "exploratory_new_zenodo_software_family",
-        "prospective_dataset_member": False,
-        "run_started_utc": run_started,
-        "run_finished_utc": datetime.now(timezone.utc).isoformat(),
-        "cohort_contract": {
-            "resource_type": "software",
-            "first_publication_date_start": args.start,
-            "first_publication_date_end": args.end,
-            "unit": "concept_family",
-            "eligibility_query": "client-side metadata.relations.version.index == 0",
-            "ranking_metric": "stats.views (family cumulative)",
-            "version_local_control": "stats.version_views",
-        },
-        "retrieval_strategy": "daily publication-date shards with all_versions=true, then client-side index==0 filter",
-        "exact_concept_family_count": n,
-        "duplicate_family_record_count": len(duplicate_family_records),
-        "duplicates": duplicate_family_records,
-        "shards": shard_summaries,
-        "cohort": {
-            "median_views": cohort_median,
-            "p75_views_linear": quantile_linear(views, 0.75),
-            "p90_views_linear": quantile_linear(views, 0.90),
-            "p95_views_linear": quantile_linear(views, 0.95),
-            "min_views": min(views),
-            "max_views": max(views),
-        },
-        "targets": target_rows,
-        "target_portfolio": {
-            "views_total": target_total,
-            "median_views": statistics.median(target_views),
-            "min_views": min(target_views),
-            "max_views": max(target_views),
-            "median_vs_cohort_median_multiplier": (
-                statistics.median(target_views) / cohort_median if cohort_median else None
-            ),
-            "floor_vs_cohort_median_multiplier": (
-                min(target_views) / cohort_median if cohort_median else None
-            ),
-            "hhi": hhi,
-            "effective_repository_count": (1 / hhi) if hhi else None,
-            "gini": gini(target_views),
-        },
-        "raw_evidence": evidence,
-    }
-
-    (out / "summary.json").write_text(
-        json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
-
-    with open(out / "cohort.csv", "w", newline="", encoding="utf-8") as fh:
+    with (out / "cohort.csv").open("w", newline="", encoding="utf-8") as fh:
         fields = list(cohort[0].keys())
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
         w.writerows(cohort)
 
-    with open(out / "targets.csv", "w", newline="", encoding="utf-8") as fh:
-        fields = [
-            "object_id", "repository", "concept_doi", "views", "unique_views",
-            "rank_min", "rank_max", "tie_count", "percentile_from_rank_min",
-            "top_fraction_percent", "first_publication_date", "is_last",
-        ]
-        w = csv.DictWriter(fh, fieldnames=fields)
-        w.writeheader()
-        for target in target_rows:
-            row = {
-                "object_id": target["object_id"],
-                "repository": target["repository"],
-                "concept_doi": target["concept_doi"],
-            }
-            for key in fields:
-                if key not in row:
-                    row[key] = target["match"].get(key)
-            w.writerow(row)
-
+    shard_summary = {
+        "benchmark_class": "exploratory_new_zenodo_software_family_shard",
+        "prospective_dataset_member": False,
+        "start": args.start,
+        "end": args.end,
+        "created_cutoff": args.created_cutoff,
+        "run_started_utc": run_started,
+        "run_finished_utc": datetime.now(timezone.utc).isoformat(),
+        "eligible_first_version_family_count": len(cohort),
+        "duplicate_family_record_count": len(duplicate_family_records),
+        "duplicates": duplicate_family_records,
+        "shards": shard_summaries,
+        "raw_evidence": evidence,
+        "metric_snapshot_semantics": (
+            "Membership is frozen by created_cutoff. stats.* values are live observations made during this "
+            "retrieval interval and are not reconstructed historical values at the cutoff."
+        ),
+    }
+    (out / "shard-summary.json").write_text(
+        json.dumps(shard_summary, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     print(json.dumps({
-        "cohort_n": n,
-        "median_views": cohort_median,
-        "p75_views": summary["cohort"]["p75_views_linear"],
-        "p90_views": summary["cohort"]["p90_views_linear"],
-        "p95_views": summary["cohort"]["p95_views_linear"],
-        "targets": [
-            {
-                "repo": t["repository"],
-                "views": t["match"]["views"],
-                "rank": [t["match"]["rank_min"], t["match"]["rank_max"]],
-                "percentile": t["match"]["percentile_from_rank_min"],
-                "top_percent": t["match"]["top_fraction_percent"],
-            }
-            for t in target_rows
-        ],
-    }, ensure_ascii=False, indent=2), flush=True)
+        "shard_start": args.start,
+        "shard_end": args.end,
+        "eligible_first_version_families": len(cohort),
+        "raw_pages": len(evidence),
+    }, ensure_ascii=False), flush=True)
 
 
 if __name__ == "__main__":
