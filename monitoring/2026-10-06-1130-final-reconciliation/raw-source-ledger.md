@@ -87,3 +87,20 @@ HTTP 404.
 
 The 404 responses are recorded as query outcomes and are not generalized into
 claims that the scholarly objects do not exist.
+
+
+### OpenAIRE
+
+User-supplied public OpenAIRE page at the final checkpoint reports:
+
+- ORCID-linked software result count: `11`;
+- page count: 3;
+- `lostlight530/research-software-identity-audit: Beta— Research Runtime Bootstrap`
+  present as **Research software**;
+- publisher: Zenodo;
+- DOI: `10.5281/zenodo.23166491`;
+- author display: `lostlight530`.
+
+This source is retained as user-supplied public-page evidence because the
+OpenAIRE page could not be independently fetched during this reconciliation.
+The reported count is therefore not promoted beyond the supplied page state.
