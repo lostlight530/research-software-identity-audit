@@ -27,3 +27,9 @@ This package is **baseline**, not prospective data.
 OpenAIRE and OpenAlex remain distinct operational platforms, while both map to the single preregistered `discovery_graph` infrastructure layer.
 
 Software Heritage October latest-version content identity remains `NOT_VERIFIED`; the package intentionally preserves incomplete, rate-limited, partial, and unqueried states.
+
+## Correction history
+
+A post-capture reconciliation on 2026-10-06 found that the first machine-derived tables had assigned the final five repository names to non-canonical RS identifiers by display order. The fixed `corpus/object-manifest.csv` remains authoritative. The machine summaries were corrected and the raw Codex source record was preserved unchanged.
+
+See `correction-object-id-mapping-2026-10-06.md`.
