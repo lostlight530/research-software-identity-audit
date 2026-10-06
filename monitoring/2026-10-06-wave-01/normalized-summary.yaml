@@ -1,0 +1,81 @@
+schema_version: "1.0"
+record_id: "wave-01-2026-10-06-0915"
+record_class: "pre_eligibility_monitoring"
+prospective_dataset_member: false
+reason_not_prospective: "No eligible post-registration fixed-corpus release event is recorded before this capture."
+
+time:
+  baseline_cutoff: "2026-10-05T23:59:59+08:00"
+  capture: "2026-10-06T09:15:00+08:00"
+  timezone: "Asia/Shanghai"
+
+fixed_corpus:
+  object_count: 10
+  preregistered_layer_count: 6
+  preregistered_units_per_scheduled_timepoint: 60
+
+zenodo:
+  t0_family_views: 575
+  t1_family_views: 616
+  delta_views: 41
+  delta_views_fraction: 0.0713043478
+  t0_downloads: 7
+  t1_downloads: 7
+  delta_downloads: 0
+  package_bytes_t0: 29261316
+  package_bytes_t1: 29261316
+  package_bytes_delta: 0
+
+openalex:
+  fixed_corpus_works_t0: 40
+  fixed_corpus_works_t1: 40
+  open_access_fraction_t1: 1.0
+
+software_heritage:
+  directory_hash_count_t0: 10
+  directory_hash_count_t1: 10
+  t0_verification_state: "NOT_VERIFIED"
+  t1_source_reported_verification_state: "FULLY_VERIFIED"
+  interpretation: "Identity count is unchanged; verification state is a state transition, not zero change."
+
+datacite:
+  raw_reported_t0: 41
+  raw_reported_t1: 43
+  normalized_delta_comparable: false
+  reason: "The research-control repository concept and beta DOIs were registered before the T0 cutoff, so 41->43 mixes counting scope/discovery with event time and is not treated as a temporal registration delta."
+  stable_scope:
+    fixed_corpus_dois: 40
+    osf_registration_doi: 1
+    research_control_repository_dois: 2
+    all_related_dois: 43
+
+orcid:
+  metric: "validated works as reported by source ledger"
+  t0: 11
+  t1: 12
+  delta: 1
+  research_control_repository_put_code: 228793699
+  research_control_repository_source: "OpenAIRE"
+  research_control_repository_write_timestamp: "2026-10-05T16:04:25Z"
+
+research_control_repository:
+  corpus_member: false
+  concept_doi: "10.5281/zenodo.23166490"
+  version_doi: "10.5281/zenodo.23166491"
+  zenodo_release_timestamp: "2026-10-05T15:45:49Z"
+  wave1_views: 2
+  wave1_downloads: 0
+  archive_bytes: 23857
+  archive_md5: "fe987a5fed8d0fb8aa543dfc9105fd72"
+
+latency:
+  zenodo_to_datacite: "<1 minute"
+  release_to_orcid_via_openaire_seconds: 1116
+  release_to_orcid_via_openaire: "18m36s"
+
+supported_partial_order:
+  - "GitHub <= Zenodo"
+  - "Zenodo <= DataCite"
+  - "DataCite <= OpenAIRE-sourced ORCID"
+unsupported_extension:
+  - "OpenAlex is not appended to the research-control-repository propagation chain in this record because the prior reconciliation observed its beta DOI query as 404 and no T1 OpenAlex appearance evidence is supplied here."
