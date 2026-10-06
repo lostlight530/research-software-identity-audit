@@ -145,7 +145,7 @@ def main():
     raw_dir = out / "raw-pages"
     raw_dir.mkdir(parents=True, exist_ok=True)
 
-    q = f"resource_type.type:software AND metadata.publication_date:[{args.start} TO {args.end}]"
+    q = f"resource_type.type:software AND metadata.publication_date:[{args.start} TO {args.end}] AND relations.version.index:0"
     page = 1
     all_records = []
     raw_hashes = []
