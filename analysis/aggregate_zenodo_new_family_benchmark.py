@@ -5,8 +5,8 @@ The primary comparison cohort shares the exact publication_date value exposed by
 Zenodo for the target software families. This is date-resolution matching, not
 sub-day age matching. The wider first-release window is retained only as secondary context.
 Cohort membership is frozen by the shared `created_cutoff` recorded by retrieval
-shards, while `stats.views` remains a live platform statistic observed across a
-bounded retrieval interval rather than at one exact instant.
+shards, while the selected `stats.*` ranking metric remains a live platform statistic
+observed across a bounded retrieval interval rather than at one exact instant.
 """
 
 from __future__ import annotations
@@ -18,6 +18,14 @@ import math
 import statistics
 from datetime import datetime, timezone
 from pathlib import Path
+
+
+RANKING_METRICS = {
+    "views": "version_views",
+    "unique_views": "version_unique_views",
+    "downloads": "version_downloads",
+    "unique_downloads": "version_unique_downloads",
+}
 
 
 def as_int(value):
@@ -52,15 +60,15 @@ def gini(values):
     return (2 * sum((i + 1) * x for i, x in enumerate(xs)) / (n * total)) - (n + 1) / n
 
 
-def rank_rows(rows):
+def rank_rows(rows, metric):
     ranked = [dict(row) for row in rows]
-    ranked.sort(key=lambda x: (-x["views"], x["family_id"]))
+    ranked.sort(key=lambda x: (-x[metric], x["family_id"]))
     n = len(ranked)
     if n == 0:
         raise RuntimeError("cannot rank an empty cohort")
-    values = [x["views"] for x in ranked]
+    values = [x[metric] for x in ranked]
     for item in ranked:
-        v = item["views"]
+        v = item[metric]
         greater = sum(1 for x in values if x > v)
         equal = sum(1 for x in values if x == v)
         item["rank_min"] = greater + 1
@@ -73,27 +81,41 @@ def rank_rows(rows):
     return ranked
 
 
-def cohort_stats(ranked):
-    values = [x["views"] for x in ranked]
-    return {
+def cohort_stats(ranked, metric):
+    values = [x[metric] for x in ranked]
+    result = {
         "concept_family_count": len(ranked),
-        "median_views": statistics.median(values),
-        "p75_views_linear": quantile_linear(values, 0.75),
-        "p90_views_linear": quantile_linear(values, 0.90),
-        "p95_views_linear": quantile_linear(values, 0.95),
-        "min_views": min(values),
-        "max_views": max(values),
+        "ranking_metric": metric,
+        "median_metric_value": statistics.median(values),
+        "p75_metric_value_linear": quantile_linear(values, 0.75),
+        "p90_metric_value_linear": quantile_linear(values, 0.90),
+        "p95_metric_value_linear": quantile_linear(values, 0.95),
+        "min_metric_value": min(values),
+        "max_metric_value": max(values),
     }
+    if metric == "views":
+        result.update({
+            "median_views": result["median_metric_value"],
+            "p75_views_linear": result["p75_metric_value_linear"],
+            "p90_views_linear": result["p90_metric_value_linear"],
+            "p95_views_linear": result["p95_metric_value_linear"],
+            "min_views": result["min_metric_value"],
+            "max_views": result["max_metric_value"],
+        })
+    return result
 
 
-def compact_neighbor(item):
-    return {
+def compact_neighbor(item, metric):
+    neighbor = {
         "family_id": item["family_id"],
         "title": item["title"],
-        "views": item["views"],
+        "ranking_metric": metric,
+        "metric_value": item[metric],
         "rank_min": item["rank_min"],
         "rank_max": item["rank_max"],
     }
+    neighbor[metric] = item[metric]
+    return neighbor
 
 
 def main():
@@ -101,6 +123,12 @@ def main():
     ap.add_argument("--input", required=True)
     ap.add_argument("--targets", default="baseline/2026-10-05/doi-map.csv")
     ap.add_argument("--output", default="benchmark-output")
+    ap.add_argument(
+        "--metric",
+        choices=tuple(RANKING_METRICS),
+        default="views",
+        help="Exploratory ranking metric. Default preserves the existing stats.views benchmark.",
+    )
     ap.add_argument(
         "--primary-publication-date",
         help="Publication date for the same-date primary cohort; defaults to the shared target first publication date.",
@@ -136,6 +164,8 @@ def main():
                     "unique_downloads": as_int(row["unique_downloads"]),
                     "version_views": as_int(row["version_views"]),
                     "version_unique_views": as_int(row["version_unique_views"]),
+                    "version_downloads": as_int(row.get("version_downloads")),
+                    "version_unique_downloads": as_int(row.get("version_unique_downloads")),
                 }
                 if fid in by_family:
                     duplicate_cross_shard.append({
@@ -188,8 +218,8 @@ def main():
     if not primary_rows:
         raise RuntimeError(f"no software families found for primary publication date {primary_publication_date}")
 
-    primary = rank_rows(primary_rows)
-    window = rank_rows(window_rows)
+    primary = rank_rows(primary_rows, args.metric)
+    window = rank_rows(window_rows, args.metric)
     primary_by_concept = {x["concept_doi"]: x for x in primary}
     window_ranked_by_concept = {x["concept_doi"]: x for x in window}
 
@@ -235,15 +265,15 @@ def main():
     for concept, manifest in target_concepts.items():
         match = primary_by_concept[concept]
         window_match = window_ranked_by_concept[concept]
-        higher = [x for x in primary if x["views"] > match["views"]]
-        lower = [x for x in primary if x["views"] < match["views"]]
+        higher = [x for x in primary if x[args.metric] > match[args.metric]]
+        lower = [x for x in primary if x[args.metric] < match[args.metric]]
         targets.append({
             "object_id": manifest["object_id"],
             "repository": manifest["repository"],
             "concept_doi": manifest["concept_doi"],
             "match": match,
-            "nearest_strictly_higher": [compact_neighbor(x) for x in higher[-5:]],
-            "nearest_strictly_lower": [compact_neighbor(x) for x in lower[:5]],
+            "nearest_strictly_higher": [compact_neighbor(x, args.metric) for x in higher[-5:]],
+            "nearest_strictly_lower": [compact_neighbor(x, args.metric) for x in lower[:5]],
             "secondary_window_rank": {
                 "rank_min": window_match["rank_min"],
                 "rank_max": window_match["rank_max"],
@@ -254,12 +284,12 @@ def main():
         })
     targets.sort(key=lambda t: t["object_id"])
 
-    target_views = [t["match"]["views"] for t in targets]
-    target_total = sum(target_views)
-    shares = [v / target_total for v in target_views] if target_total else [0.0] * len(target_views)
+    target_metric_values = [t["match"][args.metric] for t in targets]
+    target_total = sum(target_metric_values)
+    shares = [v / target_total for v in target_metric_values] if target_total else [0.0] * len(target_metric_values)
     hhi = sum(s * s for s in shares)
-    primary_stats = cohort_stats(primary)
-    window_stats = cohort_stats(window)
+    primary_stats = cohort_stats(primary, args.metric)
+    window_stats = cohort_stats(window, args.metric)
 
     summary = {
         "benchmark_class": "exploratory_same_publication_date_zenodo_software_family",
@@ -274,13 +304,13 @@ def main():
             "primary_publication_date": primary_publication_date,
             "secondary_window_start": min(x["first_publication_date"] for x in window_rows),
             "secondary_window_end": max(x["first_publication_date"] for x in window_rows),
-            "ranking_metric": "stats.views (family cumulative)",
-            "version_local_control": "stats.version_views",
+            "ranking_metric": f"stats.{args.metric}",
+            "version_local_control": f"stats.{RANKING_METRICS[args.metric]}",
             "membership_created_cutoff_utc": next(iter(cutoffs)),
         },
         "metric_snapshot_semantics": (
             "Cohort membership is frozen by the shared created cutoff. The primary cohort is matched at Zenodo publication_date "
-            "calendar-date resolution. stats.views is a live platform statistic observed across the shard retrieval interval, "
+            f"calendar-date resolution. stats.{args.metric} is a live platform statistic observed across the shard retrieval interval, "
             "so reported ranks are bounded observed-snapshot ranks, not a reconstruction of one exact event-time instant."
         ),
         "retrieval_window_utc": {
@@ -296,29 +326,30 @@ def main():
         "secondary_window_cohort": window_stats,
         "targets": targets,
         "target_portfolio": {
-            "views_total": target_total,
-            "median_views": statistics.median(target_views),
-            "min_views": min(target_views),
-            "max_views": max(target_views),
+            "ranking_metric": args.metric,
+            "metric_total": target_total,
+            "median_metric_value": statistics.median(target_metric_values),
+            "min_metric_value": min(target_metric_values),
+            "max_metric_value": max(target_metric_values),
             "median_vs_primary_cohort_median_multiplier": (
-                statistics.median(target_views) / primary_stats["median_views"]
-                if primary_stats["median_views"] else None
+                statistics.median(target_metric_values) / primary_stats["median_metric_value"]
+                if primary_stats["median_metric_value"] else None
             ),
             "floor_vs_primary_cohort_median_multiplier": (
-                min(target_views) / primary_stats["median_views"]
-                if primary_stats["median_views"] else None
+                min(target_metric_values) / primary_stats["median_metric_value"]
+                if primary_stats["median_metric_value"] else None
             ),
             "median_vs_secondary_window_median_multiplier": (
-                statistics.median(target_views) / window_stats["median_views"]
-                if window_stats["median_views"] else None
+                statistics.median(target_metric_values) / window_stats["median_metric_value"]
+                if window_stats["median_metric_value"] else None
             ),
             "floor_vs_secondary_window_median_multiplier": (
-                min(target_views) / window_stats["median_views"]
-                if window_stats["median_views"] else None
+                min(target_metric_values) / window_stats["median_metric_value"]
+                if window_stats["median_metric_value"] else None
             ),
             "hhi": hhi,
             "effective_repository_count": (1 / hhi) if hhi else None,
-            "gini": gini(target_views),
+            "gini": gini(target_metric_values),
         },
         "shard_summaries": [
             {
@@ -333,6 +364,14 @@ def main():
             for x in shard_summaries
         ],
     }
+
+    if args.metric == "views":
+        summary["target_portfolio"].update({
+            "views_total": summary["target_portfolio"]["metric_total"],
+            "median_views": summary["target_portfolio"]["median_metric_value"],
+            "min_views": summary["target_portfolio"]["min_metric_value"],
+            "max_views": summary["target_portfolio"]["max_metric_value"],
+        })
 
     (out / "summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n",
@@ -351,7 +390,8 @@ def main():
     with (out / "targets.csv").open("w", newline="", encoding="utf-8") as fh:
         fields = [
             "object_id", "repository", "concept_doi", "views", "unique_views",
-            "rank_min", "rank_max", "tie_count", "percentile_from_rank_min",
+            "downloads", "unique_downloads", "version_views", "version_unique_views",
+            "version_downloads", "version_unique_downloads", "rank_min", "rank_max", "tie_count", "percentile_from_rank_min",
             "percentile_from_rank_max", "top_fraction_percent_from_rank_min",
             "top_fraction_percent_from_rank_max", "first_publication_date", "is_last",
             "secondary_window_rank_min", "secondary_window_rank_max",
@@ -374,17 +414,18 @@ def main():
 
     print(json.dumps({
         "primary_publication_date": primary_publication_date,
+        "ranking_metric": args.metric,
         "primary_cohort_n": primary_stats["concept_family_count"],
-        "primary_median_views": primary_stats["median_views"],
-        "primary_p75_views": primary_stats["p75_views_linear"],
-        "primary_p90_views": primary_stats["p90_views_linear"],
-        "primary_p95_views": primary_stats["p95_views_linear"],
+        "primary_median_metric_value": primary_stats["median_metric_value"],
+        "primary_p75_metric_value": primary_stats["p75_metric_value_linear"],
+        "primary_p90_metric_value": primary_stats["p90_metric_value_linear"],
+        "primary_p95_metric_value": primary_stats["p95_metric_value_linear"],
         "secondary_window_n": window_stats["concept_family_count"],
-        "secondary_window_median_views": window_stats["median_views"],
+        "secondary_window_median_metric_value": window_stats["median_metric_value"],
         "targets": [
             {
                 "repo": t["repository"],
-                "views": t["match"]["views"],
+                "metric_value": t["match"][args.metric],
                 "primary_rank": [t["match"]["rank_min"], t["match"]["rank_max"]],
                 "primary_percentile_interval": [
                     t["match"]["percentile_from_rank_max"],

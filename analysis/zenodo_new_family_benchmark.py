@@ -219,6 +219,8 @@ def normalize(record):
         "unique_downloads": stat(record, "unique_downloads"),
         "version_views": stat(record, "version_views"),
         "version_unique_views": stat(record, "version_unique_views"),
+        "version_downloads": stat(record, "version_downloads"),
+        "version_unique_downloads": stat(record, "version_unique_downloads"),
     }
 
 
