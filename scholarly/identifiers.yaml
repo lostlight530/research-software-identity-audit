@@ -1,10 +1,10 @@
 schema_version: "1.0"
-recorded_date: "2026-10-05"
+recorded_date: "2026-10-06"
 
 repository:
   github: "https://github.com/lostlight530/research-software-identity-audit"
   github_repository_id: 1405944227
-  current_release_tag: "beta"
+  current_release_tag: "v2026.10-initial-research-runtime"
 
 zenodo:
   concept_doi:
@@ -32,3 +32,12 @@ author:
 
 identity_boundary:
   statement: "GitHub repository, Zenodo concept record, Zenodo version record, OSF registration, OSF project, and ORCID identity are linked but non-equivalent scholarly objects."
+
+release_history:
+  - tag: "beta"
+    released: "2026-10-05"
+    zenodo_version_doi: "10.5281/zenodo.23166491"
+  - tag: "v2026.10-initial-research-runtime"
+    released: "2026-10-06"
+    zenodo_version_doi: null
+    note: "Version DOI intentionally left unset until the archive actually exists."
