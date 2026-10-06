@@ -37,7 +37,8 @@ jobs:
             --start ${{ matrix.start }} \
             --end ${{ matrix.end }} \
             --output shard-output \
-            --shard-only
+            --shard-only \
+            --created-cutoff "2026-10-06T04:10:45Z"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
