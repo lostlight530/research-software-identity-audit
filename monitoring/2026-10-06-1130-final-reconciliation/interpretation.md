@@ -112,3 +112,24 @@ sample size. The fixed corpus remains RS01-RS10.
 Because the OpenAIRE page could not be independently fetched during this
 reconciliation, the exact current page state remains source-reported rather
 than independently re-observed.
+
+
+## OpenAIRE count correction
+
+Later exact-PID evidence changes the interpretation of the earlier
+`11 ORCID links` display.
+
+An exact search for ORCID `0009-0001-3617-0832` returns exactly one OpenAIRE
+research product, the research-control repository beta DOI
+`10.5281/zenodo.23166491`.
+
+Therefore:
+
+- `1` is the supported OpenAIRE research-product count for that exact ORCID PID
+  search at the supplied observation;
+- `11` remains preserved only as the earlier Link-service/UI count;
+- `11` is no longer described as an ORCID-linked software result count;
+- the fixed preregistered corpus remains ten objects.
+
+This is a counting-semantics correction, not a deletion of the original
+observation.
