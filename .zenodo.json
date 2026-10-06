@@ -4,11 +4,11 @@
   "description": "Operational, evidence, provenance, and reproducibility infrastructure for the OSF-preregistered longitudinal audit of research software identity propagation across open scholarly infrastructures. This repository supports the study and is not an eleventh research-software object in the fixed ten-object corpus.",
   "creators": [
     {
-      "name": "Jiang, Xuanyi",
-      "affiliation": "Independent Researcher",
+      "name": "lightlost",
       "orcid": "0009-0001-3617-0832"
     }
   ],
+  "license": "MIT",
   "keywords": [
     "research software",
     "scholarly infrastructure",
