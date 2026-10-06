@@ -1,0 +1,44 @@
+schema_version: "1.0"
+record_id: "openaire-manual-link-attempt-2026-10-06"
+record_class: "manual_intervention_attempt"
+platform: "OpenAIRE"
+channel: "Explore Link Service"
+date: "2026-10-06"
+prospective_dataset_member: false
+
+study_boundary:
+  fixed_research_software_objects: 10
+  control_repository_is_rs11: false
+  fixed_corpus_affected: false
+
+source:
+  title: "lostlight530/research-software-identity-audit: Beta— Research Runtime Bootstrap"
+  object_class: "Research software"
+  doi: "10.5281/zenodo.23166491"
+  platform_source: "Zenodo"
+  role: "research_control_repository_beta"
+
+target:
+  title: "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+  doi: "10.17605/osf.io/5b329"
+  provider_in_link_search: "DataCite"
+  publisher_surface: "OSF Registries"
+  role: "frozen_preregistration"
+
+attempt:
+  requested_link_type: "Research products"
+  exact_relation_predicate_exposed_by_ui: false
+  confirmation_completed: true
+  save_result: "FAILED"
+  source_ui_message: "Link could not be saved"
+  target_ui_message: "Link could not be saved"
+  error_summary: "Fail to save 1 link."
+  graph_mutation_confirmed: false
+  pending_link_confirmed: false
+
+epistemic_status:
+  observation_state: "FAILED"
+  root_cause: "UNKNOWN"
+  relation_created: "NOT_OBSERVED"
+  platform_object_existence_implication: "NONE"
+  note: "Save failure is not interpreted as absence or invalidity of the source/target objects."
