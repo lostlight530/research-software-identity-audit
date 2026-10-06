@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact exploratory benchmark for newborn Zenodo Software concept families.
+"""Retrieve evidence shards for the exploratory Zenodo birth-cohort benchmark.
 
 Evidence-backed retrieval contract for the current Zenodo Records API:
 - searchable: resource_type.type:software
@@ -7,11 +7,10 @@ Evidence-backed retrieval contract for the current Zenodo Records API:
 - returned but not reliably searchable: metadata.relations.version.index
 - all_versions=true so non-latest first versions remain retrievable
 
-The unit is the concept family. Eligibility is determined client-side from
-metadata.relations.version.index == 0 after date-sharded retrieval, with first
-publication date in [start, end]. Ranking uses stats.views, which Zenodo exposes
-as family-cumulative views even on a non-latest version record; version_views
-remains the version-local counter.
+The retrieval unit is the concept family. Eligibility is determined client-side
+from metadata.relations.version.index == 0 after date-sharded retrieval, with
+first publication date in [start, end]. Ranking is performed by the separate
+aggregator so the primary comparison can be age-matched to the target birth date.
 
 The date window is sharded by day to stay below the search API's 10k result
 window. Raw pages and hashes are retained. This is exploratory analysis, not a
@@ -313,7 +312,6 @@ def main():
             "created_cutoff": args.created_cutoff,
             "run_started_utc": run_started,
             "run_finished_utc": datetime.now(timezone.utc).isoformat(),
-        "created_cutoff": args.created_cutoff,
             "eligible_first_version_family_count": n,
             "duplicate_family_record_count": len(duplicate_family_records),
             "duplicates": duplicate_family_records,
