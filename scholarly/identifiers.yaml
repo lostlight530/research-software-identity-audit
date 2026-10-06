@@ -26,8 +26,8 @@ osf:
     role: "associated live OSF project"
 
 author:
-  name: "Xuanyi Jiang"
-  affiliation: "Independent Researcher"
+  name: "lightlost"
+  website: "https://github.com/lostlight530"
   orcid: "https://orcid.org/0009-0001-3617-0832"
 
 identity_boundary:
