@@ -87,3 +87,18 @@ epistemic_status:
   osf_openalex: "not_found_by_exact_doi_query"
   orcid_duplicate_cleanup: "verified"
   external_citation_claim: "not_supported"
+
+
+openaire:
+  source_class: "user_supplied_public_page"
+  orcid_linked_software_result_count: 11
+  result_pages: 3
+  control_repository_beta:
+    observed_in_results: true
+    record_type: "Research software"
+    title: "lostlight530/research-software-identity-audit: Beta— Research Runtime Bootstrap"
+    publisher: "Zenodo"
+    doi: "10.5281/zenodo.23166491"
+    author_display: "lostlight530"
+  independent_fetch_status: "UNRESOLVED"
+  interpretation: "The 11-link OpenAIRE result count is an operational discovery count and does not expand the fixed ten-object corpus."
