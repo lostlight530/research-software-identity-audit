@@ -20,3 +20,8 @@ later as preregistered prospective observations.
 Post-release reconciliation records may also be stored here when they observe
 the research-control repository or scholarly infrastructure before an eligible
 fixed-corpus release begins the prospective dataset.
+
+## Current reconciliation packages
+
+- `2026-10-06-wave-01/` — pre-eligibility Wave 1 monitoring
+- `2026-10-07-independent-facility-audit/` — supplied independent public-platform audit reconciliation; canonical RS joins normalized; supplementary institution-facing surfaces retained outside the frozen denominator; unresolved evidence gaps preserved
