@@ -62,6 +62,15 @@ The source also reports RSD, OSF/Internet Archive, HAL, and RRID/SciCrunch state
 - HAL: ORCID query returned zero public results; this is not treated as evidence that no deposit was submitted
 - RRID: one resolver attempt failed and another official path returned 403; `SCR_029105` remains an assigned identifier from prior user-held registry evidence, while public resolver readability is unresolved in this capture
 
+## Same-day reconciliation addendum
+
+Later same-day clarification is preserved in
+`reconciliation-addendum.md`. It links the 2026-10-06 OpenAlex
+`30 cached / 40 live` checkpoint to the supplied 2026-10-07 count of 41,
+records the eight supplied OpenAlex primary topics, separates RRID assignment
+from public-index visibility, and preserves the beta `lostlight530` creator
+display as version-scoped metadata history.
+
 ## Evidence gaps and unresolved discrepancies
 
 ### Missing row-level 70-check matrix
