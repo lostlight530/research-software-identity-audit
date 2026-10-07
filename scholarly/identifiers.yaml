@@ -1,5 +1,5 @@
 schema_version: "1.0"
-recorded_date: "2026-10-06"
+recorded_date: "2026-10-07"
 
 repository:
   github: "https://github.com/lostlight530/research-software-identity-audit"
@@ -29,13 +29,31 @@ osf:
     url: "https://osf.io/wa5v8"
     role: "associated live OSF project"
 
+
+research_software_directory:
+  software_url: "https://research-software-directory.org/software/research-software-identity-audit"
+  role: "public registry/directory record for the research-control repository"
+  corpus_membership_effect: "none"
+  related_constellation_project: false
+  note: "The RSD Agentic Research Constellation groups RS01-RS10 only; this audit runtime remains a separate software record."
+
+rrid:
+  identifier: "SCR_029105"
+  resource_name: "Research Software Identity Audit"
+  assignment_state: "assigned"
+  curation_state: "ongoing"
+  public_resolver_readability_2026_10_07: "unresolved"
+  assignment_basis: "prior user-held registry evidence"
+  corpus_membership_effect: "none"
+  note: "A failed/403 resolver read does not negate prior identifier assignment evidence."
+
 author:
   name: "lightlost"
   website: "https://github.com/lostlight530"
   orcid: "https://orcid.org/0009-0001-3617-0832"
 
 identity_boundary:
-  statement: "GitHub repository, Zenodo concept record, Zenodo version record, OSF registration, OSF project, and ORCID identity are linked but non-equivalent scholarly objects."
+  statement: "GitHub repository, Zenodo concept/version records, OSF registration/project, ORCID identity, RSD record, and RRID registry identity are linked but non-equivalent scholarly objects; RSD/RRID do not expand the fixed ten-object corpus."
 
 release_history:
   - tag: "beta"

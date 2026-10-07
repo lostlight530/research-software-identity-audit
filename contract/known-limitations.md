@@ -29,3 +29,15 @@ Rate limits, pagination, platform errors, and endpoint availability can prevent 
 ## KL-005 — Analytical layers and operational platforms differ
 
 The frozen research contract defines six scholarly-infrastructure layers. Operational evidence collection may use multiple concrete platforms within one layer. In the current mapping, OpenAIRE and OpenAlex are separate platforms under the single preregistered `discovery_graph` layer. Platform-level checks improve observability but do not change the six-layer contract or the 60 object-layer units per scheduled timepoint.
+
+## KL-006 — Supplementary institution-facing surfaces are outside the frozen platform vocabulary
+
+Research Software Directory, SciCrunch/RRID Registry, OSF/Internet Archive relationship surfaces, HAL, and similar institutional or registry surfaces may provide useful identity, curation, preservation, or relationship evidence without belonging to the seven operational platforms currently mapped to the frozen six-layer research contract.
+
+**Handling:** record them as supplementary surfaces unless a future explicit amendment changes the operational study contract. Their presence must not silently change the 10 × 6 = 60 preregistered object-layer denominator or relabel the 10 × 7 = 70 possible platform checks.
+
+## KL-007 — Summary-level imports do not substitute for raw request evidence
+
+A conversation-level or narrative audit summary may reference request logs, response bytes, checksums, scripts, or row-level matrices that are not themselves available to the repository updater.
+
+**Handling:** preserve the summary with explicit provenance, materialize only derivations supported by supplied fields, mark unavailable raw artifacts as evidence gaps, and do not fabricate missing request/response evidence.

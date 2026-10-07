@@ -1,0 +1,135 @@
+schema_version: "1.0"
+record_id: "independent-facility-audit-2026-10-07-144545"
+record_class: "pre_eligibility_monitoring"
+prospective_dataset_member: false
+reason_not_prospective: "No eligible post-registration fixed-corpus release event is recorded before this capture."
+
+source:
+  class: "conversation_supplied_independent_audit_summary"
+  collection_window_start: "2026-10-07T14:45:45.460815+08:00"
+  collection_window_end: "2026-10-07T14:56:19.143805+08:00"
+  timezone: "Asia/Shanghai"
+  updater_reexecuted_full_external_collection: false
+  raw_request_log_available_to_updater: false
+  raw_response_manifest_available_to_updater: false
+  claimed_platform_matrix_rows: 70
+  platform_matrix_materialized_here: false
+
+fixed_corpus:
+  object_count: 10
+  canonical_manifest: "corpus/object-manifest.csv"
+  preregistered_layer_count: 6
+  preregistered_units_per_scheduled_timepoint: 60
+  operational_platform_count: 7
+  possible_object_platform_checks: 70
+  platform_checks_replace_preregistered_denominator: false
+
+github:
+  supplied_release_count: 10
+  supplied_release_tag: "v2026.10-open-research-production-framework"
+
+zenodo:
+  family_views: 695
+  family_unique_views: 664
+  family_downloads: 7
+  family_unique_downloads: 6
+  current_version_views: 54
+  current_version_unique_views: 46
+  current_version_downloads: 0
+  supplied_total_zip_bytes: 29282855
+  prior_preserved_total_zip_bytes: 29261316
+  byte_difference: 21539
+  byte_difference_interpretation: "UNRESOLVED"
+  mutation_inferred: false
+  resolution_requirement: "Compare the ten row-level file sizes and checksums referenced by the supplied audit against the prior preserved package manifest."
+
+datacite:
+  fixed_corpus_dois_checked: 40
+  fixed_corpus_findable: 40
+  fixed_corpus_resource_type: "Software"
+  supplementary_dois_checked: 4
+  total_explicit_dois_checked: 44
+  scope:
+    fixed_corpus: 40
+    osf_registration: 1
+    audit_runtime_zenodo: 3
+  temporal_delta_inferred: false
+
+orcid:
+  groups_total: 12
+  summaries_total: 54
+  fixed_corpus_groups: 10
+  fixed_corpus_summaries: 50
+  audit_runtime_groups: 1
+  audit_runtime_summaries: 3
+  osf_groups: 1
+  osf_summaries: 1
+  source_distribution:
+    datacite: 33
+    openaire: 11
+    author_added: 10
+  same_total_means_no_change: false
+  diff_requirement: "Put-code/source-level diff required to establish concrete changes."
+
+software_heritage:
+  zenodo_origin_full_visit_count: 10
+  zenodo_origin_deposit_release: 3
+  directory_endpoint_resolved_count: 10
+  github_origin_latest_visit_readable_count: 9
+  github_origin_unresolved:
+    object_id: "RS03"
+    repository: "Axiom-0"
+    state: "unresolved"
+    reason: "Supplied audit reports two endpoint connection failures."
+  zip_content_bytewise_comparison_run: false
+
+openaire:
+  current_version_doi_matches: 10
+  supplied_record_type: "software"
+  supplied_status: "UNDER_CURATION"
+
+openalex:
+  author_id: "A5151904252"
+  author_work_count: 41
+  software_work_count: 40
+  other_work_count: 1
+  all_open_access: true
+  primary_topic_count: 8
+  fixed_corpus_doi_matches: 40
+  osf_registration_work_id: "W7220380722"
+  osf_registration_referenced_work_id: "W7220470293"
+  referenced_work_role: "audit-runtime beta software"
+  causal_ingestion_edge_inferred: false
+
+supplementary_surfaces:
+  research_software_directory:
+    reported_published_software_records: 11
+    fixed_corpus_records: 10
+    audit_runtime_records: 1
+    project: "Agentic Research Constellation"
+    project_reported_public: true
+    contract_membership: "supplementary_only"
+  osf_internet_archive:
+    registration_id: "5b329"
+    reported_osf_api_success: true
+    reported_archive_metadata_success: true
+    contract_membership: "study_contract_and_supplementary_archive_surface"
+  hal:
+    orcid_query_public_results: 0
+    absence_inferred: false
+    reason: "Zero public results do not establish whether a submitted deposit exists or is pending."
+    contract_membership: "supplementary_only"
+  rrid:
+    identifier: "SCR_029105"
+    assignment_basis: "prior user-held registry evidence"
+    resolver_state_this_capture: "unresolved"
+    resolver_observations:
+      - "connection failure"
+      - "official resolver path returned 403"
+    public_catalog_readability_confirmed: false
+    contract_membership: "supplementary_only"
+
+canonical_mapping_reconciliation:
+  source_used_prior_incorrect_display_order: true
+  derived_files_use_manifest: true
+  correction_reference: "baseline/2026-10-05/correction-object-id-mapping-2026-10-06.md"

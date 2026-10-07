@@ -1,0 +1,11 @@
+object_id,repository,github_origin_latest_readable_visit,zenodo_origin_visit,deposit_release,directory_swhid,github_route_state,zenodo_route_state
+RS01,welcome-to-github,2026-09-29T13:20:19.474000+00:00,2026-10-04T13:00:41.918000+00:00,3,swh:1:dir:3ad8a323c86b6841db6938380f3b550a13e1169d,readable,resolved
+RS02,zero-entropy-lab,2026-10-05T21:41:06.261000+00:00,2026-10-04T13:00:55.157000+00:00,3,swh:1:dir:b0d6cf7fde2dd5ee24ad2bce52e833b5522be4b3,readable,resolved
+RS03,Axiom-0,,2026-10-04T13:00:54.142000+00:00,3,swh:1:dir:37515356b20b8773208155ec2761c8355c04de62,unresolved_connection_failure,resolved
+RS04,reflective-continuum,2026-09-28T18:46:05.460000+00:00,2026-10-04T13:00:58.442000+00:00,3,swh:1:dir:972e8f68490a529239cd47f3a2b3402db44b97b7,readable,resolved
+RS05,agent-foundations,2026-09-16T07:32:06.452000+00:00,2026-10-04T13:01:08.321000+00:00,3,swh:1:dir:e75d029ae4c3af53cd038e9be84dd68c72ae438c,readable,resolved
+RS06,auto-doc-engine,2026-10-02T05:57:26.956000+00:00,2026-10-04T13:01:12.373000+00:00,3,swh:1:dir:ea408b9dfc6c87e4dd9e45930a041227e8e1074f,readable,resolved
+RS07,epistemic-pipeline,2026-09-28T22:50:01.041000+00:00,2026-10-04T13:01:20.484000+00:00,3,swh:1:dir:0046c4c2050d6f4ed7b867a8bf22758d7a8aa750,readable,resolved
+RS08,sci-render-kit,2026-09-16T07:35:28.635000+00:00,2026-10-04T13:01:20.550000+00:00,3,swh:1:dir:32ff747a4fe7f633007ed117999483d68d01c578,readable,resolved
+RS09,china-agentic-observatory,2026-09-28T00:59:57.737000+00:00,2026-10-04T13:01:08.375000+00:00,3,swh:1:dir:6698aec95fe6b22309c4c73dab7303c3a64ee46e,readable,resolved
+RS10,agentic-frontier-observatory,2026-09-28T01:02:35.538000+00:00,2026-10-04T13:01:12.345000+00:00,3,swh:1:dir:f35e8fdcdd5fec69e5a00a3c4d82dddf3a263dce,readable,resolved

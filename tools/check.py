@@ -220,6 +220,76 @@ def check_canonical_object_mapping() -> None:
             fail("Wave 1 view delta total must be 41")
 
 
+
+def check_20261007_monitoring() -> None:
+    base = ROOT / "monitoring/2026-10-07-independent-facility-audit"
+    summary_path = base / "normalized-summary.yaml"
+    snapshot_path = base / "zenodo-openalex-snapshot.csv"
+    swh_path = base / "swh-routes.csv"
+
+    for path in (summary_path, snapshot_path, swh_path, base / "mapping-reconciliation.md",
+                 base / "supplied-source-summary.md", base / "README.md"):
+        if not path.is_file():
+            fail(f"missing 2026-10-07 monitoring artifact: {path.relative_to(ROOT)}")
+
+    with (ROOT / "corpus/object-manifest.csv").open(encoding="utf-8", newline="") as handle:
+        manifest_rows = list(csv.DictReader(handle))
+    canonical = {
+        row["object_id"]: row["software_family"]
+        for row in manifest_rows
+    }
+
+    with snapshot_path.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    if [row["object_id"] for row in rows] != EXPECTED_OBJECTS:
+        fail("2026-10-07 snapshot rows must remain RS01-RS10 in canonical order")
+    observed = {row["object_id"]: row["repository"] for row in rows}
+    if observed != canonical:
+        fail(f"2026-10-07 snapshot object joins drifted from manifest: {observed}")
+    if sum(int(row["family_views"]) for row in rows) != 695:
+        fail("2026-10-07 Zenodo family views must sum to 695")
+    if sum(int(row["family_unique_views"]) for row in rows) != 664:
+        fail("2026-10-07 Zenodo family unique views must sum to 664")
+    if sum(int(row["family_downloads"]) for row in rows) != 7:
+        fail("2026-10-07 Zenodo family downloads must sum to 7")
+    if any(int(row["orcid_source_summaries"]) != 5 for row in rows):
+        fail("2026-10-07 fixed-corpus ORCID summaries must remain five per software family")
+
+    with swh_path.open(encoding="utf-8", newline="") as handle:
+        swh_rows = list(csv.DictReader(handle))
+    if [row["object_id"] for row in swh_rows] != EXPECTED_OBJECTS:
+        fail("2026-10-07 SWH rows must remain RS01-RS10 in canonical order")
+    swh_observed = {row["object_id"]: row["repository"] for row in swh_rows}
+    if swh_observed != canonical:
+        fail("2026-10-07 SWH object joins drifted from manifest")
+    if sum(row["zenodo_route_state"] == "resolved" for row in swh_rows) != 10:
+        fail("2026-10-07 supplied Zenodo-origin SWH routes must retain ten resolved rows")
+    if sum(row["github_route_state"] == "unresolved_connection_failure" for row in swh_rows) != 1:
+        fail("2026-10-07 GitHub-origin SWH route must retain one unresolved connection failure")
+
+    summary = summary_path.read_text(encoding="utf-8")
+    for token in (
+        'record_class: "pre_eligibility_monitoring"',
+        "prospective_dataset_member: false",
+        "preregistered_layer_count: 6",
+        "operational_platform_count: 7",
+        "possible_object_platform_checks: 70",
+        "platform_checks_replace_preregistered_denominator: false",
+        "family_views: 695",
+        "family_unique_views: 664",
+        "family_downloads: 7",
+        "family_unique_downloads: 6",
+        "supplied_total_zip_bytes: 29282855",
+        "prior_preserved_total_zip_bytes: 29261316",
+        "byte_difference: 21539",
+        'byte_difference_interpretation: "UNRESOLVED"',
+        "platform_matrix_materialized_here: false",
+        'identifier: "SCR_029105"',
+    ):
+        if token not in summary:
+            fail(f"2026-10-07 monitoring summary missing invariant: {token}")
+
+
 def check_repository_governance() -> None:
     required_files = (
         "LICENSE",
@@ -291,6 +361,7 @@ def main() -> int:
         check_data_handling,
         check_repository_governance,
         check_canonical_object_mapping,
+        check_20261007_monitoring,
     ]
 
     failures: list[str] = []
