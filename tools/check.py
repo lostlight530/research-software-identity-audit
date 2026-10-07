@@ -228,7 +228,8 @@ def check_20261007_monitoring() -> None:
     swh_path = base / "swh-routes.csv"
 
     for path in (summary_path, snapshot_path, swh_path, base / "mapping-reconciliation.md",
-                 base / "supplied-source-summary.md", base / "README.md"):
+                 base / "supplied-source-summary.md", base / "reconciliation-addendum.md",
+                 base / "README.md"):
         if not path.is_file():
             fail(f"missing 2026-10-07 monitoring artifact: {path.relative_to(ROOT)}")
 
@@ -285,6 +286,14 @@ def check_20261007_monitoring() -> None:
         'byte_difference_interpretation: "UNRESOLVED"',
         "platform_matrix_materialized_here: false",
         'identifier: "SCR_029105"',
+        "author_work_count: 41",
+        "author_profile_cached_works_count: 30",
+        "live_author_works_query_count: 40",
+        'comparability_state: "PARTIAL"',
+        '- "Scientific Computing and Data Management"',
+        '- "Research Data Management Practices"',
+        'identifier_assignment_state: "assigned"',
+        'public_indexing_state: "pending"',
     ):
         if token not in summary:
             fail(f"2026-10-07 monitoring summary missing invariant: {token}")
