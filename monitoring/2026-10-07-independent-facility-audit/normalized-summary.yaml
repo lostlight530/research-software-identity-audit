@@ -95,10 +95,29 @@ openalex:
   other_work_count: 1
   all_open_access: true
   primary_topic_count: 8
+  primary_topics:
+    - "Scientific Computing and Data Management"
+    - "Software Engineering Research"
+    - "Multi-Agent Systems and Negotiation"
+    - "Ethics and Social Impacts of AI"
+    - "Security and Verification in Computing"
+    - "Graph Theory and Algorithms"
+    - "Artificial Intelligence Applications"
+    - "Research Data Management Practices"
   fixed_corpus_doi_matches: 40
   osf_registration_work_id: "W7220380722"
   osf_registration_referenced_work_id: "W7220470293"
   referenced_work_role: "audit-runtime beta software"
+  previous_checkpoint:
+    reference: "../2026-10-06-1130-final-reconciliation/normalized-summary.yaml"
+    author_profile_cached_works_count: 30
+    author_profile_updated_date: "2026-10-01T12:39:15"
+    live_author_works_query_count: 40
+  cross_snapshot:
+    current_reported_author_work_count: 41
+    change_from_previous_live_query_if_comparable: 1
+    comparability_state: "PARTIAL"
+    interpretation: "The 30 value was a cached author-profile count while 40 was a live Works query at the same 2026-10-06 checkpoint. The 2026-10-07 supplied audit reports 41 works; preserve all three values and do not collapse them into an unqualified 30-to-41 delta."
   causal_ingestion_edge_inferred: false
 
 supplementary_surfaces:
@@ -122,11 +141,16 @@ supplementary_surfaces:
   rrid:
     identifier: "SCR_029105"
     assignment_basis: "prior user-held registry evidence"
+    identifier_assignment_state: "assigned"
+    curation_state: "ongoing"
+    public_indexing_state: "pending"
+    expected_public_indexing_delay: "approximately 2 business days (user-supplied platform guidance)"
     resolver_state_this_capture: "unresolved"
     resolver_observations:
       - "connection failure"
       - "official resolver path returned 403"
     public_catalog_readability_confirmed: false
+    interpretation: "Identifier assignment and curation state are distinct from resolver/public-index visibility. The failed/403 reads are retained as historical request outcomes and do not negate SCR_029105 assignment."
     contract_membership: "supplementary_only"
 
 canonical_mapping_reconciliation:
