@@ -42,10 +42,13 @@ rrid:
   resource_name: "Research Software Identity Audit"
   assignment_state: "assigned"
   curation_state: "ongoing"
+  public_indexing_state: "pending"
+  expected_public_indexing_delay: "approximately 2 business days"
+  expected_public_indexing_delay_source: "user-supplied platform guidance on 2026-10-07"
   public_resolver_readability_2026_10_07: "unresolved"
   assignment_basis: "prior user-held registry evidence"
   corpus_membership_effect: "none"
-  note: "A failed/403 resolver read does not negate prior identifier assignment evidence."
+  note: "Assignment, curation, public indexing, and resolver readability are separate states. A failed/403 resolver read does not negate prior identifier assignment evidence."
 
 author:
   name: "lightlost"
