@@ -40,7 +40,11 @@ fixed_corpus:
   platform_checks_replace_preregistered_denominator: false
 
 source_reported_four_period_series:
-  t0_label: "historical baseline"
+  t0_label: "source-labeled historical baseline / repository-reconciled Wave-1 cutoff comparison ledger"
+  t0_zenodo_family_views: 575
+  baseline_package_later_retrieved_family_views: 581
+  baseline_package_later_retrieval_approx: "2026-10-06T00:33:54+08:00"
+  t0_575_replaces_baseline_manifest_581: false
   t1_label: "source-labeled Wave 1"
   t2_label: "source-labeled Wave 2"
   t3_label: "source-labeled Wave 3"
