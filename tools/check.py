@@ -299,6 +299,113 @@ def check_20261007_monitoring() -> None:
             fail(f"2026-10-07 monitoring summary missing invariant: {token}")
 
 
+def check_20261008_morning() -> None:
+    base = ROOT / "monitoring/2026-10-08-morning-recheck"
+    summary_path = base / "normalized-summary.yaml"
+    delta_path = base / "ten-repository-zenodo-delta.csv"
+    agent_path = base / "agent-cohort-owned-rows.csv"
+
+    for path in (
+        base / "README.md",
+        base / "source-summary.md",
+        base / "source-wave3-final-record.md",
+        summary_path,
+        delta_path,
+        agent_path,
+        base / "independent-verification.md",
+    ):
+        if not path.is_file():
+            fail(f"missing 2026-10-08 morning artifact: {path.relative_to(ROOT)}")
+
+    with (ROOT / "corpus/object-manifest.csv").open(encoding="utf-8", newline="") as handle:
+        manifest_rows = list(csv.DictReader(handle))
+    canonical = {row["object_id"]: row["software_family"] for row in manifest_rows}
+
+    with delta_path.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    if [row["object_id"] for row in rows] != EXPECTED_OBJECTS:
+        fail("2026-10-08 delta rows must remain RS01-RS10 in canonical order")
+    if {row["object_id"]: row["repository"] for row in rows} != canonical:
+        fail("2026-10-08 delta object joins drifted from canonical manifest")
+    if sum(int(row["previous_family_views"]) for row in rows) != 695:
+        fail("2026-10-08 prior family-view total must be 695")
+    if sum(int(row["current_family_views"]) for row in rows) != 775:
+        fail("2026-10-08 current family-view total must be 775")
+    if sum(int(row["delta_family_views"]) for row in rows) != 80:
+        fail("2026-10-08 family-view delta total must be 80")
+    if sum(int(row["current_family_downloads"]) for row in rows) != 7:
+        fail("2026-10-08 family downloads must sum to 7")
+
+    with agent_path.open(encoding="utf-8", newline="") as handle:
+        agent_rows = list(csv.DictReader(handle))
+    expected_agent = {
+        "RS10": ("agentic-frontier-observatory", "8"),
+        "RS09": ("china-agentic-observatory", "9"),
+        "RS05": ("agent-foundations", "10"),
+        "RS07": ("epistemic-pipeline", "11"),
+    }
+    observed_agent = {
+        row["object_id"]: (row["repository"], row["current_rank"])
+        for row in agent_rows
+    }
+    if observed_agent != expected_agent:
+        fail(f"2026-10-08 source-reported Agent owned rows drifted: {observed_agent}")
+    if any(row["verification_class"] != "source_reported" for row in agent_rows):
+        fail("Agent cohort rows must remain source_reported until independently rerun")
+
+    summary = summary_path.read_text(encoding="utf-8")
+    for token in (
+        'record_class: "pre_eligibility_monitoring"',
+        "prospective_dataset_member: false",
+        'collection_window_start: "2026-10-08T08:12+08:00"',
+        'collection_window_end: "2026-10-08T08:26+08:00"',
+        "preregistered_units_per_scheduled_timepoint: 60",
+        "possible_object_platform_checks: 70",
+        "family_views: 775",
+        "family_unique_views_sum: 733",
+        "current_version_views: 70",
+        "audit_runtime_in_fixed_corpus_totals: false",
+        "groups_total: 14",
+        "summaries_total: 56",
+        "exact_release_pages_readable: 10",
+        "fixed_corpus_dois_readable: 40",
+        "fixed_corpus_resource_type_software: 40",
+        "preserved_october_directory_swhids_readable: 10",
+        "current_version_exact_doi_matches: 10",
+        "live_works_query_count: 43",
+        "author_profile_works_count: 41",
+        "fixed_corpus_software_records_under_main_author: 40",
+        'work_id: "W7220365356"',
+        'work_id: "W7220737563"',
+        'work_id: "W7220470293"',
+        'work_id: "W7220380722"',
+        'statistics_rest_fetch_state: "BLOCKED_UNEXPECTED_CONTENT_TYPE"',
+        "source_reported_14_groups_independently_reconstructed: false",
+        "source_reported_56_summaries_independently_reconstructed: false",
+        "independent_full_rerun: false",
+        'independent_verification_state: "UNRESOLVED"',
+        'identifier: "SCR_029105"',
+        'source_declared_observation_cutoff: "2026-10-08T08:35:00+08:00"',
+        'source_declared_dataset_phase: "prospective"',
+        "t0_zenodo_family_views: 575",
+        "baseline_package_later_retrieved_family_views: 581",
+        "t0_575_replaces_baseline_manifest_581: false",
+        'repository_adjudicated_dataset_phase: "pre_eligibility_monitoring"',
+        'source_defined_fixed_study_scope_count: 41',
+        "live_works_query_count: 43",
+        "package_bytes_t2_to_t3_equal: true",
+        "bytewise_identity_t2_to_t3_independently_verified: false",
+        "source_wave3_used_prior_display_order_for_rs06_rs10: true",
+        'canonical_rs06: "auto-doc-engine"',
+        'canonical_rs07: "epistemic-pipeline"',
+        'canonical_rs09: "china-agentic-observatory"',
+        'canonical_rs10: "agentic-frontier-observatory"',
+        'state: "PARTIALLY_INDEPENDENTLY_VERIFIED_WITH_CONTRACT_RECONCILIATION"',
+    ):
+        if token not in summary:
+            fail(f"2026-10-08 morning summary missing invariant: {token}")
+
+
 def check_repository_governance() -> None:
     required_files = (
         "LICENSE",
@@ -371,6 +478,7 @@ def main() -> int:
         check_repository_governance,
         check_canonical_object_mapping,
         check_20261007_monitoring,
+        check_20261008_morning,
     ]
 
     failures: list[str] = []

@@ -1,0 +1,245 @@
+schema_version: "1.0"
+record_id: "morning-recheck-2026-10-08"
+record_class: "pre_eligibility_monitoring"
+prospective_dataset_member: false
+reason_not_prospective: "No eligible post-registration fixed-corpus release event is recorded before this recheck; independently read GitHub release pages remain the 2026-10-04 release."
+
+source:
+  class: "conversation_supplied_local_audit_summary"
+  collection_window_start: "2026-10-08T08:12+08:00"
+  collection_window_end: "2026-10-08T08:26+08:00"
+  timestamp_precision: "minute"
+  as_of_label: "before 2026-10-08T08:30+08:00"
+  timezone: "Asia/Shanghai"
+  synchronous_single_instant_claimed: false
+  local_report_files:
+    - "TenRepositoryMorningRecheck20261008.md"
+    - "AgentCohortRefresh20261008.md"
+  local_report_files_read_by_updater: false
+  local_report_unavailable_reason: "Authorized desktop device was offline during updater execution."
+  source_reported_check_counts:
+    identity_chain: 192
+    agent_cohort: 868
+  later_supplied_final_record:
+    title: "Wave 3 Observation Record 终版"
+    source_declared_observation_cutoff: "2026-10-08T08:35:00+08:00"
+    source_declared_observation_cutoff_utc: "2026-10-08T00:35:00Z"
+    source_declared_dataset_phase: "prospective"
+    source_declared_wave_number: 3
+    repository_adjudicated_dataset_phase: "pre_eligibility_monitoring"
+    repository_adjudicated_prospective_member: false
+    adjudication_reason: "No eligible post-registration fixed-corpus release event is evidenced; all ten independently read GitHub release pages remain the 2026-10-04 release."
+
+fixed_corpus:
+  object_count: 10
+  canonical_manifest: "corpus/object-manifest.csv"
+  preregistered_layer_count: 6
+  preregistered_units_per_scheduled_timepoint: 60
+  operational_platform_count: 7
+  possible_object_platform_checks: 70
+  platform_checks_replace_preregistered_denominator: false
+
+source_reported_four_period_series:
+  t0_label: "source-labeled historical baseline / repository-reconciled Wave-1 cutoff comparison ledger"
+  t0_zenodo_family_views: 575
+  baseline_package_later_retrieved_family_views: 581
+  baseline_package_later_retrieval_approx: "2026-10-06T00:33:54+08:00"
+  t0_575_replaces_baseline_manifest_581: false
+  t1_label: "source-labeled Wave 1"
+  t2_label: "source-labeled Wave 2"
+  t3_label: "source-labeled Wave 3"
+  repository_note: "Source wave labels are preserved as provenance; T1-T3 are not promoted to preregistered prospective observations by this repository."
+  zenodo_family_views: [575, 616, 695, 775]
+  zenodo_family_downloads: [7, 7, 7, 7]
+  package_bytes: [29261316, 29282855, 29282855, 29282855]
+  audit_runtime_family_views: [0, 2, 33, 47]
+  source_defined_openalex_fixed_study_scope: [40, 40, 41, 41]
+  rsd_public_records: [0, 0, 11, 11]
+  internet_archive_mirror_packages: [5, 5, 5, 5]
+  package_bytes_t2_to_t3_equal: true
+  bytewise_identity_t2_to_t3_independently_verified: false
+
+source_reported_metrics:
+  zenodo:
+    previous_family_views: 695
+    family_views: 775
+    delta_family_views: 80
+    delta_family_views_percent_approx: 11.5
+    previous_family_unique_views_sum: 664
+    family_unique_views_sum: 733
+    delta_family_unique_views_sum: 69
+    unique_views_cross_repository_deduplicated: false
+    family_downloads: 7
+    previous_current_version_views: 54
+    current_version_views: 70
+    delta_current_version_views: 16
+    current_version_downloads: 0
+    audit_runtime_family_views: 47
+    audit_runtime_family_unique_views: 45
+    audit_runtime_family_downloads: 0
+    audit_runtime_in_fixed_corpus_totals: false
+  openalex:
+    source_defined_fixed_study_scope_count: 41
+    source_defined_fixed_study_scope_definition: "40 fixed-corpus Software works + 1 OSF registration; audit-runtime works excluded"
+    previous_live_author_works_count: 41
+    current_live_author_works_count: 43
+    delta_live_author_works_count: 2
+    fixed_corpus_software_works: 40
+    audit_runtime_main_author_software_works: 2
+    osf_registration_other_works: 1
+  orcid:
+    previous_groups_total: 12
+    groups_total: 14
+    previous_summaries_total: 54
+    summaries_total: 56
+    fixed_corpus_groups: 10
+    fixed_corpus_summaries: 50
+    remaining_groups: 4
+    remaining_summaries: 6
+    remaining_group_composition_inferred: false
+  rsd:
+    public_software_records: 11
+
+independent_verification:
+  execution_date: "2026-10-08"
+  exact_retrieval_timestamp: "UNAVAILABLE_FROM_CONNECTOR"
+  not_backdated_to_source_window: true
+  raw_response_bytes_preserved_here: false
+  github:
+    exact_release_pages_requested: 10
+    exact_release_pages_readable: 10
+    release_tag: "v2026.10-open-research-production-framework"
+    published_date: "2026-10-04"
+    state: "fully_verified"
+  zenodo:
+    current_version_human_pages_requested: 10
+    current_version_human_pages_readable: 10
+    audit_runtime_current_version_human_page_readable: true
+    human_pages_exposed_file_checksums: true
+    statistics_rest_fetch_state: "BLOCKED_UNEXPECTED_CONTENT_TYPE"
+    human_page_statistics_exposed_to_extractor: false
+    source_reported_775_views_independently_verified: false
+    source_reported_733_unique_views_sum_independently_verified: false
+    state: "partially_verified"
+  datacite:
+    fixed_corpus_dois_requested: 40
+    fixed_corpus_dois_readable: 40
+    fixed_corpus_resource_type_software: 40
+    state: "fully_verified"
+  orcid:
+    public_works_endpoint_readable: true
+    datacite_source_label_occurrences: 35
+    openaire_source_label_occurrences: 11
+    audit_runtime_identifiers_visible: true
+    xml_group_structure_preserved_by_extractor: false
+    source_reported_14_groups_independently_reconstructed: false
+    source_reported_56_summaries_independently_reconstructed: false
+    interpretation: "The public endpoint independently supports additional DataCite-source presence, but flattened extraction does not support a strict independent group/summary recount."
+    state: "partially_verified"
+  software_heritage:
+    preserved_october_directory_swhids_requested: 10
+    preserved_october_directory_swhids_readable: 10
+    state: "fully_verified"
+  openaire:
+    current_version_exact_doi_queries: 10
+    current_version_exact_doi_matches: 10
+    software_records: 10
+    under_curation_records: 10
+    state: "fully_verified"
+  openalex:
+    author_id: "A5151904252"
+    author_profile_works_count: 41
+    author_profile_updated_date: "2026-10-06T12:31:48"
+    live_works_query_count: 43
+    fixed_corpus_exact_dois_requested: 40
+    fixed_corpus_exact_dois_readable: 40
+    fixed_corpus_software_records_under_main_author: 40
+    audit_runtime_concept:
+      work_id: "W7220365356"
+      doi: "10.5281/zenodo.23166490"
+      author_id: "A5151904252"
+      type: "software"
+      cited_by_count: 0
+    audit_runtime_current_version:
+      work_id: "W7220737563"
+      doi: "10.5281/zenodo.23176748"
+      author_id: "A5151904252"
+      type: "software"
+      cited_by_count: 0
+    audit_runtime_beta:
+      work_id: "W7220470293"
+      doi: "10.5281/zenodo.23166491"
+      author_id: "A5157531946"
+      type: "software"
+      cited_by_count: 1
+    osf_registration:
+      work_id: "W7220380722"
+      doi: "10.17605/osf.io/5b329"
+      author_id: "A5151904252"
+      type: "other"
+      references_beta_work: true
+      cited_by_count: 0
+    external_citation_in_checked_audit_lineage: "not_observed"
+    state: "fully_verified_for_declared_fields"
+  rsd:
+    audit_runtime_software_page_readable: true
+    constellation_project_page_readable: true
+    audit_runtime_page_states_not_eleventh_object: true
+    source_reported_11_record_total_independently_reconstructed: false
+    state: "partially_verified"
+
+source_reported_agent_cohort:
+  cohort_family_count: 432
+  all_families_rechecked: 432
+  check_count: 868
+  ranking_metric: "cumulative Zenodo family views"
+  four_owned_rows_current_ranks:
+    agentic_frontier_observatory: 8
+    china_agentic_observatory: 9
+    agent_foundations: 10
+    epistemic_pipeline: 11
+  independent_full_rerun: false
+  reason: "Local cohort report/input files were unavailable because the authorized desktop device was offline, and the independent Zenodo statistics path did not expose counters."
+  contract_membership: "exploratory_supplementary"
+
+remaining_states:
+  rse_pr_498:
+    source_reported_state: "not_merged"
+    independent_verification_state: "UNRESOLVED"
+    reason: "Repository/URL for PR #498 is not present in available updater evidence."
+  hal:
+    source_reported_public_results: 0
+    absence_inferred: false
+    independent_verification_state: "UNRESOLVED"
+  rrid:
+    identifier: "SCR_029105"
+    assignment_state: "assigned"
+    curation_state: "ongoing"
+    source_reported_resolver_state: "HTTP_403"
+    public_absence_inferred: false
+    independent_verification_state: "UNRESOLVED"
+
+source_mapping_reconciliation:
+  source_wave3_used_prior_display_order_for_rs06_rs10: true
+  canonical_manifest_authoritative: true
+  source_rs06: "china-agentic-observatory"
+  source_rs07: "agentic-frontier-observatory"
+  source_rs08: "sci-render-kit"
+  source_rs09: "auto-doc-engine"
+  source_rs10: "epistemic-pipeline"
+  canonical_rs06: "auto-doc-engine"
+  canonical_rs07: "epistemic-pipeline"
+  canonical_rs08: "sci-render-kit"
+  canonical_rs09: "china-agentic-observatory"
+  canonical_rs10: "agentic-frontier-observatory"
+  derived_csv_uses_canonical_mapping: true
+
+repository_conclusion:
+  source_terminal_label: "ALL_INVARIANTS_CONSERVED_AND_VERIFIED"
+  adopted_without_qualification: false
+  state: "PARTIALLY_INDEPENDENTLY_VERIFIED_WITH_CONTRACT_RECONCILIATION"
+  reasons:
+    - "No eligible post-registration fixed-corpus release event was evidenced; prospective classification not adopted."
+    - "OpenAlex 41 is retained as fixed-study scope while live main-author Works query is 43."
+    - "Aggregate package-size equality does not independently establish bytewise identity."
+    - "RSD aggregate 11 and full 432-family Agent ranking were not independently reconstructed in this updater."
