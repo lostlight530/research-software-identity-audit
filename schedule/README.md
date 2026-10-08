@@ -19,3 +19,11 @@ This directory is the authoritative repository-side location for operational sch
 No concrete operational offsets are declared by this bootstrap commit.
 
 That is intentional: the repository does not invent a schedule absent from the frozen registration text.
+
+## Supplied OSF Overview alignment (2026-10-08)
+
+The supplied registration Overview says the prospective window starts on the **first eligible new fixed-corpus release after registration**, continues at **predefined** observation points, and stops after the final planned follow-up point is **attempted** across all ten objects and six layers. Access errors or unresolved observations do not automatically extend the window.
+
+This repository still has **no declared concrete offsets or fully specified timepoint list**. The text supplied for comparison provides no such offsets. That remains an operational prerequisite/gap, **not** permission to invent preregistered times, backdate an operational schedule, or promote the 2026-10-06–08 monitoring packages into prospective evidence.
+
+See [OSF Overview crosswalk](../contract/osf-overview-crosswalk-2026-10-08.md). No schedule declaration is created by this note.
