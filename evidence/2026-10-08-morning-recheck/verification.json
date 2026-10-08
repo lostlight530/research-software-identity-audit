@@ -1,0 +1,727 @@
+{
+  "checks": 180,
+  "failed": 0,
+  "scope": "Offline verification of retained source bytes, canonical joins, exact counters, file-size totals, ORCID source/fixed-corpus groups and OpenAlex type/primary-topic reconstruction; no fresh platform observation",
+  "checks_detail": [
+    {
+      "name": "capture-byte SHA256 RS01_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size RS01_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order RS01_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 RS02_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size RS02_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order RS02_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 RS03_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size RS03_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order RS03_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 RS04_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size RS04_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order RS04_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 RS05_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size RS05_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order RS05_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 RS06_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size RS06_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order RS06_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 RS07_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size RS07_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order RS07_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 RS08_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size RS08_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order RS08_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 RS09_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size RS09_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order RS09_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 RS10_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size RS10_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order RS10_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 orcid.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size orcid.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order orcid.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 rsd_software.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size rsd_software.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order rsd_software.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 openalex_author.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size openalex_author.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order openalex_author.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 openalex_primary_profile.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size openalex_primary_profile.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order openalex_primary_profile.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 openalex_secondary_profile.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size openalex_secondary_profile.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order openalex_secondary_profile.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 openalex_secondary_works.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size openalex_secondary_works.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order openalex_secondary_works.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte SHA256 companion_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "capture-byte size companion_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "timestamp order companion_zenodo.json",
+      "passed": true
+    },
+    {
+      "name": "fixed ten distinct families",
+      "passed": true
+    },
+    {
+      "name": "canonical repository join welcome-to-github",
+      "passed": true
+    },
+    {
+      "name": "record and DOI identity welcome-to-github",
+      "passed": true
+    },
+    {
+      "name": "captured counter welcome-to-github/views",
+      "passed": true
+    },
+    {
+      "name": "captured counter welcome-to-github/unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter welcome-to-github/downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter welcome-to-github/unique_downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter welcome-to-github/version_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter welcome-to-github/version_unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter welcome-to-github/version_downloads",
+      "passed": true
+    },
+    {
+      "name": "canonical repository join zero-entropy-lab",
+      "passed": true
+    },
+    {
+      "name": "record and DOI identity zero-entropy-lab",
+      "passed": true
+    },
+    {
+      "name": "captured counter zero-entropy-lab/views",
+      "passed": true
+    },
+    {
+      "name": "captured counter zero-entropy-lab/unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter zero-entropy-lab/downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter zero-entropy-lab/unique_downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter zero-entropy-lab/version_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter zero-entropy-lab/version_unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter zero-entropy-lab/version_downloads",
+      "passed": true
+    },
+    {
+      "name": "canonical repository join Axiom-0",
+      "passed": true
+    },
+    {
+      "name": "record and DOI identity Axiom-0",
+      "passed": true
+    },
+    {
+      "name": "captured counter Axiom-0/views",
+      "passed": true
+    },
+    {
+      "name": "captured counter Axiom-0/unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter Axiom-0/downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter Axiom-0/unique_downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter Axiom-0/version_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter Axiom-0/version_unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter Axiom-0/version_downloads",
+      "passed": true
+    },
+    {
+      "name": "canonical repository join reflective-continuum",
+      "passed": true
+    },
+    {
+      "name": "record and DOI identity reflective-continuum",
+      "passed": true
+    },
+    {
+      "name": "captured counter reflective-continuum/views",
+      "passed": true
+    },
+    {
+      "name": "captured counter reflective-continuum/unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter reflective-continuum/downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter reflective-continuum/unique_downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter reflective-continuum/version_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter reflective-continuum/version_unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter reflective-continuum/version_downloads",
+      "passed": true
+    },
+    {
+      "name": "canonical repository join agent-foundations",
+      "passed": true
+    },
+    {
+      "name": "record and DOI identity agent-foundations",
+      "passed": true
+    },
+    {
+      "name": "captured counter agent-foundations/views",
+      "passed": true
+    },
+    {
+      "name": "captured counter agent-foundations/unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter agent-foundations/downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter agent-foundations/unique_downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter agent-foundations/version_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter agent-foundations/version_unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter agent-foundations/version_downloads",
+      "passed": true
+    },
+    {
+      "name": "canonical repository join auto-doc-engine",
+      "passed": true
+    },
+    {
+      "name": "record and DOI identity auto-doc-engine",
+      "passed": true
+    },
+    {
+      "name": "captured counter auto-doc-engine/views",
+      "passed": true
+    },
+    {
+      "name": "captured counter auto-doc-engine/unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter auto-doc-engine/downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter auto-doc-engine/unique_downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter auto-doc-engine/version_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter auto-doc-engine/version_unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter auto-doc-engine/version_downloads",
+      "passed": true
+    },
+    {
+      "name": "canonical repository join epistemic-pipeline",
+      "passed": true
+    },
+    {
+      "name": "record and DOI identity epistemic-pipeline",
+      "passed": true
+    },
+    {
+      "name": "captured counter epistemic-pipeline/views",
+      "passed": true
+    },
+    {
+      "name": "captured counter epistemic-pipeline/unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter epistemic-pipeline/downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter epistemic-pipeline/unique_downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter epistemic-pipeline/version_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter epistemic-pipeline/version_unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter epistemic-pipeline/version_downloads",
+      "passed": true
+    },
+    {
+      "name": "canonical repository join sci-render-kit",
+      "passed": true
+    },
+    {
+      "name": "record and DOI identity sci-render-kit",
+      "passed": true
+    },
+    {
+      "name": "captured counter sci-render-kit/views",
+      "passed": true
+    },
+    {
+      "name": "captured counter sci-render-kit/unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter sci-render-kit/downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter sci-render-kit/unique_downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter sci-render-kit/version_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter sci-render-kit/version_unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter sci-render-kit/version_downloads",
+      "passed": true
+    },
+    {
+      "name": "canonical repository join china-agentic-observatory",
+      "passed": true
+    },
+    {
+      "name": "record and DOI identity china-agentic-observatory",
+      "passed": true
+    },
+    {
+      "name": "captured counter china-agentic-observatory/views",
+      "passed": true
+    },
+    {
+      "name": "captured counter china-agentic-observatory/unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter china-agentic-observatory/downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter china-agentic-observatory/unique_downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter china-agentic-observatory/version_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter china-agentic-observatory/version_unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter china-agentic-observatory/version_downloads",
+      "passed": true
+    },
+    {
+      "name": "canonical repository join agentic-frontier-observatory",
+      "passed": true
+    },
+    {
+      "name": "record and DOI identity agentic-frontier-observatory",
+      "passed": true
+    },
+    {
+      "name": "captured counter agentic-frontier-observatory/views",
+      "passed": true
+    },
+    {
+      "name": "captured counter agentic-frontier-observatory/unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter agentic-frontier-observatory/downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter agentic-frontier-observatory/unique_downloads",
+      "passed": true
+    },
+    {
+      "name": "captured counter agentic-frontier-observatory/version_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter agentic-frontier-observatory/version_unique_views",
+      "passed": true
+    },
+    {
+      "name": "captured counter agentic-frontier-observatory/version_downloads",
+      "passed": true
+    },
+    {
+      "name": "aggregate counter views",
+      "passed": true
+    },
+    {
+      "name": "aggregate counter unique_views",
+      "passed": true
+    },
+    {
+      "name": "aggregate counter downloads",
+      "passed": true
+    },
+    {
+      "name": "aggregate counter unique_downloads",
+      "passed": true
+    },
+    {
+      "name": "aggregate counter version_views",
+      "passed": true
+    },
+    {
+      "name": "aggregate counter version_unique_views",
+      "passed": true
+    },
+    {
+      "name": "aggregate counter version_downloads",
+      "passed": true
+    },
+    {
+      "name": "aggregate Zenodo file bytes",
+      "passed": true
+    },
+    {
+      "name": "aggregate current-version unique downloads",
+      "passed": true
+    },
+    {
+      "name": "ORCID group structure",
+      "passed": true
+    },
+    {
+      "name": "ORCID source summary structure",
+      "passed": true
+    },
+    {
+      "name": "ORCID fixed-corpus group count",
+      "passed": true
+    },
+    {
+      "name": "ORCID fixed-corpus family coverage",
+      "passed": true
+    },
+    {
+      "name": "ORCID fixed-corpus summary count",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227011523",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227012111",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227010982",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227011738",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227012534",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227011487",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227010940",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227012487",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227012388",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227010837",
+      "passed": true
+    },
+    {
+      "name": "ORCID source distribution",
+      "passed": true
+    },
+    {
+      "name": "OpenAlex list count",
+      "passed": true
+    },
+    {
+      "name": "OpenAlex returned count",
+      "passed": true
+    },
+    {
+      "name": "OpenAlex type distribution",
+      "passed": true
+    },
+    {
+      "name": "OpenAlex primary-topic set",
+      "passed": true
+    },
+    {
+      "name": "RSD public records",
+      "passed": true
+    },
+    {
+      "name": "preserved monitoring status",
+      "passed": true
+    },
+    {
+      "name": "public artifact digest evidence/2026-10-08-morning-recheck/README.md",
+      "passed": true
+    },
+    {
+      "name": "public artifact digest evidence/2026-10-08-morning-recheck/platform-responses.tar.gz",
+      "passed": true
+    },
+    {
+      "name": "public artifact digest evidence/2026-10-08-morning-recheck/response-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "public artifact digest monitoring/2026-10-08-morning-recheck/zenodo-statistics.csv",
+      "passed": true
+    },
+    {
+      "name": "public artifact digest monitoring/2026-10-08-morning-recheck/retained-capture-summary.json",
+      "passed": true
+    },
+    {
+      "name": "public artifact digest monitoring/2026-10-08-morning-recheck/reconciliation-addendum.md",
+      "passed": true
+    },
+    {
+      "name": "public artifact digest tools/check_retained_morning_evidence.py",
+      "passed": true
+    }
+  ]
+}

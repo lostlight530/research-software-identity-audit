@@ -1,0 +1,11 @@
+object_id,repository,record_id,concept_doi,version_doi,views,unique_views,downloads,unique_downloads,version_views,version_unique_views,version_downloads,captured_at_utc,raw_archive_member
+RS01,welcome-to-github,23137203,10.5281/zenodo.22790907,10.5281/zenodo.23137203,98,94,4,3,4,3,0,2026-10-08T00:12:59.490555+00:00,RS01_zenodo.json
+RS02,zero-entropy-lab,23137204,10.5281/zenodo.22791081,10.5281/zenodo.23137204,75,68,0,0,10,5,0,2026-10-08T00:13:03.610462+00:00,RS02_zenodo.json
+RS03,Axiom-0,23137205,10.5281/zenodo.22791103,10.5281/zenodo.23137205,93,88,0,0,4,4,0,2026-10-08T00:13:06.555788+00:00,RS03_zenodo.json
+RS04,reflective-continuum,23137206,10.5281/zenodo.22791141,10.5281/zenodo.23137206,52,49,0,0,2,1,0,2026-10-08T00:13:09.674376+00:00,RS04_zenodo.json
+RS05,agent-foundations,23137207,10.5281/zenodo.22791169,10.5281/zenodo.23137207,78,72,1,1,2,2,0,2026-10-08T00:13:12.990423+00:00,RS05_zenodo.json
+RS06,auto-doc-engine,23137215,10.5281/zenodo.22791404,10.5281/zenodo.23137215,59,55,0,0,7,6,0,2026-10-08T00:13:33.813132+00:00,RS09_zenodo.json
+RS07,epistemic-pipeline,23137216,10.5281/zenodo.22791463,10.5281/zenodo.23137216,74,72,0,0,6,6,0,2026-10-08T00:13:36.657929+00:00,RS10_zenodo.json
+RS08,sci-render-kit,23137219,10.5281/zenodo.22791375,10.5281/zenodo.23137219,65,63,1,1,3,2,0,2026-10-08T00:13:30.043593+00:00,RS08_zenodo.json
+RS09,china-agentic-observatory,23137211,10.5281/zenodo.22791309,10.5281/zenodo.23137211,88,83,0,0,17,16,0,2026-10-08T00:13:18.917809+00:00,RS06_zenodo.json
+RS10,agentic-frontier-observatory,23137214,10.5281/zenodo.22791334,10.5281/zenodo.23137214,93,89,1,1,15,15,0,2026-10-08T00:13:24.522577+00:00,RS07_zenodo.json

@@ -243,3 +243,15 @@ repository_conclusion:
     - "OpenAlex 41 is retained as fixed-study scope while live main-author Works query is 43."
     - "Aggregate package-size equality does not independently establish bytewise identity."
     - "RSD aggregate 11 and full 432-family Agent ranking were not independently reconstructed in this updater."
+
+retained_capture_reconciliation:
+  evidence_imported: true
+  original_collector: "Codex local public-API collector"
+  fresh_live_observation: false
+  observation_class: "pre_eligibility_monitoring"
+  evidence_manifest: "evidence/2026-10-08-morning-recheck/response-manifest.json"
+  derived_counters: "monitoring/2026-10-08-morning-recheck/zenodo-statistics.csv"
+  capture_summary: "monitoring/2026-10-08-morning-recheck/retained-capture-summary.json"
+  reconciliation_addendum: "monitoring/2026-10-08-morning-recheck/reconciliation-addendum.md"
+  prior_updater_classifications_preserved: true
+  ranking_added_by_this_reconciliation: false

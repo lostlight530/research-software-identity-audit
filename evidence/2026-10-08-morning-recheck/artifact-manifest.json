@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "evidence/2026-10-08-morning-recheck/README.md",
+      "sha256": "88082a8cd4fbbfbf2d3a30a2c0cf9a91df851553a40bc5bcd384219d02f89394",
+      "bytes": 1499
+    },
+    {
+      "path": "evidence/2026-10-08-morning-recheck/platform-responses.tar.gz",
+      "sha256": "48fcbf92c858d0bb227d70610a65a3e57faa50d0d5c9b57c4ae92fdbca7051b5",
+      "bytes": 49504
+    },
+    {
+      "path": "evidence/2026-10-08-morning-recheck/response-manifest.json",
+      "sha256": "31c36cae57df0eae915d5d668a026d9d75df0c289d604014c535667bb97702b3",
+      "bytes": 6892
+    },
+    {
+      "path": "monitoring/2026-10-08-morning-recheck/zenodo-statistics.csv",
+      "sha256": "3a2dd54402045a742e43ccecc7a174c0baac2a7568a09fb74b97e3e4779928e5",
+      "bytes": 1672
+    },
+    {
+      "path": "monitoring/2026-10-08-morning-recheck/retained-capture-summary.json",
+      "sha256": "2f2d715181abbda493b8e4f00c9f1bea50f1080608c6ec2861989c680621643c",
+      "bytes": 1974
+    },
+    {
+      "path": "monitoring/2026-10-08-morning-recheck/reconciliation-addendum.md",
+      "sha256": "e8c468bcf739581d1be6211313ba2419e7e61a898012e4d1d001df964b2cbf46",
+      "bytes": 7627
+    },
+    {
+      "path": "tools/check_retained_morning_evidence.py",
+      "sha256": "c276b5dcb7a29545f8c906748e5d8cf069703e03135a53233f63e21fa6b75231",
+      "bytes": 5505
+    }
+  ]
+}

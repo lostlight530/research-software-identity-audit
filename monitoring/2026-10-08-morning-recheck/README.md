@@ -113,3 +113,11 @@ Blocked or not independently rerun:
 - `ten-repository-zenodo-delta.csv` — canonical RS01–RS10 source-reported view delta
 - `agent-cohort-owned-rows.csv` — four source-reported owned rows in the 432-family exploratory cohort
 - `independent-verification.md` — independent endpoint procedure and bounded outcomes
+
+
+## Retained capture reconciliation
+
+The original collector has supplied timestamped files following the existing evidence / monitoring layout
+See [the reconciliation addendum](reconciliation-addendum.md), [Zenodo statistics](zenodo-statistics.csv), [capture summary](retained-capture-summary.json) and [retained evidence](../../evidence/2026-10-08-morning-recheck/README.md)
+The prior updater's source-reported and blocked outcomes remain its historical verification state
+This adds source evidence for the original capture, not a fresh network observation
