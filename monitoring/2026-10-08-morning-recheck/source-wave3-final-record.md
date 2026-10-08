@@ -58,7 +58,13 @@ silently rewritten.
 
 ## Source-reported four-period metrics
 
-| measure | T0 2026-10-05 | T1 2026-10-06 | T2 2026-10-07 | T3 2026-10-08 | T3 vs T2 |
+The source labels 575 as T0. Repository reconciliation treats 575 as the
+**Wave-1 cutoff comparison ledger**. It does not replace the baseline package's
+separately preserved `family_views: 581`, which was actually retrieved around
+2026-10-06 00:33 Asia/Shanghai and is explicitly not backdated to the
+2026-10-05 cutoff.
+
+| measure | source T0 / cutoff ledger | T1 2026-10-06 | T2 2026-10-07 | T3 2026-10-08 | T3 vs T2 |
 |---|---:|---:|---:|---:|---:|
 | ten-family Zenodo views | 575 | 616 | 695 | 775 | +80 |
 | ten-family downloads | 7 | 7 | 7 | 7 | 0 |
