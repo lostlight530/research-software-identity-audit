@@ -25,3 +25,4 @@ fixed-corpus release begins the prospective dataset.
 
 - `2026-10-06-wave-01/` — pre-eligibility Wave 1 monitoring
 - `2026-10-07-independent-facility-audit/` — supplied independent public-platform audit reconciliation; canonical RS joins normalized; supplementary institution-facing surfaces retained outside the frozen denominator; unresolved evidence gaps preserved
+- `2026-10-08-morning-recheck/` — morning monitoring package separating conversation-supplied local audit results from a new independent public-endpoint verification pass; blocked and partial checks preserved without promotion
