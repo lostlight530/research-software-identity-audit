@@ -4,6 +4,10 @@
 
 固定十软件家族独立复查，伴随审计软件、OSF 与两个 WorkflowHub 工作流单列，记录阶段为 pre_eligibility_monitoring
 
+The retained 17-response supplement directly materializes the Zenodo, ORCID, OpenAlex, RSD, and companion-Zenodo claims described below
+Other platform results retain their original collector provenance or earlier independent-verification provenance and are not members of this 17-response archive
+The eight OpenAlex topics below are distinct primary topics across the retained works list, not the primary-profile topics array
+
 ## 核心结果
 
 | 指标 | 10 月 7 日独立快照 | 本轮 10 月 8 日 | 差分 |
@@ -88,7 +92,7 @@ OSF 注册与 Internet Archive 保存副本本轮响应成功，固定软件未�
 身份链首轮 167 次请求，8 次连接超时分别作一次补查，补查及依赖目录查询 10 次全部成功，RRID 403 保留，主采集日志共 177 次，RSE 与工作流 OpenAlex 扩展另有 5 次
 本轮数据检查 192 项，失败 0 项
 
-[Public retained evidence](../../evidence/2026-10-08-morning-recheck/README.md) · [Public retained evidence](../../evidence/2026-10-08-morning-recheck/README.md) · [Public retained evidence](../../evidence/2026-10-08-morning-recheck/README.md) · [Public retained evidence](../../evidence/2026-10-08-morning-recheck/README.md)
+[Public retained evidence](../../evidence/2026-10-08-morning-recheck/README.md)
 
 
 

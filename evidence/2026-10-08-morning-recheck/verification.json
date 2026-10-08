@@ -1,7 +1,7 @@
 {
-  "checks": 161,
+  "checks": 180,
   "failed": 0,
-  "scope": "Offline verification of retained source bytes, canonical joins, exact counters and public group/list reconstruction; no fresh platform observation",
+  "scope": "Offline verification of retained source bytes, canonical joins, exact counters, file-size totals, ORCID source/fixed-corpus groups and OpenAlex type/primary-topic reconstruction; no fresh platform observation",
   "checks_detail": [
     {
       "name": "capture-byte SHA256 RS01_zenodo.json",
@@ -600,6 +600,14 @@
       "passed": true
     },
     {
+      "name": "aggregate Zenodo file bytes",
+      "passed": true
+    },
+    {
+      "name": "aggregate current-version unique downloads",
+      "passed": true
+    },
+    {
       "name": "ORCID group structure",
       "passed": true
     },
@@ -608,7 +616,75 @@
       "passed": true
     },
     {
+      "name": "ORCID fixed-corpus group count",
+      "passed": true
+    },
+    {
+      "name": "ORCID fixed-corpus family coverage",
+      "passed": true
+    },
+    {
+      "name": "ORCID fixed-corpus summary count",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227011523",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227012111",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227010982",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227011738",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227012534",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227011487",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227010940",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227012487",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227012388",
+      "passed": true
+    },
+    {
+      "name": "ORCID unnamed source is record owner 227010837",
+      "passed": true
+    },
+    {
+      "name": "ORCID source distribution",
+      "passed": true
+    },
+    {
       "name": "OpenAlex list count",
+      "passed": true
+    },
+    {
+      "name": "OpenAlex returned count",
+      "passed": true
+    },
+    {
+      "name": "OpenAlex type distribution",
+      "passed": true
+    },
+    {
+      "name": "OpenAlex primary-topic set",
       "passed": true
     },
     {
