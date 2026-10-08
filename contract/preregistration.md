@@ -43,3 +43,11 @@ Concrete execution times therefore belong in `schedule/` with their own timestam
 2. Dated amendments control explicit post-registration changes.
 3. Dated operational specifications control implementation details that do not rewrite the substantive contract.
 4. Exploratory work remains labeled exploratory/post hoc.
+
+## Clause-level Overview crosswalk (2026-10-08)
+
+The researcher's supplied OSF Overview was compared against the live repository without rewriting the frozen registration or historical captures. The [clause-level crosswalk](osf-overview-crosswalk-2026-10-08.md) maps RQ1–RQ5, the 12 measured-variable categories, six descriptive derived analyses, prior foreknowledge, no imputation/exclusions, prospective eligibility, stopping and the experimental/exploratory boundary.
+
+In that supplied Overview, `Other planned analysis` is marked **Updated**. Without an independently preserved OSF version history or edit timestamp, the wording must **not** be asserted to have belonged to the originally frozen registration. Existing benchmarks remain exploratory/post hoc regardless of that unresolved revision history.
+
+This addition is explanatory, **not** an amendment or declaration that a prospective observation window has started.
