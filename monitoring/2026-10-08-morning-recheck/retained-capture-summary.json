@@ -1,0 +1,63 @@
+{
+  "record_class": "pre_eligibility_monitoring",
+  "prospective_dataset_member": false,
+  "evidence_class": "original_collector_retained_evidence_import",
+  "fresh_live_recheck_on_import": false,
+  "fixed_object_count": 10,
+  "analytical_layers": 6,
+  "analytical_units": 60,
+  "operational_platforms": 7,
+  "possible_checks": 70,
+  "zenodo_totals": {
+    "views": 775,
+    "unique_views": 733,
+    "downloads": 7,
+    "unique_downloads": 6,
+    "version_views": 70,
+    "version_unique_views": 60,
+    "version_downloads": 0,
+    "version_unique_downloads": 0,
+    "file_bytes": 29282855
+  },
+  "orcid": {
+    "group_count": 14,
+    "summary_count": 56,
+    "sources": {
+      "DataCite": 35,
+      "OpenAIRE": 11,
+      "author/unnamed": 10
+    },
+    "fixed_corpus_groups": 10,
+    "fixed_corpus_summaries": 50
+  },
+  "openalex": {
+    "count": 43,
+    "returned": 43,
+    "types": {
+      "software": 42,
+      "other": 1
+    },
+    "topics": [
+      "Artificial Intelligence Applications",
+      "Ethics and Social Impacts of AI",
+      "Graph Theory and Algorithms",
+      "Multi-Agent Systems and Negotiation",
+      "Research Data Management Practices",
+      "Scientific Computing and Data Management",
+      "Security and Verification in Computing",
+      "Software Engineering Research"
+    ]
+  },
+  "rsd_public_records": 11,
+  "identity_original_checks": 192,
+  "raw_identity_response_naming": "Historical local IDs preserved in raw filenames; canonical repository IDs used in derived CSV",
+  "self_visit_attribution": "Not measured; one-hour uniqueness does not exclude daily author visits",
+  "evidence_import_prepared_at_utc": "2026-10-08T01:07:20.315624+00:00",
+  "daily_author_visits_excluded_by_unique_counter": false,
+  "derived_historical_version_views": {
+    "prior_family_minus_v3": 641,
+    "current_family_minus_v3": 705,
+    "delta": 64,
+    "visitor_attribution_measured": false
+  }
+}

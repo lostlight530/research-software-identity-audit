@@ -1,0 +1,158 @@
+{
+  "collection": "Retained October 8 local capture; imported after PR19, not a new live observation",
+  "responses": [
+    {
+      "archive_member": "RS01_zenodo.json",
+      "url": "https://zenodo.org/api/records/23137203",
+      "started_at_utc": "2026-10-08T00:12:58.297044+00:00",
+      "finished_at_utc": "2026-10-08T00:12:59.490555+00:00",
+      "http_status": 200,
+      "sha256": "36c9a91929aa976360c80e5c660bf18d13d518375124a84232f20a9ff8b51ef0",
+      "bytes": 4704
+    },
+    {
+      "archive_member": "RS02_zenodo.json",
+      "url": "https://zenodo.org/api/records/23137204",
+      "started_at_utc": "2026-10-08T00:13:02.509050+00:00",
+      "finished_at_utc": "2026-10-08T00:13:03.610462+00:00",
+      "http_status": 200,
+      "sha256": "db2a5e38dc13dd70cc31d377514a421134b0cc6959b196666e8407d2b2492463",
+      "bytes": 4679
+    },
+    {
+      "archive_member": "RS03_zenodo.json",
+      "url": "https://zenodo.org/api/records/23137205",
+      "started_at_utc": "2026-10-08T00:13:05.393902+00:00",
+      "finished_at_utc": "2026-10-08T00:13:06.555788+00:00",
+      "http_status": 200,
+      "sha256": "54613b9f71c5c8f22e8c5cf48ce00acc30498261b4e5bf66fc818f098b64d0c8",
+      "bytes": 4618
+    },
+    {
+      "archive_member": "RS04_zenodo.json",
+      "url": "https://zenodo.org/api/records/23137206",
+      "started_at_utc": "2026-10-08T00:13:08.567063+00:00",
+      "finished_at_utc": "2026-10-08T00:13:09.674376+00:00",
+      "http_status": 200,
+      "sha256": "661dc15fdbb6b38ed8526cd5bc401323a8b3553bbd64b42fbbc50a152a92fe92",
+      "bytes": 4705
+    },
+    {
+      "archive_member": "RS05_zenodo.json",
+      "url": "https://zenodo.org/api/records/23137207",
+      "started_at_utc": "2026-10-08T00:13:11.845421+00:00",
+      "finished_at_utc": "2026-10-08T00:13:12.990423+00:00",
+      "http_status": 200,
+      "sha256": "7e45ee3b409e4227842f60e94c685f5cb6d0299c1fc7e093575f615a0f2a9eda",
+      "bytes": 4683
+    },
+    {
+      "archive_member": "RS06_zenodo.json",
+      "url": "https://zenodo.org/api/records/23137211",
+      "started_at_utc": "2026-10-08T00:13:17.788923+00:00",
+      "finished_at_utc": "2026-10-08T00:13:18.917809+00:00",
+      "http_status": 200,
+      "sha256": "56e436beedc8a20dc40cd89b57f0ee74aaa104a9d9ccac92f59a694f18997449",
+      "bytes": 4763
+    },
+    {
+      "archive_member": "RS07_zenodo.json",
+      "url": "https://zenodo.org/api/records/23137214",
+      "started_at_utc": "2026-10-08T00:13:23.475312+00:00",
+      "finished_at_utc": "2026-10-08T00:13:24.522577+00:00",
+      "http_status": 200,
+      "sha256": "aed3b5e57569b488c92f85fcc6866c717bf7ab657dd689100b5483a0e42ed4bd",
+      "bytes": 4813
+    },
+    {
+      "archive_member": "RS08_zenodo.json",
+      "url": "https://zenodo.org/api/records/23137219",
+      "started_at_utc": "2026-10-08T00:13:28.953386+00:00",
+      "finished_at_utc": "2026-10-08T00:13:30.043593+00:00",
+      "http_status": 200,
+      "sha256": "7b52d1dffdde7774e506bb51e2a49f7b281b6fecc22692dd942ab2c206f392c6",
+      "bytes": 4717
+    },
+    {
+      "archive_member": "RS09_zenodo.json",
+      "url": "https://zenodo.org/api/records/23137215",
+      "started_at_utc": "2026-10-08T00:13:32.731500+00:00",
+      "finished_at_utc": "2026-10-08T00:13:33.813132+00:00",
+      "http_status": 200,
+      "sha256": "0882cb6059357c335ed3e045d3dcaea3b0310554e4efb4aaf645f709092ad78d",
+      "bytes": 4716
+    },
+    {
+      "archive_member": "RS10_zenodo.json",
+      "url": "https://zenodo.org/api/records/23137216",
+      "started_at_utc": "2026-10-08T00:13:35.609668+00:00",
+      "finished_at_utc": "2026-10-08T00:13:36.657929+00:00",
+      "http_status": 200,
+      "sha256": "9393ad2b2a09c0d9c381d5d1ad5718bd4ac8c54dfe06e4f51cfb8ba2881e9a95",
+      "bytes": 4725
+    },
+    {
+      "archive_member": "orcid.json",
+      "url": "https://pub.orcid.org/v3.0/0009-0001-3617-0832/works",
+      "started_at_utc": "2026-10-08T00:13:37.987586+00:00",
+      "finished_at_utc": "2026-10-08T00:13:39.871364+00:00",
+      "http_status": 200,
+      "sha256": "8ecf281f91d72bfe94ef1aec0312b899604d08c3d7ad76a4f54c3596e740fa0a",
+      "bytes": 86020
+    },
+    {
+      "archive_member": "rsd_software.json",
+      "url": "https://research-software-directory.org/api/v1/software?select=*&slug=in.(welcome-to-github,zero-entropy-lab,axiom-0,reflective-continuum,agent-foundations,china-agentic-observatory,agentic-frontier-observatory,sci-render-kit,auto-doc-engine,epistemic-pipeline,research-software-identity-audit)",
+      "started_at_utc": "2026-10-08T00:13:39.671997+00:00",
+      "finished_at_utc": "2026-10-08T00:13:41.464146+00:00",
+      "http_status": 200,
+      "sha256": "160a3a6320f310d68def422f6fcdf063126e054239e81464a516e065a8ec9a1e",
+      "bytes": 8263
+    },
+    {
+      "archive_member": "openalex_author.json",
+      "url": "https://api.openalex.org/works?filter=author.id:A5151904252&per-page=100",
+      "started_at_utc": "2026-10-08T00:13:38.331523+00:00",
+      "finished_at_utc": "2026-10-08T00:13:39.671997+00:00",
+      "http_status": 200,
+      "sha256": "c0f3a014591cf9366590447adbf8ed3cc4d64c50fd02ef4a982d7d0bfe8435be",
+      "bytes": 384581
+    },
+    {
+      "archive_member": "openalex_primary_profile.json",
+      "url": "https://api.openalex.org/authors/A5151904252",
+      "started_at_utc": "2026-10-08T00:13:42.804184+00:00",
+      "finished_at_utc": "2026-10-08T00:13:43.483323+00:00",
+      "http_status": 200,
+      "sha256": "7a00cf958786482f2889e7b520994131ea8517f15b9ea759e665e8503e857e69",
+      "bytes": 5272
+    },
+    {
+      "archive_member": "openalex_secondary_profile.json",
+      "url": "https://api.openalex.org/authors/A5157531946",
+      "started_at_utc": "2026-10-08T00:13:42.973708+00:00",
+      "finished_at_utc": "2026-10-08T00:13:43.674021+00:00",
+      "http_status": 200,
+      "sha256": "f59f3881d48497fc1e791aa671e324c5bf5fc045ad7c233da1791201b629fa34",
+      "bytes": 3692
+    },
+    {
+      "archive_member": "openalex_secondary_works.json",
+      "url": "https://api.openalex.org/works?filter=authorships.author.id:A5157531946&include_xpac=true&per-page=100",
+      "started_at_utc": "2026-10-08T00:13:43.410874+00:00",
+      "finished_at_utc": "2026-10-08T00:13:44.442226+00:00",
+      "http_status": 200,
+      "sha256": "599f5e5fb27ec9665f30a1008b4742cce57328fdea6276ff9c10b43ad039781a",
+      "bytes": 15958
+    },
+    {
+      "archive_member": "companion_zenodo.json",
+      "url": "https://zenodo.org/api/records/23176748",
+      "started_at_utc": "2026-10-08T00:13:44.041017+00:00",
+      "finished_at_utc": "2026-10-08T00:13:45.050690+00:00",
+      "http_status": 200,
+      "sha256": "54f4504de31c779026bd922594f2fbbfbde1ef0b4ae14196326fb862d7af4358",
+      "bytes": 4675
+    }
+  ]
+}
