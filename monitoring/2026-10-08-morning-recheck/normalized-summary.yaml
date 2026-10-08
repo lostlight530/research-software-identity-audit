@@ -20,6 +20,15 @@ source:
   source_reported_check_counts:
     identity_chain: 192
     agent_cohort: 868
+  later_supplied_final_record:
+    title: "Wave 3 Observation Record 终版"
+    source_declared_observation_cutoff: "2026-10-08T08:35:00+08:00"
+    source_declared_observation_cutoff_utc: "2026-10-08T00:35:00Z"
+    source_declared_dataset_phase: "prospective"
+    source_declared_wave_number: 3
+    repository_adjudicated_dataset_phase: "pre_eligibility_monitoring"
+    repository_adjudicated_prospective_member: false
+    adjudication_reason: "No eligible post-registration fixed-corpus release event is evidenced; all ten independently read GitHub release pages remain the 2026-10-04 release."
 
 fixed_corpus:
   object_count: 10
@@ -29,6 +38,22 @@ fixed_corpus:
   operational_platform_count: 7
   possible_object_platform_checks: 70
   platform_checks_replace_preregistered_denominator: false
+
+source_reported_four_period_series:
+  t0_label: "historical baseline"
+  t1_label: "source-labeled Wave 1"
+  t2_label: "source-labeled Wave 2"
+  t3_label: "source-labeled Wave 3"
+  repository_note: "Source wave labels are preserved as provenance; T1-T3 are not promoted to preregistered prospective observations by this repository."
+  zenodo_family_views: [575, 616, 695, 775]
+  zenodo_family_downloads: [7, 7, 7, 7]
+  package_bytes: [29261316, 29282855, 29282855, 29282855]
+  audit_runtime_family_views: [0, 2, 33, 47]
+  source_defined_openalex_fixed_study_scope: [40, 40, 41, 41]
+  rsd_public_records: [0, 0, 11, 11]
+  internet_archive_mirror_packages: [5, 5, 5, 5]
+  package_bytes_t2_to_t3_equal: true
+  bytewise_identity_t2_to_t3_independently_verified: false
 
 source_reported_metrics:
   zenodo:
@@ -50,6 +75,8 @@ source_reported_metrics:
     audit_runtime_family_downloads: 0
     audit_runtime_in_fixed_corpus_totals: false
   openalex:
+    source_defined_fixed_study_scope_count: 41
+    source_defined_fixed_study_scope_definition: "40 fixed-corpus Software works + 1 OSF registration; audit-runtime works excluded"
     previous_live_author_works_count: 41
     current_live_author_works_count: 43
     delta_live_author_works_count: 2
@@ -187,3 +214,28 @@ remaining_states:
     source_reported_resolver_state: "HTTP_403"
     public_absence_inferred: false
     independent_verification_state: "UNRESOLVED"
+
+source_mapping_reconciliation:
+  source_wave3_used_prior_display_order_for_rs06_rs10: true
+  canonical_manifest_authoritative: true
+  source_rs06: "china-agentic-observatory"
+  source_rs07: "agentic-frontier-observatory"
+  source_rs08: "sci-render-kit"
+  source_rs09: "auto-doc-engine"
+  source_rs10: "epistemic-pipeline"
+  canonical_rs06: "auto-doc-engine"
+  canonical_rs07: "epistemic-pipeline"
+  canonical_rs08: "sci-render-kit"
+  canonical_rs09: "china-agentic-observatory"
+  canonical_rs10: "agentic-frontier-observatory"
+  derived_csv_uses_canonical_mapping: true
+
+repository_conclusion:
+  source_terminal_label: "ALL_INVARIANTS_CONSERVED_AND_VERIFIED"
+  adopted_without_qualification: false
+  state: "PARTIALLY_INDEPENDENTLY_VERIFIED_WITH_CONTRACT_RECONCILIATION"
+  reasons:
+    - "No eligible post-registration fixed-corpus release event was evidenced; prospective classification not adopted."
+    - "OpenAlex 41 is retained as fixed-study scope while live main-author Works query is 43."
+    - "Aggregate package-size equality does not independently establish bytewise identity."
+    - "RSD aggregate 11 and full 432-family Agent ranking were not independently reconstructed in this updater."
