@@ -6,6 +6,9 @@
 - prospective dataset member: **false**
 - source collection window: **2026-10-08 08:12–08:26 Asia/Shanghai**, minute resolution
 - source as-of label: **before 08:30 Asia/Shanghai**
+- later source-declared observation cutoff: **08:35:00 Asia/Shanghai**
+- later source-declared label: **prospective Wave 3**
+- repository adjudication of that label: **not adopted; remains pre-eligibility monitoring**
 - all platforms treated as one simultaneous 08:30 state: **no**
 - fixed corpus changed: **no**
 - preregistered layer denominator changed: **no**
@@ -15,6 +18,12 @@ recheck. The ten GitHub release pages independently verified here still point to
 the 2026-10-04 `v2026.10-open-research-production-framework` release. This
 package is therefore monitoring/reconciliation evidence, not a prospective
 scheduled timepoint.
+
+A later conversation message supplied a finalized "Wave 3 Observation Record".
+Its original phase label, 08:35 cutoff, invariant assertions, and old RS06-RS10
+display mapping are preserved in `source-wave3-final-record.md`. The repository
+reconciles that source against the frozen contract and canonical manifest rather
+than silently accepting conflicting labels.
 
 ## Source and independent-verification planes
 
@@ -99,6 +108,7 @@ Blocked or not independently rerun:
 ## Files
 
 - `source-summary.md` — source-reported morning audit
+- `source-wave3-final-record.md` — later source-declared Wave 3 final record plus contract/mapping reconciliation
 - `normalized-summary.yaml` — machine-readable source/verification separation
 - `ten-repository-zenodo-delta.csv` — canonical RS01–RS10 source-reported view delta
 - `agent-cohort-owned-rows.csv` — four source-reported owned rows in the 432-family exploratory cohort
