@@ -308,6 +308,7 @@ def check_20261008_morning() -> None:
     for path in (
         base / "README.md",
         base / "source-summary.md",
+        base / "source-wave3-final-record.md",
         summary_path,
         delta_path,
         agent_path,
@@ -384,6 +385,19 @@ def check_20261008_morning() -> None:
         "independent_full_rerun: false",
         'independent_verification_state: "UNRESOLVED"',
         'identifier: "SCR_029105"',
+        'source_declared_observation_cutoff: "2026-10-08T08:35:00+08:00"',
+        'source_declared_dataset_phase: "prospective"',
+        'repository_adjudicated_dataset_phase: "pre_eligibility_monitoring"',
+        'source_defined_fixed_study_scope_count: 41',
+        "live_works_query_count: 43",
+        "package_bytes_t2_to_t3_equal: true",
+        "bytewise_identity_t2_to_t3_independently_verified: false",
+        "source_wave3_used_prior_display_order_for_rs06_rs10: true",
+        'canonical_rs06: "auto-doc-engine"',
+        'canonical_rs07: "epistemic-pipeline"',
+        'canonical_rs09: "china-agentic-observatory"',
+        'canonical_rs10: "agentic-frontier-observatory"',
+        'state: "PARTIALLY_INDEPENDENTLY_VERIFIED_WITH_CONTRACT_RECONCILIATION"',
     ):
         if token not in summary:
             fail(f"2026-10-08 morning summary missing invariant: {token}")
