@@ -249,9 +249,9 @@ retained_capture_reconciliation:
   original_collector: "Codex local public-API collector"
   fresh_live_observation: false
   observation_class: "pre_eligibility_monitoring"
-  evidence_manifest: "evidence/2026-10-08-morning-recheck/response-manifest.json"
-  derived_counters: "monitoring/2026-10-08-morning-recheck/zenodo-statistics.csv"
-  capture_summary: "monitoring/2026-10-08-morning-recheck/retained-capture-summary.json"
-  reconciliation_addendum: "monitoring/2026-10-08-morning-recheck/reconciliation-addendum.md"
+  evidence_manifest: "evidence/2026-10-08/01-morning-recheck/capture-manifest.json"
+  derived_counters: "monitoring/2026-10-08/01-morning-recheck/zenodo-statistics.csv"
+  capture_summary: "monitoring/2026-10-08/01-morning-recheck/capture-summary.json"
+  reconciliation_addendum: "monitoring/2026-10-08/01-morning-recheck/reconciliation.md"
   prior_updater_classifications_preserved: true
   ranking_added_by_this_reconciliation: false

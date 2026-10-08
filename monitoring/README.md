@@ -21,8 +21,14 @@ Post-release reconciliation records may also be stored here when they observe
 the research-control repository or scholarly infrastructure before an eligible
 fixed-corpus release begins the prospective dataset.
 
-## Current reconciliation packages
+## Records by observation day
 
-- `2026-10-06-wave-01/` — pre-eligibility Wave 1 monitoring
-- `2026-10-07-independent-facility-audit/` — supplied independent public-platform audit reconciliation; canonical RS joins normalized; supplementary institution-facing surfaces retained outside the frozen denominator; unresolved evidence gaps preserved
-- `2026-10-08-morning-recheck/` — morning monitoring package separating conversation-supplied local audit results from a new independent public-endpoint verification pass; blocked and partial checks preserved without promotion
+- [2026-10-06 / 01-wave-01](2026-10-06/01-wave-01/) — first pre-eligibility monitoring, not a preregistered wave
+- [2026-10-06 / 02-openaire-link-attempt](2026-10-06/02-openaire-link-attempt/) — manual link attempt with bounded outcome
+- [2026-10-06 / 03-reconciliation](2026-10-06/03-reconciliation/) — later reconciliation, original timestamps retained
+- [2026-10-07 / 01-facility-audit](2026-10-07/01-facility-audit/) — supplied cross-platform audit and mapping reconciliation
+- [2026-10-08 / 01-morning-recheck](2026-10-08/01-morning-recheck/) — morning monitoring plus separately imported retained evidence
+
+For path rules and the complete old-to-new inventory, see [naming and migration](NAMING.md) and [path mapping](path-migration-2026-10-08.csv).
+
+The date is the record's source-observation date, not necessarily its retrieval or evidence-import date. Ordinals order packages within a date and are **not** prospective-wave identifiers.

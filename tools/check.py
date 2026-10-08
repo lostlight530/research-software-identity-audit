@@ -205,7 +205,7 @@ def check_canonical_object_mapping() -> None:
     if observed != expected:
         fail(f"baseline DOI map drifted from fixed corpus: {observed}")
 
-    delta_path = ROOT / "monitoring/2026-10-06-wave-01/zenodo-view-delta.csv"
+    delta_path = ROOT / "monitoring/2026-10-06/01-wave-01/zenodo-view-delta.csv"
     if delta_path.exists():
         with delta_path.open(encoding="utf-8", newline="") as handle:
             delta_rows = list(csv.DictReader(handle))
@@ -222,13 +222,13 @@ def check_canonical_object_mapping() -> None:
 
 
 def check_20261007_monitoring() -> None:
-    base = ROOT / "monitoring/2026-10-07-independent-facility-audit"
-    summary_path = base / "normalized-summary.yaml"
-    snapshot_path = base / "zenodo-openalex-snapshot.csv"
-    swh_path = base / "swh-routes.csv"
+    base = ROOT / "monitoring/2026-10-07/01-facility-audit"
+    summary_path = base / "record.yaml"
+    snapshot_path = base / "cross-platform-snapshot.csv"
+    swh_path = base / "software-heritage-routes.csv"
 
     for path in (summary_path, snapshot_path, swh_path, base / "mapping-reconciliation.md",
-                 base / "supplied-source-summary.md", base / "reconciliation-addendum.md",
+                 base / "source.md", base / "reconciliation.md",
                  base / "README.md"):
         if not path.is_file():
             fail(f"missing 2026-10-07 monitoring artifact: {path.relative_to(ROOT)}")
@@ -300,19 +300,19 @@ def check_20261007_monitoring() -> None:
 
 
 def check_20261008_morning() -> None:
-    base = ROOT / "monitoring/2026-10-08-morning-recheck"
-    summary_path = base / "normalized-summary.yaml"
-    delta_path = base / "ten-repository-zenodo-delta.csv"
-    agent_path = base / "agent-cohort-owned-rows.csv"
+    base = ROOT / "monitoring/2026-10-08/01-morning-recheck"
+    summary_path = base / "record.yaml"
+    delta_path = base / "zenodo-view-delta.csv"
+    agent_path = base / "agent-cohort.csv"
 
     for path in (
         base / "README.md",
-        base / "source-summary.md",
-        base / "source-wave3-final-record.md",
+        base / "source-01-morning-audit.md",
+        base / "source-02-wave3-declaration.md",
         summary_path,
         delta_path,
         agent_path,
-        base / "independent-verification.md",
+        base / "verification.md",
     ):
         if not path.is_file():
             fail(f"missing 2026-10-08 morning artifact: {path.relative_to(ROOT)}")

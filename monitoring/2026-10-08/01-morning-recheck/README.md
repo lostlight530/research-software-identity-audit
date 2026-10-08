@@ -21,7 +21,7 @@ scheduled timepoint.
 
 A later conversation message supplied a finalized "Wave 3 Observation Record".
 Its original phase label, 08:35 cutoff, invariant assertions, and old RS06-RS10
-display mapping are preserved in `source-wave3-final-record.md`. The repository
+display mapping are preserved in `source-02-wave3-declaration.md`. The repository
 reconciles that source against the frozen contract and canonical manifest rather
 than silently accepting conflicting labels.
 
@@ -29,11 +29,11 @@ than silently accepting conflicting labels.
 
 The conversation supplied a completed local morning audit and two local report
 filenames. The updater could not read the local files because the authorized
-desktop device was offline. The values in `source-summary.md` are therefore
+desktop device was offline. The values in `source-01-morning-audit.md` are therefore
 preserved as conversation-supplied source evidence.
 
 A separate independent public-endpoint pass was then executed. Results are
-recorded in `independent-verification.md` and `normalized-summary.yaml`.
+recorded in `verification.md` and `record.yaml`.
 
 The two planes are intentionally not collapsed:
 
@@ -107,17 +107,17 @@ Blocked or not independently rerun:
 
 ## Files
 
-- `source-summary.md` — source-reported morning audit
-- `source-wave3-final-record.md` — later source-declared Wave 3 final record plus contract/mapping reconciliation
-- `normalized-summary.yaml` — machine-readable source/verification separation
-- `ten-repository-zenodo-delta.csv` — canonical RS01–RS10 source-reported view delta
-- `agent-cohort-owned-rows.csv` — four source-reported owned rows in the 432-family exploratory cohort
-- `independent-verification.md` — independent endpoint procedure and bounded outcomes
+- `source-01-morning-audit.md` — source-reported morning audit
+- `source-02-wave3-declaration.md` — later source-declared Wave 3 final record plus contract/mapping reconciliation
+- `record.yaml` — machine-readable source/verification separation
+- `zenodo-view-delta.csv` — canonical RS01–RS10 source-reported view delta
+- `agent-cohort.csv` — four source-reported owned rows in the 432-family exploratory cohort
+- `verification.md` — independent endpoint procedure and bounded outcomes
 
 
 ## Retained capture reconciliation
 
 The original collector has supplied timestamped files following the existing evidence / monitoring layout
-See [the reconciliation addendum](reconciliation-addendum.md), [Zenodo statistics](zenodo-statistics.csv), [capture summary](retained-capture-summary.json) and [retained evidence](../../evidence/2026-10-08-morning-recheck/README.md)
+See [the reconciliation addendum](reconciliation.md), [Zenodo statistics](zenodo-statistics.csv), [capture summary](capture-summary.json) and [retained evidence](../../../evidence/2026-10-08/01-morning-recheck/README.md)
 The prior updater's source-reported and blocked outcomes remain its historical verification state
 This adds source evidence for the original capture, not a fresh network observation

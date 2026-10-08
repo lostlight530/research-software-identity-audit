@@ -109,7 +109,7 @@ openalex:
   osf_registration_referenced_work_id: "W7220470293"
   referenced_work_role: "audit-runtime beta software"
   previous_checkpoint:
-    reference: "../2026-10-06-1130-final-reconciliation/normalized-summary.yaml"
+    reference: "../../2026-10-06/03-reconciliation/record.yaml"
     author_profile_cached_works_count: 30
     author_profile_updated_date: "2026-10-01T12:39:15"
     live_author_works_query_count: 40
