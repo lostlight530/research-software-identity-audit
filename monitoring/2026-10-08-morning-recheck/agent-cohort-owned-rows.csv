@@ -1,0 +1,5 @@
+object_id,repository,prior_cohort_snapshot_views,current_views,delta_views,prior_rank,current_rank,verification_class
+RS10,agentic-frontier-observatory,88,93,5,8,8,source_reported
+RS09,china-agentic-observatory,83,88,5,9,9,source_reported
+RS05,agent-foundations,73,78,5,10,10,source_reported
+RS07,epistemic-pipeline,66,74,8,11,11,source_reported
