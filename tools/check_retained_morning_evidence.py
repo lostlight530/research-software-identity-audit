@@ -2,12 +2,12 @@
 from pathlib import Path
 import csv,json,hashlib,gzip,tarfile,io
 from collections import Counter
-ROOT=Path(__file__).resolve().parents[1];P=ROOT/'evidence/2026-10-08-morning-recheck';M=ROOT/'monitoring/2026-10-08-morning-recheck'
+ROOT=Path(__file__).resolve().parents[1];P=ROOT/'evidence/2026-10-08/01-morning-recheck';M=ROOT/'monitoring/2026-10-08/01-morning-recheck'
 checks=[]
 def check(n,b):checks.append({'name':n,'passed':bool(b)})
-s=json.loads((M/'retained-capture-summary.json').read_text(encoding='utf-8'))
-m=json.loads((P/'response-manifest.json').read_text(encoding='utf-8'))
-with tarfile.open(fileobj=io.BytesIO(gzip.decompress((P/'platform-responses.tar.gz').read_bytes())),mode='r') as t:
+s=json.loads((M/'capture-summary.json').read_text(encoding='utf-8'))
+m=json.loads((P/'capture-manifest.json').read_text(encoding='utf-8'))
+with tarfile.open(fileobj=io.BytesIO(gzip.decompress((P/'raw-responses.tar.gz').read_bytes())),mode='r') as t:
  raw={x.name:t.extractfile(x).read() for x in t if x.isfile()}
 for x in m['responses']:
  check('capture-byte SHA256 '+x['archive_member'],hashlib.sha256(raw[x['archive_member']]).hexdigest()==x['sha256'])
@@ -56,5 +56,5 @@ if manifest.exists():
  for e in json.loads(manifest.read_text(encoding='utf-8'))['files']:
   f=ROOT/e['path'];check('public artifact digest '+e['path'],hashlib.sha256(f.read_bytes()).hexdigest()==e['sha256'])
 result={'checks':len(checks),'failed':sum(not x['passed'] for x in checks),'scope':'Offline verification of retained source bytes, canonical joins, exact counters, file-size totals, ORCID source/fixed-corpus groups and OpenAlex type/primary-topic reconstruction; no fresh platform observation','checks_detail':checks}
-(P/'verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps({k:result[k] for k in ('checks','failed')}))
+(P/'offline-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps({k:result[k] for k in ('checks','failed')}))
 if result['failed']:raise SystemExit(1)

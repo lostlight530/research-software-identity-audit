@@ -628,7 +628,7 @@ The repository is expected to evolve around the following structure:
 │
 ├── monitoring/
 │   ├── README.md
-│   └── 2026-10-06-wave-01/
+│   └── 2026-10-06/01-wave-01/
 │
 ├── evidence/
 │   └── README.md

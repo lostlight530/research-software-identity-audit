@@ -65,7 +65,7 @@ The source also reports RSD, OSF/Internet Archive, HAL, and RRID/SciCrunch state
 ## Same-day reconciliation addendum
 
 Later same-day clarification is preserved in
-`reconciliation-addendum.md`. It links the 2026-10-06 OpenAlex
+`reconciliation.md`. It links the 2026-10-06 OpenAlex
 `30 cached / 40 live` checkpoint to the supplied 2026-10-07 count of 41,
 records the eight supplied OpenAlex primary topics, separates RRID assignment
 from public-index visibility, and preserves the beta `lostlight530` creator
@@ -101,10 +101,10 @@ The source reports 54 total summaries with source distribution DataCite 33 / Ope
 
 ## Files
 
-- `supplied-source-summary.md` — conversation-supplied audit summary, transport formatting normalized
-- `normalized-summary.yaml` — bounded machine-readable reconciliation
-- `zenodo-openalex-snapshot.csv` — canonical RS mapping with supplied Zenodo/OpenAlex/ORCID summary fields
-- `swh-routes.csv` — canonical RS mapping for supplied Software Heritage route evidence
+- `source.md` — conversation-supplied audit summary, transport formatting normalized
+- `record.yaml` — bounded machine-readable reconciliation
+- `cross-platform-snapshot.csv` — canonical RS mapping with supplied Zenodo/OpenAlex/ORCID summary fields
+- `software-heritage-routes.csv` — canonical RS mapping for supplied Software Heritage route evidence
 - `mapping-reconciliation.md` — explicit RS06–RS10 join correction
 
 ## Interpretation rule

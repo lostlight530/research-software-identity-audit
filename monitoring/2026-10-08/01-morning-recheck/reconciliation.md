@@ -92,11 +92,11 @@ OSF 注册与 Internet Archive 保存副本本轮响应成功，固定软件未�
 身份链首轮 167 次请求，8 次连接超时分别作一次补查，补查及依赖目录查询 10 次全部成功，RRID 403 保留，主采集日志共 177 次，RSE 与工作流 OpenAlex 扩展另有 5 次
 本轮数据检查 192 项，失败 0 项
 
-[Public retained evidence](../../evidence/2026-10-08-morning-recheck/README.md)
+[Public retained evidence](../../../evidence/2026-10-08/01-morning-recheck/README.md)
 
 
 
-Evidence import note: reports retain their original collection dates and local verification counts; public files are listed in [the evidence supplement](../../evidence/2026-10-08-morning-recheck/README.md)
+Evidence import note: reports retain their original collection dates and local verification counts; public files are listed in [the evidence supplement](../../../evidence/2026-10-08/01-morning-recheck/README.md)
 
 
 ## Cross-day notes checked against the original design
