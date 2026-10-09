@@ -1,0 +1,20 @@
+{
+  "trials": [
+    {
+      "mutation": "counter",
+      "expected_semantic_check": "raw counter welcome-to-github views",
+      "detected": true
+    },
+    {
+      "mutation": "corpus",
+      "expected_semantic_check": "fixed ten canonical identities",
+      "detected": true
+    },
+    {
+      "mutation": "page pair",
+      "expected_semantic_check": "earlier page unique pair welcome-to-github",
+      "detected": true
+    }
+  ],
+  "restored_original_bytes": true
+}
