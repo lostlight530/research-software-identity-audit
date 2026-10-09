@@ -1,0 +1,109 @@
+{
+  "started_at_utc": "2026-10-09T02:30:44.074187+00:00",
+  "finished_at_utc": "2026-10-09T02:33:14.286062+00:00",
+  "fixed_objects": [
+    {
+      "id": "RS01",
+      "repo": "welcome-to-github",
+      "concept": "10.5281/zenodo.22790907",
+      "v1": "10.5281/zenodo.22790908",
+      "v2": "10.5281/zenodo.23068145",
+      "v3": "10.5281/zenodo.23137203",
+      "record": "23137203"
+    },
+    {
+      "id": "RS02",
+      "repo": "zero-entropy-lab",
+      "concept": "10.5281/zenodo.22791081",
+      "v1": "10.5281/zenodo.22791082",
+      "v2": "10.5281/zenodo.23068144",
+      "v3": "10.5281/zenodo.23137204",
+      "record": "23137204"
+    },
+    {
+      "id": "RS03",
+      "repo": "Axiom-0",
+      "concept": "10.5281/zenodo.22791103",
+      "v1": "10.5281/zenodo.22791104",
+      "v2": "10.5281/zenodo.23068261",
+      "v3": "10.5281/zenodo.23137205",
+      "record": "23137205"
+    },
+    {
+      "id": "RS04",
+      "repo": "reflective-continuum",
+      "concept": "10.5281/zenodo.22791141",
+      "v1": "10.5281/zenodo.22791142",
+      "v2": "10.5281/zenodo.23068260",
+      "v3": "10.5281/zenodo.23137206",
+      "record": "23137206"
+    },
+    {
+      "id": "RS05",
+      "repo": "agent-foundations",
+      "concept": "10.5281/zenodo.22791169",
+      "v1": "10.5281/zenodo.22791170",
+      "v2": "10.5281/zenodo.23068262",
+      "v3": "10.5281/zenodo.23137207",
+      "record": "23137207"
+    },
+    {
+      "id": "RS09",
+      "repo": "china-agentic-observatory",
+      "concept": "10.5281/zenodo.22791309",
+      "v1": "10.5281/zenodo.22791310",
+      "v2": "10.5281/zenodo.23068347",
+      "v3": "10.5281/zenodo.23137211",
+      "record": "23137211"
+    },
+    {
+      "id": "RS10",
+      "repo": "agentic-frontier-observatory",
+      "concept": "10.5281/zenodo.22791334",
+      "v1": "10.5281/zenodo.22791335",
+      "v2": "10.5281/zenodo.23068352",
+      "v3": "10.5281/zenodo.23137214",
+      "record": "23137214"
+    },
+    {
+      "id": "RS08",
+      "repo": "sci-render-kit",
+      "concept": "10.5281/zenodo.22791375",
+      "v1": "10.5281/zenodo.22791376",
+      "v2": "10.5281/zenodo.23068472",
+      "v3": "10.5281/zenodo.23137219",
+      "record": "23137219"
+    },
+    {
+      "id": "RS06",
+      "repo": "auto-doc-engine",
+      "concept": "10.5281/zenodo.22791404",
+      "v1": "10.5281/zenodo.22791405",
+      "v2": "10.5281/zenodo.23068471",
+      "v3": "10.5281/zenodo.23137215",
+      "record": "23137215"
+    },
+    {
+      "id": "RS07",
+      "repo": "epistemic-pipeline",
+      "concept": "10.5281/zenodo.22791463",
+      "v1": "10.5281/zenodo.22791464",
+      "v2": "10.5281/zenodo.23068494",
+      "v3": "10.5281/zenodo.23137216",
+      "record": "23137216"
+    }
+  ],
+  "analytical_layers": 6,
+  "analytical_units": 60,
+  "possible_core_platform_checks": 70,
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "classification_reason": "Unscheduled diagnostic recheck; eligibility is reported from release evidence, not assumed from a prior date",
+  "github_release_policy": "Retain latest endpoint separately from archived-tag lookup; a tag match alone does not establish latest",
+  "max_concurrent_requests": 4,
+  "timeout_seconds": 25,
+  "request_count": 169,
+  "blind_retries": 0,
+  "scope": "Fixed ten, 40 DOI identities, current releases, origin visits/snapshots; OSF and supplementary public surfaces",
+  "observation": "Independent live recheck; separate from user Wave 2 cutoff"
+}

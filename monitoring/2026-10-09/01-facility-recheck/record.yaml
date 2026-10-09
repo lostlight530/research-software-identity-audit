@@ -1,0 +1,15 @@
+schema_version: "1.0"
+record_id: "facility-recheck-2026-10-09"
+record_class: "diagnostic_monitoring"
+prospective_dataset_member: false
+reason_not_prospective: "Unscheduled diagnostic capture, not a scheduled prospective timepoint"
+fixed_object_count: 10
+analytical_layer_count: 6
+analytical_units: 60
+operational_platform_count: 7
+possible_core_platform_checks: 70
+audit_runtime_is_fixed_object: false
+capture_start_utc: "2026-10-09T02:30:44.088946+00:00"
+capture_end_utc: "2026-10-09T02:34:04.565360+00:00"
+summary: "capture-summary.json"
+evidence_manifest: "evidence/2026-10-09/01-facility-recheck/capture-manifest.json"

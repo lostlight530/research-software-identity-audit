@@ -1,0 +1,3072 @@
+{
+  "mode": "local_offline",
+  "network_calls": 0,
+  "checks": 766,
+  "failed": 0,
+  "results": [
+    {
+      "check": "archive exact member set",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_github_latest",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_swh_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_github_latest",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_swh_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_github_latest",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_openaire",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_swh_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_github_latest",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_swh_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_openaire",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_github_latest",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_swh_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_openaire",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_github_latest",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_swh_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_openaire",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_github_latest",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_swh_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_openaire",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_github_latest",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_openaire",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_swh_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_github_latest",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_swh_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_openaire",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_github_latest",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_swh_github",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_swh_github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_swh_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_datacite_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_openaire",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_datacite_v2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_datacite_v1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_datacite_v3.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp orcid",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/orcid.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/orcid.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp openalex_registration",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/openalex_registration.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/openalex_registration.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp openalex_author",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/openalex_author.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/openalex_author.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp openalex_companion",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/openalex_companion.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/openalex_companion.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp internet_archive",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/internet_archive.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/internet_archive.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp osf_registration",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/osf_registration.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/osf_registration.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp rsd_project",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/rsd_project.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/rsd_project.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp rsd_software",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/rsd_software.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/rsd_software.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp rsd_companion",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/rsd_companion.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/rsd_companion.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_openaire",
+      "passed": true
+    },
+    {
+      "check": "request timestamp rrid",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/rrid.txt",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/rrid.txt",
+      "passed": true
+    },
+    {
+      "check": "request timestamp hal",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/hal.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/hal.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp supplement_datacite_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/supplement_datacite_companion_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/supplement_datacite_companion_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp supplement_datacite_osf",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/supplement_datacite_osf.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/supplement_datacite_osf.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp supplement_datacite_companion_beta",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/supplement_datacite_companion_beta.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/supplement_datacite_companion_beta.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp supplement_datacite_companion_current",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/supplement_datacite_companion_current.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/supplement_datacite_companion_current.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp openalex_primary_profile",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/openalex_primary_profile.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/openalex_primary_profile.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp openalex_secondary_profile",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/openalex_secondary_profile.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/openalex_secondary_profile.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp openalex_secondary_works",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/openalex_secondary_works.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/openalex_secondary_works.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_openaire",
+      "passed": true
+    },
+    {
+      "check": "request timestamp openalex_companion_current",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/openalex_companion_current.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/openalex_companion_current.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp openalex_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/openalex_companion_concept.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/openalex_companion_concept.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp companion_github_latest",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/companion_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/companion_github_latest.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp companion_zenodo",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/companion_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/companion_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp workflow_datacite_2332_1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/workflow_datacite_2332_1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/workflow_datacite_2332_1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp workflow_datacite_2332_2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/workflow_datacite_2332_2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/workflow_datacite_2332_2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp workflow_datacite_2334_2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/workflow_datacite_2334_2.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/workflow_datacite_2334_2.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp workflow_datacite_2334_1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/workflow_datacite_2334_1.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/workflow_datacite_2334_1.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp workflowhub_2332",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/workflowhub_2332.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/workflowhub_2332.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp workflowhub_2334",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/workflowhub_2334.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/workflowhub_2334.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_swh_zenodo_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_swh_github_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_swh_github_snapshot_revision_1b36690a.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_swh_github_snapshot_revision_1b36690a.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_swh_zenodo_snapshot_head_release.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS03_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS03_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS03_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS02_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS02_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS02_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS01_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS01_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS09_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS09_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS09_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS10_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS10_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS10_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS05_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS05_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS05_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS08_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS08_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS08_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS04_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS04_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS04_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS07_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS07_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS07_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS06_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/RS06_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/RS06_swh_zenodo_snapshot_head_release_directory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp RS01_openaire_extended",
+      "passed": true
+    },
+    {
+      "check": "request timestamp rse_pull_498",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/rse_pull_498.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/rse_pull_498.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp workflow_openalex_2332_1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/workflow_openalex_2332_1.txt",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/workflow_openalex_2332_1.txt",
+      "passed": true
+    },
+    {
+      "check": "request timestamp workflow_openalex_2332_2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/workflow_openalex_2332_2.txt",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/workflow_openalex_2332_2.txt",
+      "passed": true
+    },
+    {
+      "check": "request timestamp workflow_openalex_2334_1",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/workflow_openalex_2334_1.txt",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/workflow_openalex_2334_1.txt",
+      "passed": true
+    },
+    {
+      "check": "request timestamp workflow_openalex_2334_2",
+      "passed": true
+    },
+    {
+      "check": "raw digest facility/workflow_openalex_2334_2.txt",
+      "passed": true
+    },
+    {
+      "check": "raw bytes facility/workflow_openalex_2334_2.txt",
+      "passed": true
+    },
+    {
+      "check": "request timestamp welcome-to-github",
+      "passed": true
+    },
+    {
+      "check": "raw digest page-counter/welcome-to-github.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes page-counter/welcome-to-github.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp agentic-frontier-observatory",
+      "passed": true
+    },
+    {
+      "check": "raw digest page-counter/agentic-frontier-observatory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes page-counter/agentic-frontier-observatory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp Axiom-0",
+      "passed": true
+    },
+    {
+      "check": "raw digest page-counter/Axiom-0.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes page-counter/Axiom-0.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp china-agentic-observatory",
+      "passed": true
+    },
+    {
+      "check": "raw digest page-counter/china-agentic-observatory.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes page-counter/china-agentic-observatory.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp epistemic-pipeline",
+      "passed": true
+    },
+    {
+      "check": "raw digest page-counter/epistemic-pipeline.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes page-counter/epistemic-pipeline.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp agent-foundations",
+      "passed": true
+    },
+    {
+      "check": "raw digest page-counter/agent-foundations.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes page-counter/agent-foundations.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp zero-entropy-lab",
+      "passed": true
+    },
+    {
+      "check": "raw digest page-counter/zero-entropy-lab.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes page-counter/zero-entropy-lab.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp sci-render-kit",
+      "passed": true
+    },
+    {
+      "check": "raw digest page-counter/sci-render-kit.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes page-counter/sci-render-kit.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp auto-doc-engine",
+      "passed": true
+    },
+    {
+      "check": "raw digest page-counter/auto-doc-engine.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes page-counter/auto-doc-engine.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp reflective-continuum",
+      "passed": true
+    },
+    {
+      "check": "raw digest page-counter/reflective-continuum.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes page-counter/reflective-continuum.json",
+      "passed": true
+    },
+    {
+      "check": "request timestamp research-software-identity-audit",
+      "passed": true
+    },
+    {
+      "check": "raw digest page-counter/research-software-identity-audit.json",
+      "passed": true
+    },
+    {
+      "check": "raw bytes page-counter/research-software-identity-audit.json",
+      "passed": true
+    },
+    {
+      "check": "fixed ten canonical identities",
+      "passed": true
+    },
+    {
+      "check": "audit runtime remains supplementary",
+      "passed": true
+    },
+    {
+      "check": "Zenodo DOI identity welcome-to-github",
+      "passed": true
+    },
+    {
+      "check": "raw counter welcome-to-github views",
+      "passed": true
+    },
+    {
+      "check": "raw counter welcome-to-github unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter welcome-to-github downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter welcome-to-github unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter welcome-to-github version_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter welcome-to-github version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter welcome-to-github version_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter welcome-to-github version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo DOI identity zero-entropy-lab",
+      "passed": true
+    },
+    {
+      "check": "raw counter zero-entropy-lab views",
+      "passed": true
+    },
+    {
+      "check": "raw counter zero-entropy-lab unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter zero-entropy-lab downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter zero-entropy-lab unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter zero-entropy-lab version_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter zero-entropy-lab version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter zero-entropy-lab version_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter zero-entropy-lab version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo DOI identity Axiom-0",
+      "passed": true
+    },
+    {
+      "check": "raw counter Axiom-0 views",
+      "passed": true
+    },
+    {
+      "check": "raw counter Axiom-0 unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter Axiom-0 downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter Axiom-0 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter Axiom-0 version_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter Axiom-0 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter Axiom-0 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter Axiom-0 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo DOI identity reflective-continuum",
+      "passed": true
+    },
+    {
+      "check": "raw counter reflective-continuum views",
+      "passed": true
+    },
+    {
+      "check": "raw counter reflective-continuum unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter reflective-continuum downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter reflective-continuum unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter reflective-continuum version_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter reflective-continuum version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter reflective-continuum version_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter reflective-continuum version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo DOI identity agent-foundations",
+      "passed": true
+    },
+    {
+      "check": "raw counter agent-foundations views",
+      "passed": true
+    },
+    {
+      "check": "raw counter agent-foundations unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter agent-foundations downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter agent-foundations unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter agent-foundations version_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter agent-foundations version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter agent-foundations version_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter agent-foundations version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo DOI identity auto-doc-engine",
+      "passed": true
+    },
+    {
+      "check": "raw counter auto-doc-engine views",
+      "passed": true
+    },
+    {
+      "check": "raw counter auto-doc-engine unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter auto-doc-engine downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter auto-doc-engine unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter auto-doc-engine version_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter auto-doc-engine version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter auto-doc-engine version_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter auto-doc-engine version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo DOI identity epistemic-pipeline",
+      "passed": true
+    },
+    {
+      "check": "raw counter epistemic-pipeline views",
+      "passed": true
+    },
+    {
+      "check": "raw counter epistemic-pipeline unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter epistemic-pipeline downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter epistemic-pipeline unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter epistemic-pipeline version_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter epistemic-pipeline version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter epistemic-pipeline version_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter epistemic-pipeline version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo DOI identity sci-render-kit",
+      "passed": true
+    },
+    {
+      "check": "raw counter sci-render-kit views",
+      "passed": true
+    },
+    {
+      "check": "raw counter sci-render-kit unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter sci-render-kit downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter sci-render-kit unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter sci-render-kit version_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter sci-render-kit version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter sci-render-kit version_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter sci-render-kit version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo DOI identity china-agentic-observatory",
+      "passed": true
+    },
+    {
+      "check": "raw counter china-agentic-observatory views",
+      "passed": true
+    },
+    {
+      "check": "raw counter china-agentic-observatory unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter china-agentic-observatory downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter china-agentic-observatory unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter china-agentic-observatory version_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter china-agentic-observatory version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter china-agentic-observatory version_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter china-agentic-observatory version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo DOI identity agentic-frontier-observatory",
+      "passed": true
+    },
+    {
+      "check": "raw counter agentic-frontier-observatory views",
+      "passed": true
+    },
+    {
+      "check": "raw counter agentic-frontier-observatory unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter agentic-frontier-observatory downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter agentic-frontier-observatory unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter agentic-frontier-observatory version_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter agentic-frontier-observatory version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter agentic-frontier-observatory version_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter agentic-frontier-observatory version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo DOI identity research-software-identity-audit",
+      "passed": true
+    },
+    {
+      "check": "raw counter research-software-identity-audit views",
+      "passed": true
+    },
+    {
+      "check": "raw counter research-software-identity-audit unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter research-software-identity-audit downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter research-software-identity-audit unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter research-software-identity-audit version_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter research-software-identity-audit version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "raw counter research-software-identity-audit version_downloads",
+      "passed": true
+    },
+    {
+      "check": "raw counter research-software-identity-audit version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "fixed total views",
+      "passed": true
+    },
+    {
+      "check": "supplement-inclusive total views",
+      "passed": true
+    },
+    {
+      "check": "fixed total unique_views",
+      "passed": true
+    },
+    {
+      "check": "supplement-inclusive total unique_views",
+      "passed": true
+    },
+    {
+      "check": "fixed total downloads",
+      "passed": true
+    },
+    {
+      "check": "supplement-inclusive total downloads",
+      "passed": true
+    },
+    {
+      "check": "fixed total unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "supplement-inclusive total unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "fixed total version_views",
+      "passed": true
+    },
+    {
+      "check": "supplement-inclusive total version_views",
+      "passed": true
+    },
+    {
+      "check": "fixed total version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "supplement-inclusive total version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "fixed total version_downloads",
+      "passed": true
+    },
+    {
+      "check": "supplement-inclusive total version_downloads",
+      "passed": true
+    },
+    {
+      "check": "fixed total version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "supplement-inclusive total version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "earlier page unique pair welcome-to-github",
+      "passed": true
+    },
+    {
+      "check": "earlier page unique pair agentic-frontier-observatory",
+      "passed": true
+    },
+    {
+      "check": "earlier page unique pair Axiom-0",
+      "passed": true
+    },
+    {
+      "check": "earlier page unique pair china-agentic-observatory",
+      "passed": true
+    },
+    {
+      "check": "earlier page unique pair epistemic-pipeline",
+      "passed": true
+    },
+    {
+      "check": "earlier page unique pair agent-foundations",
+      "passed": true
+    },
+    {
+      "check": "earlier page unique pair zero-entropy-lab",
+      "passed": true
+    },
+    {
+      "check": "earlier page unique pair sci-render-kit",
+      "passed": true
+    },
+    {
+      "check": "earlier page unique pair auto-doc-engine",
+      "passed": true
+    },
+    {
+      "check": "earlier page unique pair reflective-continuum",
+      "passed": true
+    },
+    {
+      "check": "earlier page unique pair research-software-identity-audit",
+      "passed": true
+    },
+    {
+      "check": "forty DOI rows",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22790907",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22790908",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23068145",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23137203",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791081",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791082",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23068144",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23137204",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791103",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791104",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23068261",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23137205",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791141",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791142",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23068260",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23137206",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791169",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791170",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23068262",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23137207",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791309",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791310",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23068347",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23137211",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791334",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791335",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23068352",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23137214",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791375",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791376",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23068472",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23137219",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791404",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791405",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23068471",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23137215",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791463",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.22791464",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23068494",
+      "passed": true
+    },
+    {
+      "check": "DataCite 10.5281/zenodo.23137216",
+      "passed": true
+    },
+    {
+      "check": "ORCID groups",
+      "passed": true
+    },
+    {
+      "check": "ORCID source summaries",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex query count",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex returned count",
+      "passed": true
+    },
+    {
+      "check": "seventy unique operational cells",
+      "passed": true
+    },
+    {
+      "check": "GitHub archived release RS01",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex exact version RS01",
+      "passed": true
+    },
+    {
+      "check": "SWH directory chain RS01",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE unresolved retains failed request RS01",
+      "passed": true
+    },
+    {
+      "check": "GitHub archived release RS02",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex exact version RS02",
+      "passed": true
+    },
+    {
+      "check": "SWH directory chain RS02",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE unresolved retains failed request RS02",
+      "passed": true
+    },
+    {
+      "check": "GitHub archived release RS03",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex exact version RS03",
+      "passed": true
+    },
+    {
+      "check": "SWH directory chain RS03",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE unresolved retains failed request RS03",
+      "passed": true
+    },
+    {
+      "check": "GitHub archived release RS04",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex exact version RS04",
+      "passed": true
+    },
+    {
+      "check": "SWH directory chain RS04",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE unresolved retains failed request RS04",
+      "passed": true
+    },
+    {
+      "check": "GitHub archived release RS05",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex exact version RS05",
+      "passed": true
+    },
+    {
+      "check": "SWH directory chain RS05",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE unresolved retains failed request RS05",
+      "passed": true
+    },
+    {
+      "check": "GitHub archived release RS06",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex exact version RS06",
+      "passed": true
+    },
+    {
+      "check": "SWH directory chain RS06",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE unresolved retains failed request RS06",
+      "passed": true
+    },
+    {
+      "check": "GitHub archived release RS07",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex exact version RS07",
+      "passed": true
+    },
+    {
+      "check": "SWH directory chain RS07",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE unresolved retains failed request RS07",
+      "passed": true
+    },
+    {
+      "check": "GitHub archived release RS08",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex exact version RS08",
+      "passed": true
+    },
+    {
+      "check": "SWH directory chain RS08",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE unresolved retains failed request RS08",
+      "passed": true
+    },
+    {
+      "check": "GitHub archived release RS09",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex exact version RS09",
+      "passed": true
+    },
+    {
+      "check": "SWH directory chain RS09",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE unresolved retains failed request RS09",
+      "passed": true
+    },
+    {
+      "check": "GitHub archived release RS10",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex exact version RS10",
+      "passed": true
+    },
+    {
+      "check": "SWH directory chain RS10",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE unresolved retains failed request RS10",
+      "passed": true
+    },
+    {
+      "check": "classification remains diagnostic",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-09/01-facility-recheck/capture-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-09/01-facility-recheck/collection-contract.json",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-09/01-facility-recheck/negative-verification.json",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-09/01-facility-recheck/page-counter-source.json",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-09/01-facility-recheck/raw-responses.tar.gz",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-09/01-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-09/01-facility-recheck/capture-summary.json",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-09/01-facility-recheck/datacite-identifiers.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-09/01-facility-recheck/platform-states.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-09/01-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-09/01-facility-recheck/record.yaml",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-09/01-facility-recheck/zenodo-delta.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-09/01-facility-recheck/zenodo-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact tools/check_retained_facility_evidence.py",
+      "passed": true
+    }
+  ]
+}

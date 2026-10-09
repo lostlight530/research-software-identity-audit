@@ -1,0 +1,12 @@
+object_id,repository,corpus_role,record_id,concept_doi,version_doi,views,unique_views,downloads,unique_downloads,version_views,version_unique_views,version_downloads,version_unique_downloads,captured_at_utc,raw_archive_member
+RS01,welcome-to-github,fixed_corpus,23137203,10.5281/zenodo.22790907,10.5281/zenodo.23137203,105,101,4,3,6,5,0,0,2026-10-09T02:30:45.484001+00:00,facility/RS01_zenodo.json
+RS02,zero-entropy-lab,fixed_corpus,23137204,10.5281/zenodo.22791081,10.5281/zenodo.23137204,81,74,0,0,11,6,0,0,2026-10-09T02:30:59.610044+00:00,facility/RS02_zenodo.json
+RS03,Axiom-0,fixed_corpus,23137205,10.5281/zenodo.22791103,10.5281/zenodo.23137205,98,93,0,0,5,5,0,0,2026-10-09T02:31:09.879847+00:00,facility/RS03_zenodo.json
+RS04,reflective-continuum,fixed_corpus,23137206,10.5281/zenodo.22791141,10.5281/zenodo.23137206,59,56,0,0,4,3,0,0,2026-10-09T02:31:18.260949+00:00,facility/RS04_zenodo.json
+RS05,agent-foundations,fixed_corpus,23137207,10.5281/zenodo.22791169,10.5281/zenodo.23137207,83,77,1,1,3,3,0,0,2026-10-09T02:31:30.470331+00:00,facility/RS05_zenodo.json
+RS06,auto-doc-engine,fixed_corpus,23137215,10.5281/zenodo.22791404,10.5281/zenodo.23137215,65,60,0,0,8,7,0,0,2026-10-09T02:32:12.720483+00:00,facility/RS06_zenodo.json
+RS07,epistemic-pipeline,fixed_corpus,23137216,10.5281/zenodo.22791463,10.5281/zenodo.23137216,80,78,0,0,7,7,0,0,2026-10-09T02:32:22.400378+00:00,facility/RS07_zenodo.json
+RS08,sci-render-kit,fixed_corpus,23137219,10.5281/zenodo.22791375,10.5281/zenodo.23137219,73,71,1,1,6,5,0,0,2026-10-09T02:32:01.636710+00:00,facility/RS08_zenodo.json
+RS09,china-agentic-observatory,fixed_corpus,23137211,10.5281/zenodo.22791309,10.5281/zenodo.23137211,96,91,0,0,19,18,0,0,2026-10-09T02:31:40.336245+00:00,facility/RS09_zenodo.json
+RS10,agentic-frontier-observatory,fixed_corpus,23137214,10.5281/zenodo.22791334,10.5281/zenodo.23137214,100,96,1,1,17,17,0,0,2026-10-09T02:31:50.401124+00:00,facility/RS10_zenodo.json
+,research-software-identity-audit,audit_runtime_supplement,23176748,10.5281/zenodo.23166490,10.5281/zenodo.23176748,48,46,0,0,30,29,0,0,2026-10-09T02:32:50.809792+00:00,facility/companion_zenodo.json

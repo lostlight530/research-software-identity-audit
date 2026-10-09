@@ -1,0 +1,335 @@
+{
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "fixed_objects": 10,
+  "analytical_layers": 6,
+  "analytical_units": 60,
+  "operational_platforms": 7,
+  "possible_core_platform_checks": 70,
+  "capture_start_utc": "2026-10-09T02:30:44.088946+00:00",
+  "capture_end_utc": "2026-10-09T02:34:04.565360+00:00",
+  "simultaneous_snapshot": false,
+  "zenodo_fixed_ten": {
+    "views": 840,
+    "unique_views": 797,
+    "downloads": 7,
+    "unique_downloads": 6,
+    "version_views": 86,
+    "version_unique_views": 76,
+    "version_downloads": 0,
+    "version_unique_downloads": 0
+  },
+  "zenodo_all_eleven_separate_context": {
+    "views": 888,
+    "unique_views": 843,
+    "downloads": 7,
+    "unique_downloads": 6,
+    "version_views": 116,
+    "version_unique_views": 105,
+    "version_downloads": 0,
+    "version_unique_downloads": 0
+  },
+  "audit_runtime": {
+    "object_id": "",
+    "repository": "research-software-identity-audit",
+    "corpus_role": "audit_runtime_supplement",
+    "record_id": 23176748,
+    "concept_doi": "10.5281/zenodo.23166490",
+    "version_doi": "10.5281/zenodo.23176748",
+    "views": 48,
+    "unique_views": 46,
+    "downloads": 0,
+    "unique_downloads": 0,
+    "version_views": 30,
+    "version_unique_views": 29,
+    "version_downloads": 0,
+    "version_unique_downloads": 0,
+    "captured_at_utc": "2026-10-09T02:32:50.809792+00:00",
+    "raw_archive_member": "facility/companion_zenodo.json"
+  },
+  "github_latest": [
+    {
+      "object_id": "RS01",
+      "repository": "welcome-to-github",
+      "queried": true,
+      "tag": "v2026.10-open-research-production-framework",
+      "published_at": "2026-10-04T13:00:12Z",
+      "archived_tag_is_latest": true
+    },
+    {
+      "object_id": "RS02",
+      "repository": "zero-entropy-lab",
+      "queried": true,
+      "tag": "v2026.10-open-research-production-framework",
+      "published_at": "2026-10-04T13:00:14Z",
+      "archived_tag_is_latest": true
+    },
+    {
+      "object_id": "RS03",
+      "repository": "Axiom-0",
+      "queried": true,
+      "tag": "v2026.10-open-research-production-framework",
+      "published_at": "2026-10-04T13:00:17Z",
+      "archived_tag_is_latest": true
+    },
+    {
+      "object_id": "RS04",
+      "repository": "reflective-continuum",
+      "queried": true,
+      "tag": "v2026.10-open-research-production-framework",
+      "published_at": "2026-10-04T13:00:21Z",
+      "archived_tag_is_latest": true
+    },
+    {
+      "object_id": "RS05",
+      "repository": "agent-foundations",
+      "queried": true,
+      "tag": "v2026.10-open-research-production-framework",
+      "published_at": "2026-10-04T13:00:23Z",
+      "archived_tag_is_latest": true
+    },
+    {
+      "object_id": "RS09",
+      "repository": "china-agentic-observatory",
+      "queried": true,
+      "tag": "v2026.10-open-research-production-framework",
+      "published_at": "2026-10-04T13:00:26Z",
+      "archived_tag_is_latest": true
+    },
+    {
+      "object_id": "RS10",
+      "repository": "agentic-frontier-observatory",
+      "queried": true,
+      "tag": "v2026.10-open-research-production-framework",
+      "published_at": "2026-10-04T13:00:29Z",
+      "archived_tag_is_latest": true
+    },
+    {
+      "object_id": "RS08",
+      "repository": "sci-render-kit",
+      "queried": true,
+      "tag": "v2026.10-open-research-production-framework",
+      "published_at": "2026-10-04T13:00:39Z",
+      "archived_tag_is_latest": true
+    },
+    {
+      "object_id": "RS06",
+      "repository": "auto-doc-engine",
+      "queried": true,
+      "tag": "v2026.10-open-research-production-framework",
+      "published_at": "2026-10-04T13:00:32Z",
+      "archived_tag_is_latest": true
+    },
+    {
+      "object_id": "RS07",
+      "repository": "epistemic-pipeline",
+      "queried": true,
+      "tag": "v2026.10-open-research-production-framework",
+      "published_at": "2026-10-04T13:00:36Z",
+      "archived_tag_is_latest": true
+    }
+  ],
+  "datacite_fixed_findable": 40,
+  "orcid": {
+    "group_count": 14,
+    "summary_count": 56,
+    "sources": {
+      "DataCite": 35,
+      "OpenAIRE": 11,
+      "author/unnamed": 10
+    },
+    "fixed_corpus_groups": 10,
+    "fixed_corpus_summaries": 50
+  },
+  "openalex": {
+    "author": "A5151904252",
+    "count": 43,
+    "returned": 43,
+    "types": {
+      "software": 42,
+      "other": 1
+    },
+    "open_access_count": 43,
+    "topics": [
+      "Artificial Intelligence Applications",
+      "Ethics and Social Impacts of AI",
+      "Graph Theory and Algorithms",
+      "Multi-Agent Systems and Negotiation",
+      "Research Data Management Practices",
+      "Scientific Computing and Data Management",
+      "Security and Verification in Computing",
+      "Software Engineering Research"
+    ],
+    "primary_profile_works_count": 43,
+    "primary_profile_updated_date": "2026-10-07T12:33:31",
+    "secondary_author_id": "A5157531946",
+    "secondary_profile_works_count": 1,
+    "secondary_live_query_count": 1
+  },
+  "rsd_returned": 11,
+  "hal_search_num_found": 0,
+  "rrid_http_status": 403,
+  "page_counter_earlier_check": {
+    "start_utc": "2026-10-09T02:19:48.467924+00:00",
+    "end_utc": "2026-10-09T02:20:09.380442+00:00",
+    "pairs_match_unique_views_unique_downloads": 11,
+    "rows": 11
+  },
+  "failed_requests": [
+    {
+      "key": "RS01_openaire",
+      "platform": "OpenAIRE",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137203&format=json",
+      "started_at_utc": "2026-10-09T02:30:44.088946+00:00",
+      "finished_at_utc": "2026-10-09T02:31:10.931608+00:00",
+      "http_status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "key": "RS02_openaire",
+      "platform": "OpenAIRE",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137204&format=json",
+      "started_at_utc": "2026-10-09T02:30:56.922003+00:00",
+      "finished_at_utc": "2026-10-09T02:31:24.030339+00:00",
+      "http_status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "key": "RS03_openaire",
+      "platform": "OpenAIRE",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137205&format=json",
+      "started_at_utc": "2026-10-09T02:31:09.274992+00:00",
+      "finished_at_utc": "2026-10-09T02:31:35.278653+00:00",
+      "http_status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "key": "RS04_openaire",
+      "platform": "OpenAIRE",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137206&format=json",
+      "started_at_utc": "2026-10-09T02:31:17.611976+00:00",
+      "finished_at_utc": "2026-10-09T02:31:43.684732+00:00",
+      "http_status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "key": "RS05_openaire",
+      "platform": "OpenAIRE",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137207&format=json",
+      "started_at_utc": "2026-10-09T02:31:30.268981+00:00",
+      "finished_at_utc": "2026-10-09T02:31:56.014742+00:00",
+      "http_status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "key": "RS09_openaire",
+      "platform": "OpenAIRE",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137211&format=json",
+      "started_at_utc": "2026-10-09T02:31:39.838276+00:00",
+      "finished_at_utc": "2026-10-09T02:32:06.139827+00:00",
+      "http_status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "key": "RS10_openaire",
+      "platform": "OpenAIRE",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137214&format=json",
+      "started_at_utc": "2026-10-09T02:31:48.308508+00:00",
+      "finished_at_utc": "2026-10-09T02:32:15.408013+00:00",
+      "http_status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "key": "RS08_openaire",
+      "platform": "OpenAIRE",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137219&format=json",
+      "started_at_utc": "2026-10-09T02:32:00.866770+00:00",
+      "finished_at_utc": "2026-10-09T02:32:26.565809+00:00",
+      "http_status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "key": "RS06_openaire",
+      "platform": "OpenAIRE",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137215&format=json",
+      "started_at_utc": "2026-10-09T02:32:12.476147+00:00",
+      "finished_at_utc": "2026-10-09T02:32:38.236299+00:00",
+      "http_status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "key": "rrid",
+      "platform": "SciCrunch RRID",
+      "url": "https://scicrunch.org/resolver/RRID:SCR_029105",
+      "started_at_utc": "2026-10-09T02:32:35.248551+00:00",
+      "finished_at_utc": "2026-10-09T02:32:38.440917+00:00",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "RS07_openaire",
+      "platform": "OpenAIRE",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137216&format=json",
+      "started_at_utc": "2026-10-09T02:32:21.744315+00:00",
+      "finished_at_utc": "2026-10-09T02:32:47.436105+00:00",
+      "http_status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "key": "RS01_openaire_extended",
+      "platform": "OpenAIRE",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137203&format=json",
+      "started_at_utc": "2026-10-09T02:33:43.485135+00:00",
+      "finished_at_utc": "2026-10-09T02:34:04.565360+00:00",
+      "http_status": null,
+      "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+    },
+    {
+      "key": "workflow_openalex_2332_1",
+      "platform": "OpenAlex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.48546/workflowhub.workflow.2332.1",
+      "started_at_utc": "2026-10-09T02:33:54.784351+00:00",
+      "finished_at_utc": "2026-10-09T02:33:55.616037+00:00",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "workflow_openalex_2332_2",
+      "platform": "OpenAlex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.48546/workflowhub.workflow.2332.2",
+      "started_at_utc": "2026-10-09T02:33:55.616037+00:00",
+      "finished_at_utc": "2026-10-09T02:33:56.356764+00:00",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "workflow_openalex_2334_1",
+      "platform": "OpenAlex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.48546/workflowhub.workflow.2334.1",
+      "started_at_utc": "2026-10-09T02:33:56.356764+00:00",
+      "finished_at_utc": "2026-10-09T02:33:57.154375+00:00",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "workflow_openalex_2334_2",
+      "platform": "OpenAlex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.48546/workflowhub.workflow.2334.2",
+      "started_at_utc": "2026-10-09T02:33:57.154375+00:00",
+      "finished_at_utc": "2026-10-09T02:33:58.048875+00:00",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "rsd_public_records": 11,
+  "rse_pr_498": {
+    "state": "open",
+    "merged": false
+  },
+  "swh_deposit_directory_chains_verified": 10,
+  "request_counts": {
+    "facility": 175,
+    "earlier_page_counter": 11,
+    "http_200": 170
+  }
+}
