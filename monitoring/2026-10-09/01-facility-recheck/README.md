@@ -60,3 +60,7 @@ The HAL search does not establish deposit rejection; the RRID resolver failure d
 ## Reproduction
 
 The response archive binds requests to timestamps and hashes. The offline verifier recomputes counters from raw responses, checks the canonical corpus, DOI fields, key platform chains and package hashes. Run it locally; no new cloud workflow is added
+
+## Later independent reviewer record
+
+[2026-10-09 evening independent review](independent-review.md) — separately recounts the retained manifest/CSVs, checks ten current GitHub Release lists and latest records plus selected DataCite/OpenAlex public endpoints, and explicitly preserves unexecuted/offline/blocked checks. This does not change the original collection or prospective eligibility.
