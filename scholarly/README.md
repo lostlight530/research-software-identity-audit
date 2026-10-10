@@ -53,3 +53,7 @@ The older `identifiers.yaml` `recorded_date=2026-10-07` and `rrid.public_indexin
 ## Fixed-ten cross-repository release-identity closeout (2026-10-10)
 
 The [ten-repository DOI and PR merge review](fixed-ten-release-identity-review-2026-10-10.md) traces all RS01–RS10 concept DOIs to their three archived Version DOIs, the dated 2026-10-10 one-file RELEASE_POLICY documentation fixes, exact merged PRs/main commits, and the distinction between successful configured workflows and unexecuted local checks. The ten software repositories were corrected **without** a new release, while this research-control repository remains separate from the ten-object corpus. This report does not reclassify any external institutional submission as merged or accepted.
+
+## October 10 final repository-side documentary audit
+
+[Final evidence-bounded closeout](closeout-review-2026-10-10.md) covers current source and institution-facing status, all ten **read-only** `RESEARCH_TEMPLATE.md` comparisons, the original-vs-independent October 10 Zenodo version records, and outstanding `UNKNOWN/NOT_EXECUTED` conditions. The historical beta example above remains valid for that beta only; the already published formal initial-runtime version DOI is **`10.5281/zenodo.23176748`**, distinct from the beta DOI, under the same concept. No new release or extra RS object is implied.
