@@ -1,0 +1,15 @@
+schema_version: "1.0"
+record_id: "zenodo-surge-recheck-2026-10-10"
+record_class: "diagnostic_monitoring"
+prospective_dataset_member: false
+reason_not_prospective: "Unscheduled diagnostic capture during an observed Zenodo counter surge; not a scheduled prospective timepoint"
+fixed_object_count: 10
+analytical_layer_count: 6
+analytical_units: 60
+operational_platform_count: 7
+possible_core_platform_checks: 70
+audit_runtime_is_fixed_object: false
+capture_start_utc: "2026-10-10T13:12:08+00:00"
+capture_end_utc: "2026-10-10T13:23:06+00:00"
+summary: "capture-summary.json"
+evidence_manifest: "evidence/2026-10-10/01-zenodo-surge-recheck/capture-manifest.json"

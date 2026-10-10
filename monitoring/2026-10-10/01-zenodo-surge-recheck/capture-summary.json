@@ -1,0 +1,80 @@
+{
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "fixed_objects": 10,
+  "analytical_layers": 6,
+  "analytical_units": 60,
+  "operational_platforms": 7,
+  "possible_core_platform_checks": 70,
+  "capture_start_utc": "2026-10-10T13:12:08+00:00",
+  "capture_end_utc": "2026-10-10T13:23:06+00:00",
+  "simultaneous_snapshot": false,
+  "zenodo_fixed_ten": {
+    "views": 1813,
+    "unique_views": 1080,
+    "downloads": 7,
+    "unique_downloads": 6,
+    "version_views": 100,
+    "version_unique_views": 90,
+    "version_downloads": 0,
+    "version_unique_downloads": 0
+  },
+  "zenodo_all_eleven_separate_context": {
+    "views": 1864,
+    "unique_views": 1129,
+    "downloads": 7,
+    "unique_downloads": 6,
+    "version_views": 132,
+    "version_unique_views": 121,
+    "version_downloads": 0,
+    "version_unique_downloads": 0
+  },
+  "audit_runtime": {
+    "object_id": "",
+    "repository": "research-software-identity-audit",
+    "corpus_role": "audit_runtime_supplement",
+    "record_id": 23176748,
+    "concept_doi": "",
+    "version_doi": "10.5281/zenodo.23176748",
+    "views": 51,
+    "unique_views": 49,
+    "downloads": 0,
+    "unique_downloads": 0,
+    "version_views": 32,
+    "version_unique_views": 31,
+    "version_downloads": 0,
+    "version_unique_downloads": 0,
+    "captured_at_utc": "2026-10-10T13:22:47+00:00"
+  },
+  "delta_vs_2026_10_09_facility_capture": {
+    "previous_capture_utc": "2026-10-09T02:30:44+00:00 to 02:34:04+00:00",
+    "fixed_ten_previous_views": 840,
+    "fixed_ten_views": 1813,
+    "fixed_ten_delta_views": 973,
+    "fixed_ten_previous_unique_views": 797,
+    "fixed_ten_unique_views": 1080,
+    "fixed_ten_delta_unique_views": 283
+  },
+  "additional_independent_concept_families": {
+    "note": "Two fixed objects have additional independent Zenodo concept families beyond the canonical concept used in the DOI map; cross-family unique deduplication is not performed",
+    "families": [
+      {
+        "object_id": "RS07",
+        "concept_recid": 23068494,
+        "views": 186,
+        "unique_views": 106,
+        "downloads": 0,
+        "unique_downloads": 0
+      },
+      {
+        "object_id": "RS10",
+        "concept_recid": 23068352,
+        "views": 105,
+        "unique_views": 101,
+        "downloads": 0,
+        "unique_downloads": 0
+      }
+    ]
+  },
+  "failed_requests": []
+}

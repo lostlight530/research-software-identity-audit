@@ -1,0 +1,119 @@
+{
+  "record_class": "diagnostic_monitoring",
+  "capture_start_utc": "2026-10-10T13:12:08+00:00",
+  "capture_end_utc": "2026-10-10T13:23:06+00:00",
+  "endpoints_queried": 11,
+  "failed_requests": [],
+  "responses": [
+    {
+      "object_id": "RS01",
+      "repository": "welcome-to-github",
+      "record_id": 22790907,
+      "endpoint": "https://zenodo.org/api/records/22790907",
+      "captured_at_utc": "2026-10-10T13:12:08+00:00",
+      "http_status": 200,
+      "archive_member": "facility/RS01_zenodo.json",
+      "sha256": "ff9344cf6cd9a7531b51b9368f94c471151c4a3b8815fe8eb87fd3100a4f0cb3"
+    },
+    {
+      "object_id": "RS02",
+      "repository": "zero-entropy-lab",
+      "record_id": 22791081,
+      "endpoint": "https://zenodo.org/api/records/22791081",
+      "captured_at_utc": "2026-10-10T13:12:34+00:00",
+      "http_status": 200,
+      "archive_member": "facility/RS02_zenodo.json",
+      "sha256": "fe19915f4327a5c56ee7e2b4a33cb94375f1572e8c60bfaaca77d933e20a9a45"
+    },
+    {
+      "object_id": "RS03",
+      "repository": "Axiom-0",
+      "record_id": 22791103,
+      "endpoint": "https://zenodo.org/api/records/22791103",
+      "captured_at_utc": "2026-10-10T13:13:56+00:00",
+      "http_status": 200,
+      "archive_member": "facility/RS03_zenodo.json",
+      "sha256": "9bbf8018f9be6dfe13a04c54079c6de78a84234aa7eaecfadf6cf6274570d958"
+    },
+    {
+      "object_id": "RS04",
+      "repository": "reflective-continuum",
+      "record_id": 22791141,
+      "endpoint": "https://zenodo.org/api/records/22791141",
+      "captured_at_utc": "2026-10-10T13:15:33+00:00",
+      "http_status": 200,
+      "archive_member": "facility/RS04_zenodo.json",
+      "sha256": "b6eb66bb15e44e046e83e3860ef10d9a924759c7e6df9a874d74ae75b9369d8d"
+    },
+    {
+      "object_id": "RS05",
+      "repository": "agent-foundations",
+      "record_id": 22791169,
+      "endpoint": "https://zenodo.org/api/records/22791169",
+      "captured_at_utc": "2026-10-10T13:17:45+00:00",
+      "http_status": 200,
+      "archive_member": "facility/RS05_zenodo.json",
+      "sha256": "649dc723365c9ec7d3f9ff12ad665aa0b569d5d8fe7c6254cf8e6a5af4f650f6"
+    },
+    {
+      "object_id": "RS06",
+      "repository": "auto-doc-engine",
+      "record_id": 22791404,
+      "endpoint": "https://zenodo.org/api/records/22791404",
+      "captured_at_utc": "2026-10-10T13:18:15+00:00",
+      "http_status": 200,
+      "archive_member": "facility/RS06_zenodo.json",
+      "sha256": "0b8f0229ea65068ab53c8b068060fabeed01d92912603b15d81c07a3bc8f2c89"
+    },
+    {
+      "object_id": "RS07",
+      "repository": "epistemic-pipeline",
+      "record_id": 22791463,
+      "endpoint": "https://zenodo.org/api/records/22791463",
+      "captured_at_utc": "2026-10-10T13:18:56+00:00",
+      "http_status": 200,
+      "archive_member": "facility/RS07_zenodo.json",
+      "sha256": "db396491435d42a6dad1b9eba1cc0fe525ea844b025c4cab75c2a26b63448b40"
+    },
+    {
+      "object_id": "RS08",
+      "repository": "sci-render-kit",
+      "record_id": 22791375,
+      "endpoint": "https://zenodo.org/api/records/22791375",
+      "captured_at_utc": "2026-10-10T13:20:17+00:00",
+      "http_status": 200,
+      "archive_member": "facility/RS08_zenodo.json",
+      "sha256": "fc3d740fc044cf69a87dd0738ef3a50a9f3318dc30b2a75fb03fe22fd5059799"
+    },
+    {
+      "object_id": "RS09",
+      "repository": "china-agentic-observatory",
+      "record_id": 22791309,
+      "endpoint": "https://zenodo.org/api/records/22791309",
+      "captured_at_utc": "2026-10-10T13:21:16+00:00",
+      "http_status": 200,
+      "archive_member": "facility/RS09_zenodo.json",
+      "sha256": "32514d2c700739fa041f0b7617e72f1d55947a3a659455c629235bc9da41bb1f"
+    },
+    {
+      "object_id": "RS10",
+      "repository": "agentic-frontier-observatory",
+      "record_id": 22791334,
+      "endpoint": "https://zenodo.org/api/records/22791334",
+      "captured_at_utc": "2026-10-10T13:22:14+00:00",
+      "http_status": 200,
+      "archive_member": "facility/RS10_zenodo.json",
+      "sha256": "1c612053553f404e602de1b3d37fc47cf126a340666f141429d24adc294d78ae"
+    },
+    {
+      "object_id": "AUDIT",
+      "repository": "research-software-identity-audit",
+      "record_id": 23166490,
+      "endpoint": "https://zenodo.org/api/records/23166490",
+      "captured_at_utc": "2026-10-10T13:22:47+00:00",
+      "http_status": 200,
+      "archive_member": "facility/AUDIT_zenodo.json",
+      "sha256": "571a6af6f5940c13efedb471634fc1e846bbb7d3d334421568dbc9643d7a8dff"
+    }
+  ]
+}
