@@ -49,3 +49,7 @@ The [dated scholarly-infrastructure reconciliation](infrastructure-review-2026-1
 **Control repository has two archived version DOIs**, not only the historical beta: `10.5281/zenodo.23166491` (beta) and `10.5281/zenodo.23176748` (October runtime), both under concept DOI `10.5281/zenodo.23166490`. This extends the earlier beta-only explanatory example without changing the prior historical release record.
 
 The older `identifiers.yaml` `recorded_date=2026-10-07` and `rrid.public_indexing_state=pending` describe that **dated** state. The [October 10 reconciliation](infrastructure-review-2026-10-10.md) separately verifies **public RRID search visibility**, while the exact indexing-event time, full curator-workflow status and ORCID ownership association are still unknown.
+
+## Fixed-ten cross-repository release-identity closeout (2026-10-10)
+
+The [ten-repository DOI and PR merge review](fixed-ten-release-identity-review-2026-10-10.md) traces all RS01–RS10 concept DOIs to their three archived Version DOIs, the dated 2026-10-10 one-file RELEASE_POLICY documentation fixes, exact merged PRs/main commits, and the distinction between successful configured workflows and unexecuted local checks. The ten software repositories were corrected **without** a new release, while this research-control repository remains separate from the ten-object corpus. This report does not reclassify any external institutional submission as merged or accepted.
