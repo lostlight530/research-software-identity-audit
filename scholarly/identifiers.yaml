@@ -191,3 +191,32 @@ openalex_work_aggregation_2026_10_10:
   orcid_structured_work_group_count: "NOT_RECONSTRUCTED"
   first_ingestion_timestamp: "UNKNOWN"
   prospective_dataset_member: false
+
+# New DOI registrations with provider-dated October 10 events, independently read after midnight.
+# This does not overwrite the earlier 2026-10-07 current-release snapshot or historical DOI census.
+scholarly_footprint_2026_10_10_doi_expansion:
+  evidence_review: "scholarly/identity-footprint-delta-2026-10-10.md"
+  added_doi_inventory: "scholarly/identity-footprint-new-dois-2026-10-10.csv"
+  source_report_previous_known_doi_count: 50
+  newly_verified_public_doi_records: 3
+  accumulated_known_doi_identity_count: 53
+  full_doi_census_at_all_platforms: "NOT_EXECUTED"
+  new_workflowhub_versions:
+    - doi: "10.48546/workflowhub.workflow.2332.4"
+      datacite_registered_at: "2026-10-10T05:44:41Z"
+      creator_orcid: "0009-0001-3617-0832"
+      fixed_corpus_membership_effect: "none"
+    - doi: "10.48546/workflowhub.workflow.2334.4"
+      datacite_registered_at: "2026-10-10T05:44:45Z"
+      creator_orcid: "0009-0001-3617-0832"
+      fixed_corpus_membership_effect: "none"
+  audit_control_release:
+    tag: "v2026.10-evidence-reconciliation"
+    github_published_at: "2026-10-10T15:45:40Z"
+    zenodo_conceptrecid: 23166490
+    zenodo_record_id: 23284570
+    version_doi: "10.5281/zenodo.23284570"
+    datacite_registered_at: "2026-10-10T15:45:48Z"
+    relation: "IsVersionOf 10.5281/zenodo.23166490"
+    preregistered_object_id: "NOT_RS11"
+    prospective_start_eligibility_from_this_release: false
