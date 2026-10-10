@@ -24,3 +24,7 @@ Sensitive, private, credential-bearing, or redistribution-restricted material mu
 The original archive member names and source-response bytes are immutable through the path migration. See [monitoring naming rules](../monitoring/NAMING.md).
 
 - [2026-10-09 / 01-facility-recheck](2026-10-09/01-facility-recheck/) — Timestamped original API responses and counter reconciliation
+
+- [2026-10-10 / 01-zenodo-surge-recheck](2026-10-10/01-zenodo-surge-recheck/capture-manifest.json) — 11 archived original concept-recID responses from the source collector, **not** the later independent 32-version extraction
+
+The independently extracted 32-version table is retained under [monitoring/2026-10-10/02-reconciliation](../monitoring/2026-10-10/02-reconciliation/version-counters-independent.csv) as **derived public fields** with bounded fetch windows, **not** original byte-level HTTP evidence. The October 10 institutional public-status investigation is separately recorded in [scholarly](../scholarly/infrastructure-review-2026-10-10.md).

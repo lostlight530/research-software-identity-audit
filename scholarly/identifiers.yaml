@@ -67,3 +67,46 @@ release_history:
     github_published_at: "2026-10-06T02:48:16Z"
     zenodo_version_doi: "10.5281/zenodo.23176748"
     datacite_registered_at: "2026-10-06T02:48:21Z"
+
+# Append-only 2026-10-10 public verification snapshot; does not overwrite
+# recorded_date 2026-10-07 or earlier pending/public-resolver status.
+supplementary_public_verification_2026_10_10:
+  verification_class: "public_external_records_only"
+  sample_expansion: false
+  preregistered_layer_expansion: false
+  rrid:
+    original_2026_10_07_public_indexing_state: "pending"
+    current_public_search_state: "PUBLIC_SEARCH_VISIBLE"
+    public_search_url: "https://rrid.site/data/source/nlx_144509-1/search?q=SCR_029105"
+    curation_completed: "NOT_VERIFIED"
+    orcid_ownership_link: "NOT_VERIFIED"
+    exact_indexing_event_time: "UNKNOWN"
+  research_software_directory:
+    control_software_public_page: "PUBLIC_VERIFIED"
+    fixed_ten_project_public_page: "PUBLIC_VERIFIED"
+    project_url: "https://research-software-directory.org/projects/agentic-research-constellation"
+    issue_1870: "OPEN"
+    issue_1871: "OPEN"
+  rseng:
+    metadata_pr_url: "https://github.com/rseng/software/pull/498"
+    current_pr_state: "OPEN"
+    upstream_acceptance: "NOT_VERIFIED"
+  datacite_control_repository:
+    concept_doi: "10.5281/zenodo.23166490"
+    beta_version_doi: "10.5281/zenodo.23166491"
+    october_version_doi: "10.5281/zenodo.23176748"
+    relation_verification: "PUBLIC_VERIFIED"
+  orcid_works:
+    public_endpoint_readable: true
+    full_group_and_summary_recount: "NOT_VERIFIED"
+  openalex:
+    author_id: "A5151904252"
+    full_profile_works_count: 30
+    full_profile_updated_date: "2026-10-01T12:39:15"
+    selected_profile_works_count: 16
+    selected_profile_updated_date: "2026-10-09T12:31:04"
+    comparison_state: "LIVE_INTERFACE_CONFLICT"
+    work_record_23176748: "W7220365356"
+  openaire: "UNRESOLVED_TIMEOUT"
+  software_heritage_api: "ACCESS_CHALLENGED"
+  evidence_ledger: "scholarly/infrastructure-review-2026-10-10.md"
