@@ -1,0 +1,35 @@
+schema_version: "1.0"
+record_id: "zenodo-full-version-recheck-2026-10-11-01"
+record_class: "diagnostic_monitoring"
+prospective_dataset_member: false
+reason_not_prospective: "Unscheduled Zenodo counter verification after user-reported Oct 10 reference; audit-control software release is outside RS01–RS10"
+source_report_cutoff_asia_shanghai: "2026-10-10 23:54"
+source_report_evidence_type: "USER_SUPPLIED_NON_RAW_HISTORICAL_POINT"
+independent_retrieval_start_utc: "2026-10-10T16:26:47.773Z"
+independent_retrieval_end_utc: "2026-10-10T16:28:10.508Z"
+retrieval_timestamp_semantics: "outer tool request windows, not HTTP response completion timestamps"
+public_api_full_family_search_successes: 11
+versions_endpoint_successes: 11
+direct_version_record_successes: 33
+full_family_count: 11
+fixed_corpus_object_count: 10
+fixed_corpus_version_count: 30
+audit_control_version_count: 3
+fixed_corpus_views_version_sum: 1933
+fixed_corpus_downloads_version_sum: 8
+audit_control_views_version_sum: 74
+audit_control_downloads_version_sum: 3
+optional_display_combined_views: 2007
+optional_display_combined_downloads: 11
+attached_family_views_and_downloads_consistent: true
+attached_family_unique_fields_consistent_within_each_concept: true
+historical_rs07_aggregate_mismatch_converged_at_later_read: true
+rs07_internal_aggregation_mechanism: "UNKNOWN"
+raw_transport_response_bytes_preserved: false
+http_request_cache_control_header_verified: false
+research_contract_changed: false
+new_release_created_by_verifier: false
+summary_status: "LIVE_RECHECK_CONFIRMED_WITH_PROVENANCE_GAPS"
+source_summary: "source.md"
+independent_verification: "verification.md"
+derived_version_table: "zenodo-version-statistics.csv"
