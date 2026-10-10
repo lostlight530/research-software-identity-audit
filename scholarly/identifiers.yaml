@@ -169,3 +169,25 @@ supplementary_late_closeout_2026_10_10:
     templates_read: 10
     change_required: false
     reviewer_scope: "READ_ONLY"
+
+# New bounded author-Works query evidence, kept separate from previous dated profile values.
+openalex_work_aggregation_2026_10_10:
+  source_record: "monitoring/2026-10-10/03-openalex-work-aggregation/README.md"
+  derived_rows: "monitoring/2026-10-10/03-openalex-work-aggregation/openalex-author-works.csv"
+  author_id: "A5151904252"
+  query_window_start_utc: "2026-10-10T15:34:31.408Z"
+  query_window_end_utc: "2026-10-10T15:34:52.266Z"
+  query_result_count: 18
+  fixed_ten_concept_doi_works: 10
+  audit_control_concept_doi_works: 1
+  osf_registration_works: 1
+  workflowhub_version_doi_works: 6
+  distinct_workflowhub_workflow_ids: 2
+  author_selected_works_count_in_same_review: 16
+  author_full_profile_works_count_in_same_review: 30
+  count_interpretation: "DIVERGENT_RESPONSE_SURFACES"
+  workflowhub_v4_datacite_dois_readable: 2
+  workflowhub_v4_openalex_exact_doi_query_results: 0
+  orcid_structured_work_group_count: "NOT_RECONSTRUCTED"
+  first_ingestion_timestamp: "UNKNOWN"
+  prospective_dataset_member: false
