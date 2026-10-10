@@ -57,3 +57,9 @@ The [ten-repository DOI and PR merge review](fixed-ten-release-identity-review-2
 ## October 10 final repository-side documentary audit
 
 [Final evidence-bounded closeout](closeout-review-2026-10-10.md) covers current source and institution-facing status, all ten **read-only** `RESEARCH_TEMPLATE.md` comparisons, the original-vs-independent October 10 Zenodo version records, and outstanding `UNKNOWN/NOT_EXECUTED` conditions. The historical beta example above remains valid for that beta only; the already published formal initial-runtime version DOI is **`10.5281/zenodo.23176748`**, distinct from the beta DOI, under the same concept. No new release or extra RS object is implied.
+
+## Later October 10 OpenAlex–WorkflowHub author Works observation
+
+The [independent author Works aggregation check](../monitoring/2026-10-10/03-openalex-work-aggregation/README.md) directly retrieved **18 distinct Work/DOI associations** under OpenAlex Author `A5151904252`: ten fixed-software concept DOIs, one independent research-control software concept DOI, the OSF preregistration DOI, and six WorkflowHub **version** DOIs (two workflow identifiers, three OpenAlex-visible versions each). This improves current observability; it is not twelve additional research-software samples, evidence of scholarly impact, or an eligible prospective timepoint.
+
+The same review retained unresolved **OpenAlex author-profile 16 vs 30 vs filtered Works list 18** count semantics and two separately registered WorkflowHub v4 DOI metadata records not returned by the bounded OpenAlex DOI query. The prior October 10 institution review remains a valid earlier point-in-time account; no historical count is overwritten.
