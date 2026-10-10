@@ -954,3 +954,9 @@ This repository's current supplementary records are deliberately separated by **
 - [Supplementary Zenodo counting discipline](schema/counting-rules.md#supplementary-zenodo-version-family-reconciliation-2026-10-10) — no cross-version unique-person summation, no aggregate double-counting, no inferred version-level interval without comparable earlier version rows.
 
 All October 10 records are **diagnostic/exploratory**, not eligible new-release timepoints. The OSF Registration remains frozen; the prospective window has **not** been evidenced as started. Public registry/DOI appearance does **not** prove institutional endorsement, scientific adoption, or a particular visitor/referrer/aggregation mechanism. Historical source and independent reviewer records have distinct authorship and provenance.
+
+## October 10 final documentary and institutional closeout
+
+The dated [October 10 final closeout](scholarly/closeout-review-2026-10-10.md) records a bounded repository contract/document audit, renewed institution-facing public status, external-source ownership, all ten **read-only** research template checks, and unresolved evidence limits. Supporting ledgers: [public scholarly-infrastructure review](scholarly/infrastructure-review-2026-10-10.md), [Zenodo 32-version reconciliation](monitoring/2026-10-10/02-reconciliation/README.md), and [release identity policy](RELEASE_POLICY.md).
+
+The external rseng PR #498 is **not** a merged upstream record; local GitHub documentation merges cannot substitute for that maintainer's decision. The research-control repository remains outside the fixed ten-object corpus. No new eligible release, operational schedule, prospective observation, scientific-impact claim or new registration is created by this documentation closeout.
