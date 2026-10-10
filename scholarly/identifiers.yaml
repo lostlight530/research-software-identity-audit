@@ -133,3 +133,39 @@ supplementary_direct_public_checks_2026_10_10:
     observed_post_registration_published_releases: 0
     checked_class: "PUBLIC_GITHUB_RELEASES_ONLY"
     prospective_start_claimed: false
+
+# Separate late October 10 verification: does not supersede earlier dated fields.
+supplementary_late_closeout_2026_10_10:
+  source_review: "scholarly/closeout-review-2026-10-10.md"
+  evidence_class: "bounded_live_public_metadata_recheck"
+  rseng_pr_498:
+    contributor: "lostlight530"
+    upstream_repository: "rseng/software"
+    status: "OPEN"
+    merged: false
+    reviews: 0
+    upstream_acceptance: "NOT_VERIFIED"
+  rsd_issues:
+    issue_1870: "OPEN"
+    issue_1871: "OPEN"
+  rrid:
+    official_resolver: "https://scicrunch.org/resolver/SCR_029105"
+    public_report_state: "PUBLIC_VISIBLE"
+    completed_curation: "NOT_VERIFIED"
+  openalex_author:
+    author_id: "A5151904252"
+    full_and_selected_profile_count_in_later_check: 16
+    returned_updated_date: "2026-10-09T12:31:04"
+    earlier_snapshot_conflict_retained: true
+    deletion_or_transition_time: "UNKNOWN"
+  datacite_osf_creator_name_identifier:
+    study_doi: "10.17605/osf.io/5b329"
+    canonical_orcid: "https://orcid.org/0009-0001-3617-0832"
+    extra_noncanonical_value_as_returned: "my-orcid?orcid=0009-0001-3617-08"
+    state: "EXTERNAL_METADATA_FIELD_ANOMALY"
+    origin: "UNKNOWN"
+    corrected_at_source: false
+  fixed_ten_research_template_review:
+    templates_read: 10
+    change_required: false
+    reviewer_scope: "READ_ONLY"
