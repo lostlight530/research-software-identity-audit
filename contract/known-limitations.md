@@ -41,3 +41,17 @@ Research Software Directory, SciCrunch/RRID Registry, OSF/Internet Archive relat
 A conversation-level or narrative audit summary may reference request logs, response bytes, checksums, scripts, or row-level matrices that are not themselves available to the repository updater.
 
 **Handling:** preserve the summary with explicit provenance, materialize only derivations supported by supplied fields, mark unavailable raw artifacts as evidence gaps, and do not fabricate missing request/response evidence.
+
+## KL-008 — Zenodo version-level and attached-family counters may disagree
+
+In the October 10 independent 32-version public-field extraction, the same RS07 concept family had version-local `version_views=45+33+7=85`, while one month-close version record attached `stats.views=186` and `stats.unique_views=106` versus sibling attached aggregate fields `85/82`. Count **versions by their local fields** under the explicitly declared exploratory method; keep the conflicting family-aggregate fields as observed discrepancies. **Do not** add 101 as extra family traffic, backfill any historical period, or claim a proven internal synchronization mechanism.
+
+The extractor supplied bounded execution windows rather than original HTTP bytes or per-request server times, so this secondary validation is **not** byte-identical evidence. See [2026-10-10 reviewer record](../monitoring/2026-10-10/02-reconciliation/independent-version-verification.md).
+
+## KL-009 — Public institutional listing and RRID index have distinct authority
+
+The public RRID search newly verified `SCR_029105` indexed for the audit-control repository. A dated earlier record still says `pending`; neither date supplies a direct timestamp for the actual indexing transition. RSD public person/project/software records, rseng open PR #498, OSF registration, DataCite DOI relations, RRID indexing and authenticated platform-account access are non-equivalent claims. No institution's scientific endorsement or employment/partnership follows without independent evidence. Details: [institutional ledger](../scholarly/infrastructure-review-2026-10-10.md).
+
+## KL-010 — OpenAlex author profile response conflict
+
+A full-profile query returned `works_count=30` with `updated_date=2026-10-01T12:39:15` while a field-selected query returned `works_count=16` with `updated_date=2026-10-09T12:31:04`. Previous profile and author-Works counts were time-specific and are not rewritten to match one of these incompatible live surfaces. Save exact query shape, source snapshot and retrieval window on any further comparison. Cause is **UNRESOLVED**, not automatically indexing loss or newly generated works.
