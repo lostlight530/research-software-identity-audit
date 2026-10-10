@@ -52,3 +52,15 @@ The initial beta listing above is a historical snapshot, not a claim that the be
 - DataCite registered: `2026-10-06T02:48:21Z`
 
 This is an **already archived** release, not a release performed by this documentation update. The original beta DOI `10.5281/zenodo.23166491` remains valid for citing that exact beta. For both version identities, see [scholarly/CITATION.md](scholarly/CITATION.md) and [scholarly/identifiers.yaml](scholarly/identifiers.yaml).
+
+## Existing formal initial-runtime archive — 2026-10-06
+
+The beta block above remains historical, not the latest published version. The subsequent formal runtime release already exists:
+
+- GitHub tag: `v2026.10-initial-research-runtime`
+- GitHub published at: `2026-10-06T02:48:16Z`
+- Zenodo version DOI: `10.5281/zenodo.23176748`
+- DataCite registered at: `2026-10-06T02:48:21Z`
+- Shared concept DOI: `10.5281/zenodo.23166490`
+
+This documentation update does not create a release or change the beta DOI `10.5281/zenodo.23166491`. See [scholarly/CITATION.md](scholarly/CITATION.md) and [scholarly/identifiers.yaml](scholarly/identifiers.yaml).
