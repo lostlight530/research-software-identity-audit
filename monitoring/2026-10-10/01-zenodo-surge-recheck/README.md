@@ -3,6 +3,10 @@
 An independently collected diagnostic monitoring record taken during an observed
 same-day surge in Zenodo family-view counters across all fixed objects.
 
+## Independent correction notice (2026-10-10)
+
+**[Read independent-reconciliation.md](independent-reconciliation.md) before using the identity and attribution interpretations below.** RS07 `23068494` and RS10 `23068352` are pre-existing **version DOIs**, not additional independent concept families. Zenodo's aggregated view/unique-view counters do **not** establish repeated **human** visits or a known actor. The original report is preserved below as point-in-time source interpretation; the correction supersedes those two claims without rewriting raw data.
+
 ## Results
 
 Fixed ten: 1813 family views, 1080 summed family unique views, 7 downloads and 6 unique downloads
