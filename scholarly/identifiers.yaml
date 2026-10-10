@@ -110,3 +110,26 @@ supplementary_public_verification_2026_10_10:
   openaire: "UNRESOLVED_TIMEOUT"
   software_heritage_api: "ACCESS_CHALLENGED"
   evidence_ledger: "scholarly/infrastructure-review-2026-10-10.md"
+
+# Additional independently checked public URLs, distinct from the PR #27 sources;
+# outer execution interval only, no claimed original raw HTTP byte archive.
+supplementary_direct_public_checks_2026_10_10:
+  source_review: "scholarly/infrastructure-review-2026-10-10.md"
+  rrid_official_resolver:
+    url: "https://scicrunch.org/resolver/SCR_029105"
+    result: "PUBLIC_RESOURCE_REPORT_VISIBLE"
+    identifier: "SCR_029105"
+    resource_name: "Research Software Identity Audit"
+    curator_completion: "NOT_VERIFIED"
+  osf_datacite:
+    identifier: "10.17605/OSF.IO/5B329"
+    type: "StudyRegistration"
+    linked_mirror: "https://archive.org/details/osf-registrations-5b329-v1"
+    relation_type: "IsIdenticalTo"
+    propagation_latency: "NOT_MEASURED"
+  fixed_ten_release_check:
+    public_release_lists_checked: 10
+    newest_public_release_date: "2026-10-04"
+    observed_post_registration_published_releases: 0
+    checked_class: "PUBLIC_GITHUB_RELEASES_ONLY"
+    prospective_start_claimed: false
