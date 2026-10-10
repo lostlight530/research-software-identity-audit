@@ -40,3 +40,15 @@ For future GitHub-to-Zenodo releases:
 
 These files should agree on core repository metadata before a release is
 published.
+
+## Later formal runtime archive — 2026-10-06
+
+The initial beta listing above is a historical snapshot, not a claim that the beta is the only published version.
+
+- GitHub tag: `v2026.10-initial-research-runtime`
+- GitHub published: `2026-10-06T02:48:16Z`
+- Zenodo version DOI: `10.5281/zenodo.23176748`
+- Existing concept DOI: `10.5281/zenodo.23166490`
+- DataCite registered: `2026-10-06T02:48:21Z`
+
+This is an **already archived** release, not a release performed by this documentation update. The original beta DOI `10.5281/zenodo.23166491` remains valid for citing that exact beta. For both version identities, see [scholarly/CITATION.md](scholarly/CITATION.md) and [scholarly/identifiers.yaml](scholarly/identifiers.yaml).
