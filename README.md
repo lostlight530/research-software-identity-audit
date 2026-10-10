@@ -943,3 +943,14 @@ For avoidance of doubt:
 > **`research-software-identity-audit` is the research repository used to operate and document the study. It is not an additional research-software object in the fixed ten-object corpus defined by the OSF preregistration.**
 
 That boundary is intentional and should remain explicit throughout the project lifecycle.
+
+## October 10 research-state reconciliation (diagnostic, not prospective)
+
+This repository's current supplementary records are deliberately separated by **evidence role**, and do not add a new fixed software object or new preregistered infrastructure layer:
+
+- [Zenodo October 10 source diagnostic](monitoring/2026-10-10/01-zenodo-surge-recheck/README.md) — original 11-concept source capture retained with source identity.
+- [Zenodo independent 32-version recheck](monitoring/2026-10-10/02-reconciliation/README.md) — separate reviewer, full version enumeration, version-summed **1,813 fixed-ten views / 7 downloads**, separately reported **51 control views**, and unresolved RS07 attached-family aggregate conflict (`186` vs version sum `85`).
+- [October 10 institutional public-status ledger](scholarly/infrastructure-review-2026-10-10.md) — RSD, SciCrunch RRID, rseng, DataCite/Zenodo, OSF, ORCID, OpenAlex and bounded SWH/OpenAIRE outcomes. **RRID SCR_029105 is now publicly searchable**; earlier pending status remains historically recorded.
+- [Supplementary Zenodo counting discipline](schema/counting-rules.md#supplementary-zenodo-version-family-reconciliation-2026-10-10) — no cross-version unique-person summation, no aggregate double-counting, no inferred version-level interval without comparable earlier version rows.
+
+All October 10 records are **diagnostic/exploratory**, not eligible new-release timepoints. The OSF Registration remains frozen; the prospective window has **not** been evidenced as started. Public registry/DOI appearance does **not** prove institutional endorsement, scientific adoption, or a particular visitor/referrer/aggregation mechanism. Historical source and independent reviewer records have distinct authorship and provenance.
