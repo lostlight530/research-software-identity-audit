@@ -47,3 +47,9 @@ Tools should:
 - distinguish warnings from evidence-backed conclusions.
 
 No external API credentials, cookies, session data, or secrets belong in the repository.
+
+## October 10 Zenodo version extract
+
+The 32-row independent [version-counters-independent.csv](../monitoring/2026-10-10/02-reconciliation/version-counters-independent.csv) is a **derived** public-field extract reviewed against Zenodo search, `/versions`, and individual-version endpoints. It is **not** a preserved 32-response raw HTTP transport archive, and its batch windows are not per-request server times.
+
+Its contract is specified in [schema/counting-rules.md](../schema/counting-rules.md#supplementary-zenodo-version-family-reconciliation-2026-10-10). Any locally executed replay/checker must retain per-family identifier joins and flag attached aggregate disagreements instead of fabricating missing counts. **No new retained-evidence checker is added to GitHub Actions**; the existing advisory CI validates only its configured contract checks.
