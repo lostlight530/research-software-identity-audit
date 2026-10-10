@@ -1,0 +1,15 @@
+schema_version: "1.0"
+record_id: "reconciliation-2026-10-10-concept-family-split"
+record_class: "diagnostic_monitoring"
+prospective_dataset_member: false
+reason_not_prospective: "Correction and reinterpretation of 01-zenodo-surge-recheck issued the same day after full version enumeration"
+fixed_object_count: 10
+analytical_layer_count: 6
+analytical_units: 60
+operational_platform_count: 7
+possible_core_platform_checks: 70
+audit_runtime_is_fixed_object: false
+capture_start_utc: "2026-10-10T14:07:49+00:00"
+capture_end_utc: "2026-10-10T14:14:01+00:00"
+supersedes_section: "01-zenodo-surge-recheck: additional_independent_concept_families"
+summary: "interpretation.md"
