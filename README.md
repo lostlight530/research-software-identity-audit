@@ -856,7 +856,11 @@ The frozen preregistered research plan can be cited as:
 The research software infrastructure is also archived and citable through Zenodo:
 
 - **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.23166490
-- **Archived `beta` release DOI:** https://doi.org/10.5281/zenodo.23166491
+- **Latest archived release:** `v2026.10-evidence-reconciliation` (2026-10-10) — https://doi.org/10.5281/zenodo.23284570
+- **Previous initial-runtime release:** https://doi.org/10.5281/zenodo.23176748
+- **Historical `beta` release:** https://doi.org/10.5281/zenodo.23166491
+
+The immutable October 10 release tag contains stale embedded citation/CodeMeta version fields. The live `main` metadata was corrected afterward; the tagged archive was **not** rewritten. See [citation and identifier guidance](scholarly/CITATION.md) and [release evidence note](RELEASE_POLICY.md#archived-evidence-reconciliation-release--2026-10-10).
 
 Machine-readable citation metadata is maintained in `CITATION.cff`, `codemeta.json`, and `.zenodo.json`. See `scholarly/CITATION.md` for identifier-specific citation guidance.
 
@@ -892,7 +896,11 @@ https://osf.io/wa5v8
 
 https://doi.org/10.5281/zenodo.23166490
 
-### Zenodo — beta release
+### Zenodo — latest archived evidence-reconciliation release
+
+https://doi.org/10.5281/zenodo.23284570
+
+### Zenodo — historical beta release
 
 https://doi.org/10.5281/zenodo.23166491
 
