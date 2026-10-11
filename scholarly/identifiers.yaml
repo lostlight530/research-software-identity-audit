@@ -220,3 +220,30 @@ scholarly_footprint_2026_10_10_doi_expansion:
     relation: "IsVersionOf 10.5281/zenodo.23166490"
     preregistered_object_id: "NOT_RS11"
     prospective_start_eligibility_from_this_release: false
+
+# Dated live-main metadata alignment after an already published October 10 tag.
+# Prior 2026-10-07 root-level 'current_release_tag'/'current_release_doi'
+# and prior public source snapshots are HISTORICAL, not current field claims.
+live_main_citation_reconciliation_2026_10_11:
+  latest_archived_release_tag: "v2026.10-evidence-reconciliation"
+  github_release_published_at: "2026-10-10T15:45:40Z"
+  zenodo_version_doi: "10.5281/zenodo.23284570"
+  zenodo_concept_doi: "10.5281/zenodo.23166490"
+  datacite_version_doi_registered_at: "2026-10-10T15:45:48Z"
+  original_immutable_tag_citation_cff_version: "v2026.10-initial-research-runtime"
+  original_immutable_tag_citation_cff_version_doi: "10.5281/zenodo.23176748"
+  original_immutable_tag_codemeta_version: "v2026.10-initial-research-runtime"
+  original_tag_embedded_metadata_drift: true
+  historic_tag_bytes_modified: false
+  current_live_main_citation_corrected: true
+  reconciliation_document: "RELEASE_POLICY.md"
+  independent_public_relation_recheck_window_utc: "2026-10-11T06:39:36.378Z/2026-10-11T06:39:38.207Z"
+  public_relation_observations:
+    zenodo_versions_endpoint_total: 3
+    zenodo_version_record_ids: [23166491, 23176748, 23284570]
+    datacite_concept_has_version_count: 2
+    datacite_concept_has_version_dois: ["10.5281/zenodo.23166491", "10.5281/zenodo.23176748"]
+    datacite_new_version_is_version_of: "10.5281/zenodo.23166490"
+    relation_discrepancy_cause: "UNKNOWN"
+  fixed_corpus_membership_effect: "none"
+  prospective_dataset_member: false
