@@ -442,6 +442,87 @@ def check_repository_governance() -> None:
     if codemeta.get("license") != "https://spdx.org/licenses/MIT.html":
         fail("CodeMeta must use the SPDX MIT license URL")
 
+    # Advisory drift guard: cross-check the two *live-main* citation metadata
+    # surfaces. This is not a claim that previously archived tags were repaired.
+    cff_version = re.search(r'^version:\s*"([^"]+)"\s*
+    creators = zenodo.get("creators", [])
+    if not creators or creators[0].get("name") != "lightlost":
+        fail(".zenodo.json creator must match the repository software-author template")
+    if zenodo.get("license") != "MIT":
+        fail(".zenodo.json must declare MIT")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Check research-contract invariants without silently changing semantics."
+    )
+    parser.add_argument(
+        "--mode",
+        choices=("advisory", "strict"),
+        default="advisory",
+        help=(
+            "advisory reports contract drift but exits 0; "
+            "strict exits 1 when any contract check fails"
+        ),
+    )
+    return parser.parse_args()
+
+
+def main() -> int:
+    args = parse_args()
+    checks = [
+        check_corpus,
+        check_layers_and_platforms,
+        check_schema,
+        check_observations,
+        check_baseline,
+        check_data_handling,
+        check_repository_governance,
+        check_canonical_object_mapping,
+        check_20261007_monitoring,
+        check_20261008_morning,
+    ]
+
+    failures: list[str] = []
+    for check in checks:
+        try:
+            check()
+            print(f"PASS {check.__name__}")
+        except (AssertionError, KeyError, ValueError, json.JSONDecodeError) as exc:
+            message = f"{check.__name__}: {exc}"
+            failures.append(message)
+            prefix = "WARN" if args.mode == "advisory" else "FAIL"
+            print(f"{prefix} {message}", file=sys.stderr)
+
+    if not failures:
+        print(f"PASS research contract checks ({args.mode})")
+        return 0
+
+    print(
+        f"{len(failures)} contract check(s) reported in {args.mode} mode.",
+        file=sys.stderr,
+    )
+    if args.mode == "advisory":
+        print(
+            "ADVISORY ONLY: findings do not block this commit or pull request.",
+            file=sys.stderr,
+        )
+        return 0
+
+    return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+, cff, flags=re.MULTILINE)
+    cff_date = re.search(r"^date-released:\s*(\d{4}-\d{2}-\d{2})\s*$", cff, flags=re.MULTILINE)
+    if cff_version is None or cff_date is None:
+        fail("CITATION.cff needs a release version and release date")
+    if codemeta.get("version") != cff_version.group(1):
+        fail("live-main CodeMeta version differs from CITATION.cff version")
+    if codemeta.get("datePublished") != cff_date.group(1):
+        fail("live-main CodeMeta datePublished differs from CITATION.cff date-released")
+
     zenodo = json.loads(read_text(".zenodo.json"))
     creators = zenodo.get("creators", [])
     if not creators or creators[0].get("name") != "lightlost":
