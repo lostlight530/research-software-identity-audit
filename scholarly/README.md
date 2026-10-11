@@ -6,7 +6,9 @@ This repository participates in a wider scholarly-object graph, but each surface
 
 - **GitHub repository:** https://github.com/lostlight530/research-software-identity-audit
 - **Zenodo concept DOI (all versions):** https://doi.org/10.5281/zenodo.23166490
-- **Zenodo beta release DOI:** https://doi.org/10.5281/zenodo.23166491
+- **Latest archived release DOI (2026-10-10):** https://doi.org/10.5281/zenodo.23284570
+- **Previous initial-runtime release DOI:** https://doi.org/10.5281/zenodo.23176748
+- **Zenodo historical beta release DOI:** https://doi.org/10.5281/zenodo.23166491
 - **OSF Registration:** https://osf.io/5b329/overview
 - **OSF Registration DOI:** https://doi.org/10.17605/OSF.IO/5B329
 - **Associated OSF Project:** https://osf.io/wa5v8
@@ -18,7 +20,7 @@ Machine-readable identifier roles are recorded in `identifiers.yaml`. Human cita
 
 The Zenodo concept DOI identifies the evolving repository across versions.
 
-The version DOI identifies the exact archived `beta` release.
+Each version DOI identifies a specific immutable release, whereas the concept DOI identifies the evolving software family.
 
 The repository badge therefore links to the concept DOI:
 
@@ -27,6 +29,8 @@ The repository badge therefore links to the concept DOI:
 while the archived beta snapshot is identified by:
 
 `10.5281/zenodo.23166491`
+
+The currently latest archived version is `v2026.10-evidence-reconciliation` with version DOI `10.5281/zenodo.23284570`, **not** the beta. See [citation guidance](CITATION.md) and the [archived citation metadata discrepancy](../RELEASE_POLICY.md#archived-evidence-reconciliation-release--2026-10-10).
 
 Future releases must preserve this concept/version distinction.
 

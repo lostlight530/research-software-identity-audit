@@ -442,6 +442,17 @@ def check_repository_governance() -> None:
     if codemeta.get("license") != "https://spdx.org/licenses/MIT.html":
         fail("CodeMeta must use the SPDX MIT license URL")
 
+    # Advisory drift guard: check current citation metadata consistency, without
+    # implying any correction to an earlier immutable release tag.
+    cff_version = re.search(r'^version:\s*"([^"]+)"\s*$', cff, flags=re.MULTILINE)
+    cff_date = re.search(r"^date-released:\s*(\d{4}-\d{2}-\d{2})\s*$", cff, flags=re.MULTILINE)
+    if cff_version is None or cff_date is None:
+        fail("CITATION.cff needs a release version and release date")
+    if codemeta.get("version") != cff_version.group(1):
+        fail("live-main CodeMeta version differs from CITATION.cff version")
+    if codemeta.get("datePublished") != cff_date.group(1):
+        fail("live-main CodeMeta datePublished differs from CITATION.cff date-released")
+
     zenodo = json.loads(read_text(".zenodo.json"))
     creators = zenodo.get("creators", [])
     if not creators or creators[0].get("name") != "lightlost":
