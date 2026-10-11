@@ -1,48 +1,39 @@
 # Citation and identifier guidance
 
-This project has multiple linked scholarly identifiers. They are not interchangeable.
+This research project has multiple linked scholarly identifiers with **different referents**. Cite the identifier for the actual object used; do not interchange the frozen study, evolving software family, and exact archived release.
 
-## Cite the research plan
-
-Use the OSF preregistration DOI when citing the frozen study design:
+## Frozen research design — OSF preregistration
 
 **Jiang, X. (2026). _Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures_. OSF. https://doi.org/10.17605/OSF.IO/5B329**
 
-This DOI identifies the preregistered research contract, not the GitHub software runtime.
+This refers to the **preregistered study contract**, not the GitHub software runtime. The OSF registration remains frozen.
 
-## Cite the repository across versions
+## Research-control software — concept DOI
 
-Use the Zenodo concept DOI when referring to the research software infrastructure as an evolving project across releases:
+Use **https://doi.org/10.5281/zenodo.23166490** when referring to the evolving `research-software-identity-audit` software family **across releases**.
 
-**https://doi.org/10.5281/zenodo.23166490**
+The repository Zenodo badge intentionally points to this concept DOI. It does not identify a particular version and does not turn the repository into RS11.
 
-The repository DOI badge points to this version-independent citation surface.
+## Exact archived software versions
 
-## Cite the archived beta release
+| GitHub release tag | Published (UTC) | Zenodo version DOI |
+| --- | --- | --- |
+| `beta` | 2026-10-05 | [`10.5281/zenodo.23166491`](https://doi.org/10.5281/zenodo.23166491) |
+| `v2026.10-initial-research-runtime` | 2026-10-06T02:48:16Z | [`10.5281/zenodo.23176748`](https://doi.org/10.5281/zenodo.23176748) |
+| **`v2026.10-evidence-reconciliation`** | **2026-10-10T15:45:40Z** | **[`10.5281/zenodo.23284570`](https://doi.org/10.5281/zenodo.23284570)** |
 
-Use the version-specific Zenodo DOI when the exact archived `beta` release is the object used or examined:
+The October 10 version DOI was registered at DataCite on `2026-10-10T15:45:48Z`; the October 6 initial-runtime DOI was registered `2026-10-06T02:48:21Z`. Use the **version DOI** when citing the exact archived snapshot actually used. Do not substitute the concept DOI or preregistration DOI for that snapshot.
 
-**https://doi.org/10.5281/zenodo.23166491**
+**Software author:** lightlost — [ORCID `0009-0001-3617-0832`](https://orcid.org/0009-0001-3617-0832).
 
-## Software author
+## Archived metadata discrepancy — not silently repaired
 
-**lightlost — ORCID https://orcid.org/0009-0001-3617-0832**
+The October 10 `v2026.10-evidence-reconciliation` immutable GitHub tag was published with `CITATION.cff` and `codemeta.json` still describing the **previous October 6 version**. The version identity and registered DOI above were separately verified against the actual GitHub Release, [Zenodo record](https://zenodo.org/api/records/23284570) and [DataCite registration](https://api.datacite.org/dois/10.5281/zenodo.23284570).
+
+Current `main` citation metadata was reconciled on October 11 to refer to the **latest archived release**, but this later edit **does not change the archived tag**. See [RELEASE_POLICY.md](../RELEASE_POLICY.md#archived-evidence-reconciliation-release--2026-10-10) for the correction note and the independent concept-DOI `HasVersion` vs version-DOI `IsVersionOf` difference.
+
+The live `main` may contain work merged after the latest archival release; such later changes are **not part of the previous archived version** merely because the live citation metadata names that release.
 
 ## Boundary rule
 
-OSF preregistration DOI, Zenodo concept DOI, Zenodo release DOI, GitHub URL, OSF project URL, and ORCID are related identifiers with different referents.
-
-Do not substitute one for another merely because they belong to the same research lifecycle.
-
-
-## Current archived release
-
-The current formal initial-runtime release is:
-
-- tag: `v2026.10-initial-research-runtime`
-- version DOI: `10.5281/zenodo.23176748`
-- concept DOI: `10.5281/zenodo.23166490`
-- GitHub published: `2026-10-06T02:48:16Z`
-- DataCite registered: `2026-10-06T02:48:21Z`
-
-Use the version DOI when citing this exact archived release and the concept DOI when referring to the evolving software family.
+OSF preregistration DOI, Zenodo concept DOI, Zenodo release DOI, GitHub repository URL, OSF project URL, ORCID and downstream registry identifiers refer to non-equivalent objects. No release here adds an eleventh object to the fixed RS01–RS10 sample or proves scientific validation, reuse or a prospective timepoint.
