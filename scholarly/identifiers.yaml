@@ -247,3 +247,32 @@ live_main_citation_reconciliation_2026_10_11:
     relation_discrepancy_cause: "UNKNOWN"
   fixed_corpus_membership_effect: "none"
   prospective_dataset_member: false
+
+# Later current-state snapshot. Historical "recorded_date=2026-10-07" and
+# "repository.current_release_tag" remain their original dated values.
+audit_control_public_review_2026_10_12:
+  review_file: "scholarly/control-repository-review-2026-10-12.md"
+  review_outer_window_start_utc: "2026-10-12T11:30:08.810Z"
+  review_outer_window_end_utc: "2026-10-12T11:33:17.968Z"
+  reviewed_repository_only: "lostlight530/research-software-identity-audit"
+  control_repository_is_rs11: false
+  latest_published_tag_at_review: "v2026.10-evidence-reconciliation"
+  latest_published_version_doi_at_review: "10.5281/zenodo.23284570"
+  zenodo_full_version_list_count: 3
+  zenodo_record_direct_read: "SUCCESS_AFTER_RETRY"
+  zenodo_other_requests_timed_out: true
+  datacite_concept_has_version_count: 2
+  datacite_new_version_is_version_of_concept: true
+  current_main_citation_and_codemeta_aligned: true
+  archived_tag_embedded_old_citation_metadata: true
+  openaire_new_version_doi_exact_pid_hits: 1
+  openaire_concept_doi_exact_pid_hits: 0
+  openalex_new_version_work: "W7221337741"
+  openalex_author_filtered_works_count: 21
+  openalex_author_selected_profile_works_count: 21
+  openalex_author_full_profile_works_count: 30
+  openalex_count_mechanism: "UNKNOWN"
+  orcid_structured_summary_reconstructed: false
+  software_heritage_direct_github_origin: "ACCESS_CHALLENGED"
+  prospective_dataset_member: false
+  original_http_bytes_preserved_by_review: false
