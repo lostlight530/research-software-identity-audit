@@ -10,7 +10,7 @@
 - [zenodo-version-attempts.csv](zenodo-version-attempts.csv)：Zenodo 三个版本 **3 次直接请求成组**，共 9 行原字段摘录，**保留首轮不一致**与两次后来收敛的取数窗口、URL、八项统计字段
 - [record.yaml](record.yaml)：界定本次实际范围、状态、来源与边界的机器可读摘要
 - GitHub 的 [初始 main](https://github.com/lostlight530/research-software-identity-audit/commit/de45b364050c7f4916484cb1226a80567f022426) 为复核的代码状态与数据合同基准
-- [2026-10-12 上一次控制仓复核](../../../scholarly/control-repository-review-2026-10-12.md) 与 [2026-10-11 Zenodo 33-version 复核](../..//../2026-10-11/01-zenodo-33-version-recheck/verification.md) 保持原始身份，不覆盖日期、数值或 provenance
+- [2026-10-12 上一次控制仓复核](../../../scholarly/control-repository-review-2026-10-12.md) 与 [2026-10-11 Zenodo 33-version 复核](../../2026-10-11/01-zenodo-33-version-recheck/verification.md) 保持原始身份，不覆盖日期、数值或 provenance
 
 **证据级别：** GitHub 授权连接器执行只读 GET 并返回源码/元数据；外部 API 使用公开内容提取器要求 live fetch，获得可解析 JSON 或呈现的文本，**未得到字节原样 HTTP 响应、单请求服务器 Date/Headers、响应原始 SHA-256**。外部平台的 `registered`/`updated_date` 是平台声明的**对象字段**，不是本轮请求完成时间，也不是独立观测到的首次索引时间。对 nonce 的使用不保证穿过所有缓存。不要把这些派生摘录冒充带哈希的原始 HTTP 档案。
 
