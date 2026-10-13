@@ -79,7 +79,7 @@ osf_json_current_state: "NOT_PARSED"
 research_software_directory_published_listing: true
 rrid_public_report: "RRID:SCR_029105"
 prospective_dataset_member: false
-new_eligible_fixed_corpus_release_observed: false
+fixed_corpus_release_lists_checked_this_review: false
 source_attempt_ledger: "platform-attempts.csv"
 zenodo_version_recheck_ledger: "zenodo-version-attempts.csv"
 human_review: "README.md"
