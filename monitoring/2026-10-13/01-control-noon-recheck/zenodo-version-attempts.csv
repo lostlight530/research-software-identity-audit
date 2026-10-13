@@ -1,0 +1,10 @@
+round_id,source_interface,record_id,conceptrecid,version,family_views,family_unique_views,family_downloads,family_unique_downloads,version_views,version_unique_views,version_downloads,version_unique_downloads,outer_start_utc,outer_end_utc,query_url,state
+initial_bare,direct_record,23166491,23166490,beta,91,87,3,3,21,20,0,0,2026-10-13T04:49:35.646Z,2026-10-13T04:49:40.185Z,https://zenodo.org/api/records/23166491,JSON_PARSED
+initial_bare,direct_record,23176748,23166490,v2026.10-initial-research-runtime,51,49,0,0,32,31,0,0,2026-10-13T04:49:35.646Z,2026-10-13T04:49:40.185Z,https://zenodo.org/api/records/23176748,JSON_PARSED
+initial_bare,direct_record,23284570,23166490,v2026.10-evidence-reconciliation,74,71,3,3,0,0,0,0,2026-10-13T04:49:35.646Z,2026-10-13T04:49:40.185Z,https://zenodo.org/api/records/23284570,JSON_PARSED
+nonce_round_A,direct_record,23166491,23166490,beta,91,87,3,3,21,20,0,0,2026-10-13T04:50:02.337Z,2026-10-13T04:50:07.309Z,https://zenodo.org/api/records/23166491?_cb=noon_20261013_1250_A_0,JSON_PARSED
+nonce_round_A,direct_record,23176748,23166490,v2026.10-initial-research-runtime,91,87,3,3,54,52,3,3,2026-10-13T04:50:02.337Z,2026-10-13T04:50:07.309Z,https://zenodo.org/api/records/23176748?_cb=noon_20261013_1250_A_1,JSON_PARSED
+nonce_round_A,direct_record,23284570,23166490,v2026.10-evidence-reconciliation,91,87,3,3,16,15,0,0,2026-10-13T04:50:02.337Z,2026-10-13T04:50:07.309Z,https://zenodo.org/api/records/23284570?_cb=noon_20261013_1250_A_2,JSON_PARSED
+nonce_round_B,direct_record,23166491,23166490,beta,91,87,3,3,21,20,0,0,2026-10-13T04:50:02.337Z,2026-10-13T04:50:07.311Z,https://zenodo.org/api/records/23166491?_cb=noon_20261013_1250_B_0,JSON_PARSED
+nonce_round_B,direct_record,23176748,23166490,v2026.10-initial-research-runtime,91,87,3,3,54,52,3,3,2026-10-13T04:50:02.337Z,2026-10-13T04:50:07.311Z,https://zenodo.org/api/records/23176748?_cb=noon_20261013_1250_B_1,JSON_PARSED
+nonce_round_B,direct_record,23284570,23166490,v2026.10-evidence-reconciliation,91,87,3,3,16,15,0,0,2026-10-13T04:50:02.337Z,2026-10-13T04:50:07.311Z,https://zenodo.org/api/records/23284570?_cb=noon_20261013_1250_B_2,JSON_PARSED

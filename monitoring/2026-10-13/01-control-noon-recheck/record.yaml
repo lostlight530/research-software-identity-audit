@@ -1,0 +1,86 @@
+schema_version: "1.0"
+record_id: "audit-control-noon-independent-2026-10-13"
+record_class: "diagnostic_monitoring"
+review_subject: "lostlight530/research-software-identity-audit"
+reviewed_entity_role: "research_control_repository_not_RS11"
+observation_date_asia_shanghai: "2026-10-13"
+requested_daypart: "12:00-hour"
+actual_request_outer_start_utc: "2026-10-13T04:47:55.192Z"
+actual_request_outer_end_utc: "2026-10-13T04:51:01.217Z"
+actual_request_outer_start_asia_shanghai: "2026-10-13T12:47:55.192+08:00"
+actual_request_outer_end_asia_shanghai: "2026-10-13T12:51:01.217+08:00"
+no_12_00_00_historical_capture_claim: true
+timestamp_semantics: "outer tool-request windows; neither individual HTTP response completion nor provider event timestamps"
+main_sha_at_start: "de45b364050c7f4916484cb1226a80567f022426"
+open_pr_count_at_start: 0
+most_recent_main_ci_before_review: "SUCCESS"
+latest_published_software_tag: "v2026.10-evidence-reconciliation"
+latest_published_version_doi: "10.5281/zenodo.23284570"
+concept_doi: "10.5281/zenodo.23166490"
+current_main_citation_metadata_aligned: true
+immutable_release_tag_embedded_metadata_drift_preserved: true
+research_fixed_corpus_size_unchanged: 10
+preregistered_object_layer_units_per_scheduled_timepoint: 60
+possible_object_platform_checks_per_timepoint: 70
+seven_operational_platforms_review_attempted: true
+core_platforms:
+  - "GitHub"
+  - "Zenodo"
+  - "DataCite"
+  - "ORCID"
+  - "Software Heritage"
+  - "OpenAIRE"
+  - "OpenAlex"
+raw_http_transport_bytes_preserved: false
+http_headers_or_per_response_server_dates_available: false
+all_core_platforms_fully_verified: false
+zenodo_control_family_version_records: 3
+zenodo_initial_bare_direct_record_reads: 3
+zenodo_initial_field_conflict: true
+zenodo_initial_record_family_views: "91|51|74"
+zenodo_initial_record_version_views: "21|32|0"
+zenodo_initial_derived_views: 53
+zenodo_initial_derived_downloads: 0
+zenodo_initial_family_aggregate_match: false
+zenodo_retry_independent_nonce_rounds: 2
+zenodo_later_family_search_and_versions_endpoints_match: true
+zenodo_later_family_views: 91
+zenodo_later_family_unique_views: 87
+zenodo_later_family_downloads: 3
+zenodo_later_family_unique_downloads: 3
+zenodo_later_version_views_beta_initial_latest: "21|54|16"
+zenodo_later_version_downloads_beta_initial_latest: "0|3|0"
+zenodo_later_aggregate_match: true
+zenodo_counter_conflict_mechanism: "UNKNOWN"
+zenodo_fresh_cache_bypass_guarantee: false
+datacite_control_concept_has_version_count: 2
+datacite_new_version_is_version_of_verified: true
+datacite_parent_relation_completeness: "INCOMPLETE_AT_REVIEW"
+openaire_control_version_pid_exact_hits_beta_initial_latest: "1|1|1"
+openaire_control_concept_pid_exact_hits: 0
+openalex_author_filtered_works_count: 24
+openalex_author_selected_profile_works_count: 21
+openalex_author_full_profile_works_count: 30
+openalex_count_discrepancy_cause: "UNKNOWN"
+openalex_audit_control_latest_version_work: "W7221337741"
+newly_discovered_supplementary_workflowhub_dois:
+  - "10.48546/workflowhub.workflow.2332.5"
+  - "10.48546/workflowhub.workflow.2334.5"
+  - "10.48546/workflowhub.workflow.2337.1"
+supplementary_doi_identity_list_baseline_count: 53
+additional_verified_public_doi_identities: 3
+known_public_doi_identity_list_total: 56
+full_56_doi_platform_census_executed: false
+orcid_structured_work_group_count: "NOT_RECONSTRUCTED"
+swh_github_origin_status: "BOT_CHALLENGE"
+swh_zenodo_origin_visits_status: "NONJSON_HTML"
+github_traffic_access_status: "CONNECTOR_UNSUPPORTED"
+osf_json_current_state: "NOT_PARSED"
+research_software_directory_published_listing: true
+rrid_public_report: "RRID:SCR_029105"
+prospective_dataset_member: false
+fixed_corpus_release_lists_checked_this_review: false
+source_attempt_ledger: "platform-attempts.csv"
+zenodo_version_recheck_ledger: "zenodo-version-attempts.csv"
+human_review: "README.md"
+independent_review_outcome: "BOUNDED_SEVEN_PLATFORM_CONTROL_REVIEW_WITH_LATER_COUNTER_CONVERGENCE_AND_OPEN_GAPS"
