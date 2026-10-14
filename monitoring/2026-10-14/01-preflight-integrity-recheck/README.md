@@ -17,7 +17,7 @@
 
 All ten fixed repositories returned **three current public Release entries** and **three current Git tag refs** per repository. The observed Git tags are `v2026.09-open-research-baseline`, `v2026.09-natural-month-close`, `v2026.10-open-research-production-framework`. All Release lists name `v2026.10-open-research-production-framework` as the newest public release, dated **2026-10-04 UTC**. All current tag refs target commit objects.
 
-Yesterday's [2026-10-13 gate](../..//2026-10-13/02-fixed-corpus-release-gate/README.md) retained ten `CONNECTOR_INVALID_ARGUMENT` failures for `/tags?per_page=100`. **Today a distinct supported GET `/git/matching-refs/tags` succeeded for all ten**. This does **not** rewrite yesterday's failed attempts or prove that no tag ever existed and was deleted, or establish historical tag-ref creation timestamps.
+Yesterday's [2026-10-13 gate](../../2026-10-13/02-fixed-corpus-release-gate/README.md) retained ten `CONNECTOR_INVALID_ARGUMENT` failures for `/tags?per_page=100`. **Today a distinct supported GET `/git/matching-refs/tags` succeeded for all ten**. This does **not** rewrite yesterday's failed attempts or prove that no tag ever existed and was deleted, or establish historical tag-ref creation timestamps.
 
 **Today’s bounded conclusion:** no post-registration **public GitHub Release or currently visible additional tag ref** was found in these ten repositories. GitHub commits, deleted/renamed refs, unlisted release-event types and other contract eligibility details are not exhaustively ruled out. **Prospective start is not established**.
 
@@ -25,7 +25,7 @@ Yesterday's [2026-10-13 gate](../..//2026-10-13/02-fixed-corpus-release-gate/REA
 
 The direct **bare** extract of `23166491 / 23176748 / 23284570` returned attached family views **91 / 51 / 74**, version views **21 / 32 / 0**, and attached family downloads **3 / 0 / 3**. As with Oct 13, these responses are **not a mutually consistent family snapshot**.
 
-The later separate nonce-labeled three-version extraction returned version views **21 / 55 / 18**, sum **94**, version downloads **0 / 3 / 0**, sum **3**, with **attached family views=94, family unique_views=90 and family downloads=3** on each version response. Version-list extraction enumerated the same three record identities. This is a **later cross-version match after earlier inconsistent fields**, not proof of a specific cache/synchronization mechanism. Nonce query parameters do not guarantee cache freshness.
+The later separate nonce-labeled three-version extraction returned version views **21 / 55 / 18**, sum **94**, version downloads **0 / 3 / 0**, sum **3**, with **attached family views=94, family unique_views=90 and family downloads=3** on each version response. A version-list endpoint excerpt was also obtained, but the full native response and exhaustive array membership were **not independently parsed** in this pass. This is a **later cross-version match after earlier inconsistent fields**, not proof of a specific cache/synchronization mechanism. Nonce query parameters do not guarantee cache freshness.
 
 Compared with the **separate Oct 13 later matched** `91 views / 87 unique_views / 3 downloads` snapshot, the comparable family fields changed by **+3 views / +3 unique-view counter units / 0 downloads**. This is not a headcount of newly identified people or a causal traffic explanation.
 
