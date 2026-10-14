@@ -34,7 +34,8 @@ post_registration_new_public_release_observed: false
 exhaustive_eligible_event_exclusion_proven: false
 prospective_dataset_started: false
 schedule_offsets_declared: false
-zenodo_control_record_ids: [23166491, 23176748, 23284570]
+zenodo_control_record_ids_directly_read: [23166491, 23176748, 23284570]
+zenodo_version_list_complete_membership_verified_this_review: false
 zenodo_bare_extraction_family_views: "91|51|74"
 zenodo_bare_extraction_version_views: "21|32|0"
 zenodo_bare_extraction_consistent: false
