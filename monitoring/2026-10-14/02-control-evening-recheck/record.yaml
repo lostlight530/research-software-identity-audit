@@ -1,0 +1,7 @@
+schema_version: "1.0"
+record_id: "control-evening-preflight-2026-10-14"
+record_class: "diagnostic_monitoring"
+research_phase: "PREFLIGHT"
+prospective_dataset_member: false
+subject: "lostlight530/research-software-identity-audit"
+control_repository_is_rs11: false
