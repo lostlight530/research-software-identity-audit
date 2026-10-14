@@ -21,7 +21,7 @@ fixed_corpus_current_tag_count_per_repository: 4
 fixed_corpus_new_release_tag: "v2026.10-fourteen-day-evidence-checkpoint"
 new_release_first_published_at_utc: "2026-10-14T11:14:44Z"
 new_release_last_published_at_utc: "2026-10-14T11:16:33Z"
-new_datacite_findable_version_doi_count: 10
+new_datacite_registered_version_doi_count: 10
 new_datacite_is_version_of_concept_count: 10
 new_datacite_orcid_matches: 10
 candidate_identity_crosswalk: "release-candidate-crosswalk.csv"
