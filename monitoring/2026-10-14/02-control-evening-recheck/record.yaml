@@ -58,6 +58,7 @@ raw_http_bytes_retained: false
 http_headers_retained: false
 per_response_retrieval_timestamps_retained: false
 source_attempt_ledger: "platform-attempts.csv"
+source_attempt_rows: 62
 frozen_osf_contract_modified: false
 baseline_modified: false
 schema_modified: false
