@@ -55,3 +55,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## 2026-10-13 evening fixed-corpus public release gate
 
 - [2026-10-13 / 02-fixed-corpus-release-gate](2026-10-13/02-fixed-corpus-release-gate/README.md) — 19:44 Asia/Shanghai independent public GitHub Release-list queries for all fixed `RS01–RS10`: each latest returned published release dates to October 4, so no new post-registration **public GitHub Release** observed. Ten public Git tag-list calls were connector-blocked and remain `NOT_VERIFIED`; this does not establish an exhaustive eligible-event absence or start the prospective study. The [20-attempt source ledger](2026-10-13/02-fixed-corpus-release-gate/source-attempts.csv) retains the exact source URLs and bounded retrieval windows.
+
+## October 14 preflight integrity and fixed-ten tag-ref check
+
+- [2026-10-14 / 01-preflight-integrity-recheck](2026-10-14/01-preflight-integrity-recheck/README.md) — read-only preflight: all ten current GitHub Release **and Git tag-ref** lists parsed (previous day's unsupported tag path remains historically blocked), no new public release observed; separately retained Zenodo bare-field inconsistency versus later family/version match (94/90/3), DataCite reverse-link asymmetry, OpenAlex author query/profile differences (26/24/30), and OSF's publicly displayed Oct 6 update notice without claiming an original-to-updated field diff. External extractor rate-limit blocks preserved; **not prospective**.
