@@ -1,0 +1,11 @@
+object_id,repository,github_published_utc,zenodo_version_doi,datacite_registered_utc,concept_doi
+RS01,welcome-to-github,11:14:44,10.5281/zenodo.23365504,11:14:52,10.5281/zenodo.22790907
+RS02,zero-entropy-lab,11:16:09,10.5281/zenodo.23365551,11:16:17,10.5281/zenodo.22791081
+RS03,Axiom-0,11:15:30,10.5281/zenodo.23365534,11:15:41,10.5281/zenodo.22791103
+RS04,reflective-continuum,11:16:33,10.5281/zenodo.23365567,11:16:39,10.5281/zenodo.22791141
+RS05,agent-foundations,11:15:39,10.5281/zenodo.23365540,11:15:47,10.5281/zenodo.22791169
+RS06,auto-doc-engine,11:14:54,10.5281/zenodo.23365510,11:15:00,10.5281/zenodo.22791404
+RS07,epistemic-pipeline,11:15:04,10.5281/zenodo.23365517,11:15:13,10.5281/zenodo.22791463
+RS08,sci-render-kit,11:15:18,10.5281/zenodo.23365525,11:15:24,10.5281/zenodo.22791375
+RS09,china-agentic-observatory,11:16:00,10.5281/zenodo.23365548,11:16:06,10.5281/zenodo.22791309
+RS10,agentic-frontier-observatory,11:15:53,10.5281/zenodo.23365543,11:15:59,10.5281/zenodo.22791334
