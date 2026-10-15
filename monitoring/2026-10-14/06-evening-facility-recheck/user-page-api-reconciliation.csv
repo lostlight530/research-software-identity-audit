@@ -1,0 +1,12 @@
+object_id,software_family,user_raw_joined_digits,page_unique_views,page_unique_downloads,scope,api_unique_views,api_unique_downloads,page_matches_api_unique_pair
+RS01,welcome-to-github,1744,174,4,fixed_corpus,174,4,True
+RS02,zero-entropy-lab,1310,131,0,fixed_corpus,131,0,True
+RS03,Axiom-0,1540,154,0,fixed_corpus,154,0,True
+RS04,reflective-continuum,1100,110,0,fixed_corpus,110,0,True
+RS05,agent-foundations,1341,134,1,fixed_corpus,134,1,True
+RS06,auto-doc-engine,1220,122,0,fixed_corpus,122,0,True
+RS07,epistemic-pipeline,1370,137,0,fixed_corpus,137,0,True
+RS08,sci-render-kit,1251,125,1,fixed_corpus,125,1,True
+RS09,china-agentic-observatory,1450,145,0,fixed_corpus,145,0,True
+RS10,agentic-frontier-observatory,1541,154,1,fixed_corpus,154,1,True
+,research-software-identity-audit,903,90,3,audit_runtime_supplement,90,3,True

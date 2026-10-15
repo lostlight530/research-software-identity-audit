@@ -79,3 +79,15 @@ This dated comparison preserves source-provided earlier WorkflowHub, ORCID, Open
 [October 12 bounded seven-platform control-only review](control-repository-review-2026-10-12.md) checks the **research-control repository only**, with current `CITATION.cff`/`codemeta.json` aligned to the already archived October 10 software release. The earlier **immutable tag's embedded older citation metadata** remains preserved; DataCite's concept DOI lists two `HasVersion` links while Zenodo lists three versions and the latest registered DOI has `IsVersionOf`.
 
 This later independently queried surface returned the audit-control's new `10.5281/zenodo.23284570` DOI in **OpenAIRE (one exact-PID software result)** and **OpenAlex Work `W7221337741`**, while the author's filtered OpenAlex list contained **21** Works versus the prior October 10 list's 18. The two workflow v4 Works were also independently associated with the same public ORCID. SWH access challenge, ORCID structured-count gap, historical HTTP raw-byte limitation, and OpenAlex full-profile counter conflict remain explicitly unresolved. This is **diagnostic control-only research**, not RS11 or an eligible prospective observation.
+
+## October 14 cross-infrastructure capture
+
+[Morning institutional results](../monitoring/2026-10-14/04-morning-facility-recheck/README.md) retain DataCite 60 findable identifiers, ORCID 15 groups / 72 summaries, OpenAlex query 26 vs profile 24, and ten-family DOI route convergence. Supplementary RSD, HAL, RRID, WorkflowHub, OSF and Internet Archive outcomes remain source-specific; historical states above are not overwritten
+
+## October 14 evening new-release propagation
+
+[Evening diagnostics and new-version evidence](../monitoring/2026-10-14/06-evening-facility-recheck/README.md) preserve ten new public releases, 72 findable DOIs, 15 ORCID groups / 85 sources and 43 enumerated versions; user pages and independent captures remain separate
+
+## October 15 morning diagnostic recheck
+
+[Full morning record](../monitoring/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated

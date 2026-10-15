@@ -1,0 +1,351 @@
+{
+  "requested_checkpoint": "2026-10-14 20:00 Asia/Shanghai",
+  "actual_started_at_local": "2026-10-14T20:23:07.804385+08:00",
+  "actual_finished_at_local": "2026-10-14T20:35:59.939979+08:00",
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "repository_modified": false,
+  "requests": 410,
+  "http_status_counts": {
+    "200": 332,
+    "None": 38,
+    "404": 27,
+    "403": 1,
+    "522": 1,
+    "400": 11
+  },
+  "zenodo_fixed_ten": {
+    "views": 2215,
+    "downloads": 8,
+    "unique_views": 1386,
+    "unique_downloads": 7,
+    "version_views": 194,
+    "version_downloads": 1,
+    "version_unique_views": 179,
+    "version_unique_downloads": 1
+  },
+  "zenodo_companion": {
+    "object_id": "COMPANION",
+    "software_family": "research-software-identity-audit",
+    "record_id": 23284570,
+    "views": 94,
+    "downloads": 3,
+    "unique_views": 90,
+    "unique_downloads": 3,
+    "version_views": 18,
+    "version_downloads": 0,
+    "version_unique_views": 17,
+    "version_unique_downloads": 0
+  },
+  "prior_api_window": [
+    "2026-10-14T08:03:20.679771+08:00",
+    "2026-10-14T08:07:02.396750+08:00"
+  ],
+  "zenodo_delta": {
+    "views": 31,
+    "downloads": 0,
+    "unique_views": 30,
+    "unique_downloads": 0,
+    "version_views": 2,
+    "version_downloads": 0,
+    "version_unique_views": 2,
+    "version_unique_downloads": 0
+  },
+  "datacite": {
+    "individual": 72,
+    "individual_findable": 72,
+    "creator_query_total": 71,
+    "creator_query_returned": 71,
+    "combined": 72,
+    "combined_findable": 72,
+    "new_dois": [
+      "10.48546/workflowhub.workflow.2332.8",
+      "10.48546/workflowhub.workflow.2334.8",
+      "10.5281/zenodo.23365504",
+      "10.5281/zenodo.23365510",
+      "10.5281/zenodo.23365517",
+      "10.5281/zenodo.23365525",
+      "10.5281/zenodo.23365534",
+      "10.5281/zenodo.23365540",
+      "10.5281/zenodo.23365543",
+      "10.5281/zenodo.23365548",
+      "10.5281/zenodo.23365551",
+      "10.5281/zenodo.23365567"
+    ],
+    "prior_missing": []
+  },
+  "orcid": {
+    "group_count": 15,
+    "summary_count": 85,
+    "sources": {
+      "DataCite": 62,
+      "OpenAIRE": 11,
+      "author/unnamed": 12
+    },
+    "fixed_corpus_groups": 10,
+    "fixed_corpus_summaries": 60
+  },
+  "orcid_added": [
+    {
+      "put_code": 229954462,
+      "title": "Agent Foundations",
+      "source": "DataCite",
+      "dois": [
+        "10.5281/zenodo.23365540",
+        "10.5281/zenodo.22791169"
+      ]
+    },
+    {
+      "put_code": 229954467,
+      "title": "Agentic Frontier Observatory",
+      "source": "DataCite",
+      "dois": [
+        "10.5281/zenodo.23365543",
+        "10.5281/zenodo.22791334"
+      ]
+    },
+    {
+      "put_code": 229954457,
+      "title": "Axiom-0",
+      "source": "DataCite",
+      "dois": [
+        "10.5281/zenodo.23365534",
+        "10.5281/zenodo.22791103"
+      ]
+    },
+    {
+      "put_code": 229954464,
+      "title": "China Agentic Observatory",
+      "source": "DataCite",
+      "dois": [
+        "10.5281/zenodo.23365548",
+        "10.5281/zenodo.22791309"
+      ]
+    },
+    {
+      "put_code": 229954459,
+      "title": "Epistemic Pipeline",
+      "source": "DataCite",
+      "dois": [
+        "10.5281/zenodo.23365517",
+        "10.5281/zenodo.22791463"
+      ]
+    },
+    {
+      "put_code": 229954469,
+      "title": "Reflective Continuum",
+      "source": "DataCite",
+      "dois": [
+        "10.5281/zenodo.23365567",
+        "10.5281/zenodo.22791141"
+      ]
+    },
+    {
+      "put_code": 229954463,
+      "title": "Zero-Entropy Lab",
+      "source": "DataCite",
+      "dois": [
+        "10.5281/zenodo.23365551",
+        "10.5281/zenodo.22791081"
+      ]
+    },
+    {
+      "put_code": 229954460,
+      "title": "auto-doc-engine",
+      "source": "DataCite",
+      "dois": [
+        "10.5281/zenodo.23365510",
+        "10.5281/zenodo.22791404"
+      ]
+    },
+    {
+      "put_code": 229954455,
+      "title": "sci-render-kit",
+      "source": "DataCite",
+      "dois": [
+        "10.5281/zenodo.23365525",
+        "10.5281/zenodo.22791375"
+      ]
+    },
+    {
+      "put_code": 229954474,
+      "title": "welcome-to-github",
+      "source": "DataCite",
+      "dois": [
+        "10.5281/zenodo.23365504",
+        "10.5281/zenodo.22790907"
+      ]
+    },
+    {
+      "put_code": 229954515,
+      "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+      "source": "DataCite",
+      "dois": [
+        "10.48546/workflowhub.workflow.2332.8"
+      ]
+    },
+    {
+      "put_code": 229954516,
+      "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+      "source": "DataCite",
+      "dois": [
+        "10.48546/workflowhub.workflow.2332.8"
+      ]
+    },
+    {
+      "put_code": 229954514,
+      "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+      "source": "DataCite",
+      "dois": [
+        "10.48546/workflowhub.workflow.2334.8"
+      ]
+    }
+  ],
+  "orcid_removed": [],
+  "openalex": {
+    "query_observed": true,
+    "count": 26,
+    "returned": 26,
+    "types": {
+      "software": 12,
+      "other": 14
+    },
+    "profile_works_count": 26,
+    "fixed_version_doi_lookup": "requested_40_individual_endpoints",
+    "doi_endpoint_requests": 40,
+    "doi_endpoint_work_resolutions": 40,
+    "doi_exact_matches": 10,
+    "distinct_resolved_work_ids": 10,
+    "selected_profile_works_count": 26
+  },
+  "workflowhub": [
+    {
+      "id": "2332",
+      "latest_version": 8,
+      "detail_activity": {
+        "views": 793,
+        "downloads": 74
+      },
+      "http": 200
+    },
+    {
+      "id": "2334",
+      "latest_version": 8,
+      "detail_activity": {
+        "views": 724,
+        "downloads": 52
+      },
+      "http": 200
+    },
+    {
+      "id": "2337",
+      "latest_version": 1,
+      "detail_activity": {
+        "views": 157,
+        "downloads": 5
+      },
+      "http": 200
+    }
+  ],
+  "rsd": 11,
+  "hal_id_query": 0,
+  "hal_page_http": 404,
+  "rrid_http": 403,
+  "osf_http": 200,
+  "internet_archive_http": 200,
+  "rse_pr_498": "open",
+  "platform_states": {
+    "release_verified": 10,
+    "version_family_verified": 10,
+    "four_doi_findable": 10,
+    "family_group_observed": 10,
+    "deposit_release_directory_verified": 10,
+    "version_record_observed": 10,
+    "version_doi_resolves_to_work": 10
+  },
+  "known_zenodo_versions_returned": 31,
+  "new_user_dashboard_provided": false,
+  "zenodo_last_complete_reference": {
+    "window": [
+      "2026-10-13T23:11:05.225368+08:00",
+      "2026-10-13T23:17:33.604439+08:00"
+    ],
+    "fixed_ten": {
+      "views": 2137,
+      "downloads": 8,
+      "unique_views": 1317,
+      "unique_downloads": 7,
+      "version_views": 188,
+      "version_downloads": 1,
+      "version_unique_views": 174,
+      "version_unique_downloads": 1
+    },
+    "delta_to_current": {
+      "views": 78,
+      "downloads": 0,
+      "unique_views": 69,
+      "unique_downloads": 0,
+      "version_views": 6,
+      "version_downloads": 0,
+      "version_unique_views": 5,
+      "version_unique_downloads": 0
+    }
+  },
+  "archived_version_under_reconciliation": "2026-10-04",
+  "new_release": {
+    "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+    "fixed_version_count": 10,
+    "new_version_family_totals": {
+      "views": 2215,
+      "downloads": 8,
+      "unique_views": 1386,
+      "unique_downloads": 7,
+      "version_views": 0,
+      "version_downloads": 0,
+      "version_unique_views": 0,
+      "version_unique_downloads": 0
+    },
+    "states": {
+      "new_public_release_verified": 10,
+      "new_version_family_verified": 10,
+      "new_version_findable": 10,
+      "new_version_source_assertion_observed": 10,
+      "new_version_record_observed": 10,
+      "new_version_doi_query_not_found": 10,
+      "version_doi_origin_not_found": 9,
+      "query_unresolved": 1
+    },
+    "release_event_observed": true,
+    "earliest_observed_publication_utc": "2026-10-14T11:14:44Z",
+    "latest_observed_publication_utc": "2026-10-14T11:16:33Z",
+    "prospective_schedule_declared": false,
+    "promoted_to_scheduled_timepoint": false,
+    "individual_endpoint_version_records": 41,
+    "distinct_version_records_observed": 43,
+    "enumerations_complete": true,
+    "orcid_duplicate_datacite_assertions": [
+      {
+        "doi": "10.48546/workflowhub.workflow.2332.8",
+        "source": "DataCite",
+        "put_codes": [
+          229954515,
+          229954516
+        ],
+        "summary_count": 2
+      }
+    ],
+    "new_version_archive_identity_verified": false
+  },
+  "user_20_page": {
+    "source_kind": "user_supplied_page_text",
+    "exact_capture_timestamp": null,
+    "fixed_ten_unique_views": 1386,
+    "fixed_ten_unique_downloads": 7,
+    "companion_unique_views": 90,
+    "companion_unique_downloads": 3,
+    "matching_pairs": 11,
+    "rows": 11,
+    "difference_from_user_noon_fixed_unique_views": 25,
+    "difference_from_user_noon_fixed_unique_downloads": 0
+  }
+}

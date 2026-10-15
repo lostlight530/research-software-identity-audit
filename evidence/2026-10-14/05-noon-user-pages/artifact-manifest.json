@@ -1,0 +1,40 @@
+{
+  "artifacts": [
+    {
+      "path": "monitoring/2026-10-14/05-noon-user-pages/capture-summary.json",
+      "bytes": 938,
+      "sha256": "bdd4cda14cd631501a506f2e3cbd313eebee5d869bdfe51a6b66c62b72a6e142"
+    },
+    {
+      "path": "monitoring/2026-10-14/05-noon-user-pages/README.md",
+      "bytes": 1387,
+      "sha256": "1ba56d9a4f9d6242d05b542d34232900d1c38d7ffb78d7a42b04774f3214264b"
+    },
+    {
+      "path": "monitoring/2026-10-14/05-noon-user-pages/record.yaml",
+      "bytes": 938,
+      "sha256": "bdd4cda14cd631501a506f2e3cbd313eebee5d869bdfe51a6b66c62b72a6e142"
+    },
+    {
+      "path": "monitoring/2026-10-14/05-noon-user-pages/workflowhub-dashboard-statistics.csv",
+      "bytes": 334,
+      "sha256": "f98674e046ef5259b0aae4dd6e85e40768efe7ab72ac3976c1e80359262f141d"
+    },
+    {
+      "path": "monitoring/2026-10-14/05-noon-user-pages/zenodo-page-statistics.csv",
+      "bytes": 885,
+      "sha256": "15910060efab27dfc1340ab5c2478670f541937a27f1dd87918ea48f86b5b738"
+    },
+    {
+      "path": "evidence/2026-10-14/05-noon-user-pages/README.md",
+      "bytes": 355,
+      "sha256": "78943a26f41b804ee127e6f072c23ef78b38d176f9716d1cc19a2d5662652697"
+    },
+    {
+      "path": "evidence/2026-10-14/05-noon-user-pages/user-page-transcription.json",
+      "bytes": 5515,
+      "sha256": "8acb26fb7209af241bbb65f046220f4d23c9ea7d71ca749aa937080bcbe8e08f"
+    }
+  ],
+  "semantics": "Derived public artifacts normalized to LF; original local HTTP bytes unchanged"
+}

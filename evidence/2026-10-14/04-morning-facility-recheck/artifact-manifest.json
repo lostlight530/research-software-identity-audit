@@ -1,0 +1,75 @@
+{
+  "artifacts": [
+    {
+      "path": "monitoring/2026-10-14/04-morning-facility-recheck/capture-summary.json",
+      "bytes": 3697,
+      "sha256": "15e38d284d65154b0adce68823520f720675b7026a775deadbb0191c7a61a106"
+    },
+    {
+      "path": "monitoring/2026-10-14/04-morning-facility-recheck/datacite-identifiers.csv",
+      "bytes": 6418,
+      "sha256": "ed003f18b3cb866b0f9015cffdfc62a5f0f740205516722d7ad3a64ff3c9c43d"
+    },
+    {
+      "path": "monitoring/2026-10-14/04-morning-facility-recheck/openalex-doi-resolution.csv",
+      "bytes": 4446,
+      "sha256": "69be652fafd2a925773c82c94667e7f1c7022eb4d2af63c076f532ef13c5f0e5"
+    },
+    {
+      "path": "monitoring/2026-10-14/04-morning-facility-recheck/openalex-works.csv",
+      "bytes": 3290,
+      "sha256": "00e2266f53f236a34904d5eb86ae7e54bd1fdb4648a8e938adcc3282eb346945"
+    },
+    {
+      "path": "monitoring/2026-10-14/04-morning-facility-recheck/orcid-source-summaries.csv",
+      "bytes": 7460,
+      "sha256": "d375980c093ef9473b3eb809164cf61dd3701449349c07893cf38a029bf44b39"
+    },
+    {
+      "path": "monitoring/2026-10-14/04-morning-facility-recheck/platform-states.csv",
+      "bytes": 3889,
+      "sha256": "d8290643b6f0e868c1de3e4bb5e529e6ba419c032c0a937121194ddc4fa034e4"
+    },
+    {
+      "path": "monitoring/2026-10-14/04-morning-facility-recheck/README.md",
+      "bytes": 1245,
+      "sha256": "fec87ba8cba357d262918b272e040b77dc2feb7359f56ef6ee877771f9495998"
+    },
+    {
+      "path": "monitoring/2026-10-14/04-morning-facility-recheck/record.yaml",
+      "bytes": 753,
+      "sha256": "d238c264cbbdb00b127b600ac8deb0eb1f61ed9cd6da6400bbe7b68cc8531e5e"
+    },
+    {
+      "path": "monitoring/2026-10-14/04-morning-facility-recheck/workflowhub-detail-statistics.csv",
+      "bytes": 188,
+      "sha256": "d7ebf0290ed7c25f091549dbf956136ca2207c0809ea463144a317f810d59f24"
+    },
+    {
+      "path": "monitoring/2026-10-14/04-morning-facility-recheck/zenodo-family-statistics.csv",
+      "bytes": 779,
+      "sha256": "5509517d34410b8bd3c4f2e434423a9616d819d58ddd9b30ac59597d599db5a4"
+    },
+    {
+      "path": "monitoring/2026-10-14/04-morning-facility-recheck/zenodo-version-statistics.csv",
+      "bytes": 2103,
+      "sha256": "3270c9a8a9a7d394f2a14ace62d587f2e3095c5035166005bd21e4ea1bd9e60e"
+    },
+    {
+      "path": "evidence/2026-10-14/04-morning-facility-recheck/capture-manifest.json",
+      "bytes": 167523,
+      "sha256": "9e3a8df67125cffea43ed52d5b04575998754c1c6fadd252d58d6ebbed841a95"
+    },
+    {
+      "path": "evidence/2026-10-14/04-morning-facility-recheck/field-extracts.json",
+      "bytes": 1214376,
+      "sha256": "1a5bd998bc1e74b4760b8fabadbca96a0543fe0e6d17c262730387ff56d7703f"
+    },
+    {
+      "path": "evidence/2026-10-14/04-morning-facility-recheck/README.md",
+      "bytes": 507,
+      "sha256": "ae8cfb5ac0e794bc10b2a6ce8f611d6879030d081f567fc6e8010f9d4b7379fd"
+    }
+  ],
+  "semantics": "Derived public artifacts normalized to LF; original local HTTP bytes unchanged"
+}

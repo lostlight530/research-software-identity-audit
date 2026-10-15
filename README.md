@@ -968,3 +968,15 @@ All October 10 records are **diagnostic/exploratory**, not eligible new-release 
 The dated [October 10 final closeout](scholarly/closeout-review-2026-10-10.md) records a bounded repository contract/document audit, renewed institution-facing public status, external-source ownership, all ten **read-only** research template checks, and unresolved evidence limits. Supporting ledgers: [public scholarly-infrastructure review](scholarly/infrastructure-review-2026-10-10.md), [Zenodo 32-version reconciliation](monitoring/2026-10-10/02-reconciliation/README.md), and [release identity policy](RELEASE_POLICY.md).
 
 The external rseng PR #498 is **not** a merged upstream record; local GitHub documentation merges cannot substitute for that maintainer's decision. The research-control repository remains outside the fixed ten-object corpus. No new eligible release, operational schedule, prospective observation, scientific-impact claim or new registration is created by this documentation closeout.
+
+## October 14 diagnostic records
+
+[Midnight](monitoring/2026-10-14/03-midnight-facility-recheck/README.md), [morning](monitoring/2026-10-14/04-morning-facility-recheck/README.md), and [noon user pages](monitoring/2026-10-14/05-noon-user-pages/README.md) retain separate source and time semantics. Forty fixed-family DOI routes resolve to ten OpenAlex Works in the morning capture. These records add no eligible prospective timepoint or fixed-corpus object
+
+## October 14 evening new-release propagation
+
+[Evening diagnostics and new-version evidence](monitoring/2026-10-14/06-evening-facility-recheck/README.md) preserve ten new public releases, 72 findable DOIs, 15 ORCID groups / 85 sources and 43 enumerated versions; user pages and independent captures remain separate
+
+## October 15 morning diagnostic recheck
+
+[Full morning record](monitoring/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated

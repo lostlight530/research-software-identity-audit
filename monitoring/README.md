@@ -63,3 +63,17 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 14, 21:00-hour full control preflight and ten new release eligibility candidates
 
 - [2026-10-14 / 02-control-evening-recheck](2026-10-14/02-control-evening-recheck/README.md) — seven-platform control-repository diagnostic; [62 source/attempt entries](2026-10-14/02-control-evening-recheck/platform-attempts.csv), [10 fixed-corpus GitHub Release / DataCite DOI joins](2026-10-14/02-control-evening-recheck/release-candidate-crosswalk.csv), [machine summary](2026-10-14/02-control-evening-recheck/record.yaml). All ten fixed RS objects have a new October 14 published fourteen-day checkpoint: **post-registration release eligibility candidate**, not authorization to backdate a prospective timepoint. Control DataCite Concept DOI now returns 3 HasVersion links, OpenAlex author list/selected/full count each 26; Zenodo current counters timed out, ORCID structured groups unavailable, SWH bot challenged. Frozen OSF registration, baseline, schedule, schema and prospective dataset unchanged.
+
+## October 14 retained diagnostics and user pages
+
+- [2026-10-14 / 03-midnight-facility-recheck](2026-10-14/03-midnight-facility-recheck/README.md) — 00:04–00:16 independent API capture, incomplete Zenodo counters retained as null
+- [2026-10-14 / 04-morning-facility-recheck](2026-10-14/04-morning-facility-recheck/README.md) — 08:03–08:07 independent API capture; 33 version records and 40 DOI routes
+- [2026-10-14 / 05-noon-user-pages](2026-10-14/05-noon-user-pages/README.md) — user-labelled noon Zenodo unique counters and WorkflowHub Dashboard; exact time/Period unknown
+
+## October 14 evening new-release propagation
+
+[Evening diagnostics and new-version evidence](../monitoring/2026-10-14/06-evening-facility-recheck/README.md) preserve ten new public releases, 72 findable DOIs, 15 ORCID groups / 85 sources and 43 enumerated versions; user pages and independent captures remain separate
+
+## October 15 morning diagnostic recheck
+
+[Full morning record](../monitoring/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated

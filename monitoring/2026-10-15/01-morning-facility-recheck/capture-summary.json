@@ -1,0 +1,180 @@
+{
+  "requested_checkpoint": "2026-10-15 09:00 Asia/Shanghai",
+  "actual_started_at_local": "2026-10-15T09:34:00.972564+08:00",
+  "actual_finished_at_local": "2026-10-15T09:36:26.077286+08:00",
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "fixed_corpus_size": 10,
+  "requests": 299,
+  "http_status_counts": {
+    "200": 258,
+    "403": 1,
+    "404": 33,
+    "None": 7
+  },
+  "zenodo_fixed_ten": {
+    "views": 2231,
+    "downloads": 8,
+    "unique_views": 1400,
+    "unique_downloads": 7,
+    "version_views": 5,
+    "version_downloads": 0,
+    "version_unique_views": 3,
+    "version_unique_downloads": 0
+  },
+  "zenodo_companion": {
+    "object_id": "COMPANION",
+    "software_family": "research-software-identity-audit",
+    "record_id": "23284570",
+    "doi": "10.5281/zenodo.23284570",
+    "concept_doi": "10.5281/zenodo.23166490",
+    "version": "v2026.10-evidence-reconciliation",
+    "source_request_key": "zenodo_version_23284570",
+    "views": 95,
+    "downloads": 3,
+    "unique_views": 91,
+    "unique_downloads": 3,
+    "version_views": 19,
+    "version_downloads": 0,
+    "version_unique_views": 18,
+    "version_unique_downloads": 0
+  },
+  "zenodo_delta_from_evening": {
+    "views": 16,
+    "downloads": 0,
+    "unique_views": 14,
+    "unique_downloads": 0,
+    "version_views": 5,
+    "version_downloads": 0,
+    "version_unique_views": 3,
+    "version_unique_downloads": 0
+  },
+  "prior_window": [
+    "2026-10-14T20:23:07.804385+08:00",
+    "2026-10-14T20:35:59.939979+08:00"
+  ],
+  "distinct_version_records": 43,
+  "version_enumerations_complete": true,
+  "datacite": {
+    "individual": 72,
+    "findable": 72,
+    "creator_query_total": 71,
+    "new_dois": [],
+    "prior_missing_in_individual_reads": []
+  },
+  "orcid": {
+    "groups": 15,
+    "source_summaries": 84,
+    "sources": {
+      "DataCite": 61,
+      "OpenAIRE": 11,
+      "author/unnamed": 12
+    },
+    "added_put_codes": [],
+    "removed": [
+      {
+        "put_code": 229954516,
+        "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+        "dois": [
+          "10.48546/workflowhub.workflow.2332.8"
+        ]
+      }
+    ]
+  },
+  "openalex": {
+    "works_query_count": 27,
+    "returned": 27,
+    "types": {
+      "software": 11,
+      "other": 16
+    },
+    "full_profile_count": 26,
+    "selected_profile_count": 26,
+    "added_works": [
+      {
+        "id": "https://openalex.org/W7221612767",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.7",
+        "display_name": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221654297",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.7",
+        "display_name": "NEXUS CORTEX Life Cycle — welcome-to-github",
+        "type": "other"
+      }
+    ],
+    "no_longer_returned_by_author_query": [
+      {
+        "id": "https://openalex.org/W7221337741",
+        "doi": "https://doi.org/10.5281/zenodo.23284570",
+        "display_name": "Research Software Identity Audit",
+        "type": "software"
+      }
+    ],
+    "audit_latest_doi_resolved_work": {
+      "id": "https://openalex.org/W7220365356",
+      "doi": "https://doi.org/10.5281/zenodo.23166490",
+      "display_name": "Research Software Identity Audit",
+      "type": "software"
+    },
+    "audit_concept_doi_resolved_work": {
+      "id": "https://openalex.org/W7220365356",
+      "doi": "https://doi.org/10.5281/zenodo.23166490",
+      "display_name": "Research Software Identity Audit",
+      "type": "software"
+    },
+    "old_audit_work_http": 404
+  },
+  "workflowhub": [
+    {
+      "id": "2332",
+      "latest_version": 8,
+      "http_status": 200,
+      "views": 793,
+      "downloads": 74,
+      "surface": "version_detail_activity"
+    },
+    {
+      "id": "2334",
+      "latest_version": 8,
+      "http_status": 200,
+      "views": 939,
+      "downloads": 58,
+      "surface": "version_detail_activity"
+    },
+    {
+      "id": "2337",
+      "latest_version": 1,
+      "http_status": 200,
+      "views": 234,
+      "downloads": 7,
+      "surface": "version_detail_activity"
+    }
+  ],
+  "platform_states": {
+    "checkpoint_release_verified": 10,
+    "checkpoint_version_family_verified": 10,
+    "checkpoint_version_findable": 10,
+    "checkpoint_version_assertion_observed": 10,
+    "checkpoint_exact_record_observed": 10,
+    "checkpoint_doi_not_found": 10,
+    "checkpoint_content_unverified": 9,
+    "checkpoint_tag_commit_directory_verified": 1
+  },
+  "swh": {
+    "new_tag_commit_directories_verified": 1,
+    "concept_deposit_directories_verified": 10,
+    "new_zenodo_package_identity_verified": false
+  },
+  "rsd_software_records": 11,
+  "hal_id_results": 0,
+  "hal_page_http": 404,
+  "rrid_http": 403,
+  "osf_http": 200,
+  "internet_archive_http": 200,
+  "rse_pr_498": "open",
+  "user_page_provided_this_round": false,
+  "repository_remote_modified": false,
+  "new_governance_schedule_declared": false
+}

@@ -1,0 +1,180 @@
+{
+  "source_kind": "user_supplied_page_text",
+  "observation_date": "2026-10-14",
+  "user_time_label": "12点",
+  "exact_capture_timestamp": null,
+  "workflowhub_dashboard_selected_period": null,
+  "transcription_kind": "structured_transcription_of_user_numbers_and_public_locators",
+  "original_html_or_screenshot_retained": false,
+  "zenodo_rows": [
+    {
+      "object_id": "RS01",
+      "software_family": "welcome-to-github",
+      "record_id": "23137203",
+      "scope": "fixed_corpus",
+      "page_unique_views": 171,
+      "page_unique_downloads": 4,
+      "morning_api_unique_views": 171,
+      "morning_api_unique_downloads": 4,
+      "unique_view_difference": 0,
+      "unique_download_difference": 0
+    },
+    {
+      "object_id": "RS02",
+      "software_family": "zero-entropy-lab",
+      "record_id": "23137204",
+      "scope": "fixed_corpus",
+      "page_unique_views": 129,
+      "page_unique_downloads": 0,
+      "morning_api_unique_views": 128,
+      "morning_api_unique_downloads": 0,
+      "unique_view_difference": 1,
+      "unique_download_difference": 0
+    },
+    {
+      "object_id": "RS03",
+      "software_family": "Axiom-0",
+      "record_id": "23137205",
+      "scope": "fixed_corpus",
+      "page_unique_views": 152,
+      "page_unique_downloads": 0,
+      "morning_api_unique_views": 151,
+      "morning_api_unique_downloads": 0,
+      "unique_view_difference": 1,
+      "unique_download_difference": 0
+    },
+    {
+      "object_id": "RS04",
+      "software_family": "reflective-continuum",
+      "record_id": "23137206",
+      "scope": "fixed_corpus",
+      "page_unique_views": 108,
+      "page_unique_downloads": 0,
+      "morning_api_unique_views": 108,
+      "morning_api_unique_downloads": 0,
+      "unique_view_difference": 0,
+      "unique_download_difference": 0
+    },
+    {
+      "object_id": "RS05",
+      "software_family": "agent-foundations",
+      "record_id": "23137207",
+      "scope": "fixed_corpus",
+      "page_unique_views": 132,
+      "page_unique_downloads": 1,
+      "morning_api_unique_views": 131,
+      "morning_api_unique_downloads": 1,
+      "unique_view_difference": 1,
+      "unique_download_difference": 0
+    },
+    {
+      "object_id": "RS06",
+      "software_family": "auto-doc-engine",
+      "record_id": "23137215",
+      "scope": "fixed_corpus",
+      "page_unique_views": 120,
+      "page_unique_downloads": 0,
+      "morning_api_unique_views": 119,
+      "morning_api_unique_downloads": 0,
+      "unique_view_difference": 1,
+      "unique_download_difference": 0
+    },
+    {
+      "object_id": "RS07",
+      "software_family": "epistemic-pipeline",
+      "record_id": "23137216",
+      "scope": "fixed_corpus",
+      "page_unique_views": 134,
+      "page_unique_downloads": 0,
+      "morning_api_unique_views": 134,
+      "morning_api_unique_downloads": 0,
+      "unique_view_difference": 0,
+      "unique_download_difference": 0
+    },
+    {
+      "object_id": "RS08",
+      "software_family": "sci-render-kit",
+      "record_id": "23137219",
+      "scope": "fixed_corpus",
+      "page_unique_views": 122,
+      "page_unique_downloads": 1,
+      "morning_api_unique_views": 122,
+      "morning_api_unique_downloads": 1,
+      "unique_view_difference": 0,
+      "unique_download_difference": 0
+    },
+    {
+      "object_id": "RS09",
+      "software_family": "china-agentic-observatory",
+      "record_id": "23137211",
+      "scope": "fixed_corpus",
+      "page_unique_views": 143,
+      "page_unique_downloads": 0,
+      "morning_api_unique_views": 142,
+      "morning_api_unique_downloads": 0,
+      "unique_view_difference": 1,
+      "unique_download_difference": 0
+    },
+    {
+      "object_id": "RS10",
+      "software_family": "agentic-frontier-observatory",
+      "record_id": "23137214",
+      "scope": "fixed_corpus",
+      "page_unique_views": 150,
+      "page_unique_downloads": 1,
+      "morning_api_unique_views": 150,
+      "morning_api_unique_downloads": 1,
+      "unique_view_difference": 0,
+      "unique_download_difference": 0
+    },
+    {
+      "object_id": "",
+      "software_family": "research-software-identity-audit",
+      "record_id": "23284570",
+      "scope": "audit_runtime_supplement",
+      "page_unique_views": 90,
+      "page_unique_downloads": 3,
+      "morning_api_unique_views": 90,
+      "morning_api_unique_downloads": 3,
+      "unique_view_difference": 0,
+      "unique_download_difference": 0
+    }
+  ],
+  "workflowhub_dashboard_rows": [
+    {
+      "workflow_id": "2334",
+      "name": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+      "views": 854,
+      "downloads": 54,
+      "previous_user_dashboard_views": 721,
+      "previous_user_dashboard_downloads": 51,
+      "view_difference": 133,
+      "download_difference": 3
+    },
+    {
+      "workflow_id": "2332",
+      "name": "NEXUS CORTEX Life Cycle — welcome-to-github",
+      "views": 741,
+      "downloads": 73,
+      "previous_user_dashboard_views": 638,
+      "previous_user_dashboard_downloads": 70,
+      "view_difference": 103,
+      "download_difference": 3
+    },
+    {
+      "workflow_id": "2337",
+      "name": "Brain Evolution — welcome-to-github",
+      "views": 205,
+      "downloads": 5,
+      "previous_user_dashboard_views": 147,
+      "previous_user_dashboard_downloads": 5,
+      "view_difference": 58,
+      "download_difference": 0
+    }
+  ],
+  "workflowhub_previous_snapshot_exact_timestamp": null,
+  "morning_api_window": [
+    "2026-10-14T08:03:20.679771+08:00",
+    "2026-10-14T08:07:02.396750+08:00"
+  ]
+}

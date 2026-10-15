@@ -1,0 +1,70 @@
+{
+  "artifacts": [
+    {
+      "path": "monitoring/2026-10-14/03-midnight-facility-recheck/capture-summary.json",
+      "bytes": 3205,
+      "sha256": "be1d593eca81cebe3b25760b3662311b8aedf224c0fe384a2f472e8b4372c381"
+    },
+    {
+      "path": "monitoring/2026-10-14/03-midnight-facility-recheck/datacite-identifiers.csv",
+      "bytes": 6418,
+      "sha256": "b09f78840288d7ce933a37221af45df62518a4689583a8fae0953bfbe0c99a41"
+    },
+    {
+      "path": "monitoring/2026-10-14/03-midnight-facility-recheck/openalex-works.csv",
+      "bytes": 3290,
+      "sha256": "00e2266f53f236a34904d5eb86ae7e54bd1fdb4648a8e938adcc3282eb346945"
+    },
+    {
+      "path": "monitoring/2026-10-14/03-midnight-facility-recheck/orcid-source-summaries.csv",
+      "bytes": 7460,
+      "sha256": "d375980c093ef9473b3eb809164cf61dd3701449349c07893cf38a029bf44b39"
+    },
+    {
+      "path": "monitoring/2026-10-14/03-midnight-facility-recheck/platform-states.csv",
+      "bytes": 3959,
+      "sha256": "6e78f646acc7c6423913fa31df6e6a53d1748de5097a3e3ce606b0e14cb02729"
+    },
+    {
+      "path": "monitoring/2026-10-14/03-midnight-facility-recheck/README.md",
+      "bytes": 1041,
+      "sha256": "321d77a422a0b090abb8763d7cbd21df06454f8dc69984d647fa91db4adcc590"
+    },
+    {
+      "path": "monitoring/2026-10-14/03-midnight-facility-recheck/record.yaml",
+      "bytes": 755,
+      "sha256": "14d31504a95247909a228fc4e36a67753aa82c6aee820d8717b66e9296d15a8b"
+    },
+    {
+      "path": "monitoring/2026-10-14/03-midnight-facility-recheck/workflowhub-detail-statistics.csv",
+      "bytes": 188,
+      "sha256": "d7ebf0290ed7c25f091549dbf956136ca2207c0809ea463144a317f810d59f24"
+    },
+    {
+      "path": "monitoring/2026-10-14/03-midnight-facility-recheck/zenodo-family-statistics.csv",
+      "bytes": 539,
+      "sha256": "63e6d8c8d2e5ee8658d1d28a62c693e4f0cf8612117c51b82c05cbf7c1e6e1ee"
+    },
+    {
+      "path": "monitoring/2026-10-14/03-midnight-facility-recheck/zenodo-version-statistics.csv",
+      "bytes": 899,
+      "sha256": "cce0d2c9ae996902ba384b43ae80ffb4a168aab08f98346194366cd467d52a13"
+    },
+    {
+      "path": "evidence/2026-10-14/03-midnight-facility-recheck/capture-manifest.json",
+      "bytes": 160860,
+      "sha256": "981b6639998e780d634f7d5a36f787f1aa3a4bde816566cd56b7a65e4e379712"
+    },
+    {
+      "path": "evidence/2026-10-14/03-midnight-facility-recheck/field-extracts.json",
+      "bytes": 1111996,
+      "sha256": "cedd441c646498721c8c9446065f53bf12356446c79d0a5e1cb763f10c10eafb"
+    },
+    {
+      "path": "evidence/2026-10-14/03-midnight-facility-recheck/README.md",
+      "bytes": 508,
+      "sha256": "2c6c95405ff23bc57ecdd522f2973fecc29387c7a7aeb26442ee84d67e06ffcd"
+    }
+  ],
+  "semantics": "Derived public artifacts normalized to LF; original local HTTP bytes unchanged"
+}

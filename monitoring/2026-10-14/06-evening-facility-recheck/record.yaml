@@ -1,0 +1,19 @@
+{
+  "record_id": "06-evening-facility-recheck-2026-10-14",
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "fixed_corpus_size": 10,
+  "analytical_layers": 6,
+  "object_layer_units": 60,
+  "possible_core_platform_checks": 70,
+  "requested_checkpoint": "2026-10-14 20:00 Asia/Shanghai",
+  "actual_started_at_local": "2026-10-14T20:23:07.804385+08:00",
+  "actual_finished_at_local": "2026-10-14T20:35:59.939979+08:00",
+  "evidence_kind": "minimized_fields_from_retained_http_responses",
+  "original_transport_bytes_in_public_package": false,
+  "source_local_package": "IndependentFacilityAudit20261014Evening",
+  "base_main_sha": "90040902edf4615b3f5ef8c4bec51d946d97b743",
+  "private_operations_disclosed": false,
+  "frozen_contract_modified": false,
+  "new_release_observed": true
+}

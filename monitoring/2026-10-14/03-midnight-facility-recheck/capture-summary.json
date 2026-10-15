@@ -1,0 +1,135 @@
+{
+  "requested_checkpoint": "2026-10-14 00:00 Asia/Shanghai",
+  "actual_started_at_local": "2026-10-14T00:04:14.870788+08:00",
+  "actual_finished_at_local": "2026-10-14T00:16:36.372954+08:00",
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "repository_modified": false,
+  "requests": 289,
+  "http_status_counts": {
+    "200": 189,
+    "None": 96,
+    "404": 3,
+    "403": 1
+  },
+  "zenodo_fixed_ten": null,
+  "zenodo_companion": {
+    "object_id": "COMPANION",
+    "software_family": "research-software-identity-audit",
+    "record_id": null,
+    "views": null,
+    "downloads": null,
+    "unique_views": null,
+    "unique_downloads": null,
+    "version_views": null,
+    "version_downloads": null,
+    "version_unique_views": null,
+    "version_unique_downloads": null
+  },
+  "prior_api_window": [
+    "2026-10-13T23:11:05.225368+08:00",
+    "2026-10-13T23:17:33.604439+08:00"
+  ],
+  "zenodo_delta": null,
+  "datacite": {
+    "individual": 60,
+    "individual_findable": 60,
+    "creator_query_total": 59,
+    "creator_query_returned": 59,
+    "combined": 60,
+    "combined_findable": 60,
+    "new_dois": [
+      "10.48546/workflowhub.workflow.2332.7",
+      "10.48546/workflowhub.workflow.2334.7"
+    ],
+    "prior_missing": []
+  },
+  "orcid": {
+    "group_count": 15,
+    "summary_count": 72,
+    "sources": {
+      "DataCite": 49,
+      "OpenAIRE": 11,
+      "author/unnamed": 12
+    },
+    "fixed_corpus_groups": 10,
+    "fixed_corpus_summaries": 50
+  },
+  "orcid_added": [
+    {
+      "put_code": 229839328,
+      "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+      "source": "DataCite",
+      "dois": [
+        "10.48546/workflowhub.workflow.2332.7"
+      ]
+    },
+    {
+      "put_code": 229839347,
+      "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+      "source": "DataCite",
+      "dois": [
+        "10.48546/workflowhub.workflow.2334.7"
+      ]
+    }
+  ],
+  "orcid_removed": [],
+  "openalex": {
+    "query_observed": true,
+    "count": 26,
+    "returned": 26,
+    "types": {
+      "software": 12,
+      "other": 14
+    },
+    "profile_works_count": 24,
+    "fixed_version_doi_lookup": "not_requested_this_round"
+  },
+  "workflowhub": [
+    {
+      "id": "2332",
+      "latest_version": 7,
+      "detail_activity": {
+        "views": 646,
+        "downloads": 70
+      },
+      "http": 200
+    },
+    {
+      "id": "2334",
+      "latest_version": 7,
+      "detail_activity": {
+        "views": 724,
+        "downloads": 52
+      },
+      "http": 200
+    },
+    {
+      "id": "2337",
+      "latest_version": 1,
+      "detail_activity": {
+        "views": 157,
+        "downloads": 5
+      },
+      "http": 200
+    }
+  ],
+  "rsd": 11,
+  "hal_id_query": 0,
+  "hal_page_http": 404,
+  "rrid_http": 403,
+  "osf_http": 200,
+  "internet_archive_http": 200,
+  "rse_pr_498": "open",
+  "platform_states": {
+    "release_verified": 10,
+    "query_unresolved": 10,
+    "four_doi_findable": 10,
+    "family_group_observed": 10,
+    "deposit_release_directory_verified": 10,
+    "version_record_observed": 10,
+    "family_concept_observed_version_unresolved": 10
+  },
+  "known_zenodo_versions_returned": 3,
+  "new_user_dashboard_provided": false
+}

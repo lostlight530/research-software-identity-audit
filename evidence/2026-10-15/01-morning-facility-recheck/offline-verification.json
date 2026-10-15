@@ -1,0 +1,3672 @@
+{
+  "mode": "local_offline",
+  "network_calls": 0,
+  "checks": 916,
+  "failed": 0,
+  "results": [
+    {
+      "check": "exact artifact inventory",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/capture-summary.json",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/datacite-identifiers.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/openalex-works.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/orcid-source-summaries.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/platform-states.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/record.yaml",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/swh-identity-checks.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/version-enumerations.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/workflowhub-detail-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/zenodo-family-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-15/01-morning-facility-recheck/zenodo-version-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash evidence/2026-10-15/01-morning-facility-recheck/capture-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "hash evidence/2026-10-15/01-morning-facility-recheck/field-extracts.json",
+      "passed": true
+    },
+    {
+      "check": "hash evidence/2026-10-15/01-morning-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "timestamp orcid",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_orcid_discovery",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_primary_all_corpora",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_primary_profile",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_primary_selected_profile",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_secondary_profile",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_team",
+      "passed": true
+    },
+    {
+      "check": "timestamp osf_registration",
+      "passed": true
+    },
+    {
+      "check": "timestamp internet_archive",
+      "passed": true
+    },
+    {
+      "check": "timestamp rsd_software",
+      "passed": true
+    },
+    {
+      "check": "timestamp rsd_project",
+      "passed": true
+    },
+    {
+      "check": "timestamp rsd_contributor_orcid",
+      "passed": true
+    },
+    {
+      "check": "timestamp hal_id",
+      "passed": true
+    },
+    {
+      "check": "timestamp rrid",
+      "passed": true
+    },
+    {
+      "check": "timestamp rse_pull_498",
+      "passed": true
+    },
+    {
+      "check": "timestamp companion_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp companion_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_zenodo_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_openaire_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_openalex_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_version",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_zenodo_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_openaire_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_openalex_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_version",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_zenodo_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_openaire_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_openalex_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_version",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_zenodo_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_openaire_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_openalex_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_version",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_zenodo_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_openaire_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_openalex_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_version",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_zenodo_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_openaire_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_openalex_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_version",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_zenodo_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_openaire_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_openalex_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_version",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_zenodo_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_openaire_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_openalex_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_version",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_zenodo_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_openaire_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_openalex_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_version",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_zenodo_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_openaire_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_openalex_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_version",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22790908",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791082",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791104",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791142",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791170",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791310",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791335",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791376",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791405",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791464",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068144",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068145",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068260",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068261",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068262",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068347",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068352",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068471",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068472",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068494",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137203",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137204",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137205",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137206",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137207",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137211",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137214",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137215",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137216",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137219",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23166491",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23176748",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23284570",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23365504",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23365510",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23365517",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23365525",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23365534",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23365540",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23365543",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23365548",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23365551",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23365567",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_17605_osf_io_5b329",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2332_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2332_2",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2332_3",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2332_4",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2332_5",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2332_6",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2332_7",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2332_8",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2334_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2334_2",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2334_3",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2334_4",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2334_5",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2334_6",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2334_7",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2334_8",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_48546_workflowhub_workflow_2337_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22790907",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22790908",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791081",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791082",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791103",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791104",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791141",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791142",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791169",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791170",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791309",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791310",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791334",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791335",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791375",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791376",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791404",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791405",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791463",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791464",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23068144",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23068145",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23068260",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23068261",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23068262",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23068347",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23068352",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23068471",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23068472",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23068494",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23137203",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23137204",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23137205",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23137206",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23137207",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23137211",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23137214",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23137215",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23137216",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23137219",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23166490",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23166491",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23176748",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23284570",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365504",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365510",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365517",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365525",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365534",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365540",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365543",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365548",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365551",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365567",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2332",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2334",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2337",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_concept_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_tag_revision",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_concept_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_tag_revision",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_concept_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_tag_revision",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_concept_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_tag_revision",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_concept_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_tag_revision",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_concept_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_tag_revision",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_concept_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_tag_revision",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_concept_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_tag_revision",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_concept_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_tag_revision",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_concept_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_tag_revision",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791310_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_22791334_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365510_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365517_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365525_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_10_5281_zenodo_23365548_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_concept_snapshot_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_2",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_3",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_4",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_5",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_6",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_7",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_8",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_2",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_3",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_4",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_5",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_6",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_7",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_8",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2337_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_concept_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_concept_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_concept_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_tag_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_concept_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_concept_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_concept_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_concept_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_concept_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_concept_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_concept_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp hal_public_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_home_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2332_latest_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2334_latest_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2337_latest_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_concept_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_concept_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_concept_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_concept_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_concept_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_concept_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_concept_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_concept_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_concept_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_concept_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_companion_latest_doi",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_companion_concept_doi",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_prior_control_work",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_secondary_works",
+      "passed": true
+    },
+    {
+      "check": "299 retained attempts",
+      "passed": true
+    },
+    {
+      "check": "canonical fixed ten and supplement",
+      "passed": true
+    },
+    {
+      "check": "version identity RS01",
+      "passed": true
+    },
+    {
+      "check": "family counter RS01 views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS01 downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS01 unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS01 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS01 version_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS01 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS01 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS01 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version identity RS02",
+      "passed": true
+    },
+    {
+      "check": "family counter RS02 views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS02 downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS02 unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS02 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS02 version_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS02 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS02 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS02 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version identity RS03",
+      "passed": true
+    },
+    {
+      "check": "family counter RS03 views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS03 downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS03 unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS03 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS03 version_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS03 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS03 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS03 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version identity RS04",
+      "passed": true
+    },
+    {
+      "check": "family counter RS04 views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS04 downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS04 unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS04 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS04 version_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS04 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS04 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS04 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version identity RS05",
+      "passed": true
+    },
+    {
+      "check": "family counter RS05 views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS05 downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS05 unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS05 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS05 version_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS05 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS05 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS05 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version identity RS06",
+      "passed": true
+    },
+    {
+      "check": "family counter RS06 views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS06 downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS06 unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS06 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS06 version_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS06 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS06 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS06 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version identity RS07",
+      "passed": true
+    },
+    {
+      "check": "family counter RS07 views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS07 downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS07 unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS07 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS07 version_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS07 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS07 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS07 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version identity RS08",
+      "passed": true
+    },
+    {
+      "check": "family counter RS08 views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS08 downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS08 unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS08 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS08 version_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS08 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS08 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS08 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version identity RS09",
+      "passed": true
+    },
+    {
+      "check": "family counter RS09 views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS09 downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS09 unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS09 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS09 version_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS09 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS09 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS09 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version identity RS10",
+      "passed": true
+    },
+    {
+      "check": "family counter RS10 views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS10 downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS10 unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS10 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS10 version_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS10 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter RS10 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter RS10 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version identity COMPANION",
+      "passed": true
+    },
+    {
+      "check": "family counter COMPANION views",
+      "passed": true
+    },
+    {
+      "check": "family counter COMPANION downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter COMPANION unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter COMPANION unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter COMPANION version_views",
+      "passed": true
+    },
+    {
+      "check": "family counter COMPANION version_downloads",
+      "passed": true
+    },
+    {
+      "check": "family counter COMPANION version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "family counter COMPANION version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "fixed sum views",
+      "passed": true
+    },
+    {
+      "check": "fixed sum downloads",
+      "passed": true
+    },
+    {
+      "check": "fixed sum unique_views",
+      "passed": true
+    },
+    {
+      "check": "fixed sum unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "fixed sum version_views",
+      "passed": true
+    },
+    {
+      "check": "fixed sum version_downloads",
+      "passed": true
+    },
+    {
+      "check": "fixed sum version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "fixed sum version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "1400 family unique sum 2231 total",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS01",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS02",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS03",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS04",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS05",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS09",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS10",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS08",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS06",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS07",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration COMPANION",
+      "passed": true
+    },
+    {
+      "check": "43 unique version records",
+      "passed": true
+    },
+    {
+      "check": "version source 22790908",
+      "passed": true
+    },
+    {
+      "check": "version field 22790908 views",
+      "passed": true
+    },
+    {
+      "check": "version field 22790908 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22790908 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22790908 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22790908 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22790908 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22790908 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22790908 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791082",
+      "passed": true
+    },
+    {
+      "check": "version field 22791082 views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791082 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791082 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791082 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791082 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791082 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791082 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791082 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791104",
+      "passed": true
+    },
+    {
+      "check": "version field 22791104 views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791104 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791104 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791104 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791104 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791104 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791104 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791104 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791142",
+      "passed": true
+    },
+    {
+      "check": "version field 22791142 views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791142 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791142 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791142 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791142 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791142 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791142 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791142 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791170",
+      "passed": true
+    },
+    {
+      "check": "version field 22791170 views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791170 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791170 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791170 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791170 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791170 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791170 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791170 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791310",
+      "passed": true
+    },
+    {
+      "check": "version field 22791310 views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791310 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791310 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791310 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791310 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791310 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791310 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791310 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791335",
+      "passed": true
+    },
+    {
+      "check": "version field 22791335 views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791335 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791335 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791335 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791335 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791335 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791335 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791335 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791376",
+      "passed": true
+    },
+    {
+      "check": "version field 22791376 views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791376 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791376 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791376 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791376 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791376 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791376 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791376 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791405",
+      "passed": true
+    },
+    {
+      "check": "version field 22791405 views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791405 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791405 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791405 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791405 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791405 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791405 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791405 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791464",
+      "passed": true
+    },
+    {
+      "check": "version field 22791464 views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791464 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791464 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791464 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791464 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791464 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 22791464 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 22791464 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068144",
+      "passed": true
+    },
+    {
+      "check": "version field 23068144 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068144 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068144 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068144 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068144 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068144 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068144 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068144 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068145",
+      "passed": true
+    },
+    {
+      "check": "version field 23068145 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068145 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068145 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068145 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068145 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068145 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068145 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068145 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068260",
+      "passed": true
+    },
+    {
+      "check": "version field 23068260 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068260 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068260 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068260 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068260 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068260 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068260 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068260 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068261",
+      "passed": true
+    },
+    {
+      "check": "version field 23068261 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068261 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068261 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068261 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068261 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068261 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068261 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068261 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068262",
+      "passed": true
+    },
+    {
+      "check": "version field 23068262 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068262 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068262 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068262 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068262 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068262 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068262 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068262 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068347",
+      "passed": true
+    },
+    {
+      "check": "version field 23068347 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068347 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068347 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068347 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068347 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068347 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068347 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068347 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068352",
+      "passed": true
+    },
+    {
+      "check": "version field 23068352 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068352 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068352 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068352 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068352 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068352 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068352 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068352 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068471",
+      "passed": true
+    },
+    {
+      "check": "version field 23068471 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068471 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068471 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068471 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068471 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068471 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068471 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068471 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068472",
+      "passed": true
+    },
+    {
+      "check": "version field 23068472 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068472 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068472 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068472 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068472 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068472 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068472 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068472 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068494",
+      "passed": true
+    },
+    {
+      "check": "version field 23068494 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068494 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068494 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068494 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068494 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068494 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23068494 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23068494 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137203",
+      "passed": true
+    },
+    {
+      "check": "version field 23137203 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137203 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137203 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137203 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137203 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137203 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137203 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137203 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137204",
+      "passed": true
+    },
+    {
+      "check": "version field 23137204 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137204 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137204 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137204 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137204 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137204 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137204 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137204 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137205",
+      "passed": true
+    },
+    {
+      "check": "version field 23137205 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137205 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137205 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137205 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137205 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137205 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137205 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137205 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137206",
+      "passed": true
+    },
+    {
+      "check": "version field 23137206 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137206 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137206 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137206 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137206 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137206 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137206 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137206 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137207",
+      "passed": true
+    },
+    {
+      "check": "version field 23137207 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137207 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137207 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137207 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137207 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137207 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137207 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137207 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137211",
+      "passed": true
+    },
+    {
+      "check": "version field 23137211 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137211 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137211 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137211 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137211 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137211 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137211 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137211 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137214",
+      "passed": true
+    },
+    {
+      "check": "version field 23137214 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137214 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137214 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137214 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137214 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137214 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137214 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137214 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137215",
+      "passed": true
+    },
+    {
+      "check": "version field 23137215 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137215 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137215 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137215 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137215 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137215 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137215 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137215 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137216",
+      "passed": true
+    },
+    {
+      "check": "version field 23137216 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137216 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137216 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137216 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137216 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137216 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137216 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137216 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137219",
+      "passed": true
+    },
+    {
+      "check": "version field 23137219 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137219 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137219 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137219 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137219 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137219 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23137219 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23137219 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23166491",
+      "passed": true
+    },
+    {
+      "check": "version field 23166491 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23166491 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23166491 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23166491 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23166491 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23166491 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23166491 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23166491 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23176748",
+      "passed": true
+    },
+    {
+      "check": "version field 23176748 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23176748 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23176748 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23176748 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23176748 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23176748 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23176748 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23176748 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23284570",
+      "passed": true
+    },
+    {
+      "check": "version field 23284570 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23284570 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23284570 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23284570 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23284570 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23284570 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23284570 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23284570 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365504",
+      "passed": true
+    },
+    {
+      "check": "version field 23365504 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365504 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365504 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365504 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365504 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365504 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365504 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365504 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365510",
+      "passed": true
+    },
+    {
+      "check": "version field 23365510 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365510 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365510 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365510 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365510 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365510 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365510 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365510 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365517",
+      "passed": true
+    },
+    {
+      "check": "version field 23365517 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365517 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365517 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365517 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365517 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365517 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365517 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365517 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365525",
+      "passed": true
+    },
+    {
+      "check": "version field 23365525 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365525 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365525 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365525 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365525 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365525 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365525 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365525 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365534",
+      "passed": true
+    },
+    {
+      "check": "version field 23365534 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365534 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365534 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365534 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365534 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365534 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365534 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365534 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365540",
+      "passed": true
+    },
+    {
+      "check": "version field 23365540 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365540 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365540 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365540 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365540 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365540 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365540 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365540 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365543",
+      "passed": true
+    },
+    {
+      "check": "version field 23365543 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365543 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365543 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365543 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365543 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365543 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365543 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365543 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365548",
+      "passed": true
+    },
+    {
+      "check": "version field 23365548 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365548 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365548 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365548 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365548 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365548 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365548 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365548 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365551",
+      "passed": true
+    },
+    {
+      "check": "version field 23365551 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365551 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365551 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365551 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365551 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365551 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365551 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365551 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365567",
+      "passed": true
+    },
+    {
+      "check": "version field 23365567 views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365567 downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365567 unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365567 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365567 version_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365567 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version field 23365567 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version field 23365567 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "72 findable",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.17605/osf.io/5b329",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2332.1",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2332.2",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2332.3",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2332.4",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2332.5",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2332.6",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2332.7",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2332.8",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2334.1",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2334.2",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2334.3",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2334.4",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2334.5",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2334.6",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2334.7",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2334.8",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.48546/workflowhub.workflow.2337.1",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22790907",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22790908",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791081",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791082",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791103",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791104",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791141",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791142",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791169",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791170",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791309",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791310",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791334",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791335",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791375",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791376",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791404",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791405",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791463",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.22791464",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23068144",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23068145",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23068260",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23068261",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23068262",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23068347",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23068352",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23068471",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23068472",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23068494",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23137203",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23137204",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23137205",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23137206",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23137207",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23137211",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23137214",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23137215",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23137216",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23137219",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23166490",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23166491",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23176748",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23284570",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23365504",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23365510",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23365517",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23365525",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23365534",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23365540",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23365543",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23365548",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23365551",
+      "passed": true
+    },
+    {
+      "check": "DOI 10.5281/zenodo.23365567",
+      "passed": true
+    },
+    {
+      "check": "ORCID 15 groups 84 sources",
+      "passed": true
+    },
+    {
+      "check": "duplicate removed other survives",
+      "passed": true
+    },
+    {
+      "check": "ORCID source counts",
+      "passed": true
+    },
+    {
+      "check": "27 queried Works and profile 26",
+      "passed": true
+    },
+    {
+      "check": "two newly returned v7 works",
+      "passed": true
+    },
+    {
+      "check": "audit DOI routes converge",
+      "passed": true
+    },
+    {
+      "check": "70 distinct current checkpoint cells",
+      "passed": true
+    },
+    {
+      "check": "current platform GitHub",
+      "passed": true
+    },
+    {
+      "check": "current platform Zenodo",
+      "passed": true
+    },
+    {
+      "check": "current platform DataCite",
+      "passed": true
+    },
+    {
+      "check": "current platform ORCID",
+      "passed": true
+    },
+    {
+      "check": "current platform OpenAIRE",
+      "passed": true
+    },
+    {
+      "check": "current platform OpenAlex",
+      "passed": true
+    },
+    {
+      "check": "only Axiom checkpoint commit verified",
+      "passed": true
+    },
+    {
+      "check": "exact commit archive directory",
+      "passed": true
+    },
+    {
+      "check": "workflow latest and activity 2332",
+      "passed": true
+    },
+    {
+      "check": "workflow latest and activity 2334",
+      "passed": true
+    },
+    {
+      "check": "workflow latest and activity 2337",
+      "passed": true
+    },
+    {
+      "check": "no new page, no schedule promotion",
+      "passed": true
+    }
+  ]
+}
