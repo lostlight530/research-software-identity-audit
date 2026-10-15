@@ -1,5 +1,11 @@
 # Tools
 
+## Read-only retained-evidence verification
+
+Run `python tools/check_retained_all.py` to verify the retained October 14–15 diagnostic packages without rewriting their `offline-verification.json` files. The command calls the existing verification functions, prints an aggregate summary and returns a nonzero exit code if any check fails. It makes no network requests and does not create a new observation.
+
+Run `python tools/check.py --mode strict` separately for the research contract. The aggregate command is limited to its listed retained packages; it does not claim verification of every historical package or a live institutional state. The targeted `.gitattributes` rules preserve their sealed LF bytes on Windows checkout. Neither command is added to cloud CI by this update.
+
 This directory contains small validators, collectors, normalizers, and analysis helpers that implement the repository's explicit contracts.
 
 Tooling must not silently change research semantics.
