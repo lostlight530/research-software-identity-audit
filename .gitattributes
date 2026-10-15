@@ -1,0 +1,12 @@
+# Preserve the bytes sealed by retained evidence artifact manifests on every OS.
+# Historical packages outside these paths retain their existing checkout rules.
+evidence/2026-10-14/03-midnight-facility-recheck/** text eol=lf
+evidence/2026-10-14/04-morning-facility-recheck/** text eol=lf
+evidence/2026-10-14/05-noon-user-pages/** text eol=lf
+evidence/2026-10-14/06-evening-facility-recheck/** text eol=lf
+evidence/2026-10-15/01-morning-facility-recheck/** text eol=lf
+monitoring/2026-10-14/03-midnight-facility-recheck/** text eol=lf
+monitoring/2026-10-14/04-morning-facility-recheck/** text eol=lf
+monitoring/2026-10-14/05-noon-user-pages/** text eol=lf
+monitoring/2026-10-14/06-evening-facility-recheck/** text eol=lf
+monitoring/2026-10-15/01-morning-facility-recheck/** text eol=lf
