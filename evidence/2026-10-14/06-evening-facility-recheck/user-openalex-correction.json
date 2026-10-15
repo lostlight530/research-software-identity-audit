@@ -1,0 +1,11 @@
+{
+  "source_kind": "user_supplied_page_text_with_explicit_correction",
+  "user_corrected_works_count": 26,
+  "original_copied_header": "6 works",
+  "correction": "6是26，我复制少了",
+  "interpretation": "copy omission corrected by user; not platform inconsistency",
+  "independent_api_results": 26,
+  "independent_full_profile_works_count": 26,
+  "independent_selected_profile_works_count": 26,
+  "exact_user_capture_timestamp": null
+}

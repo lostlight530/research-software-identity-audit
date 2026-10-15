@@ -1,0 +1,101 @@
+{
+  "source_kind": "user_supplied_page_text",
+  "source_transcription": "counter-bearing lines and labels, not original HTML or complete message text",
+  "observation_date": "2026-10-14",
+  "user_time_label": "晚上8点",
+  "exact_capture_timestamp": null,
+  "split_rule": "User explicitly confirms trailing single digit is downloads",
+  "page_counter_semantics": "family_cumulative_unique_fields",
+  "rows": [
+    {
+      "object_id": "RS01",
+      "software_family": "welcome-to-github",
+      "user_raw_joined_digits": "1744",
+      "page_unique_views": 174,
+      "page_unique_downloads": 4,
+      "scope": "fixed_corpus"
+    },
+    {
+      "object_id": "RS02",
+      "software_family": "zero-entropy-lab",
+      "user_raw_joined_digits": "1310",
+      "page_unique_views": 131,
+      "page_unique_downloads": 0,
+      "scope": "fixed_corpus"
+    },
+    {
+      "object_id": "RS03",
+      "software_family": "Axiom-0",
+      "user_raw_joined_digits": "1540",
+      "page_unique_views": 154,
+      "page_unique_downloads": 0,
+      "scope": "fixed_corpus"
+    },
+    {
+      "object_id": "RS04",
+      "software_family": "reflective-continuum",
+      "user_raw_joined_digits": "1100",
+      "page_unique_views": 110,
+      "page_unique_downloads": 0,
+      "scope": "fixed_corpus"
+    },
+    {
+      "object_id": "RS05",
+      "software_family": "agent-foundations",
+      "user_raw_joined_digits": "1341",
+      "page_unique_views": 134,
+      "page_unique_downloads": 1,
+      "scope": "fixed_corpus"
+    },
+    {
+      "object_id": "RS06",
+      "software_family": "auto-doc-engine",
+      "user_raw_joined_digits": "1220",
+      "page_unique_views": 122,
+      "page_unique_downloads": 0,
+      "scope": "fixed_corpus"
+    },
+    {
+      "object_id": "RS07",
+      "software_family": "epistemic-pipeline",
+      "user_raw_joined_digits": "1370",
+      "page_unique_views": 137,
+      "page_unique_downloads": 0,
+      "scope": "fixed_corpus"
+    },
+    {
+      "object_id": "RS08",
+      "software_family": "sci-render-kit",
+      "user_raw_joined_digits": "1251",
+      "page_unique_views": 125,
+      "page_unique_downloads": 1,
+      "scope": "fixed_corpus"
+    },
+    {
+      "object_id": "RS09",
+      "software_family": "china-agentic-observatory",
+      "user_raw_joined_digits": "1450",
+      "page_unique_views": 145,
+      "page_unique_downloads": 0,
+      "scope": "fixed_corpus"
+    },
+    {
+      "object_id": "RS10",
+      "software_family": "agentic-frontier-observatory",
+      "user_raw_joined_digits": "1541",
+      "page_unique_views": 154,
+      "page_unique_downloads": 1,
+      "scope": "fixed_corpus"
+    },
+    {
+      "object_id": "",
+      "software_family": "research-software-identity-audit",
+      "user_raw_joined_digits": "903",
+      "page_unique_views": 90,
+      "page_unique_downloads": 3,
+      "scope": "audit_runtime_supplement"
+    }
+  ],
+  "fixed_ten_unique_views_sum": 1386,
+  "fixed_ten_unique_downloads_sum": 7
+}

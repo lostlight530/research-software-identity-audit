@@ -1,0 +1,130 @@
+{
+  "requested_checkpoint": "2026-10-15 09:00 Asia/Shanghai",
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "fixed_corpus_size": 10,
+  "analytical_layers": 6,
+  "object_layer_units": 60,
+  "possible_core_platform_checks": 70,
+  "fixed_objects": [
+    {
+      "id": "RS01",
+      "repo": "welcome-to-github",
+      "concept": "10.5281/zenodo.22790907",
+      "v1": "10.5281/zenodo.22790908",
+      "v2": "10.5281/zenodo.23068145",
+      "v3": "10.5281/zenodo.23137203",
+      "record": "23137203",
+      "new_doi": "10.5281/zenodo.23365504",
+      "new_record_id": "23365504"
+    },
+    {
+      "id": "RS02",
+      "repo": "zero-entropy-lab",
+      "concept": "10.5281/zenodo.22791081",
+      "v1": "10.5281/zenodo.22791082",
+      "v2": "10.5281/zenodo.23068144",
+      "v3": "10.5281/zenodo.23137204",
+      "record": "23137204",
+      "new_doi": "10.5281/zenodo.23365551",
+      "new_record_id": "23365551"
+    },
+    {
+      "id": "RS03",
+      "repo": "Axiom-0",
+      "concept": "10.5281/zenodo.22791103",
+      "v1": "10.5281/zenodo.22791104",
+      "v2": "10.5281/zenodo.23068261",
+      "v3": "10.5281/zenodo.23137205",
+      "record": "23137205",
+      "new_doi": "10.5281/zenodo.23365534",
+      "new_record_id": "23365534"
+    },
+    {
+      "id": "RS04",
+      "repo": "reflective-continuum",
+      "concept": "10.5281/zenodo.22791141",
+      "v1": "10.5281/zenodo.22791142",
+      "v2": "10.5281/zenodo.23068260",
+      "v3": "10.5281/zenodo.23137206",
+      "record": "23137206",
+      "new_doi": "10.5281/zenodo.23365567",
+      "new_record_id": "23365567"
+    },
+    {
+      "id": "RS05",
+      "repo": "agent-foundations",
+      "concept": "10.5281/zenodo.22791169",
+      "v1": "10.5281/zenodo.22791170",
+      "v2": "10.5281/zenodo.23068262",
+      "v3": "10.5281/zenodo.23137207",
+      "record": "23137207",
+      "new_doi": "10.5281/zenodo.23365540",
+      "new_record_id": "23365540"
+    },
+    {
+      "id": "RS09",
+      "repo": "china-agentic-observatory",
+      "concept": "10.5281/zenodo.22791309",
+      "v1": "10.5281/zenodo.22791310",
+      "v2": "10.5281/zenodo.23068347",
+      "v3": "10.5281/zenodo.23137211",
+      "record": "23137211",
+      "new_doi": "10.5281/zenodo.23365548",
+      "new_record_id": "23365548"
+    },
+    {
+      "id": "RS10",
+      "repo": "agentic-frontier-observatory",
+      "concept": "10.5281/zenodo.22791334",
+      "v1": "10.5281/zenodo.22791335",
+      "v2": "10.5281/zenodo.23068352",
+      "v3": "10.5281/zenodo.23137214",
+      "record": "23137214",
+      "new_doi": "10.5281/zenodo.23365543",
+      "new_record_id": "23365543"
+    },
+    {
+      "id": "RS08",
+      "repo": "sci-render-kit",
+      "concept": "10.5281/zenodo.22791375",
+      "v1": "10.5281/zenodo.22791376",
+      "v2": "10.5281/zenodo.23068472",
+      "v3": "10.5281/zenodo.23137219",
+      "record": "23137219",
+      "new_doi": "10.5281/zenodo.23365525",
+      "new_record_id": "23365525"
+    },
+    {
+      "id": "RS06",
+      "repo": "auto-doc-engine",
+      "concept": "10.5281/zenodo.22791404",
+      "v1": "10.5281/zenodo.22791405",
+      "v2": "10.5281/zenodo.23068471",
+      "v3": "10.5281/zenodo.23137215",
+      "record": "23137215",
+      "new_doi": "10.5281/zenodo.23365510",
+      "new_record_id": "23365510"
+    },
+    {
+      "id": "RS07",
+      "repo": "epistemic-pipeline",
+      "concept": "10.5281/zenodo.22791463",
+      "v1": "10.5281/zenodo.22791464",
+      "v2": "10.5281/zenodo.23068494",
+      "v3": "10.5281/zenodo.23137216",
+      "record": "23137216",
+      "new_doi": "10.5281/zenodo.23365517",
+      "new_record_id": "23365517"
+    }
+  ],
+  "base_main_sha": "04a07dfa008347df86aa6fcddb1c4db62e09c6c2",
+  "max_concurrent_requests": 4,
+  "timeout_seconds": 25,
+  "original_responses_retained": true,
+  "query_failure_is_not_zero": true,
+  "actual_started_at_local": "2026-10-15T09:34:00.972564+08:00",
+  "actual_finished_at_local": "2026-10-15T09:36:26.077286+08:00",
+  "request_count": 299,
+  "scope": "13 infrastructure platforms plus rseng directory node; 43 software versions and creator-linked DOI inventory"
+}

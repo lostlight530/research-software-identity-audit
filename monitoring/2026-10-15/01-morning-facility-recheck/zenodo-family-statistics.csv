@@ -1,0 +1,12 @@
+object_id,software_family,record_id,doi,concept_doi,version,source_request_key,views,downloads,unique_views,unique_downloads,version_views,version_downloads,version_unique_views,version_unique_downloads
+RS01,welcome-to-github,23365504,10.5281/zenodo.23365504,10.5281/zenodo.22790907,v2026.10-fourteen-day-evidence-checkpoint,zenodo_version_23365504,259,5,176,4,1,0,1,0
+RS02,zero-entropy-lab,23365551,10.5281/zenodo.23365551,10.5281/zenodo.22791081,v2026.10-fourteen-day-evidence-checkpoint,zenodo_version_23365551,217,0,133,0,0,0,0,0
+RS03,Axiom-0,23365534,10.5281/zenodo.23365534,10.5281/zenodo.22791103,v2026.10-fourteen-day-evidence-checkpoint,zenodo_version_23365534,239,0,155,0,0,0,0,0
+RS04,reflective-continuum,23365567,10.5281/zenodo.23365567,10.5281/zenodo.22791141,v2026.10-fourteen-day-evidence-checkpoint,zenodo_version_23365567,193,0,111,0,0,0,0,0
+RS05,agent-foundations,23365540,10.5281/zenodo.23365540,10.5281/zenodo.22791169,v2026.10-fourteen-day-evidence-checkpoint,zenodo_version_23365540,220,1,135,1,0,0,0,0
+RS06,auto-doc-engine,23365510,10.5281/zenodo.23365510,10.5281/zenodo.22791404,v2026.10-fourteen-day-evidence-checkpoint,zenodo_version_23365510,210,0,125,0,4,0,2,0
+RS07,epistemic-pipeline,23365517,10.5281/zenodo.23365517,10.5281/zenodo.22791463,v2026.10-fourteen-day-evidence-checkpoint,zenodo_version_23365517,221,0,138,0,0,0,0,0
+RS08,sci-render-kit,23365525,10.5281/zenodo.23365525,10.5281/zenodo.22791375,v2026.10-fourteen-day-evidence-checkpoint,zenodo_version_23365525,204,1,126,1,0,0,0,0
+RS09,china-agentic-observatory,23365548,10.5281/zenodo.23365548,10.5281/zenodo.22791309,v2026.10-fourteen-day-evidence-checkpoint,zenodo_version_23365548,230,0,146,0,0,0,0,0
+RS10,agentic-frontier-observatory,23365543,10.5281/zenodo.23365543,10.5281/zenodo.22791334,v2026.10-fourteen-day-evidence-checkpoint,zenodo_version_23365543,238,1,155,1,0,0,0,0
+COMPANION,research-software-identity-audit,23284570,10.5281/zenodo.23284570,10.5281/zenodo.23166490,v2026.10-evidence-reconciliation,zenodo_version_23284570,95,3,91,3,19,0,18,0

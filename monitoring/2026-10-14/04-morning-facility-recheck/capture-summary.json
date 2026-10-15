@@ -1,0 +1,154 @@
+{
+  "requested_checkpoint": "2026-10-14 08:00 Asia/Shanghai",
+  "actual_started_at_local": "2026-10-14T08:03:20.679771+08:00",
+  "actual_finished_at_local": "2026-10-14T08:07:02.396750+08:00",
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "repository_modified": false,
+  "requests": 301,
+  "http_status_counts": {
+    "200": 282,
+    "404": 5,
+    "403": 1,
+    "None": 13
+  },
+  "zenodo_fixed_ten": {
+    "views": 2184,
+    "downloads": 8,
+    "unique_views": 1356,
+    "unique_downloads": 7,
+    "version_views": 192,
+    "version_downloads": 1,
+    "version_unique_views": 177,
+    "version_unique_downloads": 1
+  },
+  "zenodo_companion": {
+    "object_id": "COMPANION",
+    "software_family": "research-software-identity-audit",
+    "record_id": 23284570,
+    "views": 94,
+    "downloads": 3,
+    "unique_views": 90,
+    "unique_downloads": 3,
+    "version_views": 18,
+    "version_downloads": 0,
+    "version_unique_views": 17,
+    "version_unique_downloads": 0
+  },
+  "prior_api_window": [
+    "2026-10-14T00:04:14.870788+08:00",
+    "2026-10-14T00:16:36.372954+08:00"
+  ],
+  "zenodo_delta": null,
+  "datacite": {
+    "individual": 60,
+    "individual_findable": 60,
+    "creator_query_total": 59,
+    "creator_query_returned": 59,
+    "combined": 60,
+    "combined_findable": 60,
+    "new_dois": [],
+    "prior_missing": []
+  },
+  "orcid": {
+    "group_count": 15,
+    "summary_count": 72,
+    "sources": {
+      "DataCite": 49,
+      "OpenAIRE": 11,
+      "author/unnamed": 12
+    },
+    "fixed_corpus_groups": 10,
+    "fixed_corpus_summaries": 50
+  },
+  "orcid_added": [],
+  "orcid_removed": [],
+  "openalex": {
+    "query_observed": true,
+    "count": 26,
+    "returned": 26,
+    "types": {
+      "software": 12,
+      "other": 14
+    },
+    "profile_works_count": 24,
+    "fixed_version_doi_lookup": "requested_40_individual_endpoints",
+    "doi_endpoint_requests": 40,
+    "doi_endpoint_work_resolutions": 40,
+    "doi_exact_matches": 10,
+    "distinct_resolved_work_ids": 10
+  },
+  "workflowhub": [
+    {
+      "id": "2332",
+      "latest_version": 7,
+      "detail_activity": {
+        "views": 646,
+        "downloads": 70
+      },
+      "http": 200
+    },
+    {
+      "id": "2334",
+      "latest_version": 7,
+      "detail_activity": {
+        "views": 724,
+        "downloads": 52
+      },
+      "http": 200
+    },
+    {
+      "id": "2337",
+      "latest_version": 1,
+      "detail_activity": {
+        "views": 157,
+        "downloads": 5
+      },
+      "http": 200
+    }
+  ],
+  "rsd": 11,
+  "hal_id_query": 0,
+  "hal_page_http": 404,
+  "rrid_http": 403,
+  "osf_http": 200,
+  "internet_archive_http": 200,
+  "rse_pr_498": "open",
+  "platform_states": {
+    "release_verified": 10,
+    "version_family_verified": 10,
+    "four_doi_findable": 10,
+    "family_group_observed": 10,
+    "deposit_release_directory_verified": 10,
+    "version_record_observed": 10,
+    "version_doi_resolves_to_work": 10
+  },
+  "known_zenodo_versions_returned": 33,
+  "new_user_dashboard_provided": false,
+  "zenodo_last_complete_reference": {
+    "window": [
+      "2026-10-13T23:11:05.225368+08:00",
+      "2026-10-13T23:17:33.604439+08:00"
+    ],
+    "fixed_ten": {
+      "views": 2137,
+      "downloads": 8,
+      "unique_views": 1317,
+      "unique_downloads": 7,
+      "version_views": 188,
+      "version_downloads": 1,
+      "version_unique_views": 174,
+      "version_unique_downloads": 1
+    },
+    "delta_to_current": {
+      "views": 47,
+      "downloads": 0,
+      "unique_views": 39,
+      "unique_downloads": 0,
+      "version_views": 4,
+      "version_downloads": 0,
+      "version_unique_views": 3,
+      "version_unique_downloads": 0
+    }
+  }
+}

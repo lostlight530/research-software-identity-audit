@@ -1,0 +1,39 @@
+{
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "source_kind": "user_supplied_page_text",
+  "user_time_label": "12点",
+  "exact_capture_timestamp": null,
+  "selected_dashboard_period": null,
+  "fixed_corpus_size": 10,
+  "zenodo_fixed_ten_unique": {
+    "views": 1361,
+    "downloads": 7
+  },
+  "zenodo_companion_unique": {
+    "views": 90,
+    "downloads": 3
+  },
+  "zenodo_eleven_unique_sum": {
+    "views": 1451,
+    "downloads": 10
+  },
+  "zenodo_difference_from_morning_api_unique": {
+    "views": 5,
+    "downloads": 0
+  },
+  "workflowhub_dashboard_sum": {
+    "views": 1800,
+    "downloads": 132
+  },
+  "workflowhub_two_nexus_sum": {
+    "views": 1595,
+    "downloads": 127
+  },
+  "workflowhub_difference_from_previous_user_dashboard": {
+    "views": 294,
+    "downloads": 6
+  },
+  "workflowhub_difference_is_daily_rate": false,
+  "zenodo_family_unique_sum_is_global_distinct_people": false
+}

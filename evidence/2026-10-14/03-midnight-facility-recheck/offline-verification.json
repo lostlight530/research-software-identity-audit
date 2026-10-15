@@ -1,0 +1,6136 @@
+{
+  "mode": "local_offline",
+  "network_calls": 0,
+  "checks": 1532,
+  "failed": 0,
+  "results": [
+    {
+      "check": "03-midnight-facility-recheck diagnostic only",
+      "passed": true
+    },
+    {
+      "check": "03-midnight-facility-recheck exact artifact membership",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/03-midnight-facility-recheck/capture-summary.json",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/03-midnight-facility-recheck/datacite-identifiers.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/03-midnight-facility-recheck/openalex-works.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/03-midnight-facility-recheck/orcid-source-summaries.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/03-midnight-facility-recheck/platform-states.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/03-midnight-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/03-midnight-facility-recheck/record.yaml",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/03-midnight-facility-recheck/workflowhub-detail-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/03-midnight-facility-recheck/zenodo-family-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/03-midnight-facility-recheck/zenodo-version-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash evidence/2026-10-14/03-midnight-facility-recheck/capture-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "hash evidence/2026-10-14/03-midnight-facility-recheck/field-extracts.json",
+      "passed": true
+    },
+    {
+      "check": "hash evidence/2026-10-14/03-midnight-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "public fields not raw 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp orcid",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax orcid",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_author",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_author",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_companion",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_companion",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_registration",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_registration",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp osf_registration",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax osf_registration",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp internet_archive",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax internet_archive",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rsd_software",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rsd_software",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rsd_project",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rsd_project",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rsd_companion",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rsd_companion",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rrid",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rrid",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp hal",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax hal",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_osf",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax supplement_datacite_osf",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_companion_beta",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax supplement_datacite_companion_beta",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax supplement_datacite_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_companion_current",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax supplement_datacite_companion_current",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_primary_profile",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_primary_profile",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_secondary_profile",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_secondary_profile",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_secondary_works",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_secondary_works",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_companion_current",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_companion_current",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp companion_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax companion_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2332",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2332",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2332_page",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2332_page",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_4",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_4",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_5",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_5",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2334",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2334",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2334_page",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2334_page",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_5",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_5",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_4",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_4",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp companion_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_primary_all_corpora",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_companion_initial_runtime",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax supplement_datacite_companion_initial_runtime",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_team",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_institution",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_institution",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rse_pull_498",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2337",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2337",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2337_1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2337_1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2337_1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2337_1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22790908",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068145",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137203",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791082",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068144",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137204",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791104",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068261",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137205",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791142",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068260",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137206",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791170",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068262",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137207",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791405",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068471",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137215",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791464",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068494",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137216",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791376",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068472",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137219",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791310",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068347",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137211",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791335",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068352",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137214",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23166491",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23176748",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23284570",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2332_page_v5_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2332_page_v5_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2334_page_v5_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2334_page_v5_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2337_page_v1_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2337_page_v1_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp datacite_orcid_discovery",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax datacite_orcid_discovery",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rsd_contributor_orcid",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rsd_contributor_orcid",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp hal_id",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax hal_id",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_home_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_home_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp hal_public_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax hal_public_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_6",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_6",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_7",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_7",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2332_latest_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2332_latest_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_6",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_6",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_7",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_7",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2334_latest_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2334_latest_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2337_latest_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2337_latest_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_github_latest_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_github_latest_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_github_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_github_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_github_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_github_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_datacite_concept_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_datacite_concept_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp companion_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_2_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_2_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_zenodo_snapshot_head_release_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_zenodo_snapshot_head_release_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_zenodo_snapshot_head_release_directory_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_zenodo_snapshot_head_release_directory_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_primary_all_corpora_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_primary_all_corpora_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_team_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rse_pull_498_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rse_pull_498_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22790908_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068145_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137203_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791082_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068144_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137204_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791104_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_22791104_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068261_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137205_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791142_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068260_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137206_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23137206_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791170_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068262_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137207_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791405_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068471_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137215_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791464_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068494_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137216_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791376_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068472_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23068472_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137219_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791310_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068347_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137211_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791335_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068352_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137214_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23166491_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23176748_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23284570_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "complete attempt count 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "ORCID counts 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex Works count 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex profile distinct 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite public inventory 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "ORCID public source ledger 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "Workflow detail ledger 03-midnight-facility-recheck 2332",
+      "passed": true
+    },
+    {
+      "check": "Workflow detail ledger 03-midnight-facility-recheck 2334",
+      "passed": true
+    },
+    {
+      "check": "Workflow detail ledger 03-midnight-facility-recheck 2337",
+      "passed": true
+    },
+    {
+      "check": "canonical seventy cells 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS01 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS01 concept 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS01 v1 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS01 v2 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS01 v3 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS01 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS01 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS02 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS02 concept 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS02 v1 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS02 v2 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS02 v3 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS02 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS02 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS03 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS03 concept 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS03 v1 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS03 v2 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS03 v3 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS03 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS03 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS04 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS04 concept 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS04 v1 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS04 v2 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS04 v3 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS04 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS04 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS05 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS05 concept 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS05 v1 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS05 v2 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS05 v3 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS05 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS05 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS06 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS06 concept 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS06 v1 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS06 v2 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS06 v3 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS06 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS06 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS07 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS07 concept 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS07 v1 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS07 v2 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS07 v3 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS07 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS07 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS08 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS08 concept 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS08 v1 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS08 v2 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS08 v3 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS08 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS08 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS09 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS09 concept 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS09 v1 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS09 v2 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS09 v3 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS09 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS09 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS10 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS10 concept 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS10 v1 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS10 v2 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS10 v3 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS10 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS10 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "canonical family identities 03-midnight-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "missing Zenodo not zero",
+      "passed": true
+    },
+    {
+      "check": "04-morning-facility-recheck diagnostic only",
+      "passed": true
+    },
+    {
+      "check": "04-morning-facility-recheck exact artifact membership",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/04-morning-facility-recheck/capture-summary.json",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/04-morning-facility-recheck/datacite-identifiers.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/04-morning-facility-recheck/openalex-doi-resolution.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/04-morning-facility-recheck/openalex-works.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/04-morning-facility-recheck/orcid-source-summaries.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/04-morning-facility-recheck/platform-states.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/04-morning-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/04-morning-facility-recheck/record.yaml",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/04-morning-facility-recheck/workflowhub-detail-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/04-morning-facility-recheck/zenodo-family-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/04-morning-facility-recheck/zenodo-version-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash evidence/2026-10-14/04-morning-facility-recheck/capture-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "hash evidence/2026-10-14/04-morning-facility-recheck/field-extracts.json",
+      "passed": true
+    },
+    {
+      "check": "hash evidence/2026-10-14/04-morning-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "public fields not raw 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_github",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_openaire",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_openaire",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp orcid",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax orcid",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_author",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_author",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_registration",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_registration",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_companion",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_companion",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp internet_archive",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax internet_archive",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp osf_registration",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax osf_registration",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rsd_project",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rsd_project",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rsd_software",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rsd_software",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rsd_companion",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rsd_companion",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rrid",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rrid",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp hal",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax hal",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax supplement_datacite_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_companion_beta",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax supplement_datacite_companion_beta",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_primary_profile",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_primary_profile",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_companion_current",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax supplement_datacite_companion_current",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_secondary_profile",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_secondary_profile",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_secondary_works",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_secondary_works",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_companion_current",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_companion_current",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp companion_zenodo",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax companion_zenodo",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp companion_github_latest",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax companion_github_latest",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2332",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2332",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2332_page",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2332_page",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_4",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_4",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_5",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_5",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_github",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_4",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_4",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_5",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_5",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_osf",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2334",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2334_page",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp openalex_primary_all_corpora",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax openalex_primary_all_corpora",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_companion_initial_runtime",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_team",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_team",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_institution",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rse_pull_498",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rse_pull_498",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2337",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2337",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2337_1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2337_1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2337_1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2337_1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22790908",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_22790908",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068145",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23068145",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137203",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791082",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_22791082",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068144",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23068144",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137204",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23137204",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791104",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_22791104",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068261",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23068261",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137205",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23137205",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791142",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068260",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23068260",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137206",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23137206",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791170",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_22791170",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068262",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23068262",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137207",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23137207",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791405",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_22791405",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068471",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23068471",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137215",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23137215",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791464",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_22791464",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068494",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23068494",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137216",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23137216",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791376",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_22791376",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068472",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23068472",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137219",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23137219",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791310",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_22791310",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068347",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23068347",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137211",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23137211",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791335",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_22791335",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23068352",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23068352",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137214",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23137214",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23166491",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23166491",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23176748",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23176748",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23284570",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23284570",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS01_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS01_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS02_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS02_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS09_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS09_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS10_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS10_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS08_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS08_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2332_1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2332_1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2332_2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2332_2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2332_3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2332_3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2332_4",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2332_4",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2332_5",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2332_5",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2334_1",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2334_1",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2334_2",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2334_2",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2334_3",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2334_3",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2334_4",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2334_4",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2334_5",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2334_5",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2332_page_v5_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2332_page_v5_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2334_page_v5_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2334_page_v5_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2337_page_v1_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2337_page_v1_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp datacite_orcid_discovery",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax datacite_orcid_discovery",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp rsd_contributor_orcid",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax rsd_contributor_orcid",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp hal_id",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax hal_id",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_home_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_home_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp hal_public_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax hal_public_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_6",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_6",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2332_7",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2332_7",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2332_6",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2332_6",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2332_7",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2332_7",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2332_latest_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2332_latest_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2337_latest_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2337_latest_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_6",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_6",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2334_6",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2334_6",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_datacite_2334_7",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_datacite_2334_7",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflow_openalex_2334_7",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflow_openalex_2334_7",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2334_latest_html",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2334_latest_html",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_github_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_github_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_osf_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax supplement_datacite_osf_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2334_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2334_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_2334_page_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_2334_page_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_github_snapshot_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_github_snapshot_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_zenodo_snapshot_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_zenodo_snapshot_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS04_swh_github_snapshot_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS04_swh_github_snapshot_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp supplement_datacite_companion_initial_runtime_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax supplement_datacite_companion_initial_runtime_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp workflowhub_institution_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax workflowhub_institution_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_23137203_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_23137203_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp zenodo_version_22791142_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax zenodo_version_22791142_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS05_openalex_doi_v1_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS05_openalex_doi_v1_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS06_openalex_doi_concept_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS06_openalex_doi_concept_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS07_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS07_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "attempt timestamp RS03_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "local source digest syntax RS03_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "complete attempt count 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "ORCID counts 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex Works count 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex profile distinct 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite public inventory 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "ORCID public source ledger 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "Workflow detail ledger 04-morning-facility-recheck 2332",
+      "passed": true
+    },
+    {
+      "check": "Workflow detail ledger 04-morning-facility-recheck 2334",
+      "passed": true
+    },
+    {
+      "check": "Workflow detail ledger 04-morning-facility-recheck 2337",
+      "passed": true
+    },
+    {
+      "check": "canonical seventy cells 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS01 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS01 concept 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS01 v1 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS01 v2 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS01 v3 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS01 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS01 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS02 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS02 concept 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS02 v1 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS02 v2 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS02 v3 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS02 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS02 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS03 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS03 concept 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS03 v1 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS03 v2 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS03 v3 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS03 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS03 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS04 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS04 concept 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS04 v1 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS04 v2 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS04 v3 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS04 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS04 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS05 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS05 concept 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS05 v1 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS05 v2 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS05 v3 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS05 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS05 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS06 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS06 concept 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS06 v1 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS06 v2 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS06 v3 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS06 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS06 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS07 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS07 concept 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS07 v1 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS07 v2 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS07 v3 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS07 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS07 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS08 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS08 concept 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS08 v1 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS08 v2 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS08 v3 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS08 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS08 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS09 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS09 concept 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS09 v1 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS09 v2 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS09 v3 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS09 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS09 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "GitHub release RS10 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS10 concept 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS10 v1 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS10 v2 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "DataCite RS10 v3 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "OpenAIRE version RS10 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "SWH directory endpoint RS10 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "canonical family identities 04-morning-facility-recheck",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS01 views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS01 downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS01 unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS01 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS01 version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS01 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS01 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS01 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS02 views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS02 downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS02 unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS02 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS02 version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS02 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS02 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS02 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS03 views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS03 downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS03 unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS03 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS03 version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS03 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS03 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS03 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS04 views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS04 downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS04 unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS04 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS04 version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS04 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS04 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS04 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS05 views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS05 downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS05 unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS05 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS05 version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS05 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS05 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS05 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS06 views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS06 downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS06 unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS06 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS06 version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS06 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS06 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS06 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS07 views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS07 downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS07 unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS07 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS07 version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS07 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS07 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS07 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS08 views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS08 downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS08 unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS08 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS08 version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS08 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS08 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS08 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS09 views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS09 downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS09 unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS09 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS09 version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS09 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS09 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS09 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS10 views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS10 downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS10 unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS10 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS10 version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS10 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS10 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo RS10 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo COMPANION views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo COMPANION downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo COMPANION unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo COMPANION unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo COMPANION version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo COMPANION version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo COMPANION version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo COMPANION version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo fixed sum views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo fixed sum downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo fixed sum unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo fixed sum unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo fixed sum version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo fixed sum version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo fixed sum version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo fixed sum version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "33 version records",
+      "passed": true
+    },
+    {
+      "check": "forty DOI routes ten Works",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22790907",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22790908",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23068145",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23137203",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791081",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791082",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23068144",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23137204",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791103",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791104",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23068261",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23137205",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791141",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791142",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23068260",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23137206",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791169",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791170",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23068262",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23137207",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791309",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791310",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23068347",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23137211",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791334",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791335",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23068352",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23137214",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791375",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791376",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23068472",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23137219",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791404",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791405",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23068471",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23137215",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791463",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.22791464",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23068494",
+      "passed": true
+    },
+    {
+      "check": "OpenAlex route 10.5281/zenodo.23137216",
+      "passed": true
+    },
+    {
+      "check": "family convergence RS01",
+      "passed": true
+    },
+    {
+      "check": "family convergence RS02",
+      "passed": true
+    },
+    {
+      "check": "family convergence RS03",
+      "passed": true
+    },
+    {
+      "check": "family convergence RS04",
+      "passed": true
+    },
+    {
+      "check": "family convergence RS05",
+      "passed": true
+    },
+    {
+      "check": "family convergence RS06",
+      "passed": true
+    },
+    {
+      "check": "family convergence RS07",
+      "passed": true
+    },
+    {
+      "check": "family convergence RS08",
+      "passed": true
+    },
+    {
+      "check": "family convergence RS09",
+      "passed": true
+    },
+    {
+      "check": "family convergence RS10",
+      "passed": true
+    },
+    {
+      "check": "no synthetic midnight delta",
+      "passed": true
+    },
+    {
+      "check": "05-noon-user-pages diagnostic only",
+      "passed": true
+    },
+    {
+      "check": "05-noon-user-pages exact artifact membership",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/05-noon-user-pages/capture-summary.json",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/05-noon-user-pages/README.md",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/05-noon-user-pages/record.yaml",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/05-noon-user-pages/workflowhub-dashboard-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash monitoring/2026-10-14/05-noon-user-pages/zenodo-page-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "hash evidence/2026-10-14/05-noon-user-pages/README.md",
+      "passed": true
+    },
+    {
+      "check": "hash evidence/2026-10-14/05-noon-user-pages/user-page-transcription.json",
+      "passed": true
+    },
+    {
+      "check": "user source timestamp remains unknown",
+      "passed": true
+    },
+    {
+      "check": "page canonical ten and supplement",
+      "passed": true
+    },
+    {
+      "check": "user row welcome-to-github page_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row welcome-to-github page_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row welcome-to-github morning_api_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row welcome-to-github morning_api_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row zero-entropy-lab page_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row zero-entropy-lab page_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row zero-entropy-lab morning_api_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row zero-entropy-lab morning_api_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row Axiom-0 page_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row Axiom-0 page_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row Axiom-0 morning_api_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row Axiom-0 morning_api_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row reflective-continuum page_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row reflective-continuum page_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row reflective-continuum morning_api_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row reflective-continuum morning_api_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row agent-foundations page_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row agent-foundations page_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row agent-foundations morning_api_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row agent-foundations morning_api_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row auto-doc-engine page_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row auto-doc-engine page_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row auto-doc-engine morning_api_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row auto-doc-engine morning_api_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row epistemic-pipeline page_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row epistemic-pipeline page_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row epistemic-pipeline morning_api_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row epistemic-pipeline morning_api_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row sci-render-kit page_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row sci-render-kit page_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row sci-render-kit morning_api_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row sci-render-kit morning_api_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row china-agentic-observatory page_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row china-agentic-observatory page_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row china-agentic-observatory morning_api_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row china-agentic-observatory morning_api_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row agentic-frontier-observatory page_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row agentic-frontier-observatory page_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row agentic-frontier-observatory morning_api_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row agentic-frontier-observatory morning_api_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row research-software-identity-audit page_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row research-software-identity-audit page_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "user row research-software-identity-audit morning_api_unique_views",
+      "passed": true
+    },
+    {
+      "check": "user row research-software-identity-audit morning_api_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "fixed page sum",
+      "passed": true
+    },
+    {
+      "check": "eleven page sum",
+      "passed": true
+    },
+    {
+      "check": "page vs API unique difference",
+      "passed": true
+    },
+    {
+      "check": "Dashboard totals and comparable user difference",
+      "passed": true
+    },
+    {
+      "check": "two NEXUS totals",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\01-preflight-integrity-recheck\\README.md source-attempts.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\01-preflight-integrity-recheck\\README.md ../../2026-10-13/02-fixed-corpus-release-gate/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\01-preflight-integrity-recheck\\README.md ../../../contract/osf-overview-crosswalk-2026-10-08.md",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\01-preflight-integrity-recheck\\README.md ../../../contract/preregistration.md",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\01-preflight-integrity-recheck\\README.md ../../../corpus/object-manifest.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\01-preflight-integrity-recheck\\README.md ../../../baseline/2026-10-05/manifest.yaml",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\01-preflight-integrity-recheck\\README.md ../../../schema/counting-rules.md",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\01-preflight-integrity-recheck\\README.md ../../../schedule/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\02-control-evening-recheck\\README.md record.yaml",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\02-control-evening-recheck\\README.md platform-attempts.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\02-control-evening-recheck\\README.md release-candidate-crosswalk.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\02-control-evening-recheck\\README.md ../01-preflight-integrity-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\02-control-evening-recheck\\README.md release-candidate-crosswalk.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\02-control-evening-recheck\\README.md ../../../contract/preregistration.md",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\02-control-evening-recheck\\README.md ../../../schedule/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\02-control-evening-recheck\\README.md ../01-preflight-integrity-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\03-midnight-facility-recheck\\README.md platform-states.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\03-midnight-facility-recheck\\README.md capture-summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\03-midnight-facility-recheck\\README.md record.yaml",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\03-midnight-facility-recheck\\README.md ../../../evidence/2026-10-14/03-midnight-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\03-midnight-facility-recheck\\README.md datacite-identifiers.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\03-midnight-facility-recheck\\README.md orcid-source-summaries.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\03-midnight-facility-recheck\\README.md workflowhub-detail-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\04-morning-facility-recheck\\README.md platform-states.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\04-morning-facility-recheck\\README.md capture-summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\04-morning-facility-recheck\\README.md record.yaml",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\04-morning-facility-recheck\\README.md ../../../evidence/2026-10-14/04-morning-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\04-morning-facility-recheck\\README.md datacite-identifiers.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\04-morning-facility-recheck\\README.md orcid-source-summaries.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\04-morning-facility-recheck\\README.md workflowhub-detail-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\05-noon-user-pages\\README.md zenodo-page-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\05-noon-user-pages\\README.md workflowhub-dashboard-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\05-noon-user-pages\\README.md capture-summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\05-noon-user-pages\\README.md ../../../evidence/2026-10-14/05-noon-user-pages/user-page-transcription.json",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\06-evening-facility-recheck\\README.md new-release-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\06-evening-facility-recheck\\README.md new-release-platform-states.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\06-evening-facility-recheck\\README.md all-observed-version-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\06-evening-facility-recheck\\README.md version-enumeration-verification.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\06-evening-facility-recheck\\README.md capture-summary.json",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\06-evening-facility-recheck\\README.md user-page-api-reconciliation.csv",
+      "passed": true
+    },
+    {
+      "check": "relative link monitoring\\2026-10-14\\06-evening-facility-recheck\\README.md ../../../evidence/2026-10-14/06-evening-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\03-midnight-facility-recheck\\README.md capture-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\03-midnight-facility-recheck\\README.md field-extracts.json",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\03-midnight-facility-recheck\\README.md ../../../monitoring/2026-10-14/03-midnight-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\03-midnight-facility-recheck\\README.md artifact-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\04-morning-facility-recheck\\README.md capture-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\04-morning-facility-recheck\\README.md field-extracts.json",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\04-morning-facility-recheck\\README.md ../../../monitoring/2026-10-14/04-morning-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\04-morning-facility-recheck\\README.md artifact-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\05-noon-user-pages\\README.md user-page-transcription.json",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\05-noon-user-pages\\README.md ../../../monitoring/2026-10-14/05-noon-user-pages/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\05-noon-user-pages\\README.md artifact-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\06-evening-facility-recheck\\README.md capture-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\06-evening-facility-recheck\\README.md field-extracts.json",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\06-evening-facility-recheck\\README.md ../../../monitoring/2026-10-14/06-evening-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "relative link evidence\\2026-10-14\\06-evening-facility-recheck\\README.md artifact-manifest.json",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,3140 @@
+{
+  "mode": "local_offline",
+  "network_calls": 0,
+  "checks": 783,
+  "failed": 0,
+  "results": [
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/all-observed-version-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/capture-summary.json",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/new-release-platform-states.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/new-release-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/openalex-doi-resolution.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/openalex-works.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/platform-states.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/record.yaml",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/user-page-api-reconciliation.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/version-enumeration-verification.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/zenodo-family-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-14/06-evening-facility-recheck/zenodo-version-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-14/06-evening-facility-recheck/capture-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-14/06-evening-facility-recheck/field-extracts.json",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-14/06-evening-facility-recheck/README.md",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-14/06-evening-facility-recheck/user-openalex-correction.json",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-14/06-evening-facility-recheck/user-zenodo-page.json",
+      "passed": true
+    },
+    {
+      "check": "exact artifact membership",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_github",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_datacite_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_datacite_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_datacite_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_datacite_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_companion",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_registration",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_author",
+      "passed": true
+    },
+    {
+      "check": "timestamp orcid",
+      "passed": true
+    },
+    {
+      "check": "timestamp internet_archive",
+      "passed": true
+    },
+    {
+      "check": "timestamp osf_registration",
+      "passed": true
+    },
+    {
+      "check": "timestamp rsd_companion",
+      "passed": true
+    },
+    {
+      "check": "timestamp rsd_project",
+      "passed": true
+    },
+    {
+      "check": "timestamp rsd_software",
+      "passed": true
+    },
+    {
+      "check": "timestamp hal",
+      "passed": true
+    },
+    {
+      "check": "timestamp supplement_datacite_osf",
+      "passed": true
+    },
+    {
+      "check": "timestamp supplement_datacite_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp rrid",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_primary_profile",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_secondary_works",
+      "passed": true
+    },
+    {
+      "check": "timestamp supplement_datacite_companion_beta",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_secondary_profile",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_companion_current",
+      "passed": true
+    },
+    {
+      "check": "timestamp supplement_datacite_companion_current",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_companion_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp companion_github_latest",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2332",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2332_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2332_page",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2332_2",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2332_3",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2332_4",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2334",
+      "passed": true
+    },
+    {
+      "check": "timestamp companion_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2332_5",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2334_page",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2334_2",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2334_3",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2334_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2334_4",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2334_5",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_zenodo_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_github_snapshot",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_github_snapshot_revision_1b36690a",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_primary_all_corpora",
+      "passed": true
+    },
+    {
+      "check": "timestamp supplement_datacite_companion_initial_runtime",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_team",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_institution",
+      "passed": true
+    },
+    {
+      "check": "timestamp rse_pull_498",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2337",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2337_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2337_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22790908",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068145",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137203",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791082",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068144",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137204",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791104",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068261",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137205",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791142",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068260",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137206",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791170",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068262",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137207",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791405",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068471",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137215",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791464",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068494",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137216",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791376",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068472",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137219",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791310",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068347",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137211",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791335",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068352",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137214",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23166491",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23176748",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23284570",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_openalex_doi_concept",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_openalex_doi_v1",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_openalex_doi_v2",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_openalex_doi_v3",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_2",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_3",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_4",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_5",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_1",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_2",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_3",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_4",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_5",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2332_page_v5_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2334_page_v5_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2337_page_v1_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp datacite_orcid_discovery",
+      "passed": true
+    },
+    {
+      "check": "timestamp rsd_contributor_orcid",
+      "passed": true
+    },
+    {
+      "check": "timestamp hal_id",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_home_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp hal_public_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2332_6",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2332_7",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2332_8",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_6",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_7",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2332_8",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2332_latest_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2334_6",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2334_7",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_datacite_2334_8",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_6",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_7",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2334_8",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2334_latest_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2337_latest_html",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_github_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_github_latest_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_datacite_v3_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_datacite_v2_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_zenodo_snapshot_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_github_snapshot_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflow_openalex_2337_1_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22790908_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791082_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137204_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791104_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791142_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068260_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137206_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137207_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791405_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068471_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137215_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_22791464_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068494_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23068472_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp zenodo_version_23137219_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_openalex_doi_concept_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_zenodo_snapshot_head_release",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_swh_zenodo_snapshot_head_release_directory",
+      "passed": true
+    },
+    {
+      "check": "timestamp openalex_primary_selected_profile",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_zenodo_versions_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_zenodo_versions_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_zenodo_versions_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_zenodo_versions_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_zenodo_versions_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_zenodo_versions_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_zenodo_versions_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_zenodo_versions_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_zenodo_versions_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_github_tag_refs",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_zenodo_versions_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp companion_zenodo_versions_enumeration",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_new_23365504_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_new_23365504_datacite",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_new_23365504_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_new_23365504_openalex",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_new_23365504_swh_version_origin",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_new_23365551_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_new_23365551_datacite",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_new_23365551_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_new_23365551_openalex",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_new_23365551_swh_version_origin",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_new_23365534_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_new_23365534_datacite",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_new_23365534_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_new_23365534_openalex",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_new_23365534_swh_version_origin",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_new_23365567_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_new_23365567_datacite",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_new_23365567_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_new_23365567_openalex",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_new_23365567_swh_version_origin",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_new_23365540_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_new_23365540_datacite",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_new_23365540_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_new_23365540_openalex",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_new_23365540_swh_version_origin",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_new_23365548_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_new_23365548_datacite",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_new_23365548_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_new_23365548_openalex",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_new_23365548_swh_version_origin",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_new_23365543_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_new_23365543_datacite",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_new_23365543_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_new_23365543_openalex",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_new_23365543_swh_version_origin",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_new_23365525_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_new_23365525_datacite",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_new_23365525_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_new_23365525_openalex",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_new_23365525_swh_version_origin",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_new_23365510_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_new_23365510_datacite",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_new_23365510_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_new_23365510_openalex",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_new_23365510_swh_version_origin",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_new_23365517_zenodo",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_new_23365517_datacite",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_new_23365517_openaire",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_new_23365517_openalex",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_new_23365517_swh_version_origin",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_zenodo_versions_enumeration_page25",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS02_zenodo_versions_enumeration_page25",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_zenodo_versions_enumeration_page25",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS04_zenodo_versions_enumeration_page25",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_zenodo_versions_enumeration_page25",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_zenodo_versions_enumeration_page25",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS10_zenodo_versions_enumeration_page25",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_zenodo_versions_enumeration_page25",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_zenodo_versions_enumeration_page25",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_zenodo_versions_enumeration_page25",
+      "passed": true
+    },
+    {
+      "check": "timestamp companion_zenodo_versions_enumeration_page25",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS03_new_23365534_zenodo_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_new_23365548_openaire_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS09_new_23365548_swh_version_origin_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS01_zenodo_versions_enumeration_page25_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS05_zenodo_versions_enumeration_page25_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS08_zenodo_versions_enumeration_page25_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS06_zenodo_versions_enumeration_page25_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp RS07_zenodo_versions_enumeration_page25_transport_followup",
+      "passed": true
+    },
+    {
+      "check": "timestamp workflowhub_2334_latest_html_followup",
+      "passed": true
+    },
+    {
+      "check": "canonical ten new releases",
+      "passed": true
+    },
+    {
+      "check": "new release RS01",
+      "passed": true
+    },
+    {
+      "check": "new DOI RS01",
+      "passed": true
+    },
+    {
+      "check": "new counter RS01 views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS01 downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS01 unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS01 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS01 version_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS01 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS01 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS01 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new version views and downloads zero RS01",
+      "passed": true
+    },
+    {
+      "check": "new release RS02",
+      "passed": true
+    },
+    {
+      "check": "new DOI RS02",
+      "passed": true
+    },
+    {
+      "check": "new counter RS02 views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS02 downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS02 unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS02 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS02 version_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS02 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS02 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS02 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new version views and downloads zero RS02",
+      "passed": true
+    },
+    {
+      "check": "new release RS03",
+      "passed": true
+    },
+    {
+      "check": "new DOI RS03",
+      "passed": true
+    },
+    {
+      "check": "new counter RS03 views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS03 downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS03 unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS03 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS03 version_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS03 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS03 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS03 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new version views and downloads zero RS03",
+      "passed": true
+    },
+    {
+      "check": "new release RS04",
+      "passed": true
+    },
+    {
+      "check": "new DOI RS04",
+      "passed": true
+    },
+    {
+      "check": "new counter RS04 views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS04 downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS04 unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS04 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS04 version_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS04 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS04 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS04 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new version views and downloads zero RS04",
+      "passed": true
+    },
+    {
+      "check": "new release RS05",
+      "passed": true
+    },
+    {
+      "check": "new DOI RS05",
+      "passed": true
+    },
+    {
+      "check": "new counter RS05 views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS05 downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS05 unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS05 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS05 version_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS05 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS05 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS05 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new version views and downloads zero RS05",
+      "passed": true
+    },
+    {
+      "check": "new release RS06",
+      "passed": true
+    },
+    {
+      "check": "new DOI RS06",
+      "passed": true
+    },
+    {
+      "check": "new counter RS06 views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS06 downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS06 unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS06 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS06 version_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS06 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS06 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS06 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new version views and downloads zero RS06",
+      "passed": true
+    },
+    {
+      "check": "new release RS07",
+      "passed": true
+    },
+    {
+      "check": "new DOI RS07",
+      "passed": true
+    },
+    {
+      "check": "new counter RS07 views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS07 downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS07 unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS07 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS07 version_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS07 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS07 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS07 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new version views and downloads zero RS07",
+      "passed": true
+    },
+    {
+      "check": "new release RS08",
+      "passed": true
+    },
+    {
+      "check": "new DOI RS08",
+      "passed": true
+    },
+    {
+      "check": "new counter RS08 views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS08 downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS08 unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS08 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS08 version_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS08 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS08 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS08 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new version views and downloads zero RS08",
+      "passed": true
+    },
+    {
+      "check": "new release RS09",
+      "passed": true
+    },
+    {
+      "check": "new DOI RS09",
+      "passed": true
+    },
+    {
+      "check": "new counter RS09 views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS09 downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS09 unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS09 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS09 version_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS09 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS09 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS09 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new version views and downloads zero RS09",
+      "passed": true
+    },
+    {
+      "check": "new release RS10",
+      "passed": true
+    },
+    {
+      "check": "new DOI RS10",
+      "passed": true
+    },
+    {
+      "check": "new counter RS10 views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS10 downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS10 unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS10 unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS10 version_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS10 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "new counter RS10 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "new counter RS10 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "new version views and downloads zero RS10",
+      "passed": true
+    },
+    {
+      "check": "new family totals",
+      "passed": true
+    },
+    {
+      "check": "seventy new-version cells",
+      "passed": true
+    },
+    {
+      "check": "new platform GitHub",
+      "passed": true
+    },
+    {
+      "check": "new platform Zenodo",
+      "passed": true
+    },
+    {
+      "check": "new platform DataCite",
+      "passed": true
+    },
+    {
+      "check": "new platform ORCID",
+      "passed": true
+    },
+    {
+      "check": "new platform OpenAIRE",
+      "passed": true
+    },
+    {
+      "check": "new platform OpenAlex",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS01",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS02",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS03",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS04",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS05",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS09",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS10",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS08",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS06",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration RS07",
+      "passed": true
+    },
+    {
+      "check": "complete enumeration companion",
+      "passed": true
+    },
+    {
+      "check": "43 distinct version IDs",
+      "passed": true
+    },
+    {
+      "check": "version source 22790908",
+      "passed": true
+    },
+    {
+      "check": "version stat 22790908 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22790908 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 22790908 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22790908 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791082",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791082 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791082 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791082 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791082 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791104",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791104 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791104 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791104 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791104 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791142",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791142 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791142 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791142 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791142 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791170",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791170 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791170 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791170 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791170 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791310",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791310 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791310 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791310 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791310 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791335",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791335 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791335 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791335 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791335 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791376",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791376 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791376 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791376 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791376 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791405",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791405 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791405 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791405 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791405 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 22791464",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791464 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791464 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791464 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 22791464 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068144",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068144 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068144 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068144 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068144 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068145",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068145 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068145 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068145 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068145 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068260",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068260 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068260 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068260 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068260 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068261",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068261 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068261 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068261 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068261 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068262",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068262 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068262 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068262 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068262 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068347",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068347 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068347 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068347 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068347 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068352",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068352 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068352 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068352 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068352 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068471",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068471 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068471 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068471 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068471 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068472",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068472 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068472 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068472 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068472 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23068494",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068494 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068494 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068494 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23068494 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137203",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137203 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137203 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137203 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137203 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137204",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137204 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137204 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137204 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137204 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137205",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137205 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137205 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137205 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137205 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137206",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137206 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137206 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137206 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137206 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137207",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137207 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137207 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137207 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137207 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137211",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137211 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137211 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137211 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137211 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137214",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137214 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137214 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137214 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137214 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137215",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137215 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137215 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137215 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137215 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137216",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137216 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137216 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137216 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137216 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23137219",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137219 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137219 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137219 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23137219 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23166491",
+      "passed": true
+    },
+    {
+      "check": "version stat 23166491 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23166491 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23166491 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23166491 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23176748",
+      "passed": true
+    },
+    {
+      "check": "version stat 23176748 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23176748 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23176748 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23176748 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23284570",
+      "passed": true
+    },
+    {
+      "check": "version stat 23284570 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23284570 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23284570 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23284570 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365504",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365504 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365504 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365504 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365504 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365510",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365510 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365510 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365510 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365510 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365517",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365517 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365517 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365517 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365517 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365525",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365525 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365525 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365525 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365525 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365534",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365534 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365534 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365534 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365534 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365540",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365540 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365540 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365540 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365540 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365543",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365543 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365543 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365543 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365543 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365548",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365548 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365548 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365548 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365548 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365551",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365551 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365551 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365551 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365551 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "version source 23365567",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365567 version_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365567 version_downloads",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365567 version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "version stat 23365567 version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "72 individual findable DOIs",
+      "passed": true
+    },
+    {
+      "check": "15 groups 85 source summaries",
+      "passed": true
+    },
+    {
+      "check": "ORCID source split",
+      "passed": true
+    },
+    {
+      "check": "duplicate source assertions retained",
+      "passed": true
+    },
+    {
+      "check": "three OpenAlex count surfaces 26",
+      "passed": true
+    },
+    {
+      "check": "copy omission user-corrected",
+      "passed": true
+    },
+    {
+      "check": "11 user page pairs match API unique",
+      "passed": true
+    },
+    {
+      "check": "diagnostic with observed releases, no invented T0",
+      "passed": true
+    }
+  ]
+}

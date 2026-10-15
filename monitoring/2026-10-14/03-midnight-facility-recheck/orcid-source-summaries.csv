@@ -1,0 +1,73 @@
+capture_group_index,put_code,title,source_name,dois
+1,229474334,Research Software Identity Audit,DataCite,10.5281/zenodo.23284570 | 10.5281/zenodo.23166490
+1,228845890,Research Software Identity Audit,DataCite,10.5281/zenodo.23166490 | 10.5281/zenodo.23166491 | 10.5281/zenodo.23176748 | 10.5281/zenodo.23284570
+1,228845888,Research Software Identity Audit,DataCite,10.5281/zenodo.23176748 | 10.5281/zenodo.23166490
+1,228793699,lostlight530/research-software-identity-audit: Beta— Research Runtime Bootstrap,OpenAIRE,10.5281/zenodo.23166491
+1,229356278,lostlight530/research-software-identity-audit: Beta— Research Runtime Bootstrap,DataCite,10.5281/zenodo.23166491 | 10.5281/zenodo.23166490
+1,229474335,Research Software Identity Audit,DataCite,10.5281/zenodo.23284570 | 10.5281/zenodo.23166490
+2,228340895,Agent Foundations,DataCite,10.5281/zenodo.22791169 | 10.5281/zenodo.22791170 | 10.5281/zenodo.23068262 | 10.5281/zenodo.23137207
+2,228340875,Agent Foundations,DataCite,10.5281/zenodo.23068262 | 10.5281/zenodo.22791169
+2,228621085,Agent Foundations,OpenAIRE,10.5281/zenodo.23068262
+2,228686998,Agent Foundations,DataCite,10.5281/zenodo.23137207 | 10.5281/zenodo.22791169
+2,227011523,Agent Foundations,author/unnamed,10.5281/ZENODO.22791169
+3,228340916,Agentic Frontier Observatory,DataCite,10.5281/zenodo.22791334 | 10.5281/zenodo.22791335 | 10.5281/zenodo.23137214 | 10.5281/zenodo.23068352
+3,228340907,Agentic Frontier Observatory,DataCite,10.5281/zenodo.23068352 | 10.5281/zenodo.22791334
+3,228620643,Agentic Frontier Observatory,OpenAIRE,10.5281/zenodo.23068352
+3,228687002,Agentic Frontier Observatory,DataCite,10.5281/zenodo.23137214 | 10.5281/zenodo.22791334
+3,227012111,Agentic Frontier Observatory,author/unnamed,10.5281/ZENODO.22791334
+4,228340890,Axiom-0,DataCite,10.5281/zenodo.22791103 | 10.5281/zenodo.22791104 | 10.5281/zenodo.23068261 | 10.5281/zenodo.23137205
+4,228340892,Axiom-0,DataCite,10.5281/zenodo.23068261 | 10.5281/zenodo.22791103
+4,228620639,Axiom-0,OpenAIRE,10.5281/zenodo.23068261
+4,228686994,Axiom-0,DataCite,10.5281/zenodo.23137205 | 10.5281/zenodo.22791103
+4,227010982,Axiom-0,author/unnamed,10.5281/ZENODO.22791103
+5,228340900,China Agentic Observatory,DataCite,10.5281/zenodo.22791309 | 10.5281/zenodo.22791310 | 10.5281/zenodo.23137211 | 10.5281/zenodo.23068347
+5,228340894,China Agentic Observatory,DataCite,10.5281/zenodo.23068347 | 10.5281/zenodo.22791309
+5,228620641,China Agentic Observatory,OpenAIRE,10.5281/zenodo.23068347
+5,228687001,China Agentic Observatory,DataCite,10.5281/zenodo.23137211 | 10.5281/zenodo.22791309
+5,227011738,China Agentic Observatory,author/unnamed,10.5281/ZENODO.22791309
+6,228340993,Epistemic Pipeline,DataCite,10.5281/zenodo.22791463 | 10.5281/zenodo.22791464 | 10.5281/zenodo.23137216 | 10.5281/zenodo.23068494
+6,228340992,Epistemic Pipeline,DataCite,10.5281/zenodo.23068494 | 10.5281/zenodo.22791463
+6,228620560,Epistemic Pipeline,OpenAIRE,10.5281/zenodo.23068494
+6,228687008,Epistemic Pipeline,DataCite,10.5281/zenodo.23137216 | 10.5281/zenodo.22791463
+6,227012534,Epistemic Pipeline,author/unnamed,10.5281/ZENODO.22791463
+7,228340893,Reflective Continuum,DataCite,10.5281/zenodo.22791141 | 10.5281/zenodo.22791142 | 10.5281/zenodo.23137206 | 10.5281/zenodo.23068260
+7,228340904,Reflective Continuum,DataCite,10.5281/zenodo.23068260 | 10.5281/zenodo.22791141
+7,228620614,Reflective Continuum,OpenAIRE,10.5281/zenodo.23068260
+7,228686996,Reflective Continuum,DataCite,10.5281/zenodo.23137206 | 10.5281/zenodo.22791141
+7,227011487,Reflective Continuum,author/unnamed,10.5281/ZENODO.22791141
+8,228340880,Zero-Entropy Lab,DataCite,10.5281/zenodo.22791081 | 10.5281/zenodo.22791082 | 10.5281/zenodo.23137204 | 10.5281/zenodo.23068144
+8,228686993,Zero-Entropy Lab,DataCite,10.5281/zenodo.23137204 | 10.5281/zenodo.22791081
+8,228340867,Zero-Entropy Lab,DataCite,10.5281/zenodo.23068144 | 10.5281/zenodo.22791081
+8,228620911,Zero-Entropy Lab,OpenAIRE,10.5281/zenodo.23068144
+8,227010940,Zero-Entropy Lab,author/unnamed,10.5281/ZENODO.22791081
+9,228340930,auto-doc-engine,DataCite,10.5281/zenodo.22791404 | 10.5281/zenodo.22791405 | 10.5281/zenodo.23137215 | 10.5281/zenodo.23068471
+9,228340931,auto-doc-engine,DataCite,10.5281/zenodo.23068471 | 10.5281/zenodo.22791404
+9,228620649,auto-doc-engine,OpenAIRE,10.5281/zenodo.23068471
+9,228687003,auto-doc-engine,DataCite,10.5281/zenodo.23137215 | 10.5281/zenodo.22791404
+9,227012487,auto-doc-engine,author/unnamed,10.5281/ZENODO.22791404
+10,228340932,sci-render-kit,DataCite,10.5281/zenodo.22791375 | 10.5281/zenodo.22791376 | 10.5281/zenodo.23137219 | 10.5281/zenodo.23068472
+10,228340937,sci-render-kit,DataCite,10.5281/zenodo.23068472 | 10.5281/zenodo.22791375
+10,228621088,sci-render-kit,OpenAIRE,10.5281/zenodo.23068472
+10,228687028,sci-render-kit,DataCite,10.5281/zenodo.23137219 | 10.5281/zenodo.22791375
+10,227012388,sci-render-kit,author/unnamed,10.5281/ZENODO.22791375
+11,228340877,welcome-to-github,DataCite,10.5281/zenodo.22790907 | 10.5281/zenodo.22790908 | 10.5281/zenodo.23137203 | 10.5281/zenodo.23068145
+11,228340866,welcome-to-github,DataCite,10.5281/zenodo.23068145 | 10.5281/zenodo.22790907
+11,228620858,welcome-to-github,OpenAIRE,10.5281/zenodo.23068145
+11,228686991,welcome-to-github,DataCite,10.5281/zenodo.23137203 | 10.5281/zenodo.22790907
+11,227010837,welcome-to-github,author/unnamed,10.5281/ZENODO.22790907
+12,229549110,Brain Evolution — welcome-to-github,DataCite,10.48546/workflowhub.workflow.2337.1
+13,228780507,Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures,DataCite,10.17605/osf.io/5b329
+14,229420881,NEXUS CORTEX Life Cycle — welcome-to-github,DataCite,10.48546/workflowhub.workflow.2332.4
+14,229332907,NEXUS CORTEX Life Cycle — welcome-to-github,DataCite,10.48546/workflowhub.workflow.2332.3
+14,229421875,NEXUS CORTEX Life Cycle — welcome-to-github,author/unnamed,10.48546/workflowhub.workflow.2332.3 | 10.48546/workflowhub.workflow.2332.7 | 10.48546/workflowhub.workflow.2332.5 | 10.48546/workflowhub.workflow.2332.4 | 10.48546/workflowhub.workflow.2332.6 | 10.48546/workflowhub.workflow.2332.1
+14,229031993,NEXUS CORTEX Life Cycle — welcome-to-github,DataCite,10.48546/workflowhub.workflow.2332.1
+14,229549194,NEXUS CORTEX Life Cycle — welcome-to-github,DataCite,10.48546/workflowhub.workflow.2332.5
+14,229644637,NEXUS CORTEX Life Cycle — welcome-to-github,DataCite,10.48546/workflowhub.workflow.2332.6
+14,229839328,NEXUS CORTEX Life Cycle — welcome-to-github,DataCite,10.48546/workflowhub.workflow.2332.7
+15,229420882,NEXUS CORTEX Life Cycle — zero-entropy-lab,DataCite,10.48546/workflowhub.workflow.2334.4
+15,229037190,NEXUS CORTEX Life Cycle — zero-entropy-lab,DataCite,10.48546/workflowhub.workflow.2334.2
+15,229332969,NEXUS CORTEX Life Cycle — zero-entropy-lab,DataCite,10.48546/workflowhub.workflow.2334.3
+15,229549155,NEXUS CORTEX Life Cycle — zero-entropy-lab,DataCite,10.48546/workflowhub.workflow.2334.5
+15,229644671,NEXUS CORTEX Life Cycle — zero-entropy-lab,DataCite,10.48546/workflowhub.workflow.2334.6
+15,229839347,NEXUS CORTEX Life Cycle — zero-entropy-lab,DataCite,10.48546/workflowhub.workflow.2334.7
+15,229333774,NEXUS CORTEX Life Cycle — zero-entropy-lab,author/unnamed,10.48546/workflowhub.workflow.2334.2 | 10.48546/workflowhub.workflow.2334.7 | 10.48546/workflowhub.workflow.2334.3 | 10.48546/workflowhub.workflow.2334.4 | 10.48546/workflowhub.workflow.2334.5 | 10.48546/workflowhub.workflow.2334.6

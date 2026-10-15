@@ -1,0 +1,95 @@
+{
+  "artifacts": [
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/all-observed-version-statistics.csv",
+      "bytes": 5925,
+      "sha256": "5c39a684281c93d28eed4c7f596230e31496c1603d058e011f552dec459f4651"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/capture-summary.json",
+      "bytes": 8887,
+      "sha256": "bf50a59a900d75b207ab10dab1e5e6828a351708e090217cea1acdeda5c40664"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/new-release-platform-states.csv",
+      "bytes": 5930,
+      "sha256": "dc34aad275a0e782eaa4554288fa2bbb6b1a1f26e6e59263dbcbe1afc599c9f8"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/new-release-statistics.csv",
+      "bytes": 4044,
+      "sha256": "58b094291f6a1949a1034310599c707942f5045e3a15189e9229f1a1cb5c746a"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/openalex-doi-resolution.csv",
+      "bytes": 4446,
+      "sha256": "69be652fafd2a925773c82c94667e7f1c7022eb4d2af63c076f532ef13c5f0e5"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/openalex-works.csv",
+      "bytes": 3290,
+      "sha256": "00e2266f53f236a34904d5eb86ae7e54bd1fdb4648a8e938adcc3282eb346945"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/platform-states.csv",
+      "bytes": 3889,
+      "sha256": "d8290643b6f0e868c1de3e4bb5e529e6ba419c032c0a937121194ddc4fa034e4"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/README.md",
+      "bytes": 3145,
+      "sha256": "b5177eab09f0584458e231dafe5ca2070d6146b7e11b80543238b75497ee6490"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/record.yaml",
+      "bytes": 818,
+      "sha256": "3199423e8660190dfdc6c01e9bc755236b05be506b77ae87dd2d51fda0eb322e"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/user-page-api-reconciliation.csv",
+      "bytes": 827,
+      "sha256": "685402076bc1ad79f63f3388f10debea23eebd9034bb46a42e72a98cbf7fa43f"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/version-enumeration-verification.csv",
+      "bytes": 727,
+      "sha256": "c8c3694e8d5cbad7d16ed9c936c037e641e9e2199d98b632faf2012f321f8066"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/zenodo-family-statistics.csv",
+      "bytes": 779,
+      "sha256": "c2ac3d1283a6abf47ac03b6c48170eca772500b6ed5b14e61cbf7dab2b6a22ef"
+    },
+    {
+      "path": "monitoring/2026-10-14/06-evening-facility-recheck/zenodo-version-statistics.csv",
+      "bytes": 2022,
+      "sha256": "b4bd662835c25b0e743f349cc1b19c57259cf4950579292d08e3f1125a95623d"
+    },
+    {
+      "path": "evidence/2026-10-14/06-evening-facility-recheck/capture-manifest.json",
+      "bytes": 232134,
+      "sha256": "4a0b179c6a8fb4177e19a360643117d029748128da77ea08864b717100e30ab6"
+    },
+    {
+      "path": "evidence/2026-10-14/06-evening-facility-recheck/field-extracts.json",
+      "bytes": 1361171,
+      "sha256": "ab1d0c4f20a505ed316b7d0bb45a978277001ac0a877efd31a655b46ea961506"
+    },
+    {
+      "path": "evidence/2026-10-14/06-evening-facility-recheck/README.md",
+      "bytes": 507,
+      "sha256": "92eaf8cc3296c1aea7f31f1eaec3cd075b96c0a76dbf274755d6a36c530b717b"
+    },
+    {
+      "path": "evidence/2026-10-14/06-evening-facility-recheck/user-openalex-correction.json",
+      "bytes": 443,
+      "sha256": "508e5eb1e30fe5de5e2924c8d331aa773c91b3a853d729275f25d3a074aa6932"
+    },
+    {
+      "path": "evidence/2026-10-14/06-evening-facility-recheck/user-zenodo-page.json",
+      "bytes": 2964,
+      "sha256": "885dcb6021009ff89c4552034029b6fc8067b4e15d90f341f9d8f15cf3df0007"
+    }
+  ],
+  "semantics": "Derived public artifacts normalized to LF; original local HTTP bytes unchanged"
+}

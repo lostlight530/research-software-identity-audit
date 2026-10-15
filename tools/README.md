@@ -53,3 +53,15 @@ No external API credentials, cookies, session data, or secrets belong in the rep
 The 32-row independent [version-counters-independent.csv](../monitoring/2026-10-10/02-reconciliation/version-counters-independent.csv) is a **derived** public-field extract reviewed against Zenodo search, `/versions`, and individual-version endpoints. It is **not** a preserved 32-response raw HTTP transport archive, and its batch windows are not per-request server times.
 
 Its contract is specified in [schema/counting-rules.md](../schema/counting-rules.md#supplementary-zenodo-version-family-reconciliation-2026-10-10). Any locally executed replay/checker must retain per-family identifier joins and flag attached aggregate disagreements instead of fabricating missing counts. **No new retained-evidence checker is added to GitHub Actions**; the existing advisory CI validates only its configured contract checks.
+
+## October 14 retained diagnostics
+
+Run `python tools/check_retained_reconciliation_20261014.py` locally to verify the three October 14 packages, canonical IDs, hashes, source fields, DOI route convergence, counters and source separation. It makes no network calls and is not added to GitHub Actions
+
+## Evening new-release verification
+
+Run `python tools/check_retained_evening_20261014.py` locally for the new release/DOI/version/page joins. It makes no network requests and is not added to cloud CI
+
+## October 15 morning retained evidence
+
+Run `python tools/check_retained_morning_20261015.py` locally for the new source, aggregation, version-count and identity joins. The checker is offline and not added to cloud CI

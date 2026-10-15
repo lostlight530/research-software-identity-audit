@@ -1,0 +1,12 @@
+object_id,software_family,record_id,scope,page_unique_views,page_unique_downloads,morning_api_unique_views,morning_api_unique_downloads,unique_view_difference,unique_download_difference
+RS01,welcome-to-github,23137203,fixed_corpus,171,4,171,4,0,0
+RS02,zero-entropy-lab,23137204,fixed_corpus,129,0,128,0,1,0
+RS03,Axiom-0,23137205,fixed_corpus,152,0,151,0,1,0
+RS04,reflective-continuum,23137206,fixed_corpus,108,0,108,0,0,0
+RS05,agent-foundations,23137207,fixed_corpus,132,1,131,1,1,0
+RS06,auto-doc-engine,23137215,fixed_corpus,120,0,119,0,1,0
+RS07,epistemic-pipeline,23137216,fixed_corpus,134,0,134,0,0,0
+RS08,sci-render-kit,23137219,fixed_corpus,122,1,122,1,0,0
+RS09,china-agentic-observatory,23137211,fixed_corpus,143,0,142,0,1,0
+RS10,agentic-frontier-observatory,23137214,fixed_corpus,150,1,150,1,0,0
+,research-software-identity-audit,23284570,audit_runtime_supplement,90,3,90,3,0,0
