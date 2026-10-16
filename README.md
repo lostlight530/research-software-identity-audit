@@ -12,6 +12,23 @@ The study is publicly preregistered on OSF and examines how a fixed corpus of re
 
 > **Important:** This repository supports the study. It is **not an eleventh research-software object** in the fixed ten-object study corpus.
 
+
+## Start here — documentation and repository navigation
+
+For contributors and independent reviewers, the [**documentation map**](docs/README.md) identifies the authoritative owner of each folder, study/object boundaries, evidence levels, and the docs-only maintenance process.
+
+| Task | Start with |
+| --- | --- |
+| Read what was registered | [OSF study registration](https://osf.io/5b329/overview) and [repository contract mapping](contract/preregistration.md) |
+| Check fixed samples and counting rules | [RS01–RS10 manifest](corpus/object-manifest.csv) and [six-layer counting contract](schema/counting-rules.md) |
+| Understand historical versus prospective status | [Initial baseline](baseline/README.md), [operational schedule](schedule/README.md), [prospective raw observation area](observations/raw/README.md) |
+| Review diagnostic measurements and retained evidence | [Dated monitoring index](monitoring/README.md), [evidence inventory](evidence/README.md), [provenance discipline](provenance/README.md) |
+| Reproduce or review a contribution | [Tools and advisory checks](tools/README.md), [contributing instructions](CONTRIBUTING.md), [open research method](OPEN_RESEARCH.md) |
+| Cite the correct scholarly object | [Citation and identifier guide](scholarly/CITATION.md), [release policy](RELEASE_POLICY.md) |
+
+**Operational-status boundary (documentation review, 2026-10-17):** The [schedule record](schedule/README.md) has **no declared concrete offsets**. The October 14 fixed-ten public release cohort is independently recorded, but the existing diagnostic monitoring packages must **not** be relabeled as scheduled prospective observations. Current `main` and older immutable Zenodo release tags describe different snapshots.
+
+
 ---
 
 ## Research registration
@@ -578,86 +595,19 @@ The evidence trail should preserve both sides of the transition.
 
 # Repository structure
 
-The repository is expected to evolve around the following structure:
+Repository organization follows **responsibility and evidence role** rather than chronological marketing milestones. The canonical, maintained [directory and document map](docs/README.md#2-directory-map-where-to-read-and-where-a-future-contribution-belongs) lists the complete current ownership boundaries without repeating a static tree that becomes outdated after every monitoring package.
 
-```text
-.
-├── README.md
-├── DATA_HANDLING.md
-├── CITATION.cff
-├── codemeta.json
-├── .zenodo.json
-├── .github/
-│   ├── PULL_REQUEST_TEMPLATE.md
-│   └── workflows/
-│       └── validate.yml
-│
-├── contract/
-│   ├── preregistration.md
-│   ├── contract-map.yaml
-│   └── known-limitations.md
-│
-├── corpus/
-│   └── object-manifest.csv
-│
-├── baseline/
-│   ├── README.md
-│   └── 2026-10-05/
-│       ├── README.md
-│       ├── manifest.yaml
-│       ├── raw-reconciliation-record-2026-10-06.md
-│       ├── reconciliation-notes.md
-│       ├── source-ledger.yaml
-│       ├── doi-map.csv
-│       ├── platform-state.yaml
-│       └── zenodo-statistics.yaml
-│
-├── schedule/
-│   └── README.md
-│
-├── schema/
-│   ├── observation.schema.json
-│   ├── state-taxonomy.yaml
-│   ├── infrastructure-layers.yaml
-│   ├── platforms.yaml
-│   └── counting-rules.md
-│
-├── observations/
-│   ├── raw/
-│   └── derived/
-│
-├── monitoring/
-│   ├── README.md
-│   └── 2026-10-06/01-wave-01/
-│
-├── evidence/
-│   └── README.md
-│
-├── analysis/
-│   └── README.md
-│
-├── provenance/
-│   └── README.md
-│
-├── scholarly/
-│   ├── README.md
-│   ├── CITATION.md
-│   └── identifiers.yaml
-│
-├── templates/
-│   └── ...
-│
-├── tools/
-│   ├── README.md
-│   └── check.py
-│
-├── AMENDMENTS.md
-└── DEVIATIONS.md
-```
+| Category | Directory owner |
+| --- | --- |
+| Frozen contract interpretation and fixed study identities | [`contract/`](contract/preregistration.md), [`corpus/`](corpus/object-manifest.csv), [`schema/`](schema/counting-rules.md) |
+| Historic data boundary and operational schedule | [`baseline/`](baseline/README.md), [`schedule/`](schedule/README.md) |
+| Diagnostic monitoring (not prospective) | [`monitoring/`](monitoring/README.md) |
+| Schedule-governed prospective observations | [`observations/raw/`](observations/raw/README.md), [`observations/derived/`](observations/derived/README.md) |
+| Retained evidence, provenance and descriptive analysis | [`evidence/`](evidence/README.md), [`provenance/`](provenance/README.md), [`analysis/`](analysis/README.md) |
+| Citation and reproducible implementation | [`scholarly/`](scholarly/README.md), [`templates/`](templates/README.md), [`tools/`](tools/README.md), [`.github/`](.github/PULL_REQUEST_TEMPLATE.md) |
+| Human-oriented repository documentation | [`docs/`](docs/README.md), [`OPEN_RESEARCH.md`](OPEN_RESEARCH.md), [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 
-The exact structure may evolve as implementation proceeds.
-
-Changes to repository organization do not themselves alter the frozen research design unless they modify the substantive research contract.
+Historical evidence/observation paths are intentionally **not moved for cosmetic cleanup**: earlier evidence manifests, digests and source locators must remain independently resolvable. The folder map is documentation, not an OSF amendment, release, scheduled wave, or new study-data record.
 
 ---
 

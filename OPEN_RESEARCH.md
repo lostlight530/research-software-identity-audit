@@ -170,6 +170,7 @@ Do not rewrite point-in-time history merely to make later records look cleaner.
 ## Open-science file responsibilities
 
 - `README.md` — public orientation and study entry points.
+- `docs/README.md` — durable directory ownership/navigation and docs-only maintenance boundary; not a separate research contract.
 - `OPEN_RESEARCH.md` — durable research-production method.
 - `RESEARCH_TEMPLATE.md` — human-facing bounded research template.
 - `templates/` — machine-oriented operational templates.

@@ -18,6 +18,15 @@ Select every applicable class:
 
 Describe the change and why it is needed.
 
+## Docs-only change gate (if selected above)
+
+- [ ] Only human-facing documentation/navigation was edited; **no research data, raw evidence, baseline, observation, schema, schedule, executable tooling, release, or citation identity metadata** changed.
+- [ ] Existing dated source reports, correction history, and evidence paths remain intact.
+- [ ] New explanatory statements point to their owning source rather than upgrading monitoring to prospective evidence.
+- [ ] New and changed relative links were checked against the proposed branch tree.
+- [ ] Any validation **not executed** is explicitly marked not executed (advisory CI is not scientific validation).
+- [ ] The [documentation ownership map](../docs/README.md) remains consistent with the actual changed paths.
+
 ## Research-contract impact
 
 - Does this change alter the frozen OSF preregistration? **No / Yes**

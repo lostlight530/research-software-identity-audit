@@ -19,8 +19,19 @@ Before proposing a change, identify what owns it:
 - `scholarly/` — citation, archive, and identifier metadata;
 - `templates/` — prospective record templates;
 - `tools/` and `.github/` — deterministic validation and repository automation.
+- `docs/` and `README.md` — human navigation and documentation-maintenance guidance (see [documentation map](docs/README.md)).
 
 A change in one surface does not automatically authorize changes in another.
+
+## Documentation-only contributions
+
+For link/navigation improvements, prose clarification, maintainer guidance, and non-data documentation hygiene, use the [docs-only guide](docs/README.md#4-docs-only-maintenance-workflow).
+
+- A docs-only change must **not** modify observation or counter data, raw evidence, archived packages, schema/contract files, the fixed corpus, an operational schedule, or executable validation/analysis logic.
+- Do not move previously published baseline, monitoring, evidence, or provenance directories to make the repository tree visually tidier. Old evidence locators, Git paths and checksums are part of reproducibility.
+- A dated observation or experimental result belongs in its dated owning record, not as an undated repository status or a rewritten source report.
+- Check relative links against the branch tree, independently inspect the diff, and distinguish **actually executed** validation from planned/not-executed verification.
+- Advisory CI protects repository invariants but does not certify an external API observation or scholarly interpretation.
 
 ## Research boundaries
 
