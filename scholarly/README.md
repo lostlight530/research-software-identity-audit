@@ -38,7 +38,9 @@ Future releases must preserve this concept/version distinction.
 
 The OSF registration DOI identifies the frozen preregistered research contract.
 
-The associated OSF project remains a live project surface for ongoing study materials and links.
+The associated OSF project is a separate project/materials surface and is distinct from the registration. As of this October 2026 documentation review, do not infer that project documents or later GitHub changes retroactively alter the preregistered plan.
+
+**External platform lifecycle notice (not an OSF contract update):** [OSF's Projects-transition guidance](https://help.osf.io/article/727-osf-projects-transition) announces that existing OSF Projects will become read-only on **2027-02-19**; its [registration-specific guidance](https://help.osf.io/article/770-registrations) explicitly states that registrations/preregistrations continue unaffected. This is future provider policy, **not** a witnessed change to this project's October 2026 status. The GitHub research runtime and Zenodo archives remain separate operating and citation surfaces. Verify provider policy again before future workflow changes.
 
 Neither OSF identifier is interchangeable with a Zenodo software DOI.
 
