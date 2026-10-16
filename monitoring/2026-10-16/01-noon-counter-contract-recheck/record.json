@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "record_id": "oct16-noon-eleven-family-counter-and-identity-recheck",
+  "record_class": "diagnostic_monitoring",
+  "logical_day": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "requested_checkpoint": "12:00-hour",
+  "actual_first_repository_read_utc": "2026-10-16T04:53:44.234Z",
+  "research_phase": "PREFLIGHT_WITH_UNADJUDICATED_RELEASE_CANDIDATE",
+  "prospective_dataset_member": false,
+  "source_control_repo": "lostlight530/research-software-identity-audit",
+  "base_main_sha": "17a13553cd9a103f36a6fce1b9313d135c45fd0f",
+  "open_pr_at_start": 0,
+  "control_repo_is_RS11": false,
+  "fixed_sample_ids": [
+    "RS01",
+    "RS02",
+    "RS03",
+    "RS04",
+    "RS05",
+    "RS06",
+    "RS07",
+    "RS08",
+    "RS09",
+    "RS10"
+  ],
+  "software_families_including_control": 11,
+  "last_complete_version_enumeration_date": "2026-10-15",
+  "last_complete_version_enumeration_count": 43,
+  "current_43_version_reenumeration_performed": false,
+  "preregistered_layer_count": 6,
+  "operational_platform_count": 7,
+  "preregistered_object_layer_units_per_eligible_timepoint": 60,
+  "possible_object_platform_checks": 70,
+  "zenodo": {
+    "source": "public Zenodo record API JSON-field extractor; 10 latest-version attached stats + control complete family versions endpoint",
+    "source_file": "zenodo-family-api-stats.csv",
+    "ten": {
+      "views": 2283,
+      "unique_views": 1449,
+      "downloads": 17,
+      "unique_downloads": 16
+    },
+    "control": {
+      "views": 103,
+      "unique_views": 96,
+      "downloads": 3,
+      "unique_downloads": 3
+    },
+    "all_eleven": {
+      "views": 2386,
+      "unique_views": 1545,
+      "downloads": 20,
+      "unique_downloads": 19
+    },
+    "sum_rule": "sum one attached family-level counter per distinct Concept DOI; never sum this field across versions",
+    "unique_semantics": "per-record anonymized user one-hour-window dedup; summed family counts are not cross-family distinct people",
+    "prior_2026_10_15_09_34": {
+      "ten": {
+        "views": 2231,
+        "unique_views": 1400,
+        "downloads": 8,
+        "unique_downloads": 7
+      },
+      "control": {
+        "views": 95,
+        "unique_views": 91,
+        "downloads": 3,
+        "unique_downloads": 3
+      }
+    },
+    "counter_field_difference_from_prior": {
+      "ten_views": 52,
+      "ten_unique_views": 49,
+      "control_views": 8,
+      "control_unique_views": 5,
+      "all_views": 60,
+      "all_unique_views": 54,
+      "all_downloads": 9,
+      "all_unique_downloads": 9
+    },
+    "difference_is_first_observation_time": false,
+    "current_ten_extract_outer_window_utc": "2026-10-16T04:55:31.248Z/2026-10-16T04:55:35.878Z",
+    "control_family_extraction_outer_window_utc": "2026-10-16T04:55:55.941Z/2026-10-16T04:55:57.369Z",
+    "control_family_version_record_ids": [
+      "23284570",
+      "23176748",
+      "23166491"
+    ],
+    "control_family_version_views": [
+      25,
+      55,
+      23
+    ],
+    "control_single_latest_record_conflicting_excerpt": {
+      "views": 74,
+      "unique_views": 71,
+      "downloads": 3,
+      "source": "https://zenodo.org/api/records/23284570",
+      "conflict_state": "ATTACHED_FAMILY_COUNTER_CONFLICT_UNRESOLVED"
+    },
+    "control_versions_endpoint_agreed_on_all_three_family_views": 103,
+    "user_supplied_frontend_eleven_unique_views_sum": 1545,
+    "user_supplied_frontend_eleven_unique_downloads_sum": 19,
+    "independent_backend_cache_mechanism_verified": false
+  },
+  "workflowhub": {
+    "user_supplied_dashboard_extract": "workflowhub-dashboard-user-extract.csv",
+    "three_asset_views_sum": 2511,
+    "three_asset_downloads_sum": 204,
+    "asset_count": 3,
+    "most_active_submitter_submissions_displayed": 4,
+    "dashboard_period_selection": "UNKNOWN_FROM_TEXT",
+    "dashboard_type_selection": "UNKNOWN_FROM_TEXT",
+    "dashboard_direct_numeric_reproduction": false,
+    "workflow_asset_identities_publicly_verified": 3,
+    "version_detail_comparability": "NOT_ESTABLISHED"
+  },
+  "openalex": {
+    "author_id": "A5151904252",
+    "works_list_count": 29,
+    "works_list_returned": 29,
+    "software_type_count": 11,
+    "other_type_count": 18,
+    "author_full_profile_works_count": 26,
+    "author_selected_profile_works_count": 26,
+    "cited_by_count": 1,
+    "author_profile_updated_date_returned": "2026-10-13T12:33:52",
+    "count_difference_resolved": false,
+    "independent_impact_claim_supported": false
+  },
+  "datacite": {
+    "latest_fixed_ten_version_dois_findable": 10,
+    "control_latest_version_doi_findable": true,
+    "latest_is_version_of_concept_verified": 11
+  },
+  "openaire": {
+    "fixed_ten_exact_latest_version_pid_numFound_one": 10,
+    "control_latest_version_exact_pid_numFound": 1,
+    "control_concept_exact_pid_numFound": 0,
+    "global_absence_inferred": false
+  },
+  "orcid": {
+    "works_access_state": "FLATTENED_TEXT_PARTIAL",
+    "native_group_count_current": "NOT_RECONSTRUCTED"
+  },
+  "software_heritage": {
+    "control_origin_visits": "BOT_CHALLENGE",
+    "ten_version_content_chains_verified_this_review": "NOT_ATTEMPTED"
+  },
+  "osf": {
+    "registration": "10.17605/OSF.IO/5B329",
+    "public_update_banner_date": "2026-10-06",
+    "native_version_diff_verified": false
+  },
+  "github": {
+    "fixed_ten_latest_published_release": "v2026.10-fourteen-day-evidence-checkpoint",
+    "fixed_ten_release_count_each": 4,
+    "control_latest_published_release": "v2026.10-evidence-reconciliation",
+    "control_release_count": 3,
+    "RS01_main_changed_since_oct15": true,
+    "RS02_main_changed_since_oct15": true
+  },
+  "source_ledger": "source-attempts.csv",
+  "source_ledger_rows": 59,
+  "original_http_response_bytes_retained": false,
+  "original_http_headers_retained": false,
+  "request_level_server_timestamps_retained": false,
+  "operational_offsets_declared": false,
+  "new_eligible_timepoint_declared": false,
+  "prospective_cells_created": 0,
+  "frozen_osf_contract_modified": false,
+  "schema_modified": false,
+  "baseline_modified": false,
+  "checker_modified": false,
+  "schedule_modified": false,
+  "outcome": "NOON_ELEVEN_FAMILY_STATS_RECONCILED_BY_FIELD_WITH_RETAINED_CONTROL_ENDPOINT_CONFLICT_AND_OPENALEX_WORKS_DISCREPANCY"
+}
