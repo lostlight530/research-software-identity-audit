@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "record_id": "biotools-life-science-protein-file-audit-2026-10-17",
+  "source_locator": "https://bio.tools/api/t/life-science-protein-file-audit",
+  "source_type": "public_API_parsed_by_third_party_fetch_extractor",
+  "http_status_as_returned": 200,
+  "biotoolsID": "life-science-protein-file-audit",
+  "biotoolsCURIE": "biotools:life-science-protein-file-audit",
+  "name": "Life Science Protein File Audit",
+  "homepage": "https://github.com/lostlight530/life-science-ecosystem-lab/tree/main/bio_tool",
+  "license": "MIT",
+  "toolType": [
+    "Command-line tool"
+  ],
+  "language": [
+    "Python"
+  ],
+  "cost": "Free of charge",
+  "version": [],
+  "maturity": null,
+  "additionDate_utc": "2026-10-17T14:35:25.534070Z",
+  "lastUpdate_utc": "2026-10-17T14:35:25.536758Z",
+  "validated_raw_flag": 0,
+  "homepage_status_raw_flag": 0,
+  "publication": [],
+  "documentation": [],
+  "download": [],
+  "editPermission_type": "private",
+  "owner_field_omitted_for_evidence_minimization": true,
+  "original_http_bytes_retained": false,
+  "note": "Raw API flags and empty arrays are preserved as returned. No semantic meaning beyond the raw fields is inferred; public accessibility of the record is distinct from a validated flag."
+}
