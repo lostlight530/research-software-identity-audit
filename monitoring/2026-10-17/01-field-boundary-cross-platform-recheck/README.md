@@ -22,16 +22,16 @@ Zenodo's [official usage-statistics guidance](https://support.zenodo.org/help/en
 
 | Sample | Version record | All-version page unique views | All-version page unique downloads | Current-version page unique views | Current-version page unique downloads | Δ views vs 2026-10-16 API unique field |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| RS01 | [23365504](https://zenodo.org/records/23365504) | 187 | 5 | 187 | 5 | +6 |
-| RS02 | [23365551](https://zenodo.org/records/23365551) | 145 | 1 | 145 | 1 | +7 |
-| RS03 | [23365534](https://zenodo.org/records/23365534) | 167 | 1 | 167 | 1 | +6 |
-| RS04 | [23365567](https://zenodo.org/records/23365567) | 120 | 1 | 120 | 1 | +5 |
-| RS05 | [23365540](https://zenodo.org/records/23365540) | 146 | 2 | 146 | 2 | +7 |
-| RS06 | [23365510](https://zenodo.org/records/23365510) | 138 | 0 | 138 | 0 | +6 |
-| RS07 | [23365517](https://zenodo.org/records/23365517) | 148 | 1 | 148 | 1 | +6 |
-| RS08 | [23365525](https://zenodo.org/records/23365525) | 137 | 2 | 137 | 2 | +7 |
-| RS09 | [23365548](https://zenodo.org/records/23365548) | 155 | 1 | 155 | 1 | +5 |
-| RS10 | [23365543](https://zenodo.org/records/23365543) | 168 | 2 | 168 | 2 | +7 |
+| RS01 | [23365504](https://zenodo.org/records/23365504) | 187 | 5 | 3 | 1 | +6 |
+| RS02 | [23365551](https://zenodo.org/records/23365551) | 145 | 1 | 2 | 1 | +7 |
+| RS03 | [23365534](https://zenodo.org/records/23365534) | 167 | 1 | 2 | 1 | +6 |
+| RS04 | [23365567](https://zenodo.org/records/23365567) | 120 | 1 | 1 | 1 | +5 |
+| RS05 | [23365540](https://zenodo.org/records/23365540) | 146 | 2 | 2 | 1 | +7 |
+| RS06 | [23365510](https://zenodo.org/records/23365510) | 138 | 0 | 5 | 0 | +6 |
+| RS07 | [23365517](https://zenodo.org/records/23365517) | 148 | 1 | 1 | 1 | +6 |
+| RS08 | [23365525](https://zenodo.org/records/23365525) | 137 | 2 | 2 | 1 | +7 |
+| RS09 | [23365548](https://zenodo.org/records/23365548) | 155 | 1 | 1 | 1 | +5 |
+| RS10 | [23365543](https://zenodo.org/records/23365543) | 168 | 2 | 3 | 1 | +7 |
 | **Ten fixed samples** | — | **1,511** | **16** | **22** | **9** | **+62** |
 
 The prior comparison endpoint is the retained 2026-10-16 family API field extract, which summed **1,449 unique views / 16 unique downloads** across RS01–RS10. The current public page display sums to **1,511 / 16**. This is a descriptive cross-source snapshot difference of **+62 unique-view counts and 0 unique-download counts**, not an exact event-time delta and not proof of why the counters changed. The ten per-record page values, source URLs, prior fields and arithmetic deltas are machine-readable in [zenodo-page-field-extract.csv](zenodo-page-field-extract.csv).
