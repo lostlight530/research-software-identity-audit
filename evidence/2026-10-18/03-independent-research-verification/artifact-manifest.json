@@ -9,7 +9,7 @@
     {
       "path": "evidence/2026-10-18/03-independent-research-verification/field-extracts.json",
       "bytes": 43786,
-      "sha256": "312c100d18e95b9dc9ae189899310ff65184118f82aab16b19bceb17c2f913f7"
+      "sha256": "468447880177fba51ad2b99a8844d27ca01ab3cc721e08e853611b0754d5509c"
     },
     {
       "path": "evidence/2026-10-18/03-independent-research-verification/README.md",
@@ -23,8 +23,8 @@
     },
     {
       "path": "monitoring/2026-10-18/03-independent-research-verification/README.md",
-      "bytes": 4621,
-      "sha256": "d167dd2c068c799daa2179a90b058b1a9705938f17c50b585bf100dc2956cf7d"
+      "bytes": 6236,
+      "sha256": "e9ffbd16ec2ed262743165110a1b60cb7987040a1d0cb501fce036a880d882ce"
     },
     {
       "path": "monitoring/2026-10-18/03-independent-research-verification/record.json",
@@ -38,8 +38,8 @@
     },
     {
       "path": "tools/check_research_capture_20261018.py",
-      "bytes": 4880,
-      "sha256": "5957f46c894824198d67fa66b56e02700f628e1ab6ee27c988207a03299227c5"
+      "bytes": 9063,
+      "sha256": "48a6a211497a0dc12cae9fa347b54896f88bcb8858ae917fd10b5bd51cd6f3b4"
     }
   ]
 }

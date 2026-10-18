@@ -21,3 +21,12 @@ jobs:
           python-version: "3.12"
       - name: Run advisory contract checker
         run: python tools/check.py --mode advisory
+      - name: Strict contract validation (advisory)
+        continue-on-error: true
+        run: python tools/check.py --mode strict
+      - name: Replay existing retained evidence (advisory)
+        continue-on-error: true
+        run: python tools/check_retained_all.py
+      - name: Validate October 18 corrected public package (advisory)
+        continue-on-error: true
+        run: python -B tools/check_research_capture_20261018.py

@@ -163,65 +163,65 @@
     },
     {
       "object_id": "RS06",
-      "repository": "china-agentic-observatory",
-      "doi": "10.5281/zenodo.23365548",
-      "record_id": 23365548,
+      "repository": "auto-doc-engine",
+      "doi": "10.5281/zenodo.23365510",
+      "record_id": 23365510,
       "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
       "stats": {
-        "downloads": 1,
-        "unique_downloads": 1,
-        "views": 243,
-        "unique_views": 158,
-        "version_downloads": 1,
-        "version_unique_downloads": 1,
-        "version_unique_views": 2,
-        "version_views": 2
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 229,
+        "unique_views": 144,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 6,
+        "version_views": 8
       },
       "github_release": {
         "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
-        "published_at": "2026-10-14T11:16:00Z",
-        "html_url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:14:54Z",
+        "html_url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
         "draft": false,
         "prerelease": false
       },
       "swh_origin_visit": {
-        "origin": "https://github.com/lostlight530/china-agentic-observatory",
+        "origin": "https://github.com/lostlight530/auto-doc-engine",
         "visit": 2,
-        "date": "2026-09-28T00:59:57.737000+00:00",
+        "date": "2026-10-02T05:57:26.956000+00:00",
         "status": "full",
-        "snapshot": "dc017f873be49235e8f70f27eff4a779b90f789e"
+        "snapshot": "5a902c951821ba9496c0e072555d32ef40362c73"
       },
       "openaire_doi_result_count": 1
     },
     {
       "object_id": "RS07",
-      "repository": "agentic-frontier-observatory",
-      "doi": "10.5281/zenodo.23365543",
-      "record_id": 23365543,
+      "repository": "epistemic-pipeline",
+      "doi": "10.5281/zenodo.23365517",
+      "record_id": 23365517,
       "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
       "stats": {
-        "downloads": 2,
-        "unique_downloads": 2,
-        "views": 254,
-        "unique_views": 171,
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 238,
+        "unique_views": 154,
         "version_downloads": 1,
         "version_unique_downloads": 1,
-        "version_unique_views": 4,
-        "version_views": 4
+        "version_unique_views": 3,
+        "version_views": 3
       },
       "github_release": {
         "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
-        "published_at": "2026-10-14T11:15:53Z",
-        "html_url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:04Z",
+        "html_url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
         "draft": false,
         "prerelease": false
       },
       "swh_origin_visit": {
-        "origin": "https://github.com/lostlight530/agentic-frontier-observatory",
-        "visit": 2,
-        "date": "2026-09-28T01:02:35.538000+00:00",
+        "origin": "https://github.com/lostlight530/epistemic-pipeline",
+        "visit": 3,
+        "date": "2026-10-10T05:10:27.293000+00:00",
         "status": "full",
-        "snapshot": "30f496bf959e9b60b604c75522d1e380ef3c85d7"
+        "snapshot": "4381de88404a34ac7ac339e231d36a94dbfac8fb"
       },
       "openaire_doi_result_count": 1
     },
@@ -259,65 +259,65 @@
     },
     {
       "object_id": "RS09",
-      "repository": "auto-doc-engine",
-      "doi": "10.5281/zenodo.23365510",
-      "record_id": 23365510,
+      "repository": "china-agentic-observatory",
+      "doi": "10.5281/zenodo.23365548",
+      "record_id": 23365548,
       "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
       "stats": {
-        "downloads": 0,
-        "unique_downloads": 0,
-        "views": 229,
-        "unique_views": 144,
-        "version_downloads": 0,
-        "version_unique_downloads": 0,
-        "version_unique_views": 6,
-        "version_views": 8
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 243,
+        "unique_views": 158,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 2,
+        "version_views": 2
       },
       "github_release": {
         "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
-        "published_at": "2026-10-14T11:14:54Z",
-        "html_url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:00Z",
+        "html_url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
         "draft": false,
         "prerelease": false
       },
       "swh_origin_visit": {
-        "origin": "https://github.com/lostlight530/auto-doc-engine",
+        "origin": "https://github.com/lostlight530/china-agentic-observatory",
         "visit": 2,
-        "date": "2026-10-02T05:57:26.956000+00:00",
+        "date": "2026-09-28T00:59:57.737000+00:00",
         "status": "full",
-        "snapshot": "5a902c951821ba9496c0e072555d32ef40362c73"
+        "snapshot": "dc017f873be49235e8f70f27eff4a779b90f789e"
       },
       "openaire_doi_result_count": 1
     },
     {
       "object_id": "RS10",
-      "repository": "epistemic-pipeline",
-      "doi": "10.5281/zenodo.23365517",
-      "record_id": 23365517,
+      "repository": "agentic-frontier-observatory",
+      "doi": "10.5281/zenodo.23365543",
+      "record_id": 23365543,
       "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
       "stats": {
-        "downloads": 1,
-        "unique_downloads": 1,
-        "views": 238,
-        "unique_views": 154,
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 254,
+        "unique_views": 171,
         "version_downloads": 1,
         "version_unique_downloads": 1,
-        "version_unique_views": 3,
-        "version_views": 3
+        "version_unique_views": 4,
+        "version_views": 4
       },
       "github_release": {
         "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
-        "published_at": "2026-10-14T11:15:04Z",
-        "html_url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:53Z",
+        "html_url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
         "draft": false,
         "prerelease": false
       },
       "swh_origin_visit": {
-        "origin": "https://github.com/lostlight530/epistemic-pipeline",
-        "visit": 3,
-        "date": "2026-10-10T05:10:27.293000+00:00",
+        "origin": "https://github.com/lostlight530/agentic-frontier-observatory",
+        "visit": 2,
+        "date": "2026-09-28T01:02:35.538000+00:00",
         "status": "full",
-        "snapshot": "4381de88404a34ac7ac339e231d36a94dbfac8fb"
+        "snapshot": "30f496bf959e9b60b604c75522d1e380ef3c85d7"
       },
       "openaire_doi_result_count": 1
     }
