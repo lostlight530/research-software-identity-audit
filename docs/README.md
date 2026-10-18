@@ -4,6 +4,9 @@ This file is an **orientation and contribution guide** for the live GitHub resea
 
 For the scientific background start with the [main README](../README.md); for the research-production discipline see [OPEN_RESEARCH.md](../OPEN_RESEARCH.md). The DOI of the separate frozen research plan is [10.17605/OSF.IO/5B329](https://doi.org/10.17605/OSF.IO/5B329).
 
+
+**Latest dated maintenance handoff (2026-10-18):** [research session closeout and reproducibility handoff](research-session-closeout-2026-10-18.md). It crosswalks public evidence, the frozen OSF contract, four actually published control releases (including [October 18 postpublication reconciliation](../scholarly/release-identity-reconciliation-2026-10-18.md)), the user-confirmed Beta ORCID metadata refresh, and outstanding verification gates. It is a *historical review*, not a standing claim about all future `main` commits or live platform counters.
+
 ## 1. Authority and object boundaries
 
 | Surface | Authority and purpose | What it does **not** imply |
