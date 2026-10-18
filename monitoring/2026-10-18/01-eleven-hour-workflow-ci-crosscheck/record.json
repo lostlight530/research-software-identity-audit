@@ -119,13 +119,87 @@
     "raw_private_evidence_archived_publicly": false
   },
   "source_ledger": "source-attempts.csv",
-  "source_ledger_row_count": 11,
+  "source_ledger_row_count": 31,
   "limits": [
     "Private LifeMonitor portal displayed only a public shell to unauthenticated web extraction. The 1-passing state is user supplied, not independently accessible.",
     "A GitHub Actions success validates the checks represented by that workflow; it does not assert the private service built/monitored the same run.",
     "No per-request HTTP response bytes, headers or capture timestamps were saved; dates and native GitHub event clocks are retained where available.",
     "The linked OpenEBench page supplied no extractable benchmark result; it is not proof of benchmarking.",
-    "WorkflowHub and bio.tools are supplementary observation surfaces, not new preregistered infrastructure layers."
+    "WorkflowHub and bio.tools are supplementary observation surfaces, not new preregistered infrastructure layers.",
+    "DataCite Commons repository facets Zenodo 53 WorkflowHub 18 OSF 1 are researcher-supplied; the DataCite public REST resource-type totals 53 18 1 were independently checked via page-size-zero exact-query responses.",
+    "The DataCite API metadata query validates aggregate counts, not a full 72-record identity enumeration; no cause for differences from OpenAlex indexing is asserted."
   ],
-  "outcome": "GITHUB_NATIVE_CI_5_OF_5_SUCCESS; LIFEMONITOR_ONE_PASSING_USER_SUPPLIED_PRIVATE; WORKFLOWHUB_FOUR_IDENTITIES; BIOTOOLS_PUBLIC_RECORD; NOT_PROSPECTIVE"
+  "outcome": "GITHUB_NATIVE_CI_5_OF_5_SUCCESS; LIFEMONITOR_ONE_PASSING_USER_SUPPLIED_PRIVATE; WORKFLOWHUB_FOUR_IDENTITIES; BIOTOOLS_PUBLIC_RECORD; NOT_PROSPECTIVE",
+  "user_supplied_11_hour_stats": {
+    "zenodo": {
+      "source": "researcher supplied flattened public Zenodo search listing (field labels lost in transcription)",
+      "field_boundary_rule": "trailing digit in supplied tokens is labelled Downloads; preceding digits are labelled page Views, not a four-digit views counter",
+      "fixed_sample_count": 10,
+      "unique_views_family_sum": 1533,
+      "unique_downloads_family_sum": 16,
+      "previous_2026_10_17_page_unique_views": 1511,
+      "previous_2026_10_17_page_unique_downloads": 16,
+      "display_difference_views": 22,
+      "display_difference_downloads": 0,
+      "control_repo_counters": "NOT_SUPPLIED",
+      "raw_http_bytes_retained": false
+    },
+    "workflowhub": {
+      "source": "researcher supplied Team Dashboard flattened page text",
+      "four_asset_count": 4,
+      "most_viewed_asset_sum": 3097,
+      "most_downloaded_asset_sum": 276,
+      "old_three_sum_views": 3026,
+      "old_three_sum_downloads": 261,
+      "workflow_2347_views": 71,
+      "workflow_2347_downloads": 15,
+      "old_three_vs_2026_10_16_display_difference_views": 515,
+      "old_three_vs_2026_10_16_display_difference_downloads": 57,
+      "most_active_submitter_display": 5,
+      "dashboard_selected_period": "UNKNOWN",
+      "dashboard_selected_asset_filter": "UNKNOWN",
+      "claim_precise_interval_growth": false
+    }
+  },
+  "datacite": {
+    "surface": "DataCite Commons ORCID-filtered DOI Works search",
+    "primary_source": "researcher supplied DataCite Commons creator/contributor facets",
+    "independent_verification_source": "https://api.datacite.org/dois",
+    "query": "creators_and_contributors.nameIdentifiers.nameIdentifier:(0009-0001-3617-0832 OR \"https://orcid.org/0009-0001-3617-0832\")",
+    "api_meta_total_verified": 72,
+    "api_resource_type_facets_verified": {
+      "Software": 53,
+      "Workflow": 18,
+      "StudyRegistration": 1
+    },
+    "commons_repository_facets_user_supplied": {
+      "Zenodo": 53,
+      "WorkflowHub": 18,
+      "OpenScienceFramework": 1
+    },
+    "commons_publication_year_user_supplied": 2026,
+    "api_short_bare_orcid_query_meta_total": 53,
+    "api_short_query_is_different_from_full_query": true,
+    "full_72_doi_record_identifiers_enumerated_this_review": false,
+    "works_are_Doi_metadata_records_not_distinct_research_software_projects": true,
+    "full_raw_transport_bytes_retained": false
+  },
+  "openalex": {
+    "author_id": "A5151904252",
+    "source": "author page plus API",
+    "observed_2026_10_18_author_profile_api_works_count": 29,
+    "observed_2026_10_18_author_profile_api_cited_by_count": 1,
+    "observed_author_filtered_works_api_meta_count": 29,
+    "user_supplied_openalex_list_ids_count": 29,
+    "prior_misclassified_72_claim": "CORRECTED_TO_DATACITE_COMMONS_72",
+    "independently_reconciled_against_datacite_distinct_work_records": false,
+    "cited_by_count_not_global_DOI_count": true
+  },
+  "source_paths": {
+    "zenodo_user_page": "zenodo-user-page-counters.csv",
+    "workflowhub_user_dashboard": "workflowhub-dashboard-user-counters.csv",
+    "openalex_user_visible_ids": "openalex-user-visible-work-identities.csv",
+    "datacite_api_query_results": "datacite-orcid-works-query-results.csv",
+    "ledger": "source-attempts.csv"
+  }
 }
