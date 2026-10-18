@@ -276,3 +276,32 @@ audit_control_public_review_2026_10_12:
   software_heritage_direct_github_origin: "ACCESS_CHALLENGED"
   prospective_dataset_member: false
   original_http_bytes_preserved_by_review: false
+
+# Append-only postpublication identity verification on 2026-10-18.
+# Historical 2026-10-07 current_release_tag/current_release_doi fields remain
+# original time-scoped source facts, not the present-release identity.
+postpublication_release_reconciliation_2026_10_18:
+  evidence_report: "scholarly/release-identity-reconciliation-2026-10-18.md"
+  latest_public_github_release_tag_at_review: "v2026.10-evidence-integrity"
+  github_release_published_at_utc: "2026-10-18T04:38:57Z"
+  tagged_commit_sha: "a78e5fdcac843c7752b2122f68267688a44674ef"
+  tagged_commit_matched_prepublication_main: true
+  zenodo_version_record_id: 23446162
+  zenodo_version_doi: "10.5281/zenodo.23446162"
+  zenodo_concept_doi: "10.5281/zenodo.23166490"
+  zenodo_version_created_at_utc: "2026-10-18T04:39:01.101885Z"
+  datacite_version_doi_registered_at_utc: "2026-10-18T04:39:02Z"
+  datacite_version_relation: "IsVersionOf 10.5281/zenodo.23166490"
+  zenodo_zip_size_bytes_reported: 1392684
+  zenodo_zip_md5_reported: "dbc5b4bdbd5e5fbb3b6fb6eb5ec44fa3"
+  zenodo_zip_checksum_locally_recomputed: false
+  archived_tag_embedded_citation_cff_version: "v2026.10-evidence-reconciliation"
+  archived_tag_embedded_citation_cff_doi: "10.5281/zenodo.23284570"
+  archived_tag_embedded_codemeta_version: "v2026.10-evidence-reconciliation"
+  archived_tag_embedded_old_version_metadata_drift: true
+  historic_tag_or_zenodo_archive_rewritten: false
+  later_live_main_citation_reconciled_in_this_review: true
+  fixed_corpus_membership_effect: "none"
+  control_repository_is_rs11: false
+  prospective_dataset_member: false
+  osf_registration_modified: false
