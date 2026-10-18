@@ -1,0 +1,45 @@
+{
+  "representation": "minimal public field extracts; raw local bytes not included",
+  "artifacts": [
+    {
+      "path": "evidence/2026-10-18/03-independent-research-verification/capture-manifest.json",
+      "bytes": 38589,
+      "sha256": "f1ffa6956e20e0e2044988e25017c0c393ec50ccd969b4c549e586b451012e72"
+    },
+    {
+      "path": "evidence/2026-10-18/03-independent-research-verification/field-extracts.json",
+      "bytes": 43786,
+      "sha256": "468447880177fba51ad2b99a8844d27ca01ab3cc721e08e853611b0754d5509c"
+    },
+    {
+      "path": "evidence/2026-10-18/03-independent-research-verification/README.md",
+      "bytes": 1479,
+      "sha256": "1035d2b5e7c5ca336f0022b8821e0ff3d55035567a573f57858f314cb67c3aaa"
+    },
+    {
+      "path": "monitoring/2026-10-18/03-independent-research-verification/datacite-identifiers.csv",
+      "bytes": 4461,
+      "sha256": "5fc84cb85c298808211ecc001f05dd0ed51c3d6f8746006f4c7a7a4b6c6ee2ca"
+    },
+    {
+      "path": "monitoring/2026-10-18/03-independent-research-verification/README.md",
+      "bytes": 6236,
+      "sha256": "e9ffbd16ec2ed262743165110a1b60cb7987040a1d0cb501fce036a880d882ce"
+    },
+    {
+      "path": "monitoring/2026-10-18/03-independent-research-verification/record.json",
+      "bytes": 2235,
+      "sha256": "f78d265b0d12e30db25100d7da3e2e6c6d48ced377bbb196839dc02c1d662331"
+    },
+    {
+      "path": "monitoring/2026-10-18/03-independent-research-verification/zenodo-family-statistics.csv",
+      "bytes": 1288,
+      "sha256": "419fa94a0b02d97332db6d205caaae807f24f9ced593ef1e342205c09ba9d930"
+    },
+    {
+      "path": "tools/check_research_capture_20261018.py",
+      "bytes": 9063,
+      "sha256": "48a6a211497a0dc12cae9fa347b54896f88bcb8858ae917fd10b5bd51cd6f3b4"
+    }
+  ]
+}

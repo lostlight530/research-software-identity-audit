@@ -6,7 +6,8 @@ This repository participates in a wider scholarly-object graph, but each surface
 
 - **GitHub repository:** https://github.com/lostlight530/research-software-identity-audit
 - **Zenodo concept DOI (all versions):** https://doi.org/10.5281/zenodo.23166490
-- **Latest archived release DOI (2026-10-10):** https://doi.org/10.5281/zenodo.23284570
+- **Latest archived release DOI (2026-10-18):** https://doi.org/10.5281/zenodo.23446162
+- **Previous evidence-reconciliation release DOI (2026-10-10):** https://doi.org/10.5281/zenodo.23284570
 - **Previous initial-runtime release DOI:** https://doi.org/10.5281/zenodo.23176748
 - **Zenodo historical beta release DOI:** https://doi.org/10.5281/zenodo.23166491
 - **OSF Registration:** https://osf.io/5b329/overview
@@ -30,7 +31,7 @@ while the archived beta snapshot is identified by:
 
 `10.5281/zenodo.23166491`
 
-The currently latest archived version is `v2026.10-evidence-reconciliation` with version DOI `10.5281/zenodo.23284570`, **not** the beta. See [citation guidance](CITATION.md) and the [archived citation metadata discrepancy](../RELEASE_POLICY.md#archived-evidence-reconciliation-release--2026-10-10).
+The latest archived version at the October 18 update is `v2026.10-evidence-integrity`, version DOI `10.5281/zenodo.23446162`; the October 10 `v2026.10-evidence-reconciliation` archive remains a historical release. See [citation guidance](CITATION.md) and the [archived citation metadata discrepancy](../RELEASE_POLICY.md#archived-evidence-reconciliation-release--2026-10-10).
 
 Future releases must preserve this concept/version distinction.
 
@@ -100,3 +101,7 @@ The researcher's subsequent ORCID `Update ORCID work` action is documented separ
 ## October 15 morning diagnostic recheck
 
 [Full morning record](../monitoring/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated
+
+## October 18 independent archive-byte inspection
+
+The [22:41–22:42 diagnostic](../monitoring/2026-10-18/03-independent-research-verification/README.md) adds locally recomputed ZIP digests and extracted root Citation/CodeMeta version fields. It verifies the older embedded metadata in the October 18 control ZIP and the separate corrected live-main metadata without rewriting the earlier postpublication report or immutable tag.

@@ -1,0 +1,868 @@
+{
+  "started_at": "2026-10-18T22:41:00.951606+08:00",
+  "finished_at": "2026-10-18T22:42:22.317781+08:00",
+  "timezone": "Asia/Shanghai",
+  "representation": "public field extracts; original transport SHA-256 recorded, original response bytes retained locally only",
+  "requests": [
+    {
+      "key": "biotools",
+      "url": "https://bio.tools/api/tool/life-science-protein-file-audit/?format=json",
+      "started_at": "2026-10-18T22:41:04.998904+08:00",
+      "finished_at": "2026-10-18T22:41:06.690265+08:00",
+      "status": 200,
+      "sha256": "73ae8241f3dddfc0e0b20826b83ee5ab64cac024f40656ce8c2fd6206eb8116d",
+      "bytes": 4516,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "datacite_audit_fourth",
+      "url": "https://api.datacite.org/dois/10.5281/zenodo.23446162",
+      "started_at": "2026-10-18T22:41:01.924471+08:00",
+      "finished_at": "2026-10-18T22:41:03.823796+08:00",
+      "status": 200,
+      "sha256": "d20b3a33ce38c7ce0001a03638e32b2c1e7c419ae5f8703adf848b1556c3562c",
+      "bytes": 6738,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "datacite_life",
+      "url": "https://api.datacite.org/dois/10.5281/zenodo.23447089",
+      "started_at": "2026-10-18T22:41:02.076095+08:00",
+      "finished_at": "2026-10-18T22:41:05.891173+08:00",
+      "status": 200,
+      "sha256": "00f919eccc7142ed378916462da0464fdae885cad6759cee7d89d43fc9ee71f9",
+      "bytes": 23054,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "datacite_orcid",
+      "url": "https://api.datacite.org/dois?query=creators.nameIdentifiers.nameIdentifier%3A%220009-0001-3617-0832%22+OR+contributors.nameIdentifiers.nameIdentifier%3A%220009-0001-3617-0832%22&page%5Bsize%5D=100",
+      "started_at": "2026-10-18T22:41:01.917779+08:00",
+      "finished_at": "2026-10-18T22:41:04.998904+08:00",
+      "status": 200,
+      "sha256": "955d7f9b5cb26e61f3fd87cb8309e766e1bb7c4e60fe8659d708b3b690e31d86",
+      "bytes": 157108,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "datacite_orcid_wildcard",
+      "url": "https://api.datacite.org/dois?query=creators.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A+OR+contributors.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A&page%5Bsize%5D=100",
+      "started_at": "2026-10-18T22:41:38.537840+08:00",
+      "finished_at": "2026-10-18T22:41:42.775622+08:00",
+      "status": 200,
+      "sha256": "e80c61aecf2ea22302293ab513243fe47b882f39ffcdd959f446ec7f9ff1c602",
+      "bytes": 206967,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_audit_head",
+      "url": "https://api.github.com/repos/lostlight530/research-software-identity-audit/commits/main",
+      "started_at": "2026-10-18T22:41:00.952812+08:00",
+      "finished_at": "2026-10-18T22:41:02.159140+08:00",
+      "status": 200,
+      "sha256": "8a10241c5a77c1e5aee9374632741bb3289eefb716a574dec5b902c00d152620",
+      "bytes": 57718,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_audit_release",
+      "url": "https://api.github.com/repos/lostlight530/research-software-identity-audit/releases/tags/v2026.10-evidence-integrity",
+      "started_at": "2026-10-18T22:41:00.954815+08:00",
+      "finished_at": "2026-10-18T22:41:01.829441+08:00",
+      "status": 200,
+      "sha256": "8226e7cec199d002a91a744e6011d309cfa7ba5db567c52a0ebfc0aa14515888",
+      "bytes": 8097,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_closeout",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/main/docs/research-session-closeout-2026-10-18.md",
+      "started_at": "2026-10-18T22:41:00.954815+08:00",
+      "finished_at": "2026-10-18T22:41:01.924471+08:00",
+      "status": 200,
+      "sha256": "f2d77bf595310a59f097b3d6e5727f088f8d352eaf2f28e8f0478afa79fe569e",
+      "bytes": 12355,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_contract",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/main/contract/preregistration.md",
+      "started_at": "2026-10-18T22:41:00.952812+08:00",
+      "finished_at": "2026-10-18T22:41:02.083336+08:00",
+      "status": 200,
+      "sha256": "c9cb028e6a35938e8a084bb0010a892d853498b9a1c36313a710a66f181b0107",
+      "bytes": 3274,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_current_citation",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/main/CITATION.cff",
+      "started_at": "2026-10-18T22:41:00.954815+08:00",
+      "finished_at": "2026-10-18T22:41:01.817366+08:00",
+      "status": 200,
+      "sha256": "1c4fb8c7eaffb7ca66e25cdce8c93e1cdaf81ff6895d5298c953985802967945",
+      "bytes": 1301,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_current_codemeta",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/main/codemeta.json",
+      "started_at": "2026-10-18T22:41:00.955815+08:00",
+      "finished_at": "2026-10-18T22:41:01.782925+08:00",
+      "status": 200,
+      "sha256": "e7f12ca92a54526c301d855b95858e1ef67a946cef2b58c36ceaf659c69dd937",
+      "bytes": 1184,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_life_jobs_39092740134",
+      "url": "https://api.github.com/repos/lostlight530/life-science-ecosystem-lab/actions/runs/39092740134/jobs",
+      "started_at": "2026-10-18T22:41:01.817366+08:00",
+      "finished_at": "2026-10-18T22:41:03.142556+08:00",
+      "status": 200,
+      "sha256": "cd0e5bf0bc274cd2edf996c3417a50151a6bf0364d53cdf3bf88bbfc327ecfed",
+      "bytes": 13546,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_life_jobs_39103619774",
+      "url": "https://api.github.com/repos/lostlight530/life-science-ecosystem-lab/actions/runs/39103619774/jobs",
+      "started_at": "2026-10-18T22:41:01.829441+08:00",
+      "finished_at": "2026-10-18T22:41:03.328951+08:00",
+      "status": 200,
+      "sha256": "4035311473f6715a5572d59a14c2778475d50b4aaf0e07b642f984440914847f",
+      "bytes": 13546,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_life_release",
+      "url": "https://api.github.com/repos/lostlight530/life-science-ecosystem-lab/releases/tags/v0.4.0",
+      "started_at": "2026-10-18T22:41:01.782925+08:00",
+      "finished_at": "2026-10-18T22:41:02.503333+08:00",
+      "status": 200,
+      "sha256": "56e47ff9f1b073696fc5ef87fbc2e1a5491f1b56fe989fdff1d4f4c205adcdda",
+      "bytes": 10224,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_noon_20261016",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/053bc6a6c6f3659d2f5c9cc0c0542760081c1218/monitoring/2026-10-16/01-noon-counter-contract-recheck/README.md",
+      "started_at": "2026-10-18T22:41:38.538437+08:00",
+      "finished_at": "2026-10-18T22:41:39.369375+08:00",
+      "status": 200,
+      "sha256": "fdca3d26036a0d5b16110b2fc436af147b376b92d889aa884c4f4287b47ba9cc",
+      "bytes": 10477,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_pinned_citation",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/053bc6a6c6f3659d2f5c9cc0c0542760081c1218/CITATION.cff",
+      "started_at": "2026-10-18T22:42:18.820792+08:00",
+      "finished_at": "2026-10-18T22:42:19.494710+08:00",
+      "status": 200,
+      "sha256": "1c4fb8c7eaffb7ca66e25cdce8c93e1cdaf81ff6895d5298c953985802967945",
+      "bytes": 1301,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_pinned_codemeta",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/053bc6a6c6f3659d2f5c9cc0c0542760081c1218/codemeta.json",
+      "started_at": "2026-10-18T22:42:18.878875+08:00",
+      "finished_at": "2026-10-18T22:42:19.522669+08:00",
+      "status": 200,
+      "sha256": "e7f12ca92a54526c301d855b95858e1ef67a946cef2b58c36ceaf659c69dd937",
+      "bytes": 1184,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_pinned_contract",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/053bc6a6c6f3659d2f5c9cc0c0542760081c1218/contract/preregistration.md",
+      "started_at": "2026-10-18T22:41:39.373162+08:00",
+      "finished_at": "2026-10-18T22:41:40.599554+08:00",
+      "status": 200,
+      "sha256": "c9cb028e6a35938e8a084bb0010a892d853498b9a1c36313a710a66f181b0107",
+      "bytes": 3274,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_pinned_schedule",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/053bc6a6c6f3659d2f5c9cc0c0542760081c1218/schedule/README.md",
+      "started_at": "2026-10-18T22:41:39.838215+08:00",
+      "finished_at": "2026-10-18T22:41:40.628253+08:00",
+      "status": 200,
+      "sha256": "b4d0f59bdbed722f5f4ba9c927f6c2cc19f26e5e2f011c76f50e9c1691c2ff3b",
+      "bytes": 2058,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_release_identity_reconciliation",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/053bc6a6c6f3659d2f5c9cc0c0542760081c1218/scholarly/release-identity-reconciliation-2026-10-18.md",
+      "started_at": "2026-10-18T22:41:38.538952+08:00",
+      "finished_at": "2026-10-18T22:41:39.373162+08:00",
+      "status": 200,
+      "sha256": "44f2aade4a35224315016d99851be4310ed06aeb68d1cbd9665ae13e0ae7d1b3",
+      "bytes": 5501,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_schedule",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/main/schedule/README.md",
+      "started_at": "2026-10-18T22:41:00.953856+08:00",
+      "finished_at": "2026-10-18T22:41:01.917044+08:00",
+      "status": 200,
+      "sha256": "b4d0f59bdbed722f5f4ba9c927f6c2cc19f26e5e2f011c76f50e9c1691c2ff3b",
+      "bytes": 2058,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "github_schedule_files",
+      "url": "https://api.github.com/repos/lostlight530/research-software-identity-audit/contents/schedule",
+      "started_at": "2026-10-18T22:41:00.953856+08:00",
+      "finished_at": "2026-10-18T22:41:02.076095+08:00",
+      "status": 200,
+      "sha256": "a87100cec835d47fc9bc4d57c1572732b55a4c348ce953393beefed92728c970",
+      "bytes": 980,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "hal_record",
+      "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:hal-05780132&fl=halId_s,title_s,docType_s,submittedDate_s,publicationDate_s,doiId_s&wt=json",
+      "started_at": "2026-10-18T22:41:03.328951+08:00",
+      "finished_at": "2026-10-18T22:41:06.761156+08:00",
+      "status": 200,
+      "sha256": "316b596864c92e18c8f6688107ad49ecfc3fe632ebdc85efe82c65ed28ba8064",
+      "bytes": 116,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openaire_agent-foundations",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23365540&format=json",
+      "started_at": "2026-10-18T22:42:17.089172+08:00",
+      "finished_at": "2026-10-18T22:42:18.149410+08:00",
+      "status": 200,
+      "sha256": "959daf661f4be42657e7afbb7ea59aa78e6da80092445429ad758f891e5dd64a",
+      "bytes": 2445,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openaire_agentic-frontier-observatory",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23365543&format=json",
+      "started_at": "2026-10-18T22:42:17.523689+08:00",
+      "finished_at": "2026-10-18T22:42:18.580277+08:00",
+      "status": 200,
+      "sha256": "414b6c6c76a5b9825f8d262c71ac612a6cf1bb9000e3e587772b97d4fc8e95d1",
+      "bytes": 2502,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openaire_auto-doc-engine",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23365510&format=json",
+      "started_at": "2026-10-18T22:42:18.207157+08:00",
+      "finished_at": "2026-10-18T22:42:19.273820+08:00",
+      "status": 200,
+      "sha256": "9291545d00cd5244e26089f8c88a9f553b930ac414de85f5f6f4a193afb803e4",
+      "bytes": 2512,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openaire_axiom",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281/zenodo.23365534&format=json",
+      "started_at": "2026-10-18T22:41:39.369375+08:00",
+      "finished_at": "2026-10-18T22:41:40.710565+08:00",
+      "status": 200,
+      "sha256": "6b10a0102d8e63eaaf198b1633a9f8e208dc8da4f76f43b49f013b98333ae29e",
+      "bytes": 2445,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openaire_china-agentic-observatory",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23365548&format=json",
+      "started_at": "2026-10-18T22:42:17.422130+08:00",
+      "finished_at": "2026-10-18T22:42:18.483690+08:00",
+      "status": 200,
+      "sha256": "d305cf38ab8c93fbd1ec3f4f7fcfe10de73f974e87418125abe985e2a33c53a2",
+      "bytes": 2485,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openaire_epistemic-pipeline",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23365517&format=json",
+      "started_at": "2026-10-18T22:42:18.549783+08:00",
+      "finished_at": "2026-10-18T22:42:19.630094+08:00",
+      "status": 200,
+      "sha256": "38c57721c0feffd422857c3afbc33d3f1417fd888bd9a6245aed41450f8dda9f",
+      "bytes": 2488,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openaire_reflective-continuum",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23365567&format=json",
+      "started_at": "2026-10-18T22:42:16.250066+08:00",
+      "finished_at": "2026-10-18T22:42:17.422130+08:00",
+      "status": 200,
+      "sha256": "0c2d27fa17c55093270be6055e7a62a628754a5f6532833040f5bd4a01819e29",
+      "bytes": 2465,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openaire_sci-render-kit",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23365525&format=json",
+      "started_at": "2026-10-18T22:42:17.848323+08:00",
+      "finished_at": "2026-10-18T22:42:18.918196+08:00",
+      "status": 200,
+      "sha256": "34be8dc51884ec485dd4ba96064c43d296b60f78375c06556815d7b503389057",
+      "bytes": 2482,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openaire_welcome-to-github",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23365504&format=json",
+      "started_at": "2026-10-18T22:42:16.250066+08:00",
+      "finished_at": "2026-10-18T22:42:17.475762+08:00",
+      "status": 200,
+      "sha256": "8571408d3dbb5dad7b2c4873db754549f2bf57a888da5e319724b74e4c8113af",
+      "bytes": 2468,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openaire_zero-entropy-lab",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23365551&format=json",
+      "started_at": "2026-10-18T22:42:16.249081+08:00",
+      "finished_at": "2026-10-18T22:42:17.523689+08:00",
+      "status": 200,
+      "sha256": "bf75fbf881f57512729dd89cdf70af5b3ed05ebb96c0b3bf6d8b0dbbdee4dbba",
+      "bytes": 2464,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openalex_author",
+      "url": "https://api.openalex.org/authors/A5151904252",
+      "started_at": "2026-10-18T22:41:02.083336+08:00",
+      "finished_at": "2026-10-18T22:41:03.686570+08:00",
+      "status": 200,
+      "sha256": "843322b5938db46576bc9b6fcfb39436ebe9ba2225f97223213cb1d6c7661e12",
+      "bytes": 5326,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openalex_works",
+      "url": "https://api.openalex.org/works?filter=authorships.author.id:A5151904252&per-page=100",
+      "started_at": "2026-10-18T22:41:02.159140+08:00",
+      "finished_at": "2026-10-18T22:41:05.793645+08:00",
+      "status": 200,
+      "sha256": "13382227022dcfc1027d82f2adcaa41e613f76ed2c6954443f84291e778b6d88",
+      "bytes": 358335,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "openebench",
+      "url": "https://openebench.bsc.es/monitor/tool/life-science-protein-file-audit",
+      "started_at": "2026-10-18T22:41:05.793645+08:00",
+      "finished_at": "2026-10-18T22:41:06.893322+08:00",
+      "status": 200,
+      "sha256": "0e58e2d27dfc9e451d2476848793f9d4a6dbe71a594493b96e23f3bfb8e42866",
+      "bytes": 948,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "orcid_works",
+      "url": "https://pub.orcid.org/v3.0/0009-0001-3617-0832/works",
+      "started_at": "2026-10-18T22:41:02.503333+08:00",
+      "finished_at": "2026-10-18T22:41:04.701597+08:00",
+      "status": 200,
+      "sha256": "eb9132d6fea4f3bfc305adc3f77558b386b508ab549dd916ca02a743677edac3",
+      "bytes": 213950,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "osf_registration",
+      "url": "https://api.osf.io/v2/registrations/5b329/",
+      "started_at": "2026-10-18T22:41:03.142556+08:00",
+      "finished_at": "2026-10-18T22:41:04.723258+08:00",
+      "status": 200,
+      "sha256": "2f38821fd2d95fc5ee55db0b2cd4d83a6b750680c866c28b3b97cffca467e6ea",
+      "bytes": 42852,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "pr_agentic-frontier-observatory",
+      "url": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/pulls/168",
+      "started_at": "2026-10-18T22:41:40.599554+08:00",
+      "finished_at": "2026-10-18T22:41:41.581069+08:00",
+      "status": 200,
+      "sha256": "487226d4fea1927d0d27f0e9d7045e3cf7bf5c47705cff420c75fff476aeb083",
+      "bytes": 20608,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "pr_auto-doc-engine",
+      "url": "https://api.github.com/repos/lostlight530/auto-doc-engine/pulls/137",
+      "started_at": "2026-10-18T22:41:40.628253+08:00",
+      "finished_at": "2026-10-18T22:41:41.479164+08:00",
+      "status": 200,
+      "sha256": "4d1ca4d56c4ee0f4ebe6f3aec74bd1b4c036bf8ca8c75fa624b3a953bb500a28",
+      "bytes": 19058,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "pr_china-agentic-observatory",
+      "url": "https://api.github.com/repos/lostlight530/china-agentic-observatory/pulls/167",
+      "started_at": "2026-10-18T22:41:40.536793+08:00",
+      "finished_at": "2026-10-18T22:41:41.745304+08:00",
+      "status": 200,
+      "sha256": "8bd59b12d96174c0522372510b074e0b3b6d47aae25650e9cba07913e8b8b775",
+      "bytes": 20237,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "pr_epistemic-pipeline",
+      "url": "https://api.github.com/repos/lostlight530/epistemic-pipeline/pulls/136",
+      "started_at": "2026-10-18T22:41:40.710565+08:00",
+      "finished_at": "2026-10-18T22:41:41.576725+08:00",
+      "status": 200,
+      "sha256": "b38354791a648aae12c30e310dd7ef5418954df47a18c9806e59210d6a8acee1",
+      "bytes": 19392,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "pr_sci-render-kit",
+      "url": "https://api.github.com/repos/lostlight530/sci-render-kit/pulls/139",
+      "started_at": "2026-10-18T22:41:41.082162+08:00",
+      "finished_at": "2026-10-18T22:41:42.269853+08:00",
+      "status": 200,
+      "sha256": "303a5898c20c9014656c40a08a1e3dcbf2e339bf8adc667e7342ba22304d81e8",
+      "bytes": 18996,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "pr_welcome-to-github",
+      "url": "https://api.github.com/repos/lostlight530/welcome-to-github/pulls/785",
+      "started_at": "2026-10-18T22:41:40.082353+08:00",
+      "finished_at": "2026-10-18T22:41:41.082162+08:00",
+      "status": 200,
+      "sha256": "09f831e618bd1fb5f9552ec4234a498b76bfdf6e96c6f3e2b8aa60437d559e98",
+      "bytes": 19477,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "pr_zero-entropy-lab",
+      "url": "https://api.github.com/repos/lostlight530/zero-entropy-lab/pulls/677",
+      "started_at": "2026-10-18T22:41:40.261913+08:00",
+      "finished_at": "2026-10-18T22:41:41.114858+08:00",
+      "status": 200,
+      "sha256": "410137ad80673362f651dcbd52c3072a16d721ee242be039a991d77c3b3a6ba4",
+      "bytes": 19211,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "release_Axiom-0",
+      "url": "https://api.github.com/repos/lostlight530/Axiom-0/releases/tags/v2026.10-fourteen-day-evidence-checkpoint",
+      "started_at": "2026-10-18T22:42:16.250066+08:00",
+      "finished_at": "2026-10-18T22:42:17.053248+08:00",
+      "status": 200,
+      "sha256": "41f33e1cbb5cffa2b448968c7063d1218f6907a29e2869575826e7fbd26a7915",
+      "bytes": 3106,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "release_agent-foundations",
+      "url": "https://api.github.com/repos/lostlight530/agent-foundations/releases/tags/v2026.10-fourteen-day-evidence-checkpoint",
+      "started_at": "2026-10-18T22:42:17.053248+08:00",
+      "finished_at": "2026-10-18T22:42:17.732638+08:00",
+      "status": 200,
+      "sha256": "6213eb6b95f143106563a307e3478f79b0523d9706ba53bf6e2b19983214e06a",
+      "bytes": 3222,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "release_agentic-frontier-observatory",
+      "url": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/releases/tags/v2026.10-fourteen-day-evidence-checkpoint",
+      "started_at": "2026-10-18T22:42:17.428676+08:00",
+      "finished_at": "2026-10-18T22:42:18.097100+08:00",
+      "status": 200,
+      "sha256": "abb8a202436aa4e4e0b35fe24715ea2c539a996261b23176b5f4783dd8cfa23a",
+      "bytes": 3340,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "release_auto-doc-engine",
+      "url": "https://api.github.com/repos/lostlight530/auto-doc-engine/releases/tags/v2026.10-fourteen-day-evidence-checkpoint",
+      "started_at": "2026-10-18T22:42:18.097100+08:00",
+      "finished_at": "2026-10-18T22:42:18.786969+08:00",
+      "status": 200,
+      "sha256": "177aa46ca4d6c130480a4056e21c56e4b1a6e999e2bf00910f696d1e11fb0d09",
+      "bytes": 3173,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "release_china-agentic-observatory",
+      "url": "https://api.github.com/repos/lostlight530/china-agentic-observatory/releases/tags/v2026.10-fourteen-day-evidence-checkpoint",
+      "started_at": "2026-10-18T22:42:17.114053+08:00",
+      "finished_at": "2026-10-18T22:42:17.848323+08:00",
+      "status": 200,
+      "sha256": "bbeb89f320d11056f2f73be3e033ee6fc7909885a2c86b788cf546e0bb45557c",
+      "bytes": 3288,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "release_epistemic-pipeline",
+      "url": "https://api.github.com/repos/lostlight530/epistemic-pipeline/releases/tags/v2026.10-fourteen-day-evidence-checkpoint",
+      "started_at": "2026-10-18T22:42:18.210962+08:00",
+      "finished_at": "2026-10-18T22:42:18.878875+08:00",
+      "status": 200,
+      "sha256": "4d203c454547875ecb22da694b03df6eec04fdda8cab3ea3db1ca6a4d61b561b",
+      "bytes": 3205,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "release_reflective-continuum",
+      "url": "https://api.github.com/repos/lostlight530/reflective-continuum/releases/tags/v2026.10-fourteen-day-evidence-checkpoint",
+      "started_at": "2026-10-18T22:42:16.250066+08:00",
+      "finished_at": "2026-10-18T22:42:17.114053+08:00",
+      "status": 200,
+      "sha256": "3c215fa884f57d6c8cb6fc4857b18c215e7a9ba68b61d5780bd91556926afce6",
+      "bytes": 3219,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "release_sci-render-kit",
+      "url": "https://api.github.com/repos/lostlight530/sci-render-kit/releases/tags/v2026.10-fourteen-day-evidence-checkpoint",
+      "started_at": "2026-10-18T22:42:17.526500+08:00",
+      "finished_at": "2026-10-18T22:42:18.209954+08:00",
+      "status": 200,
+      "sha256": "11ac2df8594b61496cf125fa1607971b060bd89df39ca236417aae2951103f17",
+      "bytes": 3157,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "release_welcome-to-github",
+      "url": "https://api.github.com/repos/lostlight530/welcome-to-github/releases/tags/v2026.10-fourteen-day-evidence-checkpoint",
+      "started_at": "2026-10-18T22:42:16.249081+08:00",
+      "finished_at": "2026-10-18T22:42:17.088663+08:00",
+      "status": 200,
+      "sha256": "dda64df49f92c466ed6e05c4c4a8cb7b7a76b42da0b53331adbcffb85aa25c02",
+      "bytes": 3216,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "release_zero-entropy-lab",
+      "url": "https://api.github.com/repos/lostlight530/zero-entropy-lab/releases/tags/v2026.10-fourteen-day-evidence-checkpoint",
+      "started_at": "2026-10-18T22:42:16.251071+08:00",
+      "finished_at": "2026-10-18T22:42:17.089172+08:00",
+      "status": 200,
+      "sha256": "e315197ccd43baad7c4bd47828a37af48bd32ec01d3c48edcd6d6f0779f9121a",
+      "bytes": 3183,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "rsd",
+      "url": "https://research-software-directory.org/api/v1/software?select=slug,name&limit=1000",
+      "started_at": "2026-10-18T22:41:38.540044+08:00",
+      "finished_at": "2026-10-18T22:41:40.536793+08:00",
+      "status": 400,
+      "sha256": "76683af61cf0a6f1fada48a0a5d5b105457ceb35e1a7c969c8e6c2c336d8d642",
+      "bytes": 91,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "rsd_corrected",
+      "url": "https://research-software-directory.org/api/v1/software?select=*&slug=in.(welcome-to-github,zero-entropy-lab,axiom-0,reflective-continuum,agent-foundations,china-agentic-observatory,agentic-frontier-observatory,sci-render-kit,auto-doc-engine,epistemic-pipeline,research-software-identity-audit)",
+      "started_at": "2026-10-18T22:42:18.580277+08:00",
+      "finished_at": "2026-10-18T22:42:19.647890+08:00",
+      "status": 200,
+      "sha256": "108e050bb1e28c59400b5a627b504bee0f74658b5444f3ed641f20b08d31ad83",
+      "bytes": 8678,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "scicrunch",
+      "url": "https://scicrunch.org/resolver/RRID:SCR_029105",
+      "started_at": "2026-10-18T22:41:38.538952+08:00",
+      "finished_at": "2026-10-18T22:41:39.838215+08:00",
+      "status": 403,
+      "sha256": "6003d32f85c530a73cf0f187b993c8840721d5e588d915fdfdd19ffd1e631d19",
+      "bytes": 5516,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "swh_agent-foundations",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agent-foundations/visit/latest/",
+      "started_at": "2026-10-18T22:42:17.089172+08:00",
+      "finished_at": "2026-10-18T22:42:18.207157+08:00",
+      "status": 200,
+      "sha256": "c61732715f292103a9570eccea53ab3e152b8a2e2f8d2f13abe713cff65b580a",
+      "bytes": 442,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "swh_agentic-frontier-observatory",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agentic-frontier-observatory/visit/latest/",
+      "started_at": "2026-10-18T22:42:17.476286+08:00",
+      "finished_at": "2026-10-18T22:42:18.549783+08:00",
+      "status": 200,
+      "sha256": "74373c06e71b7f7d6ae47fa31019ac987630b4ae17df4003f06fb91cd2b3a0e1",
+      "bytes": 464,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "swh_auto-doc-engine",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/auto-doc-engine/visit/latest/",
+      "started_at": "2026-10-18T22:42:18.149410+08:00",
+      "finished_at": "2026-10-18T22:42:19.198815+08:00",
+      "status": 200,
+      "sha256": "5fd3ebe09a8bb94c712e25b439cd95dd6d5787f1f1f473e5757ccc16e4ce7c09",
+      "bytes": 438,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "swh_axiom",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/Axiom-0/visit/latest/",
+      "started_at": "2026-10-18T22:41:38.538437+08:00",
+      "finished_at": "2026-10-18T22:41:40.261913+08:00",
+      "status": 200,
+      "sha256": "2761909ac14062e2f91b9e8aa0b5c1cfb1f92710cf81e6aa068187cbedcb5a9c",
+      "bytes": 422,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "swh_china-agentic-observatory",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/china-agentic-observatory/visit/latest/",
+      "started_at": "2026-10-18T22:42:17.400370+08:00",
+      "finished_at": "2026-10-18T22:42:18.601307+08:00",
+      "status": 200,
+      "sha256": "9a689bfd5f003853d49f9905fa91772313ea878dd132ce0053f75a86364be464",
+      "bytes": 458,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "swh_epistemic-pipeline",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/epistemic-pipeline/visit/latest/",
+      "started_at": "2026-10-18T22:42:18.483690+08:00",
+      "finished_at": "2026-10-18T22:42:19.566157+08:00",
+      "status": 200,
+      "sha256": "6ed2b47ed69fb547d4fe7f5da0b172ab9758df050843e17fb4c4489dc3552045",
+      "bytes": 444,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "swh_reflective-continuum",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/reflective-continuum/visit/latest/",
+      "started_at": "2026-10-18T22:42:16.251071+08:00",
+      "finished_at": "2026-10-18T22:42:17.526500+08:00",
+      "status": 200,
+      "sha256": "c5d7e8b755561e49a3199b2d107594b067618ec47c5f1c8922220193f4cb283d",
+      "bytes": 448,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "swh_sci-render-kit",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/sci-render-kit/visit/latest/",
+      "started_at": "2026-10-18T22:42:17.733201+08:00",
+      "finished_at": "2026-10-18T22:42:18.820792+08:00",
+      "status": 200,
+      "sha256": "d54aa0fc1006d76e1355f34497feefa98fd3cf587af8420df80d5dc973e3234b",
+      "bytes": 436,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "swh_welcome-to-github",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/",
+      "started_at": "2026-10-18T22:42:16.248086+08:00",
+      "finished_at": "2026-10-18T22:42:17.400370+08:00",
+      "status": 200,
+      "sha256": "db9426b029ca6b70d2166715bf2137f3d842ee8d0834ee7544af6619583e5183",
+      "bytes": 442,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "swh_zero-entropy-lab",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/zero-entropy-lab/visit/latest/",
+      "started_at": "2026-10-18T22:42:16.251071+08:00",
+      "finished_at": "2026-10-18T22:42:17.428676+08:00",
+      "status": 200,
+      "sha256": "f23620db95e337b8ad0febcfbf37bfb88529acab63e2108f9790ff4b659ca2d1",
+      "bytes": 440,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "workflow_2332",
+      "url": "https://workflowhub.eu/workflows/2332",
+      "started_at": "2026-10-18T22:41:03.687296+08:00",
+      "finished_at": "2026-10-18T22:41:06.048180+08:00",
+      "status": 200,
+      "sha256": "3e4fd77d30ca99e1021703e6285fcce2f05d9d8835e42dd95fa4d09d4ef90d6a",
+      "bytes": 268348,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "workflow_2334",
+      "url": "https://workflowhub.eu/workflows/2334",
+      "started_at": "2026-10-18T22:41:03.823796+08:00",
+      "finished_at": "2026-10-18T22:41:06.046794+08:00",
+      "status": 200,
+      "sha256": "c4233ea7a17200563b3ef4a39adff0322aeb8255eef1a86e31b4d5d7a683f446",
+      "bytes": 274332,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "workflow_2337",
+      "url": "https://workflowhub.eu/workflows/2337",
+      "started_at": "2026-10-18T22:41:04.701597+08:00",
+      "finished_at": "2026-10-18T22:41:06.930403+08:00",
+      "status": 200,
+      "sha256": "b440d0398b05b8adb353ce41b19cca39474beb597199f045adc694ddf51c0412",
+      "bytes": 261724,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "workflow_2347",
+      "url": "https://workflowhub.eu/workflows/2347?version=2",
+      "started_at": "2026-10-18T22:41:04.723258+08:00",
+      "finished_at": "2026-10-18T22:41:08.645567+08:00",
+      "status": 200,
+      "sha256": "eb7b0b216bbf29b76bed4a664e3a9e5a1d4d9fd6b3dcfe8f11b6a020d85300dc",
+      "bytes": 280955,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_23365504",
+      "url": "https://zenodo.org/api/records/23365504",
+      "started_at": "2026-10-18T22:41:05.891173+08:00",
+      "finished_at": "2026-10-18T22:41:07.043497+08:00",
+      "status": 200,
+      "sha256": "f3d425609df3bf222ac10d1adf08a9996c3f6d81eeea9ff32701ac934b179ff0",
+      "bytes": 4283,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_23365510",
+      "url": "https://zenodo.org/api/records/23365510",
+      "started_at": "2026-10-18T22:41:07.043497+08:00",
+      "finished_at": "2026-10-18T22:41:08.164578+08:00",
+      "status": 200,
+      "sha256": "40adcdbf5ff24d8cbe9acdff520ee0467728aba716af822c05d31337593efb7a",
+      "bytes": 4297,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_23365517",
+      "url": "https://zenodo.org/api/records/23365517",
+      "started_at": "2026-10-18T22:41:06.761156+08:00",
+      "finished_at": "2026-10-18T22:41:07.911533+08:00",
+      "status": 200,
+      "sha256": "fa59ba526846182ed3f650a61fa13b8fa55c6f4d15bc47919b2c3c911f24cdba",
+      "bytes": 4303,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_23365525",
+      "url": "https://zenodo.org/api/records/23365525",
+      "started_at": "2026-10-18T22:41:07.122905+08:00",
+      "finished_at": "2026-10-18T22:41:08.255770+08:00",
+      "status": 200,
+      "sha256": "18b38cb28f1ff7a5880e7e51ac5c847fbe8b1837c7eb9de6fdf64c456d163ce5",
+      "bytes": 4299,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_23365534",
+      "url": "https://zenodo.org/api/records/23365534",
+      "started_at": "2026-10-18T22:41:06.048180+08:00",
+      "finished_at": "2026-10-18T22:41:07.122905+08:00",
+      "status": 200,
+      "sha256": "db8d84690823af54511250212fb88da6b858583d308992924b5478d4195c9190",
+      "bytes": 4207,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_23365540",
+      "url": "https://zenodo.org/api/records/23365540",
+      "started_at": "2026-10-18T22:41:06.893322+08:00",
+      "finished_at": "2026-10-18T22:41:09.346342+08:00",
+      "status": 200,
+      "sha256": "0be0f71210e01117d5fcbfb7b21e9ec903b86eb0c5b08634b7fdf18e2a6fcee6",
+      "bytes": 4262,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_23365543",
+      "url": "https://zenodo.org/api/records/23365543",
+      "started_at": "2026-10-18T22:41:06.046794+08:00",
+      "finished_at": "2026-10-18T22:41:09.066927+08:00",
+      "status": 200,
+      "sha256": "1625d4f0fd2cc2067bcce93013da5e5c7f03e613ff832c2f7f320737514a23a0",
+      "bytes": 4379,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_23365548",
+      "url": "https://zenodo.org/api/records/23365548",
+      "started_at": "2026-10-18T22:41:06.690265+08:00",
+      "finished_at": "2026-10-18T22:41:07.965976+08:00",
+      "status": 200,
+      "sha256": "c68f50040b8da5f5ad36ba3ee2348c22a261581b2d3a45f62f7857b2af06dd31",
+      "bytes": 4332,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_23365551",
+      "url": "https://zenodo.org/api/records/23365551",
+      "started_at": "2026-10-18T22:41:06.930403+08:00",
+      "finished_at": "2026-10-18T22:41:08.172075+08:00",
+      "status": 200,
+      "sha256": "49b0224e5765b163645339d3d655ead6448fa2478c88fd6f603b2993749a0004",
+      "bytes": 4258,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_23365567",
+      "url": "https://zenodo.org/api/records/23365567",
+      "started_at": "2026-10-18T22:41:07.911533+08:00",
+      "finished_at": "2026-10-18T22:41:09.267858+08:00",
+      "status": 200,
+      "sha256": "ea56918cba69c765cbd38bff1cb0ae357b6535d23ae2eecf1212f8c4817893ff",
+      "bytes": 4281,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_audit_fourth",
+      "url": "https://zenodo.org/api/records/23446162",
+      "started_at": "2026-10-18T22:41:38.539465+08:00",
+      "finished_at": "2026-10-18T22:41:44.404257+08:00",
+      "status": 200,
+      "sha256": "d3c92c114adda42296b4829b2efbf9a62214add56478281984766331e15581b5",
+      "bytes": 4511,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_audit_fourth_archive",
+      "url": "https://zenodo.org/api/records/23446162/files/lostlight530/research-software-identity-audit-v2026.10-evidence-integrity.zip/content",
+      "started_at": "2026-10-18T22:42:18.601307+08:00",
+      "finished_at": "2026-10-18T22:42:22.315963+08:00",
+      "status": 200,
+      "sha256": "337f2cea23f7c41af29a531fa6e5a4fb4e80c86b1c6cff4dab16c2fea2199f0f",
+      "bytes": 1392684,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_life",
+      "url": "https://zenodo.org/api/records/23447089",
+      "started_at": "2026-10-18T22:41:38.540044+08:00",
+      "finished_at": "2026-10-18T22:41:40.082353+08:00",
+      "status": 200,
+      "sha256": "617f0cf4792d10d4da17d0b3bcec9ac33d8a8bec9b4e2c90f9309a787ae4baee",
+      "bytes": 13425,
+      "raw_transport_publicly_retained": false
+    },
+    {
+      "key": "zenodo_life_archive",
+      "url": "https://zenodo.org/api/records/23447089/files/lostlight530/life-science-ecosystem-lab-v0.4.0.zip/content",
+      "started_at": "2026-10-18T22:42:18.786969+08:00",
+      "finished_at": "2026-10-18T22:42:20.569722+08:00",
+      "status": 200,
+      "sha256": "afdf9c31cdc8bb2a56319f34c27189e1ee05605f89fbb229572e94a815076ff3",
+      "bytes": 290240,
+      "raw_transport_publicly_retained": false
+    }
+  ]
+}

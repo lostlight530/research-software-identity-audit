@@ -1,0 +1,1456 @@
+{
+  "representation": "derived minimal public-field extract, not original HTTP bytes",
+  "fixed_objects": [
+    {
+      "object_id": "RS01",
+      "repository": "welcome-to-github",
+      "doi": "10.5281/zenodo.23365504",
+      "record_id": 23365504,
+      "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 6,
+        "unique_downloads": 5,
+        "views": 274,
+        "unique_views": 190,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 4,
+        "version_views": 5
+      },
+      "github_release": {
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:14:44Z",
+        "html_url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "draft": false,
+        "prerelease": false
+      },
+      "swh_origin_visit": {
+        "origin": "https://github.com/lostlight530/welcome-to-github",
+        "visit": 3,
+        "date": "2026-10-11T09:11:39.935000+00:00",
+        "status": "full",
+        "snapshot": "7ebbac214e54707460ded151eab08a4ea13f3fd3"
+      },
+      "openaire_doi_result_count": 1
+    },
+    {
+      "object_id": "RS02",
+      "repository": "zero-entropy-lab",
+      "doi": "10.5281/zenodo.23365551",
+      "record_id": 23365551,
+      "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 236,
+        "unique_views": 151,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 3,
+        "version_views": 3
+      },
+      "github_release": {
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:09Z",
+        "html_url": "https://github.com/lostlight530/zero-entropy-lab/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "draft": false,
+        "prerelease": false
+      },
+      "swh_origin_visit": {
+        "origin": "https://github.com/lostlight530/zero-entropy-lab",
+        "visit": 2,
+        "date": "2026-10-05T21:41:06.261000+00:00",
+        "status": "full",
+        "snapshot": "b34f9f67ce95c5cfde7b1d5988e7d39a11af88ca"
+      },
+      "openaire_doi_result_count": 1
+    },
+    {
+      "object_id": "RS03",
+      "repository": "Axiom-0",
+      "doi": "10.5281/zenodo.23365534",
+      "record_id": 23365534,
+      "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 259,
+        "unique_views": 174,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 4,
+        "version_views": 4
+      },
+      "github_release": {
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:30Z",
+        "html_url": "https://github.com/lostlight530/Axiom-0/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "draft": false,
+        "prerelease": false
+      },
+      "swh_origin_visit": {
+        "origin": "https://github.com/lostlight530/Axiom-0",
+        "visit": 2,
+        "date": "2026-10-14T17:47:26.890000+00:00",
+        "status": "full",
+        "snapshot": "2c8dc6724efbefb2b2c5ac72fef7ad0051ec1bb9"
+      },
+      "openaire_doi_result_count": 1
+    },
+    {
+      "object_id": "RS04",
+      "repository": "reflective-continuum",
+      "doi": "10.5281/zenodo.23365567",
+      "record_id": 23365567,
+      "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 207,
+        "unique_views": 124,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 3,
+        "version_views": 3
+      },
+      "github_release": {
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:33Z",
+        "html_url": "https://github.com/lostlight530/reflective-continuum/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "draft": false,
+        "prerelease": false
+      },
+      "swh_origin_visit": {
+        "origin": "https://github.com/lostlight530/reflective-continuum",
+        "visit": 3,
+        "date": "2026-10-17T19:50:57.149000+00:00",
+        "status": "full",
+        "snapshot": "33396c4d589d8dc01cc088fadc1dd76fcf8be5a0"
+      },
+      "openaire_doi_result_count": 1
+    },
+    {
+      "object_id": "RS05",
+      "repository": "agent-foundations",
+      "doi": "10.5281/zenodo.23365540",
+      "record_id": 23365540,
+      "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 237,
+        "unique_views": 151,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 3,
+        "version_views": 3
+      },
+      "github_release": {
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:39Z",
+        "html_url": "https://github.com/lostlight530/agent-foundations/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "draft": false,
+        "prerelease": false
+      },
+      "swh_origin_visit": {
+        "origin": "https://github.com/lostlight530/agent-foundations",
+        "visit": 1,
+        "date": "2026-09-16T07:32:06.452000+00:00",
+        "status": "full",
+        "snapshot": "032ab79524d807d084edc651b155c9d837164868"
+      },
+      "openaire_doi_result_count": 1
+    },
+    {
+      "object_id": "RS06",
+      "repository": "auto-doc-engine",
+      "doi": "10.5281/zenodo.23365510",
+      "record_id": 23365510,
+      "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 229,
+        "unique_views": 144,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 6,
+        "version_views": 8
+      },
+      "github_release": {
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:14:54Z",
+        "html_url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "draft": false,
+        "prerelease": false
+      },
+      "swh_origin_visit": {
+        "origin": "https://github.com/lostlight530/auto-doc-engine",
+        "visit": 2,
+        "date": "2026-10-02T05:57:26.956000+00:00",
+        "status": "full",
+        "snapshot": "5a902c951821ba9496c0e072555d32ef40362c73"
+      },
+      "openaire_doi_result_count": 1
+    },
+    {
+      "object_id": "RS07",
+      "repository": "epistemic-pipeline",
+      "doi": "10.5281/zenodo.23365517",
+      "record_id": 23365517,
+      "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 238,
+        "unique_views": 154,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 3,
+        "version_views": 3
+      },
+      "github_release": {
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:04Z",
+        "html_url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "draft": false,
+        "prerelease": false
+      },
+      "swh_origin_visit": {
+        "origin": "https://github.com/lostlight530/epistemic-pipeline",
+        "visit": 3,
+        "date": "2026-10-10T05:10:27.293000+00:00",
+        "status": "full",
+        "snapshot": "4381de88404a34ac7ac339e231d36a94dbfac8fb"
+      },
+      "openaire_doi_result_count": 1
+    },
+    {
+      "object_id": "RS08",
+      "repository": "sci-render-kit",
+      "doi": "10.5281/zenodo.23365525",
+      "record_id": 23365525,
+      "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 221,
+        "unique_views": 142,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 3,
+        "version_views": 3
+      },
+      "github_release": {
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:18Z",
+        "html_url": "https://github.com/lostlight530/sci-render-kit/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "draft": false,
+        "prerelease": false
+      },
+      "swh_origin_visit": {
+        "origin": "https://github.com/lostlight530/sci-render-kit",
+        "visit": 1,
+        "date": "2026-09-16T07:35:28.635000+00:00",
+        "status": "full",
+        "snapshot": "56b467c833742734131f7155e34849eb2433ff11"
+      },
+      "openaire_doi_result_count": 1
+    },
+    {
+      "object_id": "RS09",
+      "repository": "china-agentic-observatory",
+      "doi": "10.5281/zenodo.23365548",
+      "record_id": 23365548,
+      "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 243,
+        "unique_views": 158,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 2,
+        "version_views": 2
+      },
+      "github_release": {
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:00Z",
+        "html_url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "draft": false,
+        "prerelease": false
+      },
+      "swh_origin_visit": {
+        "origin": "https://github.com/lostlight530/china-agentic-observatory",
+        "visit": 2,
+        "date": "2026-09-28T00:59:57.737000+00:00",
+        "status": "full",
+        "snapshot": "dc017f873be49235e8f70f27eff4a779b90f789e"
+      },
+      "openaire_doi_result_count": 1
+    },
+    {
+      "object_id": "RS10",
+      "repository": "agentic-frontier-observatory",
+      "doi": "10.5281/zenodo.23365543",
+      "record_id": 23365543,
+      "zenodo_version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 254,
+        "unique_views": 171,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 4,
+        "version_views": 4
+      },
+      "github_release": {
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:53Z",
+        "html_url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "draft": false,
+        "prerelease": false
+      },
+      "swh_origin_visit": {
+        "origin": "https://github.com/lostlight530/agentic-frontier-observatory",
+        "visit": 2,
+        "date": "2026-09-28T01:02:35.538000+00:00",
+        "status": "full",
+        "snapshot": "30f496bf959e9b60b604c75522d1e380ef3c85d7"
+      },
+      "openaire_doi_result_count": 1
+    }
+  ],
+  "datacite_records": [
+    {
+      "doi": "10.17605/osf.io/5b329",
+      "state": "findable",
+      "resource_type": "StudyRegistration",
+      "client": "cos.osf",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.1",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.2",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.3",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.4",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.5",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.6",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.7",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.8",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.1",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.2",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.3",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.4",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.5",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.6",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.7",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.8",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2337.1",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2347.1",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2347.2",
+      "state": "findable",
+      "resource_type": "Workflow",
+      "client": "borq.00002-2021",
+      "matched_orcid_identifiers": [
+        "https://orcid.org/0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22790907",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22790908",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791081",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791082",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791103",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791104",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791141",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791142",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791169",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791170",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791309",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791310",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791334",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791335",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791375",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791376",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791404",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791405",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791463",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.22791464",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23068144",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23068145",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23068260",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23068261",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23068262",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23068347",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23068352",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23068471",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23068472",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23068494",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23137203",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23137204",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23137205",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23137206",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23137207",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23137211",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23137214",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23137215",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23137216",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23137219",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23166490",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23176748",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23284570",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23365504",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23365510",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23365517",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23365525",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23365534",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23365540",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23365543",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23365548",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23365551",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23365567",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23446162",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23447088",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23447089",
+      "state": "findable",
+      "resource_type": "Software",
+      "client": "cern.zenodo",
+      "matched_orcid_identifiers": [
+        "0009-0001-3617-0832"
+      ]
+    }
+  ],
+  "datacite_bare_query_count": 56,
+  "datacite_complete_query_count": 76,
+  "datacite_pages": 1,
+  "openalex": {
+    "author_id": "A5151904252",
+    "profile_count": 29,
+    "query_count": 30,
+    "cited_by_count": 1,
+    "works": [
+      {
+        "id": "https://openalex.org/W7220365356",
+        "doi": "https://doi.org/10.5281/zenodo.23166490",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213395896",
+        "doi": "https://doi.org/10.5281/zenodo.22791103",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213400679",
+        "doi": "https://doi.org/10.5281/zenodo.22791169",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213401383",
+        "doi": "https://doi.org/10.5281/zenodo.22791309",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213415068",
+        "doi": "https://doi.org/10.5281/zenodo.22791404",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213417036",
+        "doi": "https://doi.org/10.5281/zenodo.22791141",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213429607",
+        "doi": "https://doi.org/10.5281/zenodo.22791081",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213430624",
+        "doi": "https://doi.org/10.5281/zenodo.22790907",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213431981",
+        "doi": "https://doi.org/10.5281/zenodo.22791375",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213433288",
+        "doi": "https://doi.org/10.5281/zenodo.22791334",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213434988",
+        "doi": "https://doi.org/10.5281/zenodo.22791463",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7220380722",
+        "doi": "https://doi.org/10.17605/osf.io/5b329",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220948089",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.1",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220962531",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.2",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220966944",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.2",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220969795",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.1",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221127912",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.3",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221188636",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.3",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221337272",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.4",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221366684",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.4",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221441548",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.5",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221455900",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2337.1",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221460162",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.5",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221516570",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.6",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221566397",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.6",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221612767",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.7",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221654297",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.7",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221754327",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.8",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221802864",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.8",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7222828651",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2347.1",
+        "type": "other"
+      }
+    ]
+  },
+  "orcid": {
+    "group_count": 17,
+    "source_summary_count": 89
+  },
+  "archives": {
+    "zenodo_audit_fourth": {
+      "size": 1392684,
+      "expected_size": 1392684,
+      "size_matches": true,
+      "md5": "dbc5b4bdbd5e5fbb3b6fb6eb5ec44fa3",
+      "provider_checksum": "md5:dbc5b4bdbd5e5fbb3b6fb6eb5ec44fa3",
+      "md5_matches": true,
+      "sha256": "337f2cea23f7c41af29a531fa6e5a4fb4e80c86b1c6cff4dab16c2fea2199f0f",
+      "zip_entries": 336,
+      "archive_code_executed": false,
+      "embedded_metadata": {
+        "CITATION.cff": {
+          "member": "lostlight530-research-software-identity-audit-a78e5fd/CITATION.cff",
+          "sha256": "e61f849f3a81725e32019fa42e8b8c979dd871c0971bbe076d5433c1f2802529",
+          "fields": {
+            "version": "v2026.10-evidence-reconciliation",
+            "doi_values": [
+              "10.5281/zenodo.23284570",
+              "10.5281/zenodo.23166490",
+              "10.17605/OSF.IO/5B329"
+            ]
+          }
+        },
+        "codemeta.json": {
+          "member": "lostlight530-research-software-identity-audit-a78e5fd/codemeta.json",
+          "sha256": "441988a7c4ffcf9256a1e936a81981609ea126dea9ded32e04f7b25b76d34c89",
+          "fields": {
+            "version": "v2026.10-evidence-reconciliation",
+            "datePublished": "2026-10-10",
+            "identifier": "https://doi.org/10.5281/zenodo.23166490"
+          }
+        }
+      },
+      "download_url": "https://zenodo.org/api/records/23446162/files/lostlight530/research-software-identity-audit-v2026.10-evidence-integrity.zip/content"
+    },
+    "zenodo_life": {
+      "size": 290240,
+      "expected_size": 290240,
+      "size_matches": true,
+      "md5": "d5e515de06f37f03c7118fcee617ccd3",
+      "provider_checksum": "md5:d5e515de06f37f03c7118fcee617ccd3",
+      "md5_matches": true,
+      "sha256": "afdf9c31cdc8bb2a56319f34c27189e1ee05605f89fbb229572e94a815076ff3",
+      "zip_entries": 219,
+      "archive_code_executed": false,
+      "embedded_metadata": {
+        "CITATION.cff": {
+          "member": "lostlight530-life-science-ecosystem-lab-c09d4f3/CITATION.cff",
+          "sha256": "f4525f79269cde067f9bf23892ed8e2fab689160b555676e3af7ab47c5d96902",
+          "fields": {
+            "version": "0.4.0",
+            "doi_values": []
+          }
+        },
+        "codemeta.json": {
+          "member": "lostlight530-life-science-ecosystem-lab-c09d4f3/codemeta.json",
+          "sha256": "7fe8f3ff68dbed5278366c669c1f1751eeabf02c01c708b3cb6ed8bc23f047e5",
+          "fields": {
+            "version": null,
+            "datePublished": null,
+            "identifier": null
+          }
+        }
+      },
+      "download_url": "https://zenodo.org/api/records/23447089/files/lostlight530/life-science-ecosystem-lab-v0.4.0.zip/content"
+    }
+  },
+  "github_merged_prs": [
+    {
+      "number": 168,
+      "html_url": "https://github.com/lostlight530/agentic-frontier-observatory/pull/168",
+      "merged": true,
+      "merged_at": "2026-10-18T09:46:10Z",
+      "merge_commit_sha": "28c4eb8421a152b24af5bae09f4452fcfb263f31"
+    },
+    {
+      "number": 137,
+      "html_url": "https://github.com/lostlight530/auto-doc-engine/pull/137",
+      "merged": true,
+      "merged_at": "2026-10-18T09:45:57Z",
+      "merge_commit_sha": "f856c00dc3964c33a300cf943d55af1938056239"
+    },
+    {
+      "number": 167,
+      "html_url": "https://github.com/lostlight530/china-agentic-observatory/pull/167",
+      "merged": true,
+      "merged_at": "2026-10-18T09:46:14Z",
+      "merge_commit_sha": "0ac08a1a0b99de91413d93bf9f00b722453a8dbd"
+    },
+    {
+      "number": 136,
+      "html_url": "https://github.com/lostlight530/epistemic-pipeline/pull/136",
+      "merged": true,
+      "merged_at": "2026-10-18T09:46:01Z",
+      "merge_commit_sha": "cf4931278db370a40b418e79f4b1e87030e6aeee"
+    },
+    {
+      "number": 139,
+      "html_url": "https://github.com/lostlight530/sci-render-kit/pull/139",
+      "merged": true,
+      "merged_at": "2026-10-18T09:46:06Z",
+      "merge_commit_sha": "dbfc57bb727bf48bd915f2877552b4d0aec71301"
+    },
+    {
+      "number": 785,
+      "html_url": "https://github.com/lostlight530/welcome-to-github/pull/785",
+      "merged": true,
+      "merged_at": "2026-10-18T09:45:02Z",
+      "merge_commit_sha": "0e7732af1f49ca8fe955579ae7d94f8ff92145f0"
+    },
+    {
+      "number": 677,
+      "html_url": "https://github.com/lostlight530/zero-entropy-lab/pull/677",
+      "merged": true,
+      "merged_at": "2026-10-18T09:45:11Z",
+      "merge_commit_sha": "949634927077860390e3aea92656453b51c82c9a"
+    }
+  ],
+  "github_ci_jobs": {
+    "39092740134": [
+      {
+        "name": "Knowledge Workflow",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-18T03:11:32Z",
+        "completed_at": "2026-10-18T03:11:59Z",
+        "html_url": "https://github.com/lostlight530/life-science-ecosystem-lab/actions/runs/39092740134/job/117572729657"
+      },
+      {
+        "name": "Evidence Tool",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-18T03:11:31Z",
+        "completed_at": "2026-10-18T03:11:41Z",
+        "html_url": "https://github.com/lostlight530/life-science-ecosystem-lab/actions/runs/39092740134/job/117572729748"
+      },
+      {
+        "name": "Portable package",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-18T03:11:31Z",
+        "completed_at": "2026-10-18T03:11:58Z",
+        "html_url": "https://github.com/lostlight530/life-science-ecosystem-lab/actions/runs/39092740134/job/117572729767"
+      },
+      {
+        "name": "Repository contracts",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-18T03:11:31Z",
+        "completed_at": "2026-10-18T03:11:44Z",
+        "html_url": "https://github.com/lostlight530/life-science-ecosystem-lab/actions/runs/39092740134/job/117572729814"
+      },
+      {
+        "name": "validate",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-18T03:12:02Z",
+        "completed_at": "2026-10-18T03:12:06Z",
+        "html_url": "https://github.com/lostlight530/life-science-ecosystem-lab/actions/runs/39092740134/job/117572817901"
+      }
+    ],
+    "39103619774": [
+      {
+        "name": "Knowledge Workflow",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-18T06:19:22Z",
+        "completed_at": "2026-10-18T06:19:44Z",
+        "html_url": "https://github.com/lostlight530/life-science-ecosystem-lab/actions/runs/39103619774/job/117604770043"
+      },
+      {
+        "name": "Evidence Tool",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-18T06:19:22Z",
+        "completed_at": "2026-10-18T06:19:34Z",
+        "html_url": "https://github.com/lostlight530/life-science-ecosystem-lab/actions/runs/39103619774/job/117604770106"
+      },
+      {
+        "name": "Portable package",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-18T06:19:22Z",
+        "completed_at": "2026-10-18T06:19:46Z",
+        "html_url": "https://github.com/lostlight530/life-science-ecosystem-lab/actions/runs/39103619774/job/117604770217"
+      },
+      {
+        "name": "Repository contracts",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-18T06:19:22Z",
+        "completed_at": "2026-10-18T06:19:32Z",
+        "html_url": "https://github.com/lostlight530/life-science-ecosystem-lab/actions/runs/39103619774/job/117604770244"
+      },
+      {
+        "name": "validate",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-18T06:19:48Z",
+        "completed_at": "2026-10-18T06:19:51Z",
+        "html_url": "https://github.com/lostlight530/life-science-ecosystem-lab/actions/runs/39103619774/job/117604837906"
+      }
+    ]
+  },
+  "remote_schedule": {
+    "commit": "053bc6a6c6f3659d2f5c9cc0c0542760081c1218",
+    "files": [
+      "README.md"
+    ],
+    "concrete_offsets_declared": false,
+    "quoted_statement": "This repository still has **no declared concrete offsets or fully specified timepoint list**."
+  },
+  "current_metadata": {
+    "commit": "053bc6a6c6f3659d2f5c9cc0c0542760081c1218",
+    "citation_version": "v2026.10-evidence-integrity",
+    "codemeta_version": "v2026.10-evidence-integrity"
+  },
+  "osf": {
+    "id": "5b329",
+    "doi": "10.17605/OSF.IO/5B329",
+    "date_registered": "2026-10-05T14:04:13.783851"
+  },
+  "hal": {
+    "num_found": 0
+  },
+  "rsd": {
+    "software_records": 11
+  },
+  "scicrunch": {
+    "status": 403
+  },
+  "workflowhub_detail_activity": [
+    {
+      "id": "2332",
+      "detail_views": 1294,
+      "detail_downloads": 138,
+      "doi": "10.48546/workflowhub.workflow.2332.8"
+    },
+    {
+      "id": "2334",
+      "detail_views": 1311,
+      "detail_downloads": 106,
+      "doi": "10.48546/workflowhub.workflow.2334.8"
+    },
+    {
+      "id": "2337",
+      "detail_views": 395,
+      "detail_downloads": 17,
+      "doi": "10.48546/workflowhub.workflow.2337.1"
+    },
+    {
+      "id": "2347",
+      "detail_views": 86,
+      "detail_downloads": 15,
+      "doi": "10.48546/workflowhub.workflow.2347.2"
+    }
+  ],
+  "biotools": {
+    "biotoolsID": "life-science-protein-file-audit",
+    "name": "Life Science Protein File Audit",
+    "version": [
+      "0.4.0"
+    ],
+    "license": "MIT",
+    "maturity": "Emerging"
+  },
+  "openebench": {
+    "@timestamp": "2026-10-17T22:00:06.508216148Z",
+    "@id": "https://openebench.bsc.es/monitor/tool/life-science-protein-file-audit",
+    "@label": "life-science-protein-file-audit",
+    "@version": null,
+    "@license": "https://creativecommons.org/licenses/by/4.0/",
+    "name": "Life Science Protein File Audit",
+    "validated": 0,
+    "confidence": "ultimate",
+    "credits": [],
+    "publications": [],
+    "repositories": []
+  }
+}

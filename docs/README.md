@@ -78,3 +78,7 @@ Operationally keep the *associated OSF Project*, the *independent OSF Registrati
 ---
 
 This page is an **index and maintenance explanation only**. When a summary disagrees with a frozen registration, source record, schema, or retained observation, consult the owning source and preserve the discrepancy instead of silently editing the historical record.
+
+## October 18 research-only independent verification
+
+The [dated research record](../monitoring/2026-10-18/03-independent-research-verification/README.md) owns the new measurements and archive inspection. The [minimized evidence package](../evidence/2026-10-18/03-independent-research-verification/README.md) declares public-field versus locally retained transport evidence. The standalone offline checker makes no network requests and is not added to CI. Community correspondence, account operations, private monitoring identifiers and unrelated telemetry are outside this contribution.
