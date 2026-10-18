@@ -82,6 +82,13 @@ This dated comparison preserves source-provided earlier WorkflowHub, ORCID, Open
 
 This later independently queried surface returned the audit-control's new `10.5281/zenodo.23284570` DOI in **OpenAIRE (one exact-PID software result)** and **OpenAlex Work `W7221337741`**, while the author's filtered OpenAlex list contained **21** Works versus the prior October 10 list's 18. The two workflow v4 Works were also independently associated with the same public ORCID. SWH access challenge, ORCID structured-count gap, historical HTTP raw-byte limitation, and OpenAlex full-profile counter conflict remain explicitly unresolved. This is **diagnostic control-only research**, not RS11 or an eligible prospective observation.
 
+
+## October 18 verified control release and attribution update
+
+The fourth public control GitHub Release `v2026.10-evidence-integrity` was independently confirmed with new Zenodo **version DOI `10.5281/zenodo.23446162`** and unchanged concept `10.5281/zenodo.23166490`. Its **immutable tag embeds older October 10 CITATION/CodeMeta version fields**; later live `main` metadata correction is not an archive rewrite. See [postpublication reconciliation](release-identity-reconciliation-2026-10-18.md) and [updated citation guidance](CITATION.md).
+
+The researcher's subsequent ORCID `Update ORCID work` action is documented separately for the old [Beta DOI](../monitoring/2026-10-18/02-orcid-openaire-work-refresh/README.md): **one explicit successful authenticated confirmation**, plus user-reported actions across 11 links; DataCite Software and OpenAIRE Dataset source views have the same DOI. No proven OpenAIRE green-icon sync or new scholarly object is inferred.
+
 ## October 14 cross-infrastructure capture
 
 [Morning institutional results](../monitoring/2026-10-14/04-morning-facility-recheck/README.md) retain DataCite 60 findable identifiers, ORCID 15 groups / 72 summaries, OpenAlex query 26 vs profile 24, and ten-family DOI route convergence. Supplementary RSD, HAL, RRID, WorkflowHub, OSF and Internet Archive outcomes remain source-specific; historical states above are not overwritten

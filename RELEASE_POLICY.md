@@ -80,3 +80,16 @@ These control-software releases are not RS01–RS10 eligible new-release events,
 ## October 18, 2026 pre-package readiness — no new release
 
 [The dated release-readiness review](scholarly/release-readiness-2026-10-18.md) checks the existing 3 control-software Release identities, concept/version DOI roles, citation/CodeMeta/Zenodo metadata boundaries, and actual pending archival gates. It does **not** change the immutable October 10 tag, predict a new DOI, publish a Release, or classify supplementary platform diagnostics as eligible prospective observations. Treat all unchecked items in the review as **not performed**, even when normal advisory CI succeeds.
+
+## Postpublication October 18 evidence-integrity release — dated reconciliation
+
+**This section was appended after the release.** The previous same-day [pre-package readiness](scholarly/release-readiness-2026-10-18.md) is retained as an **earlier** assessment, not erased or rewritten to pretend the future release already existed at that time.
+
+- GitHub Release `v2026.10-evidence-integrity`: published **2026-10-18T04:38:57Z**, tagged source commit `a78e5fdcac843c7752b2122f68267688a44674ef`, independently compared with prepublication `main` as **identical**.
+- Zenodo exact version record **23446162**, version DOI [`10.5281/zenodo.23446162`](https://doi.org/10.5281/zenodo.23446162), created **2026-10-18T04:39:01.101885Z**; stable **concept DOI** remains `10.5281/zenodo.23166490`.
+- [DataCite](https://api.datacite.org/dois/10.5281/zenodo.23446162) reports registration **2026-10-18T04:39:02Z**, state `findable` and `IsVersionOf=10.5281/zenodo.23166490`.
+- Zenodo exposes one ZIP (**1,392,684 bytes**) with provider-reported MD5 `dbc5b4bdbd5e5fbb3b6fb6eb5ec44fa3`. The actual ZIP was **not downloaded and locally rehashed** during this review.
+- **New immutable-tag citation drift:** [October 18 tagged `CITATION.cff`](https://github.com/lostlight530/research-software-identity-audit/blob/v2026.10-evidence-integrity/CITATION.cff) and [tagged CodeMeta](https://github.com/lostlight530/research-software-identity-audit/blob/v2026.10-evidence-integrity/codemeta.json) embedded the earlier **October 10** version metadata. This new defect is independently verified and **not retroactively repaired in old archival bytes**.
+- The *later live-main* `CITATION.cff`/`codemeta.json` correction to the new verified version DOI and date is a **different state** from the tagged archive. Dated evidence and corrective provenance: [scholarly/release-identity-reconciliation-2026-10-18.md](scholarly/release-identity-reconciliation-2026-10-18.md).
+
+**Mandatory future release safeguard:** before creating the next immutable release, validate the exact proposed **tagged** `CITATION.cff` version/date/DOI and CodeMeta version/date against the intended new version; **never invent a Zenodo version DOI before registration**, and independently recheck after publication. A post-release live-`main` metadata fix is **not** tag repair or archival verification. The audit-control release is not RS11 and never automatically triggers a scheduled prospective observation.

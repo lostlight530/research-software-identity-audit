@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "record_id": "2026-10-18-orcid-openaire-user-initiated-beta-work-refresh",
+  "record_class": "diagnostic_user_attributed_account_action_and_public_identity_recheck",
+  "logical_day": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "exact_user_action_timestamp": "UNKNOWN",
+  "public_orcid_retrieval_timestamp": "NOT_RETURNED_BY_TEXT_EXTRACTOR",
+  "provenance": {
+    "authenticated_ui_source": "researcher_pasted_OpenAIRE_update_confirmation_and_ORCID_Work_details_in_this_conversation",
+    "independent_public_source": "https://pub.orcid.org/v3.0/0009-0001-3617-0832/works?format=json",
+    "openaire_pid_software": "https://explore.openaire.eu/search/software?pid=10.5281%2Fzenodo.23166491",
+    "openaire_pid_dataset": "https://explore.openaire.eu/search/dataset?pid=10.5281%2Fzenodo.23166491",
+    "zenodo_beta": "https://zenodo.org/records/23166491"
+  },
+  "user_reported_scope": {
+    "interface": "My ORCID links",
+    "user_reported_link_count": 11,
+    "pages_shown": 3,
+    "user_reported_action": "all listed links updated",
+    "individual_confirmation_receipts_retained": 1
+  },
+  "beta_example": {
+    "doi": "10.5281/zenodo.23166491",
+    "concept_doi": "10.5281/zenodo.23166490",
+    "software_release_date": "2026-10-05",
+    "ui_success_confirmation": true,
+    "attributed_confirmation_text": "You have successfully updated work ... in your ORCID record",
+    "orcid_versions_user_visible": [
+      {
+        "source": "DataCite",
+        "work_type": "Software",
+        "user_visible_added": "2026-10-09",
+        "user_visible_last_modified": "2026-10-09",
+        "original_release_modified": false
+      },
+      {
+        "source": "OpenAIRE",
+        "work_type": "Dataset",
+        "user_visible_added": "2026-10-05",
+        "user_visible_last_modified": "2026-10-18",
+        "same_doi_as_software": true
+      }
+    ],
+    "direct_public_orcid_doi_presence": "VERIFIED",
+    "direct_public_orcid_sources_present": [
+      "DataCite",
+      "OpenAIRE"
+    ],
+    "direct_public_orcid_last_modified_2026_10_18_attributed_confirmation": "NOT_INDEPENDENTLY_RECONCILED_AS_PER_SOURCE_TIMESTAMP",
+    "new_scholarly_work_created_by_refresh": false,
+    "preferred_source_changed": "NOT_VERIFIED",
+    "openaire_green_icon_refreshed": "NOT_VERIFIED"
+  },
+  "interpretation": {
+    "success_scope": "BETA_ONE_ITEM_USER_AUTHENTICATED_UI_SUCCESS_CONFIRMED",
+    "batch_status": "ELEVEN_ACTIONS_USER_REPORTED_BUT_ONLY_ONE_DETAILED_CONFIRMATION_CAPTURED",
+    "semantic_issue": "OpenAIRE Dataset vs DataCite Software presentation for one DOI; do not count as two independent control-software objects or infer renaming",
+    "future_platform_sync": "UNKNOWN",
+    "causal_actor_attribution": "NO_CLAIM",
+    "control_repository_is_rs11": false,
+    "prospective_dataset_member": false,
+    "osf_registration_modified": false,
+    "baseline_or_historical_source_modified": false
+  },
+  "data_handling": {
+    "public_orcid_doi_kept": true,
+    "private_session_or_token_kept": false,
+    "private_account_url_kept": false,
+    "screenshot_bytes_saved": false,
+    "original_http_transport_bytes_saved": false
+  },
+  "limitations": [
+    "A maintainer-observed authenticated success confirmation is stronger evidence of that single interface action than an unconfirmed button press, but is not a byte-preserved private transaction log.",
+    "The other ten link updates are user-reported batch activity and lack individual item receipts in this conversation.",
+    "ORCID public Works returned Beta DOI/source identities, but source-specific current last-modified fields were not independently established in the public text extraction.",
+    "A changed ORCID Work date does not establish OpenAIRE refresh of its cached link icon nor a new release, DOI or prospective observation."
+  ]
+}

@@ -37,3 +37,15 @@ The live `main` may contain work merged after the latest archival release; such 
 ## Boundary rule
 
 OSF preregistration DOI, Zenodo concept DOI, Zenodo release DOI, GitHub repository URL, OSF project URL, ORCID and downstream registry identifiers refer to non-equivalent objects. No release here adds an eleventh object to the fixed RS01–RS10 sample or proves scientific validation, reuse or a prospective timepoint.
+
+## Later verified control-software release — October 18, 2026
+
+The existing archive table above is a **dated earlier view**. A **fourth control GitHub Release** was independently verified after the October 18 morning pre-package review:
+
+| New GitHub release tag | GitHub published (UTC) | New Zenodo exact-version DOI |
+| --- | --- | --- |
+| [`v2026.10-evidence-integrity`](https://github.com/lostlight530/research-software-identity-audit/releases/tag/v2026.10-evidence-integrity) | **2026-10-18T04:38:57Z** | **[`10.5281/zenodo.23446162`](https://doi.org/10.5281/zenodo.23446162)** |
+
+Zenodo confirms `conceptdoi=10.5281/zenodo.23166490`, and DataCite registered `10.5281/zenodo.23446162` at **2026-10-18T04:39:02Z** with `IsVersionOf` the same concept. The **new immutable October 18 tag still embeds October 10 version metadata** in `CITATION.cff` and `codemeta.json`. We retain that archived discrepancy and have only aligned **later live `main`** with the now-existing October 18 DOI; this does not change tag bytes or an already-created Zenodo ZIP.
+
+See [2026-10-18 release identity reconciliation](release-identity-reconciliation-2026-10-18.md). Cite the **exact Oct 18 version DOI** for that archive and keep the concept DOI for the evolving research-control software family. The [OSF registration DOI](https://doi.org/10.17605/OSF.IO/5B329) continues to identify the frozen study design alone.
