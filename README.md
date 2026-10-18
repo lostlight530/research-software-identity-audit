@@ -13,6 +13,9 @@ The study is publicly preregistered on OSF and examines how a fixed corpus of re
 > **Important:** This repository supports the study. It is **not an eleventh research-software object** in the fixed ten-object study corpus.
 
 
+
+**October 18, 2026 research maintenance handoff:** [Consolidated evidence and repo continuity record](docs/research-session-closeout-2026-10-18.md) · [Latest independently verified control-software release and archival metadata caveat](scholarly/release-identity-reconciliation-2026-10-18.md) · [ORCID–OpenAIRE user-confirmed Beta update](monitoring/2026-10-18/02-orcid-openaire-work-refresh/README.md). These are dated state reports; the OSF registration remains frozen and the control repository remains outside RS01–RS10.
+
 ## Start here — documentation and repository navigation
 
 For contributors and independent reviewers, the [**documentation map**](docs/README.md) identifies the authoritative owner of each folder, study/object boundaries, evidence levels, and the docs-only maintenance process.
