@@ -37,6 +37,7 @@ Six preregistered infrastructure **layers** yield `10 × 6 = 60` object-layer un
 | `tools/` | [Offline and contract checker commands](../tools/README.md) | Advisory CI is a guardrail, not a claim of scientific verification |
 | `.github/` | [PR template](../.github/PULL_REQUEST_TEMPLATE.md), [CI workflow](../.github/workflows/validate.yml), issue templates | PR/issue process is not a change to the research contract |
 | `docs/` | This documentation map | Navigation and maintainership instructions, **not** observational evidence |
+| `RELEASE_POLICY.md` and `scholarly/release-readiness-2026-10-18.md` | [Immutable release policy](../RELEASE_POLICY.md) and [dated package-preflight checklist](../scholarly/release-readiness-2026-10-18.md) | A preflight is not a new tag, Zenodo version DOI, or archived release |
 
 **Do not move or rename historical `monitoring/`, `evidence/`, `baseline/`, or `provenance/` paths for cosmetic organization.** Existing evidence manifests, source locators, hashes, PR links and paper references may depend on those paths. The historical [October 8 path-migration ledger](../monitoring/path-migration-2026-10-08.csv) is a **dated** migration record, not permission for another silent rewrite.
 
