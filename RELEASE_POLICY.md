@@ -76,3 +76,7 @@ This is a genuine **archived-embedded citation metadata drift**, not an error in
 At the independent October 11 public comparison, Zenodo's [versions endpoint](https://zenodo.org/api/records/23284570/versions?allversions=true) enumerated **three** control-software versions, while the public DataCite [concept DOI metadata](https://api.datacite.org/dois/10.5281/zenodo.23166490) exposed `HasVersion` relationships only for the first **two**. DataCite's newly registered **version DOI** does independently expose `IsVersionOf=10.5281/zenodo.23166490`. This is a **bounded registry relation inconsistency**, not evidence that the third DOI is absent, nor a known sync mechanism or propagation-latency measurement.
 
 These control-software releases are not RS01–RS10 eligible new-release events, and none starts the preregistered prospective dataset by itself.
+
+## October 18, 2026 pre-package readiness — no new release
+
+[The dated release-readiness review](scholarly/release-readiness-2026-10-18.md) checks the existing 3 control-software Release identities, concept/version DOI roles, citation/CodeMeta/Zenodo metadata boundaries, and actual pending archival gates. It does **not** change the immutable October 10 tag, predict a new DOI, publish a Release, or classify supplementary platform diagnostics as eligible prospective observations. Treat all unchecked items in the review as **not performed**, even when normal advisory CI succeeds.

@@ -1,0 +1,11 @@
+object_id,software_family,zenodo_record_id,user_pasted_concatenated_token,page_all_versions_unique_views,page_all_versions_unique_downloads,previous_2026_10_17_page_unique_views,previous_2026_10_17_page_unique_downloads,display_difference_views,display_difference_downloads,source_locator,source_attribution,clock_window_Asia_Shanghai,precision,original_http_bytes_retained
+RS01,welcome-to-github,23365504,1895,189,5,187,5,2,0,https://zenodo.org/records/23365504,RESEARCHER_SUPPLIED_UI_FLATTENED_TEXT,2026-10-18 11-hour,exact minute unknown,false
+RS02,zero-entropy-lab,23365551,1471,147,1,145,1,2,0,https://zenodo.org/records/23365551,RESEARCHER_SUPPLIED_UI_FLATTENED_TEXT,2026-10-18 11-hour,exact minute unknown,false
+RS03,Axiom-0,23365534,1701,170,1,167,1,3,0,https://zenodo.org/records/23365534,RESEARCHER_SUPPLIED_UI_FLATTENED_TEXT,2026-10-18 11-hour,exact minute unknown,false
+RS04,reflective-continuum,23365567,1231,123,1,120,1,3,0,https://zenodo.org/records/23365567,RESEARCHER_SUPPLIED_UI_FLATTENED_TEXT,2026-10-18 11-hour,exact minute unknown,false
+RS05,agent-foundations,23365540,1482,148,2,146,2,2,0,https://zenodo.org/records/23365540,RESEARCHER_SUPPLIED_UI_FLATTENED_TEXT,2026-10-18 11-hour,exact minute unknown,false
+RS06,auto-doc-engine,23365510,1400,140,0,138,0,2,0,https://zenodo.org/records/23365510,RESEARCHER_SUPPLIED_UI_FLATTENED_TEXT,2026-10-18 11-hour,exact minute unknown,false
+RS07,epistemic-pipeline,23365517,1501,150,1,148,1,2,0,https://zenodo.org/records/23365517,RESEARCHER_SUPPLIED_UI_FLATTENED_TEXT,2026-10-18 11-hour,exact minute unknown,false
+RS08,sci-render-kit,23365525,1392,139,2,137,2,2,0,https://zenodo.org/records/23365525,RESEARCHER_SUPPLIED_UI_FLATTENED_TEXT,2026-10-18 11-hour,exact minute unknown,false
+RS09,china-agentic-observatory,23365548,1571,157,1,155,1,2,0,https://zenodo.org/records/23365548,RESEARCHER_SUPPLIED_UI_FLATTENED_TEXT,2026-10-18 11-hour,exact minute unknown,false
+RS10,agentic-frontier-observatory,23365543,1702,170,2,168,2,2,0,https://zenodo.org/records/23365543,RESEARCHER_SUPPLIED_UI_FLATTENED_TEXT,2026-10-18 11-hour,exact minute unknown,false
