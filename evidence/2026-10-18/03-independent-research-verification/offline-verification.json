@@ -1,0 +1,609 @@
+{
+  "mode": "offline_read_only",
+  "network_calls": 0,
+  "checks": 149,
+  "failed": 0,
+  "results": [
+    {
+      "check": "fixed corpus remains RS01-RS10",
+      "passed": true
+    },
+    {
+      "check": "diagnostic only",
+      "passed": true
+    },
+    {
+      "check": "denominator",
+      "passed": true
+    },
+    {
+      "check": "DOI enumeration complete",
+      "passed": true
+    },
+    {
+      "check": "DOIs findable",
+      "passed": true
+    },
+    {
+      "check": "ORCID match",
+      "passed": true
+    },
+    {
+      "check": "RS01 release/DOI join",
+      "passed": true
+    },
+    {
+      "check": "RS01 origin status",
+      "passed": true
+    },
+    {
+      "check": "RS01 discovery count",
+      "passed": true
+    },
+    {
+      "check": "RS02 release/DOI join",
+      "passed": true
+    },
+    {
+      "check": "RS02 origin status",
+      "passed": true
+    },
+    {
+      "check": "RS02 discovery count",
+      "passed": true
+    },
+    {
+      "check": "RS03 release/DOI join",
+      "passed": true
+    },
+    {
+      "check": "RS03 origin status",
+      "passed": true
+    },
+    {
+      "check": "RS03 discovery count",
+      "passed": true
+    },
+    {
+      "check": "RS04 release/DOI join",
+      "passed": true
+    },
+    {
+      "check": "RS04 origin status",
+      "passed": true
+    },
+    {
+      "check": "RS04 discovery count",
+      "passed": true
+    },
+    {
+      "check": "RS05 release/DOI join",
+      "passed": true
+    },
+    {
+      "check": "RS05 origin status",
+      "passed": true
+    },
+    {
+      "check": "RS05 discovery count",
+      "passed": true
+    },
+    {
+      "check": "RS06 release/DOI join",
+      "passed": true
+    },
+    {
+      "check": "RS06 origin status",
+      "passed": true
+    },
+    {
+      "check": "RS06 discovery count",
+      "passed": true
+    },
+    {
+      "check": "RS07 release/DOI join",
+      "passed": true
+    },
+    {
+      "check": "RS07 origin status",
+      "passed": true
+    },
+    {
+      "check": "RS07 discovery count",
+      "passed": true
+    },
+    {
+      "check": "RS08 release/DOI join",
+      "passed": true
+    },
+    {
+      "check": "RS08 origin status",
+      "passed": true
+    },
+    {
+      "check": "RS08 discovery count",
+      "passed": true
+    },
+    {
+      "check": "RS09 release/DOI join",
+      "passed": true
+    },
+    {
+      "check": "RS09 origin status",
+      "passed": true
+    },
+    {
+      "check": "RS09 discovery count",
+      "passed": true
+    },
+    {
+      "check": "RS10 release/DOI join",
+      "passed": true
+    },
+    {
+      "check": "RS10 origin status",
+      "passed": true
+    },
+    {
+      "check": "RS10 discovery count",
+      "passed": true
+    },
+    {
+      "check": "Zenodo sum views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo sum unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo sum downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo sum unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo sum version_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo sum version_unique_views",
+      "passed": true
+    },
+    {
+      "check": "Zenodo sum version_downloads",
+      "passed": true
+    },
+    {
+      "check": "Zenodo sum version_unique_downloads",
+      "passed": true
+    },
+    {
+      "check": "query/profile separate",
+      "passed": true
+    },
+    {
+      "check": "zenodo_audit_fourth archive digest",
+      "passed": true
+    },
+    {
+      "check": "zenodo_life archive digest",
+      "passed": true
+    },
+    {
+      "check": "archived drift retained",
+      "passed": true
+    },
+    {
+      "check": "live correction separate",
+      "passed": true
+    },
+    {
+      "check": "no offsets declared",
+      "passed": true
+    },
+    {
+      "check": "merged PRs",
+      "passed": true
+    },
+    {
+      "check": "CI job evidence",
+      "passed": true
+    },
+    {
+      "check": "OpenEBench no validation",
+      "passed": true
+    },
+    {
+      "check": "capture clock biotools",
+      "passed": true
+    },
+    {
+      "check": "capture clock datacite_audit_fourth",
+      "passed": true
+    },
+    {
+      "check": "capture clock datacite_life",
+      "passed": true
+    },
+    {
+      "check": "capture clock datacite_orcid",
+      "passed": true
+    },
+    {
+      "check": "capture clock datacite_orcid_wildcard",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_audit_head",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_audit_release",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_closeout",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_contract",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_current_citation",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_current_codemeta",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_life_jobs_39092740134",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_life_jobs_39103619774",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_life_release",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_noon_20261016",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_pinned_citation",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_pinned_codemeta",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_pinned_contract",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_pinned_schedule",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_release_identity_reconciliation",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_schedule",
+      "passed": true
+    },
+    {
+      "check": "capture clock github_schedule_files",
+      "passed": true
+    },
+    {
+      "check": "capture clock hal_record",
+      "passed": true
+    },
+    {
+      "check": "capture clock openaire_agent-foundations",
+      "passed": true
+    },
+    {
+      "check": "capture clock openaire_agentic-frontier-observatory",
+      "passed": true
+    },
+    {
+      "check": "capture clock openaire_auto-doc-engine",
+      "passed": true
+    },
+    {
+      "check": "capture clock openaire_axiom",
+      "passed": true
+    },
+    {
+      "check": "capture clock openaire_china-agentic-observatory",
+      "passed": true
+    },
+    {
+      "check": "capture clock openaire_epistemic-pipeline",
+      "passed": true
+    },
+    {
+      "check": "capture clock openaire_reflective-continuum",
+      "passed": true
+    },
+    {
+      "check": "capture clock openaire_sci-render-kit",
+      "passed": true
+    },
+    {
+      "check": "capture clock openaire_welcome-to-github",
+      "passed": true
+    },
+    {
+      "check": "capture clock openaire_zero-entropy-lab",
+      "passed": true
+    },
+    {
+      "check": "capture clock openalex_author",
+      "passed": true
+    },
+    {
+      "check": "capture clock openalex_works",
+      "passed": true
+    },
+    {
+      "check": "capture clock openebench",
+      "passed": true
+    },
+    {
+      "check": "capture clock orcid_works",
+      "passed": true
+    },
+    {
+      "check": "capture clock osf_registration",
+      "passed": true
+    },
+    {
+      "check": "capture clock pr_agentic-frontier-observatory",
+      "passed": true
+    },
+    {
+      "check": "capture clock pr_auto-doc-engine",
+      "passed": true
+    },
+    {
+      "check": "capture clock pr_china-agentic-observatory",
+      "passed": true
+    },
+    {
+      "check": "capture clock pr_epistemic-pipeline",
+      "passed": true
+    },
+    {
+      "check": "capture clock pr_sci-render-kit",
+      "passed": true
+    },
+    {
+      "check": "capture clock pr_welcome-to-github",
+      "passed": true
+    },
+    {
+      "check": "capture clock pr_zero-entropy-lab",
+      "passed": true
+    },
+    {
+      "check": "capture clock release_Axiom-0",
+      "passed": true
+    },
+    {
+      "check": "capture clock release_agent-foundations",
+      "passed": true
+    },
+    {
+      "check": "capture clock release_agentic-frontier-observatory",
+      "passed": true
+    },
+    {
+      "check": "capture clock release_auto-doc-engine",
+      "passed": true
+    },
+    {
+      "check": "capture clock release_china-agentic-observatory",
+      "passed": true
+    },
+    {
+      "check": "capture clock release_epistemic-pipeline",
+      "passed": true
+    },
+    {
+      "check": "capture clock release_reflective-continuum",
+      "passed": true
+    },
+    {
+      "check": "capture clock release_sci-render-kit",
+      "passed": true
+    },
+    {
+      "check": "capture clock release_welcome-to-github",
+      "passed": true
+    },
+    {
+      "check": "capture clock release_zero-entropy-lab",
+      "passed": true
+    },
+    {
+      "check": "capture clock rsd",
+      "passed": true
+    },
+    {
+      "check": "capture clock rsd_corrected",
+      "passed": true
+    },
+    {
+      "check": "capture clock scicrunch",
+      "passed": true
+    },
+    {
+      "check": "capture clock swh_agent-foundations",
+      "passed": true
+    },
+    {
+      "check": "capture clock swh_agentic-frontier-observatory",
+      "passed": true
+    },
+    {
+      "check": "capture clock swh_auto-doc-engine",
+      "passed": true
+    },
+    {
+      "check": "capture clock swh_axiom",
+      "passed": true
+    },
+    {
+      "check": "capture clock swh_china-agentic-observatory",
+      "passed": true
+    },
+    {
+      "check": "capture clock swh_epistemic-pipeline",
+      "passed": true
+    },
+    {
+      "check": "capture clock swh_reflective-continuum",
+      "passed": true
+    },
+    {
+      "check": "capture clock swh_sci-render-kit",
+      "passed": true
+    },
+    {
+      "check": "capture clock swh_welcome-to-github",
+      "passed": true
+    },
+    {
+      "check": "capture clock swh_zero-entropy-lab",
+      "passed": true
+    },
+    {
+      "check": "capture clock workflow_2332",
+      "passed": true
+    },
+    {
+      "check": "capture clock workflow_2334",
+      "passed": true
+    },
+    {
+      "check": "capture clock workflow_2337",
+      "passed": true
+    },
+    {
+      "check": "capture clock workflow_2347",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_23365504",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_23365510",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_23365517",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_23365525",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_23365534",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_23365540",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_23365543",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_23365548",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_23365551",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_23365567",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_audit_fourth",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_audit_fourth_archive",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_life",
+      "passed": true
+    },
+    {
+      "check": "capture clock zenodo_life_archive",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-18/03-independent-research-verification/capture-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-18/03-independent-research-verification/field-extracts.json",
+      "passed": true
+    },
+    {
+      "check": "artifact evidence/2026-10-18/03-independent-research-verification/README.md",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-18/03-independent-research-verification/datacite-identifiers.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-18/03-independent-research-verification/README.md",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-18/03-independent-research-verification/record.json",
+      "passed": true
+    },
+    {
+      "check": "artifact monitoring/2026-10-18/03-independent-research-verification/zenodo-family-statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "artifact tools/check_research_capture_20261018.py",
+      "passed": true
+    },
+    {
+      "check": "CSV count datacite-identifiers.csv",
+      "passed": true
+    },
+    {
+      "check": "CSV count zenodo-family-statistics.csv",
+      "passed": true
+    }
+  ],
+  "negative_cases_rejected": [
+    "foreign_corpus_id",
+    "wrong_archive_digest",
+    "altered_counter_sum"
+  ]
+}

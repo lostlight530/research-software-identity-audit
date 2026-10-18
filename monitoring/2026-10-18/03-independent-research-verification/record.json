@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-18",
+  "scope": "research_only",
+  "started_at": "2026-10-18T22:41:00.951606+08:00",
+  "finished_at": "2026-10-18T22:42:22.317781+08:00",
+  "requests": 86,
+  "status_counts": {
+    "200": 84,
+    "400": 1,
+    "403": 1
+  },
+  "fixed_corpus_size": 10,
+  "planned_layers": 6,
+  "planned_units": 60,
+  "head": "053bc6a6c6f3659d2f5c9cc0c0542760081c1218",
+  "datacite": {
+    "query_count": 76,
+    "types": {
+      "Workflow": 19,
+      "Software": 56,
+      "StudyRegistration": 1
+    },
+    "clients": {
+      "borq.00002-2021": 19,
+      "cern.zenodo": 56,
+      "cos.osf": 1
+    },
+    "first_naked_identifier_query_count": 56,
+    "all_exact_orcid_matches": true
+  },
+  "openalex": {
+    "profile_count": 29,
+    "query_count": 30,
+    "types": {
+      "software": 11,
+      "other": 19
+    },
+    "cited_by_count": 1
+  },
+  "orcid": {
+    "groups": 17,
+    "work_summaries": 89
+  },
+  "zenodo_fixed_ten": {
+    "views": 2398,
+    "unique_views": 1559,
+    "downloads": 17,
+    "unique_downloads": 16,
+    "version_views": 38,
+    "version_unique_views": 35,
+    "version_downloads": 9,
+    "version_unique_downloads": 9
+  },
+  "swh": {
+    "full_origin_visits": 10,
+    "tag_commit_directory_chain_verified": false
+  },
+  "openaire": {
+    "checkpoint_doi_hits": 10
+  },
+  "rsd_software_records": 11,
+  "hal_num_found": 0,
+  "scicrunch_status": 403,
+  "workflowhub_version_detail_activity": [
+    {
+      "id": "2332",
+      "detail_views": 1294,
+      "detail_downloads": 138,
+      "doi": "10.48546/workflowhub.workflow.2332.8"
+    },
+    {
+      "id": "2334",
+      "detail_views": 1311,
+      "detail_downloads": 106,
+      "doi": "10.48546/workflowhub.workflow.2334.8"
+    },
+    {
+      "id": "2337",
+      "detail_views": 395,
+      "detail_downloads": 17,
+      "doi": "10.48546/workflowhub.workflow.2337.1"
+    },
+    {
+      "id": "2347",
+      "detail_views": 86,
+      "detail_downloads": 15,
+      "doi": "10.48546/workflowhub.workflow.2347.2"
+    }
+  ],
+  "repository_modified": false,
+  "source_archive_code_executed": false,
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "concrete_operational_platform_count": 7,
+  "raw_transport_publicly_retained": false
+}

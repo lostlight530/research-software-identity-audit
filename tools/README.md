@@ -71,3 +71,7 @@ Run `python tools/check_retained_evening_20261014.py` locally for the new releas
 ## October 15 morning retained evidence
 
 Run `python tools/check_retained_morning_20261015.py` locally for the new source, aggregation, version-count and identity joins. The checker is offline and not added to cloud CI
+
+## October 18 research capture
+
+Run `python -B tools/check_research_capture_20261018.py` for read-only public-artifact hashes, field joins and count consistency. Original raw response/ZIP bytes are locally retained and not included in this public field-extract package. This command is not added to cloud CI.

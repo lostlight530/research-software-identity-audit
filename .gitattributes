@@ -10,3 +10,8 @@ monitoring/2026-10-14/04-morning-facility-recheck/** text eol=lf
 monitoring/2026-10-14/05-noon-user-pages/** text eol=lf
 monitoring/2026-10-14/06-evening-facility-recheck/** text eol=lf
 monitoring/2026-10-15/01-morning-facility-recheck/** text eol=lf
+
+# October 18 independent research capture: preserve sealed LF text
+/monitoring/2026-10-18/03-independent-research-verification/** text eol=lf
+/evidence/2026-10-18/03-independent-research-verification/** text eol=lf
+/tools/check_research_capture_20261018.py text eol=lf
