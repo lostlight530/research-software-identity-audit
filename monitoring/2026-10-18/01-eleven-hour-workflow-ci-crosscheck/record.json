@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "record_id": "2026-10-18-eleven-hour-lifemonitor-workflow-ci-crosscheck",
+  "record_class": "diagnostic_monitoring",
+  "logical_day": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "user_labelled_window": "11:00 hour",
+  "exact_user_snapshot_clock_time": "UNKNOWN",
+  "review_session_local_time_anchor": "2026-10-18T11:25:12+08:00",
+  "api_per_request_retrieval_timestamp": "NOT_RETURNED",
+  "evidence_clock_note": "GitHub run created/completed timestamps are native event times; separate from the screenshot time and review retrieval time.",
+  "prospective_dataset_member": false,
+  "preregistered_fixed_sample_count": 10,
+  "control_repo_is_RS11": false,
+  "preregistered_infrastructure_layer_count": 6,
+  "concrete_operational_platform_count": 7,
+  "preregistered_object_layer_units_per_scheduled_timepoint": 60,
+  "source_life_science_repo": {
+    "repository": "lostlight530/life-science-ecosystem-lab",
+    "current_main_sha": "d2a6ec6e943f0b8888e007053ddb0d3d9be47367",
+    "main_commit_time_utc": "2026-10-18T03:11:25Z",
+    "pr_26": {
+      "status": "MERGED",
+      "time_utc": "2026-10-18T03:11:25Z",
+      "purpose": "Align Workflow Testing RO-Crate GithubService; name; test service URL; version identity; metadata checking",
+      "change_impact": "documented metadata/test interface changes; no change to frozen OSF registration"
+    },
+    "main_validate_run": {
+      "run_id": 39092740134,
+      "created_at_utc": "2026-10-18T03:11:28Z",
+      "updated_at_utc": "2026-10-18T03:12:06Z",
+      "status": "completed",
+      "conclusion": "success",
+      "jobs_queried": 5,
+      "jobs_success": 5,
+      "job_names": [
+        "Repository contracts",
+        "Knowledge Workflow",
+        "Evidence Tool",
+        "Portable package",
+        "validate"
+      ]
+    },
+    "native_vs_portable": "GitHub native validate.yml remains separate from WorkflowHub portable CWL main.cwl; success of CI does not establish private LifeMonitor service status or scientific/clinical validity",
+    "source_repo_public_metadata_claim": "public metadata/standards-status.json attributes LifeMonitor private local-upload monitored test as externally observed; this is a maintainer-supplied private-surface claim and was not independently replayed via public LifeMonitor API",
+    "independent_exhaustive_CI_log_replay": false
+  },
+  "lifemonitor": {
+    "source": "user_supplied_authenticated_page_text",
+    "visibility": "Private",
+    "workflow_type": "cwl",
+    "declared_status": "all_passing",
+    "passing": 1,
+    "error": 0,
+    "failed": 0,
+    "waiting": 0,
+    "running": 0,
+    "aborted": 0,
+    "private_workflow_identifier_republished": false,
+    "private_test_instance_identifier_republished": false,
+    "private_url_republished": false,
+    "public_access": "PAGE_SHELL_ONLY",
+    "public_service_status_independently_verified": false,
+    "origin": "local file uploaded",
+    "automatic_workflowhub_sync_proven": false,
+    "unrelated_static_inspection": "evidence/field-tests/2026-10-17/lifemonitor-inspection.json is a static nonexecuting report with PASS1 WARN3 FAIL0; not a LifeMonitor test-build result"
+  },
+  "workflowhub": {
+    "team": "NEXUS CORTEX Research Workflows",
+    "project_id": 490,
+    "public_workflow_ids": [
+      2347,
+      2332,
+      2334,
+      2337
+    ],
+    "visible_workflow_count": 4,
+    "workflow_2347": {
+      "doi": "10.48546/workflowhub.workflow.2347.1",
+      "public_identity_confirmed": true,
+      "version_display": "0.4.0",
+      "status_WIP_from_user_excerpt": true,
+      "public_listing_visible": true
+    },
+    "other_workflows": [
+      {
+        "id": 2332,
+        "doi": "10.48546/workflowhub.workflow.2332.8"
+      },
+      {
+        "id": 2334,
+        "doi": "10.48546/workflowhub.workflow.2334.8"
+      },
+      {
+        "id": 2337,
+        "doi": "10.48546/workflowhub.workflow.2337.1"
+      }
+    ],
+    "current_activity_counter_verified": false,
+    "registered_workflows_are_not_new_RS_objects": true
+  },
+  "biotools": {
+    "biotoolsID": "life-science-protein-file-audit",
+    "api_public_record_visible": true,
+    "validated_raw_flag": 0,
+    "homepage_status_raw_flag": 0,
+    "openebench_link_in_supplied_excerpt": true,
+    "openebench_metric_verified": false
+  },
+  "scope": {
+    "research_control_repository_updated_with_diagnostic_only": true,
+    "new_eligible_release_event_adjudicated": false,
+    "prospective_observation_cells_created": 0,
+    "osf_registration_modified": false,
+    "schema_modified": false,
+    "baseline_modified": false,
+    "schedule_modified": false,
+    "external_platforms_added_to_preregistered_seven": false,
+    "raw_private_evidence_archived_publicly": false
+  },
+  "source_ledger": "source-attempts.csv",
+  "source_ledger_row_count": 11,
+  "limits": [
+    "Private LifeMonitor portal displayed only a public shell to unauthenticated web extraction. The 1-passing state is user supplied, not independently accessible.",
+    "A GitHub Actions success validates the checks represented by that workflow; it does not assert the private service built/monitored the same run.",
+    "No per-request HTTP response bytes, headers or capture timestamps were saved; dates and native GitHub event clocks are retained where available.",
+    "The linked OpenEBench page supplied no extractable benchmark result; it is not proof of benchmarking.",
+    "WorkflowHub and bio.tools are supplementary observation surfaces, not new preregistered infrastructure layers."
+  ],
+  "outcome": "GITHUB_NATIVE_CI_5_OF_5_SUCCESS; LIFEMONITOR_ONE_PASSING_USER_SUPPLIED_PRIVATE; WORKFLOWHUB_FOUR_IDENTITIES; BIOTOOLS_PUBLIC_RECORD; NOT_PROSPECTIVE"
+}
