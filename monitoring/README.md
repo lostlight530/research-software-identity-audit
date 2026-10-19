@@ -95,3 +95,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 18 independent research verification
 
 - [22:41–22:42 research-only diagnostic](2026-10-18/03-independent-research-verification/README.md) — 76 DOI enumeration, separate OpenAlex profile/query counts, fixed-ten checkpoint joins, archived Citation/CodeMeta byte inspection and supplementary software CI evidence
+
+## October 19 bounded independent evening check
+
+- [2026-10-19 / 01-evening-bounded-public-check](2026-10-19/01-evening-bounded-public-check/README.md) — fixed-ten GitHub Release/tag ref gate, DataCite count, OpenAlex profile/query discrepancy with two additional Work IDs, and paired Zenodo URL-variant counter conflict. Diagnostic only, no prospective cells.

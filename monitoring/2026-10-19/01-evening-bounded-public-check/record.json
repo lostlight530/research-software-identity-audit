@@ -1,0 +1,792 @@
+{
+  "document_type": "selected_public_field_extract",
+  "capture_day": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "record_created_at_utc": "2026-10-19T15:51:48.669Z",
+  "corpus_manifest_ref": "corpus/object-manifest.csv",
+  "reference_main_sha": "6bd9150b962d6776e82ac3db137f68d1742d4176",
+  "method": "GitHub connected API GET plus Parallel_Search web_fetch with allow_live_fetch=true; successful extracted JSON, not raw HTTP transport; caching/actual server clocks unverified",
+  "provenance_scope": {
+    "github_release_and_ref_queries": "2026-10-19 evening, per-request timestamps not preserved by the earlier API connector run",
+    "zenodo_standard_batch_utc": [
+      "2026-10-19T15:44:22.068Z",
+      "2026-10-19T15:44:23.489Z"
+    ],
+    "zenodo_diagnostic_variant_batch_utc": [
+      "2026-10-19T15:45:12.209Z",
+      "2026-10-19T15:45:22.678Z"
+    ],
+    "openalex_selected_profile_query": "2026-10-19 evening; exact request time not separately retained",
+    "openalex_full_works_request_utc": "2026-10-19 evening; exact request time not separately retained",
+    "datacite_query": "2026-10-19 evening; exact request time not separately retained"
+  },
+  "observation_kind": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "prospective_object_layer_units_created": 0,
+  "registered_corpus_size": 10,
+  "registered_infrastructure_layers": 6,
+  "seven_operational_platforms_not_analytical_units": true,
+  "github": {
+    "all_ten_release_lists_returned": true,
+    "all_ten_tag_refs_lists_returned": true,
+    "latest_published_release_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+    "new_release_or_tag_in_returned_list": false,
+    "total_release_list_checks": 10,
+    "total_tag_ref_checks": 10
+  },
+  "datacite": {
+    "url": "https://api.datacite.org/dois?query=creators.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A%20OR%20contributors.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A&page%5Bsize%5D=1",
+    "query_meta_total": 76,
+    "page_size": 1,
+    "fully_enumerated": false,
+    "source_result": "extracted API JSON, not full transport"
+  },
+  "openalex": {
+    "profile_url": "https://api.openalex.org/authors/A5151904252?select=id,works_count,cited_by_count,updated_date",
+    "selected_profile": {
+      "works_count": 30,
+      "cited_by_count": 1,
+      "updated_date": "2026-10-18T12:41:17"
+    },
+    "filtered_works_url": "https://api.openalex.org/works?filter=author.id:A5151904252&per-page=100&select=id,doi,title,type",
+    "filtered_query_meta_count": 32,
+    "returned_unique_works_count": 32,
+    "prior_2026_10_18_works_count": 30,
+    "query_results_new_vs_prior": [
+      {
+        "id": "https://openalex.org/W7222883692",
+        "doi": "https://doi.org/10.5281/zenodo.23447088",
+        "title": "Life Science Ecosystem Lab — Knowledge Workflow, Evidence Tool and Bio Tool",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7222894066",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2347.2",
+        "title": "Life Science Knowledge Workflow",
+        "type": "other"
+      }
+    ],
+    "query_results_absent_vs_prior": [],
+    "works": [
+      {
+        "id": "https://openalex.org/W7220365356",
+        "doi": "https://doi.org/10.5281/zenodo.23166490",
+        "title": "Research Software Identity Audit",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213395896",
+        "doi": "https://doi.org/10.5281/zenodo.22791103",
+        "title": "Axiom-0",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213400679",
+        "doi": "https://doi.org/10.5281/zenodo.22791169",
+        "title": "Agent Foundations",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213401383",
+        "doi": "https://doi.org/10.5281/zenodo.22791309",
+        "title": "China Agentic Observatory",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213415068",
+        "doi": "https://doi.org/10.5281/zenodo.22791404",
+        "title": "auto-doc-engine",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213417036",
+        "doi": "https://doi.org/10.5281/zenodo.22791141",
+        "title": "Reflective Continuum",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213429607",
+        "doi": "https://doi.org/10.5281/zenodo.22791081",
+        "title": "Zero-Entropy Lab",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213430624",
+        "doi": "https://doi.org/10.5281/zenodo.22790907",
+        "title": "welcome-to-github",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213431981",
+        "doi": "https://doi.org/10.5281/zenodo.22791375",
+        "title": "sci-render-kit",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213433288",
+        "doi": "https://doi.org/10.5281/zenodo.22791334",
+        "title": "Agentic Frontier Observatory",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213434988",
+        "doi": "https://doi.org/10.5281/zenodo.22791463",
+        "title": "Epistemic Pipeline",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7220380722",
+        "doi": "https://doi.org/10.17605/osf.io/5b329",
+        "title": "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220948089",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.1",
+        "title": "Title NEXUS CORTEX Life Cycle — zero-entropy-lab",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220962531",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.2",
+        "title": "Title NEXUS CORTEX Life Cycle — welcome-to-github",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220966944",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.2",
+        "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220969795",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.1",
+        "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221127912",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.3",
+        "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221188636",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.3",
+        "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221337272",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.4",
+        "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221366684",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.4",
+        "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221441548",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.5",
+        "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221455900",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2337.1",
+        "title": "Brain Evolution — welcome-to-github",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221460162",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.5",
+        "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221516570",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.6",
+        "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221566397",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.6",
+        "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221612767",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.7",
+        "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221654297",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.7",
+        "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221754327",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.8",
+        "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221802864",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.8",
+        "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7222828651",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2347.1",
+        "title": "Life Science Knowledge Workflow",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7222883692",
+        "doi": "https://doi.org/10.5281/zenodo.23447088",
+        "title": "Life Science Ecosystem Lab — Knowledge Workflow, Evidence Tool and Bio Tool",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7222894066",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2347.2",
+        "title": "Life Science Knowledge Workflow",
+        "type": "other"
+      }
+    ]
+  },
+  "fixed_objects": [
+    {
+      "object_id": "RS01",
+      "software_family": "welcome-to-github",
+      "source_repository": "https://github.com/lostlight530/welcome-to-github",
+      "github_release": {
+        "listed_release_count": 4,
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:14:44Z",
+        "source_url": "https://api.github.com/repos/lostlight530/welcome-to-github/releases?per_page=6"
+      },
+      "github_tag_refs": {
+        "returned_ref_count": 4,
+        "tag_names": [
+          "v2026.09-natural-month-close",
+          "v2026.09-open-research-baseline",
+          "v2026.10-fourteen-day-evidence-checkpoint",
+          "v2026.10-open-research-production-framework"
+        ],
+        "checkpoint_ref_sha": "d1e732f81a03497af1c5afe43c1a00a77e87a828",
+        "source_url": "https://api.github.com/repos/lostlight530/welcome-to-github/git/refs/tags"
+      },
+      "zenodo": {
+        "id": 23365504,
+        "doi": "10.5281/zenodo.23365504",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "standard_url": "https://zenodo.org/api/records/23365504",
+        "variant_url": "https://zenodo.org/api/records/23365504?audit_probe=20261019a",
+        "standard": {
+          "views": 265,
+          "unique_views": 181,
+          "downloads": 6,
+          "unique_downloads": 5,
+          "version_views": 4,
+          "version_unique_views": 3,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "diagnostic_variant": {
+          "views": 280,
+          "unique_views": 196,
+          "downloads": 6,
+          "unique_downloads": 5,
+          "version_views": 5,
+          "version_unique_views": 4,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        }
+      }
+    },
+    {
+      "object_id": "RS02",
+      "software_family": "zero-entropy-lab",
+      "source_repository": "https://github.com/lostlight530/zero-entropy-lab",
+      "github_release": {
+        "listed_release_count": 4,
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:09Z",
+        "source_url": "https://api.github.com/repos/lostlight530/zero-entropy-lab/releases?per_page=6"
+      },
+      "github_tag_refs": {
+        "returned_ref_count": 4,
+        "tag_names": [
+          "v2026.09-natural-month-close",
+          "v2026.09-open-research-baseline",
+          "v2026.10-fourteen-day-evidence-checkpoint",
+          "v2026.10-open-research-production-framework"
+        ],
+        "checkpoint_ref_sha": "f91fff87158dfc4d73cccb43244d39d08d756134",
+        "source_url": "https://api.github.com/repos/lostlight530/zero-entropy-lab/git/refs/tags"
+      },
+      "zenodo": {
+        "id": 23365551,
+        "doi": "10.5281/zenodo.23365551",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "standard_url": "https://zenodo.org/api/records/23365551",
+        "variant_url": "https://zenodo.org/api/records/23365551?audit_probe=20261019a",
+        "standard": {
+          "views": 223,
+          "unique_views": 138,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 2,
+          "version_unique_views": 2,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "diagnostic_variant": {
+          "views": 239,
+          "unique_views": 154,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 3,
+          "version_unique_views": 3,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        }
+      }
+    },
+    {
+      "object_id": "RS03",
+      "software_family": "Axiom-0",
+      "source_repository": "https://github.com/lostlight530/Axiom-0",
+      "github_release": {
+        "listed_release_count": 4,
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:30Z",
+        "source_url": "https://api.github.com/repos/lostlight530/Axiom-0/releases?per_page=6"
+      },
+      "github_tag_refs": {
+        "returned_ref_count": 4,
+        "tag_names": [
+          "v2026.09-natural-month-close",
+          "v2026.09-open-research-baseline",
+          "v2026.10-fourteen-day-evidence-checkpoint",
+          "v2026.10-open-research-production-framework"
+        ],
+        "checkpoint_ref_sha": "af2ef98e26f56c323a08939ac6630d6d2d091256",
+        "source_url": "https://api.github.com/repos/lostlight530/Axiom-0/git/refs/tags"
+      },
+      "zenodo": {
+        "id": 23365534,
+        "doi": "10.5281/zenodo.23365534",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "standard_url": "https://zenodo.org/api/records/23365534",
+        "variant_url": "https://zenodo.org/api/records/23365534?audit_probe=20261019a",
+        "standard": {
+          "views": 246,
+          "unique_views": 161,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 2,
+          "version_unique_views": 2,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "diagnostic_variant": {
+          "views": 262,
+          "unique_views": 177,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 4,
+          "version_unique_views": 4,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        }
+      }
+    },
+    {
+      "object_id": "RS04",
+      "software_family": "reflective-continuum",
+      "source_repository": "https://github.com/lostlight530/reflective-continuum",
+      "github_release": {
+        "listed_release_count": 4,
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:33Z",
+        "source_url": "https://api.github.com/repos/lostlight530/reflective-continuum/releases?per_page=6"
+      },
+      "github_tag_refs": {
+        "returned_ref_count": 4,
+        "tag_names": [
+          "v2026.09-natural-month-close",
+          "v2026.09-open-research-baseline",
+          "v2026.10-fourteen-day-evidence-checkpoint",
+          "v2026.10-open-research-production-framework"
+        ],
+        "checkpoint_ref_sha": "8359fc1fda8c80d94512007b493dec5c9f3945a5",
+        "source_url": "https://api.github.com/repos/lostlight530/reflective-continuum/git/refs/tags"
+      },
+      "zenodo": {
+        "id": 23365567,
+        "doi": "10.5281/zenodo.23365567",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "standard_url": "https://zenodo.org/api/records/23365567",
+        "variant_url": "https://zenodo.org/api/records/23365567?audit_probe=20261019a",
+        "standard": {
+          "views": 197,
+          "unique_views": 115,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 1,
+          "version_unique_views": 1,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "diagnostic_variant": {
+          "views": 214,
+          "unique_views": 130,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 4,
+          "version_unique_views": 4,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        }
+      }
+    },
+    {
+      "object_id": "RS05",
+      "software_family": "agent-foundations",
+      "source_repository": "https://github.com/lostlight530/agent-foundations",
+      "github_release": {
+        "listed_release_count": 4,
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:39Z",
+        "source_url": "https://api.github.com/repos/lostlight530/agent-foundations/releases?per_page=6"
+      },
+      "github_tag_refs": {
+        "returned_ref_count": 4,
+        "tag_names": [
+          "v2026.09-natural-month-close",
+          "v2026.09-open-research-baseline",
+          "v2026.10-fourteen-day-evidence-checkpoint",
+          "v2026.10-open-research-production-framework"
+        ],
+        "checkpoint_ref_sha": "95e95f3ce251c9d88ac3f2931dad694d05231063",
+        "source_url": "https://api.github.com/repos/lostlight530/agent-foundations/git/refs/tags"
+      },
+      "zenodo": {
+        "id": 23365540,
+        "doi": "10.5281/zenodo.23365540",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "standard_url": "https://zenodo.org/api/records/23365540",
+        "variant_url": "https://zenodo.org/api/records/23365540?audit_probe=20261019a",
+        "standard": {
+          "views": 224,
+          "unique_views": 139,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 1,
+          "version_unique_views": 1,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "diagnostic_variant": {
+          "views": 243,
+          "unique_views": 157,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 4,
+          "version_unique_views": 4,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        }
+      }
+    },
+    {
+      "object_id": "RS06",
+      "software_family": "auto-doc-engine",
+      "source_repository": "https://github.com/lostlight530/auto-doc-engine",
+      "github_release": {
+        "listed_release_count": 4,
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:14:54Z",
+        "source_url": "https://api.github.com/repos/lostlight530/auto-doc-engine/releases?per_page=6"
+      },
+      "github_tag_refs": {
+        "returned_ref_count": 4,
+        "tag_names": [
+          "v2026.09-natural-month-close",
+          "v2026.09-open-research-baseline",
+          "v2026.10-fourteen-day-evidence-checkpoint",
+          "v2026.10-open-research-production-framework"
+        ],
+        "checkpoint_ref_sha": "6a471f0d2014d8b456066246ca7eb43b7870c942",
+        "source_url": "https://api.github.com/repos/lostlight530/auto-doc-engine/git/refs/tags"
+      },
+      "zenodo": {
+        "id": 23365510,
+        "doi": "10.5281/zenodo.23365510",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "standard_url": "https://zenodo.org/api/records/23365510",
+        "variant_url": "https://zenodo.org/api/records/23365510?audit_probe=20261019a",
+        "standard": {
+          "views": 217,
+          "unique_views": 132,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 7,
+          "version_unique_views": 5,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "diagnostic_variant": {
+          "views": 233,
+          "unique_views": 148,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 9,
+          "version_unique_views": 7,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        }
+      }
+    },
+    {
+      "object_id": "RS07",
+      "software_family": "epistemic-pipeline",
+      "source_repository": "https://github.com/lostlight530/epistemic-pipeline",
+      "github_release": {
+        "listed_release_count": 4,
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:04Z",
+        "source_url": "https://api.github.com/repos/lostlight530/epistemic-pipeline/releases?per_page=6"
+      },
+      "github_tag_refs": {
+        "returned_ref_count": 4,
+        "tag_names": [
+          "v2026.09-natural-month-close",
+          "v2026.09-open-research-baseline",
+          "v2026.10-fourteen-day-evidence-checkpoint",
+          "v2026.10-open-research-production-framework"
+        ],
+        "checkpoint_ref_sha": "326095b7c962eed292e4f53af863297fd92360db",
+        "source_url": "https://api.github.com/repos/lostlight530/epistemic-pipeline/git/refs/tags"
+      },
+      "zenodo": {
+        "id": 23365517,
+        "doi": "10.5281/zenodo.23365517",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "standard_url": "https://zenodo.org/api/records/23365517",
+        "variant_url": "https://zenodo.org/api/records/23365517?audit_probe=20261019a",
+        "standard": {
+          "views": 225,
+          "unique_views": 142,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 1,
+          "version_unique_views": 1,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "diagnostic_variant": {
+          "views": 243,
+          "unique_views": 159,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 5,
+          "version_unique_views": 5,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        }
+      }
+    },
+    {
+      "object_id": "RS08",
+      "software_family": "sci-render-kit",
+      "source_repository": "https://github.com/lostlight530/sci-render-kit",
+      "github_release": {
+        "listed_release_count": 4,
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:18Z",
+        "source_url": "https://api.github.com/repos/lostlight530/sci-render-kit/releases?per_page=6"
+      },
+      "github_tag_refs": {
+        "returned_ref_count": 4,
+        "tag_names": [
+          "v2026.09-natural-month-close",
+          "v2026.09-open-research-baseline",
+          "v2026.10-fourteen-day-evidence-checkpoint",
+          "v2026.10-open-research-production-framework"
+        ],
+        "checkpoint_ref_sha": "a48dc7375aac3526b5a0a133d0a1f435dcf935e7",
+        "source_url": "https://api.github.com/repos/lostlight530/sci-render-kit/git/refs/tags"
+      },
+      "zenodo": {
+        "id": 23365525,
+        "doi": "10.5281/zenodo.23365525",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "standard_url": "https://zenodo.org/api/records/23365525",
+        "variant_url": "https://zenodo.org/api/records/23365525?audit_probe=20261019a",
+        "standard": {
+          "views": 208,
+          "unique_views": 130,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 1,
+          "version_unique_views": 1,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "diagnostic_variant": {
+          "views": 224,
+          "unique_views": 145,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 3,
+          "version_unique_views": 3,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        }
+      }
+    },
+    {
+      "object_id": "RS09",
+      "software_family": "china-agentic-observatory",
+      "source_repository": "https://github.com/lostlight530/china-agentic-observatory",
+      "github_release": {
+        "listed_release_count": 4,
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:00Z",
+        "source_url": "https://api.github.com/repos/lostlight530/china-agentic-observatory/releases?per_page=6"
+      },
+      "github_tag_refs": {
+        "returned_ref_count": 4,
+        "tag_names": [
+          "v2026.09-natural-month-close",
+          "v2026.09-open-research-baseline",
+          "v2026.10-fourteen-day-evidence-checkpoint",
+          "v2026.10-open-research-production-framework"
+        ],
+        "checkpoint_ref_sha": "6fa92c662ffbe8b8eac14f7c8711f507583c2a92",
+        "source_url": "https://api.github.com/repos/lostlight530/china-agentic-observatory/git/refs/tags"
+      },
+      "zenodo": {
+        "id": 23365548,
+        "doi": "10.5281/zenodo.23365548",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "standard_url": "https://zenodo.org/api/records/23365548",
+        "variant_url": "https://zenodo.org/api/records/23365548?audit_probe=20261019a",
+        "standard": {
+          "views": 234,
+          "unique_views": 150,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 1,
+          "version_unique_views": 1,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "diagnostic_variant": {
+          "views": 249,
+          "unique_views": 164,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 2,
+          "version_unique_views": 2,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        }
+      }
+    },
+    {
+      "object_id": "RS10",
+      "software_family": "agentic-frontier-observatory",
+      "source_repository": "https://github.com/lostlight530/agentic-frontier-observatory",
+      "github_release": {
+        "listed_release_count": 4,
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:53Z",
+        "source_url": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/releases?per_page=6"
+      },
+      "github_tag_refs": {
+        "returned_ref_count": 4,
+        "tag_names": [
+          "v2026.09-natural-month-close",
+          "v2026.09-open-research-baseline",
+          "v2026.10-fourteen-day-evidence-checkpoint",
+          "v2026.10-open-research-production-framework"
+        ],
+        "checkpoint_ref_sha": "7ed79d8870a449262ee7167be6694bcd6b412a62",
+        "source_url": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/git/refs/tags"
+      },
+      "zenodo": {
+        "id": 23365543,
+        "doi": "10.5281/zenodo.23365543",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "standard_url": "https://zenodo.org/api/records/23365543",
+        "variant_url": "https://zenodo.org/api/records/23365543?audit_probe=20261019a",
+        "standard": {
+          "views": 244,
+          "unique_views": 161,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 3,
+          "version_unique_views": 3,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "diagnostic_variant": {
+          "views": 261,
+          "unique_views": 177,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 5,
+          "version_unique_views": 5,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        }
+      }
+    }
+  ],
+  "zenodo_sum_of_record_fields": {
+    "standard": {
+      "views": 2283,
+      "unique_views": 1449,
+      "downloads": 17,
+      "unique_downloads": 16,
+      "version_views": 23,
+      "version_unique_views": 20,
+      "version_downloads": 9,
+      "version_unique_downloads": 9
+    },
+    "diagnostic_variant": {
+      "views": 2448,
+      "unique_views": 1607,
+      "downloads": 17,
+      "unique_downloads": 16,
+      "version_views": 44,
+      "version_unique_views": 41,
+      "version_downloads": 9,
+      "version_unique_downloads": 9
+    }
+  },
+  "zenodo_unique_views_are_not_globally_deduplicated_people": true,
+  "verification": {
+    "frozen_manifest_mapping_verified": true,
+    "github_queries_all_succeeded_in_earlier_checks": true,
+    "zenodo_20_json_extractions_succeeded": true,
+    "zenodo_record_doi_version_fields_verified": true,
+    "counts_derived_from_ten_records": true,
+    "openalex_32_distinct_ids_verified": true,
+    "transport_raw_bytes_retained": false,
+    "transport_sha256_retained": false,
+    "cache_mechanism_inferred": false,
+    "preregistered_offsets_declared": false
+  }
+}
