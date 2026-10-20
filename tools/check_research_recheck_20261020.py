@@ -10,12 +10,30 @@ ROOT = Path(__file__).resolve().parents[1]
 EVENT = "2026-10-20/01-independent-research-recheck"
 
 
-def verify_fields(fields, record):
+def object_mapping_matches(objs, canonical):
+    ids = [o.get("object_id") for o in objs]
+    return (
+        len(objs) == len(canonical) == 10
+        and len(ids) == len(set(ids))
+        and {o.get("object_id"): o.get("repository") for o in objs} == canonical
+    )
+
+
+def verify_fields(fields, record, canonical):
     results = []
     def check(name, passed):
         results.append({"check": name, "passed": bool(passed)})
     objs = fields["fixed_objects"]
     check("RS01-RS10 only", [o["object_id"] for o in objs] == [f"RS{i:02d}" for i in range(1, 11)])
+    check("canonical object_id to repository mapping", object_mapping_matches(objs, canonical))
+    swapped = [dict(o) for o in objs]
+    positions = {o["object_id"]: i for i, o in enumerate(swapped)}
+    if "RS06" in positions and "RS09" in positions:
+        i6, i9 = positions["RS06"], positions["RS09"]
+        swapped[i6]["object_id"], swapped[i9]["object_id"] = swapped[i9]["object_id"], swapped[i6]["object_id"]
+        check("negative identity transposition rejected", not object_mapping_matches(swapped, canonical))
+    else:
+        check("negative identity transposition rejected", False)
     check("diagnostic only", record["record_class"] == "diagnostic_monitoring" and record["prospective_dataset_member"] is False)
     check("six layers sixty cells", (record["fixed_corpus_size"], record["analytical_layers"], record["planned_object_layer_units"], record["operational_platforms"]) == (10, 6, 60, 7))
     dc = fields["datacite_records"]
@@ -65,7 +83,10 @@ def verify():
     mp = ROOT / "monitoring" / EVENT
     fields = json.loads((ep / "field-extracts.json").read_text(encoding="utf-8"))
     record = json.loads((mp / "record.json").read_text(encoding="utf-8"))
-    results = verify_fields(fields, record)
+    with (ROOT / "corpus" / "object-manifest.csv").open(encoding="utf-8", newline="") as f:
+        manifest_rows = list(csv.DictReader(f))
+    canonical = {row["object_id"]: row["software_family"] for row in manifest_rows}
+    results = verify_fields(fields, record, canonical)
     capture = json.loads((ep / "capture-manifest.json").read_text(encoding="utf-8"))
     requests = capture["requests"]
     results.append({"check": "all attempts and statuses retained", "passed": len(requests) == record["requests"] and dict(Counter(str(r["status"]) for r in requests)) == record["status_counts"]})
@@ -78,6 +99,9 @@ def verify():
         with (mp / filename).open(encoding="utf-8", newline="") as f:
             rows = list(csv.DictReader(f))
         results.append({"check": "CSV count " + filename, "passed": len(rows) == count})
+        if filename == "zenodo-family-statistics.csv":
+            results.append({"check": "CSV canonical object_id to repository mapping", "passed": object_mapping_matches(rows, canonical)})
+            results.append({"check": "CSV rows in canonical RS01-RS10 order", "passed": [r["object_id"] for r in rows] == [f"RS{i:02d}" for i in range(1, 11)]})
     return {"mode": "offline_read_only", "network_calls": 0, "checks": len(results), "failed": sum(not r["passed"] for r in results), "results": results}
 
 

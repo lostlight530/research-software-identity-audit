@@ -6,14 +6,19 @@
       "sha256": "61344d1fdc45d39bcffb995124b00cc8af30fd4b09b073ad575530954e4c6e25"
     },
     {
+      "path": "evidence/2026-10-20/01-independent-research-recheck/correction-reconciliation-01.md",
+      "bytes": 3349,
+      "sha256": "2fd5c1efff99acd5a0ea75558f6252f2153e61b9c51bd542f1477f1ac61728e9"
+    },
+    {
       "path": "evidence/2026-10-20/01-independent-research-recheck/field-extracts.json",
       "bytes": 55436,
-      "sha256": "7750e7082986ccb4136af64b1d5d68223e2c6003c0f6bc6b8e2d8852ede3d858"
+      "sha256": "4a2db2eb3eeee43b44ead496a7bde7f0d1649379df208e36ef668a7f966181c4"
     },
     {
       "path": "evidence/2026-10-20/01-independent-research-recheck/README.md",
-      "bytes": 1392,
-      "sha256": "ac77c451dddb9df5f64c07867b8e2557a27e7a1c897b66a819224052c0629d0c"
+      "bytes": 1958,
+      "sha256": "e55eed958d39c89bad875d094cc6edd7ac5f65c81bdd8466cc119395aaf5bac4"
     },
     {
       "path": "monitoring/2026-10-20/01-independent-research-recheck/datacite-identifiers.csv",
@@ -22,8 +27,8 @@
     },
     {
       "path": "monitoring/2026-10-20/01-independent-research-recheck/README.md",
-      "bytes": 5863,
-      "sha256": "52509059dee108c34cf396a0ee28525c698fa61f5d0607d8fa19be27f86bdbea"
+      "bytes": 7299,
+      "sha256": "4609964ff03fcde3ee5c117c5255d8521a2288fa58b3329cb31cab99d298d2fb"
     },
     {
       "path": "monitoring/2026-10-20/01-independent-research-recheck/record.json",
@@ -38,12 +43,12 @@
     {
       "path": "monitoring/2026-10-20/01-independent-research-recheck/zenodo-family-statistics.csv",
       "bytes": 826,
-      "sha256": "dd688aae3b22ce2b8962757c9171b0a2572a14f940bf38cf25edc6a8196e44aa"
+      "sha256": "8e9297de2ad2c3955180e7cd5520ed7ab59e3cc574b7d70136a653b577404dc5"
     },
     {
       "path": "tools/check_research_recheck_20261020.py",
-      "bytes": 6951,
-      "sha256": "204423e8bb3a87cbc742589365cfb9cdfc71bcd3c6b226d66bd1ab78d93a7b16"
+      "bytes": 8423,
+      "sha256": "c7d65d7e8f08baadc43f77bcacee65aee7c7718b194780c50223665bc05483e8"
     }
   ],
   "representation": "minimal derived public field extracts"

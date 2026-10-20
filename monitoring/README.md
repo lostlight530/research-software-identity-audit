@@ -102,4 +102,4 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 ## October 20 independent research recheck
 
-- [Fixed-ten recheck and user-page reconciliation](2026-10-20/01-independent-research-recheck/README.md): 12/12 page/API unique pairs agree; 40 versions enumerated; OpenAlex 32/32; SWH checkpoint chains 2/10, full-origin visits 10/10
+- [Fixed-ten recheck and user-page reconciliation](2026-10-20/01-independent-research-recheck/README.md): 12/12 page/API unique pairs agree; 40 versions enumerated; OpenAlex 32/32; SWH checkpoint chains 2/10, full-origin visits 10/10 Post-review identity correction: [reconciliation note](../evidence/2026-10-20/01-independent-research-recheck/correction-reconciliation-01.md).

@@ -75,3 +75,11 @@ bio.tools remains version 0.4.0 / MIT / Emerging; OpenEBench's named record stil
 [Machine record](record.json) · [Version/family fields](zenodo-family-statistics.csv) · [DOI list](datacite-identifiers.csv) · [Evidence representation](../../../evidence/2026-10-20/01-independent-research-recheck/README.md)
 
 Run `python -B tools/check_research_recheck_20261020.py` for offline hashes, count/identity joins, failure-state preservation and page/API reconciliation. Public evidence is explicitly minimized field extracts and original response digests. Full response bytes remain local; the public verifier does not authenticate unpublished transport bytes. Existing October 18 and earlier dated records remain intact.
+
+## Correction / reconciliation after review
+
+The submitted package contained a derived identity-labeling defect: four `object_id` labels were transposed relative to the frozen `corpus/object-manifest.csv`. The repository/DOI-specific values and counters were internally consistent, but four per-object records were attributed to the wrong preregistered units. The exact correction and pre-correction commit are documented in the [correction reconciliation](../../../evidence/2026-10-20/01-independent-research-recheck/correction-reconciliation-01.md).
+
+The corrected `field-extracts.json` and `zenodo-family-statistics.csv` now join by repository slug to the frozen manifest and are ordered RS01–RS10. Only derived object-ID labels and row/array order changed; numeric counters, DOI values, version records, source locators and the 147-attempt capture manifest are unchanged. The original submission remains in Git history.
+
+The earlier `offline-verification.json` was generated before this invariant existed (268 checks / 0 failures); it is explicitly superseded and is not evidence for the corrected package. The offline checker now verifies canonical ID-to-repository mappings in both derived files and rejects a deliberate transposition. It is run as an advisory step in the existing `validate` workflow; this adds no new job or dependency. This correction does not create a prospective observation or alter the frozen contract.
