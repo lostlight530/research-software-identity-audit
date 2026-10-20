@@ -1,0 +1,55 @@
+{
+  "artifacts": [
+    {
+      "path": "evidence/2026-10-20/01-independent-research-recheck/capture-manifest.json",
+      "bytes": 65596,
+      "sha256": "61344d1fdc45d39bcffb995124b00cc8af30fd4b09b073ad575530954e4c6e25"
+    },
+    {
+      "path": "evidence/2026-10-20/01-independent-research-recheck/correction-reconciliation-01.md",
+      "bytes": 3349,
+      "sha256": "2fd5c1efff99acd5a0ea75558f6252f2153e61b9c51bd542f1477f1ac61728e9"
+    },
+    {
+      "path": "evidence/2026-10-20/01-independent-research-recheck/field-extracts.json",
+      "bytes": 55436,
+      "sha256": "4a2db2eb3eeee43b44ead496a7bde7f0d1649379df208e36ef668a7f966181c4"
+    },
+    {
+      "path": "evidence/2026-10-20/01-independent-research-recheck/README.md",
+      "bytes": 1958,
+      "sha256": "e55eed958d39c89bad875d094cc6edd7ac5f65c81bdd8466cc119395aaf5bac4"
+    },
+    {
+      "path": "monitoring/2026-10-20/01-independent-research-recheck/datacite-identifiers.csv",
+      "bytes": 4461,
+      "sha256": "2a7441cead93a0f56905e4e66aa78c08c81a565f45e8ea6a74dce55d71cfea54"
+    },
+    {
+      "path": "monitoring/2026-10-20/01-independent-research-recheck/README.md",
+      "bytes": 7299,
+      "sha256": "4609964ff03fcde3ee5c117c5255d8521a2288fa58b3329cb31cab99d298d2fb"
+    },
+    {
+      "path": "monitoring/2026-10-20/01-independent-research-recheck/record.json",
+      "bytes": 2208,
+      "sha256": "b7629c9dfb688977bffb9b898428c3b8099ebf05bdbe671f758a1227cddd1805"
+    },
+    {
+      "path": "monitoring/2026-10-20/01-independent-research-recheck/user-page-api-reconciliation.csv",
+      "bytes": 664,
+      "sha256": "d98a85ebe4c45a9da34be2a0d96d0f417541f985b48e863137eb0641044c86f0"
+    },
+    {
+      "path": "monitoring/2026-10-20/01-independent-research-recheck/zenodo-family-statistics.csv",
+      "bytes": 826,
+      "sha256": "8e9297de2ad2c3955180e7cd5520ed7ab59e3cc574b7d70136a653b577404dc5"
+    },
+    {
+      "path": "tools/check_research_recheck_20261020.py",
+      "bytes": 8423,
+      "sha256": "c7d65d7e8f08baadc43f77bcacee65aee7c7718b194780c50223665bc05483e8"
+    }
+  ],
+  "representation": "minimal derived public field extracts"
+}

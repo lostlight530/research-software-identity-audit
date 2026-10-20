@@ -15,3 +15,8 @@ monitoring/2026-10-15/01-morning-facility-recheck/** text eol=lf
 /monitoring/2026-10-18/03-independent-research-verification/** text eol=lf
 /evidence/2026-10-18/03-independent-research-verification/** text eol=lf
 /tools/check_research_capture_20261018.py text eol=lf
+
+# October 20 research package seals
+/monitoring/2026-10-20/01-independent-research-recheck/** text eol=lf
+/evidence/2026-10-20/01-independent-research-recheck/** text eol=lf
+/tools/check_research_recheck_20261020.py text eol=lf

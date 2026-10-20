@@ -18,6 +18,8 @@ The study is publicly preregistered on OSF and examines how a fixed corpus of re
 
 **October 18, 22:41–22:42 independent research verification:** [Dated diagnostic and archive-byte inspection](monitoring/2026-10-18/03-independent-research-verification/README.md). DataCite 76 records; OpenAlex profile 29 / query 30; fixed-ten family counters and immutable archive metadata drift are separately retained.
 
+**October 20 research recheck:** [Independent 19:08–19:10 diagnostic](monitoring/2026-10-20/01-independent-research-recheck/README.md): all 12 page/API unique counter pairs agree; 40 fixed-corpus versions enumerated; author profile/query 32/32; origin preservation and checkpoint-chain evidence remain separate. A post-review correction now reconciles four derived object IDs against the frozen manifest; see [correction reconciliation](evidence/2026-10-20/01-independent-research-recheck/correction-reconciliation-01.md).
+
 ## Start here — documentation and repository navigation
 
 For contributors and independent reviewers, the [**documentation map**](docs/README.md) identifies the authoritative owner of each folder, study/object boundaries, evidence levels, and the docs-only maintenance process.

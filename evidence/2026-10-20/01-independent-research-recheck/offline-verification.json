@@ -1,0 +1,14 @@
+{
+  "mode": "offline_read_only",
+  "status": "superseded_pre_correction_run",
+  "prior_commit": "bfc42199ff3d23014c88d7c1def451e834c535ed",
+  "prior_result": {
+    "checks": 268,
+    "failed": 0
+  },
+  "prior_artifact_at_prior_commit": "evidence/2026-10-20/01-independent-research-recheck/offline-verification.json",
+  "reason": "The 268-check run preceded the canonical object_id-to-repository mapping invariant. It is not validation of the corrected derived extracts.",
+  "corrected_local_python_run": "not_performed_in_this_session",
+  "corrected_verifier": "tools/check_research_recheck_20261020.py",
+  "corrected_ci_execution": "Use the advisory GitHub Actions run associated with the corrected commit; do not infer success before the run completes."
+}

@@ -75,3 +75,7 @@ Run `python tools/check_retained_morning_20261015.py` locally for the new source
 ## October 18 research capture
 
 Run `python -B tools/check_research_capture_20261018.py` for read-only public-artifact hashes, field joins and count consistency. Original raw response/ZIP bytes are locally retained and not included in this public field-extract package. This command is not added to cloud CI.
+
+## October 20 research recheck
+
+`python -B tools/check_research_recheck_20261020.py` verifies the new diagnostic package offline without writes or network. It is not added to cloud CI.

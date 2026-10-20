@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-20",
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "fixed_corpus_size": 10,
+  "analytical_layers": 6,
+  "planned_object_layer_units": 60,
+  "operational_platforms": 7,
+  "started_at": "2026-10-20T19:08:48.056840+08:00",
+  "finished_at": "2026-10-20T19:10:19.293631+08:00",
+  "requests": 147,
+  "status_counts": {
+    "200": 128,
+    "403": 1,
+    "404": 8,
+    "400": 10
+  },
+  "git_head": "2b112639a346bb6a3f73c5afa03d939a75c2cf28",
+  "datacite_count": 76,
+  "datacite_types": {
+    "StudyRegistration": 1,
+    "Workflow": 19,
+    "Software": 56
+  },
+  "openalex": {
+    "profile_count": 32,
+    "query_count": 32,
+    "cited_by_count": 1,
+    "types": {
+      "software": 12,
+      "other": 20
+    },
+    "checkpoint_routes_to_concept": 10,
+    "checkpoint_routes_to_exact_version": 0
+  },
+  "orcid": {
+    "groups": 17,
+    "summaries": 89
+  },
+  "zenodo_fixed_ten": {
+    "downloads": 17,
+    "unique_downloads": 16,
+    "views": 2478,
+    "unique_views": 1637,
+    "version_downloads": 9,
+    "version_unique_downloads": 9,
+    "version_unique_views": 48,
+    "version_views": 51
+  },
+  "complete_fixed_version_records": 40,
+  "swh": {
+    "full_origins": 10,
+    "checkpoint_tag_commit_directory_chains": 2,
+    "checkpoint_revision_404": 8
+  },
+  "openaire_checkpoint_hits": 10,
+  "user_page_matches": 12,
+  "workflowhub_details": [
+    {
+      "id": "2334",
+      "detail_views": 1545,
+      "detail_downloads": 115,
+      "doi": "10.48546/workflowhub.workflow.2334.8"
+    },
+    {
+      "id": "2332",
+      "detail_views": 1404,
+      "detail_downloads": 156,
+      "doi": "10.48546/workflowhub.workflow.2332.8"
+    },
+    {
+      "id": "2337",
+      "detail_views": 502,
+      "detail_downloads": 23,
+      "doi": "10.48546/workflowhub.workflow.2337.1"
+    },
+    {
+      "id": "2347",
+      "detail_views": 233,
+      "detail_downloads": 106,
+      "doi": "10.48546/workflowhub.workflow.2347.2"
+    }
+  ],
+  "hal_num_found": 0,
+  "scicrunch_status": 403,
+  "rsd_software_records": 11,
+  "osf_registration_date": "2026-10-05T14:04:13.783851",
+  "internet_archive_identifier": "osf-registrations-5b329-v1",
+  "repository_modified": false
+}
