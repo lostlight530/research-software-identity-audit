@@ -99,3 +99,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 19 bounded independent evening check
 
 - [2026-10-19 / 01-evening-bounded-public-check](2026-10-19/01-evening-bounded-public-check/README.md) — fixed-ten GitHub Release/tag ref gate, DataCite count, OpenAlex profile/query discrepancy with two additional Work IDs, and paired Zenodo URL-variant counter conflict. Diagnostic only, no prospective cells.
+
+## October 20 independent research recheck
+
+- [Fixed-ten recheck and user-page reconciliation](2026-10-20/01-independent-research-recheck/README.md): 12/12 page/API unique pairs agree; 40 versions enumerated; OpenAlex 32/32; SWH checkpoint chains 2/10, full-origin visits 10/10

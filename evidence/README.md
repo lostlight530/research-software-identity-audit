@@ -44,3 +44,5 @@ The independently extracted 32-version table is retained under [monitoring/2026-
 [Full morning record](../monitoring/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated
 
 - [October 18 independent research field extracts](2026-10-18/03-independent-research-verification/README.md) — minimized public representation with explicit local-only raw bytes and source archive digest verification
+
+- [October 20 research evidence](2026-10-20/01-independent-research-recheck/README.md): minimized public fields, per-attempt digests and retained failure/retry states
