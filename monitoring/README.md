@@ -107,3 +107,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 21 bounded midday recheck
 
 - [2026-10-21 / 01-midday-bounded-recheck](2026-10-21/01-midday-bounded-recheck/README.md) — public fixed-ten GitHub release/tag gate, DataCite count, OpenAlex profile/Works difference, Zenodo URL-variant statistics and SWH blocked revision retrieval; diagnostic only, zero prospective cells.
+
+## October 21 evening all-version recheck
+
+- [2026-10-21 / 02-evening-all-version-recheck](2026-10-21/02-evening-all-version-recheck/README.md) — fixed RS01–RS10 four-version audit (40 Zenodo records), 76 ORCID-linked DataCite DOI/type records and 32 OpenAlex Works/type records; diagnostic only, no prospective cells.

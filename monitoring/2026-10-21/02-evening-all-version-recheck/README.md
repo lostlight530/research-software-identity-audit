@@ -1,0 +1,17 @@
+# October 21 evening — all-version and indexed-type audit
+
+**Status:** diagnostic monitoring only. The registration remains frozen (OSF DOI `10.17605/OSF.IO/5B329`). The corpus is fixed at **RS01–RS10**, and its six registered infrastructure layers give **60 preregistered object-layer units per eligible scheduled timepoint**. Four versions of each fixed object are **40 version records**, not 40 new RS objects, not 70 registered checks, and **zero new prospective cells**. No concrete scheduled observation offsets have been declared.
+
+## All versions: source-linked bounded findings
+
+- **GitHub:** An evening reread of 10 fixed repository Release lists and 10 Git tag-ref lists returned four public Releases/tags in each, no new public Release/tag among returned entries after the October 14 checkpoint. Exact GitHub repository identity is the join key, not a movable RS position.
+- **Zenodo:** Re-queried all 40 version-record API URLs in two retrieval batches. **40/40** returned parseable JSON with matching Zenodo version DOI, `metadata.version` label and concept DOI against the previously retained October 20 version list. Individual API source locator, retrieval-batch time window and all eight record/statistic fields are retained in the [machine record](record.json).
+- **DataCite:** The ORCID creator/contributor query enumerated **76 distinct** `findable` DOI records: **56 Software, 19 Workflow, 1 StudyRegistration**. All **40/40 version DOIs** and **10/10 concept DOIs** matched the returned indexed set. The remaining indexed DOIs may include out-of-corpus scholarly entities; they do not expand the frozen corpus.
+- **OpenAlex:** The author-filtered Works list returned **32 distinct IDs**: **12 software, 20 other**. Default author-profile URL returned `works_count=30` (updated `2026-10-01T12:39:15`) while the explicitly field-selected author-profile URL returned `works_count=32` (updated `2026-10-19T12:29:13`). The same-window URL variant conflict remains **unresolved**. DataCite `Workflow` and OpenAlex `other` are not equivalent classifications.
+- **Statistics:** The record retains eight metrics per Zenodo record separately. `views`, `downloads` and their `unique_*` values can represent version-family statistics: **do not add them over 40 records**, since that can multiply shared counts. The machine file includes optional descriptive sums of the four `version_*` fields grouped by tag, with no globally unique-person interpretation.
+
+## Contract, provenance and scope limits
+
+The new public record is a **selected-field extract**, not a raw HTTP response archive. Successful JSON extraction is not a verified server status code, uncached API guarantee, or byte-level HTTP replay. The earliest version list comes from the October 20 diagnostic and is only a locator/reference for this newly dated fetch; it is **not** silently re-dated. Request URL, exact collector batch window, expected and observed DOI/tag are stored to support independent reassessment.
+
+This expansion does **not** independently recheck Software Heritage preservation of all 40 historical versions, individual OpenAIRE routes for every version DOI, private account dashboards or unpublished ZIP bytes. The SWH access-blocked results from earlier October 21 and two successfully evidenced October 20 checkpoint chains remain separately attributed; no 404/no-result condition is upgraded into absence. No OSF frozen registration, baseline, original observations, release archive, schedule, correction history or prospective dataset is modified.
