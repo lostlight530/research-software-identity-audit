@@ -1,0 +1,1883 @@
+{
+  "record_class": "diagnostic_monitoring",
+  "capture_date": "2026-10-21",
+  "capture_period": "evening Asia/Shanghai",
+  "creation_utc": "2026-10-21T14:26:41.402Z",
+  "research_control_main_sha_at_start": "bbeeae4e61dec09209f15bb7c564c533e85008aa",
+  "registered_corpus_size": 10,
+  "registered_layers": 6,
+  "registered_analytical_units_per_eligible_timepoint": 60,
+  "operational_platform_checks_distinct_from_analytical_units": true,
+  "source_of_canonical_ids": "corpus/object-manifest.csv",
+  "frozen_registration_doi": "10.17605/OSF.IO/5B329",
+  "preregistered_schedule_offsets_declared": false,
+  "prospective_dataset_member": false,
+  "new_prospective_cells": 0,
+  "provenance": {
+    "attempt_batches": [
+      {
+        "source": "Zenodo public record API via third-party extract",
+        "requested": 20,
+        "window_start_utc": "2026-10-21T14:26:34.434Z",
+        "window_end_utc": "2026-10-21T14:26:36.821Z",
+        "http_status_of_success_unavailable": true,
+        "raw_transport_bytes_retained": false
+      },
+      {
+        "source": "Zenodo public record API via third-party extract",
+        "requested": 20,
+        "window_start_utc": "2026-10-21T14:26:36.822Z",
+        "window_end_utc": "2026-10-21T14:26:39.187Z",
+        "http_status_of_success_unavailable": true,
+        "raw_transport_bytes_retained": false
+      },
+      {
+        "source": "DataCite and OpenAlex via third-party extract",
+        "requested": 4,
+        "window_start_utc": "2026-10-21T14:26:39.188Z",
+        "window_end_utc": "2026-10-21T14:26:41.401Z",
+        "http_status_of_success_unavailable": true,
+        "raw_transport_bytes_retained": false
+      }
+    ],
+    "github_all_tag_and_release_check_window_utc": [
+      "2026-10-21T14:17:22.284Z",
+      "2026-10-21T14:17:25.123Z"
+    ],
+    "github_live_observation": "All 10 fixed repositories returned four Releases and four git refs; latest public release checkpoint October 14; API list lengths were 4 at retrieval.",
+    "collector_classes": [
+      "connected GitHub fetch",
+      "third-party web_fetch allow_live_fetch=true"
+    ],
+    "source_status_precision": "An extract returning JSON does not prove direct HTTP 200, origin freshness or server-time capture.",
+    "full_http_response_bytes_committed": false,
+    "raw_http_digests_committed": false,
+    "transport_replay_claim": false
+  },
+  "zenodo": {
+    "scope": "all four known public version records for each of ten fixed research software objects; per-record fields not 40 independent families",
+    "records": [
+      {
+        "object_id": "RS01",
+        "repository": "welcome-to-github",
+        "source_repository": "https://github.com/lostlight530/welcome-to-github",
+        "git_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "expected_record_id": 23365504,
+        "expected_version_doi": "10.5281/zenodo.23365504",
+        "concept_doi": "10.5281/zenodo.22790907",
+        "checkpoint_commit_sha": "d1e732f81a03497af1c5afe43c1a00a77e87a828",
+        "url": "https://zenodo.org/api/records/23365504",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23365504",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "conceptdoi": "10.5281/zenodo.22790907",
+        "created": "2026-10-14T11:14:51.797757+00:00",
+        "publication_date": "2026-10-14",
+        "stats": {
+          "views": 265,
+          "unique_views": 181,
+          "downloads": 6,
+          "unique_downloads": 5,
+          "version_views": 4,
+          "version_unique_views": 3,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS01",
+        "repository": "welcome-to-github",
+        "source_repository": "https://github.com/lostlight530/welcome-to-github",
+        "git_tag": "v2026.10-open-research-production-framework",
+        "expected_record_id": 23137203,
+        "expected_version_doi": "10.5281/zenodo.23137203",
+        "concept_doi": "10.5281/zenodo.22790907",
+        "checkpoint_commit_sha": "d1e732f81a03497af1c5afe43c1a00a77e87a828",
+        "url": "https://zenodo.org/api/records/23137203",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23137203",
+        "version": "v2026.10-open-research-production-framework",
+        "conceptdoi": "10.5281/zenodo.22790907",
+        "created": "2026-10-04T13:00:17.968806+00:00",
+        "publication_date": "2026-10-04",
+        "stats": {
+          "views": 86,
+          "unique_views": 83,
+          "downloads": 4,
+          "unique_downloads": 3,
+          "version_views": 3,
+          "version_unique_views": 2,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS01",
+        "repository": "welcome-to-github",
+        "source_repository": "https://github.com/lostlight530/welcome-to-github",
+        "git_tag": "v2026.09-natural-month-close",
+        "expected_record_id": 23068145,
+        "expected_version_doi": "10.5281/zenodo.23068145",
+        "concept_doi": "10.5281/zenodo.22790907",
+        "checkpoint_commit_sha": "d1e732f81a03497af1c5afe43c1a00a77e87a828",
+        "url": "https://zenodo.org/api/records/23068145",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23068145",
+        "version": "v2026.09-natural-month-close",
+        "conceptdoi": "10.5281/zenodo.22790907",
+        "created": "2026-09-30T18:38:38.322467+00:00",
+        "publication_date": "2026-09-30",
+        "stats": {
+          "views": 46,
+          "unique_views": 44,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 14,
+          "version_unique_views": 13,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS01",
+        "repository": "welcome-to-github",
+        "source_repository": "https://github.com/lostlight530/welcome-to-github",
+        "git_tag": "v2026.09-open-research-baseline",
+        "expected_record_id": 22790908,
+        "expected_version_doi": "10.5281/zenodo.22790908",
+        "concept_doi": "10.5281/zenodo.22790907",
+        "checkpoint_commit_sha": "d1e732f81a03497af1c5afe43c1a00a77e87a828",
+        "url": "https://zenodo.org/api/records/22790908",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.22790908",
+        "version": "v2026.09-open-research-baseline",
+        "conceptdoi": "10.5281/zenodo.22790907",
+        "created": "2026-09-16T08:26:53.599398+00:00",
+        "publication_date": "2026-09-16",
+        "stats": {
+          "views": 46,
+          "unique_views": 44,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 32,
+          "version_unique_views": 31,
+          "version_downloads": 2,
+          "version_unique_downloads": 2
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS02",
+        "repository": "zero-entropy-lab",
+        "source_repository": "https://github.com/lostlight530/zero-entropy-lab",
+        "git_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "expected_record_id": 23365551,
+        "expected_version_doi": "10.5281/zenodo.23365551",
+        "concept_doi": "10.5281/zenodo.22791081",
+        "checkpoint_commit_sha": "f91fff87158dfc4d73cccb43244d39d08d756134",
+        "url": "https://zenodo.org/api/records/23365551",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23365551",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "conceptdoi": "10.5281/zenodo.22791081",
+        "created": "2026-10-14T11:16:16.511380+00:00",
+        "publication_date": "2026-10-14",
+        "stats": {
+          "views": 223,
+          "unique_views": 138,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 2,
+          "version_unique_views": 2,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS02",
+        "repository": "zero-entropy-lab",
+        "source_repository": "https://github.com/lostlight530/zero-entropy-lab",
+        "git_tag": "v2026.10-open-research-production-framework",
+        "expected_record_id": 23137204,
+        "expected_version_doi": "10.5281/zenodo.23137204",
+        "concept_doi": "10.5281/zenodo.22791081",
+        "checkpoint_commit_sha": "f91fff87158dfc4d73cccb43244d39d08d756134",
+        "url": "https://zenodo.org/api/records/23137204",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23137204",
+        "version": "v2026.10-open-research-production-framework",
+        "conceptdoi": "10.5281/zenodo.22791081",
+        "created": "2026-10-04T13:00:20.820720+00:00",
+        "publication_date": "2026-10-04",
+        "stats": {
+          "views": 249,
+          "unique_views": 163,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 19,
+          "version_unique_views": 14,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS02",
+        "repository": "zero-entropy-lab",
+        "source_repository": "https://github.com/lostlight530/zero-entropy-lab",
+        "git_tag": "v2026.09-natural-month-close",
+        "expected_record_id": 23068144,
+        "expected_version_doi": "10.5281/zenodo.23068144",
+        "concept_doi": "10.5281/zenodo.22791081",
+        "checkpoint_commit_sha": "f91fff87158dfc4d73cccb43244d39d08d756134",
+        "url": "https://zenodo.org/api/records/23068144",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23068144",
+        "version": "v2026.09-natural-month-close",
+        "conceptdoi": "10.5281/zenodo.22791081",
+        "created": "2026-09-30T18:38:31.982668+00:00",
+        "publication_date": "2026-09-30",
+        "stats": {
+          "views": 249,
+          "unique_views": 163,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 24,
+          "version_unique_views": 23,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS02",
+        "repository": "zero-entropy-lab",
+        "source_repository": "https://github.com/lostlight530/zero-entropy-lab",
+        "git_tag": "v2026.09-open-research-baseline",
+        "expected_record_id": 22791082,
+        "expected_version_doi": "10.5281/zenodo.22791082",
+        "concept_doi": "10.5281/zenodo.22791081",
+        "checkpoint_commit_sha": "f91fff87158dfc4d73cccb43244d39d08d756134",
+        "url": "https://zenodo.org/api/records/22791082",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.22791082",
+        "version": "v2026.09-open-research-baseline",
+        "conceptdoi": "10.5281/zenodo.22791081",
+        "created": "2026-09-16T08:33:54.635507+00:00",
+        "publication_date": "2026-09-16",
+        "stats": {
+          "views": 12,
+          "unique_views": 11,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 12,
+          "version_unique_views": 11,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS03",
+        "repository": "Axiom-0",
+        "source_repository": "https://github.com/lostlight530/Axiom-0",
+        "git_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "expected_record_id": 23365534,
+        "expected_version_doi": "10.5281/zenodo.23365534",
+        "concept_doi": "10.5281/zenodo.22791103",
+        "checkpoint_commit_sha": "af2ef98e26f56c323a08939ac6630d6d2d091256",
+        "url": "https://zenodo.org/api/records/23365534",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23365534",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "conceptdoi": "10.5281/zenodo.22791103",
+        "created": "2026-10-14T11:15:39.819034+00:00",
+        "publication_date": "2026-10-14",
+        "stats": {
+          "views": 246,
+          "unique_views": 161,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 2,
+          "version_unique_views": 2,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS03",
+        "repository": "Axiom-0",
+        "source_repository": "https://github.com/lostlight530/Axiom-0",
+        "git_tag": "v2026.10-open-research-production-framework",
+        "expected_record_id": 23137205,
+        "expected_version_doi": "10.5281/zenodo.23137205",
+        "concept_doi": "10.5281/zenodo.22791103",
+        "checkpoint_commit_sha": "af2ef98e26f56c323a08939ac6630d6d2d091256",
+        "url": "https://zenodo.org/api/records/23137205",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23137205",
+        "version": "v2026.10-open-research-production-framework",
+        "conceptdoi": "10.5281/zenodo.22791103",
+        "created": "2026-10-04T13:00:22.053791+00:00",
+        "publication_date": "2026-10-04",
+        "stats": {
+          "views": 276,
+          "unique_views": 190,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 15,
+          "version_unique_views": 14,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS03",
+        "repository": "Axiom-0",
+        "source_repository": "https://github.com/lostlight530/Axiom-0",
+        "git_tag": "v2026.09-natural-month-close",
+        "expected_record_id": 23068261,
+        "expected_version_doi": "10.5281/zenodo.23068261",
+        "concept_doi": "10.5281/zenodo.22791103",
+        "checkpoint_commit_sha": "af2ef98e26f56c323a08939ac6630d6d2d091256",
+        "url": "https://zenodo.org/api/records/23068261",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23068261",
+        "version": "v2026.09-natural-month-close",
+        "conceptdoi": "10.5281/zenodo.22791103",
+        "created": "2026-09-30T18:43:47.691412+00:00",
+        "publication_date": "2026-09-30",
+        "stats": {
+          "views": 25,
+          "unique_views": 21,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 7,
+          "version_unique_views": 4,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS03",
+        "repository": "Axiom-0",
+        "source_repository": "https://github.com/lostlight530/Axiom-0",
+        "git_tag": "v2026.09-open-research-baseline",
+        "expected_record_id": 22791104,
+        "expected_version_doi": "10.5281/zenodo.22791104",
+        "concept_doi": "10.5281/zenodo.22791103",
+        "checkpoint_commit_sha": "af2ef98e26f56c323a08939ac6630d6d2d091256",
+        "url": "https://zenodo.org/api/records/22791104",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.22791104",
+        "version": "v2026.09-open-research-baseline",
+        "conceptdoi": "10.5281/zenodo.22791103",
+        "created": "2026-09-16T08:35:14.081702+00:00",
+        "publication_date": "2026-09-16",
+        "stats": {
+          "views": 25,
+          "unique_views": 21,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 18,
+          "version_unique_views": 17,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS04",
+        "repository": "reflective-continuum",
+        "source_repository": "https://github.com/lostlight530/reflective-continuum",
+        "git_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "expected_record_id": 23365567,
+        "expected_version_doi": "10.5281/zenodo.23365567",
+        "concept_doi": "10.5281/zenodo.22791141",
+        "checkpoint_commit_sha": "8359fc1fda8c80d94512007b493dec5c9f3945a5",
+        "url": "https://zenodo.org/api/records/23365567",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23365567",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "conceptdoi": "10.5281/zenodo.22791141",
+        "created": "2026-10-14T11:16:38.137803+00:00",
+        "publication_date": "2026-10-14",
+        "stats": {
+          "views": 197,
+          "unique_views": 115,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 1,
+          "version_unique_views": 1,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS04",
+        "repository": "reflective-continuum",
+        "source_repository": "https://github.com/lostlight530/reflective-continuum",
+        "git_tag": "v2026.10-open-research-production-framework",
+        "expected_record_id": 23137206,
+        "expected_version_doi": "10.5281/zenodo.23137206",
+        "concept_doi": "10.5281/zenodo.22791141",
+        "checkpoint_commit_sha": "8359fc1fda8c80d94512007b493dec5c9f3945a5",
+        "url": "https://zenodo.org/api/records/23137206",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23137206",
+        "version": "v2026.10-open-research-production-framework",
+        "conceptdoi": "10.5281/zenodo.22791141",
+        "created": "2026-10-04T13:00:25.221226+00:00",
+        "publication_date": "2026-10-04",
+        "stats": {
+          "views": 223,
+          "unique_views": 138,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 13,
+          "version_unique_views": 12,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS04",
+        "repository": "reflective-continuum",
+        "source_repository": "https://github.com/lostlight530/reflective-continuum",
+        "git_tag": "v2026.09-natural-month-close",
+        "expected_record_id": 23068260,
+        "expected_version_doi": "10.5281/zenodo.23068260",
+        "concept_doi": "10.5281/zenodo.22791141",
+        "checkpoint_commit_sha": "8359fc1fda8c80d94512007b493dec5c9f3945a5",
+        "url": "https://zenodo.org/api/records/23068260",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23068260",
+        "version": "v2026.09-natural-month-close",
+        "conceptdoi": "10.5281/zenodo.22791141",
+        "created": "2026-09-30T18:43:42.112858+00:00",
+        "publication_date": "2026-09-30",
+        "stats": {
+          "views": 16,
+          "unique_views": 15,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 5,
+          "version_unique_views": 5,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS04",
+        "repository": "reflective-continuum",
+        "source_repository": "https://github.com/lostlight530/reflective-continuum",
+        "git_tag": "v2026.09-open-research-baseline",
+        "expected_record_id": 22791142,
+        "expected_version_doi": "10.5281/zenodo.22791142",
+        "concept_doi": "10.5281/zenodo.22791141",
+        "checkpoint_commit_sha": "8359fc1fda8c80d94512007b493dec5c9f3945a5",
+        "url": "https://zenodo.org/api/records/22791142",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.22791142",
+        "version": "v2026.09-open-research-baseline",
+        "conceptdoi": "10.5281/zenodo.22791141",
+        "created": "2026-09-16T08:36:48.087953+00:00",
+        "publication_date": "2026-09-16",
+        "stats": {
+          "views": 16,
+          "unique_views": 15,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 11,
+          "version_unique_views": 10,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS05",
+        "repository": "agent-foundations",
+        "source_repository": "https://github.com/lostlight530/agent-foundations",
+        "git_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "expected_record_id": 23365540,
+        "expected_version_doi": "10.5281/zenodo.23365540",
+        "concept_doi": "10.5281/zenodo.22791169",
+        "checkpoint_commit_sha": "95e95f3ce251c9d88ac3f2931dad694d05231063",
+        "url": "https://zenodo.org/api/records/23365540",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23365540",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "conceptdoi": "10.5281/zenodo.22791169",
+        "created": "2026-10-14T11:15:46.459117+00:00",
+        "publication_date": "2026-10-14",
+        "stats": {
+          "views": 224,
+          "unique_views": 139,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 1,
+          "version_unique_views": 1,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS05",
+        "repository": "agent-foundations",
+        "source_repository": "https://github.com/lostlight530/agent-foundations",
+        "git_tag": "v2026.10-open-research-production-framework",
+        "expected_record_id": 23137207,
+        "expected_version_doi": "10.5281/zenodo.23137207",
+        "concept_doi": "10.5281/zenodo.22791169",
+        "checkpoint_commit_sha": "95e95f3ce251c9d88ac3f2931dad694d05231063",
+        "url": "https://zenodo.org/api/records/23137207",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23137207",
+        "version": "v2026.10-open-research-production-framework",
+        "conceptdoi": "10.5281/zenodo.22791169",
+        "created": "2026-10-04T13:00:27.746064+00:00",
+        "publication_date": "2026-10-04",
+        "stats": {
+          "views": 252,
+          "unique_views": 166,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 10,
+          "version_unique_views": 10,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS05",
+        "repository": "agent-foundations",
+        "source_repository": "https://github.com/lostlight530/agent-foundations",
+        "git_tag": "v2026.09-natural-month-close",
+        "expected_record_id": 23068262,
+        "expected_version_doi": "10.5281/zenodo.23068262",
+        "concept_doi": "10.5281/zenodo.22791169",
+        "checkpoint_commit_sha": "95e95f3ce251c9d88ac3f2931dad694d05231063",
+        "url": "https://zenodo.org/api/records/23068262",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23068262",
+        "version": "v2026.09-natural-month-close",
+        "conceptdoi": "10.5281/zenodo.22791169",
+        "created": "2026-09-30T18:43:51.610743+00:00",
+        "publication_date": "2026-09-30",
+        "stats": {
+          "views": 23,
+          "unique_views": 19,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 10,
+          "version_unique_views": 6,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS05",
+        "repository": "agent-foundations",
+        "source_repository": "https://github.com/lostlight530/agent-foundations",
+        "git_tag": "v2026.09-open-research-baseline",
+        "expected_record_id": 22791170,
+        "expected_version_doi": "10.5281/zenodo.22791170",
+        "concept_doi": "10.5281/zenodo.22791169",
+        "checkpoint_commit_sha": "95e95f3ce251c9d88ac3f2931dad694d05231063",
+        "url": "https://zenodo.org/api/records/22791170",
+        "attempt_batch": 1,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.22791170",
+        "version": "v2026.09-open-research-baseline",
+        "conceptdoi": "10.5281/zenodo.22791169",
+        "created": "2026-09-16T08:38:50.166530+00:00",
+        "publication_date": "2026-09-16",
+        "stats": {
+          "views": 23,
+          "unique_views": 19,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 13,
+          "version_unique_views": 13,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS06",
+        "repository": "auto-doc-engine",
+        "source_repository": "https://github.com/lostlight530/auto-doc-engine",
+        "git_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "expected_record_id": 23365510,
+        "expected_version_doi": "10.5281/zenodo.23365510",
+        "concept_doi": "10.5281/zenodo.22791404",
+        "checkpoint_commit_sha": "6a471f0d2014d8b456066246ca7eb43b7870c942",
+        "url": "https://zenodo.org/api/records/23365510",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23365510",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "conceptdoi": "10.5281/zenodo.22791404",
+        "created": "2026-10-14T11:14:59.536593+00:00",
+        "publication_date": "2026-10-14",
+        "stats": {
+          "views": 217,
+          "unique_views": 132,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 7,
+          "version_unique_views": 5,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS06",
+        "repository": "auto-doc-engine",
+        "source_repository": "https://github.com/lostlight530/auto-doc-engine",
+        "git_tag": "v2026.10-open-research-production-framework",
+        "expected_record_id": 23137215,
+        "expected_version_doi": "10.5281/zenodo.23137215",
+        "concept_doi": "10.5281/zenodo.22791404",
+        "checkpoint_commit_sha": "6a471f0d2014d8b456066246ca7eb43b7870c942",
+        "url": "https://zenodo.org/api/records/23137215",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23137215",
+        "version": "v2026.10-open-research-production-framework",
+        "conceptdoi": "10.5281/zenodo.22791404",
+        "created": "2026-10-04T13:00:36.996897+00:00",
+        "publication_date": "2026-10-04",
+        "stats": {
+          "views": 238,
+          "unique_views": 153,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 26,
+          "version_unique_views": 22,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS06",
+        "repository": "auto-doc-engine",
+        "source_repository": "https://github.com/lostlight530/auto-doc-engine",
+        "git_tag": "v2026.09-natural-month-close",
+        "expected_record_id": 23068471,
+        "expected_version_doi": "10.5281/zenodo.23068471",
+        "concept_doi": "10.5281/zenodo.22791404",
+        "checkpoint_commit_sha": "6a471f0d2014d8b456066246ca7eb43b7870c942",
+        "url": "https://zenodo.org/api/records/23068471",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23068471",
+        "version": "v2026.09-natural-month-close",
+        "conceptdoi": "10.5281/zenodo.22791404",
+        "created": "2026-09-30T18:57:58.072540+00:00",
+        "publication_date": "2026-09-30",
+        "stats": {
+          "views": 15,
+          "unique_views": 14,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 4,
+          "version_unique_views": 3,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS06",
+        "repository": "auto-doc-engine",
+        "source_repository": "https://github.com/lostlight530/auto-doc-engine",
+        "git_tag": "v2026.09-open-research-baseline",
+        "expected_record_id": 22791405,
+        "expected_version_doi": "10.5281/zenodo.22791405",
+        "concept_doi": "10.5281/zenodo.22791404",
+        "checkpoint_commit_sha": "6a471f0d2014d8b456066246ca7eb43b7870c942",
+        "url": "https://zenodo.org/api/records/22791405",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.22791405",
+        "version": "v2026.09-open-research-baseline",
+        "conceptdoi": "10.5281/zenodo.22791404",
+        "created": "2026-09-16T08:49:23.270993+00:00",
+        "publication_date": "2026-09-16",
+        "stats": {
+          "views": 15,
+          "unique_views": 14,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 11,
+          "version_unique_views": 11,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS07",
+        "repository": "epistemic-pipeline",
+        "source_repository": "https://github.com/lostlight530/epistemic-pipeline",
+        "git_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "expected_record_id": 23365517,
+        "expected_version_doi": "10.5281/zenodo.23365517",
+        "concept_doi": "10.5281/zenodo.22791463",
+        "checkpoint_commit_sha": "326095b7c962eed292e4f53af863297fd92360db",
+        "url": "https://zenodo.org/api/records/23365517",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23365517",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "conceptdoi": "10.5281/zenodo.22791463",
+        "created": "2026-10-14T11:15:11.908255+00:00",
+        "publication_date": "2026-10-14",
+        "stats": {
+          "views": 225,
+          "unique_views": 142,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 1,
+          "version_unique_views": 1,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS07",
+        "repository": "epistemic-pipeline",
+        "source_repository": "https://github.com/lostlight530/epistemic-pipeline",
+        "git_tag": "v2026.10-open-research-production-framework",
+        "expected_record_id": 23137216,
+        "expected_version_doi": "10.5281/zenodo.23137216",
+        "concept_doi": "10.5281/zenodo.22791463",
+        "checkpoint_commit_sha": "326095b7c962eed292e4f53af863297fd92360db",
+        "url": "https://zenodo.org/api/records/23137216",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23137216",
+        "version": "v2026.10-open-research-production-framework",
+        "conceptdoi": "10.5281/zenodo.22791463",
+        "created": "2026-10-04T13:00:40.388317+00:00",
+        "publication_date": "2026-10-04",
+        "stats": {
+          "views": 252,
+          "unique_views": 168,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 17,
+          "version_unique_views": 16,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS07",
+        "repository": "epistemic-pipeline",
+        "source_repository": "https://github.com/lostlight530/epistemic-pipeline",
+        "git_tag": "v2026.09-natural-month-close",
+        "expected_record_id": 23068494,
+        "expected_version_doi": "10.5281/zenodo.23068494",
+        "concept_doi": "10.5281/zenodo.22791463",
+        "checkpoint_commit_sha": "326095b7c962eed292e4f53af863297fd92360db",
+        "url": "https://zenodo.org/api/records/23068494",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23068494",
+        "version": "v2026.09-natural-month-close",
+        "conceptdoi": "10.5281/zenodo.22791463",
+        "created": "2026-09-30T18:59:12.926516+00:00",
+        "publication_date": "2026-09-30",
+        "stats": {
+          "views": 12,
+          "unique_views": 12,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 1,
+          "version_unique_views": 1,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS07",
+        "repository": "epistemic-pipeline",
+        "source_repository": "https://github.com/lostlight530/epistemic-pipeline",
+        "git_tag": "v2026.09-open-research-baseline",
+        "expected_record_id": 22791464,
+        "expected_version_doi": "10.5281/zenodo.22791464",
+        "concept_doi": "10.5281/zenodo.22791463",
+        "checkpoint_commit_sha": "326095b7c962eed292e4f53af863297fd92360db",
+        "url": "https://zenodo.org/api/records/22791464",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.22791464",
+        "version": "v2026.09-open-research-baseline",
+        "conceptdoi": "10.5281/zenodo.22791463",
+        "created": "2026-09-16T08:51:05.269275+00:00",
+        "publication_date": "2026-09-16",
+        "stats": {
+          "views": 19,
+          "unique_views": 19,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 11,
+          "version_unique_views": 11,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS08",
+        "repository": "sci-render-kit",
+        "source_repository": "https://github.com/lostlight530/sci-render-kit",
+        "git_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "expected_record_id": 23365525,
+        "expected_version_doi": "10.5281/zenodo.23365525",
+        "concept_doi": "10.5281/zenodo.22791375",
+        "checkpoint_commit_sha": "a48dc7375aac3526b5a0a133d0a1f435dcf935e7",
+        "url": "https://zenodo.org/api/records/23365525",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23365525",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "conceptdoi": "10.5281/zenodo.22791375",
+        "created": "2026-10-14T11:15:23.259308+00:00",
+        "publication_date": "2026-10-14",
+        "stats": {
+          "views": 208,
+          "unique_views": 130,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 1,
+          "version_unique_views": 1,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS08",
+        "repository": "sci-render-kit",
+        "source_repository": "https://github.com/lostlight530/sci-render-kit",
+        "git_tag": "v2026.10-open-research-production-framework",
+        "expected_record_id": 23137219,
+        "expected_version_doi": "10.5281/zenodo.23137219",
+        "concept_doi": "10.5281/zenodo.22791375",
+        "checkpoint_commit_sha": "a48dc7375aac3526b5a0a133d0a1f435dcf935e7",
+        "url": "https://zenodo.org/api/records/23137219",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23137219",
+        "version": "v2026.10-open-research-production-framework",
+        "conceptdoi": "10.5281/zenodo.22791375",
+        "created": "2026-10-04T13:01:01.041528+00:00",
+        "publication_date": "2026-10-04",
+        "stats": {
+          "views": 233,
+          "unique_views": 154,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 12,
+          "version_unique_views": 11,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS08",
+        "repository": "sci-render-kit",
+        "source_repository": "https://github.com/lostlight530/sci-render-kit",
+        "git_tag": "v2026.09-natural-month-close",
+        "expected_record_id": 23068472,
+        "expected_version_doi": "10.5281/zenodo.23068472",
+        "concept_doi": "10.5281/zenodo.22791375",
+        "checkpoint_commit_sha": "a48dc7375aac3526b5a0a133d0a1f435dcf935e7",
+        "url": "https://zenodo.org/api/records/23068472",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23068472",
+        "version": "v2026.09-natural-month-close",
+        "conceptdoi": "10.5281/zenodo.22791375",
+        "created": "2026-09-30T18:58:16.043956+00:00",
+        "publication_date": "2026-09-30",
+        "stats": {
+          "views": 233,
+          "unique_views": 154,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 21,
+          "version_unique_views": 21,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS08",
+        "repository": "sci-render-kit",
+        "source_repository": "https://github.com/lostlight530/sci-render-kit",
+        "git_tag": "v2026.09-open-research-baseline",
+        "expected_record_id": 22791376,
+        "expected_version_doi": "10.5281/zenodo.22791376",
+        "concept_doi": "10.5281/zenodo.22791375",
+        "checkpoint_commit_sha": "a48dc7375aac3526b5a0a133d0a1f435dcf935e7",
+        "url": "https://zenodo.org/api/records/22791376",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.22791376",
+        "version": "v2026.09-open-research-baseline",
+        "conceptdoi": "10.5281/zenodo.22791375",
+        "created": "2026-09-16T08:48:02.497912+00:00",
+        "publication_date": "2026-09-16",
+        "stats": {
+          "views": 18,
+          "unique_views": 18,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 13,
+          "version_unique_views": 13,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS09",
+        "repository": "china-agentic-observatory",
+        "source_repository": "https://github.com/lostlight530/china-agentic-observatory",
+        "git_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "expected_record_id": 23365548,
+        "expected_version_doi": "10.5281/zenodo.23365548",
+        "concept_doi": "10.5281/zenodo.22791309",
+        "checkpoint_commit_sha": "6fa92c662ffbe8b8eac14f7c8711f507583c2a92",
+        "url": "https://zenodo.org/api/records/23365548",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23365548",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "conceptdoi": "10.5281/zenodo.22791309",
+        "created": "2026-10-14T11:16:05.398273+00:00",
+        "publication_date": "2026-10-14",
+        "stats": {
+          "views": 234,
+          "unique_views": 150,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 1,
+          "version_unique_views": 1,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS09",
+        "repository": "china-agentic-observatory",
+        "source_repository": "https://github.com/lostlight530/china-agentic-observatory",
+        "git_tag": "v2026.10-open-research-production-framework",
+        "expected_record_id": 23137211,
+        "expected_version_doi": "10.5281/zenodo.23137211",
+        "concept_doi": "10.5281/zenodo.22791309",
+        "checkpoint_commit_sha": "6fa92c662ffbe8b8eac14f7c8711f507583c2a92",
+        "url": "https://zenodo.org/api/records/23137211",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23137211",
+        "version": "v2026.10-open-research-production-framework",
+        "conceptdoi": "10.5281/zenodo.22791309",
+        "created": "2026-10-04T13:00:30.660928+00:00",
+        "publication_date": "2026-10-04",
+        "stats": {
+          "views": 260,
+          "unique_views": 174,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 27,
+          "version_unique_views": 26,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS09",
+        "repository": "china-agentic-observatory",
+        "source_repository": "https://github.com/lostlight530/china-agentic-observatory",
+        "git_tag": "v2026.09-natural-month-close",
+        "expected_record_id": 23068347,
+        "expected_version_doi": "10.5281/zenodo.23068347",
+        "concept_doi": "10.5281/zenodo.22791309",
+        "checkpoint_commit_sha": "6fa92c662ffbe8b8eac14f7c8711f507583c2a92",
+        "url": "https://zenodo.org/api/records/23068347",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23068347",
+        "version": "v2026.09-natural-month-close",
+        "conceptdoi": "10.5281/zenodo.22791309",
+        "created": "2026-09-30T18:49:53.386450+00:00",
+        "publication_date": "2026-09-30",
+        "stats": {
+          "views": 260,
+          "unique_views": 174,
+          "downloads": 1,
+          "unique_downloads": 1,
+          "version_views": 33,
+          "version_unique_views": 30,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS09",
+        "repository": "china-agentic-observatory",
+        "source_repository": "https://github.com/lostlight530/china-agentic-observatory",
+        "git_tag": "v2026.09-open-research-baseline",
+        "expected_record_id": 22791310,
+        "expected_version_doi": "10.5281/zenodo.22791310",
+        "concept_doi": "10.5281/zenodo.22791309",
+        "checkpoint_commit_sha": "6fa92c662ffbe8b8eac14f7c8711f507583c2a92",
+        "url": "https://zenodo.org/api/records/22791310",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.22791310",
+        "version": "v2026.09-open-research-baseline",
+        "conceptdoi": "10.5281/zenodo.22791309",
+        "created": "2026-09-16T08:45:12.370868+00:00",
+        "publication_date": "2026-09-16",
+        "stats": {
+          "views": 13,
+          "unique_views": 13,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 8,
+          "version_unique_views": 8,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS10",
+        "repository": "agentic-frontier-observatory",
+        "source_repository": "https://github.com/lostlight530/agentic-frontier-observatory",
+        "git_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "expected_record_id": 23365543,
+        "expected_version_doi": "10.5281/zenodo.23365543",
+        "concept_doi": "10.5281/zenodo.22791334",
+        "checkpoint_commit_sha": "7ed79d8870a449262ee7167be6694bcd6b412a62",
+        "url": "https://zenodo.org/api/records/23365543",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23365543",
+        "version": "v2026.10-fourteen-day-evidence-checkpoint",
+        "conceptdoi": "10.5281/zenodo.22791334",
+        "created": "2026-10-14T11:15:58.073289+00:00",
+        "publication_date": "2026-10-14",
+        "stats": {
+          "views": 244,
+          "unique_views": 161,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 3,
+          "version_unique_views": 3,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS10",
+        "repository": "agentic-frontier-observatory",
+        "source_repository": "https://github.com/lostlight530/agentic-frontier-observatory",
+        "git_tag": "v2026.10-open-research-production-framework",
+        "expected_record_id": 23137214,
+        "expected_version_doi": "10.5281/zenodo.23137214",
+        "concept_doi": "10.5281/zenodo.22791334",
+        "checkpoint_commit_sha": "7ed79d8870a449262ee7167be6694bcd6b412a62",
+        "url": "https://zenodo.org/api/records/23137214",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23137214",
+        "version": "v2026.10-open-research-production-framework",
+        "conceptdoi": "10.5281/zenodo.22791334",
+        "created": "2026-10-04T13:00:34.062341+00:00",
+        "publication_date": "2026-10-04",
+        "stats": {
+          "views": 268,
+          "unique_views": 183,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 26,
+          "version_unique_views": 26,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS10",
+        "repository": "agentic-frontier-observatory",
+        "source_repository": "https://github.com/lostlight530/agentic-frontier-observatory",
+        "git_tag": "v2026.09-natural-month-close",
+        "expected_record_id": 23068352,
+        "expected_version_doi": "10.5281/zenodo.23068352",
+        "concept_doi": "10.5281/zenodo.22791334",
+        "checkpoint_commit_sha": "7ed79d8870a449262ee7167be6694bcd6b412a62",
+        "url": "https://zenodo.org/api/records/23068352",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.23068352",
+        "version": "v2026.09-natural-month-close",
+        "conceptdoi": "10.5281/zenodo.22791334",
+        "created": "2026-09-30T18:50:01.848258+00:00",
+        "publication_date": "2026-09-30",
+        "stats": {
+          "views": 268,
+          "unique_views": 183,
+          "downloads": 2,
+          "unique_downloads": 2,
+          "version_views": 37,
+          "version_unique_views": 34,
+          "version_downloads": 1,
+          "version_unique_downloads": 1
+        },
+        "identity_matches": true
+      },
+      {
+        "object_id": "RS10",
+        "repository": "agentic-frontier-observatory",
+        "source_repository": "https://github.com/lostlight530/agentic-frontier-observatory",
+        "git_tag": "v2026.09-open-research-baseline",
+        "expected_record_id": 22791335,
+        "expected_version_doi": "10.5281/zenodo.22791335",
+        "concept_doi": "10.5281/zenodo.22791334",
+        "checkpoint_commit_sha": "7ed79d8870a449262ee7167be6694bcd6b412a62",
+        "url": "https://zenodo.org/api/records/22791335",
+        "attempt_batch": 2,
+        "outcome": "extracted_json",
+        "doi": "10.5281/zenodo.22791335",
+        "version": "v2026.09-open-research-baseline",
+        "conceptdoi": "10.5281/zenodo.22791334",
+        "created": "2026-09-16T08:46:15.062026+00:00",
+        "publication_date": "2026-09-16",
+        "stats": {
+          "views": 14,
+          "unique_views": 13,
+          "downloads": 0,
+          "unique_downloads": 0,
+          "version_views": 12,
+          "version_unique_views": 11,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        },
+        "identity_matches": true
+      }
+    ],
+    "version_group_counts": {
+      "v2026.10-fourteen-day-evidence-checkpoint": 10,
+      "v2026.10-open-research-production-framework": 10,
+      "v2026.09-natural-month-close": 10,
+      "v2026.09-open-research-baseline": 10
+    },
+    "version_only_stats_by_tag": [
+      {
+        "git_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "record_count": 10,
+        "version_only_field_sums": {
+          "version_views": 23,
+          "version_unique_views": 20,
+          "version_downloads": 9,
+          "version_unique_downloads": 9
+        }
+      },
+      {
+        "git_tag": "v2026.10-open-research-production-framework",
+        "record_count": 10,
+        "version_only_field_sums": {
+          "version_views": 168,
+          "version_unique_views": 153,
+          "version_downloads": 0,
+          "version_unique_downloads": 0
+        }
+      },
+      {
+        "git_tag": "v2026.09-natural-month-close",
+        "record_count": 10,
+        "version_only_field_sums": {
+          "version_views": 156,
+          "version_unique_views": 140,
+          "version_downloads": 2,
+          "version_unique_downloads": 2
+        }
+      },
+      {
+        "git_tag": "v2026.09-open-research-baseline",
+        "record_count": 10,
+        "version_only_field_sums": {
+          "version_views": 141,
+          "version_unique_views": 136,
+          "version_downloads": 2,
+          "version_unique_downloads": 2
+        }
+      }
+    ],
+    "do_not_sum_across_all_versions": [
+      "views",
+      "unique_views",
+      "downloads",
+      "unique_downloads"
+    ],
+    "retrieval_outcomes": {
+      "extracted_json": 40,
+      "non_json": 0,
+      "extract_failed": 0
+    }
+  },
+  "datacite": {
+    "source_url": "https://api.datacite.org/dois?query=creators.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A%20OR%20contributors.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A&page%5Bsize%5D=100",
+    "enumeration": {
+      "meta_total": 76,
+      "meta_pages": 1,
+      "returned": 76,
+      "unique_dois": 76,
+      "resource_type_counts": {
+        "Workflow": 19,
+        "Software": 56,
+        "StudyRegistration": 1
+      },
+      "states": [
+        "findable"
+      ]
+    },
+    "records": [
+      {
+        "doi": "10.48546/workflowhub.workflow.2347.2",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23447088",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23447089",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23166490",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23446162",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2347.1",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2332.8",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2334.8",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791141",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23365567",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791081",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23365551",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791309",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23365548",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791334",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23365543",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23365540",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791169",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791103",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23365534",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791375",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23365525",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791463",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23365517",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23365510",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791404",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23365504",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22790907",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2334.7",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2332.7",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2332.6",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2334.6",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2332.5",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2334.5",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2337.1",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23284570",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2334.4",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2332.4",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2334.3",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2332.3",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2332.2",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2334.2",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2334.1",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.48546/workflowhub.workflow.2332.1",
+        "resource_type_general": "Workflow",
+        "state": "findable"
+      },
+      {
+        "doi": "10.17605/osf.io/5b329",
+        "resource_type_general": "StudyRegistration",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23176748",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23137219",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23137216",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23137215",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23137214",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23137211",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23137207",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23137206",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23137205",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23137204",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23137203",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23068494",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23068472",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23068471",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23068352",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23068347",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23068262",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23068261",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23068260",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23068145",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.23068144",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791464",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791405",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791376",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791335",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791310",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791170",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791142",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791104",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22791082",
+        "resource_type_general": "Software",
+        "state": "findable"
+      },
+      {
+        "doi": "10.5281/zenodo.22790908",
+        "resource_type_general": "Software",
+        "state": "findable"
+      }
+    ],
+    "matched_40_version_dois": 40,
+    "matched_10_concept_dois": 10,
+    "scope_warning": "ORCID-linked DataCite 76 DOI records include out-of-corpus works; not 76 preregistered object-layer units"
+  },
+  "openalex": {
+    "default_profile": {
+      "url": "https://api.openalex.org/authors/A5151904252",
+      "works_count": 30,
+      "updated_date": "2026-10-01T12:39:15"
+    },
+    "selected_profile": {
+      "url": "https://api.openalex.org/authors/A5151904252?select=id,works_count,cited_by_count,updated_date",
+      "works_count": 32,
+      "updated_date": "2026-10-19T12:29:13"
+    },
+    "filtered_works": {
+      "url": "https://api.openalex.org/works?filter=author.id:A5151904252&per-page=100&select=id,doi,type",
+      "meta_count": 32,
+      "returned": 32,
+      "unique_ids": 32,
+      "work_type_counts": {
+        "software": 12,
+        "other": 20
+      },
+      "records": [
+        {
+          "id": "https://openalex.org/W7220365356",
+          "doi": "https://doi.org/10.5281/zenodo.23166490",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7213395896",
+          "doi": "https://doi.org/10.5281/zenodo.22791103",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7213400679",
+          "doi": "https://doi.org/10.5281/zenodo.22791169",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7213401383",
+          "doi": "https://doi.org/10.5281/zenodo.22791309",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7213415068",
+          "doi": "https://doi.org/10.5281/zenodo.22791404",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7213417036",
+          "doi": "https://doi.org/10.5281/zenodo.22791141",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7213429607",
+          "doi": "https://doi.org/10.5281/zenodo.22791081",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7213430624",
+          "doi": "https://doi.org/10.5281/zenodo.22790907",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7213431981",
+          "doi": "https://doi.org/10.5281/zenodo.22791375",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7213433288",
+          "doi": "https://doi.org/10.5281/zenodo.22791334",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7213434988",
+          "doi": "https://doi.org/10.5281/zenodo.22791463",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7220380722",
+          "doi": "https://doi.org/10.17605/osf.io/5b329",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7220948089",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.1",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7220962531",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.2",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7220966944",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.2",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7220969795",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.1",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221127912",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.3",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221188636",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.3",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221337272",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.4",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221366684",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.4",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221441548",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.5",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221455900",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2337.1",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221460162",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.5",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221516570",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.6",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221566397",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.6",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221612767",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.7",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221654297",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.7",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221754327",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.8",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7221802864",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.8",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7222828651",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2347.1",
+          "type": "other"
+        },
+        {
+          "id": "https://openalex.org/W7222883692",
+          "doi": "https://doi.org/10.5281/zenodo.23447088",
+          "type": "software"
+        },
+        {
+          "id": "https://openalex.org/W7222894066",
+          "doi": "https://doi.org/10.48546/workflowhub.workflow.2347.2",
+          "type": "other"
+        }
+      ]
+    },
+    "type_boundary": "DataCite resourceTypeGeneral and OpenAlex type are platform-specific taxonomies and must not be silently matched"
+  },
+  "other_layers": {
+    "software_heritage": "Not re-observed per historical version; October 21 midday exact-checkpoint revision attempts were degraded or blocked; October 20 two verified checkpoint chains remain separately dated.",
+    "openaire": "Not individually re-observed for all 40 version DOIs",
+    "orcid": "No fresh ORCID account work grouping pull was performed",
+    "archival_byte_check": "No original Zenodo ZIP content bytes redownloaded or executed; record metadata only"
+  },
+  "local_derived_checks": {
+    "all_40_fixed_version_dois_and_tags_consistent": true,
+    "all_40_version_dois_in_datacite": true,
+    "ten_concept_dois_in_datacite": true,
+    "all_76_datacite_dois_distinct_and_findable": true,
+    "all_32_openalex_ids_distinct": true,
+    "frozen_object_identity_join": true,
+    "zero_prospective_cells": true
+  }
+}
