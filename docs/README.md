@@ -7,6 +7,8 @@ For the scientific background start with the [main README](../README.md); for th
 
 **Latest dated maintenance handoff (2026-10-18):** [research session closeout and reproducibility handoff](research-session-closeout-2026-10-18.md). It crosswalks public evidence, the frozen OSF contract, four actually published control releases (including [October 18 postpublication reconciliation](../scholarly/release-identity-reconciliation-2026-10-18.md)), the user-confirmed Beta ORCID metadata refresh, and outstanding verification gates. It is a *historical review*, not a standing claim about all future `main` commits or live platform counters.
 
+**Dated full-repository inventory (October 21, 2026):** [Control repository classification and evolution report](control-repository-inventory-2026-10-21.md), [complete tracked-file path catalog](control-repository-file-catalog-2026-10-21.csv), and [chronological main commit ledger](control-repository-main-commit-ledger-2026-10-21.csv). These inventory artifacts are documentation snapshots, not research observations or an RS11 designation.
+
 ## 1. Authority and object boundaries
 
 | Surface | Authority and purpose | What it does **not** imply |
@@ -81,4 +83,4 @@ This page is an **index and maintenance explanation only**. When a summary disag
 
 ## October 18 research-only independent verification
 
-The [dated research record](../monitoring/2026-10-18/03-independent-research-verification/README.md) owns the new measurements and archive inspection. The [minimized evidence package](../evidence/2026-10-18/03-independent-research-verification/README.md) declares public-field versus locally retained transport evidence. The standalone offline checker makes no network requests and is not added to CI. Community correspondence, account operations, private monitoring identifiers and unrelated telemetry are outside this contribution.
+The [dated research record](../monitoring/2026-10-18/03-independent-research-verification/README.md) owns the new measurements and archive inspection. The [minimized evidence package](../evidence/2026-10-18/03-independent-research-verification/README.md) declares public-field versus locally retained transport evidence. The standalone offline checker makes no network requests. **Historically**, it was not in CI when this October 18 note was written; the current [validation workflow](../.github/workflows/validate.yml) now runs the October 18 and October 20 package checkers as **advisory** steps. Neither their presence nor a green workflow retroactively establishes independent raw transport replay. Community correspondence, account operations, private monitoring identifiers and unrelated telemetry are outside this contribution.
