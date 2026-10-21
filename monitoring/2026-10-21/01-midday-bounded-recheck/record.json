@@ -1,0 +1,824 @@
+{
+  "record_class": "diagnostic_monitoring",
+  "capture_date": "2026-10-21",
+  "local_timezone": "Asia/Shanghai",
+  "created_at_utc": "2026-10-21T06:21:20.501Z",
+  "frozen_contract_registration_doi": "10.17605/OSF.IO/5B329",
+  "parent_main_sha": "890060414d792f0f7a07f342e35c89844718be34",
+  "fixed_corpus_size": 10,
+  "preregistered_layers": 6,
+  "registered_units_per_eligible_scheduled_point": 60,
+  "concrete_operational_offsets_declared": false,
+  "prospective_dataset_member": false,
+  "prospective_cells_created": 0,
+  "provenance": {
+    "github_release_and_tag_check_batch_utc": [
+      "2026-10-21T06:14:22.203Z",
+      "2026-10-21T06:14:24.475Z"
+    ],
+    "zenodo_and_cross_index_extract_window_utc": [
+      "2026-10-21T06:21:18.916Z",
+      "2026-10-21T06:21:20.500Z"
+    ],
+    "swh_revision_extract_batch_utc": [
+      "2026-10-21T06:17:15.545Z",
+      "2026-10-21T06:18:05.643Z"
+    ],
+    "retrieval_precision": "GitHub query batch and public extractor batch intervals only; individual transport timestamps and HTTP response bytes not preserved.",
+    "source_extraction": "Connected GitHub GET plus Parallel_Search web_fetch(allow_live_fetch=true); live fetch allowed is not proof of uncached response.",
+    "raw_transport_publicly_retained": false,
+    "raw_transport_sha256_retained": false,
+    "source_status_for_extracted_success": "extracted_json, not independently proven HTTP 200"
+  },
+  "github": {
+    "release_checks": 10,
+    "tag_ref_checks": 10,
+    "releases_and_refs_all_returned": true,
+    "latest_returned_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+    "new_public_release_or_tag_seen_in_returned_lists": false,
+    "records": [
+      {
+        "object_id": "RS01",
+        "repository": "welcome-to-github",
+        "release_api": "https://api.github.com/repos/lostlight530/welcome-to-github/releases?per_page=10",
+        "refs_api": "https://api.github.com/repos/lostlight530/welcome-to-github/git/refs/tags",
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "release_count": 4,
+        "tag_count": 4,
+        "checkpoint_commit_sha": "d1e732f81a03497af1c5afe43c1a00a77e87a828"
+      },
+      {
+        "object_id": "RS02",
+        "repository": "zero-entropy-lab",
+        "release_api": "https://api.github.com/repos/lostlight530/zero-entropy-lab/releases?per_page=10",
+        "refs_api": "https://api.github.com/repos/lostlight530/zero-entropy-lab/git/refs/tags",
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "release_count": 4,
+        "tag_count": 4,
+        "checkpoint_commit_sha": "f91fff87158dfc4d73cccb43244d39d08d756134"
+      },
+      {
+        "object_id": "RS03",
+        "repository": "Axiom-0",
+        "release_api": "https://api.github.com/repos/lostlight530/Axiom-0/releases?per_page=10",
+        "refs_api": "https://api.github.com/repos/lostlight530/Axiom-0/git/refs/tags",
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "release_count": 4,
+        "tag_count": 4,
+        "checkpoint_commit_sha": "af2ef98e26f56c323a08939ac6630d6d2d091256"
+      },
+      {
+        "object_id": "RS04",
+        "repository": "reflective-continuum",
+        "release_api": "https://api.github.com/repos/lostlight530/reflective-continuum/releases?per_page=10",
+        "refs_api": "https://api.github.com/repos/lostlight530/reflective-continuum/git/refs/tags",
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "release_count": 4,
+        "tag_count": 4,
+        "checkpoint_commit_sha": "8359fc1fda8c80d94512007b493dec5c9f3945a5"
+      },
+      {
+        "object_id": "RS05",
+        "repository": "agent-foundations",
+        "release_api": "https://api.github.com/repos/lostlight530/agent-foundations/releases?per_page=10",
+        "refs_api": "https://api.github.com/repos/lostlight530/agent-foundations/git/refs/tags",
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "release_count": 4,
+        "tag_count": 4,
+        "checkpoint_commit_sha": "95e95f3ce251c9d88ac3f2931dad694d05231063"
+      },
+      {
+        "object_id": "RS06",
+        "repository": "auto-doc-engine",
+        "release_api": "https://api.github.com/repos/lostlight530/auto-doc-engine/releases?per_page=10",
+        "refs_api": "https://api.github.com/repos/lostlight530/auto-doc-engine/git/refs/tags",
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "release_count": 4,
+        "tag_count": 4,
+        "checkpoint_commit_sha": "6a471f0d2014d8b456066246ca7eb43b7870c942"
+      },
+      {
+        "object_id": "RS07",
+        "repository": "epistemic-pipeline",
+        "release_api": "https://api.github.com/repos/lostlight530/epistemic-pipeline/releases?per_page=10",
+        "refs_api": "https://api.github.com/repos/lostlight530/epistemic-pipeline/git/refs/tags",
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "release_count": 4,
+        "tag_count": 4,
+        "checkpoint_commit_sha": "326095b7c962eed292e4f53af863297fd92360db"
+      },
+      {
+        "object_id": "RS08",
+        "repository": "sci-render-kit",
+        "release_api": "https://api.github.com/repos/lostlight530/sci-render-kit/releases?per_page=10",
+        "refs_api": "https://api.github.com/repos/lostlight530/sci-render-kit/git/refs/tags",
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "release_count": 4,
+        "tag_count": 4,
+        "checkpoint_commit_sha": "a48dc7375aac3526b5a0a133d0a1f435dcf935e7"
+      },
+      {
+        "object_id": "RS09",
+        "repository": "china-agentic-observatory",
+        "release_api": "https://api.github.com/repos/lostlight530/china-agentic-observatory/releases?per_page=10",
+        "refs_api": "https://api.github.com/repos/lostlight530/china-agentic-observatory/git/refs/tags",
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "release_count": 4,
+        "tag_count": 4,
+        "checkpoint_commit_sha": "6fa92c662ffbe8b8eac14f7c8711f507583c2a92"
+      },
+      {
+        "object_id": "RS10",
+        "repository": "agentic-frontier-observatory",
+        "release_api": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/releases?per_page=10",
+        "refs_api": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/git/refs/tags",
+        "latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "release_count": 4,
+        "tag_count": 4,
+        "checkpoint_commit_sha": "7ed79d8870a449262ee7167be6694bcd6b412a62"
+      }
+    ]
+  },
+  "datacite": {
+    "url": "https://api.datacite.org/dois?query=creators.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A%20OR%20contributors.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A&page%5Bsize%5D=1",
+    "outcome": "extracted_json",
+    "meta_total": 76,
+    "page_size": 1,
+    "totalPages": 76,
+    "all_record_metadata_reenumerated": false
+  },
+  "openalex": {
+    "author_profile_url": "https://api.openalex.org/authors/A5151904252?select=id,works_count,cited_by_count,updated_date",
+    "author_profile": {
+      "works_count": 30,
+      "cited_by_count": 1,
+      "updated_date": "2026-10-18T12:41:17"
+    },
+    "works_url": "https://api.openalex.org/works?filter=author.id:A5151904252&per-page=100&select=id,doi,title,type",
+    "query_meta_count": 32,
+    "returned_count": 32,
+    "unique_ids": 32,
+    "works": [
+      {
+        "id": "https://openalex.org/W7220365356",
+        "doi": "https://doi.org/10.5281/zenodo.23166490",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213395896",
+        "doi": "https://doi.org/10.5281/zenodo.22791103",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213400679",
+        "doi": "https://doi.org/10.5281/zenodo.22791169",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213401383",
+        "doi": "https://doi.org/10.5281/zenodo.22791309",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213415068",
+        "doi": "https://doi.org/10.5281/zenodo.22791404",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213417036",
+        "doi": "https://doi.org/10.5281/zenodo.22791141",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213429607",
+        "doi": "https://doi.org/10.5281/zenodo.22791081",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213430624",
+        "doi": "https://doi.org/10.5281/zenodo.22790907",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213431981",
+        "doi": "https://doi.org/10.5281/zenodo.22791375",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213433288",
+        "doi": "https://doi.org/10.5281/zenodo.22791334",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7213434988",
+        "doi": "https://doi.org/10.5281/zenodo.22791463",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7220380722",
+        "doi": "https://doi.org/10.17605/osf.io/5b329",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220948089",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.1",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220962531",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.2",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220966944",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.2",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7220969795",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.1",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221127912",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.3",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221188636",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.3",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221337272",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.4",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221366684",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.4",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221441548",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.5",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221455900",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2337.1",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221460162",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.5",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221516570",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.6",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221566397",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.6",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221612767",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.7",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221654297",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.7",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221754327",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2332.8",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7221802864",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2334.8",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7222828651",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2347.1",
+        "type": "other"
+      },
+      {
+        "id": "https://openalex.org/W7222883692",
+        "doi": "https://doi.org/10.5281/zenodo.23447088",
+        "type": "software"
+      },
+      {
+        "id": "https://openalex.org/W7222894066",
+        "doi": "https://doi.org/10.48546/workflowhub.workflow.2347.2",
+        "type": "other"
+      }
+    ]
+  },
+  "zenodo": {
+    "records": [
+      {
+        "object_id": "RS01",
+        "repository": "welcome-to-github",
+        "record_id": 23365504,
+        "standard_url": {
+          "source_url": "https://zenodo.org/api/records/23365504",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365504",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 265,
+            "unique_views": 181,
+            "downloads": 6,
+            "unique_downloads": 5,
+            "version_views": 4,
+            "version_unique_views": 3,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        },
+        "diagnostic_parameter": {
+          "source_url": "https://zenodo.org/api/records/23365504?audit_probe=20261021a",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365504",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 285,
+            "unique_views": 201,
+            "downloads": 6,
+            "unique_downloads": 5,
+            "version_views": 6,
+            "version_unique_views": 5,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        }
+      },
+      {
+        "object_id": "RS02",
+        "repository": "zero-entropy-lab",
+        "record_id": 23365551,
+        "standard_url": {
+          "source_url": "https://zenodo.org/api/records/23365551",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365551",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 223,
+            "unique_views": 138,
+            "downloads": 1,
+            "unique_downloads": 1,
+            "version_views": 2,
+            "version_unique_views": 2,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        },
+        "diagnostic_parameter": {
+          "source_url": "https://zenodo.org/api/records/23365551?audit_probe=20261021a",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365551",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 244,
+            "unique_views": 159,
+            "downloads": 1,
+            "unique_downloads": 1,
+            "version_views": 4,
+            "version_unique_views": 4,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        }
+      },
+      {
+        "object_id": "RS03",
+        "repository": "Axiom-0",
+        "record_id": 23365534,
+        "standard_url": {
+          "source_url": "https://zenodo.org/api/records/23365534",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365534",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 246,
+            "unique_views": 161,
+            "downloads": 1,
+            "unique_downloads": 1,
+            "version_views": 2,
+            "version_unique_views": 2,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        },
+        "diagnostic_parameter": {
+          "source_url": "https://zenodo.org/api/records/23365534?audit_probe=20261021a",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365534",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 274,
+            "unique_views": 188,
+            "downloads": 1,
+            "unique_downloads": 1,
+            "version_views": 7,
+            "version_unique_views": 7,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        }
+      },
+      {
+        "object_id": "RS04",
+        "repository": "reflective-continuum",
+        "record_id": 23365567,
+        "standard_url": {
+          "source_url": "https://zenodo.org/api/records/23365567",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365567",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 197,
+            "unique_views": 115,
+            "downloads": 1,
+            "unique_downloads": 1,
+            "version_views": 1,
+            "version_unique_views": 1,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        },
+        "diagnostic_parameter": {
+          "source_url": "https://zenodo.org/api/records/23365567?audit_probe=20261021a",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365567",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 219,
+            "unique_views": 135,
+            "downloads": 1,
+            "unique_downloads": 1,
+            "version_views": 5,
+            "version_unique_views": 5,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        }
+      },
+      {
+        "object_id": "RS05",
+        "repository": "agent-foundations",
+        "record_id": 23365540,
+        "standard_url": {
+          "source_url": "https://zenodo.org/api/records/23365540",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365540",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 224,
+            "unique_views": 139,
+            "downloads": 2,
+            "unique_downloads": 2,
+            "version_views": 1,
+            "version_unique_views": 1,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        },
+        "diagnostic_parameter": {
+          "source_url": "https://zenodo.org/api/records/23365540?audit_probe=20261021a",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365540",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 248,
+            "unique_views": 162,
+            "downloads": 2,
+            "unique_downloads": 2,
+            "version_views": 4,
+            "version_unique_views": 4,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        }
+      },
+      {
+        "object_id": "RS06",
+        "repository": "auto-doc-engine",
+        "record_id": 23365510,
+        "standard_url": {
+          "source_url": "https://zenodo.org/api/records/23365510",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365510",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 217,
+            "unique_views": 132,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "version_views": 7,
+            "version_unique_views": 5,
+            "version_downloads": 0,
+            "version_unique_downloads": 0
+          }
+        },
+        "diagnostic_parameter": {
+          "source_url": "https://zenodo.org/api/records/23365510?audit_probe=20261021a",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365510",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 237,
+            "unique_views": 152,
+            "downloads": 0,
+            "unique_downloads": 0,
+            "version_views": 9,
+            "version_unique_views": 7,
+            "version_downloads": 0,
+            "version_unique_downloads": 0
+          }
+        }
+      },
+      {
+        "object_id": "RS07",
+        "repository": "epistemic-pipeline",
+        "record_id": 23365517,
+        "standard_url": {
+          "source_url": "https://zenodo.org/api/records/23365517",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365517",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 225,
+            "unique_views": 142,
+            "downloads": 1,
+            "unique_downloads": 1,
+            "version_views": 1,
+            "version_unique_views": 1,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        },
+        "diagnostic_parameter": {
+          "source_url": "https://zenodo.org/api/records/23365517?audit_probe=20261021a",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365517",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 247,
+            "unique_views": 163,
+            "downloads": 1,
+            "unique_downloads": 1,
+            "version_views": 5,
+            "version_unique_views": 5,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        }
+      },
+      {
+        "object_id": "RS08",
+        "repository": "sci-render-kit",
+        "record_id": 23365525,
+        "standard_url": {
+          "source_url": "https://zenodo.org/api/records/23365525",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365525",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 208,
+            "unique_views": 130,
+            "downloads": 2,
+            "unique_downloads": 2,
+            "version_views": 1,
+            "version_unique_views": 1,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        },
+        "diagnostic_parameter": {
+          "source_url": "https://zenodo.org/api/records/23365525?audit_probe=20261021a",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365525",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 229,
+            "unique_views": 150,
+            "downloads": 2,
+            "unique_downloads": 2,
+            "version_views": 4,
+            "version_unique_views": 4,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        }
+      },
+      {
+        "object_id": "RS09",
+        "repository": "china-agentic-observatory",
+        "record_id": 23365548,
+        "standard_url": {
+          "source_url": "https://zenodo.org/api/records/23365548",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365548",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 234,
+            "unique_views": 150,
+            "downloads": 1,
+            "unique_downloads": 1,
+            "version_views": 1,
+            "version_unique_views": 1,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        },
+        "diagnostic_parameter": {
+          "source_url": "https://zenodo.org/api/records/23365548?audit_probe=20261021a",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365548",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 256,
+            "unique_views": 171,
+            "downloads": 1,
+            "unique_downloads": 1,
+            "version_views": 5,
+            "version_unique_views": 5,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        }
+      },
+      {
+        "object_id": "RS10",
+        "repository": "agentic-frontier-observatory",
+        "record_id": 23365543,
+        "standard_url": {
+          "source_url": "https://zenodo.org/api/records/23365543",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365543",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 244,
+            "unique_views": 161,
+            "downloads": 2,
+            "unique_downloads": 2,
+            "version_views": 3,
+            "version_unique_views": 3,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        },
+        "diagnostic_parameter": {
+          "source_url": "https://zenodo.org/api/records/23365543?audit_probe=20261021a",
+          "outcome": "extracted_json",
+          "doi": "10.5281/zenodo.23365543",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint",
+          "stats": {
+            "views": 266,
+            "unique_views": 182,
+            "downloads": 2,
+            "unique_downloads": 2,
+            "version_views": 6,
+            "version_unique_views": 6,
+            "version_downloads": 1,
+            "version_unique_downloads": 1
+          }
+        }
+      }
+    ],
+    "field_sum_by_response_url": {
+      "standard_url": {
+        "views": 2283,
+        "unique_views": 1449,
+        "downloads": 17,
+        "unique_downloads": 16,
+        "version_views": 23,
+        "version_unique_views": 20,
+        "version_downloads": 9,
+        "version_unique_downloads": 9
+      },
+      "diagnostic_parameter": {
+        "views": 2505,
+        "unique_views": 1663,
+        "downloads": 17,
+        "unique_downloads": 16,
+        "version_views": 55,
+        "version_unique_views": 52,
+        "version_downloads": 9,
+        "version_unique_downloads": 9
+      }
+    },
+    "record_view_field_disagreements": 10,
+    "interpretation": "URL-representation or retrieval-time discrepancy; mechanism unknown. No traffic increment, stable-statistic equivalence, or globally unique user count inferred."
+  },
+  "software_heritage": {
+    "checks": 10,
+    "source_type": "attempted exact SHA revision URLs through web extraction",
+    "results": [
+      {
+        "object_id": "RS01",
+        "repository": "welcome-to-github",
+        "revision_url": "https://archive.softwareheritage.org/api/1/revision/d1e732f81a03497af1c5afe43c1a00a77e87a828/",
+        "outcome": "no_parseable_revision_json",
+        "retrieval_representation": "bot_challenge_or_access_interstitial",
+        "http_status_not_verified": true
+      },
+      {
+        "object_id": "RS02",
+        "repository": "zero-entropy-lab",
+        "revision_url": "https://archive.softwareheritage.org/api/1/revision/f91fff87158dfc4d73cccb43244d39d08d756134/",
+        "outcome": "no_parseable_revision_json",
+        "retrieval_representation": "bot_challenge_or_access_interstitial",
+        "http_status_not_verified": true
+      },
+      {
+        "object_id": "RS03",
+        "repository": "Axiom-0",
+        "revision_url": "https://archive.softwareheritage.org/api/1/revision/af2ef98e26f56c323a08939ac6630d6d2d091256/",
+        "outcome": "no_parseable_revision_json",
+        "retrieval_representation": "html_page_instead_of_api_json",
+        "http_status_not_verified": true
+      },
+      {
+        "object_id": "RS04",
+        "repository": "reflective-continuum",
+        "revision_url": "https://archive.softwareheritage.org/api/1/revision/8359fc1fda8c80d94512007b493dec5c9f3945a5/",
+        "outcome": "no_parseable_revision_json",
+        "retrieval_representation": "html_page_instead_of_api_json",
+        "http_status_not_verified": true
+      },
+      {
+        "object_id": "RS05",
+        "repository": "agent-foundations",
+        "revision_url": "https://archive.softwareheritage.org/api/1/revision/95e95f3ce251c9d88ac3f2931dad694d05231063/",
+        "outcome": "no_parseable_revision_json",
+        "retrieval_representation": "bot_challenge_or_access_interstitial",
+        "http_status_not_verified": true
+      },
+      {
+        "object_id": "RS06",
+        "repository": "auto-doc-engine",
+        "revision_url": "https://archive.softwareheritage.org/api/1/revision/6a471f0d2014d8b456066246ca7eb43b7870c942/",
+        "outcome": "no_parseable_revision_json",
+        "retrieval_representation": "bot_challenge_or_access_interstitial",
+        "http_status_not_verified": true
+      },
+      {
+        "object_id": "RS07",
+        "repository": "epistemic-pipeline",
+        "revision_url": "https://archive.softwareheritage.org/api/1/revision/326095b7c962eed292e4f53af863297fd92360db/",
+        "outcome": "no_parseable_revision_json",
+        "retrieval_representation": "bot_challenge_or_access_interstitial",
+        "http_status_not_verified": true
+      },
+      {
+        "object_id": "RS08",
+        "repository": "sci-render-kit",
+        "revision_url": "https://archive.softwareheritage.org/api/1/revision/a48dc7375aac3526b5a0a133d0a1f435dcf935e7/",
+        "outcome": "no_parseable_revision_json",
+        "retrieval_representation": "site_unreachable_extractor_page",
+        "http_status_not_verified": true
+      },
+      {
+        "object_id": "RS09",
+        "repository": "china-agentic-observatory",
+        "revision_url": "https://archive.softwareheritage.org/api/1/revision/6fa92c662ffbe8b8eac14f7c8711f507583c2a92/",
+        "outcome": "no_parseable_revision_json",
+        "retrieval_representation": "bot_challenge_or_access_interstitial",
+        "http_status_not_verified": true
+      },
+      {
+        "object_id": "RS10",
+        "repository": "agentic-frontier-observatory",
+        "revision_url": "https://archive.softwareheritage.org/api/1/revision/7ed79d8870a449262ee7167be6694bcd6b412a62/",
+        "outcome": "no_parseable_revision_json",
+        "retrieval_representation": "bot_challenge_or_access_interstitial",
+        "http_status_not_verified": true
+      }
+    ],
+    "machine_readable_successes": 0,
+    "new_conclusion_about_checkpoint_preservation": "none; earlier Oct20 SWH 2/10 verified chains not independently reassessed today"
+  },
+  "not_refreshed_on_this_date": [
+    "ORCID source-update receipts",
+    "OpenAIRE checkpoint individual search results",
+    "Zenodo local ZIP byte rehash",
+    "private WorkflowHub Dashboard",
+    "OSF registration frozen bytes"
+  ],
+  "verification": {
+    "canonical_object_identity_checks": true,
+    "all_zenodo_pairs_parseable": true,
+    "all_cross_index_results_parseable": true,
+    "complete_distinct_openalex_works": true,
+    "no_commit_or_schema_change_to_preregistered_contract": true
+  }
+}
