@@ -20,6 +20,8 @@ The study is publicly preregistered on OSF and examines how a fixed corpus of re
 
 **October 20 research recheck:** [Independent 19:08–19:10 diagnostic](monitoring/2026-10-20/01-independent-research-recheck/README.md): all 12 page/API unique counter pairs agree; 40 fixed-corpus versions enumerated; author profile/query 32/32; origin preservation and checkpoint-chain evidence remain separate. A post-review correction now reconciles four derived object IDs against the frozen manifest; see [correction reconciliation](evidence/2026-10-20/01-independent-research-recheck/correction-reconciliation-01.md).
 
+**October 21, 2026 complete control-repository path inventory:** [Dated file classification and main-history audit](docs/control-repository-inventory-2026-10-21.md) · [path-level catalog](docs/control-repository-file-catalog-2026-10-21.csv) · [71-commit main history](docs/control-repository-main-commit-ledger-2026-10-21.csv). Snapshot documentation only; this repository is **not RS11**.
+
 ## Start here — documentation and repository navigation
 
 For contributors and independent reviewers, the [**documentation map**](docs/README.md) identifies the authoritative owner of each folder, study/object boundaries, evidence levels, and the docs-only maintenance process.
