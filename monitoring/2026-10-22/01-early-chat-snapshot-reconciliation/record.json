@@ -1,0 +1,254 @@
+{
+  "record_class": "retrospective_selected_field_transcription_from_prior_chat",
+  "logical_source_date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "source_batch_window_utc": [
+    "2026-10-21T16:19:00.557Z",
+    "2026-10-21T16:19:02.994Z"
+  ],
+  "reconciliation_created_utc": "2026-10-22T16:16:31.115Z",
+  "source_identity": "Previous same-conversation assistant tool output: third-party public Zenodo /api/records/{latest}/versions?size=25 selected-field extraction on 2026-10-22 00:19 Asia/Shanghai; no original HTTP bytes or transport digests preserved in this repository.",
+  "source_retrieval_provenance_level": "chat_result_selected_field_transcription_not_byte_preserved_api_evidence",
+  "historical_replay_claim": false,
+  "capture_time_rewritten": false,
+  "preregistration_member": false,
+  "prospective_cells": 0,
+  "scope": {
+    "fixed_corpus_objects": 10,
+    "control_repo": "NOT_RS11",
+    "pilot": "supplementary_outside_fixed_corpus",
+    "all_concepts": 12,
+    "all_versions": 45
+  },
+  "family_rows": [
+    {
+      "object_id": "RS01",
+      "repository": "welcome-to-github",
+      "version_record_ids": [
+        22790908,
+        23068145,
+        23137203,
+        23365504
+      ],
+      "version_views_oldest_to_newest": [
+        222,
+        29,
+        32,
+        6
+      ],
+      "derived_sum": 289,
+      "reported_family_views": 289,
+      "source_url": "https://zenodo.org/api/records/23365504/versions?size=25"
+    },
+    {
+      "object_id": "RS02",
+      "repository": "zero-entropy-lab",
+      "version_record_ids": [
+        22791082,
+        23068144,
+        23137204,
+        23365551
+      ],
+      "version_views_oldest_to_newest": [
+        201,
+        24,
+        19,
+        5
+      ],
+      "derived_sum": 249,
+      "reported_family_views": 249,
+      "source_url": "https://zenodo.org/api/records/23365551/versions?size=25"
+    },
+    {
+      "object_id": "RS03",
+      "repository": "Axiom-0",
+      "version_record_ids": [
+        22791104,
+        23068261,
+        23137205,
+        23365534
+      ],
+      "version_views_oldest_to_newest": [
+        221,
+        33,
+        15,
+        7
+      ],
+      "derived_sum": 276,
+      "reported_family_views": 276,
+      "source_url": "https://zenodo.org/api/records/23365534/versions?size=25"
+    },
+    {
+      "object_id": "RS04",
+      "repository": "reflective-continuum",
+      "version_record_ids": [
+        22791142,
+        23068260,
+        23137206,
+        23365567
+      ],
+      "version_views_oldest_to_newest": [
+        191,
+        14,
+        13,
+        5
+      ],
+      "derived_sum": 223,
+      "reported_family_views": 223,
+      "source_url": "https://zenodo.org/api/records/23365567/versions?size=25"
+    },
+    {
+      "object_id": "RS05",
+      "repository": "agent-foundations",
+      "version_record_ids": [
+        22791170,
+        23068262,
+        23137207,
+        23365540
+      ],
+      "version_views_oldest_to_newest": [
+        192,
+        46,
+        10,
+        4
+      ],
+      "derived_sum": 252,
+      "reported_family_views": 252,
+      "source_url": "https://zenodo.org/api/records/23365540/versions?size=25"
+    },
+    {
+      "object_id": "RS06",
+      "repository": "auto-doc-engine",
+      "version_record_ids": [
+        22791405,
+        23068471,
+        23137215,
+        23365510
+      ],
+      "version_views_oldest_to_newest": [
+        184,
+        21,
+        26,
+        9
+      ],
+      "derived_sum": 240,
+      "reported_family_views": 240,
+      "source_url": "https://zenodo.org/api/records/23365510/versions?size=25"
+    },
+    {
+      "object_id": "RS07",
+      "repository": "epistemic-pipeline",
+      "version_record_ids": [
+        22791464,
+        23068494,
+        23137216,
+        23365517
+      ],
+      "version_views_oldest_to_newest": [
+        194,
+        35,
+        17,
+        6
+      ],
+      "derived_sum": 252,
+      "reported_family_views": 252,
+      "source_url": "https://zenodo.org/api/records/23365517/versions?size=25"
+    },
+    {
+      "object_id": "RS08",
+      "repository": "sci-render-kit",
+      "version_record_ids": [
+        22791376,
+        23068472,
+        23137219,
+        23365525
+      ],
+      "version_views_oldest_to_newest": [
+        196,
+        21,
+        12,
+        4
+      ],
+      "derived_sum": 233,
+      "reported_family_views": 233,
+      "source_url": "https://zenodo.org/api/records/23365525/versions?size=25"
+    },
+    {
+      "object_id": "RS09",
+      "repository": "china-agentic-observatory",
+      "version_record_ids": [
+        22791310,
+        23068347,
+        23137211,
+        23365548
+      ],
+      "version_views_oldest_to_newest": [
+        195,
+        33,
+        27,
+        5
+      ],
+      "derived_sum": 260,
+      "reported_family_views": 260,
+      "source_url": "https://zenodo.org/api/records/23365548/versions?size=25"
+    },
+    {
+      "object_id": "RS10",
+      "repository": "agentic-frontier-observatory",
+      "version_record_ids": [
+        22791335,
+        23068352,
+        23137214,
+        23365543
+      ],
+      "version_views_oldest_to_newest": [
+        201,
+        37,
+        26,
+        7
+      ],
+      "derived_sum": 271,
+      "reported_family_views": 271,
+      "source_url": "https://zenodo.org/api/records/23365543/versions?size=25"
+    },
+    {
+      "object_id": "CONTROL",
+      "repository": "research-software-identity-audit",
+      "version_record_ids": [
+        23166491,
+        23176748,
+        23284570,
+        23446162
+      ],
+      "version_views_oldest_to_newest": [
+        26,
+        57,
+        31,
+        16
+      ],
+      "derived_sum": 130,
+      "reported_family_views": 130,
+      "source_url": "https://zenodo.org/api/records/23446162/versions?size=25"
+    },
+    {
+      "object_id": "PILOT",
+      "repository": "life-science-ecosystem-lab",
+      "version_record_ids": [
+        23447089
+      ],
+      "version_views_oldest_to_newest": [
+        6
+      ],
+      "derived_sum": 6,
+      "reported_family_views": 6,
+      "source_url": "https://zenodo.org/api/records/23447089/versions?size=25"
+    }
+  ],
+  "derived_totals": {
+    "fixed_ten_version_views": 2545,
+    "control_version_views": 130,
+    "pilot_version_views": 6,
+    "all_12_version_views": 2681
+  },
+  "warning": "Do not treat this newly written file as a contemporaneous October 22 raw capture, not a full-day October 22 recheck. It is an attributed retrospective transcription of an actual earlier selected-field query in this conversation."
+}

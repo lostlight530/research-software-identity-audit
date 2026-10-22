@@ -1,0 +1,11 @@
+# October 22 early Zenodo 12-family selected-field snapshot — retrospective transcript
+
+**Source moment: 2026-10-22 00:19 Asia/Shanghai** (`2026-10-21T16:19:00.557Z`–`16:19:02.994Z`). **This file was assembled later on 2026-10-23** from an actual earlier conversation-tool result. It is **NOT contemporaneously committed HTTP evidence**; no original transport bytes, headers, response digests or Zenodo server capture time were retained. Do not backdate the later compilation or claim this covers October 22's whole day.
+
+- The earlier selected-field extraction called `GET /api/records/<record-id>/versions?size=25` for twelve software families. Each family listed all its reported versions; total **45 version records = 40 fixed RS01–RS10 + 4 independent control-repository versions + 1 separate life-science pilot version**.
+- Earlier extracted `stats.version_views` for each listed record are transcribed in [record.json](record.json), grouped in version-ID order. All twelve groups' version-view sums equaled their matching displayed family-level `stats.views` within that prior response.
+- Bounded prior output: fixed ten **2,545 views**, control **130**, pilot **6**, separate 12-family descriptive total **2,681**. The control is **not RS11**. These are views, not unique people, not citations, not scientific use, and not a schedule-governed prospective observation.
+- This October 22 source is *an early-day prior-chat result*. **No complete October 22 day-end capture exists in the repository**. A later October 23 read must not be claimed as an October 22 historical state. Compare only compatible view fields and retain the source clocks.
+- Historically unresolved: standard individual-version API URLs returned inconsistent/stale-looking counters, whereas full family `/versions` results gave an internally consistent sum. The 547 assembled from incompatible responses is **not an acceptable family total**; a query parameter alone does not guarantee cache freshness.
+
+Source authority: [frozen OSF contract](../../../contract/preregistration.md), [fixed corpus](../../../corpus/object-manifest.csv), and [counting rules](../../../schema/counting-rules.md). This record changes none of them. Follow-up: [October 23 early diagnostic](../../2026-10-23/01-early-public-infrastructure-recheck/README.md).

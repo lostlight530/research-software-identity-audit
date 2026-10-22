@@ -111,3 +111,8 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 21 evening all-version recheck
 
 - [2026-10-21 / 02-evening-all-version-recheck](2026-10-21/02-evening-all-version-recheck/README.md) — fixed RS01–RS10 four-version audit (40 Zenodo records), 76 ORCID-linked DataCite DOI/type records and 32 OpenAlex Works/type records; diagnostic only, no prospective cells.
+
+## October 22–23 bounded rechecks (separate source dates)
+
+- [October 22 00:19 prior-chat 12-family Zenodo source transcription](2026-10-22/01-early-chat-snapshot-reconciliation/README.md) — retrospective selected-field transcript written October 23, not a historical raw HTTP capture and **not** the full October 22 day.
+- [October 23 00:08–00:16 early public platform diagnostic](2026-10-23/01-early-public-infrastructure-recheck/README.md) — 12 Zenodo families / 45 version records; DataCite, OpenAlex, OpenAIRE, GitHub; ORCID and SWH degraded; zero prospective cells. No claim the rest of October 23 has happened.
