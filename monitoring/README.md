@@ -125,3 +125,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 24 morning all-platform check and Zenodo family rollup
 
 - [2026-10-24 / 02-morning-infrastructure-and-zenodo-family-rollup](2026-10-24/02-morning-infrastructure-and-zenodo-family-rollup/README.md) — same-day second bounded audit of seven contracted platforms plus supplementary institutional surfaces, with **12 one-row-per-family combined Zenodo counters** and 45 individual version DOI evidence rows; source-bound OpenAlex/ORCID/SWH and institutional failure states retained; zero prospective cells.
+
+## October 24 offline family-statistics check
+
+- [2026-10-24 / 03-offline-family-stat-replay](2026-10-24/03-offline-family-stat-replay/README.md) — read-only validator for the existing 12-family and 45-version selected-field snapshots and their 2,681/2,836 URL-shape discrepancy; no fresh observation or prospective cells.

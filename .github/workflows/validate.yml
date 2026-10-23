@@ -34,3 +34,6 @@ jobs:
       - name: Validate October 20 reconciled public package (advisory)
         continue-on-error: true
         run: python -B tools/check_research_recheck_20261020.py
+      - name: Recheck retained Zenodo family arithmetic (advisory)
+        continue-on-error: true
+        run: python -B tools/check_zenodo_family_rollup.py
