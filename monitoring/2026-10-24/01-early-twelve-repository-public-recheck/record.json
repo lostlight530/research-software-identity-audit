@@ -1,0 +1,1403 @@
+{
+  "record_class": "diagnostic_monitoring_selected_fields",
+  "logical_date": "2026-10-24",
+  "daypart": "early_morning_only",
+  "timezone": "Asia/Shanghai",
+  "fetch_batch_utc": [
+    "2026-10-23T23:00:42.637Z",
+    "2026-10-23T23:00:45.484Z"
+  ],
+  "github_sources_retrieved_utc": "2026-10-23T22:55Z",
+  "external_index_sources_retrieved_utc": "2026-10-23T22:56Z",
+  "main_parent_sha": "c56be73808af0035a30bb5a8fca09099477ba176",
+  "registered_corpus": "RS01–RS10 only",
+  "frozen_osf_doi": "10.17605/OSF.IO/5B329",
+  "registered_layers": 6,
+  "analytical_units_per_scheduled_point": 60,
+  "seven_operational_platform_checks_not_analytical_units": true,
+  "operational_offsets_declared": false,
+  "prospective_dataset_member": false,
+  "prospective_cells": 0,
+  "provenance_precision": "batch client timestamps and public selected JSON fields, no raw HTTP byte archive / origin cache guarantee, do not replay historical dates",
+  "zenodo": {
+    "all_families": [
+      {
+        "id": "RS01",
+        "repository": "welcome-to-github",
+        "source_url": "https://zenodo.org/api/records/23365504/versions?size=25",
+        "concept_doi": "10.5281/zenodo.22790907",
+        "count": 4,
+        "sum_version_views": 289,
+        "sum_version_downloads": 6,
+        "attached_family_views": [
+          289
+        ],
+        "attached_family_downloads": [
+          6
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23365504,
+            "doi": "10.5281/zenodo.23365504",
+            "concept_doi": "10.5281/zenodo.22790907",
+            "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+            "stats": {
+              "downloads": 6,
+              "unique_downloads": 5,
+              "views": 289,
+              "unique_views": 203,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 5,
+              "version_views": 6
+            }
+          },
+          {
+            "record_id": 23137203,
+            "doi": "10.5281/zenodo.23137203",
+            "concept_doi": "10.5281/zenodo.22790907",
+            "tag": "v2026.10-open-research-production-framework",
+            "stats": {
+              "downloads": 6,
+              "unique_downloads": 5,
+              "views": 289,
+              "unique_views": 203,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 31,
+              "version_views": 32
+            }
+          },
+          {
+            "record_id": 23068145,
+            "doi": "10.5281/zenodo.23068145",
+            "concept_doi": "10.5281/zenodo.22790907",
+            "tag": "v2026.09-natural-month-close",
+            "stats": {
+              "downloads": 6,
+              "unique_downloads": 5,
+              "views": 289,
+              "unique_views": 203,
+              "version_downloads": 2,
+              "version_unique_downloads": 1,
+              "version_unique_views": 28,
+              "version_views": 29
+            }
+          },
+          {
+            "record_id": 22790908,
+            "doi": "10.5281/zenodo.22790908",
+            "concept_doi": "10.5281/zenodo.22790907",
+            "tag": "v2026.09-open-research-baseline",
+            "stats": {
+              "downloads": 6,
+              "unique_downloads": 5,
+              "views": 289,
+              "unique_views": 203,
+              "version_downloads": 2,
+              "version_unique_downloads": 2,
+              "version_unique_views": 139,
+              "version_views": 222
+            }
+          }
+        ]
+      },
+      {
+        "id": "RS02",
+        "repository": "zero-entropy-lab",
+        "source_url": "https://zenodo.org/api/records/23365551/versions?size=25",
+        "concept_doi": "10.5281/zenodo.22791081",
+        "count": 4,
+        "sum_version_views": 249,
+        "sum_version_downloads": 1,
+        "attached_family_views": [
+          249
+        ],
+        "attached_family_downloads": [
+          1
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23365551,
+            "doi": "10.5281/zenodo.23365551",
+            "concept_doi": "10.5281/zenodo.22791081",
+            "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 249,
+              "unique_views": 163,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 5,
+              "version_views": 5
+            }
+          },
+          {
+            "record_id": 23137204,
+            "doi": "10.5281/zenodo.23137204",
+            "concept_doi": "10.5281/zenodo.22791081",
+            "tag": "v2026.10-open-research-production-framework",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 249,
+              "unique_views": 163,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 14,
+              "version_views": 19
+            }
+          },
+          {
+            "record_id": 23068144,
+            "doi": "10.5281/zenodo.23068144",
+            "concept_doi": "10.5281/zenodo.22791081",
+            "tag": "v2026.09-natural-month-close",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 249,
+              "unique_views": 163,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 23,
+              "version_views": 24
+            }
+          },
+          {
+            "record_id": 22791082,
+            "doi": "10.5281/zenodo.22791082",
+            "concept_doi": "10.5281/zenodo.22791081",
+            "tag": "v2026.09-open-research-baseline",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 249,
+              "unique_views": 163,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 121,
+              "version_views": 201
+            }
+          }
+        ]
+      },
+      {
+        "id": "RS03",
+        "repository": "Axiom-0",
+        "source_url": "https://zenodo.org/api/records/23365534/versions?size=25",
+        "concept_doi": "10.5281/zenodo.22791103",
+        "count": 4,
+        "sum_version_views": 276,
+        "sum_version_downloads": 1,
+        "attached_family_views": [
+          276
+        ],
+        "attached_family_downloads": [
+          1
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23365534,
+            "doi": "10.5281/zenodo.23365534",
+            "concept_doi": "10.5281/zenodo.22791103",
+            "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 276,
+              "unique_views": 190,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 7,
+              "version_views": 7
+            }
+          },
+          {
+            "record_id": 23137205,
+            "doi": "10.5281/zenodo.23137205",
+            "concept_doi": "10.5281/zenodo.22791103",
+            "tag": "v2026.10-open-research-production-framework",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 276,
+              "unique_views": 190,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 14,
+              "version_views": 15
+            }
+          },
+          {
+            "record_id": 23068261,
+            "doi": "10.5281/zenodo.23068261",
+            "concept_doi": "10.5281/zenodo.22791103",
+            "tag": "v2026.09-natural-month-close",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 276,
+              "unique_views": 190,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 30,
+              "version_views": 33
+            }
+          },
+          {
+            "record_id": 22791104,
+            "doi": "10.5281/zenodo.22791104",
+            "concept_doi": "10.5281/zenodo.22791103",
+            "tag": "v2026.09-open-research-baseline",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 276,
+              "unique_views": 190,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 139,
+              "version_views": 221
+            }
+          }
+        ]
+      },
+      {
+        "id": "RS04",
+        "repository": "reflective-continuum",
+        "source_url": "https://zenodo.org/api/records/23365567/versions?size=25",
+        "concept_doi": "10.5281/zenodo.22791141",
+        "count": 4,
+        "sum_version_views": 223,
+        "sum_version_downloads": 1,
+        "attached_family_views": [
+          223
+        ],
+        "attached_family_downloads": [
+          1
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23365567,
+            "doi": "10.5281/zenodo.23365567",
+            "concept_doi": "10.5281/zenodo.22791141",
+            "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 223,
+              "unique_views": 138,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 5,
+              "version_views": 5
+            }
+          },
+          {
+            "record_id": 23137206,
+            "doi": "10.5281/zenodo.23137206",
+            "concept_doi": "10.5281/zenodo.22791141",
+            "tag": "v2026.10-open-research-production-framework",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 223,
+              "unique_views": 138,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 12,
+              "version_views": 13
+            }
+          },
+          {
+            "record_id": 23068260,
+            "doi": "10.5281/zenodo.23068260",
+            "concept_doi": "10.5281/zenodo.22791141",
+            "tag": "v2026.09-natural-month-close",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 223,
+              "unique_views": 138,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 14,
+              "version_views": 14
+            }
+          },
+          {
+            "record_id": 22791142,
+            "doi": "10.5281/zenodo.22791142",
+            "concept_doi": "10.5281/zenodo.22791141",
+            "tag": "v2026.09-open-research-baseline",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 223,
+              "unique_views": 138,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 107,
+              "version_views": 191
+            }
+          }
+        ]
+      },
+      {
+        "id": "RS05",
+        "repository": "agent-foundations",
+        "source_url": "https://zenodo.org/api/records/23365540/versions?size=25",
+        "concept_doi": "10.5281/zenodo.22791169",
+        "count": 4,
+        "sum_version_views": 252,
+        "sum_version_downloads": 2,
+        "attached_family_views": [
+          252
+        ],
+        "attached_family_downloads": [
+          2
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23365540,
+            "doi": "10.5281/zenodo.23365540",
+            "concept_doi": "10.5281/zenodo.22791169",
+            "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 252,
+              "unique_views": 166,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 4,
+              "version_views": 4
+            }
+          },
+          {
+            "record_id": 23137207,
+            "doi": "10.5281/zenodo.23137207",
+            "concept_doi": "10.5281/zenodo.22791169",
+            "tag": "v2026.10-open-research-production-framework",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 252,
+              "unique_views": 166,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 10,
+              "version_views": 10
+            }
+          },
+          {
+            "record_id": 23068262,
+            "doi": "10.5281/zenodo.23068262",
+            "concept_doi": "10.5281/zenodo.22791169",
+            "tag": "v2026.09-natural-month-close",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 252,
+              "unique_views": 166,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 41,
+              "version_views": 46
+            }
+          },
+          {
+            "record_id": 22791170,
+            "doi": "10.5281/zenodo.22791170",
+            "concept_doi": "10.5281/zenodo.22791169",
+            "tag": "v2026.09-open-research-baseline",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 252,
+              "unique_views": 166,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 111,
+              "version_views": 192
+            }
+          }
+        ]
+      },
+      {
+        "id": "RS06",
+        "repository": "auto-doc-engine",
+        "source_url": "https://zenodo.org/api/records/23365510/versions?size=25",
+        "concept_doi": "10.5281/zenodo.22791404",
+        "count": 4,
+        "sum_version_views": 240,
+        "sum_version_downloads": 0,
+        "attached_family_views": [
+          240
+        ],
+        "attached_family_downloads": [
+          0
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23365510,
+            "doi": "10.5281/zenodo.23365510",
+            "concept_doi": "10.5281/zenodo.22791404",
+            "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+            "stats": {
+              "downloads": 0,
+              "unique_downloads": 0,
+              "views": 240,
+              "unique_views": 154,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 7,
+              "version_views": 9
+            }
+          },
+          {
+            "record_id": 23137215,
+            "doi": "10.5281/zenodo.23137215",
+            "concept_doi": "10.5281/zenodo.22791404",
+            "tag": "v2026.10-open-research-production-framework",
+            "stats": {
+              "downloads": 0,
+              "unique_downloads": 0,
+              "views": 240,
+              "unique_views": 154,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 22,
+              "version_views": 26
+            }
+          },
+          {
+            "record_id": 23068471,
+            "doi": "10.5281/zenodo.23068471",
+            "concept_doi": "10.5281/zenodo.22791404",
+            "tag": "v2026.09-natural-month-close",
+            "stats": {
+              "downloads": 0,
+              "unique_downloads": 0,
+              "views": 240,
+              "unique_views": 154,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 20,
+              "version_views": 21
+            }
+          },
+          {
+            "record_id": 22791405,
+            "doi": "10.5281/zenodo.22791405",
+            "concept_doi": "10.5281/zenodo.22791404",
+            "tag": "v2026.09-open-research-baseline",
+            "stats": {
+              "downloads": 0,
+              "unique_downloads": 0,
+              "views": 240,
+              "unique_views": 154,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 105,
+              "version_views": 184
+            }
+          }
+        ]
+      },
+      {
+        "id": "RS07",
+        "repository": "epistemic-pipeline",
+        "source_url": "https://zenodo.org/api/records/23365517/versions?size=25",
+        "concept_doi": "10.5281/zenodo.22791463",
+        "count": 4,
+        "sum_version_views": 252,
+        "sum_version_downloads": 1,
+        "attached_family_views": [
+          252
+        ],
+        "attached_family_downloads": [
+          1
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23365517,
+            "doi": "10.5281/zenodo.23365517",
+            "concept_doi": "10.5281/zenodo.22791463",
+            "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 252,
+              "unique_views": 168,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 6,
+              "version_views": 6
+            }
+          },
+          {
+            "record_id": 23137216,
+            "doi": "10.5281/zenodo.23137216",
+            "concept_doi": "10.5281/zenodo.22791463",
+            "tag": "v2026.10-open-research-production-framework",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 252,
+              "unique_views": 168,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 16,
+              "version_views": 17
+            }
+          },
+          {
+            "record_id": 23068494,
+            "doi": "10.5281/zenodo.23068494",
+            "concept_doi": "10.5281/zenodo.22791463",
+            "tag": "v2026.09-natural-month-close",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 252,
+              "unique_views": 168,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 34,
+              "version_views": 35
+            }
+          },
+          {
+            "record_id": 22791464,
+            "doi": "10.5281/zenodo.22791464",
+            "concept_doi": "10.5281/zenodo.22791463",
+            "tag": "v2026.09-open-research-baseline",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 252,
+              "unique_views": 168,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 112,
+              "version_views": 194
+            }
+          }
+        ]
+      },
+      {
+        "id": "RS08",
+        "repository": "sci-render-kit",
+        "source_url": "https://zenodo.org/api/records/23365525/versions?size=25",
+        "concept_doi": "10.5281/zenodo.22791375",
+        "count": 4,
+        "sum_version_views": 233,
+        "sum_version_downloads": 2,
+        "attached_family_views": [
+          233
+        ],
+        "attached_family_downloads": [
+          2
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23365525,
+            "doi": "10.5281/zenodo.23365525",
+            "concept_doi": "10.5281/zenodo.22791375",
+            "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 233,
+              "unique_views": 154,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 4,
+              "version_views": 4
+            }
+          },
+          {
+            "record_id": 23137219,
+            "doi": "10.5281/zenodo.23137219",
+            "concept_doi": "10.5281/zenodo.22791375",
+            "tag": "v2026.10-open-research-production-framework",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 233,
+              "unique_views": 154,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 11,
+              "version_views": 12
+            }
+          },
+          {
+            "record_id": 23068472,
+            "doi": "10.5281/zenodo.23068472",
+            "concept_doi": "10.5281/zenodo.22791375",
+            "tag": "v2026.09-natural-month-close",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 233,
+              "unique_views": 154,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 21,
+              "version_views": 21
+            }
+          },
+          {
+            "record_id": 22791376,
+            "doi": "10.5281/zenodo.22791376",
+            "concept_doi": "10.5281/zenodo.22791375",
+            "tag": "v2026.09-open-research-baseline",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 233,
+              "unique_views": 154,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 118,
+              "version_views": 196
+            }
+          }
+        ]
+      },
+      {
+        "id": "RS09",
+        "repository": "china-agentic-observatory",
+        "source_url": "https://zenodo.org/api/records/23365548/versions?size=25",
+        "concept_doi": "10.5281/zenodo.22791309",
+        "count": 4,
+        "sum_version_views": 260,
+        "sum_version_downloads": 1,
+        "attached_family_views": [
+          260
+        ],
+        "attached_family_downloads": [
+          1
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23365548,
+            "doi": "10.5281/zenodo.23365548",
+            "concept_doi": "10.5281/zenodo.22791309",
+            "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 260,
+              "unique_views": 174,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 5,
+              "version_views": 5
+            }
+          },
+          {
+            "record_id": 23137211,
+            "doi": "10.5281/zenodo.23137211",
+            "concept_doi": "10.5281/zenodo.22791309",
+            "tag": "v2026.10-open-research-production-framework",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 260,
+              "unique_views": 174,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 26,
+              "version_views": 27
+            }
+          },
+          {
+            "record_id": 23068347,
+            "doi": "10.5281/zenodo.23068347",
+            "concept_doi": "10.5281/zenodo.22791309",
+            "tag": "v2026.09-natural-month-close",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 260,
+              "unique_views": 174,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 30,
+              "version_views": 33
+            }
+          },
+          {
+            "record_id": 22791310,
+            "doi": "10.5281/zenodo.22791310",
+            "concept_doi": "10.5281/zenodo.22791309",
+            "tag": "v2026.09-open-research-baseline",
+            "stats": {
+              "downloads": 1,
+              "unique_downloads": 1,
+              "views": 260,
+              "unique_views": 174,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 113,
+              "version_views": 195
+            }
+          }
+        ]
+      },
+      {
+        "id": "RS10",
+        "repository": "agentic-frontier-observatory",
+        "source_url": "https://zenodo.org/api/records/23365543/versions?size=25",
+        "concept_doi": "10.5281/zenodo.22791334",
+        "count": 4,
+        "sum_version_views": 271,
+        "sum_version_downloads": 2,
+        "attached_family_views": [
+          271
+        ],
+        "attached_family_downloads": [
+          2
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23365543,
+            "doi": "10.5281/zenodo.23365543",
+            "concept_doi": "10.5281/zenodo.22791334",
+            "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 271,
+              "unique_views": 185,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 7,
+              "version_views": 7
+            }
+          },
+          {
+            "record_id": 23137214,
+            "doi": "10.5281/zenodo.23137214",
+            "concept_doi": "10.5281/zenodo.22791334",
+            "tag": "v2026.10-open-research-production-framework",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 271,
+              "unique_views": 185,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 26,
+              "version_views": 26
+            }
+          },
+          {
+            "record_id": 23068352,
+            "doi": "10.5281/zenodo.23068352",
+            "concept_doi": "10.5281/zenodo.22791334",
+            "tag": "v2026.09-natural-month-close",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 271,
+              "unique_views": 185,
+              "version_downloads": 1,
+              "version_unique_downloads": 1,
+              "version_unique_views": 34,
+              "version_views": 37
+            }
+          },
+          {
+            "record_id": 22791335,
+            "doi": "10.5281/zenodo.22791335",
+            "concept_doi": "10.5281/zenodo.22791334",
+            "tag": "v2026.09-open-research-baseline",
+            "stats": {
+              "downloads": 2,
+              "unique_downloads": 2,
+              "views": 271,
+              "unique_views": 185,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 118,
+              "version_views": 201
+            }
+          }
+        ]
+      },
+      {
+        "id": "CONTROL",
+        "repository": "research-software-identity-audit",
+        "source_url": "https://zenodo.org/api/records/23446162/versions?size=25",
+        "concept_doi": "10.5281/zenodo.23166490",
+        "count": 4,
+        "sum_version_views": 130,
+        "sum_version_downloads": 5,
+        "attached_family_views": [
+          130
+        ],
+        "attached_family_downloads": [
+          5
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23446162,
+            "doi": "10.5281/zenodo.23446162",
+            "concept_doi": "10.5281/zenodo.23166490",
+            "tag": "v2026.10-evidence-integrity",
+            "stats": {
+              "downloads": 5,
+              "unique_downloads": 5,
+              "views": 130,
+              "unique_views": 122,
+              "version_downloads": 2,
+              "version_unique_downloads": 2,
+              "version_unique_views": 16,
+              "version_views": 16
+            }
+          },
+          {
+            "record_id": 23284570,
+            "doi": "10.5281/zenodo.23284570",
+            "concept_doi": "10.5281/zenodo.23166490",
+            "tag": "v2026.10-evidence-reconciliation",
+            "stats": {
+              "downloads": 5,
+              "unique_downloads": 5,
+              "views": 130,
+              "unique_views": 122,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 28,
+              "version_views": 31
+            }
+          },
+          {
+            "record_id": 23176748,
+            "doi": "10.5281/zenodo.23176748",
+            "concept_doi": "10.5281/zenodo.23166490",
+            "tag": "v2026.10-initial-research-runtime",
+            "stats": {
+              "downloads": 5,
+              "unique_downloads": 5,
+              "views": 130,
+              "unique_views": 122,
+              "version_downloads": 3,
+              "version_unique_downloads": 3,
+              "version_unique_views": 55,
+              "version_views": 57
+            }
+          },
+          {
+            "record_id": 23166491,
+            "doi": "10.5281/zenodo.23166491",
+            "concept_doi": "10.5281/zenodo.23166490",
+            "tag": "beta",
+            "stats": {
+              "downloads": 5,
+              "unique_downloads": 5,
+              "views": 130,
+              "unique_views": 122,
+              "version_downloads": 0,
+              "version_unique_downloads": 0,
+              "version_unique_views": 23,
+              "version_views": 26
+            }
+          }
+        ]
+      },
+      {
+        "id": "PILOT",
+        "repository": "life-science-ecosystem-lab",
+        "source_url": "https://zenodo.org/api/records/23447089/versions?size=25",
+        "concept_doi": "10.5281/zenodo.23447088",
+        "count": 1,
+        "sum_version_views": 6,
+        "sum_version_downloads": 5,
+        "attached_family_views": [
+          6
+        ],
+        "attached_family_downloads": [
+          5
+        ],
+        "check": true,
+        "records": [
+          {
+            "record_id": 23447089,
+            "doi": "10.5281/zenodo.23447089",
+            "concept_doi": "10.5281/zenodo.23447088",
+            "tag": "v0.4.0",
+            "stats": {
+              "downloads": 5,
+              "unique_downloads": 3,
+              "views": 6,
+              "unique_views": 5,
+              "version_downloads": 5,
+              "version_unique_downloads": 3,
+              "version_unique_views": 5,
+              "version_views": 6
+            }
+          }
+        ]
+      }
+    ],
+    "families": 12,
+    "version_records": 45,
+    "consistent_families": 12,
+    "fixed_ten_views": 2545,
+    "control_views": 130,
+    "pilot_views": 6,
+    "total_views": 2681,
+    "total_downloads": 27,
+    "prior_2026_10_23_total": 2681,
+    "observed_field_difference": 0,
+    "interpretation": "not proof of zero traffic, cache discrepancy unresolved"
+  },
+  "github": {
+    "repo_ids": [
+      "RS01",
+      "RS02",
+      "RS03",
+      "RS04",
+      "RS05",
+      "RS06",
+      "RS07",
+      "RS08",
+      "RS09",
+      "RS10",
+      "CONTROL",
+      "PILOT"
+    ],
+    "repo_names": [
+      "welcome-to-github",
+      "zero-entropy-lab",
+      "Axiom-0",
+      "reflective-continuum",
+      "agent-foundations",
+      "auto-doc-engine",
+      "epistemic-pipeline",
+      "sci-render-kit",
+      "china-agentic-observatory",
+      "agentic-frontier-observatory",
+      "research-software-identity-audit",
+      "life-science-ecosystem-lab"
+    ],
+    "created_at_utc": [
+      "2025-04-27T13:24:29Z",
+      "2026-03-13T06:07:48Z",
+      "2026-04-05T15:53:31Z",
+      "2026-05-19T11:51:00Z",
+      "2026-05-19T14:13:43Z",
+      "2026-06-19T08:29:12Z",
+      "2026-06-19T08:29:46Z",
+      "2026-06-19T08:30:33Z",
+      "2026-08-07T03:34:17Z",
+      "2026-08-07T03:34:19Z",
+      "2026-10-05T14:59:45Z",
+      "2026-10-16T10:35:54Z"
+    ],
+    "head_sha_at_read": [
+      "0c24484fb6e41ab8f2248a42c6f685f2e831b9df",
+      "ad7f1961a97ee24a1769f4068c7a54b5f7da663f",
+      "1464ef067e9c3bebf3d0691ddd056244bea90dcc",
+      "ca2573317d211bc72fd4c431eea85a64de2b0e78",
+      "7c9374e22c1b8fc5aad873ec42c0bf203700e5f3",
+      "b6b0be4d8dee4603ae21fa1cc8c5203b007ab277",
+      "804659c38e5fefd532d70f368fb2b7045a2715a6",
+      "04acde76af9f1058ed8abdd5c1c3e791423767dc",
+      "669528cb45dfe97026c6ce9a9f7c7b118da6ce17",
+      "a725b7933d52273a572ac9d061771066e9a7d69d",
+      "c56be73808af0035a30bb5a8fca09099477ba176",
+      "20b3cdd03eb1df690ab26ddb2816121df3af54a7"
+    ],
+    "head_authored_at_utc": [
+      "2026-10-23T22:54:01Z",
+      "2026-10-23T15:24:29Z",
+      "2026-10-23T15:24:34Z",
+      "2026-10-23T15:24:38Z",
+      "2026-10-23T15:24:43Z",
+      "2026-10-23T15:32:26Z",
+      "2026-10-23T15:32:31Z",
+      "2026-10-23T15:32:36Z",
+      "2026-10-23T22:52:55Z",
+      "2026-10-23T22:53:15Z",
+      "2026-10-22T16:20:17Z",
+      "2026-10-20T07:41:42Z"
+    ],
+    "releases": [
+      {
+        "id": "RS01",
+        "repo": "welcome-to-github",
+        "tag": "v2026.09-open-research-baseline",
+        "utc": "2026-09-16T08:26:48Z",
+        "local": "2026-09-16"
+      },
+      {
+        "id": "RS01",
+        "repo": "welcome-to-github",
+        "tag": "v2026.09-natural-month-close",
+        "utc": "2026-09-30T18:05:34Z",
+        "local": "2026-10-01"
+      },
+      {
+        "id": "RS01",
+        "repo": "welcome-to-github",
+        "tag": "v2026.10-open-research-production-framework",
+        "utc": "2026-10-04T13:00:12Z",
+        "local": "2026-10-04"
+      },
+      {
+        "id": "RS01",
+        "repo": "welcome-to-github",
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "utc": "2026-10-14T11:14:44Z",
+        "local": "2026-10-14"
+      },
+      {
+        "id": "RS02",
+        "repo": "zero-entropy-lab",
+        "tag": "v2026.09-open-research-baseline",
+        "utc": "2026-09-16T08:33:49Z",
+        "local": "2026-09-16"
+      },
+      {
+        "id": "RS02",
+        "repo": "zero-entropy-lab",
+        "tag": "v2026.09-natural-month-close",
+        "utc": "2026-09-30T18:05:28Z",
+        "local": "2026-10-01"
+      },
+      {
+        "id": "RS02",
+        "repo": "zero-entropy-lab",
+        "tag": "v2026.10-open-research-production-framework",
+        "utc": "2026-10-04T13:00:14Z",
+        "local": "2026-10-04"
+      },
+      {
+        "id": "RS02",
+        "repo": "zero-entropy-lab",
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "utc": "2026-10-14T11:16:09Z",
+        "local": "2026-10-14"
+      },
+      {
+        "id": "RS03",
+        "repo": "Axiom-0",
+        "tag": "v2026.09-open-research-baseline",
+        "utc": "2026-09-16T08:35:10Z",
+        "local": "2026-09-16"
+      },
+      {
+        "id": "RS03",
+        "repo": "Axiom-0",
+        "tag": "v2026.09-natural-month-close",
+        "utc": "2026-09-30T18:12:36Z",
+        "local": "2026-10-01"
+      },
+      {
+        "id": "RS03",
+        "repo": "Axiom-0",
+        "tag": "v2026.10-open-research-production-framework",
+        "utc": "2026-10-04T13:00:17Z",
+        "local": "2026-10-04"
+      },
+      {
+        "id": "RS03",
+        "repo": "Axiom-0",
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "utc": "2026-10-14T11:15:30Z",
+        "local": "2026-10-14"
+      },
+      {
+        "id": "RS04",
+        "repo": "reflective-continuum",
+        "tag": "v2026.09-open-research-baseline",
+        "utc": "2026-09-16T08:36:44Z",
+        "local": "2026-09-16"
+      },
+      {
+        "id": "RS04",
+        "repo": "reflective-continuum",
+        "tag": "v2026.09-natural-month-close",
+        "utc": "2026-09-30T18:12:26Z",
+        "local": "2026-10-01"
+      },
+      {
+        "id": "RS04",
+        "repo": "reflective-continuum",
+        "tag": "v2026.10-open-research-production-framework",
+        "utc": "2026-10-04T13:00:21Z",
+        "local": "2026-10-04"
+      },
+      {
+        "id": "RS04",
+        "repo": "reflective-continuum",
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "utc": "2026-10-14T11:16:33Z",
+        "local": "2026-10-14"
+      },
+      {
+        "id": "RS05",
+        "repo": "agent-foundations",
+        "tag": "v2026.09-open-research-baseline",
+        "utc": "2026-09-16T08:38:46Z",
+        "local": "2026-09-16"
+      },
+      {
+        "id": "RS05",
+        "repo": "agent-foundations",
+        "tag": "v2026.09-natural-month-close",
+        "utc": "2026-09-30T18:12:43Z",
+        "local": "2026-10-01"
+      },
+      {
+        "id": "RS05",
+        "repo": "agent-foundations",
+        "tag": "v2026.10-open-research-production-framework",
+        "utc": "2026-10-04T13:00:23Z",
+        "local": "2026-10-04"
+      },
+      {
+        "id": "RS05",
+        "repo": "agent-foundations",
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "utc": "2026-10-14T11:15:39Z",
+        "local": "2026-10-14"
+      },
+      {
+        "id": "RS06",
+        "repo": "auto-doc-engine",
+        "tag": "v2026.09-open-research-baseline",
+        "utc": "2026-09-16T08:49:18Z",
+        "local": "2026-09-16"
+      },
+      {
+        "id": "RS06",
+        "repo": "auto-doc-engine",
+        "tag": "v2026.09-natural-month-close",
+        "utc": "2026-09-30T18:24:23Z",
+        "local": "2026-10-01"
+      },
+      {
+        "id": "RS06",
+        "repo": "auto-doc-engine",
+        "tag": "v2026.10-open-research-production-framework",
+        "utc": "2026-10-04T13:00:32Z",
+        "local": "2026-10-04"
+      },
+      {
+        "id": "RS06",
+        "repo": "auto-doc-engine",
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "utc": "2026-10-14T11:14:54Z",
+        "local": "2026-10-14"
+      },
+      {
+        "id": "RS07",
+        "repo": "epistemic-pipeline",
+        "tag": "v2026.09-open-research-baseline",
+        "utc": "2026-09-16T08:51:00Z",
+        "local": "2026-09-16"
+      },
+      {
+        "id": "RS07",
+        "repo": "epistemic-pipeline",
+        "tag": "v2026.09-natural-month-close",
+        "utc": "2026-09-30T18:24:34Z",
+        "local": "2026-10-01"
+      },
+      {
+        "id": "RS07",
+        "repo": "epistemic-pipeline",
+        "tag": "v2026.10-open-research-production-framework",
+        "utc": "2026-10-04T13:00:36Z",
+        "local": "2026-10-04"
+      },
+      {
+        "id": "RS07",
+        "repo": "epistemic-pipeline",
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "utc": "2026-10-14T11:15:04Z",
+        "local": "2026-10-14"
+      },
+      {
+        "id": "RS08",
+        "repo": "sci-render-kit",
+        "tag": "v2026.09-open-research-baseline",
+        "utc": "2026-09-16T08:47:58Z",
+        "local": "2026-09-16"
+      },
+      {
+        "id": "RS08",
+        "repo": "sci-render-kit",
+        "tag": "v2026.09-natural-month-close",
+        "utc": "2026-09-30T18:24:39Z",
+        "local": "2026-10-01"
+      },
+      {
+        "id": "RS08",
+        "repo": "sci-render-kit",
+        "tag": "v2026.10-open-research-production-framework",
+        "utc": "2026-10-04T13:00:39Z",
+        "local": "2026-10-04"
+      },
+      {
+        "id": "RS08",
+        "repo": "sci-render-kit",
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "utc": "2026-10-14T11:15:18Z",
+        "local": "2026-10-14"
+      },
+      {
+        "id": "RS09",
+        "repo": "china-agentic-observatory",
+        "tag": "v2026.09-open-research-baseline",
+        "utc": "2026-09-16T08:45:06Z",
+        "local": "2026-09-16"
+      },
+      {
+        "id": "RS09",
+        "repo": "china-agentic-observatory",
+        "tag": "v2026.09-natural-month-close",
+        "utc": "2026-09-30T18:17:03Z",
+        "local": "2026-10-01"
+      },
+      {
+        "id": "RS09",
+        "repo": "china-agentic-observatory",
+        "tag": "v2026.10-open-research-production-framework",
+        "utc": "2026-10-04T13:00:26Z",
+        "local": "2026-10-04"
+      },
+      {
+        "id": "RS09",
+        "repo": "china-agentic-observatory",
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "utc": "2026-10-14T11:16:00Z",
+        "local": "2026-10-14"
+      },
+      {
+        "id": "RS10",
+        "repo": "agentic-frontier-observatory",
+        "tag": "v2026.09-open-research-baseline",
+        "utc": "2026-09-16T08:46:10Z",
+        "local": "2026-09-16"
+      },
+      {
+        "id": "RS10",
+        "repo": "agentic-frontier-observatory",
+        "tag": "v2026.09-natural-month-close",
+        "utc": "2026-09-30T18:17:05Z",
+        "local": "2026-10-01"
+      },
+      {
+        "id": "RS10",
+        "repo": "agentic-frontier-observatory",
+        "tag": "v2026.10-open-research-production-framework",
+        "utc": "2026-10-04T13:00:29Z",
+        "local": "2026-10-04"
+      },
+      {
+        "id": "RS10",
+        "repo": "agentic-frontier-observatory",
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "utc": "2026-10-14T11:15:53Z",
+        "local": "2026-10-14"
+      },
+      {
+        "id": "CONTROL",
+        "repo": "research-software-identity-audit",
+        "tag": "beta",
+        "utc": "2026-10-05T15:45:45Z",
+        "local": "2026-10-05"
+      },
+      {
+        "id": "CONTROL",
+        "repo": "research-software-identity-audit",
+        "tag": "v2026.10-initial-research-runtime",
+        "utc": "2026-10-06T02:48:16Z",
+        "local": "2026-10-06"
+      },
+      {
+        "id": "CONTROL",
+        "repo": "research-software-identity-audit",
+        "tag": "v2026.10-evidence-reconciliation",
+        "utc": "2026-10-10T15:45:40Z",
+        "local": "2026-10-10"
+      },
+      {
+        "id": "CONTROL",
+        "repo": "research-software-identity-audit",
+        "tag": "v2026.10-evidence-integrity",
+        "utc": "2026-10-18T04:38:57Z",
+        "local": "2026-10-18"
+      },
+      {
+        "id": "PILOT",
+        "repo": "life-science-ecosystem-lab",
+        "tag": "v0.4.0",
+        "utc": "2026-10-18T04:39:01Z",
+        "local": "2026-10-18"
+      }
+    ],
+    "release_count": 45,
+    "main_can_advance_without_release": true,
+    "eligible_new_release_not_established": true
+  },
+  "datacite": {
+    "source": "https://api.datacite.org/dois?query=creators.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A%20OR%20contributors.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A&page%5Bsize%5D=100",
+    "meta_total": 76,
+    "returned_unique": 76,
+    "types": {
+      "Software": 56,
+      "Workflow": 19,
+      "StudyRegistration": 1
+    },
+    "states": [
+      "findable"
+    ]
+  },
+  "openalex": {
+    "author_id": "A5151904252",
+    "default_profile_works_count": 30,
+    "selected_profile_works_count": 32,
+    "filtered_works_count": 32,
+    "types": {
+      "software": 12,
+      "other": 20
+    },
+    "profile_disagreement": "unresolved"
+  },
+  "openaire": {
+    "checkpoint_software_exact_doi_queries": 10,
+    "query_total_one_each": 10,
+    "older_40_routes_not_checked": true
+  },
+  "orcid": {
+    "state": "degraded_extractor_unparseable",
+    "latest_fresh_work_count": null
+  },
+  "software_heritage": {
+    "state": "not_attempted_today",
+    "older_degradation_preserved": true
+  },
+  "scope": "No private API accounts, no full Git commit history of twelve repos, no historical traffic backfill, no completed Oct24 day claim"
+}
