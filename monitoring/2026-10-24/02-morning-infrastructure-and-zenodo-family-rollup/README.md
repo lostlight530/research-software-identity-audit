@@ -32,3 +32,7 @@ Previous individual-version URL variants returned conflicting aggregate snapshot
 - **bio.tools:** named query returned a connection-extraction failure; record `unresolved` rather than absence.
 
 [Source-specific states and failures](source-attempts.csv) · [machine-readable synopsis](record.json). No private sessions, API credentials, HTTP headers, raw response bodies, or user telemetry were added. No changes to baseline, OSF, schema, schedule, releases or previous monitoring packages.
+
+## Explicit Zenodo URL-shape reconciliation
+
+A subsequent [12-family / 45-version comparison](zenodo-query-shape-reconciliation-2026-10-24.md) found both the original regular-URL **2,681** and repeatedly observed diagnostic-URL **2,836** non-unique Views totals for the **same** Zenodo families. [Family comparisons](zenodo-query-shape-family-comparison.csv) and [version comparisons](zenodo-query-shape-version-comparison.csv) retain both source representations. Their **155 field difference is not confirmed traffic growth**, and a query parameter is not proof of a fresh uncached response. The earlier record and tables remain unchanged.
