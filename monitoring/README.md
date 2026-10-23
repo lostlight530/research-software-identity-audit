@@ -116,3 +116,8 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 - [October 22 00:19 prior-chat 12-family Zenodo source transcription](2026-10-22/01-early-chat-snapshot-reconciliation/README.md) — retrospective selected-field transcript written October 23, not a historical raw HTTP capture and **not** the full October 22 day.
 - [October 23 00:08–00:16 early public platform diagnostic](2026-10-23/01-early-public-infrastructure-recheck/README.md) — 12 Zenodo families / 45 version records; DataCite, OpenAlex, OpenAIRE, GitHub; ORCID and SWH degraded; zero prospective cells. No claim the rest of October 23 has happened.
+
+## October 24 early review and source-bounded daily/weekly coverage
+
+- [2026-10-24 early 12-repository recheck](2026-10-24/01-early-twelve-repository-public-recheck/README.md) — GitHub Releases/source-head split, Zenodo 45 versions, DataCite 76 DOI records, OpenAlex 32 Works, 10 OpenAIRE software queries, ORCID degraded and SWH not reattempted; zero prospective cells.
+- [Twelve-repository daily and weekly source index](coverage/README.md) — release publication dates (Beijing) and actual source-covered family-view dates; no historical missing-day imputation.
