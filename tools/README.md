@@ -79,3 +79,7 @@ Run `python -B tools/check_research_capture_20261018.py` for read-only public-ar
 ## October 20 research recheck
 
 `python -B tools/check_research_recheck_20261020.py` verifies the new diagnostic package offline without writes or network. It is not added to cloud CI.
+
+## Read-only Zenodo family/URL-shape replay (2026-10-24)
+
+Run `python -B tools/check_zenodo_family_rollup.py` (or pass `--directory PATH` for an equivalent retained package). It cross-checks 12 family identities, per-family version DOI rows, and normal/diagnostic URL statistics using Python's standard library, with **no network call**. The historically observed 2,681 versus 2,836 source-field difference is kept as `UNRESOLVED_TWO_URL_REPRESENTATIONS`, **not failed arithmetic, proven visit growth, or an uncached-origin claim**. The GitHub Actions step is explicitly advisory. See [the diagnostic-only replay note](../monitoring/2026-10-24/03-offline-family-stat-replay/README.md).
