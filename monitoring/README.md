@@ -121,3 +121,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 - [2026-10-24 early 12-repository recheck](2026-10-24/01-early-twelve-repository-public-recheck/README.md) — GitHub Releases/source-head split, Zenodo 45 versions, DataCite 76 DOI records, OpenAlex 32 Works, 10 OpenAIRE software queries, ORCID degraded and SWH not reattempted; zero prospective cells.
 - [Twelve-repository daily and weekly source index](coverage/README.md) — release publication dates (Beijing) and actual source-covered family-view dates; no historical missing-day imputation.
+
+## October 24 morning all-platform check and Zenodo family rollup
+
+- [2026-10-24 / 02-morning-infrastructure-and-zenodo-family-rollup](2026-10-24/02-morning-infrastructure-and-zenodo-family-rollup/README.md) — same-day second bounded audit of seven contracted platforms plus supplementary institutional surfaces, with **12 one-row-per-family combined Zenodo counters** and 45 individual version DOI evidence rows; source-bound OpenAlex/ORCID/SWH and institutional failure states retained; zero prospective cells.
