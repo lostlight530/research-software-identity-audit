@@ -128,8 +128,8 @@ def run() -> dict:
             require(set(entry) == allowed_fields, f"Unexpected keys in {location}:{attempt_rows}")
             request_url = entry["public_endpoint"]
             if request_url is None:
-                # Historical projection deliberately omitted an unsuitable locator.
-                # Preserve the attempt without fabricating an origin URL.
+                # This projection has no public locator for the attempt.
+                # Preserve its status; do not infer why the locator is absent.
                 unknown_endpoints += 1
                 continue
             require(isinstance(request_url, str),
