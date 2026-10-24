@@ -153,7 +153,7 @@ def run() -> dict:
                     f"Declared member count differs: {path}")
             for member in members:
                 require(member.isfile(), f"Non-regular tar member: {path}:{member.name}")
-                match = re.fullmatch(r"objects/([a-f0-9]{64})\\.bin", member.name)
+                match = re.fullmatch(r"objects/([a-f0-9]{64})\.bin", member.name)
                 require(match is not None, f"Unexpected tar object locator: {path}:{member.name}")
                 if match is None or not member.isfile():
                     continue
