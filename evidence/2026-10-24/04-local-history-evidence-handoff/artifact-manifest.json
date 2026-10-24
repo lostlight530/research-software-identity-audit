@@ -1,0 +1,148 @@
+{
+  "algorithm": "SHA256",
+  "excludes": [
+    "artifact-manifest.json"
+  ],
+  "artifacts": [
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/local-source-ledger.json",
+      "bytes": 335247,
+      "sha256": "8e03830311c04300dbcf0ab251b3a72b0b4a772bf3011c2a4b12000762a2f0c7"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/public-attempts-01.jsonl",
+      "bytes": 247293,
+      "sha256": "4a7debd124c361cb88f709c91ba801a92e94735d6cf181dd2b63e81aa5e51007"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/public-attempts-02.jsonl",
+      "bytes": 248271,
+      "sha256": "4a2df57b601550039723681feaf2b650d33c6db66aa7232a45c675d6eb538b46"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/public-attempts-03.jsonl",
+      "bytes": 244447,
+      "sha256": "1bc92dbac9282d38156c0e7dd52cd63a69145bd2dbc37f87773612dc3df3add7"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/public-attempts-04.jsonl",
+      "bytes": 245484,
+      "sha256": "21f06b1aabd887b4b30fe5e72fe6a467d2b073cbd9205c9822f24a5ad88544a2"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/public-attempts-05.jsonl",
+      "bytes": 241318,
+      "sha256": "8bc17bbb5fc902418c54792a3b1722b1b89f2eccbcfbb8aceb205acc8db075ae"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/public-attempts-06.jsonl",
+      "bytes": 246572,
+      "sha256": "c093e806140e090ee8aacc1d9398be650d8f92c82b4ee75aae857ac607869adb"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/public-attempts-07.jsonl",
+      "bytes": 244266,
+      "sha256": "818ab950a4061b268f14ff11242d507bc9d029149d6af82ff79e02ae2d88cfef"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/public-attempts-08.jsonl",
+      "bytes": 102830,
+      "sha256": "c9df0d3f0d000a183117e64e3c57ea66e6a2caaafe647199ea3660f14ed45ad9"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/capture-manifest.json",
+      "bytes": 2376,
+      "sha256": "6b2d57cc973e056931e2cee1ffe4116f24a725393acb6c2e7f5458c98017f239"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-01.json",
+      "bytes": 290329,
+      "sha256": "294e511cbcc0b9ecc6bbbfd02f1f164a558daf1932e1ae6e8b3af8602ba65fea"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-02.json",
+      "bytes": 231257,
+      "sha256": "06aa9da5cade260dc243b6cd5360ce04ea0bb9e9f70fce481662943dfe694d63"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-03.json",
+      "bytes": 297593,
+      "sha256": "291a82f1a2d91177ce23ce1bc87291334987f1a7adbfcdf6c3c309cb94a6adcd"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-04.json",
+      "bytes": 279869,
+      "sha256": "c3d60f219ce31e19c7ed6b29946d1459cf54d664b6ff0b38a9f2650228afd918"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-05.json",
+      "bytes": 282057,
+      "sha256": "e984559a25322e2b0368e12e372c8a6d6ebbc4c0c4d02fd40d1e0f429228ba13"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-06.json",
+      "bytes": 241461,
+      "sha256": "424c622884df2eaca5b9eca4e176664c66eab4ddc8dd12358c0f650b62f3b978"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-07.json",
+      "bytes": 226085,
+      "sha256": "57b6b922b0b80e8012f2add3270d96746c3ac471ff25243e091f317303084cc3"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-08.json",
+      "bytes": 338813,
+      "sha256": "2ea99a15a2bba830fd4d92e5f5ff183a63af1b72fe35269ed564d791875a3803"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-09.json",
+      "bytes": 277469,
+      "sha256": "089cd282272a08d59f38c35d9ad386efe6329b9744ff24fff221d565eea96a29"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-10.json",
+      "bytes": 337059,
+      "sha256": "68f4412661c283d06eec3c847a8d9ec369a4efd8e4cf3ed19bf0a64a78c5a6fc"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-11.json",
+      "bytes": 242406,
+      "sha256": "234dc1009ea42764777e5c410fede20c2331ef87b00cf318bfa06330539dc71e"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-12.json",
+      "bytes": 332579,
+      "sha256": "8e8097f302595207af8f82e1271f5839ed2b79a4f1415ed732a05d7c55bdeda4"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-13.json",
+      "bytes": 166906,
+      "sha256": "9b95d436d53b6bba9f40934aa4f244bd851f418a88a62760b18987ddfe9bca3f"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-14.json",
+      "bytes": 227186,
+      "sha256": "22f7f0ef835ae62020464004a21aafc177bb1e1f02f6dc13f29e91ba89873126"
+    },
+    {
+      "path": "monitoring/2026-10-24/04-local-history-evidence-handoff/canonical-current-field-extracts.json",
+      "bytes": 43033,
+      "sha256": "55e941cdc95519b61100d0e2c8cbca0126814203e38051d75d343c959ee1d160"
+    },
+    {
+      "path": "monitoring/2026-10-24/04-local-history-evidence-handoff/record.json",
+      "bytes": 54060,
+      "sha256": "49ac61071585a5b71fe431c02160a050bcb4d809917145d79d2aaa8625ea896f"
+    },
+    {
+      "path": "monitoring/2026-10-24/04-local-history-evidence-handoff/README.md",
+      "bytes": 4080,
+      "sha256": "a68c8ec73a8e46a305f7307c5c5f6a160d27e942d9f4baca68c78e360a212507"
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/README.md",
+      "bytes": 2794,
+      "sha256": "4a6c235a789fd9fa1e5355cdd2ce68a44bd46b8d9b045f53f89813a827f49d40"
+    }
+  ]
+}
