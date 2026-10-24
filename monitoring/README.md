@@ -129,3 +129,5 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 24 offline family-statistics check
 
 - [2026-10-24 / 03-offline-family-stat-replay](2026-10-24/03-offline-family-stat-replay/README.md) — read-only validator for the existing 12-family and 45-version selected-field snapshots and their 2,681/2,836 URL-shape discrepancy; no fresh observation or prospective cells.
+
+- [2026-10-24 / 04-local-history-evidence-handoff](2026-10-24/04-local-history-evidence-handoff/README.md) — attributed local evidence from the Oct01 user-reported node and Oct03 facility audit through the Oct24 midnight capture; original clocks, failures, public-field projections and canonical RS reconciliation retained; cloud review pending, zero prospective cells.
