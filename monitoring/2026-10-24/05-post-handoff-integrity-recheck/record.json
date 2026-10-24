@@ -4,10 +4,10 @@
   "logical_day": "2026-10-24",
   "timezone": "Asia/Shanghai",
   "retrieval_window_utc_outer_bounds": [
-    "2026-10-24T02:17:49Z",
-    "2026-10-24T02:18:09Z"
+    "2026-10-24T02:20:58.643Z",
+    "2026-10-24T02:21:00.019Z"
   ],
-  "retrieval_window_limits": "Outer tool-session interval, not a retained per-request HTTP Date/response timestamp; no raw GitHub HTTP response headers archived",
+  "retrieval_window_limits": "UTC tool-client clock around twelve concurrent public GitHub Release-list reads; NOT HTTP Date, origin timestamp, per-request latency, or a claim of uncached data; no raw response headers retained",
   "baseline_main": "8dddc466096988d49ef8186627c540a0793353d4",
   "reference_merged_pr": "https://github.com/lostlight530/research-software-identity-audit/pull/59",
   "reference_main_ci": "https://github.com/lostlight530/research-software-identity-audit/actions/runs/40053424762",
@@ -45,7 +45,13 @@
       "latest_fixed_release_date_utc": "2026-10-14",
       "pagination_caveat": "Each list returned far fewer than per_page=100; no next page needed for observed release lists",
       "eligibility_interpretation": "No newly published fixed-sample GitHub release observed since existing checkpoint in this bounded check; ordinary main commits are not a release trigger",
-      "raw_transport_bytes_preserved": false
+      "raw_transport_bytes_preserved": false,
+      "retrieval_window_utc_outer_bounds": [
+        "2026-10-24T02:20:58.643Z",
+        "2026-10-24T02:21:00.019Z"
+      ],
+      "source_evidence_file": "github-release-inventory.csv",
+      "all_twelve_lists_within_first_page": true
     },
     "zenodo": {
       "status": "not_recollected_in_this_followup",
