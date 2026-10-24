@@ -18,4 +18,6 @@ Zenodo, DataCite, ORCID, Software Heritage, OpenAIRE and OpenAlex are **not newl
 
 A passing integrity checker establishes transfer and structural correctness of the retained local evidence, **not** original API authenticity, live source freshness, absence of all possible private content, scientific truth, or explanation of conflicts. No baseline, corpus, registration, observation schedule, public historical payload, or prospective study dataset is modified. **New prospective cells: 0**
 
+The specifically checked cloud run and its initial failed advisory iteration are recorded in the [step-level verification outcome](verification-outcome.md). This preserves the observed failure/correction sequence rather than hiding it behind the overall green job
+
 For machine-readable scope, source clocks and checks, see [record.json](record.json)
