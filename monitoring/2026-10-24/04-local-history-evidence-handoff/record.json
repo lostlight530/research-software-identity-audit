@@ -1,0 +1,628 @@
+{
+  "record_class": "retrospective_local_evidence_handoff",
+  "handoff_date": "2026-10-24",
+  "source_classes_are_separate": true,
+  "earliest_user_reported_observation": "2026-10-01T03:00:00+08:00",
+  "earliest_dated_local_facility_audit": "2026-10-03",
+  "latest_independent_capture_finished_at": "2026-10-23T16:27:55.173347+00:00",
+  "base_main": "5e3ea71d6abf5e2509f1c25f59764c407b21397e",
+  "frozen_corpus": [
+    {
+      "object_id": "RS01",
+      "software_family": "welcome-to-github",
+      "source_repository": "https://github.com/lostlight530/welcome-to-github",
+      "corpus_role": "preregistered_sample",
+      "status": "fixed"
+    },
+    {
+      "object_id": "RS02",
+      "software_family": "zero-entropy-lab",
+      "source_repository": "https://github.com/lostlight530/zero-entropy-lab",
+      "corpus_role": "preregistered_sample",
+      "status": "fixed"
+    },
+    {
+      "object_id": "RS03",
+      "software_family": "Axiom-0",
+      "source_repository": "https://github.com/lostlight530/Axiom-0",
+      "corpus_role": "preregistered_sample",
+      "status": "fixed"
+    },
+    {
+      "object_id": "RS04",
+      "software_family": "reflective-continuum",
+      "source_repository": "https://github.com/lostlight530/reflective-continuum",
+      "corpus_role": "preregistered_sample",
+      "status": "fixed"
+    },
+    {
+      "object_id": "RS05",
+      "software_family": "agent-foundations",
+      "source_repository": "https://github.com/lostlight530/agent-foundations",
+      "corpus_role": "preregistered_sample",
+      "status": "fixed"
+    },
+    {
+      "object_id": "RS06",
+      "software_family": "auto-doc-engine",
+      "source_repository": "https://github.com/lostlight530/auto-doc-engine",
+      "corpus_role": "preregistered_sample",
+      "status": "fixed"
+    },
+    {
+      "object_id": "RS07",
+      "software_family": "epistemic-pipeline",
+      "source_repository": "https://github.com/lostlight530/epistemic-pipeline",
+      "corpus_role": "preregistered_sample",
+      "status": "fixed"
+    },
+    {
+      "object_id": "RS08",
+      "software_family": "sci-render-kit",
+      "source_repository": "https://github.com/lostlight530/sci-render-kit",
+      "corpus_role": "preregistered_sample",
+      "status": "fixed"
+    },
+    {
+      "object_id": "RS09",
+      "software_family": "china-agentic-observatory",
+      "source_repository": "https://github.com/lostlight530/china-agentic-observatory",
+      "corpus_role": "preregistered_sample",
+      "status": "fixed"
+    },
+    {
+      "object_id": "RS10",
+      "software_family": "agentic-frontier-observatory",
+      "source_repository": "https://github.com/lostlight530/agentic-frontier-observatory",
+      "corpus_role": "preregistered_sample",
+      "status": "fixed"
+    }
+  ],
+  "frozen_layers": 6,
+  "contracted_platforms": 7,
+  "extended_diagnostic_platforms_in_latest_capture": 15,
+  "prospective_cells_added": 0,
+  "canonical_mapping_corrections": [
+    {
+      "repository": "china-agentic-observatory",
+      "original_local_label": "RS06",
+      "canonical_object_id": "RS09"
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "original_local_label": "RS07",
+      "canonical_object_id": "RS10"
+    },
+    {
+      "repository": "auto-doc-engine",
+      "original_local_label": "RS09",
+      "canonical_object_id": "RS06"
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "original_local_label": "RS10",
+      "canonical_object_id": "RS07"
+    }
+  ],
+  "source_artifacts": 4267,
+  "public_unique_payloads": 1162,
+  "attempt_rows": 4444,
+  "source_batches": {
+    "facility-evidence.json": 1,
+    "IndependentFacilityAudit20261007": 144,
+    "IndependentFacilityAudit20261008": 174,
+    "IndependentFacilityAudit20261009": 162,
+    "IndependentFacilityAudit20261009Evening": 186,
+    "IndependentFacilityAudit20261010Morning": 217,
+    "IndependentFacilityAudit20261011Afternoon": 264,
+    "IndependentFacilityAudit20261011Evening": 249,
+    "IndependentFacilityAudit20261012": 274,
+    "IndependentFacilityAudit20261013Night": 224,
+    "IndependentFacilityAudit20261014Evening": 360,
+    "IndependentFacilityAudit20261014Midnight": 189,
+    "IndependentFacilityAudit20261014Morning": 283,
+    "IndependentFacilityAudit20261015Morning": 284,
+    "IndependentFacilityAudit20261016Eleven": 268,
+    "IndependentFacilityAudit20261016Midnight": 262,
+    "IndependentResearchRecheck20261020": 138,
+    "IndependentResearchRecheck20261024": 145,
+    "MethodCorrection20261007": 4,
+    "MetricProvenanceCorrection20261012": 4,
+    "OpenAlexAuthorWorksLookup20261007.json": 1,
+    "OpenAlexAuthorWorksResponse20261007.json": 1,
+    "OpenAlexIdentityUpdate20261008": 7,
+    "OpenAlexTargetedLookup20261007.json": 1,
+    "OpenAlexW7220380722Response20261007.json": 1,
+    "OpenAlexW7220470293Response20261007.json": 1,
+    "ResearchHistoryIndependentVerification20261018": 72,
+    "SciCrunchOwnershipUpdate20261012": 1,
+    "TenRepositoryExtensionFacilityStatus20261006.json": 1,
+    "TenRepositoryExtensionFacilityStatus20261007.json": 1,
+    "TenRepositoryReleaseAndOrcidEvidence20261004.json": 1,
+    "TenRepositoryResearchIdentityEvidence20261006.json": 1,
+    "TenRepositorySemanticDriftEvidence20261004.json": 1,
+    "TenRepositoryWave2Evidence20261007.json": 1,
+    "usage-evidence.json": 1,
+    "UserOpenAlexPage20261014Evening": 1,
+    "UserPageReconciliation20261014Noon": 4,
+    "UserPageUpdate20261016Noon": 2,
+    "UserPageUpdate20261018": 2,
+    "UserPageUpdate20261020": 4,
+    "UserZenodoPage20261014Evening": 2,
+    "WorkflowHubDashboard20261012Morning": 2,
+    "WorkflowHubFinalTest20261008": 1,
+    "WorkflowHubIdentityUpdate20261007": 6
+  },
+  "dispositions": {
+    "published_minimized_projection": 310,
+    "published_byte_preserved": 3638,
+    "local_bookkeeping_digest_only": 43,
+    "original_attempt_log_retained_locally": 42,
+    "omitted_unparsed_or_restricted_source": 202,
+    "omitted_non_structured_source": 9,
+    "already_in_cloud_exact_git_blob": 23
+  },
+  "latest_capture_summary": {
+    "date": "2026-10-24",
+    "timezone": "Asia/Shanghai",
+    "record_class": "diagnostic_monitoring",
+    "prospective_dataset_member": false,
+    "fixed_corpus_size": 10,
+    "started_at": "2026-10-23T16:23:24.646658+00:00",
+    "finished_at": "2026-10-23T16:27:55.173347+00:00",
+    "started_at_beijing": "2026-10-24T00:23:24.646658+08:00",
+    "finished_at_beijing": "2026-10-24T00:27:55.173347+08:00",
+    "requests": 163,
+    "status_counts": {
+      "200": 123,
+      "None": 6,
+      "404": 13,
+      "403": 2,
+      "401": 1,
+      "503": 18
+    },
+    "platforms": 15,
+    "git_head": "c56be73808af0035a30bb5a8fca09099477ba176",
+    "datacite_count": 76,
+    "datacite_enumerated": 76,
+    "datacite_types": {
+      "Workflow": 19,
+      "Software": 56,
+      "StudyRegistration": 1
+    },
+    "datacite_states": {
+      "findable": 76
+    },
+    "orcid": {
+      "groups": 17,
+      "summaries": 89,
+      "sources": {
+        "DataCite": 65,
+        "OpenAIRE": 11,
+        "0009-0001-3617-0832": 13
+      }
+    },
+    "openalex": {
+      "profile_count": 32,
+      "query_count": 32,
+      "enumerated": 32,
+      "cited_by_count": 1,
+      "types": {
+        "software": 12,
+        "other": 20
+      },
+      "exact_latest_version": 0,
+      "latest_version_routes_to_concept": 10,
+      "alias_profile_count": 0,
+      "alias_query_count": 0
+    },
+    "zenodo_fixed_ten": {
+      "downloads": 17,
+      "unique_downloads": 16,
+      "views": 2677,
+      "unique_views": 1819,
+      "version_downloads": 9,
+      "version_unique_downloads": 9,
+      "version_unique_views": 76,
+      "version_views": 79
+    },
+    "zenodo_fixed_ten_difference_from_20261020": {
+      "downloads": 0,
+      "unique_downloads": 0,
+      "views": 199,
+      "unique_views": 182,
+      "version_downloads": 0,
+      "version_unique_downloads": 0,
+      "version_unique_views": 28,
+      "version_views": 28
+    },
+    "complete_fixed_version_records": 40,
+    "swh": {
+      "full_origins": 10,
+      "latest_tag_commit_directory_chains": 2,
+      "latest_revision_404": 8,
+      "unavailable_snapshots": [
+        "china-agentic-observatory"
+      ]
+    },
+    "openaire_fixed_latest_hits": 10,
+    "rsd": {
+      "records": 11,
+      "published": 11,
+      "orcid_contributors": 11,
+      "unique_linked_software": 11
+    },
+    "hal": {
+      "public_api_num_found": 0,
+      "public_page_status": 404
+    },
+    "scicrunch_status": 403,
+    "osf": {
+      "registration_id": "5b329",
+      "registration_attributes": {
+        "title": "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures",
+        "description": "This preregistration defines a prospective longitudinal audit of research software identity propagation across open scholarly infrastructures. The study will observe a fixed set of research software objects across repository, archival, identifier-registration, author-registry, preservation, and discovery layers. The purpose is to measure how scholarly identity records propagate, aggregate, lag, diverge, or require correction over time while keeping object types, counting units, timestamps, and verification states distinct. The study will predefine observation windows, evidence sources, state classifications, counting rules, missing-data handling, and analysis procedures before the next observation cycle begins. Expected outcomes include a time-stamped record of cross-layer state transitions, latency and aggregation patterns where measurable, identified failure modes or counterexamples, and a reproducible evidence trail suitable for later comparison with the prior observational audit.",
+        "category": "",
+        "custom_citation": "",
+        "date_created": "2026-10-05T14:04:13.825314",
+        "date_modified": "2026-10-06T09:49:34.548421",
+        "registration": true,
+        "preprint": false,
+        "fork": false,
+        "collection": false,
+        "tags": [
+          "research software"
+        ],
+        "access_requests_enabled": false,
+        "node_license": {
+          "copyright_holders": [],
+          "year": ""
+        },
+        "analytics_key": "",
+        "current_user_can_comment": false,
+        "current_user_permissions": [
+          "read"
+        ],
+        "current_user_is_contributor": false,
+        "current_user_is_contributor_or_group_member": false,
+        "wiki_enabled": true,
+        "public": true,
+        "ia_url": "https://archive.org/details/osf-registrations-5b329-v1",
+        "reviews_state": "accepted",
+        "article_doi": null,
+        "pending_embargo_approval": false,
+        "pending_embargo_termination_approval": false,
+        "embargoed": false,
+        "pending_registration_approval": false,
+        "archiving": false,
+        "pending_withdrawal": false,
+        "withdrawn": false,
+        "has_project": true,
+        "date_registered": "2026-10-05T14:04:13.783851",
+        "date_withdrawn": null,
+        "embargo_end_date": null,
+        "withdrawal_justification": null,
+        "revision_state": "approved",
+        "has_data": false,
+        "has_analytic_code": false,
+        "has_materials": true,
+        "has_papers": false,
+        "has_supplements": false,
+        "registration_supplement": "OSF Preregistration",
+        "registered_meta": {
+          "344-2": {
+            "extra": [],
+            "value": "RQ1. Across the next observation window, which scholarly infrastructure layers register, propagate, preserve, aggregate, or discover each newly released research software object, and in what temporal order?\nRQ2. Do identity and metadata states remain consistent across repository, DOI-registration, author-registry, archival, and discovery layers, or do measurable divergences emerge between layers?\nRQ3. Where propagation latency can be measured, how does the time from software release to downstream observation differ across infrastructure layers?\nRQ4. Do previously observed aggregation behaviors, including family-level grouping and source-summary duplication, recur in the new observation window?\nRQ5. Which failures, partial states, rate limits, unresolved states, or correction events occur during the observation window, and which infrastructure boundary is responsible for each observable state?"
+          },
+          "344-4": {
+            "extra": [],
+            "value": "Authors have observed the data. The authors cannot certify meeting any of the levels above given prior access and observation of the data relevant to this analysis plan. "
+          },
+          "344-14": {
+            "extra": [],
+            "value": "The author has previously observed and analyzed historical states from the same research-software corpus across earlier release waves. Those observations informed the selection of infrastructure layers, counting units, state categories, and known failure modes used in this preregistration. The analyses specified here concern a new prospective observation window and have not yet been conducted.\nTo reduce unintended influence from prior knowledge, the study predefines the object set, infrastructure layers, observation schedule, counting units, state taxonomy, missing-state handling, and planned comparisons before collecting the new observation-window data. Historical observations will be treated as a fixed baseline and will not be retrospectively reclassified to improve agreement with new outcomes. Any exploratory analyses added after registration will be labeled as post hoc."
+          },
+          "344-17": {
+            "extra": [],
+            "value": [
+              "Non-randomized study: Does not include random assignment of subjects to treatments or conditions. This usually includes correlational studies, observational studies, surveys, natural experiments, real-world evidence studies, regression discontinuity designs, and descriptive studies.",
+              "Descriptive study: Describing some features of a dataset or sample, but typically not for the purposes of informing a causal effect."
+            ]
+          },
+          "344-27": {
+            "extra": [],
+            "value": [
+              "No causal relationship inferred: This study is not intended to inform a causal relationship. "
+            ]
+          },
+          "344-32": {
+            "extra": [],
+            "value": [
+              "No blinding is involved."
+            ]
+          },
+          "344-38": {
+            "extra": [],
+            "value": "No formal blinding is used because the study is observational. To reduce analyst-driven reinterpretation, the object set, infrastructure layers, observation schedule, field definitions, counting units, state categories, and missing-state rules will be specified before the new observation window begins. Any post-registration changes will be documented as amendments or exploratory decisions.\n\nStudy design"
+          },
+          "344-40": {
+            "extra": [],
+            "value": "This study uses a prospective longitudinal observational design with repeated measurements on a fixed set of ten research software objects. Each object will be observed across multiple scholarly-infrastructure layers, including source repository, archival repository, identifier registration, author registry, preservation archive, and discovery graph.\nObservations will be collected at predefined time points following relevant software-release events. For each object-layer pair, timestamped states will be recorded, including observed, not found at the queried endpoint, rate limited, unresolved, partially verified, or fully verified, together with relevant identifiers, source attributions, and metadata fields.\nThe same objects will be measured repeatedly across time and infrastructure layers. Historical observations from earlier release waves will be treated as a fixed baseline, while the preregistered observation window will provide new prospective evidence.\nThe primary analyses will describe cross-layer propagation order, measurable latency where timestamps permit, metadata consistency or divergence, recurrence of previously observed aggregation behavior, and the frequency and location of failure, partial, unresolved, or correction states. No interventions are administered and no causal effects are estimated."
+          },
+          "344-42": {
+            "extra": [],
+            "value": ""
+          },
+          "344-44": {
+            "extra": [],
+            "value": ""
+          },
+          "344-47": {
+            "extra": [],
+            "value": "The study will use a fixed, purposive corpus of ten research software objects previously examined in the baseline audit. No new repositories will be added after registration, and no human participants will be recruited.\nFor each software object, new observations will be collected from six predefined scholarly-infrastructure layers: source repository, archival repository, identifier-registration service, author registry, preservation archive, and discovery graph. Data will be gathered from public platform records and public APIs using predefined endpoints and field mappings.\nAt each scheduled observation point, the study will retain the retrieval timestamp, HTTP or platform response state, relevant identifiers, source attribution, metadata fields, pagination state where applicable, and a classification of the observation as observed, not found, rate limited, unresolved, partially verified, or fully verified.\nHistorical observations from earlier release waves will be retained as a fixed baseline and will not be retrospectively altered or reclassified to improve agreement with the prospective observations. Mirrors, duplicate representations of the same underlying object, and records unrelated to the ten predefined software families will not be counted as additional sample objects.\nThe prospective observation window will begin with the first eligible new release event after this registration and will continue through the final preregistered follow-up time point."
+          },
+          "344-49": {
+            "extra": [],
+            "value": ""
+          },
+          "344-51": {
+            "extra": [],
+            "value": "The object-level sample size is fixed at 10 research software objects. Each object will be observed across 6 predefined infrastructure layers, yielding 60 object-layer units at each scheduled observation point. Because the study uses repeated measurements, the total number of attempted observations will equal 10 objects × 6 layers × the number of preregistered observation time points. Missing, rate-limited, unresolved, or failed observations will remain part of the attempted observation set and will not be removed from the denominator."
+          },
+          "344-53": {
+            "extra": [],
+            "value": "The sample size is determined by the fixed corpus established in the prior audit rather than by statistical power. The ten software objects constitute the complete predefined research-software corpus for this longitudinal follow-up. The study is descriptive and within-corpus; it does not seek population-level causal or prevalence estimates, so no statistical power calculation is used."
+          },
+          "344-55": {
+            "extra": [],
+            "value": "Data collection will begin with the first eligible new software-release event occurring after this registration. Only observations collected after registration will constitute the prospective dataset.\nObservation will end after the final preregistered follow-up time point has been attempted for all ten objects across all six infrastructure layers. Query failures, rate limits, missing records, or unresolved states will be recorded as outcomes and will not by themselves extend the observation window.\nNo additional software objects, infrastructure layers, or follow-up observations will be added in response to favorable, unfavorable, or ambiguous interim results. Any extension of the observation window or addition of exploratory checks after registration will be documented explicitly as an amendment or post hoc analysis."
+          },
+          "344-58": {
+            "extra": [],
+            "value": "None.\n\nThis is a prospective observational study. No variables, infrastructure states, software objects, platform behaviors, or release conditions will be experimentally manipulated or assigned by the author."
+          },
+          "344-60": {
+            "extra": [],
+            "value": ""
+          },
+          "344-62": {
+            "extra": [],
+            "value": "Measurements will be recorded at the level of software object × infrastructure layer × observation time point.\n\nThe primary measured variables are:\n\n1. Software object identity: the predefined research-software family being observed.\n\n2. Infrastructure layer: source repository, archival repository, identifier-registration service, author registry, preservation archive, or discovery graph.\n\n3. Release-event timestamp: the timestamp of the software release used as the temporal reference point for downstream observations.\n\n4. Retrieval timestamp: the time at which each platform record or public API endpoint is queried.\n\n5. Observation state: each attempted object-layer observation will be classified as observed, not found at the stated endpoint, rate limited, unresolved, partially verified, or fully verified, according to the preregistered state definitions.\n\n6. Identifier values and identifier type: including family/concept identifiers, version identifiers, author-registry work identifiers or groupings, archival identifiers, and discovery-record identifiers where applicable.\n\n7. Identity and provenance fields: creator identifiers, source attribution, verification source or mechanism, version/family relationships, archival origin, and DOI-to-record mappings where exposed by the relevant infrastructure.\n\n8. Aggregation state: the number and source composition of author-registry summaries or equivalent grouped records associated with each software family.\n\n9. Discovery state: whether the relevant released software identifier is represented in the predefined discovery graph at the observation time.\n\n10. Preservation state: whether the relevant source or deposit is represented by a resolvable archival record, and whether verification is full, partial, or unresolved.\n\n11. Platform-response state: relevant HTTP or platform response status, pagination completeness where applicable, and rate-limiting or other access conditions that affect interpretation.\n\n12. Correction or amendment events: any observed metadata correction, naming correction, grouping change, or other state transition that alters the scholarly representation of an existing software object.\n\nNo observation will be excluded solely because it is missing, rate limited, not found, partial, or unresolved. Such states are themselves retained as measured outcomes."
+          },
+          "344-64": {
+            "extra": [],
+            "value": ""
+          },
+          "344-66": {
+            "extra": [],
+            "value": "No single composite index or overall score will be constructed. Derived variables will be computed only from preregistered measured fields.\n\n1. Propagation latency:\nFor software object o and infrastructure layer l,\n\nLatency(o,l) = first_observed_timestamp(o,l) - release_timestamp(o)\n\nLatency will be calculated only when both timestamps are directly observed and temporally comparable. Missing, rate-limited, unresolved, or unqueried states will not be assigned an imputed latency.\n\n2. Propagation order:\nFor each software object, infrastructure layers will be ordered by their first directly observed post-release timestamp. Ties will remain ties. Layers without a directly observed qualifying state will not be assigned an inferred order.\n\n3. Cross-layer consistency:\nFor semantically comparable identity fields, an object-layer comparison will be classified as consistent, divergent, or unresolved. Comparisons will only be made across fields intended to represent the same identity relation, such as version DOI, family/concept DOI relationship, creator ORCID, archival origin, or discovery DOI match. Differences between non-equivalent object types will not be treated as inconsistency.\n\n4. Aggregation recurrence:\nA previously observed aggregation behavior will be classified as recurring only if the same predefined structural pattern is observed again in the prospective window, such as family-level grouping or multiple source summaries associated with one software family.\n\n5. State-transition record:\nFor each object-layer pair, observed categorical states will be ordered chronologically to form a state-transition sequence. Transitions will be reported descriptively and will not be converted into a numerical quality score.\n\n6. Failure/partial-state frequency:\nCounts and proportions of attempted observations classified as not found, rate limited, unresolved, partially verified, or otherwise non-complete will be reported using the full number of planned attempted observations as the denominator where applicable.\n\nNo missing or unresolved observation will be converted into evidence of absence unless the relevant infrastructure contract explicitly supports that interpretation."
+          },
+          "344-68": {
+            "extra": [],
+            "value": ""
+          },
+          "344-71": {
+            "extra": [],
+            "value": "No inferential statistical model is planned.\n\nThe study is descriptive and longitudinal. Analysis will be performed at the level of software object × infrastructure layer × observation time point.\n\nFor each research question, the analysis will use direct counts, proportions, timestamp differences, state-transition sequences, and cross-layer comparisons.\n\nRQ1 will be evaluated by reporting the observed propagation order and state transitions across infrastructure layers.\n\nRQ2 will be evaluated by classifying comparable metadata fields as consistent, divergent, or unresolved across layers.\n\nRQ3 will be evaluated using directly observed propagation latency, defined as the difference between the software release timestamp and the first qualifying downstream observation timestamp where both are available.\n\nRQ4 will be evaluated by comparing predefined aggregation patterns in the prospective observation window with those recorded in the historical baseline.\n\nRQ5 will be evaluated by counting and classifying not-found, rate-limited, unresolved, partial, and correction states by infrastructure layer and software object.\n\nNo ANOVA, regression, SEM, hypothesis testing, or causal model is planned."
+          },
+          "344-73": {
+            "extra": [],
+            "value": ""
+          },
+          "344-75": {
+            "extra": [],
+            "value": "No numerical transformations, normalization, centering, or imputation are planned.\n\nCategorical observation states will retain their preregistered labels. Timestamp values will be used directly to calculate latency where appropriate. Semantically non-equivalent identifiers or record types will not be recoded as equivalent."
+          },
+          "344-77": {
+            "extra": [],
+            "value": "No null-hypothesis significance testing, p-value threshold, Bayes factor, or model-fit cutoff will be used.\n\nInferences will be based on directly observed states, timestamped evidence, predefined state classifications, and reproducible cross-layer comparisons.\n\nA result will be reported as observed only when directly supported by the relevant platform record or public API response. Missing, unresolved, rate-limited, or unqueried states will not be interpreted as absence.\n\nAny conclusion that extends beyond the preregistered descriptive analyses will be labeled exploratory or post hoc."
+          },
+          "344-79": {
+            "extra": [],
+            "value": "All planned observations for the ten predefined research software objects and six predefined infrastructure layers will be retained.\n\nObservations will not be excluded because they are missing, rate limited, unresolved, partial, or not found; these states are themselves part of the outcome record.\n\nOnly records that can be matched to the predefined software families or their directly related scholarly identifiers will be included. Duplicate representations, unrelated records, and semantically non-equivalent objects will not be counted as additional sample units.\n\nNo statistical outlier exclusion is planned."
+          },
+          "344-81": {
+            "extra": [],
+            "value": "Missing data will not be imputed.\n\nEach missing or incomplete observation will retain its reason where known, such as not found, rate limited, unresolved, partial, or not queried successfully.\n\nAnalyses will use available directly observed evidence, while denominators for planned observation counts will retain all attempted observation cells where applicable."
+          },
+          "344-83": {
+            "extra": [],
+            "value": "Secondary exploratory analyses may examine unexpected state transitions, new aggregation patterns, platform-specific anomalies, or infrastructure behaviors not covered by the preregistered primary questions.\n\nAny such analyses will be clearly labeled exploratory or post hoc and will not be presented as preregistered findings."
+          },
+          "344-86": {
+            "extra": [],
+            "value": "This preregistration extends a prior observational audit of the same ten research software objects and scholarly-infrastructure layers. The earlier audit established the historical baseline and informed the object set, field definitions, state taxonomy, counting discipline, and known failure modes used in the present plan. The prospective observation window covered by this registration begins only after registration; historical observations will remain fixed and will not be retrospectively reclassified to improve agreement with new evidence.  \nThe study is intended as an infrastructure audit rather than a causal or population-level study. Platform records and public APIs are treated as layer-specific evidence sources, and each infrastructure layer is interpreted according to its own observable contract. Differences in clocks, object types, aggregation semantics, and verification mechanisms will therefore not be collapsed into a single global state or quality score. Any amendments, deviations, or additional analyses introduced after registration will be recorded explicitly and distinguished from the preregistered analyses."
+          }
+        },
+        "registration_responses": {
+          "344-2": "RQ1. Across the next observation window, which scholarly infrastructure layers register, propagate, preserve, aggregate, or discover each newly released research software object, and in what temporal order?\nRQ2. Do identity and metadata states remain consistent across repository, DOI-registration, author-registry, archival, and discovery layers, or do measurable divergences emerge between layers?\nRQ3. Where propagation latency can be measured, how does the time from software release to downstream observation differ across infrastructure layers?\nRQ4. Do previously observed aggregation behaviors, including family-level grouping and source-summary duplication, recur in the new observation window?\nRQ5. Which failures, partial states, rate limits, unresolved states, or correction events occur during the observation window, and which infrastructure boundary is responsible for each observable state?",
+          "344-4": "Authors have observed the data. The authors cannot certify meeting any of the levels above given prior access and observation of the data relevant to this analysis plan. ",
+          "344-14": "The author has previously observed and analyzed historical states from the same research-software corpus across earlier release waves. Those observations informed the selection of infrastructure layers, counting units, state categories, and known failure modes used in this preregistration. The analyses specified here concern a new prospective observation window and have not yet been conducted.\nTo reduce unintended influence from prior knowledge, the study predefines the object set, infrastructure layers, observation schedule, counting units, state taxonomy, missing-state handling, and planned comparisons before collecting the new observation-window data. Historical observations will be treated as a fixed baseline and will not be retrospectively reclassified to improve agreement with new outcomes. Any exploratory analyses added after registration will be labeled as post hoc.",
+          "344-17": [
+            "Non-randomized study: Does not include random assignment of subjects to treatments or conditions. This usually includes correlational studies, observational studies, surveys, natural experiments, real-world evidence studies, regression discontinuity designs, and descriptive studies.",
+            "Descriptive study: Describing some features of a dataset or sample, but typically not for the purposes of informing a causal effect."
+          ],
+          "344-27": [
+            "No causal relationship inferred: This study is not intended to inform a causal relationship. "
+          ],
+          "344-32": [
+            "No blinding is involved."
+          ],
+          "344-38": "No formal blinding is used because the study is observational. To reduce analyst-driven reinterpretation, the object set, infrastructure layers, observation schedule, field definitions, counting units, state categories, and missing-state rules will be specified before the new observation window begins. Any post-registration changes will be documented as amendments or exploratory decisions.\n\nStudy design",
+          "344-40": "This study uses a prospective longitudinal observational design with repeated measurements on a fixed set of ten research software objects. Each object will be observed across multiple scholarly-infrastructure layers, including source repository, archival repository, identifier registration, author registry, preservation archive, and discovery graph.\nObservations will be collected at predefined time points following relevant software-release events. For each object-layer pair, timestamped states will be recorded, including observed, not found at the queried endpoint, rate limited, unresolved, partially verified, or fully verified, together with relevant identifiers, source attributions, and metadata fields.\nThe same objects will be measured repeatedly across time and infrastructure layers. Historical observations from earlier release waves will be treated as a fixed baseline, while the preregistered observation window will provide new prospective evidence.\nThe primary analyses will describe cross-layer propagation order, measurable latency where timestamps permit, metadata consistency or divergence, recurrence of previously observed aggregation behavior, and the frequency and location of failure, partial, unresolved, or correction states. No interventions are administered and no causal effects are estimated.",
+          "344-42": [],
+          "344-44": "",
+          "344-47": "The study will use a fixed, purposive corpus of ten research software objects previously examined in the baseline audit. No new repositories will be added after registration, and no human participants will be recruited.\nFor each software object, new observations will be collected from six predefined scholarly-infrastructure layers: source repository, archival repository, identifier-registration service, author registry, preservation archive, and discovery graph. Data will be gathered from public platform records and public APIs using predefined endpoints and field mappings.\nAt each scheduled observation point, the study will retain the retrieval timestamp, HTTP or platform response state, relevant identifiers, source attribution, metadata fields, pagination state where applicable, and a classification of the observation as observed, not found, rate limited, unresolved, partially verified, or fully verified.\nHistorical observations from earlier release waves will be retained as a fixed baseline and will not be retrospectively altered or reclassified to improve agreement with the prospective observations. Mirrors, duplicate representations of the same underlying object, and records unrelated to the ten predefined software families will not be counted as additional sample objects.\nThe prospective observation window will begin with the first eligible new release event after this registration and will continue through the final preregistered follow-up time point.",
+          "344-49": [],
+          "344-51": "The object-level sample size is fixed at 10 research software objects. Each object will be observed across 6 predefined infrastructure layers, yielding 60 object-layer units at each scheduled observation point. Because the study uses repeated measurements, the total number of attempted observations will equal 10 objects × 6 layers × the number of preregistered observation time points. Missing, rate-limited, unresolved, or failed observations will remain part of the attempted observation set and will not be removed from the denominator.",
+          "344-53": "The sample size is determined by the fixed corpus established in the prior audit rather than by statistical power. The ten software objects constitute the complete predefined research-software corpus for this longitudinal follow-up. The study is descriptive and within-corpus; it does not seek population-level causal or prevalence estimates, so no statistical power calculation is used.",
+          "344-55": "Data collection will begin with the first eligible new software-release event occurring after this registration. Only observations collected after registration will constitute the prospective dataset.\nObservation will end after the final preregistered follow-up time point has been attempted for all ten objects across all six infrastructure layers. Query failures, rate limits, missing records, or unresolved states will be recorded as outcomes and will not by themselves extend the observation window.\nNo additional software objects, infrastructure layers, or follow-up observations will be added in response to favorable, unfavorable, or ambiguous interim results. Any extension of the observation window or addition of exploratory checks after registration will be documented explicitly as an amendment or post hoc analysis.",
+          "344-58": "None.\n\nThis is a prospective observational study. No variables, infrastructure states, software objects, platform behaviors, or release conditions will be experimentally manipulated or assigned by the author.",
+          "344-60": [],
+          "344-62": "Measurements will be recorded at the level of software object × infrastructure layer × observation time point.\n\nThe primary measured variables are:\n\n1. Software object identity: the predefined research-software family being observed.\n\n2. Infrastructure layer: source repository, archival repository, identifier-registration service, author registry, preservation archive, or discovery graph.\n\n3. Release-event timestamp: the timestamp of the software release used as the temporal reference point for downstream observations.\n\n4. Retrieval timestamp: the time at which each platform record or public API endpoint is queried.\n\n5. Observation state: each attempted object-layer observation will be classified as observed, not found at the stated endpoint, rate limited, unresolved, partially verified, or fully verified, according to the preregistered state definitions.\n\n6. Identifier values and identifier type: including family/concept identifiers, version identifiers, author-registry work identifiers or groupings, archival identifiers, and discovery-record identifiers where applicable.\n\n7. Identity and provenance fields: creator identifiers, source attribution, verification source or mechanism, version/family relationships, archival origin, and DOI-to-record mappings where exposed by the relevant infrastructure.\n\n8. Aggregation state: the number and source composition of author-registry summaries or equivalent grouped records associated with each software family.\n\n9. Discovery state: whether the relevant released software identifier is represented in the predefined discovery graph at the observation time.\n\n10. Preservation state: whether the relevant source or deposit is represented by a resolvable archival record, and whether verification is full, partial, or unresolved.\n\n11. Platform-response state: relevant HTTP or platform response status, pagination completeness where applicable, and rate-limiting or other access conditions that affect interpretation.\n\n12. Correction or amendment events: any observed metadata correction, naming correction, grouping change, or other state transition that alters the scholarly representation of an existing software object.\n\nNo observation will be excluded solely because it is missing, rate limited, not found, partial, or unresolved. Such states are themselves retained as measured outcomes.",
+          "344-64": [],
+          "344-66": "No single composite index or overall score will be constructed. Derived variables will be computed only from preregistered measured fields.\n\n1. Propagation latency:\nFor software object o and infrastructure layer l,\n\nLatency(o,l) = first_observed_timestamp(o,l) - release_timestamp(o)\n\nLatency will be calculated only when both timestamps are directly observed and temporally comparable. Missing, rate-limited, unresolved, or unqueried states will not be assigned an imputed latency.\n\n2. Propagation order:\nFor each software object, infrastructure layers will be ordered by their first directly observed post-release timestamp. Ties will remain ties. Layers without a directly observed qualifying state will not be assigned an inferred order.\n\n3. Cross-layer consistency:\nFor semantically comparable identity fields, an object-layer comparison will be classified as consistent, divergent, or unresolved. Comparisons will only be made across fields intended to represent the same identity relation, such as version DOI, family/concept DOI relationship, creator ORCID, archival origin, or discovery DOI match. Differences between non-equivalent object types will not be treated as inconsistency.\n\n4. Aggregation recurrence:\nA previously observed aggregation behavior will be classified as recurring only if the same predefined structural pattern is observed again in the prospective window, such as family-level grouping or multiple source summaries associated with one software family.\n\n5. State-transition record:\nFor each object-layer pair, observed categorical states will be ordered chronologically to form a state-transition sequence. Transitions will be reported descriptively and will not be converted into a numerical quality score.\n\n6. Failure/partial-state frequency:\nCounts and proportions of attempted observations classified as not found, rate limited, unresolved, partially verified, or otherwise non-complete will be reported using the full number of planned attempted observations as the denominator where applicable.\n\nNo missing or unresolved observation will be converted into evidence of absence unless the relevant infrastructure contract explicitly supports that interpretation.",
+          "344-68": [],
+          "344-71": "No inferential statistical model is planned.\n\nThe study is descriptive and longitudinal. Analysis will be performed at the level of software object × infrastructure layer × observation time point.\n\nFor each research question, the analysis will use direct counts, proportions, timestamp differences, state-transition sequences, and cross-layer comparisons.\n\nRQ1 will be evaluated by reporting the observed propagation order and state transitions across infrastructure layers.\n\nRQ2 will be evaluated by classifying comparable metadata fields as consistent, divergent, or unresolved across layers.\n\nRQ3 will be evaluated using directly observed propagation latency, defined as the difference between the software release timestamp and the first qualifying downstream observation timestamp where both are available.\n\nRQ4 will be evaluated by comparing predefined aggregation patterns in the prospective observation window with those recorded in the historical baseline.\n\nRQ5 will be evaluated by counting and classifying not-found, rate-limited, unresolved, partial, and correction states by infrastructure layer and software object.\n\nNo ANOVA, regression, SEM, hypothesis testing, or causal model is planned.",
+          "344-73": [],
+          "344-75": "No numerical transformations, normalization, centering, or imputation are planned.\n\nCategorical observation states will retain their preregistered labels. Timestamp values will be used directly to calculate latency where appropriate. Semantically non-equivalent identifiers or record types will not be recoded as equivalent.",
+          "344-77": "No null-hypothesis significance testing, p-value threshold, Bayes factor, or model-fit cutoff will be used.\n\nInferences will be based on directly observed states, timestamped evidence, predefined state classifications, and reproducible cross-layer comparisons.\n\nA result will be reported as observed only when directly supported by the relevant platform record or public API response. Missing, unresolved, rate-limited, or unqueried states will not be interpreted as absence.\n\nAny conclusion that extends beyond the preregistered descriptive analyses will be labeled exploratory or post hoc.",
+          "344-79": "All planned observations for the ten predefined research software objects and six predefined infrastructure layers will be retained.\n\nObservations will not be excluded because they are missing, rate limited, unresolved, partial, or not found; these states are themselves part of the outcome record.\n\nOnly records that can be matched to the predefined software families or their directly related scholarly identifiers will be included. Duplicate representations, unrelated records, and semantically non-equivalent objects will not be counted as additional sample units.\n\nNo statistical outlier exclusion is planned.",
+          "344-81": "Missing data will not be imputed.\n\nEach missing or incomplete observation will retain its reason where known, such as not found, rate limited, unresolved, partial, or not queried successfully.\n\nAnalyses will use available directly observed evidence, while denominators for planned observation counts will retain all attempted observation cells where applicable.",
+          "344-86": "This preregistration extends a prior observational audit of the same ten research software objects and scholarly-infrastructure layers. The earlier audit established the historical baseline and informed the object set, field definitions, state taxonomy, counting discipline, and known failure modes used in the present plan. The prospective observation window covered by this registration begins only after registration; historical observations will remain fixed and will not be retrospectively reclassified to improve agreement with new evidence.  \nThe study is intended as an infrastructure audit rather than a causal or population-level study. Platform records and public APIs are treated as layer-specific evidence sources, and each infrastructure layer is interpreted according to its own observable contract. Differences in clocks, object types, aggregation semantics, and verification mechanisms will therefore not be collapsed into a single global state or quality score. Any amendments, deviations, or additional analyses introduced after registration will be recorded explicitly and distinguished from the preregistered analyses.",
+          "344-83": "Secondary exploratory or post hoc analyses may include contextual benchmarking of software concept families, bounded sensitivity checks across platform-provided engagement metrics, and tie-aware rank or percentile summaries. Additional analyses may examine unexpected state transitions, aggregation patterns, query or interface anomalies, and other platform-specific behaviors.\n\nAnalyses introduced after the original registration will remain explicitly labeled exploratory or post hoc and will not be presented as preregistered primary findings."
+        },
+        "provider_specific_metadata": [],
+        "subjects": [
+          [
+            {
+              "id": "584240da54be81056cecac48",
+              "text": "Social and Behavioral Sciences"
+            },
+            {
+              "id": "584240da54be81056cecab33",
+              "text": "Library and Information Science"
+            },
+            {
+              "id": "584240d954be81056ceca924",
+              "text": "Scholarly Communication"
+            }
+          ]
+        ]
+      },
+      "project_status": 401
+    },
+    "internet_archive": {
+      "identifier": "osf-registrations-5b329-v1",
+      "files_count": 5,
+      "bag": {
+        "name": "bag.zip",
+        "source": "original",
+        "mtime": "1791280779",
+        "size": "153785",
+        "md5": "9d918c2cb7881437c4c04db6c5867124",
+        "crc32": "05237632",
+        "sha1": "0ebaeca8a49208f0edf142be67de1f40d2d7c46d",
+        "format": "ZIP",
+        "filecount": "12"
+      }
+    },
+    "workflowhub": {
+      "current_access": "HTTP_503_after_one_retry",
+      "current_counts": null,
+      "last_successful_snapshot": "2026-10-23",
+      "last_successful_evidence": "../WorkflowHubGlobalActivity20261023/AllPublicRecordActivity.csv"
+    },
+    "biotools_status": 403,
+    "openebench": {
+      "status": 200,
+      "record": {
+        "@timestamp": "2026-10-22T22:00:08.276316602Z",
+        "alt_ids": [],
+        "confidence": "ultimate",
+        "contacts": [],
+        "credits": [],
+        "description": "Offline, deterministic bioinformatics command-line tool for auditing protein FASTA sequences and PDB coordinate files. Analyzes amino-acid composition and ambiguous residues in FASTA files, and inventories observed C-alpha residues in the first PDB model. Produces structured JSON reports with source SHA-256 digests and bounded quality warnings. Supports reproducible execution and CWL workflow integration. Does not predict protein structures, assess folding accuracy, or validate molecular geometry.",
+        "languages": [],
+        "name": "Life Science Protein File Audit",
+        "os": [],
+        "publications": [],
+        "repositories": [],
+        "tags": [],
+        "validated": 0,
+        "web": {
+          "homepage": "https://github.com/lostlight530/life-science-ecosystem-lab/tree/main/bio_tool"
+        },
+        "@id": "https://openebench.bsc.es/monitor/tool/life-science-protein-file-audit",
+        "@nmsp": "openebench",
+        "@type": null,
+        "@label": "life-science-protein-file-audit",
+        "@version": null,
+        "@license": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    "rse_catalog_pr": {
+      "html_url": "https://github.com/rseng/software/pull/498",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "updated_at": "2026-10-07T13:02:55Z"
+    },
+    "repository_modified": false,
+    "public_platform_modified": false
+  },
+  "source_parts": [
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-01.json",
+      "members": 96,
+      "gzip_bytes": 217600
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-02.json",
+      "members": 67,
+      "gzip_bytes": 173297
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-03.json",
+      "members": 96,
+      "gzip_bytes": 223049
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-04.json",
+      "members": 77,
+      "gzip_bytes": 209757
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-05.json",
+      "members": 97,
+      "gzip_bytes": 211396
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-06.json",
+      "members": 54,
+      "gzip_bytes": 180950
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-07.json",
+      "members": 29,
+      "gzip_bytes": 169417
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-08.json",
+      "members": 76,
+      "gzip_bytes": 253965
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-09.json",
+      "members": 70,
+      "gzip_bytes": 207955
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-10.json",
+      "members": 153,
+      "gzip_bytes": 252646
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-11.json",
+      "members": 70,
+      "gzip_bytes": 181658
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-12.json",
+      "members": 153,
+      "gzip_bytes": 249288
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-13.json",
+      "members": 46,
+      "gzip_bytes": 125033
+    },
+    {
+      "path": "evidence/2026-10-24/04-local-history-evidence-handoff/source-bundle-part-14.json",
+      "members": 78,
+      "gzip_bytes": 170242
+    }
+  ],
+  "cloud_review_status": "requested_not_run_by_this_handoff",
+  "historical_reports_are_attributed_not_recertified": true
+}
