@@ -93,8 +93,8 @@ def run() -> dict:
             "Corpus role has drifted")
 
     entries = manifest.get("artifacts", [])
-    require(manifest.get("algorithm") == "SHA256" and len(entries) == 29,
-            "Artifact manifest algorithm or cardinality drift")
+    require(manifest.get("algorithm") == "SHA256" and len(entries) == 28,
+            "Artifact manifest algorithm or 28-listed-object cardinality drift")
     require(manifest.get("excludes") == ["artifact-manifest.json"],
             "Artifact manifest exclusion contract drift")
     listed_paths = set()
@@ -117,6 +117,7 @@ def run() -> dict:
     attempt_files = capture.get("attempt_files", [])
     require(len(attempt_files) == 8, "Unexpected number of attempt projections")
     attempt_rows = 0
+    unknown_endpoints = 0
     for location in attempt_files:
         require(location in listed_paths, f"Attempt projection not in artifact manifest: {location}")
         for line in safe_file(location).read_text(encoding="utf-8").splitlines():
@@ -126,6 +127,13 @@ def run() -> dict:
             attempt_rows += 1
             require(set(entry) == allowed_fields, f"Unexpected keys in {location}:{attempt_rows}")
             request_url = entry["public_endpoint"]
+            if request_url is None:
+                # Historical projection deliberately omitted an unsuitable locator.
+                # Preserve the attempt without fabricating an origin URL.
+                unknown_endpoints += 1
+                continue
+            require(isinstance(request_url, str),
+                    f"Unexpected endpoint field type: {location}:{attempt_rows}")
             parsed = urlsplit(request_url)
             require(parsed.scheme == "https" and parsed.hostname in allowed_hosts
                     and not parsed.username and not parsed.password,
@@ -134,6 +142,8 @@ def run() -> dict:
                     f"Unexpected public URL query key: {location}:{attempt_rows}")
     require(attempt_rows == capture.get("source_rows") == record["attempt_rows"] == 4444,
             "Attempt projection row count mismatch")
+    require(unknown_endpoints == 21,
+            "Missing public endpoint count changed; do not infer absent original requests")
     require(capture.get("source_rows_not_claimed_as_distinct_requests") is True,
             "Duplicate attempt row warning missing")
 
@@ -184,7 +194,8 @@ def run() -> dict:
     return {"mode": "offline_read_only_transport_integrity",
             "package": "2026-10-24/04-local-history-evidence-handoff",
             "checks": checks, "failed": len(failures), "failures": failures[:30],
-            "artifact_files": len(entries), "attempt_rows": attempt_rows,
+            "listed_artifact_files": len(entries), "manifest_file_self_excluded": 1, "attempt_rows": attempt_rows,
+            "redacted_or_unavailable_public_endpoint_rows": unknown_endpoints,
             "payloads": member_count, "ledger_rows": len(rows),
             "new_live_requests": 0, "scientific_interpretation_verified": False}
 
