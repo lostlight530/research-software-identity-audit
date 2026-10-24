@@ -1,0 +1,100 @@
+{
+  "record_class": "diagnostic_monitoring",
+  "title": "Post-handoff research contract, release-state, and evidence-integrity recheck",
+  "logical_day": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "retrieval_window_utc_outer_bounds": [
+    "2026-10-24T02:20:58.643Z",
+    "2026-10-24T02:21:00.019Z"
+  ],
+  "retrieval_window_limits": "UTC tool-client clock around twelve concurrent public GitHub Release-list reads; NOT HTTP Date, origin timestamp, per-request latency, or a claim of uncached data; no raw response headers retained",
+  "baseline_main": "8dddc466096988d49ef8186627c540a0793353d4",
+  "reference_merged_pr": "https://github.com/lostlight530/research-software-identity-audit/pull/59",
+  "reference_main_ci": "https://github.com/lostlight530/research-software-identity-audit/actions/runs/40053424762",
+  "frozen_osf_registration": "10.17605/OSF.IO/5B329",
+  "osf_contract_source": "contract/preregistration.md",
+  "fixed_corpus_count": 10,
+  "preregistered_layers": 6,
+  "object_layer_cells_only_when_eligible": 60,
+  "operational_platforms": 7,
+  "operational_schedule_offsets_declared": false,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "platform_checks": {
+    "github_release_listing": {
+      "status": "source_read_success",
+      "fetched_repository_count": 12,
+      "source": "https://api.github.com/repos/lostlight530/{repository}/releases?per_page=100",
+      "fixed_object_release_counts": {
+        "RS01": 4,
+        "RS02": 4,
+        "RS03": 4,
+        "RS04": 4,
+        "RS05": 4,
+        "RS06": 4,
+        "RS07": 4,
+        "RS08": 4,
+        "RS09": 4,
+        "RS10": 4
+      },
+      "fixed_object_total_releases": 40,
+      "independent_control_releases": 4,
+      "independent_pilot_releases": 1,
+      "descriptive_total_releases": 45,
+      "latest_fixed_release_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+      "latest_fixed_release_date_utc": "2026-10-14",
+      "pagination_caveat": "Each list returned far fewer than per_page=100; no next page needed for observed release lists",
+      "eligibility_interpretation": "No newly published fixed-sample GitHub release observed since existing checkpoint in this bounded check; ordinary main commits are not a release trigger",
+      "raw_transport_bytes_preserved": false,
+      "retrieval_window_utc_outer_bounds": [
+        "2026-10-24T02:20:58.643Z",
+        "2026-10-24T02:21:00.019Z"
+      ],
+      "source_evidence_file": "github-release-inventory.csv",
+      "all_twelve_lists_within_first_page": true
+    },
+    "zenodo": {
+      "status": "not_recollected_in_this_followup",
+      "reference": "monitoring/2026-10-24/02-morning-infrastructure-and-zenodo-family-rollup/README.md",
+      "unresolved": "Different URL shapes return 2681 vs 2836 Views; no confirmed +155 visits"
+    },
+    "datacite": {
+      "status": "not_recollected_in_this_followup",
+      "reference": "monitoring/2026-10-24/02-morning-infrastructure-and-zenodo-family-rollup/README.md"
+    },
+    "orcid": {
+      "status": "not_recollected_in_this_followup",
+      "reference": "monitoring/2026-10-24/02-morning-infrastructure-and-zenodo-family-rollup/README.md"
+    },
+    "software_heritage": {
+      "status": "not_recollected_in_this_followup",
+      "reference": "monitoring/2026-10-24/02-morning-infrastructure-and-zenodo-family-rollup/README.md"
+    },
+    "openaire": {
+      "status": "not_recollected_in_this_followup",
+      "reference": "monitoring/2026-10-24/02-morning-infrastructure-and-zenodo-family-rollup/README.md"
+    },
+    "openalex": {
+      "status": "not_recollected_in_this_followup",
+      "reference": "monitoring/2026-10-24/02-morning-infrastructure-and-zenodo-family-rollup/README.md"
+    }
+  },
+  "handoff_transport_verification": {
+    "referenced_handoff": "monitoring/2026-10-24/04-local-history-evidence-handoff/record.json",
+    "new_offline_checker": "tools/check_local_handoff_20261024.py",
+    "checker_scope": "Git SHA-256 and byte length for each listed artifact, JSONL public-field/host/query allowlists, canonical RS map, gzip ledger and tar-member content addresses",
+    "external_origin_or_source_causality_reverified": false,
+    "original_full_request_logs_republished": false,
+    "outcome_at_preparation": "pending_new_pull_request_cloud_run",
+    "no_new_network_calls_in_checker": true
+  },
+  "other_research_changes": {
+    "frozen_osf_contract": false,
+    "baseline": false,
+    "schedule": false,
+    "corpus": false,
+    "historical_evidence_overwrite": false,
+    "new_releases": false,
+    "statistical_analysis_claims": false
+  }
+}

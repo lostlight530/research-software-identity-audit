@@ -37,3 +37,7 @@ jobs:
       - name: Recheck retained Zenodo family arithmetic (advisory)
         continue-on-error: true
         run: python -B tools/check_zenodo_family_rollup.py
+
+      - name: Verify October 24 local-history handoff transport (advisory)
+        continue-on-error: true
+        run: python -B tools/check_local_handoff_20261024.py
