@@ -72,6 +72,8 @@ For author registry interpretation, [ORCID documents source versus assertion ori
 
 For DOI-version relationships, [DataCite documents `HasVersion` and `IsVersionOf`](https://support.datacite.org/docs/versioning). They may be asserted independently, so a missing reverse `HasVersion` should be reported as a **directional relationship state**, not automatic invalidity of a resolvable version DOI. FORCE11 [software citation principles](https://force11.org/info/software-citation-principles-published-2016/) motivate distinct persistent/version-specific software identities, not an additional research sample.
 
+The [seven-platform observable-contract decision map](platform-evidence-semantics-2026-10-25.md) complements these general safeguards with concrete GitHub Release clocks, Zenodo family/unique-field semantics, directed DataCite DOI relationships, ORCID groups/assertion sources, SWH origin→snapshot→directory chains, and separate OpenAIRE/OpenAlex query contracts. It is an interpretive review guide and does not change platform mapping or preregistered units.
+
 ## Conditional scientific acceptance gates (human/source-evidence review)
 
 | Proposed claim | Sufficiently scoped evidence to seek | If unavailable |
