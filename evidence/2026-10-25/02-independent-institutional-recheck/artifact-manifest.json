@@ -1,80 +1,80 @@
 {
-  "scope": "public projection files excluding this self-manifest",
+  "scope": "public UTF-8 LF projection files excluding this self-manifest",
   "files": [
     {
       "path": "evidence/2026-10-25/02-independent-institutional-recheck/canonical-object-fields.json",
-      "bytes": 24923,
-      "sha256": "882db178e8fbc6a4969a05687f769376fa300d70135bff78532f78acb75c4918"
+      "bytes": 24128,
+      "sha256": "1f7e25841f27f571dcc1707368771201307f5d79eb6984e6c04924f702897794"
     },
     {
       "path": "evidence/2026-10-25/02-independent-institutional-recheck/datacite-identifiers.csv",
-      "bytes": 6709,
-      "sha256": "4fed68853e54217b885b545b3a1fcb59853a94dbe5ff7b7780a77261abd51fd2"
+      "bytes": 6632,
+      "sha256": "0af39cb9d01d75d107e1416b955912c3cc29f1b1ee8b61a9fe55a205a5530444"
     },
     {
       "path": "evidence/2026-10-25/02-independent-institutional-recheck/institutional-state-extract.json",
-      "bytes": 3214,
-      "sha256": "1229cd810b08500332372ed5b4311155bc62c33a8a8e9faad0a6b7dcf52d866f"
+      "bytes": 3108,
+      "sha256": "4bd966631cbf4032af6e424e11e5ffac64b6b9e1312570174d1cc8a76aa0a949"
     },
     {
       "path": "evidence/2026-10-25/02-independent-institutional-recheck/openalex-works.csv",
-      "bytes": 4185,
-      "sha256": "6915a37a632b99f208d3c938ac10a6bc5b0e8169952ac85c9ee9eea95ac0e3db"
+      "bytes": 4152,
+      "sha256": "52116ce5f437cd0945483e9e51976d3d87aa35841704d1441b229f86b4cbf992"
     },
     {
       "path": "evidence/2026-10-25/02-independent-institutional-recheck/README.md",
-      "bytes": 1536,
-      "sha256": "9ba28dfef46cfc4df07c516adaa252722ef20f0544a0e84d12fcf048a50434ad"
+      "bytes": 1523,
+      "sha256": "ec0a2fae839ceab992ff212003f500b5e69f921cc47cbb892c1a94af2bce9f55"
     },
     {
       "path": "evidence/2026-10-25/02-independent-institutional-recheck/source-attempts.csv",
-      "bytes": 54710,
-      "sha256": "531484fcd5d0b05deec595c1d0619d565b753d005ec22145893c134c2aa8b17a"
+      "bytes": 54547,
+      "sha256": "b3ce04375dec421ad0d835f9080f30ba8d8c79a26bb8c7b2dbbd4cc66f807e37"
     },
     {
       "path": "evidence/2026-10-25/02-independent-institutional-recheck/user-page-api-reconciliation.json",
-      "bytes": 1601,
-      "sha256": "4a74b4a64eb763895188fb9fc4310cfeb1360b086f030ca178a817b8b8538678"
+      "bytes": 1534,
+      "sha256": "8ba19b27911a332323946050a9e76f25ae4c552811a0bc0883c1e3f714449992"
     },
     {
       "path": "evidence/2026-10-25/02-independent-institutional-recheck/user-page-transcription.json",
-      "bytes": 3425,
-      "sha256": "b90905f1cc942c0a66934d0b53a0fc253e3f1d5c3fa8eb793a37dcc60403bce1"
+      "bytes": 3304,
+      "sha256": "94e958d6ee567446828242f03f54a9d88a7b9107ea7fc5505d3aee0980d22efc"
     },
     {
       "path": "evidence/2026-10-25/02-independent-institutional-recheck/workflowhub-source-comparison.csv",
-      "bytes": 849,
-      "sha256": "d21171eb675ca2812138863861b2eeb9eede85d3a57bac0fb47e56751c4a9e68"
+      "bytes": 844,
+      "sha256": "2316fbeee22b4848b130fda522a70eb8183aecf07ec1375b456e5f3b13d5e340"
     },
     {
       "path": "evidence/2026-10-25/02-independent-institutional-recheck/zenodo-family-statistics.csv",
-      "bytes": 843,
-      "sha256": "2317f756d0a3de5dc29f6571e9c64660b522ef9519fc69a7a9099db5339e9733"
+      "bytes": 830,
+      "sha256": "77bcb63bac6a93b426519845052c60e02fd9d437d1db6527a505cdaa92362a31"
     },
     {
       "path": "evidence/README.md",
-      "bytes": 3744,
-      "sha256": "344da37bfda958475fb7b1bb034e192a0b1bb4b5d7c1e30078146b3777cb5b3d"
+      "bytes": 3692,
+      "sha256": "946f6b2021c1f0b5bc664c0aaa31dffd5aa325fad3a4919162bcc772b3956817"
     },
     {
       "path": "monitoring/2026-10-25/02-independent-institutional-recheck/README.md",
-      "bytes": 4289,
-      "sha256": "cacc825e7b198964c1b4c6e217ca51624369e870a36f7351ddd628b7709366f1"
+      "bytes": 4252,
+      "sha256": "062b5828ed95e37293f89428fd4bd71e08bff006dd1739f24f9c01ec59d59dd8"
     },
     {
       "path": "monitoring/2026-10-25/02-independent-institutional-recheck/record.json",
-      "bytes": 3953,
-      "sha256": "a8570b9287db70daa8c4472de588649a0b90870e57c1dc731a68cbd9b064a74f"
+      "bytes": 3827,
+      "sha256": "052195b78622755330cd05b64a319ac57cb5d81f20d67433d123d7b4188952b6"
     },
     {
       "path": "monitoring/2026-10-25/02-independent-institutional-recheck/verification.md",
-      "bytes": 1230,
-      "sha256": "0ff484526ce996c478cec09dca61ad9176cc94310633051a33ded30caf90c5e0"
+      "bytes": 1214,
+      "sha256": "1144f41fe130506907269561592339cd02083e8002cb545b5acc8393d3b39705"
     },
     {
       "path": "monitoring/README.md",
-      "bytes": 19352,
-      "sha256": "654778920fc0c4b82b55db9e6e290c5ce7dc1ab132b0876c17aa6fc000904645"
+      "bytes": 19209,
+      "sha256": "3255933f944e87ab1544e789658142c50a214b4e3e6e29cae7cf4d443ba30623"
     }
   ]
 }
