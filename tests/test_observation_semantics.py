@@ -42,6 +42,11 @@ class ObservationSemanticTests(unittest.TestCase):
         self.path.write_text(json.dumps(valid_record(**changes)), encoding="utf-8")
         audit.validate_observation_record(self.path)
 
+    def test_rejects_non_object_raw_payload(self):
+        self.path.write_text('[]', encoding="utf-8")
+        with self.assertRaisesRegex(AssertionError, "must be a JSON object"):
+            audit.validate_observation_record(self.path)
+
     def test_platform_mapping_matches_repository_contract(self):
         audit.check_layers_and_platforms()
 
