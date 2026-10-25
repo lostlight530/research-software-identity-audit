@@ -6,6 +6,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
@@ -40,6 +41,25 @@ class ObservationSemanticTests(unittest.TestCase):
     def check(self, **changes):
         self.path.write_text(json.dumps(valid_record(**changes)), encoding="utf-8")
         audit.validate_observation_record(self.path)
+
+    def test_platform_mapping_matches_repository_contract(self):
+        audit.check_layers_and_platforms()
+
+    def test_platform_mapping_rejects_mutated_layer(self):
+        original = audit.read_text
+
+        def mutated(path):
+            source = original(path)
+            if path == "schema/platforms.yaml":
+                return source.replace(
+                    "infrastructure_layer: archival_repository",
+                    "infrastructure_layer: author_registry", 1
+                )
+            return source
+
+        with patch.object(audit, "read_text", side_effect=mutated):
+            with self.assertRaisesRegex(AssertionError, "platform-to-layer mapping drifted"):
+                audit.check_layers_and_platforms()
 
     def test_well_formed_synthetic(self):
         self.check()
