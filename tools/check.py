@@ -182,6 +182,39 @@ def validate_observation_record(path: Path) -> None:
             fail(f"{path}: release event is later than the retrieval timestamp")
 
 
+def validate_derived_record(path: Path) -> None:
+    """Derived JSON is a calculation, not another platform request/observation."""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        fail(f"{path}: derived record must be an object")
+    if data.get("dataset_phase") != "prospective":
+        fail(f"{path}: derived record requires dataset_phase=prospective")
+    if not isinstance(data.get("derivation_id"), str) or not data["derivation_id"].strip():
+        fail(f"{path}: derived record requires derivation_id")
+    if (not isinstance(data.get("derivation_method_ref"), str)
+            or not data["derivation_method_ref"].strip()):
+        fail(f"{path}: derived record requires derivation_method_ref")
+    derived_at = aware_timestamp(data.get("derived_at"), "derived_at", path)
+    refs = data.get("input_observation_refs")
+    if not isinstance(refs, list) or not refs:
+        fail(f"{path}: derived record needs nonempty input_observation_refs")
+    source_dir = (ROOT / "observations/raw").resolve()
+    if len(refs) != len(set(ref for ref in refs if isinstance(ref, str))):
+        fail(f"{path}: duplicate or invalid input refs")
+    for ref in refs:
+        if not isinstance(ref, str) or not ref.strip():
+            fail(f"{path}: blank input observation ref")
+        ref_path = (ROOT / ref).resolve()
+        if (not ref_path.is_relative_to(source_dir)
+                or ref_path.suffix != ".json" or not ref_path.is_file()):
+            fail(f"{path}: input must resolve to existing raw observation JSON: {ref}")
+        source = json.loads(ref_path.read_text(encoding="utf-8"))
+        observed_at = aware_timestamp(source.get("retrieval_timestamp"),
+                                      "input.retrieval_timestamp", ref_path)
+        if observed_at > derived_at:
+            fail(f"{path}: derived_at precedes source retrieval for {ref}")
+
+
 def check_observations() -> None:
     raw = ROOT / "observations/raw"
     raw_records = sorted(raw.rglob("*.json")) if raw.exists() else []
@@ -221,7 +254,7 @@ def check_observations() -> None:
     derived = ROOT / "observations/derived"
     if derived.exists():
         for path in derived.rglob("*.json"):
-            validate_observation_record(path)
+            validate_derived_record(path)
 
 
 def check_baseline() -> None:
