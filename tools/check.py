@@ -8,6 +8,7 @@ import csv
 import json
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,6 +30,15 @@ EXPECTED_PLATFORMS = {
     "software_heritage",
     "openaire",
     "openalex",
+}
+EXPECTED_PLATFORM_LAYERS = {
+    "github": "source_repository",
+    "zenodo": "archival_repository",
+    "datacite": "identifier_registration",
+    "orcid": "author_registry",
+    "software_heritage": "preservation_archive",
+    "openaire": "discovery_graph",
+    "openalex": "discovery_graph",
 }
 OBS_STATES = {
     "observed",
@@ -76,10 +86,14 @@ def check_layers_and_platforms() -> None:
     if platforms != EXPECTED_PLATFORMS:
         fail(f"operational platforms drifted: {sorted(platforms)}")
     ptext = read_text("schema/platforms.yaml")
-    for platform in ("openaire", "openalex"):
-        pattern = rf"- id: {platform}\n(?:.|\n)*?infrastructure_layer: discovery_graph"
-        if not re.search(pattern, ptext):
-            fail(f"{platform} must map to discovery_graph")
+    # Check each concrete platform/layer pair, not just the IDs or discovery pair.
+    pairs = re.findall(
+        r"(?m)^  - id: ([a-z0-9_]+)\n    label: [^\n]*\n"
+        r"    infrastructure_layer: ([a-z0-9_]+)\s*$",
+        ptext,
+    )
+    if len(pairs) != len(EXPECTED_PLATFORM_LAYERS) or dict(pairs) != EXPECTED_PLATFORM_LAYERS:
+        fail(f"operational platform-to-layer mapping drifted: {pairs}")
     if "preregistered_object_layer_units_per_timepoint: 60" not in ptext:
         fail("platform mapping must preserve 60 preregistered object-layer units")
     if "operational_platform_count: 7" not in ptext:
@@ -107,8 +121,23 @@ def check_schema() -> None:
         fail("observation schema must require at least one evidence ref")
 
 
+def aware_timestamp(value: object, field: str, path: Path) -> datetime:
+    """Require offset-aware clocks before cross-platform temporal comparison."""
+    if not isinstance(value, str) or not value.strip():
+        fail(f"{path}: {field} requires a nonempty ISO-8601 timestamp")
+    try:
+        clock = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        fail(f"{path}: invalid {field} timestamp: {value!r}")
+    if clock.tzinfo is None or clock.utcoffset() is None:
+        fail(f"{path}: {field} must carry a timezone offset")
+    return clock
+
+
 def validate_observation_record(path: Path) -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        fail(f"{path}: raw observation must be a JSON object")
     required = {
         "observation_id", "object_id", "infrastructure_layer", "platform",
         "observation_timepoint", "retrieval_timestamp", "attempt_status",
@@ -123,20 +152,115 @@ def validate_observation_record(path: Path) -> None:
         fail(f"{path}: unknown infrastructure layer")
     if data["platform"] not in EXPECTED_PLATFORMS:
         fail(f"{path}: unknown platform")
+    if data["infrastructure_layer"] != EXPECTED_PLATFORM_LAYERS[data["platform"]]:
+        fail(f"{path}: platform/layer mismatch for {data['platform']}")
     if data["observation_state"] not in OBS_STATES:
         fail(f"{path}: unknown observation state")
+    if data["attempt_status"] not in {"completed", "failed"}:
+        fail(f"{path}: invalid attempt_status")
     if not isinstance(data["evidence_refs"], list) or not data["evidence_refs"]:
         fail(f"{path}: evidence_refs must be non-empty")
+    if any(not isinstance(ref, str) or not ref.strip() or "EXAMPLE-DO-NOT-USE" in ref
+           for ref in data["evidence_refs"]):
+        fail(f"{path}: evidence_refs contains a blank/example-only locator")
     if data["attempt_status"] == "failed" and not data.get("failure_reason"):
         fail(f"{path}: failed attempt requires failure_reason")
+    if data["attempt_status"] == "failed" and data["observation_state"] == "fully_verified":
+        fail(f"{path}: failed attempt cannot itself be fully_verified")
+    if (not isinstance(data["observation_timepoint"], str)
+            or not data["observation_timepoint"].strip()
+            or data["observation_timepoint"] == "TEMPLATE_ONLY"):
+        fail(f"{path}: undeclared/example observation_timepoint")
+    retrieved = aware_timestamp(data["retrieval_timestamp"], "retrieval_timestamp", path)
+    released = data.get("release_event_timestamp")
+    if released is not None:
+        released = aware_timestamp(released, "release_event_timestamp", path)
+    if data.get("dataset_phase") == "prospective":
+        if data.get("retrospective_reconstruction") is True:
+            fail(f"{path}: prospective records cannot be retrospective reconstructions")
+        if released is None:
+            fail(f"{path}: prospective records require a release event timestamp")
+        if released > retrieved:
+            fail(f"{path}: release event is later than the retrieval timestamp")
+
+
+def validate_derived_record(path: Path) -> None:
+    """Derived JSON is a calculation, not another platform request/observation."""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        fail(f"{path}: derived record must be an object")
+    if data.get("dataset_phase") != "prospective":
+        fail(f"{path}: derived record requires dataset_phase=prospective")
+    if not isinstance(data.get("derivation_id"), str) or not data["derivation_id"].strip():
+        fail(f"{path}: derived record requires derivation_id")
+    if (not isinstance(data.get("derivation_method_ref"), str)
+            or not data["derivation_method_ref"].strip()):
+        fail(f"{path}: derived record requires derivation_method_ref")
+    derived_at = aware_timestamp(data.get("derived_at"), "derived_at", path)
+    refs = data.get("input_observation_refs")
+    if not isinstance(refs, list) or not refs:
+        fail(f"{path}: derived record needs nonempty input_observation_refs")
+    source_dir = (ROOT / "observations/raw").resolve()
+    if len(refs) != len(set(ref for ref in refs if isinstance(ref, str))):
+        fail(f"{path}: duplicate or invalid input refs")
+    for ref in refs:
+        if not isinstance(ref, str) or not ref.strip():
+            fail(f"{path}: blank input observation ref")
+        ref_path = (ROOT / ref).resolve()
+        if (not ref_path.is_relative_to(source_dir)
+                or ref_path.suffix != ".json" or not ref_path.is_file()):
+            fail(f"{path}: input must resolve to existing raw observation JSON: {ref}")
+        source = json.loads(ref_path.read_text(encoding="utf-8"))
+        if not isinstance(source, dict):
+            fail(f"{path}: source raw observation is not a JSON object: {ref}")
+        observed_at = aware_timestamp(source.get("retrieval_timestamp"),
+                                      "input.retrieval_timestamp", ref_path)
+        if observed_at > derived_at:
+            fail(f"{path}: derived_at precedes source retrieval for {ref}")
 
 
 def check_observations() -> None:
-    for base in (ROOT / "observations/raw", ROOT / "observations/derived"):
-        if not base.exists():
-            continue
-        for path in base.rglob("*.json"):
-            validate_observation_record(path)
+    raw = ROOT / "observations/raw"
+    raw_records = sorted(raw.rglob("*.json")) if raw.exists() else []
+    if raw_records:
+        # This is only a structural precondition: source evidence for actual
+        # eligibility and scheduled timepoint coverage must still be reviewed.
+        declarations = (list((ROOT / "schedule").glob("*.yaml"))
+                        + list((ROOT / "schedule").glob("*.yml")))
+        active: list[tuple[Path, datetime, set[str]]] = []
+        for declaration in declarations:
+            body = declaration.read_text(encoding="utf-8")
+            if not re.search(r"""(?mi)^status:\s*["']?active["']?\s*$""", body):
+                continue
+            sid = re.search(r"""(?m)^schedule_id:\s*["']?([A-Za-z0-9_-]+)["']?\s*$""", body)
+            declared = re.search(r"""(?m)^declared_at:\s*["']?([^"'\s#]+)["']?\s*$""", body)
+            if not sid or not declared:
+                fail(f"{declaration}: active schedule requires schedule_id and declared_at")
+            timepoint_ids = set(re.findall(
+                r"""(?m)^  - id:\s*["']?([A-Za-z0-9_-]+)["']?\s*$""", body
+            ))
+            if not timepoint_ids or "__TIMEPOINT_ID__" in timepoint_ids:
+                fail(f"{declaration}: active schedule requires concrete timepoint IDs")
+            active.append((declaration, aware_timestamp(declared.group(1), "declared_at", declaration), timepoint_ids))
+        if not active:
+            fail("prospective raw records require a dated active schedule declaration")
+    for path in raw_records:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            fail(f"{path}: raw prospective observation must be a JSON object")
+        if data.get("dataset_phase") != "prospective":
+            fail(f"{path}: raw prospective records require dataset_phase=prospective")
+        retrieval = aware_timestamp(data.get("retrieval_timestamp"), "retrieval_timestamp", path)
+        if not any(declared_at <= retrieval for _, declared_at, _ in active):
+            fail(f"{path}: no active schedule declaration predates retrieval")
+        if not any(data.get("observation_timepoint") in ids and declared_at <= retrieval
+                   for _, declared_at, ids in active):
+            fail(f"{path}: observation_timepoint not governed by an active prior schedule")
+        validate_observation_record(path)
+    derived = ROOT / "observations/derived"
+    if derived.exists():
+        for path in derived.rglob("*.json"):
+            validate_derived_record(path)
 
 
 def check_baseline() -> None:

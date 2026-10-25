@@ -58,6 +58,14 @@ Follow the narrowest source that actually supports the claim:
 
 A later public endpoint does not replay a historical state. A DOI or successful CI run does not prove execution, adoption or scientific validity. Zenodo `views` and `unique_views` are distinct source fields; WorkflowHub Dashboard counts and per-version Activity need their own reporting window and entity-grain checks. A summed family-level unique counter is **not** a globally deduplicated number of people. Use the [existing counting rules](../schema/counting-rules.md); this guide adds **no new metric definitions**.
 
+## Operational logic assurance (2026-10-25)
+
+[Observation assurance and claim boundaries](observation-assurance-2026-10-25.md) documents what the existing checker can reject and what still requires researcher/source-evidence acceptance: seven platform-to-layer joins, clock comparability, prospective preflight, independent source attribution, projection versus raw bytes, incomplete retrievals, and non-equivalent counters. It is an **implementation review**, not a new OSF research contract, observation, amendment, scheduled timepoint, or data update. The synthetic unit-test entry is in [tools](../tools/README.md#observation-semantic-preflight-2026-10-25).
+
+## Seven-platform evidence semantics (2026-10-25)
+
+[The seven-platform reviewer decision map](platform-evidence-semantics-2026-10-25.md) records each platform's concrete object grain, positive and negative claim boundaries, retrieval-clock interpretation, exact source links and invalid cross-platform implications. It is a **non-data implementation review** that does not amend OSF or create a new analytic layer. Apply this guide when reviewing assertions supported by GitHub, Zenodo, DataCite, ORCID, Software Heritage, OpenAIRE or OpenAlex.
+
 ## 4. Docs-only maintenance workflow
 
 **Documentation scope:** a documentation-only PR may fix navigation, link targets, terminology, accessibility, contributor guidance, or dated operational explanations. It must not insert new API results, tables of newly observed counts, prospective records, fake historical timestamps, new releases, or made-up verification outcomes.
