@@ -1,0 +1,67 @@
+{
+  "comparison": "User supplied page counters versus current family API unique fields",
+  "rows": [
+    {
+      "repository": "welcome-to-github",
+      "views_equal": true,
+      "downloads_equal": true
+    },
+    {
+      "repository": "Axiom-0",
+      "views_equal": true,
+      "downloads_equal": true
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "views_equal": true,
+      "downloads_equal": true
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "views_equal": true,
+      "downloads_equal": true
+    },
+    {
+      "repository": "agent-foundations",
+      "views_equal": true,
+      "downloads_equal": true
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "views_equal": true,
+      "downloads_equal": true
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "views_equal": true,
+      "downloads_equal": true
+    },
+    {
+      "repository": "sci-render-kit",
+      "views_equal": true,
+      "downloads_equal": true
+    },
+    {
+      "repository": "auto-doc-engine",
+      "views_equal": true,
+      "downloads_equal": true
+    },
+    {
+      "repository": "reflective-continuum",
+      "views_equal": true,
+      "downloads_equal": true
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "views_equal": true,
+      "downloads_equal": true
+    },
+    {
+      "repository": "life-science-ecosystem-lab",
+      "views_equal": true,
+      "downloads_equal": true
+    }
+  ],
+  "all_twelve_match": true,
+  "capture_time_not_inferred": true
+}

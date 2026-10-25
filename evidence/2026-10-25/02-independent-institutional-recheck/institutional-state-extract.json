@@ -1,0 +1,106 @@
+{
+  "rsd": {
+    "current_software_status": 200,
+    "current_public_software": [
+      {
+        "id": "464dff6a-15a0-4aec-a0fe-4194d504f68b",
+        "slug": "research-software-identity-audit",
+        "brand_name": "research-software-identity-audit",
+        "is_published": true
+      },
+      {
+        "id": "191b90fd-2f95-4b4c-9ade-900f6f3ea320",
+        "slug": "china-agentic-observatory",
+        "brand_name": "\tChina Agentic Observatory",
+        "is_published": true
+      },
+      {
+        "id": "1449689b-49cd-43ae-9dc1-5b5d1f8435c3",
+        "slug": "agentic-frontier-observatory",
+        "brand_name": "Agentic Frontier Observatory",
+        "is_published": true
+      },
+      {
+        "id": "a6cf9529-bf8c-4b09-ad01-99f7e0bca40a",
+        "slug": "welcome-to-github",
+        "brand_name": "welcome-to-github",
+        "is_published": true
+      },
+      {
+        "id": "2f222170-c286-405b-be0f-447e45774740",
+        "slug": "zero-entropy-lab",
+        "brand_name": "Zero-Entropy Lab",
+        "is_published": true
+      },
+      {
+        "id": "8bbb975c-de96-44c3-b148-b9a0217f3ca1",
+        "slug": "axiom-0",
+        "brand_name": "Axiom-0",
+        "is_published": true
+      },
+      {
+        "id": "f68ffd75-0bc3-48fb-bd0b-5897b7fa3663",
+        "slug": "auto-doc-engine",
+        "brand_name": "auto-doc-engine",
+        "is_published": true
+      },
+      {
+        "id": "ec8f4525-1eff-4002-954f-c5f54f952bdd",
+        "slug": "reflective-continuum",
+        "brand_name": "Reflective Continuum",
+        "is_published": true
+      },
+      {
+        "id": "741a4a76-1245-4fda-bd7f-a52671e402e6",
+        "slug": "agent-foundations",
+        "brand_name": "Agent Foundations",
+        "is_published": true
+      },
+      {
+        "id": "ebca619e-ad34-4567-9746-b4ed0236dbcc",
+        "slug": "epistemic-pipeline",
+        "brand_name": "Epistemic Pipeline",
+        "is_published": true
+      },
+      {
+        "id": "286de805-4f74-4830-8c00-17da7ac347ae",
+        "slug": "sci-render-kit",
+        "brand_name": "sci-render-kit",
+        "is_published": true
+      },
+      {
+        "id": "99d9fbcd-837c-4b82-89ba-4ed421a8b7a4",
+        "slug": "hello",
+        "brand_name": "Life Science Ecosystem Lab",
+        "is_published": true
+      }
+    ],
+    "uuid_seed_capture": "2026-10-24T1130",
+    "contributor_current_status": null,
+    "current_contributor_linkage_reverified": false
+  },
+  "openebench": {
+    "@id": "https://openebench.bsc.es/monitor/tool/life-science-protein-file-audit",
+    "name": "Life Science Protein File Audit",
+    "confidence": "ultimate",
+    "validated": 0
+  },
+  "osf_user": {
+    "full_name": "Xuanyi Jiang",
+    "given_name": "Xuanyi",
+    "family_name": "Jiang"
+  },
+  "workflow_person": {
+    "title": "Xuanyi Jiang",
+    "orcid": "https://orcid.org/0009-0001-3617-0832"
+  },
+  "lifemonitor": {
+    "public_home_status": 200,
+    "object_test_state": "NOT_REVERIFIED",
+    "private_workflow_and_suite_identifiers_omitted": true
+  },
+  "cwl_viewer": {
+    "status": null,
+    "object_permanent_preservation": "NOT_VERIFIED"
+  }
+}

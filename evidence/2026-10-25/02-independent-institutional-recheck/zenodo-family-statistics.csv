@@ -1,0 +1,13 @@
+object_id,repository,record_id,downloads,unique_downloads,views,unique_views,version_downloads,version_unique_downloads,version_unique_views,version_views
+RS01,welcome-to-github,23365504,6,5,317,228,1,1,9,11
+RS02,zero-entropy-lab,23365551,1,1,271,182,1,1,7,7
+RS03,Axiom-0,23365534,1,1,308,219,1,1,11,11
+RS04,reflective-continuum,23365567,1,1,243,158,1,1,7,7
+RS05,agent-foundations,23365540,2,2,281,193,1,1,11,11
+RS06,auto-doc-engine,23365510,0,0,265,177,0,0,10,12
+RS07,epistemic-pipeline,23365517,1,1,276,189,1,1,10,11
+RS08,sci-render-kit,23365525,2,2,257,178,1,1,7,7
+RS09,china-agentic-observatory,23365548,1,1,287,197,1,1,10,11
+RS10,agentic-frontier-observatory,23365543,2,2,297,210,1,1,12,12
+AUDIT,research-software-identity-audit,23446162,5,5,139,130,2,2,23,23
+LIFE_PILOT,life-science-ecosystem-lab,23447089,5,3,11,8,5,3,8,11
