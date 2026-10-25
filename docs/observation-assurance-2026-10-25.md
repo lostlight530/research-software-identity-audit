@@ -54,6 +54,10 @@ The existing October 25 published field-projection manifest is checked by a new 
 
 **Scope:** verifying the manifest-listed *public bytes* does not independently replay the locally held original HTTP responses. It cannot establish a server signature, historical transport truth, platform ingestion time, scholarly acceptance or the authenticity of manually transcribed page observations. Existing evidence hashes remain attached to their original provenance; no source package is silently replaced.
 
+### Raw and derived are different record types
+
+`observations/raw/` represents **source-facing attempted object-layer checks**, while `observations/derived/` represents **calculations over referenced raw observations**. A derived result must not masquerade as a new platform request or a new analytical unit. The checker now applies a distinct, minimal lineage/chronology preflight to JSON derived artifacts: declared derivation ID/method/time, actual repository-relative raw input paths, and derivation time no earlier than any source retrieval. `NO_CONCLUSION` and null derived results are permitted; numeric/result success is not fabricated. This is not a full derivation schema or scientific calculation verifier. See [derived record ownership](../observations/derived/README.md#operational-json-lineage-preflight-2026-10-25).
+
 ## Researcher/agent provenance and independent evidence
 
 A proper narrative does not describe “Codex verified X” if the **researcher checked a UI page** and Codex only transcribed or compared it with an API. Track these roles separately:
