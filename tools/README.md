@@ -39,6 +39,16 @@ The checker is dependency-free and currently verifies:
 
 GitHub Actions currently runs the checker in **advisory mode** on pull requests and pushes to `main`. Contract findings are surfaced as warnings but do not block ordinary repository work during bootstrap/baseline reconciliation. Strict mode is opt-in and should only become the default gate after the baseline/schema have stabilized.
 
+## Observation semantic preflight (2026-10-25)
+
+The existing `check.py` now checks **all seven platform-to-layer pairs**, offset-aware observation/release clocks, impossible failed/full-verification combinations, example-only evidence references, and the structural prerequisite for active-schedule raw prospective records. It does **not** establish eligible release history or scientific validity. The new tests use temporary **synthetic-only** fixtures:
+
+```bash
+python -m unittest discover -s tests -p "test_observation_semantics.py" -v
+```
+
+CI runs these tests with an explicitly **advisory** step (`continue-on-error`). For source/agent responsibility, transport-versus-observation states, non-comparable counters, exception handling and **human acceptance** boundaries, see [observation assurance review](../docs/observation-assurance-2026-10-25.md). OSF, schema, baseline, schedule, and retained evidence are unchanged.
+
 ## General tooling responsibilities
 
 Tools should:
