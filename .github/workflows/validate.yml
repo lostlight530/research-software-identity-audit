@@ -27,6 +27,12 @@ jobs:
       - name: Test observation semantic guards (advisory)
         continue-on-error: true
         run: python -m unittest discover -s tests -p "test_observation_semantics.py" -v
+      - name: Verify October 25 public artifact hashes (advisory)
+        continue-on-error: true
+        run: python -B tools/check_public_artifact_manifest.py
+      - name: Test public manifest integrity (advisory)
+        continue-on-error: true
+        run: python -m unittest discover -s tests -p "test_public_artifact_manifest.py" -v
       - name: Replay existing retained evidence (advisory)
         continue-on-error: true
         run: python tools/check_retained_all.py
