@@ -190,7 +190,7 @@ def check_observations() -> None:
         # eligibility and scheduled timepoint coverage must still be reviewed.
         declarations = (list((ROOT / "schedule").glob("*.yaml"))
                         + list((ROOT / "schedule").glob("*.yml")))
-        active: list[tuple[Path, datetime]] = []
+        active: list[tuple[Path, datetime, set[str]]] = []
         for declaration in declarations:
             body = declaration.read_text(encoding="utf-8")
             if not re.search(r"""(?mi)^status:\s*["']?active["']?\s*$""", body):
@@ -199,7 +199,12 @@ def check_observations() -> None:
             declared = re.search(r"""(?m)^declared_at:\s*["']?([^"'\s#]+)["']?\s*$""", body)
             if not sid or not declared:
                 fail(f"{declaration}: active schedule requires schedule_id and declared_at")
-            active.append((declaration, aware_timestamp(declared.group(1), "declared_at", declaration)))
+            timepoint_ids = set(re.findall(
+                r"""(?m)^  - id:\s*["']?([A-Za-z0-9_-]+)["']?\s*$""", body
+            ))
+            if not timepoint_ids or "__TIMEPOINT_ID__" in timepoint_ids:
+                fail(f"{declaration}: active schedule requires concrete timepoint IDs")
+            active.append((declaration, aware_timestamp(declared.group(1), "declared_at", declaration), timepoint_ids))
         if not active:
             fail("prospective raw records require a dated active schedule declaration")
     for path in raw_records:
@@ -207,8 +212,11 @@ def check_observations() -> None:
         if data.get("dataset_phase") != "prospective":
             fail(f"{path}: raw prospective records require dataset_phase=prospective")
         retrieval = aware_timestamp(data.get("retrieval_timestamp"), "retrieval_timestamp", path)
-        if not any(declared_at <= retrieval for _, declared_at in active):
+        if not any(declared_at <= retrieval for _, declared_at, _ in active):
             fail(f"{path}: no active schedule declaration predates retrieval")
+        if not any(data.get("observation_timepoint") in ids and declared_at <= retrieval
+                   for _, declared_at, ids in active):
+            fail(f"{path}: observation_timepoint not governed by an active prior schedule")
         validate_observation_record(path)
     derived = ROOT / "observations/derived"
     if derived.exists():
