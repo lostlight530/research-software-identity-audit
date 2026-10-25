@@ -33,7 +33,7 @@ The **60** fixed object-layer units per eligible scheduled timepoint are not **7
 4. `attempt_status` must be `completed` or `failed`; failures retain `failure_reason` and cannot **themselves** be called `fully_verified`. A failed, rate-limited or unresolved attempt remains an allowed research outcome.
 5. Evidence references cannot be blank or knowingly left as the example locator. A nonblank reference is **not** by itself evidence authenticity, byte availability, licensing permission or independent verification.
 6. A candidate explicitly marked `prospective` needs a release-event timestamp and cannot at the same time be flagged as retrospective reconstruction.
-7. Files added under `observations/raw/` require `dataset_phase=prospective` and the presence of a repository-side **active** schedule declaration. The checker does **not** prove that this declaration predates results, covers every timepoint, establishes eligible first-release status, or matches all 60 cells.
+7. Files added under `observations/raw/` require `dataset_phase=prospective` and a repository-side **active** schedule declaration with a parsable ID and offset-aware `declared_at` clock no later than each candidate retrieval. This checks a declared time against the record's own timestamp; it does **not** prove the Git commit was published before observations, that the schedule covers every timepoint, that an eligible first release actually occurred, or that all 60 cells were attempted.
 
 This is deliberately **preflight validation**, not scientific acceptance. The current [schedule status](../schedule/README.md) records no active concrete offsets. An absence of qualifying raw prospective records is not a statement that all future observation logic has been executed.
 
