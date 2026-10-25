@@ -133,3 +133,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 - [2026-10-24 / 04-local-history-evidence-handoff](2026-10-24/04-local-history-evidence-handoff/README.md) — attributed local evidence from the Oct01 user-reported node and Oct03 facility audit through the Oct24 midnight capture; original clocks, failures, public-field projections and canonical RS reconciliation retained; cloud review pending, zero prospective cells.
 
 - [2026-10-24 / 05-post-handoff-integrity-recheck](2026-10-24/05-post-handoff-integrity-recheck/README.md) — independently rechecked 12 public GitHub Release lists after PR #59, added bounded offline handoff transfer integrity checks, retained six unrefreshed platform states under earlier dated reports; zero new prospective cells.
+
+## October 25 bounded seven-platform diagnostic
+
+- [2026-10-25 / 01-bounded-seven-platform-recheck](2026-10-25/01-bounded-seven-platform-recheck/README.md) — 12 GitHub Release lists, 12 Zenodo families / 45 versions, DataCite 76 DOI records, OpenAIRE 10 exact software DOI matches, OpenAlex 21/30/32 profile query-shape conflict, ORCID flattened and SWH blocked; source-scoped, zero prospective cells.
