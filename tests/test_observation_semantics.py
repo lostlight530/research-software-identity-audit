@@ -111,8 +111,17 @@ class ObservationSemanticTests(unittest.TestCase):
             audit.ROOT = root
             with self.assertRaisesRegex(AssertionError, "active schedule"):
                 audit.check_observations()
-            (root / "schedule/specification.yaml").write_text(
-                'schedule_id: "SYNTHETIC"\nstatus: "active"\n',
+            schedule = root / "schedule/specification.yaml"
+            schedule.write_text(
+                'schedule_id: "SYNTHETIC"\nstatus: "active"\n'
+                'declared_at: "2026-10-15T10:00:00+08:00"\n',
+                encoding="utf-8",
+            )
+            with self.assertRaisesRegex(AssertionError, "predates retrieval"):
+                audit.check_observations()
+            schedule.write_text(
+                'schedule_id: "SYNTHETIC"\nstatus: "active"\n'
+                'declared_at: "2026-10-15T07:00:00+08:00"\n',
                 encoding="utf-8",
             )
             audit.check_observations()
