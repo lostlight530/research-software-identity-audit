@@ -48,6 +48,12 @@ python tools/check.py --mode strict
 
 Synthetic test inputs are deliberately labeled and stay in temporary test storage. Both GitHub Actions checks and strict-mode invocation report *implementation* properties; they do not create first-release evidence, a timepoint or a reviewer-signed research conclusion. The CI test step remains `continue-on-error` while the schema and baseline are still evolving.
 
+## Independently checkable public artifact integrity
+
+The existing October 25 published field-projection manifest is checked by a new **read-only standard-library verifier**: `python -B tools/check_public_artifact_manifest.py`. It compares each declared repository-relative published file's byte count and SHA-256 and rejects missing, duplicate, self-referential and traversal paths. The verifier accepts the historical `artifacts` or later `files` manifest lists without migrating either format. Synthetic negative tests demonstrate detection of tampered bytes and mismatched paths; GitHub CI executes them **advisory**, not as a strict study-enforcement gate.
+
+**Scope:** verifying the manifest-listed *public bytes* does not independently replay the locally held original HTTP responses. It cannot establish a server signature, historical transport truth, platform ingestion time, scholarly acceptance or the authenticity of manually transcribed page observations. Existing evidence hashes remain attached to their original provenance; no source package is silently replaced.
+
 ## Researcher/agent provenance and independent evidence
 
 A proper narrative does not describe “Codex verified X” if the **researcher checked a UI page** and Codex only transcribed or compared it with an API. Track these roles separately:
