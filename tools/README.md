@@ -49,6 +49,12 @@ python -m unittest discover -s tests -p "test_observation_semantics.py" -v
 
 CI runs these tests with an explicitly **advisory** step (`continue-on-error`). For source/agent responsibility, transport-versus-observation states, non-comparable counters, exception handling and **human acceptance** boundaries, see [observation assurance review](../docs/observation-assurance-2026-10-25.md). OSF, schema, baseline, schedule, and retained evidence are unchanged.
 
+## Public artifact digest verification (2026-10-25)
+
+Run `python -B tools/check_public_artifact_manifest.py` to verify the 15 manifest-listed **published** October 25 field-projection/monitoring artifacts against their declared byte lengths and SHA-256 hashes. Pass `--manifest PATH` to verify any compatible repository-relative manifest; both historical `artifacts` and newer `files` keys are recognized. The verifier rejects duplicate/self-referential/out-of-repository paths and reads evidence as **bytes without executing it**.
+
+The manifest check is a **published-object integrity** check, **not** authentication or reproduction of the local-only original HTTP response bytes. It does not claim external platform correctness, semantic truth, original transport availability, or a newly scheduled observation. The synthetic tamper/missing/duplicate tests live in `tests/test_public_artifact_manifest.py`; both verifier and tests run in advisory CI. No historical evidence is rewritten.
+
 ## General tooling responsibilities
 
 Tools should:
