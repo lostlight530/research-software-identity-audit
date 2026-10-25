@@ -134,17 +134,23 @@ class ObservationSemanticTests(unittest.TestCase):
             schedule = root / "schedule/specification.yaml"
             schedule.write_text(
                 'schedule_id: "SYNTHETIC"\nstatus: "active"\n'
-                'declared_at: "2026-10-15T10:00:00+08:00"\n',
+                'declared_at: "2026-10-15T10:00:00+08:00"\n'
+                'timepoints:\n  - id: "SYNTHETIC-T0"\n',
                 encoding="utf-8",
             )
             with self.assertRaisesRegex(AssertionError, "predates retrieval"):
                 audit.check_observations()
             schedule.write_text(
                 'schedule_id: "SYNTHETIC"\nstatus: "active"\n'
-                'declared_at: "2026-10-15T07:00:00+08:00"\n',
+                'declared_at: "2026-10-15T07:00:00+08:00"\n'
+                'timepoints:\n  - id: "SYNTHETIC-T0"\n',
                 encoding="utf-8",
             )
             audit.check_observations()
+            record.write_text(json.dumps(valid_record(observation_timepoint="UNDECLARED-T0")),
+                              encoding="utf-8")
+            with self.assertRaisesRegex(AssertionError, "not governed"):
+                audit.check_observations()
             record.write_text(json.dumps(valid_record(dataset_phase="historical_baseline")),
                               encoding="utf-8")
             with self.assertRaisesRegex(AssertionError, "dataset_phase=prospective"):
