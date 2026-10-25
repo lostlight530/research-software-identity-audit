@@ -1,8 +1,8 @@
 # October 25 independent institutional recheck
 
-Diagnostic monitoring �� actual retrieval **2026-10-25T23:08:34.959232+08:00 to 2026-10-25T23:13:42.024059+08:00**
+Diagnostic monitoring · actual retrieval **2026-10-25T23:08:34.959232+08:00 to 2026-10-25T23:13:42.024059+08:00**
 
-This later capture supplements the [earlier October 25 diagnostic](../01-bounded-seven-platform-recheck/README.md) with independently retained public responses and a separate researcher-supplied page transcription. It adds **zero prospective cells** and leaves the fixed RS01�CRS10 corpus, six analytical layers, seven operational platforms, frozen baseline and schedule unchanged. CONTROL and PILOT remain supplementary objects
+This later capture supplements the [earlier October 25 diagnostic](../01-bounded-seven-platform-recheck/README.md) with independently retained public responses and a separate researcher-supplied page transcription. It adds **zero prospective cells** and leaves the fixed RS01–RS10 corpus, six analytical layers, seven operational platforms, frozen baseline and schedule unchanged. CONTROL and PILOT remain supplementary objects
 
 ## Results
 
