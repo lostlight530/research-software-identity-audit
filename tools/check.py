@@ -190,16 +190,25 @@ def check_observations() -> None:
         # eligibility and scheduled timepoint coverage must still be reviewed.
         declarations = (list((ROOT / "schedule").glob("*.yaml"))
                         + list((ROOT / "schedule").glob("*.yml")))
-        active = [p for p in declarations if re.search(
-            r"""(?mi)^status:\s*["']?active["']?\s*$""",
-            p.read_text(encoding="utf-8"),
-        )]
+        active: list[tuple[Path, datetime]] = []
+        for declaration in declarations:
+            body = declaration.read_text(encoding="utf-8")
+            if not re.search(r"""(?mi)^status:\s*["']?active["']?\s*$""", body):
+                continue
+            sid = re.search(r"""(?m)^schedule_id:\s*["']?([A-Za-z0-9_-]+)["']?\s*$""", body)
+            declared = re.search(r"""(?m)^declared_at:\s*["']?([^"'\s#]+)["']?\s*$""", body)
+            if not sid or not declared:
+                fail(f"{declaration}: active schedule requires schedule_id and declared_at")
+            active.append((declaration, aware_timestamp(declared.group(1), "declared_at", declaration)))
         if not active:
             fail("prospective raw records require a dated active schedule declaration")
     for path in raw_records:
         data = json.loads(path.read_text(encoding="utf-8"))
         if data.get("dataset_phase") != "prospective":
             fail(f"{path}: raw prospective records require dataset_phase=prospective")
+        retrieval = aware_timestamp(data.get("retrieval_timestamp"), "retrieval_timestamp", path)
+        if not any(declared_at <= retrieval for _, declared_at in active):
+            fail(f"{path}: no active schedule declaration predates retrieval")
         validate_observation_record(path)
     derived = ROOT / "observations/derived"
     if derived.exists():
