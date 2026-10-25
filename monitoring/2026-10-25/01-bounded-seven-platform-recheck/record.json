@@ -1,0 +1,171 @@
+{
+  "record_class": "diagnostic_monitoring_selected_public_field_extraction",
+  "logical_day": "2026-10-25",
+  "timezone": "Asia/Shanghai",
+  "daypart": "bounded_not_day_end",
+  "source_representations": "GitHub connector structured API plus independent third-party extracted official API output; raw HTTP response bytes and headers not retained",
+  "batch_windows_utc": {
+    "github": [
+      "2026-10-25T10:09:10.906Z",
+      "2026-10-25T10:09:12.267Z"
+    ],
+    "zenodo": [
+      "2026-10-25T10:10:53.795Z",
+      "2026-10-25T10:10:55.805Z"
+    ],
+    "datacite": [
+      "2026-10-25T10:11:15.257Z",
+      "2026-10-25T10:11:17.951Z"
+    ],
+    "openaire": [
+      "2026-10-25T10:11:43.445Z",
+      "2026-10-25T10:11:44.398Z"
+    ],
+    "openalex": [
+      "2026-10-25T10:09:52.975Z",
+      "2026-10-25T10:11:17.951Z"
+    ],
+    "orcid": [
+      "2026-10-25T10:11:15.257Z",
+      "2026-10-25T10:11:17.951Z"
+    ],
+    "swh": [
+      "2026-10-25T10:09:21.761Z",
+      "2026-10-25T10:09:24.014Z"
+    ],
+    "osf": [
+      "2026-10-25T10:09:52.975Z",
+      "2026-10-25T10:09:56.225Z"
+    ],
+    "supplementary": [
+      "2026-10-25T10:12:03.798Z",
+      "2026-10-25T10:12:04.721Z"
+    ]
+  },
+  "attempt_rows": 46,
+  "source_main_sha": "b363d11c9c0013238817e3e7aaa2866721cd8358",
+  "source_open_pr_count": 0,
+  "previous_main_ci": "https://github.com/lostlight530/research-software-identity-audit/actions/runs/40054431422",
+  "osf_registration": "10.17605/OSF.IO/5B329",
+  "fixed_corpus": "RS01–RS10",
+  "analytic_layers": 6,
+  "platforms": 7,
+  "units_per_eligible_scheduled_point": 60,
+  "possible_checks_not_units": 70,
+  "operational_offsets_declared": false,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "github": {
+    "fixed_release_counts": {
+      "RS01": 4,
+      "RS02": 4,
+      "RS03": 4,
+      "RS04": 4,
+      "RS05": 4,
+      "RS06": 4,
+      "RS07": 4,
+      "RS08": 4,
+      "RS09": 4,
+      "RS10": 4
+    },
+    "fixed_latest_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+    "fixed_latest_published_day_utc": "2026-10-14",
+    "control_release_count": 4,
+    "pilot_release_count": 1,
+    "total_descriptive_releases": 45,
+    "scope_limit": "release-list endpoints, not exhaustive tag audit"
+  },
+  "zenodo": {
+    "frozen_ten_family_views": 2545,
+    "control_family_views": 130,
+    "pilot_family_views": 6,
+    "twelve_family_descriptive_views": 2681,
+    "twelve_family_descriptive_downloads": 27,
+    "version_records": 45,
+    "all_12_internal_sum_match": true,
+    "distinct_family_count": 12,
+    "nonunique_counter": true,
+    "url_shape_discrepancy_prior_day": {
+      "regular": 2681,
+      "diagnostic": 2836,
+      "state": "UNRESOLVED",
+      "not_proven_growth": 155
+    },
+    "fields_file": "zenodo-family-rollup.csv"
+  },
+  "datacite": {
+    "query_total": 76,
+    "distinct_doi": 76,
+    "findable": 76,
+    "resource_type_counts": {
+      "Software": 56,
+      "Workflow": 19,
+      "StudyRegistration": 1
+    },
+    "osf_doi_type": "StudyRegistration",
+    "no_inferred_additional_samples": true
+  },
+  "orcid": {
+    "result": "DEGRADED_FLATTENED_TEXT",
+    "work_groups": null,
+    "work_summaries": null,
+    "older_oct20_counts_not_recertified": "17 groups / 89 summaries"
+  },
+  "software_heritage": {
+    "scope": "CONTROL origin smoke test only",
+    "state": "BLOCKED_ANUBIS_HTML",
+    "visits": null,
+    "absence_inferred": false
+  },
+  "openaire": {
+    "fixed_latest_checkpoint_exact_doi_queries": 10,
+    "each_query_result": 1,
+    "other_versions_queried": false
+  },
+  "openalex": {
+    "author_id": "A5151904252",
+    "default_profile": {
+      "works_count": 30,
+      "updated_date": "2026-10-01T12:39:15"
+    },
+    "selected_minimal": {
+      "works_count": 21,
+      "updated_date": "2026-10-11T12:31:35"
+    },
+    "selected_with_cited_by_count": {
+      "works_count": 32,
+      "updated_date": "2026-10-19T12:29:13"
+    },
+    "works_list": {
+      "meta_count": 32,
+      "distinct_id_count": 32,
+      "type_counts": {
+        "software": 12,
+        "other": 20
+      }
+    },
+    "state": "UNRESOLVED_QUERY_SHAPE_CONFLICT",
+    "cause_unknown": true
+  },
+  "osf": {
+    "api_extraction": "rendered_drf_document_with_embedded_json",
+    "id": "5b329",
+    "date_created": "2026-10-05T14:04:13.825314Z",
+    "date_modified": "2026-10-06T09:49:34.548421Z",
+    "original_to_updated_diff": "NOT_VERIFIED",
+    "other_reader": "403 access path blocked; not registration absence"
+  },
+  "supplementary": {
+    "rse_pr_498": "OPEN",
+    "rsd_issue_1870": "CLOSED; deployment unverified",
+    "rsd_issue_1871": "OPEN"
+  },
+  "evidence_files": [
+    "source-attempts.csv",
+    "zenodo-family-rollup.csv"
+  ],
+  "raw_response_transport_preserved": false,
+  "external_origin_freshness_proven": false,
+  "no_new_releases_created": true,
+  "no_baseline_or_schedule_or_schema_edits": true
+}
