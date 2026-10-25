@@ -136,6 +136,8 @@ def aware_timestamp(value: object, field: str, path: Path) -> datetime:
 
 def validate_observation_record(path: Path) -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        fail(f"{path}: raw observation must be a JSON object")
     required = {
         "observation_id", "object_id", "infrastructure_layer", "platform",
         "observation_timepoint", "retrieval_timestamp", "attempt_status",
@@ -209,6 +211,8 @@ def validate_derived_record(path: Path) -> None:
                 or ref_path.suffix != ".json" or not ref_path.is_file()):
             fail(f"{path}: input must resolve to existing raw observation JSON: {ref}")
         source = json.loads(ref_path.read_text(encoding="utf-8"))
+        if not isinstance(source, dict):
+            fail(f"{path}: source raw observation is not a JSON object: {ref}")
         observed_at = aware_timestamp(source.get("retrieval_timestamp"),
                                       "input.retrieval_timestamp", ref_path)
         if observed_at > derived_at:
@@ -242,6 +246,8 @@ def check_observations() -> None:
             fail("prospective raw records require a dated active schedule declaration")
     for path in raw_records:
         data = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            fail(f"{path}: raw prospective observation must be a JSON object")
         if data.get("dataset_phase") != "prospective":
             fail(f"{path}: raw prospective records require dataset_phase=prospective")
         retrieval = aware_timestamp(data.get("retrieval_timestamp"), "retrieval_timestamp", path)
