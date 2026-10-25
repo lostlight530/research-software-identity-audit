@@ -24,6 +24,9 @@ jobs:
       - name: Strict contract validation (advisory)
         continue-on-error: true
         run: python tools/check.py --mode strict
+      - name: Test observation semantic guards (advisory)
+        continue-on-error: true
+        run: python -m unittest discover -s tests -p "test_observation_semantics.py" -v
       - name: Replay existing retained evidence (advisory)
         continue-on-error: true
         run: python tools/check_retained_all.py
