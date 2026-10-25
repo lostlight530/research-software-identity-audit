@@ -120,6 +120,43 @@ class ObservationSemanticTests(unittest.TestCase):
         with self.assertRaisesRegex(AssertionError, "example observation_timepoint"):
             self.check(observation_timepoint="TEMPLATE_ONLY")
 
+    def test_derived_output_has_distinct_lineage_contract(self):
+        root = Path(self.temp.name)
+        (root / "observations/raw").mkdir(parents=True)
+        (root / "observations/derived").mkdir(parents=True)
+        source = root / "observations/raw/a.json"
+        source.write_text(json.dumps(valid_record()), encoding="utf-8")
+        result = root / "observations/derived/result.json"
+        derived = {
+            "derivation_id": "SYNTHETIC-RESULT",
+            "dataset_phase": "prospective",
+            "derived_at": "2026-10-15T10:00:00+08:00",
+            "derivation_method_ref": "analysis/SYNTHETIC-METHOD",
+            "input_observation_refs": ["observations/raw/a.json"],
+            "result": None,  # NO_CONCLUSION is legal; derivation need not be numeric.
+        }
+        previous = audit.ROOT
+        try:
+            audit.ROOT = root
+            result.write_text(json.dumps(derived), encoding="utf-8")
+            audit.validate_derived_record(result)
+            derived["derived_at"] = "2026-10-15T08:00:00+08:00"
+            result.write_text(json.dumps(derived), encoding="utf-8")
+            with self.assertRaisesRegex(AssertionError, "precedes source retrieval"):
+                audit.validate_derived_record(result)
+            derived["derived_at"] = "2026-10-15T10:00:00+08:00"
+            derived["input_observation_refs"] = ["observations/raw/not-there.json"]
+            result.write_text(json.dumps(derived), encoding="utf-8")
+            with self.assertRaisesRegex(AssertionError, "existing raw observation"):
+                audit.validate_derived_record(result)
+            derived["input_observation_refs"] = ["observations/raw/a.json",
+                                                  "observations/raw/a.json"]
+            result.write_text(json.dumps(derived), encoding="utf-8")
+            with self.assertRaisesRegex(AssertionError, "duplicate"):
+                audit.validate_derived_record(result)
+        finally:
+            audit.ROOT = previous
+
     def test_raw_preflight_requires_active_schedule(self):
         root = Path(self.temp.name)
         (root / "observations/raw").mkdir(parents=True)
