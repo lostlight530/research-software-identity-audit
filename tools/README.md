@@ -49,6 +49,10 @@ python -m unittest discover -s tests -p "test_observation_semantics.py" -v
 
 CI runs these tests with an explicitly **advisory** step (`continue-on-error`). For source/agent responsibility, transport-versus-observation states, non-comparable counters, exception handling and **human acceptance** boundaries, see [observation assurance review](../docs/observation-assurance-2026-10-25.md). OSF, schema, baseline, schedule, and retained evidence are unchanged.
 
+## Raw versus derived validation (2026-10-25)
+
+The checker validates prospective raw JSON observation attempts with platform/layer/timepoint/retrieval contracts. Derived JSON is **not another platform observation**: it receives a separate, minimal lineage preflight requiring an attributable method, execution clock, and existing raw input file references. This protects the source → raw → derivation boundary without fabricating a new 60-cell timepoint. See [derived record guidance](../observations/derived/README.md#operational-json-lineage-preflight-2026-10-25). The tests use synthetic files only; source data and OSF remain unchanged.
+
 ## Public artifact digest verification (2026-10-25)
 
 Run `python -B tools/check_public_artifact_manifest.py` to verify the 15 manifest-listed **published** October 25 field-projection/monitoring artifacts against their declared byte lengths and SHA-256 hashes. Pass `--manifest PATH` to verify any compatible repository-relative manifest; both historical `artifacts` and newer `files` keys are recognized. The verifier rejects duplicate/self-referential/out-of-repository paths and reads evidence as **bytes without executing it**.
