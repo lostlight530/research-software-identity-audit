@@ -1,0 +1,33 @@
+work_id,doi,title,type,cited_by_count
+https://openalex.org/W7220365356,https://doi.org/10.5281/zenodo.23166490,Research Software Identity Audit,software,1
+https://openalex.org/W7213395896,https://doi.org/10.5281/zenodo.22791103,Axiom-0,software,0
+https://openalex.org/W7213400679,https://doi.org/10.5281/zenodo.22791169,Agent Foundations,software,0
+https://openalex.org/W7213401383,https://doi.org/10.5281/zenodo.22791309,China Agentic Observatory,software,0
+https://openalex.org/W7213415068,https://doi.org/10.5281/zenodo.22791404,auto-doc-engine,software,0
+https://openalex.org/W7213417036,https://doi.org/10.5281/zenodo.22791141,Reflective Continuum,software,0
+https://openalex.org/W7213429607,https://doi.org/10.5281/zenodo.22791081,Zero-Entropy Lab,software,0
+https://openalex.org/W7213430624,https://doi.org/10.5281/zenodo.22790907,welcome-to-github,software,0
+https://openalex.org/W7213431981,https://doi.org/10.5281/zenodo.22791375,sci-render-kit,software,0
+https://openalex.org/W7213433288,https://doi.org/10.5281/zenodo.22791334,Agentic Frontier Observatory,software,0
+https://openalex.org/W7213434988,https://doi.org/10.5281/zenodo.22791463,Epistemic Pipeline,software,0
+https://openalex.org/W7220380722,https://doi.org/10.17605/osf.io/5b329,Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures,other,0
+https://openalex.org/W7220948089,https://doi.org/10.48546/workflowhub.workflow.2334.1,Title NEXUS CORTEX Life Cycle — zero-entropy-lab,other,0
+https://openalex.org/W7220962531,https://doi.org/10.48546/workflowhub.workflow.2332.2,Title NEXUS CORTEX Life Cycle — welcome-to-github,other,0
+https://openalex.org/W7220966944,https://doi.org/10.48546/workflowhub.workflow.2334.2,NEXUS CORTEX Life Cycle — zero-entropy-lab,other,0
+https://openalex.org/W7220969795,https://doi.org/10.48546/workflowhub.workflow.2332.1,NEXUS CORTEX Life Cycle — welcome-to-github,other,0
+https://openalex.org/W7221127912,https://doi.org/10.48546/workflowhub.workflow.2334.3,NEXUS CORTEX Life Cycle — zero-entropy-lab,other,0
+https://openalex.org/W7221188636,https://doi.org/10.48546/workflowhub.workflow.2332.3,NEXUS CORTEX Life Cycle — welcome-to-github,other,0
+https://openalex.org/W7221337272,https://doi.org/10.48546/workflowhub.workflow.2332.4,NEXUS CORTEX Life Cycle — welcome-to-github,other,0
+https://openalex.org/W7221366684,https://doi.org/10.48546/workflowhub.workflow.2334.4,NEXUS CORTEX Life Cycle — zero-entropy-lab,other,0
+https://openalex.org/W7221441548,https://doi.org/10.48546/workflowhub.workflow.2332.5,NEXUS CORTEX Life Cycle — welcome-to-github,other,0
+https://openalex.org/W7221455900,https://doi.org/10.48546/workflowhub.workflow.2337.1,Brain Evolution — welcome-to-github,other,0
+https://openalex.org/W7221460162,https://doi.org/10.48546/workflowhub.workflow.2334.5,NEXUS CORTEX Life Cycle — zero-entropy-lab,other,0
+https://openalex.org/W7221516570,https://doi.org/10.48546/workflowhub.workflow.2334.6,NEXUS CORTEX Life Cycle — zero-entropy-lab,other,0
+https://openalex.org/W7221566397,https://doi.org/10.48546/workflowhub.workflow.2332.6,NEXUS CORTEX Life Cycle — welcome-to-github,other,0
+https://openalex.org/W7221612767,https://doi.org/10.48546/workflowhub.workflow.2334.7,NEXUS CORTEX Life Cycle — zero-entropy-lab,other,0
+https://openalex.org/W7221654297,https://doi.org/10.48546/workflowhub.workflow.2332.7,NEXUS CORTEX Life Cycle — welcome-to-github,other,0
+https://openalex.org/W7221754327,https://doi.org/10.48546/workflowhub.workflow.2332.8,NEXUS CORTEX Life Cycle — welcome-to-github,other,0
+https://openalex.org/W7221802864,https://doi.org/10.48546/workflowhub.workflow.2334.8,NEXUS CORTEX Life Cycle — zero-entropy-lab,other,0
+https://openalex.org/W7222828651,https://doi.org/10.48546/workflowhub.workflow.2347.1,Life Science Knowledge Workflow,other,0
+https://openalex.org/W7222883692,https://doi.org/10.5281/zenodo.23447088,"Life Science Ecosystem Lab — Knowledge Workflow, Evidence Tool and Bio Tool",software,0
+https://openalex.org/W7222894066,https://doi.org/10.48546/workflowhub.workflow.2347.2,Life Science Knowledge Workflow,other,0

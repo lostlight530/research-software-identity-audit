@@ -1,0 +1,795 @@
+{
+  "fixed_objects": [
+    {
+      "object_id": "RS01",
+      "repository": "welcome-to-github",
+      "fixed_corpus": true,
+      "zenodo_status": 200,
+      "record_id": 23365504,
+      "doi": "10.5281/zenodo.23365504",
+      "concept_doi": "10.5281/zenodo.22790907",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 6,
+        "unique_downloads": 5,
+        "views": 317,
+        "unique_views": 228,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 9,
+        "version_views": 11
+      },
+      "versions": [
+        {
+          "record_id": 23365504,
+          "doi": "10.5281/zenodo.23365504",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "record_id": 23137203,
+          "doi": "10.5281/zenodo.23137203",
+          "version": "v2026.10-open-research-production-framework"
+        },
+        {
+          "record_id": 23068145,
+          "doi": "10.5281/zenodo.23068145",
+          "version": "v2026.09-natural-month-close"
+        },
+        {
+          "record_id": 22790908,
+          "doi": "10.5281/zenodo.22790908",
+          "version": "v2026.09-open-research-baseline"
+        }
+      ],
+      "version_total": 4,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:14:44Z",
+        "status": 200,
+        "commit": "d1e732f81a03497af1c5afe43c1a00a77e87a828"
+      },
+      "swh": {
+        "origin_status": 200,
+        "visit_status": "full",
+        "visit_date": "2026-10-24T15:41:45.044000+00:00",
+        "snapshot_status": 200,
+        "revision_status": 200,
+        "directory_status": 200,
+        "verified_chain": true
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7213430624",
+        "returned_doi": "https://doi.org/10.5281/zenodo.22790907",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    },
+    {
+      "object_id": "RS02",
+      "repository": "zero-entropy-lab",
+      "fixed_corpus": true,
+      "zenodo_status": 200,
+      "record_id": 23365551,
+      "doi": "10.5281/zenodo.23365551",
+      "concept_doi": "10.5281/zenodo.22791081",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 271,
+        "unique_views": 182,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 7,
+        "version_views": 7
+      },
+      "versions": [
+        {
+          "record_id": 23365551,
+          "doi": "10.5281/zenodo.23365551",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "record_id": 23137204,
+          "doi": "10.5281/zenodo.23137204",
+          "version": "v2026.10-open-research-production-framework"
+        },
+        {
+          "record_id": 23068144,
+          "doi": "10.5281/zenodo.23068144",
+          "version": "v2026.09-natural-month-close"
+        },
+        {
+          "record_id": 22791082,
+          "doi": "10.5281/zenodo.22791082",
+          "version": "v2026.09-open-research-baseline"
+        }
+      ],
+      "version_total": 4,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:09Z",
+        "status": 200,
+        "commit": "f91fff87158dfc4d73cccb43244d39d08d756134"
+      },
+      "swh": {
+        "origin_status": 200,
+        "visit_status": "full",
+        "visit_date": "2026-10-05T21:41:06.261000+00:00",
+        "snapshot_status": 200,
+        "revision_status": 404,
+        "directory_status": null,
+        "verified_chain": false
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7213429607",
+        "returned_doi": "https://doi.org/10.5281/zenodo.22791081",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    },
+    {
+      "object_id": "RS03",
+      "repository": "Axiom-0",
+      "fixed_corpus": true,
+      "zenodo_status": 200,
+      "record_id": 23365534,
+      "doi": "10.5281/zenodo.23365534",
+      "concept_doi": "10.5281/zenodo.22791103",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 308,
+        "unique_views": 219,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 11,
+        "version_views": 11
+      },
+      "versions": [
+        {
+          "record_id": 23365534,
+          "doi": "10.5281/zenodo.23365534",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "record_id": 23137205,
+          "doi": "10.5281/zenodo.23137205",
+          "version": "v2026.10-open-research-production-framework"
+        },
+        {
+          "record_id": 23068261,
+          "doi": "10.5281/zenodo.23068261",
+          "version": "v2026.09-natural-month-close"
+        },
+        {
+          "record_id": 22791104,
+          "doi": "10.5281/zenodo.22791104",
+          "version": "v2026.09-open-research-baseline"
+        }
+      ],
+      "version_total": 4,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:30Z",
+        "status": 200,
+        "commit": "af2ef98e26f56c323a08939ac6630d6d2d091256"
+      },
+      "swh": {
+        "origin_status": 200,
+        "visit_status": "full",
+        "visit_date": "2026-10-14T17:47:26.890000+00:00",
+        "snapshot_status": 200,
+        "revision_status": 200,
+        "directory_status": 200,
+        "verified_chain": true
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7213395896",
+        "returned_doi": "https://doi.org/10.5281/zenodo.22791103",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    },
+    {
+      "object_id": "RS04",
+      "repository": "reflective-continuum",
+      "fixed_corpus": true,
+      "zenodo_status": 200,
+      "record_id": 23365567,
+      "doi": "10.5281/zenodo.23365567",
+      "concept_doi": "10.5281/zenodo.22791141",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 243,
+        "unique_views": 158,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 7,
+        "version_views": 7
+      },
+      "versions": [
+        {
+          "record_id": 23365567,
+          "doi": "10.5281/zenodo.23365567",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "record_id": 23137206,
+          "doi": "10.5281/zenodo.23137206",
+          "version": "v2026.10-open-research-production-framework"
+        },
+        {
+          "record_id": 23068260,
+          "doi": "10.5281/zenodo.23068260",
+          "version": "v2026.09-natural-month-close"
+        },
+        {
+          "record_id": 22791142,
+          "doi": "10.5281/zenodo.22791142",
+          "version": "v2026.09-open-research-baseline"
+        }
+      ],
+      "version_total": 4,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:33Z",
+        "status": 200,
+        "commit": "8359fc1fda8c80d94512007b493dec5c9f3945a5"
+      },
+      "swh": {
+        "origin_status": 200,
+        "visit_status": "full",
+        "visit_date": "2026-10-17T19:50:57.149000+00:00",
+        "snapshot_status": 200,
+        "revision_status": 200,
+        "directory_status": 200,
+        "verified_chain": true
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7213417036",
+        "returned_doi": "https://doi.org/10.5281/zenodo.22791141",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    },
+    {
+      "object_id": "RS05",
+      "repository": "agent-foundations",
+      "fixed_corpus": true,
+      "zenodo_status": 200,
+      "record_id": 23365540,
+      "doi": "10.5281/zenodo.23365540",
+      "concept_doi": "10.5281/zenodo.22791169",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 281,
+        "unique_views": 193,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 11,
+        "version_views": 11
+      },
+      "versions": [
+        {
+          "record_id": 23365540,
+          "doi": "10.5281/zenodo.23365540",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "record_id": 23137207,
+          "doi": "10.5281/zenodo.23137207",
+          "version": "v2026.10-open-research-production-framework"
+        },
+        {
+          "record_id": 23068262,
+          "doi": "10.5281/zenodo.23068262",
+          "version": "v2026.09-natural-month-close"
+        },
+        {
+          "record_id": 22791170,
+          "doi": "10.5281/zenodo.22791170",
+          "version": "v2026.09-open-research-baseline"
+        }
+      ],
+      "version_total": 4,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:39Z",
+        "status": 200,
+        "commit": "95e95f3ce251c9d88ac3f2931dad694d05231063"
+      },
+      "swh": {
+        "origin_status": 200,
+        "visit_status": "full",
+        "visit_date": "2026-09-16T07:32:06.452000+00:00",
+        "snapshot_status": 200,
+        "revision_status": 404,
+        "directory_status": null,
+        "verified_chain": false
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7213400679",
+        "returned_doi": "https://doi.org/10.5281/zenodo.22791169",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    },
+    {
+      "object_id": "RS06",
+      "repository": "auto-doc-engine",
+      "fixed_corpus": true,
+      "zenodo_status": 200,
+      "record_id": 23365510,
+      "doi": "10.5281/zenodo.23365510",
+      "concept_doi": "10.5281/zenodo.22791404",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 0,
+        "unique_downloads": 0,
+        "views": 265,
+        "unique_views": 177,
+        "version_downloads": 0,
+        "version_unique_downloads": 0,
+        "version_unique_views": 10,
+        "version_views": 12
+      },
+      "versions": [
+        {
+          "record_id": 23365510,
+          "doi": "10.5281/zenodo.23365510",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "record_id": 23137215,
+          "doi": "10.5281/zenodo.23137215",
+          "version": "v2026.10-open-research-production-framework"
+        },
+        {
+          "record_id": 23068471,
+          "doi": "10.5281/zenodo.23068471",
+          "version": "v2026.09-natural-month-close"
+        },
+        {
+          "record_id": 22791405,
+          "doi": "10.5281/zenodo.22791405",
+          "version": "v2026.09-open-research-baseline"
+        }
+      ],
+      "version_total": 4,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:14:54Z",
+        "status": 200,
+        "commit": "6a471f0d2014d8b456066246ca7eb43b7870c942"
+      },
+      "swh": {
+        "origin_status": 200,
+        "visit_status": "full",
+        "visit_date": "2026-10-24T08:17:11.577000+00:00",
+        "snapshot_status": 200,
+        "revision_status": 200,
+        "directory_status": 200,
+        "verified_chain": true
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7213415068",
+        "returned_doi": "https://doi.org/10.5281/zenodo.22791404",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    },
+    {
+      "object_id": "RS07",
+      "repository": "epistemic-pipeline",
+      "fixed_corpus": true,
+      "zenodo_status": 200,
+      "record_id": 23365517,
+      "doi": "10.5281/zenodo.23365517",
+      "concept_doi": "10.5281/zenodo.22791463",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 276,
+        "unique_views": 189,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 10,
+        "version_views": 11
+      },
+      "versions": [
+        {
+          "record_id": 23365517,
+          "doi": "10.5281/zenodo.23365517",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "record_id": 23137216,
+          "doi": "10.5281/zenodo.23137216",
+          "version": "v2026.10-open-research-production-framework"
+        },
+        {
+          "record_id": 23068494,
+          "doi": "10.5281/zenodo.23068494",
+          "version": "v2026.09-natural-month-close"
+        },
+        {
+          "record_id": 22791464,
+          "doi": "10.5281/zenodo.22791464",
+          "version": "v2026.09-open-research-baseline"
+        }
+      ],
+      "version_total": 4,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:04Z",
+        "status": 200,
+        "commit": "326095b7c962eed292e4f53af863297fd92360db"
+      },
+      "swh": {
+        "origin_status": 200,
+        "visit_status": "full",
+        "visit_date": "2026-10-10T05:10:27.293000+00:00",
+        "snapshot_status": 200,
+        "revision_status": 404,
+        "directory_status": null,
+        "verified_chain": false
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7213434988",
+        "returned_doi": "https://doi.org/10.5281/zenodo.22791463",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    },
+    {
+      "object_id": "RS08",
+      "repository": "sci-render-kit",
+      "fixed_corpus": true,
+      "zenodo_status": 200,
+      "record_id": 23365525,
+      "doi": "10.5281/zenodo.23365525",
+      "concept_doi": "10.5281/zenodo.22791375",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 257,
+        "unique_views": 178,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 7,
+        "version_views": 7
+      },
+      "versions": [
+        {
+          "record_id": 23365525,
+          "doi": "10.5281/zenodo.23365525",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "record_id": 23137219,
+          "doi": "10.5281/zenodo.23137219",
+          "version": "v2026.10-open-research-production-framework"
+        },
+        {
+          "record_id": 23068472,
+          "doi": "10.5281/zenodo.23068472",
+          "version": "v2026.09-natural-month-close"
+        },
+        {
+          "record_id": 22791376,
+          "doi": "10.5281/zenodo.22791376",
+          "version": "v2026.09-open-research-baseline"
+        }
+      ],
+      "version_total": 4,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:18Z",
+        "status": 200,
+        "commit": "a48dc7375aac3526b5a0a133d0a1f435dcf935e7"
+      },
+      "swh": {
+        "origin_status": 200,
+        "visit_status": "full",
+        "visit_date": "2026-09-16T07:35:28.635000+00:00",
+        "snapshot_status": 200,
+        "revision_status": 404,
+        "directory_status": null,
+        "verified_chain": false
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7213431981",
+        "returned_doi": "https://doi.org/10.5281/zenodo.22791375",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    },
+    {
+      "object_id": "RS09",
+      "repository": "china-agentic-observatory",
+      "fixed_corpus": true,
+      "zenodo_status": 200,
+      "record_id": 23365548,
+      "doi": "10.5281/zenodo.23365548",
+      "concept_doi": "10.5281/zenodo.22791309",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 287,
+        "unique_views": 197,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 10,
+        "version_views": 11
+      },
+      "versions": [
+        {
+          "record_id": 23365548,
+          "doi": "10.5281/zenodo.23365548",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "record_id": 23137211,
+          "doi": "10.5281/zenodo.23137211",
+          "version": "v2026.10-open-research-production-framework"
+        },
+        {
+          "record_id": 23068347,
+          "doi": "10.5281/zenodo.23068347",
+          "version": "v2026.09-natural-month-close"
+        },
+        {
+          "record_id": 22791310,
+          "doi": "10.5281/zenodo.22791310",
+          "version": "v2026.09-open-research-baseline"
+        }
+      ],
+      "version_total": 4,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:00Z",
+        "status": 200,
+        "commit": "6fa92c662ffbe8b8eac14f7c8711f507583c2a92"
+      },
+      "swh": {
+        "origin_status": 200,
+        "visit_status": "full",
+        "visit_date": "2026-09-28T00:59:57.737000+00:00",
+        "snapshot_status": 200,
+        "revision_status": 404,
+        "directory_status": null,
+        "verified_chain": false
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7213401383",
+        "returned_doi": "https://doi.org/10.5281/zenodo.22791309",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    },
+    {
+      "object_id": "RS10",
+      "repository": "agentic-frontier-observatory",
+      "fixed_corpus": true,
+      "zenodo_status": 200,
+      "record_id": 23365543,
+      "doi": "10.5281/zenodo.23365543",
+      "concept_doi": "10.5281/zenodo.22791334",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 297,
+        "unique_views": 210,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 12,
+        "version_views": 12
+      },
+      "versions": [
+        {
+          "record_id": 23365543,
+          "doi": "10.5281/zenodo.23365543",
+          "version": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "record_id": 23137214,
+          "doi": "10.5281/zenodo.23137214",
+          "version": "v2026.10-open-research-production-framework"
+        },
+        {
+          "record_id": 23068352,
+          "doi": "10.5281/zenodo.23068352",
+          "version": "v2026.09-natural-month-close"
+        },
+        {
+          "record_id": 22791335,
+          "doi": "10.5281/zenodo.22791335",
+          "version": "v2026.09-open-research-baseline"
+        }
+      ],
+      "version_total": 4,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:53Z",
+        "status": 200,
+        "commit": "7ed79d8870a449262ee7167be6694bcd6b412a62"
+      },
+      "swh": {
+        "origin_status": 200,
+        "visit_status": "full",
+        "visit_date": "2026-09-28T01:02:35.538000+00:00",
+        "snapshot_status": 200,
+        "revision_status": 404,
+        "directory_status": null,
+        "verified_chain": false
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7213433288",
+        "returned_doi": "https://doi.org/10.5281/zenodo.22791334",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    }
+  ],
+  "supplementary_objects": [
+    {
+      "object_id": "AUDIT",
+      "repository": "research-software-identity-audit",
+      "fixed_corpus": false,
+      "zenodo_status": 200,
+      "record_id": 23446162,
+      "doi": "10.5281/zenodo.23446162",
+      "concept_doi": "10.5281/zenodo.23166490",
+      "version": "v2026.10-evidence-integrity",
+      "stats": {
+        "downloads": 5,
+        "unique_downloads": 5,
+        "views": 139,
+        "unique_views": 130,
+        "version_downloads": 2,
+        "version_unique_downloads": 2,
+        "version_unique_views": 23,
+        "version_views": 23
+      },
+      "versions": [
+        {
+          "record_id": 23446162,
+          "doi": "10.5281/zenodo.23446162",
+          "version": "v2026.10-evidence-integrity"
+        },
+        {
+          "record_id": 23284570,
+          "doi": "10.5281/zenodo.23284570",
+          "version": "v2026.10-evidence-reconciliation"
+        },
+        {
+          "record_id": 23176748,
+          "doi": "10.5281/zenodo.23176748",
+          "version": "v2026.10-initial-research-runtime"
+        },
+        {
+          "record_id": 23166491,
+          "doi": "10.5281/zenodo.23166491",
+          "version": "beta"
+        }
+      ],
+      "version_total": 4,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v2026.10-evidence-integrity",
+        "published_at": "2026-10-18T04:38:57Z",
+        "status": 200,
+        "commit": "a78e5fdcac843c7752b2122f68267688a44674ef"
+      },
+      "swh": {
+        "origin_status": 404,
+        "visit_status": null,
+        "visit_date": null,
+        "snapshot_status": null,
+        "revision_status": 404,
+        "directory_status": null,
+        "verified_chain": false
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7220365356",
+        "returned_doi": "https://doi.org/10.5281/zenodo.23166490",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    },
+    {
+      "object_id": "LIFE_PILOT",
+      "repository": "life-science-ecosystem-lab",
+      "fixed_corpus": false,
+      "zenodo_status": 200,
+      "record_id": 23447089,
+      "doi": "10.5281/zenodo.23447089",
+      "concept_doi": "10.5281/zenodo.23447088",
+      "version": "v0.4.0",
+      "stats": {
+        "downloads": 5,
+        "unique_downloads": 3,
+        "views": 11,
+        "unique_views": 8,
+        "version_downloads": 5,
+        "version_unique_downloads": 3,
+        "version_unique_views": 8,
+        "version_views": 11
+      },
+      "versions": [
+        {
+          "record_id": 23447089,
+          "doi": "10.5281/zenodo.23447089",
+          "version": "v0.4.0"
+        }
+      ],
+      "version_total": 1,
+      "version_has_next": false,
+      "github_release": {
+        "tag": "v0.4.0",
+        "published_at": "2026-10-18T04:39:01Z",
+        "status": 200,
+        "commit": "c09d4f3d0a8ebe28970dd511c7ab1e96f2ee0ea6"
+      },
+      "swh": {
+        "origin_status": 404,
+        "visit_status": null,
+        "visit_date": null,
+        "snapshot_status": null,
+        "revision_status": 404,
+        "directory_status": null,
+        "verified_chain": false
+      },
+      "openalex": {
+        "status": 200,
+        "work_id": "https://openalex.org/W7222883692",
+        "returned_doi": "https://doi.org/10.5281/zenodo.23447088",
+        "exact_version": false,
+        "concept_route": true
+      },
+      "openaire_hits": 1
+    }
+  ]
+}

@@ -46,3 +46,7 @@ The independently extracted 32-version table is retained under [monitoring/2026-
 - [October 18 independent research field extracts](2026-10-18/03-independent-research-verification/README.md) — minimized public representation with explicit local-only raw bytes and source archive digest verification
 
 - [October 20 research evidence](2026-10-20/01-independent-research-recheck/README.md): minimized public fields, per-attempt digests and retained failure/retry states
+
+## October 25 later independent institutional recheck
+
+- [2026-10-25 / 02-independent-institutional-recheck](2026-10-25/02-independent-institutional-recheck/README.md) — 162 timestamped attempts; twelve page/API unique pairs match, 76 DOI records, structured ORCID 17/89, SWH four current release chains, source-separated WorkflowHub counts; diagnostic only, zero prospective cells

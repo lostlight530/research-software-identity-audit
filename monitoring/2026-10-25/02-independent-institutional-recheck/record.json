@@ -1,0 +1,126 @@
+{
+  "batch": "2026-10-25",
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "started_at": "2026-10-25T15:08:34.959232+00:00",
+  "finished_at": "2026-10-25T15:13:42.024059+00:00",
+  "started_at_beijing": "2026-10-25T23:08:34.959232+08:00",
+  "finished_at_beijing": "2026-10-25T23:13:42.024059+08:00",
+  "requests": 162,
+  "platforms": 17,
+  "status_counts": {
+    "200": 139,
+    "404": 11,
+    "None": 9,
+    "403": 2,
+    "401": 1
+  },
+  "zenodo_fixed_ten": {
+    "downloads": 17,
+    "unique_downloads": 16,
+    "views": 2802,
+    "unique_views": 1931,
+    "version_downloads": 9,
+    "version_unique_downloads": 9,
+    "version_unique_views": 94,
+    "version_views": 100
+  },
+  "datacite": {
+    "reported": 76,
+    "enumerated": 76,
+    "types": {
+      "Workflow": 19,
+      "Software": 56,
+      "StudyRegistration": 1
+    },
+    "states": {
+      "findable": 76
+    }
+  },
+  "orcid": {
+    "status": 200,
+    "parsed": true,
+    "groups": 17,
+    "summaries": 89,
+    "sources": {
+      "DataCite": 65,
+      "OpenAIRE": 11,
+      "0009-0001-3617-0832": 13
+    }
+  },
+  "openalex": {
+    "profile_count": 32,
+    "query_count": 32,
+    "enumerated": 32,
+    "cited_by_count": 1,
+    "types": {
+      "software": 12,
+      "other": 20
+    },
+    "alias_profile_count": null,
+    "alias_query_count": 0
+  },
+  "swh": {
+    "full_origins": 10,
+    "current_verified_chains": 4
+  },
+  "openaire_fixed_hits": 10,
+  "workflowhub": {
+    "public_detail_views": 5416,
+    "public_detail_downloads": 630,
+    "user_dashboard_views": 5631,
+    "user_dashboard_downloads": 696,
+    "same_source_daily_increment_calculated": false
+  },
+  "hal": {
+    "api_status": null,
+    "num_found": null,
+    "public_status": 404
+  },
+  "scicrunch_status": 403,
+  "osf": {
+    "registration_status": 200,
+    "project_status": 401
+  },
+  "internet_archive_status": 200,
+  "biotools_status": 403,
+  "openebench": {
+    "status": 200,
+    "validated": 0
+  },
+  "rse_pr": {
+    "state": "open",
+    "merged": false,
+    "html_url": "https://github.com/rseng/software/pull/498"
+  },
+  "cloud_modified": false,
+  "source_observation_main": "62228b51504a38477aa677cae641ada9e344e5ac",
+  "contribution_base_main": "62228b51504a38477aa677cae641ada9e344e5ac",
+  "fixed_corpus": "RS01-RS10",
+  "analytic_layers": 6,
+  "operational_platforms": 7,
+  "supplementary_services_do_not_change_denominator": true,
+  "prospective_cells_added": 0,
+  "source_representations": {
+    "public_payload": "selected public field projections and source-attempt ledger",
+    "unmodified_response_bytes": "retained locally; SHA-256 per response in source-attempts.csv",
+    "user_page": "researcher transcription, precise capture time and Dashboard Period unknown"
+  },
+  "rsd": {
+    "records_read": 12,
+    "published": 12,
+    "uuid_seed": "2026-10-24T1130 verified contributor-linked software UUIDs",
+    "current_contributor_relation": "transport_failure_after_one_retry"
+  },
+  "evidence_refs": [
+    "evidence/2026-10-25/02-independent-institutional-recheck/source-attempts.csv",
+    "evidence/2026-10-25/02-independent-institutional-recheck/canonical-object-fields.json",
+    "evidence/2026-10-25/02-independent-institutional-recheck/zenodo-family-statistics.csv",
+    "evidence/2026-10-25/02-independent-institutional-recheck/datacite-identifiers.csv",
+    "evidence/2026-10-25/02-independent-institutional-recheck/openalex-works.csv",
+    "evidence/2026-10-25/02-independent-institutional-recheck/workflowhub-source-comparison.csv",
+    "evidence/2026-10-25/02-independent-institutional-recheck/user-page-transcription.json",
+    "evidence/2026-10-25/02-independent-institutional-recheck/user-page-api-reconciliation.json",
+    "evidence/2026-10-25/02-independent-institutional-recheck/institutional-state-extract.json"
+  ]
+}

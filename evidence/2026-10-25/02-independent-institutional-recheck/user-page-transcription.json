@@ -1,0 +1,121 @@
+{
+  "source": "Structured transcription of researcher-provided page figures received in the conversation dated 2026-10-25; not raw HTML",
+  "capture_timestamp": null,
+  "dashboard_period": null,
+  "zenodo": [
+    {
+      "repository": "welcome-to-github",
+      "record_id": 23365504,
+      "page_views": 228,
+      "page_downloads": 5,
+      "metric_source": "user page, previously defined as unique counts"
+    },
+    {
+      "repository": "Axiom-0",
+      "record_id": 23365534,
+      "page_views": 219,
+      "page_downloads": 1,
+      "metric_source": "user page, previously defined as unique counts"
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "record_id": 23365543,
+      "page_views": 210,
+      "page_downloads": 2,
+      "metric_source": "user page, previously defined as unique counts"
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "record_id": 23365548,
+      "page_views": 197,
+      "page_downloads": 1,
+      "metric_source": "user page, previously defined as unique counts"
+    },
+    {
+      "repository": "agent-foundations",
+      "record_id": 23365540,
+      "page_views": 193,
+      "page_downloads": 2,
+      "metric_source": "user page, previously defined as unique counts"
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "record_id": 23365517,
+      "page_views": 189,
+      "page_downloads": 1,
+      "metric_source": "user page, previously defined as unique counts"
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "record_id": 23365551,
+      "page_views": 182,
+      "page_downloads": 1,
+      "metric_source": "user page, previously defined as unique counts"
+    },
+    {
+      "repository": "sci-render-kit",
+      "record_id": 23365525,
+      "page_views": 178,
+      "page_downloads": 2,
+      "metric_source": "user page, previously defined as unique counts"
+    },
+    {
+      "repository": "auto-doc-engine",
+      "record_id": 23365510,
+      "page_views": 177,
+      "page_downloads": 0,
+      "metric_source": "user page, previously defined as unique counts"
+    },
+    {
+      "repository": "reflective-continuum",
+      "record_id": 23365567,
+      "page_views": 158,
+      "page_downloads": 1,
+      "metric_source": "user page, previously defined as unique counts"
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "record_id": 23446162,
+      "page_views": 130,
+      "page_downloads": 5,
+      "metric_source": "user page, previously defined as unique counts"
+    },
+    {
+      "repository": "life-science-ecosystem-lab",
+      "record_id": 23447089,
+      "page_views": 8,
+      "page_downloads": 3,
+      "metric_source": "user page, previously defined as unique counts"
+    }
+  ],
+  "workflowhub": [
+    {
+      "id": "2334",
+      "views": 2286,
+      "downloads": 245
+    },
+    {
+      "id": "2332",
+      "views": 1992,
+      "downloads": 268
+    },
+    {
+      "id": "2337",
+      "views": 725,
+      "downloads": 40
+    },
+    {
+      "id": "2347",
+      "views": 628,
+      "downloads": 143
+    }
+  ],
+  "arithmetic": {
+    "zenodo_fixed_ten_page_views": 1931,
+    "zenodo_twelve_page_views": 2069,
+    "zenodo_fixed_ten_page_downloads": 16,
+    "zenodo_twelve_page_downloads": 24,
+    "workflowhub_views": 5631,
+    "workflowhub_downloads": 696
+  }
+}

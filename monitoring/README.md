@@ -137,3 +137,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 25 bounded seven-platform diagnostic
 
 - [2026-10-25 / 01-bounded-seven-platform-recheck](2026-10-25/01-bounded-seven-platform-recheck/README.md) — 12 GitHub Release lists, 12 Zenodo families / 45 versions, DataCite 76 DOI records, OpenAIRE 10 exact software DOI matches, OpenAlex 21/30/32 profile query-shape conflict, ORCID flattened and SWH blocked; source-scoped, zero prospective cells.
+
+## October 25 later independent institutional recheck
+
+- [2026-10-25 / 02-independent-institutional-recheck](2026-10-25/02-independent-institutional-recheck/README.md) — 162 timestamped attempts; twelve page/API unique pairs match, 76 DOI records, structured ORCID 17/89, SWH four current release chains, source-separated WorkflowHub counts; diagnostic only, zero prospective cells
