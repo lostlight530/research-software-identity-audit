@@ -1,0 +1,726 @@
+[
+  {
+    "row": 1,
+    "surface": "WorkflowHub",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-059",
+      "evening-060",
+      "evening-061",
+      "evening-062",
+      "evening-063",
+      "evening-064",
+      "evening-065",
+      "evening-066"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 2,
+    "surface": "LifeMonitor",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-069",
+      "evening-152",
+      "evening-154",
+      "evening-155"
+    ],
+    "http_statuses": [
+      "200",
+      "500"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 3,
+    "surface": "Helmholtz RSD / GFZ",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-167",
+      "evening-171",
+      "evening-172",
+      "evening-173"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 4,
+    "surface": "Research Software Directory",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-071",
+      "evening-145"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 5,
+    "surface": "nfdi.software",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-166",
+      "evening-168",
+      "evening-169",
+      "evening-170"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 6,
+    "surface": "bio.tools",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-073",
+      "evening-149",
+      "evening-162"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 7,
+    "surface": "OpenEBench",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-074"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 8,
+    "surface": "RSE Software Encyclopedia",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-075"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 9,
+    "surface": "SciCrunch Resolver",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-076"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 10,
+    "surface": "RRID Portal",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-078",
+      "evening-156"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 11,
+    "surface": "ScreenIT / ASWG Portal",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-079",
+      "evening-157",
+      "evening-366",
+      "evening-370"
+    ],
+    "http_statuses": [
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 12,
+    "surface": "NIF",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-080",
+      "evening-158"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 13,
+    "surface": "dkNET",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-081",
+      "evening-159"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 14,
+    "surface": "InterLex",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-076",
+      "evening-082"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 15,
+    "surface": "EDAM / BioPortal",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-083",
+      "evening-149",
+      "evening-175"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 16,
+    "surface": "ORCID Registry",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-005"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 17,
+    "surface": "Zenodo",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-008",
+      "evening-011",
+      "evening-186"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 18,
+    "surface": "DataCite",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-001",
+      "evening-002",
+      "evening-003",
+      "evening-004"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 19,
+    "surface": "OSF Registries",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-084",
+      "evening-085",
+      "evening-163"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 20,
+    "surface": "Internet Archive",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-086",
+      "evening-174"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 21,
+    "surface": "HAL",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-087",
+      "evening-088"
+    ],
+    "http_statuses": [
+      "200",
+      "404"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 22,
+    "surface": "OpenAlex",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-006",
+      "evening-007",
+      "evening-020",
+      "evening-089"
+    ],
+    "http_statuses": [
+      "200",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 23,
+    "surface": "OpenAIRE",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-187",
+      "evening-193",
+      "evening-207",
+      "evening-209"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 24,
+    "surface": "Identifiers.org",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-090",
+      "evening-091",
+      "evening-160",
+      "evening-161"
+    ],
+    "http_statuses": [
+      "200",
+      "403",
+      "404"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 25,
+    "surface": "N2T.net",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-092"
+    ],
+    "http_statuses": [
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 26,
+    "surface": "Bioregistry",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-093",
+      "evening-094"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 27,
+    "surface": "Handle.net / DOI.org",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-210",
+      "evening-212",
+      "evening-214",
+      "evening-216",
+      "evening-218",
+      "evening-220",
+      "evening-222",
+      "evening-224",
+      "evening-226",
+      "evening-228",
+      "evening-230",
+      "evening-232",
+      "evening-234",
+      "evening-236",
+      "evening-238",
+      "evening-240",
+      "evening-242",
+      "evening-244",
+      "evening-246",
+      "evening-248",
+      "evening-250",
+      "evening-252",
+      "evening-254",
+      "evening-256",
+      "evening-258",
+      "evening-260",
+      "evening-262",
+      "evening-264",
+      "evening-266",
+      "evening-268",
+      "evening-270",
+      "evening-272",
+      "evening-274",
+      "evening-276",
+      "evening-278",
+      "evening-280",
+      "evening-282",
+      "evening-284",
+      "evening-286",
+      "evening-288",
+      "evening-290",
+      "evening-292",
+      "evening-294",
+      "evening-296",
+      "evening-298",
+      "evening-300",
+      "evening-302",
+      "evening-304",
+      "evening-306",
+      "evening-308",
+      "evening-310",
+      "evening-312",
+      "evening-314",
+      "evening-316",
+      "evening-318",
+      "evening-320",
+      "evening-322",
+      "evening-324",
+      "evening-326",
+      "evening-328",
+      "evening-330",
+      "evening-332",
+      "evening-334",
+      "evening-336",
+      "evening-338",
+      "evening-340",
+      "evening-342",
+      "evening-344",
+      "evening-346",
+      "evening-348",
+      "evening-350",
+      "evening-352",
+      "evening-354",
+      "evening-356",
+      "evening-358",
+      "evening-360",
+      "evening-362",
+      "evening-371",
+      "evening-373",
+      "evening-375",
+      "evening-377",
+      "evening-378",
+      "evening-379",
+      "evening-381",
+      "evening-382"
+    ],
+    "http_statuses": [
+      "200",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 28,
+    "surface": "Crossref Agency Resolver",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-211",
+      "evening-213",
+      "evening-215",
+      "evening-217",
+      "evening-219",
+      "evening-221",
+      "evening-223",
+      "evening-225",
+      "evening-227",
+      "evening-229",
+      "evening-231",
+      "evening-233",
+      "evening-235",
+      "evening-237",
+      "evening-239",
+      "evening-241",
+      "evening-243",
+      "evening-245",
+      "evening-247",
+      "evening-249",
+      "evening-251",
+      "evening-253",
+      "evening-255",
+      "evening-257",
+      "evening-259",
+      "evening-261",
+      "evening-263",
+      "evening-265",
+      "evening-267",
+      "evening-269",
+      "evening-271",
+      "evening-273",
+      "evening-275",
+      "evening-277",
+      "evening-279",
+      "evening-281",
+      "evening-283",
+      "evening-285",
+      "evening-287",
+      "evening-289",
+      "evening-291",
+      "evening-293",
+      "evening-295",
+      "evening-297",
+      "evening-299",
+      "evening-301",
+      "evening-303",
+      "evening-305",
+      "evening-307",
+      "evening-309",
+      "evening-311",
+      "evening-313",
+      "evening-315",
+      "evening-317",
+      "evening-319",
+      "evening-321",
+      "evening-323",
+      "evening-325",
+      "evening-327",
+      "evening-329",
+      "evening-331",
+      "evening-333",
+      "evening-335",
+      "evening-337",
+      "evening-339",
+      "evening-341",
+      "evening-343",
+      "evening-345",
+      "evening-347",
+      "evening-349",
+      "evening-351",
+      "evening-353",
+      "evening-355",
+      "evening-357",
+      "evening-359",
+      "evening-361",
+      "evening-363",
+      "evening-372",
+      "evening-374",
+      "evening-376",
+      "evening-380",
+      "evening-383",
+      "evening-384"
+    ],
+    "http_statuses": [
+      "200",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 29,
+    "surface": "Software Heritage",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-025",
+      "evening-028",
+      "evening-031",
+      "evening-034",
+      "evening-037",
+      "evening-040",
+      "evening-043",
+      "evening-046",
+      "evening-049",
+      "evening-052",
+      "evening-055",
+      "evening-058",
+      "evening-176",
+      "evening-177",
+      "evening-178",
+      "evening-179",
+      "evening-180",
+      "evening-181",
+      "evening-182",
+      "evening-183",
+      "evening-184",
+      "evening-185"
+    ],
+    "http_statuses": [
+      "200",
+      "404"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 30,
+    "surface": "GitHub",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-023",
+      "evening-024",
+      "evening-026",
+      "evening-027",
+      "evening-029",
+      "evening-030",
+      "evening-032",
+      "evening-033",
+      "evening-035",
+      "evening-036",
+      "evening-038",
+      "evening-039",
+      "evening-041",
+      "evening-042",
+      "evening-044",
+      "evening-045",
+      "evening-047",
+      "evening-048",
+      "evening-050",
+      "evening-051",
+      "evening-053",
+      "evening-054",
+      "evening-056",
+      "evening-057",
+      "evening-364",
+      "evening-365"
+    ],
+    "http_statuses": [
+      "200",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 31,
+    "surface": "CiteAs / howfairis",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-103",
+      "evening-107",
+      "evening-111",
+      "evening-115",
+      "evening-119",
+      "evening-123",
+      "evening-127",
+      "evening-131",
+      "evening-135",
+      "evening-139",
+      "evening-142",
+      "evening-369"
+    ],
+    "http_statuses": [
+      "200",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 32,
+    "surface": "CWL Standard / Viewer",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-095",
+      "evening-149"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 33,
+    "surface": "RO-Crate Standard Layer",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-146",
+      "evening-147",
+      "evening-148",
+      "evening-149"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 34,
+    "surface": "CodeMeta / CFF / Bioschemas",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "evening-100",
+      "evening-101",
+      "evening-104",
+      "evening-105",
+      "evening-108",
+      "evening-109",
+      "evening-112",
+      "evening-113",
+      "evening-116",
+      "evening-117",
+      "evening-120",
+      "evening-121",
+      "evening-124",
+      "evening-125",
+      "evening-128",
+      "evening-129",
+      "evening-132",
+      "evening-133",
+      "evening-136",
+      "evening-137",
+      "evening-140",
+      "evening-141",
+      "evening-143",
+      "evening-144",
+      "evening-149",
+      "evening-367"
+    ],
+    "http_statuses": [
+      "200",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  }
+]

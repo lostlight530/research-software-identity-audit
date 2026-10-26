@@ -1,0 +1,727 @@
+[
+  {
+    "row": 1,
+    "surface": "WorkflowHub",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-049",
+      "morning-050",
+      "morning-051",
+      "morning-052",
+      "morning-053",
+      "morning-054",
+      "morning-055",
+      "morning-056"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 2,
+    "surface": "LifeMonitor",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-059",
+      "morning-333",
+      "morning-335",
+      "morning-336"
+    ],
+    "http_statuses": [
+      "200",
+      "500"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 3,
+    "surface": "Helmholtz RSD / GFZ",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-369",
+      "morning-373",
+      "morning-374",
+      "morning-375"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 4,
+    "surface": "Research Software Directory",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-062",
+      "morning-164"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 5,
+    "surface": "nfdi.software",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-368",
+      "morning-370",
+      "morning-371",
+      "morning-372"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 6,
+    "surface": "bio.tools",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-065",
+      "morning-322",
+      "morning-343"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 7,
+    "surface": "OpenEBench",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-066"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 8,
+    "surface": "RSE Software Encyclopedia",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-067"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 9,
+    "surface": "SciCrunch Resolver",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-068"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 10,
+    "surface": "RRID Portal",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-070",
+      "morning-337"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 11,
+    "surface": "ScreenIT / ASWG Portal",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-071",
+      "morning-338",
+      "morning-350"
+    ],
+    "http_statuses": [
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 12,
+    "surface": "NIF",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-072",
+      "morning-339"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 13,
+    "surface": "dkNET",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-073",
+      "morning-340"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 14,
+    "surface": "InterLex",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-068",
+      "morning-074"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 15,
+    "surface": "EDAM / BioPortal",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-075",
+      "morning-322",
+      "morning-395"
+    ],
+    "http_statuses": [
+      "200",
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 16,
+    "surface": "ORCID Registry",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-076"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 17,
+    "surface": "Zenodo",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-001",
+      "morning-013",
+      "morning-097",
+      "morning-346",
+      "morning-376"
+    ],
+    "http_statuses": [
+      "200",
+      "400",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 18,
+    "surface": "DataCite",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-077",
+      "morning-078",
+      "morning-391",
+      "morning-392"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 19,
+    "surface": "OSF Registries",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-079",
+      "morning-080",
+      "morning-345"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 20,
+    "surface": "Internet Archive",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-081",
+      "morning-394"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 21,
+    "surface": "HAL",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-082",
+      "morning-083"
+    ],
+    "http_statuses": [
+      "200",
+      "404"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 22,
+    "surface": "OpenAlex",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-084",
+      "morning-085",
+      "morning-086"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 23,
+    "surface": "OpenAIRE",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-098",
+      "morning-156",
+      "morning-161",
+      "morning-390"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 24,
+    "surface": "Identifiers.org",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-087",
+      "morning-088",
+      "morning-341",
+      "morning-342"
+    ],
+    "http_statuses": [
+      "200",
+      "403",
+      "404"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 25,
+    "surface": "N2T.net",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-089"
+    ],
+    "http_statuses": [
+      "403"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 26,
+    "surface": "Bioregistry",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-090",
+      "morning-091"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 27,
+    "surface": "Handle.net / DOI.org",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-165",
+      "morning-167",
+      "morning-169",
+      "morning-171",
+      "morning-173",
+      "morning-175",
+      "morning-177",
+      "morning-179",
+      "morning-181",
+      "morning-183",
+      "morning-185",
+      "morning-187",
+      "morning-189",
+      "morning-191",
+      "morning-193",
+      "morning-195",
+      "morning-197",
+      "morning-199",
+      "morning-201",
+      "morning-203",
+      "morning-205",
+      "morning-207",
+      "morning-209",
+      "morning-211",
+      "morning-213",
+      "morning-215",
+      "morning-217",
+      "morning-219",
+      "morning-221",
+      "morning-223",
+      "morning-225",
+      "morning-227",
+      "morning-229",
+      "morning-231",
+      "morning-233",
+      "morning-235",
+      "morning-237",
+      "morning-239",
+      "morning-241",
+      "morning-243",
+      "morning-245",
+      "morning-247",
+      "morning-249",
+      "morning-251",
+      "morning-253",
+      "morning-255",
+      "morning-257",
+      "morning-259",
+      "morning-261",
+      "morning-263",
+      "morning-265",
+      "morning-267",
+      "morning-269",
+      "morning-271",
+      "morning-273",
+      "morning-275",
+      "morning-277",
+      "morning-279",
+      "morning-281",
+      "morning-283",
+      "morning-285",
+      "morning-287",
+      "morning-289",
+      "morning-291",
+      "morning-293",
+      "morning-295",
+      "morning-297",
+      "morning-299",
+      "morning-301",
+      "morning-303",
+      "morning-305",
+      "morning-307",
+      "morning-309",
+      "morning-311",
+      "morning-313",
+      "morning-315",
+      "morning-317",
+      "morning-357",
+      "morning-358",
+      "morning-361",
+      "morning-362",
+      "morning-364",
+      "morning-388"
+    ],
+    "http_statuses": [
+      "200",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 28,
+    "surface": "Crossref Agency Resolver",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-166",
+      "morning-168",
+      "morning-170",
+      "morning-172",
+      "morning-174",
+      "morning-176",
+      "morning-178",
+      "morning-180",
+      "morning-182",
+      "morning-184",
+      "morning-186",
+      "morning-188",
+      "morning-190",
+      "morning-192",
+      "morning-194",
+      "morning-196",
+      "morning-198",
+      "morning-200",
+      "morning-202",
+      "morning-204",
+      "morning-206",
+      "morning-208",
+      "morning-210",
+      "morning-212",
+      "morning-214",
+      "morning-216",
+      "morning-218",
+      "morning-220",
+      "morning-222",
+      "morning-224",
+      "morning-226",
+      "morning-228",
+      "morning-230",
+      "morning-232",
+      "morning-234",
+      "morning-236",
+      "morning-238",
+      "morning-240",
+      "morning-242",
+      "morning-244",
+      "morning-246",
+      "morning-248",
+      "morning-250",
+      "morning-252",
+      "morning-254",
+      "morning-256",
+      "morning-258",
+      "morning-260",
+      "morning-262",
+      "morning-264",
+      "morning-266",
+      "morning-268",
+      "morning-270",
+      "morning-272",
+      "morning-274",
+      "morning-276",
+      "morning-278",
+      "morning-280",
+      "morning-282",
+      "morning-284",
+      "morning-286",
+      "morning-288",
+      "morning-290",
+      "morning-292",
+      "morning-294",
+      "morning-296",
+      "morning-298",
+      "morning-300",
+      "morning-302",
+      "morning-304",
+      "morning-306",
+      "morning-308",
+      "morning-310",
+      "morning-312",
+      "morning-314",
+      "morning-316",
+      "morning-318",
+      "morning-359",
+      "morning-360",
+      "morning-363",
+      "morning-365",
+      "morning-387"
+    ],
+    "http_statuses": [
+      "200",
+      "429",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 29,
+    "surface": "Software Heritage",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-004",
+      "morning-008",
+      "morning-012",
+      "morning-016",
+      "morning-020",
+      "morning-024",
+      "morning-028",
+      "morning-032",
+      "morning-036",
+      "morning-040",
+      "morning-044",
+      "morning-048",
+      "morning-348",
+      "morning-396",
+      "morning-397",
+      "morning-398",
+      "morning-399",
+      "morning-400",
+      "morning-401",
+      "morning-402",
+      "morning-403",
+      "morning-404",
+      "morning-405"
+    ],
+    "http_statuses": [
+      "200",
+      "404",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 30,
+    "surface": "GitHub",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-002",
+      "morning-003",
+      "morning-006",
+      "morning-007",
+      "morning-010",
+      "morning-011",
+      "morning-014",
+      "morning-015",
+      "morning-018",
+      "morning-019",
+      "morning-022",
+      "morning-023",
+      "morning-026",
+      "morning-027",
+      "morning-030",
+      "morning-031",
+      "morning-034",
+      "morning-035",
+      "morning-038",
+      "morning-039",
+      "morning-042",
+      "morning-043",
+      "morning-046",
+      "morning-047",
+      "morning-347"
+    ],
+    "http_statuses": [
+      "200",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 31,
+    "surface": "CiteAs / howfairis",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-102",
+      "morning-108",
+      "morning-114",
+      "morning-118",
+      "morning-124",
+      "morning-130",
+      "morning-136",
+      "morning-142",
+      "morning-148",
+      "morning-154",
+      "morning-159",
+      "morning-351"
+    ],
+    "http_statuses": [
+      "200",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 32,
+    "surface": "CWL Standard / Viewer",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-092",
+      "morning-322"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 33,
+    "surface": "RO-Crate Standard Layer",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-319",
+      "morning-320",
+      "morning-321",
+      "morning-322"
+    ],
+    "http_statuses": [
+      "200"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  },
+  {
+    "row": 34,
+    "surface": "CodeMeta / CFF / Bioschemas",
+    "retrieval_scope": "diagnostic supplemental surface",
+    "attempt_ids": [
+      "morning-099",
+      "morning-100",
+      "morning-105",
+      "morning-106",
+      "morning-111",
+      "morning-112",
+      "morning-115",
+      "morning-116",
+      "morning-121",
+      "morning-122",
+      "morning-127",
+      "morning-128",
+      "morning-133",
+      "morning-134",
+      "morning-139",
+      "morning-140",
+      "morning-145",
+      "morning-146",
+      "morning-151",
+      "morning-152",
+      "morning-157",
+      "morning-158",
+      "morning-162",
+      "morning-163",
+      "morning-322",
+      "morning-353",
+      "morning-355"
+    ],
+    "http_statuses": [
+      "200",
+      "None"
+    ],
+    "interpretation_owner": "institutional-fields.json and record.json; HTTP success alone is not object evidence"
+  }
+]

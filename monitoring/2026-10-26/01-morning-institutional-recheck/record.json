@@ -1,0 +1,101 @@
+{
+  "record_class": "diagnostic_monitoring",
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "source_observation_date": "2026-10-26",
+  "capture_label": "morning",
+  "started_at": "2026-10-26T03:45:54.827407+00:00",
+  "finished_at": "2026-10-26T03:51:37.025910+00:00",
+  "contribution_base_main": "5a869e305725cc20ec6762cfd58d07d33360c05b",
+  "fixed_corpus": "RS01-RS10",
+  "analytic_layers": 6,
+  "operational_platforms": 7,
+  "supplementary_surface_rows": 34,
+  "surface_rows_are_not_independent_institution_count": true,
+  "requests": 405,
+  "status_counts": {
+    "200": 341,
+    "None": 24,
+    "404": 16,
+    "403": 11,
+    "400": 11,
+    "429": 1,
+    "500": 1
+  },
+  "software_families": {
+    "fixed": 10,
+    "control": 1,
+    "pilot": 1,
+    "versions": 45
+  },
+  "zenodo": {
+    "fixed_ten": {
+      "views": 2830,
+      "unique_views": 1958,
+      "downloads": 17,
+      "unique_downloads": 16,
+      "version_views": 105,
+      "version_downloads": 9
+    },
+    "twelve_family_descriptive_sum": {
+      "views": 2980,
+      "unique_views": 2096,
+      "downloads": 27,
+      "unique_downloads": 24,
+      "version_views": 139,
+      "version_downloads": 16
+    }
+  },
+  "datacite": {
+    "orcid_query_count": 76,
+    "inventory_count": 77,
+    "inventory_types": {
+      "Workflow": 19,
+      "Software": 57,
+      "StudyRegistration": 1
+    },
+    "separately_queried_beta": "10.5281/zenodo.23166491",
+    "beta_registration_is_preexisting": true
+  },
+  "orcid": {
+    "groups": 17,
+    "summaries": 89,
+    "sources": {
+      "DataCite": 65,
+      "OpenAIRE": 11,
+      "SELF": 13
+    }
+  },
+  "openalex": {
+    "profile_count": 32,
+    "enumerated": 32,
+    "types": {
+      "software": 12,
+      "other": 20
+    },
+    "green": 32
+  },
+  "workflowhub": {
+    "entities": 4,
+    "version_dois": 19,
+    "public_detail_views": 5709,
+    "public_detail_downloads": 715,
+    "new_user_dashboard_capture": null
+  },
+  "evidence_refs": [
+    "evidence/2026-10-26/01-morning-institutional-recheck/source-attempts.csv",
+    "evidence/2026-10-26/01-morning-institutional-recheck/zenodo-family-statistics.csv",
+    "evidence/2026-10-26/01-morning-institutional-recheck/datacite-identifiers.csv",
+    "evidence/2026-10-26/01-morning-institutional-recheck/openalex-works.csv",
+    "evidence/2026-10-26/01-morning-institutional-recheck/workflowhub-activity.csv",
+    "evidence/2026-10-26/01-morning-institutional-recheck/orcid-source-summary.json",
+    "evidence/2026-10-26/01-morning-institutional-recheck/doi-resolution-checks.json",
+    "evidence/2026-10-26/01-morning-institutional-recheck/institutional-fields.json",
+    "evidence/2026-10-26/01-morning-institutional-recheck/surface-attempt-crosswalk.json"
+  ],
+  "representations": {
+    "public": "minimized attributed fields and request ledger",
+    "raw_bytes": "local retention only, per-response digests in ledger",
+    "user_material": "new user portal transcription stored separately after API capture"
+  }
+}

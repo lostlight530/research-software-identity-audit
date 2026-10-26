@@ -1,0 +1,260 @@
+{
+  "baseline_window": [
+    "2026-10-26T03:45:54.827407+00:00",
+    "2026-10-26T03:51:37.025910+00:00"
+  ],
+  "night_window": [
+    "2026-10-26T14:36:49.299397+00:00",
+    "2026-10-26T14:44:20.109009+00:00"
+  ],
+  "metrics": {
+    "doi_total": {
+      "morning": 77,
+      "night": 77
+    },
+    "orcid_query_total": {
+      "morning": 76,
+      "night": 76
+    },
+    "orcid_groups": {
+      "morning": 17,
+      "night": 17
+    },
+    "orcid_summaries": {
+      "morning": 89,
+      "night": 89
+    },
+    "openalex_profile_count": {
+      "morning": 32,
+      "night": 32
+    },
+    "openalex_enumerated": {
+      "morning": 32,
+      "night": 32
+    },
+    "rsd_published": {
+      "morning": 12,
+      "night": 12
+    },
+    "nfdi_remote_records": {
+      "morning": 12,
+      "night": 12
+    },
+    "helmholtz_remote_records": {
+      "morning": 0,
+      "night": 0
+    },
+    "swh_latest_full": {
+      "morning": 10,
+      "night": 10
+    },
+    "swh_returned_full_visits": {
+      "morning": 24,
+      "night": 24
+    }
+  },
+  "workflow": [
+    {
+      "id": 2332,
+      "morning_views": 2006,
+      "night_views": 2006,
+      "delta_views": 0,
+      "morning_downloads": 272,
+      "night_downloads": 272,
+      "delta_downloads": 0,
+      "morning_version": 8,
+      "night_version": 8
+    },
+    {
+      "id": 2334,
+      "morning_views": 2307,
+      "night_views": 2307,
+      "delta_views": 0,
+      "morning_downloads": 248,
+      "night_downloads": 248,
+      "delta_downloads": 0,
+      "morning_version": 8,
+      "night_version": 8
+    },
+    {
+      "id": 2337,
+      "morning_views": 747,
+      "night_views": 747,
+      "delta_views": 0,
+      "morning_downloads": 42,
+      "night_downloads": 42,
+      "delta_downloads": 0,
+      "morning_version": 1,
+      "night_version": 1
+    },
+    {
+      "id": 2347,
+      "morning_views": 649,
+      "night_views": 649,
+      "delta_views": 0,
+      "morning_downloads": 153,
+      "night_downloads": 153,
+      "delta_downloads": 0,
+      "morning_version": 2,
+      "night_version": 2
+    }
+  ],
+  "zenodo": [
+    {
+      "repository": "welcome-to-github",
+      "morning_record_id": 23365504,
+      "night_record_id": 23365504,
+      "delta": {
+        "views": 2,
+        "unique_views": 2,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 0,
+        "version_downloads": 0
+      }
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "morning_record_id": 23365551,
+      "night_record_id": 23365551,
+      "delta": {
+        "views": 4,
+        "unique_views": 4,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 1,
+        "version_downloads": 0
+      }
+    },
+    {
+      "repository": "Axiom-0",
+      "morning_record_id": 23365534,
+      "night_record_id": 23365534,
+      "delta": {
+        "views": 3,
+        "unique_views": 2,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 1,
+        "version_downloads": 0
+      }
+    },
+    {
+      "repository": "reflective-continuum",
+      "morning_record_id": 23365567,
+      "night_record_id": 23365567,
+      "delta": {
+        "views": 1,
+        "unique_views": 1,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 0,
+        "version_downloads": 0
+      }
+    },
+    {
+      "repository": "agent-foundations",
+      "morning_record_id": 23365540,
+      "night_record_id": 23365540,
+      "delta": {
+        "views": 2,
+        "unique_views": 2,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 0,
+        "version_downloads": 0
+      }
+    },
+    {
+      "repository": "auto-doc-engine",
+      "morning_record_id": 23365510,
+      "night_record_id": 23365510,
+      "delta": {
+        "views": 4,
+        "unique_views": 4,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 0,
+        "version_downloads": 0
+      }
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "morning_record_id": 23365517,
+      "night_record_id": 23365517,
+      "delta": {
+        "views": 4,
+        "unique_views": 4,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 2,
+        "version_downloads": 0
+      }
+    },
+    {
+      "repository": "sci-render-kit",
+      "morning_record_id": 23365525,
+      "night_record_id": 23365525,
+      "delta": {
+        "views": 2,
+        "unique_views": 2,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 1,
+        "version_downloads": 0
+      }
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "morning_record_id": 23365548,
+      "night_record_id": 23365548,
+      "delta": {
+        "views": 3,
+        "unique_views": 3,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 1,
+        "version_downloads": 0
+      }
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "morning_record_id": 23365543,
+      "night_record_id": 23365543,
+      "delta": {
+        "views": 1,
+        "unique_views": 1,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 0,
+        "version_downloads": 0
+      }
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "morning_record_id": 23446162,
+      "night_record_id": 23446162,
+      "delta": {
+        "views": 1,
+        "unique_views": 1,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 1,
+        "version_downloads": 0
+      }
+    },
+    {
+      "repository": "life-science-ecosystem-lab",
+      "morning_record_id": 23447089,
+      "night_record_id": 23447089,
+      "delta": {
+        "views": 0,
+        "unique_views": 0,
+        "downloads": 0,
+        "unique_downloads": 0,
+        "version_views": 0,
+        "version_downloads": 0
+      }
+    }
+  ]
+}

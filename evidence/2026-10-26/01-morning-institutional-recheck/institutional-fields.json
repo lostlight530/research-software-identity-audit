@@ -1,0 +1,711 @@
+{
+  "rsd": [
+    {
+      "id": "464dff6a-15a0-4aec-a0fe-4194d504f68b",
+      "slug": "research-software-identity-audit",
+      "brand_name": "research-software-identity-audit",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.23166490"
+    },
+    {
+      "id": "191b90fd-2f95-4b4c-9ade-900f6f3ea320",
+      "slug": "china-agentic-observatory",
+      "brand_name": "\tChina Agentic Observatory",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.22791309"
+    },
+    {
+      "id": "1449689b-49cd-43ae-9dc1-5b5d1f8435c3",
+      "slug": "agentic-frontier-observatory",
+      "brand_name": "Agentic Frontier Observatory",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.22791334"
+    },
+    {
+      "id": "a6cf9529-bf8c-4b09-ad01-99f7e0bca40a",
+      "slug": "welcome-to-github",
+      "brand_name": "welcome-to-github",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.22790907"
+    },
+    {
+      "id": "2f222170-c286-405b-be0f-447e45774740",
+      "slug": "zero-entropy-lab",
+      "brand_name": "Zero-Entropy Lab",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.22791081"
+    },
+    {
+      "id": "8bbb975c-de96-44c3-b148-b9a0217f3ca1",
+      "slug": "axiom-0",
+      "brand_name": "Axiom-0",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.22791103"
+    },
+    {
+      "id": "f68ffd75-0bc3-48fb-bd0b-5897b7fa3663",
+      "slug": "auto-doc-engine",
+      "brand_name": "auto-doc-engine",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.22791404"
+    },
+    {
+      "id": "ec8f4525-1eff-4002-954f-c5f54f952bdd",
+      "slug": "reflective-continuum",
+      "brand_name": "Reflective Continuum",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.22791141"
+    },
+    {
+      "id": "741a4a76-1245-4fda-bd7f-a52671e402e6",
+      "slug": "agent-foundations",
+      "brand_name": "Agent Foundations",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.22791169"
+    },
+    {
+      "id": "ebca619e-ad34-4567-9746-b4ed0236dbcc",
+      "slug": "epistemic-pipeline",
+      "brand_name": "Epistemic Pipeline",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.22791463"
+    },
+    {
+      "id": "286de805-4f74-4830-8c00-17da7ac347ae",
+      "slug": "sci-render-kit",
+      "brand_name": "sci-render-kit",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.22791375"
+    },
+    {
+      "id": "99d9fbcd-837c-4b82-89ba-4ed421a8b7a4",
+      "slug": "hello",
+      "brand_name": "Life Science Ecosystem Lab",
+      "is_published": true,
+      "concept_doi": "10.5281/zenodo.23447088"
+    }
+  ],
+  "nfdi_federated_records": [
+    {
+      "slug": "agent-foundations",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "741a4a76-1245-4fda-bd7f-a52671e402e6",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "slug": "epistemic-pipeline",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "ebca619e-ad34-4567-9746-b4ed0236dbcc",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "slug": "sci-render-kit",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "286de805-4f74-4830-8c00-17da7ac347ae",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "slug": "axiom-0",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "8bbb975c-de96-44c3-b148-b9a0217f3ca1",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "slug": "hello",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "99d9fbcd-837c-4b82-89ba-4ed421a8b7a4",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "slug": "zero-entropy-lab",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "2f222170-c286-405b-be0f-447e45774740",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "slug": "research-software-identity-audit",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "464dff6a-15a0-4aec-a0fe-4194d504f68b",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "slug": "welcome-to-github",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "a6cf9529-bf8c-4b09-ad01-99f7e0bca40a",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "slug": "agentic-frontier-observatory",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "1449689b-49cd-43ae-9dc1-5b5d1f8435c3",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "slug": "reflective-continuum",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "ec8f4525-1eff-4002-954f-c5f54f952bdd",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "slug": "auto-doc-engine",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "f68ffd75-0bc3-48fb-bd0b-5897b7fa3663",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "slug": "china-agentic-observatory",
+      "remote_rsd_id": "c23163da-92f1-48cd-9957-b173c1d1c75c",
+      "remote_software_id": "191b90fd-2f95-4b4c-9ade-900f6f3ea320",
+      "is_published": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    }
+  ],
+  "nfdi_remote_sources": [
+    {
+      "label": "@helmholtz.software",
+      "domain": "https://helmholtz.software",
+      "active": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "label": "@research-software-directory.org",
+      "domain": "https://research-software-directory.org",
+      "active": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    },
+    {
+      "label": "@Text+ Editions Software",
+      "domain": "https://research-software.cceh.uni-koeln.de/",
+      "active": true,
+      "scraped_at": "2026-10-26T03:16:01.629597+00:00"
+    }
+  ],
+  "helmholtz_target_records": 0,
+  "lifemonitor": {
+    "name": "Life Science Knowledge Workflow",
+    "public": true,
+    "aggregate_test_status": "all_passing",
+    "latest_builds": [
+      {
+        "build_id": "40187014291",
+        "status": "passed",
+        "duration": 41,
+        "timestamp": "1792925983"
+      }
+    ],
+    "test_workflow_and_suite_identifiers": "omitted"
+  },
+  "scicrunch": {
+    "identifier": "SCR_029105",
+    "name": "Research Software Identity Audit",
+    "recordValid": true,
+    "validation": {
+      "isValidated": false,
+      "totalValidationSites": {
+        "count": 0
+      }
+    },
+    "properCitation": "Research Software Identity Audit (RRID:SCR_029105)",
+    "ownership": "not established by the public validation field"
+  },
+  "openebench": {
+    "@id": "https://openebench.bsc.es/monitor/tool/life-science-protein-file-audit",
+    "name": "Life Science Protein File Audit",
+    "confidence": "ultimate",
+    "validated": 0,
+    "@version": null,
+    "@timestamp": "2026-10-22T22:00:08.276316602Z"
+  },
+  "swh": {
+    "latest_full_origins": 10,
+    "returned_full_visits": 24,
+    "origins": [
+      {
+        "software_family": "welcome-to-github",
+        "origin": "https://github.com/lostlight530/welcome-to-github",
+        "status": "full",
+        "date": "2026-10-24T15:41:45.044000+00:00",
+        "visit": 4,
+        "snapshot": "371992368a1988590993dcb2195a1c7397a33290"
+      },
+      {
+        "software_family": "zero-entropy-lab",
+        "origin": "https://github.com/lostlight530/zero-entropy-lab",
+        "status": "full",
+        "date": "2026-10-26T03:41:56.095000+00:00",
+        "visit": 3,
+        "snapshot": "38de7f466f4a4cf667af2774c3c486816c6dfe98"
+      },
+      {
+        "software_family": "Axiom-0",
+        "origin": "https://github.com/lostlight530/Axiom-0",
+        "status": "full",
+        "date": "2026-10-14T17:47:26.890000+00:00",
+        "visit": 2,
+        "snapshot": "2c8dc6724efbefb2b2c5ac72fef7ad0051ec1bb9"
+      },
+      {
+        "software_family": "reflective-continuum",
+        "origin": "https://github.com/lostlight530/reflective-continuum",
+        "status": "full",
+        "date": "2026-10-17T19:50:57.149000+00:00",
+        "visit": 3,
+        "snapshot": "33396c4d589d8dc01cc088fadc1dd76fcf8be5a0"
+      },
+      {
+        "software_family": "agent-foundations",
+        "origin": "https://github.com/lostlight530/agent-foundations",
+        "status": "full",
+        "date": "2026-09-16T07:32:06.452000+00:00",
+        "visit": 1,
+        "snapshot": "032ab79524d807d084edc651b155c9d837164868"
+      },
+      {
+        "software_family": "auto-doc-engine",
+        "origin": "https://github.com/lostlight530/auto-doc-engine",
+        "status": "full",
+        "date": "2026-10-24T08:17:11.577000+00:00",
+        "visit": 3,
+        "snapshot": "db610f5f2bf818e3c48b889613a8e1afdcebaba0"
+      },
+      {
+        "software_family": "epistemic-pipeline",
+        "origin": "https://github.com/lostlight530/epistemic-pipeline",
+        "status": "full",
+        "date": "2026-10-10T05:10:27.293000+00:00",
+        "visit": 3,
+        "snapshot": "4381de88404a34ac7ac339e231d36a94dbfac8fb"
+      },
+      {
+        "software_family": "sci-render-kit",
+        "origin": "https://github.com/lostlight530/sci-render-kit",
+        "status": "full",
+        "date": "2026-09-16T07:35:28.635000+00:00",
+        "visit": 1,
+        "snapshot": "56b467c833742734131f7155e34849eb2433ff11"
+      },
+      {
+        "software_family": "china-agentic-observatory",
+        "origin": "https://github.com/lostlight530/china-agentic-observatory",
+        "status": "full",
+        "date": "2026-09-28T00:59:57.737000+00:00",
+        "visit": 2,
+        "snapshot": "dc017f873be49235e8f70f27eff4a779b90f789e"
+      },
+      {
+        "software_family": "agentic-frontier-observatory",
+        "origin": "https://github.com/lostlight530/agentic-frontier-observatory",
+        "status": "full",
+        "date": "2026-09-28T01:02:35.538000+00:00",
+        "visit": 2,
+        "snapshot": "30f496bf959e9b60b604c75522d1e380ef3c85d7"
+      },
+      {
+        "software_family": "research-software-identity-audit",
+        "origin": null,
+        "status": null,
+        "date": null,
+        "visit": null,
+        "snapshot": null
+      },
+      {
+        "software_family": "life-science-ecosystem-lab",
+        "origin": null,
+        "status": null,
+        "date": null,
+        "visit": null,
+        "snapshot": null
+      }
+    ]
+  },
+  "hal": {
+    "public_query_numFound": 0,
+    "prior_researcher_state": "Awaiting moderation",
+    "moderation_result_reverified": false
+  },
+  "edam_terms": [
+    {
+      "uri": "http://edamontology.org/data_1460",
+      "ontology_label": [
+        "Protein structure"
+      ],
+      "found": true
+    },
+    {
+      "uri": "http://edamontology.org/data_2955",
+      "ontology_label": [
+        "Sequence report"
+      ],
+      "found": true
+    },
+    {
+      "uri": "http://edamontology.org/data_2976",
+      "ontology_label": [
+        "Protein sequence"
+      ],
+      "found": true
+    },
+    {
+      "uri": "http://edamontology.org/format_1476",
+      "ontology_label": [
+        "PDB"
+      ],
+      "found": true
+    },
+    {
+      "uri": "http://edamontology.org/format_1929",
+      "ontology_label": [
+        "FASTA"
+      ],
+      "found": true
+    },
+    {
+      "uri": "http://edamontology.org/operation_2403",
+      "ontology_label": [
+        "Sequence analysis"
+      ],
+      "found": true
+    },
+    {
+      "uri": "http://edamontology.org/operation_2406",
+      "ontology_label": [
+        "Protein structure analysis"
+      ],
+      "found": true
+    },
+    {
+      "uri": "http://edamontology.org/topic_0078",
+      "ontology_label": [
+        "Proteins"
+      ],
+      "found": true
+    },
+    {
+      "uri": "http://edamontology.org/topic_0080",
+      "ontology_label": [
+        "Sequence analysis"
+      ],
+      "found": true
+    }
+  ],
+  "metadata_presence": [
+    {
+      "repository": "welcome-to-github",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "Axiom-0",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "reflective-continuum",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "agent-foundations",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "auto-doc-engine",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "sci-render-kit",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "life-science-ecosystem-lab",
+      "cff_present": true,
+      "cff_version_declared": true,
+      "codemeta_json_parseable": true
+    }
+  ],
+  "citeas": [
+    {
+      "repository": "welcome-to-github",
+      "doi": "10.5281/ZENODO.22790907",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint"
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "doi": "10.5281/ZENODO.22791081",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint"
+    },
+    {
+      "repository": "Axiom-0",
+      "doi": "10.5281/ZENODO.22791103",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint"
+    },
+    {
+      "repository": "reflective-continuum",
+      "doi": "10.5281/ZENODO.22791141",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint"
+    },
+    {
+      "repository": "agent-foundations",
+      "doi": "10.5281/ZENODO.22791169",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint"
+    },
+    {
+      "repository": "auto-doc-engine",
+      "doi": "10.5281/ZENODO.22791404",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint"
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "doi": "10.5281/ZENODO.22791463",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint"
+    },
+    {
+      "repository": "sci-render-kit",
+      "doi": "10.5281/ZENODO.22791375",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint"
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "doi": "10.5281/ZENODO.22791309",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint"
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "doi": "10.5281/ZENODO.22791334",
+      "version": "v2026.10-fourteen-day-evidence-checkpoint"
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "doi": "10.5281/ZENODO.23166490",
+      "version": "v2026.10-evidence-integrity"
+    }
+  ],
+  "internet_archive": {
+    "bag_md5": "9d918c2cb7881437c4c04db6c5867124",
+    "bag_md5_matches": true
+  },
+  "openaire": [
+    {
+      "software_family": "welcome-to-github",
+      "current_doi": "10.5281/zenodo.23365504",
+      "matches": 1
+    },
+    {
+      "software_family": "zero-entropy-lab",
+      "current_doi": "10.5281/zenodo.23365551",
+      "matches": 1
+    },
+    {
+      "software_family": "Axiom-0",
+      "current_doi": "10.5281/zenodo.23365534",
+      "matches": 1
+    },
+    {
+      "software_family": "reflective-continuum",
+      "current_doi": "10.5281/zenodo.23365567",
+      "matches": 1
+    },
+    {
+      "software_family": "agent-foundations",
+      "current_doi": "10.5281/zenodo.23365540",
+      "matches": 1
+    },
+    {
+      "software_family": "auto-doc-engine",
+      "current_doi": "10.5281/zenodo.23365510",
+      "matches": 1
+    },
+    {
+      "software_family": "epistemic-pipeline",
+      "current_doi": "10.5281/zenodo.23365517",
+      "matches": 1
+    },
+    {
+      "software_family": "sci-render-kit",
+      "current_doi": "10.5281/zenodo.23365525",
+      "matches": 1
+    },
+    {
+      "software_family": "china-agentic-observatory",
+      "current_doi": "10.5281/zenodo.23365548",
+      "matches": 1
+    },
+    {
+      "software_family": "agentic-frontier-observatory",
+      "current_doi": "10.5281/zenodo.23365543",
+      "matches": 1
+    },
+    {
+      "software_family": "research-software-identity-audit",
+      "current_doi": "10.5281/zenodo.23446162",
+      "matches": 1
+    },
+    {
+      "software_family": "life-science-ecosystem-lab",
+      "current_doi": "10.5281/zenodo.23447089",
+      "matches": 1
+    }
+  ],
+  "rrid_downstream_records": [
+    {
+      "source_key": "scicrunch_json",
+      "records": [
+        {
+          "identifier": "SCR_029105",
+          "name": "Research Software Identity Audit",
+          "recordValid": true,
+          "properCitation": "Research Software Identity Audit (RRID:SCR_029105)"
+        }
+      ]
+    },
+    {
+      "source_key": "rrid_json",
+      "records": [
+        {
+          "identifier": "SCR_029105",
+          "name": "Research Software Identity Audit",
+          "recordValid": true,
+          "properCitation": "Research Software Identity Audit (RRID:SCR_029105)"
+        }
+      ]
+    },
+    {
+      "source_key": "nif_json",
+      "records": [
+        {
+          "identifier": "SCR_029105",
+          "name": "Research Software Identity Audit",
+          "recordValid": true,
+          "properCitation": "Research Software Identity Audit (RRID:SCR_029105)"
+        }
+      ]
+    },
+    {
+      "source_key": "dknet_json",
+      "records": [
+        {
+          "identifier": "SCR_029105",
+          "name": "Research Software Identity Audit",
+          "recordValid": true,
+          "properCitation": "Research Software Identity Audit (RRID:SCR_029105)"
+        }
+      ]
+    }
+  ],
+  "resolver_namespace_metadata": {
+    "bioregistry_rrid": {
+      "prefix": "rrid",
+      "name": "Research Resource Identification",
+      "pattern": "^[a-zA-Z]+.+$",
+      "uri_format": "https://scicrunch.org/resolver/RRID:$1",
+      "mappings": {
+        "biocontext": "RRID",
+        "fairsharing": "FAIRsharing.ATwSZG",
+        "miriam": "rrid",
+        "n2t": "rrid"
+      }
+    },
+    "bioregistry_biotools": {
+      "prefix": "biotools",
+      "name": "BioTools",
+      "pattern": "^[-A-Za-z0-9\\_]*$",
+      "uri_format": "https://bio.tools/$1",
+      "mappings": {
+        "biocontext": "BIOTOOLS",
+        "miriam": "biotools",
+        "n2t": "biotools",
+        "re3data": "r3d100013668"
+      }
+    }
+  },
+  "osf": {
+    "title": "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures",
+    "public": true,
+    "withdrawn": false,
+    "date_registered": "2026-10-05T14:04:13.783851",
+    "resources": [
+      {
+        "resource_type": "materials",
+        "pid": "10.5281/zenodo.23166491",
+        "finalized": true
+      },
+      {
+        "resource_type": "materials",
+        "pid": "10.5281/zenodo.23176748",
+        "finalized": true
+      }
+    ]
+  },
+  "openalex_audit_locations": [
+    {
+      "landing_page_url": "https://doi.org/10.5281/zenodo.23166490",
+      "pdf_url": null
+    },
+    {
+      "landing_page_url": "https://doi.org/10.5281/zenodo.23166491",
+      "pdf_url": null
+    },
+    {
+      "landing_page_url": "https://doi.org/10.5281/zenodo.23176748",
+      "pdf_url": null
+    },
+    {
+      "landing_page_url": "https://doi.org/10.5281/zenodo.23284570",
+      "pdf_url": null
+    },
+    {
+      "landing_page_url": "https://doi.org/10.5281/zenodo.23446162",
+      "pdf_url": null
+    }
+  ]
+}

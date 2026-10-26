@@ -1,0 +1,36 @@
+{
+  "source": "researcher-provided Commons figures and authenticated OpenAIRE My ORCID links transcription",
+  "received_date": "2026-10-26",
+  "precise_page_capture_time": null,
+  "provided_after_live_evening_capture": true,
+  "commons": {
+    "total": 76,
+    "types": {
+      "Software": 56,
+      "Workflow": 19,
+      "StudyRegistration": 1
+    },
+    "repositories": {
+      "Zenodo": 56,
+      "WorkflowHub": 19,
+      "OpenScienceFramework": 1
+    },
+    "licenses": {
+      "MIT": 56,
+      "CC_BY_4_0": 1
+    }
+  },
+  "openaire": {
+    "displayed_orcid_links": 11,
+    "beta_doi": "10.5281/zenodo.23166491",
+    "beta_displayed_results": 2,
+    "beta_result_types": [
+      "Software",
+      "Dataset"
+    ],
+    "portal_sync_notice": "Latest synchronization was on Aug 10, 2026",
+    "notice_interpretation": "portal-displayed sync notice, not a measurement of current backend ingest latency",
+    "researcher_attribution": "prior GitHub account ORCID-links page"
+  },
+  "raw_transcription_publication": "local_only"
+}
