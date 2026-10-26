@@ -105,7 +105,8 @@ class PublicArtifactManifestTests(unittest.TestCase):
         self.assertEqual(result["manifest_count"], 2)
         self.assertEqual(result["failed_manifests"], 1)
         self.assertGreater(result["failed"], 0)
-        self.assertTrue(any("SHA-256 mismatch" in " ".join(item["errors"])\n                            for item in result["results"]))
+        self.assertTrue(any("SHA-256 mismatch" in " ".join(item["errors"])
+                            for item in result["results"]))
 
     def test_all_manifest_discovery_fails_closed_on_empty_evidence(self):
         result = verifier.verify_all(self.root)
