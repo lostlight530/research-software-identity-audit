@@ -10,7 +10,7 @@
 - PR #65 contributed two additional published manifests under `evidence/2026-10-26/` (18 morning and 17 evening rows); the reviewer separately inspected those public bytes, but the **configured future CI checksum step** did not automatically include them
 - Therefore a green job at the base revision could not, solely by its public-artifact step, warrant a claim that the October 26 manifests were checksum-verified
 
-This is a **verification coverage gap**, not a finding of corrupt historical data. No old manifest or byte artifact is rewritten as part of this logic correction.
+This is initially a **verification coverage gap**, not by itself a finding of corrupt historical data. The expanded check subsequently surfaced one concrete historical locator conflict, reconciled below without altering original bytes.
 
 ## Smallest change
 
@@ -21,6 +21,21 @@ This is a **verification coverage gap**, not a finding of corrupt historical dat
 5. Use synthetic temporary-tree tests to prove new manifests are automatically discovered, corrupted later additions fail aggregate verification, and files are never modified
 
 No external API call is introduced. The same verifier continues to stream public file bytes and check normalized relative paths, duplicates and self-reference. This covers **published artifact integrity**, not semantic content correctness or original HTTP transport provenance.
+
+## Newly surfaced historical locator mismatch: October 9
+
+The first all-manifest PR run ([Actions #40354566511](https://github.com/lostlight530/research-software-identity-audit/actions/runs/40354566511)) discovered **13 manifests / 184 entries**; one October 9 manifest had **one file** with both a byte-length and SHA-256 mismatch. The verifier's two error messages describe the **same affected artifact**, not two distinct corrupted files. This run also caught an invalid synthetic test assumption about lexicographic manifest order, corrected in the same PR.
+
+Source chain:
+
+- The [original October 9 facility-recheck commit](https://github.com/lostlight530/research-software-identity-audit/commit/e36ccfbb16d9cbdfbccaa8a73167aee37488235b) recorded `monitoring/2026-10-09/01-facility-recheck/README.md` as **3,904 bytes**, SHA-256 `8834dc1ef68df9a31d0c83ee94738c6df58f167e9eca76f37abd842f7384d0d3`
+- The [later October 9 reviewer commit](https://github.com/lostlight530/research-software-identity-audit/commit/9e62b7ccc3d5fd89d1a8320ff9646dce929e2e24) appended the separate review entrypoint to the mutable README. Its current checkout representation is **4,304 bytes**, so the unchanged original evidence manifest had a stale navigation locator
+- The original 3,904-byte README is now retained under `evidence/2026-10-09/01-facility-recheck/prior-index-snapshots/monitoring-readme-20261009-original.txt`. Its Git blob SHA `c23091e68c90de9c5b57fccbe1afe442d4c26e9a` matches the original commit's blob exactly
+- The original October 9 artifact manifest is independently copied **without edits** to `prior-index-snapshots/artifact-manifest-20261009-original.json` (original Git blob SHA `00f306a70032ed20592f73fa41445de1e400f6bf`)
+- Only the active October 9 manifest's **README locator** is redirected to the byte-identical fixed snapshot, keeping its originally recorded byte count and SHA-256 unchanged. The current human-readable monitoring README remains unchanged
+- `.gitattributes` prevents line-ending normalization of these fixed snapshots, including the original CRLF README, on non-Linux checkouts
+
+This is a **dated source/locator reconciliation**, not a retrospective alteration to a scientific counter, platform request, capture clock, original review or the historical evidence itself. A later correctly updated README remains useful navigation, but cannot satisfy the checksum of the earlier version.
 
 ## Validation and research-contract boundaries
 
