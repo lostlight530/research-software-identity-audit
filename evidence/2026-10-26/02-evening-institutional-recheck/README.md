@@ -11,3 +11,7 @@ Companion of [monitoring record](../../../monitoring/2026-10-26/02-evening-insti
 Full response bodies, HTML and downloaded executable packages remain local. Per-response digests identify those local bytes and do not imply their inclusion here. Test workflow/suite UUIDs and incidental personal information are omitted. Canonical research identifiers needed for attribution remain
 
 The [artifact manifest](artifact-manifest.json) covers published UTF-8 LF files, excluding its self-reference and mutable global indexes
+
+## Attempt mapping scope
+
+The 34-row `surface-attempt-crosswalk.json` provides selected direct evidence pointers for every checklist row; its `attempt_ids` arrays are **not** an exhaustive reverse index of all requests. The authoritative complete attempt ledger is `source-attempts.csv`, where every attempted request, including failed and retried routes, has a `source_row` linking it to the checklist. For complete request coverage and denominators, use the full ledger rather than counting crosswalk pointers
