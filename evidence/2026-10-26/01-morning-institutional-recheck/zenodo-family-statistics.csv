@@ -1,0 +1,13 @@
+object_id,software_family,fixed_corpus,record_id,doi,concept_doi,version,version_count,downloads,unique_downloads,views,unique_views,version_downloads,version_unique_downloads,version_unique_views,version_views
+RS01,welcome-to-github,True,23365504,10.5281/zenodo.23365504,10.5281/zenodo.22790907,v2026.10-fourteen-day-evidence-checkpoint,4,6,5,320,231,1,1,10,12
+RS02,zero-entropy-lab,True,23365551,10.5281/zenodo.23365551,10.5281/zenodo.22791081,v2026.10-fourteen-day-evidence-checkpoint,4,1,1,274,185,1,1,7,7
+RS03,Axiom-0,True,23365534,10.5281/zenodo.23365534,10.5281/zenodo.22791103,v2026.10-fourteen-day-evidence-checkpoint,4,1,1,315,225,1,1,14,14
+RS04,reflective-continuum,True,23365567,10.5281/zenodo.23365567,10.5281/zenodo.22791141,v2026.10-fourteen-day-evidence-checkpoint,4,1,1,246,161,1,1,7,7
+RS05,agent-foundations,True,23365540,10.5281/zenodo.23365540,10.5281/zenodo.22791169,v2026.10-fourteen-day-evidence-checkpoint,4,2,2,283,195,1,1,12,12
+RS06,auto-doc-engine,True,23365510,10.5281/zenodo.23365510,10.5281/zenodo.22791404,v2026.10-fourteen-day-evidence-checkpoint,4,0,0,266,178,0,0,10,12
+RS07,epistemic-pipeline,True,23365517,10.5281/zenodo.23365517,10.5281/zenodo.22791463,v2026.10-fourteen-day-evidence-checkpoint,4,1,1,277,190,1,1,10,11
+RS08,sci-render-kit,True,23365525,10.5281/zenodo.23365525,10.5281/zenodo.22791375,v2026.10-fourteen-day-evidence-checkpoint,4,2,2,261,182,1,1,7,7
+RS09,china-agentic-observatory,True,23365548,10.5281/zenodo.23365548,10.5281/zenodo.22791309,v2026.10-fourteen-day-evidence-checkpoint,4,1,1,288,198,1,1,10,11
+RS10,agentic-frontier-observatory,True,23365543,10.5281/zenodo.23365543,10.5281/zenodo.22791334,v2026.10-fourteen-day-evidence-checkpoint,4,2,2,300,213,1,1,12,12
+CONTROL,research-software-identity-audit,False,23446162,10.5281/zenodo.23446162,10.5281/zenodo.23166490,v2026.10-evidence-integrity,4,5,5,139,130,2,2,23,23
+PILOT,life-science-ecosystem-lab,False,23447089,10.5281/zenodo.23447089,10.5281/zenodo.23447088,v0.4.0,1,5,3,11,8,5,3,8,11

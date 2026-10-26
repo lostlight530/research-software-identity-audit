@@ -52,7 +52,7 @@
       "sha256": "77bcb63bac6a93b426519845052c60e02fd9d437d1db6527a505cdaa92362a31"
     },
     {
-      "path": "evidence/README.md",
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/prior-index-snapshots/evidence-index-20261025.txt",
       "bytes": 3692,
       "sha256": "946f6b2021c1f0b5bc664c0aaa31dffd5aa325fad3a4919162bcc772b3956817"
     },
@@ -72,9 +72,10 @@
       "sha256": "1144f41fe130506907269561592339cd02083e8002cb545b5acc8393d3b39705"
     },
     {
-      "path": "monitoring/README.md",
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/prior-index-snapshots/monitoring-index-20261025.txt",
       "bytes": 19209,
       "sha256": "3255933f944e87ab1544e789658142c50a214b4e3e6e29cae7cf4d443ba30623"
     }
-  ]
+  ],
+  "navigation_reference_reconciliation": "Two mutable index references now resolve to fixed byte-identical copies; see evidence/2026-10-26/01-morning-institutional-recheck/navigation-integrity-reconciliation.md"
 }

@@ -50,3 +50,8 @@ The independently extracted 32-version table is retained under [monitoring/2026-
 ## October 25 later independent institutional recheck
 
 - [2026-10-25 / 02-independent-institutional-recheck](2026-10-25/02-independent-institutional-recheck/README.md) — 162 timestamped attempts; twelve page/API unique pairs match, 76 DOI records, structured ORCID 17/89, SWH four current release chains, source-separated WorkflowHub counts; diagnostic only, zero prospective cells
+
+## October 26 institutional checklist rechecks
+
+- [2026-10-26 / 01-morning-institutional-recheck](2026-10-26/01-morning-institutional-recheck/README.md) — 405 timestamped attempts; 34 supplemental surfaces, 77 identified DOI records, 12-family fields; diagnostic only, zero prospective cells
+- [2026-10-26 / 02-evening-institutional-recheck](2026-10-26/02-evening-institutional-recheck/README.md) — 384 timestamped attempts; 34 supplemental surfaces, 77 identified DOI records, 12-family fields; diagnostic only, zero prospective cells

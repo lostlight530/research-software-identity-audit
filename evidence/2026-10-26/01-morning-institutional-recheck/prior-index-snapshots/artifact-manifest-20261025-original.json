@@ -1,0 +1,80 @@
+{
+  "scope": "public UTF-8 LF projection files excluding this self-manifest",
+  "files": [
+    {
+      "path": "evidence/2026-10-25/02-independent-institutional-recheck/canonical-object-fields.json",
+      "bytes": 24128,
+      "sha256": "1f7e25841f27f571dcc1707368771201307f5d79eb6984e6c04924f702897794"
+    },
+    {
+      "path": "evidence/2026-10-25/02-independent-institutional-recheck/datacite-identifiers.csv",
+      "bytes": 6632,
+      "sha256": "0af39cb9d01d75d107e1416b955912c3cc29f1b1ee8b61a9fe55a205a5530444"
+    },
+    {
+      "path": "evidence/2026-10-25/02-independent-institutional-recheck/institutional-state-extract.json",
+      "bytes": 3108,
+      "sha256": "4bd966631cbf4032af6e424e11e5ffac64b6b9e1312570174d1cc8a76aa0a949"
+    },
+    {
+      "path": "evidence/2026-10-25/02-independent-institutional-recheck/openalex-works.csv",
+      "bytes": 4152,
+      "sha256": "52116ce5f437cd0945483e9e51976d3d87aa35841704d1441b229f86b4cbf992"
+    },
+    {
+      "path": "evidence/2026-10-25/02-independent-institutional-recheck/README.md",
+      "bytes": 1523,
+      "sha256": "ec0a2fae839ceab992ff212003f500b5e69f921cc47cbb892c1a94af2bce9f55"
+    },
+    {
+      "path": "evidence/2026-10-25/02-independent-institutional-recheck/source-attempts.csv",
+      "bytes": 54547,
+      "sha256": "b3ce04375dec421ad0d835f9080f30ba8d8c79a26bb8c7b2dbbd4cc66f807e37"
+    },
+    {
+      "path": "evidence/2026-10-25/02-independent-institutional-recheck/user-page-api-reconciliation.json",
+      "bytes": 1534,
+      "sha256": "8ba19b27911a332323946050a9e76f25ae4c552811a0bc0883c1e3f714449992"
+    },
+    {
+      "path": "evidence/2026-10-25/02-independent-institutional-recheck/user-page-transcription.json",
+      "bytes": 3304,
+      "sha256": "94e958d6ee567446828242f03f54a9d88a7b9107ea7fc5505d3aee0980d22efc"
+    },
+    {
+      "path": "evidence/2026-10-25/02-independent-institutional-recheck/workflowhub-source-comparison.csv",
+      "bytes": 844,
+      "sha256": "2316fbeee22b4848b130fda522a70eb8183aecf07ec1375b456e5f3b13d5e340"
+    },
+    {
+      "path": "evidence/2026-10-25/02-independent-institutional-recheck/zenodo-family-statistics.csv",
+      "bytes": 830,
+      "sha256": "77bcb63bac6a93b426519845052c60e02fd9d437d1db6527a505cdaa92362a31"
+    },
+    {
+      "path": "evidence/README.md",
+      "bytes": 3692,
+      "sha256": "946f6b2021c1f0b5bc664c0aaa31dffd5aa325fad3a4919162bcc772b3956817"
+    },
+    {
+      "path": "monitoring/2026-10-25/02-independent-institutional-recheck/README.md",
+      "bytes": 4252,
+      "sha256": "062b5828ed95e37293f89428fd4bd71e08bff006dd1739f24f9c01ec59d59dd8"
+    },
+    {
+      "path": "monitoring/2026-10-25/02-independent-institutional-recheck/record.json",
+      "bytes": 3827,
+      "sha256": "052195b78622755330cd05b64a319ac57cb5d81f20d67433d123d7b4188952b6"
+    },
+    {
+      "path": "monitoring/2026-10-25/02-independent-institutional-recheck/verification.md",
+      "bytes": 1214,
+      "sha256": "1144f41fe130506907269561592339cd02083e8002cb545b5acc8393d3b39705"
+    },
+    {
+      "path": "monitoring/README.md",
+      "bytes": 19209,
+      "sha256": "3255933f944e87ab1544e789658142c50a214b4e3e6e29cae7cf4d443ba30623"
+    }
+  ]
+}

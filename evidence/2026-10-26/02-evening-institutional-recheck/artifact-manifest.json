@@ -1,0 +1,90 @@
+{
+  "scope": "published UTF-8 LF projection bytes; excludes self-manifest and mutable global indexes",
+  "files": [
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/README.md",
+      "bytes": 1602,
+      "sha256": "6f906dd001d9027f38e94dfe89d014ee3773f18a3f54385d6e514ff2350b04df"
+    },
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/datacite-identifiers.csv",
+      "bytes": 7185,
+      "sha256": "47b0d0caf604991f4684b7b259e17e55aabbdc029f25b690d2dd1e276f847d4c"
+    },
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/doi-resolution-checks.json",
+      "bytes": 18788,
+      "sha256": "2165252045e39e41880ff88aa51a03dd47618de5d2ec80b48effcf19669946cd"
+    },
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/institutional-fields.json",
+      "bytes": 20757,
+      "sha256": "dec2017889b1528b2ba57d2862458f9682b745ee66f4273cc465112fd375f38a"
+    },
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/morning-evening-comparison.json",
+      "bytes": 5859,
+      "sha256": "2de978f94c09f0d3870f4070f969329a202771e5b51142da16c4d99148d33503"
+    },
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/openalex-works.csv",
+      "bytes": 5619,
+      "sha256": "f8301b713832c0250c147b37ce2f6b019070bf788b5dfa98ec86acaa9c9d2f7d"
+    },
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/orcid-source-summary.json",
+      "bytes": 113,
+      "sha256": "caa27e46917cb63c31c66a9cba840739b839405f478a5c4d7d864de888fa7823"
+    },
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/source-attempts.csv",
+      "bytes": 128494,
+      "sha256": "9be3c5a6589a5209412f2ada75c562883c3607453602dbe23d590a3d857dd6f2"
+    },
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/surface-attempt-crosswalk.json",
+      "bytes": 17379,
+      "sha256": "4d4377a61f9f80549f5d33796130280ae431223f1e3ce55c820198fc2aa86b1b"
+    },
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/user-portal-clarification.json",
+      "bytes": 1030,
+      "sha256": "02d31326c0cc1587863e95186f628b545ee21233dd4f0ebb79bed42f158e6413"
+    },
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/workflowhub-activity.csv",
+      "bytes": 1154,
+      "sha256": "0c3ccea3802d9a6edb434ae6177682d41e7174b7157a1af6b0ebf78db496e3e4"
+    },
+    {
+      "path": "evidence/2026-10-26/02-evening-institutional-recheck/zenodo-family-statistics.csv",
+      "bytes": 2001,
+      "sha256": "c5807561bc2f30c8d3621bd57bd856f4641bb900fd7ee5cd122f44f162372dc1"
+    },
+    {
+      "path": "monitoring/2026-10-26/02-evening-institutional-recheck/README.md",
+      "bytes": 2843,
+      "sha256": "9490f12ed72d15e54771c7b0eded0a34c23ad7429b2ef9e89f68b92a70c15e7e"
+    },
+    {
+      "path": "monitoring/2026-10-26/02-evening-institutional-recheck/comparison.md",
+      "bytes": 862,
+      "sha256": "1a6b5ec311206f24276e909353df4366a425a13815e9cb4a0a727f4206746300"
+    },
+    {
+      "path": "monitoring/2026-10-26/02-evening-institutional-recheck/record.json",
+      "bytes": 2993,
+      "sha256": "76ef23634a381b4ae0acd9bcf6f9b08dce351b4d5a44d1c7a74ddbb5a8c5549f"
+    },
+    {
+      "path": "monitoring/2026-10-26/02-evening-institutional-recheck/user-portal-reconciliation.md",
+      "bytes": 1028,
+      "sha256": "ef4d3e2122d643bc151e076c689720cc1146e80e2a7cde306533e240db8c1e60"
+    },
+    {
+      "path": "monitoring/2026-10-26/02-evening-institutional-recheck/verification.md",
+      "bytes": 1060,
+      "sha256": "77c973fe0931ebb131cf6834349a878a1019484483a06d8c95dcdbf90ecde6dd"
+    }
+  ]
+}

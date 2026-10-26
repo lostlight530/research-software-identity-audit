@@ -1,0 +1,95 @@
+{
+  "scope": "published UTF-8 LF projection bytes; excludes self-manifest and mutable global indexes",
+  "files": [
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/README.md",
+      "bytes": 1602,
+      "sha256": "c513876727105fbcaadde62bc8945e58d3b18c4f1e00d8d1813f3af6fead893f"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/datacite-identifiers.csv",
+      "bytes": 7185,
+      "sha256": "2200497d6d079f5d1164a542289cff335ca170ffda0fe2f6c60ce06897e00161"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/doi-resolution-checks.json",
+      "bytes": 18788,
+      "sha256": "2165252045e39e41880ff88aa51a03dd47618de5d2ec80b48effcf19669946cd"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/institutional-fields.json",
+      "bytes": 20757,
+      "sha256": "7f925d63371fb6fb5c922f4ec76e669c469fb7e70eabf3375777bad9e644ce93"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/navigation-integrity-reconciliation.md",
+      "bytes": 928,
+      "sha256": "348b00d558a0f9feb182d3be4de840956e00fdf6c51d6e5ef8acfde8e9c278db"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/openalex-works.csv",
+      "bytes": 5619,
+      "sha256": "f8301b713832c0250c147b37ce2f6b019070bf788b5dfa98ec86acaa9c9d2f7d"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/orcid-source-summary.json",
+      "bytes": 113,
+      "sha256": "caa27e46917cb63c31c66a9cba840739b839405f478a5c4d7d864de888fa7823"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/prior-index-snapshots/artifact-manifest-20261025-original.json",
+      "bytes": 3194,
+      "sha256": "b462827ff2102b4dd76b9d1a2a3928dd8b13e1e970886a2bed32944712e7d04d"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/prior-index-snapshots/evidence-index-20261025.txt",
+      "bytes": 3692,
+      "sha256": "946f6b2021c1f0b5bc664c0aaa31dffd5aa325fad3a4919162bcc772b3956817"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/prior-index-snapshots/monitoring-index-20261025.txt",
+      "bytes": 19209,
+      "sha256": "3255933f944e87ab1544e789658142c50a214b4e3e6e29cae7cf4d443ba30623"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/source-attempts.csv",
+      "bytes": 136374,
+      "sha256": "5e21135b54e187c1e50b127f7b57affc2bcf8c95249ee37c353e50b95a6a2006"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/surface-attempt-crosswalk.json",
+      "bytes": 17377,
+      "sha256": "5198b1aa49cea6fc26755608d54e2fd30b3c7b264020d701bbb17387a017d8f3"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/workflowhub-activity.csv",
+      "bytes": 1154,
+      "sha256": "4f2cffab6e21a7acbc6665ff696d465bbaf186e0b3fc7081161adbc8d431672a"
+    },
+    {
+      "path": "evidence/2026-10-26/01-morning-institutional-recheck/zenodo-family-statistics.csv",
+      "bytes": 2001,
+      "sha256": "3b7655edaffe8cabca8cd4b865ecbb1655e3c13bade258b6fd558c468511ea14"
+    },
+    {
+      "path": "monitoring/2026-10-26/01-morning-institutional-recheck/README.md",
+      "bytes": 2843,
+      "sha256": "96b7fac6f5e2c37a779f0460d0d93e3caca79dd4807dd3a210299cbe6f51da0b"
+    },
+    {
+      "path": "monitoring/2026-10-26/01-morning-institutional-recheck/record.json",
+      "bytes": 3002,
+      "sha256": "1fb39ab52e957bf01707f45c8a239a869630cb4358e632805fae96d5d99188fb"
+    },
+    {
+      "path": "monitoring/2026-10-26/01-morning-institutional-recheck/verification.md",
+      "bytes": 1060,
+      "sha256": "77c973fe0931ebb131cf6834349a878a1019484483a06d8c95dcdbf90ecde6dd"
+    },
+    {
+      "path": "evidence/2026-10-25/02-independent-institutional-recheck/artifact-manifest.json",
+      "bytes": 3575,
+      "sha256": "9fbb0782dbeae25d5da4f329dab1d29ea174ceaf6eb4a8ffa179721b66296a2e"
+    }
+  ]
+}
