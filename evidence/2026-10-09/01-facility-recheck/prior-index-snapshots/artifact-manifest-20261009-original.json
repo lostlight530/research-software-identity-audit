@@ -1,0 +1,74 @@
+{
+  "artifacts": [
+    {
+      "path": "evidence/2026-10-09/01-facility-recheck/capture-manifest.json",
+      "bytes": 111300,
+      "sha256": "6045a26cc9440a24fb9f270a32f2d415afbf9f9a804637940e073fada2e17a0f"
+    },
+    {
+      "path": "evidence/2026-10-09/01-facility-recheck/collection-contract.json",
+      "bytes": 3570,
+      "sha256": "51ffa8693ed29e6b67aaa19921e3affec78487a19fc5e0d91964778ac9095c7b"
+    },
+    {
+      "path": "evidence/2026-10-09/01-facility-recheck/negative-verification.json",
+      "bytes": 490,
+      "sha256": "5ca2939d24b09fdf187e43ace6531c6fe15cace10361be4cefb79481f483c511"
+    },
+    {
+      "path": "evidence/2026-10-09/01-facility-recheck/page-counter-source.json",
+      "bytes": 8117,
+      "sha256": "34b413e0e8e52aba48a59ee6de72ba728f199453c396c1f77341741f96a91b72"
+    },
+    {
+      "path": "evidence/2026-10-09/01-facility-recheck/raw-responses.tar.gz",
+      "bytes": 224529,
+      "sha256": "b251263972c001a328772b3d37efea28b3d7c4da9a069a6bdcc8760ad4e28f48"
+    },
+    {
+      "path": "evidence/2026-10-09/01-facility-recheck/README.md",
+      "bytes": 709,
+      "sha256": "45c826a567310c998f42b66c1738a29529014aa774dca0fa47f8325aecd63f05"
+    },
+    {
+      "path": "monitoring/2026-10-09/01-facility-recheck/capture-summary.json",
+      "bytes": 11924,
+      "sha256": "9509bb3baf116f4c993fbde7a9f805bce93c24fed0c9b029d24ba24db72bf86d"
+    },
+    {
+      "path": "monitoring/2026-10-09/01-facility-recheck/datacite-identifiers.csv",
+      "bytes": 3305,
+      "sha256": "e3502f1b05e7bff631721270e8e3296a5de1f84f2dd702dee9a2423407e39d9e"
+    },
+    {
+      "path": "monitoring/2026-10-09/01-facility-recheck/platform-states.csv",
+      "bytes": 3860,
+      "sha256": "8422aaab7badbdc3cd4eed7812a45910baf5fa784ea7adcd866a63fdfb3fd071"
+    },
+    {
+      "path": "monitoring/2026-10-09/01-facility-recheck/README.md",
+      "bytes": 3904,
+      "sha256": "8834dc1ef68df9a31d0c83ee94738c6df58f167e9eca76f37abd842f7384d0d3"
+    },
+    {
+      "path": "monitoring/2026-10-09/01-facility-recheck/record.yaml",
+      "bytes": 638,
+      "sha256": "45fb272b6c0eae22ba9d7f04d9210956fd0cd53edf0016077049be3301af65a1"
+    },
+    {
+      "path": "monitoring/2026-10-09/01-facility-recheck/zenodo-delta.csv",
+      "bytes": 1220,
+      "sha256": "035fad45ccacf4d8d2917c47e6fe170fe37d89bdd384c9103fadc7d25ed8a3cb"
+    },
+    {
+      "path": "monitoring/2026-10-09/01-facility-recheck/zenodo-statistics.csv",
+      "bytes": 2153,
+      "sha256": "a53147eb027cf8ad22c9e2e030740aef586ef00bef0efe2438a50a521ec3ae6d"
+    },
+    {
+      "path": "tools/check_retained_facility_evidence.py",
+      "bytes": 6538,
+      "sha256": "4de9a5ec4158963b584154aece582b659d7e21b6d35a5e80f562af3cf6795290"
+    }
+  ]
+}

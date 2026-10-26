@@ -62,6 +62,12 @@ A later public endpoint does not replay a historical state. A DOI or successful 
 
 [Observation assurance and claim boundaries](observation-assurance-2026-10-25.md) documents what the existing checker can reject and what still requires researcher/source-evidence acceptance: seven platform-to-layer joins, clock comparability, prospective preflight, independent source attribution, projection versus raw bytes, incomplete retrievals, and non-equivalent counters. It is an **implementation review**, not a new OSF research contract, observation, amendment, scheduled timepoint, or data update. The synthetic unit-test entry is in [tools](../tools/README.md#observation-semantic-preflight-2026-10-25).
 
+
+## Public manifest coverage reconciliation (2026-10-26)
+
+[The dated integrity-check coverage review](public-manifest-coverage-reconciliation-2026-10-26.md) documents why the old hard-coded October 25 manifest entry did not automatically cover the October 26 morning/evening published artifacts, and the read-only, standard-library `--all` discovery fix. It changes **checker coverage**, not historical evidence, OSF contract, baseline, schedule, platform counters or prospective dataset. The CI check remains advisory; consult the step result before claiming that all published bytes passed verification.
+
+
 ## Seven-platform evidence semantics (2026-10-25)
 
 [The seven-platform reviewer decision map](platform-evidence-semantics-2026-10-25.md) records each platform's concrete object grain, positive and negative claim boundaries, retrieval-clock interpretation, exact source links and invalid cross-platform implications. It is a **non-data implementation review** that does not amend OSF or create a new analytic layer. Apply this guide when reviewing assertions supported by GitHub, Zenodo, DataCite, ORCID, Software Heritage, OpenAIRE or OpenAlex.

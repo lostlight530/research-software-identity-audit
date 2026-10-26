@@ -59,6 +59,16 @@ Run `python -B tools/check_public_artifact_manifest.py` to verify the 15 manifes
 
 The manifest check is a **published-object integrity** check, **not** authentication or reproduction of the local-only original HTTP response bytes. It does not claim external platform correctness, semantic truth, original transport availability, or a newly scheduled observation. The synthetic tamper/missing/duplicate tests live in `tests/test_public_artifact_manifest.py`; both verifier and tests run in advisory CI. No historical evidence is rewritten.
 
+
+## All-manifest integrity coverage reconciliation (2026-10-26)
+
+The previous default command checked the October 25 artifact manifest only, so the new October 26 manifests were **not in the configured CI checksum step**, even though the rest of CI could be green. This was an assurance-coverage gap, not evidence that the October 26 artifacts were invalid or that third-party platform claims were correct.
+
+Run `python -B tools/check_public_artifact_manifest.py --all` to discover every `evidence/**/artifact-manifest.json` on the checked-out branch and verify **all** declared published files. Output lists each manifest, row count and failures; a newly added manifest is automatically included, and no discovered manifests is an explicit failure. `--manifest PATH` and the historical no-argument default remain supported for targeted checks. The all-manifest step is still **advisory** in CI, consistent with bootstrap validation policy. Read the actual step log, not only the workflow conclusion.
+
+This verifier is offline and read-only. It does **not** assert historical raw HTTP bytes were independently replayed, nor does it validate platform authenticity, data interpretation, scientific conclusions or prospective eligibility. See the [dated coverage reconciliation](../docs/public-manifest-coverage-reconciliation-2026-10-26.md).
+
+
 ## General tooling responsibilities
 
 Tools should:

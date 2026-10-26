@@ -79,5 +79,48 @@ class PublicArtifactManifestTests(unittest.TestCase):
             verifier.verify(self.manifest, self.root)
 
 
+    def test_discovery_finds_later_manifest_and_checks_its_bytes(self):
+        self.write_manifest()
+        later = self.root / "evidence/2026-10-26/01-review/artifact-manifest.json"
+        later.parent.mkdir(parents=True)
+        later.write_text(json.dumps({"files": [{
+            "path": "evidence/test.json",
+            "bytes": self.payload.stat().st_size,
+            "sha256": hashlib.sha256(self.payload.read_bytes()).hexdigest(),
+        }]}), encoding="utf-8")
+        result = verifier.verify_all(self.root)
+        self.assertEqual(result["manifest_count"], 2)
+        self.assertEqual(result["artifact_rows"], 2)
+        self.assertEqual(result["failed"], 0)
+        self.assertEqual(result["failed_manifests"], 0)
+
+        # A newly discovered manifest must not be silently ignored by the
+        # previously single-manifest CI entry point.
+        later.write_text(json.dumps({"files": [{
+            "path": "evidence/test.json",
+            "bytes": self.payload.stat().st_size,
+            "sha256": "0" * 64,
+        }]}), encoding="utf-8")
+        result = verifier.verify_all(self.root)
+        self.assertEqual(result["manifest_count"], 2)
+        self.assertEqual(result["failed_manifests"], 1)
+        self.assertGreater(result["failed"], 0)
+        self.assertTrue(any("SHA-256 mismatch" in " ".join(item["errors"])
+                            for item in result["results"]))
+
+    def test_all_manifest_discovery_fails_closed_on_empty_evidence(self):
+        result = verifier.verify_all(self.root)
+        self.assertEqual(result["manifest_count"], 0)
+        self.assertNotEqual(result["failed"], 0)
+
+    def test_all_manifest_discovery_does_not_edit_original_data(self):
+        self.write_manifest()
+        before = self.payload.read_bytes()
+        manifest_before = self.manifest.read_bytes()
+        verifier.verify_all(self.root)
+        self.assertEqual(self.payload.read_bytes(), before)
+        self.assertEqual(self.manifest.read_bytes(), manifest_before)
+
+
 if __name__ == "__main__":
     unittest.main()

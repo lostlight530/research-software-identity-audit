@@ -83,15 +83,66 @@ def verify(manifest_path: Path, root: Path = ROOT) -> dict:
     }
 
 
+
+def discover_manifests(root: Path = ROOT) -> list[Path]:
+    """Discover dated published-artifact manifests without relying on one cutoff day."""
+    return sorted((root.resolve() / "evidence").rglob("artifact-manifest.json"))
+
+
+def verify_all(root: Path = ROOT) -> dict:
+    """Read-only integrity check of every discovered public artifact manifest."""
+    root = root.resolve()
+    paths = discover_manifests(root)
+    if not paths:
+        return {
+            "mode": "all",
+            "manifest_count": 0,
+            "artifact_rows": 0,
+            "failed_manifests": 0,
+            "failed": 1,
+            "errors": ["no evidence artifact manifests discovered"],
+            "results": [],
+            "scope": "published file integrity only; not source authenticity",
+        }
+    results = []
+    for path in paths:
+        try:
+            result = verify(path, root)
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            result = {
+                "manifest": path.relative_to(root).as_posix(),
+                "artifact_rows": 0,
+                "failed": 1,
+                "errors": [str(exc)],
+            }
+        results.append(result)
+    return {
+        "mode": "all",
+        "manifest_count": len(paths),
+        "artifact_rows": sum(item.get("artifact_rows", 0) for item in results),
+        "failed_manifests": sum(bool(item["failed"]) for item in results),
+        "failed": sum(item["failed"] for item in results),
+        "results": results,
+        "scope": "published file integrity only; not source authenticity",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--manifest", default=DEFAULT,
-                        help="Repository-relative artifact manifest (no rewriting)")
+    selector = parser.add_mutually_exclusive_group()
+    selector.add_argument("--manifest", default=None,
+                          help="One repository-relative artifact manifest (default: October 25)")
+    selector.add_argument("--all", action="store_true",
+                          help="Verify all evidence/**/artifact-manifest.json files")
     args = parser.parse_args()
-    try:
-        result = verify(ROOT / args.manifest)
-    except (OSError, ValueError, json.JSONDecodeError) as exc:
-        result = {"manifest": args.manifest, "failed": 1, "errors": [str(exc)]}
+    if args.all:
+        result = verify_all(ROOT)
+    else:
+        selected = args.manifest or DEFAULT
+        try:
+            result = verify(ROOT / selected)
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            result = {"manifest": selected, "failed": 1, "errors": [str(exc)]}
     print(json.dumps(result, indent=2, ensure_ascii=False))
     return int(result["failed"] != 0)
 
