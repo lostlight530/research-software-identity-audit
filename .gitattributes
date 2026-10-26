@@ -20,3 +20,7 @@ monitoring/2026-10-15/01-morning-facility-recheck/** text eol=lf
 /monitoring/2026-10-20/01-independent-research-recheck/** text eol=lf
 /evidence/2026-10-20/01-independent-research-recheck/** text eol=lf
 /tools/check_research_recheck_20261020.py text eol=lf
+
+# Preserve the exact original October 9 CRLF README and manifest snapshot bytes.
+# These historical copies are verification targets, not editable navigation.
+evidence/2026-10-09/01-facility-recheck/prior-index-snapshots/** -text
