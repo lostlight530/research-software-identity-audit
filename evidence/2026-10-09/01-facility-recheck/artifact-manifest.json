@@ -46,7 +46,7 @@
       "sha256": "8422aaab7badbdc3cd4eed7812a45910baf5fa784ea7adcd866a63fdfb3fd071"
     },
     {
-      "path": "monitoring/2026-10-09/01-facility-recheck/README.md",
+      "path": "evidence/2026-10-09/01-facility-recheck/prior-index-snapshots/monitoring-readme-20261009-original.txt",
       "bytes": 3904,
       "sha256": "8834dc1ef68df9a31d0c83ee94738c6df58f167e9eca76f37abd842f7384d0d3"
     },
@@ -70,5 +70,6 @@
       "bytes": 6538,
       "sha256": "4de9a5ec4158963b584154aece582b659d7e21b6d35a5e80f562af3cf6795290"
     }
-  ]
+  ],
+  "navigation_reference_reconciliation": "October 26, 2026: original README grew in later October 9 reviewer update; original manifest and 3904-byte file are preserved in prior-index-snapshots; see docs/public-manifest-coverage-reconciliation-2026-10-26.md. This changes the verification locator only, not an observation."
 }
