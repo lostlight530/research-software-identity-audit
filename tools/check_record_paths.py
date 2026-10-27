@@ -39,6 +39,8 @@ def check_projection_ledger(event: Path, record: dict) -> list[str]:
     A batch envelope is not an individual request time.
     """
     if "source_attempt_rows" not in record:
+        if record.get("record_class") == "diagnostic_monitoring_selected_public_fields":
+            return [f"{event.as_posix()}: diagnostic projection missing source_attempt_rows"]
         return []
 
     errors: list[str] = []
@@ -102,6 +104,7 @@ def check_projection_ledger(event: Path, record: dict) -> list[str]:
                  or record.get("prospective_cells_added") != 0)):
         errors.append(f"{label}: diagnostic projection may not declare prospective cells")
     return errors
+
 
 def valid_date(s: str) -> bool:
     try:
