@@ -146,3 +146,5 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 - [2026-10-26 / 01-morning-institutional-recheck](2026-10-26/01-morning-institutional-recheck/README.md) — 405 timestamped attempts; 34 supplemental surfaces, 77 identified DOI records, 12-family fields; diagnostic only, zero prospective cells
 - [2026-10-26 / 02-evening-institutional-recheck](2026-10-26/02-evening-institutional-recheck/README.md) — 384 timestamped attempts; 34 supplemental surfaces, 77 identified DOI records, 12-family fields; diagnostic only, zero prospective cells
+
+- [2026-10-27 / 01-bounded-seven-platform-recheck](2026-10-27/01-bounded-seven-platform-recheck/) — GitHub Release-list census and bounded official-platform field extraction; selected Zenodo/OSF/DataCite/ORCID/SWH/OpenAIRE/OpenAlex diagnostics; unresolved OpenAlex query-shape conflict, blocked SWH control read; zero prospective cells
