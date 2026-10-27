@@ -121,3 +121,24 @@ Run `python -B tools/check_local_handoff_20261024.py` for a local **offline and 
 ## Dated monitoring / evidence path and ownership check (2026-10-24)
 
 Run `python -B tools/check_record_paths.py` to validate the documented [naming contract](../monitoring/NAMING.md) **without renaming original records**. It checks event-directory date/ordinal/kebab envelopes, every human entrypoint, exactly one YAML/JSON machine record for monitoring events except the declared offline-only replay, date-local sequential numbering, full monitoring-index coverage, and matching event identity for separately stored evidence companions. It also validates the new additive legacy README links. CI runs it as an **advisory** step; read the step result, not merely the workflow's green status. This does not query scholarly services, verify source authenticity, or produce a prospective observation. See [the dated classification review](../docs/record-path-classification-review-2026-10-24.md).
+
+
+## Bounded diagnostic monitoring projection consistency (2026-10-27)
+
+The existing read-only `tools/check_record_paths.py` also checks a **self-declared**
+`source_attempt_rows` in a dated JSON monitoring record against its adjacent
+`source-attempts.csv`, when that field is present. It checks row count, duplicate
+attempt IDs, required fields, timezone-aware batch clocks and membership of
+row batch windows in the declared record envelope. Earlier event formats
+without this field are not migrated or reclassified. Synthetic negative tests:
+
+```bash
+python -m unittest discover -s tests -p "test_monitoring_projection.py" -v
+python -B tools/check_record_paths.py
+```
+
+This is `LOCAL_PROJECTION_CONSISTENCY` only. A batch window is **not** an
+individual HTTP request timestamp. This validator neither authenticates third-party
+response bytes nor proves freshness, completeness, the correctness of numeric
+claims, OSF prospective eligibility, or independent reproducibility. Keep the
+CI step advisory while schemas and evidence representation mature.
