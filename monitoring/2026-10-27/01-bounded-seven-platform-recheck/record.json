@@ -1,0 +1,123 @@
+{
+  "record_class": "diagnostic_monitoring_selected_public_fields",
+  "logical_date": "2026-10-27",
+  "logical_timezone": "Asia/Shanghai",
+  "batch_start_utc": "2026-10-27T15:23:29.374Z",
+  "batch_end_utc": "2026-10-27T15:23:31.596Z",
+  "original_http_response_bytes_retained": false,
+  "origin_server_response_headers_retained": false,
+  "source_clients": [
+    "connected GitHub API release lists",
+    "public web/JSON content extractor"
+  ],
+  "source_freshness_and_cache_bypass_proven": false,
+  "individual_request_clock_available": false,
+  "base_main_commit": "089ad2ae4c337b1997950f43e7639ced673ab64a",
+  "open_pr_count_before_change": 0,
+  "contract": {
+    "osf_registration_doi": "10.17605/OSF.IO/5B329",
+    "fixed_objects": "RS01-RS10",
+    "analytic_layers": 6,
+    "operational_platforms": 7,
+    "units_per_eligible_scheduled_point": 60,
+    "possible_platform_checks_not_units": 70,
+    "concrete_offsets_declared": false,
+    "control_is_RS11": false
+  },
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "source_attempt_rows": 22,
+  "github": {
+    "fixed_repository_count": 10,
+    "releases_per_fixed_repository": 4,
+    "latest_fixed_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+    "latest_fixed_published_date_utc": "2026-10-14",
+    "control_releases": 4,
+    "control_latest_tag": "v2026.10-evidence-integrity",
+    "scope": "published Release list only; no exhaustive refs audit"
+  },
+  "zenodo": {
+    "scope": "RS01 latest-version API only",
+    "doi": "10.5281/zenodo.23365504",
+    "views": 328,
+    "unique_views": 239,
+    "downloads": 6,
+    "version_views": 13,
+    "previous_same_shape_2026_10_26_evening": {
+      "views": 322,
+      "unique_views": 233,
+      "downloads": 6,
+      "version_views": 12
+    },
+    "observed_field_differences": {
+      "views": 6,
+      "unique_views": 6,
+      "downloads": 0,
+      "version_views": 1
+    },
+    "difference_is_not_unique_users_or_proven_fresh_origin_growth": true
+  },
+  "datacite": {
+    "scope": "OSF DOI only",
+    "identifier": "10.17605/OSF.IO/5B329",
+    "state": "findable",
+    "type": "StudyRegistration",
+    "record_updated_at": "2026-10-06T09:49:36.000Z"
+  },
+  "orcid": {
+    "scope": "public researcher works endpoint",
+    "accessible_text": true,
+    "work_groups": null,
+    "work_summaries": null,
+    "representation": "flattened; no reliable hierarchy recount"
+  },
+  "software_heritage": {
+    "rs01_latest_visit": {
+      "status": "full",
+      "visit": 4,
+      "visit_date": "2026-10-24T15:41:45.044000+00:00"
+    },
+    "control_latest_visit": {
+      "state": "BLOCKED_ANUBIS_HTML",
+      "visit": null
+    },
+    "absence_inferred": false
+  },
+  "openaire": {
+    "scope": "one exact RS01 version DOI",
+    "doi": "10.5281/zenodo.23365504",
+    "total": 1,
+    "record_status": "UNDER_CURATION",
+    "other_fixed_versions_queried": false
+  },
+  "openalex": {
+    "author_id": "A5151904252",
+    "full_profile_works_count": 30,
+    "selected_minimal_works_count": 21,
+    "selected_plus_citation_works_count": 32,
+    "author_works_query_reported_count": 32,
+    "query_shape_conflict": "UNRESOLVED",
+    "cause_unknown": true
+  },
+  "osf": {
+    "registration_id": "5b329",
+    "public": true,
+    "reviews_state": "accepted",
+    "date_modified": "2026-10-06T09:49:34.548421Z",
+    "original_to_updated_revision_diff": "NOT_VERIFIED",
+    "associated_project_is_distinct": true
+  },
+  "unresolved": [
+    "OpenAlex author profile query-shape-dependent counts",
+    "SWH control origin challenge",
+    "ORCID structured group/summary recount not available",
+    "Complete 10x7 current-platform sweep not attempted",
+    "Raw origin bytes, response headers, individual request timestamps, cache freshness not preserved",
+    "Concrete prospective operational offsets remain undeclared"
+  ],
+  "files": [
+    "README.md",
+    "record.json",
+    "source-attempts.csv"
+  ]
+}
