@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import csv
-import json
 import sys
 import tempfile
 import unittest
@@ -93,6 +92,10 @@ class BoundedProjectionLedgerTests(unittest.TestCase):
     def test_diagnostic_is_not_prospective(self):
         self.record["prospective_cells_added"] = 60
         self.assertIn("may not declare prospective", " ".join(self.errors()))
+
+    def test_missing_opt_in_count_for_this_record_class_is_rejected(self):
+        del self.record["source_attempt_rows"]
+        self.assertIn("missing source_attempt_rows", " ".join(self.errors()))
 
     def test_legacy_records_are_unmodified_and_unchecked(self):
         self.assertEqual(check_projection_ledger(self.event, {"record_class": "legacy"}), [])
