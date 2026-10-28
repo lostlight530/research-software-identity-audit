@@ -1,0 +1,78 @@
+{
+  "record_class": "diagnostic_monitoring_selected_public_fields",
+  "logical_date": "2026-10-29",
+  "logical_timezone": "Asia/Shanghai",
+  "batch_start_utc": "2026-10-28T16:47:37Z",
+  "batch_end_utc": "2026-10-28T16:48:56Z",
+  "clock_provenance": "conservative observer-side terminal clock bracket, not per-request timestamps or origin-server clocks",
+  "base_main_commit": "4cacb9b617d2e0383ffca8c757e66c5a44a5a793",
+  "open_pr_count_before_change": 0,
+  "source_attempt_rows": 18,
+  "source_clients": [
+    "connected GitHub connector repository Releases API",
+    "third-party public-content extractor"
+  ],
+  "original_http_response_bytes_retained": false,
+  "origin_response_headers_retained": false,
+  "individual_request_clock_available": false,
+  "external_source_freshness_proven": false,
+  "external_extractor_acquisition_days_utc": {
+    "Zenodo": "2026-10-28",
+    "DataCite": "2026-10-28",
+    "ORCID": "2026-10-28",
+    "Software Heritage": "2026-10-28",
+    "OpenAIRE": "2026-10-27",
+    "OpenAlex": "2026-10-28",
+    "OSF": "2026-10-28"
+  },
+  "contract": {
+    "registration": "10.17605/OSF.IO/5B329",
+    "fixed_objects": "RS01–RS10",
+    "control_repository_is_rs11": false,
+    "analytic_layers": 6,
+    "units_per_eligible_scheduled_point": 60,
+    "operational_platforms": 7,
+    "possible_object_platform_checks_not_units": 70,
+    "concrete_operational_offsets_declared": false
+  },
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "github": {
+    "scope": "11 published Release API lists, per_page=100; does not include a full Git refs/drafts census",
+    "fixed_corpus_repositories_queried": 10,
+    "release_count_each": 4,
+    "latest_fixed_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+    "latest_fixed_release_published_day_utc": "2026-10-14",
+    "control_release_count": 4,
+    "control_latest_tag": "v2026.10-evidence-integrity",
+    "control_latest_published_at_utc": "2026-10-18T04:38:57Z",
+    "comparison_to_2026_10_27": "no change in the observed published Release-list fields; no claim about unseen events"
+  },
+  "external_platforms": {
+    "Zenodo": "EARLIER_ACQUIRED_EXTRACT_NOT_TODAY_CERTIFIED",
+    "DataCite": "EARLIER_ACQUIRED_EXTRACT_NOT_TODAY_CERTIFIED",
+    "ORCID": "DEGRADED_FLATTENED_EARLIER_EXTRACT",
+    "Software_Heritage": "BLOCKED_ANTIBOT_EARLIER_EXTRACT",
+    "OpenAIRE": "EARLIER_ACQUIRED_EXTRACT_NOT_TODAY_CERTIFIED",
+    "OpenAlex": "EARLIER_EXTRACT_UNRESOLVED_QUERY_SHAPE_CONFLICT",
+    "OSF": "EARLIER_EXTRACT_NO_FROZEN_REVISION_DIFF"
+  },
+  "additional_access_note": "Separate direct web source opens earlier in this conversation returned 403, cache miss or URL-not-accessible responses; they are not source-level absence and have no authenticated per-request clocks, so are not conflated with the 18 focused ledger rows.",
+  "changes_to_frozen_contract": false,
+  "changes_to_schedule": false,
+  "changes_to_baseline": false,
+  "unresolved": [
+    "No certified same-day 2026-10-29 external-platform source capture; acquired_at is day-granularity not per-request timestamp",
+    "No original external HTTP body/headers; no cache-bypass proof",
+    "ORCID structured work grouping not counted",
+    "SWH CONTROL blocked by Anubis; preservation state unknown",
+    "OpenAlex profile query-shape conflict still unresolved",
+    "OSF registered-vs-updated version diff not recovered",
+    "Prospective operational offsets not declared"
+  ],
+  "files": [
+    "README.md",
+    "record.json",
+    "source-attempts.csv"
+  ]
+}
