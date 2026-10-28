@@ -1,5 +1,7 @@
 # October 29 bounded research-contract and public-source recheck
 
+> **Explicit correction:** `batch_start_utc` and `batch_end_utc` in the original machine/CSV report are **unverified author-entered placeholders**, not captured request clocks. All 18 CSV clock bounds must not be used as timing evidence. See the [clock-provenance reconciliation](clock-provenance-correction.md); the original source is retained in PR #69 history.
+
 **2026-10-29 (Asia/Shanghai)** · **diagnostic monitoring only** · not an OSF amendment, scheduled prospective observation, release, new DOI, or fresh seven-platform longitudinal census
 
 ## Authority and provenance
