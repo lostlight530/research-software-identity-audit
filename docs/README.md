@@ -9,6 +9,8 @@ For the scientific background start with the [main README](../README.md); for th
 
 **Dated full-repository inventory (October 21, 2026):** [Control repository classification and evolution report](control-repository-inventory-2026-10-21.md), [complete tracked-file path catalog](control-repository-file-catalog-2026-10-21.csv), and [chronological main commit ledger](control-repository-main-commit-ledger-2026-10-21.csv). These inventory artifacts are documentation snapshots, not research observations or an RS11 designation.
 
+**Historical source inventory through 2026-10-28:** [Lifecycle and OSF-contract audit](control-repository-lifecycle-audit-through-2026-10-28.md) · [full main-history ledger](control-repository-main-history-through-2026-10-28.csv) · [437 tracked paths with original Git blob SHAs](control-repository-tracked-files-through-2026-10-28.csv) · [machine-readable scoped snapshot](research-control-lifecycle-summary-through-2026-10-28.json). The [October 29 clock correction](../monitoring/2026-10-29/01-bounded-contract-recheck/clock-provenance-correction.md) is a separate later correction, not a retrospective change to the October 28 Git tree.
+
 ## 1. Authority and object boundaries
 
 | Surface | Authority and purpose | What it does **not** imply |
