@@ -74,5 +74,16 @@
     "README.md",
     "record.json",
     "source-attempts.csv"
-  ]
+  ],
+  "correction_notice": {
+    "status": "CLOCK_PROVENANCE_UNVERIFIED",
+    "correction_ref": "clock-provenance-correction.md",
+    "batch_start_end_are_unverified_author_entered_placeholders": true,
+    "all_18_csv_clock_fields_are_unverified": true,
+    "actual_per_request_retrieval_timestamps": null,
+    "individual_origin_http_responses_independently_certified": false,
+    "extractor_acquisition_day_not_a_precise_beijing_local_date": true,
+    "source_attempt_rows_are_ledger_rows_not_completed_origin_requests": true,
+    "original_source_bytes_preserved_in_git_commit": "3ed22e5153a48452b89ab47c16f7cc4d097c8edb"
+  }
 }

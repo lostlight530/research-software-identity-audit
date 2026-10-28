@@ -22,6 +22,8 @@ The study is publicly preregistered on OSF and examines how a fixed corpus of re
 
 **October 21, 2026 complete control-repository path inventory:** [Dated file classification and main-history audit](docs/control-repository-inventory-2026-10-21.md) · [path-level catalog](docs/control-repository-file-catalog-2026-10-21.csv) · [71-commit main history](docs/control-repository-main-commit-ledger-2026-10-21.csv). Snapshot documentation only; this repository is **not RS11**.
 
+**Reconstructed control-repository lifecycle through October 28, 2026:** [pinned 87-commit / 437-file OSF contract and evidence audit](docs/control-repository-lifecycle-audit-through-2026-10-28.md). This is a retrospective Git snapshot, not a scheduled prospective observation. The [October 29 diagnostic clock correction](monitoring/2026-10-29/01-bounded-contract-recheck/clock-provenance-correction.md) is explicitly after the historical cutoff.
+
 ## Start here — documentation and repository navigation
 
 For contributors and independent reviewers, the [**documentation map**](docs/README.md) identifies the authoritative owner of each folder, study/object boundaries, evidence levels, and the docs-only maintenance process.
