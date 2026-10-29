@@ -154,3 +154,8 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 - [2026-10-29 / 01-bounded-contract-recheck](2026-10-29/01-bounded-contract-recheck/README.md) — 11 fresh GitHub Release-list checks plus seven external-source access attempts with acquisition-date limits; GitHub counts unchanged within Release-list scope, external freshness not certified, zero prospective cells
 
 - [2026-10-29 / 02-independent-release-gate-recheck](2026-10-29/02-independent-release-gate-recheck/README.md) — independent connected-GitHub API pass over all 11 published Release lists with a directly measured client-side tool envelope and 11-row selected-field ledger; identical bounded Release-list fields to the earlier diagnostic. The earlier [01 clock-provenance correction](2026-10-29/01-bounded-contract-recheck/clock-provenance-correction.md) remains authoritative for its unsupported timing claims. External-platform and OSF revision checks remain unresolved; zero prospective cells.
+
+
+## October 30 OSF original-versus-revised contract-text reconciliation
+
+- [2026-10-30 / 01-osf-schema-response-version-reconciliation](2026-10-30/01-osf-schema-response-version-reconciliation/README.md) — public OSF API comparison of **two approved Schema Response versions**, with a 29-key comparison and **only `344-83` (Other planned analysis) changed**. Original and revised wording, version identity/time fields, the revision author's justification and collector/clock limitations are retained separately. This resolves a **previously unknown original-version field difference**, without rewriting the 2026-10-08 crosswalk, amending the OSF contract, backdating exploratory analyses or producing prospective cells.
