@@ -152,3 +152,5 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 29 bounded contract and source-access recheck
 
 - [2026-10-29 / 01-bounded-contract-recheck](2026-10-29/01-bounded-contract-recheck/README.md) — 11 fresh GitHub Release-list checks plus seven external-source access attempts with acquisition-date limits; GitHub counts unchanged within Release-list scope, external freshness not certified, zero prospective cells
+
+- [2026-10-29 / 02-independent-release-gate-recheck](2026-10-29/02-independent-release-gate-recheck/README.md) — independent connected-GitHub API pass over all 11 published Release lists with a directly measured client-side tool envelope and 11-row selected-field ledger; identical bounded Release-list fields to the earlier diagnostic. The earlier [01 clock-provenance correction](2026-10-29/01-bounded-contract-recheck/clock-provenance-correction.md) remains authoritative for its unsupported timing claims. External-platform and OSF revision checks remain unresolved; zero prospective cells.
