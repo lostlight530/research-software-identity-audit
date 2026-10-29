@@ -1,0 +1,61 @@
+{
+  "classification": "READ_ONLY_VERSION_COMPARISON_NOT_PROSPECTIVE_OBSERVATION",
+  "logical_date": "2026-10-30",
+  "logical_timezone": "Asia/Shanghai",
+  "study_registration": "https://osf.io/5b329/overview",
+  "source_relationship": "https://api.osf.io/v2/registrations/5b329/schema_responses/",
+  "source_urls": {
+    "original": "https://api.osf.io/v2/schema_responses/6ac3ae5e6da32e3d0576ed72/",
+    "latest": "https://api.osf.io/v2/schema_responses/6ac4c12fed97b8b77ce88a9c/",
+    "list": "https://api.osf.io/v2/registrations/5b329/schema_responses/"
+  },
+  "source_reader": "Third-party text/JSON extractor of public official API; no unmodified origin HTTP response bytes/headers retained",
+  "tool_client_envelope_utc": {
+    "start": "2026-10-29T16:09:26.476Z",
+    "end": "2026-10-29T16:09:29.810Z",
+    "meaning": "Tool orchestration start/end only; not exact individual request or original server timestamps"
+  },
+  "comparison_method": "Parse accessible JSON representation returned for each schema_response ID, compare all revision_responses values by JSON structural equality, field for field",
+  "schema_response_count_in_list": 2,
+  "compared_field_count": 29,
+  "unchanged_field_count": 28,
+  "changed_field_ids": [
+    "344-83"
+  ],
+  "original": {
+    "id": "6ac3ae5e6da32e3d0576ed72",
+    "is_original_response": true,
+    "reviews_state": "approved",
+    "date_created": "2026-10-05T14:04:14.757212Z",
+    "date_submitted": null,
+    "date_modified": "2026-10-05T14:06:00.148012Z",
+    "updated_response_keys_count": 29
+  },
+  "latest": {
+    "id": "6ac4c12fed97b8b77ce88a9c",
+    "is_original_response": false,
+    "reviews_state": "approved",
+    "date_created": "2026-10-06T09:36:47.653316Z",
+    "date_submitted": "2026-10-06T09:58:52.719704Z",
+    "date_modified": "2026-10-06T09:59:27.955055Z",
+    "updated_response_keys": [
+      "344-83"
+    ],
+    "revision_justification": "Added links to supporting research materials and clarified their descriptions. No changes were made to the preregistered study design, hypotheses, sampling, or analysis plan."
+  },
+  "changed_field": {
+    "id": "344-83",
+    "label": "Other planned analysis (as labelled in supplied OSF Overview)",
+    "original_value": "Secondary exploratory analyses may examine unexpected state transitions, new aggregation patterns, platform-specific anomalies, or infrastructure behaviors not covered by the preregistered primary questions.\n\nAny such analyses will be clearly labeled exploratory or post hoc and will not be presented as preregistered findings.",
+    "revised_value": "Secondary exploratory or post hoc analyses may include contextual benchmarking of software concept families, bounded sensitivity checks across platform-provided engagement metrics, and tie-aware rank or percentile summaries. Additional analyses may examine unexpected state transitions, aggregation patterns, query or interface anomalies, and other platform-specific behaviors.\n\nAnalyses introduced after the original registration will remain explicitly labeled exploratory or post hoc and will not be presented as preregistered primary findings."
+  },
+  "interpretation_limits": [
+    "Comparison covers only revision_responses values, not attachments, resources, OSF registries internal lifecycle, or exact original HTTP bytes",
+    "Creation/submission/modified timestamps are platform fields and do not independently establish when every wording was publicly effective",
+    "A later approved exploratory/post-hoc wording is not a preregistered initial primary analysis",
+    "No concrete numerical schedule offsets found in the 29 original revision fields",
+    "The revision justification describes a claimed purpose and is not a substitute for observed field-level differences"
+  ],
+  "prospective_cells_added": 0,
+  "contract_changed": false
+}
