@@ -1,0 +1,256 @@
+{
+  "record_class": "diagnostic_monitoring_tag_ref_and_selected_source_shape_reconciliation",
+  "logical_date": "2026-10-30",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_at_utc": "2026-10-30T14:52:42.130Z",
+  "origin": "bounded read-only GitHub connector and public-content extractor results; no original origin HTTP byte archive",
+  "base_main_sha": "b04bd6a3c5e7f1cb277442433ea02b9314b5fbd8",
+  "previous_same_day_record": "monitoring/2026-10-30/03-post-audit-github-delta/record.json",
+  "client_clocks": {
+    "git_tag_batch_start_utc": "2026-10-30T14:52:34.203Z",
+    "git_tag_batch_end_utc": "2026-10-30T14:52:36.263Z",
+    "prior_same_session_github_release_batch_utc": [
+      "2026-10-30T14:49:04.882Z",
+      "2026-10-30T14:49:07.367Z"
+    ],
+    "parallel_seven_platform_extract_batch_utc": [
+      "2026-10-30T14:50:28.231Z",
+      "2026-10-30T14:50:30.525Z"
+    ],
+    "zenodo_full_extract_batch_utc": [
+      "2026-10-30T14:50:42.157Z",
+      "2026-10-30T14:50:43.429Z"
+    ]
+  },
+  "clock_notes": "Batch client envelopes, not per-origin HTTP retrieval stamps, first discovery times, server Date or platform-side state-transition dates. Extractor acquired_at is UTC-day truncated and does not attest cache bypass.",
+  "github_tags": {
+    "repos_checked": 11,
+    "fixed_object_repositories": 10,
+    "control_checked_separately": true,
+    "tag_ref_rows": 44,
+    "rows_per_repo": 4,
+    "tag_object_type": "commit",
+    "matched_11_prior_same_session_release_name_sets": true,
+    "source_ledger": "tag-ref-objects.csv",
+    "verified": [
+      {
+        "id": "RS01",
+        "repo": "welcome-to-github",
+        "count": 4,
+        "expected_release_names_match": true,
+        "refs_are_commits": true
+      },
+      {
+        "id": "RS02",
+        "repo": "zero-entropy-lab",
+        "count": 4,
+        "expected_release_names_match": true,
+        "refs_are_commits": true
+      },
+      {
+        "id": "RS03",
+        "repo": "Axiom-0",
+        "count": 4,
+        "expected_release_names_match": true,
+        "refs_are_commits": true
+      },
+      {
+        "id": "RS04",
+        "repo": "reflective-continuum",
+        "count": 4,
+        "expected_release_names_match": true,
+        "refs_are_commits": true
+      },
+      {
+        "id": "RS05",
+        "repo": "agent-foundations",
+        "count": 4,
+        "expected_release_names_match": true,
+        "refs_are_commits": true
+      },
+      {
+        "id": "RS06",
+        "repo": "auto-doc-engine",
+        "count": 4,
+        "expected_release_names_match": true,
+        "refs_are_commits": true
+      },
+      {
+        "id": "RS07",
+        "repo": "epistemic-pipeline",
+        "count": 4,
+        "expected_release_names_match": true,
+        "refs_are_commits": true
+      },
+      {
+        "id": "RS08",
+        "repo": "sci-render-kit",
+        "count": 4,
+        "expected_release_names_match": true,
+        "refs_are_commits": true
+      },
+      {
+        "id": "RS09",
+        "repo": "china-agentic-observatory",
+        "count": 4,
+        "expected_release_names_match": true,
+        "refs_are_commits": true
+      },
+      {
+        "id": "RS10",
+        "repo": "agentic-frontier-observatory",
+        "count": 4,
+        "expected_release_names_match": true,
+        "refs_are_commits": true
+      },
+      {
+        "id": "CONTROL",
+        "repo": "research-software-identity-audit",
+        "count": 4,
+        "expected_release_names_match": true,
+        "refs_are_commits": true
+      }
+    ],
+    "retag_history_or_deleted_refs_verified": false
+  },
+  "comparison_scope": {
+    "previous_oct30_release_list_checked": 11,
+    "latest_fixed_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+    "latest_fixed_published_at_day_utc": "2026-10-14",
+    "latest_control_release_tag": "v2026.10-evidence-integrity",
+    "latest_control_release_published_at_day_utc": "2026-10-18",
+    "new_published_releases_from_list": 0,
+    "new_current_tag_refs_relative_to_previously_reported_release_names": 0
+  },
+  "zenodo_rs01": {
+    "source": "https://zenodo.org/api/records/23365504/versions/latest",
+    "record_id": "23365504",
+    "conceptrecid": "22790907",
+    "version_doi": "10.5281/zenodo.23365504",
+    "concept_doi": "10.5281/zenodo.22790907",
+    "prior": {
+      "source": "monitoring/2026-10-27/01-bounded-seven-platform-recheck/README.md",
+      "source_acquired_utc_day": "2026-10-27",
+      "views": 328,
+      "unique_views": 239,
+      "downloads": 6,
+      "version_views": 13
+    },
+    "later": {
+      "extractor_acquired_utc_day": "2026-10-30",
+      "views": 346,
+      "unique_views": 256,
+      "downloads": 6,
+      "version_views": 18,
+      "version_downloads": 1,
+      "version_unique_views": 16
+    },
+    "selected_field_delta": {
+      "views": 18,
+      "unique_views": 17,
+      "downloads": 0,
+      "version_views": 5
+    },
+    "interpretation": "Comparable exact API path and field names; displayed API field delta, not known independent human users, exact traffic event times, citation impact or confirmed uncached source freshness"
+  },
+  "platform_extracts": [
+    {
+      "platform": "zenodo",
+      "source": "https://zenodo.org/api/records/23365504/versions/latest",
+      "acquired_utc_day": "2026-10-30",
+      "scope": "one RS01 version",
+      "state": "SELECTED_FIELDS_EXTRACTED"
+    },
+    {
+      "platform": "datacite",
+      "source": "https://api.datacite.org/dois/10.17605/osf.io/5b329",
+      "acquired_utc_day": "2026-10-30",
+      "scope": "OSF registration DOI only",
+      "state": "SELECTED_FIELDS_EXTRACTED"
+    },
+    {
+      "platform": "orcid",
+      "source": "https://pub.orcid.org/v3.0/0009-0001-3617-0832/works",
+      "acquired_utc_day": "2026-10-27",
+      "scope": "older flattened Works representation",
+      "state": "STALE_STRUCTURAL_COUNT_UNKNOWN"
+    },
+    {
+      "platform": "software_heritage",
+      "source": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/",
+      "acquired_utc_day": "2026-10-27",
+      "scope": "older RS01 visit representation",
+      "state": "STALE_NOT_NEW_PRESERVATION_CHECK"
+    },
+    {
+      "platform": "openaire",
+      "source": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23365504&format=json",
+      "acquired_utc_day": "2026-10-27",
+      "scope": "older RS01 DOI representation",
+      "state": "STALE_NOT_NEW_CENSUS"
+    },
+    {
+      "platform": "openalex",
+      "source": "https://api.openalex.org/authors/A5151904252",
+      "acquired_utc_day": "2026-10-06",
+      "scope": "older profile representation",
+      "state": "STALE_QUERY_SHAPE_CONFLICT_UNRESOLVED"
+    },
+    {
+      "platform": "github",
+      "source": "https://api.github.com/repos/lostlight530/welcome-to-github/git/refs/tags?per_page=100",
+      "acquired_utc_day": null,
+      "scope": "all eleven tag-ref lists via connected API",
+      "state": "STRUCTURED_GITHUB_CURRENT"
+    },
+    {
+      "platform": "osf_supplementary",
+      "source": "https://api.osf.io/v2/registrations/5b329/",
+      "acquired_utc_day": "2026-10-12",
+      "scope": "older registration extract; original-vs-revised reconciliation already separately documented",
+      "state": "OLDER_SUPPLEMENTARY"
+    }
+  ],
+  "institutional": {
+    "rsd_issue_1870": "closed 2026-10-16T12:11:19Z",
+    "upstream_rsd_fix_release": {
+      "version": "v6.7.3",
+      "published_at_utc": "2026-10-22T13:09:21Z",
+      "url": "https://github.com/research-software-directory/RSD-as-a-service/releases/tag/v6.7.3",
+      "reported_fix_commit": "e04f179d70d93eefa1275eac7edaf4662410a1a4"
+    },
+    "upstream_latest_rsd_release": {
+      "version": "v6.7.5",
+      "published_at_utc": "2026-10-27T10:14:04Z"
+    },
+    "production_deployment": "NOT_VERIFIED",
+    "reported_bug_retest": "NOT_EXECUTED",
+    "rsd_issue_1871": "OPEN",
+    "rse_pr_498": "OPEN_UNMERGED"
+  },
+  "contract": {
+    "fixed_sample": "RS01–RS10",
+    "sample_count": 10,
+    "control_not_rs11": true,
+    "layers": 6,
+    "units_per_eligible_scheduled_timepoint": 60,
+    "platforms": 7,
+    "possible_checks_not_units": 70,
+    "concrete_schedule_offsets_declared": false,
+    "prospective_cells_added": 0,
+    "contract_changed": false,
+    "baseline_changed": false,
+    "raw_evidence_rewritten": false
+  },
+  "unchanged_previous_34_surface_record": true,
+  "repeated_full_34_surface_census": false,
+  "full_7_platform_current_object_census": false,
+  "result": {
+    "tag_ref_vs_release_lists": "MATCHED_44_OF_44",
+    "git_new_release": "NO_CHANGE",
+    "zenodo_one_selected_field_delta": "OBSERVED_AS_REPRESENTED",
+    "institutional_upstream_fix": "PUBLISHED_PRODUCTION_UNVERIFIED",
+    "full_seven_platform_census": "PARTIAL_UNKNOWN",
+    "code_defect_repair": "NO_CHANGE_REQUIRED"
+  }
+}
