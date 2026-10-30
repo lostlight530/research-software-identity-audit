@@ -159,3 +159,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 30 OSF original-versus-revised contract-text reconciliation
 
 - [2026-10-30 / 01-osf-schema-response-version-reconciliation](2026-10-30/01-osf-schema-response-version-reconciliation/README.md) — public OSF API comparison of **two approved Schema Response versions**, with a 29-key comparison and **only `344-83` (Other planned analysis) changed**. Original and revised wording, version identity/time fields, the revision author's justification and collector/clock limitations are retained separately. This resolves a **previously unknown original-version field difference**, without rewriting the 2026-10-08 crosswalk, amending the OSF contract, backdating exploratory analyses or producing prospective cells.
+
+## October 30 bounded periodic 34-surface source-access check
+
+- [2026-10-30 / 02-bounded-periodic-infrastructure-recheck](2026-10-30/02-bounded-periodic-infrastructure-recheck/README.md) — current GitHub 11-core Release/PR check plus 34 existing institutional/service/standard surface-row representative attempts; extractor acquisition age and six access failures retained, without inventing a contemporaneous full seven-platform census. Includes a dated Oct 5–30 control-runtime timeline; zero prospective cells.
