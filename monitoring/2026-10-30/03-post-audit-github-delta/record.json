@@ -1,0 +1,256 @@
+{
+  "record_class": "diagnostic_monitoring_github_post_prior_capture_delta",
+  "logical_date": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "compiled_at_utc": "2026-10-30T14:42:31.209Z",
+  "client_observation_envelope_utc": [
+    "2026-10-30T14:36:03.103Z",
+    "2026-10-30T14:42:31.209Z"
+  ],
+  "time_semantics": "Envelope covers sequential connector requests, not per-origin retrieval or source transition clocks",
+  "prior_record": "monitoring/2026-10-30/02-bounded-periodic-infrastructure-recheck/record.json",
+  "prior_record_base_main": "6546c9debb050966ff93ff87d92eb6021b6349b3",
+  "current_control_main_before_this_addendum": "aaaf7d6d8118e90601576f594236eafb68c41e55",
+  "source_contract": "GitHub connected structured API selected fields; no immutable origin HTTP response-body/header archive",
+  "methods": [
+    "GET /repos/:owner/:repo/branches/main",
+    "GET /repos/:owner/:repo/pulls?state=open&per_page=100",
+    "GET /repos/:owner/:repo/releases?per_page=100",
+    "GET /repos/:owner/:repo/actions/runs?branch=main&per_page=5",
+    "GET PR metadata for six previously open PRs",
+    "GET external RSD issue and upstream RSE PR metadata"
+  ],
+  "sample": {
+    "fixed_ids": "RS01-RS10",
+    "fixed_count": 10,
+    "control_role": "research execution and evidence, not RS11",
+    "layers": 6,
+    "units_per_eligible_scheduled_point": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_analytical_units": 70
+  },
+  "github": {
+    "branch_reads": 11,
+    "open_pr_list_reads": 11,
+    "release_list_reads": 11,
+    "open_pr_count_after": 0,
+    "previous_open_pr_count": 6,
+    "prior_six_prs_now_merged": 6,
+    "release_count_fixed_each": 4,
+    "latest_fixed_published_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+    "latest_fixed_tag_published_date_utc": "2026-10-14",
+    "control_releases": 4,
+    "latest_control_tag": "v2026.10-evidence-integrity",
+    "returned_release_field_change_vs_prior": "NO_MATERIAL_CHANGE",
+    "main_sha_change_vs_prior": "11_OF_11_UPDATED",
+    "records": [
+      {
+        "id": "RS01",
+        "repository": "lostlight530/welcome-to-github",
+        "main_sha": "28cfc63d48efea1422e2ec6ab2a973b3df46db9f",
+        "prior_2026_10_30_02_main_prefix": "209c84c1",
+        "main_locator": "https://api.github.com/repos/lostlight530/welcome-to-github/branches/main",
+        "pull_list_locator": "https://api.github.com/repos/lostlight530/welcome-to-github/pulls?state=open&per_page=100",
+        "release_list_locator": "https://api.github.com/repos/lostlight530/welcome-to-github/releases?per_page=100",
+        "open_prs": 0,
+        "previous_open_pr_now_merged": {
+          "number": 864,
+          "merged_at_utc": "2026-10-30T01:15:00Z",
+          "url": "https://github.com/lostlight530/welcome-to-github/pull/864"
+        }
+      },
+      {
+        "id": "RS02",
+        "repository": "lostlight530/zero-entropy-lab",
+        "main_sha": "2a27a262d976b6d883c54dc5669331adbeea19b0",
+        "prior_2026_10_30_02_main_prefix": "6c8f448d",
+        "main_locator": "https://api.github.com/repos/lostlight530/zero-entropy-lab/branches/main",
+        "pull_list_locator": "https://api.github.com/repos/lostlight530/zero-entropy-lab/pulls?state=open&per_page=100",
+        "release_list_locator": "https://api.github.com/repos/lostlight530/zero-entropy-lab/releases?per_page=100",
+        "open_prs": 0,
+        "previous_open_pr_now_merged": {
+          "number": 754,
+          "merged_at_utc": "2026-10-30T01:10:38Z",
+          "url": "https://github.com/lostlight530/zero-entropy-lab/pull/754"
+        }
+      },
+      {
+        "id": "RS03",
+        "repository": "lostlight530/Axiom-0",
+        "main_sha": "a270c415ac6cf78088ec1e0fa09922ea091ae4d0",
+        "prior_2026_10_30_02_main_prefix": "d0fd7034",
+        "main_locator": "https://api.github.com/repos/lostlight530/Axiom-0/branches/main",
+        "pull_list_locator": "https://api.github.com/repos/lostlight530/Axiom-0/pulls?state=open&per_page=100",
+        "release_list_locator": "https://api.github.com/repos/lostlight530/Axiom-0/releases?per_page=100",
+        "open_prs": 0,
+        "previous_open_pr_now_merged": null
+      },
+      {
+        "id": "RS04",
+        "repository": "lostlight530/reflective-continuum",
+        "main_sha": "3bca52d196518bb66c7cafcabf212175ec160c2b",
+        "prior_2026_10_30_02_main_prefix": "b2a099f9",
+        "main_locator": "https://api.github.com/repos/lostlight530/reflective-continuum/branches/main",
+        "pull_list_locator": "https://api.github.com/repos/lostlight530/reflective-continuum/pulls?state=open&per_page=100",
+        "release_list_locator": "https://api.github.com/repos/lostlight530/reflective-continuum/releases?per_page=100",
+        "open_prs": 0,
+        "previous_open_pr_now_merged": null
+      },
+      {
+        "id": "RS05",
+        "repository": "lostlight530/agent-foundations",
+        "main_sha": "ee927506340ecbc1e20f5feb5fcb3892fcaa8300",
+        "prior_2026_10_30_02_main_prefix": "682b7383",
+        "main_locator": "https://api.github.com/repos/lostlight530/agent-foundations/branches/main",
+        "pull_list_locator": "https://api.github.com/repos/lostlight530/agent-foundations/pulls?state=open&per_page=100",
+        "release_list_locator": "https://api.github.com/repos/lostlight530/agent-foundations/releases?per_page=100",
+        "open_prs": 0,
+        "previous_open_pr_now_merged": null
+      },
+      {
+        "id": "RS06",
+        "repository": "lostlight530/auto-doc-engine",
+        "main_sha": "fef967f84c3c1c25a014ba5348ffdc268a6dc733",
+        "prior_2026_10_30_02_main_prefix": "907d0dfd",
+        "main_locator": "https://api.github.com/repos/lostlight530/auto-doc-engine/branches/main",
+        "pull_list_locator": "https://api.github.com/repos/lostlight530/auto-doc-engine/pulls?state=open&per_page=100",
+        "release_list_locator": "https://api.github.com/repos/lostlight530/auto-doc-engine/releases?per_page=100",
+        "open_prs": 0,
+        "previous_open_pr_now_merged": {
+          "number": 194,
+          "merged_at_utc": "2026-10-30T01:13:23Z",
+          "url": "https://github.com/lostlight530/auto-doc-engine/pull/194"
+        }
+      },
+      {
+        "id": "RS07",
+        "repository": "lostlight530/epistemic-pipeline",
+        "main_sha": "76432f05b5b20469d8f95ed40bdd942beba5eb6a",
+        "prior_2026_10_30_02_main_prefix": "2d19cf23",
+        "main_locator": "https://api.github.com/repos/lostlight530/epistemic-pipeline/branches/main",
+        "pull_list_locator": "https://api.github.com/repos/lostlight530/epistemic-pipeline/pulls?state=open&per_page=100",
+        "release_list_locator": "https://api.github.com/repos/lostlight530/epistemic-pipeline/releases?per_page=100",
+        "open_prs": 0,
+        "previous_open_pr_now_merged": {
+          "number": 190,
+          "merged_at_utc": "2026-10-30T01:13:31Z",
+          "url": "https://github.com/lostlight530/epistemic-pipeline/pull/190"
+        }
+      },
+      {
+        "id": "RS08",
+        "repository": "lostlight530/sci-render-kit",
+        "main_sha": "0fcddefc945434ee5a502baa08878c2e7dfe0146",
+        "prior_2026_10_30_02_main_prefix": "5696b29a",
+        "main_locator": "https://api.github.com/repos/lostlight530/sci-render-kit/branches/main",
+        "pull_list_locator": "https://api.github.com/repos/lostlight530/sci-render-kit/pulls?state=open&per_page=100",
+        "release_list_locator": "https://api.github.com/repos/lostlight530/sci-render-kit/releases?per_page=100",
+        "open_prs": 0,
+        "previous_open_pr_now_merged": null
+      },
+      {
+        "id": "RS09",
+        "repository": "lostlight530/china-agentic-observatory",
+        "main_sha": "dce97cba1e4467c45f721b3c7936981cddac666a",
+        "prior_2026_10_30_02_main_prefix": "2c399dea",
+        "main_locator": "https://api.github.com/repos/lostlight530/china-agentic-observatory/branches/main",
+        "pull_list_locator": "https://api.github.com/repos/lostlight530/china-agentic-observatory/pulls?state=open&per_page=100",
+        "release_list_locator": "https://api.github.com/repos/lostlight530/china-agentic-observatory/releases?per_page=100",
+        "open_prs": 0,
+        "previous_open_pr_now_merged": {
+          "number": 215,
+          "merged_at_utc": "2026-10-30T01:14:44Z",
+          "url": "https://github.com/lostlight530/china-agentic-observatory/pull/215"
+        }
+      },
+      {
+        "id": "RS10",
+        "repository": "lostlight530/agentic-frontier-observatory",
+        "main_sha": "f17cafe548635b1670d5e60a446eff590b58183d",
+        "prior_2026_10_30_02_main_prefix": "c08ada02",
+        "main_locator": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/branches/main",
+        "pull_list_locator": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/pulls?state=open&per_page=100",
+        "release_list_locator": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/releases?per_page=100",
+        "open_prs": 0,
+        "previous_open_pr_now_merged": {
+          "number": 219,
+          "merged_at_utc": "2026-10-30T01:14:32Z",
+          "url": "https://github.com/lostlight530/agentic-frontier-observatory/pull/219"
+        }
+      },
+      {
+        "id": "CONTROL",
+        "repository": "lostlight530/research-software-identity-audit",
+        "main_sha": "aaaf7d6d8118e90601576f594236eafb68c41e55",
+        "prior_2026_10_30_02_main_prefix": "6546c9de",
+        "main_locator": "https://api.github.com/repos/lostlight530/research-software-identity-audit/branches/main",
+        "pull_list_locator": "https://api.github.com/repos/lostlight530/research-software-identity-audit/pulls?state=open&per_page=100",
+        "release_list_locator": "https://api.github.com/repos/lostlight530/research-software-identity-audit/releases?per_page=100",
+        "open_prs": 0,
+        "previous_open_pr_now_merged": null
+      }
+    ]
+  },
+  "ci": {
+    "control_main_run_id": 40982063480,
+    "control_main_run_conclusion": "success",
+    "control_advisory_steps_all_reported_success": true,
+    "latest_main_matching_actions_success": [
+      "welcome-to-github",
+      "zero-entropy-lab",
+      "Axiom-0",
+      "reflective-continuum",
+      "agent-foundations",
+      "china-agentic-observatory",
+      "agentic-frontier-observatory",
+      "research-software-identity-audit"
+    ],
+    "repos_with_no_main_branch_runs_returned": [
+      "auto-doc-engine",
+      "epistemic-pipeline",
+      "sci-render-kit"
+    ],
+    "note": "Success is workflow execution outcome, not proof of scholarly correctness or full offline platform verification"
+  },
+  "supplementary": {
+    "rsd_1870": "closed_2026-10-16_fix_deployment_not_independently_verified",
+    "rsd_1871": "open",
+    "rse_pr_498": "open_unmerged",
+    "rsd_upstream_latest_release": "v6.7.5 published 2026-10-27T10:14:04Z; no production-deployment verification"
+  },
+  "inherited_prior_34_surface_attempts": {
+    "records": 34,
+    "same_day_acquired_extract": 11,
+    "older_extract": 15,
+    "structured_github": 2,
+    "fetch_errors": 6,
+    "repeated_as_fresh_this_addendum": false,
+    "full_object_census": false
+  },
+  "external_current_semantics": "PARTIAL; no new origin-fresh seven-platform/full 34-surface census, DOI rollup, ORCID group recount or measured adoption",
+  "source_provenance": "Current GitHub API fields verified through connector; external 34 surface rows retained by prior #73 diagnostic, not independently repeated in this addendum",
+  "release_gate": {
+    "october_14_releases_known": true,
+    "concrete_schedule_offsets_declared": false,
+    "prospective_cells_added": 0,
+    "prospective_not_started_by_this_record": true
+  },
+  "modifications": {
+    "osf_contract": false,
+    "baseline": false,
+    "schema": false,
+    "schedule": false,
+    "prior_records": false,
+    "raw_or_derived_observations": false,
+    "release": false,
+    "doi": false,
+    "source_code": false
+  },
+  "outcome": {
+    "github_delta": "VERIFIED",
+    "release_lists": "NO_MATERIAL_CHANGE",
+    "institutional": "NO_MATERIAL_NEW_INTERACTION",
+    "external_census": "PARTIAL_UNKNOWN",
+    "required_code_correction": "NO_CHANGE_REQUIRED"
+  }
+}
