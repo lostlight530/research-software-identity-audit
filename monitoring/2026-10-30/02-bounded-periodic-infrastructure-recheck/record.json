@@ -1,0 +1,87 @@
+{
+  "record_class": "diagnostic_monitoring_selected_field_projection",
+  "logical_date": "2026-10-30",
+  "logical_timezone": "Asia/Shanghai",
+  "record_constructed_at_utc": "2026-10-30T00:46:42.812Z",
+  "base_main_sha": "6546c9debb050966ff93ff87d92eb6021b6349b3",
+  "selection": "34 historical inventory surfaces; one representative official URL each, not 34 complete object-level censuses",
+  "surface_attempts": 34,
+  "counts": {
+    "extract_acquired_on_logical_day_utc": 11,
+    "older_acquired_extract": 15,
+    "connected_github_structured": 2,
+    "fetch_errors": 6
+  },
+  "client_tool_windows_utc": {
+    "PUBLIC_A": [
+      "2026-10-30T00:42:58.097Z",
+      "2026-10-30T00:43:35.407Z"
+    ],
+    "PUBLIC_B": [
+      "2026-10-30T00:43:51.210Z",
+      "2026-10-30T00:44:01.189Z"
+    ],
+    "GITHUB_RELEASES": [
+      "2026-10-30T00:44:11.871Z",
+      "2026-10-30T00:44:13.679Z"
+    ]
+  },
+  "time_limits": "Client batch envelopes; external extractor acquired_at only start of UTC day; neither per-request source clocks nor origin-freshness proof",
+  "raw_origin_http_bytes_retained": false,
+  "origin_response_headers_retained": false,
+  "local_original_raw_checksums_retained": false,
+  "sources": "connected GitHub connector plus third-party public URL content extractor; GitHub source JSON returned but unmodified origin transport bytes not independently archived",
+  "github": {
+    "fixed_corpus_repos_checked": 10,
+    "control_checked_separately": true,
+    "main_sha_count": 11,
+    "release_lists_checked": 11,
+    "fixed_release_rows_per_repo": 4,
+    "latest_fixed_tag": "v2026.10-fourteen-day-evidence-checkpoint",
+    "control_release_rows": 4,
+    "latest_control_tag": "v2026.10-evidence-integrity",
+    "unchanged_within_prior_2026_10_29_release_list_projection": true,
+    "open_prs_on_11_core_repos_at_read": 6,
+    "open_prs_control": 0,
+    "control_reachable_main_commits": 91
+  },
+  "external_status_limits": {
+    "data_cite": "older_acquired; no new DOI census",
+    "orcid": "older_acquired; no structured group recount",
+    "openalex": "older_acquired; no fresh profile query shape conflict resolution",
+    "openaire": "older_acquired; only selected DOI result",
+    "software_heritage": "older_acquired; no new full origin census",
+    "zenodo": "same-day acquired selected RS01 version; no full family count or origin cache proof",
+    "osf": "original/revised schema_response comparison already in prior 2026-10-30 record; not independently repeated here"
+  },
+  "institutional": {
+    "rsd_issue_1870": {
+      "state": "closed",
+      "closed_at_utc": "2026-10-16T12:11:19Z",
+      "deployed_fix": "NOT_VERIFIED"
+    },
+    "rsd_issue_1871": "open",
+    "rseng_pr_498": "open_unmerged_no_review"
+  },
+  "contract": {
+    "fixed_sample": 10,
+    "analytic_layers": 6,
+    "units_per_eligible_scheduled_point": 60,
+    "operational_platforms": 7,
+    "possible_checks_not_units": 70,
+    "schedule_offsets_declared": false,
+    "prospective_cells_added": 0,
+    "contract_changed": false,
+    "baseline_changed": false
+  },
+  "history_scope": {
+    "first_control_main_commit": "e5ba0a0e7dc548bd5bd3e79b4d7fc0cb95e528aa",
+    "first_commit_date_utc": "2026-10-05T14:59:46Z",
+    "current_main_commit": "6546c9debb050966ff93ff87d92eb6021b6349b3",
+    "main_reachable_commits": 91,
+    "method": "GitHub commits?sha=main&per_page=100 returned 91 rows; Git committer clocks not origin source capture timestamps"
+  },
+  "assessment": "PARTIAL_NO_CONCLUSION_FOR_FULL_SAME_DAY_SEVEN_PLATFORM_AND_34_SURFACE_OBJECT_CENSUS",
+  "change_scope": "monitoring documentation plus selected-field ledger only",
+  "source_ledger": "surface-attempts.csv"
+}
