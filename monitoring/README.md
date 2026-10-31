@@ -171,4 +171,4 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 31 independently retained statistics
 
 - [2026-10-31/03-independent-institutional-statistics](2026-10-31/03-independent-institutional-statistics/README.md) — actual 12:00 capture, 473 read attempts, source-scoped 34 surfaces, 88 DOI inventory and OpenAIRE DOI grouping
-- [2026-10-31/04-zenodo-all-version-statistics](2026-10-31/04-zenodo-all-version-statistics/README.md) — actual 14:41 all-version capture, 55 versions, 48 family-field reconciliations and same-record deltas
+- [2026-10-31/04-zenodo-all-version-statistics](2026-10-31/04-zenodo-all-version-statistics/README.md) — actual 13:41 all-version capture, 55 versions, 48 family-field reconciliations and same-record deltas
