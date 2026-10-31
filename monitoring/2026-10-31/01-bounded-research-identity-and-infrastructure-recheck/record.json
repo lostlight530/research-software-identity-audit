@@ -1,0 +1,116 @@
+{
+  "record_class": "diagnostic_monitoring_selected_source_fields_not_prospective",
+  "logical_date": "2026-10-31",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_at_utc": "2026-10-31T00:18:02.002Z",
+  "base_control_main_sha": "385f0bce3af8c465c74408df76789a6cc8dec1f1",
+  "corpus_source": "corpus/object-manifest.csv",
+  "heads": {
+    "RS01": "28cfc63d48efea1422e2ec6ab2a973b3df46db9f",
+    "RS02": "2a27a262d976b6d883c54dc5669331adbeea19b0",
+    "RS03": "a270c415ac6cf78088ec1e0fa09922ea091ae4d0",
+    "RS04": "3bca52d196518bb66c7cafcabf212175ec160c2b",
+    "RS05": "ee927506340ecbc1e20f5feb5fcb3892fcaa8300",
+    "RS06": "fef967f84c3c1c25a014ba5348ffdc268a6dc733",
+    "RS07": "76432f05b5b20469d8f95ed40bdd942beba5eb6a",
+    "RS08": "0fcddefc945434ee5a502baa08878c2e7dfe0146",
+    "RS09": "dce97cba1e4467c45f721b3c7936981cddac666a",
+    "RS10": "f17cafe548635b1670d5e60a446eff590b58183d",
+    "CONTROL": "385f0bce3af8c465c74408df76789a6cc8dec1f1"
+  },
+  "open_prs_by_repository": {
+    "RS01": [
+      871
+    ],
+    "RS02": [
+      761
+    ],
+    "RS09": [
+      218
+    ],
+    "RS10": [
+      222
+    ],
+    "CONTROL": []
+  },
+  "github": {
+    "branch_heads_checked": 11,
+    "open_prs_total": 4,
+    "release_lists_checked": 11,
+    "git_tag_lists_checked": 11,
+    "fixed_releases_before": 40,
+    "fixed_releases_now": 50,
+    "fixed_tag_refs_before": 40,
+    "fixed_tag_refs_now": 50,
+    "control_releases": 4,
+    "control_tag_refs": 4,
+    "new_shared_tag": "v2026.10-30-evidence-snapshot",
+    "new_fixed_release_rows": 10,
+    "new_fixed_tag_refs": 10
+  },
+  "zenodo": {
+    "latest_version_queries_checked": 10,
+    "new_version_records": 10,
+    "new_version_dois": 10,
+    "comparison_date": "2026-10-25",
+    "previous_per_family_versions": 4,
+    "current_version_index_from_sample": 5,
+    "source": "new-release-cohort.csv"
+  },
+  "datacite": {
+    "new_version_doi_queries_attempted": 10,
+    "new_version_doi_records_extracted": 10,
+    "extractor_acquired_utc_day": "2026-10-31",
+    "exact_registration_timestamps": "NOT_EXTRACTED"
+  },
+  "discovery_sample": {
+    "openalex_new_doi_queries": 2,
+    "openalex_outcomes": [
+      "http_404",
+      "http_404"
+    ],
+    "openaire_new_doi_queries": 2,
+    "openaire_outcomes": [
+      "timeout",
+      "timeout"
+    ],
+    "conclusion": "UNKNOWN_NOT_ABSENCE"
+  },
+  "surfaces": {
+    "inventory_rows": 34,
+    "acquired_utc_2026_10_31": 3,
+    "older_acquired": 25,
+    "fetch_errors": 6,
+    "older_extract_as_today_forbidden": true,
+    "source": "surface-attempts.csv",
+    "scope": "one representative URL per existing surface, NOT complete object-by-platform census"
+  },
+  "institutional": {
+    "rsd_1870": "CLOSED_AT_2026-10-16T12:11:19Z_DEPLOYMENT_UNVERIFIED",
+    "rsd_1871": "OPEN",
+    "rseng_498": "OPEN_UNMERGED_NO_REVIEW"
+  },
+  "contract": {
+    "frozen_objects": 10,
+    "layers": 6,
+    "preregistered_units_per_eligible_scheduled_point": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_analytic_units": 70,
+    "concrete_schedule_offsets_declared": false,
+    "new_prospective_cells": 0,
+    "osf_modified": false,
+    "osf_original_vs_later_revision_changed_field": "344-83 Other planned analysis"
+  },
+  "provenance": {
+    "github": "GitHub connector structured API JSON; original provider HTTP headers and byte-identical transport bodies not separately archived",
+    "external": "third-party public-content extractor, acquired_at truncated to UTC day; no validated cache bypass or byte-identical origin capture",
+    "clock": "compiled_at_utc is local report construction time, not per-request retrieval or server timestamp; GitHub published_at and Zenodo created are provider-returned event fields",
+    "preserved_raw": "NONE_NEW_FULL_ORIGIN_RAW_CAPTURE",
+    "comparison": "October 30 records retained unchanged; October 31 records are append-only"
+  },
+  "decision": "MATERIAL_VERSION_IDENTITY_DELTA_WITH_PARTIAL_DOWNSTREAM_VERIFICATION",
+  "source_ledger": [
+    "new-release-cohort.csv",
+    "surface-attempts.csv"
+  ]
+}
