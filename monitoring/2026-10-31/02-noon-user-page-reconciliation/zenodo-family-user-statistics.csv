@@ -1,0 +1,13 @@
+object_id,repository,scope,record_id,unique_views,unique_downloads,source,reported_time
+RS01,welcome-to-github,fixed_corpus,23811380,264,5,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai
+RS03,Axiom-0,fixed_corpus,23811393,260,1,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai
+RS10,agentic-frontier-observatory,fixed_corpus,23811387,246,2,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai
+RS05,agent-foundations,fixed_corpus,23811389,230,2,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai
+RS09,china-agentic-observatory,fixed_corpus,23811388,230,1,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai
+RS07,epistemic-pipeline,fixed_corpus,23811384,227,1,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai
+RS08,sci-render-kit,fixed_corpus,23811397,222,2,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai
+RS02,zero-entropy-lab,fixed_corpus,23811394,221,1,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai
+RS06,auto-doc-engine,fixed_corpus,23811383,217,0,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai
+RS04,reflective-continuum,fixed_corpus,23811392,189,1,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai
+,research-software-identity-audit,control,23446162,142,5,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai
+,life-science-ecosystem-lab,supplementary_life_science,23447089,9,3,maintainer_user_page,2026-10-31 13:24 Asia/Shanghai

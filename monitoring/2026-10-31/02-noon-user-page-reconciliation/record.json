@@ -1,0 +1,81 @@
+{
+  "record_class": "diagnostic_monitoring_maintainer_supplied_page_reconciliation",
+  "logical_date": "2026-10-31",
+  "logical_timezone": "Asia/Shanghai",
+  "source_labels": {
+    "dashboard": "13:00 hour",
+    "zenodo": "13:24",
+    "dashboard_exact_capture_time": null,
+    "dashboard_period": null
+  },
+  "base_main_sha": "4bd9efa113b51d1a714c90cc12fd7c995f385f80",
+  "source_kind": "user_provided_selected_page_fields",
+  "new_live_census": false,
+  "workflowhub": {
+    "views": 7117,
+    "downloads": 820
+  },
+  "zenodo": {
+    "fixed10_unique_views": 2306,
+    "all12_unique_views": 2457,
+    "fixed10_unique_downloads": 16,
+    "all12_unique_downloads": 24,
+    "all12_delta_vs_prior_user": 71
+  },
+  "datacite_commons": {
+    "total": 87,
+    "types": {
+      "Software": 66,
+      "Workflow": 19,
+      "Project": 1,
+      "Study Registration": 1
+    },
+    "repositories": {
+      "Zenodo": 66,
+      "WorkflowHub": 19,
+      "Open Science Framework": 2
+    },
+    "licenses": {
+      "MIT": 66,
+      "CC-BY-4.0": 2
+    }
+  },
+  "openaire": {
+    "my_orcid_links": 15,
+    "pid_result_counts": {
+      "10.17605/osf.io/5b329": 13,
+      "10.5281/zenodo.23446162": 8,
+      "10.17605/osf.io/wa5v8": 10,
+      "10.5281/zenodo.23166491": 3
+    },
+    "displayed_orcid_sync_date": "2026-08-10",
+    "sync_date_semantics": "page-displayed label, not independently verified synchronization event"
+  },
+  "comparison_source": {
+    "window_utc": [
+      "2026-10-31T04:00:27.486146+00:00",
+      "2026-10-31T04:02:44.698867+00:00"
+    ],
+    "independently_captured_at_13": false,
+    "published_projection": "evidence/2026-10-31/02-noon-user-page-reconciliation/source-02-api-comparison-fields.json"
+  },
+  "contract": {
+    "fixed_corpus_objects": 10,
+    "preregistered_layers": 6,
+    "object_layer_units_per_eligible_timepoint": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_analytic_units": 70,
+    "new_prospective_cells": 0,
+    "schedule_modified": false,
+    "osf_modified": false,
+    "control_not_sample": true
+  },
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "evidence_references": [
+    "evidence/2026-10-31/02-noon-user-page-reconciliation/source-01-portal-fields.json",
+    "evidence/2026-10-31/02-noon-user-page-reconciliation/source-02-api-comparison-fields.json",
+    "evidence/2026-10-31/02-noon-user-page-reconciliation/source-provenance.json",
+    "evidence/2026-10-31/02-noon-user-page-reconciliation/artifact-manifest.json"
+  ]
+}

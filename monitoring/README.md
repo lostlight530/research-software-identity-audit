@@ -163,3 +163,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 30 bounded periodic 34-surface source-access check
 
 - [2026-10-30 / 02-bounded-periodic-infrastructure-recheck](2026-10-30/02-bounded-periodic-infrastructure-recheck/README.md) — current GitHub 11-core Release/PR check plus 34 existing institutional/service/standard surface-row representative attempts; extractor acquisition age and six access failures retained, without inventing a contemporaneous full seven-platform census. Includes a dated Oct 5–30 control-runtime timeline; zero prospective cells.
+
+## October 31 noon user-page reconciliation
+
+- [2026-10-31 / 02-noon-user-page-reconciliation](2026-10-31/02-noon-user-page-reconciliation/README.md) — source-separated 13:00 Dashboard, 13:24 Zenodo, DataCite Commons and OpenAIRE counts; prior API fields labelled by their actual capture time; zero prospective cells

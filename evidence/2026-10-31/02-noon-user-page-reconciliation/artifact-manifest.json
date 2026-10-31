@@ -1,0 +1,55 @@
+{
+  "scope": "minimized published UTF-8 LF selected fields; excludes mutable monitoring index and this manifest",
+  "files": [
+    {
+      "path": "evidence/2026-10-31/02-noon-user-page-reconciliation/README.md",
+      "bytes": 919,
+      "sha256": "a272acc43db6f4c8309d2f6801cdc27944c35412a5c8773c369fb47fb6dcf998"
+    },
+    {
+      "path": "evidence/2026-10-31/02-noon-user-page-reconciliation/source-01-portal-fields.json",
+      "bytes": 4298,
+      "sha256": "ef7742d165fac6f2a6204d64e17fbd3265e8015795e856f6ea8b4ea0a5e555ef"
+    },
+    {
+      "path": "evidence/2026-10-31/02-noon-user-page-reconciliation/source-02-api-comparison-fields.json",
+      "bytes": 7473,
+      "sha256": "6cb4d10d07776fd5be03c2fc336fec14df35f0ce38b317461988a9e58c37097b"
+    },
+    {
+      "path": "evidence/2026-10-31/02-noon-user-page-reconciliation/source-provenance.json",
+      "bytes": 1535,
+      "sha256": "570de81fb0087067eff569247fbd703f9fc956ba101ac30fcb60f995d71d3bdd"
+    },
+    {
+      "path": "monitoring/2026-10-31/02-noon-user-page-reconciliation/openaire-pid-result-counts.csv",
+      "bytes": 501,
+      "sha256": "787474eb716407e71a38b8d0d798642369dfc40aa13527504c109efd0e2f2afc"
+    },
+    {
+      "path": "monitoring/2026-10-31/02-noon-user-page-reconciliation/README.md",
+      "bytes": 3315,
+      "sha256": "5e1995f6c41d5ee999d79bdfa4a39e1f35af024eccc5b3ba1748bd908d9dd03e"
+    },
+    {
+      "path": "monitoring/2026-10-31/02-noon-user-page-reconciliation/record.json",
+      "bytes": 2513,
+      "sha256": "baf5262d5773d57861660808a16800d4943c1fa0840e03a05c96e5d7d349693a"
+    },
+    {
+      "path": "monitoring/2026-10-31/02-noon-user-page-reconciliation/source-comparison.json",
+      "bytes": 2975,
+      "sha256": "4c315691a40e5041e0bbde591d6cb038ea89f1fd47587c4755fa54b6b2994679"
+    },
+    {
+      "path": "monitoring/2026-10-31/02-noon-user-page-reconciliation/workflowhub-dashboard-user-statistics.csv",
+      "bytes": 494,
+      "sha256": "4233618083670f6a9afea0e63d8e6d8060417ff8a6fe92e1a6e1500ab3736405"
+    },
+    {
+      "path": "monitoring/2026-10-31/02-noon-user-page-reconciliation/zenodo-family-user-statistics.csv",
+      "bytes": 1354,
+      "sha256": "bb17ae73aff8e11827195062438b9185020ffff7660912b0ebba008150528280"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "scope": "cross-source numeric difference only, not same-source period growth",
+  "baseline": "independent detail/API capture 2026-10-31 12:00:27–12:02:44 Asia/Shanghai",
+  "workflow": [
+    {
+      "id": 2334,
+      "user_dashboard_views": 2761,
+      "detail_views": 2735,
+      "numeric_difference_views": 26,
+      "user_dashboard_downloads": 290,
+      "detail_downloads": 290,
+      "numeric_difference_downloads": 0
+    },
+    {
+      "id": 2332,
+      "user_dashboard_views": 2416,
+      "detail_views": 2388,
+      "numeric_difference_views": 28,
+      "user_dashboard_downloads": 323,
+      "detail_downloads": 317,
+      "numeric_difference_downloads": 6
+    },
+    {
+      "id": 2347,
+      "user_dashboard_views": 998,
+      "detail_views": 963,
+      "numeric_difference_views": 35,
+      "user_dashboard_downloads": 156,
+      "detail_downloads": 167,
+      "numeric_difference_downloads": -11
+    },
+    {
+      "id": 2337,
+      "user_dashboard_views": 942,
+      "detail_views": 893,
+      "numeric_difference_views": 49,
+      "user_dashboard_downloads": 51,
+      "detail_downloads": 48,
+      "numeric_difference_downloads": 3
+    }
+  ],
+  "zenodo": [
+    {
+      "repository": "welcome-to-github",
+      "user_unique_views": 264,
+      "api_unique_views": 263,
+      "numeric_difference": 1
+    },
+    {
+      "repository": "Axiom-0",
+      "user_unique_views": 260,
+      "api_unique_views": 260,
+      "numeric_difference": 0
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "user_unique_views": 246,
+      "api_unique_views": 246,
+      "numeric_difference": 0
+    },
+    {
+      "repository": "agent-foundations",
+      "user_unique_views": 230,
+      "api_unique_views": 230,
+      "numeric_difference": 0
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "user_unique_views": 230,
+      "api_unique_views": 230,
+      "numeric_difference": 0
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "user_unique_views": 227,
+      "api_unique_views": 227,
+      "numeric_difference": 0
+    },
+    {
+      "repository": "sci-render-kit",
+      "user_unique_views": 222,
+      "api_unique_views": 222,
+      "numeric_difference": 0
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "user_unique_views": 221,
+      "api_unique_views": 221,
+      "numeric_difference": 0
+    },
+    {
+      "repository": "auto-doc-engine",
+      "user_unique_views": 217,
+      "api_unique_views": 217,
+      "numeric_difference": 0
+    },
+    {
+      "repository": "reflective-continuum",
+      "user_unique_views": 189,
+      "api_unique_views": 188,
+      "numeric_difference": 1
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "user_unique_views": 142,
+      "api_unique_views": 142,
+      "numeric_difference": 0
+    },
+    {
+      "repository": "life-science-ecosystem-lab",
+      "user_unique_views": 9,
+      "api_unique_views": 9,
+      "numeric_difference": 0
+    }
+  ]
+}
