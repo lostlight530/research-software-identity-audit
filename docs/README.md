@@ -11,6 +11,8 @@ For the scientific background start with the [main README](../README.md); for th
 
 **Historical source inventory through 2026-10-28:** [Lifecycle and OSF-contract audit](control-repository-lifecycle-audit-through-2026-10-28.md) · [full main-history ledger](control-repository-main-history-through-2026-10-28.csv) · [437 tracked paths with original Git blob SHAs](control-repository-tracked-files-through-2026-10-28.csv) · [machine-readable scoped snapshot](research-control-lifecycle-summary-through-2026-10-28.json). The [October 29 clock correction](../monitoring/2026-10-29/01-bounded-contract-recheck/clock-provenance-correction.md) is a separate later correction, not a retrospective change to the October 28 Git tree.
 
+**Independent lifecycle closeout through October 31, 2026:** [First-day-to-current pinned Git history, source-freshness audit and corrections](research-control-lifecycle-closeout-through-2026-10-31.md) · [96-commit ledger](research-control-main-history-through-2026-10-31.csv) · [499-file pinned Git tree](research-control-tracked-files-through-2026-10-31.csv) · [77-PR ledger](research-control-pr-history-through-2026-10-31.csv) · [11 core main refs](research-core-main-heads-2026-10-31.csv) · [independent 34-surface access outcomes](research-independent-34-surface-access-2026-10-31.csv) · [bounded RS01 seven-platform outcomes](research-seven-platform-bounded-rs01-2026-10-31.csv) · [late machine-index correction history](research-historical-machine-record-reconciliation-2026-10-31.md). This is a later **retrospective diagnostic snapshot**, not a substitute for the October 28 pinned report or a prospective observation.
+
 ## 1. Authority and object boundaries
 
 | Surface | Authority and purpose | What it does **not** imply |
