@@ -1,6 +1,6 @@
 # October 31 Zenodo all-version statistics
 
-Actual capture: **14:41:22–14:42:26 Asia/Shanghai**. Twelve family routes, complete
+Actual capture: **13:41:22–13:42:26 Asia/Shanghai**. Twelve family routes, complete
 version lists and 55 individual version details were read. Fixed RS01–RS10 each
 have five versions (50); control has four and life science one.
 
@@ -29,6 +29,8 @@ The fixed-ten release waves contribute:
 The first wave accounts for 76.3% of fixed-ten views and 68.9% of the summed
 unique-view counters. This locates the counters by version without assigning
 human/robot identities, referral causes or platform rankings.
+
+[Clock-conversion correction](clock-conversion-correction.md): the original draft's 14:41–14:42 Asia/Shanghai label was one hour late; retained UTC clocks are authoritative.
 
 ## Evidence and acquisition
 
