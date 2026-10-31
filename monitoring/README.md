@@ -178,3 +178,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 - [2026-10-31/03-independent-institutional-statistics](2026-10-31/03-independent-institutional-statistics/README.md) — actual 12:00 capture, 473 read attempts, source-scoped 34 surfaces, 88 DOI inventory and OpenAIRE DOI grouping
 - [2026-10-31/04-zenodo-all-version-statistics](2026-10-31/04-zenodo-all-version-statistics/README.md) — actual 13:41 all-version capture, 55 versions, 48 family-field reconciliations and same-record deltas
+
+## October 31 evening periodic identity/infrastructure recheck
+
+- [2026-10-31 / 05-evening-periodic-identity-recheck](2026-10-31/05-evening-periodic-identity-recheck/README.md) — independent GitHub all-eleven main/PR/Release pass and ten exact SHA compares (**109 added main-reachable Git commits in total, 44 two-tree affected paths**, unchanged fixed-corpus Release counts), ten-object Zenodo/DataCite version DOI extraction and SWH visit-date check, bounded OpenAIRE/OpenAlex semantics, 34-surface cache-age/failure ledger, upstream status and OSF revision boundary. **Diagnostic only; no new source-origin raw HTTP bytes, no prospective cells, no frozen-contract edit or new Release/DOI**.
