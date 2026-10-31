@@ -1,0 +1,28 @@
+{
+  "record_class": "RETROSPECTIVE_DERIVED_INDEX_OF_HISTORICAL_DIAGNOSTIC_NOT_ORIGINAL_CAPTURE",
+  "source_event_logical_date": "2026-10-29",
+  "source_event_timezone": "Asia/Shanghai",
+  "derived_index_created_at_utc": "2026-10-31T06:51:44.138Z",
+  "historical_source_record_existed": false,
+  "historical_source_material": [
+    "monitoring/2026-10-29/02-independent-release-gate-recheck/README.md",
+    "monitoring/2026-10-29/02-independent-release-gate-recheck/source-ledger.csv"
+  ],
+  "original_observation_clock": "2026-10-29T15:58:34.748Z/2026-10-29T15:58:36.538Z",
+  "original_clock_semantics": "tool-orchestration envelope in the dated README, NOT per-request or provider timestamp",
+  "original_claims_reindexed_only": {
+    "repository_release_list_count": 11,
+    "fixed_ten_releases_per_repository": 4,
+    "control_release_count": 4
+  },
+  "no_new_external_requests_by_index": true,
+  "raw_origin_http_bytes_recovered": false,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "limitations": [
+    "Values selected from already-tracked October 29 README/CSV",
+    "Not a recovered original machine observation",
+    "Does not retime or backdate evidence"
+  ],
+  "correction_history_ref": "docs/research-historical-machine-record-reconciliation-2026-10-31.md"
+}
