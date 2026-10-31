@@ -1,0 +1,8 @@
+platform,preregistered_layer,source_locator,observed_access_condition,extractor_acquired_utc_day,scope_and_limit
+"github","source_repository","https://api.github.com/repos/lostlight530/welcome-to-github/branches/main","GITHUB_STRUCTURED_CURRENT","","sha=085c762137c7e2b0673e7d6d2fd6db37f25e0756"
+"zenodo","archival_repository","https://zenodo.org/api/records/23811380","EXTRACT_DAY_ONLY_TODAY","2026-10-31T00:00:00Z","selected excerpt; no original origin HTTP bytes"
+"datacite","identifier_registration","https://api.datacite.org/dois/10.5281/zenodo.23811380","EXTRACT_DAY_ONLY_TODAY","2026-10-31T00:00:00Z","selected excerpt; no original origin HTTP bytes"
+"orcid","author_registry","https://pub.orcid.org/v3.0/0009-0001-3617-0832/works","EXTRACT_OLDER_CACHE","2026-10-27T00:00:00Z","selected excerpt; no original origin HTTP bytes"
+"software_heritage","preservation_archive","https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/","EXTRACT_OLDER_CACHE","2026-10-27T00:00:00Z","selected excerpt; no original origin HTTP bytes"
+"openaire","discovery_graph","https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23811380&format=json","EXTRACT_ERROR_timeout","","timeout"
+"openalex","discovery_graph","https://api.openalex.org/works/https://doi.org/10.5281/zenodo.23811380","EXTRACT_ERROR_404","","http_error"

@@ -1,0 +1,32 @@
+{
+  "record_class": "RETROSPECTIVE_DERIVED_INDEX_OF_OSF_RESPONSE_COMPARISON_NOT_ORIGINAL_CAPTURE",
+  "source_event_logical_date": "2026-10-30",
+  "source_event_timezone": "Asia/Shanghai",
+  "derived_index_created_at_utc": "2026-10-31T06:51:44.138Z",
+  "historical_source_record_existed": false,
+  "historical_source_material": [
+    "monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/README.md",
+    "monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/field-diff.json"
+  ],
+  "original_tool_client_envelope_utc": "2026-10-29T16:09:26.476Z/2026-10-29T16:09:29.810Z",
+  "original_clock_semantics": "tool-orchestration envelope for earlier third-party extracted official public API representations",
+  "original_claims_reindexed_only": {
+    "schema_responses": 2,
+    "compared_fields": 29,
+    "unchanged": 28,
+    "changed_field_ids": [
+      "344-83"
+    ]
+  },
+  "no_new_external_requests_by_index": true,
+  "raw_origin_http_bytes_recovered": false,
+  "registration_original_version_replaced": false,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "limitations": [
+    "Original and revised response comparison itself was already present in README/field-diff.json",
+    "Does not recapture origin bytes, resources, or effective publication clock",
+    "Does not treat October 6 revised exploratory wording as original preregistration"
+  ],
+  "correction_history_ref": "docs/research-historical-machine-record-reconciliation-2026-10-31.md"
+}

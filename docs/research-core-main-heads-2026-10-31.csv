@@ -1,0 +1,12 @@
+object_id,repository,observed_main_sha,published_releases,open_pr_count,latest_tag,source
+"RS01","welcome-to-github","085c762137c7e2b0673e7d6d2fd6db37f25e0756","5","0","v2026.10-30-evidence-snapshot","https://api.github.com/repos/lostlight530/welcome-to-github/branches/main"
+"RS02","zero-entropy-lab","389f82ab6250cd3b10b4ca567596e94a14a2144b","5","0","v2026.10-30-evidence-snapshot","https://api.github.com/repos/lostlight530/zero-entropy-lab/branches/main"
+"RS03","Axiom-0","a270c415ac6cf78088ec1e0fa09922ea091ae4d0","5","0","v2026.10-30-evidence-snapshot","https://api.github.com/repos/lostlight530/Axiom-0/branches/main"
+"RS04","reflective-continuum","3bca52d196518bb66c7cafcabf212175ec160c2b","5","0","v2026.10-30-evidence-snapshot","https://api.github.com/repos/lostlight530/reflective-continuum/branches/main"
+"RS05","agent-foundations","ee927506340ecbc1e20f5feb5fcb3892fcaa8300","5","0","v2026.10-30-evidence-snapshot","https://api.github.com/repos/lostlight530/agent-foundations/branches/main"
+"RS06","auto-doc-engine","fef967f84c3c1c25a014ba5348ffdc268a6dc733","5","0","v2026.10-30-evidence-snapshot","https://api.github.com/repos/lostlight530/auto-doc-engine/branches/main"
+"RS07","epistemic-pipeline","76432f05b5b20469d8f95ed40bdd942beba5eb6a","5","0","v2026.10-30-evidence-snapshot","https://api.github.com/repos/lostlight530/epistemic-pipeline/branches/main"
+"RS08","sci-render-kit","0fcddefc945434ee5a502baa08878c2e7dfe0146","5","0","v2026.10-30-evidence-snapshot","https://api.github.com/repos/lostlight530/sci-render-kit/branches/main"
+"RS09","china-agentic-observatory","dd59075d912bcdfb3c0d68d80302b6f59a89b08d","5","0","v2026.10-30-evidence-snapshot","https://api.github.com/repos/lostlight530/china-agentic-observatory/branches/main"
+"RS10","agentic-frontier-observatory","b775a7073cf3272f6d3b6c47fe676b5257a5fe82","5","0","v2026.10-30-evidence-snapshot","https://api.github.com/repos/lostlight530/agentic-frontier-observatory/branches/main"
+"CONTROL","research-software-identity-audit","c4df38945c91c49dc0486550251269d75c80722e","4","0","v2026.10-evidence-integrity","https://api.github.com/repos/lostlight530/research-software-identity-audit/branches/main"
