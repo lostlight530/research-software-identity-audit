@@ -54,5 +54,6 @@ software remain supplementary; no RS11 is introduced.
 
 The fixed ten objects, six analytical layers / 60 units, seven operational
 platforms, frozen OSF contract, baseline, schedule and prospective dataset are
-unchanged. The 14:41 all-version Zenodo capture is outside this noon record.
+unchanged. The 13:41 all-version Zenodo capture is outside this noon record.
+The [time-zone correction](../04-zenodo-all-version-statistics/clock-conversion-correction.md) records the original draft-label error without changing UTC evidence.
 No historical source is overwritten and no release or DOI is created.
