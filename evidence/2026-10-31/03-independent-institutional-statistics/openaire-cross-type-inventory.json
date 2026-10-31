@@ -1,0 +1,1972 @@
+{
+  "scope": "88 discovered DOI seeds, exact DOI researchProducts search, cross-type; no author-wide exhaustive claim",
+  "lookup_count": 88,
+  "all_pages_complete": true,
+  "matched_doi_count": 57,
+  "unmatched_dois": [
+    "10.48546/workflowhub.workflow.2332.1",
+    "10.48546/workflowhub.workflow.2332.2",
+    "10.48546/workflowhub.workflow.2332.3",
+    "10.48546/workflowhub.workflow.2332.4",
+    "10.48546/workflowhub.workflow.2332.5",
+    "10.48546/workflowhub.workflow.2332.6",
+    "10.48546/workflowhub.workflow.2332.7",
+    "10.48546/workflowhub.workflow.2332.8",
+    "10.48546/workflowhub.workflow.2334.1",
+    "10.48546/workflowhub.workflow.2334.2",
+    "10.48546/workflowhub.workflow.2334.3",
+    "10.48546/workflowhub.workflow.2334.4",
+    "10.48546/workflowhub.workflow.2334.5",
+    "10.48546/workflowhub.workflow.2334.6",
+    "10.48546/workflowhub.workflow.2334.7",
+    "10.48546/workflowhub.workflow.2334.8",
+    "10.48546/workflowhub.workflow.2337.1",
+    "10.48546/workflowhub.workflow.2347.1",
+    "10.48546/workflowhub.workflow.2347.2",
+    "10.5281/zenodo.22790907",
+    "10.5281/zenodo.22791081",
+    "10.5281/zenodo.22791103",
+    "10.5281/zenodo.22791141",
+    "10.5281/zenodo.22791169",
+    "10.5281/zenodo.22791309",
+    "10.5281/zenodo.22791334",
+    "10.5281/zenodo.22791375",
+    "10.5281/zenodo.22791404",
+    "10.5281/zenodo.22791463",
+    "10.5281/zenodo.23166490",
+    "10.5281/zenodo.23447088"
+  ],
+  "raw_result_occurrences": 87,
+  "unique_openaire_ids": 87,
+  "unique_id_types": {
+    "dataset": 30,
+    "software": 57
+  },
+  "doi_groups": [
+    {
+      "doi": "10.17605/osf.io/5b329",
+      "total": 13,
+      "returned": 13,
+      "complete": true,
+      "request_key": "openaire_all_0",
+      "openaire_ids": [
+        "userclaim___::01fab7bdc7aad87000fc43877b475f2c",
+        "userclaim___::050d561120643fe9d84a117f5941577e",
+        "userclaim___::1123363e0bd0139e8485c79f249c4223",
+        "userclaim___::2adeaddfa11d2f8cee7b92f6f4eb7199",
+        "userclaim___::53f440188879ce2dfda4940aee25a6b0",
+        "userclaim___::5452defb9455178acb7192c44a121cc8",
+        "userclaim___::581b1a98feba697d9f7ff2a6aed3db34",
+        "userclaim___::5ee26a824f9c499e0a9635a0ad1a95db",
+        "userclaim___::6391156457f0d586ae54a3f86611a47f",
+        "userclaim___::66a8c80a1757ef59ed4e1c56645247fd",
+        "userclaim___::a09eeeedfabc4be4f93f7da71ef6d5cd",
+        "userclaim___::d0283d0bc68306fa3fa22298d3abb3d8",
+        "userclaim___::f5ccaabf64129bba707e1692d012a070"
+      ],
+      "types": {
+        "dataset": 12,
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.17605/osf.io/wa5v8",
+      "total": 10,
+      "returned": 10,
+      "complete": true,
+      "request_key": "openaire_all_1",
+      "openaire_ids": [
+        "userclaim___::172b685124fbad5afecd3570d290461c",
+        "userclaim___::24f9fe1c8509b19a52824a7234fc21f3",
+        "userclaim___::4b99f876e6b07125c459684143c16b0b",
+        "userclaim___::4bdb491d2e96ff2d650bd3abb0c5646d",
+        "userclaim___::64223965b13f4d89223104205f7f5a6a",
+        "userclaim___::988ca9fbd9909eb1a586535ea17ef768",
+        "userclaim___::9b61cb13f030bcd5a03f41621fccf7f0",
+        "userclaim___::beb201b559f04be35da275bcbca15ebd",
+        "userclaim___::d0182366767cef7995a2507c1a48d78b",
+        "userclaim___::d0a5d691f847cfceb2874a9c0b611866"
+      ],
+      "types": {
+        "dataset": 10
+      }
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.1",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_2",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.2",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_3",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.3",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_4",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.4",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_5",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.5",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_6",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.6",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_7",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.7",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_8",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.8",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_9",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.1",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_10",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.2",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_11",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.3",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_12",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.4",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_13",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.5",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_14",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.6",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_15",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.7",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_16",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.8",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_17",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2337.1",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_18",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2347.1",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_19",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2347.2",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_20",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.22790907",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_21",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.22790908",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_22",
+      "openaire_ids": [
+        "od______2659::ef11a4c58e9fa445b9b64ac4ab54d33f"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.22791081",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_23",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.22791082",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_24",
+      "openaire_ids": [
+        "od______2659::04aab602837d7313d0c892872da241a7"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.22791103",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_25",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.22791104",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_26",
+      "openaire_ids": [
+        "od______2659::656c7189ea4dd89e312997b80cf97da2"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.22791141",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_27",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.22791142",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_28",
+      "openaire_ids": [
+        "od______2659::3afcff9776dbbec33fcc9714ec46154b"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.22791169",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_29",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.22791170",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_30",
+      "openaire_ids": [
+        "od______2659::bd2971b4b31527e5592a866222afc568"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.22791309",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_31",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.22791310",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_32",
+      "openaire_ids": [
+        "od______2659::78cb35e83d9891ddea92eb46fd2b5d0d"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.22791334",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_33",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.22791335",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_34",
+      "openaire_ids": [
+        "od______2659::ee2019b0f4a2e244cdb2696000433dd1"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.22791375",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_35",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.22791376",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_36",
+      "openaire_ids": [
+        "od______2659::152a205664e1225c3f33eea6143e1500"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.22791404",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_37",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.22791405",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_38",
+      "openaire_ids": [
+        "od______2659::2f21f8bb1d875340d8279bd82d2d7062"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.22791463",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_39",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.22791464",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_40",
+      "openaire_ids": [
+        "od______2659::3b27e45edd3bc5d1977770d04224b049"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23068144",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_41",
+      "openaire_ids": [
+        "od______2659::44beb68ff194eae56fddad5ed92cd51f"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23068145",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_42",
+      "openaire_ids": [
+        "od______2659::82953a1c6c627eec05d9732734718612"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23068260",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_43",
+      "openaire_ids": [
+        "od______2659::9e6a18a4f0199ae2be6d0c8bf0ac94b1"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23068261",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_44",
+      "openaire_ids": [
+        "od______2659::af57e064cd180fd381dccf690f49ff2a"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23068262",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_45",
+      "openaire_ids": [
+        "od______2659::0cbd93fdf966451bfe880393cf92d9d8"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23068347",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_46",
+      "openaire_ids": [
+        "od______2659::3eee2a5c2169a28502b6bc0ef1bb1486"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23068352",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_47",
+      "openaire_ids": [
+        "od______2659::76147949c634c87d1e677778336cec92"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23068471",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_48",
+      "openaire_ids": [
+        "od______2659::8b75f93b2b65480ee730f7052a019f4c"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23068472",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_49",
+      "openaire_ids": [
+        "od______2659::cbc1b8c55415ad9d65d36d3884adb74c"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23068494",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_50",
+      "openaire_ids": [
+        "od______2659::a1d304d5849d6342b0b446fa743a4b31"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23137203",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_51",
+      "openaire_ids": [
+        "od______2659::4ae0984e3a59122bc35472dba815b348"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23137204",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_52",
+      "openaire_ids": [
+        "od______2659::d7f2145d1f3b7b99713e0c3140c8828e"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23137205",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_53",
+      "openaire_ids": [
+        "od______2659::3e6a9f3a27c99099a9885c9b5d7fc5de"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23137206",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_54",
+      "openaire_ids": [
+        "od______2659::e6d9c54aee34c168ea7d01248c7b8ed6"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23137207",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_55",
+      "openaire_ids": [
+        "od______2659::82e414a42a683b9b4f778c9119f92036"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23137211",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_56",
+      "openaire_ids": [
+        "od______2659::387907453462e66ad44718f5f0f2001e"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23137214",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_57",
+      "openaire_ids": [
+        "od______2659::a804220f9cc473b0f495440ef8730345"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23137215",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_58",
+      "openaire_ids": [
+        "od______2659::52d2528b2cecdbdc0f91df42c6e3805d"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23137216",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_59",
+      "openaire_ids": [
+        "od______2659::fa079279af53edea6a64ebac23c2b08b"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23137219",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_60",
+      "openaire_ids": [
+        "od______2659::ec6a2a93e3822c761eefa3f38c8a1c5c"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23166490",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_61",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.23166491",
+      "total": 3,
+      "returned": 3,
+      "complete": true,
+      "request_key": "openaire_all_62",
+      "openaire_ids": [
+        "od______2659::df37c2225e628f5bdfbe649be6727beb",
+        "userclaim___::402f30e09adecbedf295986377fe0ad4",
+        "userclaim___::662d547962232f6470e4dfeb0ba57cf2"
+      ],
+      "types": {
+        "dataset": 2,
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23176748",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_63",
+      "openaire_ids": [
+        "od______2659::32f44932770a107291c96c3c0325ec74"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23284570",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_64",
+      "openaire_ids": [
+        "od______2659::1be8b1942a799c7e2f87c3050ab61d0a"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23365504",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_65",
+      "openaire_ids": [
+        "od______2659::e0f91de803c111a602887a25b79a80a4"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23365510",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_66",
+      "openaire_ids": [
+        "od______2659::15ce1adbe90d8659524f0ff2e83235f5"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23365517",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_67",
+      "openaire_ids": [
+        "od______2659::9dd030e2abd162753a51bb2937e92100"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23365525",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_68",
+      "openaire_ids": [
+        "od______2659::ba5c9a012e9b41f55481f7559567ad0d"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23365534",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_69",
+      "openaire_ids": [
+        "od______2659::df6053cfcabefd001865fbbcaf8d5191"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23365540",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_70",
+      "openaire_ids": [
+        "od______2659::722925d68c646d087b63b46e5532cfe7"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23365543",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_71",
+      "openaire_ids": [
+        "od______2659::66cdf8a2bc728db3ad6828b93ee6ee48"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23365548",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_72",
+      "openaire_ids": [
+        "od______2659::79bf4cb2649c09383a24be465f4d8651"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23365551",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_73",
+      "openaire_ids": [
+        "od______2659::dc16fb0b12822ab588346401637e31a9"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23365567",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_74",
+      "openaire_ids": [
+        "od______2659::3407b3ed1307e307786626a82a603d80"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23446162",
+      "total": 8,
+      "returned": 8,
+      "complete": true,
+      "request_key": "openaire_all_75",
+      "openaire_ids": [
+        "od______2659::446be399ea6152bd4868b108b0aabddf",
+        "userclaim___::33fc9379154631ec16d84a66e09c5a5e",
+        "userclaim___::3f7c2763dc9d98420ae51119fd8310c1",
+        "userclaim___::4e02a85cd175af4cf8c2856066115b9e",
+        "userclaim___::758c4b455f2e16715927db4133911aad",
+        "userclaim___::7d8d71756bb4d4366786cf985d1cbe28",
+        "userclaim___::e283f579558a637598302b071b511f89",
+        "userclaim___::ffdccf85ced91af1d802e577cc857614"
+      ],
+      "types": {
+        "dataset": 6,
+        "software": 2
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23447088",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_76",
+      "openaire_ids": [],
+      "types": {}
+    },
+    {
+      "doi": "10.5281/zenodo.23447089",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_77",
+      "openaire_ids": [
+        "od______2659::7a6653baf60866588adc62d4faf69a5b"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23811380",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_78",
+      "openaire_ids": [
+        "od______2659::db5f5e3e9e851b47f9d7172d022b4260"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23811383",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_79",
+      "openaire_ids": [
+        "od______2659::61dbceb4356eb7acf5ecabbecd3f50aa"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23811384",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_80",
+      "openaire_ids": [
+        "od______2659::1dd9f85b56590d830e20444052cf1166"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23811387",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_81",
+      "openaire_ids": [
+        "od______2659::1ac93d7e50170876417061a9947849a2"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23811388",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_82",
+      "openaire_ids": [
+        "od______2659::9e538ca41f2a2ef3ebf4f9a6c352db0c"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23811389",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_83",
+      "openaire_ids": [
+        "od______2659::632886dd432f9c360376b136823e512e"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23811392",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_84",
+      "openaire_ids": [
+        "od______2659::665c16ce416334493eb8286f2fcc2fcd"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23811393",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_85",
+      "openaire_ids": [
+        "od______2659::697362ac2cca885a75769bde05ebeefe"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23811394",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_86",
+      "openaire_ids": [
+        "od______2659::d6617ef7d1e367c87f5888fe77c48313"
+      ],
+      "types": {
+        "software": 1
+      }
+    },
+    {
+      "doi": "10.5281/zenodo.23811397",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_87",
+      "openaire_ids": [
+        "od______2659::e2377db5b59c9c49c4eae7e950de19a7"
+      ],
+      "types": {
+        "software": 1
+      }
+    }
+  ],
+  "raw_result_rows": [
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::01fab7bdc7aad87000fc43877b475f2c",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::5ee26a824f9c499e0a9635a0ad1a95db",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::6391156457f0d586ae54a3f86611a47f",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::050d561120643fe9d84a117f5941577e",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::53f440188879ce2dfda4940aee25a6b0",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::d0283d0bc68306fa3fa22298d3abb3d8",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::2adeaddfa11d2f8cee7b92f6f4eb7199",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::581b1a98feba697d9f7ff2a6aed3db34",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::1123363e0bd0139e8485c79f249c4223",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::f5ccaabf64129bba707e1692d012a070",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::5452defb9455178acb7192c44a121cc8",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::66a8c80a1757ef59ed4e1c56645247fd",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/5b329",
+      "openaire_id": "userclaim___::a09eeeedfabc4be4f93f7da71ef6d5cd",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_0"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/wa5v8",
+      "openaire_id": "userclaim___::4b99f876e6b07125c459684143c16b0b",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_1"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/wa5v8",
+      "openaire_id": "userclaim___::d0182366767cef7995a2507c1a48d78b",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_1"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/wa5v8",
+      "openaire_id": "userclaim___::172b685124fbad5afecd3570d290461c",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_1"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/wa5v8",
+      "openaire_id": "userclaim___::24f9fe1c8509b19a52824a7234fc21f3",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_1"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/wa5v8",
+      "openaire_id": "userclaim___::4bdb491d2e96ff2d650bd3abb0c5646d",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_1"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/wa5v8",
+      "openaire_id": "userclaim___::64223965b13f4d89223104205f7f5a6a",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_1"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/wa5v8",
+      "openaire_id": "userclaim___::988ca9fbd9909eb1a586535ea17ef768",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_1"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/wa5v8",
+      "openaire_id": "userclaim___::9b61cb13f030bcd5a03f41621fccf7f0",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_1"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/wa5v8",
+      "openaire_id": "userclaim___::beb201b559f04be35da275bcbca15ebd",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_1"
+    },
+    {
+      "queried_doi": "10.17605/osf.io/wa5v8",
+      "openaire_id": "userclaim___::d0a5d691f847cfceb2874a9c0b611866",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+      ],
+      "request_key": "openaire_all_1"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22790908",
+      "openaire_id": "od______2659::ef11a4c58e9fa445b9b64ac4ab54d33f",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "welcome-to-github"
+      ],
+      "request_key": "openaire_all_22"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791082",
+      "openaire_id": "od______2659::04aab602837d7313d0c892872da241a7",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Zero-Entropy Lab"
+      ],
+      "request_key": "openaire_all_24"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791104",
+      "openaire_id": "od______2659::656c7189ea4dd89e312997b80cf97da2",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Axiom-0"
+      ],
+      "request_key": "openaire_all_26"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791142",
+      "openaire_id": "od______2659::3afcff9776dbbec33fcc9714ec46154b",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Reflective Continuum"
+      ],
+      "request_key": "openaire_all_28"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791170",
+      "openaire_id": "od______2659::bd2971b4b31527e5592a866222afc568",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Agent Foundations"
+      ],
+      "request_key": "openaire_all_30"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791310",
+      "openaire_id": "od______2659::78cb35e83d9891ddea92eb46fd2b5d0d",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "China Agentic Observatory"
+      ],
+      "request_key": "openaire_all_32"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791335",
+      "openaire_id": "od______2659::ee2019b0f4a2e244cdb2696000433dd1",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Agentic Frontier Observatory"
+      ],
+      "request_key": "openaire_all_34"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791376",
+      "openaire_id": "od______2659::152a205664e1225c3f33eea6143e1500",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "sci-render-kit"
+      ],
+      "request_key": "openaire_all_36"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791405",
+      "openaire_id": "od______2659::2f21f8bb1d875340d8279bd82d2d7062",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "auto-doc-engine"
+      ],
+      "request_key": "openaire_all_38"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791464",
+      "openaire_id": "od______2659::3b27e45edd3bc5d1977770d04224b049",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Epistemic Pipeline"
+      ],
+      "request_key": "openaire_all_40"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068144",
+      "openaire_id": "od______2659::44beb68ff194eae56fddad5ed92cd51f",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Zero-Entropy Lab"
+      ],
+      "request_key": "openaire_all_41"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068145",
+      "openaire_id": "od______2659::82953a1c6c627eec05d9732734718612",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "welcome-to-github"
+      ],
+      "request_key": "openaire_all_42"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068260",
+      "openaire_id": "od______2659::9e6a18a4f0199ae2be6d0c8bf0ac94b1",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Reflective Continuum"
+      ],
+      "request_key": "openaire_all_43"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068261",
+      "openaire_id": "od______2659::af57e064cd180fd381dccf690f49ff2a",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Axiom-0"
+      ],
+      "request_key": "openaire_all_44"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068262",
+      "openaire_id": "od______2659::0cbd93fdf966451bfe880393cf92d9d8",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Agent Foundations"
+      ],
+      "request_key": "openaire_all_45"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068347",
+      "openaire_id": "od______2659::3eee2a5c2169a28502b6bc0ef1bb1486",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "China Agentic Observatory"
+      ],
+      "request_key": "openaire_all_46"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068352",
+      "openaire_id": "od______2659::76147949c634c87d1e677778336cec92",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Agentic Frontier Observatory"
+      ],
+      "request_key": "openaire_all_47"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068471",
+      "openaire_id": "od______2659::8b75f93b2b65480ee730f7052a019f4c",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "auto-doc-engine"
+      ],
+      "request_key": "openaire_all_48"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068472",
+      "openaire_id": "od______2659::cbc1b8c55415ad9d65d36d3884adb74c",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "sci-render-kit"
+      ],
+      "request_key": "openaire_all_49"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068494",
+      "openaire_id": "od______2659::a1d304d5849d6342b0b446fa743a4b31",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Epistemic Pipeline"
+      ],
+      "request_key": "openaire_all_50"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137203",
+      "openaire_id": "od______2659::4ae0984e3a59122bc35472dba815b348",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "welcome-to-github"
+      ],
+      "request_key": "openaire_all_51"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137204",
+      "openaire_id": "od______2659::d7f2145d1f3b7b99713e0c3140c8828e",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Zero-Entropy Lab"
+      ],
+      "request_key": "openaire_all_52"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137205",
+      "openaire_id": "od______2659::3e6a9f3a27c99099a9885c9b5d7fc5de",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Axiom-0"
+      ],
+      "request_key": "openaire_all_53"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137206",
+      "openaire_id": "od______2659::e6d9c54aee34c168ea7d01248c7b8ed6",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Reflective Continuum"
+      ],
+      "request_key": "openaire_all_54"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137207",
+      "openaire_id": "od______2659::82e414a42a683b9b4f778c9119f92036",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Agent Foundations"
+      ],
+      "request_key": "openaire_all_55"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137211",
+      "openaire_id": "od______2659::387907453462e66ad44718f5f0f2001e",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "China Agentic Observatory"
+      ],
+      "request_key": "openaire_all_56"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137214",
+      "openaire_id": "od______2659::a804220f9cc473b0f495440ef8730345",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Agentic Frontier Observatory"
+      ],
+      "request_key": "openaire_all_57"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137215",
+      "openaire_id": "od______2659::52d2528b2cecdbdc0f91df42c6e3805d",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "auto-doc-engine"
+      ],
+      "request_key": "openaire_all_58"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137216",
+      "openaire_id": "od______2659::fa079279af53edea6a64ebac23c2b08b",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Epistemic Pipeline"
+      ],
+      "request_key": "openaire_all_59"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137219",
+      "openaire_id": "od______2659::ec6a2a93e3822c761eefa3f38c8a1c5c",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "sci-render-kit"
+      ],
+      "request_key": "openaire_all_60"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23166491",
+      "openaire_id": "userclaim___::402f30e09adecbedf295986377fe0ad4",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "lostlight530/research-software-identity-audit: Beta— Research Runtime Bootstrap"
+      ],
+      "request_key": "openaire_all_62"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23166491",
+      "openaire_id": "userclaim___::662d547962232f6470e4dfeb0ba57cf2",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "lostlight530/research-software-identity-audit: Beta— Research Runtime Bootstrap"
+      ],
+      "request_key": "openaire_all_62"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23166491",
+      "openaire_id": "od______2659::df37c2225e628f5bdfbe649be6727beb",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "lostlight530/research-software-identity-audit: Beta— Research Runtime Bootstrap"
+      ],
+      "request_key": "openaire_all_62"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23176748",
+      "openaire_id": "od______2659::32f44932770a107291c96c3c0325ec74",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Research Software Identity Audit"
+      ],
+      "request_key": "openaire_all_63"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23284570",
+      "openaire_id": "od______2659::1be8b1942a799c7e2f87c3050ab61d0a",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Research Software Identity Audit"
+      ],
+      "request_key": "openaire_all_64"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23365504",
+      "openaire_id": "od______2659::e0f91de803c111a602887a25b79a80a4",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "welcome-to-github"
+      ],
+      "request_key": "openaire_all_65"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23365510",
+      "openaire_id": "od______2659::15ce1adbe90d8659524f0ff2e83235f5",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "auto-doc-engine"
+      ],
+      "request_key": "openaire_all_66"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23365517",
+      "openaire_id": "od______2659::9dd030e2abd162753a51bb2937e92100",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Epistemic Pipeline"
+      ],
+      "request_key": "openaire_all_67"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23365525",
+      "openaire_id": "od______2659::ba5c9a012e9b41f55481f7559567ad0d",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "sci-render-kit"
+      ],
+      "request_key": "openaire_all_68"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23365534",
+      "openaire_id": "od______2659::df6053cfcabefd001865fbbcaf8d5191",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Axiom-0"
+      ],
+      "request_key": "openaire_all_69"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23365540",
+      "openaire_id": "od______2659::722925d68c646d087b63b46e5532cfe7",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Agent Foundations"
+      ],
+      "request_key": "openaire_all_70"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23365543",
+      "openaire_id": "od______2659::66cdf8a2bc728db3ad6828b93ee6ee48",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Agentic Frontier Observatory"
+      ],
+      "request_key": "openaire_all_71"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23365548",
+      "openaire_id": "od______2659::79bf4cb2649c09383a24be465f4d8651",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "China Agentic Observatory"
+      ],
+      "request_key": "openaire_all_72"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23365551",
+      "openaire_id": "od______2659::dc16fb0b12822ab588346401637e31a9",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Zero-Entropy Lab"
+      ],
+      "request_key": "openaire_all_73"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23365567",
+      "openaire_id": "od______2659::3407b3ed1307e307786626a82a603d80",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Reflective Continuum"
+      ],
+      "request_key": "openaire_all_74"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23446162",
+      "openaire_id": "userclaim___::7d8d71756bb4d4366786cf985d1cbe28",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Research Software Identity Audit"
+      ],
+      "request_key": "openaire_all_75"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23446162",
+      "openaire_id": "od______2659::446be399ea6152bd4868b108b0aabddf",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Research Software Identity Audit"
+      ],
+      "request_key": "openaire_all_75"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23446162",
+      "openaire_id": "userclaim___::33fc9379154631ec16d84a66e09c5a5e",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Research Software Identity Audit"
+      ],
+      "request_key": "openaire_all_75"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23446162",
+      "openaire_id": "userclaim___::758c4b455f2e16715927db4133911aad",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Research Software Identity Audit"
+      ],
+      "request_key": "openaire_all_75"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23446162",
+      "openaire_id": "userclaim___::4e02a85cd175af4cf8c2856066115b9e",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Research Software Identity Audit"
+      ],
+      "request_key": "openaire_all_75"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23446162",
+      "openaire_id": "userclaim___::ffdccf85ced91af1d802e577cc857614",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Research Software Identity Audit"
+      ],
+      "request_key": "openaire_all_75"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23446162",
+      "openaire_id": "userclaim___::3f7c2763dc9d98420ae51119fd8310c1",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Research Software Identity Audit"
+      ],
+      "request_key": "openaire_all_75"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23446162",
+      "openaire_id": "userclaim___::e283f579558a637598302b071b511f89",
+      "status": "UNDER_CURATION",
+      "type": "dataset",
+      "titles": [
+        "Research Software Identity Audit"
+      ],
+      "request_key": "openaire_all_75"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23447089",
+      "openaire_id": "od______2659::7a6653baf60866588adc62d4faf69a5b",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Life Science Ecosystem Lab — Knowledge Workflow, Evidence Tool and Bio Tool"
+      ],
+      "request_key": "openaire_all_77"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23811380",
+      "openaire_id": "od______2659::db5f5e3e9e851b47f9d7172d022b4260",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "welcome-to-github"
+      ],
+      "request_key": "openaire_all_78"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23811383",
+      "openaire_id": "od______2659::61dbceb4356eb7acf5ecabbecd3f50aa",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "auto-doc-engine"
+      ],
+      "request_key": "openaire_all_79"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23811384",
+      "openaire_id": "od______2659::1dd9f85b56590d830e20444052cf1166",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Epistemic Pipeline"
+      ],
+      "request_key": "openaire_all_80"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23811387",
+      "openaire_id": "od______2659::1ac93d7e50170876417061a9947849a2",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Agentic Frontier Observatory"
+      ],
+      "request_key": "openaire_all_81"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23811388",
+      "openaire_id": "od______2659::9e538ca41f2a2ef3ebf4f9a6c352db0c",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "China Agentic Observatory"
+      ],
+      "request_key": "openaire_all_82"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23811389",
+      "openaire_id": "od______2659::632886dd432f9c360376b136823e512e",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Agent Foundations"
+      ],
+      "request_key": "openaire_all_83"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23811392",
+      "openaire_id": "od______2659::665c16ce416334493eb8286f2fcc2fcd",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Reflective Continuum"
+      ],
+      "request_key": "openaire_all_84"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23811393",
+      "openaire_id": "od______2659::697362ac2cca885a75769bde05ebeefe",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Axiom-0"
+      ],
+      "request_key": "openaire_all_85"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23811394",
+      "openaire_id": "od______2659::d6617ef7d1e367c87f5888fe77c48313",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "Zero-Entropy Lab"
+      ],
+      "request_key": "openaire_all_86"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23811397",
+      "openaire_id": "od______2659::e2377db5b59c9c49c4eae7e950de19a7",
+      "status": "UNDER_CURATION",
+      "type": "software",
+      "titles": [
+        "sci-render-kit"
+      ],
+      "request_key": "openaire_all_87"
+    }
+  ]
+}

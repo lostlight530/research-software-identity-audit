@@ -1,0 +1,4287 @@
+{
+  "source_kind": "selected public fields derived from retained independent HTTP captures",
+  "compiled_at_utc": "2026-10-31T05:59:24.713008+00:00",
+  "original_http_payloads_published": false,
+  "local_capture_sources": [
+    {
+      "role": "VerifiedFields.json",
+      "sha256": "c9550ddc16ac28e7913e15ccdbf973e43576aa9af07a3b9f069fe56d4fd5222e",
+      "bytes": 44520
+    },
+    {
+      "role": "AllRequests.json",
+      "sha256": "997184774ac30f90391898807dc59cdc258fe84fe92853d76c9661d584747e25",
+      "bytes": 343547
+    },
+    {
+      "role": "OpenAIRECrossTypeInventory.json",
+      "sha256": "e869653dd2395b1b4143ddd19140f8502e3a2cd084ee57248e4cb5e6defe346c",
+      "bytes": 55608
+    },
+    {
+      "role": "Verification.json",
+      "sha256": "37f1b454979f7d77a38ecd0828518c2c9ac3ec6119e59fc40dca4802fe6f2ff5",
+      "bytes": 810
+    }
+  ],
+  "response_digests": [
+    {
+      "request_key": "datacite",
+      "url": "https://api.datacite.org/dois?query=creators.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A+OR+contributors.nameIdentifiers.nameIdentifier%3A%2A0009-0001-3617-0832%2A&page%5Bsize%5D=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:27.486146+00:00",
+      "finished_at": "2026-10-31T04:00:30.452790+00:00",
+      "response_sha256": "c7bdb2a1d6d1d4fc19a834cb61c089bbcb546b7d9a2feaae81df113eb4964930",
+      "response_bytes": 237758
+    },
+    {
+      "request_key": "datacite_exact",
+      "url": "https://api.datacite.org/dois?query=creators.nameIdentifiers.nameIdentifier%3A%28%220009-0001-3617-0832%22+OR+%22https%3A%2F%2Forcid.org%2F0009-0001-3617-0832%22%29+OR+contributors.nameIdentifiers.nameIdentifier%3A%28%220009-0001-3617-0832%22+OR+%22https%3A%2F%2Forcid.org%2F0009-0001-3617-0832%22%29&page%5Bsize%5D=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:27.487309+00:00",
+      "finished_at": "2026-10-31T04:00:29.800768+00:00",
+      "response_sha256": "62285147df47cceebca82a2cdc8af91760409a3b668d9844e164be5f44e9aef0",
+      "response_bytes": 237880
+    },
+    {
+      "request_key": "datacite_exact_bare",
+      "url": "https://api.datacite.org/dois?query=creators.nameIdentifiers.nameIdentifier%3A%220009-0001-3617-0832%22&page%5Bsize%5D=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:27.487309+00:00",
+      "finished_at": "2026-10-31T04:00:29.961363+00:00",
+      "response_sha256": "ea5964268539b0974baadafd4d3aec08045d1ac0c0fc070d00a08f78060e8c9c",
+      "response_bytes": 182412
+    },
+    {
+      "request_key": "beta",
+      "url": "https://api.datacite.org/dois/10.5281/zenodo.23166491",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:27.487309+00:00",
+      "finished_at": "2026-10-31T04:00:29.001286+00:00",
+      "response_sha256": "c1da0e532e881c5b0527a2377dd0dcbf32e77b93dbf1d5f04d4a5d9bf0dfa383",
+      "response_bytes": 10249
+    },
+    {
+      "request_key": "orcid",
+      "url": "https://pub.orcid.org/v3.0/0009-0001-3617-0832/works",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:27.487309+00:00",
+      "finished_at": "2026-10-31T04:00:28.675870+00:00",
+      "response_sha256": "0bc2b105d12e5614848dd48150255c966bcb606d3281a285931e1b21299958b6",
+      "response_bytes": 160954
+    },
+    {
+      "request_key": "openalex_author",
+      "url": "https://api.openalex.org/authors/A5151904252",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:27.488308+00:00",
+      "finished_at": "2026-10-31T04:00:29.124609+00:00",
+      "response_sha256": "a6f7fa46741a6543f10fbb5f8d444b1566e239a8802bb56d43e1fbeec6c46f74",
+      "response_bytes": 5325
+    },
+    {
+      "request_key": "openalex_works",
+      "url": "https://api.openalex.org/works?filter=authorships.author.id%3AA5151904252&per-page=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:28.675870+00:00",
+      "finished_at": "2026-10-31T04:00:30.053859+00:00",
+      "response_sha256": "02ff9fce0af7d5d3cc3a4241ae399b9f014f1dc326b0aebc999c376fb86c8b40",
+      "response_bytes": 403177
+    },
+    {
+      "request_key": "zenodo_welcome-to-github",
+      "url": "https://zenodo.org/api/records/23365504/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:29.001286+00:00",
+      "finished_at": "2026-10-31T04:00:31.087995+00:00",
+      "response_sha256": "1d027b699abdea6dcb6e82b4b533397758866cc6c2e64f6d5c27470e790249ac",
+      "response_bytes": 4299
+    },
+    {
+      "request_key": "zenodo_zero-entropy-lab",
+      "url": "https://zenodo.org/api/records/23365551/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:29.124609+00:00",
+      "finished_at": "2026-10-31T04:00:31.297315+00:00",
+      "response_sha256": "26e1e714e531927f7030124c47df6092245bbc66ae1d465189c00097970327c8",
+      "response_bytes": 4274
+    },
+    {
+      "request_key": "zenodo_Axiom-0",
+      "url": "https://zenodo.org/api/records/23365534/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:29.800768+00:00",
+      "finished_at": "2026-10-31T04:00:31.850917+00:00",
+      "response_sha256": "c55df93ec71e4dbf17eb6ebd89659bc1bfc6f7d68f2d9f171d4beba82afe7098",
+      "response_bytes": 4224
+    },
+    {
+      "request_key": "zenodo_reflective-continuum",
+      "url": "https://zenodo.org/api/records/23365567/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:29.961363+00:00",
+      "finished_at": "2026-10-31T04:00:32.088271+00:00",
+      "response_sha256": "d811505c3dfeb92d673d1e98d18c118b4eb2e0c5d93e54c36d74dc268fc47839",
+      "response_bytes": 4297
+    },
+    {
+      "request_key": "zenodo_agent-foundations",
+      "url": "https://zenodo.org/api/records/23365540/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:30.053859+00:00",
+      "finished_at": "2026-10-31T04:00:32.123339+00:00",
+      "response_sha256": "344d0025ee949fb8b1d7db0dc6cc0b701fa5db0ed252201a6b30bcf4bdebcb9d",
+      "response_bytes": 4278
+    },
+    {
+      "request_key": "zenodo_auto-doc-engine",
+      "url": "https://zenodo.org/api/records/23365510/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:30.452790+00:00",
+      "finished_at": "2026-10-31T04:00:32.527780+00:00",
+      "response_sha256": "4e2419b603db3ca8f0a776eb8d6a5f539482e6b21f01f48a7662ef9210fbd9bf",
+      "response_bytes": 4313
+    },
+    {
+      "request_key": "zenodo_epistemic-pipeline",
+      "url": "https://zenodo.org/api/records/23365517/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:31.088863+00:00",
+      "finished_at": "2026-10-31T04:00:33.159740+00:00",
+      "response_sha256": "713692418b6eec61bca42d2ac4b2848d52e44d36989e7486fce31928fd0fc2c7",
+      "response_bytes": 4319
+    },
+    {
+      "request_key": "zenodo_sci-render-kit",
+      "url": "https://zenodo.org/api/records/23365525/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:31.297315+00:00",
+      "finished_at": "2026-10-31T04:00:33.377444+00:00",
+      "response_sha256": "cd0f1ef17f6a320f4bfe22f9afa39722120ea575b4dc4db8cec8fb9bfda140bb",
+      "response_bytes": 4315
+    },
+    {
+      "request_key": "zenodo_china-agentic-observatory",
+      "url": "https://zenodo.org/api/records/23365548/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:31.850917+00:00",
+      "finished_at": "2026-10-31T04:00:33.959902+00:00",
+      "response_sha256": "83e5906b2783aa659e78c4fd098c43c017fe888c78ee8643f573cb2427e5cfb5",
+      "response_bytes": 4349
+    },
+    {
+      "request_key": "zenodo_agentic-frontier-observatory",
+      "url": "https://zenodo.org/api/records/23365543/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:32.088271+00:00",
+      "finished_at": "2026-10-31T04:00:34.241856+00:00",
+      "response_sha256": "fe957204769608b3aa4807a40415b2168de5ca2a0e68b980ebfc0b5563fd9f9b",
+      "response_bytes": 4396
+    },
+    {
+      "request_key": "zenodo_research-software-identity-audit",
+      "url": "https://zenodo.org/api/records/23446162/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:32.123339+00:00",
+      "finished_at": "2026-10-31T04:00:34.151425+00:00",
+      "response_sha256": "8921e96f7ba6dfa9412ee505675e7ee24a8c917c081fe298a454d415d9d8d151",
+      "response_bytes": 4513
+    },
+    {
+      "request_key": "zenodo_life-science-ecosystem-lab",
+      "url": "https://zenodo.org/api/records/23447089/versions/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:32.527780+00:00",
+      "finished_at": "2026-10-31T04:00:34.672028+00:00",
+      "response_sha256": "77062375fb75b469e5a98dc3f23b3e5241060acbc52a4cc467a12d625d3db91d",
+      "response_bytes": 13427
+    },
+    {
+      "request_key": "github_welcome-to-github",
+      "url": "https://api.github.com/repos/lostlight530/welcome-to-github",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:35.449894+00:00",
+      "finished_at": "2026-10-31T04:00:36.326635+00:00",
+      "response_sha256": "1cf9592660f4f4138c115015f0b6eda4c9f80f53566f288963406e195a436abc",
+      "response_bytes": 11981
+    },
+    {
+      "request_key": "release_welcome-to-github",
+      "url": "https://api.github.com/repos/lostlight530/welcome-to-github/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:35.450909+00:00",
+      "finished_at": "2026-10-31T04:00:36.230047+00:00",
+      "response_sha256": "84ca74599ac38494c1ecd9163ed3188f505532e523e3773624be6c6a95aae3c5",
+      "response_bytes": 3371
+    },
+    {
+      "request_key": "swh_welcome-to-github",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:35.451754+00:00",
+      "finished_at": "2026-10-31T04:00:37.168829+00:00",
+      "response_sha256": "825853e43d9f029f5c7a3837906573ac20f287a4e0e03076b7ae19328eebe837",
+      "response_bytes": 442
+    },
+    {
+      "request_key": "github_zero-entropy-lab",
+      "url": "https://api.github.com/repos/lostlight530/zero-entropy-lab",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:35.452874+00:00",
+      "finished_at": "2026-10-31T04:00:36.249976+00:00",
+      "response_sha256": "b8e7fb1315acf32bc18d1a011abd558bbb324357c433b37ebb85bc107adbd0d0",
+      "response_bytes": 6209
+    },
+    {
+      "request_key": "release_zero-entropy-lab",
+      "url": "https://api.github.com/repos/lostlight530/zero-entropy-lab/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:35.454063+00:00",
+      "finished_at": "2026-10-31T04:00:36.230896+00:00",
+      "response_sha256": "aa8f0a69073002cb68ffd7f1a3f2733345b47068adcfcfc2fc820b40fd3859cc",
+      "response_bytes": 3771
+    },
+    {
+      "request_key": "swh_zero-entropy-lab",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/zero-entropy-lab/visit/latest/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:35.455798+00:00",
+      "finished_at": "2026-10-31T04:00:37.127121+00:00",
+      "response_sha256": "710b3b6e4a32d7d02e849bdefd7292cfe825f1c7ede4147f30600e49748a9849",
+      "response_bytes": 440
+    },
+    {
+      "request_key": "github_Axiom-0",
+      "url": "https://api.github.com/repos/lostlight530/Axiom-0",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:35.456956+00:00",
+      "finished_at": "2026-10-31T04:00:36.315426+00:00",
+      "response_sha256": "c532880b22492566f4a6e8b78e9b4803604cb190eb673db82d6931fd06992667",
+      "response_bytes": 5859
+    },
+    {
+      "request_key": "release_Axiom-0",
+      "url": "https://api.github.com/repos/lostlight530/Axiom-0/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:36.230896+00:00",
+      "finished_at": "2026-10-31T04:00:37.006002+00:00",
+      "response_sha256": "b8aebba7f6497bd809c0833ebabd49276608e03ca476449f2a406567c73d39e4",
+      "response_bytes": 3306
+    },
+    {
+      "request_key": "swh_Axiom-0",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/Axiom-0/visit/latest/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:36.230896+00:00",
+      "finished_at": "2026-10-31T04:00:37.252951+00:00",
+      "response_sha256": "ed764b9f5b1331236f0b70d373c6c3edab151ba32267a932009675a87e0d2ff5",
+      "response_bytes": 422
+    },
+    {
+      "request_key": "github_reflective-continuum",
+      "url": "https://api.github.com/repos/lostlight530/reflective-continuum",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:36.250991+00:00",
+      "finished_at": "2026-10-31T04:00:37.086537+00:00",
+      "response_sha256": "fcb9eb9879679ff33197f2d07aee8dc21e56a89285b1edf82cc72ed7cb01fbbb",
+      "response_bytes": 6425
+    },
+    {
+      "request_key": "release_reflective-continuum",
+      "url": "https://api.github.com/repos/lostlight530/reflective-continuum/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:36.315426+00:00",
+      "finished_at": "2026-10-31T04:00:37.085918+00:00",
+      "response_sha256": "38efa14b366381b4f3557707ffccc2faaddc83133d0c175d27db5b2dfae093e8",
+      "response_bytes": 3381
+    },
+    {
+      "request_key": "swh_reflective-continuum",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/reflective-continuum/visit/latest/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:36.326635+00:00",
+      "finished_at": "2026-10-31T04:00:37.330684+00:00",
+      "response_sha256": "7f380eae79563bf9a11b9821570d50af2f3cd06656fecd5b23c041fadcc4c8a9",
+      "response_bytes": 448
+    },
+    {
+      "request_key": "github_agent-foundations",
+      "url": "https://api.github.com/repos/lostlight530/agent-foundations",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:37.006002+00:00",
+      "finished_at": "2026-10-31T04:00:37.817697+00:00",
+      "response_sha256": "5093c5bb274e581f9f292ffabd0747bfe8f57b03c73cfb12dde7b2acce756b9c",
+      "response_bytes": 6299
+    },
+    {
+      "request_key": "release_agent-foundations",
+      "url": "https://api.github.com/repos/lostlight530/agent-foundations/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:37.085918+00:00",
+      "finished_at": "2026-10-31T04:00:37.860124+00:00",
+      "response_sha256": "ba8608e10f2ab732ad83e1b27731b65b4fec9fdaf223f4bdb62d53095b2318c4",
+      "response_bytes": 3407
+    },
+    {
+      "request_key": "swh_agent-foundations",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agent-foundations/visit/latest/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:37.086537+00:00",
+      "finished_at": "2026-10-31T04:00:38.179734+00:00",
+      "response_sha256": "c61732715f292103a9570eccea53ab3e152b8a2e2f8d2f13abe713cff65b580a",
+      "response_bytes": 442
+    },
+    {
+      "request_key": "github_auto-doc-engine",
+      "url": "https://api.github.com/repos/lostlight530/auto-doc-engine",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:37.127121+00:00",
+      "finished_at": "2026-10-31T04:00:38.017374+00:00",
+      "response_sha256": "45ebcc7c0df1a2da35f65419a1dbead09bfc03b1f13fdb481aed77887566c47f",
+      "response_bytes": 6135
+    },
+    {
+      "request_key": "release_auto-doc-engine",
+      "url": "https://api.github.com/repos/lostlight530/auto-doc-engine/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:37.169472+00:00",
+      "finished_at": "2026-10-31T04:00:37.905947+00:00",
+      "response_sha256": "8d1ad5dc43c0cd95fbf8527bf0c0b66081c7ac6b1f1f40969f42ff162ba04412",
+      "response_bytes": 3342
+    },
+    {
+      "request_key": "swh_auto-doc-engine",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/auto-doc-engine/visit/latest/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:37.252951+00:00",
+      "finished_at": "2026-10-31T04:00:38.274177+00:00",
+      "response_sha256": "29fab209f55fc25d6b47229613e048a9105e34fea067f6dc51ac5925007a4675",
+      "response_bytes": 438
+    },
+    {
+      "request_key": "github_epistemic-pipeline",
+      "url": "https://api.github.com/repos/lostlight530/epistemic-pipeline",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:37.331251+00:00",
+      "finished_at": "2026-10-31T04:00:38.197521+00:00",
+      "response_sha256": "76b1f0c23e5906ffdad39232e3acf788bde729920b76ccb4a3901139b7c9f2e9",
+      "response_bytes": 6295
+    },
+    {
+      "request_key": "release_epistemic-pipeline",
+      "url": "https://api.github.com/repos/lostlight530/epistemic-pipeline/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:37.818302+00:00",
+      "finished_at": "2026-10-31T04:00:38.547038+00:00",
+      "response_sha256": "cd8256a79bc3c42a0e9882d87de7f95ccbb049738ca3f1f5fe579f75e74d6dae",
+      "response_bytes": 3395
+    },
+    {
+      "request_key": "swh_epistemic-pipeline",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/epistemic-pipeline/visit/latest/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:37.860124+00:00",
+      "finished_at": "2026-10-31T04:00:38.873532+00:00",
+      "response_sha256": "815cbfe3a9d6e54a08f83a8aabefa2b88508da9aaa48d72700a4cb78bc413c96",
+      "response_bytes": 444
+    },
+    {
+      "request_key": "github_sci-render-kit",
+      "url": "https://api.github.com/repos/lostlight530/sci-render-kit",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:37.905947+00:00",
+      "finished_at": "2026-10-31T04:00:38.709038+00:00",
+      "response_sha256": "5df5175267a6085beecd856457bd803db8e70a5cc20d476a83ebfcf701df97ae",
+      "response_bytes": 6135
+    },
+    {
+      "request_key": "release_sci-render-kit",
+      "url": "https://api.github.com/repos/lostlight530/sci-render-kit/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:38.017374+00:00",
+      "finished_at": "2026-10-31T04:00:38.884944+00:00",
+      "response_sha256": "5936d896db5ed41213435a6e0983afa5a91a4d745d1ef9c003847f2d02020360",
+      "response_bytes": 3362
+    },
+    {
+      "request_key": "swh_sci-render-kit",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/sci-render-kit/visit/latest/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:38.179734+00:00",
+      "finished_at": "2026-10-31T04:00:39.188416+00:00",
+      "response_sha256": "d54aa0fc1006d76e1355f34497feefa98fd3cf587af8420df80d5dc973e3234b",
+      "response_bytes": 436
+    },
+    {
+      "request_key": "github_china-agentic-observatory",
+      "url": "https://api.github.com/repos/lostlight530/china-agentic-observatory",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:38.197521+00:00",
+      "finished_at": "2026-10-31T04:00:39.009601+00:00",
+      "response_sha256": "cba0692847dc8cc0f39513d9f649e0ce5f538dffb180e62ac57be98200da9b86",
+      "response_bytes": 6588
+    },
+    {
+      "request_key": "release_china-agentic-observatory",
+      "url": "https://api.github.com/repos/lostlight530/china-agentic-observatory/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:38.274177+00:00",
+      "finished_at": "2026-10-31T04:00:39.091268+00:00",
+      "response_sha256": "ae309d049310fd1b782b16d0b115ce4f75562b60130e387474e7b4ce7e806d8b",
+      "response_bytes": 3579
+    },
+    {
+      "request_key": "swh_china-agentic-observatory",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/china-agentic-observatory/visit/latest/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:38.547038+00:00",
+      "finished_at": "2026-10-31T04:00:39.553956+00:00",
+      "response_sha256": "9a689bfd5f003853d49f9905fa91772313ea878dd132ce0053f75a86364be464",
+      "response_bytes": 458
+    },
+    {
+      "request_key": "github_agentic-frontier-observatory",
+      "url": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:38.709038+00:00",
+      "finished_at": "2026-10-31T04:00:39.545644+00:00",
+      "response_sha256": "f1ad10997dca7dc6c44d8346369d51bd665aae3cdc2f50ab150898af2df45d2b",
+      "response_bytes": 6746
+    },
+    {
+      "request_key": "release_agentic-frontier-observatory",
+      "url": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:38.873532+00:00",
+      "finished_at": "2026-10-31T04:00:39.640094+00:00",
+      "response_sha256": "94f0675e69339f77af85bb23b2a61ddce97a5c72ff6563a5e558a9f806159d7b",
+      "response_bytes": 3646
+    },
+    {
+      "request_key": "swh_agentic-frontier-observatory",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agentic-frontier-observatory/visit/latest/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:38.884944+00:00",
+      "finished_at": "2026-10-31T04:00:39.951683+00:00",
+      "response_sha256": "74373c06e71b7f7d6ae47fa31019ac987630b4ae17df4003f06fb91cd2b3a0e1",
+      "response_bytes": 464
+    },
+    {
+      "request_key": "github_research-software-identity-audit",
+      "url": "https://api.github.com/repos/lostlight530/research-software-identity-audit",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:39.009601+00:00",
+      "finished_at": "2026-10-31T04:00:39.861783+00:00",
+      "response_sha256": "4b0e9708a7839228d581be3e6c565d3b47360a5a81ede7aef869801b55546a1b",
+      "response_bytes": 6749
+    },
+    {
+      "request_key": "release_research-software-identity-audit",
+      "url": "https://api.github.com/repos/lostlight530/research-software-identity-audit/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:39.091268+00:00",
+      "finished_at": "2026-10-31T04:00:39.831054+00:00",
+      "response_sha256": "8226e7cec199d002a91a744e6011d309cfa7ba5db567c52a0ebfc0aa14515888",
+      "response_bytes": 8097
+    },
+    {
+      "request_key": "swh_research-software-identity-audit",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/research-software-identity-audit/visit/latest/",
+      "status": 404,
+      "started_at": "2026-10-31T04:00:39.188416+00:00",
+      "finished_at": "2026-10-31T04:00:40.195615+00:00",
+      "response_sha256": "c57dacceca365823f60e84ef81d92b67faa08ec4b0ca35a335db2a4528c13a2d",
+      "response_bytes": 130
+    },
+    {
+      "request_key": "github_life-science-ecosystem-lab",
+      "url": "https://api.github.com/repos/lostlight530/life-science-ecosystem-lab",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:39.545644+00:00",
+      "finished_at": "2026-10-31T04:00:40.443699+00:00",
+      "response_sha256": "cba4eeb1a1bf6b7561d11d90d3b1083f74662f6009c8f66cf2d98446ebe2d322",
+      "response_bytes": 6318
+    },
+    {
+      "request_key": "release_life-science-ecosystem-lab",
+      "url": "https://api.github.com/repos/lostlight530/life-science-ecosystem-lab/releases/latest",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:39.553956+00:00",
+      "finished_at": "2026-10-31T04:00:40.444946+00:00",
+      "response_sha256": "56e47ff9f1b073696fc5ef87fbc2e1a5491f1b56fe989fdff1d4f4c205adcdda",
+      "response_bytes": 10224
+    },
+    {
+      "request_key": "swh_life-science-ecosystem-lab",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/life-science-ecosystem-lab/visit/latest/",
+      "status": 404,
+      "started_at": "2026-10-31T04:00:39.640094+00:00",
+      "finished_at": "2026-10-31T04:00:40.616709+00:00",
+      "response_sha256": "e7bb0aa473be68c93d52e20d2debe7fcc45485a90d06e79b3e424ce5bc9708d1",
+      "response_bytes": 124
+    },
+    {
+      "request_key": "workflow_2332",
+      "url": "https://workflowhub.eu/workflows/2332",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:39.831054+00:00",
+      "finished_at": "2026-10-31T04:00:41.803469+00:00",
+      "response_sha256": "ffd84e695aa4e141d8dbfc4b2016952585eb358f5164d09a6fa456bac6916352",
+      "response_bytes": 9554
+    },
+    {
+      "request_key": "workflow_html_2332",
+      "url": "https://workflowhub.eu/workflows/2332",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:39.861783+00:00",
+      "finished_at": "2026-10-31T04:00:45.269890+00:00",
+      "response_sha256": "3c89233399800a28ca7f85c47af87f3c536386e5df7340135cf80aaf9bf0e6db",
+      "response_bytes": 269079
+    },
+    {
+      "request_key": "workflow_2334",
+      "url": "https://workflowhub.eu/workflows/2334",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:39.951683+00:00",
+      "finished_at": "2026-10-31T04:00:41.774309+00:00",
+      "response_sha256": "f0f2f581a24dea75496aae6ff2fd2f6c7bbe1639c498c4c1339fb14c7d34dc0c",
+      "response_bytes": 10737
+    },
+    {
+      "request_key": "workflow_html_2334",
+      "url": "https://workflowhub.eu/workflows/2334",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:40.195615+00:00",
+      "finished_at": "2026-10-31T04:00:44.785974+00:00",
+      "response_sha256": "8006393b2e725fea515f0883fa296fa196f32ea68155f65de12f37fe8b47d0b5",
+      "response_bytes": 275063
+    },
+    {
+      "request_key": "workflow_2337",
+      "url": "https://workflowhub.eu/workflows/2337",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:40.443699+00:00",
+      "finished_at": "2026-10-31T04:00:41.656924+00:00",
+      "response_sha256": "373126d95121aad0773ada6855bcf39fd1411eb1427fd67ca1c9cf4a0a9458ca",
+      "response_bytes": 4093
+    },
+    {
+      "request_key": "workflow_html_2337",
+      "url": "https://workflowhub.eu/workflows/2337",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:40.444946+00:00",
+      "finished_at": "2026-10-31T04:00:42.986022+00:00",
+      "response_sha256": "75fa072e0cad39385594879b8e435b96d5f34a52838b299e569f0cc4dd1bf396",
+      "response_bytes": 262455
+    },
+    {
+      "request_key": "workflow_2347",
+      "url": "https://workflowhub.eu/workflows/2347",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:40.616709+00:00",
+      "finished_at": "2026-10-31T04:00:43.095553+00:00",
+      "response_sha256": "f066ba541df16118c9bd39ccc3cd2dbc6cbaed6d8ba93d39810ae8ab00823e59",
+      "response_bytes": 9603
+    },
+    {
+      "request_key": "workflow_html_2347",
+      "url": "https://workflowhub.eu/workflows/2347",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:41.656924+00:00",
+      "finished_at": "2026-10-31T04:00:45.424087+00:00",
+      "response_sha256": "08aef19b25bac16bae0e4ec5fd41062c74b8466df1c6c224ae0ef5d6c04f749f",
+      "response_bytes": 282115
+    },
+    {
+      "request_key": "workflow_team",
+      "url": "https://workflowhub.eu/projects/490",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:41.774309+00:00",
+      "finished_at": "2026-10-31T04:00:43.791146+00:00",
+      "response_sha256": "b58eeec02fad6da99c90a9103cc0be614fbbf7ddd754737e2bbf4f943c54f610",
+      "response_bytes": 1813
+    },
+    {
+      "request_key": "lm_specs",
+      "url": "https://api.lifemonitor.eu/openapi.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:41.803469+00:00",
+      "finished_at": "2026-10-31T04:00:45.349275+00:00",
+      "response_sha256": "1791432b93731eebd86c660c7a60d26e7f8bf109fb66c4cf3559e7e2ba486672",
+      "response_bytes": 88816
+    },
+    {
+      "request_key": "lm_workflow",
+      "url": "https://api.lifemonitor.eu/workflows/de72071c-e60b-4bd4-95b9-863b408dda4d",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:42.986022+00:00",
+      "finished_at": "2026-10-31T04:00:45.079734+00:00",
+      "response_sha256": "25a04aa9515ffad07dde8b1e066f1d3194767b36e3a5c07b376ac76cbbe03156",
+      "response_bytes": 1740
+    },
+    {
+      "request_key": "helmholtz_home",
+      "url": "https://helmholtz.software/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:43.095553+00:00",
+      "finished_at": "2026-10-31T04:00:46.143698+00:00",
+      "response_sha256": "fb4be6f7bf114be0d8d863abc5d7f8bd56d465a0f9c74f47d1475c3697ed21f6",
+      "response_bytes": 79012
+    },
+    {
+      "request_key": "rsd_contributors",
+      "url": "https://research-software-directory.org/api/v1/contributor?orcid=eq.0009-0001-3617-0832",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:43.791146+00:00",
+      "finished_at": "2026-10-31T04:00:45.654317+00:00",
+      "response_sha256": "c8fe52a0d9654b96c5be5c78251d6aa000925b1b4eb8f2215d191ac55ed685ff",
+      "response_bytes": 6274
+    },
+    {
+      "request_key": "nfdi_home",
+      "url": "https://nfdi.software/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:44.785974+00:00",
+      "finished_at": "2026-10-31T04:00:47.419978+00:00",
+      "response_sha256": "c4cf820b4a69d4f2510c97d872a386fba1325eaaef1b4602f3080eb4c20a5690",
+      "response_bytes": 65183
+    },
+    {
+      "request_key": "biotools",
+      "url": "https://bio.tools/api/tool/life-science-protein-file-audit/?format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:45.080097+00:00",
+      "finished_at": "2026-10-31T04:00:47.426017+00:00",
+      "response_sha256": "73ae8241f3dddfc0e0b20826b83ee5ab64cac024f40656ce8c2fd6206eb8116d",
+      "response_bytes": 4516
+    },
+    {
+      "request_key": "openebench",
+      "url": "https://openebench.bsc.es/monitor/tool/life-science-protein-file-audit",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:45.270456+00:00",
+      "finished_at": "2026-10-31T04:00:48.371017+00:00",
+      "response_sha256": "41d7ad3fe27b2a45ee055824e50ff02c2e377b9ab7caf314343cca5f39fb3a2e",
+      "response_bytes": 1123
+    },
+    {
+      "request_key": "rse_pr",
+      "url": "https://api.github.com/repos/rseng/software/pulls/498",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:45.349805+00:00",
+      "finished_at": "2026-10-31T04:00:46.450765+00:00",
+      "response_sha256": "4841467e65663d99ef6a03fffa25250fab4d571af34203896a5e5cd974810b34",
+      "response_bytes": 16571
+    },
+    {
+      "request_key": "scicrunch_json",
+      "url": "https://scicrunch.org/resolver/RRID:SCR_029105.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:45.424087+00:00",
+      "finished_at": "2026-10-31T04:00:46.786552+00:00",
+      "response_sha256": "f7e97e811cf8fb011e4e19637e3d7e38f728b2a0cdaae90dcc8bdd7f8ff72d5d",
+      "response_bytes": 2623
+    },
+    {
+      "request_key": "scicrunch_html",
+      "url": "https://scicrunch.org/resolver/RRID:SCR_029105",
+      "status": 403,
+      "started_at": "2026-10-31T04:00:45.655001+00:00",
+      "finished_at": "2026-10-31T04:00:46.618054+00:00",
+      "response_sha256": "834e8b132c5f39b5687f316b6ad193610aa68f156c2652bb817cd954d0beb15f",
+      "response_bytes": 5579
+    },
+    {
+      "request_key": "rrid",
+      "url": "https://rrid.site/resolver/RRID:SCR_029105",
+      "status": 403,
+      "started_at": "2026-10-31T04:00:46.143698+00:00",
+      "finished_at": "2026-10-31T04:00:47.424941+00:00",
+      "response_sha256": "9bdac12c261f12dd22e44c726392cc2c0c67f93c5594dcd1eba2b8a48d7c4282",
+      "response_bytes": 5567
+    },
+    {
+      "request_key": "aswg",
+      "url": "https://aswg.scicrunch.org/resolver/RRID:SCR_029105",
+      "status": null,
+      "started_at": "2026-10-31T04:00:46.450765+00:00",
+      "finished_at": "2026-10-31T04:00:47.141542+00:00",
+      "response_sha256": null,
+      "response_bytes": null
+    },
+    {
+      "request_key": "nif",
+      "url": "https://neuinfo.org/resolver/RRID:SCR_029105",
+      "status": 403,
+      "started_at": "2026-10-31T04:00:46.618054+00:00",
+      "finished_at": "2026-10-31T04:00:47.821652+00:00",
+      "response_sha256": "677de6bcf49b2b25ea1d205184d827e5a92e53bc2b6d1b75243bc5991b0d839c",
+      "response_bytes": 5569
+    },
+    {
+      "request_key": "dknet",
+      "url": "https://dknet.org/data/source/SCR_029105",
+      "status": 403,
+      "started_at": "2026-10-31T04:00:46.786552+00:00",
+      "finished_at": "2026-10-31T04:00:47.935267+00:00",
+      "response_sha256": "4132fa9c344f5a051f6aad78be19eae9e4d1305ebe1fff968538970afbc12c56",
+      "response_bytes": 5540
+    },
+    {
+      "request_key": "interlex",
+      "url": "https://scicrunch.org/interlex/ilx_0381348",
+      "status": 403,
+      "started_at": "2026-10-31T04:00:47.141542+00:00",
+      "finished_at": "2026-10-31T04:00:47.719118+00:00",
+      "response_sha256": "d870778119b7fd864b093fc4d5ea846f37676e30d752dbb18a4712910b7798c5",
+      "response_bytes": 5567
+    },
+    {
+      "request_key": "edam",
+      "url": "https://edamontology.org/EDAM.owl",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:47.419978+00:00",
+      "finished_at": "2026-10-31T04:00:51.684290+00:00",
+      "response_sha256": "a3ebbd7df78f845854c285389f5e788bb6a4852bb50cc6f7a991843dbc538158",
+      "response_bytes": 3413870
+    },
+    {
+      "request_key": "osf",
+      "url": "https://api.osf.io/v2/registrations/5b329/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:47.424941+00:00",
+      "finished_at": "2026-10-31T04:00:48.505843+00:00",
+      "response_sha256": "e4d6435e1276e8e861bd574aef600a610adf1644e99d40054fd956bcb26c7013",
+      "response_bytes": 42852
+    },
+    {
+      "request_key": "osf_resources",
+      "url": "https://api.osf.io/v2/registrations/5b329/resources/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:47.426017+00:00",
+      "finished_at": "2026-10-31T04:00:48.220537+00:00",
+      "response_sha256": "d1f2916bc9840f72d92d3265015fa2a9278a7c4be0d3ef065ae5b5f1fcc2bd57",
+      "response_bytes": 2839
+    },
+    {
+      "request_key": "ia",
+      "url": "https://archive.org/metadata/osf-registrations-5b329-v1",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:47.719118+00:00",
+      "finished_at": "2026-10-31T04:00:49.334131+00:00",
+      "response_sha256": "acc6582c406c1a234631d4f6bd771cff0731b9ea71deae53e50ab0997c76d6c6",
+      "response_bytes": 3493
+    },
+    {
+      "request_key": "hal",
+      "url": "https://api.archives-ouvertes.fr/search/?q=halId_s%3Ahal-05780132&wt=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:47.821652+00:00",
+      "finished_at": "2026-10-31T04:00:49.468680+00:00",
+      "response_sha256": "316b596864c92e18c8f6688107ad49ecfc3fe632ebdc85efe82c65ed28ba8064",
+      "response_bytes": 116
+    },
+    {
+      "request_key": "hal_html",
+      "url": "https://hal.science/hal-05780132v1",
+      "status": 404,
+      "started_at": "2026-10-31T04:00:47.935778+00:00",
+      "finished_at": "2026-10-31T04:00:49.374611+00:00",
+      "response_sha256": "982d478285c6edc441745046dcde9ff85042fd01c27bb4834d6820d3bfa23696",
+      "response_bytes": 49194
+    },
+    {
+      "request_key": "openalex_audit",
+      "url": "https://api.openalex.org/works/W7220365356",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:48.220537+00:00",
+      "finished_at": "2026-10-31T04:00:49.040630+00:00",
+      "response_sha256": "d22475b7438eeadc501da77c9f38eb4913ec3df63a1f596b4a6261c9d083d4db",
+      "response_bytes": 15296
+    },
+    {
+      "request_key": "identifiers_rrid",
+      "url": "https://identifiers.org/rrid:SCR_029105",
+      "status": 404,
+      "started_at": "2026-10-31T04:00:48.371017+00:00",
+      "finished_at": "2026-10-31T04:00:49.752105+00:00",
+      "response_sha256": "3ab4935b679be3f139571e8932570f8edcd0ac991751e75ca8b65e1dc6aa3a70",
+      "response_bytes": 610
+    },
+    {
+      "request_key": "identifiers_biotools",
+      "url": "https://identifiers.org/biotools:life-science-protein-file-audit",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:48.505843+00:00",
+      "finished_at": "2026-10-31T04:00:50.767104+00:00",
+      "response_sha256": "5b544243407bfd12e8e84320582094875634568483cd3396decc520227213617",
+      "response_bytes": 3019
+    },
+    {
+      "request_key": "n2t",
+      "url": "https://n2t.net/rrid:SCR_029105",
+      "status": 403,
+      "started_at": "2026-10-31T04:00:49.040630+00:00",
+      "finished_at": "2026-10-31T04:00:50.945596+00:00",
+      "response_sha256": "450ae301fa3f90c0292a6a6ffb40fac15de57a300f9b076a2cf5c02e952f23d6",
+      "response_bytes": 5579
+    },
+    {
+      "request_key": "bioregistry_rrid",
+      "url": "https://bioregistry.io/api/registry/rrid",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:49.334131+00:00",
+      "finished_at": "2026-10-31T04:00:50.678484+00:00",
+      "response_sha256": "42197f97549e6b807116c9bddc46e9e82c6aae621780cc27b63ca9e52b9ed0ec",
+      "response_bytes": 3958
+    },
+    {
+      "request_key": "bioregistry_biotools",
+      "url": "https://bioregistry.io/api/registry/biotools",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:49.374611+00:00",
+      "finished_at": "2026-10-31T04:00:50.677945+00:00",
+      "response_sha256": "ae60bacbe036af96fe8aa71cfcbaf90fd984b1256e32b39d7d454b05e555d39a",
+      "response_bytes": 1212
+    },
+    {
+      "request_key": "cwl",
+      "url": "https://view.commonwl.org/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:49.469352+00:00",
+      "finished_at": "2026-10-31T04:00:51.862521+00:00",
+      "response_sha256": "232ae73ac9b5faaf680504e7915616f99daf368770a54e9f699434d2785a427e",
+      "response_bytes": 7931
+    },
+    {
+      "request_key": "rocrate",
+      "url": "https://w3id.org/ro/crate/1.1",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:49.752105+00:00",
+      "finished_at": "2026-10-31T04:00:52.324684+00:00",
+      "response_sha256": "059788868009f5e34e5724237d143100f1b943c72abc249d562c6ca4e7392674",
+      "response_bytes": 30236
+    },
+    {
+      "request_key": "codemeta_standard",
+      "url": "https://codemeta.github.io/terms/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:50.677945+00:00",
+      "finished_at": "2026-10-31T04:00:51.991656+00:00",
+      "response_sha256": "812197ea0ce0fffda0c6d0f0c91e9325e347c5bc502c082aed3868200c71c359",
+      "response_bytes": 21740
+    },
+    {
+      "request_key": "cff_standard",
+      "url": "https://citation-file-format.github.io/",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:50.678484+00:00",
+      "finished_at": "2026-10-31T04:00:51.924968+00:00",
+      "response_sha256": "bca91069a579e23ae77f3f3572193367fbee71e3b59e1c55ccfabfbce554f338",
+      "response_bytes": 18596
+    },
+    {
+      "request_key": "bioschemas_standard",
+      "url": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:50.767104+00:00",
+      "finished_at": "2026-10-31T04:00:52.294350+00:00",
+      "response_sha256": "d29f3a5fd84da09557d9ea98d08e4a53ec01d02a9df68c81707c64192ac49904",
+      "response_bytes": 155868
+    },
+    {
+      "request_key": "metadata_welcome-to-github_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/welcome-to-github/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:50.945596+00:00",
+      "finished_at": "2026-10-31T04:00:51.605983+00:00",
+      "response_sha256": "aeb31d30d2dd6fbd6dbef987a4c4e7a6194022af68883941c7e9698a0fc06d4e",
+      "response_bytes": 775
+    },
+    {
+      "request_key": "metadata_welcome-to-github_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/welcome-to-github/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:51.605983+00:00",
+      "finished_at": "2026-10-31T04:00:52.305708+00:00",
+      "response_sha256": "bfd4f5376ac9ae293314670f0d7dd88cd2a3046fe0379f8fd3768940894be282",
+      "response_bytes": 935
+    },
+    {
+      "request_key": "snapshot_welcome-to-github",
+      "url": "https://archive.softwareheritage.org/api/1/snapshot/371992368a1988590993dcb2195a1c7397a33290/?branches_count=1000",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:51.684290+00:00",
+      "finished_at": "2026-10-31T04:00:53.303161+00:00",
+      "response_sha256": "2672eb7c589c09d1099409c19325c7520e1434ad5cd27e9184f0526adf4591a2",
+      "response_bytes": 172677
+    },
+    {
+      "request_key": "citeas_welcome-to-github",
+      "url": "https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2Fwelcome-to-github",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:51.862521+00:00",
+      "finished_at": "2026-10-31T04:00:56.875147+00:00",
+      "response_sha256": "debecef7065261dace17201c2cca19ccb527511c68bf30ebebd0b31a4baf8f50",
+      "response_bytes": 4474
+    },
+    {
+      "request_key": "metadata_zero-entropy-lab_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/zero-entropy-lab/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:51.924968+00:00",
+      "finished_at": "2026-10-31T04:00:52.590330+00:00",
+      "response_sha256": "43c3570c54572d191633a83e73b6c4d594c12e72a0f79dfa55f3cc1a1daf24ba",
+      "response_bytes": 754
+    },
+    {
+      "request_key": "metadata_zero-entropy-lab_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/zero-entropy-lab/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:51.991656+00:00",
+      "finished_at": "2026-10-31T04:00:52.632730+00:00",
+      "response_sha256": "ea784aa44c99b544c18a416eee7a432024e53eb02af9653f35119c80891c110b",
+      "response_bytes": 949
+    },
+    {
+      "request_key": "snapshot_zero-entropy-lab",
+      "url": "https://archive.softwareheritage.org/api/1/snapshot/38de7f466f4a4cf667af2774c3c486816c6dfe98/?branches_count=1000",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:52.294350+00:00",
+      "finished_at": "2026-10-31T04:00:53.843477+00:00",
+      "response_sha256": "a76925255beebbea37235ee63753e754fe4644c422549b635746f199c9e7baad",
+      "response_bytes": 151773
+    },
+    {
+      "request_key": "citeas_zero-entropy-lab",
+      "url": "https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2Fzero-entropy-lab",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:52.305708+00:00",
+      "finished_at": "2026-10-31T04:00:56.351496+00:00",
+      "response_sha256": "0f1b3fa5e983c27559242642945b891baab5d6c55ae5daf2fe958e31cfaf78ac",
+      "response_bytes": 4422
+    },
+    {
+      "request_key": "metadata_Axiom-0_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/Axiom-0/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:52.324684+00:00",
+      "finished_at": "2026-10-31T04:00:53.033625+00:00",
+      "response_sha256": "7b11a0eff108b2f15ce57ddc61114ae0674fed68096699130d687878ab740187",
+      "response_bytes": 741
+    },
+    {
+      "request_key": "metadata_Axiom-0_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/Axiom-0/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:52.590330+00:00",
+      "finished_at": "2026-10-31T04:00:53.262019+00:00",
+      "response_sha256": "9ff1ed69a51baf88cab85bf70c3266537d6d83f5cfaed3e34d61a20e3b29f84b",
+      "response_bytes": 936
+    },
+    {
+      "request_key": "snapshot_Axiom-0",
+      "url": "https://archive.softwareheritage.org/api/1/snapshot/2c8dc6724efbefb2b2c5ac72fef7ad0051ec1bb9/?branches_count=1000",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:52.632730+00:00",
+      "finished_at": "2026-10-31T04:00:54.068055+00:00",
+      "response_sha256": "a38d6e614463065e63164f1dea8c98898903d865bcd83f36d39642f4f970e3ab",
+      "response_bytes": 80922
+    },
+    {
+      "request_key": "citeas_Axiom-0",
+      "url": "https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2FAxiom-0",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:53.033625+00:00",
+      "finished_at": "2026-10-31T04:00:56.223831+00:00",
+      "response_sha256": "9998a562737c92982da50e7e591df41824bef9b61e789f1e17423064e8b768e9",
+      "response_bytes": 4306
+    },
+    {
+      "request_key": "metadata_reflective-continuum_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/reflective-continuum/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:53.262019+00:00",
+      "finished_at": "2026-10-31T04:00:53.970212+00:00",
+      "response_sha256": "abd86ff4ea5d2caa7c2560807c741a43f1b8ced5dd230d1e623b644718560414",
+      "response_bytes": 763
+    },
+    {
+      "request_key": "metadata_reflective-continuum_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/reflective-continuum/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:53.303161+00:00",
+      "finished_at": "2026-10-31T04:00:53.985286+00:00",
+      "response_sha256": "f6a402b1900def7ee236844ecb2db81b72ce0d36d0cd3267b46f7241e47bb855",
+      "response_bytes": 958
+    },
+    {
+      "request_key": "snapshot_reflective-continuum",
+      "url": "https://archive.softwareheritage.org/api/1/snapshot/33396c4d589d8dc01cc088fadc1dd76fcf8be5a0/?branches_count=1000",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:53.844493+00:00",
+      "finished_at": "2026-10-31T04:00:55.351170+00:00",
+      "response_sha256": "798f9d8b796dd718f9a9ed991ae6d5a669fc88fc966a431d86267996b809955c",
+      "response_bytes": 103285
+    },
+    {
+      "request_key": "citeas_reflective-continuum",
+      "url": "https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2Freflective-continuum",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:53.970212+00:00",
+      "finished_at": "2026-10-31T04:00:58.443944+00:00",
+      "response_sha256": "da0861b670b8d4e7720a508bc1e757bfc1ff0afa3e770ad61f84efadd9dcd58f",
+      "response_bytes": 4480
+    },
+    {
+      "request_key": "metadata_agent-foundations_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/agent-foundations/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:53.986003+00:00",
+      "finished_at": "2026-10-31T04:00:54.679556+00:00",
+      "response_sha256": "b1f6997bea2eefe83cb89ef7cb96c25411521532063d53b451c1e87a526ce087",
+      "response_bytes": 755
+    },
+    {
+      "request_key": "metadata_agent-foundations_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/agent-foundations/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:54.068055+00:00",
+      "finished_at": "2026-10-31T04:00:54.787180+00:00",
+      "response_sha256": "4cfed94a4e4b799fe3b5bb76884a6b3645293a24a659783b6645a697f0d3191a",
+      "response_bytes": 915
+    },
+    {
+      "request_key": "snapshot_agent-foundations",
+      "url": "https://archive.softwareheritage.org/api/1/snapshot/032ab79524d807d084edc651b155c9d837164868/?branches_count=1000",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:54.679556+00:00",
+      "finished_at": "2026-10-31T04:00:56.061069+00:00",
+      "response_sha256": "2445dd19db4900bcef181d0b8e0314ffbdf5938b7b8b4fa9193bb23a639bb08d",
+      "response_bytes": 36294
+    },
+    {
+      "request_key": "citeas_agent-foundations",
+      "url": "https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2Fagent-foundations",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:54.787180+00:00",
+      "finished_at": "2026-10-31T04:00:59.302332+00:00",
+      "response_sha256": "d21affa6661df423383d42a72b68a24f881e69773d2ff5d058a070f6de91809d",
+      "response_bytes": 4434
+    },
+    {
+      "request_key": "metadata_auto-doc-engine_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/auto-doc-engine/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:55.351170+00:00",
+      "finished_at": "2026-10-31T04:00:56.558378+00:00",
+      "response_sha256": "84b7d6ab1b09adaf8dfef818d89779258aac15e8d973ea1fc3a72dbf19afd5fa",
+      "response_bytes": 802
+    },
+    {
+      "request_key": "metadata_auto-doc-engine_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/auto-doc-engine/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:56.061069+00:00",
+      "finished_at": "2026-10-31T04:00:56.756133+00:00",
+      "response_sha256": "7b49e1dce7143cacd40d5831b5dd40d54388fc1d98d9680f2af94abb9796360e",
+      "response_bytes": 998
+    },
+    {
+      "request_key": "snapshot_auto-doc-engine",
+      "url": "https://archive.softwareheritage.org/api/1/snapshot/db610f5f2bf818e3c48b889613a8e1afdcebaba0/?branches_count=1000",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:56.223831+00:00",
+      "finished_at": "2026-10-31T04:00:57.463043+00:00",
+      "response_sha256": "d33c0f562dc4beffd1e9ea9e58944c837918c62da2a3bbbdd223059becc14019",
+      "response_bytes": 35778
+    },
+    {
+      "request_key": "citeas_auto-doc-engine",
+      "url": "https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2Fauto-doc-engine",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:56.351496+00:00",
+      "finished_at": "2026-10-31T04:00:59.643128+00:00",
+      "response_sha256": "de5a9649667cecf8512df5e5cceffe306d55353135b83ef755cf04281c1e481d",
+      "response_bytes": 4501
+    },
+    {
+      "request_key": "metadata_epistemic-pipeline_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/epistemic-pipeline/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:56.558378+00:00",
+      "finished_at": "2026-10-31T04:00:57.284183+00:00",
+      "response_sha256": "893fcdc086cb1af792b1deea57cab1514f1504294658dfa41de5e232c106ff29",
+      "response_bytes": 793
+    },
+    {
+      "request_key": "metadata_epistemic-pipeline_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/epistemic-pipeline/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:56.756672+00:00",
+      "finished_at": "2026-10-31T04:00:57.434667+00:00",
+      "response_sha256": "14bab18935c2cd1907baf83415d0e3a910d3686850ac58c3041409b74c66745c",
+      "response_bytes": 988
+    },
+    {
+      "request_key": "snapshot_epistemic-pipeline",
+      "url": "https://archive.softwareheritage.org/api/1/snapshot/4381de88404a34ac7ac339e231d36a94dbfac8fb/?branches_count=1000",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:56.875890+00:00",
+      "finished_at": "2026-10-31T04:00:58.084776+00:00",
+      "response_sha256": "2550b72341d586d3ebf818c7791a05ef0c584b3a3ebe6421664e52bb60ff84df",
+      "response_bytes": 23414
+    },
+    {
+      "request_key": "citeas_epistemic-pipeline",
+      "url": "https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2Fepistemic-pipeline",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:57.284183+00:00",
+      "finished_at": "2026-10-31T04:01:00.920148+00:00",
+      "response_sha256": "74422a7ab76558897ee47d783a3f0027374e0c3fd905537fa80139d88786fa4d",
+      "response_bytes": 4520
+    },
+    {
+      "request_key": "metadata_sci-render-kit_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/sci-render-kit/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:57.434667+00:00",
+      "finished_at": "2026-10-31T04:00:58.209836+00:00",
+      "response_sha256": "e6792d79db06bcf7508dad0f82a423409ca114dc638ba64fc01b31b0dad01bba",
+      "response_bytes": 805
+    },
+    {
+      "request_key": "metadata_sci-render-kit_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/sci-render-kit/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:57.463043+00:00",
+      "finished_at": "2026-10-31T04:00:58.209836+00:00",
+      "response_sha256": "19a39221f910e8069db8bf9f842668368fe9dd5c27e305fbc060ddc3f58c06ee",
+      "response_bytes": 1000
+    },
+    {
+      "request_key": "snapshot_sci-render-kit",
+      "url": "https://archive.softwareheritage.org/api/1/snapshot/56b467c833742734131f7155e34849eb2433ff11/?branches_count=1000",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:58.084776+00:00",
+      "finished_at": "2026-10-31T04:00:59.163353+00:00",
+      "response_sha256": "a61e5a73127faef2b42d781e05a8c9f6b760691230aa7d76af38a75777c3c04d",
+      "response_bytes": 7309
+    },
+    {
+      "request_key": "citeas_sci-render-kit",
+      "url": "https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2Fsci-render-kit",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:58.209836+00:00",
+      "finished_at": "2026-10-31T04:01:03.209618+00:00",
+      "response_sha256": "de4899e7421790cdd8822d1ccf6502fca242f0d9989ae0999d7d1208fadf58be",
+      "response_bytes": 4504
+    },
+    {
+      "request_key": "metadata_china-agentic-observatory_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/china-agentic-observatory/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:58.209836+00:00",
+      "finished_at": "2026-10-31T04:00:58.995143+00:00",
+      "response_sha256": "71d4617b67d0b35dc2b3d75edcc020968c02b75896ae1fa90d1a5d01b6bd93e6",
+      "response_bytes": 794
+    },
+    {
+      "request_key": "metadata_china-agentic-observatory_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/china-agentic-observatory/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:58.443944+00:00",
+      "finished_at": "2026-10-31T04:00:59.197288+00:00",
+      "response_sha256": "7402911e179da27841a97fc7168151eb68ed630b2bcb00be1e21a4f901967dae",
+      "response_bytes": 954
+    },
+    {
+      "request_key": "snapshot_china-agentic-observatory",
+      "url": "https://archive.softwareheritage.org/api/1/snapshot/dc017f873be49235e8f70f27eff4a779b90f789e/?branches_count=1000",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:58.995143+00:00",
+      "finished_at": "2026-10-31T04:01:00.252596+00:00",
+      "response_sha256": "c2e2530fadaafb3ef5d6216962cf2e828980ed88bc9b1844b77a565efd2b94df",
+      "response_bytes": 18981
+    },
+    {
+      "request_key": "citeas_china-agentic-observatory",
+      "url": "https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2Fchina-agentic-observatory",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:59.163353+00:00",
+      "finished_at": "2026-10-31T04:01:02.256650+00:00",
+      "response_sha256": "c1ffa8c0b56c2521e3cacac85ca8e71762885e87942b015e5293a99215263db6",
+      "response_bytes": 4592
+    },
+    {
+      "request_key": "metadata_agentic-frontier-observatory_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/agentic-frontier-observatory/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:59.197288+00:00",
+      "finished_at": "2026-10-31T04:00:59.991700+00:00",
+      "response_sha256": "047f9511721e1c38e239630b1328babe511c61a62c23ea14df35f1bcdc3af47d",
+      "response_bytes": 829
+    },
+    {
+      "request_key": "metadata_agentic-frontier-observatory_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/agentic-frontier-observatory/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:59.302332+00:00",
+      "finished_at": "2026-10-31T04:01:00.032515+00:00",
+      "response_sha256": "21e55dfcff1c6ebf0e312251bb923b60671a6ada9c0082abca564211535c2075",
+      "response_bytes": 989
+    },
+    {
+      "request_key": "snapshot_agentic-frontier-observatory",
+      "url": "https://archive.softwareheritage.org/api/1/snapshot/30f496bf959e9b60b604c75522d1e380ef3c85d7/?branches_count=1000",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:59.643660+00:00",
+      "finished_at": "2026-10-31T04:01:00.825630+00:00",
+      "response_sha256": "b280ffe4c9cbb23157eaead374ae3bb9e88d86c5a339a9a9721c4d27087f50f2",
+      "response_bytes": 18981
+    },
+    {
+      "request_key": "citeas_agentic-frontier-observatory",
+      "url": "https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2Fagentic-frontier-observatory",
+      "status": 200,
+      "started_at": "2026-10-31T04:00:59.992245+00:00",
+      "finished_at": "2026-10-31T04:01:05.737051+00:00",
+      "response_sha256": "f16274b1021fa171cf512c0a68ad552ef0253de7dca734b600689003360c177f",
+      "response_bytes": 4692
+    },
+    {
+      "request_key": "metadata_research-software-identity-audit_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:00.032515+00:00",
+      "finished_at": "2026-10-31T04:01:00.788611+00:00",
+      "response_sha256": "1c4fb8c7eaffb7ca66e25cdce8c93e1cdaf81ff6895d5298c953985802967945",
+      "response_bytes": 1301
+    },
+    {
+      "request_key": "metadata_research-software-identity-audit_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/research-software-identity-audit/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:00.252596+00:00",
+      "finished_at": "2026-10-31T04:01:00.994751+00:00",
+      "response_sha256": "e7f12ca92a54526c301d855b95858e1ef67a946cef2b58c36ceaf659c69dd937",
+      "response_bytes": 1184
+    },
+    {
+      "request_key": "citeas_research-software-identity-audit",
+      "url": "https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2Fresearch-software-identity-audit",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:00.788611+00:00",
+      "finished_at": "2026-10-31T04:01:04.080726+00:00",
+      "response_sha256": "414239b1ef33c7f2383098d3c200732ac722715e954cf958bd78407f5d7ef235",
+      "response_bytes": 4931
+    },
+    {
+      "request_key": "metadata_life-science-ecosystem-lab_CITATION_cff",
+      "url": "https://raw.githubusercontent.com/lostlight530/life-science-ecosystem-lab/main/CITATION.cff",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:00.825630+00:00",
+      "finished_at": "2026-10-31T04:01:01.610013+00:00",
+      "response_sha256": "30e56662254f35b0a246993af8a2bafe93a9803a2e2f19cc65cb827704f3e356",
+      "response_bytes": 521
+    },
+    {
+      "request_key": "metadata_life-science-ecosystem-lab_codemeta_json",
+      "url": "https://raw.githubusercontent.com/lostlight530/life-science-ecosystem-lab/main/codemeta.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:00.920148+00:00",
+      "finished_at": "2026-10-31T04:01:01.724938+00:00",
+      "response_sha256": "d416d4fa2fb0b6d5406ca36f4456c8b250180812ec222569bdb59cde1651c0af",
+      "response_bytes": 1530
+    },
+    {
+      "request_key": "rsd_software",
+      "url": "https://research-software-directory.org/api/v1/software?id=in.%281449689b-49cd-43ae-9dc1-5b5d1f8435c3%2C191b90fd-2f95-4b4c-9ade-900f6f3ea320%2C286de805-4f74-4830-8c00-17da7ac347ae%2C2f222170-c286-405b-be0f-447e45774740%2C464dff6a-15a0-4aec-a0fe-4194d504f68b%2C741a4a76-1245-4fda-bd7f-a52671e402e6%2C8bbb975c-de96-44c3-b148-b9a0217f3ca1%2C99d9fbcd-837c-4b82-89ba-4ed421a8b7a4%2Ca6cf9529-bf8c-4b09-ad01-99f7e0bca40a%2Cebca619e-ad34-4567-9746-b4ed0236dbcc%2Cec8f4525-1eff-4002-954f-c5f54f952bdd%2Cf68ffd75-0bc3-48fb-bd0b-5897b7fa3663%29&select=%2A",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:00.994751+00:00",
+      "finished_at": "2026-10-31T04:01:02.256650+00:00",
+      "response_sha256": "1e46d6298fabe8f0d68aa519c7c1e8b0e34c669694005f9f880149b4dedc5368",
+      "response_bytes": 10749
+    },
+    {
+      "request_key": "crate_2332",
+      "url": "https://workflowhub.eu/workflows/2332/ro_crate",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:01.610013+00:00",
+      "finished_at": "2026-10-31T04:01:03.665094+00:00",
+      "response_sha256": "18ad8082d61fe264598cbea25ab9b99f504ec3e4aae84a476d0e75f607a8eb9e",
+      "response_bytes": 6166
+    },
+    {
+      "request_key": "crate_2334",
+      "url": "https://workflowhub.eu/workflows/2334/ro_crate",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:01.724938+00:00",
+      "finished_at": "2026-10-31T04:01:05.555344+00:00",
+      "response_sha256": "aa2edcc7a5b730ddf12afdc0cc52410f441f83dcbae3b694526b672abc5f47b4",
+      "response_bytes": 7496
+    },
+    {
+      "request_key": "crate_2337",
+      "url": "https://workflowhub.eu/workflows/2337/ro_crate",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:02.256650+00:00",
+      "finished_at": "2026-10-31T04:01:05.407975+00:00",
+      "response_sha256": "8e1eaacb6feb6bb60f19615976fd3ebab408e3ad503cfe157c87ce46b86c4a90",
+      "response_bytes": 4791
+    },
+    {
+      "request_key": "crate_2347",
+      "url": "https://workflowhub.eu/workflows/2347/ro_crate",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:02.256650+00:00",
+      "finished_at": "2026-10-31T04:01:06.437265+00:00",
+      "response_sha256": "1b244caf98504a1cc280efac49f00515136771716fd6ab134e2ef963a497044b",
+      "response_bytes": 77722
+    },
+    {
+      "request_key": "helmholtz_imprint",
+      "url": "https://helmholtz.software/page/imprint",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:03.209618+00:00",
+      "finished_at": "2026-10-31T04:01:04.769929+00:00",
+      "response_sha256": "4054520500c078e8d00109e2d78d6841da03f33cac759c93441e07543d3484a2",
+      "response_bytes": 66612
+    },
+    {
+      "request_key": "nfdi_imprint",
+      "url": "https://nfdi.software/page/imprint",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:03.665094+00:00",
+      "finished_at": "2026-10-31T04:01:05.146489+00:00",
+      "response_sha256": "1ea8337f0d13441f5d4d033f0e6c894887413469fab3481ee39b5f6cad7f9b27",
+      "response_bytes": 56510
+    },
+    {
+      "request_key": "lm_status",
+      "url": "https://api.lifemonitor.eu/workflows/de72071c-e60b-4bd4-95b9-863b408dda4d/status",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:04.080726+00:00",
+      "finished_at": "2026-10-31T04:01:05.598380+00:00",
+      "response_sha256": "0c49dd021a4e760c1a5ab38579dc87321f2cce78020eb02153fdb25265f86e23",
+      "response_bytes": 2689
+    },
+    {
+      "request_key": "lm_suites",
+      "url": "https://api.lifemonitor.eu/workflows/de72071c-e60b-4bd4-95b9-863b408dda4d/suites?instances=true&builds=true",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:04.769929+00:00",
+      "finished_at": "2026-10-31T04:01:05.935853+00:00",
+      "response_sha256": "d7545ccfb68f55a38b534e95d8bc5186ff2400c621e06c5538dd84ee8308e13f",
+      "response_bytes": 1199
+    },
+    {
+      "request_key": "lm_suite_0",
+      "url": "https://api.lifemonitor.eu/suites/6f3bd2f9-a5bd-4a5c-8a81-c59e430596eb/status",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:05.146489+00:00",
+      "finished_at": "2026-10-31T04:01:06.305900+00:00",
+      "response_sha256": "cace40005915368ef010af4bfa27b1fe4a49902d9af93dff20221603866b9fbc",
+      "response_bytes": 1295
+    },
+    {
+      "request_key": "lm_suite_1",
+      "url": "https://api.lifemonitor.eu/suites/fc958fb2-1a36-48df-a978-72ace9114eb9/status",
+      "status": 500,
+      "started_at": "2026-10-31T04:01:05.408577+00:00",
+      "finished_at": "2026-10-31T04:01:06.528224+00:00",
+      "response_sha256": "2309813f018225e24edf29945018009f24908064796458b1306b7eb34d7dcb39",
+      "response_bytes": 176
+    },
+    {
+      "request_key": "rrid_json",
+      "url": "https://rrid.site/resolver/RRID:SCR_029105.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:05.555344+00:00",
+      "finished_at": "2026-10-31T04:01:06.320307+00:00",
+      "response_sha256": "0c022fbda7ebe3b4f8a7d40f81d4b51f1fe3775144d8adb976859377ac6ba0bc",
+      "response_bytes": 2619
+    },
+    {
+      "request_key": "aswg_json",
+      "url": "https://aswg.scicrunch.org/resolver/RRID:SCR_029105.json",
+      "status": null,
+      "started_at": "2026-10-31T04:01:05.598380+00:00",
+      "finished_at": "2026-10-31T04:01:05.717194+00:00",
+      "response_sha256": null,
+      "response_bytes": null
+    },
+    {
+      "request_key": "nif_json",
+      "url": "https://neuinfo.org/resolver/RRID:SCR_029105.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:05.717194+00:00",
+      "finished_at": "2026-10-31T04:01:06.339967+00:00",
+      "response_sha256": "ac546e23422647bc3528a192483114a228c077acefdf1d76a6ce4fe797317ec1",
+      "response_bytes": 2621
+    },
+    {
+      "request_key": "dknet_json",
+      "url": "https://dknet.org/resolver/RRID:SCR_029105.json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:05.737051+00:00",
+      "finished_at": "2026-10-31T04:01:06.398744+00:00",
+      "response_sha256": "143abc4cdfed078530aa2c137d2c0cb1a053c7deb54bce6b14db6b2d344239ba",
+      "response_bytes": 2626
+    },
+    {
+      "request_key": "identifiers_rrid_canonical",
+      "url": "https://identifiers.org/RRID:SCR_029105",
+      "status": 403,
+      "started_at": "2026-10-31T04:01:05.935853+00:00",
+      "finished_at": "2026-10-31T04:01:07.306606+00:00",
+      "response_sha256": "4bb3edb1288385be8de8086eea4d637bb69ba930b7177458cea1f6bc0fcdf59e",
+      "response_bytes": 5600
+    },
+    {
+      "request_key": "identifiers_rrid_registry",
+      "url": "https://registry.api.identifiers.org/restApi/namespaces/search/findByPrefix?prefix=rrid",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:06.305900+00:00",
+      "finished_at": "2026-10-31T04:01:07.605683+00:00",
+      "response_sha256": "776b0a1ffe0a49886abd7845d10921b1c304851f89949a00dd098b8645fe9fbc",
+      "response_bytes": 2022
+    },
+    {
+      "request_key": "biotools_alt",
+      "url": "https://bio.tools/api/t?biotoolsID=life-science-protein-file-audit&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:06.320307+00:00",
+      "finished_at": "2026-10-31T04:01:07.446666+00:00",
+      "response_sha256": "286ad9e8c556f908cca518cc60277f7ce7785cd43bea1fb047c7bbe53fe75e7d",
+      "response_bytes": 4565
+    },
+    {
+      "request_key": "osf_datacite",
+      "url": "https://api.datacite.org/dois/10.17605/OSF.IO/5B329",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:06.339967+00:00",
+      "finished_at": "2026-10-31T04:01:07.798817+00:00",
+      "response_sha256": "30ccb66116d44faeaa7bd3f235a374eb09063ee5fadd5cede1d26d738c2173a0",
+      "response_bytes": 14771
+    },
+    {
+      "request_key": "nfdi_api",
+      "url": "https://nfdi.software/api/v1/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:06.398744+00:00",
+      "finished_at": "2026-10-31T04:01:08.580615+00:00",
+      "response_sha256": "b1765868195430dcf73c8c4862ed68f2b187afc1c3cc35847979f4189715107b",
+      "response_bytes": 385828
+    },
+    {
+      "request_key": "helmholtz_api",
+      "url": "https://helmholtz.software/api/v1/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:06.437265+00:00",
+      "finished_at": "2026-10-31T04:01:09.023937+00:00",
+      "response_sha256": "f8e8b1ad7440cf219761ec82b7092e406fab40eeba1f135a5a8c66eb0be35c80",
+      "response_bytes": 494994
+    },
+    {
+      "request_key": "nfdi_search",
+      "url": "https://nfdi.software/software?search=Axiom-0",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:06.529738+00:00",
+      "finished_at": "2026-10-31T04:01:08.183865+00:00",
+      "response_sha256": "f1559a83138cb35c52bcf6f6392ee0efbc8641c6ffd034df02c78fb5c42e8028",
+      "response_bytes": 116899
+    },
+    {
+      "request_key": "helmholtz_search",
+      "url": "https://helmholtz.software/software?search=Axiom-0",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:07.306606+00:00",
+      "finished_at": "2026-10-31T04:01:08.842129+00:00",
+      "response_sha256": "4d790cd031c8aebdc073c6ed46a2e39a69b8025384b8480b79d7b01e4c3759bf",
+      "response_bytes": 113780
+    },
+    {
+      "request_key": "nfdi_remote_records",
+      "url": "https://nfdi.software/api/v1/remote_software?slug=in.%28welcome-to-github%2Czero-entropy-lab%2Caxiom-0%2Creflective-continuum%2Cagent-foundations%2Cauto-doc-engine%2Cepistemic-pipeline%2Csci-render-kit%2Cchina-agentic-observatory%2Cagentic-frontier-observatory%2Cresearch-software-identity-audit%2Clife-science-ecosystem-lab%2Chello%29&select=%2A",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:07.446996+00:00",
+      "finished_at": "2026-10-31T04:01:08.502634+00:00",
+      "response_sha256": "58a65499bdf1479da83593efebbd52159d89f65d6869bab029b1e7509a706529",
+      "response_bytes": 11113
+    },
+    {
+      "request_key": "nfdi_remote_hosts",
+      "url": "https://nfdi.software/api/v1/remote_rsd",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:07.605683+00:00",
+      "finished_at": "2026-10-31T04:01:08.648435+00:00",
+      "response_sha256": "c3f7abba113a7aa5fdd456fed83f158d598a635a00e9396cc88f49d20c68bd88",
+      "response_bytes": 1019
+    },
+    {
+      "request_key": "nfdi_api_search",
+      "url": "https://nfdi.software/api/v1/rpc/aggregated_software_search?search=Axiom-0",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:07.798817+00:00",
+      "finished_at": "2026-10-31T04:01:08.859901+00:00",
+      "response_sha256": "85857b121e9bd6980a1ac6fa358724ca6e52f51aaf9d970f181a7d6c5a6c5dab",
+      "response_bytes": 897
+    },
+    {
+      "request_key": "helmholtz_remote_records",
+      "url": "https://helmholtz.software/api/v1/remote_software?slug=in.%28welcome-to-github%2Czero-entropy-lab%2Caxiom-0%2Creflective-continuum%2Cagent-foundations%2Cauto-doc-engine%2Cepistemic-pipeline%2Csci-render-kit%2Cchina-agentic-observatory%2Cagentic-frontier-observatory%2Cresearch-software-identity-audit%2Clife-science-ecosystem-lab%2Chello%29&select=%2A",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:08.183865+00:00",
+      "finished_at": "2026-10-31T04:01:09.219662+00:00",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "response_bytes": 2
+    },
+    {
+      "request_key": "helmholtz_remote_hosts",
+      "url": "https://helmholtz.software/api/v1/remote_rsd",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:08.502634+00:00",
+      "finished_at": "2026-10-31T04:01:09.564438+00:00",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "response_bytes": 2
+    },
+    {
+      "request_key": "helmholtz_api_search",
+      "url": "https://helmholtz.software/api/v1/rpc/aggregated_software_search?search=Axiom-0",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:08.580615+00:00",
+      "finished_at": "2026-10-31T04:01:09.635279+00:00",
+      "response_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "response_bytes": 2
+    },
+    {
+      "request_key": "ia_bag",
+      "url": "https://archive.org/download/osf-registrations-5b329-v1/bag.zip",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:08.648435+00:00",
+      "finished_at": "2026-10-31T04:01:10.772064+00:00",
+      "response_sha256": "74489d5162aaadd3462e4704f6697346b0f1f4b13a627f62cdc8c2c13b940b5a",
+      "response_bytes": 153785
+    },
+    {
+      "request_key": "bioportal_edam",
+      "url": "https://bioportal.bioontology.org/ontologies/EDAM",
+      "status": 403,
+      "started_at": "2026-10-31T04:01:08.842129+00:00",
+      "finished_at": "2026-10-31T04:01:10.011063+00:00",
+      "response_sha256": "8fd251da82121e3daef3b8ce8fba09974bcd0c86aee1dff12f24d6bb2b115a3a",
+      "response_bytes": 5449
+    },
+    {
+      "request_key": "visits_welcome-to-github",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/visits/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:08.859901+00:00",
+      "finished_at": "2026-10-31T04:01:09.930197+00:00",
+      "response_sha256": "107f7a8c5fa01ba09eb03df2f12bc2b2b2398672a079f6e25ef9bd9efd24639e",
+      "response_bytes": 1813
+    },
+    {
+      "request_key": "visits_zero-entropy-lab",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/zero-entropy-lab/visits/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:09.024464+00:00",
+      "finished_at": "2026-10-31T04:01:10.054046+00:00",
+      "response_sha256": "950220766f4a5a777ed19b3904293b4a212693a7b88655517fdc3d7bebd33f60",
+      "response_bytes": 1354
+    },
+    {
+      "request_key": "visits_Axiom-0",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/Axiom-0/visits/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:09.219662+00:00",
+      "finished_at": "2026-10-31T04:01:10.242252+00:00",
+      "response_sha256": "b47807e65dd189a8d96fc356d0394f78f1485302412af3bfdaf832a22f525fa8",
+      "response_bytes": 1300
+    },
+    {
+      "request_key": "visits_reflective-continuum",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/reflective-continuum/visits/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:09.564438+00:00",
+      "finished_at": "2026-10-31T04:01:10.577115+00:00",
+      "response_sha256": "1835d03630c6759491de50380469d0e0cc385c668cb18ed0cb5c4866095bf621",
+      "response_bytes": 1837
+    },
+    {
+      "request_key": "visits_agent-foundations",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agent-foundations/visits/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:09.635279+00:00",
+      "finished_at": "2026-10-31T04:01:10.637594+00:00",
+      "response_sha256": "228634271fa9064ba2bf61f458aa8026e460757c2353b5682476d7e4c4df2da9",
+      "response_bytes": 454
+    },
+    {
+      "request_key": "visits_auto-doc-engine",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/auto-doc-engine/visits/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:09.930197+00:00",
+      "finished_at": "2026-10-31T04:01:10.930729+00:00",
+      "response_sha256": "73a5406f65544b7b35f0379506dff9799ff095ec5597413ff4beb36624724cb0",
+      "response_bytes": 1348
+    },
+    {
+      "request_key": "visits_epistemic-pipeline",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/epistemic-pipeline/visits/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:10.011063+00:00",
+      "finished_at": "2026-10-31T04:01:11.060082+00:00",
+      "response_sha256": "d21366261947c90c98c6afc7f5aaa6ab98055fd25e0b55bf216f4ec2057fc08e",
+      "response_bytes": 1821
+    },
+    {
+      "request_key": "visits_sci-render-kit",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/sci-render-kit/visits/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:10.054046+00:00",
+      "finished_at": "2026-10-31T04:01:11.090870+00:00",
+      "response_sha256": "dc8d8c0a91b68823f6c818973414a29d780c2b4fc2a019e92e095079b8b1b912",
+      "response_bytes": 448
+    },
+    {
+      "request_key": "visits_china-agentic-observatory",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/china-agentic-observatory/visits/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:10.242252+00:00",
+      "finished_at": "2026-10-31T04:01:11.255893+00:00",
+      "response_sha256": "5640abdfcaf8f022891b4a5eac563c08502d9ac0cf364fed158aaacb0d797dd7",
+      "response_bytes": 939
+    },
+    {
+      "request_key": "visits_agentic-frontier-observatory",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agentic-frontier-observatory/visits/",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:10.577115+00:00",
+      "finished_at": "2026-10-31T04:01:11.663001+00:00",
+      "response_sha256": "a468025200607444e910bfcabf7144b3e1870748df0cc6816f53eece1d33d129",
+      "response_bytes": 951
+    },
+    {
+      "request_key": "versions_welcome-to-github",
+      "url": "https://zenodo.org/api/records/23811380/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:10.637594+00:00",
+      "finished_at": "2026-10-31T04:01:11.814746+00:00",
+      "response_sha256": "089a967f9e29003c83347bf774a752be08874fac98b58725dee1d1d747e955a3",
+      "response_bytes": 22578
+    },
+    {
+      "request_key": "openaire_welcome-to-github",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23811380&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:10.772064+00:00",
+      "finished_at": "2026-10-31T04:01:14.468147+00:00",
+      "response_sha256": "1f5674f97b8157244d05a8ff03a396addb364a8ab43a0480c83615e2dfc7cc1a",
+      "response_bytes": 2468
+    },
+    {
+      "request_key": "versions_zero-entropy-lab",
+      "url": "https://zenodo.org/api/records/23811394/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:10.930729+00:00",
+      "finished_at": "2026-10-31T04:01:12.114060+00:00",
+      "response_sha256": "b171a3c892908e9b4152fa03ecfc363325dbe04e0f16d48e5cce8ff510d5ba50",
+      "response_bytes": 22452
+    },
+    {
+      "request_key": "openaire_zero-entropy-lab",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23811394&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:11.060646+00:00",
+      "finished_at": "2026-10-31T04:01:14.385370+00:00",
+      "response_sha256": "5d2946fc38570df593d8078e4e6dde5ef720e2009f31aff0b334e942cfa7ef56",
+      "response_bytes": 2464
+    },
+    {
+      "request_key": "versions_Axiom-0",
+      "url": "https://zenodo.org/api/records/23811393/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:11.090870+00:00",
+      "finished_at": "2026-10-31T04:01:12.251297+00:00",
+      "response_sha256": "3ca83adacfab92a22f15dc09f0622f28b44839754db7cce08deb97e34a4ed7ad",
+      "response_bytes": 22171
+    },
+    {
+      "request_key": "openaire_Axiom-0",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23811393&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:11.255893+00:00",
+      "finished_at": "2026-10-31T04:01:14.570269+00:00",
+      "response_sha256": "f127ee5c70290abe7c32e1272a0e752822a31cc5cc29c313435f5fbab339cf58",
+      "response_bytes": 2445
+    },
+    {
+      "request_key": "versions_reflective-continuum",
+      "url": "https://zenodo.org/api/records/23811392/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:11.663001+00:00",
+      "finished_at": "2026-10-31T04:01:12.862045+00:00",
+      "response_sha256": "31890f83665ff1705901947481615beaa34217b7ab7313d92775b2c923abb5a6",
+      "response_bytes": 22579
+    },
+    {
+      "request_key": "openaire_reflective-continuum",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23811392&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:11.814746+00:00",
+      "finished_at": "2026-10-31T04:01:15.499393+00:00",
+      "response_sha256": "2373ca877d57b8aa56b406703ce00af3e909003de179bfbeb3a20c25379638d2",
+      "response_bytes": 2465
+    },
+    {
+      "request_key": "versions_agent-foundations",
+      "url": "https://zenodo.org/api/records/23811389/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:12.114060+00:00",
+      "finished_at": "2026-10-31T04:01:13.290081+00:00",
+      "response_sha256": "86683b22922bde85082c79aee03a370e4f2b26bf29f467ec4ffaff35eaec700f",
+      "response_bytes": 22474
+    },
+    {
+      "request_key": "openaire_agent-foundations",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23811389&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:12.251297+00:00",
+      "finished_at": "2026-10-31T04:01:14.847372+00:00",
+      "response_sha256": "4c11263cfe205d440da123b031444906c382db288ec767c37b10d10c7b8a56da",
+      "response_bytes": 2445
+    },
+    {
+      "request_key": "versions_auto-doc-engine",
+      "url": "https://zenodo.org/api/records/23811383/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:12.862045+00:00",
+      "finished_at": "2026-10-31T04:01:14.039384+00:00",
+      "response_sha256": "7e6f16cd3e7d6f8cef5bb197a8a150a4a8988799036ce2e1b5d450516a2955ba",
+      "response_bytes": 22644
+    },
+    {
+      "request_key": "openaire_auto-doc-engine",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23811383&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:13.290081+00:00",
+      "finished_at": "2026-10-31T04:01:15.549777+00:00",
+      "response_sha256": "4ea47ddebe5ca514bf18f5ad29e6bfd36e57315ffa8ab2412fbd773dfe66ace3",
+      "response_bytes": 2512
+    },
+    {
+      "request_key": "versions_epistemic-pipeline",
+      "url": "https://zenodo.org/api/records/23811384/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:14.039384+00:00",
+      "finished_at": "2026-10-31T04:01:15.258323+00:00",
+      "response_sha256": "f5f76951affa5b743ada0777d3ac8f14203ebed3e0910b43bc92426977f24284",
+      "response_bytes": 22683
+    },
+    {
+      "request_key": "openaire_epistemic-pipeline",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23811384&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:14.385370+00:00",
+      "finished_at": "2026-10-31T04:01:16.584015+00:00",
+      "response_sha256": "3a33353a536b4293920baba4639ca3c0eb1e807508a9d2b814cfc54c7c3916f2",
+      "response_bytes": 2488
+    },
+    {
+      "request_key": "versions_sci-render-kit",
+      "url": "https://zenodo.org/api/records/23811397/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:14.468147+00:00",
+      "finished_at": "2026-10-31T04:01:15.652594+00:00",
+      "response_sha256": "24c9c831791d923fa2087f509bb12d728f5ce9bc7b3359fb8cfc3312c446dbf1",
+      "response_bytes": 22651
+    },
+    {
+      "request_key": "openaire_sci-render-kit",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23811397&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:14.570269+00:00",
+      "finished_at": "2026-10-31T04:01:17.669932+00:00",
+      "response_sha256": "fcf83b226c16fe025c06b9ab5e52f0126dc584d51949844677fb54716aa04d95",
+      "response_bytes": 2482
+    },
+    {
+      "request_key": "versions_china-agentic-observatory",
+      "url": "https://zenodo.org/api/records/23811388/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:14.847372+00:00",
+      "finished_at": "2026-10-31T04:01:16.022558+00:00",
+      "response_sha256": "57d0fd2bcbedcc86ed867b8fc408dd1b5cfd09ed6e820f3b3846ad2a4470a906",
+      "response_bytes": 22850
+    },
+    {
+      "request_key": "openaire_china-agentic-observatory",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23811388&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:15.258323+00:00",
+      "finished_at": "2026-10-31T04:01:17.910566+00:00",
+      "response_sha256": "9a519cb3f581a4d4739ab164f5817580f5f3d0b33bde25b940e21859a89e77df",
+      "response_bytes": 2485
+    },
+    {
+      "request_key": "versions_agentic-frontier-observatory",
+      "url": "https://zenodo.org/api/records/23811387/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:15.499393+00:00",
+      "finished_at": "2026-10-31T04:01:16.702903+00:00",
+      "response_sha256": "efad4f3241e0234dd3da7aa71631388f31492da4e47634f4f1953cebff61646c",
+      "response_bytes": 23094
+    },
+    {
+      "request_key": "openaire_agentic-frontier-observatory",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23811387&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:15.549777+00:00",
+      "finished_at": "2026-10-31T04:01:18.115387+00:00",
+      "response_sha256": "6f1933fcd78e138e6320297d4573eac8d19021a680ada661698e9660a132517a",
+      "response_bytes": 2502
+    },
+    {
+      "request_key": "versions_research-software-identity-audit",
+      "url": "https://zenodo.org/api/records/23446162/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:15.652594+00:00",
+      "finished_at": "2026-10-31T04:01:16.912415+00:00",
+      "response_sha256": "565ed72c7fc06691adfc8aff2a7aa78ad00515c79e520c589e508d608b0215f6",
+      "response_bytes": 20123
+    },
+    {
+      "request_key": "openaire_research-software-identity-audit",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23446162&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:16.022558+00:00",
+      "finished_at": "2026-10-31T04:01:18.130472+00:00",
+      "response_sha256": "620576d7bbb0751101494f06aa976dc05d1dba564a22a0dcedd975e4fb35a39b",
+      "response_bytes": 4598
+    },
+    {
+      "request_key": "versions_life-science-ecosystem-lab",
+      "url": "https://zenodo.org/api/records/23447089/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:16.584015+00:00",
+      "finished_at": "2026-10-31T04:01:17.760556+00:00",
+      "response_sha256": "d1df364f8d1643ded01139f49a39b2ace5b67f51540e37ee146dfafe38dd0d12",
+      "response_bytes": 13579
+    },
+    {
+      "request_key": "openaire_life-science-ecosystem-lab",
+      "url": "https://api.openaire.eu/search/software?doi=10.5281%2Fzenodo.23447089&format=json",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:16.702903+00:00",
+      "finished_at": "2026-10-31T04:01:18.196734+00:00",
+      "response_sha256": "d4ab59f475bb5d706964065f0f9ab71aa8f2634db8d7a4fe33ecfc8d50fd876b",
+      "response_bytes": 11755
+    },
+    {
+      "request_key": "handle_0",
+      "url": "https://hdl.handle.net/api/handles/10.17605/osf.io/5b329",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:16.912415+00:00",
+      "finished_at": "2026-10-31T04:01:17.726332+00:00",
+      "response_sha256": "33e5eb3f89f5558fd879f8817788dd7839e53e98f4f8048f586b8f0bf6f67f0e",
+      "response_bytes": 376
+    },
+    {
+      "request_key": "agency_0",
+      "url": "https://api.crossref.org/works/10.17605/osf.io/5b329/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:17.669932+00:00",
+      "finished_at": "2026-10-31T04:01:18.525108+00:00",
+      "response_sha256": "5b38eb3da9b28db26874165c5dc6d6cf4fe631e7b4890e2f87130e9bac8035a8",
+      "response_bytes": 160
+    },
+    {
+      "request_key": "handle_1",
+      "url": "https://hdl.handle.net/api/handles/10.17605/osf.io/wa5v8",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:17.726332+00:00",
+      "finished_at": "2026-10-31T04:01:18.530358+00:00",
+      "response_sha256": "32441d8241ff6db64a348aa53dd384799159b2d409d9f3b64a049509cbf6df2b",
+      "response_bytes": 376
+    },
+    {
+      "request_key": "agency_1",
+      "url": "https://api.crossref.org/works/10.17605/osf.io/wa5v8/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:17.760556+00:00",
+      "finished_at": "2026-10-31T04:01:18.637325+00:00",
+      "response_sha256": "99dea2f48713f5b104bb17ad91c220d41bf2c4767e6a4314f487fc3fd4fd031a",
+      "response_bytes": 160
+    },
+    {
+      "request_key": "handle_2",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2332.1",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:17.910566+00:00",
+      "finished_at": "2026-10-31T04:01:18.694158+00:00",
+      "response_sha256": "f5311fa3ce4d0cd3088ac47d20614ccd285c8f6d093c8deb41c05325f83d4b65",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_2",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2332.1/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:18.115387+00:00",
+      "finished_at": "2026-10-31T04:01:18.967935+00:00",
+      "response_sha256": "d004c81e49469c54f560e97d745345c6e9d15b9281c9dbd6bc8e54d6898a1a46",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_3",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2332.2",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:18.130472+00:00",
+      "finished_at": "2026-10-31T04:01:18.811528+00:00",
+      "response_sha256": "43a9c0b3d400ebd176ef3e85aa90f04ded1f5bc763ec3383481b2c5841783b92",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_3",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2332.2/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:18.196734+00:00",
+      "finished_at": "2026-10-31T04:01:19.077603+00:00",
+      "response_sha256": "966198bfbd6159f1d77446de842537310da5706c13366cece6697324c7f3c366",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_4",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2332.3",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:18.525108+00:00",
+      "finished_at": "2026-10-31T04:01:19.213270+00:00",
+      "response_sha256": "5e9bd62b12d9f9478bc573a941cf8b7539cdc238fafb11fd4b782ffc3f25e618",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_4",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2332.3/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:18.530358+00:00",
+      "finished_at": "2026-10-31T04:01:19.417110+00:00",
+      "response_sha256": "9722f93f691e8b7cdd0a509720ac8223cd0423655998c96c195aaa8517d35139",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_5",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2332.4",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:18.637325+00:00",
+      "finished_at": "2026-10-31T04:01:19.279642+00:00",
+      "response_sha256": "7c9f122c4ea500d9cb079afbb839f3422b755d67a4ee90612fb2a54b6086d68c",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_5",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2332.4/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:18.694158+00:00",
+      "finished_at": "2026-10-31T04:01:19.499064+00:00",
+      "response_sha256": "646a24bc8e189ea8b8095e91f35ed23d8997e868e8c2245056855de4b7173a06",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_6",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2332.5",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:18.811528+00:00",
+      "finished_at": "2026-10-31T04:01:19.477407+00:00",
+      "response_sha256": "e9933721a1804759bce966edcc502ec9af2cc85464bc462b942efc33768e3786",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_6",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2332.5/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:18.967935+00:00",
+      "finished_at": "2026-10-31T04:01:19.809224+00:00",
+      "response_sha256": "c5196b768284bc4b8efa1b51e6354046a7777ae1b80fedea49110ed707b5c664",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_7",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2332.6",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:19.077603+00:00",
+      "finished_at": "2026-10-31T04:01:19.792395+00:00",
+      "response_sha256": "4758dfe5376dc3edce6065c7ed10ee34dedef021173a937c01aaf4632a08d382",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_7",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2332.6/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:19.213270+00:00",
+      "finished_at": "2026-10-31T04:01:19.996340+00:00",
+      "response_sha256": "3a858b666cb5633cafd7197b6739a5a91b35c651e4851b19fda0aaa1385859d0",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_8",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2332.7",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:19.280172+00:00",
+      "finished_at": "2026-10-31T04:01:19.923435+00:00",
+      "response_sha256": "980c5b1ad484468a9e10dfdc608c14e4f085e8ce7f6b77e4e3d38bda94e58ad6",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_8",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2332.7/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:19.417110+00:00",
+      "finished_at": "2026-10-31T04:01:20.330771+00:00",
+      "response_sha256": "6355a1c750f6e6a69cbb7f4fcf3d4f39abf045d40e7aa0b69bc9986708c97eac",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_9",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2332.8",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:19.477407+00:00",
+      "finished_at": "2026-10-31T04:01:20.148134+00:00",
+      "response_sha256": "64d6a691391fb95feb71091a094780812aadb973118de86975d431f7a9560aae",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_9",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2332.8/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:19.499064+00:00",
+      "finished_at": "2026-10-31T04:01:20.380053+00:00",
+      "response_sha256": "2e70331de2832c981faea9a0dab0b4e1eb86de711fe9c3a91942bdb766969c76",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_10",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2334.1",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:19.792395+00:00",
+      "finished_at": "2026-10-31T04:01:20.604675+00:00",
+      "response_sha256": "516725736efbee132e7603eacc45b44d112bff5d2fe90d200fde38cbf605a094",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_10",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2334.1/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:19.809224+00:00",
+      "finished_at": "2026-10-31T04:01:20.681632+00:00",
+      "response_sha256": "c75586078872760077de90fd520ab1e4e8fd3ca32b133a0deb78b14eaac91a3c",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_11",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2334.2",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:19.923435+00:00",
+      "finished_at": "2026-10-31T04:01:20.718606+00:00",
+      "response_sha256": "56f1f425f4b2800492952a6df0b98f0a0b6df42169af656d15246f1e19346f4f",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_11",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2334.2/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:19.996340+00:00",
+      "finished_at": "2026-10-31T04:01:20.840207+00:00",
+      "response_sha256": "03b86d6f3b5d4a67af84ebaf20e19e9dafb80e7215bbb5768bbe11a9e54099c2",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_12",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2334.3",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:20.148134+00:00",
+      "finished_at": "2026-10-31T04:01:20.792777+00:00",
+      "response_sha256": "86bb46947c8eaa03e8dba9d614f02e4b224bf82020afa1c9b303abaa512a194a",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_12",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2334.3/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:20.330771+00:00",
+      "finished_at": "2026-10-31T04:01:21.166074+00:00",
+      "response_sha256": "f85a7a5d9b29d794290233f332b593fba1e63e6b36932e809d9b1b205357b442",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_13",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2334.4",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:20.380053+00:00",
+      "finished_at": "2026-10-31T04:01:21.039323+00:00",
+      "response_sha256": "5617669520431165c6a17c58cd4cedcc4306e2272296390e9037912040f60b2a",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_13",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2334.4/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:20.604675+00:00",
+      "finished_at": "2026-10-31T04:01:21.436521+00:00",
+      "response_sha256": "0ede657bfebcfeb7f637f93b38358970283792540200896a077c111994caf904",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_14",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2334.5",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:20.681632+00:00",
+      "finished_at": "2026-10-31T04:01:21.348176+00:00",
+      "response_sha256": "6ace2c508a692cf2744c984cc1f164a1a4adc2e7adb9482ff04af56df828e972",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_14",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2334.5/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:20.718606+00:00",
+      "finished_at": "2026-10-31T04:01:21.555851+00:00",
+      "response_sha256": "aec2e84713754e8bdfc550ae699bcdf5e1b6dba3ce1b997eff545aad01a32b5d",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_15",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2334.6",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:20.792777+00:00",
+      "finished_at": "2026-10-31T04:01:21.494740+00:00",
+      "response_sha256": "394380b1bc9f338a10f54187a7833a736ef9282498fa61f3fd98eaa736b09d4f",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_15",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2334.6/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:20.840207+00:00",
+      "finished_at": "2026-10-31T04:01:21.623080+00:00",
+      "response_sha256": "ca9fdf08c2b11a30222041e57362c7b3e807c9b01fdba29eb8c1cee4b21cc561",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_16",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2334.7",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:21.039323+00:00",
+      "finished_at": "2026-10-31T04:01:21.739297+00:00",
+      "response_sha256": "cc8667b1f61141e91e113ae32feb6e114e41c4e4e5325b4f9d9a2eba1acd84e0",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_16",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2334.7/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:21.166074+00:00",
+      "finished_at": "2026-10-31T04:01:22.011538+00:00",
+      "response_sha256": "25909a7278db401666193a47872e8ecd0e26e5bdc0804450c804cde18dc85da3",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_17",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2334.8",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:21.348176+00:00",
+      "finished_at": "2026-10-31T04:01:22.036986+00:00",
+      "response_sha256": "e0506d99b423a635bed50bedbd1390d873b9fb8fdcae2282345905a45eacd8fd",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_17",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2334.8/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:21.436521+00:00",
+      "finished_at": "2026-10-31T04:01:22.240122+00:00",
+      "response_sha256": "e64e5dec36f251b254ad02dd04b8dc6e429e287e7cdbed84c731341ba0c24165",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_18",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2337.1",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:21.494740+00:00",
+      "finished_at": "2026-10-31T04:01:22.192059+00:00",
+      "response_sha256": "9c9a07db53f20710c87b03d68da1c32c8e2599f7862ef1e5e60ee879794ead6f",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_18",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2337.1/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:21.555851+00:00",
+      "finished_at": "2026-10-31T04:01:22.366275+00:00",
+      "response_sha256": "480472faeb77a74e40ad2eec35261bafeb20f15510331b3b9f8f9fd4314c3b5d",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_19",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2347.1",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:21.623080+00:00",
+      "finished_at": "2026-10-31T04:01:22.289428+00:00",
+      "response_sha256": "0b5394d75f7da3a742c4ddea3c74e7bd7945744aba798ffbb73899ad3d043993",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_19",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2347.1/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:21.739297+00:00",
+      "finished_at": "2026-10-31T04:01:22.591878+00:00",
+      "response_sha256": "709310927b2a6d2fe1d73c7f6567ee4a1d2144a576005b3419e651e96b9f8b1b",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_20",
+      "url": "https://hdl.handle.net/api/handles/10.48546/workflowhub.workflow.2347.2",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:22.011538+00:00",
+      "finished_at": "2026-10-31T04:01:22.657688+00:00",
+      "response_sha256": "589c362ad105018912c64855cb2fc675790525732487ac4825fe1065ca5becb2",
+      "response_bytes": 417
+    },
+    {
+      "request_key": "agency_20",
+      "url": "https://api.crossref.org/works/10.48546/workflowhub.workflow.2347.2/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:22.036986+00:00",
+      "finished_at": "2026-10-31T04:01:22.837271+00:00",
+      "response_sha256": "3ba55762fee4bb363c48f2b6a194008635c9e532fa2328d22c4348f56687f41b",
+      "response_bytes": 174
+    },
+    {
+      "request_key": "handle_21",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22790907",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:22.192059+00:00",
+      "finished_at": "2026-10-31T04:01:23.004431+00:00",
+      "response_sha256": "b6e83b2078727d6cc1e51cef304a11584c690cf881140091cc99a41fe68e5092",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_21",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22790907/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:22.240122+00:00",
+      "finished_at": "2026-10-31T04:01:23.014751+00:00",
+      "response_sha256": "8dd55941fcd71c4044dbc2e235e490c5399e71cb078bcb1741446d7b6e4e2683",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_22",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22790908",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:22.289428+00:00",
+      "finished_at": "2026-10-31T04:01:23.086669+00:00",
+      "response_sha256": "de4f19c09329588bff813616d5e60d79c6225a4286e6216febf7119e5c9f8be3",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_22",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22790908/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:22.366275+00:00",
+      "finished_at": "2026-10-31T04:01:23.207046+00:00",
+      "response_sha256": "3a42ae4df83eb84137535fef479fd876a14d682ed3c4ad4896f80ca498df134d",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_23",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791081",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:22.591878+00:00",
+      "finished_at": "2026-10-31T04:01:23.585907+00:00",
+      "response_sha256": "46ac06218073a34d763c902abede5c8e2a9bc769f6b07dd4abdafcd4b519a8ce",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_23",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791081/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:22.658220+00:00",
+      "finished_at": "2026-10-31T04:01:23.477119+00:00",
+      "response_sha256": "9ccfc60e06956ea1113c5692152aca04006c08314e3e1f23b9c0f1b31b1be85e",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_24",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791082",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:22.837271+00:00",
+      "finished_at": "2026-10-31T04:01:23.773345+00:00",
+      "response_sha256": "3b9980aa51dce09b648af5f84e0dd851027bc8b20cd0761ec7e34b2e186ddd16",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_24",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791082/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:23.004431+00:00",
+      "finished_at": "2026-10-31T04:01:23.805894+00:00",
+      "response_sha256": "370be592283466e2aef5ed13cea46e6f6cce2a734021d30fb2b3e4f7fce434c9",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_25",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791103",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:23.014751+00:00",
+      "finished_at": "2026-10-31T04:01:23.842081+00:00",
+      "response_sha256": "c97095c2940d9045165d6b7f60e8c7d542f8a00f0c3c930f8ebf97bd0a380d9b",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_25",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791103/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:23.086669+00:00",
+      "finished_at": "2026-10-31T04:01:23.921760+00:00",
+      "response_sha256": "9bde1e8d3e36a9e0813f6165c94bbeff5924b0d20047fd1cc9eceaac1d3dfecf",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_26",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791104",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:23.207046+00:00",
+      "finished_at": "2026-10-31T04:01:23.978026+00:00",
+      "response_sha256": "0a3e9543d198c2f7166b3e755d96514bc2462f8b90596d16c8c99e69c3668769",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_26",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791104/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:23.477119+00:00",
+      "finished_at": "2026-10-31T04:01:24.255980+00:00",
+      "response_sha256": "bcb6f370b491cf15e62a1d094f2b6803b00d36885904f4dfe682a9be4ecc84d0",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_27",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791141",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:23.585907+00:00",
+      "finished_at": "2026-10-31T04:01:24.408805+00:00",
+      "response_sha256": "6641b2d8de189acab74df7732f4c66a0e11e75f74fe1d47f6c6c5d08f44d19f8",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_27",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791141/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:23.773345+00:00",
+      "finished_at": "2026-10-31T04:01:24.581890+00:00",
+      "response_sha256": "965471f41a3c5ea2b432d9279c6d900c4505534d81be9e0a73a88be4b9b88e0c",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_28",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791142",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:23.805894+00:00",
+      "finished_at": "2026-10-31T04:01:24.469870+00:00",
+      "response_sha256": "c5e5f246bb612ea53db074de32116089a92df70a4519516ec4baee15a0a98fdf",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_28",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791142/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:23.842081+00:00",
+      "finished_at": "2026-10-31T04:01:24.614384+00:00",
+      "response_sha256": "bba79ec425e612ce32110ee1a04af5084a0f5ddfeded0cacbd1461e7fa1c72d5",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_29",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791169",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:23.921760+00:00",
+      "finished_at": "2026-10-31T04:01:24.711812+00:00",
+      "response_sha256": "13ca6a67c0110ac6425defc8ee7231c172031d6dead399bd7ebf837954fc31f7",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_29",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791169/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:23.978026+00:00",
+      "finished_at": "2026-10-31T04:01:24.850763+00:00",
+      "response_sha256": "83cd363d07f04df78af21295ea86eaa9270879a127eb1e44cb79e6c1eb37bcb7",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_30",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791170",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:24.255980+00:00",
+      "finished_at": "2026-10-31T04:01:24.909551+00:00",
+      "response_sha256": "fa1841b5c91307cdb957922a215f0becb146442d7d0503634de1f2b0f0ca91c6",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_30",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791170/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:24.408805+00:00",
+      "finished_at": "2026-10-31T04:01:25.269786+00:00",
+      "response_sha256": "de77ea5d9402374a9fa52c436f2fed6a908aeec1c4996369ae89f350fdc3b451",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_31",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791309",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:24.469870+00:00",
+      "finished_at": "2026-10-31T04:01:25.299564+00:00",
+      "response_sha256": "ef0b1c3f5eac1022a62c97728f607090e3e3c5d65d39b6e4503547e39ca52490",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_31",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791309/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:24.581890+00:00",
+      "finished_at": "2026-10-31T04:01:25.448963+00:00",
+      "response_sha256": "26e34683fb54348f3d2df041a4f007dfd8b8fe80541ba60a5a34800c7b4740ba",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_32",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791310",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:24.614384+00:00",
+      "finished_at": "2026-10-31T04:01:25.681698+00:00",
+      "response_sha256": "1b2e17322e57049f29f98c970ed8ce8964bea35812e1d17be1595215414f93d9",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_32",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791310/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:24.711812+00:00",
+      "finished_at": "2026-10-31T04:01:25.497778+00:00",
+      "response_sha256": "df8a92f943de01f43e6019848dbdabf8baf165bc976d23c7cf93c35e3f1c2cb5",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_33",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791334",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:24.850763+00:00",
+      "finished_at": "2026-10-31T04:01:25.648914+00:00",
+      "response_sha256": "99c93ea5c67c06e60c6a1cefa4e13ba86d1e71b7a2d46a4c25cf16c3b38c488b",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_33",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791334/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:24.909551+00:00",
+      "finished_at": "2026-10-31T04:01:25.792731+00:00",
+      "response_sha256": "652382670c62effbdbbf0411119c7c1b42fedf1f53bf7800297ef664c8fe812f",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_34",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791335",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:25.269786+00:00",
+      "finished_at": "2026-10-31T04:01:26.134014+00:00",
+      "response_sha256": "6c233ed876be63b7dd68352fd278de24ac946afd6f5daf5f3ade79c84974bc43",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_34",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791335/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:25.299564+00:00",
+      "finished_at": "2026-10-31T04:01:26.294362+00:00",
+      "response_sha256": "840d8a845831ac5ed5e657d8c6511fa0f5b8eb0de22eba2d96ab0ef51b2d4fa9",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_35",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791375",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:25.448963+00:00",
+      "finished_at": "2026-10-31T04:01:26.129844+00:00",
+      "response_sha256": "a9875be971b1f07a689dc96b1ea7b624f0c4d7956a1704860d61713c2a73ad17",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_35",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791375/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:25.497778+00:00",
+      "finished_at": "2026-10-31T04:01:26.281883+00:00",
+      "response_sha256": "94f9baeebe756c3281c77735c00587985b46e4a20f1e09e4f059e8001ec31ef4",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_36",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791376",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:25.648914+00:00",
+      "finished_at": "2026-10-31T04:01:26.400934+00:00",
+      "response_sha256": "49a98ccd117e2c29460f2a3b8d432893abc303d70f9d0bf670febb7b6c61b677",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_36",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791376/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:25.681698+00:00",
+      "finished_at": "2026-10-31T04:01:26.532952+00:00",
+      "response_sha256": "44b5e4aa4bcfa7384ae62da850b2a47815d6224d08b117aea727be67dc9f8440",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_37",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791404",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:25.792731+00:00",
+      "finished_at": "2026-10-31T04:01:26.471867+00:00",
+      "response_sha256": "58e3b764bc8d4359d0c9fec535ad690641c63cffcc1205f28e5223c1ce1cb20f",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_37",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791404/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:26.129844+00:00",
+      "finished_at": "2026-10-31T04:01:26.929586+00:00",
+      "response_sha256": "d20de13f49d02422c3ad09c46028da18d81480e098be62d3eac2c8851539156a",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_38",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791405",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:26.134014+00:00",
+      "finished_at": "2026-10-31T04:01:26.972212+00:00",
+      "response_sha256": "23e8cba0b62e61212345d835cc69b73c2d50d17bf0eb522a3014b145498ed4d6",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_38",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791405/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:26.281883+00:00",
+      "finished_at": "2026-10-31T04:01:27.061667+00:00",
+      "response_sha256": "b860cbdc89abcf9d3826574f0e6932dfea4adb2ca651d8fb97a07d70a44c280e",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_39",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791463",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:26.295506+00:00",
+      "finished_at": "2026-10-31T04:01:26.952903+00:00",
+      "response_sha256": "657349c9961dafc243e6e7ff705a79bdb4b403cbb7836c93e9f0fc699608b45d",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_39",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791463/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:26.400934+00:00",
+      "finished_at": "2026-10-31T04:01:27.189448+00:00",
+      "response_sha256": "801a8089c1dbb83a1572ed738240098a036076ebed2b35d2d7dc61f72b9788ae",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_40",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.22791464",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:26.471867+00:00",
+      "finished_at": "2026-10-31T04:01:27.283272+00:00",
+      "response_sha256": "bfd2feb3195cbf33ab6d766b69046568e0245f339c6a0cc9172b6537e75feb61",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_40",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.22791464/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:26.532952+00:00",
+      "finished_at": "2026-10-31T04:01:27.307034+00:00",
+      "response_sha256": "6d36e4feb4ca9658aa6676c725f22458d3d41e0d3a62357c5830e722de07fc1e",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_41",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23068144",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:26.929586+00:00",
+      "finished_at": "2026-10-31T04:01:27.579729+00:00",
+      "response_sha256": "f8cd8cb6b6b0209a93584169f5210f969b239078b7b2975ba52f4f47ed62f314",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_41",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23068144/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:26.952903+00:00",
+      "finished_at": "2026-10-31T04:01:27.813454+00:00",
+      "response_sha256": "5596452087c9632c55eecd7cfc265d2b8bce30d6d5614b6644228cbad060df48",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_42",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23068145",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:26.972212+00:00",
+      "finished_at": "2026-10-31T04:01:27.783889+00:00",
+      "response_sha256": "06f0b6b15852155b0930b36cecf91aaa3178bf294c4a5a7e3c06ab485ae459db",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_42",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23068145/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:27.061667+00:00",
+      "finished_at": "2026-10-31T04:01:27.933479+00:00",
+      "response_sha256": "eec4736a5c71f4faa07bb9c8b167c45676c034c342ff078f56da03737225ba4b",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_43",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23068260",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:27.189448+00:00",
+      "finished_at": "2026-10-31T04:01:28.879184+00:00",
+      "response_sha256": "1a5712ea0ffc68df56ba440677f6a712f59f1cd8de2e841dc91a14f68b237cbf",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_43",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23068260/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:27.283707+00:00",
+      "finished_at": "2026-10-31T04:01:28.161001+00:00",
+      "response_sha256": "43545abbe98741cce2174918a79873bc237f14a054589e235a9484ddf3239f43",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_44",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23068261",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:27.307034+00:00",
+      "finished_at": "2026-10-31T04:01:28.140702+00:00",
+      "response_sha256": "45710920354c218a361740811bfc9e3b7a5ab62bf8fc8763b88dd983e5ea74b4",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_44",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23068261/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:27.579729+00:00",
+      "finished_at": "2026-10-31T04:01:28.375057+00:00",
+      "response_sha256": "435a014092013c49fbc1f69b59637dd14f1ed9eaa010c6bb70161720cd0ba52f",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_45",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23068262",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:27.783889+00:00",
+      "finished_at": "2026-10-31T04:01:28.453587+00:00",
+      "response_sha256": "fec9021a2520b5f92052d2351038b2471e8c572c0fbbf6ea41d06324132e4274",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_45",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23068262/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:27.813454+00:00",
+      "finished_at": "2026-10-31T04:01:28.682349+00:00",
+      "response_sha256": "d689069c3c789b7fb418d00bbfa83ab34881051d3e8fbec2691e4804ed2e0456",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_46",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23068347",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:27.933479+00:00",
+      "finished_at": "2026-10-31T04:01:28.761671+00:00",
+      "response_sha256": "c354a6eb9dcc67bca668f1037600932c14b8150690aa7b961a4d10be4fcd3888",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_46",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23068347/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:28.140702+00:00",
+      "finished_at": "2026-10-31T04:01:28.915372+00:00",
+      "response_sha256": "70fd86ad9ccc84e93a506c8f12af91f47ea004e5252d624894fda98c374a1667",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_47",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23068352",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:28.161001+00:00",
+      "finished_at": "2026-10-31T04:01:28.860475+00:00",
+      "response_sha256": "42f7bf6e16b048f15b405011bddc69478d3245b4801ecdbdc2b482c7ce858533",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_47",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23068352/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:28.375057+00:00",
+      "finished_at": "2026-10-31T04:01:29.221007+00:00",
+      "response_sha256": "9039ea6e2f066f2dbb73739e23fa3ae724273909b76a4c0b5b0e15ab858f29cd",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_48",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23068471",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:28.453587+00:00",
+      "finished_at": "2026-10-31T04:01:29.141589+00:00",
+      "response_sha256": "cb37a4a229be7bcdaa819ce0b069759e0273893435908062075d9efbd146b60d",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_48",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23068471/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:28.682349+00:00",
+      "finished_at": "2026-10-31T04:01:29.518706+00:00",
+      "response_sha256": "ef8175c052e896da8488c432e85d74dce4704df5016231e3b1791621ee320458",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_49",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23068472",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:28.761671+00:00",
+      "finished_at": "2026-10-31T04:01:29.590693+00:00",
+      "response_sha256": "b1a23a175b7f7c9fa4751e50feaf0ff9c8e5344c9e9c2342cea964c861c205a0",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_49",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23068472/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:28.860475+00:00",
+      "finished_at": "2026-10-31T04:01:29.645291+00:00",
+      "response_sha256": "b779bceda2e595a5091fe8bbf05bc54a496ea10bdf224e636dce6112be674413",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_50",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23068494",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:28.879184+00:00",
+      "finished_at": "2026-10-31T04:01:29.567764+00:00",
+      "response_sha256": "7175d673d5fd5bd4eadffae2dc6028d1a1a66d4ff998de2191f270636450bba6",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_50",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23068494/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:28.915372+00:00",
+      "finished_at": "2026-10-31T04:01:29.710221+00:00",
+      "response_sha256": "13068cb6cbe74c9fa2e549d7187c0badb215074aac4f73ab5eacdb6049b6ee06",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_51",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23137203",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:29.141589+00:00",
+      "finished_at": "2026-10-31T04:01:29.866360+00:00",
+      "response_sha256": "d4a3c801b2e2ee676adbd1a4a882c72ff5c12b16e2f7e034f14cd9a625a8a019",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_51",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23137203/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:29.221007+00:00",
+      "finished_at": "2026-10-31T04:01:30.075816+00:00",
+      "response_sha256": "d1a6c13ed8c1257d1c6c2998b81c9f0b0461da3092394c9946c58a6dfdc6c8d5",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_52",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23137204",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:29.518706+00:00",
+      "finished_at": "2026-10-31T04:01:30.210520+00:00",
+      "response_sha256": "109049089783397042c52400d74876c364823ba8f12da01351f95663e1fe270f",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_52",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23137204/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:29.567764+00:00",
+      "finished_at": "2026-10-31T04:01:30.422597+00:00",
+      "response_sha256": "f4f573238e99adca07e34c0ed39870b7a88672d3b3dd6137c0e174df2b5a0c2d",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_53",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23137205",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:29.590693+00:00",
+      "finished_at": "2026-10-31T04:01:30.364464+00:00",
+      "response_sha256": "dbf2a61fae793813a7a22aa66339cb5b07b669fcc60c0d6abb82519de5c8b4fa",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_53",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23137205/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:29.645291+00:00",
+      "finished_at": "2026-10-31T04:01:30.519860+00:00",
+      "response_sha256": "54a241bd293ead58b0a8a79327352d82dd2586af33ed9a8d96017c6142ee1f2b",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_54",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23137206",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:29.710221+00:00",
+      "finished_at": "2026-10-31T04:01:30.486942+00:00",
+      "response_sha256": "89bb03baa6047bfb2df6ed655ba346616f7fe693b4d4416993759f69889a6f7d",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_54",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23137206/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:29.866360+00:00",
+      "finished_at": "2026-10-31T04:01:30.652018+00:00",
+      "response_sha256": "97843a2c562945e36b7ea11c3d233709e40e41999c75f6d10cbccfcd6ca7a214",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_55",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23137207",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:30.075816+00:00",
+      "finished_at": "2026-10-31T04:01:30.885213+00:00",
+      "response_sha256": "d3a6d3718dcc4c47f104698f9fceef43f82becfae5f2c4cd7c240acb7f5f2d3e",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_55",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23137207/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:30.210520+00:00",
+      "finished_at": "2026-10-31T04:01:31.001678+00:00",
+      "response_sha256": "a012f3a0851cc99ae04e15057e12ac5e95dfb09f5df645ecd43e699689c5ce70",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_56",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23137211",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:30.365011+00:00",
+      "finished_at": "2026-10-31T04:01:31.019334+00:00",
+      "response_sha256": "0e23f1ed926e98195445aa4af69137eecff693d314f4a9cf2943bb5289523473",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_56",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23137211/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:30.422597+00:00",
+      "finished_at": "2026-10-31T04:01:31.185081+00:00",
+      "response_sha256": "d72740571a62db5c8e1a5ce7dd5452072d5735e15a975b1864acce534a35e7bb",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_57",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23137214",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:30.486942+00:00",
+      "finished_at": "2026-10-31T04:01:31.220282+00:00",
+      "response_sha256": "877eeba21a4afa17abef6d20069eea95a7d685026bd68e80edefcc6f5ff4f4e0",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_57",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23137214/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:30.519860+00:00",
+      "finished_at": "2026-10-31T04:01:31.317420+00:00",
+      "response_sha256": "42a7a385622c36776e0c4fa626ff85171f97ba88e25c93e17f92dbe74c9ca3a1",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_58",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23137215",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:30.653017+00:00",
+      "finished_at": "2026-10-31T04:01:31.470440+00:00",
+      "response_sha256": "b1fa058c6b9fb0eea4f7b637e4d36b5d0184ddb49d15702d83b9ba7aebc5f170",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_58",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23137215/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:30.885213+00:00",
+      "finished_at": "2026-10-31T04:01:31.652441+00:00",
+      "response_sha256": "bd75ecb31e48e68a11c87983244bd7e7a4304c036098d0302e7467ac0b157024",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_59",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23137216",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:31.001678+00:00",
+      "finished_at": "2026-10-31T04:01:31.765479+00:00",
+      "response_sha256": "2d2aa7cb4be95a3e27cfb16fdd425dc130c5d2ee962ab4ef3c3a1188b5b55acf",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_59",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23137216/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:31.019334+00:00",
+      "finished_at": "2026-10-31T04:01:31.878495+00:00",
+      "response_sha256": "fb533c6e82ebe5e60bfb7397ab5683d11996f01a0683658977cf4828dd0e2ce2",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_60",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23137219",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:31.185081+00:00",
+      "finished_at": "2026-10-31T04:01:32.048784+00:00",
+      "response_sha256": "c7291c89f630d6280759350a241d1bad486a58dc04d8e0fe9ba2f4688d03fd48",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_60",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23137219/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:31.221784+00:00",
+      "finished_at": "2026-10-31T04:01:32.101787+00:00",
+      "response_sha256": "8c153e51c1120144c4d1d7e26232e36a0d487dcccb90ff57542c91b7b3ebc923",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_61",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23166490",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:31.317420+00:00",
+      "finished_at": "2026-10-31T04:01:31.955614+00:00",
+      "response_sha256": "6eebceef078a55ad1df875d2490b0806a2f14e201659e3f35c84f2b729d71605",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_61",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23166490/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:31.470440+00:00",
+      "finished_at": "2026-10-31T04:01:32.281735+00:00",
+      "response_sha256": "8703950c1adf63beec7ef884c80154ebec5f02b69f742250cac4a07319d04648",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_62",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23166491",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:31.652441+00:00",
+      "finished_at": "2026-10-31T04:01:32.344722+00:00",
+      "response_sha256": "387651f16aeb5b3a26d4b7744265a31b3bf07ce71627be2b4062838d186ace90",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_62",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23166491/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:31.765479+00:00",
+      "finished_at": "2026-10-31T04:01:32.580014+00:00",
+      "response_sha256": "27bc2ff308b3efc54a18108b9e62cd67180a9330b746f37ee66c976cf206039e",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_63",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23176748",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:31.878495+00:00",
+      "finished_at": "2026-10-31T04:01:32.559156+00:00",
+      "response_sha256": "c462f100a70572cb2631c52a33116ab2e94e8176592462f0691a8ef0fb972541",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_63",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23176748/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:31.955614+00:00",
+      "finished_at": "2026-10-31T04:01:32.816250+00:00",
+      "response_sha256": "4619c2cf7caf0cc905d7116ce2058089bd89e48a4407b05e80e43449e2acaa69",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_64",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23284570",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:32.048784+00:00",
+      "finished_at": "2026-10-31T04:01:32.857810+00:00",
+      "response_sha256": "311f76f38ca5f884e5aef159185dcff1d665b135f4fc87dbf21fe2c16d1d5492",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_64",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23284570/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:32.101787+00:00",
+      "finished_at": "2026-10-31T04:01:32.908722+00:00",
+      "response_sha256": "077b586d9463b3073c1d0b22d2ec356b21d0b4a06b0fba9e9ad8991135aee2d7",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_65",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23365504",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:32.281735+00:00",
+      "finished_at": "2026-10-31T04:01:33.099399+00:00",
+      "response_sha256": "465a51fc6d9c9129a5c43c0b66095b1c10ce15f1a43954185a443ac6fc74823d",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_65",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23365504/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:32.344722+00:00",
+      "finished_at": "2026-10-31T04:01:33.252660+00:00",
+      "response_sha256": "42028709745a2510fd37912f7c5d1ee6e3e6254f85d8a8723219bada46e59b4e",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_66",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23365510",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:32.559156+00:00",
+      "finished_at": "2026-10-31T04:01:33.535181+00:00",
+      "response_sha256": "5790d10ff821a1174e55c7c632b8c6acd8644b818aab4088323759091664c891",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_66",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23365510/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:32.580014+00:00",
+      "finished_at": "2026-10-31T04:01:33.475502+00:00",
+      "response_sha256": "a98f13aa7d22e98ca3335bc0a730601872928e930a70b15a268bb18e7c2eaab1",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_67",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23365517",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:32.816250+00:00",
+      "finished_at": "2026-10-31T04:01:33.577239+00:00",
+      "response_sha256": "8cc4cbbcc6f9ff7e00a1aea67f8e6e9e8cef09e0203f1d234d984c32a9276694",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_67",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23365517/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:32.857810+00:00",
+      "finished_at": "2026-10-31T04:01:33.717542+00:00",
+      "response_sha256": "17b1f33e0ce4b1e735f9fe64793fbfe0439cd3b722ba6058cf77bd08513ab890",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_68",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23365525",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:32.908722+00:00",
+      "finished_at": "2026-10-31T04:01:34.333194+00:00",
+      "response_sha256": "facf0d60b9337a2b11c55f816ef1aaab1e9a89d3a4c82fe832caa142b1e46650",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_68",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23365525/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:33.099399+00:00",
+      "finished_at": "2026-10-31T04:01:34.047351+00:00",
+      "response_sha256": "0626de9732cd39007c419b7c485eeab390e61561438ca5bb5785b10b9bc125ed",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_69",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23365534",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:33.252660+00:00",
+      "finished_at": "2026-10-31T04:01:34.124437+00:00",
+      "response_sha256": "b0f643698c4faae50a2bd00b802d9027f34c874344d19b8d4e4586374a6a433c",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_69",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23365534/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:33.475502+00:00",
+      "finished_at": "2026-10-31T04:01:34.371079+00:00",
+      "response_sha256": "f4d06a2cc4f0053c526f54d09de585e046eccddd51aad5d304febb93b0526ff7",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_70",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23365540",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:33.535181+00:00",
+      "finished_at": "2026-10-31T04:01:34.230219+00:00",
+      "response_sha256": "b36f11358c92c27ee5a8e775cec3d8343c673380a5ca5ec1564e93cd64585b4c",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_70",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23365540/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:33.577239+00:00",
+      "finished_at": "2026-10-31T04:01:34.437549+00:00",
+      "response_sha256": "b3e2b2bb6cd373b701446ee02a71e6fbcbe8ce5644318a53292eb1b2a3c17b38",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_71",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23365543",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:33.718080+00:00",
+      "finished_at": "2026-10-31T04:01:34.407531+00:00",
+      "response_sha256": "c0d6aeef9509a32ac0d2f12d173f575784a961a6fcdac02c31cd44c0c40f4de7",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_71",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23365543/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:34.047351+00:00",
+      "finished_at": "2026-10-31T04:01:34.894350+00:00",
+      "response_sha256": "4f4ff6aa5e8ac0d27ccd60a1cbfbc740f7dbcb3fd5d74cd6bda508d1a30a4524",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_72",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23365548",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:34.124437+00:00",
+      "finished_at": "2026-10-31T04:01:34.947511+00:00",
+      "response_sha256": "f4b856c3ddab16ab389f1dc8793ccee812d8a63d0823457e42e482aab42daa2e",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_72",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23365548/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:34.230219+00:00",
+      "finished_at": "2026-10-31T04:01:35.020385+00:00",
+      "response_sha256": "b27e4fd3277a814e01e8d4137d7509b64609993052f74460dff14b362f199b64",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_73",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23365551",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:34.333194+00:00",
+      "finished_at": "2026-10-31T04:01:35.166894+00:00",
+      "response_sha256": "f86e583193b4ac694561684573317628c642f13fd8cc4c92513a1dbb027fa2f7",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_73",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23365551/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:34.371079+00:00",
+      "finished_at": "2026-10-31T04:01:35.201373+00:00",
+      "response_sha256": "3416d6b387a2f4bf97b9493c61e8006ee2faa586d8667d6c43bb056cecc538eb",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_74",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23365567",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:34.407531+00:00",
+      "finished_at": "2026-10-31T04:01:35.067107+00:00",
+      "response_sha256": "1c0e7a123981844b907ba0f5564f771ee2fffe8b78115f1b52ae7d6a289f88f2",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_74",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23365567/agency",
+      "status": 429,
+      "started_at": "2026-10-31T04:01:34.437549+00:00",
+      "finished_at": "2026-10-31T04:01:35.181216+00:00",
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "response_bytes": 0
+    },
+    {
+      "request_key": "handle_75",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23446162",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:34.894350+00:00",
+      "finished_at": "2026-10-31T04:01:35.578699+00:00",
+      "response_sha256": "3278f103a418710903ffd1cb65c6b08da550f1238286a7eb3b07623be87a9da4",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_75",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23446162/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:34.947511+00:00",
+      "finished_at": "2026-10-31T04:01:35.729759+00:00",
+      "response_sha256": "164355c946389db000f80e54f22933d46ccd0dad78901e2140b56d42815a6409",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_76",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23447088",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:35.020385+00:00",
+      "finished_at": "2026-10-31T04:01:35.664095+00:00",
+      "response_sha256": "f1d56844e935aee6c3059e1c621a2950735979240acae1d8712b512a5d8a8360",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_76",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23447088/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:35.067107+00:00",
+      "finished_at": "2026-10-31T04:01:35.880925+00:00",
+      "response_sha256": "8458307b915a74cd2fe9c3edb7ad503756a6e58f9722b600218b7bb8413d4eac",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_77",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23447089",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:35.166894+00:00",
+      "finished_at": "2026-10-31T04:01:35.818776+00:00",
+      "response_sha256": "21ab15ca72e8067fa505d822dbeec7c265b762730d1cf0bdaddaff937e317ce4",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_77",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23447089/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:35.181726+00:00",
+      "finished_at": "2026-10-31T04:01:36.040620+00:00",
+      "response_sha256": "3191db5a61c65fde5ce0849d1dcc2f08c0b3e50794ac8ae1f44da4a63c56508c",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_78",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23811380",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:35.201373+00:00",
+      "finished_at": "2026-10-31T04:01:35.882443+00:00",
+      "response_sha256": "c2f7c86ab8c1ad6de93db69637a96187efeafe398923415c2adfbeb11de52485",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_78",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23811380/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:35.578699+00:00",
+      "finished_at": "2026-10-31T04:01:36.454259+00:00",
+      "response_sha256": "59eae643ee7dd9c98bb1a12c82548dd9387e6d81e949e7f5ed208dcfa4be90ef",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_79",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23811383",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:35.664095+00:00",
+      "finished_at": "2026-10-31T04:01:36.311744+00:00",
+      "response_sha256": "f266ccd4285d26a24fd18fb152c78edd7c4fb0cafbba087b00f18c90dece34a2",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_79",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23811383/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:35.729759+00:00",
+      "finished_at": "2026-10-31T04:01:36.570914+00:00",
+      "response_sha256": "a402756a4ff101b9d58857a7dc1ac723b9be6253e39af9780610d90f22b8b764",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_80",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23811384",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:35.819287+00:00",
+      "finished_at": "2026-10-31T04:01:36.714884+00:00",
+      "response_sha256": "00dbd8857300a40fe5c3d24827cdd5403b0663fb3e7ca6ce90eff2c4504d3a45",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_80",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23811384/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:35.880925+00:00",
+      "finished_at": "2026-10-31T04:01:36.750142+00:00",
+      "response_sha256": "c6d8251e5c2ac84272253b77a53e31cf7b2b4164f4526ca3b2cfdf1e509920fd",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_81",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23811387",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:35.882443+00:00",
+      "finished_at": "2026-10-31T04:01:36.678660+00:00",
+      "response_sha256": "14d8a420bbf0827b0022b3eed8223cb1f20e9e011218405519c1a55436baaa28",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_81",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23811387/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:36.040620+00:00",
+      "finished_at": "2026-10-31T04:01:36.849427+00:00",
+      "response_sha256": "624ff762ccfc9b145a6f8e707e4222647988122d58796199f7a171196c79f648",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_82",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23811388",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:36.311744+00:00",
+      "finished_at": "2026-10-31T04:01:36.989157+00:00",
+      "response_sha256": "d6e1c2d74a97a552dfb0254120d9af0e5fc18ac8fbf092bcd2b5ec86bddd5812",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_82",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23811388/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:36.454259+00:00",
+      "finished_at": "2026-10-31T04:01:37.299809+00:00",
+      "response_sha256": "16b7a1fd5285e018b281b1522ca8894d4499e3e7e05fe223f73918839ca23f62",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_83",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23811389",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:36.570914+00:00",
+      "finished_at": "2026-10-31T04:01:37.228582+00:00",
+      "response_sha256": "1a9ff68a6d009efd5c2c6d986266a726ecf8db51f1c8c02469a35a460e9cc330",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_83",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23811389/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:36.678660+00:00",
+      "finished_at": "2026-10-31T04:01:37.506505+00:00",
+      "response_sha256": "0e013b71bd76bb813b953084141d2e8c5dcb6e61ba084653eeca185af705a09e",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_84",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23811392",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:36.714884+00:00",
+      "finished_at": "2026-10-31T04:01:37.413088+00:00",
+      "response_sha256": "9885ae47769cb41c3c34902c1e3b5e33e3a1c68cbb9180cca1fbae376d0f7887",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_84",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23811392/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:36.750142+00:00",
+      "finished_at": "2026-10-31T04:01:37.519090+00:00",
+      "response_sha256": "cab512dca5391ec4b897d03c455285ad5439aabd9ed9128b70d2174a25f51347",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_85",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23811393",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:36.849427+00:00",
+      "finished_at": "2026-10-31T04:01:37.513902+00:00",
+      "response_sha256": "75294616415756db07f4402373f48b38f2265182a85d530e718743e68df41d27",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_85",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23811393/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:36.989157+00:00",
+      "finished_at": "2026-10-31T04:01:37.832238+00:00",
+      "response_sha256": "c4baa1405de379757ca6038d42cd9c5d09b1b96cd3b12034ccad280eadd6eb36",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_86",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23811394",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:37.228582+00:00",
+      "finished_at": "2026-10-31T04:01:37.879839+00:00",
+      "response_sha256": "c4e1fcdf896fdec6b4419c8c4ae58e598395c530a821f3625517f7684b5a5618",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_86",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23811394/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:37.299809+00:00",
+      "finished_at": "2026-10-31T04:01:38.069934+00:00",
+      "response_sha256": "b697efccadc22833e39f3c930282068cbbd129c4e3536b28a7e0345639bb7b3d",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "handle_87",
+      "url": "https://hdl.handle.net/api/handles/10.5281/zenodo.23811397",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:37.413088+00:00",
+      "finished_at": "2026-10-31T04:01:38.220137+00:00",
+      "response_sha256": "5650600aea1fcf56277150cc1ec1ec96c5926636419f92088fdea0bd8be92a69",
+      "response_bytes": 403
+    },
+    {
+      "request_key": "agency_87",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23811397/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:01:37.506505+00:00",
+      "finished_at": "2026-10-31T04:01:38.438325+00:00",
+      "response_sha256": "ad053a9083a4abd297bb64d258572e77546913947211c0c45dd6af172b2b7819",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "aswg_retry1",
+      "url": "https://aswg.scicrunch.org/resolver/RRID:SCR_029105",
+      "status": null,
+      "started_at": "2026-10-31T04:01:38.445858+00:00",
+      "finished_at": "2026-10-31T04:01:38.608126+00:00",
+      "response_sha256": null,
+      "response_bytes": null
+    },
+    {
+      "request_key": "aswg_json_retry1",
+      "url": "https://aswg.scicrunch.org/resolver/RRID:SCR_029105.json",
+      "status": null,
+      "started_at": "2026-10-31T04:01:38.446800+00:00",
+      "finished_at": "2026-10-31T04:01:38.605783+00:00",
+      "response_sha256": null,
+      "response_bytes": null
+    },
+    {
+      "request_key": "agency_74_retry1",
+      "url": "https://api.crossref.org/works/10.5281/zenodo.23365567/agency",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:43.941812+00:00",
+      "finished_at": "2026-10-31T04:02:44.698867+00:00",
+      "response_sha256": "cd7a471bcc409ad12ddc0080dfadc7826cc118f83be7dbce35fff518a743a522",
+      "response_bytes": 161
+    },
+    {
+      "request_key": "openaire_all_0",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.17605%2Fosf.io%2F5b329&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:02.508338+00:00",
+      "finished_at": "2026-10-31T04:02:04.099741+00:00",
+      "response_sha256": "a250b3994d7db653d1d7a385856055b690116c711f0899b64dd40dbd694bd6d2",
+      "response_bytes": 27043
+    },
+    {
+      "request_key": "openaire_all_1",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.17605%2Fosf.io%2Fwa5v8&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:02.509345+00:00",
+      "finished_at": "2026-10-31T04:02:04.512108+00:00",
+      "response_sha256": "dfd0ec7997ce5fadddd61a7703d16417d6a1607709c1d55212e95c47d4be435c",
+      "response_bytes": 20875
+    },
+    {
+      "request_key": "openaire_all_2",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2332.1&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:02.509345+00:00",
+      "finished_at": "2026-10-31T04:02:03.773810+00:00",
+      "response_sha256": "b7b58bf7cd5297d5fc014de8af66b25ee38f1292473d44c5eed8ee1c10393214",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_3",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2332.2&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:02.510347+00:00",
+      "finished_at": "2026-10-31T04:02:03.771405+00:00",
+      "response_sha256": "7fb89a275993e3eefd8ef8b4e076f92178663d939af5365c4e257e82aa9c21a8",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_4",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2332.3&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:03.771405+00:00",
+      "finished_at": "2026-10-31T04:02:06.964328+00:00",
+      "response_sha256": "7cce4119bdff52d3c796f06a69c554fc0889921f37038d85a7dd555d55ae3a4b",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_5",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2332.4&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:03.773810+00:00",
+      "finished_at": "2026-10-31T04:02:05.085590+00:00",
+      "response_sha256": "5040bd91d96a36d022e1f764a9f6301ad0abe99cb7721f725d13dc97777ea1a6",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_6",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2332.5&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:04.099741+00:00",
+      "finished_at": "2026-10-31T04:02:05.171538+00:00",
+      "response_sha256": "5d7da2d672e29f6e9f171567eceaf734376d3858e49f1f82780feb353390f95b",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_7",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2332.6&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:04.512108+00:00",
+      "finished_at": "2026-10-31T04:02:05.580810+00:00",
+      "response_sha256": "a8a57bb066b42e354afa26ff9fec099bd7576f684926f3fbf90e68f58133d7c0",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_8",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2332.7&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:05.085590+00:00",
+      "finished_at": "2026-10-31T04:02:06.144120+00:00",
+      "response_sha256": "2048a258dbd979d9b3b38bfb7b9b8608224f6b4c2a4d4974cb8c6763ba4e2a76",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_9",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2332.8&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:05.171538+00:00",
+      "finished_at": "2026-10-31T04:02:06.526108+00:00",
+      "response_sha256": "925433c7e6fc63d3512ece155d9e6d686434038b1068cbc6491fbabc709fda1c",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_10",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2334.1&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:05.581803+00:00",
+      "finished_at": "2026-10-31T04:02:06.706803+00:00",
+      "response_sha256": "e31f15f1a63142914c609ea6850fdf0f6f1b7f394cb47da4895ef1ab8883a47b",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_11",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2334.2&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:06.144661+00:00",
+      "finished_at": "2026-10-31T04:02:08.495642+00:00",
+      "response_sha256": "851eda0b2314633abe1a37f2f41437f8e4365c1c1e3952e6d91e06aaf4e3bdc9",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_12",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2334.3&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:06.526108+00:00",
+      "finished_at": "2026-10-31T04:02:07.601190+00:00",
+      "response_sha256": "27891c59176cb965bbdcbf87f1cc32d6ceb072729e4fb5e5142ca99f91b40844",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_13",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2334.4&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:06.706803+00:00",
+      "finished_at": "2026-10-31T04:02:07.747442+00:00",
+      "response_sha256": "537cbee68c1ddd2ffe2a3f684515951fca00e9fe4028a4c730b80576ae03c51e",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_14",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2334.5&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:06.964328+00:00",
+      "finished_at": "2026-10-31T04:02:09.236680+00:00",
+      "response_sha256": "2a11c6043dd4e4cc72974c50bf1921508b2690aaf720a2bef7b2d377b8a429bf",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_15",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2334.6&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:07.601190+00:00",
+      "finished_at": "2026-10-31T04:02:08.631282+00:00",
+      "response_sha256": "4fcb721027f8e5efc39068c6123c1ceab3a3b3967fe19e7bbebcbbea3eed08e0",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_16",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2334.7&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:07.747442+00:00",
+      "finished_at": "2026-10-31T04:02:10.247493+00:00",
+      "response_sha256": "12adfdd30858c208daeb487b154d72f0783ebc86d3d5277183d1c1652dcd3156",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_17",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2334.8&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:08.495642+00:00",
+      "finished_at": "2026-10-31T04:02:09.581171+00:00",
+      "response_sha256": "aec3833c655dba53ab80df888f7ab1e6fcf73315daba5440201730f137c6addd",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_18",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2337.1&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:08.631282+00:00",
+      "finished_at": "2026-10-31T04:02:09.696646+00:00",
+      "response_sha256": "f580bf61480cc92436d3c1f80f6889f825f8f2d8e58388fc55fd4e87207b7f3f",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_19",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2347.1&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:09.237398+00:00",
+      "finished_at": "2026-10-31T04:02:10.287540+00:00",
+      "response_sha256": "7ec39692e53fb442d821206722f52273e06269c175a99b1c6ae7ac1bace74865",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_20",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.48546%2Fworkflowhub.workflow.2347.2&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:09.581171+00:00",
+      "finished_at": "2026-10-31T04:02:10.637838+00:00",
+      "response_sha256": "9c1a902f9d43b77f7c93576a5a6dd3c403d742a9c1c9bf18f2cf645b6fa9d817",
+      "response_bytes": 328
+    },
+    {
+      "request_key": "openaire_all_21",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22790907&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:09.696646+00:00",
+      "finished_at": "2026-10-31T04:02:10.759179+00:00",
+      "response_sha256": "c5eda33db63f2869d9ed6a766804aece7fb517b1aff54234ab4a0f9349fafe1a",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_22",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22790908&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:10.247493+00:00",
+      "finished_at": "2026-10-31T04:02:11.289394+00:00",
+      "response_sha256": "23d8ccad32e3cfe71339e6ea77daf1369fb07f31185607cfceaa8f160bee3627",
+      "response_bytes": 2435
+    },
+    {
+      "request_key": "openaire_all_23",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791081&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:10.287540+00:00",
+      "finished_at": "2026-10-31T04:02:11.329291+00:00",
+      "response_sha256": "2e7b67d16f7f24ce686797defe8ac0423d08957c23ea48847a946519afbbfd45",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_24",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791082&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:10.637838+00:00",
+      "finished_at": "2026-10-31T04:02:13.508228+00:00",
+      "response_sha256": "91b67b288fc6874733b53a40ebbea787913ef687a737743442caf929bbb7969a",
+      "response_bytes": 2431
+    },
+    {
+      "request_key": "openaire_all_25",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791103&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:10.759179+00:00",
+      "finished_at": "2026-10-31T04:02:11.881997+00:00",
+      "response_sha256": "1823a56ccf89b99c8d26cae45e92d5ccdb0c7f0e889efe65166686850557bae3",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_26",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791104&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:11.289394+00:00",
+      "finished_at": "2026-10-31T04:02:12.445796+00:00",
+      "response_sha256": "4882776290e9ff7ae31029da356bdba863eabb246dc0e21f67ca63de9ccad077",
+      "response_bytes": 2412
+    },
+    {
+      "request_key": "openaire_all_27",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791141&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:11.329291+00:00",
+      "finished_at": "2026-10-31T04:02:12.446303+00:00",
+      "response_sha256": "a2c9fff76186e5bf02909858be9c343811662b2973308d58e2a95a3f06336a59",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_28",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791142&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:11.881997+00:00",
+      "finished_at": "2026-10-31T04:02:13.077973+00:00",
+      "response_sha256": "a4ff3a2a73c5c20fc93dc69c9cd718c8c80d11fcacddcb179502694d3dc9c930",
+      "response_bytes": 2432
+    },
+    {
+      "request_key": "openaire_all_29",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791169&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:12.445796+00:00",
+      "finished_at": "2026-10-31T04:02:13.658913+00:00",
+      "response_sha256": "9effa3e012c7f4fe2f525eda7c44b93a2b2c6334a7270fe560511423c893b8c8",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_30",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791170&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:12.446303+00:00",
+      "finished_at": "2026-10-31T04:02:13.659929+00:00",
+      "response_sha256": "0e0e8c3d12a7e3c892b62ba054558c5eb411a8ae99afa80ed05f0cb01574209c",
+      "response_bytes": 2412
+    },
+    {
+      "request_key": "openaire_all_31",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791309&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:13.077973+00:00",
+      "finished_at": "2026-10-31T04:02:14.156552+00:00",
+      "response_sha256": "a7f44c83d700da6773c2f8c6ae557cce5df82bed8a23e7e3892552c6c92efdb6",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_32",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791310&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:13.508228+00:00",
+      "finished_at": "2026-10-31T04:02:14.633834+00:00",
+      "response_sha256": "4c69ee305d49db1e165f87983ea112cdb5ff695f58973cae1b0063fec4022329",
+      "response_bytes": 2452
+    },
+    {
+      "request_key": "openaire_all_33",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791334&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:13.658913+00:00",
+      "finished_at": "2026-10-31T04:02:15.092375+00:00",
+      "response_sha256": "d2df1448ffd51f02392ee1bd8b1083d644aaaf871a12301fc1dd2a3f01dd3c03",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_34",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791335&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:13.659929+00:00",
+      "finished_at": "2026-10-31T04:02:14.798749+00:00",
+      "response_sha256": "982213788a319aa258b7e0d7efc5cf48bc906e07d33841e4b1c40f4fae59af5a",
+      "response_bytes": 2469
+    },
+    {
+      "request_key": "openaire_all_35",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791375&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:14.156552+00:00",
+      "finished_at": "2026-10-31T04:02:15.212950+00:00",
+      "response_sha256": "a8f14ab309038fa99ef9c6206afa660241920da0856f2907b98907ea67cee233",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_36",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791376&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:14.633834+00:00",
+      "finished_at": "2026-10-31T04:02:15.676013+00:00",
+      "response_sha256": "87fb73ddd598838fab928b2b2000e8caf64267e00dece3c2f257d6c912f7c06f",
+      "response_bytes": 2449
+    },
+    {
+      "request_key": "openaire_all_37",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791404&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:14.798749+00:00",
+      "finished_at": "2026-10-31T04:02:15.869595+00:00",
+      "response_sha256": "b9d05a788e18e27925f14139db4b03da115fb2084f6f453e0ab3f8d09732f91d",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_38",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791405&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:15.092375+00:00",
+      "finished_at": "2026-10-31T04:02:16.179261+00:00",
+      "response_sha256": "28063c0d3178d1fd3fba5f31318ab5bfeee6997975ed5e4c10f61f666880f333",
+      "response_bytes": 2479
+    },
+    {
+      "request_key": "openaire_all_39",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791463&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:15.212950+00:00",
+      "finished_at": "2026-10-31T04:02:16.387722+00:00",
+      "response_sha256": "8aea1f6912b21c7497c59ab46e7f3bc572ce8fbf24774b4fc87e80d06f2f111d",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_40",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.22791464&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:15.676013+00:00",
+      "finished_at": "2026-10-31T04:02:16.717329+00:00",
+      "response_sha256": "a1f5fa160b8b49bdf5f7a84df506a958d671b9df3d3989e659683c8f2c7b4bd8",
+      "response_bytes": 2455
+    },
+    {
+      "request_key": "openaire_all_41",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23068144&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:15.869595+00:00",
+      "finished_at": "2026-10-31T04:02:16.925487+00:00",
+      "response_sha256": "f64b7beff7bba3f18cb155ff3efbf351065e45b770297b2e00c2d8c6ad228ed1",
+      "response_bytes": 2431
+    },
+    {
+      "request_key": "openaire_all_42",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23068145&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:16.179261+00:00",
+      "finished_at": "2026-10-31T04:02:17.257196+00:00",
+      "response_sha256": "6de4e30b0cdbb680e3ac56d1a1c34991e477372b96f82a5242219f2693a4bcc3",
+      "response_bytes": 2435
+    },
+    {
+      "request_key": "openaire_all_43",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23068260&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:16.387722+00:00",
+      "finished_at": "2026-10-31T04:02:17.759290+00:00",
+      "response_sha256": "727577c67f84681713ed2b402cef6aa081dfa078eb6ebbe5fb26a7081b4fe33d",
+      "response_bytes": 2432
+    },
+    {
+      "request_key": "openaire_all_44",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23068261&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:16.717329+00:00",
+      "finished_at": "2026-10-31T04:02:17.814488+00:00",
+      "response_sha256": "5191a39ed848ee44aa9ffd35b7db6d75fca987cdd087eb860d68b4ccf50e130e",
+      "response_bytes": 2412
+    },
+    {
+      "request_key": "openaire_all_45",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23068262&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:16.925487+00:00",
+      "finished_at": "2026-10-31T04:02:18.015301+00:00",
+      "response_sha256": "fdd47e210ee0b74e1392daf62fb64a3104c5dfa766034f60d4f40aff928f59e3",
+      "response_bytes": 2412
+    },
+    {
+      "request_key": "openaire_all_46",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23068347&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:17.257196+00:00",
+      "finished_at": "2026-10-31T04:02:18.316362+00:00",
+      "response_sha256": "f655b7f5d2115f72ccb226dfea6cedc9abde24a81b516f1a1b85a0b57dff9503",
+      "response_bytes": 2452
+    },
+    {
+      "request_key": "openaire_all_47",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23068352&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:17.759290+00:00",
+      "finished_at": "2026-10-31T04:02:19.257360+00:00",
+      "response_sha256": "a6e9c3cf5871ad3f3736961de11014bee379d44fec6d46aad834eeb62a60bab6",
+      "response_bytes": 2469
+    },
+    {
+      "request_key": "openaire_all_48",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23068471&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:17.815093+00:00",
+      "finished_at": "2026-10-31T04:02:19.049754+00:00",
+      "response_sha256": "8a319175b4b194b4703bec71894047a2f1c4c1f998240fac3e0f7025dc306b1d",
+      "response_bytes": 2479
+    },
+    {
+      "request_key": "openaire_all_49",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23068472&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:18.015301+00:00",
+      "finished_at": "2026-10-31T04:02:19.095139+00:00",
+      "response_sha256": "4495c01c93aa8622d7c3c4affc4e40a81fe504af86e6fb6d7e90a140d09eaec3",
+      "response_bytes": 2449
+    },
+    {
+      "request_key": "openaire_all_50",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23068494&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:18.316362+00:00",
+      "finished_at": "2026-10-31T04:02:20.810921+00:00",
+      "response_sha256": "69881a06807b397d0e5337899518fa04832fc975b5866dc40e3e7f950181c297",
+      "response_bytes": 2455
+    },
+    {
+      "request_key": "openaire_all_51",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137203&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:19.049754+00:00",
+      "finished_at": "2026-10-31T04:02:20.650094+00:00",
+      "response_sha256": "cc5150006224177c0ac2b4d24374c193b392e81494c531c8d8adc7caeaa2a336",
+      "response_bytes": 2435
+    },
+    {
+      "request_key": "openaire_all_52",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137204&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:19.095139+00:00",
+      "finished_at": "2026-10-31T04:02:20.281593+00:00",
+      "response_sha256": "2a485c57a3bd93e3e02a8cf71159135715015b43f425314ce82e67a4cb9540b9",
+      "response_bytes": 2431
+    },
+    {
+      "request_key": "openaire_all_53",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137205&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:19.257360+00:00",
+      "finished_at": "2026-10-31T04:02:20.442176+00:00",
+      "response_sha256": "f9647377905f83421578f74eda6bc307523eb0f27501dfc4c93e92202c1d5d7d",
+      "response_bytes": 2412
+    },
+    {
+      "request_key": "openaire_all_54",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137206&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:20.281593+00:00",
+      "finished_at": "2026-10-31T04:02:21.603583+00:00",
+      "response_sha256": "5243b02b057d3f9ec1f8f8df11bb5d097895f06b15352a82641133ed1cc8732b",
+      "response_bytes": 2432
+    },
+    {
+      "request_key": "openaire_all_55",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137207&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:20.442176+00:00",
+      "finished_at": "2026-10-31T04:02:21.549788+00:00",
+      "response_sha256": "458b7f588f8b85d6b8efe0c9abaf181cfb5ec9a3eaca23bc137642c2fffbe38b",
+      "response_bytes": 2412
+    },
+    {
+      "request_key": "openaire_all_56",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137211&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:20.650094+00:00",
+      "finished_at": "2026-10-31T04:02:21.710493+00:00",
+      "response_sha256": "ebe73d2834a69471fbd7daeabb48061cba7a01243504176fd29eb36f7356eb41",
+      "response_bytes": 2452
+    },
+    {
+      "request_key": "openaire_all_57",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137214&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:20.811380+00:00",
+      "finished_at": "2026-10-31T04:02:21.859312+00:00",
+      "response_sha256": "73d64dff7eaed22a3ed8ad9f3ad4f6ccf775932dbef2ec2dc722da969356fdc1",
+      "response_bytes": 2469
+    },
+    {
+      "request_key": "openaire_all_58",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137215&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:21.549788+00:00",
+      "finished_at": "2026-10-31T04:02:23.222895+00:00",
+      "response_sha256": "2617bf31a7e653f21fbb7261dba5796d07b686544a466f2c68d074cebe556129",
+      "response_bytes": 2479
+    },
+    {
+      "request_key": "openaire_all_59",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137216&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:21.603583+00:00",
+      "finished_at": "2026-10-31T04:02:23.165353+00:00",
+      "response_sha256": "0e88203434c13920fa07836fecdd4c2ab0936e583c92f5cfd359ca4f8c1083db",
+      "response_bytes": 2455
+    },
+    {
+      "request_key": "openaire_all_60",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23137219&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:21.710493+00:00",
+      "finished_at": "2026-10-31T04:02:23.220475+00:00",
+      "response_sha256": "13a16e6d3439ed8e10ee70bee1a1afce52fe213c8028c6694eede48c5f6c487b",
+      "response_bytes": 2449
+    },
+    {
+      "request_key": "openaire_all_61",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23166490&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:21.860970+00:00",
+      "finished_at": "2026-10-31T04:02:23.201755+00:00",
+      "response_sha256": "c506b950f98fb20ddd03860a04385bbec1735ac11559032fad717480b10efdcd",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_62",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23166491&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:23.165353+00:00",
+      "finished_at": "2026-10-31T04:02:24.242221+00:00",
+      "response_sha256": "36eae370fefd7e83967e350ffa69c7f38fcd7478bd588817ffa4f14c491acd30",
+      "response_bytes": 8890
+    },
+    {
+      "request_key": "openaire_all_63",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23176748&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:23.201755+00:00",
+      "finished_at": "2026-10-31T04:02:24.258184+00:00",
+      "response_sha256": "7fe2d32f341f6223469f35bf9507f62a1a9f24c4bc7965690fbbec449573ece3",
+      "response_bytes": 2573
+    },
+    {
+      "request_key": "openaire_all_64",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23284570&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:23.220475+00:00",
+      "finished_at": "2026-10-31T04:02:24.263469+00:00",
+      "response_sha256": "41d45b356dc63f8cf76d4f02407a7409b5299c3928bbba759efcbe0417407eac",
+      "response_bytes": 2573
+    },
+    {
+      "request_key": "openaire_all_65",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23365504&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:23.222895+00:00",
+      "finished_at": "2026-10-31T04:02:24.336356+00:00",
+      "response_sha256": "10d0aeefc64246b74a4b2393843cab2934d50e64220f86afe4a53e611b651646",
+      "response_bytes": 2435
+    },
+    {
+      "request_key": "openaire_all_66",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23365510&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:24.242221+00:00",
+      "finished_at": "2026-10-31T04:02:25.612776+00:00",
+      "response_sha256": "b559cfb7bf2a460944d615b93e4fe8899bb3b428f728bd61d161ff297ed73397",
+      "response_bytes": 2479
+    },
+    {
+      "request_key": "openaire_all_67",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23365517&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:24.258184+00:00",
+      "finished_at": "2026-10-31T04:02:25.646346+00:00",
+      "response_sha256": "47e6985bb0259bb82d0e37bea12b46b3e6862b4f109230ed3ce5ea3e8e7d6f09",
+      "response_bytes": 2455
+    },
+    {
+      "request_key": "openaire_all_68",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23365525&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:24.263469+00:00",
+      "finished_at": "2026-10-31T04:02:25.619377+00:00",
+      "response_sha256": "1d70ce808047ca7ca55bfd85c89a2c050971b78dfce3bff22653ba70fa24c1c6",
+      "response_bytes": 2449
+    },
+    {
+      "request_key": "openaire_all_69",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23365534&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:24.336356+00:00",
+      "finished_at": "2026-10-31T04:02:25.639812+00:00",
+      "response_sha256": "5d686b8b4e06b2adf3a00cd0f31968c65333257b41a87289854015c24f49d60d",
+      "response_bytes": 2412
+    },
+    {
+      "request_key": "openaire_all_70",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23365540&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:25.612776+00:00",
+      "finished_at": "2026-10-31T04:02:27.622390+00:00",
+      "response_sha256": "aa4bdbd11eaff47b97012984881e2674f81b4731ea62611c484569ad09a5dc93",
+      "response_bytes": 2412
+    },
+    {
+      "request_key": "openaire_all_71",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23365543&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:25.619377+00:00",
+      "finished_at": "2026-10-31T04:02:26.694853+00:00",
+      "response_sha256": "3457d4cd0ca7b5e25f03ba894bcd5fc6cc915bb39c1ca8c595c94d53042aeb20",
+      "response_bytes": 2469
+    },
+    {
+      "request_key": "openaire_all_72",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23365548&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:25.639812+00:00",
+      "finished_at": "2026-10-31T04:02:26.734392+00:00",
+      "response_sha256": "eb0d2d9611bfa44791c36eaed7d30b85e159dcdb1a53ddc128fe007f86d50f5f",
+      "response_bytes": 2452
+    },
+    {
+      "request_key": "openaire_all_73",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23365551&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:25.646346+00:00",
+      "finished_at": "2026-10-31T04:02:26.733884+00:00",
+      "response_sha256": "fb3ba55c8265b5a54d8f74a697e7e055265f8779776137827fea11d7b24d305c",
+      "response_bytes": 2431
+    },
+    {
+      "request_key": "openaire_all_74",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23365567&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:26.694853+00:00",
+      "finished_at": "2026-10-31T04:02:27.901565+00:00",
+      "response_sha256": "df8117f4f84b39798db843c481889512775dcd3c5135c44b52f4fa8e1f25f040",
+      "response_bytes": 2432
+    },
+    {
+      "request_key": "openaire_all_75",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23446162&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:26.733884+00:00",
+      "finished_at": "2026-10-31T04:02:28.114916+00:00",
+      "response_sha256": "23e571bf512829e8ee7076edfec219fb096c38034354a8cc04cfceec9057851a",
+      "response_bytes": 16493
+    },
+    {
+      "request_key": "openaire_all_76",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23447088&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:26.734392+00:00",
+      "finished_at": "2026-10-31T04:02:27.921705+00:00",
+      "response_sha256": "b5b4465940932c584f409929c481a181960b9f12e8d97cae2f6cfffec91f4373",
+      "response_bytes": 315
+    },
+    {
+      "request_key": "openaire_all_77",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23447089&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:27.622390+00:00",
+      "finished_at": "2026-10-31T04:02:28.843910+00:00",
+      "response_sha256": "599ac5b3a433d87aa2e4343fcaacda86fc7b30eea211f421854d31b1adf0f41a",
+      "response_bytes": 11722
+    },
+    {
+      "request_key": "openaire_all_78",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23811380&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:27.901565+00:00",
+      "finished_at": "2026-10-31T04:02:28.960673+00:00",
+      "response_sha256": "6054a8140162dadc02e1be045685e16d4a1516407a50fab424bfb5d52290c287",
+      "response_bytes": 2435
+    },
+    {
+      "request_key": "openaire_all_79",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23811383&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:27.921705+00:00",
+      "finished_at": "2026-10-31T04:02:29.984939+00:00",
+      "response_sha256": "d26eff8166b4710cc1421125f7cbbd0a68c06224df36bf3b1f980ddf2b4bf360",
+      "response_bytes": 2479
+    },
+    {
+      "request_key": "openaire_all_80",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23811384&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:28.115423+00:00",
+      "finished_at": "2026-10-31T04:02:29.153487+00:00",
+      "response_sha256": "9b3c9f592be73ab9db804ffe3749008eb9448a1cca93a494c8f34d8cecd70729",
+      "response_bytes": 2455
+    },
+    {
+      "request_key": "openaire_all_81",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23811387&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:28.843910+00:00",
+      "finished_at": "2026-10-31T04:02:29.910577+00:00",
+      "response_sha256": "4112d2618d33f73e93dbc19415619163da72389234041ed5d00efc4fa9c1f533",
+      "response_bytes": 2469
+    },
+    {
+      "request_key": "openaire_all_82",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23811388&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:28.960673+00:00",
+      "finished_at": "2026-10-31T04:02:30.003090+00:00",
+      "response_sha256": "089826d02754eac463a6c592bb2b888fcc6b597d3c3e50f22ae901f83ffbd58c",
+      "response_bytes": 2452
+    },
+    {
+      "request_key": "openaire_all_83",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23811389&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:29.153487+00:00",
+      "finished_at": "2026-10-31T04:02:30.222713+00:00",
+      "response_sha256": "484686be549c96b35c6f121ffa4c15ba20209f3c56360a200a7d37260f03e66c",
+      "response_bytes": 2412
+    },
+    {
+      "request_key": "openaire_all_84",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23811392&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:29.910577+00:00",
+      "finished_at": "2026-10-31T04:02:31.464891+00:00",
+      "response_sha256": "e4ce126208dbd51f4dfa96c5c0bc508c2184e98585e8919f9c52517c81abbeba",
+      "response_bytes": 2432
+    },
+    {
+      "request_key": "openaire_all_85",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23811393&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:29.984939+00:00",
+      "finished_at": "2026-10-31T04:02:32.032964+00:00",
+      "response_sha256": "67ace36252321b1f5bb169e9baf2ae40af3aa06e03a0fff12704c0b968775afc",
+      "response_bytes": 2412
+    },
+    {
+      "request_key": "openaire_all_86",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23811394&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:30.003090+00:00",
+      "finished_at": "2026-10-31T04:02:31.062614+00:00",
+      "response_sha256": "c125a9066231b98896e0e59dbce7793e32cef5e4037992dda7c378400f0b3276",
+      "response_bytes": 2431
+    },
+    {
+      "request_key": "openaire_all_87",
+      "url": "https://api.openaire.eu/search/researchProducts?doi=10.5281%2Fzenodo.23811397&format=json&size=100",
+      "status": 200,
+      "started_at": "2026-10-31T04:02:30.223022+00:00",
+      "finished_at": "2026-10-31T04:02:31.269773+00:00",
+      "response_sha256": "bda5a21be81a856f2429f168c7bf28d9abb165af2b87bbe55500930300eada14",
+      "response_bytes": 2449
+    }
+  ],
+  "original_payload_note": "The digests identify local retained originals; no claim that the public selected projection reproduces full origin bytes"
+}

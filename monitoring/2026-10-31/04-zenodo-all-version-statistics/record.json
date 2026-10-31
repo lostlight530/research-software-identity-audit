@@ -1,0 +1,61 @@
+{
+  "record_class": "diagnostic_monitoring_selected_public_fields",
+  "logical_date": "2026-10-31",
+  "logical_timezone": "Asia/Shanghai",
+  "batch_start_utc": "2026-10-31T05:41:22.929537+00:00",
+  "batch_end_utc": "2026-10-31T05:42:26.138306+00:00",
+  "source_attempt_rows": 103,
+  "family_count": 12,
+  "version_details": 55,
+  "fixed_ten_version_count": 50,
+  "control_versions": 4,
+  "life_science_versions": 1,
+  "fixed_ten_totals": {
+    "views": 3200,
+    "unique_views": 2307,
+    "downloads": 17,
+    "unique_downloads": 16
+  },
+  "descriptive_twelve_totals": {
+    "views": 3363,
+    "unique_views": 2458,
+    "downloads": 27,
+    "unique_downloads": 24
+  },
+  "family_version_reconciliation": {
+    "comparisons": 48,
+    "all_equal_this_capture": true
+  },
+  "same_record_baselines": 55,
+  "same_record_delta_totals": {
+    "version_views": 3,
+    "version_unique_views": 3,
+    "version_downloads": 0,
+    "version_unique_downloads": 0
+  },
+  "file_metadata": {
+    "file_entries": 55,
+    "bytes": 161641501,
+    "archives_redownloaded": false
+  },
+  "contract": {
+    "fixed_objects": 10,
+    "preregistered_layers": 6,
+    "eligible_object_layer_units": 60,
+    "operational_platforms": 7,
+    "possible_checks_not_analytic_units": 70,
+    "osf_modified": false,
+    "schedule_modified": false,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0
+  },
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "evidence_references": [
+    "evidence/2026-10-31/04-zenodo-all-version-statistics/all-version-fields.json",
+    "evidence/2026-10-31/04-zenodo-all-version-statistics/family-summary.json",
+    "evidence/2026-10-31/04-zenodo-all-version-statistics/family-version-reconciliation.json",
+    "evidence/2026-10-31/04-zenodo-all-version-statistics/source-provenance.json",
+    "evidence/2026-10-31/04-zenodo-all-version-statistics/artifact-manifest.json"
+  ]
+}

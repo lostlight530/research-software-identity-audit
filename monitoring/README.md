@@ -167,3 +167,8 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## October 31 noon user-page reconciliation
 
 - [2026-10-31 / 02-noon-user-page-reconciliation](2026-10-31/02-noon-user-page-reconciliation/README.md) — source-separated 13:00 Dashboard, 13:24 Zenodo, DataCite Commons and OpenAIRE counts; prior API fields labelled by their actual capture time; zero prospective cells
+
+## October 31 independently retained statistics
+
+- [2026-10-31/03-independent-institutional-statistics](2026-10-31/03-independent-institutional-statistics/README.md) — actual 12:00 capture, 473 read attempts, source-scoped 34 surfaces, 88 DOI inventory and OpenAIRE DOI grouping
+- [2026-10-31/04-zenodo-all-version-statistics](2026-10-31/04-zenodo-all-version-statistics/README.md) — actual 14:41 all-version capture, 55 versions, 48 family-field reconciliations and same-record deltas

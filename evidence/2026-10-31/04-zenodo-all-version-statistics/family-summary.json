@@ -1,0 +1,321 @@
+[
+  {
+    "repository": "welcome-to-github",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22790907",
+    "version_count": 5,
+    "latest_record_id": 23811380,
+    "latest_version": "v2026.10-30-evidence-snapshot",
+    "family_stats": {
+      "views": 355,
+      "unique_views": 264,
+      "downloads": 6,
+      "unique_downloads": 5
+    },
+    "summed_version_stats": {
+      "version_views": 355,
+      "version_unique_views": 264,
+      "version_downloads": 6,
+      "version_unique_downloads": 5
+    },
+    "version_record_ids": [
+      22790908,
+      23068145,
+      23137203,
+      23365504,
+      23811380
+    ]
+  },
+  {
+    "repository": "zero-entropy-lab",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791081",
+    "version_count": 5,
+    "latest_record_id": 23811394,
+    "latest_version": "v2026.10-30-evidence-snapshot",
+    "family_stats": {
+      "views": 314,
+      "unique_views": 221,
+      "downloads": 1,
+      "unique_downloads": 1
+    },
+    "summed_version_stats": {
+      "version_views": 314,
+      "version_unique_views": 221,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "version_record_ids": [
+      22791082,
+      23068144,
+      23137204,
+      23365551,
+      23811394
+    ]
+  },
+  {
+    "repository": "Axiom-0",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791103",
+    "version_count": 5,
+    "latest_record_id": 23811393,
+    "latest_version": "v2026.10-30-evidence-snapshot",
+    "family_stats": {
+      "views": 354,
+      "unique_views": 260,
+      "downloads": 1,
+      "unique_downloads": 1
+    },
+    "summed_version_stats": {
+      "version_views": 354,
+      "version_unique_views": 260,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "version_record_ids": [
+      22791104,
+      23068261,
+      23137205,
+      23365534,
+      23811393
+    ]
+  },
+  {
+    "repository": "reflective-continuum",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791141",
+    "version_count": 5,
+    "latest_record_id": 23811392,
+    "latest_version": "v2026.10-30-evidence-snapshot",
+    "family_stats": {
+      "views": 276,
+      "unique_views": 189,
+      "downloads": 1,
+      "unique_downloads": 1
+    },
+    "summed_version_stats": {
+      "version_views": 276,
+      "version_unique_views": 189,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "version_record_ids": [
+      22791142,
+      23068260,
+      23137206,
+      23365567,
+      23811392
+    ]
+  },
+  {
+    "repository": "agent-foundations",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791169",
+    "version_count": 5,
+    "latest_record_id": 23811389,
+    "latest_version": "v2026.10-30-evidence-snapshot",
+    "family_stats": {
+      "views": 319,
+      "unique_views": 230,
+      "downloads": 2,
+      "unique_downloads": 2
+    },
+    "summed_version_stats": {
+      "version_views": 319,
+      "version_unique_views": 230,
+      "version_downloads": 2,
+      "version_unique_downloads": 2
+    },
+    "version_record_ids": [
+      22791170,
+      23068262,
+      23137207,
+      23365540,
+      23811389
+    ]
+  },
+  {
+    "repository": "auto-doc-engine",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791404",
+    "version_count": 5,
+    "latest_record_id": 23811383,
+    "latest_version": "v2026.10-30-evidence-snapshot",
+    "family_stats": {
+      "views": 305,
+      "unique_views": 217,
+      "downloads": 0,
+      "unique_downloads": 0
+    },
+    "summed_version_stats": {
+      "version_views": 305,
+      "version_unique_views": 217,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "version_record_ids": [
+      22791405,
+      23068471,
+      23137215,
+      23365510,
+      23811383
+    ]
+  },
+  {
+    "repository": "epistemic-pipeline",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791463",
+    "version_count": 5,
+    "latest_record_id": 23811384,
+    "latest_version": "v2026.10-30-evidence-snapshot",
+    "family_stats": {
+      "views": 316,
+      "unique_views": 227,
+      "downloads": 1,
+      "unique_downloads": 1
+    },
+    "summed_version_stats": {
+      "version_views": 316,
+      "version_unique_views": 227,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "version_record_ids": [
+      22791464,
+      23068494,
+      23137216,
+      23365517,
+      23811384
+    ]
+  },
+  {
+    "repository": "sci-render-kit",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791375",
+    "version_count": 5,
+    "latest_record_id": 23811397,
+    "latest_version": "v2026.10-30-evidence-snapshot",
+    "family_stats": {
+      "views": 304,
+      "unique_views": 223,
+      "downloads": 2,
+      "unique_downloads": 2
+    },
+    "summed_version_stats": {
+      "version_views": 304,
+      "version_unique_views": 223,
+      "version_downloads": 2,
+      "version_unique_downloads": 2
+    },
+    "version_record_ids": [
+      22791376,
+      23068472,
+      23137219,
+      23365525,
+      23811397
+    ]
+  },
+  {
+    "repository": "china-agentic-observatory",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791309",
+    "version_count": 5,
+    "latest_record_id": 23811388,
+    "latest_version": "v2026.10-30-evidence-snapshot",
+    "family_stats": {
+      "views": 322,
+      "unique_views": 230,
+      "downloads": 1,
+      "unique_downloads": 1
+    },
+    "summed_version_stats": {
+      "version_views": 322,
+      "version_unique_views": 230,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "version_record_ids": [
+      22791310,
+      23068347,
+      23137211,
+      23365548,
+      23811388
+    ]
+  },
+  {
+    "repository": "agentic-frontier-observatory",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791334",
+    "version_count": 5,
+    "latest_record_id": 23811387,
+    "latest_version": "v2026.10-30-evidence-snapshot",
+    "family_stats": {
+      "views": 335,
+      "unique_views": 246,
+      "downloads": 2,
+      "unique_downloads": 2
+    },
+    "summed_version_stats": {
+      "version_views": 335,
+      "version_unique_views": 246,
+      "version_downloads": 2,
+      "version_unique_downloads": 2
+    },
+    "version_record_ids": [
+      22791335,
+      23068352,
+      23137214,
+      23365543,
+      23811387
+    ]
+  },
+  {
+    "repository": "research-software-identity-audit",
+    "fixed_corpus": false,
+    "concept_doi": "10.5281/zenodo.23166490",
+    "version_count": 4,
+    "latest_record_id": 23446162,
+    "latest_version": "v2026.10-evidence-integrity",
+    "family_stats": {
+      "views": 151,
+      "unique_views": 142,
+      "downloads": 5,
+      "unique_downloads": 5
+    },
+    "summed_version_stats": {
+      "version_views": 151,
+      "version_unique_views": 142,
+      "version_downloads": 5,
+      "version_unique_downloads": 5
+    },
+    "version_record_ids": [
+      23166491,
+      23176748,
+      23284570,
+      23446162
+    ]
+  },
+  {
+    "repository": "life-science-ecosystem-lab",
+    "fixed_corpus": false,
+    "concept_doi": "10.5281/zenodo.23447088",
+    "version_count": 1,
+    "latest_record_id": 23447089,
+    "latest_version": "v0.4.0",
+    "family_stats": {
+      "views": 12,
+      "unique_views": 9,
+      "downloads": 5,
+      "unique_downloads": 3
+    },
+    "summed_version_stats": {
+      "version_views": 12,
+      "version_unique_views": 9,
+      "version_downloads": 5,
+      "version_unique_downloads": 3
+    },
+    "version_record_ids": [
+      23447089
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+object_id,repository,scope,record_id,doi,concept_doi,version_count,views,unique_views,downloads,unique_downloads,version_views,version_unique_views,version_downloads,version_unique_downloads
+RS01,welcome-to-github,fixed_corpus,23811380,10.5281/zenodo.23811380,10.5281/zenodo.22790907,5,354,263,6,5,4,3,0,0
+RS02,zero-entropy-lab,fixed_corpus,23811394,10.5281/zenodo.23811394,10.5281/zenodo.22791081,5,314,221,1,1,4,3,0,0
+RS03,Axiom-0,fixed_corpus,23811393,10.5281/zenodo.23811393,10.5281/zenodo.22791103,5,354,260,1,1,1,1,0,0
+RS04,reflective-continuum,fixed_corpus,23811392,10.5281/zenodo.23811392,10.5281/zenodo.22791141,5,275,188,1,1,1,1,0,0
+RS05,agent-foundations,fixed_corpus,23811389,10.5281/zenodo.23811389,10.5281/zenodo.22791169,5,319,230,2,2,2,2,0,0
+RS06,auto-doc-engine,fixed_corpus,23811383,10.5281/zenodo.23811383,10.5281/zenodo.22791404,5,305,217,0,0,1,1,0,0
+RS07,epistemic-pipeline,fixed_corpus,23811384,10.5281/zenodo.23811384,10.5281/zenodo.22791463,5,316,227,1,1,1,1,0,0
+RS08,sci-render-kit,fixed_corpus,23811397,10.5281/zenodo.23811397,10.5281/zenodo.22791375,5,303,222,2,2,1,1,0,0
+RS09,china-agentic-observatory,fixed_corpus,23811388,10.5281/zenodo.23811388,10.5281/zenodo.22791309,5,322,230,1,1,4,4,0,0
+RS10,agentic-frontier-observatory,fixed_corpus,23811387,10.5281/zenodo.23811387,10.5281/zenodo.22791334,5,335,246,2,2,3,3,0,0
+,research-software-identity-audit,supplementary,23446162,10.5281/zenodo.23446162,10.5281/zenodo.23166490,4,151,142,5,5,29,29,2,2
+,life-science-ecosystem-lab,supplementary,23447089,10.5281/zenodo.23447089,10.5281/zenodo.23447088,1,12,9,5,3,12,9,5,3

@@ -1,0 +1,957 @@
+{
+  "source_kind": "selected public fields derived from retained independent HTTP captures",
+  "compiled_at_utc": "2026-10-31T05:59:24.956281+00:00",
+  "original_http_payloads_published": false,
+  "local_capture_sources": [
+    {
+      "role": "AllVersionRecords.json",
+      "sha256": "68cd33ee2435627ab87469fb2814b09f161fca6f1ef93c2a24d676e57f347e04",
+      "bytes": 107167
+    },
+    {
+      "role": "FamilySummary.json",
+      "sha256": "38e00fdc5fd434d300b47f057047a2e44fbe98a36b3599b9e17e0bbd3a41fcfe",
+      "bytes": 7900
+    },
+    {
+      "role": "RequestLog.json",
+      "sha256": "91876304036c99ee30018770a4835b4ebe6e2040c34909a20e4bec2794f3ba81",
+      "bytes": 63019
+    },
+    {
+      "role": "Verification.json",
+      "sha256": "59dfd011166958b4b81d3a17aef95e364e4afab4ae20cdfa4963ec5ac3f4a569",
+      "bytes": 623
+    }
+  ],
+  "response_digests": [
+    {
+      "request_key": "family_welcome-to-github",
+      "url": "https://zenodo.org/api/records/22790907",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:22.929537+00:00",
+      "finished_at": "2026-10-31T05:41:26.935104+00:00",
+      "response_sha256": "2188e7b24ec09aaf4969b20fde058c337fa67e720ad3f46e4a97c2dbb3c24233",
+      "response_bytes": 4299
+    },
+    {
+      "request_key": "family_zero-entropy-lab",
+      "url": "https://zenodo.org/api/records/22791081",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:22.929537+00:00",
+      "finished_at": "2026-10-31T05:41:25.667400+00:00",
+      "response_sha256": "26e1e714e531927f7030124c47df6092245bbc66ae1d465189c00097970327c8",
+      "response_bytes": 4274
+    },
+    {
+      "request_key": "family_Axiom-0",
+      "url": "https://zenodo.org/api/records/22791103",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:22.931041+00:00",
+      "finished_at": "2026-10-31T05:41:26.636123+00:00",
+      "response_sha256": "c55df93ec71e4dbf17eb6ebd89659bc1bfc6f7d68f2d9f171d4beba82afe7098",
+      "response_bytes": 4224
+    },
+    {
+      "request_key": "family_reflective-continuum",
+      "url": "https://zenodo.org/api/records/22791141",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:22.931727+00:00",
+      "finished_at": "2026-10-31T05:41:25.438268+00:00",
+      "response_sha256": "42f03a6e90867d236f332e7f340490ca896fc4bfc2e82f52c171fce33df3790a",
+      "response_bytes": 4297
+    },
+    {
+      "request_key": "family_agent-foundations",
+      "url": "https://zenodo.org/api/records/22791169",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:25.438268+00:00",
+      "finished_at": "2026-10-31T05:41:27.699016+00:00",
+      "response_sha256": "344d0025ee949fb8b1d7db0dc6cc0b701fa5db0ed252201a6b30bcf4bdebcb9d",
+      "response_bytes": 4278
+    },
+    {
+      "request_key": "family_auto-doc-engine",
+      "url": "https://zenodo.org/api/records/22791404",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:25.667400+00:00",
+      "finished_at": "2026-10-31T05:41:28.327312+00:00",
+      "response_sha256": "4e2419b603db3ca8f0a776eb8d6a5f539482e6b21f01f48a7662ef9210fbd9bf",
+      "response_bytes": 4313
+    },
+    {
+      "request_key": "family_epistemic-pipeline",
+      "url": "https://zenodo.org/api/records/22791463",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:26.636123+00:00",
+      "finished_at": "2026-10-31T05:41:29.298562+00:00",
+      "response_sha256": "713692418b6eec61bca42d2ac4b2848d52e44d36989e7486fce31928fd0fc2c7",
+      "response_bytes": 4319
+    },
+    {
+      "request_key": "family_sci-render-kit",
+      "url": "https://zenodo.org/api/records/22791375",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:26.935104+00:00",
+      "finished_at": "2026-10-31T05:41:29.172444+00:00",
+      "response_sha256": "ebd8ef1853f5206e2990ff9df4e7b021211906a241027b890db62ff8cf99114f",
+      "response_bytes": 4315
+    },
+    {
+      "request_key": "family_china-agentic-observatory",
+      "url": "https://zenodo.org/api/records/22791309",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:27.699016+00:00",
+      "finished_at": "2026-10-31T05:41:29.976244+00:00",
+      "response_sha256": "83e5906b2783aa659e78c4fd098c43c017fe888c78ee8643f573cb2427e5cfb5",
+      "response_bytes": 4349
+    },
+    {
+      "request_key": "family_agentic-frontier-observatory",
+      "url": "https://zenodo.org/api/records/22791334",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:28.327312+00:00",
+      "finished_at": "2026-10-31T05:41:30.480231+00:00",
+      "response_sha256": "fe957204769608b3aa4807a40415b2168de5ca2a0e68b980ebfc0b5563fd9f9b",
+      "response_bytes": 4396
+    },
+    {
+      "request_key": "family_research-software-identity-audit",
+      "url": "https://zenodo.org/api/records/23166490",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:29.172444+00:00",
+      "finished_at": "2026-10-31T05:41:31.398340+00:00",
+      "response_sha256": "8921e96f7ba6dfa9412ee505675e7ee24a8c917c081fe298a454d415d9d8d151",
+      "response_bytes": 4513
+    },
+    {
+      "request_key": "family_life-science-ecosystem-lab",
+      "url": "https://zenodo.org/api/records/23447088",
+      "status": 200,
+      "started_at": "2026-10-31T05:41:29.299411+00:00",
+      "finished_at": "2026-10-31T05:41:31.509987+00:00",
+      "response_sha256": "77062375fb75b469e5a98dc3f23b3e5241060acbc52a4cc467a12d625d3db91d",
+      "response_bytes": 13427
+    },
+    {
+      "request_key": "versions_welcome-to-github_1",
+      "url": "https://zenodo.org/api/records/23811380/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:32.060097+00:00",
+      "finished_at": "2026-10-31T05:41:33.084765+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_zero-entropy-lab_1",
+      "url": "https://zenodo.org/api/records/23811394/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:32.062052+00:00",
+      "finished_at": "2026-10-31T05:41:33.084374+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_Axiom-0_1",
+      "url": "https://zenodo.org/api/records/23811393/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:32.063117+00:00",
+      "finished_at": "2026-10-31T05:41:33.126785+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_reflective-continuum_1",
+      "url": "https://zenodo.org/api/records/23811392/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:32.063902+00:00",
+      "finished_at": "2026-10-31T05:41:33.917733+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_agent-foundations_1",
+      "url": "https://zenodo.org/api/records/23811389/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:33.084374+00:00",
+      "finished_at": "2026-10-31T05:41:34.071793+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_auto-doc-engine_1",
+      "url": "https://zenodo.org/api/records/23811383/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:33.084765+00:00",
+      "finished_at": "2026-10-31T05:41:34.077220+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_epistemic-pipeline_1",
+      "url": "https://zenodo.org/api/records/23811384/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:33.126785+00:00",
+      "finished_at": "2026-10-31T05:41:34.103065+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_sci-render-kit_1",
+      "url": "https://zenodo.org/api/records/23811397/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:33.917733+00:00",
+      "finished_at": "2026-10-31T05:41:34.880293+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_china-agentic-observatory_1",
+      "url": "https://zenodo.org/api/records/23811388/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:34.072750+00:00",
+      "finished_at": "2026-10-31T05:41:35.031321+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_agentic-frontier-observatory_1",
+      "url": "https://zenodo.org/api/records/23811387/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:34.077220+00:00",
+      "finished_at": "2026-10-31T05:41:35.042909+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_research-software-identity-audit_1",
+      "url": "https://zenodo.org/api/records/23446162/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:34.103065+00:00",
+      "finished_at": "2026-10-31T05:41:35.068194+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_life-science-ecosystem-lab_1",
+      "url": "https://zenodo.org/api/records/23447089/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:34.880293+00:00",
+      "finished_at": "2026-10-31T05:41:35.854709+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_welcome-to-github_1_retry1",
+      "url": "https://zenodo.org/api/records/23811380/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:35.856863+00:00",
+      "finished_at": "2026-10-31T05:41:36.853204+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_zero-entropy-lab_1_retry1",
+      "url": "https://zenodo.org/api/records/23811394/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:35.857426+00:00",
+      "finished_at": "2026-10-31T05:41:36.843418+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_Axiom-0_1_retry1",
+      "url": "https://zenodo.org/api/records/23811393/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:36.843418+00:00",
+      "finished_at": "2026-10-31T05:41:37.848400+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_reflective-continuum_1_retry1",
+      "url": "https://zenodo.org/api/records/23811392/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:36.853204+00:00",
+      "finished_at": "2026-10-31T05:41:37.811734+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_agent-foundations_1_retry1",
+      "url": "https://zenodo.org/api/records/23811389/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:37.811734+00:00",
+      "finished_at": "2026-10-31T05:41:38.831156+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_auto-doc-engine_1_retry1",
+      "url": "https://zenodo.org/api/records/23811383/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:37.848400+00:00",
+      "finished_at": "2026-10-31T05:41:38.997193+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_epistemic-pipeline_1_retry1",
+      "url": "https://zenodo.org/api/records/23811384/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:38.831156+00:00",
+      "finished_at": "2026-10-31T05:41:39.809842+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_sci-render-kit_1_retry1",
+      "url": "https://zenodo.org/api/records/23811397/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:38.997193+00:00",
+      "finished_at": "2026-10-31T05:41:39.954917+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_china-agentic-observatory_1_retry1",
+      "url": "https://zenodo.org/api/records/23811388/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:39.809842+00:00",
+      "finished_at": "2026-10-31T05:41:40.775075+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_agentic-frontier-observatory_1_retry1",
+      "url": "https://zenodo.org/api/records/23811387/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:39.954917+00:00",
+      "finished_at": "2026-10-31T05:41:40.932211+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_research-software-identity-audit_1_retry1",
+      "url": "https://zenodo.org/api/records/23446162/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:40.775075+00:00",
+      "finished_at": "2026-10-31T05:41:41.903983+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_life-science-ecosystem-lab_1_retry1",
+      "url": "https://zenodo.org/api/records/23447089/versions?allversions=true&size=100",
+      "status": 400,
+      "started_at": "2026-10-31T05:41:40.932211+00:00",
+      "finished_at": "2026-10-31T05:41:41.890473+00:00",
+      "response_sha256": "8105c5098c3b8051ed4e35cc510a7c4af8dcca8edb46986c9a37ba5469c6985c",
+      "response_bytes": 207
+    },
+    {
+      "request_key": "versions_welcome-to-github_1_resolved",
+      "url": "https://zenodo.org/api/records/23811380/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:03.414691+00:00",
+      "finished_at": "2026-10-31T05:42:04.672006+00:00",
+      "response_sha256": "2b248a175f956325e4acf50eb842b35ee655a54afaf5b975fdbc85bfa047c123",
+      "response_bytes": 22578
+    },
+    {
+      "request_key": "versions_zero-entropy-lab_1_resolved",
+      "url": "https://zenodo.org/api/records/23811394/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:03.415204+00:00",
+      "finished_at": "2026-10-31T05:42:04.767935+00:00",
+      "response_sha256": "b171a3c892908e9b4152fa03ecfc363325dbe04e0f16d48e5cce8ff510d5ba50",
+      "response_bytes": 22452
+    },
+    {
+      "request_key": "versions_Axiom-0_1_resolved",
+      "url": "https://zenodo.org/api/records/23811393/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:03.415204+00:00",
+      "finished_at": "2026-10-31T05:42:04.675906+00:00",
+      "response_sha256": "3ca83adacfab92a22f15dc09f0622f28b44839754db7cce08deb97e34a4ed7ad",
+      "response_bytes": 22171
+    },
+    {
+      "request_key": "versions_reflective-continuum_1_resolved",
+      "url": "https://zenodo.org/api/records/23811392/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:03.415775+00:00",
+      "finished_at": "2026-10-31T05:42:04.715289+00:00",
+      "response_sha256": "e68f2f43c951c336b736b9ed047bf70358768da409de0b07a995b851eb159080",
+      "response_bytes": 22579
+    },
+    {
+      "request_key": "versions_agent-foundations_1_resolved",
+      "url": "https://zenodo.org/api/records/23811389/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:04.672006+00:00",
+      "finished_at": "2026-10-31T05:42:06.385015+00:00",
+      "response_sha256": "86683b22922bde85082c79aee03a370e4f2b26bf29f467ec4ffaff35eaec700f",
+      "response_bytes": 22474
+    },
+    {
+      "request_key": "versions_auto-doc-engine_1_resolved",
+      "url": "https://zenodo.org/api/records/23811383/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:04.675906+00:00",
+      "finished_at": "2026-10-31T05:42:05.942689+00:00",
+      "response_sha256": "7e6f16cd3e7d6f8cef5bb197a8a150a4a8988799036ce2e1b5d450516a2955ba",
+      "response_bytes": 22644
+    },
+    {
+      "request_key": "versions_epistemic-pipeline_1_resolved",
+      "url": "https://zenodo.org/api/records/23811384/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:04.715289+00:00",
+      "finished_at": "2026-10-31T05:42:06.014225+00:00",
+      "response_sha256": "f5f76951affa5b743ada0777d3ac8f14203ebed3e0910b43bc92426977f24284",
+      "response_bytes": 22683
+    },
+    {
+      "request_key": "versions_sci-render-kit_1_resolved",
+      "url": "https://zenodo.org/api/records/23811397/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:04.767935+00:00",
+      "finished_at": "2026-10-31T05:42:06.057451+00:00",
+      "response_sha256": "4c83083f3c6b455137c44a95cdaf327f4ab8bf92e8e36e0574e7795eb6382114",
+      "response_bytes": 22651
+    },
+    {
+      "request_key": "versions_china-agentic-observatory_1_resolved",
+      "url": "https://zenodo.org/api/records/23811388/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:05.943263+00:00",
+      "finished_at": "2026-10-31T05:42:07.214104+00:00",
+      "response_sha256": "57d0fd2bcbedcc86ed867b8fc408dd1b5cfd09ed6e820f3b3846ad2a4470a906",
+      "response_bytes": 22850
+    },
+    {
+      "request_key": "versions_agentic-frontier-observatory_1_resolved",
+      "url": "https://zenodo.org/api/records/23811387/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:06.014225+00:00",
+      "finished_at": "2026-10-31T05:42:07.316612+00:00",
+      "response_sha256": "efad4f3241e0234dd3da7aa71631388f31492da4e47634f4f1953cebff61646c",
+      "response_bytes": 23094
+    },
+    {
+      "request_key": "versions_research-software-identity-audit_1_resolved",
+      "url": "https://zenodo.org/api/records/23446162/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:06.057451+00:00",
+      "finished_at": "2026-10-31T05:42:07.964467+00:00",
+      "response_sha256": "565ed72c7fc06691adfc8aff2a7aa78ad00515c79e520c589e508d608b0215f6",
+      "response_bytes": 20123
+    },
+    {
+      "request_key": "versions_life-science-ecosystem-lab_1_resolved",
+      "url": "https://zenodo.org/api/records/23447089/versions?allversions=true&size=25",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:06.385015+00:00",
+      "finished_at": "2026-10-31T05:42:07.595199+00:00",
+      "response_sha256": "d1df364f8d1643ded01139f49a39b2ace5b67f51540e37ee146dfafe38dd0d12",
+      "response_bytes": 13579
+    },
+    {
+      "request_key": "record_22790908",
+      "url": "https://zenodo.org/api/records/22790908",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:08.503198+00:00",
+      "finished_at": "2026-10-31T05:42:10.037093+00:00",
+      "response_sha256": "0667247d657736c0c8dc790628c0ea9cf65782bec24f2fa7c528c635ccd7145a",
+      "response_bytes": 4578
+    },
+    {
+      "request_key": "record_22791082",
+      "url": "https://zenodo.org/api/records/22791082",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:08.504261+00:00",
+      "finished_at": "2026-10-31T05:42:09.693171+00:00",
+      "response_sha256": "051965418ced9eb1da2f9e26d36ec5fbd3fe1f22d4d38927322a9d0c0c2bffbe",
+      "response_bytes": 4553
+    },
+    {
+      "request_key": "record_22791104",
+      "url": "https://zenodo.org/api/records/22791104",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:08.505352+00:00",
+      "finished_at": "2026-10-31T05:42:09.642027+00:00",
+      "response_sha256": "98a595e36dfc94ed3507d8d76bc6db55c896ca936cf1f168411ed665a618f8ac",
+      "response_bytes": 4493
+    },
+    {
+      "request_key": "record_22791142",
+      "url": "https://zenodo.org/api/records/22791142",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:08.505904+00:00",
+      "finished_at": "2026-10-31T05:42:09.674912+00:00",
+      "response_sha256": "bf9590ef52424f850d45d0b58c436081fb649bf781f5dc01be4fae17958114c8",
+      "response_bytes": 4580
+    },
+    {
+      "request_key": "record_22791170",
+      "url": "https://zenodo.org/api/records/22791170",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:09.642027+00:00",
+      "finished_at": "2026-10-31T05:42:11.009748+00:00",
+      "response_sha256": "376e034bc606c165948ed4b03ad5eba24db8e35c9e28126812be15b0a16a8371",
+      "response_bytes": 4557
+    },
+    {
+      "request_key": "record_22791310",
+      "url": "https://zenodo.org/api/records/22791310",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:09.674912+00:00",
+      "finished_at": "2026-10-31T05:42:10.795140+00:00",
+      "response_sha256": "08e4541eb9aa94dcf0d097347b0d6f945db2e2263debecfa03f18c754cf8f1b0",
+      "response_bytes": 4636
+    },
+    {
+      "request_key": "record_22791335",
+      "url": "https://zenodo.org/api/records/22791335",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:09.693171+00:00",
+      "finished_at": "2026-10-31T05:42:10.790989+00:00",
+      "response_sha256": "53037c05207568462fcdd0e9fab271055b6baa9826a19319962d123062f74438",
+      "response_bytes": 4686
+    },
+    {
+      "request_key": "record_22791376",
+      "url": "https://zenodo.org/api/records/22791376",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:10.037093+00:00",
+      "finished_at": "2026-10-31T05:42:11.231596+00:00",
+      "response_sha256": "b4bdaf29866a9ee87bdf453c25682ae4b48028f5ea845a2c615303762d410836",
+      "response_bytes": 4592
+    },
+    {
+      "request_key": "record_22791405",
+      "url": "https://zenodo.org/api/records/22791405",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:10.790989+00:00",
+      "finished_at": "2026-10-31T05:42:11.910742+00:00",
+      "response_sha256": "7b2c899b87b725f57d3d84944c78ea61eb2c3d61c857010f1fe596a1671b5dc7",
+      "response_bytes": 4591
+    },
+    {
+      "request_key": "record_22791464",
+      "url": "https://zenodo.org/api/records/22791464",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:10.795140+00:00",
+      "finished_at": "2026-10-31T05:42:12.185494+00:00",
+      "response_sha256": "c79722d88fe2eb6dba3f58e0d458da58c491cada20cf344647ee1305acfbd28e",
+      "response_bytes": 4600
+    },
+    {
+      "request_key": "record_23068144",
+      "url": "https://zenodo.org/api/records/23068144",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:11.009748+00:00",
+      "finished_at": "2026-10-31T05:42:12.131088+00:00",
+      "response_sha256": "2379b412056ed8ff383b0c25bbcb767139663034d1f4f5dc3948861df5808b5e",
+      "response_bytes": 4539
+    },
+    {
+      "request_key": "record_23068145",
+      "url": "https://zenodo.org/api/records/23068145",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:11.232119+00:00",
+      "finished_at": "2026-10-31T05:42:12.373493+00:00",
+      "response_sha256": "53e0f6d6919b6ec6c3b91bd270a287c5881cafd3264ede5825eb3b4ac3b4f0b7",
+      "response_bytes": 4564
+    },
+    {
+      "request_key": "record_23068260",
+      "url": "https://zenodo.org/api/records/23068260",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:11.910742+00:00",
+      "finished_at": "2026-10-31T05:42:13.141851+00:00",
+      "response_sha256": "c61232ddcb5d9ec78d1b8085f71d558c3823b5c7080f625c03e6d99de259cf63",
+      "response_bytes": 4566
+    },
+    {
+      "request_key": "record_23068261",
+      "url": "https://zenodo.org/api/records/23068261",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:12.131088+00:00",
+      "finished_at": "2026-10-31T05:42:13.234625+00:00",
+      "response_sha256": "e4f97483c538309b90b89e22fb795d88c05acea3d91634c29d87349f81612baa",
+      "response_bytes": 4479
+    },
+    {
+      "request_key": "record_23068262",
+      "url": "https://zenodo.org/api/records/23068262",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:12.186005+00:00",
+      "finished_at": "2026-10-31T05:42:13.449502+00:00",
+      "response_sha256": "58f3b9fe5d94cb572c93a978b1326503d3cdeb89c7be16e8c8ad2eb365c5bb96",
+      "response_bytes": 4544
+    },
+    {
+      "request_key": "record_23068347",
+      "url": "https://zenodo.org/api/records/23068347",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:12.373493+00:00",
+      "finished_at": "2026-10-31T05:42:13.891544+00:00",
+      "response_sha256": "dd8c9e4fe065f6cf84ce92e50e48a45a74a6a305edad2ac8f68a75e2c9da7024",
+      "response_bytes": 4622
+    },
+    {
+      "request_key": "record_23068352",
+      "url": "https://zenodo.org/api/records/23068352",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:13.141851+00:00",
+      "finished_at": "2026-10-31T05:42:14.290049+00:00",
+      "response_sha256": "ca66191ad3eab8d9ef2b249965282dec8313d288d6a013011d501fd44ad721c0",
+      "response_bytes": 4672
+    },
+    {
+      "request_key": "record_23068471",
+      "url": "https://zenodo.org/api/records/23068471",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:13.234625+00:00",
+      "finished_at": "2026-10-31T05:42:14.350941+00:00",
+      "response_sha256": "01a5c3e2fce95fce7b8ea205b073fda2eed33c9a14ba620c3260d5fbdfbd08e4",
+      "response_bytes": 4577
+    },
+    {
+      "request_key": "record_23068472",
+      "url": "https://zenodo.org/api/records/23068472",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:13.449502+00:00",
+      "finished_at": "2026-10-31T05:42:14.708740+00:00",
+      "response_sha256": "28855b167a7d29d20d4accd5e1c5bc91d6f1dd6763cc6ee812b550d328c6f1ee",
+      "response_bytes": 4578
+    },
+    {
+      "request_key": "record_23068494",
+      "url": "https://zenodo.org/api/records/23068494",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:13.891544+00:00",
+      "finished_at": "2026-10-31T05:42:15.059543+00:00",
+      "response_sha256": "eaeff388620b7be2b2b28d0931f01b769798a351b483c43b3a0b3e14acd96d46",
+      "response_bytes": 4586
+    },
+    {
+      "request_key": "record_23137203",
+      "url": "https://zenodo.org/api/records/23137203",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:14.291109+00:00",
+      "finished_at": "2026-10-31T05:42:15.440928+00:00",
+      "response_sha256": "bb5d8d659714d41bec51af3a14b0ba78bfb1d2ce4b0f74a0290b3b697d16f90a",
+      "response_bytes": 4625
+    },
+    {
+      "request_key": "record_23137204",
+      "url": "https://zenodo.org/api/records/23137204",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:14.350941+00:00",
+      "finished_at": "2026-10-31T05:42:15.539752+00:00",
+      "response_sha256": "82d25bf55b65aabe0bc787676fed5e41477528429fd06ead6491cf0a5f14af2e",
+      "response_bytes": 4599
+    },
+    {
+      "request_key": "record_23137205",
+      "url": "https://zenodo.org/api/records/23137205",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:14.708740+00:00",
+      "finished_at": "2026-10-31T05:42:15.807039+00:00",
+      "response_sha256": "d001494d8dfda1a067fb409c8939c874d88843ec750644e3e5c9357b0e4e078c",
+      "response_bytes": 4539
+    },
+    {
+      "request_key": "record_23137206",
+      "url": "https://zenodo.org/api/records/23137206",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:15.059543+00:00",
+      "finished_at": "2026-10-31T05:42:16.456392+00:00",
+      "response_sha256": "f8c70e3fd2d9648751cd3a19b4c105783a2ae1132cdf452f5c5022224d975ba0",
+      "response_bytes": 4626
+    },
+    {
+      "request_key": "record_23137207",
+      "url": "https://zenodo.org/api/records/23137207",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:15.441443+00:00",
+      "finished_at": "2026-10-31T05:42:17.020356+00:00",
+      "response_sha256": "604470c7d37cba4c26d598c6338f1e18a8e1597d18defeb20b52f50977fa78d1",
+      "response_bytes": 4604
+    },
+    {
+      "request_key": "record_23137211",
+      "url": "https://zenodo.org/api/records/23137211",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:15.539752+00:00",
+      "finished_at": "2026-10-31T05:42:16.624501+00:00",
+      "response_sha256": "50fcb79db7b649fda8a57641643982dcc8af17cfdbba2d98eba4690ac76051ea",
+      "response_bytes": 4682
+    },
+    {
+      "request_key": "record_23137214",
+      "url": "https://zenodo.org/api/records/23137214",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:15.807547+00:00",
+      "finished_at": "2026-10-31T05:42:16.888599+00:00",
+      "response_sha256": "5a838cfa43edc31a290085bb713c610d9d391e33440d1da61c20077e27d7c7e6",
+      "response_bytes": 4732
+    },
+    {
+      "request_key": "record_23137215",
+      "url": "https://zenodo.org/api/records/23137215",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:16.456392+00:00",
+      "finished_at": "2026-10-31T05:42:17.559317+00:00",
+      "response_sha256": "150acd5fb055d6a0acad588148e16e0d52cfcc47fca5f1f86316674e4fd6de4c",
+      "response_bytes": 4637
+    },
+    {
+      "request_key": "record_23137216",
+      "url": "https://zenodo.org/api/records/23137216",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:16.624501+00:00",
+      "finished_at": "2026-10-31T05:42:17.778746+00:00",
+      "response_sha256": "2b4d2183b2e9c4b04e4a0aca099334110ed5888a039e426f34d75369140c089c",
+      "response_bytes": 4646
+    },
+    {
+      "request_key": "record_23137219",
+      "url": "https://zenodo.org/api/records/23137219",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:16.888599+00:00",
+      "finished_at": "2026-10-31T05:42:18.072070+00:00",
+      "response_sha256": "d20e4dc8f59c2b95043a7d9987f9428d4b8c8c48f34768645c9e3260c43b8645",
+      "response_bytes": 4638
+    },
+    {
+      "request_key": "record_23166491",
+      "url": "https://zenodo.org/api/records/23166491",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:17.020356+00:00",
+      "finished_at": "2026-10-31T05:42:18.361963+00:00",
+      "response_sha256": "871c55c813f44c59872d6ce71c411e74268e072b5dd72a71970005c7d941c5bf",
+      "response_bytes": 6388
+    },
+    {
+      "request_key": "record_23176748",
+      "url": "https://zenodo.org/api/records/23176748",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:17.559824+00:00",
+      "finished_at": "2026-10-31T05:42:18.649428+00:00",
+      "response_sha256": "4189baaf3e20127b53b2dcac74f3efb8b1ca1a03253a14fe454bba9495633f88",
+      "response_bytes": 4530
+    },
+    {
+      "request_key": "record_23284570",
+      "url": "https://zenodo.org/api/records/23284570",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:17.778746+00:00",
+      "finished_at": "2026-10-31T05:42:19.300861+00:00",
+      "response_sha256": "d148717a2cd098961bfb760af6c8e698d519218735121cff51f0ad8cc9e2d71f",
+      "response_bytes": 4528
+    },
+    {
+      "request_key": "record_23365504",
+      "url": "https://zenodo.org/api/records/23365504",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:18.072070+00:00",
+      "finished_at": "2026-10-31T05:42:19.186354+00:00",
+      "response_sha256": "c1f30066691c3dfa52c9b898ae4b6fa412bcc657023767ee1eb6188ecf85ac5b",
+      "response_bytes": 4350
+    },
+    {
+      "request_key": "record_23365510",
+      "url": "https://zenodo.org/api/records/23365510",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:18.361963+00:00",
+      "finished_at": "2026-10-31T05:42:19.525904+00:00",
+      "response_sha256": "84a6cdca41df1ccc38bed149db40217d08d5e9f5b49311ce10d540757366890e",
+      "response_bytes": 4364
+    },
+    {
+      "request_key": "record_23365517",
+      "url": "https://zenodo.org/api/records/23365517",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:18.649428+00:00",
+      "finished_at": "2026-10-31T05:42:20.816416+00:00",
+      "response_sha256": "09b6eac5eb1856c03b829915ec8b14b4f1ce8b4279c1f6cca1a7c4ba05e63221",
+      "response_bytes": 4370
+    },
+    {
+      "request_key": "record_23365525",
+      "url": "https://zenodo.org/api/records/23365525",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:19.186354+00:00",
+      "finished_at": "2026-10-31T05:42:20.331993+00:00",
+      "response_sha256": "bb8a1b70d5960a41d89348dd9057747691d12b0378bb6e06d6ea27f290552838",
+      "response_bytes": 4366
+    },
+    {
+      "request_key": "record_23365534",
+      "url": "https://zenodo.org/api/records/23365534",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:19.300861+00:00",
+      "finished_at": "2026-10-31T05:42:20.427682+00:00",
+      "response_sha256": "6fdd8c8d4565220c0baebc5fa2c34030222ae85ce20e7c6cc1fd8377a2dcb15c",
+      "response_bytes": 4274
+    },
+    {
+      "request_key": "record_23365540",
+      "url": "https://zenodo.org/api/records/23365540",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:19.525904+00:00",
+      "finished_at": "2026-10-31T05:42:20.653637+00:00",
+      "response_sha256": "84baf3ba4164c63e55d6aaf4cd94aff1b032bfbc5fca182278c3ed83446805be",
+      "response_bytes": 4329
+    },
+    {
+      "request_key": "record_23365543",
+      "url": "https://zenodo.org/api/records/23365543",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:20.331993+00:00",
+      "finished_at": "2026-10-31T05:42:21.544916+00:00",
+      "response_sha256": "0d69d64e1d84d083afd4ad838712e9e38cf090b6fcd2f5564c5bf913c468ed77",
+      "response_bytes": 4446
+    },
+    {
+      "request_key": "record_23365548",
+      "url": "https://zenodo.org/api/records/23365548",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:20.427682+00:00",
+      "finished_at": "2026-10-31T05:42:21.596105+00:00",
+      "response_sha256": "ef89ab0d3884784b0ec046e9612604ac13e21323b66e56db05c9ff03c583e9ef",
+      "response_bytes": 4399
+    },
+    {
+      "request_key": "record_23365551",
+      "url": "https://zenodo.org/api/records/23365551",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:20.653637+00:00",
+      "finished_at": "2026-10-31T05:42:21.744047+00:00",
+      "response_sha256": "c482e2dbae6b0934d654935d074ce6d9d1ac266e6a10e40bcf9066f3d31152ba",
+      "response_bytes": 4325
+    },
+    {
+      "request_key": "record_23365567",
+      "url": "https://zenodo.org/api/records/23365567",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:20.816416+00:00",
+      "finished_at": "2026-10-31T05:42:21.947930+00:00",
+      "response_sha256": "2890748cd3db3022098058d687ec977e3d90e39c038f521f22b4e5b44f8a2b23",
+      "response_bytes": 4348
+    },
+    {
+      "request_key": "record_23446162",
+      "url": "https://zenodo.org/api/records/23446162",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:21.544916+00:00",
+      "finished_at": "2026-10-31T05:42:22.927758+00:00",
+      "response_sha256": "8921e96f7ba6dfa9412ee505675e7ee24a8c917c081fe298a454d415d9d8d151",
+      "response_bytes": 4513
+    },
+    {
+      "request_key": "record_23447089",
+      "url": "https://zenodo.org/api/records/23447089",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:21.596105+00:00",
+      "finished_at": "2026-10-31T05:42:22.889861+00:00",
+      "response_sha256": "77062375fb75b469e5a98dc3f23b3e5241060acbc52a4cc467a12d625d3db91d",
+      "response_bytes": 13427
+    },
+    {
+      "request_key": "record_23811380",
+      "url": "https://zenodo.org/api/records/23811380",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:21.744711+00:00",
+      "finished_at": "2026-10-31T05:42:23.179909+00:00",
+      "response_sha256": "2188e7b24ec09aaf4969b20fde058c337fa67e720ad3f46e4a97c2dbb3c24233",
+      "response_bytes": 4299
+    },
+    {
+      "request_key": "record_23811383",
+      "url": "https://zenodo.org/api/records/23811383",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:21.947930+00:00",
+      "finished_at": "2026-10-31T05:42:23.179909+00:00",
+      "response_sha256": "4e2419b603db3ca8f0a776eb8d6a5f539482e6b21f01f48a7662ef9210fbd9bf",
+      "response_bytes": 4313
+    },
+    {
+      "request_key": "record_23811384",
+      "url": "https://zenodo.org/api/records/23811384",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:22.889861+00:00",
+      "finished_at": "2026-10-31T05:42:24.215478+00:00",
+      "response_sha256": "713692418b6eec61bca42d2ac4b2848d52e44d36989e7486fce31928fd0fc2c7",
+      "response_bytes": 4319
+    },
+    {
+      "request_key": "record_23811387",
+      "url": "https://zenodo.org/api/records/23811387",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:22.927758+00:00",
+      "finished_at": "2026-10-31T05:42:24.082300+00:00",
+      "response_sha256": "fe957204769608b3aa4807a40415b2168de5ca2a0e68b980ebfc0b5563fd9f9b",
+      "response_bytes": 4396
+    },
+    {
+      "request_key": "record_23811388",
+      "url": "https://zenodo.org/api/records/23811388",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:23.179909+00:00",
+      "finished_at": "2026-10-31T05:42:24.259561+00:00",
+      "response_sha256": "83e5906b2783aa659e78c4fd098c43c017fe888c78ee8643f573cb2427e5cfb5",
+      "response_bytes": 4349
+    },
+    {
+      "request_key": "record_23811389",
+      "url": "https://zenodo.org/api/records/23811389",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:23.179909+00:00",
+      "finished_at": "2026-10-31T05:42:24.848787+00:00",
+      "response_sha256": "344d0025ee949fb8b1d7db0dc6cc0b701fa5db0ed252201a6b30bcf4bdebcb9d",
+      "response_bytes": 4278
+    },
+    {
+      "request_key": "record_23811392",
+      "url": "https://zenodo.org/api/records/23811392",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:24.082300+00:00",
+      "finished_at": "2026-10-31T05:42:25.621266+00:00",
+      "response_sha256": "42f03a6e90867d236f332e7f340490ca896fc4bfc2e82f52c171fce33df3790a",
+      "response_bytes": 4297
+    },
+    {
+      "request_key": "record_23811393",
+      "url": "https://zenodo.org/api/records/23811393",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:24.215478+00:00",
+      "finished_at": "2026-10-31T05:42:25.357899+00:00",
+      "response_sha256": "c55df93ec71e4dbf17eb6ebd89659bc1bfc6f7d68f2d9f171d4beba82afe7098",
+      "response_bytes": 4224
+    },
+    {
+      "request_key": "record_23811394",
+      "url": "https://zenodo.org/api/records/23811394",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:24.259561+00:00",
+      "finished_at": "2026-10-31T05:42:26.138306+00:00",
+      "response_sha256": "26e1e714e531927f7030124c47df6092245bbc66ae1d465189c00097970327c8",
+      "response_bytes": 4274
+    },
+    {
+      "request_key": "record_23811397",
+      "url": "https://zenodo.org/api/records/23811397",
+      "status": 200,
+      "started_at": "2026-10-31T05:42:24.848787+00:00",
+      "finished_at": "2026-10-31T05:42:25.956932+00:00",
+      "response_sha256": "ebd8ef1853f5206e2990ff9df4e7b021211906a241027b890db62ff8cf99114f",
+      "response_bytes": 4315
+    }
+  ],
+  "original_payload_note": "The digests identify local retained originals; no claim that the public selected projection reproduces full origin bytes"
+}
