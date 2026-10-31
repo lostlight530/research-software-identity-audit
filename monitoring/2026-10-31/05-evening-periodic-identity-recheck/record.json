@@ -1,0 +1,97 @@
+{
+  "record_class": "diagnostic_periodic_infrastructure_recheck_selected_provider_fields",
+  "logical_date": "2026-10-31",
+  "logical_timezone": "Asia/Shanghai",
+  "recheck_compiled_utc": "2026-10-31T15:16:37.239Z",
+  "baseline_control_main_sha": "220ebe2513166e503f743f09e7f9f80de01e77cb",
+  "previous_periodic_reference": "docs/research-control-lifecycle-closeout-through-2026-10-31.md",
+  "source_batches": {
+    "github_core_heads_and_releases_client_utc": "2026-10-31T15:08:06.117Z/2026-10-31T15:08:25.013Z",
+    "github_ten_compare_client_utc": "2026-10-31T15:14:05.072Z/2026-10-31T15:14:06.791Z",
+    "public_34_access_client_utc": "2026-10-31T15:09:44.408Z/2026-10-31T15:10:21.760Z",
+    "zenodo_datacite_10_version_client_utc": "2026-10-31T15:10:31.523Z/2026-10-31T15:10:32.771Z",
+    "software_heritage_10_visit_client_utc": "2026-10-31T15:10:50.388Z/2026-10-31T15:11:24.847Z",
+    "openeraire_10_doi_client_utc": "2026-10-31T15:11:32.563Z/2026-10-31T15:11:35.746Z",
+    "openalex_10_doi_client_utc": "2026-10-31T15:11:53.566Z/2026-10-31T15:11:58.854Z",
+    "osf_schema_3_urls_client_utc": "2026-10-31T15:12:49.942Z/2026-10-31T15:12:58.601Z"
+  },
+  "independent_source_extract_receipts": {
+    "surfaces": [
+      "extract_42047f1992f59663fcfb4ab6b3ace3c7",
+      "extract_20654e1840f4d00604bb55e7af772338"
+    ],
+    "zenodo": "extract_48d294a8ac1245ff6d6d29d238b9e3e5",
+    "datacite": "extract_dd543c52ee9eba89553e08bdd479b229",
+    "swh": "extract_0497439d307a558ea6ec328388870d79",
+    "openeraire": "extract_d8c8b843a9d3725ac9d8847f4197b7ec",
+    "openalex": "extract_c501edcc3b17840ab1fc692bf471b8ff",
+    "osf": "extract_7895d701eff4df3b63b526c9d2d549e1"
+  },
+  "github_source_results": {
+    "fixed_object_head_changed": 10,
+    "fixed_object_new_main_reachable_commits": 109,
+    "fixed_object_changed_file_paths_two_endpoint_diff": 44,
+    "fixed_object_release_counts": 50,
+    "control_release_counts": 4,
+    "core_open_pr_count": 0,
+    "control_head_unchanged": true,
+    "date_of_latest_fixed_release": "2026-10-30",
+    "no_new_published_release_observed": true
+  },
+  "public_34_surface_access": {
+    "surface_rows": 34,
+    "github_structured_current": 2,
+    "extracted_today_utc_day_only": 2,
+    "extracted_older": 24,
+    "access_failures": 6,
+    "matched_prior_access_classes": 34,
+    "source_outcomes_not_imputed": true
+  },
+  "scholarly_identifiers": {
+    "zenodo_10_record_ids_extracted_day_only": 10,
+    "datacite_10_exact_version_dois_extracted_day_only": 10,
+    "swh_latest_visit_endpoint_with_full_status": 10,
+    "swh_latest_visit_is_not_current_main_proof": true,
+    "openeraire_10_doi_query_attempts": 10,
+    "openeraire_hit_census_verified": false,
+    "openalex_10_doi_query_attempts": 10,
+    "openalex_exact_version_work_identity_verified": false,
+    "orcid_structured_recent_recount": false,
+    "current_engagement_metrics_comparable": false,
+    "new_scholarly_version_doi_observed": false
+  },
+  "upstream": {
+    "rseng_software_pr_498": "OPEN_UNMERGED",
+    "rsd_issue_1870": "CLOSED",
+    "rsd_issue_1871": "OPEN",
+    "rsd_upstream_latest_known_release": "v6.7.5",
+    "rsd_production_reproduction_verified": false
+  },
+  "contract": {
+    "fixed_sample": 10,
+    "layers": 6,
+    "possible_object_layer_units_per_eligible_scheduled_timepoint": 60,
+    "operational_platforms": 7,
+    "potential_checks_not_analysis_units": 70,
+    "control_is_study_object": false,
+    "concrete_schedule_offsets_declared": false,
+    "osf_registration_modified": false,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0
+  },
+  "evidence_granularity": {
+    "github": "Connected GitHub structured REST API selected fields and exact SHA compares",
+    "public": "Third-party extractor excerpts with date-truncated acquired_at or explicit transport errors",
+    "original_http_bytes_stored": false,
+    "provider_raw_headers_stored": false,
+    "per_request_origin_clock_stored": false,
+    "source_extract_receipts_not_origin_hashes": true
+  },
+  "verdict": "GITHUB_MAIN_MATERIAL_DELTA__NO_NEW_SCHOLARLY_RELEASE__EXTERNAL_PARTIAL_UNKNOWN",
+  "artifact_references": [
+    "github-main-deltas.csv",
+    "surface-access-recheck.csv",
+    "core-platform-identity-recheck.csv",
+    "README.md"
+  ]
+}
