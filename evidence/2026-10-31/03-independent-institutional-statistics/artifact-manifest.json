@@ -1,0 +1,70 @@
+{
+  "scope": "published selected UTF-8 LF projection bytes; excludes this manifest and mutable global navigation",
+  "files": [
+    {
+      "path": "evidence/2026-10-31/03-independent-institutional-statistics/doi-inventory-change.json",
+      "bytes": 2038,
+      "sha256": "de5266aff0cbef44a3f0da4245dc85066ffedac075448db3c692e5f5f699f201"
+    },
+    {
+      "path": "evidence/2026-10-31/03-independent-institutional-statistics/institutional-fields.json",
+      "bytes": 44521,
+      "sha256": "5d8af86d01b507050464bf34237b64f47abd882a2cec14050a51c35fa834d44b"
+    },
+    {
+      "path": "evidence/2026-10-31/03-independent-institutional-statistics/openaire-cross-type-inventory.json",
+      "bytes": 53638,
+      "sha256": "ba4eca664f96b8ce51980cc1b0f4950031df95f8917dd7d6b613b31c68cab62a"
+    },
+    {
+      "path": "evidence/2026-10-31/03-independent-institutional-statistics/README.md",
+      "bytes": 848,
+      "sha256": "215a91dede872f1688ad490d9575e4fedf4769b190535811e289ffde1de958a9"
+    },
+    {
+      "path": "evidence/2026-10-31/03-independent-institutional-statistics/source-provenance.json",
+      "bytes": 191652,
+      "sha256": "3dfa753a19bb61f16cbbb581becd890a3c34958658ed305d223b6a9b824270e4"
+    },
+    {
+      "path": "monitoring/2026-10-31/03-independent-institutional-statistics/datacite-identifiers.csv",
+      "bytes": 5997,
+      "sha256": "f17d09b4bf72fb9a2463cc196e5b146e9f5e7f1f72aabc5e7f2d7516f5b36d51"
+    },
+    {
+      "path": "monitoring/2026-10-31/03-independent-institutional-statistics/doi-resolution-statistics.csv",
+      "bytes": 7730,
+      "sha256": "5c5abfb5cdb23cb130d4dfea78b4e9a425611b7c9e0a08d998c959c680c40bf5"
+    },
+    {
+      "path": "monitoring/2026-10-31/03-independent-institutional-statistics/platform-results.csv",
+      "bytes": 12114,
+      "sha256": "c119ff576efe3a094300a0a6acda0de63f382a29df75372832f910e7f8a73abc"
+    },
+    {
+      "path": "monitoring/2026-10-31/03-independent-institutional-statistics/README.md",
+      "bytes": 3283,
+      "sha256": "ff9ba958923d37265245f59dda6e185bbcb991e6ad5a90114adee10620e62fbc"
+    },
+    {
+      "path": "monitoring/2026-10-31/03-independent-institutional-statistics/record.json",
+      "bytes": 1966,
+      "sha256": "f0e3862fd612a3e6ba2e5e7edc9b825dc9f0b748ab2e578eba9578170f241711"
+    },
+    {
+      "path": "monitoring/2026-10-31/03-independent-institutional-statistics/source-attempts.csv",
+      "bytes": 130476,
+      "sha256": "770c8c408a0583557638f6a0bb33584a756d154f5d1c4304bcb75fe96b709a91"
+    },
+    {
+      "path": "monitoring/2026-10-31/03-independent-institutional-statistics/workflowhub-detail-statistics.csv",
+      "bytes": 603,
+      "sha256": "1cbfc6c3f8424ede7776b5d20254546cae8d2991452ca83ebe4bf54cec4f9ad3"
+    },
+    {
+      "path": "monitoring/2026-10-31/03-independent-institutional-statistics/zenodo-family-statistics.csv",
+      "bytes": 1596,
+      "sha256": "617809d46ea1090f695e1f0ba651ced3f34313238c672f8600989ba791f09bc8"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "baseline": "ThirtyFourEntryVerification20261030T2300",
+  "current": "ThirtyFourEntryVerification20261031T1100",
+  "added": [
+    {
+      "doi": "10.17605/osf.io/wa5v8",
+      "type": "Text",
+      "titles": [
+        {
+          "title": "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures"
+        }
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23811397",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "sci-render-kit"
+        }
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23811394",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "Zero-Entropy Lab"
+        }
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23811393",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "Axiom-0"
+        }
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23811392",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "Reflective Continuum"
+        }
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23811389",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "Agent Foundations"
+        }
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23811388",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "China Agentic Observatory"
+        }
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23811387",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "Agentic Frontier Observatory"
+        }
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23811384",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "Epistemic Pipeline"
+        }
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23811383",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "auto-doc-engine"
+        }
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23811380",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "welcome-to-github"
+        }
+      ]
+    }
+  ],
+  "removed": []
+}

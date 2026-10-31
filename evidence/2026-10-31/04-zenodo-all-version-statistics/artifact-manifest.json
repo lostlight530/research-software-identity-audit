@@ -1,0 +1,60 @@
+{
+  "scope": "published selected UTF-8 LF projection bytes; excludes this manifest and mutable global navigation",
+  "files": [
+    {
+      "path": "evidence/2026-10-31/04-zenodo-all-version-statistics/all-version-fields.json",
+      "bytes": 103972,
+      "sha256": "d5ba355b8d2355eb33c7fab72fabd6d64a14404952eb70026dae76c5f0aa9546"
+    },
+    {
+      "path": "evidence/2026-10-31/04-zenodo-all-version-statistics/all-version-statistics.csv",
+      "bytes": 7643,
+      "sha256": "46f26dff163f61b301821131f512b565b50f17f6ebcd5755d13b05277a648542"
+    },
+    {
+      "path": "evidence/2026-10-31/04-zenodo-all-version-statistics/family-summary.json",
+      "bytes": 7581,
+      "sha256": "518e8a047f160da18cd9bcd2d25ae55886e419182c4bce36731d8455dec355b6"
+    },
+    {
+      "path": "evidence/2026-10-31/04-zenodo-all-version-statistics/family-version-reconciliation.json",
+      "bytes": 6577,
+      "sha256": "ea9ad842f5112d0e29dbfb5800d1fe86d3925478bd0a33202562a247e24ee89e"
+    },
+    {
+      "path": "evidence/2026-10-31/04-zenodo-all-version-statistics/README.md",
+      "bytes": 740,
+      "sha256": "ddbd3448fbc3d4cd0be07d61400e7f5cbdb7e0ab6ffb2c921b172d6fcf06a3a5"
+    },
+    {
+      "path": "evidence/2026-10-31/04-zenodo-all-version-statistics/same-record-deltas.csv",
+      "bytes": 3452,
+      "sha256": "dec386de8818bdc1c6448c4c1d1a442d676da2b22c5a15997d2962392febe646"
+    },
+    {
+      "path": "evidence/2026-10-31/04-zenodo-all-version-statistics/source-provenance.json",
+      "bytes": 40747,
+      "sha256": "722a6ebbc8020e958d6725219e0228873f679aa3ac585173c72a6f25f1c66ea1"
+    },
+    {
+      "path": "evidence/2026-10-31/04-zenodo-all-version-statistics/version-wave-statistics.csv",
+      "bytes": 481,
+      "sha256": "043ba0c4c3d2a88c027811c8728876dd3eb29c80983acf30ad26b9e6a46e8a1b"
+    },
+    {
+      "path": "monitoring/2026-10-31/04-zenodo-all-version-statistics/README.md",
+      "bytes": 3107,
+      "sha256": "3857e34292d01241c7b599dda21e2aa35fc957aaac54fa93cfb35a8edc1dfe4f"
+    },
+    {
+      "path": "monitoring/2026-10-31/04-zenodo-all-version-statistics/record.json",
+      "bytes": 1918,
+      "sha256": "8beab70ed68582cd96d1d48dcbef873b1cb46041d3cfdda1166d0b4aeeba0ffb"
+    },
+    {
+      "path": "monitoring/2026-10-31/04-zenodo-all-version-statistics/source-attempts.csv",
+      "bytes": 26005,
+      "sha256": "b00467eaaa981fd48e1deee80d456e22a765e2555ddc1ad1628111b87b57fc18"
+    }
+  ]
+}

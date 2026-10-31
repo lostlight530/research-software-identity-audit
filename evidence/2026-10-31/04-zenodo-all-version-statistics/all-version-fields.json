@@ -1,0 +1,3197 @@
+[
+  {
+    "repository": "welcome-to-github",
+    "fixed_corpus": true,
+    "record_id": 23811380,
+    "doi": "10.5281/zenodo.23811380",
+    "concept_doi": "10.5281/zenodo.22790907",
+    "version": "v2026.10-30-evidence-snapshot",
+    "version_index": 4,
+    "is_latest": true,
+    "publication_date": "2026-10-30",
+    "created": "2026-10-30T15:44:17.423924+00:00",
+    "modified": "2026-10-30T15:44:17.686587+00:00",
+    "stats": {
+      "views": 355,
+      "unique_views": 264,
+      "downloads": 6,
+      "unique_downloads": 5,
+      "version_views": 4,
+      "version_unique_views": 3,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/welcome-to-github-v2026.10-30-evidence-snapshot.zip",
+        "bytes": 22397677,
+        "checksum": "md5:785d193016fc3d0449deaff397d4ee1c",
+        "url": "https://zenodo.org/api/records/23811380/files/lostlight530/welcome-to-github-v2026.10-30-evidence-snapshot.zip/content"
+      }
+    ],
+    "file_bytes": 22397677,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/welcome-to-github/tree/v2026.10-30-evidence-snapshot",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research infrastructure",
+      "knowledge lifecycle",
+      "provenance",
+      "reproducibility",
+      "edge ai",
+      "digital museum"
+    ],
+    "source_request_key": "record_23811380"
+  },
+  {
+    "repository": "welcome-to-github",
+    "fixed_corpus": true,
+    "record_id": 23365504,
+    "doi": "10.5281/zenodo.23365504",
+    "concept_doi": "10.5281/zenodo.22790907",
+    "version": "v2026.10-fourteen-day-evidence-checkpoint",
+    "version_index": 3,
+    "is_latest": false,
+    "publication_date": "2026-10-14",
+    "created": "2026-10-14T11:14:51.797757+00:00",
+    "modified": "2026-10-14T11:14:52.063829+00:00",
+    "stats": {
+      "views": 355,
+      "unique_views": 264,
+      "downloads": 6,
+      "unique_downloads": 5,
+      "version_views": 18,
+      "version_unique_views": 16,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/welcome-to-github-v2026.10-fourteen-day-evidence-checkpoint.zip",
+        "bytes": 14948462,
+        "checksum": "md5:33a12cadfa471bcfad61d8064b7c1040",
+        "url": "https://zenodo.org/api/records/23365504/files/lostlight530/welcome-to-github-v2026.10-fourteen-day-evidence-checkpoint.zip/content"
+      }
+    ],
+    "file_bytes": 14948462,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/welcome-to-github/tree/v2026.10-fourteen-day-evidence-checkpoint",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research infrastructure",
+      "knowledge lifecycle",
+      "provenance",
+      "reproducibility",
+      "edge ai",
+      "digital museum"
+    ],
+    "source_request_key": "record_23365504"
+  },
+  {
+    "repository": "welcome-to-github",
+    "fixed_corpus": true,
+    "record_id": 23137203,
+    "doi": "10.5281/zenodo.23137203",
+    "concept_doi": "10.5281/zenodo.22790907",
+    "version": "v2026.10-open-research-production-framework",
+    "version_index": 2,
+    "is_latest": false,
+    "publication_date": "2026-10-04",
+    "created": "2026-10-04T13:00:17.968806+00:00",
+    "modified": "2026-10-04T13:00:18.215520+00:00",
+    "stats": {
+      "views": 355,
+      "unique_views": 264,
+      "downloads": 6,
+      "unique_downloads": 5,
+      "version_views": 36,
+      "version_unique_views": 35,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/welcome-to-github-v2026.10-open-research-production-framework.zip",
+        "bytes": 11095238,
+        "checksum": "md5:d2283b879c6d25563e63ddeb1ed6be1f",
+        "url": "https://zenodo.org/api/records/23137203/files/lostlight530/welcome-to-github-v2026.10-open-research-production-framework.zip/content"
+      }
+    ],
+    "file_bytes": 11095238,
+    "swh": {
+      "swhid": "swh:1:dir:3ad8a323c86b6841db6938380f3b550a13e1169d;origin=https://doi.org/10.5281/zenodo.22790907;visit=swh:1:snp:0314ddbcd108e9f5255881f0c687e1904b188041;anchor=swh:1:rel:f98f0a58ef60ddf059916809f3646f57bcaffc14;path=lostlight530-welcome-to-github-ff35be4"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/welcome-to-github/tree/v2026.10-open-research-production-framework",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research infrastructure",
+      "knowledge lifecycle",
+      "provenance",
+      "reproducibility",
+      "edge ai",
+      "digital museum"
+    ],
+    "source_request_key": "record_23137203"
+  },
+  {
+    "repository": "welcome-to-github",
+    "fixed_corpus": true,
+    "record_id": 23068145,
+    "doi": "10.5281/zenodo.23068145",
+    "concept_doi": "10.5281/zenodo.22790907",
+    "version": "v2026.09-natural-month-close",
+    "version_index": 1,
+    "is_latest": false,
+    "publication_date": "2026-09-30",
+    "created": "2026-09-30T18:38:38.322467+00:00",
+    "modified": "2026-09-30T18:38:38.591825+00:00",
+    "stats": {
+      "views": 355,
+      "unique_views": 264,
+      "downloads": 6,
+      "unique_downloads": 5,
+      "version_views": 30,
+      "version_unique_views": 29,
+      "version_downloads": 2,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 1,
+      "version_unique_views": 1,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/welcome-to-github-v2026.09-natural-month-close.zip",
+        "bytes": 9965101,
+        "checksum": "md5:e369e617b69e76be4cce5714f40b0212",
+        "url": "https://zenodo.org/api/records/23068145/files/lostlight530/welcome-to-github-v2026.09-natural-month-close.zip/content"
+      }
+    ],
+    "file_bytes": 9965101,
+    "swh": {
+      "swhid": "swh:1:dir:df5751a9f9057660d099fac96beb7d1494f711e3;origin=https://doi.org/10.5281/zenodo.22790907;visit=swh:1:snp:843b12e3b58e323336831de865c3f5c2b904d7bb;anchor=swh:1:rel:1b2f879d68405f77497fe658201c9feac3451b7f;path=lostlight530-welcome-to-github-26edd82"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/welcome-to-github/tree/v2026.09-natural-month-close",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research infrastructure",
+      "knowledge lifecycle",
+      "provenance",
+      "reproducibility",
+      "edge ai",
+      "digital museum"
+    ],
+    "source_request_key": "record_23068145"
+  },
+  {
+    "repository": "welcome-to-github",
+    "fixed_corpus": true,
+    "record_id": 22790908,
+    "doi": "10.5281/zenodo.22790908",
+    "concept_doi": "10.5281/zenodo.22790907",
+    "version": "v2026.09-open-research-baseline",
+    "version_index": 0,
+    "is_latest": false,
+    "publication_date": "2026-09-16",
+    "created": "2026-09-16T08:26:53.599398+00:00",
+    "modified": "2026-09-16T08:26:53.810288+00:00",
+    "stats": {
+      "views": 355,
+      "unique_views": 264,
+      "downloads": 6,
+      "unique_downloads": 5,
+      "version_views": 267,
+      "version_unique_views": 181,
+      "version_downloads": 2,
+      "version_unique_downloads": 2
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/welcome-to-github-v2026.09-open-research-baseline.zip",
+        "bytes": 6899429,
+        "checksum": "md5:088f4c23da0133b6e26bdbc4d7d7ba6c",
+        "url": "https://zenodo.org/api/records/22790908/files/lostlight530/welcome-to-github-v2026.09-open-research-baseline.zip/content"
+      }
+    ],
+    "file_bytes": 6899429,
+    "swh": {
+      "swhid": "swh:1:dir:fbedd994794c1a17bc3b2df8e179761ec9b1523b;origin=https://doi.org/10.5281/zenodo.22790907;visit=swh:1:snp:340d8c9f868a5909fc6f47774791f7f80861a399;anchor=swh:1:rel:ff20a922ebdfcb32a38b9910437b0f8bcf3ae609;path=lostlight530-welcome-to-github-5525c51"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/welcome-to-github/tree/v2026.09-open-research-baseline",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research infrastructure",
+      "knowledge lifecycle",
+      "provenance",
+      "reproducibility",
+      "edge ai",
+      "digital museum"
+    ],
+    "source_request_key": "record_22790908"
+  },
+  {
+    "repository": "zero-entropy-lab",
+    "fixed_corpus": true,
+    "record_id": 23811394,
+    "doi": "10.5281/zenodo.23811394",
+    "concept_doi": "10.5281/zenodo.22791081",
+    "version": "v2026.10-30-evidence-snapshot",
+    "version_index": 4,
+    "is_latest": true,
+    "publication_date": "2026-10-30",
+    "created": "2026-10-30T15:44:44.926912+00:00",
+    "modified": "2026-10-30T15:44:45.244898+00:00",
+    "stats": {
+      "views": 314,
+      "unique_views": 221,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 4,
+      "version_unique_views": 3,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/zero-entropy-lab-v2026.10-30-evidence-snapshot.zip",
+        "bytes": 15282321,
+        "checksum": "md5:ccf8cfb614cac39342b1d12ff21e12a0",
+        "url": "https://zenodo.org/api/records/23811394/files/lostlight530/zero-entropy-lab-v2026.10-30-evidence-snapshot.zip/content"
+      }
+    ],
+    "file_bytes": 15282321,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/zero-entropy-lab/tree/v2026.10-30-evidence-snapshot",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "deterministic state",
+      "evidence",
+      "reproducibility",
+      "sqlite",
+      "edge ai"
+    ],
+    "source_request_key": "record_23811394"
+  },
+  {
+    "repository": "zero-entropy-lab",
+    "fixed_corpus": true,
+    "record_id": 23365551,
+    "doi": "10.5281/zenodo.23365551",
+    "concept_doi": "10.5281/zenodo.22791081",
+    "version": "v2026.10-fourteen-day-evidence-checkpoint",
+    "version_index": 3,
+    "is_latest": false,
+    "publication_date": "2026-10-14",
+    "created": "2026-10-14T11:16:16.511380+00:00",
+    "modified": "2026-10-14T11:16:16.919107+00:00",
+    "stats": {
+      "views": 314,
+      "unique_views": 221,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 18,
+      "version_unique_views": 18,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/zero-entropy-lab-v2026.10-fourteen-day-evidence-checkpoint.zip",
+        "bytes": 13952693,
+        "checksum": "md5:63471d0f1e6560940db4a6338ee1ea7c",
+        "url": "https://zenodo.org/api/records/23365551/files/lostlight530/zero-entropy-lab-v2026.10-fourteen-day-evidence-checkpoint.zip/content"
+      }
+    ],
+    "file_bytes": 13952693,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/zero-entropy-lab/tree/v2026.10-fourteen-day-evidence-checkpoint",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "deterministic state",
+      "evidence",
+      "reproducibility",
+      "sqlite",
+      "edge ai"
+    ],
+    "source_request_key": "record_23365551"
+  },
+  {
+    "repository": "zero-entropy-lab",
+    "fixed_corpus": true,
+    "record_id": 23137204,
+    "doi": "10.5281/zenodo.23137204",
+    "concept_doi": "10.5281/zenodo.22791081",
+    "version": "v2026.10-open-research-production-framework",
+    "version_index": 2,
+    "is_latest": false,
+    "publication_date": "2026-10-04",
+    "created": "2026-10-04T13:00:20.820720+00:00",
+    "modified": "2026-10-04T13:00:21.045352+00:00",
+    "stats": {
+      "views": 314,
+      "unique_views": 221,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 21,
+      "version_unique_views": 16,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/zero-entropy-lab-v2026.10-open-research-production-framework.zip",
+        "bytes": 12728661,
+        "checksum": "md5:c37e31b66de62e49abec7062675a95ff",
+        "url": "https://zenodo.org/api/records/23137204/files/lostlight530/zero-entropy-lab-v2026.10-open-research-production-framework.zip/content"
+      }
+    ],
+    "file_bytes": 12728661,
+    "swh": {
+      "swhid": "swh:1:dir:b0d6cf7fde2dd5ee24ad2bce52e833b5522be4b3;origin=https://doi.org/10.5281/zenodo.22791081;visit=swh:1:snp:a1a2686d7fdd32c2b7e79127cf50ef5b9f7057f6;anchor=swh:1:rel:72a2c38656b3691474d1ec7300b0aa5d2a442ef9;path=lostlight530-zero-entropy-lab-8624138"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/zero-entropy-lab/tree/v2026.10-open-research-production-framework",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "deterministic state",
+      "evidence",
+      "reproducibility",
+      "sqlite",
+      "edge ai"
+    ],
+    "source_request_key": "record_23137204"
+  },
+  {
+    "repository": "zero-entropy-lab",
+    "fixed_corpus": true,
+    "record_id": 23068144,
+    "doi": "10.5281/zenodo.23068144",
+    "concept_doi": "10.5281/zenodo.22791081",
+    "version": "v2026.09-natural-month-close",
+    "version_index": 1,
+    "is_latest": false,
+    "publication_date": "2026-09-30",
+    "created": "2026-09-30T18:38:31.982668+00:00",
+    "modified": "2026-09-30T18:38:32.188189+00:00",
+    "stats": {
+      "views": 314,
+      "unique_views": 221,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 25,
+      "version_unique_views": 24,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/zero-entropy-lab-v2026.09-natural-month-close.zip",
+        "bytes": 12314255,
+        "checksum": "md5:6213edb848e2e6c78c9f1f39002455eb",
+        "url": "https://zenodo.org/api/records/23068144/files/lostlight530/zero-entropy-lab-v2026.09-natural-month-close.zip/content"
+      }
+    ],
+    "file_bytes": 12314255,
+    "swh": {
+      "swhid": "swh:1:dir:46b7f45d0a989f75375fb0d5e76c06beb665190a;origin=https://doi.org/10.5281/zenodo.22791081;visit=swh:1:snp:3f35efe9bcc45d5df598abe4249a303f6aa05648;anchor=swh:1:rel:69747b2c70726bd4857b7d8f927028a8806ffb10;path=lostlight530-zero-entropy-lab-7dfd715"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/zero-entropy-lab/tree/v2026.09-natural-month-close",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "deterministic state",
+      "evidence",
+      "reproducibility",
+      "sqlite",
+      "edge ai"
+    ],
+    "source_request_key": "record_23068144"
+  },
+  {
+    "repository": "zero-entropy-lab",
+    "fixed_corpus": true,
+    "record_id": 22791082,
+    "doi": "10.5281/zenodo.22791082",
+    "concept_doi": "10.5281/zenodo.22791081",
+    "version": "v2026.09-open-research-baseline",
+    "version_index": 0,
+    "is_latest": false,
+    "publication_date": "2026-09-16",
+    "created": "2026-09-16T08:33:54.635507+00:00",
+    "modified": "2026-09-16T08:33:54.963345+00:00",
+    "stats": {
+      "views": 314,
+      "unique_views": 221,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 246,
+      "version_unique_views": 160,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/zero-entropy-lab-v2026.09-open-research-baseline.zip",
+        "bytes": 11004332,
+        "checksum": "md5:b8302a3f1bcb008841988b3af1f616db",
+        "url": "https://zenodo.org/api/records/22791082/files/lostlight530/zero-entropy-lab-v2026.09-open-research-baseline.zip/content"
+      }
+    ],
+    "file_bytes": 11004332,
+    "swh": {
+      "swhid": "swh:1:dir:7633e4c0745aa7de705db217c38c1bfdac11eb6d;origin=https://doi.org/10.5281/zenodo.22791081;visit=swh:1:snp:b35fe937aadd56e7f8b9b4c6dd539ff34a20e0ae;anchor=swh:1:rel:4ccc5694504f870431fab930df69eff022757d2e;path=lostlight530-zero-entropy-lab-0853a2c"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/zero-entropy-lab/tree/v2026.09-open-research-baseline",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "deterministic state",
+      "evidence",
+      "reproducibility",
+      "sqlite",
+      "edge ai"
+    ],
+    "source_request_key": "record_22791082"
+  },
+  {
+    "repository": "Axiom-0",
+    "fixed_corpus": true,
+    "record_id": 23811393,
+    "doi": "10.5281/zenodo.23811393",
+    "concept_doi": "10.5281/zenodo.22791103",
+    "version": "v2026.10-30-evidence-snapshot",
+    "version_index": 4,
+    "is_latest": true,
+    "publication_date": "2026-10-30",
+    "created": "2026-10-30T15:44:40.042215+00:00",
+    "modified": "2026-10-30T15:44:40.394170+00:00",
+    "stats": {
+      "views": 354,
+      "unique_views": 260,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 1,
+      "version_unique_views": 1,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/Axiom-0-v2026.10-30-evidence-snapshot.zip",
+        "bytes": 1165865,
+        "checksum": "md5:2bd62a1c37d50fbbfe047805a9b851ff",
+        "url": "https://zenodo.org/api/records/23811393/files/lostlight530/Axiom-0-v2026.10-30-evidence-snapshot.zip/content"
+      }
+    ],
+    "file_bytes": 1165865,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/Axiom-0/tree/v2026.10-30-evidence-snapshot",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "data contracts",
+      "canonical json",
+      "state transitions",
+      "reproducibility",
+      "validation"
+    ],
+    "source_request_key": "record_23811393"
+  },
+  {
+    "repository": "Axiom-0",
+    "fixed_corpus": true,
+    "record_id": 23365534,
+    "doi": "10.5281/zenodo.23365534",
+    "concept_doi": "10.5281/zenodo.22791103",
+    "version": "v2026.10-fourteen-day-evidence-checkpoint",
+    "version_index": 3,
+    "is_latest": false,
+    "publication_date": "2026-10-14",
+    "created": "2026-10-14T11:15:39.819034+00:00",
+    "modified": "2026-10-14T11:15:40.213739+00:00",
+    "stats": {
+      "views": 354,
+      "unique_views": 260,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 20,
+      "version_unique_views": 20,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/Axiom-0-v2026.10-fourteen-day-evidence-checkpoint.zip",
+        "bytes": 957735,
+        "checksum": "md5:4c36b13a6e8c6bc207066d299514ba3c",
+        "url": "https://zenodo.org/api/records/23365534/files/lostlight530/Axiom-0-v2026.10-fourteen-day-evidence-checkpoint.zip/content"
+      }
+    ],
+    "file_bytes": 957735,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/Axiom-0/tree/v2026.10-fourteen-day-evidence-checkpoint",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "data contracts",
+      "canonical json",
+      "state transitions",
+      "reproducibility",
+      "validation"
+    ],
+    "source_request_key": "record_23365534"
+  },
+  {
+    "repository": "Axiom-0",
+    "fixed_corpus": true,
+    "record_id": 23137205,
+    "doi": "10.5281/zenodo.23137205",
+    "concept_doi": "10.5281/zenodo.22791103",
+    "version": "v2026.10-open-research-production-framework",
+    "version_index": 2,
+    "is_latest": false,
+    "publication_date": "2026-10-04",
+    "created": "2026-10-04T13:00:22.053791+00:00",
+    "modified": "2026-10-04T13:00:22.279579+00:00",
+    "stats": {
+      "views": 354,
+      "unique_views": 260,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 17,
+      "version_unique_views": 16,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/Axiom-0-v2026.10-open-research-production-framework.zip",
+        "bytes": 896794,
+        "checksum": "md5:c8d389bca1267da645e4421f37c9fe28",
+        "url": "https://zenodo.org/api/records/23137205/files/lostlight530/Axiom-0-v2026.10-open-research-production-framework.zip/content"
+      }
+    ],
+    "file_bytes": 896794,
+    "swh": {
+      "swhid": "swh:1:dir:37515356b20b8773208155ec2761c8355c04de62;origin=https://doi.org/10.5281/zenodo.22791103;visit=swh:1:snp:b8961687bd21f4213579b574961e611d48cdfde1;anchor=swh:1:rel:5d1af9d9eec26c1bb425fae625a2c46e90636fc1;path=lostlight530-Axiom-0-3fb9fb1"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/Axiom-0/tree/v2026.10-open-research-production-framework",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "data contracts",
+      "canonical json",
+      "state transitions",
+      "reproducibility",
+      "validation"
+    ],
+    "source_request_key": "record_23137205"
+  },
+  {
+    "repository": "Axiom-0",
+    "fixed_corpus": true,
+    "record_id": 23068261,
+    "doi": "10.5281/zenodo.23068261",
+    "concept_doi": "10.5281/zenodo.22791103",
+    "version": "v2026.09-natural-month-close",
+    "version_index": 1,
+    "is_latest": false,
+    "publication_date": "2026-09-30",
+    "created": "2026-09-30T18:43:47.691412+00:00",
+    "modified": "2026-09-30T18:43:47.922550+00:00",
+    "stats": {
+      "views": 354,
+      "unique_views": 260,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 35,
+      "version_unique_views": 32,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/Axiom-0-v2026.09-natural-month-close.zip",
+        "bytes": 865443,
+        "checksum": "md5:158637684ea9153f77cf65259c98a687",
+        "url": "https://zenodo.org/api/records/23068261/files/lostlight530/Axiom-0-v2026.09-natural-month-close.zip/content"
+      }
+    ],
+    "file_bytes": 865443,
+    "swh": {
+      "swhid": "swh:1:dir:0fb6d95313015fc33492b513de86f1dd491f630e;origin=https://doi.org/10.5281/zenodo.22791103;visit=swh:1:snp:8f6407fa56587d0f78a1634595332175a11915cb;anchor=swh:1:rel:f44a06453919e1c58323beb432047e4973c9a9b6;path=lostlight530-Axiom-0-66a8335"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/Axiom-0/tree/v2026.09-natural-month-close",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "data contracts",
+      "canonical json",
+      "state transitions",
+      "reproducibility",
+      "validation"
+    ],
+    "source_request_key": "record_23068261"
+  },
+  {
+    "repository": "Axiom-0",
+    "fixed_corpus": true,
+    "record_id": 22791104,
+    "doi": "10.5281/zenodo.22791104",
+    "concept_doi": "10.5281/zenodo.22791103",
+    "version": "v2026.09-open-research-baseline",
+    "version_index": 0,
+    "is_latest": false,
+    "publication_date": "2026-09-16",
+    "created": "2026-09-16T08:35:14.081702+00:00",
+    "modified": "2026-09-16T08:35:14.345482+00:00",
+    "stats": {
+      "views": 354,
+      "unique_views": 260,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 281,
+      "version_unique_views": 191,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/Axiom-0-v2026.09-open-research-baseline.zip",
+        "bytes": 687498,
+        "checksum": "md5:ec47c5f02ca9fdb1401feddce688b175",
+        "url": "https://zenodo.org/api/records/22791104/files/lostlight530/Axiom-0-v2026.09-open-research-baseline.zip/content"
+      }
+    ],
+    "file_bytes": 687498,
+    "swh": {
+      "swhid": "swh:1:dir:c2bbf2390e129ac37bbc1d4be140b3285ae6b318;origin=https://doi.org/10.5281/zenodo.22791103;visit=swh:1:snp:ace3d85db57447f990db46af80329b24dce5de7a;anchor=swh:1:rel:c4c1dd5fcee8b583aaf1f8e91962f0f282463dbc;path=lostlight530-Axiom-0-f61f4ba"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/Axiom-0/tree/v2026.09-open-research-baseline",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "data contracts",
+      "canonical json",
+      "state transitions",
+      "reproducibility",
+      "validation"
+    ],
+    "source_request_key": "record_22791104"
+  },
+  {
+    "repository": "reflective-continuum",
+    "fixed_corpus": true,
+    "record_id": 23811392,
+    "doi": "10.5281/zenodo.23811392",
+    "concept_doi": "10.5281/zenodo.22791141",
+    "version": "v2026.10-30-evidence-snapshot",
+    "version_index": 4,
+    "is_latest": true,
+    "publication_date": "2026-10-30",
+    "created": "2026-10-30T15:44:34.096226+00:00",
+    "modified": "2026-10-30T15:44:34.379146+00:00",
+    "stats": {
+      "views": 276,
+      "unique_views": 189,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 1,
+      "version_unique_views": 1,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/reflective-continuum-v2026.10-30-evidence-snapshot.zip",
+        "bytes": 937237,
+        "checksum": "md5:6ca6af20da37953e4705c579a4092dcb",
+        "url": "https://zenodo.org/api/records/23811392/files/lostlight530/reflective-continuum-v2026.10-30-evidence-snapshot.zip/content"
+      }
+    ],
+    "file_bytes": 937237,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/reflective-continuum/tree/v2026.10-30-evidence-snapshot",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "graph storage",
+      "sqlite",
+      "lexical retrieval",
+      "pagerank",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23811392"
+  },
+  {
+    "repository": "reflective-continuum",
+    "fixed_corpus": true,
+    "record_id": 23365567,
+    "doi": "10.5281/zenodo.23365567",
+    "concept_doi": "10.5281/zenodo.22791141",
+    "version": "v2026.10-fourteen-day-evidence-checkpoint",
+    "version_index": 3,
+    "is_latest": false,
+    "publication_date": "2026-10-14",
+    "created": "2026-10-14T11:16:38.137803+00:00",
+    "modified": "2026-10-14T11:16:38.330567+00:00",
+    "stats": {
+      "views": 276,
+      "unique_views": 189,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 13,
+      "version_unique_views": 13,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/reflective-continuum-v2026.10-fourteen-day-evidence-checkpoint.zip",
+        "bytes": 706471,
+        "checksum": "md5:b216647789ce23ef2feeb7dc506af3a9",
+        "url": "https://zenodo.org/api/records/23365567/files/lostlight530/reflective-continuum-v2026.10-fourteen-day-evidence-checkpoint.zip/content"
+      }
+    ],
+    "file_bytes": 706471,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/reflective-continuum/tree/v2026.10-fourteen-day-evidence-checkpoint",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "graph storage",
+      "sqlite",
+      "lexical retrieval",
+      "pagerank",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23365567"
+  },
+  {
+    "repository": "reflective-continuum",
+    "fixed_corpus": true,
+    "record_id": 23137206,
+    "doi": "10.5281/zenodo.23137206",
+    "concept_doi": "10.5281/zenodo.22791141",
+    "version": "v2026.10-open-research-production-framework",
+    "version_index": 2,
+    "is_latest": false,
+    "publication_date": "2026-10-04",
+    "created": "2026-10-04T13:00:25.221226+00:00",
+    "modified": "2026-10-04T13:00:25.688625+00:00",
+    "stats": {
+      "views": 276,
+      "unique_views": 189,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 16,
+      "version_unique_views": 15,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/reflective-continuum-v2026.10-open-research-production-framework.zip",
+        "bytes": 645244,
+        "checksum": "md5:5473247d7d47712ad47e30318750d383",
+        "url": "https://zenodo.org/api/records/23137206/files/lostlight530/reflective-continuum-v2026.10-open-research-production-framework.zip/content"
+      }
+    ],
+    "file_bytes": 645244,
+    "swh": {
+      "swhid": "swh:1:dir:972e8f68490a529239cd47f3a2b3402db44b97b7;origin=https://doi.org/10.5281/zenodo.22791141;visit=swh:1:snp:9799248ceee141135b979f71533f984f6de6de03;anchor=swh:1:rel:e6dad44a514d2a0e689e49ed172a6e6d03d53f4e;path=lostlight530-reflective-continuum-a0c7dbe"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/reflective-continuum/tree/v2026.10-open-research-production-framework",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "graph storage",
+      "sqlite",
+      "lexical retrieval",
+      "pagerank",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23137206"
+  },
+  {
+    "repository": "reflective-continuum",
+    "fixed_corpus": true,
+    "record_id": 23068260,
+    "doi": "10.5281/zenodo.23068260",
+    "concept_doi": "10.5281/zenodo.22791141",
+    "version": "v2026.09-natural-month-close",
+    "version_index": 1,
+    "is_latest": false,
+    "publication_date": "2026-09-30",
+    "created": "2026-09-30T18:43:42.112858+00:00",
+    "modified": "2026-09-30T18:43:42.307280+00:00",
+    "stats": {
+      "views": 276,
+      "unique_views": 189,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 15,
+      "version_unique_views": 15,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/reflective-continuum-v2026.09-natural-month-close.zip",
+        "bytes": 613160,
+        "checksum": "md5:4803f1efcb8432a517a0a7ea1b5d3f67",
+        "url": "https://zenodo.org/api/records/23068260/files/lostlight530/reflective-continuum-v2026.09-natural-month-close.zip/content"
+      }
+    ],
+    "file_bytes": 613160,
+    "swh": {
+      "swhid": "swh:1:dir:cef277f871cd2844cde5b2d1278684ac13ea9885;origin=https://doi.org/10.5281/zenodo.22791141;visit=swh:1:snp:2e87f2e44f69e76fae3129ba1a30ab17d18f588e;anchor=swh:1:rel:7daf1828437e81b4025a2cce813e1c1cd22e2078;path=lostlight530-reflective-continuum-7a6cfff"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/reflective-continuum/tree/v2026.09-natural-month-close",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "graph storage",
+      "sqlite",
+      "lexical retrieval",
+      "pagerank",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23068260"
+  },
+  {
+    "repository": "reflective-continuum",
+    "fixed_corpus": true,
+    "record_id": 22791142,
+    "doi": "10.5281/zenodo.22791142",
+    "concept_doi": "10.5281/zenodo.22791141",
+    "version": "v2026.09-open-research-baseline",
+    "version_index": 0,
+    "is_latest": false,
+    "publication_date": "2026-09-16",
+    "created": "2026-09-16T08:36:48.087953+00:00",
+    "modified": "2026-09-16T08:36:48.240261+00:00",
+    "stats": {
+      "views": 276,
+      "unique_views": 189,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 231,
+      "version_unique_views": 145,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 1,
+      "version_unique_views": 1,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/reflective-continuum-v2026.09-open-research-baseline.zip",
+        "bytes": 410858,
+        "checksum": "md5:ea694a183c1f9746556becfb8147d406",
+        "url": "https://zenodo.org/api/records/22791142/files/lostlight530/reflective-continuum-v2026.09-open-research-baseline.zip/content"
+      }
+    ],
+    "file_bytes": 410858,
+    "swh": {
+      "swhid": "swh:1:dir:c893c47eb3a2e00d9e5c247a06114ccfed5beed2;origin=https://doi.org/10.5281/zenodo.22791141;visit=swh:1:snp:b5d30db1e0dd7aa1c90722b40eb1f88b3e6b034f;anchor=swh:1:rel:68e8ce76507f240aee2fdf9c8ac6a78d45288e00;path=lostlight530-reflective-continuum-40cfb94"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/reflective-continuum/tree/v2026.09-open-research-baseline",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "graph storage",
+      "sqlite",
+      "lexical retrieval",
+      "pagerank",
+      "reproducibility"
+    ],
+    "source_request_key": "record_22791142"
+  },
+  {
+    "repository": "agent-foundations",
+    "fixed_corpus": true,
+    "record_id": 23811389,
+    "doi": "10.5281/zenodo.23811389",
+    "concept_doi": "10.5281/zenodo.22791169",
+    "version": "v2026.10-30-evidence-snapshot",
+    "version_index": 4,
+    "is_latest": true,
+    "publication_date": "2026-10-30",
+    "created": "2026-10-30T15:44:30.873169+00:00",
+    "modified": "2026-10-30T15:44:31.203621+00:00",
+    "stats": {
+      "views": 319,
+      "unique_views": 230,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 2,
+      "version_unique_views": 2,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/agent-foundations-v2026.10-30-evidence-snapshot.zip",
+        "bytes": 1450975,
+        "checksum": "md5:6220745544e00550347a621207a6f297",
+        "url": "https://zenodo.org/api/records/23811389/files/lostlight530/agent-foundations-v2026.10-30-evidence-snapshot.zip/content"
+      }
+    ],
+    "file_bytes": 1450975,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/agent-foundations/tree/v2026.10-30-evidence-snapshot",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "agent systems",
+      "research infrastructure",
+      "evidence",
+      "architecture decisions",
+      "provenance",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23811389"
+  },
+  {
+    "repository": "agent-foundations",
+    "fixed_corpus": true,
+    "record_id": 23365540,
+    "doi": "10.5281/zenodo.23365540",
+    "concept_doi": "10.5281/zenodo.22791169",
+    "version": "v2026.10-fourteen-day-evidence-checkpoint",
+    "version_index": 3,
+    "is_latest": false,
+    "publication_date": "2026-10-14",
+    "created": "2026-10-14T11:15:46.459117+00:00",
+    "modified": "2026-10-14T11:15:46.670908+00:00",
+    "stats": {
+      "views": 319,
+      "unique_views": 230,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 19,
+      "version_unique_views": 19,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/agent-foundations-v2026.10-fourteen-day-evidence-checkpoint.zip",
+        "bytes": 1206000,
+        "checksum": "md5:86c25ddebfe36e113dc34d4b5770e8c5",
+        "url": "https://zenodo.org/api/records/23365540/files/lostlight530/agent-foundations-v2026.10-fourteen-day-evidence-checkpoint.zip/content"
+      }
+    ],
+    "file_bytes": 1206000,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/agent-foundations/tree/v2026.10-fourteen-day-evidence-checkpoint",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "agent systems",
+      "research infrastructure",
+      "evidence",
+      "architecture decisions",
+      "provenance",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23365540"
+  },
+  {
+    "repository": "agent-foundations",
+    "fixed_corpus": true,
+    "record_id": 23137207,
+    "doi": "10.5281/zenodo.23137207",
+    "concept_doi": "10.5281/zenodo.22791169",
+    "version": "v2026.10-open-research-production-framework",
+    "version_index": 2,
+    "is_latest": false,
+    "publication_date": "2026-10-04",
+    "created": "2026-10-04T13:00:27.746064+00:00",
+    "modified": "2026-10-04T13:00:27.957040+00:00",
+    "stats": {
+      "views": 319,
+      "unique_views": 230,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 13,
+      "version_unique_views": 13,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/agent-foundations-v2026.10-open-research-production-framework.zip",
+        "bytes": 1140108,
+        "checksum": "md5:e1249d15935e916f5f990ee0df4febbd",
+        "url": "https://zenodo.org/api/records/23137207/files/lostlight530/agent-foundations-v2026.10-open-research-production-framework.zip/content"
+      }
+    ],
+    "file_bytes": 1140108,
+    "swh": {
+      "swhid": "swh:1:dir:e75d029ae4c3af53cd038e9be84dd68c72ae438c;origin=https://doi.org/10.5281/zenodo.22791169;visit=swh:1:snp:c70b9b3100318ef93ecd927b062d82a728bbe22d;anchor=swh:1:rel:06b4659ba0c1baf5d34604840e2a58dde0d7389d;path=lostlight530-agent-foundations-e3a3f85"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/agent-foundations/tree/v2026.10-open-research-production-framework",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "agent systems",
+      "research infrastructure",
+      "evidence",
+      "architecture decisions",
+      "provenance",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23137207"
+  },
+  {
+    "repository": "agent-foundations",
+    "fixed_corpus": true,
+    "record_id": 23068262,
+    "doi": "10.5281/zenodo.23068262",
+    "concept_doi": "10.5281/zenodo.22791169",
+    "version": "v2026.09-natural-month-close",
+    "version_index": 1,
+    "is_latest": false,
+    "publication_date": "2026-09-30",
+    "created": "2026-09-30T18:43:51.610743+00:00",
+    "modified": "2026-09-30T18:43:51.813211+00:00",
+    "stats": {
+      "views": 319,
+      "unique_views": 230,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 50,
+      "version_unique_views": 45,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/agent-foundations-v2026.09-natural-month-close.zip",
+        "bytes": 1109455,
+        "checksum": "md5:4f3cfff94006ecdc13e0cfc761215a77",
+        "url": "https://zenodo.org/api/records/23068262/files/lostlight530/agent-foundations-v2026.09-natural-month-close.zip/content"
+      }
+    ],
+    "file_bytes": 1109455,
+    "swh": {
+      "swhid": "swh:1:dir:00cfd83bbebab2cc31bfb15a6a205a3f2b71aebf;origin=https://doi.org/10.5281/zenodo.22791169;visit=swh:1:snp:41887faee0f70aa8f7f865b8bf0e9098964c106f;anchor=swh:1:rel:c9b4648739dd4b4a7fd4068a3921bd8ec834480e;path=lostlight530-agent-foundations-08e06b6"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/agent-foundations/tree/v2026.09-natural-month-close",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "agent systems",
+      "research infrastructure",
+      "evidence",
+      "architecture decisions",
+      "provenance",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23068262"
+  },
+  {
+    "repository": "agent-foundations",
+    "fixed_corpus": true,
+    "record_id": 22791170,
+    "doi": "10.5281/zenodo.22791170",
+    "concept_doi": "10.5281/zenodo.22791169",
+    "version": "v2026.09-open-research-baseline",
+    "version_index": 0,
+    "is_latest": false,
+    "publication_date": "2026-09-16",
+    "created": "2026-09-16T08:38:50.166530+00:00",
+    "modified": "2026-09-16T08:38:50.354267+00:00",
+    "stats": {
+      "views": 319,
+      "unique_views": 230,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 235,
+      "version_unique_views": 151,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/agent-foundations-v2026.09-open-research-baseline.zip",
+        "bytes": 427773,
+        "checksum": "md5:fe260bad14421bf041fca0eb6f3a340d",
+        "url": "https://zenodo.org/api/records/22791170/files/lostlight530/agent-foundations-v2026.09-open-research-baseline.zip/content"
+      }
+    ],
+    "file_bytes": 427773,
+    "swh": {
+      "swhid": "swh:1:dir:40c04b58621ca2bb9dfd4f8fe0756d338ab51a16;origin=https://doi.org/10.5281/zenodo.22791169;visit=swh:1:snp:6e389368588e85df22a9bfd12c2f5133b73edb05;anchor=swh:1:rel:1add592d9bd96ff324785972f60e4589ed0feb8b;path=lostlight530-agent-foundations-0a288a3"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/agent-foundations/tree/v2026.09-open-research-baseline",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "agent systems",
+      "research infrastructure",
+      "evidence",
+      "architecture decisions",
+      "provenance",
+      "reproducibility"
+    ],
+    "source_request_key": "record_22791170"
+  },
+  {
+    "repository": "auto-doc-engine",
+    "fixed_corpus": true,
+    "record_id": 23811383,
+    "doi": "10.5281/zenodo.23811383",
+    "concept_doi": "10.5281/zenodo.22791404",
+    "version": "v2026.10-30-evidence-snapshot",
+    "version_index": 4,
+    "is_latest": true,
+    "publication_date": "2026-10-30",
+    "created": "2026-10-30T15:44:17.561086+00:00",
+    "modified": "2026-10-30T15:44:17.953322+00:00",
+    "stats": {
+      "views": 305,
+      "unique_views": 217,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "version_views": 1,
+      "version_unique_views": 1,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/auto-doc-engine-v2026.10-30-evidence-snapshot.zip",
+        "bytes": 869386,
+        "checksum": "md5:d47d357f7ea05312ad14c090c381204b",
+        "url": "https://zenodo.org/api/records/23811383/files/lostlight530/auto-doc-engine-v2026.10-30-evidence-snapshot.zip/content"
+      }
+    ],
+    "file_bytes": 869386,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/auto-doc-engine/tree/v2026.10-30-evidence-snapshot",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "markdown",
+      "ast",
+      "provenance",
+      "reproducibility",
+      "ro-crate",
+      "sarif"
+    ],
+    "source_request_key": "record_23811383"
+  },
+  {
+    "repository": "auto-doc-engine",
+    "fixed_corpus": true,
+    "record_id": 23365510,
+    "doi": "10.5281/zenodo.23365510",
+    "concept_doi": "10.5281/zenodo.22791404",
+    "version": "v2026.10-fourteen-day-evidence-checkpoint",
+    "version_index": 3,
+    "is_latest": false,
+    "publication_date": "2026-10-14",
+    "created": "2026-10-14T11:14:59.536593+00:00",
+    "modified": "2026-10-14T11:14:59.801340+00:00",
+    "stats": {
+      "views": 305,
+      "unique_views": 217,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "version_views": 23,
+      "version_unique_views": 21,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/auto-doc-engine-v2026.10-fourteen-day-evidence-checkpoint.zip",
+        "bytes": 519972,
+        "checksum": "md5:2031d6eeb0a12d021d09e16e12df91c3",
+        "url": "https://zenodo.org/api/records/23365510/files/lostlight530/auto-doc-engine-v2026.10-fourteen-day-evidence-checkpoint.zip/content"
+      }
+    ],
+    "file_bytes": 519972,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/auto-doc-engine/tree/v2026.10-fourteen-day-evidence-checkpoint",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "markdown",
+      "ast",
+      "provenance",
+      "reproducibility",
+      "ro-crate",
+      "sarif"
+    ],
+    "source_request_key": "record_23365510"
+  },
+  {
+    "repository": "auto-doc-engine",
+    "fixed_corpus": true,
+    "record_id": 23137215,
+    "doi": "10.5281/zenodo.23137215",
+    "concept_doi": "10.5281/zenodo.22791404",
+    "version": "v2026.10-open-research-production-framework",
+    "version_index": 2,
+    "is_latest": false,
+    "publication_date": "2026-10-04",
+    "created": "2026-10-04T13:00:36.996897+00:00",
+    "modified": "2026-10-04T13:00:37.239931+00:00",
+    "stats": {
+      "views": 305,
+      "unique_views": 217,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "version_views": 29,
+      "version_unique_views": 25,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/auto-doc-engine-v2026.10-open-research-production-framework.zip",
+        "bytes": 483651,
+        "checksum": "md5:d1df434fbd7e03b6ec7af08ea8378248",
+        "url": "https://zenodo.org/api/records/23137215/files/lostlight530/auto-doc-engine-v2026.10-open-research-production-framework.zip/content"
+      }
+    ],
+    "file_bytes": 483651,
+    "swh": {
+      "swhid": "swh:1:dir:ea408b9dfc6c87e4dd9e45930a041227e8e1074f;origin=https://doi.org/10.5281/zenodo.22791404;visit=swh:1:snp:439366039295df353457d45b9e5b0f4ed0523a8d;anchor=swh:1:rel:d9295fabb4c49471d586d9a1bc8f0a0812afcd61;path=lostlight530-auto-doc-engine-ecf74a3"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/auto-doc-engine/tree/v2026.10-open-research-production-framework",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "markdown",
+      "ast",
+      "provenance",
+      "reproducibility",
+      "ro-crate",
+      "sarif"
+    ],
+    "source_request_key": "record_23137215"
+  },
+  {
+    "repository": "auto-doc-engine",
+    "fixed_corpus": true,
+    "record_id": 23068471,
+    "doi": "10.5281/zenodo.23068471",
+    "concept_doi": "10.5281/zenodo.22791404",
+    "version": "v2026.09-natural-month-close",
+    "version_index": 1,
+    "is_latest": false,
+    "publication_date": "2026-09-30",
+    "created": "2026-09-30T18:57:58.072540+00:00",
+    "modified": "2026-09-30T18:57:58.311235+00:00",
+    "stats": {
+      "views": 305,
+      "unique_views": 217,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "version_views": 25,
+      "version_unique_views": 24,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/auto-doc-engine-v2026.09-natural-month-close.zip",
+        "bytes": 463426,
+        "checksum": "md5:fbf4ceb5d259ecdc7c828318a04f2f13",
+        "url": "https://zenodo.org/api/records/23068471/files/lostlight530/auto-doc-engine-v2026.09-natural-month-close.zip/content"
+      }
+    ],
+    "file_bytes": 463426,
+    "swh": {
+      "swhid": "swh:1:dir:0ee66c98c520ed665a07b5fed5e57bc3955f44ab;origin=https://doi.org/10.5281/zenodo.22791404;visit=swh:1:snp:cbf50d5f4e8fdf3718697f0b34baa103555417ac;anchor=swh:1:rel:730b97393e808688b6de7d2840dd4b3590c02294;path=lostlight530-auto-doc-engine-85d9527"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/auto-doc-engine/tree/v2026.09-natural-month-close",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "markdown",
+      "ast",
+      "provenance",
+      "reproducibility",
+      "ro-crate",
+      "sarif"
+    ],
+    "source_request_key": "record_23068471"
+  },
+  {
+    "repository": "auto-doc-engine",
+    "fixed_corpus": true,
+    "record_id": 22791405,
+    "doi": "10.5281/zenodo.22791405",
+    "concept_doi": "10.5281/zenodo.22791404",
+    "version": "v2026.09-open-research-baseline",
+    "version_index": 0,
+    "is_latest": false,
+    "publication_date": "2026-09-16",
+    "created": "2026-09-16T08:49:23.270993+00:00",
+    "modified": "2026-09-16T08:49:23.568990+00:00",
+    "stats": {
+      "views": 305,
+      "unique_views": 217,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "version_views": 227,
+      "version_unique_views": 146,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/auto-doc-engine-v2026.09-open-research-baseline.zip",
+        "bytes": 189301,
+        "checksum": "md5:165cf0d9330b9975d8f2341c9ad3b40a",
+        "url": "https://zenodo.org/api/records/22791405/files/lostlight530/auto-doc-engine-v2026.09-open-research-baseline.zip/content"
+      }
+    ],
+    "file_bytes": 189301,
+    "swh": {
+      "swhid": "swh:1:dir:6b7d5a71b03084fcb9fc2e9b3a5a214e6bfae02f;origin=https://doi.org/10.5281/zenodo.22791404;visit=swh:1:snp:22c33a3b4048afeb04cd73a7d48a95779a35d934;anchor=swh:1:rel:ecd032c5a5db8fdf5bb6d8bc918b9c971879567d;path=lostlight530-auto-doc-engine-b338a03"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/auto-doc-engine/tree/v2026.09-open-research-baseline",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "markdown",
+      "ast",
+      "provenance",
+      "reproducibility",
+      "ro-crate",
+      "sarif"
+    ],
+    "source_request_key": "record_22791405"
+  },
+  {
+    "repository": "epistemic-pipeline",
+    "fixed_corpus": true,
+    "record_id": 23811384,
+    "doi": "10.5281/zenodo.23811384",
+    "concept_doi": "10.5281/zenodo.22791463",
+    "version": "v2026.10-30-evidence-snapshot",
+    "version_index": 4,
+    "is_latest": true,
+    "publication_date": "2026-10-30",
+    "created": "2026-10-30T15:44:20.878996+00:00",
+    "modified": "2026-10-30T15:44:21.204721+00:00",
+    "stats": {
+      "views": 316,
+      "unique_views": 227,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 1,
+      "version_unique_views": 1,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/epistemic-pipeline-v2026.10-30-evidence-snapshot.zip",
+        "bytes": 801465,
+        "checksum": "md5:9424346d3467b9f6b99e288777d32aef",
+        "url": "https://zenodo.org/api/records/23811384/files/lostlight530/epistemic-pipeline-v2026.10-30-evidence-snapshot.zip/content"
+      }
+    ],
+    "file_bytes": 801465,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/epistemic-pipeline/tree/v2026.10-30-evidence-snapshot",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "evidence lineage",
+      "state machine",
+      "provenance",
+      "runtime policy",
+      "agentic systems"
+    ],
+    "source_request_key": "record_23811384"
+  },
+  {
+    "repository": "epistemic-pipeline",
+    "fixed_corpus": true,
+    "record_id": 23365517,
+    "doi": "10.5281/zenodo.23365517",
+    "concept_doi": "10.5281/zenodo.22791463",
+    "version": "v2026.10-fourteen-day-evidence-checkpoint",
+    "version_index": 3,
+    "is_latest": false,
+    "publication_date": "2026-10-14",
+    "created": "2026-10-14T11:15:11.908255+00:00",
+    "modified": "2026-10-14T11:15:12.192181+00:00",
+    "stats": {
+      "views": 316,
+      "unique_views": 227,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 23,
+      "version_unique_views": 22,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/epistemic-pipeline-v2026.10-fourteen-day-evidence-checkpoint.zip",
+        "bytes": 452841,
+        "checksum": "md5:d2e445b13ba36b02335db40bc38aa65e",
+        "url": "https://zenodo.org/api/records/23365517/files/lostlight530/epistemic-pipeline-v2026.10-fourteen-day-evidence-checkpoint.zip/content"
+      }
+    ],
+    "file_bytes": 452841,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/epistemic-pipeline/tree/v2026.10-fourteen-day-evidence-checkpoint",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "evidence lineage",
+      "state machine",
+      "provenance",
+      "runtime policy",
+      "agentic systems"
+    ],
+    "source_request_key": "record_23365517"
+  },
+  {
+    "repository": "epistemic-pipeline",
+    "fixed_corpus": true,
+    "record_id": 23137216,
+    "doi": "10.5281/zenodo.23137216",
+    "concept_doi": "10.5281/zenodo.22791463",
+    "version": "v2026.10-open-research-production-framework",
+    "version_index": 2,
+    "is_latest": false,
+    "publication_date": "2026-10-04",
+    "created": "2026-10-04T13:00:40.388317+00:00",
+    "modified": "2026-10-04T13:00:40.570346+00:00",
+    "stats": {
+      "views": 316,
+      "unique_views": 227,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 20,
+      "version_unique_views": 19,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/epistemic-pipeline-v2026.10-open-research-production-framework.zip",
+        "bytes": 417127,
+        "checksum": "md5:726213c9129422f39aa131cad65b5c68",
+        "url": "https://zenodo.org/api/records/23137216/files/lostlight530/epistemic-pipeline-v2026.10-open-research-production-framework.zip/content"
+      }
+    ],
+    "file_bytes": 417127,
+    "swh": {
+      "swhid": "swh:1:dir:0046c4c2050d6f4ed7b867a8bf22758d7a8aa750;origin=https://doi.org/10.5281/zenodo.22791463;visit=swh:1:snp:6f46b54e99a9af6cec4e09092caf29cb4db26623;anchor=swh:1:rel:5a610b922083a07607d2b367c3604366743bc75e;path=lostlight530-epistemic-pipeline-fbd9495"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/epistemic-pipeline/tree/v2026.10-open-research-production-framework",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "evidence lineage",
+      "state machine",
+      "provenance",
+      "runtime policy",
+      "agentic systems"
+    ],
+    "source_request_key": "record_23137216"
+  },
+  {
+    "repository": "epistemic-pipeline",
+    "fixed_corpus": true,
+    "record_id": 23068494,
+    "doi": "10.5281/zenodo.23068494",
+    "concept_doi": "10.5281/zenodo.22791463",
+    "version": "v2026.09-natural-month-close",
+    "version_index": 1,
+    "is_latest": false,
+    "publication_date": "2026-09-30",
+    "created": "2026-09-30T18:59:12.926516+00:00",
+    "modified": "2026-09-30T18:59:13.111572+00:00",
+    "stats": {
+      "views": 316,
+      "unique_views": 227,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 37,
+      "version_unique_views": 36,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/epistemic-pipeline-v2026.09-natural-month-close.zip",
+        "bytes": 396695,
+        "checksum": "md5:cbd0ba9338803576b6722181ea466173",
+        "url": "https://zenodo.org/api/records/23068494/files/lostlight530/epistemic-pipeline-v2026.09-natural-month-close.zip/content"
+      }
+    ],
+    "file_bytes": 396695,
+    "swh": {
+      "swhid": "swh:1:dir:b593677b5cecfb07f9005e6fd3b968269c92ff34;origin=https://doi.org/10.5281/zenodo.22791463;visit=swh:1:snp:c4db15a8dd705497f4727572cc2eed8ee83f9937;anchor=swh:1:rel:d10b97c3a8aa0e3940425b4d356c3f3ad3228fc2;path=lostlight530-epistemic-pipeline-210334f"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/epistemic-pipeline/tree/v2026.09-natural-month-close",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "evidence lineage",
+      "state machine",
+      "provenance",
+      "runtime policy",
+      "agentic systems"
+    ],
+    "source_request_key": "record_23068494"
+  },
+  {
+    "repository": "epistemic-pipeline",
+    "fixed_corpus": true,
+    "record_id": 22791464,
+    "doi": "10.5281/zenodo.22791464",
+    "concept_doi": "10.5281/zenodo.22791463",
+    "version": "v2026.09-open-research-baseline",
+    "version_index": 0,
+    "is_latest": false,
+    "publication_date": "2026-09-16",
+    "created": "2026-09-16T08:51:05.269275+00:00",
+    "modified": "2026-09-16T08:51:05.585966+00:00",
+    "stats": {
+      "views": 316,
+      "unique_views": 227,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 235,
+      "version_unique_views": 149,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/epistemic-pipeline-v2026.09-open-research-baseline.zip",
+        "bytes": 179747,
+        "checksum": "md5:7769fb5427678ab5cb0a77bbd4aa4195",
+        "url": "https://zenodo.org/api/records/22791464/files/lostlight530/epistemic-pipeline-v2026.09-open-research-baseline.zip/content"
+      }
+    ],
+    "file_bytes": 179747,
+    "swh": {
+      "swhid": "swh:1:dir:a265145cdec1f34222768e6731e58a3d9e6515ad;origin=https://doi.org/10.5281/zenodo.22791463;visit=swh:1:snp:a61d89e8c04d27a54cf8221d648151beb6df6926;anchor=swh:1:rel:d9a8726e179a6178a22e1872f102dbad575b187c;path=lostlight530-epistemic-pipeline-281fcc7"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/epistemic-pipeline/tree/v2026.09-open-research-baseline",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "evidence lineage",
+      "state machine",
+      "provenance",
+      "runtime policy",
+      "agentic systems"
+    ],
+    "source_request_key": "record_22791464"
+  },
+  {
+    "repository": "sci-render-kit",
+    "fixed_corpus": true,
+    "record_id": 23811397,
+    "doi": "10.5281/zenodo.23811397",
+    "concept_doi": "10.5281/zenodo.22791375",
+    "version": "v2026.10-30-evidence-snapshot",
+    "version_index": 4,
+    "is_latest": true,
+    "publication_date": "2026-10-30",
+    "created": "2026-10-30T15:45:01.924327+00:00",
+    "modified": "2026-10-30T15:45:02.215810+00:00",
+    "stats": {
+      "views": 304,
+      "unique_views": 223,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 1,
+      "version_unique_views": 1,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/sci-render-kit-v2026.10-30-evidence-snapshot.zip",
+        "bytes": 813434,
+        "checksum": "md5:386db8ce0556d86f862c6541264227f1",
+        "url": "https://zenodo.org/api/records/23811397/files/lostlight530/sci-render-kit-v2026.10-30-evidence-snapshot.zip/content"
+      }
+    ],
+    "file_bytes": 813434,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/sci-render-kit/tree/v2026.10-30-evidence-snapshot",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "scientific visualization",
+      "figure provenance",
+      "uncertainty semantics",
+      "accessibility",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23811397"
+  },
+  {
+    "repository": "sci-render-kit",
+    "fixed_corpus": true,
+    "record_id": 23365525,
+    "doi": "10.5281/zenodo.23365525",
+    "concept_doi": "10.5281/zenodo.22791375",
+    "version": "v2026.10-fourteen-day-evidence-checkpoint",
+    "version_index": 3,
+    "is_latest": false,
+    "publication_date": "2026-10-14",
+    "created": "2026-10-14T11:15:23.259308+00:00",
+    "modified": "2026-10-14T11:15:23.478458+00:00",
+    "stats": {
+      "views": 304,
+      "unique_views": 223,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 21,
+      "version_unique_views": 21,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/sci-render-kit-v2026.10-fourteen-day-evidence-checkpoint.zip",
+        "bytes": 440096,
+        "checksum": "md5:49e5b0a9ec23d7581f23afd9b39e5b59",
+        "url": "https://zenodo.org/api/records/23365525/files/lostlight530/sci-render-kit-v2026.10-fourteen-day-evidence-checkpoint.zip/content"
+      }
+    ],
+    "file_bytes": 440096,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/sci-render-kit/tree/v2026.10-fourteen-day-evidence-checkpoint",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "scientific visualization",
+      "figure provenance",
+      "uncertainty semantics",
+      "accessibility",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23365525"
+  },
+  {
+    "repository": "sci-render-kit",
+    "fixed_corpus": true,
+    "record_id": 23137219,
+    "doi": "10.5281/zenodo.23137219",
+    "concept_doi": "10.5281/zenodo.22791375",
+    "version": "v2026.10-open-research-production-framework",
+    "version_index": 2,
+    "is_latest": false,
+    "publication_date": "2026-10-04",
+    "created": "2026-10-04T13:01:01.041528+00:00",
+    "modified": "2026-10-04T13:01:01.234847+00:00",
+    "stats": {
+      "views": 304,
+      "unique_views": 223,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 15,
+      "version_unique_views": 14,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/sci-render-kit-v2026.10-open-research-production-framework.zip",
+        "bytes": 405188,
+        "checksum": "md5:458665b81bf9db3be1bb33da52b69427",
+        "url": "https://zenodo.org/api/records/23137219/files/lostlight530/sci-render-kit-v2026.10-open-research-production-framework.zip/content"
+      }
+    ],
+    "file_bytes": 405188,
+    "swh": {
+      "swhid": "swh:1:dir:32ff747a4fe7f633007ed117999483d68d01c578;origin=https://doi.org/10.5281/zenodo.22791375;visit=swh:1:snp:c806c16162807c3e3747abe05db85c2e826f2e55;anchor=swh:1:rel:f4bb4623de8154de281021d78bdee7bc7d95965c;path=lostlight530-sci-render-kit-14cb1eb"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/sci-render-kit/tree/v2026.10-open-research-production-framework",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "scientific visualization",
+      "figure provenance",
+      "uncertainty semantics",
+      "accessibility",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23137219"
+  },
+  {
+    "repository": "sci-render-kit",
+    "fixed_corpus": true,
+    "record_id": 23068472,
+    "doi": "10.5281/zenodo.23068472",
+    "concept_doi": "10.5281/zenodo.22791375",
+    "version": "v2026.09-natural-month-close",
+    "version_index": 1,
+    "is_latest": false,
+    "publication_date": "2026-09-30",
+    "created": "2026-09-30T18:58:16.043956+00:00",
+    "modified": "2026-09-30T18:58:16.295795+00:00",
+    "stats": {
+      "views": 304,
+      "unique_views": 223,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 27,
+      "version_unique_views": 27,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/sci-render-kit-v2026.09-natural-month-close.zip",
+        "bytes": 384708,
+        "checksum": "md5:00d481bf2277c6a157bdeb2cb368dffb",
+        "url": "https://zenodo.org/api/records/23068472/files/lostlight530/sci-render-kit-v2026.09-natural-month-close.zip/content"
+      }
+    ],
+    "file_bytes": 384708,
+    "swh": {
+      "swhid": "swh:1:dir:24d68112ee551154e34a4d82770703ac7470ed0a;origin=https://doi.org/10.5281/zenodo.22791375;visit=swh:1:snp:7017dcf261c9c5b338a065c9ea5e708e3e9630a8;anchor=swh:1:rel:5d21507b7d48bfb53ccde2dd9869786920349165;path=lostlight530-sci-render-kit-6093993"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/sci-render-kit/tree/v2026.09-natural-month-close",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "scientific visualization",
+      "figure provenance",
+      "uncertainty semantics",
+      "accessibility",
+      "reproducibility"
+    ],
+    "source_request_key": "record_23068472"
+  },
+  {
+    "repository": "sci-render-kit",
+    "fixed_corpus": true,
+    "record_id": 22791376,
+    "doi": "10.5281/zenodo.22791376",
+    "concept_doi": "10.5281/zenodo.22791375",
+    "version": "v2026.09-open-research-baseline",
+    "version_index": 0,
+    "is_latest": false,
+    "publication_date": "2026-09-16",
+    "created": "2026-09-16T08:48:02.497912+00:00",
+    "modified": "2026-09-16T08:48:02.706979+00:00",
+    "stats": {
+      "views": 304,
+      "unique_views": 223,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 240,
+      "version_unique_views": 160,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 1,
+      "version_unique_views": 1,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/sci-render-kit-v2026.09-open-research-baseline.zip",
+        "bytes": 175582,
+        "checksum": "md5:c610e5d76151bf772adbe100e1a317f2",
+        "url": "https://zenodo.org/api/records/22791376/files/lostlight530/sci-render-kit-v2026.09-open-research-baseline.zip/content"
+      }
+    ],
+    "file_bytes": 175582,
+    "swh": {
+      "swhid": "swh:1:dir:360dd605cc677caca3a897446a907f04cb9c2f2a;origin=https://doi.org/10.5281/zenodo.22791375;visit=swh:1:snp:80974e62fed6028f6f513649b0c45d075d402662;anchor=swh:1:rel:5a72d4972652c96375281852b4d71a7fa7ae11d2;path=lostlight530-sci-render-kit-9137fb9"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/sci-render-kit/tree/v2026.09-open-research-baseline",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "scientific visualization",
+      "figure provenance",
+      "uncertainty semantics",
+      "accessibility",
+      "reproducibility"
+    ],
+    "source_request_key": "record_22791376"
+  },
+  {
+    "repository": "china-agentic-observatory",
+    "fixed_corpus": true,
+    "record_id": 23811388,
+    "doi": "10.5281/zenodo.23811388",
+    "concept_doi": "10.5281/zenodo.22791309",
+    "version": "v2026.10-30-evidence-snapshot",
+    "version_index": 4,
+    "is_latest": true,
+    "publication_date": "2026-10-30",
+    "created": "2026-10-30T15:44:26.888319+00:00",
+    "modified": "2026-10-30T15:44:27.125202+00:00",
+    "stats": {
+      "views": 322,
+      "unique_views": 230,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 4,
+      "version_unique_views": 4,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/china-agentic-observatory-v2026.10-30-evidence-snapshot.zip",
+        "bytes": 1477043,
+        "checksum": "md5:d1830a9bc5346d58cce99d9686257b34",
+        "url": "https://zenodo.org/api/records/23811388/files/lostlight530/china-agentic-observatory-v2026.10-30-evidence-snapshot.zip/content"
+      }
+    ],
+    "file_bytes": 1477043,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/china-agentic-observatory/tree/v2026.10-30-evidence-snapshot",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "artificial intelligence",
+      "china",
+      "agentic systems",
+      "research observatory",
+      "standards",
+      "governance"
+    ],
+    "source_request_key": "record_23811388"
+  },
+  {
+    "repository": "china-agentic-observatory",
+    "fixed_corpus": true,
+    "record_id": 23365548,
+    "doi": "10.5281/zenodo.23365548",
+    "concept_doi": "10.5281/zenodo.22791309",
+    "version": "v2026.10-fourteen-day-evidence-checkpoint",
+    "version_index": 3,
+    "is_latest": false,
+    "publication_date": "2026-10-14",
+    "created": "2026-10-14T11:16:05.398273+00:00",
+    "modified": "2026-10-14T11:16:05.576837+00:00",
+    "stats": {
+      "views": 322,
+      "unique_views": 230,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 18,
+      "version_unique_views": 17,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/china-agentic-observatory-v2026.10-fourteen-day-evidence-checkpoint.zip",
+        "bytes": 880490,
+        "checksum": "md5:7e6baa8f578865a47987482eb5278ff4",
+        "url": "https://zenodo.org/api/records/23365548/files/lostlight530/china-agentic-observatory-v2026.10-fourteen-day-evidence-checkpoint.zip/content"
+      }
+    ],
+    "file_bytes": 880490,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/china-agentic-observatory/tree/v2026.10-fourteen-day-evidence-checkpoint",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "artificial intelligence",
+      "china",
+      "agentic systems",
+      "research observatory",
+      "standards",
+      "governance"
+    ],
+    "source_request_key": "record_23365548"
+  },
+  {
+    "repository": "china-agentic-observatory",
+    "fixed_corpus": true,
+    "record_id": 23137211,
+    "doi": "10.5281/zenodo.23137211",
+    "concept_doi": "10.5281/zenodo.22791309",
+    "version": "v2026.10-open-research-production-framework",
+    "version_index": 2,
+    "is_latest": false,
+    "publication_date": "2026-10-04",
+    "created": "2026-10-04T13:00:30.660928+00:00",
+    "modified": "2026-10-04T13:00:30.952940+00:00",
+    "stats": {
+      "views": 322,
+      "unique_views": 230,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 31,
+      "version_unique_views": 30,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/china-agentic-observatory-v2026.10-open-research-production-framework.zip",
+        "bytes": 751981,
+        "checksum": "md5:963e6ef5b3f41a87bdbf2a4fb1420b3a",
+        "url": "https://zenodo.org/api/records/23137211/files/lostlight530/china-agentic-observatory-v2026.10-open-research-production-framework.zip/content"
+      }
+    ],
+    "file_bytes": 751981,
+    "swh": {
+      "swhid": "swh:1:dir:6698aec95fe6b22309c4c73dab7303c3a64ee46e;origin=https://doi.org/10.5281/zenodo.22791309;visit=swh:1:snp:5383c9eb7d6f862adce1a6d03411098031e166cc;anchor=swh:1:rel:91c5d5beeddab1e2ac1afbdc3600557237727f37;path=lostlight530-china-agentic-observatory-96f07bb"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/china-agentic-observatory/tree/v2026.10-open-research-production-framework",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "artificial intelligence",
+      "china",
+      "agentic systems",
+      "research observatory",
+      "standards",
+      "governance"
+    ],
+    "source_request_key": "record_23137211"
+  },
+  {
+    "repository": "china-agentic-observatory",
+    "fixed_corpus": true,
+    "record_id": 23068347,
+    "doi": "10.5281/zenodo.23068347",
+    "concept_doi": "10.5281/zenodo.22791309",
+    "version": "v2026.09-natural-month-close",
+    "version_index": 1,
+    "is_latest": false,
+    "publication_date": "2026-09-30",
+    "created": "2026-09-30T18:49:53.386450+00:00",
+    "modified": "2026-09-30T18:49:53.788982+00:00",
+    "stats": {
+      "views": 322,
+      "unique_views": 230,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 34,
+      "version_unique_views": 31,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/china-agentic-observatory-v2026.09-natural-month-close.zip",
+        "bytes": 695611,
+        "checksum": "md5:8f69e7c4701c7bc4d5e0834ec3c688b0",
+        "url": "https://zenodo.org/api/records/23068347/files/lostlight530/china-agentic-observatory-v2026.09-natural-month-close.zip/content"
+      }
+    ],
+    "file_bytes": 695611,
+    "swh": {
+      "swhid": "swh:1:dir:91afab7be61bb40e451942725485ad2a2b78d5f2;origin=https://doi.org/10.5281/zenodo.22791309;visit=swh:1:snp:6491825aea1c5bf8d4a21bbdf97d773d5ab40eb8;anchor=swh:1:rel:0a3f9f3440cceef31e7c415b5ddca9c38f65fd3d;path=lostlight530-china-agentic-observatory-578222f"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/china-agentic-observatory/tree/v2026.09-natural-month-close",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "artificial intelligence",
+      "china",
+      "agentic systems",
+      "research observatory",
+      "standards",
+      "governance"
+    ],
+    "source_request_key": "record_23068347"
+  },
+  {
+    "repository": "china-agentic-observatory",
+    "fixed_corpus": true,
+    "record_id": 22791310,
+    "doi": "10.5281/zenodo.22791310",
+    "concept_doi": "10.5281/zenodo.22791309",
+    "version": "v2026.09-open-research-baseline",
+    "version_index": 0,
+    "is_latest": false,
+    "publication_date": "2026-09-16",
+    "created": "2026-09-16T08:45:12.370868+00:00",
+    "modified": "2026-09-16T08:45:12.780015+00:00",
+    "stats": {
+      "views": 322,
+      "unique_views": 230,
+      "downloads": 1,
+      "unique_downloads": 1,
+      "version_views": 235,
+      "version_unique_views": 148,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/china-agentic-observatory-v2026.09-open-research-baseline.zip",
+        "bytes": 522966,
+        "checksum": "md5:86db50ed081a6598cd0cf3979ed3ca6c",
+        "url": "https://zenodo.org/api/records/22791310/files/lostlight530/china-agentic-observatory-v2026.09-open-research-baseline.zip/content"
+      }
+    ],
+    "file_bytes": 522966,
+    "swh": {
+      "swhid": "swh:1:dir:4615429f83e30d274f2761937d30f1dd153b642b;origin=https://doi.org/10.5281/zenodo.22791309;visit=swh:1:snp:df21183a3133f2e33c76f3cb02c03a4f01b0739d;anchor=swh:1:rel:389651eb2eb92afc9d72e5c906d7a5974e87e164;path=lostlight530-china-agentic-observatory-0196840"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/china-agentic-observatory/tree/v2026.09-open-research-baseline",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "artificial intelligence",
+      "china",
+      "agentic systems",
+      "research observatory",
+      "standards",
+      "governance"
+    ],
+    "source_request_key": "record_22791310"
+  },
+  {
+    "repository": "agentic-frontier-observatory",
+    "fixed_corpus": true,
+    "record_id": 23811387,
+    "doi": "10.5281/zenodo.23811387",
+    "concept_doi": "10.5281/zenodo.22791334",
+    "version": "v2026.10-30-evidence-snapshot",
+    "version_index": 4,
+    "is_latest": true,
+    "publication_date": "2026-10-30",
+    "created": "2026-10-30T15:44:24.862752+00:00",
+    "modified": "2026-10-30T15:44:25.214090+00:00",
+    "stats": {
+      "views": 335,
+      "unique_views": 246,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 3,
+      "version_unique_views": 3,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/agentic-frontier-observatory-v2026.10-30-evidence-snapshot.zip",
+        "bytes": 1466920,
+        "checksum": "md5:62ae9ee3f244bb0a394fc88e125aa57f",
+        "url": "https://zenodo.org/api/records/23811387/files/lostlight530/agentic-frontier-observatory-v2026.10-30-evidence-snapshot.zip/content"
+      }
+    ],
+    "file_bytes": 1466920,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/agentic-frontier-observatory/tree/v2026.10-30-evidence-snapshot",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "artificial intelligence",
+      "agentic systems",
+      "research observatory",
+      "evidence",
+      "provenance",
+      "technology monitoring"
+    ],
+    "source_request_key": "record_23811387"
+  },
+  {
+    "repository": "agentic-frontier-observatory",
+    "fixed_corpus": true,
+    "record_id": 23365543,
+    "doi": "10.5281/zenodo.23365543",
+    "concept_doi": "10.5281/zenodo.22791334",
+    "version": "v2026.10-fourteen-day-evidence-checkpoint",
+    "version_index": 3,
+    "is_latest": false,
+    "publication_date": "2026-10-14",
+    "created": "2026-10-14T11:15:58.073289+00:00",
+    "modified": "2026-10-14T11:15:58.402241+00:00",
+    "stats": {
+      "views": 335,
+      "unique_views": 246,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 19,
+      "version_unique_views": 19,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/agentic-frontier-observatory-v2026.10-fourteen-day-evidence-checkpoint.zip",
+        "bytes": 855390,
+        "checksum": "md5:0a9974a1b0498577ba66791de122aae7",
+        "url": "https://zenodo.org/api/records/23365543/files/lostlight530/agentic-frontier-observatory-v2026.10-fourteen-day-evidence-checkpoint.zip/content"
+      }
+    ],
+    "file_bytes": 855390,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/agentic-frontier-observatory/tree/v2026.10-fourteen-day-evidence-checkpoint",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "artificial intelligence",
+      "agentic systems",
+      "research observatory",
+      "evidence",
+      "provenance",
+      "technology monitoring"
+    ],
+    "source_request_key": "record_23365543"
+  },
+  {
+    "repository": "agentic-frontier-observatory",
+    "fixed_corpus": true,
+    "record_id": 23137214,
+    "doi": "10.5281/zenodo.23137214",
+    "concept_doi": "10.5281/zenodo.22791334",
+    "version": "v2026.10-open-research-production-framework",
+    "version_index": 2,
+    "is_latest": false,
+    "publication_date": "2026-10-04",
+    "created": "2026-10-04T13:00:34.062341+00:00",
+    "modified": "2026-10-04T13:00:34.291448+00:00",
+    "stats": {
+      "views": 335,
+      "unique_views": 246,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 29,
+      "version_unique_views": 29,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/agentic-frontier-observatory-v2026.10-open-research-production-framework.zip",
+        "bytes": 718863,
+        "checksum": "md5:1389072888492917df227a8991c53b3e",
+        "url": "https://zenodo.org/api/records/23137214/files/lostlight530/agentic-frontier-observatory-v2026.10-open-research-production-framework.zip/content"
+      }
+    ],
+    "file_bytes": 718863,
+    "swh": {
+      "swhid": "swh:1:dir:f35e8fdcdd5fec69e5a00a3c4d82dddf3a263dce;origin=https://doi.org/10.5281/zenodo.22791334;visit=swh:1:snp:10570deabc5c6c697105dbdcee621fb9623dbd5e;anchor=swh:1:rel:d656ee8363c358ca1ac2f2228962cc3ddded6b08;path=lostlight530-agentic-frontier-observatory-c41f52a"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/agentic-frontier-observatory/tree/v2026.10-open-research-production-framework",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "artificial intelligence",
+      "agentic systems",
+      "research observatory",
+      "evidence",
+      "provenance",
+      "technology monitoring"
+    ],
+    "source_request_key": "record_23137214"
+  },
+  {
+    "repository": "agentic-frontier-observatory",
+    "fixed_corpus": true,
+    "record_id": 23068352,
+    "doi": "10.5281/zenodo.23068352",
+    "concept_doi": "10.5281/zenodo.22791334",
+    "version": "v2026.09-natural-month-close",
+    "version_index": 1,
+    "is_latest": false,
+    "publication_date": "2026-09-30",
+    "created": "2026-09-30T18:50:01.848258+00:00",
+    "modified": "2026-09-30T18:50:02.111288+00:00",
+    "stats": {
+      "views": 335,
+      "unique_views": 246,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 40,
+      "version_unique_views": 37,
+      "version_downloads": 1,
+      "version_unique_downloads": 1
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/agentic-frontier-observatory-v2026.09-natural-month-close.zip",
+        "bytes": 648240,
+        "checksum": "md5:9e58eefe40c4ec9cbb04dfb883c4481c",
+        "url": "https://zenodo.org/api/records/23068352/files/lostlight530/agentic-frontier-observatory-v2026.09-natural-month-close.zip/content"
+      }
+    ],
+    "file_bytes": 648240,
+    "swh": {
+      "swhid": "swh:1:dir:67d218128a7b08d548200bd86abb65129124e207;origin=https://doi.org/10.5281/zenodo.22791334;visit=swh:1:snp:8a363836934596a25e995e805ce44b00e98e157b;anchor=swh:1:rel:5d0e6506a10d2028f68772227e76cc00103744b6;path=lostlight530-agentic-frontier-observatory-4321ceb"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/agentic-frontier-observatory/tree/v2026.09-natural-month-close",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "artificial intelligence",
+      "agentic systems",
+      "research observatory",
+      "evidence",
+      "provenance",
+      "technology monitoring"
+    ],
+    "source_request_key": "record_23068352"
+  },
+  {
+    "repository": "agentic-frontier-observatory",
+    "fixed_corpus": true,
+    "record_id": 22791335,
+    "doi": "10.5281/zenodo.22791335",
+    "concept_doi": "10.5281/zenodo.22791334",
+    "version": "v2026.09-open-research-baseline",
+    "version_index": 0,
+    "is_latest": false,
+    "publication_date": "2026-09-16",
+    "created": "2026-09-16T08:46:15.062026+00:00",
+    "modified": "2026-09-16T08:46:15.448258+00:00",
+    "stats": {
+      "views": 335,
+      "unique_views": 246,
+      "downloads": 2,
+      "unique_downloads": 2,
+      "version_views": 244,
+      "version_unique_views": 158,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/agentic-frontier-observatory-v2026.09-open-research-baseline.zip",
+        "bytes": 480452,
+        "checksum": "md5:cc5ca63ea2c29a649623c3c716405b98",
+        "url": "https://zenodo.org/api/records/22791335/files/lostlight530/agentic-frontier-observatory-v2026.09-open-research-baseline.zip/content"
+      }
+    ],
+    "file_bytes": 480452,
+    "swh": {
+      "swhid": "swh:1:dir:4ef3ef1152eb56a079db22f3691e7b422bca9c42;origin=https://doi.org/10.5281/zenodo.22791334;visit=swh:1:snp:a1f810f8f4ac6d9efc2c4df0e7099bec733424a8;anchor=swh:1:rel:46174c925e41234b409265967cbacd15082529f3;path=lostlight530-agentic-frontier-observatory-ebe384d"
+    },
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/agentic-frontier-observatory/tree/v2026.09-open-research-baseline",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "artificial intelligence",
+      "agentic systems",
+      "research observatory",
+      "evidence",
+      "provenance",
+      "technology monitoring"
+    ],
+    "source_request_key": "record_22791335"
+  },
+  {
+    "repository": "research-software-identity-audit",
+    "fixed_corpus": false,
+    "record_id": 23446162,
+    "doi": "10.5281/zenodo.23446162",
+    "concept_doi": "10.5281/zenodo.23166490",
+    "version": "v2026.10-evidence-integrity",
+    "version_index": 3,
+    "is_latest": true,
+    "publication_date": "2026-10-18",
+    "created": "2026-10-18T04:39:01.101885+00:00",
+    "modified": "2026-10-18T04:39:01.375109+00:00",
+    "stats": {
+      "views": 151,
+      "unique_views": 142,
+      "downloads": 5,
+      "unique_downloads": 5,
+      "version_views": 29,
+      "version_unique_views": 29,
+      "version_downloads": 2,
+      "version_unique_downloads": 2
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/research-software-identity-audit-v2026.10-evidence-integrity.zip",
+        "bytes": 1392684,
+        "checksum": "md5:dbc5b4bdbd5e5fbb3b6fb6eb5ec44fa3",
+        "url": "https://zenodo.org/api/records/23446162/files/lostlight530/research-software-identity-audit-v2026.10-evidence-integrity.zip/content"
+      }
+    ],
+    "file_bytes": 1392684,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "10.17605/OSF.IO/5B329",
+        "relation": "isSupplementTo",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://osf.io/wa5v8",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "scholarly infrastructure",
+      "reproducible research",
+      "software preservation",
+      "open science"
+    ],
+    "source_request_key": "record_23446162"
+  },
+  {
+    "repository": "research-software-identity-audit",
+    "fixed_corpus": false,
+    "record_id": 23284570,
+    "doi": "10.5281/zenodo.23284570",
+    "concept_doi": "10.5281/zenodo.23166490",
+    "version": "v2026.10-evidence-reconciliation",
+    "version_index": 2,
+    "is_latest": false,
+    "publication_date": "2026-10-10",
+    "created": "2026-10-10T15:45:46.175611+00:00",
+    "modified": "2026-10-10T15:45:46.850894+00:00",
+    "stats": {
+      "views": 151,
+      "unique_views": 142,
+      "downloads": 5,
+      "unique_downloads": 5,
+      "version_views": 33,
+      "version_unique_views": 30,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/research-software-identity-audit-v2026.10-evidence-reconciliation.zip",
+        "bytes": 546025,
+        "checksum": "md5:3ac6bdce82d26ca0a8d21da43ca50654",
+        "url": "https://zenodo.org/api/records/23284570/files/lostlight530/research-software-identity-audit-v2026.10-evidence-reconciliation.zip/content"
+      }
+    ],
+    "file_bytes": 546025,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "10.17605/OSF.IO/5B329",
+        "relation": "isSupplementTo",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://osf.io/wa5v8",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "scholarly infrastructure",
+      "reproducible research",
+      "software preservation",
+      "open science"
+    ],
+    "source_request_key": "record_23284570"
+  },
+  {
+    "repository": "research-software-identity-audit",
+    "fixed_corpus": false,
+    "record_id": 23176748,
+    "doi": "10.5281/zenodo.23176748",
+    "concept_doi": "10.5281/zenodo.23166490",
+    "version": "v2026.10-initial-research-runtime",
+    "version_index": 1,
+    "is_latest": false,
+    "publication_date": "2026-10-06",
+    "created": "2026-10-06T02:48:20.504169+00:00",
+    "modified": "2026-10-06T02:48:20.663439+00:00",
+    "stats": {
+      "views": 151,
+      "unique_views": 142,
+      "downloads": 5,
+      "unique_downloads": 5,
+      "version_views": 59,
+      "version_unique_views": 57,
+      "version_downloads": 3,
+      "version_unique_downloads": 3
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/research-software-identity-audit-v2026.10-initial-research-runtime.zip",
+        "bytes": 89335,
+        "checksum": "md5:5ade234cce756e76022bdf509ec76c8d",
+        "url": "https://zenodo.org/api/records/23176748/files/lostlight530/research-software-identity-audit-v2026.10-initial-research-runtime.zip/content"
+      }
+    ],
+    "file_bytes": 89335,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "10.17605/OSF.IO/5B329",
+        "relation": "isSupplementTo",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://osf.io/wa5v8",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [
+      "research software",
+      "scholarly infrastructure",
+      "reproducible research",
+      "software preservation",
+      "open science"
+    ],
+    "source_request_key": "record_23176748"
+  },
+  {
+    "repository": "research-software-identity-audit",
+    "fixed_corpus": false,
+    "record_id": 23166491,
+    "doi": "10.5281/zenodo.23166491",
+    "concept_doi": "10.5281/zenodo.23166490",
+    "version": "beta",
+    "version_index": 0,
+    "is_latest": false,
+    "publication_date": "2026-10-05",
+    "created": "2026-10-05T15:45:49.391026+00:00",
+    "modified": "2026-10-05T15:45:49.676403+00:00",
+    "stats": {
+      "views": 151,
+      "unique_views": 142,
+      "downloads": 5,
+      "unique_downloads": 5,
+      "version_views": 30,
+      "version_unique_views": 26,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/research-software-identity-audit-beta.zip",
+        "bytes": 23857,
+        "checksum": "md5:fe987a5fed8d0fb8aa543dfc9105fd72",
+        "url": "https://zenodo.org/api/records/23166491/files/lostlight530/research-software-identity-audit-beta.zip/content"
+      }
+    ],
+    "file_bytes": 23857,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/research-software-identity-audit/tree/beta",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [],
+    "source_request_key": "record_23166491"
+  },
+  {
+    "repository": "life-science-ecosystem-lab",
+    "fixed_corpus": false,
+    "record_id": 23447089,
+    "doi": "10.5281/zenodo.23447089",
+    "concept_doi": "10.5281/zenodo.23447088",
+    "version": "v0.4.0",
+    "version_index": 0,
+    "is_latest": true,
+    "publication_date": "2026-10-18",
+    "created": "2026-10-18T05:32:08.250793+00:00",
+    "modified": "2026-10-18T05:32:08.451557+00:00",
+    "stats": {
+      "views": 12,
+      "unique_views": 9,
+      "downloads": 5,
+      "unique_downloads": 3,
+      "version_views": 12,
+      "version_unique_views": 9,
+      "version_downloads": 5,
+      "version_unique_downloads": 3
+    },
+    "same_record_delta_vs_baseline": {
+      "version_views": 0,
+      "version_unique_views": 0,
+      "version_downloads": 0,
+      "version_unique_downloads": 0
+    },
+    "files": [
+      {
+        "key": "lostlight530/life-science-ecosystem-lab-v0.4.0.zip",
+        "bytes": 290240,
+        "checksum": "md5:d5e515de06f37f03c7118fcee617ccd3",
+        "url": "https://zenodo.org/api/records/23447089/files/lostlight530/life-science-ecosystem-lab-v0.4.0.zip/content"
+      }
+    ],
+    "file_bytes": 290240,
+    "swh": {},
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/lostlight530/life-science-ecosystem-lab/tree/v0.4.0",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "subjects": [],
+    "keywords": [],
+    "source_request_key": "record_23447089"
+  }
+]

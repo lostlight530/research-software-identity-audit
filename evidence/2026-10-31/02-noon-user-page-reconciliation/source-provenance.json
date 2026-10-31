@@ -1,0 +1,43 @@
+{
+  "source_classes": {
+    "user_pages": "supplied observations labelled 13:00 / 13:24 Asia/Shanghai; exact Dashboard timestamp and selected Period unavailable",
+    "comparison_fields": "prior public HTTP capture 12:00:27–12:02:44 Asia/Shanghai; read-only selected-field import, not a fresh 13:00 query"
+  },
+  "local_source_digests": [
+    {
+      "source_role": "user-transcription",
+      "sha256": "78586aa6ba57bfa3d0fc5c144fde56f092cf44172038a6134cefdf68c5485ae9",
+      "bytes": 4463,
+      "original_bytes_in_this_public_package": false
+    },
+    {
+      "source_role": "openaire-user-paste",
+      "sha256": "fb909b3502e75a1b3191d14874e4c5a1efbc98b1bfbe582f61267bb2d8b12680",
+      "bytes": 22294,
+      "original_bytes_in_this_public_package": false
+    },
+    {
+      "source_role": "prior-api-extraction",
+      "sha256": "c9550ddc16ac28e7913e15ccdbf973e43576aa9af07a3b9f069fe56d4fd5222e",
+      "bytes": 44520,
+      "original_bytes_in_this_public_package": false
+    }
+  ],
+  "compiled_at_utc": "2026-10-31T05:52:06.845209+00:00",
+  "baseline_git_commit": "4bd9efa113b51d1a714c90cc12fd7c995f385f80",
+  "supplementary_scopes": [
+    "research-control software",
+    "life-science software",
+    "four related workflows"
+  ],
+  "excluded": [
+    "14:41 Zenodo all-version capture",
+    "full account pages",
+    "local filesystem paths",
+    "rankings",
+    "traffic attribution",
+    "distinct visitor or institutional identity claims"
+  ],
+  "new_network_capture_in_this_event": false,
+  "new_prospective_cells": 0
+}

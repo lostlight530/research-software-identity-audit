@@ -1,0 +1,338 @@
+[
+  {
+    "repository": "welcome-to-github",
+    "field": "views",
+    "family": 355,
+    "sum_version": 355,
+    "equal": true
+  },
+  {
+    "repository": "welcome-to-github",
+    "field": "unique_views",
+    "family": 264,
+    "sum_version": 264,
+    "equal": true
+  },
+  {
+    "repository": "welcome-to-github",
+    "field": "downloads",
+    "family": 6,
+    "sum_version": 6,
+    "equal": true
+  },
+  {
+    "repository": "welcome-to-github",
+    "field": "unique_downloads",
+    "family": 5,
+    "sum_version": 5,
+    "equal": true
+  },
+  {
+    "repository": "zero-entropy-lab",
+    "field": "views",
+    "family": 314,
+    "sum_version": 314,
+    "equal": true
+  },
+  {
+    "repository": "zero-entropy-lab",
+    "field": "unique_views",
+    "family": 221,
+    "sum_version": 221,
+    "equal": true
+  },
+  {
+    "repository": "zero-entropy-lab",
+    "field": "downloads",
+    "family": 1,
+    "sum_version": 1,
+    "equal": true
+  },
+  {
+    "repository": "zero-entropy-lab",
+    "field": "unique_downloads",
+    "family": 1,
+    "sum_version": 1,
+    "equal": true
+  },
+  {
+    "repository": "Axiom-0",
+    "field": "views",
+    "family": 354,
+    "sum_version": 354,
+    "equal": true
+  },
+  {
+    "repository": "Axiom-0",
+    "field": "unique_views",
+    "family": 260,
+    "sum_version": 260,
+    "equal": true
+  },
+  {
+    "repository": "Axiom-0",
+    "field": "downloads",
+    "family": 1,
+    "sum_version": 1,
+    "equal": true
+  },
+  {
+    "repository": "Axiom-0",
+    "field": "unique_downloads",
+    "family": 1,
+    "sum_version": 1,
+    "equal": true
+  },
+  {
+    "repository": "reflective-continuum",
+    "field": "views",
+    "family": 276,
+    "sum_version": 276,
+    "equal": true
+  },
+  {
+    "repository": "reflective-continuum",
+    "field": "unique_views",
+    "family": 189,
+    "sum_version": 189,
+    "equal": true
+  },
+  {
+    "repository": "reflective-continuum",
+    "field": "downloads",
+    "family": 1,
+    "sum_version": 1,
+    "equal": true
+  },
+  {
+    "repository": "reflective-continuum",
+    "field": "unique_downloads",
+    "family": 1,
+    "sum_version": 1,
+    "equal": true
+  },
+  {
+    "repository": "agent-foundations",
+    "field": "views",
+    "family": 319,
+    "sum_version": 319,
+    "equal": true
+  },
+  {
+    "repository": "agent-foundations",
+    "field": "unique_views",
+    "family": 230,
+    "sum_version": 230,
+    "equal": true
+  },
+  {
+    "repository": "agent-foundations",
+    "field": "downloads",
+    "family": 2,
+    "sum_version": 2,
+    "equal": true
+  },
+  {
+    "repository": "agent-foundations",
+    "field": "unique_downloads",
+    "family": 2,
+    "sum_version": 2,
+    "equal": true
+  },
+  {
+    "repository": "auto-doc-engine",
+    "field": "views",
+    "family": 305,
+    "sum_version": 305,
+    "equal": true
+  },
+  {
+    "repository": "auto-doc-engine",
+    "field": "unique_views",
+    "family": 217,
+    "sum_version": 217,
+    "equal": true
+  },
+  {
+    "repository": "auto-doc-engine",
+    "field": "downloads",
+    "family": 0,
+    "sum_version": 0,
+    "equal": true
+  },
+  {
+    "repository": "auto-doc-engine",
+    "field": "unique_downloads",
+    "family": 0,
+    "sum_version": 0,
+    "equal": true
+  },
+  {
+    "repository": "epistemic-pipeline",
+    "field": "views",
+    "family": 316,
+    "sum_version": 316,
+    "equal": true
+  },
+  {
+    "repository": "epistemic-pipeline",
+    "field": "unique_views",
+    "family": 227,
+    "sum_version": 227,
+    "equal": true
+  },
+  {
+    "repository": "epistemic-pipeline",
+    "field": "downloads",
+    "family": 1,
+    "sum_version": 1,
+    "equal": true
+  },
+  {
+    "repository": "epistemic-pipeline",
+    "field": "unique_downloads",
+    "family": 1,
+    "sum_version": 1,
+    "equal": true
+  },
+  {
+    "repository": "sci-render-kit",
+    "field": "views",
+    "family": 304,
+    "sum_version": 304,
+    "equal": true
+  },
+  {
+    "repository": "sci-render-kit",
+    "field": "unique_views",
+    "family": 223,
+    "sum_version": 223,
+    "equal": true
+  },
+  {
+    "repository": "sci-render-kit",
+    "field": "downloads",
+    "family": 2,
+    "sum_version": 2,
+    "equal": true
+  },
+  {
+    "repository": "sci-render-kit",
+    "field": "unique_downloads",
+    "family": 2,
+    "sum_version": 2,
+    "equal": true
+  },
+  {
+    "repository": "china-agentic-observatory",
+    "field": "views",
+    "family": 322,
+    "sum_version": 322,
+    "equal": true
+  },
+  {
+    "repository": "china-agentic-observatory",
+    "field": "unique_views",
+    "family": 230,
+    "sum_version": 230,
+    "equal": true
+  },
+  {
+    "repository": "china-agentic-observatory",
+    "field": "downloads",
+    "family": 1,
+    "sum_version": 1,
+    "equal": true
+  },
+  {
+    "repository": "china-agentic-observatory",
+    "field": "unique_downloads",
+    "family": 1,
+    "sum_version": 1,
+    "equal": true
+  },
+  {
+    "repository": "agentic-frontier-observatory",
+    "field": "views",
+    "family": 335,
+    "sum_version": 335,
+    "equal": true
+  },
+  {
+    "repository": "agentic-frontier-observatory",
+    "field": "unique_views",
+    "family": 246,
+    "sum_version": 246,
+    "equal": true
+  },
+  {
+    "repository": "agentic-frontier-observatory",
+    "field": "downloads",
+    "family": 2,
+    "sum_version": 2,
+    "equal": true
+  },
+  {
+    "repository": "agentic-frontier-observatory",
+    "field": "unique_downloads",
+    "family": 2,
+    "sum_version": 2,
+    "equal": true
+  },
+  {
+    "repository": "research-software-identity-audit",
+    "field": "views",
+    "family": 151,
+    "sum_version": 151,
+    "equal": true
+  },
+  {
+    "repository": "research-software-identity-audit",
+    "field": "unique_views",
+    "family": 142,
+    "sum_version": 142,
+    "equal": true
+  },
+  {
+    "repository": "research-software-identity-audit",
+    "field": "downloads",
+    "family": 5,
+    "sum_version": 5,
+    "equal": true
+  },
+  {
+    "repository": "research-software-identity-audit",
+    "field": "unique_downloads",
+    "family": 5,
+    "sum_version": 5,
+    "equal": true
+  },
+  {
+    "repository": "life-science-ecosystem-lab",
+    "field": "views",
+    "family": 12,
+    "sum_version": 12,
+    "equal": true
+  },
+  {
+    "repository": "life-science-ecosystem-lab",
+    "field": "unique_views",
+    "family": 9,
+    "sum_version": 9,
+    "equal": true
+  },
+  {
+    "repository": "life-science-ecosystem-lab",
+    "field": "downloads",
+    "family": 5,
+    "sum_version": 5,
+    "equal": true
+  },
+  {
+    "repository": "life-science-ecosystem-lab",
+    "field": "unique_downloads",
+    "family": 3,
+    "sum_version": 3,
+    "equal": true
+  }
+]
