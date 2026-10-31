@@ -164,6 +164,12 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 - [2026-10-30 / 02-bounded-periodic-infrastructure-recheck](2026-10-30/02-bounded-periodic-infrastructure-recheck/README.md) — current GitHub 11-core Release/PR check plus 34 existing institutional/service/standard surface-row representative attempts; extractor acquisition age and six access failures retained, without inventing a contemporaneous full seven-platform census. Includes a dated Oct 5–30 control-runtime timeline; zero prospective cells.
 
+## Existing October 30–31 diagnostic entries (index reconciliation)
+
+- [2026-10-30 / 03-post-audit-github-delta](2026-10-30/03-post-audit-github-delta/README.md) — pre-existing dated GitHub delta record, linked without reconstructing its original retrieval clock
+- [2026-10-30 / 04-tag-ref-and-source-shape-recheck](2026-10-30/04-tag-ref-and-source-shape-recheck/README.md) — pre-existing tag-reference and query-shape diagnostic, not a new prospective event
+- [2026-10-31 / 01-bounded-research-identity-and-infrastructure-recheck](2026-10-31/01-bounded-research-identity-and-infrastructure-recheck/README.md) — earlier October 31 release/identity and 34-surface bounded check, retained at its original timestamp
+
 ## October 31 noon user-page reconciliation
 
 - [2026-10-31 / 02-noon-user-page-reconciliation](2026-10-31/02-noon-user-page-reconciliation/README.md) — source-separated 13:00 Dashboard, 13:24 Zenodo, DataCite Commons and OpenAIRE counts; prior API fields labelled by their actual capture time; zero prospective cells
