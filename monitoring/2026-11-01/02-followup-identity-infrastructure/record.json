@@ -1,0 +1,109 @@
+{
+  "record_class": "diagnostic_followup_cross_repository_identity_recheck",
+  "logical_date": "2026-11-01",
+  "timezone": "Asia/Shanghai",
+  "compiled_client_utc": "2026-11-01T11:56:34.313Z",
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "preceding_event": "../01-periodic-identity-infrastructure-recheck/record.json",
+  "source_read_baseline_control_main": "8d661f4c996054502072a098e78671c1a61f3fbd",
+  "source_read_utc": "2026-11-01T11:49:20.853Z",
+  "control_before_write_checked_utc": "2026-11-01T11:54:41.510Z",
+  "github": {
+    "repository_count": 11,
+    "fixed_sample": 10,
+    "changed_main_count": 1,
+    "unchanged_main_count": 9,
+    "control_main_unchanged": true,
+    "rs03_old_sha": "8991ebc4f0d6bb8506d7d402c9f05ff0c1d4364a",
+    "rs03_new_sha": "fc36455376a20f12ad6c5389ef66fb06ec215e52",
+    "rs03_compare": "https://api.github.com/repos/lostlight530/Axiom-0/compare/8991ebc4f0d6bb8506d7d402c9f05ff0c1d4364a...fc36455376a20f12ad6c5389ef66fb06ec215e52",
+    "ahead": 2,
+    "behind": 0,
+    "two_tree_changed_files": 1,
+    "changed_file": "RESEARCH/daily/2026-11-01-pipeline-manifest.md",
+    "commit_utc": [
+      "2026-11-01T11:28:51Z",
+      "2026-11-01T11:29:48Z"
+    ],
+    "release_lists_no_new": true,
+    "git_tag_lists_no_new": true,
+    "sample_published_releases_per_repo": 5,
+    "control_published_releases": 5,
+    "core_open_prs": 0
+  },
+  "time_boundary": {
+    "previous_source_read_before_rs03_change": true,
+    "rs03_merge_before_control_pr80_merge": true,
+    "previous_control_merge_utc": "2026-11-01T11:33:26Z",
+    "note": "cross-repository sampling and control PR merge are distinct clocks"
+  },
+  "platform": {
+    "github_current": "10/10 source sha checked",
+    "zenodo": "10 existing exact version DOI extracts; largely 2026-10-31 UTC-day acquisition",
+    "datacite": "10 existing exact version DOI extracts with version relationship; 2026-10-31 UTC-day acquisition",
+    "orcid": "public works representation acquired 2026-10-27 only; group recount not current",
+    "software_heritage": "10 older cached full visit representations, latest provider visits before current main",
+    "openaire": "10 exact DOI query excerpts with query total=1; no original raw origin bytes",
+    "openalex": "10 returned cached DOI lookup excerpts, concept-vs-version identity not normalized",
+    "control_new_doi": "10.5281/zenodo.23839900 remains supported in existing Zenodo/DataCite/OpenAIRE extraction; exact OpenAlex lookup HTTP_404",
+    "usage": "no comparable fresh full 55-version source counter package; no usage delta"
+  },
+  "public_34_surface_access": {
+    "attempted": 34,
+    "connected_github": 2,
+    "day_acquired_2026_11_01": 1,
+    "older_cached_extraction": 25,
+    "failures": 6,
+    "failed_rows": [
+      11,
+      13,
+      14,
+      15,
+      24,
+      25
+    ],
+    "same_access_class_as_prior": 34
+  },
+  "upstream": {
+    "rse_pr_498": "OPEN_UNMERGED_REVIEW_COUNT_ZERO",
+    "rsd_issue_1870": "CLOSED",
+    "rsd_issue_1871": "OPEN",
+    "rsd_latest_published_release": "v6.7.5",
+    "institutional_acceptance_new": "NOT_VERIFIED"
+  },
+  "contract": {
+    "sample": 10,
+    "layers": 6,
+    "object_layer_units_per_eligible_timepoint": 60,
+    "concrete_platforms": 7,
+    "potential_platform_checks": 70,
+    "control_is_RS11": false,
+    "prospective_new_cells": 0,
+    "concrete_schedule_offsets_declared": false,
+    "osf_original_revision_fields_ref": "29 keys, 28 unchanged, 344-83 amended exploratory wordings in earlier reconciliation; no direct independent new full byte-diff this pass"
+  },
+  "receipts": {
+    "surface_batches": [
+      "extract_d466f2d547ab8d2ea25501f850a2412c",
+      "extract_588976f087ab1eec2b18f9399deac064"
+    ],
+    "zenodo": "extract_879b18bc1f7bd4d3a86ffda4b57a6d74",
+    "datacite": "extract_6355d7599d9eee414fb5f00283f0ea30",
+    "swh": "extract_c81f53c69512b5088d0864dffdf978ea",
+    "openaire": "extract_d2372cc0227dadc9677ac1cef26236b9",
+    "openalex": "extract_147dfc853ca84fccbe6ca2f0953173a5",
+    "osf_orcid_control": "extract_be524d115849cbaf8b08c6a67f7834a9"
+  },
+  "evidence_limits": {
+    "github": "connected structured source reads, compare commits and exact file diff",
+    "external": "extracted excerpts, UTC-day acquisition may be cached, no origin raw response bytes or HTTP headers",
+    "fresh_zenodo_usage": "UNKNOWN",
+    "orcid_current_groups": "UNKNOWN",
+    "swh_current_sha_preservation": "UNVERIFIED",
+    "openalex_exact_version_work_identity": "PARTIAL",
+    "source_clock_for_extract": "UNKNOWN"
+  },
+  "actual_repair": "NO_CHANGE_REQUIRED",
+  "verdict": "SMALL_GITHUB_MAIN_DELTA_RS03__NO_NEW_VERSION_OR_DOI__EXTERNAL_ACCESS_CLASS_UNCHANGED__NO_CHANGE_REQUIRED"
+}
