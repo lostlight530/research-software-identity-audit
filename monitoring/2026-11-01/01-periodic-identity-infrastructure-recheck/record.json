@@ -1,0 +1,115 @@
+{
+  "record_class": "diagnostic_periodic_identity_and_infrastructure_recheck",
+  "logical_date": "2026-11-01",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_client_utc": "2026-11-01T11:29:38.465Z",
+  "prior_control_main_sha": "5a77820a44729aeb21da41542ed6769bf3a967c5",
+  "not_prospective": true,
+  "original_osf_registration": "https://osf.io/5b329/overview",
+  "original_vs_revision": "29 compared keys; exploratory 344-83 differs; not an original preregistered analysis",
+  "github": {
+    "fixed_corpus": 10,
+    "changed_heads": 10,
+    "base_compare_ahead_total": 170,
+    "two_tree_file_differences_sum": 96,
+    "compare_behind_total": 0,
+    "open_prs": 0,
+    "fixed_published_releases_total": 50,
+    "new_fixed_published_releases": 0,
+    "control_main_unchanged": true,
+    "control_releases_total": 5,
+    "new_control_release": "v2026.10-control-lifecycle-reconciliation",
+    "new_control_published_utc": "2026-10-31T15:55:06Z",
+    "control_ci_prior": "https://github.com/lostlight530/research-software-identity-audit/actions/runs/41214390346"
+  },
+  "control_new_archived_identity": {
+    "record_id": 23839900,
+    "version_doi": "10.5281/zenodo.23839900",
+    "concept_doi": "10.5281/zenodo.23166490",
+    "zenodo_created_utc": "2026-10-31T15:55:10.659035Z",
+    "datacite_is_version_of": true,
+    "openaire_bounded_exact_query": "one software result, under curation",
+    "openalex_exact_doi": "HTTP_404_AT_QUERY",
+    "not_RS11": true
+  },
+  "platform": {
+    "zenodo_fixed_selected_version_dois": 10,
+    "datacite_fixed_selected_version_dois": 10,
+    "swh_cached_full_origin_visit_responses": 10,
+    "openaire_ten_queries_extract_totals": "1 each; not raw normalized census",
+    "openalex_ten_query_excerpts": "concept and version identity may differ",
+    "orcid": "older cached, no fresh structured groups",
+    "usage": "no like-for-like current refresh; no numeric delta"
+  },
+  "surfaces": {
+    "attempted": 34,
+    "fetchable_representations": 28,
+    "errors": 6,
+    "current_connected_github": 2,
+    "day_truncated_2026_11_01": 1,
+    "older_extracted": 25,
+    "failed_rows": [
+      11,
+      13,
+      14,
+      15,
+      24,
+      25
+    ],
+    "source_extraction_receipts": [
+      "extract_dd966d22921e55e0e0fc2e010af3c38c",
+      "extract_1fe8597b39032d216ebd72cc6d013f9e"
+    ]
+  },
+  "upstream": {
+    "rseng_pr_498": "OPEN_NOT_MERGED_NO_REVIEWS",
+    "rsd_issue_1870": "CLOSED",
+    "rsd_issue_1871": "OPEN",
+    "new_upstream_institutional_acceptance_verified": false,
+    "rsd_latest_release_known": "v6.7.5"
+  },
+  "contract": {
+    "fixed_objects": 10,
+    "layers": 6,
+    "units_per_eligible_timepoint": 60,
+    "concrete_platforms": 7,
+    "potential_checks": 70,
+    "concrete_schedule_offsets_declared": false,
+    "prospective_cells_added": 0,
+    "osf_original_or_revision_modified_by_this_event": false
+  },
+  "metadata_drift": {
+    "tag": "v2026.10-control-lifecycle-reconciliation",
+    "tag_cff_version": "v2026.10-evidence-integrity",
+    "tag_codemeta_version": "v2026.10-evidence-integrity",
+    "new_registered_version_doi": "10.5281/zenodo.23839900",
+    "correction_scope": "live-main-only; never rewrite immutable tag",
+    "original_tag_preserved": true
+  },
+  "limitations": {
+    "third_party_source_acquisition": "UTC day truncated or cached, not origin per-request clock",
+    "origin_http_bytes_retained": false,
+    "source_http_hashes_retained": false,
+    "swh_latest_main_snapshot_unproven": true,
+    "orcid_fresh_totals_unknown": true,
+    "openalex_new_control_doi_404_not_global_absence": true,
+    "quantitative_use_delta_unknown": true
+  },
+  "evidence_receipts": {
+    "github": "connected GitHub REST + compare commits",
+    "zenodo_sample": "extract_cd81e8c158f86b80d47c45b3c7ac8597",
+    "datacite_sample": "extract_cc1b09453d2ab4e8efa1a70556d501cb",
+    "swh": "extract_287cfd7bd9f2228710e3f2eecc89ee64",
+    "openaire": "extract_54ad1271248681f21c8fd1fe7190af8a",
+    "openalex": "extract_137861fe138070d01be7b63b13a2cbd0",
+    "control_new_version": "extract_356b14d22d46e9f053c7295b359376b9",
+    "osf_revisions": "extract_e167bb3b843be65b1bc8a5bcba60ee4b"
+  },
+  "sources": [
+    "github-main-deltas.csv",
+    "core-seven-platform-recheck.csv",
+    "surface-access-recheck.csv",
+    "README.md"
+  ],
+  "verdict": "MATERIAL_GITHUB_CHANGE__NEW_CONTROL_RELEASE__NO_FIXED_CORPUS_RELEASE__METADATA_DRIFT_RECONCILIATION__EXTERNAL_PARTIAL_UNKNOWN"
+}
