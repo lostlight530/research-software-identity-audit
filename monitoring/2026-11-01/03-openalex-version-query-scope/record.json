@@ -1,0 +1,50 @@
+{
+  "record_class": "diagnostic_source_scoped_openalex_doi_lookup_normalization",
+  "logical_date": "2026-11-01",
+  "logical_timezone": "Asia/Shanghai",
+  "not_prospective": true,
+  "prospective_cells_added": 0,
+  "based_on": "../02-followup-identity-infrastructure/record.json",
+  "source": "OpenAlex works lookup by selected Zenodo version DOI",
+  "source_class": "third_party_extracted_excerpts_not_original_http_bytes",
+  "extract_receipt": "extract_38119fce74251caa83349a6c8f9c1a47",
+  "extract_acquisition": {
+    "day_truncated_utc": true,
+    "rs01": "2026-11-01T00:00:00Z",
+    "rs02_to_rs10": "2026-10-31T00:00:00Z",
+    "source_origin_retrieval_time": "UNKNOWN",
+    "cache_freshness": "NOT_PROVEN"
+  },
+  "evidence_table": "openalex-version-query-response.csv",
+  "mapping": {
+    "fixed_objects": 10,
+    "exact_version_doi_urls_attempted": 10,
+    "extract_success_count": 10,
+    "extract_error_count": 0,
+    "returned_unique_work_ids": 10,
+    "top_level_primary_doi_matches_zenodo_concept": 10,
+    "top_level_primary_doi_matches_queried_version": 0,
+    "version_specific_distinct_work_established": false
+  },
+  "contract": {
+    "fixed_samples": 10,
+    "preregistered_layers": 6,
+    "planned_units_per_eligible_scheduled_timepoint": 60,
+    "operational_platforms": 7,
+    "potential_platform_checks_not_analytical_units": 70,
+    "discovery_graph_contains": [
+      "OpenAIRE",
+      "OpenAlex"
+    ],
+    "control_is_RS11": false
+  },
+  "interpretation": "These ten extracted exact-version-DOI lookup responses returned concept-primary Work DOIs. They do not establish ten distinct version-primary OpenAlex Works, global absence of the queried version DOIs, fresh provider state, propagation change, institutional acceptance or measured use.",
+  "limitations": [
+    "extractor acquired-at values are UTC-day truncated",
+    "no original response bytes, headers or HTTP hashes retained",
+    "no independent fresh full metadata normalization",
+    "potential extra Work/alternate IDs unverified",
+    "no historical source overwrite"
+  ],
+  "verdict": "EXTRACTED_CONCEPT_PRIMARY_MATCH_10_OF_10__VERSION_LEVEL_WORK_UNRESOLVED__NO_NEW_PROVIDER_STATE_PROVEN__NO_CHANGE_REQUIRED"
+}
