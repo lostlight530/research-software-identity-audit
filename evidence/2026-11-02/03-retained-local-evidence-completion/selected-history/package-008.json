@@ -1,0 +1,77 @@
+{
+  "source_category": "历史散件",
+  "source_date_label": "2026-10-06",
+  "source_package_label": "ten-repository-extension-facility-status.json",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "ten-repository-extension-facility-status.json",
+      "sha256": "dc6682b561946ffe05b2ca5609c2a04c875fb321ad26ba0dabf4514f7d2fc83d",
+      "bytes": 2260,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "ten-repository-extension-facility-status.json",
+      "sha256": "dc6682b561946ffe05b2ca5609c2a04c875fb321ad26ba0dabf4514f7d2fc83d",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "record_date",
+          "value": "2026-10-06"
+        },
+        {
+          "field_path": "timezone",
+          "value": "Asia/Shanghai"
+        },
+        {
+          "field_path": "independent_platform_verification_in_this_update",
+          "value": false
+        },
+        {
+          "field_path": "scope",
+          "value": "research software objects; completion counts across all ten are not supplied"
+        },
+        {
+          "field_path": "platforms[0].platform",
+          "value": "RSD"
+        },
+        {
+          "field_path": "platforms[0].status",
+          "value": "WAITING_ACCESS / BLOCKED_BY_INVITATION"
+        },
+        {
+          "field_path": "platforms[0].software_record_created",
+          "value": false
+        },
+        {
+          "field_path": "platforms[1].platform",
+          "value": "HAL"
+        },
+        {
+          "field_path": "platforms[1].status",
+          "value": "SUBMITTED / PENDING_PLATFORM_PROCESSING"
+        },
+        {
+          "field_path": "platforms[1].hal_record_id",
+          "value": null
+        },
+        {
+          "field_path": "platforms[2].platform",
+          "value": "SciCrunch RRID"
+        },
+        {
+          "field_path": "platforms[2].status",
+          "value": "SUBMITTED / PENDING_CURATION"
+        },
+        {
+          "field_path": "counting_boundary",
+          "value": "These are three facility-level progress statements, not evidence that ten records per facility have been created or accepted"
+        }
+      ]
+    }
+  ]
+}

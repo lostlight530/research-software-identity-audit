@@ -1,0 +1,25 @@
+{
+  "baseline": "thirty-four-entry-verification-t1100",
+  "current": "full-institutional-recheck",
+  "added": [
+    {
+      "doi": "10.5281/zenodo.23839899",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "Life Science Ecosystem Lab — Knowledge Workflow, Evidence Tool and Bio Tool"
+        }
+      ]
+    },
+    {
+      "doi": "10.5281/zenodo.23839900",
+      "type": "Software",
+      "titles": [
+        {
+          "title": "Research Software Identity Audit"
+        }
+      ]
+    }
+  ],
+  "removed": []
+}

@@ -1,0 +1,498 @@
+{
+  "source_category": "平台专项",
+  "source_date_label": "2026-10-08",
+  "source_package_label": "open-alex-identity-update",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "beta.json",
+      "sha256": "f9a1df10e0b1126c058b99a2bdca414d75de798c91056a3898adf8c553e9d560",
+      "bytes": 14404,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Collection.json",
+      "sha256": "384d328589b83c8d16302bb6389f31080b1dbdf901568bba3387a5abc02bc18c",
+      "bytes": 1661,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "concept.json",
+      "sha256": "d0585e8d131db92827ede65c20fb80110d26b5f549e2378419680d13e0cd7f17",
+      "bytes": 11660,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "current.json",
+      "sha256": "bbf411b19172dbab237cd58543926773d0dd31afd1faa710dc4efff7d76b3e2f",
+      "bytes": 9429,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "secondary_author.json",
+      "sha256": "f59f3881d48497fc1e791aa671e324c5bf5fc045ad7c233da1791201b629fa34",
+      "bytes": 3692,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "secondary_works.json",
+      "sha256": "3ae66b0e29ae58f9b744d5727df57d6a532c48c58dd9c646c755115ba73a2aaf",
+      "bytes": 15957,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "State.json",
+      "sha256": "c0a45a9c34207178b996f6ff6c1d152b37d4687c01eb474dae40ce07eca01edb",
+      "bytes": 2141,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "beta.json",
+      "sha256": "f9a1df10e0b1126c058b99a2bdca414d75de798c91056a3898adf8c553e9d560",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "publication_date",
+          "value": "2026-10-05"
+        },
+        {
+          "field_path": "primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "cited_by_count",
+          "value": 1
+        },
+        {
+          "field_path": "locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "abstract_inverted_index.layers[0]",
+          "value": 46
+        },
+        {
+          "field_path": "abstract_inverted_index.observation-state[0]",
+          "value": 47
+        },
+        {
+          "field_path": "abstract_inverted_index.counting[0]",
+          "value": 49
+        },
+        {
+          "field_path": "abstract_inverted_index.repository[0]",
+          "value": 82
+        },
+        {
+          "field_path": "abstract_inverted_index.runtime[0]",
+          "value": 121
+        },
+        {
+          "field_path": "abstract_inverted_index.https://osf.io/5b329/overview[0]",
+          "value": 207
+        },
+        {
+          "field_path": "abstract_inverted_index.DOI:[0]",
+          "value": 209
+        },
+        {
+          "field_path": "abstract_inverted_index.Status[0]",
+          "value": 217
+        },
+        {
+          "field_path": "abstract_inverted_index.validated[0]",
+          "value": 235
+        },
+        {
+          "field_path": "counts_by_year[0].cited_by_count",
+          "value": 1
+        },
+        {
+          "field_path": "updated_date",
+          "value": "2026-10-07T09:51:55.459714"
+        },
+        {
+          "field_path": "created_date",
+          "value": "2026-10-06T00:00:00"
+        }
+      ]
+    },
+    {
+      "source_file": "concept.json",
+      "sha256": "d0585e8d131db92827ede65c20fb80110d26b5f549e2378419680d13e0cd7f17",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "publication_date",
+          "value": "2026-10-06"
+        },
+        {
+          "field_path": "primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "abstract_inverted_index.repository[0]",
+          "value": 21
+        },
+        {
+          "field_path": "updated_date",
+          "value": "2026-10-07T09:51:55.459714"
+        },
+        {
+          "field_path": "created_date",
+          "value": "2026-10-06T00:00:00"
+        }
+      ]
+    },
+    {
+      "source_file": "current.json",
+      "sha256": "bbf411b19172dbab237cd58543926773d0dd31afd1faa710dc4efff7d76b3e2f",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "publication_date",
+          "value": "2026-10-06"
+        },
+        {
+          "field_path": "primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "abstract_inverted_index.repository[0]",
+          "value": 21
+        },
+        {
+          "field_path": "updated_date",
+          "value": "2026-10-07T09:51:55.459714"
+        },
+        {
+          "field_path": "created_date",
+          "value": "2026-10-07T00:00:00"
+        }
+      ]
+    },
+    {
+      "source_file": "secondary_author.json",
+      "sha256": "f59f3881d48497fc1e791aa671e324c5bf5fc045ad7c233da1791201b629fa34",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "works_count",
+          "value": 2
+        },
+        {
+          "field_path": "cited_by_count",
+          "value": 1
+        },
+        {
+          "field_path": "topics[0].count",
+          "value": 2
+        },
+        {
+          "field_path": "topics[1].count",
+          "value": 2
+        },
+        {
+          "field_path": "topics[2].count",
+          "value": 2
+        },
+        {
+          "field_path": "counts_by_year[0].works_count",
+          "value": 2
+        },
+        {
+          "field_path": "counts_by_year[0].oa_works_count",
+          "value": 2
+        },
+        {
+          "field_path": "counts_by_year[0].cited_by_count",
+          "value": 1
+        },
+        {
+          "field_path": "updated_date",
+          "value": "2026-10-06T12:31:48"
+        },
+        {
+          "field_path": "created_date",
+          "value": "2026-10-06T00:00:00"
+        }
+      ]
+    },
+    {
+      "source_file": "secondary_works.json",
+      "sha256": "3ae66b0e29ae58f9b744d5727df57d6a532c48c58dd9c646c755115ba73a2aaf",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "meta.count",
+          "value": 1
+        },
+        {
+          "field_path": "meta.db_response_time_ms",
+          "value": 9
+        },
+        {
+          "field_path": "meta.groups_count",
+          "value": null
+        },
+        {
+          "field_path": "results[0].publication_date",
+          "value": "2026-10-05"
+        },
+        {
+          "field_path": "results[0].primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "results[0].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "results[0].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "results[0].countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "results[0].institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "results[0].cited_by_count",
+          "value": 1
+        },
+        {
+          "field_path": "results[0].locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "results[0].locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "results[0].best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "results[0].referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "results[0].abstract_inverted_index.layers[0]",
+          "value": 46
+        },
+        {
+          "field_path": "results[0].abstract_inverted_index.observation-state[0]",
+          "value": 47
+        },
+        {
+          "field_path": "results[0].abstract_inverted_index.counting[0]",
+          "value": 49
+        },
+        {
+          "field_path": "results[0].abstract_inverted_index.repository[0]",
+          "value": 82
+        },
+        {
+          "field_path": "results[0].abstract_inverted_index.runtime[0]",
+          "value": 121
+        },
+        {
+          "field_path": "results[0].abstract_inverted_index.https://osf.io/5b329/overview[0]",
+          "value": 207
+        },
+        {
+          "field_path": "results[0].abstract_inverted_index.DOI:[0]",
+          "value": 209
+        },
+        {
+          "field_path": "results[0].abstract_inverted_index.Status[0]",
+          "value": 217
+        },
+        {
+          "field_path": "results[0].abstract_inverted_index.validated[0]",
+          "value": 235
+        },
+        {
+          "field_path": "results[0].counts_by_year[0].cited_by_count",
+          "value": 1
+        },
+        {
+          "field_path": "results[0].updated_date",
+          "value": "2026-10-07T09:51:55.459714"
+        },
+        {
+          "field_path": "results[0].created_date",
+          "value": "2026-10-06T00:00:00"
+        }
+      ]
+    },
+    {
+      "source_file": "State.json",
+      "sha256": "c0a45a9c34207178b996f6ff6c1d152b37d4687c01eb474dae40ce07eca01edb",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "date",
+          "value": "2026-10-08"
+        },
+        {
+          "field_path": "companion_family_count",
+          "value": 1
+        },
+        {
+          "field_path": "companion_work_count_identified",
+          "value": 3
+        },
+        {
+          "field_path": "secondary_author.works_count",
+          "value": 2
+        },
+        {
+          "field_path": "secondary_author.cited_by_count",
+          "value": 1
+        },
+        {
+          "field_path": "secondary_author.filtered_works_meta_count",
+          "value": 1
+        },
+        {
+          "field_path": "secondary_author.filtered_works_returned",
+          "value": 1
+        },
+        {
+          "field_path": "secondary_author.second_work_status",
+          "value": "not identified; author counter and list response disagree"
+        },
+        {
+          "field_path": "works[0].cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "works[1].cited_by_count",
+          "value": 1
+        },
+        {
+          "field_path": "works[2].cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "workflowhub_orcid_followup.deletion_status",
+          "value": "selected for deletion; completion not confirmed"
+        }
+      ]
+    }
+  ]
+}

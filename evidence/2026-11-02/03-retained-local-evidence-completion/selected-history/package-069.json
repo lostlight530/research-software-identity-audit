@@ -1,0 +1,243 @@
+{
+  "source_category": "用户页面",
+  "source_date_label": "2026-10-14",
+  "source_package_label": "user-zenodo-page-evening",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "PageApiReconciliation.csv",
+      "sha256": "0ac365d654c911954246d1be9d9cca1aa76299d8089fcd445b490d96f79f169d",
+      "bytes": 842,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "3d2b3324a6e361a4467945d2577c3bf373a3e89616588cc299dec41a29ae68f6",
+      "bytes": 464,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "UserPageSource.json",
+      "sha256": "d4faae636cfb547aaa106de12ec509c4789b868ca6b81cc06f597387eee1f286",
+      "bytes": 3065,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "UserPageSource.json",
+      "sha256": "d4faae636cfb547aaa106de12ec509c4789b868ca6b81cc06f597387eee1f286",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "source_kind",
+          "value": "user_supplied_page_text"
+        },
+        {
+          "field_path": "observation_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "user_time_label",
+          "value": "晚上8点"
+        },
+        {
+          "field_path": "exact_capture_timestamp",
+          "value": null
+        },
+        {
+          "field_path": "page_counter_semantics",
+          "value": "family_cumulative_unique_fields"
+        },
+        {
+          "field_path": "rows[0].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "rows[0].page_unique_views",
+          "value": 174
+        },
+        {
+          "field_path": "rows[0].page_unique_downloads",
+          "value": 4
+        },
+        {
+          "field_path": "rows[0].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "rows[1].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "rows[1].page_unique_views",
+          "value": 131
+        },
+        {
+          "field_path": "rows[1].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[1].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "rows[2].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "rows[2].page_unique_views",
+          "value": 154
+        },
+        {
+          "field_path": "rows[2].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[2].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "rows[3].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "rows[3].page_unique_views",
+          "value": 110
+        },
+        {
+          "field_path": "rows[3].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[3].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "rows[4].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "rows[4].page_unique_views",
+          "value": 134
+        },
+        {
+          "field_path": "rows[4].page_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "rows[4].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "rows[5].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "rows[5].page_unique_views",
+          "value": 122
+        },
+        {
+          "field_path": "rows[5].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[5].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "rows[6].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "rows[6].page_unique_views",
+          "value": 137
+        },
+        {
+          "field_path": "rows[6].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[6].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "rows[7].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "rows[7].page_unique_views",
+          "value": 125
+        },
+        {
+          "field_path": "rows[7].page_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "rows[7].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "rows[8].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "rows[8].page_unique_views",
+          "value": 145
+        },
+        {
+          "field_path": "rows[8].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[8].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "rows[9].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "rows[9].page_unique_views",
+          "value": 154
+        },
+        {
+          "field_path": "rows[9].page_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "rows[9].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "rows[10].object_id",
+          "value": ""
+        },
+        {
+          "field_path": "rows[10].page_unique_views",
+          "value": 90
+        },
+        {
+          "field_path": "rows[10].page_unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "rows[10].scope",
+          "value": "audit_runtime_supplement"
+        },
+        {
+          "field_path": "fixed_ten_unique_views_sum",
+          "value": 1386
+        },
+        {
+          "field_path": "fixed_ten_unique_downloads_sum",
+          "value": 7
+        }
+      ]
+    }
+  ]
+}

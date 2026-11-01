@@ -1,0 +1,290 @@
+{
+  "source_category": "用户页面",
+  "source_date_label": "2026-10-31",
+  "source_package_label": "user-portal-snapshot-t1300",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "cfbbb242338356214405017269f899a7efcc9b83daf96d0dd62d585d0678b38d",
+      "bytes": 599,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SourceComparison.json",
+      "sha256": "5ec144d130d06363b33a8692099c6fd394d908b8007061d01d5f727ae860da8b",
+      "bytes": 3089,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "UserSnapshot.json",
+      "sha256": "78586aa6ba57bfa3d0fc5c144fde56f092cf44172038a6134cefdf68c5485ae9",
+      "bytes": 4463,
+      "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+      "cloud_locator": "evidence/2026-10-31/02-noon-user-page-reconciliation/source-provenance.json"
+    },
+    {
+      "source_file": "Verification.json",
+      "sha256": "a5615adfa55ba113e6b7104e95f2cf6a18f87b7944f1f3d721ecb9108bc9f3eb",
+      "bytes": 254,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "SourceComparison.json",
+      "sha256": "5ec144d130d06363b33a8692099c6fd394d908b8007061d01d5f727ae860da8b",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "scope",
+          "value": "cross-source numeric difference only, not same-source period growth"
+        },
+        {
+          "field_path": "workflow[0].user_dashboard_views",
+          "value": 2761
+        },
+        {
+          "field_path": "workflow[0].detail_views",
+          "value": 2735
+        },
+        {
+          "field_path": "workflow[0].numeric_difference_views",
+          "value": 26
+        },
+        {
+          "field_path": "workflow[0].user_dashboard_downloads",
+          "value": 290
+        },
+        {
+          "field_path": "workflow[0].detail_downloads",
+          "value": 290
+        },
+        {
+          "field_path": "workflow[0].numeric_difference_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "workflow[1].user_dashboard_views",
+          "value": 2416
+        },
+        {
+          "field_path": "workflow[1].detail_views",
+          "value": 2388
+        },
+        {
+          "field_path": "workflow[1].numeric_difference_views",
+          "value": 28
+        },
+        {
+          "field_path": "workflow[1].user_dashboard_downloads",
+          "value": 323
+        },
+        {
+          "field_path": "workflow[1].detail_downloads",
+          "value": 317
+        },
+        {
+          "field_path": "workflow[1].numeric_difference_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "workflow[2].user_dashboard_views",
+          "value": 998
+        },
+        {
+          "field_path": "workflow[2].detail_views",
+          "value": 963
+        },
+        {
+          "field_path": "workflow[2].numeric_difference_views",
+          "value": 35
+        },
+        {
+          "field_path": "workflow[2].user_dashboard_downloads",
+          "value": 156
+        },
+        {
+          "field_path": "workflow[2].detail_downloads",
+          "value": 167
+        },
+        {
+          "field_path": "workflow[2].numeric_difference_downloads",
+          "value": -11
+        },
+        {
+          "field_path": "workflow[3].user_dashboard_views",
+          "value": 942
+        },
+        {
+          "field_path": "workflow[3].detail_views",
+          "value": 893
+        },
+        {
+          "field_path": "workflow[3].numeric_difference_views",
+          "value": 49
+        },
+        {
+          "field_path": "workflow[3].user_dashboard_downloads",
+          "value": 51
+        },
+        {
+          "field_path": "workflow[3].detail_downloads",
+          "value": 48
+        },
+        {
+          "field_path": "workflow[3].numeric_difference_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo[0].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "zenodo[0].user_unique_views",
+          "value": 264
+        },
+        {
+          "field_path": "zenodo[0].api_unique_views",
+          "value": 263
+        },
+        {
+          "field_path": "zenodo[1].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "zenodo[1].user_unique_views",
+          "value": 260
+        },
+        {
+          "field_path": "zenodo[1].api_unique_views",
+          "value": 260
+        },
+        {
+          "field_path": "zenodo[2].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "zenodo[2].user_unique_views",
+          "value": 246
+        },
+        {
+          "field_path": "zenodo[2].api_unique_views",
+          "value": 246
+        },
+        {
+          "field_path": "zenodo[3].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "zenodo[3].user_unique_views",
+          "value": 230
+        },
+        {
+          "field_path": "zenodo[3].api_unique_views",
+          "value": 230
+        },
+        {
+          "field_path": "zenodo[4].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "zenodo[4].user_unique_views",
+          "value": 230
+        },
+        {
+          "field_path": "zenodo[4].api_unique_views",
+          "value": 230
+        },
+        {
+          "field_path": "zenodo[5].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "zenodo[5].user_unique_views",
+          "value": 227
+        },
+        {
+          "field_path": "zenodo[5].api_unique_views",
+          "value": 227
+        },
+        {
+          "field_path": "zenodo[6].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "zenodo[6].user_unique_views",
+          "value": 222
+        },
+        {
+          "field_path": "zenodo[6].api_unique_views",
+          "value": 222
+        },
+        {
+          "field_path": "zenodo[7].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "zenodo[7].user_unique_views",
+          "value": 221
+        },
+        {
+          "field_path": "zenodo[7].api_unique_views",
+          "value": 221
+        },
+        {
+          "field_path": "zenodo[8].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "zenodo[8].user_unique_views",
+          "value": 217
+        },
+        {
+          "field_path": "zenodo[8].api_unique_views",
+          "value": 217
+        },
+        {
+          "field_path": "zenodo[9].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "zenodo[9].user_unique_views",
+          "value": 189
+        },
+        {
+          "field_path": "zenodo[9].api_unique_views",
+          "value": 188
+        },
+        {
+          "field_path": "zenodo[10].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "zenodo[10].user_unique_views",
+          "value": 142
+        },
+        {
+          "field_path": "zenodo[10].api_unique_views",
+          "value": 142
+        },
+        {
+          "field_path": "zenodo[11].repository",
+          "value": "life-science-ecosystem-lab"
+        },
+        {
+          "field_path": "zenodo[11].user_unique_views",
+          "value": 9
+        },
+        {
+          "field_path": "zenodo[11].api_unique_views",
+          "value": 9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "record_class": "diagnostic_monitoring_selected_public_fields",
+  "logical_date": "2026-11-02",
+  "batch_start_utc": "2026-11-01T16:46:51.998125+00:00",
+  "batch_end_utc": "2026-11-01T16:52:25.453058+00:00",
+  "source_attempt_rows": 482,
+  "scope_rows": 34,
+  "doi_total": 90,
+  "orcid_query_total": 89,
+  "orcid_groups": 17,
+  "orcid_summaries": 106,
+  "openalex_enumerated": 32,
+  "openaire_successful_queries": 88,
+  "openaire_failed_queries": [
+    {
+      "doi": "10.5281/zenodo.23446162",
+      "total": null,
+      "returned": 0,
+      "complete": false,
+      "request_key": "openaire_all_75_retry1",
+      "status": null,
+      "error": "TimeoutError: The read operation timed out"
+    },
+    {
+      "doi": "10.5281/zenodo.23447089",
+      "total": null,
+      "returned": 0,
+      "complete": false,
+      "request_key": "openaire_all_77_retry1",
+      "status": null,
+      "error": "TimeoutError: The read operation timed out"
+    }
+  ],
+  "contract": {
+    "fixed_objects": 10,
+    "layers": 6,
+    "eligible_object_layer_units": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_analytic_units": 70,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_modified": false,
+    "schedule_modified": false
+  },
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "evidence_references": [
+    "evidence/2026-11-02/01-complete-institutional-recheck/institutional-fields.json",
+    "evidence/2026-11-02/01-complete-institutional-recheck/source-provenance.json"
+  ]
+}

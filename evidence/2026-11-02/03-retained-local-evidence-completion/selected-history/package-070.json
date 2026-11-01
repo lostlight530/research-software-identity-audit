@@ -1,0 +1,239 @@
+{
+  "source_category": "用户页面",
+  "source_date_label": "2026-10-16",
+  "source_package_label": "user-page-update-noon",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "PageObservation.json",
+      "sha256": "4b544cb4d14c068c42279ffc3c33af60fae7b5a3bbaff46b6793e8557241641e",
+      "bytes": 5043,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "5b60a5095cf9d557289c20b2e9a0ea540f28550ee9d6b8fae855f852a9d6437f",
+      "bytes": 473,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoUserPageCounters.csv",
+      "sha256": "b1994e85057e601036e43dde0b382503a60f0920b0981d859b1df275b82895ca",
+      "bytes": 562,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "PageObservation.json",
+      "sha256": "4b544cb4d14c068c42279ffc3c33af60fae7b5a3bbaff46b6793e8557241641e",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "source_class",
+          "value": "user_provided_page_transcription"
+        },
+        {
+          "field_path": "date",
+          "value": "2026-10-16"
+        },
+        {
+          "field_path": "timezone",
+          "value": "Asia/Shanghai"
+        },
+        {
+          "field_path": "workflowhub_user_time_label",
+          "value": "12点"
+        },
+        {
+          "field_path": "workflowhub_exact_capture_timestamp",
+          "value": null
+        },
+        {
+          "field_path": "zenodo_openalex_exact_capture_timestamp",
+          "value": null
+        },
+        {
+          "field_path": "repository_remote_modified",
+          "value": false
+        },
+        {
+          "field_path": "zenodo_counter_semantics",
+          "value": "user-confirmed family page unique counters; cross-family sums are not globally deduplicated persons"
+        },
+        {
+          "field_path": "zenodo[0].unique_views",
+          "value": 181
+        },
+        {
+          "field_path": "zenodo[0].unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo[0].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[1].unique_views",
+          "value": 161
+        },
+        {
+          "field_path": "zenodo[1].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo[1].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[2].unique_views",
+          "value": 161
+        },
+        {
+          "field_path": "zenodo[2].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[2].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[3].unique_views",
+          "value": 150
+        },
+        {
+          "field_path": "zenodo[3].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[3].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[4].unique_views",
+          "value": 142
+        },
+        {
+          "field_path": "zenodo[4].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[4].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[5].unique_views",
+          "value": 139
+        },
+        {
+          "field_path": "zenodo[5].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo[5].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[6].unique_views",
+          "value": 138
+        },
+        {
+          "field_path": "zenodo[6].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[6].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[7].unique_views",
+          "value": 132
+        },
+        {
+          "field_path": "zenodo[7].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo[7].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[8].unique_views",
+          "value": 130
+        },
+        {
+          "field_path": "zenodo[8].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo[8].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[9].unique_views",
+          "value": 115
+        },
+        {
+          "field_path": "zenodo[9].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[9].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[10].unique_views",
+          "value": 96
+        },
+        {
+          "field_path": "zenodo[10].unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo[10].scope",
+          "value": "companion_infrastructure"
+        },
+        {
+          "field_path": "workflowhub[0].views",
+          "value": 1162
+        },
+        {
+          "field_path": "workflowhub[0].downloads",
+          "value": 80
+        },
+        {
+          "field_path": "workflowhub[1].views",
+          "value": 1029
+        },
+        {
+          "field_path": "workflowhub[1].downloads",
+          "value": 111
+        },
+        {
+          "field_path": "workflowhub[2].views",
+          "value": 320
+        },
+        {
+          "field_path": "workflowhub[2].downloads",
+          "value": 13
+        },
+        {
+          "field_path": "openalex.profile_works_count",
+          "value": 26
+        },
+        {
+          "field_path": "openalex.citation_count",
+          "value": 1
+        },
+        {
+          "field_path": "comparisons.previous_user_workflowhub_dashboard.elapsed_time",
+          "value": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "source_category": "平台专项",
+  "source_date_label": "2026-10-07",
+  "source_package_label": "workflow-hub-identity-update",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "Collection.json",
+      "sha256": "dac645e3c954f3804240d44f41c87495540d9582535bb708795c049e0d4fa31d",
+      "bytes": 970,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Followup.json",
+      "sha256": "43d58260f662d3408df4e3a5daac097aecdc8150bcba4289965848e508ffa1b5",
+      "bytes": 625,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "orcid.json",
+      "sha256": "8ecf281f91d72bfe94ef1aec0312b899604d08c3d7ad76a4f54c3596e740fa0a",
+      "bytes": 86020,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "welcome.json",
+      "sha256": "dcc07bdcf28c225bce249ff6243432b53c45d7225f8472ba1f99665de942f0d0",
+      "bytes": 5461,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "zero_v1.json",
+      "sha256": "4a570ddd1122ff00f7cf88cebd270d3664b9b662893f974f90cf49a74b1bd5e0",
+      "bytes": 5511,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "zero_v2.json",
+      "sha256": "789780dcb4e86006179061aacbf3ab2e1c991b6359e97ef0cefa3d6e6a51fd11",
+      "bytes": 5497,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "Collection.json",
+      "sha256": "dac645e3c954f3804240d44f41c87495540d9582535bb708795c049e0d4fa31d",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "welcome.status",
+          "value": 200
+        },
+        {
+          "field_path": "zero_v1.status",
+          "value": 200
+        }
+      ]
+    },
+    {
+      "source_file": "Followup.json",
+      "sha256": "43d58260f662d3408df4e3a5daac097aecdc8150bcba4289965848e508ffa1b5",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "[0].status",
+          "value": 200
+        },
+        {
+          "field_path": "[1].status",
+          "value": 200
+        }
+      ]
+    },
+    {
+      "source_file": "orcid.json",
+      "sha256": "8ecf281f91d72bfe94ef1aec0312b899604d08c3d7ad76a4f54c3596e740fa0a",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "group[0].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "group[1].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "group[2].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "group[3].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "group[4].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "group[5].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "group[6].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "group[7].work-summary[3].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "group[8].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "group[9].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "group[10].work-summary[2].publication-date",
+          "value": null
+        }
+      ]
+    },
+    {
+      "source_file": "welcome.json",
+      "sha256": "dcc07bdcf28c225bce249ff6243432b53c45d7225f8472ba1f99665de942f0d0",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "data.attributes.doi",
+          "value": "10.48546/workflowhub.workflow.2332.1"
+        },
+        {
+          "field_path": "data.attributes.version",
+          "value": null
+        },
+        {
+          "field_path": "data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.versionOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.created",
+          "value": "2026-10-07T13:52:45.000Z"
+        },
+        {
+          "field_path": "data.attributes.updated",
+          "value": "2026-10-07T13:52:46.000Z"
+        }
+      ]
+    },
+    {
+      "source_file": "zero_v1.json",
+      "sha256": "4a570ddd1122ff00f7cf88cebd270d3664b9b662893f974f90cf49a74b1bd5e0",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "data.attributes.doi",
+          "value": "10.48546/workflowhub.workflow.2334.1"
+        },
+        {
+          "field_path": "data.attributes.version",
+          "value": null
+        },
+        {
+          "field_path": "data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.versionOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.created",
+          "value": "2026-10-07T14:26:20.000Z"
+        },
+        {
+          "field_path": "data.attributes.updated",
+          "value": "2026-10-07T14:26:20.000Z"
+        }
+      ]
+    },
+    {
+      "source_file": "zero_v2.json",
+      "sha256": "789780dcb4e86006179061aacbf3ab2e1c991b6359e97ef0cefa3d6e6a51fd11",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "data.attributes.doi",
+          "value": "10.48546/workflowhub.workflow.2334.2"
+        },
+        {
+          "field_path": "data.attributes.version",
+          "value": null
+        },
+        {
+          "field_path": "data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.versionOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "data.attributes.created",
+          "value": "2026-10-07T14:41:09.000Z"
+        },
+        {
+          "field_path": "data.attributes.updated",
+          "value": "2026-10-07T14:41:09.000Z"
+        }
+      ]
+    }
+  ]
+}

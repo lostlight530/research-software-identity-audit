@@ -189,3 +189,9 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 - [2026-11-01 / 02-followup-identity-infrastructure](2026-11-01/02-followup-identity-infrastructure/README.md) — independent same-day post-PR-#80 source-snapshot follow-up, **one RS03 main change** (two commits, one path, original A2 blocked), 11 tag/Release/PR crosschecks, seven-platform identity representations and 34 exact source-access attempts; **source-clock race documented, no new fixed Release/DOI, no scientific source correction, no prospective cells**.
 - [2026-11-01 / 03-openalex-version-query-scope](2026-11-01/03-openalex-version-query-scope/) — 10 exact version-DOI OpenAlex lookup excerpts returned concept-primary Work DOI; version-level Work identity remains unproven, diagnostic only
+
+## November 2 independent recheck and retained local completion
+
+- [2026-11-02/01-complete-institutional-recheck](2026-11-02/01-complete-institutional-recheck/README.md) — 34 service rows, 90 DOI attempts and partial OpenAIRE results; diagnostic/retrospective only, zero prospective cells
+- [2026-11-02/02-all-version-recheck](2026-11-02/02-all-version-recheck/README.md) — 57 Zenodo versions and 48 family joins; diagnostic/retrospective only, zero prospective cells
+- [2026-11-02/03-retained-local-evidence-completion](2026-11-02/03-retained-local-evidence-completion/README.md) — source-dated local coverage inventory and missing selected fields; diagnostic/retrospective only, zero prospective cells

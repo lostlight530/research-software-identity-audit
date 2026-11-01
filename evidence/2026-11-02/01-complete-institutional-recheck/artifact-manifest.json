@@ -1,0 +1,60 @@
+{
+  "scope": "published selected fields only; excludes original local HTTP payloads, this manifest and global index",
+  "files": [
+    {
+      "path": "evidence/2026-11-02/01-complete-institutional-recheck/doi-identifiers.csv",
+      "bytes": 3505,
+      "sha256": "c6cf456ab7e91a7cf1dc7b5311e19bbb89895545bc65652a750175123a2a5444"
+    },
+    {
+      "path": "evidence/2026-11-02/01-complete-institutional-recheck/doi-inventory-change.json",
+      "bytes": 537,
+      "sha256": "8d81a2bbb26782e43f123e48bc277a07b1efd7d24366e37433250a5dfc1202a6"
+    },
+    {
+      "path": "evidence/2026-11-02/01-complete-institutional-recheck/institutional-fields.json",
+      "bytes": 45316,
+      "sha256": "cd141490babf0ffca6bf6a5d8fdcf52136133069d92ad283f3008603a5ab7483"
+    },
+    {
+      "path": "evidence/2026-11-02/01-complete-institutional-recheck/openaire-cross-type-inventory.json",
+      "bytes": 52223,
+      "sha256": "2c34c3ace028f00622dcd35bfd740ab2ab3158170dbfca9dded64d288e8f8869"
+    },
+    {
+      "path": "evidence/2026-11-02/01-complete-institutional-recheck/README.md",
+      "bytes": 476,
+      "sha256": "7c3f815d8b0f534b11324d66f618ef8d70091b40034a04ea6c1e0139e55712fb"
+    },
+    {
+      "path": "evidence/2026-11-02/01-complete-institutional-recheck/source-provenance.json",
+      "bytes": 622,
+      "sha256": "878badce5b2efaea129241c714e7f3abf2415788726a37cf1bf750439f9fbb2a"
+    },
+    {
+      "path": "evidence/2026-11-02/01-complete-institutional-recheck/surface-results.json",
+      "bytes": 19385,
+      "sha256": "e48cd52d4aa25f2282bdf5c9780a59550517c4f1f820a3b00d0aeca643bf65db"
+    },
+    {
+      "path": "monitoring/2026-11-02/01-complete-institutional-recheck/platform-results.csv",
+      "bytes": 12211,
+      "sha256": "1cb51e7b20752dbf8608c5c70db5cd3a468bf1012e4d3f1a367fd3893bc37dc0"
+    },
+    {
+      "path": "monitoring/2026-11-02/01-complete-institutional-recheck/README.md",
+      "bytes": 1977,
+      "sha256": "05d64c675b795422b945dd3f0bbf53ffbebeac8db8d2a01e118229cb1240bd0d"
+    },
+    {
+      "path": "monitoring/2026-11-02/01-complete-institutional-recheck/record.json",
+      "bytes": 1551,
+      "sha256": "4e3e749103aa1ac5061f241e6a4d7948c2eb4398f5b2256848883446df3345b1"
+    },
+    {
+      "path": "monitoring/2026-11-02/01-complete-institutional-recheck/source-attempts.csv",
+      "bytes": 125245,
+      "sha256": "b12abafb9325d8a76aadd7cf8a474c0b550aecfd2074bd16dae1961dce804178"
+    }
+  ]
+}

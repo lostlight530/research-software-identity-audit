@@ -1,0 +1,286 @@
+{
+  "source_category": "修正对账",
+  "source_date_label": "2026-10-12",
+  "source_package_label": "metric-provenance-correction",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "ApiMetricLedger.json",
+      "sha256": "6971ca39cfc7d3ecfe52490e5a89189ae6c58298e7a056e5e7addda3bdafd199",
+      "bytes": 3599,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "CorrectionCoverage.json",
+      "sha256": "a7974a0f42593ba26e78418039a920436c67293e027fa57f3811fbc6b637e889",
+      "bytes": 3095,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "FourCheckpointFieldComparison.csv",
+      "sha256": "a7b6b87e4dee904d11ea9bb7d52b664128d4fb8d4974a4ed123cae0e01e39273",
+      "bytes": 512,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "917a9cce2912ad6951cfe5d18f8c96e9794153ad8f0d4fdaf1d59d289514ad15",
+      "bytes": 774,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "UserHistoricalPageNodes.json",
+      "sha256": "bdff6998978d26aa34cc8ea2d220428ad20fd906b696b498a3ae5079b51bcd53",
+      "bytes": 2852,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Verification.json",
+      "sha256": "cd43b73f4c118d3aaec81db1066846efea1972d03c0ed0bcfbc755116169619b",
+      "bytes": 447,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "ApiMetricLedger.json",
+      "sha256": "6971ca39cfc7d3ecfe52490e5a89189ae6c58298e7a056e5e7addda3bdafd199",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "field_semantics.views",
+          "value": "API family total view events"
+        },
+        {
+          "field_path": "field_semantics.downloads",
+          "value": "API family total download events"
+        },
+        {
+          "field_path": "field_semantics.unique_views",
+          "value": "API family unique views under platform time-window definition"
+        },
+        {
+          "field_path": "field_semantics.unique_downloads",
+          "value": "API family unique downloads under platform time-window definition"
+        },
+        {
+          "field_path": "records[0].fixed_family_count",
+          "value": 10
+        },
+        {
+          "field_path": "records[0].version_scope",
+          "value": "non-version stats fields, family aggregate"
+        },
+        {
+          "field_path": "records[0].views",
+          "value": 533
+        },
+        {
+          "field_path": "records[0].downloads",
+          "value": 7
+        },
+        {
+          "field_path": "records[0].unique_views",
+          "value": 511
+        },
+        {
+          "field_path": "records[0].unique_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "records[1].fixed_family_count",
+          "value": 10
+        },
+        {
+          "field_path": "records[1].version_scope",
+          "value": "non-version stats fields, family aggregate"
+        },
+        {
+          "field_path": "records[1].views",
+          "value": 870
+        },
+        {
+          "field_path": "records[1].downloads",
+          "value": 7
+        },
+        {
+          "field_path": "records[1].unique_views",
+          "value": 822
+        },
+        {
+          "field_path": "records[1].unique_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "records[2].fixed_family_count",
+          "value": 10
+        },
+        {
+          "field_path": "records[2].version_scope",
+          "value": "non-version stats fields, family aggregate"
+        },
+        {
+          "field_path": "records[2].views",
+          "value": 990
+        },
+        {
+          "field_path": "records[2].downloads",
+          "value": 7
+        },
+        {
+          "field_path": "records[2].unique_views",
+          "value": 864
+        },
+        {
+          "field_path": "records[2].unique_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "records[3].fixed_family_count",
+          "value": 10
+        },
+        {
+          "field_path": "records[3].version_scope",
+          "value": "non-version stats fields, family aggregate"
+        },
+        {
+          "field_path": "records[3].views",
+          "value": 1993
+        },
+        {
+          "field_path": "records[3].downloads",
+          "value": 8
+        },
+        {
+          "field_path": "records[3].unique_views",
+          "value": 1179
+        },
+        {
+          "field_path": "records[3].unique_downloads",
+          "value": 7
+        },
+        {
+          "field_path": "records[4].fixed_family_count",
+          "value": 10
+        },
+        {
+          "field_path": "records[4].version_scope",
+          "value": "non-version stats fields, family aggregate"
+        },
+        {
+          "field_path": "records[4].views",
+          "value": 2002
+        },
+        {
+          "field_path": "records[4].downloads",
+          "value": 8
+        },
+        {
+          "field_path": "records[4].unique_views",
+          "value": 1188
+        },
+        {
+          "field_path": "records[4].unique_downloads",
+          "value": 7
+        },
+        {
+          "field_path": "records[5].fixed_family_count",
+          "value": 10
+        },
+        {
+          "field_path": "records[5].version_scope",
+          "value": "non-version stats fields, family aggregate"
+        },
+        {
+          "field_path": "records[5].views",
+          "value": 2039
+        },
+        {
+          "field_path": "records[5].downloads",
+          "value": 8
+        },
+        {
+          "field_path": "records[5].unique_views",
+          "value": 1221
+        },
+        {
+          "field_path": "records[5].unique_downloads",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "source_file": "CorrectionCoverage.json",
+      "sha256": "a7974a0f42593ba26e78418039a920436c67293e027fa57f3811fbc6b637e889",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "date",
+          "value": "2026-10-12"
+        },
+        {
+          "field_path": "scope",
+          "value": "local audit documentation only"
+        },
+        {
+          "field_path": "repository_changed",
+          "value": false
+        }
+      ]
+    },
+    {
+      "source_file": "UserHistoricalPageNodes.json",
+      "sha256": "bdff6998978d26aa34cc8ea2d220428ad20fd906b696b498a3ae5079b51bcd53",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "nodes[0].version_scope",
+          "value": "all_versions_family_aggregate"
+        },
+        {
+          "field_path": "nodes[0].scope",
+          "value": "fixed_ten_family_sums"
+        },
+        {
+          "field_path": "nodes[0].unique_views",
+          "value": 116
+        },
+        {
+          "field_path": "nodes[0].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "nodes[0].timestamp_provenance",
+          "value": "User clarified on 2026-10-12; not a contemporaneous API capture"
+        },
+        {
+          "field_path": "nodes[1].version_scope",
+          "value": "all_versions_family_aggregate"
+        },
+        {
+          "field_path": "nodes[1].scope",
+          "value": "fixed_ten_family_sums"
+        },
+        {
+          "field_path": "nodes[1].unique_views",
+          "value": 496
+        },
+        {
+          "field_path": "nodes[1].unique_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "nodes[1].timestamp_provenance",
+          "value": "User clarified on 2026-10-12; prior source times 08:50 and 09:15 refer to other source assertions"
+        }
+      ]
+    }
+  ]
+}

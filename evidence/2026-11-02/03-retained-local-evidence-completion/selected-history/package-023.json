@@ -1,0 +1,109 @@
+{
+  "source_category": "平台专项",
+  "source_date_label": "2026-10-08",
+  "source_package_label": "workflow-hub-final-test",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "FinalState.json",
+      "sha256": "4878644474ede16dc3f4cac972242d2354c52b528962e7cf88ebedeb0dd13cea",
+      "bytes": 3550,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "FinalState.json",
+      "sha256": "4878644474ede16dc3f4cac972242d2354c52b528962e7cf88ebedeb0dd13cea",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "record_date",
+          "value": "2026-10-08"
+        },
+        {
+          "field_path": "source_class",
+          "value": "user_completed_test_report"
+        },
+        {
+          "field_path": "fixed_software_family_count",
+          "value": 10
+        },
+        {
+          "field_path": "workflow_object_count",
+          "value": 2
+        },
+        {
+          "field_path": "version_doi_count",
+          "value": 4
+        },
+        {
+          "field_path": "datacite_commons_work_count_user_observed",
+          "value": 4
+        },
+        {
+          "field_path": "orcid_final_four_work_count_verified",
+          "value": false
+        },
+        {
+          "field_path": "orcid_status_user_report",
+          "value": "propagation slower this time; user ended test; no follow-up requested"
+        },
+        {
+          "field_path": "objects[0].version",
+          "value": 1
+        },
+        {
+          "field_path": "objects[0].doi",
+          "value": "10.48546/workflowhub.workflow.2334.1"
+        },
+        {
+          "field_path": "objects[0].commons_status",
+          "value": "observed by user"
+        },
+        {
+          "field_path": "objects[1].version",
+          "value": 2
+        },
+        {
+          "field_path": "objects[1].doi",
+          "value": "10.48546/workflowhub.workflow.2334.2"
+        },
+        {
+          "field_path": "objects[1].commons_status",
+          "value": "observed by user"
+        },
+        {
+          "field_path": "objects[2].version",
+          "value": 1
+        },
+        {
+          "field_path": "objects[2].doi",
+          "value": "10.48546/workflowhub.workflow.2332.1"
+        },
+        {
+          "field_path": "objects[2].commons_status",
+          "value": "observed by user"
+        },
+        {
+          "field_path": "objects[3].version",
+          "value": 2
+        },
+        {
+          "field_path": "objects[3].doi",
+          "value": "10.48546/workflowhub.workflow.2332.2"
+        },
+        {
+          "field_path": "objects[3].commons_status",
+          "value": "observed by user"
+        },
+        {
+          "field_path": "orcid_followup.deletion_status",
+          "value": "selected for deletion; completion not confirmed"
+        }
+      ]
+    }
+  ]
+}

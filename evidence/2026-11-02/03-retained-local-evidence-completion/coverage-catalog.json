@@ -1,0 +1,4321 @@
+[
+  {
+    "package_id": 1,
+    "source_category": "交接旁证",
+    "source_date_label": "2026-10-08",
+    "source_package": "repository-handoff",
+    "direct_source_files": 3,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-001.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "HardeningValidation.json",
+        "sha256": "93381463b06e864ca096f757c015ccca4c581f538495ddd7f2c504eee8a3471f",
+        "bytes": 1080,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ReviewManifest.json",
+        "sha256": "f99ec26de491552a1c4a1102888ae617c3a04024c3703b46c39cf3d247c2cdf2",
+        "bytes": 3132,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Status.json",
+        "sha256": "ce87bea24df3bf2b859382b09d7874e27f00fe161ecb5547e6c38097beb2680e",
+        "bytes": 1276,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 2,
+    "source_category": "交接旁证",
+    "source_date_label": "2026-10-15",
+    "source_package": "eleven-repository-merge",
+    "direct_source_files": 4,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-002.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "FinalLocalVerification.json",
+        "sha256": "ff2b8b3caf63225327dae1331b1dc011740e22caad6e49a327e0980bee41d48c",
+        "bytes": 466,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MergeEvidenceReceipt.json",
+        "sha256": "07d69e62eca6b3a742a96a8de87467aed037ec14521eeff2f12bdf14bde3dac4",
+        "bytes": 399388,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PluginRepositorySnapshots.json",
+        "sha256": "1125d0cc2082b4600f435c4f0cce32e03926c10347191c986f289685dee45b99",
+        "bytes": 193938,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PostMergeVerification.json",
+        "sha256": "d4d973f6b15201e51b8009c9d5e334320518c8052e901ef2e0d8f5c60bb4c957",
+        "bytes": 5247,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 3,
+    "source_category": "修正对账",
+    "source_date_label": "2026-10-07",
+    "source_package": "method-correction",
+    "direct_source_files": 4,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-003.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "BeforeCollectionContract.json",
+        "sha256": "f04d259ce30d271949d84173d317eecaf1881baac8be8278e3fb59e63431208a",
+        "bytes": 3440,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "BeforeResults.json",
+        "sha256": "5e433ac1d2ce00a6bb8804b9477a187de110182c14233d7df3fb0fc73a800601",
+        "bytes": 253924,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "BeforeTenRepositoryWave2Evidence20261007.json",
+        "sha256": "6485df61bd0845e7f3eb08dbf4bff1ee109325177b9add3271541b3ef6adfb01",
+        "bytes": 8516,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CorrectionLedger.json",
+        "sha256": "0368069f28837caa697fdfb1e18a2b2dfb3e2d447e106e03d58f2b314f0c73bb",
+        "bytes": 1888,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 4,
+    "source_category": "修正对账",
+    "source_date_label": "2026-10-12",
+    "source_package": "metric-provenance-correction",
+    "direct_source_files": 6,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-004.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ApiMetricLedger.json",
+        "sha256": "6971ca39cfc7d3ecfe52490e5a89189ae6c58298e7a056e5e7addda3bdafd199",
+        "bytes": 3599,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CorrectionCoverage.json",
+        "sha256": "a7974a0f42593ba26e78418039a920436c67293e027fa57f3811fbc6b637e889",
+        "bytes": 3095,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FourCheckpointFieldComparison.csv",
+        "sha256": "a7b6b87e4dee904d11ea9bb7d52b664128d4fb8d4974a4ed123cae0e01e39273",
+        "bytes": 512,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "917a9cce2912ad6951cfe5d18f8c96e9794153ad8f0d4fdaf1d59d289514ad15",
+        "bytes": 774,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserHistoricalPageNodes.json",
+        "sha256": "bdff6998978d26aa34cc8ea2d220428ad20fd906b696b498a3ae5079b51bcd53",
+        "bytes": 2852,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "cd43b73f4c118d3aaec81db1066846efea1972d03c0ed0bcfbc755116169619b",
+        "bytes": 447,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 5,
+    "source_category": "修正对账",
+    "source_date_label": "2026-10-18",
+    "source_package": "research-history-reconciliation",
+    "direct_source_files": 4,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-005.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ClaimAssessment.csv",
+        "sha256": "22ed09968e7e7877b28cb74650c7b09b499022ee052739da4a2ba651a6ece614",
+        "bytes": 5809,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ClaimAssessment.json",
+        "sha256": "c375c62af12028a3b7c4e372af8394e952d374997f2541492145eb7b51ceb2ea",
+        "bytes": 12559,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "LocalSourceInventory.json",
+        "sha256": "3b0b8d447bcaac322a659ae2d28c3abbc04f86f14628fee71c876409404499a0",
+        "bytes": 3403,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "1184944d3e97da95904f9fcc979ce20a290aeb993108bbf07fd5d9e8ed82665e",
+        "bytes": 393,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 6,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-04",
+    "source_package": "ten-repository-release-and-orcid-evidence.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-006.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ten-repository-release-and-orcid-evidence.json",
+        "sha256": "1eeaaf542bf941eb974eb7639625ed4534be01edf1de5bec783445bdc112ee07",
+        "bytes": 576810,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 7,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-04",
+    "source_package": "ten-repository-semantic-drift-evidence.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-007.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ten-repository-semantic-drift-evidence.json",
+        "sha256": "acd498c3930842e0f6e30f7ea604056279569752f23afe21dbc6fed3c217269c",
+        "bytes": 461437,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 8,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-06",
+    "source_package": "ten-repository-extension-facility-status.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-008.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ten-repository-extension-facility-status.json",
+        "sha256": "dc6682b561946ffe05b2ca5609c2a04c875fb321ad26ba0dabf4514f7d2fc83d",
+        "bytes": 2260,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 9,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-06",
+    "source_package": "ten-repository-research-identity-evidence.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-009.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ten-repository-research-identity-evidence.json",
+        "sha256": "a90fc329e79474e930fca82046b8091d46df3ab78e7bdd8123d959f65b76da64",
+        "bytes": 282121,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 10,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-07",
+    "source_package": "open-alex-author-works-lookup.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-010.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "open-alex-author-works-lookup.json",
+        "sha256": "bea9997d60a359f49305f83163011041cd9e474b00f10117d08e9fb995812bb0",
+        "bytes": 747,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 11,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-07",
+    "source_package": "open-alex-author-works-response.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "SOURCE_INDEX_ONLY_OR_ALREADY_CITED",
+    "sources": [
+      {
+        "source_file": "open-alex-author-works-response.json",
+        "sha256": "b6f9af9495c094dc82c5d9c7f66c5252358b96ff75303a5c8a09fcbf4bfed6b1",
+        "bytes": 361090,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 12,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-07",
+    "source_package": "open-alex-targeted-lookup.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-012.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "open-alex-targeted-lookup.json",
+        "sha256": "e675abc8182e5d459f091dbec896482e488ebf55999a4b854d20a94f53369529",
+        "bytes": 2934,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 13,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-07",
+    "source_package": "open-alex-w72-response.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "SOURCE_INDEX_ONLY_OR_ALREADY_CITED",
+    "sources": [
+      {
+        "source_file": "open-alex-w72-response.json",
+        "sha256": "67bee8c05181a21dfc2c6742591d61a3c4a3a583e7eb874892fff0edeeade9e0",
+        "bytes": 13441,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 14,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-07",
+    "source_package": "ten-repository-extension-facility-status.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-014.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ten-repository-extension-facility-status.json",
+        "sha256": "f888e56d910f10d34d2285e4260378d9dedd860a0c6db34345062448e82b0103",
+        "bytes": 3361,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 15,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-07",
+    "source_package": "ten-repository-wave2-evidence.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-015.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ten-repository-wave2-evidence.json",
+        "sha256": "a7f7c12742b0986494109e7a6d2f33c6b8544aab0db169a0283184dc44b04bca",
+        "bytes": 9025,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 16,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-07",
+    "source_package": "wave2-update-manifest.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "SOURCE_INDEX_ONLY_OR_ALREADY_CITED",
+    "sources": [
+      {
+        "source_file": "wave2-update-manifest.json",
+        "sha256": "70b420a06554fe249fb478e397b9e57045ec425df9e5a2712e68c6ee1ea99a82",
+        "bytes": 3374,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 17,
+    "source_category": "历史散件",
+    "source_date_label": "2026-10-08",
+    "source_package": "eleven-repository-views.csv",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "SOURCE_INDEX_ONLY_OR_ALREADY_CITED",
+    "sources": [
+      {
+        "source_file": "eleven-repository-views.csv",
+        "sha256": "0d3d554a7ae343b58d209a8124ef9cfb90c57105eee86d5d9eaa4fa695b53a86",
+        "bytes": 512,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 18,
+    "source_category": "历史散件",
+    "source_date_label": "2038-07-22",
+    "source_package": "open-alex-w72-response.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "SOURCE_INDEX_ONLY_OR_ALREADY_CITED",
+    "sources": [
+      {
+        "source_file": "open-alex-w72-response.json",
+        "sha256": "afd22fd6bd21e098d26be5291e94afe39009587c7260d8184a0a347568ed0b24",
+        "bytes": 11988,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 19,
+    "source_category": "历史散件",
+    "source_date_label": "undated",
+    "source_package": "facility-evidence.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-019.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "facility-evidence.json",
+        "sha256": "1226f3e16795f8ccc3c586a6c32793c7b7f281bbccd4cf2c714320f963f1ae49",
+        "bytes": 380163,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 20,
+    "source_category": "历史散件",
+    "source_date_label": "undated",
+    "source_package": "usage-evidence.json",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-020.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "usage-evidence.json",
+        "sha256": "cf4a0fb6efeb80adbc1d50673189194adf2b14f6ea47658643588a53ad63d457",
+        "bytes": 8225,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 21,
+    "source_category": "平台专项",
+    "source_date_label": "2026-10-07",
+    "source_package": "workflow-hub-identity-update",
+    "direct_source_files": 6,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-021.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "Collection.json",
+        "sha256": "dac645e3c954f3804240d44f41c87495540d9582535bb708795c049e0d4fa31d",
+        "bytes": 970,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Followup.json",
+        "sha256": "43d58260f662d3408df4e3a5daac097aecdc8150bcba4289965848e508ffa1b5",
+        "bytes": 625,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "orcid.json",
+        "sha256": "8ecf281f91d72bfe94ef1aec0312b899604d08c3d7ad76a4f54c3596e740fa0a",
+        "bytes": 86020,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "welcome.json",
+        "sha256": "dcc07bdcf28c225bce249ff6243432b53c45d7225f8472ba1f99665de942f0d0",
+        "bytes": 5461,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "zero_v1.json",
+        "sha256": "4a570ddd1122ff00f7cf88cebd270d3664b9b662893f974f90cf49a74b1bd5e0",
+        "bytes": 5511,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "zero_v2.json",
+        "sha256": "789780dcb4e86006179061aacbf3ab2e1c991b6359e97ef0cefa3d6e6a51fd11",
+        "bytes": 5497,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 22,
+    "source_category": "平台专项",
+    "source_date_label": "2026-10-08",
+    "source_package": "open-alex-identity-update",
+    "direct_source_files": 7,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-022.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "beta.json",
+        "sha256": "f9a1df10e0b1126c058b99a2bdca414d75de798c91056a3898adf8c553e9d560",
+        "bytes": 14404,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Collection.json",
+        "sha256": "384d328589b83c8d16302bb6389f31080b1dbdf901568bba3387a5abc02bc18c",
+        "bytes": 1661,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "concept.json",
+        "sha256": "d0585e8d131db92827ede65c20fb80110d26b5f549e2378419680d13e0cd7f17",
+        "bytes": 11660,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "current.json",
+        "sha256": "bbf411b19172dbab237cd58543926773d0dd31afd1faa710dc4efff7d76b3e2f",
+        "bytes": 9429,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "secondary_author.json",
+        "sha256": "f59f3881d48497fc1e791aa671e324c5bf5fc045ad7c233da1791201b629fa34",
+        "bytes": 3692,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "secondary_works.json",
+        "sha256": "3ae66b0e29ae58f9b744d5727df57d6a532c48c58dd9c646c755115ba73a2aaf",
+        "bytes": 15957,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "State.json",
+        "sha256": "c0a45a9c34207178b996f6ff6c1d152b37d4687c01eb474dae40ce07eca01edb",
+        "bytes": 2141,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 23,
+    "source_category": "平台专项",
+    "source_date_label": "2026-10-08",
+    "source_package": "workflow-hub-final-test",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-023.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "FinalState.json",
+        "sha256": "4878644474ede16dc3f4cac972242d2354c52b528962e7cf88ebedeb0dd13cea",
+        "bytes": 3550,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 24,
+    "source_category": "平台专项",
+    "source_date_label": "2026-10-09",
+    "source_package": "zenodo-eleven-recheck",
+    "direct_source_files": 4,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-024.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "278fe7932fcdfdb4e22aa93072a962b7e0321299f20ef3d4129fddb171da77db",
+        "bytes": 4502,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "7058fa131860ba6782e5e4609af17bb9399cc3d6669ae566e02e4e43f74f9d0b",
+        "bytes": 8115,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Statistics.csv",
+        "sha256": "adf5f8d8929d3ca49aa4d5f875af447062981a0988b0ef9156c057bde3fb7373",
+        "bytes": 2672,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "00c0346b4b8e203e24f3ecfa3f4aacf3434284af07c097731527585fc00dd165",
+        "bytes": 15598,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 25,
+    "source_category": "平台专项",
+    "source_date_label": "2026-10-12",
+    "source_package": "sci-crunch-ownership-update",
+    "direct_source_files": 3,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-025.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "71bba6ecd9383fd8aed04c0eb932053fb8ddabc6305d74420f98ebb9a1da4ed2",
+        "bytes": 343,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserProvidedStatus.json",
+        "sha256": "46dabd5ccf302148e67a6472a22b102877046bae4beaaddd724435e6183f7e67",
+        "bytes": 1268,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "b332c8418884a5204180be96099ed1f122c2defa7579b09d53406a69c18e426d",
+        "bytes": 597,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 26,
+    "source_category": "平台专项",
+    "source_date_label": "2026-10-20",
+    "source_package": "open-alex-inclusion-candidates",
+    "direct_source_files": 3,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-026.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "Candidates.csv",
+        "sha256": "96e7890f6e17256eb251dcec0c15039296181ba0423ce135b12630861ec202ce",
+        "bytes": 4426,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Selection.json",
+        "sha256": "886c257c6d9196708dd18049f6aa842ed5381412c5f5afdb4bde982b8466ed96",
+        "bytes": 11529,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "4d6b87010ea7061d39880306f12f70b13772747915e3745d514bc59d324ee53b",
+        "bytes": 179,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 27,
+    "source_category": "平台专项",
+    "source_date_label": "2026-10-24",
+    "source_package": "workflow-hub-recheck-t1400",
+    "direct_source_files": 3,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-027.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ObservationSummary.json",
+        "sha256": "8366f026de9304becdb4d879372a3d376436da9c3463a9e54f4c2c18e7fb92f0",
+        "bytes": 1546,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "c090a6db13da623a99e731e86bb91b682d83196da80c8e92d3e85e354f3dd8d2",
+        "bytes": 5536,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "b8ee11658c40fc4fec31119c1e81bd40ca91d5148fbd08a89484767d8a660761",
+        "bytes": 1783,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 28,
+    "source_category": "平台专项",
+    "source_date_label": "2026-10-31",
+    "source_package": "zenodo-all-versions",
+    "direct_source_files": 9,
+    "source_files_already_in_main_or_cited": 4,
+    "selected_projection": "selected-history/package-028.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "AllVersionRecords.json",
+        "sha256": "68cd33ee2435627ab87469fb2814b09f161fca6f1ef93c2a24d676e57f347e04",
+        "bytes": 107167,
+        "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+        "cloud_locator": "evidence/2026-10-31/04-zenodo-all-version-statistics/source-provenance.json"
+      },
+      {
+        "source_file": "AllVersions.csv",
+        "sha256": "ea85fbcc723a0ba4a648bace994a102baec81b6f15200a173033c805f2db6e04",
+        "bytes": 7702,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Contract.json",
+        "sha256": "4b2e84cfb7fc9f8718feb0f5d98231c41e9955ac21688122af933bc8a0a9c4ee",
+        "bytes": 417,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FamilySummary.json",
+        "sha256": "38e00fdc5fd434d300b47f057047a2e44fbe98a36b3599b9e17e0bbd3a41fcfe",
+        "bytes": 7900,
+        "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+        "cloud_locator": "evidence/2026-10-31/04-zenodo-all-version-statistics/source-provenance.json"
+      },
+      {
+        "source_file": "FamilyVersionReconciliation.json",
+        "sha256": "78917379aa6b30b84c0e9813c09627ca895b0caf2249c80a74ed377adaa4fe16",
+        "bytes": 6913,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "91876304036c99ee30018770a4835b4ebe6e2040c34909a20e4bec2794f3ba81",
+        "bytes": 63019,
+        "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+        "cloud_locator": "evidence/2026-10-31/04-zenodo-all-version-statistics/source-provenance.json"
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "c80ea335af55320ecbc89a8fcaa2dac4d7aa94c30ed5b635f79eaf5cb36136a6",
+        "bytes": 17943,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "59dfd011166958b4b81d3a17aef95e364e4afab4ae20cdfa4963ec5ac3f4a569",
+        "bytes": 623,
+        "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+        "cloud_locator": "evidence/2026-10-31/04-zenodo-all-version-statistics/source-provenance.json"
+      },
+      {
+        "source_file": "VersionWaveSummary.json",
+        "sha256": "74a7902246d96ea6a036b2760a2e594319b5e96151bba39bb5290b8ebd6c4a55",
+        "bytes": 1551,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 29,
+    "source_category": "平台专项",
+    "source_date_label": "2026-11-01",
+    "source_package": "zenodo-all-versions",
+    "direct_source_files": 10,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-029.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "AllVersionRecords.json",
+        "sha256": "39cf1e4bbac7bf6789f309fffe5e52d78bc81cdc8c8ec5ca1706b4752b443238",
+        "bytes": 110345,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "AllVersions.csv",
+        "sha256": "a69ebdf71772038c05741bcb04bb5334be3d23baf14466d63ef060fb7940dc24",
+        "bytes": 7975,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ComparisonWith20261031.json",
+        "sha256": "2286c6e8453522d2493b0edda2adc8db3f38d8837ec695718e01c8c4fab2581e",
+        "bytes": 14822,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Contract.json",
+        "sha256": "3a883c890748dcf677f748a09072c71d38d17ee179eceaad13535aebd40d1f24",
+        "bytes": 556,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FamilySummary.json",
+        "sha256": "899240c3210ea30679829127ef630589a7bcf7b74b9773f65175bde89fd07c30",
+        "bytes": 7950,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FamilyVersionReconciliation.json",
+        "sha256": "9c7c85796c3687e8eb5c9655f57b52408e6f2199bef731d76889b0760d1efd09",
+        "bytes": 6915,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "e07ccabad48097941bac2e3da405230dfd50f421d1284b1067677a1d6e81c565",
+        "bytes": 50850,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "e5ec54446573bdd2de5d22483e62dfea808c56c9253756c8318717660d0df165",
+        "bytes": 14280,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "84cda3f66a227135148e4bf9fb5928efe178715c654a5f2d177b9c10ffc1eebf",
+        "bytes": 561,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "VersionWaveSummary.json",
+        "sha256": "363a69b048a6f4e7b973d1a4bb5bf17b4d625398b6dc481a936a294e48f35637",
+        "bytes": 1849,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 31,
+    "source_category": "探索比较",
+    "source_date_label": "2026-10-06",
+    "source_package": "zenodo-agent-system-benchmark",
+    "direct_source_files": 6,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "EXPLORATORY_METADATA_ONLY",
+    "sources": [
+      {
+        "source_file": "BenchmarkResults.json",
+        "sha256": "063527564a726a4c2767ac50483b2ef6ec96164ebef639c6a423bc441c8ffec2",
+        "bytes": 5090,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ConfirmedAgentSystemCohort.csv",
+        "sha256": "93e069721a83e86cf8895b06376ca28ae6d535ff0eff464a5a96bee8925ba208",
+        "bytes": 838232,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EvidenceManifest.json",
+        "sha256": "525363a941689e2f5b5b3f4a01a939b43d8a3e9e9ee56c1ad4164caada210529",
+        "bytes": 2313,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PurposeDecisionLedger.csv",
+        "sha256": "ffe9c40d07c7eaa0e8b990ae73711356f5b7654fed6dc2b9758270c746b4f7a1",
+        "bytes": 1075345,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UnresolvedCandidates.csv",
+        "sha256": "0f5a211b8aa766c39f1fd200d72fbde9e982ec867f38b87b7d9b667664c87a4c",
+        "bytes": 56944,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "0f2a2fbd8d1cca03c3b61d856d9f18a31f13c929b3035dfeda51c4036091486b",
+        "bytes": 204,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 32,
+    "source_category": "探索比较",
+    "source_date_label": "2026-10-06",
+    "source_package": "zenodo-new-software-family-benchmark",
+    "direct_source_files": 9,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "EXPLORATORY_METADATA_ONLY",
+    "sources": [
+      {
+        "source_file": "AllSoftwareFamilyCandidates.csv",
+        "sha256": "9c606466e217317f2f03b894e328bc69e860379ea86cfead1547e0b743050ceb",
+        "bytes": 12375349,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "BenchmarkResults.json",
+        "sha256": "78f5b9ef9bf3ce836ae7deeed5a5ae437515c2816f842f99e6e418f22f88aa53",
+        "bytes": 275508,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "f33b1e369f5884f4bdac4ca8799ace9934ff9942933bf5c091b7a94e72e2757a",
+        "bytes": 610,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CollectionProgress.json",
+        "sha256": "f6852bf87596f784816b6af93eb19f13f5b9ec5c653034e9c6b84ab2d2b424ea",
+        "bytes": 5907,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EvidenceManifest.json",
+        "sha256": "8b8d467f997264ffc3968b3016f2516f2982c9f2676f86f21b883dcfd494ed95",
+        "bytes": 4440,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "IndependentVerification.json",
+        "sha256": "c50ef09139e52d6651012e83013bcf5ffc92bcf1e21831cb546f0ab92b0c1b9d",
+        "bytes": 390,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "LexicalRecentVersionCohort.csv",
+        "sha256": "9291a5b645c7018724043725bec181886b0bcd629712985b1a3235f5a606851e",
+        "bytes": 648876,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "NewSoftwareFamilyCohort.csv",
+        "sha256": "caddbf754b74393ecbcc79efeea4022121a3157e25f5d7042ead9a8714a6e155",
+        "bytes": 11674185,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Validation.json",
+        "sha256": "fede2478ff6b69739bd66b0bc078cc87de7346bd6f4151c8dbf86a2ad9290e33",
+        "bytes": 6102,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 33,
+    "source_category": "探索比较",
+    "source_date_label": "2026-10-07",
+    "source_package": "agent-cohort-refresh",
+    "direct_source_files": 6,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "EXPLORATORY_METADATA_ONLY",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "c4e171b19578b9f57edad2e7b5754ed8fd5bc9c8f6841739e74a0adbe38506b2",
+        "bytes": 457,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EvidenceManifest.json",
+        "sha256": "eb247b1636a2f90723df215c6549afd7267764707fcb661877672547131cbe77",
+        "bytes": 1131,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FailureFollowup.json",
+        "sha256": "c0402f5dce069840addc6876500c5492a7687626c48b70baa732eabe7e163b4f",
+        "bytes": 59428,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "bde17829c2c7ad73022935abf3eb44a2eb3b4ac10b6956a37b6c6defea1b7869",
+        "bytes": 4231,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "TargetRetry.json",
+        "sha256": "ae51cf9c245fe4e7794d72ed96ab239c4d4088d5010ee2171441c8b6e35e902a",
+        "bytes": 6147,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "05fee1bc94202861f6beb88978328de2a0e53ffcbf2437fa3322ed2c503a51aa",
+        "bytes": 56,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 34,
+    "source_category": "探索比较",
+    "source_date_label": "2026-10-07",
+    "source_package": "zenodo-new-software-family-benchmark",
+    "direct_source_files": 5,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "EXPLORATORY_METADATA_ONLY",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "dab4adf9c525450b44b7b47fd3d72bd5f8480bd23a014bea8bcd20f1a2e94426",
+        "bytes": 910,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CollectionProgress.json",
+        "sha256": "17baf776314fc3ef968e461aeaa2e85a5d3bab3861b21b95ad94a1bd99465b2c",
+        "bytes": 479,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EvidenceManifest.json",
+        "sha256": "7e48bc52076b1a460ba722854c1723ece177e142e71f6d0056f541ddfc7716a9",
+        "bytes": 1378,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PartialCollectionVerification.json",
+        "sha256": "01f604f09a47f3c5211e6c4f62ded12d463de006c7a16020478e829af6af2466",
+        "bytes": 3411,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RankingAlternativeProbe.json",
+        "sha256": "21f16955b39f5d7e4e1494b855cf43814fe34e38c773f75ea87bcd8de121bafd",
+        "bytes": 476,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 35,
+    "source_category": "探索比较",
+    "source_date_label": "2026-10-08",
+    "source_package": "agent-cohort-refresh",
+    "direct_source_files": 7,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "EXPLORATORY_METADATA_ONLY",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "44759851748d0ff5b0a2dee6d780df3785e4c7d3bf19eae4d2fe68a4962772b0",
+        "bytes": 682,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EvidenceManifest.json",
+        "sha256": "1b0c9f236a25a8305bfd6220d08fd81366def1728a460e118320ba03955edb45",
+        "bytes": 1044,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FinalTimeoutFollowup.json",
+        "sha256": "54224499936939dd7035ccefd183c6830e8a08bfb9f98318b55e575e07bf38d3",
+        "bytes": 58988,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "NormalizedResponses.json",
+        "sha256": "b9f42cde9f2e7185e92188a36672525b156cc6beca0f994adade26b240872222",
+        "bytes": 3352766,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "a3c57e7ca20f5692efc47068a5a51e71bb02a3114ecb8e010f79273be70e1f0e",
+        "bytes": 3528,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SlowContinuation.json",
+        "sha256": "81beadf3bcb25631e23a19f595fdc49046265724ef54c9024561de94bfc466bb",
+        "bytes": 1236065,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "9b76de47ba9c6f995f2a28a2704f75435c0be7e30349dc9ed5ac77a1cbf9718f",
+        "bytes": 67781,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 36,
+    "source_category": "探索比较",
+    "source_date_label": "2026-10-23",
+    "source_package": "workflow-hub-global-activity",
+    "direct_source_files": 7,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "EXPLORATORY_METADATA_ONLY",
+    "sources": [
+      {
+        "source_file": "AllPublicRecordActivity.csv",
+        "sha256": "dd803bcc9d6a99fba8c3813c08208c83cfcd63ac1e62e9c214055eb10fc12085",
+        "bytes": 361788,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Collection.json",
+        "sha256": "475204c88823d5b5a29e95a31aceb9d458801b996bd44ae8177b3b12ed27d5c7",
+        "bytes": 774454,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Inventory.json",
+        "sha256": "7caae120305f91b94ece48ae46048efec937370c4e915e26d762e3f6bb4c0636",
+        "bytes": 215913,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MatchedSnapshotIncrements.csv",
+        "sha256": "afba4ae7580b0c8b094608f0307f74ca88faf2d3ec7de1448a775681c539b171",
+        "bytes": 45593,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "aae5f1d09f1417dc80811898004c4d2eeb9d8d908e3ae9f5300005b550864654",
+        "bytes": 298471,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Summary.json",
+        "sha256": "9aec829dc30f1ff3328462c941589466b21863d2a0fdbb061e2755d006f122bd",
+        "bytes": 11394,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "a705eda3c9a085197c0362f8eb6a09a9b3a1589311d905cb7f138cc2dc8a4ef1",
+        "bytes": 722,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 37,
+    "source_category": "探索比较",
+    "source_date_label": "2026-10-23",
+    "source_package": "workflow-hub-independent-ranking",
+    "direct_source_files": 13,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "EXPLORATORY_METADATA_ONLY",
+    "sources": [
+      {
+        "source_file": "CalendarMonthLeaders.csv",
+        "sha256": "0ad624b2a6e7cdbad1e994f774f79aa0bd1295dd4d4b9fe0039a370a41492a96",
+        "bytes": 3494,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CalendarMonthRankings.csv",
+        "sha256": "c265b550ad0b2612202302cdf73c47e1203bd3427157f2a09518bdcf705b846f",
+        "bytes": 46714,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CalendarMonthSummary.csv",
+        "sha256": "771e7ee8ab64a6b4e289fe21dc53f586be291d65cbd0d0e57c667bc588a9cac4",
+        "bytes": 2968,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CalendarMonthVerification.json",
+        "sha256": "70c841293e8b8d9663dddd4301206390d3a6e9f5f178fca4066555185e595a5c",
+        "bytes": 62405,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MonthActivity.json",
+        "sha256": "1e962294e2afc58e75a10630e45d6aa54f02d5d7622821544183ffe1798ac1ad",
+        "bytes": 42717,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MonthRankings.csv",
+        "sha256": "195e3fb90fec6a21fb63ec4370aaf9798f1dc48e03208c5e042ad04700318c6c",
+        "bytes": 1913,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "9815e959f78deeb6ca07d9f1103470a816c59cc981e799f1b6d66f7ef0ca86b6",
+        "bytes": 43420,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "93eee4d75e58e38b97dffd4be04f1f3d93c75119dbe98fea63d1e59fbcc71635",
+        "bytes": 219985,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SourceEntryLabelReview.csv",
+        "sha256": "55088031029093acbc2d87f4530d31c1559e5dfaf83256cf53c99d008fe1b34e",
+        "bytes": 36810,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "c43c80e8f894a4b26c6f1739450255a51a9849814861f613c84db405c1323959",
+        "bytes": 10065,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "YearActivity.json",
+        "sha256": "7f84631a9213453c0a30615f78ab1e854f1ae07bf45165b0eead6b07ada38f0b",
+        "bytes": 511192,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "YearRankings.csv",
+        "sha256": "a4977c73241239df70dc29d5667127969be753732c3a68395e3bc0849adb6bc8",
+        "bytes": 40268,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "YearVerification.json",
+        "sha256": "4d9b161f0515799decb7ab4a37471ce10f0d33b0143184f696870c7d0b39b8bd",
+        "bytes": 139100,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 38,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-07",
+    "source_package": "companion-day-one",
+    "direct_source_files": 3,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-038.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "DayOneComparison.json",
+        "sha256": "084f53c4f7de399da965138800979135cb611c93624b79358f77479c1432eb9a",
+        "bytes": 744,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Request.json",
+        "sha256": "8e4bc9f241d16dde4cd8e5f5d8313081b0b759fbdf99da35b959478e3ebf64e7",
+        "bytes": 267,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Response.json",
+        "sha256": "4cfe6255ab618c441065c8c63d9b77befb1304b0663006382bc2424a23748c96",
+        "bytes": 4675,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 39,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-07",
+    "source_package": "independent-facility-audit",
+    "direct_source_files": 5,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-039.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "02633b206c59c345d02475bfdb2a442a739b80e391a12f8c8d693a58eda4330b",
+        "bytes": 4033,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EvidenceManifest.json",
+        "sha256": "41cc36b88b0466d30bee78a6da69192d676b4d8da94de2b6441f48750141ceb3",
+        "bytes": 32969,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "e834c6019a1c1ca2a979cc85ce183a5013fc6e00e85e81df6961e735dcce2ac5",
+        "bytes": 3933,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "bf6d0903bdc524b808e9f9c5c966b28475eea9004a43ae3be7909e64d45fcb51",
+        "bytes": 84816,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "c506b4a81d21fc47b2cbfa648b0b56c9199a7759dfddadc5022d0093c27631d1",
+        "bytes": 254929,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 40,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-07",
+    "source_package": "wave2-inputs",
+    "direct_source_files": 0,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": null,
+    "publication_state": "SOURCE_INDEX_ONLY_OR_ALREADY_CITED",
+    "sources": []
+  },
+  {
+    "package_id": 41,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-08",
+    "source_package": "independent-facility-audit",
+    "direct_source_files": 9,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-041.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "c21b2606377574abfd5b5d9ecbe8ac00366cd301b05bf39d3b95002e96009caa",
+        "bytes": 3742,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EvidenceManifest.json",
+        "sha256": "8837c8301d4775e883543b7f2cf7b1a489712e042153f07f21d99a3f0bcb5924",
+        "bytes": 39496,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ExtensionRequestLog.json",
+        "sha256": "c8320981963b0c40b228efb33292842dbeb2541d2857e66d8680ff8d113af640",
+        "bytes": 2731,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FailureFollowup.json",
+        "sha256": "4d53637ed8a26a16164761b4872b25373ae316a8066bec93ed3e844a46198616",
+        "bytes": 6431,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "e834c6019a1c1ca2a979cc85ce183a5013fc6e00e85e81df6961e735dcce2ac5",
+        "bytes": 3933,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "16ae066caf982a3f00d71ecaea076052590fd698f7f544b702919673846e4010",
+        "bytes": 97317,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "b827ba3e157ca5f7c6d1e8c6d4243fb2174d2d14385dd7080cfb8723342391d2",
+        "bytes": 248463,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SupplementaryResults.json",
+        "sha256": "3c1e46e331033469c474ab1541af04a7007485f7ad984ce1eb194021d3568281",
+        "bytes": 20030,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "67f142e0ebed292f881983481f4c45824b96266df80ee5da43dccdc6254ae578",
+        "bytes": 18835,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 42,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-09",
+    "source_package": "independent-facility-audit",
+    "direct_source_files": 5,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-042.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "d7291c7207f06e39a0ef26b4e1822b3d0c0b5aee037544c065c6389ee2ff3b91",
+        "bytes": 3568,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ExtensionRequestLog.json",
+        "sha256": "09704f78ccf67836905125a57481c5f76f9ad2298f8a15acd35bac96e644c456",
+        "bytes": 2731,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "60306edbc144ffdec4ba04e6a07b690ac69ef212ccc0f8690a1bf847acea1c8a",
+        "bytes": 3863,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "9d748ad67d856abde177224844531f47debf2692512aeef38b695ee33032ce70",
+        "bytes": 91602,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "43292653ccf74874ca0d5c374763eef8f72bec20d568f021c545daa6d956a828",
+        "bytes": 245546,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 43,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-09",
+    "source_package": "independent-facility-audit-evening",
+    "direct_source_files": 12,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-043.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "6f1627af979340a2eb8498b847d8962ad1d4b20899e61543343504c95261b33d",
+        "bytes": 3683,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EveningSummary.json",
+        "sha256": "4ba7bc2ae2d24b4e60fbcada3e16f8eae8bf4438a0a1b148ff466a4c6a6f1de1",
+        "bytes": 40612,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EvidenceManifest.json",
+        "sha256": "e41395d1e4ed9f85e82a8ce710aa9a780ffb770698cbc16ababb5337c6358e75",
+        "bytes": 39674,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ExtensionRequestLog.json",
+        "sha256": "459b75b6f603cf2bc0e97beb086ad220424010f6274de25e95c0172941363346",
+        "bytes": 5563,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexDoiResolution.csv",
+        "sha256": "ce7bf2b8dbb81ff324a16a40fdb7b1bbfdd57a68f70c8b8107585ed33b6e89f5",
+        "bytes": 2390,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexResolutionRequestLog.json",
+        "sha256": "7643ce292c3a139c279c0305d5e32eba4db9c41bc052d442b2d263e2708e5a9f",
+        "bytes": 21743,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "c3f757af8dee607d5072b2d6125dfbaefe7cebc1d50f11cea9e61ce92b0679d1",
+        "bytes": 4068,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "b6d5bb2f7f457d3f182904053c80e0c8f090e7e13d99161e28ffd6e260db45b2",
+        "bytes": 98071,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "8f4dd17106a2ef8e5f56af9f05b2ef2509aef80ba436cde553c99ea334e388df",
+        "bytes": 243124,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserProvidedWorkflowSnapshot.json",
+        "sha256": "ce64091ceb0322d5a0e8c043ac89e237d65cc1040bf6920049bb9a05325ea8bf",
+        "bytes": 1309,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "72794f5bc1a593ea285eacf9ac79bfd06776b41194be885d7b024f51cb8b1e71",
+        "bytes": 81734,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoStatistics.csv",
+        "sha256": "4b67c7924af2147ff373d2939b81977d99e5908dfe58a8ad142d61fb03d772f4",
+        "bytes": 779,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 44,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-10",
+    "source_package": "independent-facility-audit-morning",
+    "direct_source_files": 11,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-044.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "7e21a8914954a268f4784cced9ffd60ed2430e961cdc8ba9f7c8eff975453f14",
+        "bytes": 4016,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ExtensionRequestLog.json",
+        "sha256": "42b1aa799c02c9d92ed5d97870ed4820954e4b1203d35fd8817fdca3a0bff21b",
+        "bytes": 29802,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FollowupRequestLog.json",
+        "sha256": "c30a69d21ac50ec3ea45a1b78a0eed22a5aae0f439188ee432f7368f191db427",
+        "bytes": 13776,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MorningSummary.json",
+        "sha256": "805a772995e595fa3020ccb90f276c50031a3ca5029e421c58e678feadd260bb",
+        "bytes": 26723,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexDoiResolution.csv",
+        "sha256": "dd970447e5d5a5e7c0392aa895b012068a4de5d8ddf978cfb4bdb6ba918ac50e",
+        "bytes": 4513,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "9a601825f2442eb768d94f0160b53b8c0f5494f9008a1d4334403e76a5704d45",
+        "bytes": 3893,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "77635eaae9043d56f1c1fada50acfa5dd8d38678c62d65a489ba4c6087d6b9cb",
+        "bytes": 91446,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "feb9ba6ad3c588a240ceb1bba7159c1117db0eeb8b142db795173620cc06b6e5",
+        "bytes": 241918,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "3537eb7c8a41aed319f2dd038606259be7032aa1613dd6e6646ebebae2db5e0e",
+        "bytes": 37918,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "bc9f1b5fd8fb7ada54c3cbc2027d9994c716dc7bdea745c4dcfdaa213a26c0f3",
+        "bytes": 232,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoStatistics.csv",
+        "sha256": "9045e5e6585ef1cae3bbc832a4d5455417b9634eac6ae7d2a6937c744cc8364b",
+        "bytes": 773,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 45,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-11",
+    "source_package": "independent-facility-audit-afternoon",
+    "direct_source_files": 12,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-045.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "AfternoonSummary.json",
+        "sha256": "ae26c3788166b64505d1f56ea68db83f3e7d76da118b5157702dc03b62a7c6dc",
+        "bytes": 33969,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "f92177eaab42e00f19a5c61261687b570e827d6eceed7fd2bbb6b99a69f812a7",
+        "bytes": 3914,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ExtensionRequestLog.json",
+        "sha256": "6b46dcdf5f1d50e25b3feb678a05032c549c2463ffcc9bd29ad62de244c02ed8",
+        "bytes": 46695,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FollowupRequestLog.json",
+        "sha256": "d888877f186a9c8531f38ed7b39ea62703fc034721f04a19e8dea13ce139ee0b",
+        "bytes": 3833,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexDoiResolution.csv",
+        "sha256": "dd970447e5d5a5e7c0392aa895b012068a4de5d8ddf978cfb4bdb6ba918ac50e",
+        "bytes": 4513,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "9bfe0983872a0ff8bf3c352cd38d8d203c8ee9aed85b603411b00eb652e22da8",
+        "bytes": 3963,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "f1195dff6df878c9262d312f49d16aa985cecd4461de5b7b23a8f3b55c0ac125",
+        "bytes": 95743,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "c3796c5c4e8ab2d242bfea35df27b76630a1870f68b03ca53ef302826bd3b794",
+        "bytes": 234997,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "e6402a760551661736dc8e653254499ed552f0653cc0b179a552580cc7ec6fbb",
+        "bytes": 45647,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "87e3660f71547b3926a72fb1cef14649b678e3c7003e068c636ea0d653d2899a",
+        "bytes": 232,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoStatistics.csv",
+        "sha256": "ffeba438a70a42cbd51c17b1b13c469444fdadc7fe0814f11c99c6830576e3fb",
+        "bytes": 810,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionStatistics.csv",
+        "sha256": "a95efff18b629633edbf32fc628c70fdd8ddd2fdd963a85db73bc505f9909c4a",
+        "bytes": 5582,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 46,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-11",
+    "source_package": "independent-facility-audit-evening",
+    "direct_source_files": 13,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-046.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "6cb8c9854265d74f1c3e87ee54c74ca90255b93f3b1a147a57e249529b1ad4e9",
+        "bytes": 4045,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EveningSummary.json",
+        "sha256": "d9f76004f076c328f1324815210db660c7ed863806974967ec56b3ff955a0e94",
+        "bytes": 55561,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ExtensionRequestLog.json",
+        "sha256": "33873856137a787840c8c22eaf0cef1ce26efd778fe3e7950703ff35e83b2802",
+        "bytes": 50071,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FollowupRequestLog.json",
+        "sha256": "4f49286897268c01120a6a624b432a0f09c8d4ddd027e86db0982f1a75570e79",
+        "bytes": 24164,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "LongReadFollowupRequestLog.json",
+        "sha256": "a3b751246b79196196f60d4c7c78a52891525d4830d4d58af765e785f0285dfa",
+        "bytes": 4863,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexDoiResolution.csv",
+        "sha256": "dd970447e5d5a5e7c0392aa895b012068a4de5d8ddf978cfb4bdb6ba918ac50e",
+        "bytes": 4513,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "409c11420825a22e66b16c5869c711aad8797f530bbc868281f673cc7e35085d",
+        "bytes": 3873,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "84fb9925232c03ad4e1dca4ab4989e1b8fda3a60c1cac44d868d4fee0617172e",
+        "bytes": 84436,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "e2051d620d0e27c9f320d58aa34b3ae929ab01d229df66e9138071d191f9037f",
+        "bytes": 251117,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "2827c5bc6a803c62da1a4b3ec2b3e4dfb1a9158e0740b153fa158e2b285be45f",
+        "bytes": 43775,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "6d9db9c24095a2c4b5e8ca0ca488653671919e34ae738f71e76734f9c2dc0865",
+        "bytes": 232,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoStatistics.csv",
+        "sha256": "06ca67cec1c7cf1f48a2c8c66de8a4ec3bb10f1c45e06494023af51b97f3cc5a",
+        "bytes": 791,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionStatistics.csv",
+        "sha256": "ce2fb8eef390e70462152c2f7235e6598285ef5f650c92df309f76352e750549",
+        "bytes": 5583,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 47,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-12",
+    "source_package": "independent-facility-audit",
+    "direct_source_files": 12,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-047.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "e63539cd6508a712d060d1f4e2640600f411c61dfbcf3288a215907933bf381b",
+        "bytes": 4037,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DailySummary.json",
+        "sha256": "0ef384afc2fd6d6b45dca0f35d7d462d3c99cca097b0f5b01af64ef9508ed8dd",
+        "bytes": 56715,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ExtensionRequestLog.json",
+        "sha256": "e3e3971a99b3845db1b66690feccebff299d46b1908ada2da449706af20f7718",
+        "bytes": 52573,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FollowupRequestLog.json",
+        "sha256": "ab8ec5c64f81bb4f5746ea483811be178221b4b06cd92c5964bcdce50254e669",
+        "bytes": 4705,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexDoiResolution.csv",
+        "sha256": "ec1e5662150ad635184fa9147f0074a73e7b2f49ccdb04dc007f0ec70ecb0c79",
+        "bytes": 1670,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "89ea5a3c1d23113929400ad6b9a63509a47af32ef9e627f4004461d8dfaed0d6",
+        "bytes": 3851,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "99be4ec449fcdb616fd0408055f4dcec192c35a6a954bc6d93019230aaf50a1e",
+        "bytes": 97797,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "c770f466b1d5e36c1ecdcca694aab1b0f50ba8a14a64a6208cc25f7fa1c825e2",
+        "bytes": 268701,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "39c671a1d24dbaf80e15ce59bb05e29f91a437529f0fa1f13374634c36d0d190",
+        "bytes": 47282,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "775d557d820cebab6f06d5caba91bb27b76c84054d226b76e950d9b82a3910e1",
+        "bytes": 276,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoStatistics.csv",
+        "sha256": "641d1e781a52dc956ef96787e60fd4394ca8b4c4620fc5680b1dfeade8dd7b1b",
+        "bytes": 790,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionStatistics.csv",
+        "sha256": "0fb81cb85247a46d209f83ab511e49eb70d85a5ce03a761f8853840e3a3f5a1b",
+        "bytes": 5580,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 48,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-13",
+    "source_package": "independent-facility-audit-night",
+    "direct_source_files": 13,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-048.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "06c6b8cba52e8e1d2f4a7759985954a2a5d3ec567c12ea0bfe0643087378841b",
+        "bytes": 3911,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ExtensionRequestLog.json",
+        "sha256": "bc98eb34146e587ebacf405954c44a97799ed616aa3bf9f01a1fd7f643d1d059",
+        "bytes": 27450,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FollowupRequestLog.json",
+        "sha256": "479e6ab21c3ffcd036a9f7e5fe00e212ced9d66835bf7b16a6aaa260252a7db4",
+        "bytes": 16867,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "NightSummary.json",
+        "sha256": "4086b90a0d36eeed16d0595896189366e0492c35ce894cae0b3fab0b79a87549",
+        "bytes": 9199,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexWorks.csv",
+        "sha256": "c86f486492fb595182498c12437140b6990023dc4a459b3bbc906e7a915698e0",
+        "bytes": 4344,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "b51883e7f87fbaa70b13f986265ef7cfb907e6b1b3dd60ed4bec811f13fce6fe",
+        "bytes": 4089,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "e73cfb5c65d9aad7520cc8dfab438edbf5c170192f17b03b0ecbcff747ae6a7b",
+        "bytes": 93580,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "ba4739fd1458eaf0c3ad40a6986cd0d20e31d77c89c19b9c5401edbee5f92d73",
+        "bytes": 247754,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "f8002f133848305089dc1f5976fd34124538b3095b1b2a355d581bbeaebd7775",
+        "bytes": 40021,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserProvidedPages.json",
+        "sha256": "3d1443610cfbb9a1296c676077e312c892753b60b2007d828e8145ceefea19ea",
+        "bytes": 3141,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "603c0dc75beb98021e855d4272052406b6f07f1a6a5d40376192e434da56151f",
+        "bytes": 231,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoPageApiComparison.csv",
+        "sha256": "56069d04ba6f1a795ba9235c5bd0000ecf0e9a900c51b6597807479932b5a91c",
+        "bytes": 1094,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionStatistics.csv",
+        "sha256": "dd7aa25edf2f1b790516d94ba5569680a5cc62ffd3fb2ffeb81663067be6b8bd",
+        "bytes": 4073,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 49,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-14",
+    "source_package": "independent-facility-audit-evening",
+    "direct_source_files": 20,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-049.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "AllObservedVersionStatistics.csv",
+        "sha256": "462f7fb1d92802073615f5da24365f80006dbce7e82d69c0fd95ad1c336b7b6f",
+        "bytes": 5972,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "9d14def7292c2e56610356fa9b68590e1cd0961dab6936a5ff7c43b842e37728",
+        "bytes": 3963,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EveningDiscoveryRequestLog.json",
+        "sha256": "8e2b8718ed9a569f99059d997920f0e459e2c8c7c307dc17aba78d899d6393e6",
+        "bytes": 52149,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EveningSummary.json",
+        "sha256": "de1beaf75b19e412b11ff7b0e275065635a3038ab50b818d21da296b2e19003c",
+        "bytes": 9238,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ExtensionRequestLog.json",
+        "sha256": "2d12a52abd2a917a526a4b68fb70fb276aa871daa262f44bac2ae3a4575f248a",
+        "bytes": 58579,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FollowupRequestLog.json",
+        "sha256": "4b8d881f4ad8c50d93fe1dad8251ddb60d83797a559f48718e384f7a32171c7e",
+        "bytes": 16471,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "NewReleaseIdentities.json",
+        "sha256": "585f9d307b74892ad4e82336c21e89c36c9f1c08eb83224669e9990608a58756",
+        "bytes": 3252,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "NewReleasePlatformMatrix.csv",
+        "sha256": "5fb915a49ba07a24881b73956b44b6e2255de19459ee719c421494f1585f751a",
+        "bytes": 6004,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "NewReleaseStatistics.csv",
+        "sha256": "dda37793278d433066cbcbb10f7595d2f564cb98eb5361e551a3ffe7c1d8cd1a",
+        "bytes": 4058,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexDoiResolution.csv",
+        "sha256": "3fd5a708e8f70c3b079bfcd833f31435fa261bba2c581d930120cb7d937b89d1",
+        "bytes": 4490,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexWorks.csv",
+        "sha256": "e7a4fb9a816f291882c7462e1479398e9359f38680f7ace51bbd030d2765b599",
+        "bytes": 3320,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "9bfe0983872a0ff8bf3c352cd38d8d203c8ee9aed85b603411b00eb652e22da8",
+        "bytes": 3963,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "7cda91027209a888a84c55cafbd09f0f4788ba6d7852697c467c9440a45047bc",
+        "bytes": 95758,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "cfd280cd001e32cef18590303f8b8214ad7933b812032bcffaee112acee80072",
+        "bytes": 274029,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "02beca0b5a24b58a0e6ecf13f9f4975d3ecd15f07e3e2f1f44300109bdb98bd0",
+        "bytes": 66043,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "bb0f51ec38fcbb646e75a528671e7080a8177e57d68c25ec4927c60d13079581",
+        "bytes": 126,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoFamilyStatistics.csv",
+        "sha256": "a00e4c54b18bc9e2305e0700430dded07c3ae518d76676ef7a2443f45864c177",
+        "bytes": 794,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionEnumerations.json",
+        "sha256": "6eb006bf8dad8c82b7ace481d7e69aecd1b0c7fd88453467ad93a4e965d3ec8c",
+        "bytes": 1308,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionEnumerationVerification.csv",
+        "sha256": "7914cf1b4b5cf70de4e7515901443c630f395f1778c0c278277553024d170266",
+        "bytes": 742,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionStatistics.csv",
+        "sha256": "fce1b6f14a2992846ae7a56b639435e1986ae70f3db03c0d5426a7c80b850d6c",
+        "bytes": 2059,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 50,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-14",
+    "source_package": "independent-facility-audit-midnight",
+    "direct_source_files": 12,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-050.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "e24f91c5fbf1e9430f83c87610aa74dbd1dbf9de6178363a5c7b0cc19d0b4630",
+        "bytes": 3781,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ExtensionRequestLog.json",
+        "sha256": "278627d8b803905404492aef59f6f49a53712c27fad5899d82a103ba6ef8f516",
+        "bytes": 23502,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FollowupRequestLog.json",
+        "sha256": "449a1d09092bbab85891e5ce15e9c1175def12f78b404aac43d80b83e7d0fc7c",
+        "bytes": 24401,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MidnightSummary.json",
+        "sha256": "37170399c0306e46a41b76af40f09ca2a627037d30290d858c0dc38f009ed9cf",
+        "bytes": 3340,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexWorks.csv",
+        "sha256": "e7a4fb9a816f291882c7462e1479398e9359f38680f7ace51bbd030d2765b599",
+        "bytes": 3320,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "193cfa672adf9a5a5af10b9717498b27af55d019ac5cf57a6d3fe7d6eba417e4",
+        "bytes": 4033,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "54ac1291ffd4511a40003e0cfbecd6ffe98ac0a444af931f98b3f074ac0c7d21",
+        "bytes": 95411,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "551daec1e448d3f5acfd79024fa28c5afc84170d10aa3503fae5f532d4305b17",
+        "bytes": 264972,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "90bc03fdf4dca59e71474d77133f6f4cc7fb72157f55dd7febd862047711666f",
+        "bytes": 34021,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "e569d805d1d7307fbf3cc832bdef5e7a79b2acf68ce31d2582593c938ac889e4",
+        "bytes": 126,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoFamilyStatistics.csv",
+        "sha256": "e051889eb3afa1d9bec83be0bf01fdb9c7e416eb17d9a11cf587147d0c496d44",
+        "bytes": 554,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionStatistics.csv",
+        "sha256": "10dcb787179d68d3f21d0afcfd822400dc367cc3ef7ed759a6338df1f201b844",
+        "bytes": 936,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 51,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-14",
+    "source_package": "independent-facility-audit-morning",
+    "direct_source_files": 13,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-051.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "0d981ac7f4780a9bda11dfd813c97af5cd0f1e9e89c6d3ee7d73ab7dd709a916",
+        "bytes": 3781,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ExtensionRequestLog.json",
+        "sha256": "ad06cf4d48d43cbf6845d0df43eda98fa514ac763edfe6693cdea37c5bf27694",
+        "bytes": 58316,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FollowupRequestLog.json",
+        "sha256": "93e0829e44e3a59a436ed342512cddfa7d8045877b80928e0dd7ffee2b2295c1",
+        "bytes": 9894,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MorningSummary.json",
+        "sha256": "8a333abfafdcc2d6b194f8b3bb1846b2ac728f3252fe81e2a8f825807edef17e",
+        "bytes": 3851,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexDoiResolution.csv",
+        "sha256": "3fd5a708e8f70c3b079bfcd833f31435fa261bba2c581d930120cb7d937b89d1",
+        "bytes": 4490,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexWorks.csv",
+        "sha256": "e7a4fb9a816f291882c7462e1479398e9359f38680f7ace51bbd030d2765b599",
+        "bytes": 3320,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "9bfe0983872a0ff8bf3c352cd38d8d203c8ee9aed85b603411b00eb652e22da8",
+        "bytes": 3963,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "218ab143c969bf8e4fd509432268031d2f02e736c4eb62829ec0b7560d3765b9",
+        "bytes": 95477,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Results.json",
+        "sha256": "bfb00c8f8953657db5445c6acc4575f1a0354d3ed956eb2fa09be37ca720e5a2",
+        "bytes": 270963,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "3316c5e2aed05921364e984abc28f20dc6733a0ea77acc7d741aac10a40f9a1e",
+        "bytes": 49993,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "0614f621138e59b6649613207b602c3aceac7588a75707aa7353ba77db67a5b3",
+        "bytes": 126,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoFamilyStatistics.csv",
+        "sha256": "08c85f3431312d525eaec38591c02006a6ed34d42114448841573b6000e5d605",
+        "bytes": 794,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionStatistics.csv",
+        "sha256": "740b3fc030e372b9c42d7498d8c4b6ee5424a1f5ef4b2cad559b78b048a89fb3",
+        "bytes": 2140,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 52,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-15",
+    "source_package": "end-of-day-open-research",
+    "direct_source_files": 1,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-052.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "FinalDeliveryReceipt.json",
+        "sha256": "3e8e64857ec89ee9e04ec93d48225c1c3c45bbb95a1e206027886eb340472754",
+        "bytes": 254339,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 53,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-15",
+    "source_package": "independent-facility-audit-morning",
+    "direct_source_files": 14,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-053.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "28833a9bf603e6c71c40f2f725ad7d00827a2157e784d5ca26ec79578e065a6b",
+        "bytes": 4251,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DataCiteIdentifiers.csv",
+        "sha256": "62cafc56601547dd3290deb5f345c4c423c86cb6bb9c76d2cce0250123f6a947",
+        "bytes": 6061,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MorningSummary.json",
+        "sha256": "b0fe1cd6ad29daa9bd7e6d23672e627902023fbffd6fe35c8fe0d14583e766b2",
+        "bytes": 5172,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexWorks.csv",
+        "sha256": "cb2e0b83c1cd715fc8b5c0a33d1588c1712ac3e1f5de5788b6b8eec88913d334",
+        "bytes": 3418,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OrcidSourceSummaries.csv",
+        "sha256": "744193b053e2afb11de32cc7e2dbebbe86de563491620a080d8d9ede37c49dc9",
+        "bytes": 8768,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "a44ff2eee51ec37ca1c08ffb9d7d0dd1bca0754e215719afa440b873b09fb1c7",
+        "bytes": 6154,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "ff91c32b1fac5ec4797ed15b02408bd75b206534ea4100899f95c58df0df4491",
+        "bytes": 163228,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "8fdd70eab6c391bb67b0846536547d5314d8bc5ce3460ac69e586cf527142e21",
+        "bytes": 51979,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SupplementaryRequestLog.json",
+        "sha256": "840457c3e0b7492c719c1d6aa8793e6846362f2836f05dbc4810c805a6ecbc29",
+        "bytes": 2210,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SwhIdentityChecks.csv",
+        "sha256": "45ffc83a8cdab532b6f3ef13f2971faeed9ae2093853a0ee8c32cf7196138b53",
+        "bytes": 1359,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "WorkflowHubDetailStatistics.csv",
+        "sha256": "9b0d9d77d51ab5bc87b249c01c9a24513b2c417aadfedbf52919777f419a3f4a",
+        "bytes": 183,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoFamilyStatistics.csv",
+        "sha256": "a3744e02142e8765912874595d93ef741a13cc2a29cb99f68d332845efb29e9a",
+        "bytes": 2059,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionEnumerations.csv",
+        "sha256": "fb25288b26dcbf28edfd3ced8bcd4416e1d7cb852fb5ab4bf80fadce7c0f2424",
+        "bytes": 952,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionStatistics.csv",
+        "sha256": "52997cbcb0713b3633c71dbd14efedd7aefebd4af59283b9124d6e1b2ec8bf91",
+        "bytes": 4868,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 54,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-16",
+    "source_package": "independent-facility-audit-eleven",
+    "direct_source_files": 18,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-054.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "2464d3190b6aba390f0b10701ccb5c46fdae3168ab5692586418212119012f99",
+        "bytes": 3969,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DataCiteIdentifiers.csv",
+        "sha256": "a0613952ca958d909115f809569e20e2e388853beca7a468ae887ccdbed208b0",
+        "bytes": 5947,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MidnightToElevenComparison.json",
+        "sha256": "5df2590dc666b4bc5c7ab78f4f9a4d33fef20b9ef5d1673edad0bae220873af7",
+        "bytes": 1312,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ObservationSummary.json",
+        "sha256": "c90af43ea6524cf63a1bc5abc8d406dcc5686d749884e3ef0854e6eb92c87376",
+        "bytes": 4108,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OfflineVerification.json",
+        "sha256": "bbb4c23acad8504fe71804d267d082a7284ea2e0eeef08aedafbe489487acf98",
+        "bytes": 161352,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexCheckpointDoiResolution.csv",
+        "sha256": "2e4774f78c4472618c442a10c2ababc371319569726bb907cab8c1ed401ccde8",
+        "bytes": 1346,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexWorks.csv",
+        "sha256": "2550de4922b3d821f86c0dd73427e7082ea50ea73df7739cd446f6ba8c7faa21",
+        "bytes": 3695,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OrcidSourceSummaries.csv",
+        "sha256": "b33532e065a283490662cf7a7e1276a8890f8e87b0941a7a26274f1b714a1ec9",
+        "bytes": 9284,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "bdda22de4ebf997d6a5dd7ea16cc89a32913769202784144f4559ca6b30425ed",
+        "bytes": 6108,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestCoverage.csv",
+        "sha256": "f4b0eff02c5b249ddd1df442c853cffb9017a17e41f76ae9aa449658ac6de4fc",
+        "bytes": 50195,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "0344c385aee4b1a272211cfe8377ad8ebc882445d46b8bbde7b6be684eb9592d",
+        "bytes": 164457,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "54a7a680b8deded79a786a4b0addee7be6f7305ce352dd0944a911a6a1d1bebc",
+        "bytes": 47402,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SupplementaryRequestLog.json",
+        "sha256": "9d61d3c7161465e27b9bd404dd84b5609526adce90417dfad76dccb0b6c81042",
+        "bytes": 2605,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SwhIdentityChecks.csv",
+        "sha256": "4520896bd12a475f6a357abc7f212c6bd0ef24bd3f72ec419bea6eac5505dc22",
+        "bytes": 809,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "WorkflowHubDetailStatistics.csv",
+        "sha256": "a5dbe1536d2c9ae86251fc754eab6493c5cd7115d2ce3bc709332140d73fb5af",
+        "bytes": 284,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoFamilyStatistics.csv",
+        "sha256": "f3ca40b37b03cad6fde077c4a57ddb10b81350f661c6b70f6f88c80b52b7ef2e",
+        "bytes": 1603,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionEnumerations.csv",
+        "sha256": "0724586bf565bc788844bd95c0cdb670fd75946d386a2d7968d654d3b91546ac",
+        "bytes": 815,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionStatistics.csv",
+        "sha256": "8c4fad1413397fa4728e93c0c3116f43aec4494c98eef3d1671d1974885a0305",
+        "bytes": 3319,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 55,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-16",
+    "source_package": "independent-facility-audit-midnight",
+    "direct_source_files": 16,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-055.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "CollectionContract.json",
+        "sha256": "88812547c628c0ab21b110d8822a96c1d8c5a992651cd2d2984025fcc6fbe22a",
+        "bytes": 3969,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DataCiteIdentifiers.csv",
+        "sha256": "a0613952ca958d909115f809569e20e2e388853beca7a468ae887ccdbed208b0",
+        "bytes": 5947,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ObservationSummary.json",
+        "sha256": "ed4c628a6348e623a466effc22a492561f563309ea9bbb0804abeb4a3f5394f5",
+        "bytes": 4619,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OfflineVerification.json",
+        "sha256": "c517c8640c403ff1399ed6137321f4c53a2eae03d05609749d6adb12787b2633",
+        "bytes": 178827,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexCheckpointDoiResolution.csv",
+        "sha256": "2e4774f78c4472618c442a10c2ababc371319569726bb907cab8c1ed401ccde8",
+        "bytes": 1346,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexWorks.csv",
+        "sha256": "2550de4922b3d821f86c0dd73427e7082ea50ea73df7739cd446f6ba8c7faa21",
+        "bytes": 3695,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OrcidSourceSummaries.csv",
+        "sha256": "b33532e065a283490662cf7a7e1276a8890f8e87b0941a7a26274f1b714a1ec9",
+        "bytes": 9284,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformMatrix.csv",
+        "sha256": "b5a791d5e549cf30346e9b95fb300adeac4944aca24a6479d43f985970b91d96",
+        "bytes": 6144,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestCoverage.csv",
+        "sha256": "5702838fcaee99dc794219df8b3f03dd2b8a8a4a5f828f7c7cdea14345749be0",
+        "bytes": 54532,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "b74fc81763a25860b1562decd43f784822a3da1092e72754437db9a471381e12",
+        "bytes": 174540,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "a7349eab623dbfca94b1c39ab0ae726460de6a43ca575a47c2f88e55a68cf7ec",
+        "bytes": 46143,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SwhIdentityChecks.csv",
+        "sha256": "c23eaca84c6052ab7535df88f562d61a32ce357b57667b1b086474d69f1c36e4",
+        "bytes": 807,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "WorkflowHubDetailStatistics.csv",
+        "sha256": "8b1b258c9529ba008616ab7a540687a36d73849f1c8842211aea708a9d4eeba8",
+        "bytes": 268,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoFamilyStatistics.csv",
+        "sha256": "9c25d6430a05e635f99250155c59ff476067fcb9bcc969085ec6ecc484d007e8",
+        "bytes": 1825,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionEnumerations.csv",
+        "sha256": "bc5a84163d8a5e86e6a7d56f5e2da8bc7106c265c5cdb3313ac9f9cc2b13f07a",
+        "bytes": 1016,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoVersionStatistics.csv",
+        "sha256": "21bf037ca502ecd64e7c9f575c2118e61892d57af36d1045d1492894b8b6196e",
+        "bytes": 5359,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 56,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-18",
+    "source_package": "research-history-independent-verification",
+    "direct_source_files": 6,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-056.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ArchiveVerification.json",
+        "sha256": "a031c5f40768cc804b6eca42a178873eab82bf10470909fd109cee98f1e63f07",
+        "bytes": 6335,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DataCiteIdentifiers.csv",
+        "sha256": "bca4af0bc55951f9be7f9758aa4adddd2c743bbed8c18dcee267aa244b764881",
+        "bytes": 4541,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ObservationSummary.json",
+        "sha256": "4898f9809e7a7252bfaca909b3c18e0b7798a307907151c89c9a08d0db8bf64f",
+        "bytes": 3118,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "f2628ece6fe8ccc4419bb76ff6f4b557e2ff4dfd5b45bb31a5e2c7ab7ecde66b",
+        "bytes": 54000,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "eb9321252f624d856402b28aad2315240f2299bd4ede9e74995709e1203d2982",
+        "bytes": 9350,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoFixedTenStatistics.csv",
+        "sha256": "791a526153cfe9f7b6d1b28184b6dc887b05d0b1011dbe4b02fab97392ee31d6",
+        "bytes": 1302,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 57,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-20",
+    "source_package": "independent-research-recheck",
+    "direct_source_files": 9,
+    "source_files_already_in_main_or_cited": 1,
+    "selected_projection": "selected-history/package-057.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ArchiveVerification.json",
+        "sha256": "d2e5b85a22a4b961021cb0a096e22957edb65702fb4c089de29893824aa1c3c7",
+        "bytes": 2552,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DataCiteIdentifiers.csv",
+        "sha256": "ec2dcaaaf860af511ba1d12cbbf3d23ab0ddbc84cc21e4fbbb82eb7fbb5897d9",
+        "bytes": 4541,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FieldExtracts.json",
+        "sha256": "7750e7082986ccb4136af64b1d5d68223e2c6003c0f6bc6b8e2d8852ede3d858",
+        "bytes": 55436,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ObservationSummary.json",
+        "sha256": "b7629c9dfb688977bffb9b898428c3b8099ebf05bdbe671f758a1227cddd1805",
+        "bytes": 2208,
+        "coverage_state": "CURRENT_MAIN_EXACT_BLOB",
+        "cloud_locator": "monitoring/2026-10-20/01-independent-research-recheck/record.json"
+      },
+      {
+        "source_file": "OfflineVerification.json",
+        "sha256": "b1516844357447ce5c04e0593de4ac9f7436c114819921abc044625adec29b33",
+        "bytes": 24861,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "744ce540a396a6650c57783d292f43d783714134b5ce1fac7fb620a15e7f70c1",
+        "bytes": 89950,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "59d3aeb0bd3d92a72f7f988a9acc1e661d7ba15fa2f884755ad540e8a37bf1a5",
+        "bytes": 16102,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserPageApiReconciliation.csv",
+        "sha256": "67ae0e30db0e58ca1de31c1d283db5d44c331c103805a0ad805c3a432d891f8a",
+        "bytes": 680,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoFamilyStatistics.csv",
+        "sha256": "1371b9f29566ec1bd25dbae364778d2756b890c369637943f30b477c61d3837f",
+        "bytes": 840,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 58,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-24",
+    "source_package": "independent-research-recheck",
+    "direct_source_files": 14,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-058.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ChangesFrom20261020.csv",
+        "sha256": "f57a38a5d5706fb5d1a0c625197d8beaae2f196d36667d2fabe412784cf9a0b1",
+        "bytes": 542,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DataCiteIdentifiers.csv",
+        "sha256": "1bd342c441aec8cd1e8975ae5b2d2a4c4f922d55677eefe172c5a04b308ac18a",
+        "bytes": 14060,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DiscoveryDOIRoutes.csv",
+        "sha256": "f6f5426b5676a8fa4d456d3f3b45f67594288200d847407c628137073a0ed6ad",
+        "bytes": 1479,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FieldExtracts.json",
+        "sha256": "68f7a61f7faaea677d0f39f8e3cba86fdc4b34793871d190cd6687b449ea0142",
+        "bytes": 44260,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "InitialPlan.json",
+        "sha256": "2ff1b9c598ee06fd4669efb9d06316e08038f891a0a1b88557ecbc60f782526e",
+        "bytes": 13056,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ObservationSummary.json",
+        "sha256": "e164960f71f776174dba982d1938e45337d42daf47420001c3d7dda76e11546a",
+        "bytes": 45246,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OfflineVerification.json",
+        "sha256": "96adbe2c5015b771a0dc4e1596961ce057c8495fc9b6b6d4b284d16622131e01",
+        "bytes": 17055,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexWorks.csv",
+        "sha256": "8eec5471727bd98caa1e1189689f4af923f36eafbe546faae788e0fbc993aaa0",
+        "bytes": 5624,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ORCIDWorkSummaries.csv",
+        "sha256": "08e49b0fabffdea6e80f84ff2df3e734b8d20a25816ab692b58b1e1b47bcea82",
+        "bytes": 9696,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "PlatformCoverage.csv",
+        "sha256": "a204f1e502137d3507603cf5fa1c7922ff56ad2bd7c5993052c4976f2374b576",
+        "bytes": 652,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "d8a8463514c965365b30d9b20431a543ea1d4db4d6c15d11841d782fd6f1708f",
+        "bytes": 112856,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "ec010a9f14142ca13c06100da925c4334ec0cb2d74b82e17b6867fd043186ebd",
+        "bytes": 19511,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SWHVerification.csv",
+        "sha256": "a7b0a2f35c914e58bf4d8b8a11711d233fa0180118c39528748f2e0c3bc3c9d5",
+        "bytes": 1789,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoFamilyStatistics.csv",
+        "sha256": "997683bc9663999564179f3d90fe4be79a31de75b15b149bd392507a3eca93e6",
+        "bytes": 1372,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 59,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-24",
+    "source_package": "independent-research-recheck-t1130",
+    "direct_source_files": 15,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-059.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ChainFollowupPlan.json",
+        "sha256": "8505f698f7d1f0465511365646942426f5eff0367cfda86169e349ca18a7f190",
+        "bytes": 228,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DataCiteIdentifiers.csv",
+        "sha256": "b3a4db8b97d6943937ea2ee37373f8c734c4aec5f3f3d4a4ee538ac8121334a3",
+        "bytes": 6712,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FieldExtracts.json",
+        "sha256": "3f8309c31aa4822379d4c73596d600dafc99509200e7d2319f8e6064a230a548",
+        "bytes": 24917,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FollowupPlan.json",
+        "sha256": "b3f90ea239027d1352608f1e04d3322cfe8424fda02083b78c583c4ed1fec6e3",
+        "bytes": 2638,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "InitialPlan.json",
+        "sha256": "2ff1b9c598ee06fd4669efb9d06316e08038f891a0a1b88557ecbc60f782526e",
+        "bytes": 13056,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ObservationSummary.json",
+        "sha256": "72677ca3fe5b64c61bf86f0052d267ee9c27a1ca8b2bc32f100821405646f3a4",
+        "bytes": 3671,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OfflineVerification.json",
+        "sha256": "eac552c64c6c1b81e67fb2dba37d35839bc981515ed090ef0abd6cd0925732b1",
+        "bytes": 16318,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexWorks.csv",
+        "sha256": "069cd442cda5106354242dd6566767a7c8395b5c2de7cdd3e95955f19b60e1bb",
+        "bytes": 4188,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "d76571ac004932813b119e264088d1f5c89e1e6c716e853cca4cdb1c52c24471",
+        "bytes": 107114,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RSDLinkedSoftware.json",
+        "sha256": "e0f34a6270d38e94cb012749e92781d5421aac8872e0d5a279864cbb0d84c19a",
+        "bytes": 11992,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SandboxNetworkFailureLog.json",
+        "sha256": "ffe09ddc72133cc5ce7f0ccc950bc97afdddac0c289f1bca3cb636fe2c44179e",
+        "bytes": 27580,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SecondaryWebAccess.json",
+        "sha256": "1c087368e67f7d6143eea92b1dbffdb62094880df4fc923230324bdab3084106",
+        "bytes": 380,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "6a34e7b5a0240a4690604940fcb5cfad3aa4c3e94220479eb553895c5d786f14",
+        "bytes": 27522,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "WorkflowHubActivity.json",
+        "sha256": "f1e683f278acb0d7cea322e9754cb3a4b79eef800fbee2a261277daf1ddeceb7",
+        "bytes": 618,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoFamilyStatistics.csv",
+        "sha256": "ae79e5297431a9dd3fdda823399741a11cddcb890b5db316b863c309af945902",
+        "bytes": 836,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 60,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-25",
+    "source_package": "independent-research-recheck",
+    "direct_source_files": 15,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-060.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "AdditionalFieldChecks.json",
+        "sha256": "0eea1042dcb9acadd3f6e0f7d04df0ac3dff2822f501ba51f55ceeddb1186515",
+        "bytes": 1726,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DataCiteIdentifiers.csv",
+        "sha256": "cdf58e10d6dd3793aee2ec41ac98b1f6689aea48e41ba6bc1c8a2a5bbb4018c0",
+        "bytes": 6712,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FieldExtracts.json",
+        "sha256": "882db178e8fbc6a4969a05687f769376fa300d70135bff78532f78acb75c4918",
+        "bytes": 24923,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FollowupPlan.json",
+        "sha256": "cccf00ca6c96803ba7d6a7a4ed9cf95c356eeab4fe490ed556437162baa518e2",
+        "bytes": 3428,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "InitialPlan.json",
+        "sha256": "2ff1b9c598ee06fd4669efb9d06316e08038f891a0a1b88557ecbc60f782526e",
+        "bytes": 13056,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ObservationSummary.json",
+        "sha256": "d87198199ee09cc0e04d93c31031eab6c9483a134de1dfabe8be082a740d0058",
+        "bytes": 3723,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OfflineVerification.json",
+        "sha256": "6d904c5e11e2a8a95919f0bd681c18272b3c1bbde298e4578031d81cd260e99e",
+        "bytes": 16470,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAlexWorks.csv",
+        "sha256": "069cd442cda5106354242dd6566767a7c8395b5c2de7cdd3e95955f19b60e1bb",
+        "bytes": 4188,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "cfb74b144f1547add68c39c3fa80ee312ba146df92df899017c5c2cfe79bd0c4",
+        "bytes": 111274,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RSDLinkedSoftware.json",
+        "sha256": "e0f34a6270d38e94cb012749e92781d5421aac8872e0d5a279864cbb0d84c19a",
+        "bytes": 11992,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "f4fa51d1c42ca95bb0ed8bf7990c940cd78cbd247f3ba3399216dd8262e9c1f2",
+        "bytes": 28001,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserPageAPIReconciliation.json",
+        "sha256": "4a74b4a64eb763895188fb9fc4310cfeb1360b086f030ca178a817b8b8538678",
+        "bytes": 1601,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserProvidedClaims.json",
+        "sha256": "27ed1d125cbe6aff52605cf084b39519102e131fd4c977184d6710a4a4227614",
+        "bytes": 4086,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "WorkflowHubActivity.json",
+        "sha256": "0ff450f1ae4e81214281a8118f2789a02ba2466aa6a124970a6a861fa6d47487",
+        "bytes": 618,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoFamilyStatistics.csv",
+        "sha256": "aed2ac71ebc14d75962b805c258969f72e0010c7fa00e7908493c9037818d4b0",
+        "bytes": 846,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 61,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-26",
+    "source_package": "thirty-four-entry-verification",
+    "direct_source_files": 19,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-061.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "AllRequests.json",
+        "sha256": "cf818f5d42fd7af6138a261af5e5346c7b4fa7abd62ee84a3f830df993cc3d2d",
+        "bytes": 238573,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ArchiveChecksRequestLog.json",
+        "sha256": "15df7d45286b897318464e497b718b71ce81174288e5b6eb845b0c45789efd31",
+        "bytes": 8168,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CaptureComplete.json",
+        "sha256": "b1a2459743f9129a67bb828a48e493782cdbd839b5abee78b07341dab0c77439",
+        "bytes": 185,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DiscoveryRequestLog.json",
+        "sha256": "455aa4344256dca34b1e0dde80b8bfcd5e442066deb455f058c1e256237e46a6",
+        "bytes": 2230,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EnrichmentPlan.json",
+        "sha256": "e5da6d1747f49a75c1294a67abc5e0f8084d862d6beafbddff85795c4f02857c",
+        "bytes": 7766,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "EnrichmentRequestLog.json",
+        "sha256": "515ba6e22991e7485663af629a932ebac37f70e58d4812b228f0f25ffeef8610",
+        "bytes": 26569,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "FollowupPlan.json",
+        "sha256": "6913dd719dc6a8308bc5da50b4688d31cefc058d0d4535b95055f6aeba16b58c",
+        "bytes": 39398,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "IdentifierSeeds.json",
+        "sha256": "7968deaf7564479d208b2088209b7840a3445be9cb681aacf3894c071beaa315",
+        "bytes": 2480,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "InitialPlan.json",
+        "sha256": "d539f4791449443b5f30a0886aaea45721845f369703516a3ddae076f91a5d48",
+        "bytes": 16051,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ObjectSeeds.json",
+        "sha256": "7e9dd12b693075b0f98d1b9cb75e3915483ba847ef1648f57b31f139ee7d0de1",
+        "bytes": 19456,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAIREQueryFields.json",
+        "sha256": "606857154834322aa333453a6342c7e4b189fd128634a9665a527e13466e38c5",
+        "bytes": 5241,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "e5d5cdac8d393b6d6b64a45e884e4d327af9dd643d1e25406786d8cb159ce637",
+        "bytes": 195894,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ResolutionPlan.json",
+        "sha256": "96d42ba9dc3daf6f81952fe47456b72a71010abcc387b5ccb7aed7d5ccf4a62f",
+        "bytes": 5294,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ResolutionRequestLog.json",
+        "sha256": "240b01c3137d136abd61dc154b465d2b39cd9f78b401f50c5993222017169da5",
+        "bytes": 17073,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RowByRowVerification.csv",
+        "sha256": "a3fdd8b2b824592b45eeda62bf2fe23909f169965fec6a2c8dccfeef2914c857",
+        "bytes": 11886,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RowByRowVerification.json",
+        "sha256": "6bcf4d305e8e6cb5d5367de2dec4b67884331115ce10d1c7e31f2523fc956082",
+        "bytes": 17962,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "2a0c539503a640c6d79f0f5b157a706a035e9f82e6ed5ae622dc2dfd2a345619",
+        "bytes": 60251,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "3957885a00909fe326b6141d10eb3068252719fb0f54f69a4662116dc44e8024",
+        "bytes": 392,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "VerifiedFields.json",
+        "sha256": "9528f767461c48713e9556a77cbffcea09d57621639c1dff2e59c32a5452daf2",
+        "bytes": 40755,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 62,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-26",
+    "source_package": "thirty-four-entry-verification-t2230",
+    "direct_source_files": 17,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-062.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "AllRequests.json",
+        "sha256": "6bafdeaa3dbf054e956893a40b7a525fc31f4aedf44ff15939bccda1170a8a09",
+        "bytes": 270397,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "BatchContract.json",
+        "sha256": "26492a3a0c65c54aee5c931eb53c37a20ab35ab45d604ca98332770753294f12",
+        "bytes": 686,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CaptureComplete.json",
+        "sha256": "22b27b35c3a9c4a4ecfbc69eca8e4ba331f12d8e6cb6e8c5cb94a9bbd6b11cc7",
+        "bytes": 391,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CloseoutFollowup.json",
+        "sha256": "20d4b94ff262a7cfb2da7e83a78fa0a3ea96c2ebd2aa22e4d372cd37c8dffeda",
+        "bytes": 2257,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DataCiteInventory.json",
+        "sha256": "6e4db4b08cda0c199b21dfce598b9913655bf383800ca18cbdfd3b1c3ecd6586",
+        "bytes": 307353,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "IdentifierSeeds.json",
+        "sha256": "7968deaf7564479d208b2088209b7840a3445be9cb681aacf3894c071beaa315",
+        "bytes": 2480,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MorningNightComparison.json",
+        "sha256": "c597025d0c2d71669184d706f422f1e80ea40046e7d1cbdfcd7a77dcd69c95dc",
+        "bytes": 5858,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ObjectSeeds.json",
+        "sha256": "7e9dd12b693075b0f98d1b9cb75e3915483ba847ef1648f57b31f139ee7d0de1",
+        "bytes": 19456,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAIRECurrentDOIResults.json",
+        "sha256": "929d9d180f95a6120856155536137a234af926d79acedc3d70e9072fc6101a23",
+        "bytes": 1593,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAIREQueryFields.json",
+        "sha256": "606857154834322aa333453a6342c7e4b189fd128634a9665a527e13466e38c5",
+        "bytes": 5241,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "69be15b8856dd82f299be31de6f205ec99c7e484e62bc64deb55d2f671d441ae",
+        "bytes": 283595,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestPlan.json",
+        "sha256": "d9261c84414f757715676ef3c3e7a25742cac34deb85cbd1ad4e852cd1ec8362",
+        "bytes": 64137,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RowByRowVerification.csv",
+        "sha256": "159daee5a7fbe593bcb1b9c9d8d17f73342b17cacc48f9e12e420e9cdd85b2e8",
+        "bytes": 11035,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RowByRowVerification.json",
+        "sha256": "0e1f9005bda533e326817879a9027da0b1ff587fecf632b79b9137d3c6ce819c",
+        "bytes": 17283,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "9b76060f447529a087ea0c61bcbada94bf296c84ea08211d49ca43f719516e11",
+        "bytes": 56467,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "4510ab49e3b8acf111ba511906b3eddd03daab8b07a579f5ad2e0f46889a10fc",
+        "bytes": 682,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "VerifiedFields.json",
+        "sha256": "fe439f6f429110b3f885676d48eb838cfb642ac0cdda14bad677f7b591495705",
+        "bytes": 40725,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 63,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-30",
+    "source_package": "thirty-four-entry-verification-t2300",
+    "direct_source_files": 19,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-063.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "AllRequests.json",
+        "sha256": "0585d3f8d1683f86f7238ff6359125c85712ebeaf538eb8e35385e32cb8303d3",
+        "bytes": 262497,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "BatchContract.json",
+        "sha256": "50a840625583eb63e8072248897f4f42f7a54cd48276c915f61557e00aeb614b",
+        "bytes": 735,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CaptureComplete.json",
+        "sha256": "6248fb7f0b5a9a6c51febb13b3c8422e0251cd3c9f3585380269048161b50a00",
+        "bytes": 503,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CloseoutFollowup.json",
+        "sha256": "2e33e303a2cf4a4df451e2a6834d3c4da7e7e19eb3098f119cccf53bb80ce9a3",
+        "bytes": 202,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DataCiteInventory.json",
+        "sha256": "f17a145729d842f91214b0ff6ca191df85680584373e7a1217eeb91287de9433",
+        "bytes": 307389,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "IdentifierSeeds.json",
+        "sha256": "7968deaf7564479d208b2088209b7840a3445be9cb681aacf3894c071beaa315",
+        "bytes": 2480,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MorningNightComparison.json",
+        "sha256": "887fe0326eb43e19e60ce631f06ccaaddad92bb71cd0e43b77f51093cf4e4c5b",
+        "bytes": 5892,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ObjectSeeds.json",
+        "sha256": "7e9dd12b693075b0f98d1b9cb75e3915483ba847ef1648f57b31f139ee7d0de1",
+        "bytes": 19456,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAIRECurrentDOIResults.json",
+        "sha256": "929d9d180f95a6120856155536137a234af926d79acedc3d70e9072fc6101a23",
+        "bytes": 1593,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAIREQueryFields.json",
+        "sha256": "606857154834322aa333453a6342c7e4b189fd128634a9665a527e13466e38c5",
+        "bytes": 5241,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "0054c8a498bced3bcb94c5509bb01e6ed06c27546ab47247277caf67b7f703c2",
+        "bytes": 275371,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestPlan.json",
+        "sha256": "d9261c84414f757715676ef3c3e7a25742cac34deb85cbd1ad4e852cd1ec8362",
+        "bytes": 64137,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RowByRowVerification.csv",
+        "sha256": "7cedae171fcea14b2c02f97caf0872885d9b0b52637477de06b2311b5d1e09d5",
+        "bytes": 10443,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RowByRowVerification.json",
+        "sha256": "c2b6c79269eb44187eef2991e144d4920e6467cc2ac99096726f87cdbd9f3bb9",
+        "bytes": 16561,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "5d2d01b28959bf11c639020b2afe765f3b466da3c8822ada8cad5d41fbff4906",
+        "bytes": 56637,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserAPISourceComparison.json",
+        "sha256": "702d652ed0909f038473cae105eb586464123e59ddb2921e1c94031ceeac7f11",
+        "bytes": 2347,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserProvidedSnapshot.json",
+        "sha256": "8a0d6494f6dc9ee86a12da8ad4ef4dec595df2bc98a5e5926743aa028466bbad",
+        "bytes": 2240,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "cb9b4d7ffec1f42f04b46e6130ed849ff9649f6dcf0625ed442aae392ccf521b",
+        "bytes": 707,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "VerifiedFields.json",
+        "sha256": "0838a54e10aae7db83c994f64bb9f8d31f4133d21bfa1094373798f193d0bffa",
+        "bytes": 40743,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 64,
+    "source_category": "独立采集",
+    "source_date_label": "2026-10-31",
+    "source_package": "thirty-four-entry-verification-t1100",
+    "direct_source_files": 20,
+    "source_files_already_in_main_or_cited": 4,
+    "selected_projection": "selected-history/package-064.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "AllRequests.json",
+        "sha256": "997184774ac30f90391898807dc59cdc258fe84fe92853d76c9661d584747e25",
+        "bytes": 343547,
+        "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+        "cloud_locator": "evidence/2026-10-31/03-independent-institutional-statistics/source-provenance.json"
+      },
+      {
+        "source_file": "BatchContract.json",
+        "sha256": "afad4eb6c1c664a5659ecd9d9e307b80dc60026b770e66d5f5012ea2d36b5ba6",
+        "bytes": 738,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CaptureComplete.json",
+        "sha256": "59b92e40a6c32f6694251cfc652d4e40f98b2a4f8993bf4d1332dd922fcc4c8b",
+        "bytes": 503,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "CloseoutFollowup.json",
+        "sha256": "171ae1bf94682fcd3be242df403a369de802f5a4016a52569bd1ddd9c5924dc6",
+        "bytes": 730,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DataCiteInventory.json",
+        "sha256": "2583ab17a2327b46a9ae744068bf3cf5fb1232f6476d8f847b5d25bdb7faa0c6",
+        "bytes": 353901,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "DOIInventoryChange.json",
+        "sha256": "713928c5602c9e08c95ef231563d9dc7bacff4bd65bded91ec011ac594e7c400",
+        "bytes": 2142,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "IdentifierSeeds.json",
+        "sha256": "d594f070b1850feb5b7a5ed8b8d5d2c1a1dcf4aa315862a4c32df94c06c98183",
+        "bytes": 2797,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "MorningNightComparison.json",
+        "sha256": "4ea4ffc8ca82249ec755587e0777cb1637b7b69ac3059c591bb590d4dbf28384",
+        "bytes": 7616,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ObjectSeeds.json",
+        "sha256": "7e9dd12b693075b0f98d1b9cb75e3915483ba847ef1648f57b31f139ee7d0de1",
+        "bytes": 19456,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAIRECrossTypeInventory.json",
+        "sha256": "e869653dd2395b1b4143ddd19140f8502e3a2cd084ee57248e4cb5e6defe346c",
+        "bytes": 55608,
+        "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+        "cloud_locator": "evidence/2026-10-31/03-independent-institutional-statistics/source-provenance.json"
+      },
+      {
+        "source_file": "OpenAIRECrossTypeRequestLog.json",
+        "sha256": "5c478eeb980491b76505e28f78319e762afeb704a4c98a91a3de1aec07338d34",
+        "bytes": 73491,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAIRECurrentDOIResults.json",
+        "sha256": "dd54b3fa46038eafc8cddb001e91b43eec99ef762d3ba32eae14a8c73298897c",
+        "bytes": 1593,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "OpenAIREQueryFields.json",
+        "sha256": "73949231f2a17ff8f77cb9b9b4151a4b95ec1f6d256f234fee520e0613072bfe",
+        "bytes": 5241,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestLog.json",
+        "sha256": "f2fe0edcf2c72690be660ec5f26b26b86ab82cb956a2860d214b1d4f4fba7882",
+        "bytes": 368569,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RequestPlan.json",
+        "sha256": "ed7e06612c886eb8b25da57c0e9b522316f941008f66bfa6c96bd8e633c2bc75",
+        "bytes": 67818,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RowByRowVerification.csv",
+        "sha256": "6a2779b63ba7b25ca0d9035782c245c676bcc294fc536a875a4f53070ba8a60c",
+        "bytes": 12142,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "RowByRowVerification.json",
+        "sha256": "27445b8dbf6b13067a19acee124a0caad2c74ce84bb7087d04e7b96e92d8049d",
+        "bytes": 19916,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "179d227d18babb0e424aa5d8c8f6b484780f69679e378d1b30b1e840f12455b7",
+        "bytes": 75165,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "37f1b454979f7d77a38ecd0828518c2c9ac3ec6119e59fc40dca4802fe6f2ff5",
+        "bytes": 810,
+        "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+        "cloud_locator": "evidence/2026-10-31/03-independent-institutional-statistics/source-provenance.json"
+      },
+      {
+        "source_file": "VerifiedFields.json",
+        "sha256": "c9550ddc16ac28e7913e15ccdbf973e43576aa9af07a3b9f069fe56d4fd5222e",
+        "bytes": 44520,
+        "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+        "cloud_locator": "evidence/2026-10-31/02-noon-user-page-reconciliation/source-provenance.json"
+      }
+    ]
+  },
+  {
+    "package_id": 66,
+    "source_category": "用户页面",
+    "source_date_label": "2026-10-12",
+    "source_package": "workflow-hub-dashboard-morning",
+    "direct_source_files": 4,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-066.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "DashboardHistory.csv",
+        "sha256": "127cef39e59fd8e37f9fda58bbc3c670b5f55e677c86c0a72dbe4dac7ef5f945",
+        "bytes": 301,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "4a4af57599acb31cbcd36a005d53c01d8aef8584ea65429f315659432577623b",
+        "bytes": 504,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserDashboardSnapshot.json",
+        "sha256": "a8f3ce91dc6b8e1bc328b7fa4ecec2e570cf3c623124c93912a1fe8ba1e163ed",
+        "bytes": 974,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "9f18edb13e1e956857a64dac105d7dbceff41bb23db1fb11db3f126313d49aac",
+        "bytes": 580,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 67,
+    "source_category": "用户页面",
+    "source_date_label": "2026-10-14",
+    "source_package": "user-open-alex-page-evening",
+    "direct_source_files": 2,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-067.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "b0e2296bf121c992b8d1653e5a5ca845a9791d0458a24cdd37d2b7d60ed59c34",
+        "bytes": 153,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserCorrection.json",
+        "sha256": "9af9c71a4b88e51d15cc8dd230c08182fd9e797bfc050b68dc043a8fd579d7fd",
+        "bytes": 454,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 68,
+    "source_category": "用户页面",
+    "source_date_label": "2026-10-14",
+    "source_package": "user-page-reconciliation-noon",
+    "direct_source_files": 5,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-068.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "NoonSummary.json",
+        "sha256": "f4c4616efc88e2115ee51f2e2a501f42da47bb716b380222f49fcef7a9594a11",
+        "bytes": 977,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "b7f6539347609f2e6c197a0f49be4cb7c2fe0059f2cbba22c49539ca5bf0ca43",
+        "bytes": 630,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserProvidedPageTranscription.json",
+        "sha256": "3d772ea0b063c4ba365ba8efcfce9b0a83f6cbd737fabef658c5b3af77f09539",
+        "bytes": 5695,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "WorkflowHubDashboardStatistics.csv",
+        "sha256": "b3b486e94098fc0cd6cb534e8bf30ffc198e6d1758dd08db22f2b1588001f6aa",
+        "bytes": 338,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoPageStatistics.csv",
+        "sha256": "de5630bcb7a2513596cde754f5a40ff552c6188729261424a0eb7ab3321c0a02",
+        "bytes": 897,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 69,
+    "source_category": "用户页面",
+    "source_date_label": "2026-10-14",
+    "source_package": "user-zenodo-page-evening",
+    "direct_source_files": 3,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-069.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "PageApiReconciliation.csv",
+        "sha256": "0ac365d654c911954246d1be9d9cca1aa76299d8089fcd445b490d96f79f169d",
+        "bytes": 842,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "3d2b3324a6e361a4467945d2577c3bf373a3e89616588cc299dec41a29ae68f6",
+        "bytes": 464,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserPageSource.json",
+        "sha256": "d4faae636cfb547aaa106de12ec509c4789b868ca6b81cc06f597387eee1f286",
+        "bytes": 3065,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 70,
+    "source_category": "用户页面",
+    "source_date_label": "2026-10-16",
+    "source_package": "user-page-update-noon",
+    "direct_source_files": 3,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-070.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "PageObservation.json",
+        "sha256": "4b544cb4d14c068c42279ffc3c33af60fae7b5a3bbaff46b6793e8557241641e",
+        "bytes": 5043,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "5b60a5095cf9d557289c20b2e9a0ea540f28550ee9d6b8fae855f852a9d6437f",
+        "bytes": 473,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoUserPageCounters.csv",
+        "sha256": "b1994e85057e601036e43dde0b382503a60f0920b0981d859b1df275b82895ca",
+        "bytes": 562,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 71,
+    "source_category": "用户页面",
+    "source_date_label": "2026-10-18",
+    "source_package": "user-page-update",
+    "direct_source_files": 3,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-071.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "PageObservation.json",
+        "sha256": "929cba98b954e42dfc747bba50bd159bd59f5ac50f800907dde47bfb57200bde",
+        "bytes": 11783,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "413194e117a420b77294b41691a59286eab30ecb662f36e1d01133c9ffd2b1fe",
+        "bytes": 411,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoUserPageCounters.csv",
+        "sha256": "80075b1430289e378f7c368c08afa657a8814cf174c7e9d867523b06cdfe921a",
+        "bytes": 1396,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 72,
+    "source_category": "用户页面",
+    "source_date_label": "2026-10-20",
+    "source_package": "user-page-update",
+    "direct_source_files": 5,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-072.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "PageObservation.json",
+        "sha256": "65f11a6d205468b12efbbf2ad1ea420390c61fc9762f2effb785f8b29ce80465",
+        "bytes": 8265,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "9a8aa5889e56415c25597692b77841b07b607f33cfc87f9d7245fe7a7fa26ef0",
+        "bytes": 616,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserCounterConfirmation.json",
+        "sha256": "7154f3a7160281c655a3c9787e1ed05f39ec7bd848b14758b1afc56a8bf0f223",
+        "bytes": 1477,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "WorkflowHubDashboardCounters.csv",
+        "sha256": "57fcf6b350644066a506fb051801c126fafcc4cbb7308126de14bf03c3b105cd",
+        "bytes": 367,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "ZenodoUserPageCounters.csv",
+        "sha256": "d6f1349d73cbd2b4f9488b6824c2f50954c86a3dfaeffb8a14657d9b6a8907b9",
+        "bytes": 1279,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 73,
+    "source_category": "用户页面",
+    "source_date_label": "2026-10-26",
+    "source_package": "user-portal-clarification",
+    "direct_source_files": 2,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-073.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "f36969f7ab4a1b242ad1fd8996076e1f7ecb5498034754789eee3f25d235783b",
+        "bytes": 291,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserClaims.json",
+        "sha256": "caa077ab0aa2b1a3111141625cc9b70e94172d90f04b4e04fb0f34358c68941c",
+        "bytes": 1029,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 74,
+    "source_category": "用户页面",
+    "source_date_label": "2026-10-31",
+    "source_package": "user-portal-snapshot-t1300",
+    "direct_source_files": 4,
+    "source_files_already_in_main_or_cited": 1,
+    "selected_projection": "selected-history/package-074.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "cfbbb242338356214405017269f899a7efcc9b83daf96d0dd62d585d0678b38d",
+        "bytes": 599,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SourceComparison.json",
+        "sha256": "5ec144d130d06363b33a8692099c6fd394d908b8007061d01d5f727ae860da8b",
+        "bytes": 3089,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserSnapshot.json",
+        "sha256": "78586aa6ba57bfa3d0fc5c144fde56f092cf44172038a6134cefdf68c5485ae9",
+        "bytes": 4463,
+        "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+        "cloud_locator": "evidence/2026-10-31/02-noon-user-page-reconciliation/source-provenance.json"
+      },
+      {
+        "source_file": "Verification.json",
+        "sha256": "a5615adfa55ba113e6b7104e95f2cf6a18f87b7944f1f3d721ecb9108bc9f3eb",
+        "bytes": 254,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  },
+  {
+    "package_id": 75,
+    "source_category": "用户页面",
+    "source_date_label": "2026-11-01",
+    "source_package": "user-portal-snapshot-t2300",
+    "direct_source_files": 3,
+    "source_files_already_in_main_or_cited": 0,
+    "selected_projection": "selected-history/package-075.json",
+    "publication_state": "SELECTED_FIELDS_ADDED",
+    "sources": [
+      {
+        "source_file": "ComparisonWith20261031.json",
+        "sha256": "14a28add7bb24a59cc79bb663faca7f62b99fcb7da278a7af83fccf73c51a7ba",
+        "bytes": 653,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "SHA256Manifest.json",
+        "sha256": "f67685374ca119861034e7fe9a4a27ea81bf0b782ff6631957bd171de0d2f27c",
+        "bytes": 306,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      },
+      {
+        "source_file": "UserSnapshot.json",
+        "sha256": "99f1e124f3c4654a85a2bec1c88361b87b5fa8fd2eb66b9b6d7a62bc866ec7d0",
+        "bytes": 2550,
+        "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+        "cloud_locator": null
+      }
+    ]
+  }
+]

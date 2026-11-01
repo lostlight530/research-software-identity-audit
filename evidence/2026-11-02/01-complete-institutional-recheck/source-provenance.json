@@ -1,0 +1,21 @@
+{
+  "original_http_bytes_published": false,
+  "sources": [
+    {
+      "role": "VerifiedFields.json",
+      "sha256": "43d84088e2d25030ccc61efd223e84d92a9e97d9d91d6432d399c5c2c0970731",
+      "bytes": 45315
+    },
+    {
+      "role": "AllRequests.json",
+      "sha256": "5884ded5acd64b2a1bbbe46b2ba926a850bb40d648efa7550c044f3da55edd61",
+      "bytes": 349048
+    },
+    {
+      "role": "Verification.json",
+      "sha256": "dcf35cb6315337fc3cc1e82e839a36b81bbe6468302614379fe0d38a8bedc0a8",
+      "bytes": 1412
+    }
+  ],
+  "clock": "actual client UTC attempt clocks in ledger; source wave date is Nov 2 Asia/Shanghai"
+}

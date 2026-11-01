@@ -1,0 +1,52 @@
+{
+  "source_category": "用户页面",
+  "source_date_label": "2026-10-14",
+  "source_package_label": "user-open-alex-page-evening",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "b0e2296bf121c992b8d1653e5a5ca845a9791d0458a24cdd37d2b7d60ed59c34",
+      "bytes": 153,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "UserCorrection.json",
+      "sha256": "9af9c71a4b88e51d15cc8dd230c08182fd9e797bfc050b68dc043a8fd579d7fd",
+      "bytes": 454,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "UserCorrection.json",
+      "sha256": "9af9c71a4b88e51d15cc8dd230c08182fd9e797bfc050b68dc043a8fd579d7fd",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "source_kind",
+          "value": "user_supplied_page_text_with_explicit_correction"
+        },
+        {
+          "field_path": "user_corrected_works_count",
+          "value": 26
+        },
+        {
+          "field_path": "independent_full_profile_works_count",
+          "value": 26
+        },
+        {
+          "field_path": "independent_selected_profile_works_count",
+          "value": 26
+        },
+        {
+          "field_path": "exact_user_capture_timestamp",
+          "value": null
+        }
+      ]
+    }
+  ]
+}

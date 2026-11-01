@@ -1,0 +1,33 @@
+{
+  "record_class": "retrospective_local_evidence_handoff_not_prospective",
+  "logical_date": "2026-11-02",
+  "reviewed_base_sha": "de6a8a2441963905b59715c80b5b367e72f9b8d3",
+  "compiled_at_utc": "2026-11-01T17:04:44.985525+00:00",
+  "packages_indexed": 73,
+  "selected_projection_files": 60,
+  "source_categories": {
+    "交接旁证": 2,
+    "修正对账": 3,
+    "历史散件": 15,
+    "平台专项": 9,
+    "探索比较": 7,
+    "独立采集": 27,
+    "用户页面": 10
+  },
+  "source_dates_retained": true,
+  "historical_claims_revalidated": false,
+  "exploratory_rankings_not_promoted": true,
+  "contract": {
+    "fixed_objects": 10,
+    "layers": 6,
+    "eligible_object_layer_units": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_analytic_units": 70,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_modified": false,
+    "schedule_modified": false
+  },
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0
+}

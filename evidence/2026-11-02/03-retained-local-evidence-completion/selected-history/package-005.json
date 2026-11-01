@@ -1,0 +1,266 @@
+{
+  "source_category": "修正对账",
+  "source_date_label": "2026-10-18",
+  "source_package_label": "research-history-reconciliation",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "ClaimAssessment.csv",
+      "sha256": "22ed09968e7e7877b28cb74650c7b09b499022ee052739da4a2ba651a6ece614",
+      "bytes": 5809,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ClaimAssessment.json",
+      "sha256": "c375c62af12028a3b7c4e372af8394e952d374997f2541492145eb7b51ceb2ea",
+      "bytes": 12559,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "LocalSourceInventory.json",
+      "sha256": "3b0b8d447bcaac322a659ae2d28c3abbc04f86f14628fee71c876409404499a0",
+      "bytes": 3403,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "1184944d3e97da95904f9fcc979ce20a290aeb993108bbf07fd5d9e8ed82665e",
+      "bytes": 393,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "ClaimAssessment.json",
+      "sha256": "c375c62af12028a3b7c4e372af8394e952d374997f2541492145eb7b51ceb2ea",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "date",
+          "value": "2026-10-18"
+        },
+        {
+          "field_path": "scope",
+          "value": "research_only synthesis with separate independent verification"
+        },
+        {
+          "field_path": "local_checkout_date",
+          "value": "2026-10-15"
+        },
+        {
+          "field_path": "calendar_dates",
+          "value": 33
+        },
+        {
+          "field_path": "elapsed_date_days",
+          "value": 32
+        },
+        {
+          "field_path": "planned_layers",
+          "value": 6
+        },
+        {
+          "field_path": "planned_units_per_timepoint",
+          "value": 60
+        },
+        {
+          "field_path": "claims[0].statement",
+          "value": "9月16日至10月18日为33个自然日"
+        },
+        {
+          "field_path": "claims[0].local_evidence_status",
+          "value": "RECOMPUTED"
+        },
+        {
+          "field_path": "claims[1].statement",
+          "value": "固定10对象、6层、每点60对象层单元"
+        },
+        {
+          "field_path": "claims[1].local_evidence_status",
+          "value": "LOCAL_CONTRACT_CONFIRMED"
+        },
+        {
+          "field_path": "claims[2].statement",
+          "value": "9月16日初始软件版本与SWH连接"
+        },
+        {
+          "field_path": "claims[2].local_evidence_status",
+          "value": "LOCAL_HISTORICAL_REPORT_SUPPORTED"
+        },
+        {
+          "field_path": "claims[3].statement",
+          "value": "9月17日ORCID开始关联"
+        },
+        {
+          "field_path": "claims[3].local_evidence_status",
+          "value": "USER_RETROSPECTIVE"
+        },
+        {
+          "field_path": "claims[4].statement",
+          "value": "10月5日OSF注册"
+        },
+        {
+          "field_path": "claims[4].local_evidence_status",
+          "value": "LOCAL_CONTRACT_CONFIRMED"
+        },
+        {
+          "field_path": "claims[5].statement",
+          "value": "截至10月18日未声明具体offsets"
+        },
+        {
+          "field_path": "claims[5].local_evidence_status",
+          "value": "INDEPENDENT_SOURCE_VERIFIED"
+        },
+        {
+          "field_path": "claims[6].statement",
+          "value": "HAL10月6日提交"
+        },
+        {
+          "field_path": "claims[6].local_evidence_status",
+          "value": "USER_HISTORICAL_SUPPORTED"
+        },
+        {
+          "field_path": "claims[7].statement",
+          "value": "RRID与RSD外部目录"
+        },
+        {
+          "field_path": "claims[7].local_evidence_status",
+          "value": "LOCAL_HISTORICAL_REPORT_SUPPORTED"
+        },
+        {
+          "field_path": "claims[8].statement",
+          "value": "DataCite72条，53/18/1"
+        },
+        {
+          "field_path": "claims[8].local_evidence_status",
+          "value": "USER_PAGE_CONFIRMED"
+        },
+        {
+          "field_path": "claims[9].statement",
+          "value": "OpenAlex作者Works为29"
+        },
+        {
+          "field_path": "claims[9].local_evidence_status",
+          "value": "INDEPENDENT_SOURCE_VERIFIED"
+        },
+        {
+          "field_path": "claims[10].statement",
+          "value": "OpenAlex被引1"
+        },
+        {
+          "field_path": "claims[10].local_evidence_status",
+          "value": "LAST_DATED_SOURCE"
+        },
+        {
+          "field_path": "claims[11].statement",
+          "value": "10月16日十仓API2283/1449"
+        },
+        {
+          "field_path": "claims[11].local_evidence_status",
+          "value": "INDEPENDENT_SOURCE_VERIFIED"
+        },
+        {
+          "field_path": "claims[12].statement",
+          "value": "10月18日Zenodo1533/16与Dashboard3097/276"
+        },
+        {
+          "field_path": "claims[12].local_evidence_status",
+          "value": "USER_PAGE_CONFIRMED"
+        },
+        {
+          "field_path": "claims[13].statement",
+          "value": "十仓各四版本，共40版本加10concept"
+        },
+        {
+          "field_path": "claims[13].local_evidence_status",
+          "value": "LOCAL_HISTORICAL_SUPPORTED"
+        },
+        {
+          "field_path": "claims[14].statement",
+          "value": "10月9日十仓Clones95009"
+        },
+        {
+          "field_path": "claims[14].local_evidence_status",
+          "value": "RECOMPUTED"
+        },
+        {
+          "field_path": "claims[15].statement",
+          "value": "十仓截至16日Clones103438，14日跨十万"
+        },
+        {
+          "field_path": "claims[15].local_evidence_status",
+          "value": "RECOMPUTED"
+        },
+        {
+          "field_path": "claims[16].statement",
+          "value": "10月18日七个PR合并与控制仓第四版"
+        },
+        {
+          "field_path": "claims[16].local_evidence_status",
+          "value": "INDEPENDENT_SOURCE_VERIFIED"
+        },
+        {
+          "field_path": "claims[17].statement",
+          "value": "归档Citation/CodeMeta旧版本、main修复"
+        },
+        {
+          "field_path": "claims[17].local_evidence_status",
+          "value": "INDEPENDENT_SOURCE_VERIFIED"
+        },
+        {
+          "field_path": "claims[18].statement",
+          "value": "生命科学三资产v0.4.0"
+        },
+        {
+          "field_path": "claims[18].local_evidence_status",
+          "value": "INDEPENDENT_SOURCE_VERIFIED"
+        },
+        {
+          "field_path": "claims[19].statement",
+          "value": "WorkflowHub2347v2与bio.tools记录"
+        },
+        {
+          "field_path": "claims[19].local_evidence_status",
+          "value": "INDEPENDENT_SOURCE_VERIFIED"
+        },
+        {
+          "field_path": "claims[20].statement",
+          "value": "LifeMonitor1Passed，GitHub5jobs success"
+        },
+        {
+          "field_path": "claims[20].local_evidence_status",
+          "value": "INDEPENDENT_SOURCE_VERIFIED"
+        },
+        {
+          "field_path": "claims[21].statement",
+          "value": "OpenEBench已收录，无benchmark成绩"
+        },
+        {
+          "field_path": "claims[21].local_evidence_status",
+          "value": "INDEPENDENT_SOURCE_VERIFIED"
+        },
+        {
+          "field_path": "claims[22].statement",
+          "value": "Agent协作方法案例"
+        },
+        {
+          "field_path": "claims[22].local_evidence_status",
+          "value": "USER_REPORT_ONLY"
+        },
+        {
+          "field_path": "claims[23].statement",
+          "value": "ORCID同DOI Software/Dataset来源差异"
+        },
+        {
+          "field_path": "claims[23].local_evidence_status",
+          "value": "USER_REPORT_ONLY"
+        }
+      ]
+    }
+  ]
+}

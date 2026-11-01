@@ -1,0 +1,818 @@
+{
+  "source_category": "平台专项",
+  "source_date_label": "2026-10-09",
+  "source_package_label": "zenodo-eleven-recheck",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "RequestLog.json",
+      "sha256": "278fe7932fcdfdb4e22aa93072a962b7e0321299f20ef3d4129fddb171da77db",
+      "bytes": 4502,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Results.json",
+      "sha256": "7058fa131860ba6782e5e4609af17bb9399cc3d6669ae566e02e4e43f74f9d0b",
+      "bytes": 8115,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Statistics.csv",
+      "sha256": "adf5f8d8929d3ca49aa4d5f875af447062981a0988b0ef9156c057bde3fb7373",
+      "bytes": 2672,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Verification.json",
+      "sha256": "00c0346b4b8e203e24f3ecfa3f4aacf3434284af07c097731527585fc00dd165",
+      "bytes": 15598,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "Results.json",
+      "sha256": "7058fa131860ba6782e5e4609af17bb9399cc3d6669ae566e02e4e43f74f9d0b",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "record_scope",
+          "value": "Known October 4 core versions and October 6 companion current record"
+        },
+        {
+          "field_path": "rows[0].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "rows[0].record_id",
+          "value": 23137203
+        },
+        {
+          "field_path": "rows[0].concept_doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "rows[0].version_doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "rows[0].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "rows[0].captured_at_utc",
+          "value": "2026-10-09T02:19:50.009349+00:00"
+        },
+        {
+          "field_path": "rows[0].views",
+          "value": 105
+        },
+        {
+          "field_path": "rows[0].unique_views",
+          "value": 101
+        },
+        {
+          "field_path": "rows[0].downloads",
+          "value": 4
+        },
+        {
+          "field_path": "rows[0].unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "rows[0].version_views",
+          "value": 6
+        },
+        {
+          "field_path": "rows[0].version_unique_views",
+          "value": 5
+        },
+        {
+          "field_path": "rows[0].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[0].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[0].page_views",
+          "value": 101
+        },
+        {
+          "field_path": "rows[0].page_download_digit",
+          "value": 3
+        },
+        {
+          "field_path": "rows[1].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "rows[1].record_id",
+          "value": 23137214
+        },
+        {
+          "field_path": "rows[1].concept_doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "rows[1].version_doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "rows[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "rows[1].captured_at_utc",
+          "value": "2026-10-09T02:19:51.748672+00:00"
+        },
+        {
+          "field_path": "rows[1].views",
+          "value": 100
+        },
+        {
+          "field_path": "rows[1].unique_views",
+          "value": 96
+        },
+        {
+          "field_path": "rows[1].downloads",
+          "value": 1
+        },
+        {
+          "field_path": "rows[1].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "rows[1].version_views",
+          "value": 17
+        },
+        {
+          "field_path": "rows[1].version_unique_views",
+          "value": 17
+        },
+        {
+          "field_path": "rows[1].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[1].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[1].page_views",
+          "value": 96
+        },
+        {
+          "field_path": "rows[1].page_download_digit",
+          "value": 1
+        },
+        {
+          "field_path": "rows[2].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "rows[2].record_id",
+          "value": 23137205
+        },
+        {
+          "field_path": "rows[2].concept_doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "rows[2].version_doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "rows[2].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "rows[2].captured_at_utc",
+          "value": "2026-10-09T02:19:53.408621+00:00"
+        },
+        {
+          "field_path": "rows[2].views",
+          "value": 98
+        },
+        {
+          "field_path": "rows[2].unique_views",
+          "value": 93
+        },
+        {
+          "field_path": "rows[2].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[2].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[2].version_views",
+          "value": 5
+        },
+        {
+          "field_path": "rows[2].version_unique_views",
+          "value": 5
+        },
+        {
+          "field_path": "rows[2].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[2].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[2].page_views",
+          "value": 93
+        },
+        {
+          "field_path": "rows[2].page_download_digit",
+          "value": 0
+        },
+        {
+          "field_path": "rows[3].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "rows[3].record_id",
+          "value": 23137211
+        },
+        {
+          "field_path": "rows[3].concept_doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "rows[3].version_doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "rows[3].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "rows[3].captured_at_utc",
+          "value": "2026-10-09T02:19:54.949558+00:00"
+        },
+        {
+          "field_path": "rows[3].views",
+          "value": 96
+        },
+        {
+          "field_path": "rows[3].unique_views",
+          "value": 91
+        },
+        {
+          "field_path": "rows[3].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[3].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[3].version_views",
+          "value": 19
+        },
+        {
+          "field_path": "rows[3].version_unique_views",
+          "value": 18
+        },
+        {
+          "field_path": "rows[3].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[3].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[3].page_views",
+          "value": 91
+        },
+        {
+          "field_path": "rows[3].page_download_digit",
+          "value": 0
+        },
+        {
+          "field_path": "rows[4].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "rows[4].record_id",
+          "value": 23137216
+        },
+        {
+          "field_path": "rows[4].concept_doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "rows[4].version_doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "rows[4].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "rows[4].captured_at_utc",
+          "value": "2026-10-09T02:19:57.693013+00:00"
+        },
+        {
+          "field_path": "rows[4].views",
+          "value": 80
+        },
+        {
+          "field_path": "rows[4].unique_views",
+          "value": 78
+        },
+        {
+          "field_path": "rows[4].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[4].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[4].version_views",
+          "value": 7
+        },
+        {
+          "field_path": "rows[4].version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "rows[4].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[4].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[4].page_views",
+          "value": 78
+        },
+        {
+          "field_path": "rows[4].page_download_digit",
+          "value": 0
+        },
+        {
+          "field_path": "rows[5].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "rows[5].record_id",
+          "value": 23137207
+        },
+        {
+          "field_path": "rows[5].concept_doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "rows[5].version_doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "rows[5].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "rows[5].captured_at_utc",
+          "value": "2026-10-09T02:19:59.562326+00:00"
+        },
+        {
+          "field_path": "rows[5].views",
+          "value": 83
+        },
+        {
+          "field_path": "rows[5].unique_views",
+          "value": 77
+        },
+        {
+          "field_path": "rows[5].downloads",
+          "value": 1
+        },
+        {
+          "field_path": "rows[5].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "rows[5].version_views",
+          "value": 3
+        },
+        {
+          "field_path": "rows[5].version_unique_views",
+          "value": 3
+        },
+        {
+          "field_path": "rows[5].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[5].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[5].page_views",
+          "value": 77
+        },
+        {
+          "field_path": "rows[5].page_download_digit",
+          "value": 1
+        },
+        {
+          "field_path": "rows[6].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "rows[6].record_id",
+          "value": 23137204
+        },
+        {
+          "field_path": "rows[6].concept_doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "rows[6].version_doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "rows[6].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "rows[6].captured_at_utc",
+          "value": "2026-10-09T02:20:01.137796+00:00"
+        },
+        {
+          "field_path": "rows[6].views",
+          "value": 81
+        },
+        {
+          "field_path": "rows[6].unique_views",
+          "value": 74
+        },
+        {
+          "field_path": "rows[6].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[6].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[6].version_views",
+          "value": 11
+        },
+        {
+          "field_path": "rows[6].version_unique_views",
+          "value": 6
+        },
+        {
+          "field_path": "rows[6].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[6].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[6].page_views",
+          "value": 74
+        },
+        {
+          "field_path": "rows[6].page_download_digit",
+          "value": 0
+        },
+        {
+          "field_path": "rows[7].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "rows[7].record_id",
+          "value": 23137219
+        },
+        {
+          "field_path": "rows[7].concept_doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "rows[7].version_doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "rows[7].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "rows[7].captured_at_utc",
+          "value": "2026-10-09T02:20:03.268122+00:00"
+        },
+        {
+          "field_path": "rows[7].views",
+          "value": 73
+        },
+        {
+          "field_path": "rows[7].unique_views",
+          "value": 71
+        },
+        {
+          "field_path": "rows[7].downloads",
+          "value": 1
+        },
+        {
+          "field_path": "rows[7].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "rows[7].version_views",
+          "value": 6
+        },
+        {
+          "field_path": "rows[7].version_unique_views",
+          "value": 5
+        },
+        {
+          "field_path": "rows[7].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[7].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[7].page_views",
+          "value": 71
+        },
+        {
+          "field_path": "rows[7].page_download_digit",
+          "value": 1
+        },
+        {
+          "field_path": "rows[8].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "rows[8].record_id",
+          "value": 23137215
+        },
+        {
+          "field_path": "rows[8].concept_doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "rows[8].version_doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "rows[8].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "rows[8].captured_at_utc",
+          "value": "2026-10-09T02:20:04.867718+00:00"
+        },
+        {
+          "field_path": "rows[8].views",
+          "value": 65
+        },
+        {
+          "field_path": "rows[8].unique_views",
+          "value": 60
+        },
+        {
+          "field_path": "rows[8].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[8].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[8].version_views",
+          "value": 8
+        },
+        {
+          "field_path": "rows[8].version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "rows[8].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[8].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[8].page_views",
+          "value": 60
+        },
+        {
+          "field_path": "rows[8].page_download_digit",
+          "value": 0
+        },
+        {
+          "field_path": "rows[9].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "rows[9].record_id",
+          "value": 23137206
+        },
+        {
+          "field_path": "rows[9].concept_doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "rows[9].version_doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "rows[9].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "rows[9].captured_at_utc",
+          "value": "2026-10-09T02:20:06.495514+00:00"
+        },
+        {
+          "field_path": "rows[9].views",
+          "value": 59
+        },
+        {
+          "field_path": "rows[9].unique_views",
+          "value": 56
+        },
+        {
+          "field_path": "rows[9].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[9].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[9].version_views",
+          "value": 4
+        },
+        {
+          "field_path": "rows[9].version_unique_views",
+          "value": 3
+        },
+        {
+          "field_path": "rows[9].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[9].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[9].page_views",
+          "value": 56
+        },
+        {
+          "field_path": "rows[9].page_download_digit",
+          "value": 0
+        },
+        {
+          "field_path": "rows[10].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "rows[10].record_id",
+          "value": 23176748
+        },
+        {
+          "field_path": "rows[10].concept_doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "rows[10].version_doi",
+          "value": "10.5281/zenodo.23176748"
+        },
+        {
+          "field_path": "rows[10].version",
+          "value": "v2026.10-initial-research-runtime"
+        },
+        {
+          "field_path": "rows[10].captured_at_utc",
+          "value": "2026-10-09T02:20:09.380442+00:00"
+        },
+        {
+          "field_path": "rows[10].views",
+          "value": 48
+        },
+        {
+          "field_path": "rows[10].unique_views",
+          "value": 46
+        },
+        {
+          "field_path": "rows[10].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[10].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[10].version_views",
+          "value": 30
+        },
+        {
+          "field_path": "rows[10].version_unique_views",
+          "value": 29
+        },
+        {
+          "field_path": "rows[10].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[10].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "rows[10].page_views",
+          "value": 46
+        },
+        {
+          "field_path": "rows[10].page_download_digit",
+          "value": 0
+        },
+        {
+          "field_path": "totals_all_eleven.views",
+          "value": 888
+        },
+        {
+          "field_path": "totals_all_eleven.unique_views",
+          "value": 843
+        },
+        {
+          "field_path": "totals_all_eleven.downloads",
+          "value": 7
+        },
+        {
+          "field_path": "totals_all_eleven.unique_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "totals_all_eleven.version_views",
+          "value": 116
+        },
+        {
+          "field_path": "totals_all_eleven.version_unique_views",
+          "value": 105
+        },
+        {
+          "field_path": "totals_all_eleven.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "totals_all_eleven.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "totals_fixed_ten.views",
+          "value": 840
+        },
+        {
+          "field_path": "totals_fixed_ten.unique_views",
+          "value": 797
+        },
+        {
+          "field_path": "totals_fixed_ten.downloads",
+          "value": 7
+        },
+        {
+          "field_path": "totals_fixed_ten.unique_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "totals_fixed_ten.version_views",
+          "value": 86
+        },
+        {
+          "field_path": "totals_fixed_ten.version_unique_views",
+          "value": 76
+        },
+        {
+          "field_path": "totals_fixed_ten.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "totals_fixed_ten.version_unique_downloads",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

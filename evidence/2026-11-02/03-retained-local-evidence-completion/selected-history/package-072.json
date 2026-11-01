@@ -1,0 +1,580 @@
+{
+  "source_category": "用户页面",
+  "source_date_label": "2026-10-20",
+  "source_package_label": "user-page-update",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "PageObservation.json",
+      "sha256": "65f11a6d205468b12efbbf2ad1ea420390c61fc9762f2effb785f8b29ce80465",
+      "bytes": 8265,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "9a8aa5889e56415c25597692b77841b07b607f33cfc87f9d7245fe7a7fa26ef0",
+      "bytes": 616,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "UserCounterConfirmation.json",
+      "sha256": "7154f3a7160281c655a3c9787e1ed05f39ec7bd848b14758b1afc56a8bf0f223",
+      "bytes": 1477,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "WorkflowHubDashboardCounters.csv",
+      "sha256": "57fcf6b350644066a506fb051801c126fafcc4cbb7308126de14bf03c3b105cd",
+      "bytes": 367,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoUserPageCounters.csv",
+      "sha256": "d6f1349d73cbd2b4f9488b6824c2f50954c86a3dfaeffb8a14657d9b6a8907b9",
+      "bytes": 1279,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "PageObservation.json",
+      "sha256": "65f11a6d205468b12efbbf2ad1ea420390c61fc9762f2effb785f8b29ce80465",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "source_class",
+          "value": "user_provided_pages"
+        },
+        {
+          "field_path": "received_date",
+          "value": "2026-10-20"
+        },
+        {
+          "field_path": "exact_page_capture_timestamp",
+          "value": null
+        },
+        {
+          "field_path": "repository_modified",
+          "value": false
+        },
+        {
+          "field_path": "zenodo_counter_semantics",
+          "value": "Standing user-confirmed family page unique convention: final digit is downloads, preceding digits are views; no globally deduplicated visitor inference"
+        },
+        {
+          "field_path": "zenodo[0].release_date",
+          "value": "2026-10-18"
+        },
+        {
+          "field_path": "zenodo[0].version",
+          "value": "v2026.10-evidence-integrity"
+        },
+        {
+          "field_path": "zenodo[0].unique_views",
+          "value": 118
+        },
+        {
+          "field_path": "zenodo[0].unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo[0].scope",
+          "value": "companion"
+        },
+        {
+          "field_path": "zenodo[1].release_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "zenodo[1].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "zenodo[1].unique_views",
+          "value": 199
+        },
+        {
+          "field_path": "zenodo[1].unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo[1].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[2].release_date",
+          "value": "2026-10-18"
+        },
+        {
+          "field_path": "zenodo[2].version",
+          "value": "v0.4.0"
+        },
+        {
+          "field_path": "zenodo[2].unique_views",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[2].unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo[2].scope",
+          "value": "independent_life_science_pilot"
+        },
+        {
+          "field_path": "zenodo[3].release_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "zenodo[3].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "zenodo[3].unique_views",
+          "value": 179
+        },
+        {
+          "field_path": "zenodo[3].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo[3].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[4].release_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "zenodo[4].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "zenodo[4].unique_views",
+          "value": 148
+        },
+        {
+          "field_path": "zenodo[4].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo[4].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[5].release_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "zenodo[5].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "zenodo[5].unique_views",
+          "value": 160
+        },
+        {
+          "field_path": "zenodo[5].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo[5].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[6].release_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "zenodo[6].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "zenodo[6].unique_views",
+          "value": 161
+        },
+        {
+          "field_path": "zenodo[6].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[6].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[7].release_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "zenodo[7].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "zenodo[7].unique_views",
+          "value": 133
+        },
+        {
+          "field_path": "zenodo[7].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[7].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[8].release_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "zenodo[8].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "zenodo[8].unique_views",
+          "value": 167
+        },
+        {
+          "field_path": "zenodo[8].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[8].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[9].release_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "zenodo[9].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "zenodo[9].unique_views",
+          "value": 157
+        },
+        {
+          "field_path": "zenodo[9].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[9].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[10].release_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "zenodo[10].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "zenodo[10].unique_views",
+          "value": 183
+        },
+        {
+          "field_path": "zenodo[10].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[10].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo[11].release_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "zenodo[11].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "zenodo[11].unique_views",
+          "value": 150
+        },
+        {
+          "field_path": "zenodo[11].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo[11].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo_sums.fixed_ten.unique_views",
+          "value": 1637
+        },
+        {
+          "field_path": "zenodo_sums.fixed_ten.unique_downloads",
+          "value": 16
+        },
+        {
+          "field_path": "zenodo_sums.twelve_listings.unique_views",
+          "value": 1756
+        },
+        {
+          "field_path": "zenodo_sums.twelve_listings.unique_downloads",
+          "value": 24
+        },
+        {
+          "field_path": "workflowhub[0].views",
+          "value": 1660
+        },
+        {
+          "field_path": "workflowhub[0].downloads",
+          "value": 120
+        },
+        {
+          "field_path": "workflowhub[0].previous_views",
+          "value": 1365
+        },
+        {
+          "field_path": "workflowhub[0].previous_downloads",
+          "value": 106
+        },
+        {
+          "field_path": "workflowhub[0].views_delta",
+          "value": 295
+        },
+        {
+          "field_path": "workflowhub[0].downloads_delta",
+          "value": 14
+        },
+        {
+          "field_path": "workflowhub[1].views",
+          "value": 1501
+        },
+        {
+          "field_path": "workflowhub[1].downloads",
+          "value": 163
+        },
+        {
+          "field_path": "workflowhub[1].previous_views",
+          "value": 1247
+        },
+        {
+          "field_path": "workflowhub[1].previous_downloads",
+          "value": 138
+        },
+        {
+          "field_path": "workflowhub[1].views_delta",
+          "value": 254
+        },
+        {
+          "field_path": "workflowhub[1].downloads_delta",
+          "value": 25
+        },
+        {
+          "field_path": "workflowhub[2].views",
+          "value": 533
+        },
+        {
+          "field_path": "workflowhub[2].downloads",
+          "value": 26
+        },
+        {
+          "field_path": "workflowhub[2].previous_views",
+          "value": 414
+        },
+        {
+          "field_path": "workflowhub[2].previous_downloads",
+          "value": 17
+        },
+        {
+          "field_path": "workflowhub[2].views_delta",
+          "value": 119
+        },
+        {
+          "field_path": "workflowhub[2].downloads_delta",
+          "value": 9
+        },
+        {
+          "field_path": "workflowhub[3].views",
+          "value": 256
+        },
+        {
+          "field_path": "workflowhub[3].downloads",
+          "value": 112
+        },
+        {
+          "field_path": "workflowhub[3].previous_views",
+          "value": 71
+        },
+        {
+          "field_path": "workflowhub[3].previous_downloads",
+          "value": 15
+        },
+        {
+          "field_path": "workflowhub[3].views_delta",
+          "value": 185
+        },
+        {
+          "field_path": "workflowhub[3].downloads_delta",
+          "value": 97
+        },
+        {
+          "field_path": "workflowhub_totals.views",
+          "value": 3950
+        },
+        {
+          "field_path": "workflowhub_totals.downloads",
+          "value": 421
+        },
+        {
+          "field_path": "workflowhub_totals.previous_views",
+          "value": 3097
+        },
+        {
+          "field_path": "workflowhub_totals.previous_downloads",
+          "value": 276
+        },
+        {
+          "field_path": "workflowhub_totals.views_delta",
+          "value": 853
+        },
+        {
+          "field_path": "workflowhub_totals.downloads_delta",
+          "value": 145
+        },
+        {
+          "field_path": "openalex.author_profile_works_count",
+          "value": 30
+        },
+        {
+          "field_path": "openalex.citation_count",
+          "value": 1
+        },
+        {
+          "field_path": "openalex.user_list_row_count",
+          "value": 32
+        },
+        {
+          "field_path": "openalex.unique_work_id_count",
+          "value": null
+        },
+        {
+          "field_path": "openalex.topic_count_facet_sum",
+          "value": 29
+        },
+        {
+          "field_path": "openalex.top_topics_count",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "source_file": "UserCounterConfirmation.json",
+      "sha256": "7154f3a7160281c655a3c9787e1ed05f39ec7bd848b14758b1afc56a8bf0f223",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "received_date",
+          "value": "2026-10-20"
+        },
+        {
+          "field_path": "counters[0].unique_views",
+          "value": 118
+        },
+        {
+          "field_path": "counters[0].unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "counters[1].unique_views",
+          "value": 199
+        },
+        {
+          "field_path": "counters[1].unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "counters[2].unique_views",
+          "value": 1
+        },
+        {
+          "field_path": "counters[2].unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "counters[3].unique_views",
+          "value": 179
+        },
+        {
+          "field_path": "counters[3].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "counters[4].unique_views",
+          "value": 148
+        },
+        {
+          "field_path": "counters[4].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "counters[5].unique_views",
+          "value": 160
+        },
+        {
+          "field_path": "counters[5].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "counters[6].unique_views",
+          "value": 161
+        },
+        {
+          "field_path": "counters[6].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "counters[7].unique_views",
+          "value": 133
+        },
+        {
+          "field_path": "counters[7].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "counters[8].unique_views",
+          "value": 167
+        },
+        {
+          "field_path": "counters[8].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "counters[9].unique_views",
+          "value": 157
+        },
+        {
+          "field_path": "counters[9].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "counters[10].unique_views",
+          "value": 183
+        },
+        {
+          "field_path": "counters[10].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "counters[11].unique_views",
+          "value": 150
+        },
+        {
+          "field_path": "counters[11].unique_downloads",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "source_category": "独立采集",
+  "source_date_label": "2026-10-16",
+  "source_package_label": "independent-facility-audit-eleven",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "CollectionContract.json",
+      "sha256": "2464d3190b6aba390f0b10701ccb5c46fdae3168ab5692586418212119012f99",
+      "bytes": 3969,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "DataCiteIdentifiers.csv",
+      "sha256": "a0613952ca958d909115f809569e20e2e388853beca7a468ae887ccdbed208b0",
+      "bytes": 5947,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "MidnightToElevenComparison.json",
+      "sha256": "5df2590dc666b4bc5c7ab78f4f9a4d33fef20b9ef5d1673edad0bae220873af7",
+      "bytes": 1312,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ObservationSummary.json",
+      "sha256": "c90af43ea6524cf63a1bc5abc8d406dcc5686d749884e3ef0854e6eb92c87376",
+      "bytes": 4108,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "OfflineVerification.json",
+      "sha256": "bbb4c23acad8504fe71804d267d082a7284ea2e0eeef08aedafbe489487acf98",
+      "bytes": 161352,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "OpenAlexCheckpointDoiResolution.csv",
+      "sha256": "2e4774f78c4472618c442a10c2ababc371319569726bb907cab8c1ed401ccde8",
+      "bytes": 1346,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "OpenAlexWorks.csv",
+      "sha256": "2550de4922b3d821f86c0dd73427e7082ea50ea73df7739cd446f6ba8c7faa21",
+      "bytes": 3695,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "OrcidSourceSummaries.csv",
+      "sha256": "b33532e065a283490662cf7a7e1276a8890f8e87b0941a7a26274f1b714a1ec9",
+      "bytes": 9284,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "PlatformMatrix.csv",
+      "sha256": "bdda22de4ebf997d6a5dd7ea16cc89a32913769202784144f4559ca6b30425ed",
+      "bytes": 6108,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "RequestCoverage.csv",
+      "sha256": "f4b0eff02c5b249ddd1df442c853cffb9017a17e41f76ae9aa449658ac6de4fc",
+      "bytes": 50195,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "RequestLog.json",
+      "sha256": "0344c385aee4b1a272211cfe8377ad8ebc882445d46b8bbde7b6be684eb9592d",
+      "bytes": 164457,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "54a7a680b8deded79a786a4b0addee7be6f7305ce352dd0944a911a6a1d1bebc",
+      "bytes": 47402,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SupplementaryRequestLog.json",
+      "sha256": "9d61d3c7161465e27b9bd404dd84b5609526adce90417dfad76dccb0b6c81042",
+      "bytes": 2605,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SwhIdentityChecks.csv",
+      "sha256": "4520896bd12a475f6a357abc7f212c6bd0ef24bd3f72ec419bea6eac5505dc22",
+      "bytes": 809,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "WorkflowHubDetailStatistics.csv",
+      "sha256": "a5dbe1536d2c9ae86251fc754eab6493c5cd7115d2ce3bc709332140d73fb5af",
+      "bytes": 284,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoFamilyStatistics.csv",
+      "sha256": "f3ca40b37b03cad6fde077c4a57ddb10b81350f661c6b70f6f88c80b52b7ef2e",
+      "bytes": 1603,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoVersionEnumerations.csv",
+      "sha256": "0724586bf565bc788844bd95c0cdb670fd75946d386a2d7968d654d3b91546ac",
+      "bytes": 815,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoVersionStatistics.csv",
+      "sha256": "8c4fad1413397fa4728e93c0c3116f43aec4494c98eef3d1671d1974885a0305",
+      "bytes": 3319,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "MidnightToElevenComparison.json",
+      "sha256": "5df2590dc666b4bc5c7ab78f4f9a4d33fef20b9ef5d1673edad0bae220873af7",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "family_api_total_and_unique_delta.views",
+          "value": null
+        },
+        {
+          "field_path": "family_api_total_and_unique_delta.downloads",
+          "value": null
+        },
+        {
+          "field_path": "family_api_total_and_unique_delta.unique_views",
+          "value": null
+        },
+        {
+          "field_path": "family_api_total_and_unique_delta.unique_downloads",
+          "value": null
+        },
+        {
+          "field_path": "family_api_total_and_unique_delta.version_views",
+          "value": null
+        },
+        {
+          "field_path": "family_api_total_and_unique_delta.version_downloads",
+          "value": null
+        },
+        {
+          "field_path": "family_api_total_and_unique_delta.version_unique_views",
+          "value": null
+        },
+        {
+          "field_path": "family_api_total_and_unique_delta.version_unique_downloads",
+          "value": null
+        },
+        {
+          "field_path": "delta_from_october15.views",
+          "value": null
+        },
+        {
+          "field_path": "delta_from_october15.downloads",
+          "value": null
+        },
+        {
+          "field_path": "delta_from_october15.unique_views",
+          "value": null
+        },
+        {
+          "field_path": "delta_from_october15.unique_downloads",
+          "value": null
+        },
+        {
+          "field_path": "delta_from_october15.version_views",
+          "value": null
+        },
+        {
+          "field_path": "delta_from_october15.version_downloads",
+          "value": null
+        },
+        {
+          "field_path": "delta_from_october15.version_unique_views",
+          "value": null
+        },
+        {
+          "field_path": "delta_from_october15.version_unique_downloads",
+          "value": null
+        },
+        {
+          "field_path": "openalex_query_count_delta",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "source_file": "ObservationSummary.json",
+      "sha256": "c90af43ea6524cf63a1bc5abc8d406dcc5686d749884e3ef0854e6eb92c87376",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "actual_started_at_local",
+          "value": "2026-10-16T11:44:55.171581+08:00"
+        },
+        {
+          "field_path": "actual_finished_at_local",
+          "value": "2026-10-16T11:55:13.270985+08:00"
+        },
+        {
+          "field_path": "zenodo_fixed_ten.views",
+          "value": null
+        },
+        {
+          "field_path": "zenodo_fixed_ten.downloads",
+          "value": null
+        },
+        {
+          "field_path": "zenodo_fixed_ten.unique_views",
+          "value": null
+        },
+        {
+          "field_path": "zenodo_fixed_ten.unique_downloads",
+          "value": null
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_views",
+          "value": null
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_downloads",
+          "value": null
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_unique_views",
+          "value": null
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_unique_downloads",
+          "value": null
+        },
+        {
+          "field_path": "zenodo_companion.object_id",
+          "value": "COMPANION"
+        },
+        {
+          "field_path": "zenodo_companion.record_id",
+          "value": "23284570"
+        },
+        {
+          "field_path": "zenodo_companion.doi",
+          "value": "10.5281/zenodo.23284570"
+        },
+        {
+          "field_path": "zenodo_companion.concept_doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "zenodo_companion.views",
+          "value": 103
+        },
+        {
+          "field_path": "zenodo_companion.downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_companion.unique_views",
+          "value": 96
+        },
+        {
+          "field_path": "zenodo_companion.unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_companion.version_views",
+          "value": 25
+        },
+        {
+          "field_path": "zenodo_companion.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_companion.version_unique_views",
+          "value": 22
+        },
+        {
+          "field_path": "zenodo_companion.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "distinct_version_records_observed",
+          "value": 26
+        },
+        {
+          "field_path": "version_enumerations_complete",
+          "value": false
+        },
+        {
+          "field_path": "datacite.creator_query_total",
+          "value": 71
+        },
+        {
+          "field_path": "orcid.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "orcid.groups",
+          "value": 15
+        },
+        {
+          "field_path": "orcid.source_summaries",
+          "value": 84
+        },
+        {
+          "field_path": "openalex.query_count",
+          "value": 29
+        },
+        {
+          "field_path": "openalex.profile_count",
+          "value": 26
+        },
+        {
+          "field_path": "openalex.checkpoint_doi_routes_resolved",
+          "value": 10
+        },
+        {
+          "field_path": "openalex.exact_checkpoint_doi_matches",
+          "value": 0
+        },
+        {
+          "field_path": "workflowhub[0].latest_version",
+          "value": 8
+        },
+        {
+          "field_path": "workflowhub[0].views",
+          "value": 921
+        },
+        {
+          "field_path": "workflowhub[0].downloads",
+          "value": 91
+        },
+        {
+          "field_path": "workflowhub[0].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "workflowhub[1].latest_version",
+          "value": 8
+        },
+        {
+          "field_path": "workflowhub[1].views",
+          "value": 1053
+        },
+        {
+          "field_path": "workflowhub[1].downloads",
+          "value": 75
+        },
+        {
+          "field_path": "workflowhub[1].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "workflowhub[2].latest_version",
+          "value": 1
+        },
+        {
+          "field_path": "workflowhub[2].views",
+          "value": 291
+        },
+        {
+          "field_path": "workflowhub[2].downloads",
+          "value": 12
+        },
+        {
+          "field_path": "workflowhub[2].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "platform_states.checkpoint_version_family_verified",
+          "value": 8
+        },
+        {
+          "field_path": "platform_states.checkpoint_version_findable",
+          "value": 10
+        },
+        {
+          "field_path": "platform_states.checkpoint_version_assertion_observed",
+          "value": 10
+        },
+        {
+          "field_path": "platform_states.checkpoint_doi_resolves",
+          "value": 10
+        },
+        {
+          "field_path": "repository_remote_modified",
+          "value": false
+        }
+      ]
+    }
+  ]
+}

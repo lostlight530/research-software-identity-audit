@@ -1,0 +1,50 @@
+{
+  "scope": "published selected fields only; excludes original local HTTP payloads, this manifest and global index",
+  "files": [
+    {
+      "path": "evidence/2026-11-02/02-all-version-recheck/all-version-fields.json",
+      "bytes": 107050,
+      "sha256": "f1a338107fde3b650ea6a6e948a443515d6e4da4b68b770dae289b305ecfc80b"
+    },
+    {
+      "path": "evidence/2026-11-02/02-all-version-recheck/all-version-statistics.csv",
+      "bytes": 7914,
+      "sha256": "1460b89167dfb5c34fd530bdb7b33fbe01ccccfc1543cf53c6981fb1d43f09cd"
+    },
+    {
+      "path": "evidence/2026-11-02/02-all-version-recheck/family-reconciliation.json",
+      "bytes": 6579,
+      "sha256": "d12f891267b66d7425ef5899a04937dc0c184036aaaa7b645850333155d02d3a"
+    },
+    {
+      "path": "evidence/2026-11-02/02-all-version-recheck/family-summary.json",
+      "bytes": 7629,
+      "sha256": "59e03d8975ce31a75b5df1ccc6fd2759c14049642aeb518939a789ed01e7edcb"
+    },
+    {
+      "path": "evidence/2026-11-02/02-all-version-recheck/README.md",
+      "bytes": 324,
+      "sha256": "2bc4ea8ec542abcce8c7074f2d09172297a9b7827079220aba103c13527cec07"
+    },
+    {
+      "path": "evidence/2026-11-02/02-all-version-recheck/source-provenance.json",
+      "bytes": 604,
+      "sha256": "2485dea4739a3da6494cccf6e2b86b5324fb993f3f71d5794a0271af61a4e3c1"
+    },
+    {
+      "path": "monitoring/2026-11-02/02-all-version-recheck/README.md",
+      "bytes": 1438,
+      "sha256": "ee4817570dbb0ec5a971bec0ed9524979310ae27b4ebf05195cefec8ae97f633"
+    },
+    {
+      "path": "monitoring/2026-11-02/02-all-version-recheck/record.json",
+      "bytes": 1090,
+      "sha256": "63351989cd2abcad7657b56c121f06b1e20600a65e9f0271b429d54798c83d36"
+    },
+    {
+      "path": "monitoring/2026-11-02/02-all-version-recheck/source-attempts.csv",
+      "bytes": 19162,
+      "sha256": "a17897a94588ca2b026b23cc4d4944d387bea20dcbc484b45f56b8b1fc846c81"
+    }
+  ]
+}
