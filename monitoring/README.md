@@ -186,3 +186,5 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## November 1 bounded identity and infrastructure patrol
 
 - [2026-11-01 / 01-periodic-identity-infrastructure-recheck](2026-11-01/01-periodic-identity-infrastructure-recheck/README.md) — eleven fresh GitHub main and open PR/Release checks, ten fixed-corpus source SHA changes with exact comparison ledger, 34 external surface access attempts with cached/error boundaries, existing seven-platform DOI evidence, and the **already-published** fifth CONTROL version DOI plus dated citation drift reconciliation. Diagnostic only; not an eligible prospective observation, additional sample, or new DOI created by this check.
+
+- [2026-11-01 / 02-followup-identity-infrastructure](2026-11-01/02-followup-identity-infrastructure/README.md) — independent same-day post-PR-#80 source-snapshot follow-up, **one RS03 main change** (two commits, one path, original A2 blocked), 11 tag/Release/PR crosschecks, seven-platform identity representations and 34 exact source-access attempts; **source-clock race documented, no new fixed Release/DOI, no scientific source correction, no prospective cells**.
