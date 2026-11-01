@@ -49,3 +49,15 @@ The existing archive table above is a **dated earlier view**. A **fourth control
 Zenodo confirms `conceptdoi=10.5281/zenodo.23166490`, and DataCite registered `10.5281/zenodo.23446162` at **2026-10-18T04:39:02Z** with `IsVersionOf` the same concept. The **new immutable October 18 tag still embeds October 10 version metadata** in `CITATION.cff` and `codemeta.json`. We retain that archived discrepancy and have only aligned **later live `main`** with the now-existing October 18 DOI; this does not change tag bytes or an already-created Zenodo ZIP.
 
 See [2026-10-18 release identity reconciliation](release-identity-reconciliation-2026-10-18.md). Cite the **exact Oct 18 version DOI** for that archive and keep the concept DOI for the evolving research-control software family. The [OSF registration DOI](https://doi.org/10.17605/OSF.IO/5B329) continues to identify the frozen study design alone.
+
+## Fifth control-software archive — October 31, 2026 (verified November 1)
+
+The earlier October 18 text above is an as-of historical statement. A fifth GitHub control-software release now exists:
+
+| GitHub release tag | Published (UTC) | Zenodo exact-version DOI |
+| --- | --- | --- |
+| [`v2026.10-control-lifecycle-reconciliation`](https://github.com/lostlight530/research-software-identity-audit/releases/tag/v2026.10-control-lifecycle-reconciliation) | `2026-10-31T15:55:06Z` | [`10.5281/zenodo.23839900`](https://doi.org/10.5281/zenodo.23839900) |
+
+This is **one new version of the independent control software**, under the unchanged family concept DOI `10.5281/zenodo.23166490`. The version's [DataCite registration](https://api.datacite.org/dois/10.5281/zenodo.23839900) reports `IsVersionOf` the concept. The already published Git tag embedded October 18 `CITATION.cff` / `codemeta.json` metadata; this dated correction updates current `main` citation pointers **after** the release without altering immutable tagged or archived bytes. See [release policy correction history](../RELEASE_POLICY.md#postpublication-october-31-control-lifecycle-release--november-1-citation-reconciliation) and [November 1 bounded evidence record](../monitoring/2026-11-01/01-periodic-identity-infrastructure-recheck/README.md) for provenance limitations.
+
+The OSF preregistration DOI still refers to the frozen study design; no RS11, qualifying prospective event, new layer, unplanned timepoint or artificial DOI is introduced by this citation correction.
