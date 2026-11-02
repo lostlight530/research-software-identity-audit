@@ -1,0 +1,200 @@
+{
+  "source_category": "独立采集",
+  "source_date_label": "2026-10-18",
+  "source_package_label": "research-history-independent-verification",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "ArchiveVerification.json",
+      "sha256": "a031c5f40768cc804b6eca42a178873eab82bf10470909fd109cee98f1e63f07",
+      "bytes": 6335,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "DataCiteIdentifiers.csv",
+      "sha256": "bca4af0bc55951f9be7f9758aa4adddd2c743bbed8c18dcee267aa244b764881",
+      "bytes": 4541,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ObservationSummary.json",
+      "sha256": "4898f9809e7a7252bfaca909b3c18e0b7798a307907151c89c9a08d0db8bf64f",
+      "bytes": 3118,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "RequestLog.json",
+      "sha256": "f2628ece6fe8ccc4419bb76ff6f4b557e2ff4dfd5b45bb31a5e2c7ab7ecde66b",
+      "bytes": 54000,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "eb9321252f624d856402b28aad2315240f2299bd4ede9e74995709e1203d2982",
+      "bytes": 9350,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoFixedTenStatistics.csv",
+      "sha256": "791a526153cfe9f7b6d1b28184b6dc887b05d0b1011dbe4b02fab97392ee31d6",
+      "bytes": 1302,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "ObservationSummary.json",
+      "sha256": "4898f9809e7a7252bfaca909b3c18e0b7798a307907151c89c9a08d0db8bf64f",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "date",
+          "value": "2026-10-18"
+        },
+        {
+          "field_path": "scope",
+          "value": "research_only"
+        },
+        {
+          "field_path": "started_at",
+          "value": "2026-10-18T22:41:00.951606+08:00"
+        },
+        {
+          "field_path": "finished_at",
+          "value": "2026-10-18T22:42:22.317781+08:00"
+        },
+        {
+          "field_path": "planned_layers",
+          "value": 6
+        },
+        {
+          "field_path": "datacite.query_count",
+          "value": 76
+        },
+        {
+          "field_path": "datacite.first_naked_identifier_query_count",
+          "value": 56
+        },
+        {
+          "field_path": "openalex.profile_count",
+          "value": 29
+        },
+        {
+          "field_path": "openalex.query_count",
+          "value": 30
+        },
+        {
+          "field_path": "openalex.cited_by_count",
+          "value": 1
+        },
+        {
+          "field_path": "orcid.groups",
+          "value": 17
+        },
+        {
+          "field_path": "orcid.work_summaries",
+          "value": 89
+        },
+        {
+          "field_path": "zenodo_fixed_ten.views",
+          "value": 2398
+        },
+        {
+          "field_path": "zenodo_fixed_ten.unique_views",
+          "value": 1559
+        },
+        {
+          "field_path": "zenodo_fixed_ten.downloads",
+          "value": 17
+        },
+        {
+          "field_path": "zenodo_fixed_ten.unique_downloads",
+          "value": 16
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_views",
+          "value": 38
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_unique_views",
+          "value": 35
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_downloads",
+          "value": 9
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_unique_downloads",
+          "value": 9
+        },
+        {
+          "field_path": "openaire.checkpoint_doi_hits",
+          "value": 10
+        },
+        {
+          "field_path": "scicrunch_status",
+          "value": 403
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[0].detail_views",
+          "value": 1294
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[0].detail_downloads",
+          "value": 138
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[0].doi",
+          "value": "10.48546/workflowhub.workflow.2332.8"
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[1].detail_views",
+          "value": 1311
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[1].detail_downloads",
+          "value": 106
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[1].doi",
+          "value": "10.48546/workflowhub.workflow.2334.8"
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[2].detail_views",
+          "value": 395
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[2].detail_downloads",
+          "value": 17
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[2].doi",
+          "value": "10.48546/workflowhub.workflow.2337.1"
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[3].detail_views",
+          "value": 86
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[3].detail_downloads",
+          "value": 15
+        },
+        {
+          "field_path": "workflowhub_version_detail_activity[3].doi",
+          "value": "10.48546/workflowhub.workflow.2347.2"
+        },
+        {
+          "field_path": "repository_modified",
+          "value": false
+        }
+      ]
+    }
+  ]
+}

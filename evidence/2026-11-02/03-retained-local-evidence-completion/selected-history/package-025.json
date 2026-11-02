@@ -1,0 +1,55 @@
+{
+  "source_category": "平台专项",
+  "source_date_label": "2026-10-12",
+  "source_package_label": "sci-crunch-ownership-update",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "71bba6ecd9383fd8aed04c0eb932053fb8ddabc6305d74420f98ebb9a1da4ed2",
+      "bytes": 343,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "UserProvidedStatus.json",
+      "sha256": "46dabd5ccf302148e67a6472a22b102877046bae4beaaddd724435e6183f7e67",
+      "bytes": 1268,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Verification.json",
+      "sha256": "b332c8418884a5204180be96099ed1f122c2defa7579b09d53406a69c18e426d",
+      "bytes": 597,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "UserProvidedStatus.json",
+      "sha256": "46dabd5ccf302148e67a6472a22b102877046bae4beaaddd724435e6183f7e67",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "recorded_date",
+          "value": "2026-10-12"
+        },
+        {
+          "field_path": "timezone",
+          "value": "Asia/Shanghai"
+        },
+        {
+          "field_path": "ownership_status",
+          "value": "REQUESTED_PENDING_CURATOR_CONFIRMATION"
+        },
+        {
+          "field_path": "ownership_submission_exact_timestamp",
+          "value": null
+        }
+      ]
+    }
+  ]
+}

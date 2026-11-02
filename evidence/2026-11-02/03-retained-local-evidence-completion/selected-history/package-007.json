@@ -1,0 +1,3077 @@
+{
+  "source_category": "历史散件",
+  "source_date_label": "2026-10-04",
+  "source_package_label": "ten-repository-semantic-drift-evidence.json",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "ten-repository-semantic-drift-evidence.json",
+      "sha256": "acd498c3930842e0f6e30f7ea604056279569752f23afe21dbc6fed3c217269c",
+      "bytes": 461437,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "ten-repository-semantic-drift-evidence.json",
+      "sha256": "acd498c3930842e0f6e30f7ea604056279569752f23afe21dbc6fed3c217269c",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "timezone",
+          "value": "Asia/Shanghai"
+        },
+        {
+          "field_path": "scope",
+          "value": "Ten fixed September monthly Software version DOIs; no concept/version mixing; repository-owned research Actions retained; provider/scheduler/delivery alone do not define domains"
+        },
+        {
+          "field_path": "records[0].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "records[0].doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "records[0].record_id",
+          "value": 23068145
+        },
+        {
+          "field_path": "records[0].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[0].repository_pr",
+          "value": 692
+        },
+        {
+          "field_path": "records[0].repository_head_before_edit",
+          "value": "3a7d6dc4650c54ffe061a2bdb10f7a43be586937"
+        },
+        {
+          "field_path": "records[0].repository_base",
+          "value": "b16ea9ae93ad61d872508595c36e28e3703f498f"
+        },
+        {
+          "field_path": "records[0].repository_codemeta.datePublished",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "records[0].DataCite_controlled_subject_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].OpenAIRE_result_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[0].OpenAlex.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.retrieved_at",
+          "value": "2026-10-04T11:31:04.739404+00:00"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.created",
+          "value": "2026-09-30T18:38:38.322467+00:00"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.modified",
+          "value": "2026-09-30T18:38:38.591825+00:00"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.conceptrecid",
+          "value": "22790907"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.conceptdoi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.metadata.doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.metadata.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.metadata.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.updated",
+          "value": "2026-09-30T18:38:38.591825+00:00"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.recid",
+          "value": "23068145"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.status",
+          "value": "published"
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.stats.downloads",
+          "value": 4
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.stats.unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.stats.views",
+          "value": 72
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.stats.unique_views",
+          "value": 70
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.stats.version_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.stats.version_unique_views",
+          "value": 25
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.stats.version_views",
+          "value": 26
+        },
+        {
+          "field_path": "records[0].platforms.Zenodo.data.state",
+          "value": "done"
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.retrieved_at",
+          "value": "2026-10-04T11:31:04.740403+00:00"
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.created",
+          "value": "2026-09-30T19:07:17.000Z"
+        },
+        {
+          "field_path": "records[0].platforms.DataCite.data.data.attributes.updated",
+          "value": "2026-09-30T19:07:17.000Z"
+        },
+        {
+          "field_path": "records[0].platforms.OpenAIRE.platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "records[0].platforms.OpenAIRE.retrieved_at",
+          "value": "2026-10-04T11:31:04.740403+00:00"
+        },
+        {
+          "field_path": "records[0].platforms.OpenAIRE.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[0].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfCollection",
+          "value": null
+        },
+        {
+          "field_path": "records[0].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfTransformation",
+          "value": null
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.retrieved_at",
+          "value": "2026-10-04T11:31:04.740403+00:00"
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[0].platforms.OpenAlex.data.created_date",
+          "value": "2026-10-01T00:00:00"
+        },
+        {
+          "field_path": "records[1].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "records[1].doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "records[1].record_id",
+          "value": 23068144
+        },
+        {
+          "field_path": "records[1].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[1].repository_pr",
+          "value": 581
+        },
+        {
+          "field_path": "records[1].repository_head_before_edit",
+          "value": "1a495ea3c20225c9db94286991be6143139753d3"
+        },
+        {
+          "field_path": "records[1].repository_base",
+          "value": "62e625a53be1d612998e7236784b5bc02e37c1cc"
+        },
+        {
+          "field_path": "records[1].repository_codemeta.datePublished",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "records[1].DataCite_controlled_subject_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].OpenAIRE_result_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[1].OpenAlex.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.retrieved_at",
+          "value": "2026-10-04T11:31:05.852753+00:00"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.created",
+          "value": "2026-09-30T18:38:31.982668+00:00"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.modified",
+          "value": "2026-09-30T18:38:32.188189+00:00"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.conceptrecid",
+          "value": "22791081"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.conceptdoi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.metadata.doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.metadata.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.metadata.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.updated",
+          "value": "2026-09-30T18:38:32.188189+00:00"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.recid",
+          "value": "23068144"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.status",
+          "value": "published"
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.stats.views",
+          "value": 44
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.stats.unique_views",
+          "value": 42
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.stats.version_unique_views",
+          "value": 18
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.stats.version_views",
+          "value": 19
+        },
+        {
+          "field_path": "records[1].platforms.Zenodo.data.state",
+          "value": "done"
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.retrieved_at",
+          "value": "2026-10-04T11:31:06.154757+00:00"
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.created",
+          "value": "2026-09-30T19:07:02.000Z"
+        },
+        {
+          "field_path": "records[1].platforms.DataCite.data.data.attributes.updated",
+          "value": "2026-09-30T19:07:02.000Z"
+        },
+        {
+          "field_path": "records[1].platforms.OpenAIRE.platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "records[1].platforms.OpenAIRE.retrieved_at",
+          "value": "2026-10-04T11:31:05.864364+00:00"
+        },
+        {
+          "field_path": "records[1].platforms.OpenAIRE.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[1].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfCollection",
+          "value": null
+        },
+        {
+          "field_path": "records[1].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfTransformation",
+          "value": null
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.retrieved_at",
+          "value": "2026-10-04T11:31:06.546507+00:00"
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.abstract_inverted_index.state,[0]",
+          "value": 6
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[1].platforms.OpenAlex.data.created_date",
+          "value": "2026-10-01T00:00:00"
+        },
+        {
+          "field_path": "records[2].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "records[2].doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "records[2].record_id",
+          "value": 23068261
+        },
+        {
+          "field_path": "records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[2].repository_pr",
+          "value": 341
+        },
+        {
+          "field_path": "records[2].repository_head_before_edit",
+          "value": "62859ad0a0c9e3a636a3c902d6809e938d602b65"
+        },
+        {
+          "field_path": "records[2].repository_base",
+          "value": "bcccc913b9e26d94b70ddc82a573ac2af7bae915"
+        },
+        {
+          "field_path": "records[2].repository_codemeta.datePublished",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "records[2].DataCite_controlled_subject_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].OpenAIRE_result_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[2].OpenAlex.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.retrieved_at",
+          "value": "2026-10-04T11:31:06.896584+00:00"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.created",
+          "value": "2026-09-30T18:43:47.691412+00:00"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.modified",
+          "value": "2026-09-30T18:43:47.922550+00:00"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.conceptrecid",
+          "value": "22791103"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.conceptdoi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.metadata.doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.metadata.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.metadata.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.updated",
+          "value": "2026-09-30T18:43:47.922550+00:00"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.recid",
+          "value": "23068261"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.status",
+          "value": "published"
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.stats.views",
+          "value": 70
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.stats.unique_views",
+          "value": 66
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.stats.version_unique_views",
+          "value": 26
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.stats.version_views",
+          "value": 29
+        },
+        {
+          "field_path": "records[2].platforms.Zenodo.data.state",
+          "value": "done"
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.retrieved_at",
+          "value": "2026-10-04T11:31:07.469553+00:00"
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.created",
+          "value": "2026-09-30T19:11:46.000Z"
+        },
+        {
+          "field_path": "records[2].platforms.DataCite.data.data.attributes.updated",
+          "value": "2026-09-30T19:11:46.000Z"
+        },
+        {
+          "field_path": "records[2].platforms.OpenAIRE.platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "records[2].platforms.OpenAIRE.retrieved_at",
+          "value": "2026-10-04T11:31:06.913116+00:00"
+        },
+        {
+          "field_path": "records[2].platforms.OpenAIRE.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[2].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfCollection",
+          "value": null
+        },
+        {
+          "field_path": "records[2].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfTransformation",
+          "value": null
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.retrieved_at",
+          "value": "2026-10-04T11:31:08.502075+00:00"
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.abstract_inverted_index.state[0]",
+          "value": 11
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.abstract_inverted_index.repository[0]",
+          "value": 16
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[2].platforms.OpenAlex.data.created_date",
+          "value": "2026-10-01T00:00:00"
+        },
+        {
+          "field_path": "records[3].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "records[3].doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "records[3].record_id",
+          "value": 23068260
+        },
+        {
+          "field_path": "records[3].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[3].repository_pr",
+          "value": 419
+        },
+        {
+          "field_path": "records[3].repository_head_before_edit",
+          "value": "ec6a6593d5f64474f96c7b2f90f8bedea38f60b6"
+        },
+        {
+          "field_path": "records[3].repository_base",
+          "value": "6409f7da21565244681b1d7e9815ad4edaa59429"
+        },
+        {
+          "field_path": "records[3].repository_codemeta.datePublished",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "records[3].DataCite_controlled_subject_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].OpenAIRE_result_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[3].OpenAlex.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.retrieved_at",
+          "value": "2026-10-04T11:31:07.957848+00:00"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.created",
+          "value": "2026-09-30T18:43:42.112858+00:00"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.modified",
+          "value": "2026-09-30T18:43:42.307280+00:00"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.conceptrecid",
+          "value": "22791141"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.conceptdoi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.metadata.doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.metadata.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.metadata.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.updated",
+          "value": "2026-09-30T18:43:42.307280+00:00"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.recid",
+          "value": "23068260"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.status",
+          "value": "published"
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.stats.views",
+          "value": 36
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.stats.unique_views",
+          "value": 35
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.stats.version_unique_views",
+          "value": 12
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.stats.version_views",
+          "value": 12
+        },
+        {
+          "field_path": "records[3].platforms.Zenodo.data.state",
+          "value": "done"
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.retrieved_at",
+          "value": "2026-10-04T11:31:08.746011+00:00"
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.created",
+          "value": "2026-09-30T19:11:42.000Z"
+        },
+        {
+          "field_path": "records[3].platforms.DataCite.data.data.attributes.updated",
+          "value": "2026-09-30T19:11:43.000Z"
+        },
+        {
+          "field_path": "records[3].platforms.OpenAIRE.platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "records[3].platforms.OpenAIRE.retrieved_at",
+          "value": "2026-10-04T11:31:07.946021+00:00"
+        },
+        {
+          "field_path": "records[3].platforms.OpenAIRE.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[3].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfCollection",
+          "value": null
+        },
+        {
+          "field_path": "records[3].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfTransformation",
+          "value": null
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.retrieved_at",
+          "value": "2026-10-04T11:31:10.227107+00:00"
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.abstract_inverted_index.versioned[0]",
+          "value": 5
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[3].platforms.OpenAlex.data.created_date",
+          "value": "2026-10-01T00:00:00"
+        },
+        {
+          "field_path": "records[4].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "records[4].doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "records[4].record_id",
+          "value": 23068262
+        },
+        {
+          "field_path": "records[4].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[4].repository_pr",
+          "value": 248
+        },
+        {
+          "field_path": "records[4].repository_head_before_edit",
+          "value": "a2b83cdd159fb5c111af05fe7485210283b554bb"
+        },
+        {
+          "field_path": "records[4].repository_base",
+          "value": "d5048ad6ad381febca8bce0333a8befe7b35acb1"
+        },
+        {
+          "field_path": "records[4].repository_codemeta.datePublished",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "records[4].DataCite_controlled_subject_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].OpenAIRE_result_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[4].OpenAlex.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.retrieved_at",
+          "value": "2026-10-04T11:31:09.023555+00:00"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.created",
+          "value": "2026-09-30T18:43:51.610743+00:00"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.modified",
+          "value": "2026-09-30T18:43:51.813211+00:00"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.conceptrecid",
+          "value": "22791169"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.conceptdoi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.metadata.doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.metadata.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.metadata.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.updated",
+          "value": "2026-09-30T18:43:51.813211+00:00"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.recid",
+          "value": "23068262"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.status",
+          "value": "published"
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.stats.views",
+          "value": 59
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.stats.unique_views",
+          "value": 54
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.stats.version_unique_views",
+          "value": 37
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.stats.version_views",
+          "value": 42
+        },
+        {
+          "field_path": "records[4].platforms.Zenodo.data.state",
+          "value": "done"
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.retrieved_at",
+          "value": "2026-10-04T11:31:10.052051+00:00"
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.created",
+          "value": "2026-09-30T19:11:59.000Z"
+        },
+        {
+          "field_path": "records[4].platforms.DataCite.data.data.attributes.updated",
+          "value": "2026-09-30T19:12:00.000Z"
+        },
+        {
+          "field_path": "records[4].platforms.OpenAIRE.platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "records[4].platforms.OpenAIRE.retrieved_at",
+          "value": "2026-10-04T11:31:09.031956+00:00"
+        },
+        {
+          "field_path": "records[4].platforms.OpenAIRE.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[4].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfCollection",
+          "value": null
+        },
+        {
+          "field_path": "records[4].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfTransformation",
+          "value": null
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.retrieved_at",
+          "value": "2026-10-04T11:31:12.212618+00:00"
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[4].platforms.OpenAlex.data.created_date",
+          "value": "2026-10-01T00:00:00"
+        },
+        {
+          "field_path": "records[5].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "records[5].doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "records[5].record_id",
+          "value": 23068471
+        },
+        {
+          "field_path": "records[5].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[5].repository_pr",
+          "value": 94
+        },
+        {
+          "field_path": "records[5].repository_head_before_edit",
+          "value": "4452457d368d80c848ace48f6d5d3262cc600fc2"
+        },
+        {
+          "field_path": "records[5].repository_base",
+          "value": "f6c37277d18e35ab0fae57b7237187a5713a8f99"
+        },
+        {
+          "field_path": "records[5].repository_codemeta.datePublished",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "records[5].DataCite_controlled_subject_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].OpenAIRE_result_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[5].OpenAlex.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.retrieved_at",
+          "value": "2026-10-04T11:31:10.096543+00:00"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.created",
+          "value": "2026-09-30T18:57:58.072540+00:00"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.modified",
+          "value": "2026-09-30T18:57:58.311235+00:00"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.conceptrecid",
+          "value": "22791404"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.conceptdoi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.metadata.doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.metadata.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.metadata.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.updated",
+          "value": "2026-09-30T18:57:58.311235+00:00"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.recid",
+          "value": "23068471"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.status",
+          "value": "published"
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.stats.views",
+          "value": 34
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.stats.unique_views",
+          "value": 33
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.stats.version_unique_views",
+          "value": 13
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.stats.version_views",
+          "value": 14
+        },
+        {
+          "field_path": "records[5].platforms.Zenodo.data.state",
+          "value": "done"
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.retrieved_at",
+          "value": "2026-10-04T11:31:11.431843+00:00"
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.created",
+          "value": "2026-09-30T19:23:29.000Z"
+        },
+        {
+          "field_path": "records[5].platforms.DataCite.data.data.attributes.updated",
+          "value": "2026-09-30T19:23:29.000Z"
+        },
+        {
+          "field_path": "records[5].platforms.OpenAIRE.platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "records[5].platforms.OpenAIRE.retrieved_at",
+          "value": "2026-10-04T11:31:10.066776+00:00"
+        },
+        {
+          "field_path": "records[5].platforms.OpenAIRE.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[5].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfCollection",
+          "value": null
+        },
+        {
+          "field_path": "records[5].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfTransformation",
+          "value": null
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.retrieved_at",
+          "value": "2026-10-04T11:31:13.912418+00:00"
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[5].platforms.OpenAlex.data.created_date",
+          "value": "2026-10-01T00:00:00"
+        },
+        {
+          "field_path": "records[6].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "records[6].doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "records[6].record_id",
+          "value": 23068494
+        },
+        {
+          "field_path": "records[6].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[6].repository_pr",
+          "value": 93
+        },
+        {
+          "field_path": "records[6].repository_head_before_edit",
+          "value": "cacfe100029ff36963c5dd929c102e3729b0d5d7"
+        },
+        {
+          "field_path": "records[6].repository_base",
+          "value": "c948dcb5e5d1e82da7a8e8426ec76457047e4412"
+        },
+        {
+          "field_path": "records[6].repository_codemeta.datePublished",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "records[6].DataCite_controlled_subject_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].OpenAIRE_result_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[6].OpenAlex.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.retrieved_at",
+          "value": "2026-10-04T11:31:11.127555+00:00"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.created",
+          "value": "2026-09-30T18:59:12.926516+00:00"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.modified",
+          "value": "2026-09-30T18:59:13.111572+00:00"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.conceptrecid",
+          "value": "22791463"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.conceptdoi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.metadata.doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.metadata.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.metadata.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.updated",
+          "value": "2026-09-30T18:59:13.111572+00:00"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.recid",
+          "value": "23068494"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.status",
+          "value": "published"
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.stats.views",
+          "value": 53
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.stats.unique_views",
+          "value": 53
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.stats.version_unique_views",
+          "value": 30
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.stats.version_views",
+          "value": 30
+        },
+        {
+          "field_path": "records[6].platforms.Zenodo.data.state",
+          "value": "done"
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.retrieved_at",
+          "value": "2026-10-04T11:31:12.751210+00:00"
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.created",
+          "value": "2026-09-30T19:24:56.000Z"
+        },
+        {
+          "field_path": "records[6].platforms.DataCite.data.data.attributes.updated",
+          "value": "2026-09-30T19:24:57.000Z"
+        },
+        {
+          "field_path": "records[6].platforms.OpenAIRE.platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "records[6].platforms.OpenAIRE.retrieved_at",
+          "value": "2026-10-04T11:31:11.127234+00:00"
+        },
+        {
+          "field_path": "records[6].platforms.OpenAIRE.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[6].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfCollection",
+          "value": null
+        },
+        {
+          "field_path": "records[6].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfTransformation",
+          "value": null
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.retrieved_at",
+          "value": "2026-10-04T11:31:15.627615+00:00"
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.abstract_inverted_index.state-machine[0]",
+          "value": 2
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.abstract_inverted_index.runtime[0]",
+          "value": 8
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[6].platforms.OpenAlex.data.created_date",
+          "value": "2026-10-01T00:00:00"
+        },
+        {
+          "field_path": "records[7].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "records[7].doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "records[7].record_id",
+          "value": 23068472
+        },
+        {
+          "field_path": "records[7].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[7].repository_pr",
+          "value": 94
+        },
+        {
+          "field_path": "records[7].repository_head_before_edit",
+          "value": "fbc37d26a52d4aa98a6ccd0c21172b970fc00d4a"
+        },
+        {
+          "field_path": "records[7].repository_base",
+          "value": "8debabe2a6213ef1daf637a3760fc551db343c58"
+        },
+        {
+          "field_path": "records[7].repository_codemeta.datePublished",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "records[7].DataCite_controlled_subject_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].OpenAIRE_result_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[7].OpenAlex.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.retrieved_at",
+          "value": "2026-10-04T11:31:12.185402+00:00"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.created",
+          "value": "2026-09-30T18:58:16.043956+00:00"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.modified",
+          "value": "2026-09-30T18:58:16.295795+00:00"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.conceptrecid",
+          "value": "22791375"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.conceptdoi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.metadata.doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.metadata.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.metadata.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.updated",
+          "value": "2026-09-30T18:58:16.295795+00:00"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.recid",
+          "value": "23068472"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.status",
+          "value": "published"
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.stats.views",
+          "value": 46
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.stats.unique_views",
+          "value": 46
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.stats.version_unique_views",
+          "value": 17
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.stats.version_views",
+          "value": 17
+        },
+        {
+          "field_path": "records[7].platforms.Zenodo.data.state",
+          "value": "done"
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.retrieved_at",
+          "value": "2026-10-04T11:31:14.579717+00:00"
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.created",
+          "value": "2026-09-30T19:23:58.000Z"
+        },
+        {
+          "field_path": "records[7].platforms.DataCite.data.data.attributes.updated",
+          "value": "2026-09-30T19:23:59.000Z"
+        },
+        {
+          "field_path": "records[7].platforms.OpenAIRE.platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "records[7].platforms.OpenAIRE.retrieved_at",
+          "value": "2026-10-04T11:31:12.197266+00:00"
+        },
+        {
+          "field_path": "records[7].platforms.OpenAIRE.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[7].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfCollection",
+          "value": null
+        },
+        {
+          "field_path": "records[7].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfTransformation",
+          "value": null
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.retrieved_at",
+          "value": "2026-10-04T11:31:17.377819+00:00"
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[7].platforms.OpenAlex.data.created_date",
+          "value": "2026-10-01T00:00:00"
+        },
+        {
+          "field_path": "records[8].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "records[8].doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "records[8].record_id",
+          "value": 23068352
+        },
+        {
+          "field_path": "records[8].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[8].repository_pr",
+          "value": 117
+        },
+        {
+          "field_path": "records[8].repository_head_before_edit",
+          "value": "b39aed1825236299746e9af6337ec4169756a4ee"
+        },
+        {
+          "field_path": "records[8].repository_base",
+          "value": "f05e317a574827240a69dd44e7d5102eb14e6cf8"
+        },
+        {
+          "field_path": "records[8].repository_codemeta.datePublished",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "records[8].DataCite_controlled_subject_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].OpenAIRE_result_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[8].OpenAlex.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.retrieved_at",
+          "value": "2026-10-04T11:31:13.196827+00:00"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.created",
+          "value": "2026-09-30T18:50:01.848258+00:00"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.modified",
+          "value": "2026-09-30T18:50:02.111288+00:00"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.conceptrecid",
+          "value": "22791334"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.conceptdoi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.metadata.doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.metadata.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.metadata.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.updated",
+          "value": "2026-09-30T18:50:02.111288+00:00"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.recid",
+          "value": "23068352"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.status",
+          "value": "published"
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.stats.views",
+          "value": 62
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.stats.unique_views",
+          "value": 58
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.stats.version_unique_views",
+          "value": 30
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.stats.version_views",
+          "value": 33
+        },
+        {
+          "field_path": "records[8].platforms.Zenodo.data.state",
+          "value": "done"
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.retrieved_at",
+          "value": "2026-10-04T11:31:15.870918+00:00"
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.created",
+          "value": "2026-09-30T19:18:25.000Z"
+        },
+        {
+          "field_path": "records[8].platforms.DataCite.data.data.attributes.updated",
+          "value": "2026-09-30T19:18:25.000Z"
+        },
+        {
+          "field_path": "records[8].platforms.OpenAIRE.platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "records[8].platforms.OpenAIRE.retrieved_at",
+          "value": "2026-10-04T11:31:13.254598+00:00"
+        },
+        {
+          "field_path": "records[8].platforms.OpenAIRE.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[8].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfCollection",
+          "value": null
+        },
+        {
+          "field_path": "records[8].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfTransformation",
+          "value": null
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.retrieved_at",
+          "value": "2026-10-04T11:31:19.117832+00:00"
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[8].platforms.OpenAlex.data.created_date",
+          "value": "2026-10-01T00:00:00"
+        },
+        {
+          "field_path": "records[9].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "records[9].doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "records[9].record_id",
+          "value": 23068347
+        },
+        {
+          "field_path": "records[9].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[9].repository_pr",
+          "value": 116
+        },
+        {
+          "field_path": "records[9].repository_head_before_edit",
+          "value": "eedf5dd4871f2744138124245be91030e93b3fc3"
+        },
+        {
+          "field_path": "records[9].repository_base",
+          "value": "1c2a350e357dbd73301e0cf34dfa14729f88b6ca"
+        },
+        {
+          "field_path": "records[9].repository_codemeta.datePublished",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "records[9].DataCite_controlled_subject_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].OpenAIRE_result_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[9].OpenAlex.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.retrieved_at",
+          "value": "2026-10-04T11:39:45.262390+00:00"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.created",
+          "value": "2026-09-30T18:49:53.386450+00:00"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.modified",
+          "value": "2026-09-30T18:49:53.788982+00:00"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.conceptrecid",
+          "value": "22791309"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.conceptdoi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.metadata.doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.metadata.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.metadata.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.updated",
+          "value": "2026-09-30T18:49:53.788982+00:00"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.recid",
+          "value": "23068347"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.status",
+          "value": "published"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.stats.views",
+          "value": 57
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.stats.unique_views",
+          "value": 54
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.stats.version_unique_views",
+          "value": 27
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.stats.version_views",
+          "value": 30
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.data.state",
+          "value": "done"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.prior_attempts[0].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "records[9].platforms.Zenodo.prior_attempts[0].retrieved_at",
+          "value": "2026-10-04T11:31:14.234813+00:00"
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.retrieved_at",
+          "value": "2026-10-04T11:31:17.153419+00:00"
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.created",
+          "value": "2026-09-30T19:18:21.000Z"
+        },
+        {
+          "field_path": "records[9].platforms.DataCite.data.data.attributes.updated",
+          "value": "2026-09-30T19:18:21.000Z"
+        },
+        {
+          "field_path": "records[9].platforms.OpenAIRE.platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "records[9].platforms.OpenAIRE.retrieved_at",
+          "value": "2026-10-04T11:31:14.280548+00:00"
+        },
+        {
+          "field_path": "records[9].platforms.OpenAIRE.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[9].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfCollection",
+          "value": null
+        },
+        {
+          "field_path": "records[9].platforms.OpenAIRE.data.response.results.result[0].header.dri:dateOfTransformation",
+          "value": null
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.retrieved_at",
+          "value": "2026-10-04T11:31:20.858885+00:00"
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "records[9].platforms.OpenAlex.data.created_date",
+          "value": "2026-10-01T00:00:00"
+        },
+        {
+          "field_path": "repository_changes.repositories[0].state",
+          "value": "open"
+        },
+        {
+          "field_path": "repository_changes.repositories[1].state",
+          "value": "open"
+        },
+        {
+          "field_path": "repository_changes.repositories[2].state",
+          "value": "open"
+        },
+        {
+          "field_path": "repository_changes.repositories[3].state",
+          "value": "open"
+        },
+        {
+          "field_path": "repository_changes.repositories[4].state",
+          "value": "open"
+        },
+        {
+          "field_path": "repository_changes.repositories[5].state",
+          "value": "open"
+        },
+        {
+          "field_path": "repository_changes.repositories[6].state",
+          "value": "open"
+        },
+        {
+          "field_path": "repository_changes.repositories[7].state",
+          "value": "open"
+        },
+        {
+          "field_path": "repository_changes.repositories[8].state",
+          "value": "open"
+        },
+        {
+          "field_path": "repository_changes.repositories[9].state",
+          "value": "open"
+        },
+        {
+          "field_path": "repository_changes.scope.changed_files_per_repository[0]",
+          "value": "OPEN_RESEARCH.md"
+        },
+        {
+          "field_path": "repository_changes.scope.changed_files_per_repository[1]",
+          "value": "RESEARCH_TEMPLATE.md"
+        },
+        {
+          "field_path": "verification_summary.record_platform_cells",
+          "value": 40
+        }
+      ]
+    }
+  ]
+}

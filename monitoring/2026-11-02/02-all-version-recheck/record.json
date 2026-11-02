@@ -1,0 +1,39 @@
+{
+  "record_class": "diagnostic_monitoring_selected_public_fields",
+  "logical_date": "2026-11-02",
+  "batch_start_utc": "2026-11-01T16:47:47.812669+00:00",
+  "batch_end_utc": "2026-11-01T16:48:33.064199+00:00",
+  "source_attempt_rows": 81,
+  "families": 12,
+  "version_details": 57,
+  "fixed_ten_versions": 50,
+  "control_versions": 5,
+  "life_science_versions": 2,
+  "fixed_ten_totals": {
+    "views": 3308,
+    "unique_views": 2412,
+    "downloads": 17,
+    "unique_downloads": 16
+  },
+  "descriptive_twelve_totals": {
+    "views": 3498,
+    "unique_views": 2584,
+    "downloads": 27,
+    "unique_downloads": 24
+  },
+  "family_reconciliations": 48,
+  "all_family_reconciliations_match": true,
+  "contract": {
+    "fixed_objects": 10,
+    "layers": 6,
+    "eligible_object_layer_units": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_analytic_units": 70,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_modified": false,
+    "schedule_modified": false
+  },
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0
+}

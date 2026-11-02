@@ -1,0 +1,61 @@
+{
+  "source_category": "历史散件",
+  "source_date_label": "undated",
+  "source_package_label": "usage-evidence.json",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "usage-evidence.json",
+      "sha256": "cf4a0fb6efeb80adbc1d50673189194adf2b14f6ea47658643588a53ad63d457",
+      "bytes": 8225,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "usage-evidence.json",
+      "sha256": "cf4a0fb6efeb80adbc1d50673189194adf2b14f6ea47658643588a53ad63d457",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "schemaVersion",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.usage-audit.json.scope",
+          "value": "From full-audit user message until cost-question received; child counters before full-audit request subtracted; root cost investigation and final response excluded"
+        },
+        {
+          "field_path": "sourcePackages.usage-audit.json.rows[0].firstUse.timestamp",
+          "value": "2026-10-03T15:27:45.694Z"
+        },
+        {
+          "field_path": "sourcePackages.usage-audit.json.rows[1].firstUse.timestamp",
+          "value": "2026-10-03T15:27:38.523Z"
+        },
+        {
+          "field_path": "sourcePackages.usage-audit.json.rows[2].firstUse.timestamp",
+          "value": "2026-10-03T15:24:14.292Z"
+        },
+        {
+          "field_path": "sourcePackages.usage-audit.json.rows[3].firstUse.timestamp",
+          "value": "2026-10-03T15:12:19.811Z"
+        },
+        {
+          "field_path": "sourcePackages.usage-audit.json.accountSnapshot.observedClientDate",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "sourcePackages.usage-audit.json.counterCrossCheck",
+          "value": "Local token_usage_record per-thread and per-turn counters inspected; child thread totals and reused identity-agent turn totals match the token_count deltas; no quota or invoice conversion performed"
+        },
+        {
+          "field_path": "scope",
+          "value": "Historical task counters only; excludes this organization task; quota not refreshed"
+        }
+      ]
+    }
+  ]
+}

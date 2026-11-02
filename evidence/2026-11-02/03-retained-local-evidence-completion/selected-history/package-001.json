@@ -1,0 +1,55 @@
+{
+  "source_category": "交接旁证",
+  "source_date_label": "2026-10-08",
+  "source_package_label": "repository-handoff",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "HardeningValidation.json",
+      "sha256": "93381463b06e864ca096f757c015ccca4c581f538495ddd7f2c504eee8a3471f",
+      "bytes": 1080,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ReviewManifest.json",
+      "sha256": "f99ec26de491552a1c4a1102888ae617c3a04024c3703b46c39cf3d247c2cdf2",
+      "bytes": 3132,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Status.json",
+      "sha256": "ce87bea24df3bf2b859382b09d7874e27f00fe161ecb5547e6c38097beb2680e",
+      "bytes": 1276,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "Status.json",
+      "sha256": "ce87bea24df3bf2b859382b09d7874e27f00fe161ecb5547e6c38097beb2680e",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "repository",
+          "value": "lostlight530/research-software-identity-audit"
+        },
+        {
+          "field_path": "pr.state",
+          "value": "open"
+        },
+        {
+          "field_path": "history[0].repository",
+          "value": "lostlight530/research-software-identity-audit"
+        },
+        {
+          "field_path": "history[0].pr.state",
+          "value": "open"
+        }
+      ]
+    }
+  ]
+}

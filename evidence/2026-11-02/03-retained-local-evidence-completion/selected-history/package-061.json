@@ -1,0 +1,3740 @@
+{
+  "source_category": "独立采集",
+  "source_date_label": "2026-10-26",
+  "source_package_label": "thirty-four-entry-verification",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "AllRequests.json",
+      "sha256": "cf818f5d42fd7af6138a261af5e5346c7b4fa7abd62ee84a3f830df993cc3d2d",
+      "bytes": 238573,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ArchiveChecksRequestLog.json",
+      "sha256": "15df7d45286b897318464e497b718b71ce81174288e5b6eb845b0c45789efd31",
+      "bytes": 8168,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "CaptureComplete.json",
+      "sha256": "b1a2459743f9129a67bb828a48e493782cdbd839b5abee78b07341dab0c77439",
+      "bytes": 185,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "DiscoveryRequestLog.json",
+      "sha256": "455aa4344256dca34b1e0dde80b8bfcd5e442066deb455f058c1e256237e46a6",
+      "bytes": 2230,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "EnrichmentPlan.json",
+      "sha256": "e5da6d1747f49a75c1294a67abc5e0f8084d862d6beafbddff85795c4f02857c",
+      "bytes": 7766,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "EnrichmentRequestLog.json",
+      "sha256": "515ba6e22991e7485663af629a932ebac37f70e58d4812b228f0f25ffeef8610",
+      "bytes": 26569,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "FollowupPlan.json",
+      "sha256": "6913dd719dc6a8308bc5da50b4688d31cefc058d0d4535b95055f6aeba16b58c",
+      "bytes": 39398,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "IdentifierSeeds.json",
+      "sha256": "7968deaf7564479d208b2088209b7840a3445be9cb681aacf3894c071beaa315",
+      "bytes": 2480,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "InitialPlan.json",
+      "sha256": "d539f4791449443b5f30a0886aaea45721845f369703516a3ddae076f91a5d48",
+      "bytes": 16051,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ObjectSeeds.json",
+      "sha256": "7e9dd12b693075b0f98d1b9cb75e3915483ba847ef1648f57b31f139ee7d0de1",
+      "bytes": 19456,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "OpenAIREQueryFields.json",
+      "sha256": "606857154834322aa333453a6342c7e4b189fd128634a9665a527e13466e38c5",
+      "bytes": 5241,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "RequestLog.json",
+      "sha256": "e5d5cdac8d393b6d6b64a45e884e4d327af9dd643d1e25406786d8cb159ce637",
+      "bytes": 195894,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ResolutionPlan.json",
+      "sha256": "96d42ba9dc3daf6f81952fe47456b72a71010abcc387b5ccb7aed7d5ccf4a62f",
+      "bytes": 5294,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ResolutionRequestLog.json",
+      "sha256": "240b01c3137d136abd61dc154b465d2b39cd9f78b401f50c5993222017169da5",
+      "bytes": 17073,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "RowByRowVerification.csv",
+      "sha256": "a3fdd8b2b824592b45eeda62bf2fe23909f169965fec6a2c8dccfeef2914c857",
+      "bytes": 11886,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "RowByRowVerification.json",
+      "sha256": "6bcf4d305e8e6cb5d5367de2dec4b67884331115ce10d1c7e31f2523fc956082",
+      "bytes": 17962,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "2a0c539503a640c6d79f0f5b157a706a035e9f82e6ed5ae622dc2dfd2a345619",
+      "bytes": 60251,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Verification.json",
+      "sha256": "3957885a00909fe326b6141d10eb3068252719fb0f54f69a4662116dc44e8024",
+      "bytes": 392,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "VerifiedFields.json",
+      "sha256": "9528f767461c48713e9556a77cbffcea09d57621639c1dff2e59c32a5452daf2",
+      "bytes": 40755,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "CaptureComplete.json",
+      "sha256": "b1a2459743f9129a67bb828a48e493782cdbd839b5abee78b07341dab0c77439",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "scope",
+          "value": "34 user table entries, object-level evidence where publicly accessible"
+        }
+      ]
+    },
+    {
+      "source_file": "ObjectSeeds.json",
+      "sha256": "7e9dd12b693075b0f98d1b9cb75e3915483ba847ef1648f57b31f139ee7d0de1",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "[0].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "[0].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "[0].zenodo_status",
+          "value": 200
+        },
+        {
+          "field_path": "[0].record_id",
+          "value": 23365504
+        },
+        {
+          "field_path": "[0].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "[0].concept_doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[0].stats.downloads",
+          "value": 6
+        },
+        {
+          "field_path": "[0].stats.unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "[0].stats.views",
+          "value": 317
+        },
+        {
+          "field_path": "[0].stats.unique_views",
+          "value": 228
+        },
+        {
+          "field_path": "[0].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[0].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[0].stats.version_unique_views",
+          "value": 9
+        },
+        {
+          "field_path": "[0].stats.version_views",
+          "value": 11
+        },
+        {
+          "field_path": "[0].versions[0].record_id",
+          "value": 23365504
+        },
+        {
+          "field_path": "[0].versions[0].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "[0].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[0].versions[1].record_id",
+          "value": 23137203
+        },
+        {
+          "field_path": "[0].versions[1].doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "[0].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "[0].versions[2].record_id",
+          "value": 23068145
+        },
+        {
+          "field_path": "[0].versions[2].doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "[0].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "[0].versions[3].record_id",
+          "value": 22790908
+        },
+        {
+          "field_path": "[0].versions[3].doi",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "[0].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "[0].version_total",
+          "value": 4
+        },
+        {
+          "field_path": "[0].version_has_next",
+          "value": false
+        },
+        {
+          "field_path": "[0].github_release.status",
+          "value": 200
+        },
+        {
+          "field_path": "[0].swh.origin_status",
+          "value": 200
+        },
+        {
+          "field_path": "[0].swh.visit_status",
+          "value": "full"
+        },
+        {
+          "field_path": "[0].swh.visit_date",
+          "value": "2026-10-24T15:41:45.044000+00:00"
+        },
+        {
+          "field_path": "[0].swh.snapshot_status",
+          "value": 200
+        },
+        {
+          "field_path": "[0].swh.revision_status",
+          "value": 200
+        },
+        {
+          "field_path": "[0].swh.directory_status",
+          "value": 200
+        },
+        {
+          "field_path": "[0].openalex.status",
+          "value": 200
+        },
+        {
+          "field_path": "[0].openalex.exact_version",
+          "value": false
+        },
+        {
+          "field_path": "[1].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "[1].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "[1].zenodo_status",
+          "value": 200
+        },
+        {
+          "field_path": "[1].record_id",
+          "value": 23365551
+        },
+        {
+          "field_path": "[1].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "[1].concept_doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "[1].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[1].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[1].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[1].stats.views",
+          "value": 271
+        },
+        {
+          "field_path": "[1].stats.unique_views",
+          "value": 182
+        },
+        {
+          "field_path": "[1].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[1].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[1].stats.version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "[1].stats.version_views",
+          "value": 7
+        },
+        {
+          "field_path": "[1].versions[0].record_id",
+          "value": 23365551
+        },
+        {
+          "field_path": "[1].versions[0].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "[1].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[1].versions[1].record_id",
+          "value": 23137204
+        },
+        {
+          "field_path": "[1].versions[1].doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "[1].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "[1].versions[2].record_id",
+          "value": 23068144
+        },
+        {
+          "field_path": "[1].versions[2].doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "[1].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "[1].versions[3].record_id",
+          "value": 22791082
+        },
+        {
+          "field_path": "[1].versions[3].doi",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "[1].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "[1].version_total",
+          "value": 4
+        },
+        {
+          "field_path": "[1].version_has_next",
+          "value": false
+        },
+        {
+          "field_path": "[1].github_release.status",
+          "value": 200
+        },
+        {
+          "field_path": "[1].swh.origin_status",
+          "value": 200
+        },
+        {
+          "field_path": "[1].swh.visit_status",
+          "value": "full"
+        },
+        {
+          "field_path": "[1].swh.visit_date",
+          "value": "2026-10-05T21:41:06.261000+00:00"
+        },
+        {
+          "field_path": "[1].swh.snapshot_status",
+          "value": 200
+        },
+        {
+          "field_path": "[1].swh.revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "[1].swh.directory_status",
+          "value": null
+        },
+        {
+          "field_path": "[1].openalex.status",
+          "value": 200
+        },
+        {
+          "field_path": "[1].openalex.exact_version",
+          "value": false
+        },
+        {
+          "field_path": "[2].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "[2].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "[2].zenodo_status",
+          "value": 200
+        },
+        {
+          "field_path": "[2].record_id",
+          "value": 23365534
+        },
+        {
+          "field_path": "[2].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "[2].concept_doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "[2].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[2].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[2].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[2].stats.views",
+          "value": 308
+        },
+        {
+          "field_path": "[2].stats.unique_views",
+          "value": 219
+        },
+        {
+          "field_path": "[2].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[2].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[2].stats.version_unique_views",
+          "value": 11
+        },
+        {
+          "field_path": "[2].stats.version_views",
+          "value": 11
+        },
+        {
+          "field_path": "[2].versions[0].record_id",
+          "value": 23365534
+        },
+        {
+          "field_path": "[2].versions[0].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "[2].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[2].versions[1].record_id",
+          "value": 23137205
+        },
+        {
+          "field_path": "[2].versions[1].doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "[2].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "[2].versions[2].record_id",
+          "value": 23068261
+        },
+        {
+          "field_path": "[2].versions[2].doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "[2].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "[2].versions[3].record_id",
+          "value": 22791104
+        },
+        {
+          "field_path": "[2].versions[3].doi",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "[2].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "[2].version_total",
+          "value": 4
+        },
+        {
+          "field_path": "[2].version_has_next",
+          "value": false
+        },
+        {
+          "field_path": "[2].github_release.status",
+          "value": 200
+        },
+        {
+          "field_path": "[2].swh.origin_status",
+          "value": 200
+        },
+        {
+          "field_path": "[2].swh.visit_status",
+          "value": "full"
+        },
+        {
+          "field_path": "[2].swh.visit_date",
+          "value": "2026-10-14T17:47:26.890000+00:00"
+        },
+        {
+          "field_path": "[2].swh.snapshot_status",
+          "value": 200
+        },
+        {
+          "field_path": "[2].swh.revision_status",
+          "value": 200
+        },
+        {
+          "field_path": "[2].swh.directory_status",
+          "value": 200
+        },
+        {
+          "field_path": "[2].openalex.status",
+          "value": 200
+        },
+        {
+          "field_path": "[2].openalex.exact_version",
+          "value": false
+        },
+        {
+          "field_path": "[3].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "[3].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "[3].zenodo_status",
+          "value": 200
+        },
+        {
+          "field_path": "[3].record_id",
+          "value": 23365567
+        },
+        {
+          "field_path": "[3].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "[3].concept_doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "[3].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[3].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[3].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[3].stats.views",
+          "value": 243
+        },
+        {
+          "field_path": "[3].stats.unique_views",
+          "value": 158
+        },
+        {
+          "field_path": "[3].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[3].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[3].stats.version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "[3].stats.version_views",
+          "value": 7
+        },
+        {
+          "field_path": "[3].versions[0].record_id",
+          "value": 23365567
+        },
+        {
+          "field_path": "[3].versions[0].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "[3].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[3].versions[1].record_id",
+          "value": 23137206
+        },
+        {
+          "field_path": "[3].versions[1].doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "[3].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "[3].versions[2].record_id",
+          "value": 23068260
+        },
+        {
+          "field_path": "[3].versions[2].doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "[3].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "[3].versions[3].record_id",
+          "value": 22791142
+        },
+        {
+          "field_path": "[3].versions[3].doi",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "[3].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "[3].version_total",
+          "value": 4
+        },
+        {
+          "field_path": "[3].version_has_next",
+          "value": false
+        },
+        {
+          "field_path": "[3].github_release.status",
+          "value": 200
+        },
+        {
+          "field_path": "[3].swh.origin_status",
+          "value": 200
+        },
+        {
+          "field_path": "[3].swh.visit_status",
+          "value": "full"
+        },
+        {
+          "field_path": "[3].swh.visit_date",
+          "value": "2026-10-17T19:50:57.149000+00:00"
+        },
+        {
+          "field_path": "[3].swh.snapshot_status",
+          "value": 200
+        },
+        {
+          "field_path": "[3].swh.revision_status",
+          "value": 200
+        },
+        {
+          "field_path": "[3].swh.directory_status",
+          "value": 200
+        },
+        {
+          "field_path": "[3].openalex.status",
+          "value": 200
+        },
+        {
+          "field_path": "[3].openalex.exact_version",
+          "value": false
+        },
+        {
+          "field_path": "[4].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "[4].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "[4].zenodo_status",
+          "value": 200
+        },
+        {
+          "field_path": "[4].record_id",
+          "value": 23365540
+        },
+        {
+          "field_path": "[4].doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "[4].concept_doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "[4].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[4].stats.downloads",
+          "value": 2
+        },
+        {
+          "field_path": "[4].stats.unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "[4].stats.views",
+          "value": 281
+        },
+        {
+          "field_path": "[4].stats.unique_views",
+          "value": 193
+        },
+        {
+          "field_path": "[4].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[4].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[4].stats.version_unique_views",
+          "value": 11
+        },
+        {
+          "field_path": "[4].stats.version_views",
+          "value": 11
+        },
+        {
+          "field_path": "[4].versions[0].record_id",
+          "value": 23365540
+        },
+        {
+          "field_path": "[4].versions[0].doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "[4].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[4].versions[1].record_id",
+          "value": 23137207
+        },
+        {
+          "field_path": "[4].versions[1].doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "[4].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "[4].versions[2].record_id",
+          "value": 23068262
+        },
+        {
+          "field_path": "[4].versions[2].doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "[4].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "[4].versions[3].record_id",
+          "value": 22791170
+        },
+        {
+          "field_path": "[4].versions[3].doi",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "[4].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "[4].version_total",
+          "value": 4
+        },
+        {
+          "field_path": "[4].version_has_next",
+          "value": false
+        },
+        {
+          "field_path": "[4].github_release.status",
+          "value": 200
+        },
+        {
+          "field_path": "[4].swh.origin_status",
+          "value": 200
+        },
+        {
+          "field_path": "[4].swh.visit_status",
+          "value": "full"
+        },
+        {
+          "field_path": "[4].swh.visit_date",
+          "value": "2026-09-16T07:32:06.452000+00:00"
+        },
+        {
+          "field_path": "[4].swh.snapshot_status",
+          "value": 200
+        },
+        {
+          "field_path": "[4].swh.revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "[4].swh.directory_status",
+          "value": null
+        },
+        {
+          "field_path": "[4].openalex.status",
+          "value": 200
+        },
+        {
+          "field_path": "[4].openalex.exact_version",
+          "value": false
+        },
+        {
+          "field_path": "[5].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "[5].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "[5].zenodo_status",
+          "value": 200
+        },
+        {
+          "field_path": "[5].record_id",
+          "value": 23365510
+        },
+        {
+          "field_path": "[5].doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "[5].concept_doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "[5].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[5].stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "[5].stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "[5].stats.views",
+          "value": 265
+        },
+        {
+          "field_path": "[5].stats.unique_views",
+          "value": 177
+        },
+        {
+          "field_path": "[5].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "[5].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "[5].stats.version_unique_views",
+          "value": 10
+        },
+        {
+          "field_path": "[5].stats.version_views",
+          "value": 12
+        },
+        {
+          "field_path": "[5].versions[0].record_id",
+          "value": 23365510
+        },
+        {
+          "field_path": "[5].versions[0].doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "[5].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[5].versions[1].record_id",
+          "value": 23137215
+        },
+        {
+          "field_path": "[5].versions[1].doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "[5].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "[5].versions[2].record_id",
+          "value": 23068471
+        },
+        {
+          "field_path": "[5].versions[2].doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "[5].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "[5].versions[3].record_id",
+          "value": 22791405
+        },
+        {
+          "field_path": "[5].versions[3].doi",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "[5].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "[5].version_total",
+          "value": 4
+        },
+        {
+          "field_path": "[5].version_has_next",
+          "value": false
+        },
+        {
+          "field_path": "[5].github_release.status",
+          "value": 200
+        },
+        {
+          "field_path": "[5].swh.origin_status",
+          "value": 200
+        },
+        {
+          "field_path": "[5].swh.visit_status",
+          "value": "full"
+        },
+        {
+          "field_path": "[5].swh.visit_date",
+          "value": "2026-10-24T08:17:11.577000+00:00"
+        },
+        {
+          "field_path": "[5].swh.snapshot_status",
+          "value": 200
+        },
+        {
+          "field_path": "[5].swh.revision_status",
+          "value": 200
+        },
+        {
+          "field_path": "[5].swh.directory_status",
+          "value": 200
+        },
+        {
+          "field_path": "[5].openalex.status",
+          "value": 200
+        },
+        {
+          "field_path": "[5].openalex.exact_version",
+          "value": false
+        },
+        {
+          "field_path": "[6].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "[6].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "[6].zenodo_status",
+          "value": 200
+        },
+        {
+          "field_path": "[6].record_id",
+          "value": 23365517
+        },
+        {
+          "field_path": "[6].doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "[6].concept_doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "[6].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[6].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[6].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[6].stats.views",
+          "value": 276
+        },
+        {
+          "field_path": "[6].stats.unique_views",
+          "value": 189
+        },
+        {
+          "field_path": "[6].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[6].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[6].stats.version_unique_views",
+          "value": 10
+        },
+        {
+          "field_path": "[6].stats.version_views",
+          "value": 11
+        },
+        {
+          "field_path": "[6].versions[0].record_id",
+          "value": 23365517
+        },
+        {
+          "field_path": "[6].versions[0].doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "[6].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[6].versions[1].record_id",
+          "value": 23137216
+        },
+        {
+          "field_path": "[6].versions[1].doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "[6].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "[6].versions[2].record_id",
+          "value": 23068494
+        },
+        {
+          "field_path": "[6].versions[2].doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "[6].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "[6].versions[3].record_id",
+          "value": 22791464
+        },
+        {
+          "field_path": "[6].versions[3].doi",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "[6].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "[6].version_total",
+          "value": 4
+        },
+        {
+          "field_path": "[6].version_has_next",
+          "value": false
+        },
+        {
+          "field_path": "[6].github_release.status",
+          "value": 200
+        },
+        {
+          "field_path": "[6].swh.origin_status",
+          "value": 200
+        },
+        {
+          "field_path": "[6].swh.visit_status",
+          "value": "full"
+        },
+        {
+          "field_path": "[6].swh.visit_date",
+          "value": "2026-10-10T05:10:27.293000+00:00"
+        },
+        {
+          "field_path": "[6].swh.snapshot_status",
+          "value": 200
+        },
+        {
+          "field_path": "[6].swh.revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "[6].swh.directory_status",
+          "value": null
+        },
+        {
+          "field_path": "[6].openalex.status",
+          "value": 200
+        },
+        {
+          "field_path": "[6].openalex.exact_version",
+          "value": false
+        },
+        {
+          "field_path": "[7].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "[7].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "[7].zenodo_status",
+          "value": 200
+        },
+        {
+          "field_path": "[7].record_id",
+          "value": 23365525
+        },
+        {
+          "field_path": "[7].doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "[7].concept_doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "[7].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[7].stats.downloads",
+          "value": 2
+        },
+        {
+          "field_path": "[7].stats.unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "[7].stats.views",
+          "value": 257
+        },
+        {
+          "field_path": "[7].stats.unique_views",
+          "value": 178
+        },
+        {
+          "field_path": "[7].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[7].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[7].stats.version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "[7].stats.version_views",
+          "value": 7
+        },
+        {
+          "field_path": "[7].versions[0].record_id",
+          "value": 23365525
+        },
+        {
+          "field_path": "[7].versions[0].doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "[7].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[7].versions[1].record_id",
+          "value": 23137219
+        },
+        {
+          "field_path": "[7].versions[1].doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "[7].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "[7].versions[2].record_id",
+          "value": 23068472
+        },
+        {
+          "field_path": "[7].versions[2].doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "[7].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "[7].versions[3].record_id",
+          "value": 22791376
+        },
+        {
+          "field_path": "[7].versions[3].doi",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "[7].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "[7].version_total",
+          "value": 4
+        },
+        {
+          "field_path": "[7].version_has_next",
+          "value": false
+        },
+        {
+          "field_path": "[7].github_release.status",
+          "value": 200
+        },
+        {
+          "field_path": "[7].swh.origin_status",
+          "value": 200
+        },
+        {
+          "field_path": "[7].swh.visit_status",
+          "value": "full"
+        },
+        {
+          "field_path": "[7].swh.visit_date",
+          "value": "2026-09-16T07:35:28.635000+00:00"
+        },
+        {
+          "field_path": "[7].swh.snapshot_status",
+          "value": 200
+        },
+        {
+          "field_path": "[7].swh.revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "[7].swh.directory_status",
+          "value": null
+        },
+        {
+          "field_path": "[7].openalex.status",
+          "value": 200
+        },
+        {
+          "field_path": "[7].openalex.exact_version",
+          "value": false
+        },
+        {
+          "field_path": "[8].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "[8].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "[8].zenodo_status",
+          "value": 200
+        },
+        {
+          "field_path": "[8].record_id",
+          "value": 23365548
+        },
+        {
+          "field_path": "[8].doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "[8].concept_doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "[8].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[8].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[8].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[8].stats.views",
+          "value": 287
+        },
+        {
+          "field_path": "[8].stats.unique_views",
+          "value": 197
+        },
+        {
+          "field_path": "[8].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[8].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[8].stats.version_unique_views",
+          "value": 10
+        },
+        {
+          "field_path": "[8].stats.version_views",
+          "value": 11
+        },
+        {
+          "field_path": "[8].versions[0].record_id",
+          "value": 23365548
+        },
+        {
+          "field_path": "[8].versions[0].doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "[8].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[8].versions[1].record_id",
+          "value": 23137211
+        },
+        {
+          "field_path": "[8].versions[1].doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "[8].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "[8].versions[2].record_id",
+          "value": 23068347
+        },
+        {
+          "field_path": "[8].versions[2].doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "[8].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "[8].versions[3].record_id",
+          "value": 22791310
+        },
+        {
+          "field_path": "[8].versions[3].doi",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "[8].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "[8].version_total",
+          "value": 4
+        },
+        {
+          "field_path": "[8].version_has_next",
+          "value": false
+        },
+        {
+          "field_path": "[8].github_release.status",
+          "value": 200
+        },
+        {
+          "field_path": "[8].swh.origin_status",
+          "value": 200
+        },
+        {
+          "field_path": "[8].swh.visit_status",
+          "value": "full"
+        },
+        {
+          "field_path": "[8].swh.visit_date",
+          "value": "2026-09-28T00:59:57.737000+00:00"
+        },
+        {
+          "field_path": "[8].swh.snapshot_status",
+          "value": 200
+        },
+        {
+          "field_path": "[8].swh.revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "[8].swh.directory_status",
+          "value": null
+        },
+        {
+          "field_path": "[8].openalex.status",
+          "value": 200
+        },
+        {
+          "field_path": "[8].openalex.exact_version",
+          "value": false
+        },
+        {
+          "field_path": "[9].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "[9].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "[9].zenodo_status",
+          "value": 200
+        },
+        {
+          "field_path": "[9].record_id",
+          "value": 23365543
+        },
+        {
+          "field_path": "[9].doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "[9].concept_doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "[9].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[9].stats.downloads",
+          "value": 2
+        },
+        {
+          "field_path": "[9].stats.unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "[9].stats.views",
+          "value": 297
+        },
+        {
+          "field_path": "[9].stats.unique_views",
+          "value": 210
+        },
+        {
+          "field_path": "[9].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[9].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "[9].stats.version_unique_views",
+          "value": 12
+        },
+        {
+          "field_path": "[9].stats.version_views",
+          "value": 12
+        },
+        {
+          "field_path": "[9].versions[0].record_id",
+          "value": 23365543
+        },
+        {
+          "field_path": "[9].versions[0].doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "[9].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "[9].versions[1].record_id",
+          "value": 23137214
+        },
+        {
+          "field_path": "[9].versions[1].doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "[9].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "[9].versions[2].record_id",
+          "value": 23068352
+        },
+        {
+          "field_path": "[9].versions[2].doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "[9].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "[9].versions[3].record_id",
+          "value": 22791335
+        },
+        {
+          "field_path": "[9].versions[3].doi",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "[9].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "[9].version_total",
+          "value": 4
+        },
+        {
+          "field_path": "[9].version_has_next",
+          "value": false
+        },
+        {
+          "field_path": "[9].github_release.status",
+          "value": 200
+        },
+        {
+          "field_path": "[9].swh.origin_status",
+          "value": 200
+        },
+        {
+          "field_path": "[9].swh.visit_status",
+          "value": "full"
+        },
+        {
+          "field_path": "[9].swh.visit_date",
+          "value": "2026-09-28T01:02:35.538000+00:00"
+        },
+        {
+          "field_path": "[9].swh.snapshot_status",
+          "value": 200
+        },
+        {
+          "field_path": "[9].swh.revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "[9].swh.directory_status",
+          "value": null
+        },
+        {
+          "field_path": "[9].openalex.status",
+          "value": 200
+        },
+        {
+          "field_path": "[9].openalex.exact_version",
+          "value": false
+        },
+        {
+          "field_path": "[10].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "[10].record_id",
+          "value": 23446162
+        },
+        {
+          "field_path": "[11].repository",
+          "value": "life-science-ecosystem-lab"
+        },
+        {
+          "field_path": "[11].record_id",
+          "value": 23447089
+        }
+      ]
+    },
+    {
+      "source_file": "OpenAIREQueryFields.json",
+      "sha256": "606857154834322aa333453a6342c7e4b189fd128634a9665a527e13466e38c5",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "[0].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "[1].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "[2].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "[3].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "[4].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "[5].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "[6].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "[7].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "[8].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "[9].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "[10].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "[11].repository",
+          "value": "life-science-ecosystem-lab"
+        }
+      ]
+    },
+    {
+      "source_file": "VerifiedFields.json",
+      "sha256": "9528f767461c48713e9556a77cbffcea09d57621639c1dff2e59c32a5452daf2",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "started_at",
+          "value": "2026-10-26T03:45:54.827407+00:00"
+        },
+        {
+          "field_path": "finished_at",
+          "value": "2026-10-26T03:51:37.025910+00:00"
+        },
+        {
+          "field_path": "timezone",
+          "value": "UTC timestamps; report converted to Asia/Shanghai"
+        },
+        {
+          "field_path": "doi_total",
+          "value": 77
+        },
+        {
+          "field_path": "orcid_query_total",
+          "value": 76
+        },
+        {
+          "field_path": "exact_query_total",
+          "value": 76
+        },
+        {
+          "field_path": "bare_creator_query_total",
+          "value": 56
+        },
+        {
+          "field_path": "orcid_groups",
+          "value": 17
+        },
+        {
+          "field_path": "orcid_summaries",
+          "value": 89
+        },
+        {
+          "field_path": "openalex_profile_count",
+          "value": 32
+        },
+        {
+          "field_path": "software[0].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "software[0].record_id",
+          "value": 23365504
+        },
+        {
+          "field_path": "software[0].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "software[0].concept_doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "software[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[0].stats.downloads",
+          "value": 6
+        },
+        {
+          "field_path": "software[0].stats.unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "software[0].stats.views",
+          "value": 320
+        },
+        {
+          "field_path": "software[0].stats.unique_views",
+          "value": 231
+        },
+        {
+          "field_path": "software[0].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[0].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[0].stats.version_unique_views",
+          "value": 10
+        },
+        {
+          "field_path": "software[0].stats.version_views",
+          "value": 12
+        },
+        {
+          "field_path": "software[0].version_count",
+          "value": 4
+        },
+        {
+          "field_path": "software[0].versions[0].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "software[0].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[0].versions[1].doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "software[0].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "software[0].versions[2].doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "software[0].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "software[0].versions[3].doi",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "software[0].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "software[1].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "software[1].record_id",
+          "value": 23365551
+        },
+        {
+          "field_path": "software[1].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "software[1].concept_doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "software[1].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[1].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[1].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[1].stats.views",
+          "value": 274
+        },
+        {
+          "field_path": "software[1].stats.unique_views",
+          "value": 185
+        },
+        {
+          "field_path": "software[1].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[1].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[1].stats.version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "software[1].stats.version_views",
+          "value": 7
+        },
+        {
+          "field_path": "software[1].version_count",
+          "value": 4
+        },
+        {
+          "field_path": "software[1].versions[0].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "software[1].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[1].versions[1].doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "software[1].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "software[1].versions[2].doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "software[1].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "software[1].versions[3].doi",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "software[1].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "software[2].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "software[2].record_id",
+          "value": 23365534
+        },
+        {
+          "field_path": "software[2].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "software[2].concept_doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "software[2].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[2].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[2].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[2].stats.views",
+          "value": 315
+        },
+        {
+          "field_path": "software[2].stats.unique_views",
+          "value": 225
+        },
+        {
+          "field_path": "software[2].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[2].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[2].stats.version_unique_views",
+          "value": 14
+        },
+        {
+          "field_path": "software[2].stats.version_views",
+          "value": 14
+        },
+        {
+          "field_path": "software[2].version_count",
+          "value": 4
+        },
+        {
+          "field_path": "software[2].versions[0].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "software[2].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[2].versions[1].doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "software[2].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "software[2].versions[2].doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "software[2].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "software[2].versions[3].doi",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "software[2].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "software[3].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "software[3].record_id",
+          "value": 23365567
+        },
+        {
+          "field_path": "software[3].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "software[3].concept_doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "software[3].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[3].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[3].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[3].stats.views",
+          "value": 246
+        },
+        {
+          "field_path": "software[3].stats.unique_views",
+          "value": 161
+        },
+        {
+          "field_path": "software[3].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[3].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[3].stats.version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "software[3].stats.version_views",
+          "value": 7
+        },
+        {
+          "field_path": "software[3].version_count",
+          "value": 4
+        },
+        {
+          "field_path": "software[3].versions[0].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "software[3].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[3].versions[1].doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "software[3].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "software[3].versions[2].doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "software[3].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "software[3].versions[3].doi",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "software[3].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "software[4].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "software[4].record_id",
+          "value": 23365540
+        },
+        {
+          "field_path": "software[4].doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "software[4].concept_doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "software[4].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[4].stats.downloads",
+          "value": 2
+        },
+        {
+          "field_path": "software[4].stats.unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "software[4].stats.views",
+          "value": 283
+        },
+        {
+          "field_path": "software[4].stats.unique_views",
+          "value": 195
+        },
+        {
+          "field_path": "software[4].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[4].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[4].stats.version_unique_views",
+          "value": 12
+        },
+        {
+          "field_path": "software[4].stats.version_views",
+          "value": 12
+        },
+        {
+          "field_path": "software[4].version_count",
+          "value": 4
+        },
+        {
+          "field_path": "software[4].versions[0].doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "software[4].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[4].versions[1].doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "software[4].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "software[4].versions[2].doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "software[4].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "software[4].versions[3].doi",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "software[4].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "software[5].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "software[5].record_id",
+          "value": 23365510
+        },
+        {
+          "field_path": "software[5].doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "software[5].concept_doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "software[5].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[5].stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "software[5].stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "software[5].stats.views",
+          "value": 266
+        },
+        {
+          "field_path": "software[5].stats.unique_views",
+          "value": 178
+        },
+        {
+          "field_path": "software[5].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "software[5].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "software[5].stats.version_unique_views",
+          "value": 10
+        },
+        {
+          "field_path": "software[5].stats.version_views",
+          "value": 12
+        },
+        {
+          "field_path": "software[5].version_count",
+          "value": 4
+        },
+        {
+          "field_path": "software[5].versions[0].doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "software[5].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[5].versions[1].doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "software[5].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "software[5].versions[2].doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "software[5].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "software[5].versions[3].doi",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "software[5].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "software[6].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "software[6].record_id",
+          "value": 23365517
+        },
+        {
+          "field_path": "software[6].doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "software[6].concept_doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "software[6].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[6].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[6].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[6].stats.views",
+          "value": 277
+        },
+        {
+          "field_path": "software[6].stats.unique_views",
+          "value": 190
+        },
+        {
+          "field_path": "software[6].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[6].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[6].stats.version_unique_views",
+          "value": 10
+        },
+        {
+          "field_path": "software[6].stats.version_views",
+          "value": 11
+        },
+        {
+          "field_path": "software[6].version_count",
+          "value": 4
+        },
+        {
+          "field_path": "software[6].versions[0].doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "software[6].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[6].versions[1].doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "software[6].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "software[6].versions[2].doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "software[6].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "software[6].versions[3].doi",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "software[6].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "software[7].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "software[7].record_id",
+          "value": 23365525
+        },
+        {
+          "field_path": "software[7].doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "software[7].concept_doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "software[7].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[7].stats.downloads",
+          "value": 2
+        },
+        {
+          "field_path": "software[7].stats.unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "software[7].stats.views",
+          "value": 261
+        },
+        {
+          "field_path": "software[7].stats.unique_views",
+          "value": 182
+        },
+        {
+          "field_path": "software[7].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[7].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[7].stats.version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "software[7].stats.version_views",
+          "value": 7
+        },
+        {
+          "field_path": "software[7].version_count",
+          "value": 4
+        },
+        {
+          "field_path": "software[7].versions[0].doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "software[7].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[7].versions[1].doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "software[7].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "software[7].versions[2].doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "software[7].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "software[7].versions[3].doi",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "software[7].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "software[8].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "software[8].record_id",
+          "value": 23365548
+        },
+        {
+          "field_path": "software[8].doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "software[8].concept_doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "software[8].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[8].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[8].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[8].stats.views",
+          "value": 288
+        },
+        {
+          "field_path": "software[8].stats.unique_views",
+          "value": 198
+        },
+        {
+          "field_path": "software[8].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[8].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[8].stats.version_unique_views",
+          "value": 10
+        },
+        {
+          "field_path": "software[8].stats.version_views",
+          "value": 11
+        },
+        {
+          "field_path": "software[8].version_count",
+          "value": 4
+        },
+        {
+          "field_path": "software[8].versions[0].doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "software[8].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[8].versions[1].doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "software[8].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "software[8].versions[2].doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "software[8].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "software[8].versions[3].doi",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "software[8].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "software[9].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "software[9].record_id",
+          "value": 23365543
+        },
+        {
+          "field_path": "software[9].doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "software[9].concept_doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "software[9].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[9].stats.downloads",
+          "value": 2
+        },
+        {
+          "field_path": "software[9].stats.unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "software[9].stats.views",
+          "value": 300
+        },
+        {
+          "field_path": "software[9].stats.unique_views",
+          "value": 213
+        },
+        {
+          "field_path": "software[9].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[9].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "software[9].stats.version_unique_views",
+          "value": 12
+        },
+        {
+          "field_path": "software[9].stats.version_views",
+          "value": 12
+        },
+        {
+          "field_path": "software[9].version_count",
+          "value": 4
+        },
+        {
+          "field_path": "software[9].versions[0].doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "software[9].versions[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "software[9].versions[1].doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "software[9].versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "software[9].versions[2].doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "software[9].versions[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "software[9].versions[3].doi",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "software[9].versions[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "software[10].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "software[10].record_id",
+          "value": 23446162
+        },
+        {
+          "field_path": "software[10].doi",
+          "value": "10.5281/zenodo.23446162"
+        },
+        {
+          "field_path": "software[10].concept_doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "software[10].version",
+          "value": "v2026.10-evidence-integrity"
+        },
+        {
+          "field_path": "software[10].stats.downloads",
+          "value": 5
+        },
+        {
+          "field_path": "software[10].stats.unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "software[10].stats.views",
+          "value": 139
+        },
+        {
+          "field_path": "software[10].stats.unique_views",
+          "value": 130
+        },
+        {
+          "field_path": "software[10].stats.version_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "software[10].stats.version_unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "software[10].stats.version_unique_views",
+          "value": 23
+        },
+        {
+          "field_path": "software[10].stats.version_views",
+          "value": 23
+        },
+        {
+          "field_path": "software[10].version_count",
+          "value": 4
+        },
+        {
+          "field_path": "software[10].versions[0].doi",
+          "value": "10.5281/zenodo.23446162"
+        },
+        {
+          "field_path": "software[10].versions[0].version",
+          "value": "v2026.10-evidence-integrity"
+        },
+        {
+          "field_path": "software[10].versions[1].doi",
+          "value": "10.5281/zenodo.23284570"
+        },
+        {
+          "field_path": "software[10].versions[1].version",
+          "value": "v2026.10-evidence-reconciliation"
+        },
+        {
+          "field_path": "software[10].versions[2].doi",
+          "value": "10.5281/zenodo.23176748"
+        },
+        {
+          "field_path": "software[10].versions[2].version",
+          "value": "v2026.10-initial-research-runtime"
+        },
+        {
+          "field_path": "software[10].versions[3].doi",
+          "value": "10.5281/zenodo.23166491"
+        },
+        {
+          "field_path": "software[10].versions[3].version",
+          "value": "beta"
+        },
+        {
+          "field_path": "software[11].repository",
+          "value": "life-science-ecosystem-lab"
+        },
+        {
+          "field_path": "software[11].record_id",
+          "value": 23447089
+        },
+        {
+          "field_path": "software[11].doi",
+          "value": "10.5281/zenodo.23447089"
+        },
+        {
+          "field_path": "software[11].concept_doi",
+          "value": "10.5281/zenodo.23447088"
+        },
+        {
+          "field_path": "software[11].version",
+          "value": "v0.4.0"
+        },
+        {
+          "field_path": "software[11].stats.downloads",
+          "value": 5
+        },
+        {
+          "field_path": "software[11].stats.unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "software[11].stats.views",
+          "value": 11
+        },
+        {
+          "field_path": "software[11].stats.unique_views",
+          "value": 8
+        },
+        {
+          "field_path": "software[11].stats.version_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "software[11].stats.version_unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "software[11].stats.version_unique_views",
+          "value": 8
+        },
+        {
+          "field_path": "software[11].stats.version_views",
+          "value": 11
+        },
+        {
+          "field_path": "software[11].version_count",
+          "value": 1
+        },
+        {
+          "field_path": "software[11].versions[0].doi",
+          "value": "10.5281/zenodo.23447089"
+        },
+        {
+          "field_path": "software[11].versions[0].version",
+          "value": "v0.4.0"
+        },
+        {
+          "field_path": "workflows[0].latest_version",
+          "value": 8
+        },
+        {
+          "field_path": "workflows[0].doi",
+          "value": "10.48546/workflowhub.workflow.2332.8"
+        },
+        {
+          "field_path": "workflows[0].views",
+          "value": 2006
+        },
+        {
+          "field_path": "workflows[0].downloads",
+          "value": 272
+        },
+        {
+          "field_path": "workflows[1].latest_version",
+          "value": 8
+        },
+        {
+          "field_path": "workflows[1].doi",
+          "value": "10.48546/workflowhub.workflow.2334.8"
+        },
+        {
+          "field_path": "workflows[1].views",
+          "value": 2307
+        },
+        {
+          "field_path": "workflows[1].downloads",
+          "value": 248
+        },
+        {
+          "field_path": "workflows[2].latest_version",
+          "value": 1
+        },
+        {
+          "field_path": "workflows[2].doi",
+          "value": "10.48546/workflowhub.workflow.2337.1"
+        },
+        {
+          "field_path": "workflows[2].views",
+          "value": 747
+        },
+        {
+          "field_path": "workflows[2].downloads",
+          "value": 42
+        },
+        {
+          "field_path": "workflows[3].latest_version",
+          "value": 2
+        },
+        {
+          "field_path": "workflows[3].doi",
+          "value": "10.48546/workflowhub.workflow.2347.2"
+        },
+        {
+          "field_path": "workflows[3].views",
+          "value": 649
+        },
+        {
+          "field_path": "workflows[3].downloads",
+          "value": 153
+        },
+        {
+          "field_path": "citeas[0].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "citeas[0].doi",
+          "value": "10.5281/ZENODO.22790907"
+        },
+        {
+          "field_path": "citeas[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "citeas[1].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "citeas[1].doi",
+          "value": "10.5281/ZENODO.22791081"
+        },
+        {
+          "field_path": "citeas[1].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "citeas[2].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "citeas[2].doi",
+          "value": "10.5281/ZENODO.22791103"
+        },
+        {
+          "field_path": "citeas[2].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "citeas[3].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "citeas[3].doi",
+          "value": "10.5281/ZENODO.22791141"
+        },
+        {
+          "field_path": "citeas[3].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "citeas[4].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "citeas[4].doi",
+          "value": "10.5281/ZENODO.22791169"
+        },
+        {
+          "field_path": "citeas[4].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "citeas[5].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "citeas[5].doi",
+          "value": "10.5281/ZENODO.22791404"
+        },
+        {
+          "field_path": "citeas[5].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "citeas[6].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "citeas[6].doi",
+          "value": "10.5281/ZENODO.22791463"
+        },
+        {
+          "field_path": "citeas[6].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "citeas[7].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "citeas[7].doi",
+          "value": "10.5281/ZENODO.22791375"
+        },
+        {
+          "field_path": "citeas[7].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "citeas[8].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "citeas[8].doi",
+          "value": "10.5281/ZENODO.22791309"
+        },
+        {
+          "field_path": "citeas[8].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "citeas[9].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "citeas[9].doi",
+          "value": "10.5281/ZENODO.22791334"
+        },
+        {
+          "field_path": "citeas[9].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "citeas[10].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "citeas[10].doi",
+          "value": "10.5281/ZENODO.23166490"
+        },
+        {
+          "field_path": "citeas[10].version",
+          "value": "v2026.10-evidence-integrity"
+        },
+        {
+          "field_path": "metadata[0].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "metadata[0].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "metadata[1].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "metadata[1].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "metadata[2].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "metadata[2].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "metadata[3].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "metadata[3].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "metadata[4].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "metadata[4].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "metadata[5].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "metadata[5].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "metadata[6].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "metadata[6].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "metadata[7].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "metadata[7].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "metadata[8].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "metadata[8].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "metadata[9].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "metadata[9].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "metadata[10].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "metadata[10].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "metadata[11].repository",
+          "value": "life-science-ecosystem-lab"
+        },
+        {
+          "field_path": "metadata[11].cff_version_declared",
+          "value": true
+        },
+        {
+          "field_path": "handles[0].doi",
+          "value": "10.17605/osf.io/5b329"
+        },
+        {
+          "field_path": "handles[1].doi",
+          "value": "10.48546/workflowhub.workflow.2332.1"
+        },
+        {
+          "field_path": "handles[2].doi",
+          "value": "10.48546/workflowhub.workflow.2332.2"
+        },
+        {
+          "field_path": "handles[3].doi",
+          "value": "10.48546/workflowhub.workflow.2332.3"
+        },
+        {
+          "field_path": "handles[4].doi",
+          "value": "10.48546/workflowhub.workflow.2332.4"
+        },
+        {
+          "field_path": "handles[5].doi",
+          "value": "10.48546/workflowhub.workflow.2332.5"
+        },
+        {
+          "field_path": "handles[6].doi",
+          "value": "10.48546/workflowhub.workflow.2332.6"
+        },
+        {
+          "field_path": "handles[7].doi",
+          "value": "10.48546/workflowhub.workflow.2332.7"
+        },
+        {
+          "field_path": "handles[8].doi",
+          "value": "10.48546/workflowhub.workflow.2332.8"
+        },
+        {
+          "field_path": "handles[9].doi",
+          "value": "10.48546/workflowhub.workflow.2334.1"
+        },
+        {
+          "field_path": "handles[10].doi",
+          "value": "10.48546/workflowhub.workflow.2334.2"
+        },
+        {
+          "field_path": "handles[11].doi",
+          "value": "10.48546/workflowhub.workflow.2334.3"
+        },
+        {
+          "field_path": "handles[12].doi",
+          "value": "10.48546/workflowhub.workflow.2334.4"
+        },
+        {
+          "field_path": "handles[13].doi",
+          "value": "10.48546/workflowhub.workflow.2334.5"
+        },
+        {
+          "field_path": "handles[14].doi",
+          "value": "10.48546/workflowhub.workflow.2334.6"
+        },
+        {
+          "field_path": "handles[15].doi",
+          "value": "10.48546/workflowhub.workflow.2334.7"
+        },
+        {
+          "field_path": "handles[16].doi",
+          "value": "10.48546/workflowhub.workflow.2334.8"
+        },
+        {
+          "field_path": "handles[17].doi",
+          "value": "10.48546/workflowhub.workflow.2337.1"
+        },
+        {
+          "field_path": "handles[18].doi",
+          "value": "10.48546/workflowhub.workflow.2347.1"
+        },
+        {
+          "field_path": "handles[19].doi",
+          "value": "10.48546/workflowhub.workflow.2347.2"
+        },
+        {
+          "field_path": "handles[20].doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "handles[21].doi",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "handles[22].doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "handles[23].doi",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "handles[24].doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "handles[25].doi",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "handles[26].doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "handles[27].doi",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "handles[28].doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "handles[29].doi",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "handles[30].doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "handles[31].doi",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "handles[32].doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "handles[33].doi",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "handles[34].doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "handles[35].doi",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "handles[36].doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "handles[37].doi",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "handles[38].doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "handles[39].doi",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "handles[40].doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "handles[41].doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "handles[42].doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "handles[43].doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "handles[44].doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "handles[45].doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "handles[46].doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "handles[47].doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "handles[48].doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "handles[49].doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "handles[50].doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "handles[51].doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "handles[52].doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "handles[53].doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "handles[54].doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "handles[55].doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "handles[56].doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "handles[57].doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "handles[58].doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "handles[59].doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "handles[60].doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "handles[61].doi",
+          "value": "10.5281/zenodo.23166491"
+        },
+        {
+          "field_path": "handles[62].doi",
+          "value": "10.5281/zenodo.23176748"
+        },
+        {
+          "field_path": "handles[63].doi",
+          "value": "10.5281/zenodo.23284570"
+        },
+        {
+          "field_path": "handles[64].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "handles[65].doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "handles[66].doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "handles[67].doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "handles[68].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "handles[69].doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "handles[70].doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "handles[71].doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "handles[72].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "handles[73].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "handles[74].doi",
+          "value": "10.5281/zenodo.23446162"
+        },
+        {
+          "field_path": "handles[75].doi",
+          "value": "10.5281/zenodo.23447088"
+        },
+        {
+          "field_path": "handles[76].doi",
+          "value": "10.5281/zenodo.23447089"
+        },
+        {
+          "field_path": "agencies[0].doi",
+          "value": "10.17605/osf.io/5b329"
+        },
+        {
+          "field_path": "agencies[1].doi",
+          "value": "10.48546/workflowhub.workflow.2332.1"
+        },
+        {
+          "field_path": "agencies[2].doi",
+          "value": "10.48546/workflowhub.workflow.2332.2"
+        },
+        {
+          "field_path": "agencies[3].doi",
+          "value": "10.48546/workflowhub.workflow.2332.3"
+        },
+        {
+          "field_path": "agencies[4].doi",
+          "value": "10.48546/workflowhub.workflow.2332.4"
+        },
+        {
+          "field_path": "agencies[5].doi",
+          "value": "10.48546/workflowhub.workflow.2332.5"
+        },
+        {
+          "field_path": "agencies[6].doi",
+          "value": "10.48546/workflowhub.workflow.2332.6"
+        },
+        {
+          "field_path": "agencies[7].doi",
+          "value": "10.48546/workflowhub.workflow.2332.7"
+        },
+        {
+          "field_path": "agencies[8].doi",
+          "value": "10.48546/workflowhub.workflow.2332.8"
+        },
+        {
+          "field_path": "agencies[9].doi",
+          "value": "10.48546/workflowhub.workflow.2334.1"
+        },
+        {
+          "field_path": "agencies[10].doi",
+          "value": "10.48546/workflowhub.workflow.2334.2"
+        },
+        {
+          "field_path": "agencies[11].doi",
+          "value": "10.48546/workflowhub.workflow.2334.3"
+        },
+        {
+          "field_path": "agencies[12].doi",
+          "value": "10.48546/workflowhub.workflow.2334.4"
+        },
+        {
+          "field_path": "agencies[13].doi",
+          "value": "10.48546/workflowhub.workflow.2334.5"
+        },
+        {
+          "field_path": "agencies[14].doi",
+          "value": "10.48546/workflowhub.workflow.2334.6"
+        },
+        {
+          "field_path": "agencies[15].doi",
+          "value": "10.48546/workflowhub.workflow.2334.7"
+        },
+        {
+          "field_path": "agencies[16].doi",
+          "value": "10.48546/workflowhub.workflow.2334.8"
+        },
+        {
+          "field_path": "agencies[17].doi",
+          "value": "10.48546/workflowhub.workflow.2337.1"
+        },
+        {
+          "field_path": "agencies[18].doi",
+          "value": "10.48546/workflowhub.workflow.2347.1"
+        },
+        {
+          "field_path": "agencies[19].doi",
+          "value": "10.48546/workflowhub.workflow.2347.2"
+        },
+        {
+          "field_path": "agencies[20].doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "agencies[21].doi",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "agencies[22].doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "agencies[23].doi",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "agencies[24].doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "agencies[25].doi",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "agencies[26].doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "agencies[27].doi",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "agencies[28].doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "agencies[29].doi",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "agencies[30].doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "agencies[31].doi",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "agencies[32].doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "agencies[33].doi",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "agencies[34].doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "agencies[35].doi",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "agencies[36].doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "agencies[37].doi",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "agencies[38].doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "agencies[39].doi",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "agencies[40].doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "agencies[41].doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "agencies[42].doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "agencies[43].doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "agencies[44].doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "agencies[45].doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "agencies[46].doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "agencies[47].doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "agencies[48].doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "agencies[49].doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "agencies[50].doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "agencies[51].doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "agencies[52].doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "agencies[53].doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "agencies[54].doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "agencies[55].doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "agencies[56].doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "agencies[57].doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "agencies[58].doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "agencies[59].doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "agencies[60].doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "agencies[61].doi",
+          "value": "10.5281/zenodo.23166491"
+        },
+        {
+          "field_path": "agencies[62].doi",
+          "value": "10.5281/zenodo.23176748"
+        },
+        {
+          "field_path": "agencies[63].doi",
+          "value": "10.5281/zenodo.23284570"
+        },
+        {
+          "field_path": "agencies[64].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "agencies[65].doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "agencies[66].doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "agencies[67].doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "agencies[68].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "agencies[69].doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "agencies[70].doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "agencies[71].doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "agencies[72].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "agencies[73].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "agencies[74].doi",
+          "value": "10.5281/zenodo.23446162"
+        },
+        {
+          "field_path": "agencies[75].doi",
+          "value": "10.5281/zenodo.23447088"
+        },
+        {
+          "field_path": "agencies[76].doi",
+          "value": "10.5281/zenodo.23447089"
+        }
+      ]
+    }
+  ]
+}

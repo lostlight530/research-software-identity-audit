@@ -1,0 +1,57 @@
+{
+  "source_category": "历史散件",
+  "source_date_label": "2026-10-07",
+  "source_package_label": "open-alex-targeted-lookup.json",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "open-alex-targeted-lookup.json",
+      "sha256": "e675abc8182e5d459f091dbec896482e488ebf55999a4b854d20a94f53369529",
+      "bytes": 2934,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "open-alex-targeted-lookup.json",
+      "sha256": "e675abc8182e5d459f091dbec896482e488ebf55999a4b854d20a94f53369529",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "[0].retrieved_at_utc",
+          "value": "2026-10-07T06:45:07.259460+00:00"
+        },
+        {
+          "field_path": "[0].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "[0].referenced_works_count",
+          "value": 1
+        },
+        {
+          "field_path": "[0].cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "[1].retrieved_at_utc",
+          "value": "2026-10-07T06:45:08.240430+00:00"
+        },
+        {
+          "field_path": "[1].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "[1].referenced_works_count",
+          "value": 0
+        },
+        {
+          "field_path": "[1].cited_by_count",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

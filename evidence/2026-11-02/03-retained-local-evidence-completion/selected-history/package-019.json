@@ -1,0 +1,3425 @@
+{
+  "source_category": "历史散件",
+  "source_date_label": "undated",
+  "source_package_label": "facility-evidence.json",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "facility-evidence.json",
+      "sha256": "1226f3e16795f8ccc3c586a6c32793c7b7f281bbccd4cf2c714320f963f1ae49",
+      "bytes": 380163,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "facility-evidence.json",
+      "sha256": "1226f3e16795f8ccc3c586a6c32793c7b7f281bbccd4cf2c714320f963f1ae49",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "schemaVersion",
+          "value": 1
+        },
+        {
+          "field_path": "clientDate",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "timezone",
+          "value": "Asia/Shanghai"
+        },
+        {
+          "field_path": "scope",
+          "value": "Historical facility audit consolidated without changing original source objects; local reorganization, no fresh external validation"
+        },
+        {
+          "field_path": "repositoryLayers[0].layer",
+          "value": "L1"
+        },
+        {
+          "field_path": "repositoryLayers[1].layer",
+          "value": "L1"
+        },
+        {
+          "field_path": "repositoryLayers[2].layer",
+          "value": "L2"
+        },
+        {
+          "field_path": "repositoryLayers[3].layer",
+          "value": "L2"
+        },
+        {
+          "field_path": "repositoryLayers[4].layer",
+          "value": "L2"
+        },
+        {
+          "field_path": "repositoryLayers[5].layer",
+          "value": "L3"
+        },
+        {
+          "field_path": "repositoryLayers[6].layer",
+          "value": "L3"
+        },
+        {
+          "field_path": "repositoryLayers[7].layer",
+          "value": "L3"
+        },
+        {
+          "field_path": "repositoryLayers[8].layer",
+          "value": "L4"
+        },
+        {
+          "field_path": "repositoryLayers[9].layer",
+          "value": "L4"
+        },
+        {
+          "field_path": "sourcePackages.manifest.json.count",
+          "value": 68
+        },
+        {
+          "field_path": "sourcePackages.audit.json.scope",
+          "value": "68原始条目全部登记和判定；公开对象检验与网页渲染分列；受限及历史证据不视为本轮页面验收"
+        },
+        {
+          "field_path": "sourcePackages.audit.json.checks.registeredDois",
+          "value": 30
+        },
+        {
+          "field_path": "sourcePackages.audit.json.checks.doiSetMatch",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.checks.doiResolvers302",
+          "value": 30
+        },
+        {
+          "field_path": "sourcePackages.audit.json.checks.versionRecords",
+          "value": 20
+        },
+        {
+          "field_path": "sourcePackages.audit.json.checks.allVersionsHaveFamily",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.checks.allConceptsHaveTwoVersions",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.checks.openAlexDoiSetMatch",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.checks.swhTimestampEncodingFixes",
+          "value": 9
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[3].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[3].decodedTimestamp",
+          "value": "2026-09-16T07:29:54.740000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[4].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[4].decodedTimestamp",
+          "value": "2026-09-16T07:30:35.238000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[5].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[5].decodedTimestamp",
+          "value": "2026-09-16T07:31:36.029000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[6].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[6].decodedTimestamp",
+          "value": "2026-09-16T07:32:06.452000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[7].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[7].decodedTimestamp",
+          "value": "2026-09-16T07:32:57.074000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[8].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[8].decodedTimestamp",
+          "value": "2026-09-16T07:35:08.255000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[9].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[9].decodedTimestamp",
+          "value": "2026-09-16T07:35:28.635000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[10].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[10].decodedTimestamp",
+          "value": "2026-09-16T07:36:39.526000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[11].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[11].decodedTimestamp",
+          "value": "2026-09-16T07:36:49.720000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[12].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[12].decodedTimestamp",
+          "value": "2026-09-16T07:38:30.811000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[13].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[13].decodedTimestamp",
+          "value": null
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[14].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[14].decodedTimestamp",
+          "value": null
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[15].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[15].decodedTimestamp",
+          "value": null
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[16].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[16].decodedTimestamp",
+          "value": null
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[17].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[17].decodedTimestamp",
+          "value": null
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[18].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[18].decodedTimestamp",
+          "value": null
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[19].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[19].decodedTimestamp",
+          "value": null
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[20].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[20].decodedTimestamp",
+          "value": null
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[21].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[21].decodedTimestamp",
+          "value": null
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[22].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.audit.json.entries[22].decodedTimestamp",
+          "value": null
+        },
+        {
+          "field_path": "sourcePackages.audit.json.deliveryClientDate",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.startedAt",
+          "value": "2026-10-03T15:29:03.223Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[0].doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[0].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[0].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[0].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[0].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[0].created",
+          "value": "2026-09-30T19:24:56Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[0].updated",
+          "value": "2026-09-30T19:24:57Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[1].doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[1].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[1].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[1].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[1].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[1].created",
+          "value": "2026-09-16T08:51:06Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[1].updated",
+          "value": "2026-09-30T19:24:56Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[2].doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[2].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[2].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[2].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[2].created",
+          "value": "2026-09-16T08:48:03Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[2].updated",
+          "value": "2026-09-30T19:23:59Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[3].doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[3].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[3].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[3].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[3].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[3].created",
+          "value": "2026-09-30T19:23:58Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[3].updated",
+          "value": "2026-09-30T19:23:59Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[4].doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[4].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[4].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[4].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[4].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[4].created",
+          "value": "2026-09-16T08:49:25Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[4].updated",
+          "value": "2026-09-30T19:23:30Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[5].doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[5].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[5].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[5].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[5].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[5].created",
+          "value": "2026-09-30T19:23:29Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[5].updated",
+          "value": "2026-09-30T19:23:29Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[6].doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[6].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[6].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[6].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[6].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[6].created",
+          "value": "2026-09-30T19:18:25Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[6].updated",
+          "value": "2026-09-30T19:18:25Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[7].doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[7].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[7].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[7].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[7].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[7].created",
+          "value": "2026-09-16T08:46:16Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[7].updated",
+          "value": "2026-09-30T19:18:25Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[8].doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[8].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[8].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[8].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[8].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[8].created",
+          "value": "2026-09-16T08:45:13Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[8].updated",
+          "value": "2026-09-30T19:18:21Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[9].doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[9].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[9].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[9].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[9].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[9].created",
+          "value": "2026-09-30T19:18:21Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[9].updated",
+          "value": "2026-09-30T19:18:21Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[10].doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[10].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[10].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[10].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[10].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[10].created",
+          "value": "2026-09-16T08:38:53Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[10].updated",
+          "value": "2026-09-30T19:12:00Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[11].doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[11].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[11].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[11].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[11].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[11].created",
+          "value": "2026-09-30T19:11:59Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[11].updated",
+          "value": "2026-09-30T19:12:00Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[12].doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[12].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[12].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[12].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[12].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[12].created",
+          "value": "2026-09-16T08:35:17Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[12].updated",
+          "value": "2026-09-30T19:11:47Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[13].doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[13].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[13].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[13].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[13].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[13].created",
+          "value": "2026-09-30T19:11:46Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[13].updated",
+          "value": "2026-09-30T19:11:46Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[14].doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[14].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[14].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[14].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[14].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[14].created",
+          "value": "2026-09-16T08:36:49Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[14].updated",
+          "value": "2026-09-30T19:11:43Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[15].doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[15].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[15].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[15].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[15].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[15].created",
+          "value": "2026-09-30T19:11:42Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[15].updated",
+          "value": "2026-09-30T19:11:43Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[16].doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[16].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[16].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[16].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[16].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[16].created",
+          "value": "2026-09-16T08:26:58Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[16].updated",
+          "value": "2026-09-30T19:07:18Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[17].doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[17].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[17].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[17].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[17].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[17].created",
+          "value": "2026-09-30T19:07:17Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[17].updated",
+          "value": "2026-09-30T19:07:17Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[18].doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[18].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[18].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[18].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[18].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[18].created",
+          "value": "2026-09-16T08:33:56Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[18].updated",
+          "value": "2026-09-30T19:07:03Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[19].doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[19].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[19].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[19].dates[0].date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[19].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[19].created",
+          "value": "2026-09-30T19:07:02Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[19].updated",
+          "value": "2026-09-30T19:07:02Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[20].doi",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[20].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[20].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[20].dates[0].date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[20].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[20].created",
+          "value": "2026-09-16T08:51:06Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[20].updated",
+          "value": "2026-09-16T08:51:06Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[21].doi",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[21].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[21].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[21].dates[0].date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[21].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[21].created",
+          "value": "2026-09-16T08:49:24Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[21].updated",
+          "value": "2026-09-16T08:49:24Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[22].doi",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[22].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[22].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[22].dates[0].date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[22].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[22].created",
+          "value": "2026-09-16T08:48:03Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[22].updated",
+          "value": "2026-09-16T08:48:03Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[23].doi",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[23].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[23].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[23].dates[0].date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[23].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[23].created",
+          "value": "2026-09-16T08:46:16Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[23].updated",
+          "value": "2026-09-16T08:46:16Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[24].doi",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[24].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[24].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[24].dates[0].date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[24].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[24].created",
+          "value": "2026-09-16T08:45:13Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[24].updated",
+          "value": "2026-09-16T08:45:13Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[25].doi",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[25].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[25].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[25].dates[0].date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[25].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[25].created",
+          "value": "2026-09-16T08:38:51Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[25].updated",
+          "value": "2026-09-16T08:38:51Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[26].doi",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[26].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[26].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[26].dates[0].date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[26].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[26].created",
+          "value": "2026-09-16T08:36:48Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[26].updated",
+          "value": "2026-09-16T08:36:49Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[27].doi",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[27].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[27].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[27].dates[0].date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[27].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[27].created",
+          "value": "2026-09-16T08:35:14Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[27].updated",
+          "value": "2026-09-16T08:35:15Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[28].doi",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[28].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[28].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[28].dates[0].date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[28].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[28].created",
+          "value": "2026-09-16T08:33:55Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[28].updated",
+          "value": "2026-09-16T08:33:55Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[29].doi",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[29].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[29].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[29].dates[0].date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[29].dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[29].created",
+          "value": "2026-09-16T08:26:54Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.records[29].updated",
+          "value": "2026-09-16T08:26:54Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[0].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[1].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[2].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[3].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[4].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[5].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[6].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[7].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[8].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[9].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[10].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[11].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[12].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[13].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[14].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[15].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[16].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[17].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[18].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[19].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[20].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[21].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[22].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[23].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[24].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[25].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[26].retry.status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[27].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[28].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiResolver[29].status",
+          "value": 302
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.zenodo.status",
+          "value": 403
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.dataCiteStatus",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.meta.total",
+          "value": 30
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.meta.totalPages",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.doiSetMatch",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.finishedAt",
+          "value": "2026-10-03T15:29:46.618Z"
+        },
+        {
+          "field_path": "sourcePackages.doi-zenodo-audit.json.retryFinishedAt",
+          "value": "2026-10-03T15:30:13.728Z"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[0]",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[1]",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[2]",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[3]",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[4]",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[5]",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[6]",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[7]",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[8]",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[9]",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[10]",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[11]",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[12]",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[13]",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[14]",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[15]",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[16]",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[17]",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[18]",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[19]",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[20]",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[21]",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[22]",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[23]",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[24]",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[25]",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[26]",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[27]",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[28]",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.expectedDois[29]",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[0].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[0].groupCount",
+          "value": 10
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[0].summaryCount",
+          "value": 40
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[0].ownerEnteredSummaryCount",
+          "value": 10
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[0].allGroupsHaveFourSummaries",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[1].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[2].status",
+          "value": 403
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[4].status",
+          "value": 429
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].total",
+          "value": 30
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].uniqueDoiCount",
+          "value": 30
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].expectedDoiCount",
+          "value": 30
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].doiSetMatches",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[0]",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[1]",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[2]",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[3]",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[4]",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[5]",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[6]",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[7]",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[8]",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[9]",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[10]",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[11]",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[12]",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[13]",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[14]",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[15]",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[16]",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[17]",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[18]",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[19]",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[20]",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[21]",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[22]",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[23]",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[24]",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[25]",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[26]",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[27]",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[28]",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.requests[5].dois[29]",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.priorVerifiedByParent.datacite.originalTotal",
+          "value": 30
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.priorVerifiedByParent.datacite.doiSetMatches",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.priorVerifiedByParent.openalexAuthor.worksCount",
+          "value": 30
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.priorVerifiedByParent.openalexAuthorOrcidAlias.status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.priorVerifiedByParent.openalexAuthorOrcidAlias.count",
+          "value": 30
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.coverage[0].status",
+          "value": "HTTP 200 application shell; rendered record not verified"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.coverage[1].status",
+          "value": "HTTP 200; 10 groups, 40 summaries, source counts verified"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.coverage[2].status",
+          "value": "HTTP 429 Vercel Security Checkpoint; website stopped"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.coverage[3].status",
+          "value": "Reused parent direct check: HTTP 200 total30 returned25; page[size]=100 returns all30 and DOI set matches"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.coverage[4].status",
+          "value": "HTTP 403 challenge; website stopped; frontend author route not verified"
+        },
+        {
+          "field_path": "sourcePackages.identity-graph-audit.json.coverage[5].status",
+          "value": "Skipped website request after author page 403; parent API checks author.orcid alias HTTP200 count30; author.id per-page100 API verifies exact30 DOI set"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.scope.timeoutMs",
+          "value": 20000
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[0].doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[0].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[0].total",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[1].doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[1].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[1].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[2].doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[2].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[2].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[3].doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[3].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[3].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[4].doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[4].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[4].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[5].doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[5].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[5].total",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[6].doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[6].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[6].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[7].doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[7].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[7].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[8].doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[8].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[8].total",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[9].doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[9].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[9].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[10].doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[10].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[10].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[11].doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[11].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[11].total",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[12].doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[12].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[12].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[13].doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[13].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[13].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[14].doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[14].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[14].total",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[15].doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[15].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[15].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[16].doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[16].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[16].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[17].doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[17].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[17].total",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[18].doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[18].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[18].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[19].doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[19].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[19].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[20].doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[20].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[20].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[21].doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[21].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[21].total",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[22].doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[22].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[22].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[23].doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[23].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[23].total",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[24].doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[24].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[24].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[25].doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[25].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[25].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[26].doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[26].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[26].total",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[27].doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[27].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[27].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[28].doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[28].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[28].total",
+          "value": "0"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[29].doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[29].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.openaire-audit.json.evidence[29].total",
+          "value": 1
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requestPolicy.timeoutMs",
+          "value": 20000
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requestCount",
+          "value": 26
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].conceptDoi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].parsedTimestamp",
+          "value": "2026-09-16T07:29:54.740000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].expectedTimestamp",
+          "value": "2026-09-16T07:29:54.740000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].timestampEncodingNeedsFix",
+          "value": false
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].gitVisits[0].date",
+          "value": "2026-09-29T13:20:19.474000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].gitVisits[0].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].gitVisits[1].date",
+          "value": "2026-09-16T07:29:54.740000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].gitVisits[1].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].timestampExactMatch",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].gitInitial.date",
+          "value": "2026-09-16T07:29:54.740000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].gitInitial.status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].coreObjectStatus",
+          "value": "present"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].depositVisits[0].date",
+          "value": "2026-09-30T19:35:04.247000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].depositVisits[0].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].depositVisits[1].date",
+          "value": "2026-09-16T08:27:15.047000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].depositVisits[1].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].depositVersions[0].date",
+          "value": "2026-09-16T00:00:00+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].depositVersions[1].date",
+          "value": "2026-09-30T00:00:00+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].status",
+          "value": "verified"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].priorSessionEvidence.gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].priorSessionEvidence.doiConceptDepositVisitsStatus[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[0].priorSessionEvidence.doiConceptDepositVisitsStatus[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].conceptDoi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].parsedTimestamp",
+          "value": "2026-09-16T07:30:35.238000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].expectedTimestamp",
+          "value": "2026-09-16T07:30:35.238000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].gitVisits[0].date",
+          "value": "2026-09-16T07:30:35.238000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].gitVisits[0].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].timestampExactMatch",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].gitInitial.date",
+          "value": "2026-09-16T07:30:35.238000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].gitInitial.status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].coreObjectStatus",
+          "value": "present"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].depositVisits[0].date",
+          "value": "2026-09-30T19:39:21.946000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].depositVisits[0].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].depositVisits[1].date",
+          "value": "2026-09-16T08:35:34.631000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].depositVisits[1].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].depositVersions[0].date",
+          "value": "2026-09-16T00:00:00+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].depositVersions[1].date",
+          "value": "2026-09-30T00:00:00+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].status",
+          "value": "verified"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].priorSessionEvidence.gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].priorSessionEvidence.doiConceptDepositVisitsStatus[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[1].priorSessionEvidence.doiConceptDepositVisitsStatus[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[2].conceptDoi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[2].parsedTimestamp",
+          "value": "2026-09-16T07:31:36.029000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[2].expectedTimestamp",
+          "value": "2026-09-16T07:31:36.029000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[2].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[2].status",
+          "value": "incomplete"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[2].priorSessionEvidence.gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[2].priorSessionEvidence.doiConceptDepositVisitsStatus[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[2].priorSessionEvidence.doiConceptDepositVisitsStatus[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[3].conceptDoi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[3].parsedTimestamp",
+          "value": "2026-09-16T07:32:06.452000 00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[3].expectedTimestamp",
+          "value": "2026-09-16T07:32:06.452000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[3].timestampEncodingNeedsFix",
+          "value": true
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[3].status",
+          "value": "incomplete"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[3].priorSessionEvidence.gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[3].priorSessionEvidence.doiConceptDepositVisitsStatus[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[3].priorSessionEvidence.doiConceptDepositVisitsStatus[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[4].conceptDoi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[4].status",
+          "value": "not_requested"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[4].priorSessionEvidence.gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[4].priorSessionEvidence.doiConceptDepositVisitsStatus[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[4].priorSessionEvidence.doiConceptDepositVisitsStatus[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].conceptDoi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].status",
+          "value": "partial_current_round"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].priorSessionEvidence.gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].priorSessionEvidence.doiConceptDepositVisitsStatus[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].priorSessionEvidence.doiConceptDepositVisitsStatus[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].gitVisits[0].date",
+          "value": "2026-09-28T22:50:01.041000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].gitVisits[0].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].gitVisits[1].date",
+          "value": "2026-09-16T07:35:08.255000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].gitVisits[1].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].depositVisits[0].date",
+          "value": "2026-09-30T19:50:33.834000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].depositVisits[0].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].depositVisits[1].date",
+          "value": "2026-09-16T08:51:39.600000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[5].depositVisits[1].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[6].conceptDoi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[6].status",
+          "value": "not_requested"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[6].priorSessionEvidence.gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[6].priorSessionEvidence.doiConceptDepositVisitsStatus[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[6].priorSessionEvidence.doiConceptDepositVisitsStatus[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[7].conceptDoi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[7].status",
+          "value": "not_requested"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[7].priorSessionEvidence.gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[7].priorSessionEvidence.doiConceptDepositVisitsStatus[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[7].priorSessionEvidence.doiConceptDepositVisitsStatus[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[8].conceptDoi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[8].status",
+          "value": "not_requested"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[8].priorSessionEvidence.gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[8].priorSessionEvidence.doiConceptDepositVisitsStatus[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[8].priorSessionEvidence.doiConceptDepositVisitsStatus[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[9].conceptDoi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[9].status",
+          "value": "not_requested"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[9].priorSessionEvidence.gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[9].priorSessionEvidence.doiConceptDepositVisitsStatus[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.results[9].priorSessionEvidence.doiConceptDepositVisitsStatus[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[0].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[1].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[2].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[3].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[4].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[5].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[6].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[7].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[8].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[9].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[10].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[11].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[12].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[13].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[14].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[15].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[16].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[17].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[18].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[19].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[20].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[21].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[22].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[23].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[24].status",
+          "value": 429
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.requests[25].status",
+          "value": 429
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.checkedDate",
+          "value": "2026-10-03"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.requests[0].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.requests[1].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.requests[2].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.requests[3].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.requests[4].status",
+          "value": 200
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.epistemicGitVisits[0].date",
+          "value": "2026-09-28T22:50:01.041000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.epistemicGitVisits[0].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.epistemicGitVisits[1].date",
+          "value": "2026-09-16T07:35:08.255000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.epistemicGitVisits[1].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.epistemicDepositVisits[0].date",
+          "value": "2026-09-30T19:50:33.834000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.epistemicDepositVisits[0].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.epistemicDepositVisits[1].date",
+          "value": "2026-09-16T08:51:39.600000+00:00"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.manualPreflightEvidence.epistemicDepositVisits[1].status",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.totalSwhApiRequestsThisRound",
+          "value": 31
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.scopeLimitation",
+          "value": "21 links have inventory/classification plus prior evidence for 20 object/history links; current round network coverage is incomplete because 429 halted domain. 2 repos fully re-fetched, epistemic partially re-checked, 2 repos blocked, 5 remaining repos not requested. No original browser pages rendered. save/list not fetched."
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[0].status",
+          "value": "Supplied material labels this as login-state request list; anonymous access and personal task list not inspected due domain 429"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[1].status",
+          "value": "timestamp encoded correctly"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[2].status",
+          "value": "encoding defect (+ becomes space); historical timestamp verified previously"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[3].status",
+          "value": "encoding defect (+ becomes space); historical timestamp verified previously"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[4].status",
+          "value": "encoding defect (+ becomes space); historical timestamp verified previously"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[5].status",
+          "value": "encoding defect (+ becomes space); historical timestamp verified previously"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[6].status",
+          "value": "encoding defect (+ becomes space); historical timestamp verified previously"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[7].status",
+          "value": "encoding defect (+ becomes space); historical timestamp verified previously"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[8].status",
+          "value": "encoding defect (+ becomes space); historical timestamp verified previously"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[9].status",
+          "value": "encoding defect (+ becomes space); historical timestamp verified previously"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[10].status",
+          "value": "encoding defect (+ becomes space); historical timestamp verified previously"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[11].status",
+          "value": "core SWHID, historical object verified; current round status depends on repo"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[12].status",
+          "value": "core SWHID, historical object verified; current round status depends on repo"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[13].status",
+          "value": "core SWHID, historical object verified; current round status depends on repo"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[14].status",
+          "value": "core SWHID, historical object verified; current round status depends on repo"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[15].status",
+          "value": "core SWHID, historical object verified; current round status depends on repo"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[16].status",
+          "value": "core SWHID, historical object verified; current round status depends on repo"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[17].status",
+          "value": "core SWHID, historical object verified; current round status depends on repo"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[18].status",
+          "value": "core SWHID, historical object verified; current round status depends on repo"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[19].status",
+          "value": "core SWHID, historical object verified; current round status depends on repo"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.supplied21Links[20].status",
+          "value": "core SWHID, historical object verified; current round status depends on repo"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.checkedDate",
+          "value": "2026-10-03"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.scope",
+          "value": "All 10 initial Git origins full, initial snapshot -> revision -> listed core directory matched; all 10 concept DOI origins two full deposit visits; all 10 v1 deposit inner source directories independently traced and different from listed Git initial directory."
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[0].conceptDoi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[0].gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[0].conceptDoiDepositVisitStatuses[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[0].conceptDoiDepositVisitStatuses[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[1].conceptDoi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[1].gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[1].conceptDoiDepositVisitStatuses[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[1].conceptDoiDepositVisitStatuses[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[2].conceptDoi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[2].gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[2].conceptDoiDepositVisitStatuses[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[2].conceptDoiDepositVisitStatuses[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[3].conceptDoi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[3].gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[3].conceptDoiDepositVisitStatuses[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[3].conceptDoiDepositVisitStatuses[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[4].conceptDoi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[4].gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[4].conceptDoiDepositVisitStatuses[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[4].conceptDoiDepositVisitStatuses[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[5].conceptDoi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[5].gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[5].conceptDoiDepositVisitStatuses[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[5].conceptDoiDepositVisitStatuses[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[6].conceptDoi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[6].gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[6].conceptDoiDepositVisitStatuses[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[6].conceptDoiDepositVisitStatuses[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[7].conceptDoi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[7].gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[7].conceptDoiDepositVisitStatuses[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[7].conceptDoiDepositVisitStatuses[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[8].conceptDoi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[8].gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[8].conceptDoiDepositVisitStatuses[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[8].conceptDoiDepositVisitStatuses[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[9].conceptDoi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[9].gitInitialVisitStatus",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[9].conceptDoiDepositVisitStatuses[0]",
+          "value": "full"
+        },
+        {
+          "field_path": "sourcePackages.swh-audit.json.previousSessionEvidence.repos[9].conceptDoiDepositVisitStatuses[1]",
+          "value": "full"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.organizingDate",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[0].layer",
+          "value": "L1"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[0].pageViews",
+          "value": 63
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[0].pageDownloads",
+          "value": 3
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[0].userReportedApi.views",
+          "value": 65
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[0].userReportedApi.downloads",
+          "value": 4
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[0].exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[1].layer",
+          "value": "L1"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[1].pageViews",
+          "value": 42
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[1].pageDownloads",
+          "value": 0
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[1].userReportedApi.views",
+          "value": 44
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[1].userReportedApi.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[1].exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[2].layer",
+          "value": "L2"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[2].pageViews",
+          "value": 63
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[2].pageDownloads",
+          "value": 0
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[2].exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[3].layer",
+          "value": "L2"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[3].pageViews",
+          "value": 35
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[3].pageDownloads",
+          "value": 0
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[3].exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[4].layer",
+          "value": "L2"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[4].pageViews",
+          "value": 53
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[4].pageDownloads",
+          "value": 1
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[4].exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[5].layer",
+          "value": "L3"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[5].pageViews",
+          "value": 33
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[5].pageDownloads",
+          "value": 0
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[5].userReportedApi.views",
+          "value": 34
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[5].userReportedApi.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[5].exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[6].layer",
+          "value": "L3"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[6].pageViews",
+          "value": 50
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[6].pageDownloads",
+          "value": 0
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[6].userReportedApi.views",
+          "value": 50
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[6].userReportedApi.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[6].exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[7].layer",
+          "value": "L3"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[7].pageViews",
+          "value": 46
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[7].pageDownloads",
+          "value": 1
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[7].exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[8].layer",
+          "value": "L4"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[8].pageViews",
+          "value": 58
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[8].pageDownloads",
+          "value": 1
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[8].exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[9].layer",
+          "value": "L4"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[9].pageViews",
+          "value": 53
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[9].pageDownloads",
+          "value": 0
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.records[9].exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.pageTotals.views",
+          "value": 496
+        },
+        {
+          "field_path": "sessionSupplements.zenodoMetrics.pageTotals.downloads",
+          "value": 6
+        },
+        {
+          "field_path": "sessionSupplements.externalReferralReview.checkedDate",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.updatedDate",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.timezone",
+          "value": "Asia/Shanghai"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.scope",
+          "value": "Local documentation update and source-document reconciliation; no fresh Zenodo requests or controlled experiments"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.sources[0].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.sources[1].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.sources[2].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[0].layer",
+          "value": "L1"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[0].sourceDocumentViews",
+          "value": 65
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[0].sourceDocumentDownloads",
+          "value": 4
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[0].versionScope",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[0].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[1].layer",
+          "value": "L1"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[1].sourceDocumentViews",
+          "value": 44
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[1].sourceDocumentDownloads",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[1].versionScope",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[1].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[2].layer",
+          "value": "L2"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[2].sourceDocumentViews",
+          "value": 67
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[2].sourceDocumentDownloads",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[2].versionScope",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[2].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[3].layer",
+          "value": "L2"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[3].sourceDocumentViews",
+          "value": 36
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[3].sourceDocumentDownloads",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[3].versionScope",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[3].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[4].layer",
+          "value": "L2"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[4].sourceDocumentViews",
+          "value": 58
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[4].sourceDocumentDownloads",
+          "value": 1
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[4].versionScope",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[4].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[5].layer",
+          "value": "L3"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[5].sourceDocumentViews",
+          "value": 34
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[5].sourceDocumentDownloads",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[5].versionScope",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[5].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[6].layer",
+          "value": "L3"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[6].sourceDocumentViews",
+          "value": 50
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[6].sourceDocumentDownloads",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[6].versionScope",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[6].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[7].layer",
+          "value": "L3"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[7].sourceDocumentViews",
+          "value": 46
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[7].sourceDocumentDownloads",
+          "value": 1
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[7].versionScope",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[7].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[8].layer",
+          "value": "L4"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[8].sourceDocumentViews",
+          "value": 62
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[8].sourceDocumentDownloads",
+          "value": 1
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[8].versionScope",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[8].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[9].layer",
+          "value": "L4"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[9].sourceDocumentViews",
+          "value": 55
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[9].sourceDocumentDownloads",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[9].versionScope",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.records[9].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[0].views",
+          "value": 496
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[0].downloads",
+          "value": 6
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[0].exactCaptureTime",
+          "value": null
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[0].versionScope",
+          "value": "UNKNOWN"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[0].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[1].claimedCaptureTime",
+          "value": "2026-10-04T08:50:00+08:00"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[1].totalViews",
+          "value": 517
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[1].totalDownloads",
+          "value": 7
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[1].uniqueViews",
+          "value": 496
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[1].uniqueDownloads",
+          "value": 6
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[1].versionScope",
+          "value": "UNKNOWN"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[1].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[2].claimedCaptureTime",
+          "value": "2026-10-04T09:15:00+08:00"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[2].claimedTargetVersion",
+          "value": "v1"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[2].claimedViews",
+          "value": 517
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[2].claimedDownloads",
+          "value": 7
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.observations[2].verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.localChecks.sourceViewsSum",
+          "value": 517
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.localChecks.sourceViewRange[0]",
+          "value": 34
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.localChecks.sourceViewRange[1]",
+          "value": 67
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.localChecks.nonzeroSourceViewRows",
+          "value": 10
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.localChecks.explicitDownloadRows",
+          "value": 4
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.localChecks.unspecifiedDownloadRows",
+          "value": 6
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.localChecks.sumOfExplicitDownloadValues",
+          "value": 7
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.localChecks.downloadsReportedTotal",
+          "value": 7
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.localChecks.samplePairingArithmeticCount",
+          "value": 10
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.localChecks.rawRestResponsesAvailableInReviewedMaterials",
+          "value": false
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.localChecks.botExperimentPerformedThisUpdate",
+          "value": false
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.conflicts[0].sourceTimes[0]",
+          "value": "2026-10-04T08:50:00+08:00"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.conflicts[0].sourceTimes[1]",
+          "value": "2026-10-04T09:15:00+08:00"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.conflicts[3].officialStatement",
+          "value": "Once a day"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.ownerManualAccess.claimedMaxPerRepository",
+          "value": 3
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.ownerManualAccess.conditionalTotalUpperBound",
+          "value": 30
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.ownerManualAccess.verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.controlledBot.verificationStatus",
+          "value": "UNVERIFIED"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.officialSources[0].queriedDate",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.officialSources[0].publishedDate",
+          "value": "2026-01-30"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.officialSources[1].queriedDate",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.officialSources[1].publishedDate",
+          "value": "2026-01-30"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.officialSources[2].queriedDate",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.officialSources[2].publishedDate",
+          "value": "2026-01-30"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.officialSources[3].queriedDate",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.officialSources[3].publishedDate",
+          "value": "2026-01-30"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.officialSources[4].queriedDate",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.officialSources[4].reportedDate",
+          "value": "2026-07-23"
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.cacheAndArtifacts.finalFileCount",
+          "value": 9
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.cacheAndArtifacts.temporaryScriptsCreated",
+          "value": false
+        },
+        {
+          "field_path": "sessionSupplements.zenodoObservationProtocol.cacheAndArtifacts.cleanupScope",
+          "value": "Only known artifacts created by this audit; no user sources or runtime/plugin/session caches removed"
+        },
+        {
+          "field_path": "lastDocumentationUpdate.date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "lastDocumentationUpdate.scope",
+          "value": "Zenodo protocol and existing-source reconciliation within the audit directory"
+        }
+      ]
+    }
+  ]
+}

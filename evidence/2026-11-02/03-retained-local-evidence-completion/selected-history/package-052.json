@@ -1,0 +1,593 @@
+{
+  "source_category": "独立采集",
+  "source_date_label": "2026-10-15",
+  "source_package_label": "end-of-day-open-research",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "FinalDeliveryReceipt.json",
+      "sha256": "3e8e64857ec89ee9e04ec93d48225c1c3c45bbb95a1e206027886eb340472754",
+      "bytes": 254339,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "FinalDeliveryReceipt.json",
+      "sha256": "3e8e64857ec89ee9e04ec93d48225c1c3c45bbb95a1e206027886eb340472754",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "date",
+          "value": "2026-10-15"
+        },
+        {
+          "field_path": "timezone",
+          "value": "Asia/Shanghai"
+        },
+        {
+          "field_path": "scope",
+          "value": "ten public research templates and companion read-only verifier"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[0].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[0].started_at",
+          "value": "2026-10-15T15:42:30Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[0].output.summary",
+          "value": "[View all branch alerts](/lostlight530/Axiom-0/security/code-scanning?query=pr%3A386+tool%3ACodeQL+is%3Aopen)."
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[0].output.annotations_count",
+          "value": 0
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[0].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[0].app.created_at",
+          "value": "2020-03-17T21:25:09Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[0].app.updated_at",
+          "value": "2026-09-14T08:13:48Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[1].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[1].started_at",
+          "value": "2026-10-15T15:42:09Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[1].output.summary",
+          "value": null
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[1].output.annotations_count",
+          "value": 1
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[1].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[1].app.created_at",
+          "value": "2018-07-30T09:30:17Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[1].app.updated_at",
+          "value": "2026-06-18T16:17:48Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[1].app.permissions.repository_hooks",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[1].app.permissions.repository_projects",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[1].app.permissions.statuses",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[2].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[2].started_at",
+          "value": "2026-10-15T15:42:08Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[2].output.summary",
+          "value": null
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[2].output.annotations_count",
+          "value": 1
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[2].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[2].app.created_at",
+          "value": "2018-07-30T09:30:17Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[2].app.updated_at",
+          "value": "2026-06-18T16:17:48Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[2].app.permissions.repository_hooks",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[2].app.permissions.repository_projects",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[2].app.permissions.statuses",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[3].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[3].started_at",
+          "value": "2026-10-15T15:42:09Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[3].output.summary",
+          "value": null
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[3].output.annotations_count",
+          "value": 1
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[3].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[3].app.created_at",
+          "value": "2018-07-30T09:30:17Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[3].app.updated_at",
+          "value": "2026-06-18T16:17:48Z"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[3].app.permissions.repository_hooks",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[3].app.permissions.repository_projects",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[3].delivery.checks[3].app.permissions.statuses",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[0].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[0].started_at",
+          "value": "2026-10-15T15:43:08Z"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[0].output.summary",
+          "value": "[View all branch alerts](/lostlight530/reflective-continuum/security/code-scanning?query=pr%3A480+tool%3ACodeQL+is%3Aopen)."
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[0].output.annotations_count",
+          "value": 0
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[0].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[0].app.created_at",
+          "value": "2020-03-17T21:25:09Z"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[0].app.updated_at",
+          "value": "2026-09-14T08:13:48Z"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[1].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[1].started_at",
+          "value": "2026-10-15T15:42:40Z"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[1].output.summary",
+          "value": null
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[1].output.annotations_count",
+          "value": 1
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[1].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[1].app.created_at",
+          "value": "2018-07-30T09:30:17Z"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[1].app.updated_at",
+          "value": "2026-06-18T16:17:48Z"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[1].app.permissions.repository_hooks",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[1].app.permissions.repository_projects",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[1].app.permissions.statuses",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[2].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[2].started_at",
+          "value": "2026-10-15T15:42:40Z"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[2].output.summary",
+          "value": null
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[2].output.annotations_count",
+          "value": 1
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[2].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[2].app.created_at",
+          "value": "2018-07-30T09:30:17Z"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[2].app.updated_at",
+          "value": "2026-06-18T16:17:48Z"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[2].app.permissions.repository_hooks",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[2].app.permissions.repository_projects",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[6].delivery.checks[2].app.permissions.statuses",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[0].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[0].started_at",
+          "value": "2026-10-15T15:41:28Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[0].output.summary",
+          "value": "[View all branch alerts](/lostlight530/welcome-to-github/security/code-scanning?query=pr%3A767+tool%3ACodeQL+is%3Aopen)."
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[0].output.annotations_count",
+          "value": 0
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[0].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[0].app.created_at",
+          "value": "2020-03-17T21:25:09Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[0].app.updated_at",
+          "value": "2026-09-14T08:13:48Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[1].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[1].started_at",
+          "value": "2026-10-15T15:41:07Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[1].output.summary",
+          "value": null
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[1].output.annotations_count",
+          "value": 1
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[1].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[1].app.created_at",
+          "value": "2018-07-30T09:30:17Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[1].app.updated_at",
+          "value": "2026-06-18T16:17:48Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[1].app.permissions.repository_hooks",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[1].app.permissions.repository_projects",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[1].app.permissions.statuses",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[2].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[2].started_at",
+          "value": "2026-10-15T15:41:06Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[2].output.summary",
+          "value": null
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[2].output.annotations_count",
+          "value": 1
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[2].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[2].app.created_at",
+          "value": "2018-07-30T09:30:17Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[2].app.updated_at",
+          "value": "2026-06-18T16:17:48Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[2].app.permissions.repository_hooks",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[2].app.permissions.repository_projects",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[2].app.permissions.statuses",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[3].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[3].started_at",
+          "value": "2026-10-15T15:41:06Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[3].output.summary",
+          "value": null
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[3].output.annotations_count",
+          "value": 1
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[3].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[3].app.created_at",
+          "value": "2018-07-30T09:30:17Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[3].app.updated_at",
+          "value": "2026-06-18T16:17:48Z"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[3].app.permissions.repository_hooks",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[3].app.permissions.repository_projects",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[8].delivery.checks[3].app.permissions.statuses",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[0].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[0].started_at",
+          "value": "2026-10-15T15:41:41Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[0].output.summary",
+          "value": "[View all branch alerts](/lostlight530/zero-entropy-lab/security/code-scanning?query=pr%3A659+tool%3ACodeQL+is%3Aopen)."
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[0].output.annotations_count",
+          "value": 0
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[0].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[0].app.created_at",
+          "value": "2020-03-17T21:25:09Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[0].app.updated_at",
+          "value": "2026-09-14T08:13:48Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[1].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[1].started_at",
+          "value": "2026-10-15T15:41:17Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[1].output.summary",
+          "value": null
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[1].output.annotations_count",
+          "value": 1
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[1].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[1].app.created_at",
+          "value": "2018-07-30T09:30:17Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[1].app.updated_at",
+          "value": "2026-06-18T16:17:48Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[1].app.permissions.repository_hooks",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[1].app.permissions.repository_projects",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[1].app.permissions.statuses",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[2].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[2].started_at",
+          "value": "2026-10-15T15:41:17Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[2].output.summary",
+          "value": null
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[2].output.annotations_count",
+          "value": 1
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[2].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[2].app.created_at",
+          "value": "2018-07-30T09:30:17Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[2].app.updated_at",
+          "value": "2026-06-18T16:17:48Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[2].app.permissions.repository_hooks",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[2].app.permissions.repository_projects",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[2].app.permissions.statuses",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[3].status",
+          "value": "completed"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[3].started_at",
+          "value": "2026-10-15T15:41:17Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[3].output.summary",
+          "value": null
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[3].output.annotations_count",
+          "value": 1
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[3].app.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[3].app.created_at",
+          "value": "2018-07-30T09:30:17Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[3].app.updated_at",
+          "value": "2026-06-18T16:17:48Z"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[3].app.permissions.repository_hooks",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[3].app.permissions.repository_projects",
+          "value": "write"
+        },
+        {
+          "field_path": "ten_repositories[9].delivery.checks[3].app.permissions.statuses",
+          "value": "write"
+        },
+        {
+          "field_path": "verification.offline.scope",
+          "value": "retained October 14–15 diagnostic packages"
+        }
+      ]
+    }
+  ]
+}

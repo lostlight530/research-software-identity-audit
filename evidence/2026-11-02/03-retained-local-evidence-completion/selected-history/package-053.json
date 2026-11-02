@@ -1,0 +1,344 @@
+{
+  "source_category": "独立采集",
+  "source_date_label": "2026-10-15",
+  "source_package_label": "independent-facility-audit-morning",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "CollectionContract.json",
+      "sha256": "28833a9bf603e6c71c40f2f725ad7d00827a2157e784d5ca26ec79578e065a6b",
+      "bytes": 4251,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "DataCiteIdentifiers.csv",
+      "sha256": "62cafc56601547dd3290deb5f345c4c423c86cb6bb9c76d2cce0250123f6a947",
+      "bytes": 6061,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "MorningSummary.json",
+      "sha256": "b0fe1cd6ad29daa9bd7e6d23672e627902023fbffd6fe35c8fe0d14583e766b2",
+      "bytes": 5172,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "OpenAlexWorks.csv",
+      "sha256": "cb2e0b83c1cd715fc8b5c0a33d1588c1712ac3e1f5de5788b6b8eec88913d334",
+      "bytes": 3418,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "OrcidSourceSummaries.csv",
+      "sha256": "744193b053e2afb11de32cc7e2dbebbe86de563491620a080d8d9ede37c49dc9",
+      "bytes": 8768,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "PlatformMatrix.csv",
+      "sha256": "a44ff2eee51ec37ca1c08ffb9d7d0dd1bca0754e215719afa440b873b09fb1c7",
+      "bytes": 6154,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "RequestLog.json",
+      "sha256": "ff91c32b1fac5ec4797ed15b02408bd75b206534ea4100899f95c58df0df4491",
+      "bytes": 163228,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "8fdd70eab6c391bb67b0846536547d5314d8bc5ce3460ac69e586cf527142e21",
+      "bytes": 51979,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SupplementaryRequestLog.json",
+      "sha256": "840457c3e0b7492c719c1d6aa8793e6846362f2836f05dbc4810c805a6ecbc29",
+      "bytes": 2210,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SwhIdentityChecks.csv",
+      "sha256": "45ffc83a8cdab532b6f3ef13f2971faeed9ae2093853a0ee8c32cf7196138b53",
+      "bytes": 1359,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "WorkflowHubDetailStatistics.csv",
+      "sha256": "9b0d9d77d51ab5bc87b249c01c9a24513b2c417aadfedbf52919777f419a3f4a",
+      "bytes": 183,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoFamilyStatistics.csv",
+      "sha256": "a3744e02142e8765912874595d93ef741a13cc2a29cb99f68d332845efb29e9a",
+      "bytes": 2059,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoVersionEnumerations.csv",
+      "sha256": "fb25288b26dcbf28edfd3ced8bcd4416e1d7cb852fb5ab4bf80fadce7c0f2424",
+      "bytes": 952,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoVersionStatistics.csv",
+      "sha256": "52997cbcb0713b3633c71dbd14efedd7aefebd4af59283b9124d6e1b2ec8bf91",
+      "bytes": 4868,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "MorningSummary.json",
+      "sha256": "b0fe1cd6ad29daa9bd7e6d23672e627902023fbffd6fe35c8fe0d14583e766b2",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "actual_started_at_local",
+          "value": "2026-10-15T09:34:00.972564+08:00"
+        },
+        {
+          "field_path": "actual_finished_at_local",
+          "value": "2026-10-15T09:36:26.077286+08:00"
+        },
+        {
+          "field_path": "zenodo_fixed_ten.views",
+          "value": 2231
+        },
+        {
+          "field_path": "zenodo_fixed_ten.downloads",
+          "value": 8
+        },
+        {
+          "field_path": "zenodo_fixed_ten.unique_views",
+          "value": 1400
+        },
+        {
+          "field_path": "zenodo_fixed_ten.unique_downloads",
+          "value": 7
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_views",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_unique_views",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_companion.object_id",
+          "value": "COMPANION"
+        },
+        {
+          "field_path": "zenodo_companion.record_id",
+          "value": "23284570"
+        },
+        {
+          "field_path": "zenodo_companion.doi",
+          "value": "10.5281/zenodo.23284570"
+        },
+        {
+          "field_path": "zenodo_companion.concept_doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "zenodo_companion.version",
+          "value": "v2026.10-evidence-reconciliation"
+        },
+        {
+          "field_path": "zenodo_companion.views",
+          "value": 95
+        },
+        {
+          "field_path": "zenodo_companion.downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_companion.unique_views",
+          "value": 91
+        },
+        {
+          "field_path": "zenodo_companion.unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_companion.version_views",
+          "value": 19
+        },
+        {
+          "field_path": "zenodo_companion.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_companion.version_unique_views",
+          "value": 18
+        },
+        {
+          "field_path": "zenodo_companion.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_delta_from_evening.views",
+          "value": 16
+        },
+        {
+          "field_path": "zenodo_delta_from_evening.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_delta_from_evening.unique_views",
+          "value": 14
+        },
+        {
+          "field_path": "zenodo_delta_from_evening.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_delta_from_evening.version_views",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo_delta_from_evening.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_delta_from_evening.version_unique_views",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_delta_from_evening.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "distinct_version_records",
+          "value": 43
+        },
+        {
+          "field_path": "version_enumerations_complete",
+          "value": true
+        },
+        {
+          "field_path": "datacite.creator_query_total",
+          "value": 71
+        },
+        {
+          "field_path": "orcid.groups",
+          "value": 15
+        },
+        {
+          "field_path": "orcid.source_summaries",
+          "value": 84
+        },
+        {
+          "field_path": "orcid.removed[0].dois[0]",
+          "value": "10.48546/workflowhub.workflow.2332.8"
+        },
+        {
+          "field_path": "openalex.works_query_count",
+          "value": 27
+        },
+        {
+          "field_path": "openalex.full_profile_count",
+          "value": 26
+        },
+        {
+          "field_path": "openalex.selected_profile_count",
+          "value": 26
+        },
+        {
+          "field_path": "workflowhub[0].latest_version",
+          "value": 8
+        },
+        {
+          "field_path": "workflowhub[0].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "workflowhub[0].views",
+          "value": 793
+        },
+        {
+          "field_path": "workflowhub[0].downloads",
+          "value": 74
+        },
+        {
+          "field_path": "workflowhub[1].latest_version",
+          "value": 8
+        },
+        {
+          "field_path": "workflowhub[1].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "workflowhub[1].views",
+          "value": 939
+        },
+        {
+          "field_path": "workflowhub[1].downloads",
+          "value": 58
+        },
+        {
+          "field_path": "workflowhub[2].latest_version",
+          "value": 1
+        },
+        {
+          "field_path": "workflowhub[2].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "workflowhub[2].views",
+          "value": 234
+        },
+        {
+          "field_path": "workflowhub[2].downloads",
+          "value": 7
+        },
+        {
+          "field_path": "platform_states.checkpoint_version_family_verified",
+          "value": 10
+        },
+        {
+          "field_path": "platform_states.checkpoint_version_findable",
+          "value": 10
+        },
+        {
+          "field_path": "platform_states.checkpoint_version_assertion_observed",
+          "value": 10
+        },
+        {
+          "field_path": "platform_states.checkpoint_doi_not_found",
+          "value": 10
+        },
+        {
+          "field_path": "repository_remote_modified",
+          "value": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "source_category": "历史散件",
+  "source_date_label": "2026-10-07",
+  "source_package_label": "open-alex-author-works-lookup.json",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "open-alex-author-works-lookup.json",
+      "sha256": "bea9997d60a359f49305f83163011041cd9e474b00f10117d08e9fb995812bb0",
+      "bytes": 747,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "open-alex-author-works-lookup.json",
+      "sha256": "bea9997d60a359f49305f83163011041cd9e474b00f10117d08e9fb995812bb0",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "retrieved_at_utc",
+          "value": "2026-10-07T06:45:45.460815+00:00"
+        },
+        {
+          "field_path": "count",
+          "value": 41
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "base_sha": "de6a8a2441963905b59715c80b5b367e72f9b8d3",
+  "comparison": "exact Git blob or source SHA-256 cited by a currently present public projection; absence of an exact match alone is not a claim that no prior cloud discussion exists",
+  "packages_indexed": 73,
+  "new_selected_projection_files": 60,
+  "source_imported_at_utc": "2026-11-01T17:04:44.985525+00:00",
+  "no_raw_http_or_private_workflow_publication": true
+}

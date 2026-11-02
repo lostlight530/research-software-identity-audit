@@ -1,0 +1,319 @@
+{
+  "source_category": "平台专项",
+  "source_date_label": "2026-10-20",
+  "source_package_label": "open-alex-inclusion-candidates",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "Candidates.csv",
+      "sha256": "96e7890f6e17256eb251dcec0c15039296181ba0423ce135b12630861ec202ce",
+      "bytes": 4426,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Selection.json",
+      "sha256": "886c257c6d9196708dd18049f6aa842ed5381412c5f5afdb4bde982b8466ed96",
+      "bytes": 11529,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "4d6b87010ea7061d39880306f12f70b13772747915e3745d514bc59d324ee53b",
+      "bytes": 179,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "Selection.json",
+      "sha256": "886c257c6d9196708dd18049f6aa842ed5381412c5f5afdb4bde982b8466ed96",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "date",
+          "value": "2026-10-20"
+        },
+        {
+          "field_path": "status",
+          "value": "CANDIDATES_PREPARED_DESTINATION_PENDING"
+        },
+        {
+          "field_path": "source_count",
+          "value": 32
+        },
+        {
+          "field_path": "selected_count",
+          "value": 30
+        },
+        {
+          "field_path": "excluded_count",
+          "value": 2
+        },
+        {
+          "field_path": "rows[0].doi",
+          "value": "10.17605/osf.io/5b329"
+        },
+        {
+          "field_path": "rows[0].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[1].doi",
+          "value": "10.48546/workflowhub.workflow.2332.1"
+        },
+        {
+          "field_path": "rows[1].workflow_version",
+          "value": 1
+        },
+        {
+          "field_path": "rows[2].doi",
+          "value": "10.48546/workflowhub.workflow.2332.2"
+        },
+        {
+          "field_path": "rows[2].workflow_version",
+          "value": 2
+        },
+        {
+          "field_path": "rows[3].doi",
+          "value": "10.48546/workflowhub.workflow.2332.3"
+        },
+        {
+          "field_path": "rows[3].workflow_version",
+          "value": 3
+        },
+        {
+          "field_path": "rows[4].doi",
+          "value": "10.48546/workflowhub.workflow.2332.4"
+        },
+        {
+          "field_path": "rows[4].workflow_version",
+          "value": 4
+        },
+        {
+          "field_path": "rows[5].doi",
+          "value": "10.48546/workflowhub.workflow.2332.5"
+        },
+        {
+          "field_path": "rows[5].workflow_version",
+          "value": 5
+        },
+        {
+          "field_path": "rows[6].doi",
+          "value": "10.48546/workflowhub.workflow.2332.6"
+        },
+        {
+          "field_path": "rows[6].workflow_version",
+          "value": 6
+        },
+        {
+          "field_path": "rows[7].doi",
+          "value": "10.48546/workflowhub.workflow.2332.7"
+        },
+        {
+          "field_path": "rows[7].workflow_version",
+          "value": 7
+        },
+        {
+          "field_path": "rows[8].doi",
+          "value": "10.48546/workflowhub.workflow.2332.8"
+        },
+        {
+          "field_path": "rows[8].workflow_version",
+          "value": 8
+        },
+        {
+          "field_path": "rows[9].doi",
+          "value": "10.48546/workflowhub.workflow.2334.1"
+        },
+        {
+          "field_path": "rows[9].workflow_version",
+          "value": 1
+        },
+        {
+          "field_path": "rows[10].doi",
+          "value": "10.48546/workflowhub.workflow.2334.2"
+        },
+        {
+          "field_path": "rows[10].workflow_version",
+          "value": 2
+        },
+        {
+          "field_path": "rows[11].doi",
+          "value": "10.48546/workflowhub.workflow.2334.3"
+        },
+        {
+          "field_path": "rows[11].workflow_version",
+          "value": 3
+        },
+        {
+          "field_path": "rows[12].doi",
+          "value": "10.48546/workflowhub.workflow.2334.4"
+        },
+        {
+          "field_path": "rows[12].workflow_version",
+          "value": 4
+        },
+        {
+          "field_path": "rows[13].doi",
+          "value": "10.48546/workflowhub.workflow.2334.5"
+        },
+        {
+          "field_path": "rows[13].workflow_version",
+          "value": 5
+        },
+        {
+          "field_path": "rows[14].doi",
+          "value": "10.48546/workflowhub.workflow.2334.6"
+        },
+        {
+          "field_path": "rows[14].workflow_version",
+          "value": 6
+        },
+        {
+          "field_path": "rows[15].doi",
+          "value": "10.48546/workflowhub.workflow.2334.7"
+        },
+        {
+          "field_path": "rows[15].workflow_version",
+          "value": 7
+        },
+        {
+          "field_path": "rows[16].doi",
+          "value": "10.48546/workflowhub.workflow.2334.8"
+        },
+        {
+          "field_path": "rows[16].workflow_version",
+          "value": 8
+        },
+        {
+          "field_path": "rows[17].doi",
+          "value": "10.48546/workflowhub.workflow.2337.1"
+        },
+        {
+          "field_path": "rows[17].workflow_version",
+          "value": 1
+        },
+        {
+          "field_path": "rows[18].doi",
+          "value": "10.48546/workflowhub.workflow.2347.1"
+        },
+        {
+          "field_path": "rows[18].workflow_version",
+          "value": 1
+        },
+        {
+          "field_path": "rows[19].doi",
+          "value": "10.48546/workflowhub.workflow.2347.2"
+        },
+        {
+          "field_path": "rows[19].workflow_version",
+          "value": 2
+        },
+        {
+          "field_path": "rows[20].doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "rows[20].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[21].doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "rows[21].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[22].doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "rows[22].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[23].doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "rows[23].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[24].doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "rows[24].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[25].doi",
+          "value": "10.5281/zenodo.23447088"
+        },
+        {
+          "field_path": "rows[25].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[26].doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "rows[26].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[27].doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "rows[27].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[28].doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "rows[28].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[29].doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "rows[29].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[30].doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "rows[30].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "rows[31].doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "rows[31].workflow_version",
+          "value": null
+        },
+        {
+          "field_path": "external_records_modified",
+          "value": false
+        }
+      ]
+    }
+  ]
+}

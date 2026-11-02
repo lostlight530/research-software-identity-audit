@@ -1,0 +1,2397 @@
+{
+  "source_category": "独立采集",
+  "source_date_label": "2026-10-20",
+  "source_package_label": "independent-research-recheck",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "ArchiveVerification.json",
+      "sha256": "d2e5b85a22a4b961021cb0a096e22957edb65702fb4c089de29893824aa1c3c7",
+      "bytes": 2552,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "DataCiteIdentifiers.csv",
+      "sha256": "ec2dcaaaf860af511ba1d12cbbf3d23ab0ddbc84cc21e4fbbb82eb7fbb5897d9",
+      "bytes": 4541,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "FieldExtracts.json",
+      "sha256": "7750e7082986ccb4136af64b1d5d68223e2c6003c0f6bc6b8e2d8852ede3d858",
+      "bytes": 55436,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ObservationSummary.json",
+      "sha256": "b7629c9dfb688977bffb9b898428c3b8099ebf05bdbe671f758a1227cddd1805",
+      "bytes": 2208,
+      "coverage_state": "CURRENT_MAIN_EXACT_BLOB",
+      "cloud_locator": "monitoring/2026-10-20/01-independent-research-recheck/record.json"
+    },
+    {
+      "source_file": "OfflineVerification.json",
+      "sha256": "b1516844357447ce5c04e0593de4ac9f7436c114819921abc044625adec29b33",
+      "bytes": 24861,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "RequestLog.json",
+      "sha256": "744ce540a396a6650c57783d292f43d783714134b5ce1fac7fb620a15e7f70c1",
+      "bytes": 89950,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "59d3aeb0bd3d92a72f7f988a9acc1e661d7ba15fa2f884755ad540e8a37bf1a5",
+      "bytes": 16102,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "UserPageApiReconciliation.csv",
+      "sha256": "67ae0e30db0e58ca1de31c1d283db5d44c331c103805a0ad805c3a432d891f8a",
+      "bytes": 680,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoFamilyStatistics.csv",
+      "sha256": "1371b9f29566ec1bd25dbae364778d2756b890c369637943f30b477c61d3837f",
+      "bytes": 840,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "FieldExtracts.json",
+      "sha256": "7750e7082986ccb4136af64b1d5d68223e2c6003c0f6bc6b8e2d8852ede3d858",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "fixed_objects[0].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "fixed_objects[0].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "fixed_objects[0].record_id",
+          "value": 23365504
+        },
+        {
+          "field_path": "fixed_objects[0].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "fixed_objects[0].concept_doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "fixed_objects[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[0].stats.downloads",
+          "value": 6
+        },
+        {
+          "field_path": "fixed_objects[0].stats.unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "fixed_objects[0].stats.views",
+          "value": 283
+        },
+        {
+          "field_path": "fixed_objects[0].stats.unique_views",
+          "value": 199
+        },
+        {
+          "field_path": "fixed_objects[0].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[0].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[0].stats.version_unique_views",
+          "value": 5
+        },
+        {
+          "field_path": "fixed_objects[0].stats.version_views",
+          "value": 6
+        },
+        {
+          "field_path": "fixed_objects[0].versions.reported_total",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[0].record_id",
+          "value": 23365504
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[0].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[1].record_id",
+          "value": 23137203
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[1].doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[2].record_id",
+          "value": 23068145
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[2].doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[3].record_id",
+          "value": 22790908
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[3].doi",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "fixed_objects[0].versions.records[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "fixed_objects[0].swh.date",
+          "value": "2026-10-11T09:11:39.935000+00:00"
+        },
+        {
+          "field_path": "fixed_objects[0].swh.status",
+          "value": "full"
+        },
+        {
+          "field_path": "fixed_objects[0].swh.checkpoint_revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "fixed_objects[0].swh.checkpoint_directory_status",
+          "value": null
+        },
+        {
+          "field_path": "fixed_objects[0].openalex_doi_route.requested_doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "fixed_objects[0].openalex_doi_route.returns_exact_version_doi",
+          "value": false
+        },
+        {
+          "field_path": "fixed_objects[1].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "fixed_objects[1].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "fixed_objects[1].record_id",
+          "value": 23365551
+        },
+        {
+          "field_path": "fixed_objects[1].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "fixed_objects[1].concept_doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "fixed_objects[1].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[1].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[1].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[1].stats.views",
+          "value": 242
+        },
+        {
+          "field_path": "fixed_objects[1].stats.unique_views",
+          "value": 157
+        },
+        {
+          "field_path": "fixed_objects[1].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[1].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[1].stats.version_unique_views",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[1].stats.version_views",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[1].versions.reported_total",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[0].record_id",
+          "value": 23365551
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[0].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[1].record_id",
+          "value": 23137204
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[1].doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[2].record_id",
+          "value": 23068144
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[2].doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[3].record_id",
+          "value": 22791082
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[3].doi",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "fixed_objects[1].versions.records[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "fixed_objects[1].swh.date",
+          "value": "2026-10-05T21:41:06.261000+00:00"
+        },
+        {
+          "field_path": "fixed_objects[1].swh.status",
+          "value": "full"
+        },
+        {
+          "field_path": "fixed_objects[1].swh.checkpoint_revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "fixed_objects[1].swh.checkpoint_directory_status",
+          "value": null
+        },
+        {
+          "field_path": "fixed_objects[1].openalex_doi_route.requested_doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "fixed_objects[1].openalex_doi_route.returns_exact_version_doi",
+          "value": false
+        },
+        {
+          "field_path": "fixed_objects[2].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "fixed_objects[2].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "fixed_objects[2].record_id",
+          "value": 23365534
+        },
+        {
+          "field_path": "fixed_objects[2].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "fixed_objects[2].concept_doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "fixed_objects[2].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[2].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[2].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[2].stats.views",
+          "value": 268
+        },
+        {
+          "field_path": "fixed_objects[2].stats.unique_views",
+          "value": 183
+        },
+        {
+          "field_path": "fixed_objects[2].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[2].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[2].stats.version_unique_views",
+          "value": 6
+        },
+        {
+          "field_path": "fixed_objects[2].stats.version_views",
+          "value": 6
+        },
+        {
+          "field_path": "fixed_objects[2].versions.reported_total",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[0].record_id",
+          "value": 23365534
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[0].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[1].record_id",
+          "value": 23137205
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[1].doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[2].record_id",
+          "value": 23068261
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[2].doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[3].record_id",
+          "value": 22791104
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[3].doi",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "fixed_objects[2].versions.records[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "fixed_objects[2].swh.date",
+          "value": "2026-10-14T17:47:26.890000+00:00"
+        },
+        {
+          "field_path": "fixed_objects[2].swh.status",
+          "value": "full"
+        },
+        {
+          "field_path": "fixed_objects[2].swh.checkpoint_revision_status",
+          "value": 200
+        },
+        {
+          "field_path": "fixed_objects[2].swh.checkpoint_directory_status",
+          "value": 200
+        },
+        {
+          "field_path": "fixed_objects[2].openalex_doi_route.requested_doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "fixed_objects[2].openalex_doi_route.returns_exact_version_doi",
+          "value": false
+        },
+        {
+          "field_path": "fixed_objects[3].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "fixed_objects[3].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "fixed_objects[3].record_id",
+          "value": 23365567
+        },
+        {
+          "field_path": "fixed_objects[3].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "fixed_objects[3].concept_doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "fixed_objects[3].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[3].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[3].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[3].stats.views",
+          "value": 217
+        },
+        {
+          "field_path": "fixed_objects[3].stats.unique_views",
+          "value": 133
+        },
+        {
+          "field_path": "fixed_objects[3].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[3].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[3].stats.version_unique_views",
+          "value": 5
+        },
+        {
+          "field_path": "fixed_objects[3].stats.version_views",
+          "value": 5
+        },
+        {
+          "field_path": "fixed_objects[3].versions.reported_total",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[0].record_id",
+          "value": 23365567
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[0].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[1].record_id",
+          "value": 23137206
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[1].doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[2].record_id",
+          "value": 23068260
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[2].doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[3].record_id",
+          "value": 22791142
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[3].doi",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "fixed_objects[3].versions.records[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "fixed_objects[3].swh.date",
+          "value": "2026-10-17T19:50:57.149000+00:00"
+        },
+        {
+          "field_path": "fixed_objects[3].swh.status",
+          "value": "full"
+        },
+        {
+          "field_path": "fixed_objects[3].swh.checkpoint_revision_status",
+          "value": 200
+        },
+        {
+          "field_path": "fixed_objects[3].swh.checkpoint_directory_status",
+          "value": 200
+        },
+        {
+          "field_path": "fixed_objects[3].openalex_doi_route.requested_doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "fixed_objects[3].openalex_doi_route.returns_exact_version_doi",
+          "value": false
+        },
+        {
+          "field_path": "fixed_objects[4].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "fixed_objects[4].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "fixed_objects[4].record_id",
+          "value": 23365540
+        },
+        {
+          "field_path": "fixed_objects[4].doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "fixed_objects[4].concept_doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "fixed_objects[4].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[4].stats.downloads",
+          "value": 2
+        },
+        {
+          "field_path": "fixed_objects[4].stats.unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "fixed_objects[4].stats.views",
+          "value": 246
+        },
+        {
+          "field_path": "fixed_objects[4].stats.unique_views",
+          "value": 160
+        },
+        {
+          "field_path": "fixed_objects[4].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[4].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[4].stats.version_unique_views",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[4].stats.version_views",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[4].versions.reported_total",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[0].record_id",
+          "value": 23365540
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[0].doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[1].record_id",
+          "value": 23137207
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[1].doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[2].record_id",
+          "value": 23068262
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[2].doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[3].record_id",
+          "value": 22791170
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[3].doi",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "fixed_objects[4].versions.records[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "fixed_objects[4].swh.date",
+          "value": "2026-09-16T07:32:06.452000+00:00"
+        },
+        {
+          "field_path": "fixed_objects[4].swh.status",
+          "value": "full"
+        },
+        {
+          "field_path": "fixed_objects[4].swh.checkpoint_revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "fixed_objects[4].swh.checkpoint_directory_status",
+          "value": null
+        },
+        {
+          "field_path": "fixed_objects[4].openalex_doi_route.requested_doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "fixed_objects[4].openalex_doi_route.returns_exact_version_doi",
+          "value": false
+        },
+        {
+          "field_path": "fixed_objects[5].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "fixed_objects[5].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "fixed_objects[5].record_id",
+          "value": 23365548
+        },
+        {
+          "field_path": "fixed_objects[5].doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "fixed_objects[5].concept_doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "fixed_objects[5].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[5].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[5].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[5].stats.views",
+          "value": 252
+        },
+        {
+          "field_path": "fixed_objects[5].stats.unique_views",
+          "value": 167
+        },
+        {
+          "field_path": "fixed_objects[5].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[5].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[5].stats.version_unique_views",
+          "value": 3
+        },
+        {
+          "field_path": "fixed_objects[5].stats.version_views",
+          "value": 3
+        },
+        {
+          "field_path": "fixed_objects[5].versions.reported_total",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[0].record_id",
+          "value": 23365548
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[0].doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[1].record_id",
+          "value": 23137211
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[1].doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[2].record_id",
+          "value": 23068347
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[2].doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[3].record_id",
+          "value": 22791310
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[3].doi",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "fixed_objects[5].versions.records[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "fixed_objects[5].swh.date",
+          "value": "2026-09-28T00:59:57.737000+00:00"
+        },
+        {
+          "field_path": "fixed_objects[5].swh.status",
+          "value": "full"
+        },
+        {
+          "field_path": "fixed_objects[5].swh.checkpoint_revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "fixed_objects[5].swh.checkpoint_directory_status",
+          "value": null
+        },
+        {
+          "field_path": "fixed_objects[5].openalex_doi_route.requested_doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "fixed_objects[5].openalex_doi_route.returns_exact_version_doi",
+          "value": false
+        },
+        {
+          "field_path": "fixed_objects[6].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "fixed_objects[6].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "fixed_objects[6].record_id",
+          "value": 23365543
+        },
+        {
+          "field_path": "fixed_objects[6].doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "fixed_objects[6].concept_doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "fixed_objects[6].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[6].stats.downloads",
+          "value": 2
+        },
+        {
+          "field_path": "fixed_objects[6].stats.unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "fixed_objects[6].stats.views",
+          "value": 263
+        },
+        {
+          "field_path": "fixed_objects[6].stats.unique_views",
+          "value": 179
+        },
+        {
+          "field_path": "fixed_objects[6].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[6].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[6].stats.version_unique_views",
+          "value": 5
+        },
+        {
+          "field_path": "fixed_objects[6].stats.version_views",
+          "value": 5
+        },
+        {
+          "field_path": "fixed_objects[6].versions.reported_total",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[0].record_id",
+          "value": 23365543
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[0].doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[1].record_id",
+          "value": 23137214
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[1].doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[2].record_id",
+          "value": 23068352
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[2].doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[3].record_id",
+          "value": 22791335
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[3].doi",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "fixed_objects[6].versions.records[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "fixed_objects[6].swh.date",
+          "value": "2026-09-28T01:02:35.538000+00:00"
+        },
+        {
+          "field_path": "fixed_objects[6].swh.status",
+          "value": "full"
+        },
+        {
+          "field_path": "fixed_objects[6].swh.checkpoint_revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "fixed_objects[6].swh.checkpoint_directory_status",
+          "value": null
+        },
+        {
+          "field_path": "fixed_objects[6].openalex_doi_route.requested_doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "fixed_objects[6].openalex_doi_route.returns_exact_version_doi",
+          "value": false
+        },
+        {
+          "field_path": "fixed_objects[7].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "fixed_objects[7].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "fixed_objects[7].record_id",
+          "value": 23365525
+        },
+        {
+          "field_path": "fixed_objects[7].doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "fixed_objects[7].concept_doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "fixed_objects[7].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[7].stats.downloads",
+          "value": 2
+        },
+        {
+          "field_path": "fixed_objects[7].stats.unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "fixed_objects[7].stats.views",
+          "value": 227
+        },
+        {
+          "field_path": "fixed_objects[7].stats.unique_views",
+          "value": 148
+        },
+        {
+          "field_path": "fixed_objects[7].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[7].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[7].stats.version_unique_views",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[7].stats.version_views",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[7].versions.reported_total",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[0].record_id",
+          "value": 23365525
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[0].doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[1].record_id",
+          "value": 23137219
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[1].doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[2].record_id",
+          "value": 23068472
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[2].doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[3].record_id",
+          "value": 22791376
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[3].doi",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "fixed_objects[7].versions.records[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "fixed_objects[7].swh.date",
+          "value": "2026-09-16T07:35:28.635000+00:00"
+        },
+        {
+          "field_path": "fixed_objects[7].swh.status",
+          "value": "full"
+        },
+        {
+          "field_path": "fixed_objects[7].swh.checkpoint_revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "fixed_objects[7].swh.checkpoint_directory_status",
+          "value": null
+        },
+        {
+          "field_path": "fixed_objects[7].openalex_doi_route.requested_doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "fixed_objects[7].openalex_doi_route.returns_exact_version_doi",
+          "value": false
+        },
+        {
+          "field_path": "fixed_objects[8].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "fixed_objects[8].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "fixed_objects[8].record_id",
+          "value": 23365510
+        },
+        {
+          "field_path": "fixed_objects[8].doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "fixed_objects[8].concept_doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "fixed_objects[8].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[8].stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "fixed_objects[8].stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "fixed_objects[8].stats.views",
+          "value": 235
+        },
+        {
+          "field_path": "fixed_objects[8].stats.unique_views",
+          "value": 150
+        },
+        {
+          "field_path": "fixed_objects[8].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "fixed_objects[8].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "fixed_objects[8].stats.version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "fixed_objects[8].stats.version_views",
+          "value": 9
+        },
+        {
+          "field_path": "fixed_objects[8].versions.reported_total",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[0].record_id",
+          "value": 23365510
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[0].doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[1].record_id",
+          "value": 23137215
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[1].doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[2].record_id",
+          "value": 23068471
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[2].doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[3].record_id",
+          "value": 22791405
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[3].doi",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "fixed_objects[8].versions.records[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "fixed_objects[8].swh.date",
+          "value": "2026-10-02T05:57:26.956000+00:00"
+        },
+        {
+          "field_path": "fixed_objects[8].swh.status",
+          "value": "full"
+        },
+        {
+          "field_path": "fixed_objects[8].swh.checkpoint_revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "fixed_objects[8].swh.checkpoint_directory_status",
+          "value": null
+        },
+        {
+          "field_path": "fixed_objects[8].openalex_doi_route.requested_doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "fixed_objects[8].openalex_doi_route.returns_exact_version_doi",
+          "value": false
+        },
+        {
+          "field_path": "fixed_objects[9].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "fixed_objects[9].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "fixed_objects[9].record_id",
+          "value": 23365517
+        },
+        {
+          "field_path": "fixed_objects[9].doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "fixed_objects[9].concept_doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "fixed_objects[9].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[9].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[9].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[9].stats.views",
+          "value": 245
+        },
+        {
+          "field_path": "fixed_objects[9].stats.unique_views",
+          "value": 161
+        },
+        {
+          "field_path": "fixed_objects[9].stats.version_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[9].stats.version_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "fixed_objects[9].stats.version_unique_views",
+          "value": 5
+        },
+        {
+          "field_path": "fixed_objects[9].stats.version_views",
+          "value": 5
+        },
+        {
+          "field_path": "fixed_objects[9].versions.reported_total",
+          "value": 4
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[0].record_id",
+          "value": 23365517
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[0].doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[0].version",
+          "value": "v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[1].record_id",
+          "value": 23137216
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[1].doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[2].record_id",
+          "value": 23068494
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[2].doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[2].version",
+          "value": "v2026.09-natural-month-close"
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[3].record_id",
+          "value": 22791464
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[3].doi",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "fixed_objects[9].versions.records[3].version",
+          "value": "v2026.09-open-research-baseline"
+        },
+        {
+          "field_path": "fixed_objects[9].swh.date",
+          "value": "2026-10-10T05:10:27.293000+00:00"
+        },
+        {
+          "field_path": "fixed_objects[9].swh.status",
+          "value": "full"
+        },
+        {
+          "field_path": "fixed_objects[9].swh.checkpoint_revision_status",
+          "value": 404
+        },
+        {
+          "field_path": "fixed_objects[9].swh.checkpoint_directory_status",
+          "value": null
+        },
+        {
+          "field_path": "fixed_objects[9].openalex_doi_route.requested_doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "fixed_objects[9].openalex_doi_route.returns_exact_version_doi",
+          "value": false
+        },
+        {
+          "field_path": "datacite_records[0].doi",
+          "value": "10.17605/osf.io/5b329"
+        },
+        {
+          "field_path": "datacite_records[0].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[1].doi",
+          "value": "10.48546/workflowhub.workflow.2332.1"
+        },
+        {
+          "field_path": "datacite_records[1].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[2].doi",
+          "value": "10.48546/workflowhub.workflow.2332.2"
+        },
+        {
+          "field_path": "datacite_records[2].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[3].doi",
+          "value": "10.48546/workflowhub.workflow.2332.3"
+        },
+        {
+          "field_path": "datacite_records[3].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[4].doi",
+          "value": "10.48546/workflowhub.workflow.2332.4"
+        },
+        {
+          "field_path": "datacite_records[4].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[5].doi",
+          "value": "10.48546/workflowhub.workflow.2332.5"
+        },
+        {
+          "field_path": "datacite_records[5].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[6].doi",
+          "value": "10.48546/workflowhub.workflow.2332.6"
+        },
+        {
+          "field_path": "datacite_records[6].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[7].doi",
+          "value": "10.48546/workflowhub.workflow.2332.7"
+        },
+        {
+          "field_path": "datacite_records[7].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[8].doi",
+          "value": "10.48546/workflowhub.workflow.2332.8"
+        },
+        {
+          "field_path": "datacite_records[8].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[9].doi",
+          "value": "10.48546/workflowhub.workflow.2334.1"
+        },
+        {
+          "field_path": "datacite_records[9].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[10].doi",
+          "value": "10.48546/workflowhub.workflow.2334.2"
+        },
+        {
+          "field_path": "datacite_records[10].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[11].doi",
+          "value": "10.48546/workflowhub.workflow.2334.3"
+        },
+        {
+          "field_path": "datacite_records[11].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[12].doi",
+          "value": "10.48546/workflowhub.workflow.2334.4"
+        },
+        {
+          "field_path": "datacite_records[12].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[13].doi",
+          "value": "10.48546/workflowhub.workflow.2334.5"
+        },
+        {
+          "field_path": "datacite_records[13].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[14].doi",
+          "value": "10.48546/workflowhub.workflow.2334.6"
+        },
+        {
+          "field_path": "datacite_records[14].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[15].doi",
+          "value": "10.48546/workflowhub.workflow.2334.7"
+        },
+        {
+          "field_path": "datacite_records[15].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[16].doi",
+          "value": "10.48546/workflowhub.workflow.2334.8"
+        },
+        {
+          "field_path": "datacite_records[16].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[17].doi",
+          "value": "10.48546/workflowhub.workflow.2337.1"
+        },
+        {
+          "field_path": "datacite_records[17].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[18].doi",
+          "value": "10.48546/workflowhub.workflow.2347.1"
+        },
+        {
+          "field_path": "datacite_records[18].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[19].doi",
+          "value": "10.48546/workflowhub.workflow.2347.2"
+        },
+        {
+          "field_path": "datacite_records[19].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[20].doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "datacite_records[20].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[21].doi",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "datacite_records[21].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[22].doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "datacite_records[22].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[23].doi",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "datacite_records[23].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[24].doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "datacite_records[24].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[25].doi",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "datacite_records[25].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[26].doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "datacite_records[26].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[27].doi",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "datacite_records[27].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[28].doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "datacite_records[28].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[29].doi",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "datacite_records[29].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[30].doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "datacite_records[30].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[31].doi",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "datacite_records[31].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[32].doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "datacite_records[32].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[33].doi",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "datacite_records[33].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[34].doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "datacite_records[34].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[35].doi",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "datacite_records[35].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[36].doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "datacite_records[36].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[37].doi",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "datacite_records[37].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[38].doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "datacite_records[38].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[39].doi",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "datacite_records[39].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[40].doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "datacite_records[40].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[41].doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "datacite_records[41].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[42].doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "datacite_records[42].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[43].doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "datacite_records[43].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[44].doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "datacite_records[44].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[45].doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "datacite_records[45].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[46].doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "datacite_records[46].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[47].doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "datacite_records[47].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[48].doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "datacite_records[48].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[49].doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "datacite_records[49].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[50].doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "datacite_records[50].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[51].doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "datacite_records[51].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[52].doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "datacite_records[52].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[53].doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "datacite_records[53].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[54].doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "datacite_records[54].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[55].doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "datacite_records[55].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[56].doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "datacite_records[56].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[57].doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "datacite_records[57].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[58].doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "datacite_records[58].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[59].doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "datacite_records[59].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[60].doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "datacite_records[60].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[61].doi",
+          "value": "10.5281/zenodo.23176748"
+        },
+        {
+          "field_path": "datacite_records[61].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[62].doi",
+          "value": "10.5281/zenodo.23284570"
+        },
+        {
+          "field_path": "datacite_records[62].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[63].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "datacite_records[63].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[64].doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "datacite_records[64].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[65].doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "datacite_records[65].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[66].doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "datacite_records[66].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[67].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "datacite_records[67].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[68].doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "datacite_records[68].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[69].doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "datacite_records[69].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[70].doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "datacite_records[70].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[71].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "datacite_records[71].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[72].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "datacite_records[72].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[73].doi",
+          "value": "10.5281/zenodo.23446162"
+        },
+        {
+          "field_path": "datacite_records[73].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[74].doi",
+          "value": "10.5281/zenodo.23447088"
+        },
+        {
+          "field_path": "datacite_records[74].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_records[75].doi",
+          "value": "10.5281/zenodo.23447089"
+        },
+        {
+          "field_path": "datacite_records[75].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_enumeration_meta.total",
+          "value": 76
+        },
+        {
+          "field_path": "datacite_enumeration_meta.totalPages",
+          "value": 1
+        },
+        {
+          "field_path": "datacite_bare_query_count",
+          "value": 56
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[0].page_unique_views",
+          "value": 118
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[0].page_unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[0].api_unique_views",
+          "value": 118
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[0].api_unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[1].page_unique_views",
+          "value": 199
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[1].page_unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[1].api_unique_views",
+          "value": 199
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[1].api_unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[2].page_unique_views",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[2].page_unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[2].api_unique_views",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[2].api_unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[3].page_unique_views",
+          "value": 179
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[3].page_unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[3].api_unique_views",
+          "value": 179
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[3].api_unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[4].page_unique_views",
+          "value": 148
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[4].page_unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[4].api_unique_views",
+          "value": 148
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[4].api_unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[5].page_unique_views",
+          "value": 160
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[5].page_unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[5].api_unique_views",
+          "value": 160
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[5].api_unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[6].page_unique_views",
+          "value": 161
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[6].page_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[6].api_unique_views",
+          "value": 161
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[6].api_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[7].page_unique_views",
+          "value": 133
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[7].page_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[7].api_unique_views",
+          "value": 133
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[7].api_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[8].page_unique_views",
+          "value": 167
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[8].page_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[8].api_unique_views",
+          "value": 167
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[8].api_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[9].page_unique_views",
+          "value": 157
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[9].page_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[9].api_unique_views",
+          "value": 157
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[9].api_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[10].page_unique_views",
+          "value": 183
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[10].page_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[10].api_unique_views",
+          "value": 183
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[10].api_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[11].page_unique_views",
+          "value": 150
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[11].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[11].api_unique_views",
+          "value": 150
+        },
+        {
+          "field_path": "user_page_zenodo_comparison[11].api_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[0].views",
+          "value": 1660
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[0].downloads",
+          "value": 120
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[0].previous_views",
+          "value": 1365
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[0].previous_downloads",
+          "value": 106
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[0].views_delta",
+          "value": 295
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[0].downloads_delta",
+          "value": 14
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[1].views",
+          "value": 1501
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[1].downloads",
+          "value": 163
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[1].previous_views",
+          "value": 1247
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[1].previous_downloads",
+          "value": 138
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[1].views_delta",
+          "value": 254
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[1].downloads_delta",
+          "value": 25
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[2].views",
+          "value": 533
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[2].downloads",
+          "value": 26
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[2].previous_views",
+          "value": 414
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[2].previous_downloads",
+          "value": 17
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[2].views_delta",
+          "value": 119
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[2].downloads_delta",
+          "value": 9
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[3].views",
+          "value": 256
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[3].downloads",
+          "value": 112
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[3].previous_views",
+          "value": 71
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[3].previous_downloads",
+          "value": 15
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[3].views_delta",
+          "value": 185
+        },
+        {
+          "field_path": "user_workflowhub_dashboard[3].downloads_delta",
+          "value": 97
+        },
+        {
+          "field_path": "user_openalex.profile_count",
+          "value": 30
+        },
+        {
+          "field_path": "user_openalex.list_row_count",
+          "value": 32
+        },
+        {
+          "field_path": "archive_verification.zenodo_audit_fourth.original_download_date",
+          "value": "2026-10-18"
+        },
+        {
+          "field_path": "archive_verification.zenodo_audit_fourth.reverified_date",
+          "value": "2026-10-20"
+        },
+        {
+          "field_path": "archive_verification.zenodo_audit_fourth.new_download_performed",
+          "value": false
+        },
+        {
+          "field_path": "archive_verification.zenodo_audit_fourth.embedded_metadata.CITATION.cff.fields.version",
+          "value": "v2026.10-evidence-reconciliation"
+        },
+        {
+          "field_path": "archive_verification.zenodo_audit_fourth.embedded_metadata.CITATION.cff.fields.doi_values[0]",
+          "value": "10.5281/zenodo.23284570"
+        },
+        {
+          "field_path": "archive_verification.zenodo_audit_fourth.embedded_metadata.CITATION.cff.fields.doi_values[1]",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "archive_verification.zenodo_audit_fourth.embedded_metadata.CITATION.cff.fields.doi_values[2]",
+          "value": "10.17605/OSF.IO/5B329"
+        },
+        {
+          "field_path": "archive_verification.zenodo_audit_fourth.embedded_metadata.codemeta.json.fields.version",
+          "value": "v2026.10-evidence-reconciliation"
+        },
+        {
+          "field_path": "archive_verification.zenodo_life.original_download_date",
+          "value": "2026-10-18"
+        },
+        {
+          "field_path": "archive_verification.zenodo_life.reverified_date",
+          "value": "2026-10-20"
+        },
+        {
+          "field_path": "archive_verification.zenodo_life.new_download_performed",
+          "value": false
+        },
+        {
+          "field_path": "archive_verification.zenodo_life.embedded_metadata.CITATION.cff.fields.version",
+          "value": "0.4.0"
+        },
+        {
+          "field_path": "archive_verification.zenodo_life.embedded_metadata.codemeta.json.fields.version",
+          "value": null
+        },
+        {
+          "field_path": "remote_schedule.statement",
+          "value": "No concrete operational offsets are declared by this bootstrap commit."
+        },
+        {
+          "field_path": "current_metadata.citation_version",
+          "value": "v2026.10-evidence-integrity"
+        },
+        {
+          "field_path": "current_metadata.codemeta_version",
+          "value": "v2026.10-evidence-integrity"
+        },
+        {
+          "field_path": "biotools.version[0]",
+          "value": "0.4.0"
+        },
+        {
+          "field_path": "openebench.@timestamp",
+          "value": "2026-10-19T22:00:06.426879519Z"
+        },
+        {
+          "field_path": "openebench.validated",
+          "value": 0
+        },
+        {
+          "field_path": "openebench.@version",
+          "value": null
+        }
+      ]
+    }
+  ]
+}

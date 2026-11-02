@@ -1,0 +1,335 @@
+{
+  "scope": "published selected fields only; excludes original local HTTP payloads, this manifest and global index",
+  "files": [
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/base-comparison.json",
+      "bytes": 430,
+      "sha256": "06f1d419d3625ea8e639b6de3324ca073eb48497d63f29851d888b3c2068a26e"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/coverage-catalog.json",
+      "bytes": 161174,
+      "sha256": "1bb078a7715d9eaf3e742708971143fe5477f45716df424db04a02481755c087"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/coverage-summary.csv",
+      "bytes": 8375,
+      "sha256": "93fa20b8dda09f08f8340a6a3ab2df4cedc226e5ed6b0820fed1553672302d38"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/README.md",
+      "bytes": 468,
+      "sha256": "6e38e6e8d41d4d533475f72ed194b4ebcbf5ba6dac91865908f93199b91e5eb3"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-001.json",
+      "bytes": 1730,
+      "sha256": "4bb50edf2cc96070a0bb081a9d05b2878fee537eb13b4e1a9324bf0c26f5a457"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-002.json",
+      "bytes": 16152,
+      "sha256": "c9dc6d16a780b62cdfc4ae539ba6186f71e42ec56b2ccddfcd87ec1a6eefb1e7"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-003.json",
+      "bytes": 121095,
+      "sha256": "5e6b7caca62e39569d66613db62567c16753fe2cc8e666583e0ee4d76585ebe9"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-004.json",
+      "bytes": 8265,
+      "sha256": "73a8eb1d8c9213459901f7b54817010c3bc1a3c2c356ebe8605e3ed05912e906"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-005.json",
+      "bytes": 8224,
+      "sha256": "179789d57fdf5c8820b016f3d7e0f7ad9fdae607f58cd000eebbd557ca34973e"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-006.json",
+      "bytes": 203320,
+      "sha256": "e698161232f684ea76bb37811ca8699e5fd1ec9d8e49740662594ec5e10cc013"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-007.json",
+      "bytes": 100276,
+      "sha256": "54ce2b7afa8dbad80b5c7c7a8e7952880c397cf03ca77a23aabc4c7b16bce594"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-008.json",
+      "bytes": 2422,
+      "sha256": "4b51b6a0b801298776169a86e69d17aaa7c77d2e1fc37b90a67733d658ecfb37"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-009.json",
+      "bytes": 73742,
+      "sha256": "b9908cec5a3f050c66bf4918507a95d1e7497eb8d14bb078ac02c6bb78a7318f"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-010.json",
+      "bytes": 1033,
+      "sha256": "f038e1135e25efdfc58dfb1fcf95cc2f101e4ab4cec639c25f5810e260644039"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-012.json",
+      "bytes": 1615,
+      "sha256": "2a3c301e78ac97784042b3a75a689db61275fcb1dc06f1c4981ae38a06baa74b"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-014.json",
+      "bytes": 2642,
+      "sha256": "b1efaabb9db9d5eef1b04860ff90a81ac53929c7bbe269cdd27691b52bd12719"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-015.json",
+      "bytes": 13873,
+      "sha256": "7692f80f52ed702d8326e8c5a8ac608153af0e36547a23109a9b93ec32cb0580"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-019.json",
+      "bytes": 124649,
+      "sha256": "71048e7c05389d3f0475b6842b9c22c49da4cff7cba048e6a6472eb1ac17d08a"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-020.json",
+      "bytes": 2380,
+      "sha256": "9c5c7ff5ccdfb6e96cc162afa5728ff2637f0896d78406a71e71c5eee0ac0323"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-021.json",
+      "bytes": 9049,
+      "sha256": "66f667c33715adc486cf5643a41355831a7dc3c2559fffa3227137c7ce04ff26"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-022.json",
+      "bytes": 13558,
+      "sha256": "1948f61beb945c86bc4a00b9c75eadccb76864845c32d919bcc0bd9ba4938f5e"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-023.json",
+      "bytes": 3084,
+      "sha256": "3eae33380db7c3065b5737779dcb83c7caf9743422d6d7519a9df4448bb26f49"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-024.json",
+      "bytes": 21069,
+      "sha256": "2b372de26e40b37f0cf54523dc983174bdb6bc7272a51b80aa7e92a51c35794e"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-025.json",
+      "bytes": 1734,
+      "sha256": "dd800e6feaca514c1d43b042fe792e30d7deeaaef7a4898f525b6bd5dfcaafa9"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-026.json",
+      "bytes": 8546,
+      "sha256": "dfdad76f7ed10b51b030cc844c6509ef858dffa2b90f60ebf7e085f77c7d06c3"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-027.json",
+      "bytes": 3972,
+      "sha256": "1b9be57266727b7cd94b1d5c9765e4a1b0b5604a981c22364f142751c57af6cb"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-028.json",
+      "bytes": 18027,
+      "sha256": "a0a1a2e2307277e5930aedd07bbffa16fc180bfcc1ad0d0f8e4a3d2f8701eb0c"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-029.json",
+      "bytes": 203721,
+      "sha256": "ddf8ae0245224e77af4ec9aae1fa70a8a466082a77b7a0e8eb4e4b9ee40e0362"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-038.json",
+      "bytes": 1792,
+      "sha256": "bc01f10cef0d3b1d763945242e8fd1fdd903827a781f4b2d615966d797044a61"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-039.json",
+      "bytes": 108023,
+      "sha256": "e1ac5ee60b52ffa46369a679110e80d641ec2085582dafea79a86d87ccedc118"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-041.json",
+      "bytes": 116993,
+      "sha256": "ecec93209fe58c0b859087e3257503dd94c1707fe2189f58d6008d3305389345"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-042.json",
+      "bytes": 103794,
+      "sha256": "3c75b9a26747e54e61786798be27e9dff70f3eea7effc9a75d3d1f3cfc17e198"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-043.json",
+      "bytes": 195894,
+      "sha256": "eaf4f45b122f677cf6f04678cc51932296c47cc125bac7676e934298e1d3bb2d"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-044.json",
+      "bytes": 145581,
+      "sha256": "a018a2ef5231dac587f7bf0e8c54d734b627237c2802958f559b6c1293e345d7"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-045.json",
+      "bytes": 145960,
+      "sha256": "bb5bfdb1ac8d58035c229b90cf6cea2f0ed149324ddb2bf8c2e2cc4eb2b011db"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-046.json",
+      "bytes": 181790,
+      "sha256": "b5c38f05504d2eb29f87667fa3eea36128023958d6226d481450dc07658e6fb3"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-047.json",
+      "bytes": 185071,
+      "sha256": "c512e2077b25a00425c380083261862aaadd3aff3d9a78e370f901f1827bf786"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-048.json",
+      "bytes": 134969,
+      "sha256": "01e33712e17055c350a1e9323f0d2ac8ddea80a5cc84d59ef6ea79be99906ab7"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-049.json",
+      "bytes": 165516,
+      "sha256": "c580ad0249cdd59dd1ea4b784d1f507fed8a0f366924eeb2996c308b04982ed4"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-050.json",
+      "bytes": 148678,
+      "sha256": "963684ca3a815290a172e2c62e1156f81d5d97f24ef1e685eadd2537d14756ae"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-051.json",
+      "bytes": 128298,
+      "sha256": "2364e7a44107a93c254523e77180dda9d1aa0638ff9dd4ba377847cc9f221d3c"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-052.json",
+      "bytes": 20809,
+      "sha256": "aa010ae10d46b4b627b6a9b641523862fbfe16960d93aa1373da3db5edfaad07"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-053.json",
+      "bytes": 10134,
+      "sha256": "51e2eec4db99ac03db765484cc094536f8a4e32e87421da653f69ad5550a5bf2"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-054.json",
+      "bytes": 12446,
+      "sha256": "3e0427591f155d9fe36a226b745c483d71ba45236b6f01551b9dff7100c4874d"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-055.json",
+      "bytes": 9736,
+      "sha256": "bec1f05f1dd6f24708fd60b577bb327021c59bfa947bc20600c78403a34b87ac"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-056.json",
+      "bytes": 5947,
+      "sha256": "56eb9231a4698adf706253db0d93fbc5fc9a6418e3611c09ecea51901f9db47d"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-057.json",
+      "bytes": 72434,
+      "sha256": "8712637ca44240befb5396a520a4b5eafbd0f838ae6cd8fa1bd5b7b6542ab760"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-058.json",
+      "bytes": 70049,
+      "sha256": "799a9a6845bb7d3a34b5d1e58f7a99c6709926dcbe4d1ef633f633ff3efe66eb"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-059.json",
+      "bytes": 101088,
+      "sha256": "6250a37cd644fc9e1680b8349ad8ee88b7927befbb498379dc4bd360fdb8ad5e"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-060.json",
+      "bytes": 84398,
+      "sha256": "32bedcc17220c727a80ef8bfb092e438ac75a6aeafaeaf48c4668f7bdbc55d68"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-061.json",
+      "bytes": 102730,
+      "sha256": "e9939817446311751242e984a1b1b268afe19b4cd548d685b0ce1a7f66694733"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-062.json",
+      "bytes": 246416,
+      "sha256": "703a801f941da38501a348f5a15c79d8cb877c4c0b61c5c2f8beffc4c020967f"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-063.json",
+      "bytes": 256459,
+      "sha256": "7f5795986caadaf212ad6a807bcb302b5c786b78d46ffd34c24649ea405f6676"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-064.json",
+      "bytes": 213219,
+      "sha256": "84676b119cf11bedba1b7f532954ae9fd5b90b4e58ae94ed74fb7dd005fa0d8e"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-066.json",
+      "bytes": 2669,
+      "sha256": "137eb96d185df7efd3744a83b5a17787a0409ab20fe726bce14b4b05940dc548"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-067.json",
+      "bytes": 1600,
+      "sha256": "1ab95e66203542a526638531211e789b557becacd790d0218744aee829a308dd"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-068.json",
+      "bytes": 17116,
+      "sha256": "92e36c690e11b4ac2bc992d7a7f4b02e5aabe6114f1ad79d2a0490066005fb6a"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-069.json",
+      "bytes": 6263,
+      "sha256": "aa50c99b9308825cd91e270b6b83a3c2877e8828e569d25d0d11972b0f12d17f"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-070.json",
+      "bytes": 6291,
+      "sha256": "a927023075aa4f42cfb501131734e3cdaa331675b1fb09e90a62b4d1047ade4b"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-071.json",
+      "bytes": 10347,
+      "sha256": "64967eb3f02a36cce9deb8a837e7acf23a14974980ccee2e8abdf48d65bc8b2d"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-072.json",
+      "bytes": 15378,
+      "sha256": "7c38d884caa3d6f2480e45ef12c726c7af1d4f93b520836795dcb7592d7a01d0"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-073.json",
+      "bytes": 1432,
+      "sha256": "d9ff4ef689cf7140b21609eb54e7882808848518b2667f02361a56c9c18748c6"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-074.json",
+      "bytes": 7970,
+      "sha256": "31855a3e4636581b62406fb9d7152382bf7d37b56b457c9895a82a92c6d9a7c8"
+    },
+    {
+      "path": "evidence/2026-11-02/03-retained-local-evidence-completion/selected-history/package-075.json",
+      "bytes": 7834,
+      "sha256": "1ff38dd4fd53e6a5f8301906d1c0a0f3066b6b1a8716eb65244eafa7cc9eac03"
+    },
+    {
+      "path": "monitoring/2026-11-02/03-retained-local-evidence-completion/README.md",
+      "bytes": 1697,
+      "sha256": "4a21b74f80f46db2b94252146caccf54e814dafb25e28f1051698a9c61c7698f"
+    },
+    {
+      "path": "monitoring/2026-11-02/03-retained-local-evidence-completion/record.json",
+      "bytes": 1000,
+      "sha256": "18a2a8776c171e8f19e39c2dcadf04ca8e1d7d041123c9dad33ff2ffda1d1429"
+    }
+  ]
+}

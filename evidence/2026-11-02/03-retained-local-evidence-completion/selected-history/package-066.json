@@ -1,0 +1,94 @@
+{
+  "source_category": "用户页面",
+  "source_date_label": "2026-10-12",
+  "source_package_label": "workflow-hub-dashboard-morning",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "DashboardHistory.csv",
+      "sha256": "127cef39e59fd8e37f9fda58bbc3c670b5f55e677c86c0a72dbe4dac7ef5f945",
+      "bytes": 301,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "4a4af57599acb31cbcd36a005d53c01d8aef8584ea65429f315659432577623b",
+      "bytes": 504,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "UserDashboardSnapshot.json",
+      "sha256": "a8f3ce91dc6b8e1bc328b7fa4ecec2e570cf3c623124c93912a1fe8ba1e163ed",
+      "bytes": 974,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Verification.json",
+      "sha256": "9f18edb13e1e956857a64dac105d7dbceff41bb23db1fb11db3f126313d49aac",
+      "bytes": 580,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "UserDashboardSnapshot.json",
+      "sha256": "a8f3ce91dc6b8e1bc328b7fa4ecec2e570cf3c623124c93912a1fe8ba1e163ed",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "observed_date",
+          "value": "2026-10-12"
+        },
+        {
+          "field_path": "observed_time_description",
+          "value": "今天早上"
+        },
+        {
+          "field_path": "timezone",
+          "value": "Asia/Shanghai"
+        },
+        {
+          "field_path": "exact_observed_time",
+          "value": null
+        },
+        {
+          "field_path": "objects[0].views",
+          "value": 526
+        },
+        {
+          "field_path": "objects[0].downloads",
+          "value": 29
+        },
+        {
+          "field_path": "objects[1].views",
+          "value": 470
+        },
+        {
+          "field_path": "objects[1].downloads",
+          "value": 51
+        },
+        {
+          "field_path": "objects[2].views",
+          "value": 47
+        },
+        {
+          "field_path": "objects[2].downloads",
+          "value": 1
+        },
+        {
+          "field_path": "totals.views",
+          "value": 1043
+        },
+        {
+          "field_path": "totals.downloads",
+          "value": 81
+        }
+      ]
+    }
+  ]
+}

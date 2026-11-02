@@ -1,0 +1,48 @@
+{
+  "source_category": "用户页面",
+  "source_date_label": "2026-10-26",
+  "source_package_label": "user-portal-clarification",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "f36969f7ab4a1b242ad1fd8996076e1f7ecb5498034754789eee3f25d235783b",
+      "bytes": 291,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "UserClaims.json",
+      "sha256": "caa077ab0aa2b1a3111141625cc9b70e94172d90f04b4e04fb0f34358c68941c",
+      "bytes": 1029,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "UserClaims.json",
+      "sha256": "caa077ab0aa2b1a3111141625cc9b70e94172d90f04b4e04fb0f34358c68941c",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "received_date",
+          "value": "2026-10-26"
+        },
+        {
+          "field_path": "precise_page_capture_time",
+          "value": null
+        },
+        {
+          "field_path": "commons.total",
+          "value": 76
+        },
+        {
+          "field_path": "openaire.beta_doi",
+          "value": "10.5281/zenodo.23166491"
+        }
+      ]
+    }
+  ]
+}

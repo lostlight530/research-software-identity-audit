@@ -1,0 +1,485 @@
+{
+  "source_category": "交接旁证",
+  "source_date_label": "2026-10-15",
+  "source_package_label": "eleven-repository-merge",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "FinalLocalVerification.json",
+      "sha256": "ff2b8b3caf63225327dae1331b1dc011740e22caad6e49a327e0980bee41d48c",
+      "bytes": 466,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "MergeEvidenceReceipt.json",
+      "sha256": "07d69e62eca6b3a742a96a8de87467aed037ec14521eeff2f12bdf14bde3dac4",
+      "bytes": 399388,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "PluginRepositorySnapshots.json",
+      "sha256": "1125d0cc2082b4600f435c4f0cce32e03926c10347191c986f289685dee45b99",
+      "bytes": 193938,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "PostMergeVerification.json",
+      "sha256": "d4d973f6b15201e51b8009c9d5e334320518c8052e901ef2e0d8f5c60bb4c957",
+      "bytes": 5247,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "MergeEvidenceReceipt.json",
+      "sha256": "07d69e62eca6b3a742a96a8de87467aed037ec14521eeff2f12bdf14bde3dac4",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "ExecutionState.json.created_prs[0].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "ExecutionState.json.created_prs[1].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "ExecutionState.json.created_prs[2].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "ExecutionState.json.created_prs[3].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "PreparedTenRepositoryChanges.json.repositories[0].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "PreparedTenRepositoryChanges.json.repositories[1].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "PreparedTenRepositoryChanges.json.repositories[2].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "PreparedTenRepositoryChanges.json.repositories[3].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "PreparedTenRepositoryChanges.json.repositories[4].doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "PreparedTenRepositoryChanges.json.repositories[5].doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "PreparedTenRepositoryChanges.json.repositories[6].doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "PreparedTenRepositoryChanges.json.repositories[7].doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "PreparedTenRepositoryChanges.json.repositories[8].doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "PreparedTenRepositoryChanges.json.repositories[9].doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "FinalTenRepositoryChanges.json[0].doi",
+          "value": "10.5281/zenodo.23365504"
+        },
+        {
+          "field_path": "FinalTenRepositoryChanges.json[1].doi",
+          "value": "10.5281/zenodo.23365551"
+        },
+        {
+          "field_path": "FinalTenRepositoryChanges.json[2].doi",
+          "value": "10.5281/zenodo.23365534"
+        },
+        {
+          "field_path": "FinalTenRepositoryChanges.json[3].doi",
+          "value": "10.5281/zenodo.23365567"
+        },
+        {
+          "field_path": "FinalTenRepositoryChanges.json[4].doi",
+          "value": "10.5281/zenodo.23365540"
+        },
+        {
+          "field_path": "FinalTenRepositoryChanges.json[5].doi",
+          "value": "10.5281/zenodo.23365548"
+        },
+        {
+          "field_path": "FinalTenRepositoryChanges.json[6].doi",
+          "value": "10.5281/zenodo.23365543"
+        },
+        {
+          "field_path": "FinalTenRepositoryChanges.json[7].doi",
+          "value": "10.5281/zenodo.23365525"
+        },
+        {
+          "field_path": "FinalTenRepositoryChanges.json[8].doi",
+          "value": "10.5281/zenodo.23365510"
+        },
+        {
+          "field_path": "FinalTenRepositoryChanges.json[9].doi",
+          "value": "10.5281/zenodo.23365517"
+        },
+        {
+          "field_path": "TenRepositoryCandidateValidation.json.checks[0].two_document_scope",
+          "value": true
+        },
+        {
+          "field_path": "TenRepositoryCandidateValidation.json.checks[1].two_document_scope",
+          "value": true
+        },
+        {
+          "field_path": "TenRepositoryCandidateValidation.json.checks[2].two_document_scope",
+          "value": true
+        },
+        {
+          "field_path": "TenRepositoryCandidateValidation.json.checks[3].two_document_scope",
+          "value": true
+        },
+        {
+          "field_path": "TenRepositoryCandidateValidation.json.checks[4].two_document_scope",
+          "value": true
+        },
+        {
+          "field_path": "TenRepositoryCandidateValidation.json.checks[5].two_document_scope",
+          "value": true
+        },
+        {
+          "field_path": "TenRepositoryCandidateValidation.json.checks[6].two_document_scope",
+          "value": true
+        },
+        {
+          "field_path": "TenRepositoryCandidateValidation.json.checks[7].two_document_scope",
+          "value": true
+        },
+        {
+          "field_path": "TenRepositoryCandidateValidation.json.checks[8].two_document_scope",
+          "value": true
+        },
+        {
+          "field_path": "TenRepositoryCandidateValidation.json.checks[9].two_document_scope",
+          "value": true
+        },
+        {
+          "field_path": "TenRepositoryCandidateValidation.json.new_software_release_created",
+          "value": false
+        },
+        {
+          "field_path": "PreMergeVerification.json[0].info.state",
+          "value": "open"
+        },
+        {
+          "field_path": "PreMergeVerification.json[0].info.requested_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[0].info.requested_team_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[0].info.created_at",
+          "value": "2026-10-15T01:56:43Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[0].info.updated_at",
+          "value": "2026-10-15T02:05:44Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[1].info.state",
+          "value": "open"
+        },
+        {
+          "field_path": "PreMergeVerification.json[1].info.requested_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[1].info.requested_team_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[1].info.created_at",
+          "value": "2026-10-15T01:57:05Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[1].info.updated_at",
+          "value": "2026-10-15T02:06:01Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[2].info.state",
+          "value": "open"
+        },
+        {
+          "field_path": "PreMergeVerification.json[2].info.requested_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[2].info.requested_team_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[2].info.created_at",
+          "value": "2026-10-15T01:57:26Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[2].info.updated_at",
+          "value": "2026-10-15T02:06:19Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[3].info.state",
+          "value": "open"
+        },
+        {
+          "field_path": "PreMergeVerification.json[3].info.requested_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[3].info.requested_team_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[3].info.created_at",
+          "value": "2026-10-15T01:57:46Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[3].info.updated_at",
+          "value": "2026-10-15T02:06:32Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[4].info.state",
+          "value": "open"
+        },
+        {
+          "field_path": "PreMergeVerification.json[4].info.requested_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[4].info.requested_team_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[4].info.created_at",
+          "value": "2026-10-15T02:01:22Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[4].info.updated_at",
+          "value": "2026-10-15T02:06:49Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[5].info.state",
+          "value": "open"
+        },
+        {
+          "field_path": "PreMergeVerification.json[5].info.requested_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[5].info.requested_team_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[5].info.created_at",
+          "value": "2026-10-15T02:01:46Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[5].info.updated_at",
+          "value": "2026-10-15T02:07:05Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[6].info.state",
+          "value": "open"
+        },
+        {
+          "field_path": "PreMergeVerification.json[6].info.requested_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[6].info.requested_team_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[6].info.created_at",
+          "value": "2026-10-15T02:02:04Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[6].info.updated_at",
+          "value": "2026-10-15T02:07:21Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[7].info.state",
+          "value": "open"
+        },
+        {
+          "field_path": "PreMergeVerification.json[7].info.requested_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[7].info.requested_team_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[7].info.created_at",
+          "value": "2026-10-15T02:02:24Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[7].info.updated_at",
+          "value": "2026-10-15T02:07:40Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[8].info.state",
+          "value": "open"
+        },
+        {
+          "field_path": "PreMergeVerification.json[8].info.requested_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[8].info.requested_team_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[8].info.created_at",
+          "value": "2026-10-15T02:02:42Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[8].info.updated_at",
+          "value": "2026-10-15T02:07:57Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[9].info.state",
+          "value": "open"
+        },
+        {
+          "field_path": "PreMergeVerification.json[9].info.requested_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[9].info.requested_team_reviewers",
+          "value": null
+        },
+        {
+          "field_path": "PreMergeVerification.json[9].info.created_at",
+          "value": "2026-10-15T02:03:01Z"
+        },
+        {
+          "field_path": "PreMergeVerification.json[9].info.updated_at",
+          "value": "2026-10-15T02:08:15Z"
+        }
+      ]
+    },
+    {
+      "source_file": "PluginRepositorySnapshots.json",
+      "sha256": "1125d0cc2082b4600f435c4f0cce32e03926c10347191c986f289685dee45b99",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "captured_at",
+          "value": "2026-10-15"
+        },
+        {
+          "field_path": "repositories[0].results[0].repository_full_name",
+          "value": "lostlight530/welcome-to-github"
+        },
+        {
+          "field_path": "repositories[0].results[0].allow_update_branch",
+          "value": false
+        },
+        {
+          "field_path": "repositories[1].results[0].repository_full_name",
+          "value": "lostlight530/zero-entropy-lab"
+        },
+        {
+          "field_path": "repositories[1].results[0].allow_update_branch",
+          "value": false
+        },
+        {
+          "field_path": "repositories[2].results[0].repository_full_name",
+          "value": "lostlight530/Axiom-0"
+        },
+        {
+          "field_path": "repositories[2].results[0].allow_update_branch",
+          "value": false
+        },
+        {
+          "field_path": "repositories[3].results[0].repository_full_name",
+          "value": "lostlight530/reflective-continuum"
+        },
+        {
+          "field_path": "repositories[3].results[0].allow_update_branch",
+          "value": false
+        },
+        {
+          "field_path": "repositories[4].results[0].repository_full_name",
+          "value": "lostlight530/agent-foundations"
+        },
+        {
+          "field_path": "repositories[4].results[0].allow_update_branch",
+          "value": false
+        },
+        {
+          "field_path": "repositories[5].results[0].repository_full_name",
+          "value": "lostlight530/auto-doc-engine"
+        },
+        {
+          "field_path": "repositories[5].results[0].allow_update_branch",
+          "value": false
+        },
+        {
+          "field_path": "repositories[6].results[0].repository_full_name",
+          "value": "lostlight530/epistemic-pipeline"
+        },
+        {
+          "field_path": "repositories[6].results[0].allow_update_branch",
+          "value": false
+        },
+        {
+          "field_path": "repositories[7].results[0].repository_full_name",
+          "value": "lostlight530/sci-render-kit"
+        },
+        {
+          "field_path": "repositories[7].results[0].allow_update_branch",
+          "value": false
+        },
+        {
+          "field_path": "repositories[8].results[0].repository_full_name",
+          "value": "lostlight530/china-agentic-observatory"
+        },
+        {
+          "field_path": "repositories[8].results[0].allow_update_branch",
+          "value": false
+        },
+        {
+          "field_path": "repositories[9].results[0].repository_full_name",
+          "value": "lostlight530/agentic-frontier-observatory"
+        },
+        {
+          "field_path": "repositories[9].results[0].allow_update_branch",
+          "value": false
+        },
+        {
+          "field_path": "repositories[10].results[0].repository_full_name",
+          "value": "lostlight530/research-software-identity-audit"
+        },
+        {
+          "field_path": "repositories[10].results[0].allow_update_branch",
+          "value": false
+        }
+      ]
+    }
+  ]
+}

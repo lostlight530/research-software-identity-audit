@@ -1,0 +1,294 @@
+{
+  "source_category": "用户页面",
+  "source_date_label": "2026-11-01",
+  "source_package_label": "user-portal-snapshot-t2300",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "ComparisonWith20261031.json",
+      "sha256": "14a28add7bb24a59cc79bb663faca7f62b99fcb7da278a7af83fccf73c51a7ba",
+      "bytes": 653,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "f67685374ca119861034e7fe9a4a27ea81bf0b782ff6631957bd171de0d2f27c",
+      "bytes": 306,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "UserSnapshot.json",
+      "sha256": "99f1e124f3c4654a85a2bec1c88361b87b5fa8fd2eb66b9b6d7a62bc866ec7d0",
+      "bytes": 2550,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "ComparisonWith20261031.json",
+      "sha256": "14a28add7bb24a59cc79bb663faca7f62b99fcb7da278a7af83fccf73c51a7ba",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "workflow_deltas[0].delta_views",
+          "value": 152
+        },
+        {
+          "field_path": "workflow_deltas[0].delta_downloads",
+          "value": 26
+        },
+        {
+          "field_path": "workflow_deltas[1].delta_views",
+          "value": 142
+        },
+        {
+          "field_path": "workflow_deltas[1].delta_downloads",
+          "value": 14
+        },
+        {
+          "field_path": "workflow_deltas[2].delta_views",
+          "value": 86
+        },
+        {
+          "field_path": "workflow_deltas[2].delta_downloads",
+          "value": 18
+        },
+        {
+          "field_path": "workflow_deltas[3].delta_views",
+          "value": 52
+        },
+        {
+          "field_path": "workflow_deltas[3].delta_downloads",
+          "value": 9
+        },
+        {
+          "field_path": "scope",
+          "value": "user-page vs user-page counts; no hourly rate or source-mechanism inference"
+        }
+      ]
+    },
+    {
+      "source_file": "UserSnapshot.json",
+      "sha256": "99f1e124f3c4654a85a2bec1c88361b87b5fa8fd2eb66b9b6d7a62bc866ec7d0",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "source_time_label",
+          "value": "昨天23点接近24点"
+        },
+        {
+          "field_path": "interpreted_date",
+          "value": "2026-11-01"
+        },
+        {
+          "field_path": "date_interpretation",
+          "value": "relative to 2026-11-02 conversation date; no exact capture clock supplied"
+        },
+        {
+          "field_path": "zenodo[0].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "zenodo[0].unique_views",
+          "value": 278
+        },
+        {
+          "field_path": "zenodo[0].unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo[1].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "zenodo[1].unique_views",
+          "value": 268
+        },
+        {
+          "field_path": "zenodo[1].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[2].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "zenodo[2].unique_views",
+          "value": 256
+        },
+        {
+          "field_path": "zenodo[2].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo[3].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "zenodo[3].unique_views",
+          "value": 243
+        },
+        {
+          "field_path": "zenodo[3].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo[4].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "zenodo[4].unique_views",
+          "value": 240
+        },
+        {
+          "field_path": "zenodo[4].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[5].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "zenodo[5].unique_views",
+          "value": 238
+        },
+        {
+          "field_path": "zenodo[5].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[6].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "zenodo[6].unique_views",
+          "value": 231
+        },
+        {
+          "field_path": "zenodo[6].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[7].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "zenodo[7].unique_views",
+          "value": 229
+        },
+        {
+          "field_path": "zenodo[7].unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo[8].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "zenodo[8].unique_views",
+          "value": 225
+        },
+        {
+          "field_path": "zenodo[8].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo[9].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "zenodo[9].unique_views",
+          "value": 204
+        },
+        {
+          "field_path": "zenodo[9].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo[10].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "zenodo[10].unique_views",
+          "value": 162
+        },
+        {
+          "field_path": "zenodo[10].unique_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo[11].repository",
+          "value": "life-science-ecosystem-lab"
+        },
+        {
+          "field_path": "zenodo[11].unique_views",
+          "value": 10
+        },
+        {
+          "field_path": "zenodo[11].unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "workflows[0].views",
+          "value": 2913
+        },
+        {
+          "field_path": "workflows[0].downloads",
+          "value": 316
+        },
+        {
+          "field_path": "workflows[1].views",
+          "value": 2558
+        },
+        {
+          "field_path": "workflows[1].downloads",
+          "value": 337
+        },
+        {
+          "field_path": "workflows[2].views",
+          "value": 1084
+        },
+        {
+          "field_path": "workflows[2].downloads",
+          "value": 174
+        },
+        {
+          "field_path": "workflows[3].views",
+          "value": 994
+        },
+        {
+          "field_path": "workflows[3].downloads",
+          "value": 60
+        },
+        {
+          "field_path": "totals.fixed10_unique_views",
+          "value": 2412
+        },
+        {
+          "field_path": "totals.fixed10_unique_downloads",
+          "value": 16
+        },
+        {
+          "field_path": "totals.all12_unique_views",
+          "value": 2584
+        },
+        {
+          "field_path": "totals.all12_unique_downloads",
+          "value": 24
+        },
+        {
+          "field_path": "totals.workflow_views",
+          "value": 7549
+        },
+        {
+          "field_path": "totals.workflow_downloads",
+          "value": 887
+        }
+      ]
+    }
+  ]
+}

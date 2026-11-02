@@ -1,0 +1,151 @@
+{
+  "source_category": "平台专项",
+  "source_date_label": "2026-10-24",
+  "source_package_label": "workflow-hub-recheck-t1400",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "ObservationSummary.json",
+      "sha256": "8366f026de9304becdb4d879372a3d376436da9c3463a9e54f4c2c18e7fb92f0",
+      "bytes": 1546,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "RequestLog.json",
+      "sha256": "c090a6db13da623a99e731e86bb91b682d83196da80c8e92d3e85e354f3dd8d2",
+      "bytes": 5536,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "b8ee11658c40fc4fec31119c1e81bd40ca91d5148fbd08a89484767d8a660761",
+      "bytes": 1783,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "ObservationSummary.json",
+      "sha256": "8366f026de9304becdb4d879372a3d376436da9c3463a9e54f4c2c18e7fb92f0",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "started_at",
+          "value": "2026-10-24T06:00:38.672784+00:00"
+        },
+        {
+          "field_path": "finished_at",
+          "value": "2026-10-24T06:00:46.899389+00:00"
+        },
+        {
+          "field_path": "rows[0].json_status",
+          "value": 200
+        },
+        {
+          "field_path": "rows[0].latest_version",
+          "value": 8
+        },
+        {
+          "field_path": "rows[0].doi",
+          "value": "10.48546/workflowhub.workflow.2332.8"
+        },
+        {
+          "field_path": "rows[0].html_status",
+          "value": 200
+        },
+        {
+          "field_path": "rows[0].views",
+          "value": 1779
+        },
+        {
+          "field_path": "rows[0].downloads",
+          "value": 216
+        },
+        {
+          "field_path": "rows[1].json_status",
+          "value": 200
+        },
+        {
+          "field_path": "rows[1].latest_version",
+          "value": 8
+        },
+        {
+          "field_path": "rows[1].doi",
+          "value": "10.48546/workflowhub.workflow.2334.8"
+        },
+        {
+          "field_path": "rows[1].html_status",
+          "value": 200
+        },
+        {
+          "field_path": "rows[1].views",
+          "value": 2064
+        },
+        {
+          "field_path": "rows[1].downloads",
+          "value": 183
+        },
+        {
+          "field_path": "rows[2].json_status",
+          "value": 200
+        },
+        {
+          "field_path": "rows[2].latest_version",
+          "value": 1
+        },
+        {
+          "field_path": "rows[2].doi",
+          "value": "10.48546/workflowhub.workflow.2337.1"
+        },
+        {
+          "field_path": "rows[2].html_status",
+          "value": 200
+        },
+        {
+          "field_path": "rows[2].views",
+          "value": 656
+        },
+        {
+          "field_path": "rows[2].downloads",
+          "value": 31
+        },
+        {
+          "field_path": "rows[3].json_status",
+          "value": 200
+        },
+        {
+          "field_path": "rows[3].latest_version",
+          "value": 2
+        },
+        {
+          "field_path": "rows[3].doi",
+          "value": "10.48546/workflowhub.workflow.2347.2"
+        },
+        {
+          "field_path": "rows[3].html_status",
+          "value": 200
+        },
+        {
+          "field_path": "rows[3].views",
+          "value": 505
+        },
+        {
+          "field_path": "rows[3].downloads",
+          "value": 138
+        },
+        {
+          "field_path": "views_sum",
+          "value": 5004
+        },
+        {
+          "field_path": "downloads_sum",
+          "value": 568
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+{
+  "source_category": "用户页面",
+  "source_date_label": "2026-10-14",
+  "source_package_label": "user-page-reconciliation-noon",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "NoonSummary.json",
+      "sha256": "f4c4616efc88e2115ee51f2e2a501f42da47bb716b380222f49fcef7a9594a11",
+      "bytes": 977,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "b7f6539347609f2e6c197a0f49be4cb7c2fe0059f2cbba22c49539ca5bf0ca43",
+      "bytes": 630,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "UserProvidedPageTranscription.json",
+      "sha256": "3d772ea0b063c4ba365ba8efcfce9b0a83f6cbd737fabef658c5b3af77f09539",
+      "bytes": 5695,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "WorkflowHubDashboardStatistics.csv",
+      "sha256": "b3b486e94098fc0cd6cb534e8bf30ffc198e6d1758dd08db22f2b1588001f6aa",
+      "bytes": 338,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoPageStatistics.csv",
+      "sha256": "de5630bcb7a2513596cde754f5a40ff552c6188729261424a0eb7ab3321c0a02",
+      "bytes": 897,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "NoonSummary.json",
+      "sha256": "f4c4616efc88e2115ee51f2e2a501f42da47bb716b380222f49fcef7a9594a11",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "source_kind",
+          "value": "user_supplied_page_text"
+        },
+        {
+          "field_path": "user_time_label",
+          "value": "12点"
+        },
+        {
+          "field_path": "exact_capture_timestamp",
+          "value": null
+        },
+        {
+          "field_path": "zenodo_fixed_ten_unique.views",
+          "value": 1361
+        },
+        {
+          "field_path": "zenodo_fixed_ten_unique.downloads",
+          "value": 7
+        },
+        {
+          "field_path": "zenodo_companion_unique.views",
+          "value": 90
+        },
+        {
+          "field_path": "zenodo_companion_unique.downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_eleven_unique_sum.views",
+          "value": 1451
+        },
+        {
+          "field_path": "zenodo_eleven_unique_sum.downloads",
+          "value": 10
+        },
+        {
+          "field_path": "zenodo_difference_from_morning_api_unique.views",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo_difference_from_morning_api_unique.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "workflowhub_dashboard_sum.views",
+          "value": 1800
+        },
+        {
+          "field_path": "workflowhub_dashboard_sum.downloads",
+          "value": 132
+        },
+        {
+          "field_path": "workflowhub_two_nexus_sum.views",
+          "value": 1595
+        },
+        {
+          "field_path": "workflowhub_two_nexus_sum.downloads",
+          "value": 127
+        },
+        {
+          "field_path": "workflowhub_difference_from_previous_user_dashboard.views",
+          "value": 294
+        },
+        {
+          "field_path": "workflowhub_difference_from_previous_user_dashboard.downloads",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "source_file": "UserProvidedPageTranscription.json",
+      "sha256": "3d772ea0b063c4ba365ba8efcfce9b0a83f6cbd737fabef658c5b3af77f09539",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "source_kind",
+          "value": "user_supplied_page_text"
+        },
+        {
+          "field_path": "observation_date",
+          "value": "2026-10-14"
+        },
+        {
+          "field_path": "user_time_label",
+          "value": "12点"
+        },
+        {
+          "field_path": "exact_capture_timestamp",
+          "value": null
+        },
+        {
+          "field_path": "zenodo_rows[0].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "zenodo_rows[0].record_id",
+          "value": "23137203"
+        },
+        {
+          "field_path": "zenodo_rows[0].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo_rows[0].page_unique_views",
+          "value": 171
+        },
+        {
+          "field_path": "zenodo_rows[0].page_unique_downloads",
+          "value": 4
+        },
+        {
+          "field_path": "zenodo_rows[0].morning_api_unique_views",
+          "value": 171
+        },
+        {
+          "field_path": "zenodo_rows[0].morning_api_unique_downloads",
+          "value": 4
+        },
+        {
+          "field_path": "zenodo_rows[0].unique_view_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[0].unique_download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[1].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "zenodo_rows[1].record_id",
+          "value": "23137204"
+        },
+        {
+          "field_path": "zenodo_rows[1].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo_rows[1].page_unique_views",
+          "value": 129
+        },
+        {
+          "field_path": "zenodo_rows[1].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[1].morning_api_unique_views",
+          "value": 128
+        },
+        {
+          "field_path": "zenodo_rows[1].morning_api_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[1].unique_view_difference",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[1].unique_download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[2].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "zenodo_rows[2].record_id",
+          "value": "23137205"
+        },
+        {
+          "field_path": "zenodo_rows[2].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo_rows[2].page_unique_views",
+          "value": 152
+        },
+        {
+          "field_path": "zenodo_rows[2].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[2].morning_api_unique_views",
+          "value": 151
+        },
+        {
+          "field_path": "zenodo_rows[2].morning_api_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[2].unique_view_difference",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[2].unique_download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[3].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "zenodo_rows[3].record_id",
+          "value": "23137206"
+        },
+        {
+          "field_path": "zenodo_rows[3].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo_rows[3].page_unique_views",
+          "value": 108
+        },
+        {
+          "field_path": "zenodo_rows[3].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[3].morning_api_unique_views",
+          "value": 108
+        },
+        {
+          "field_path": "zenodo_rows[3].morning_api_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[3].unique_view_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[3].unique_download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[4].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "zenodo_rows[4].record_id",
+          "value": "23137207"
+        },
+        {
+          "field_path": "zenodo_rows[4].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo_rows[4].page_unique_views",
+          "value": 132
+        },
+        {
+          "field_path": "zenodo_rows[4].page_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[4].morning_api_unique_views",
+          "value": 131
+        },
+        {
+          "field_path": "zenodo_rows[4].morning_api_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[4].unique_view_difference",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[4].unique_download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[5].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "zenodo_rows[5].record_id",
+          "value": "23137215"
+        },
+        {
+          "field_path": "zenodo_rows[5].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo_rows[5].page_unique_views",
+          "value": 120
+        },
+        {
+          "field_path": "zenodo_rows[5].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[5].morning_api_unique_views",
+          "value": 119
+        },
+        {
+          "field_path": "zenodo_rows[5].morning_api_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[5].unique_view_difference",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[5].unique_download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[6].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "zenodo_rows[6].record_id",
+          "value": "23137216"
+        },
+        {
+          "field_path": "zenodo_rows[6].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo_rows[6].page_unique_views",
+          "value": 134
+        },
+        {
+          "field_path": "zenodo_rows[6].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[6].morning_api_unique_views",
+          "value": 134
+        },
+        {
+          "field_path": "zenodo_rows[6].morning_api_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[6].unique_view_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[6].unique_download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[7].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "zenodo_rows[7].record_id",
+          "value": "23137219"
+        },
+        {
+          "field_path": "zenodo_rows[7].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo_rows[7].page_unique_views",
+          "value": 122
+        },
+        {
+          "field_path": "zenodo_rows[7].page_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[7].morning_api_unique_views",
+          "value": 122
+        },
+        {
+          "field_path": "zenodo_rows[7].morning_api_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[7].unique_view_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[7].unique_download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[8].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "zenodo_rows[8].record_id",
+          "value": "23137211"
+        },
+        {
+          "field_path": "zenodo_rows[8].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo_rows[8].page_unique_views",
+          "value": 143
+        },
+        {
+          "field_path": "zenodo_rows[8].page_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[8].morning_api_unique_views",
+          "value": 142
+        },
+        {
+          "field_path": "zenodo_rows[8].morning_api_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[8].unique_view_difference",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[8].unique_download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[9].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "zenodo_rows[9].record_id",
+          "value": "23137214"
+        },
+        {
+          "field_path": "zenodo_rows[9].scope",
+          "value": "fixed_corpus"
+        },
+        {
+          "field_path": "zenodo_rows[9].page_unique_views",
+          "value": 150
+        },
+        {
+          "field_path": "zenodo_rows[9].page_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[9].morning_api_unique_views",
+          "value": 150
+        },
+        {
+          "field_path": "zenodo_rows[9].morning_api_unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[9].unique_view_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[9].unique_download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[10].object_id",
+          "value": ""
+        },
+        {
+          "field_path": "zenodo_rows[10].record_id",
+          "value": "23284570"
+        },
+        {
+          "field_path": "zenodo_rows[10].scope",
+          "value": "audit_runtime_supplement"
+        },
+        {
+          "field_path": "zenodo_rows[10].page_unique_views",
+          "value": 90
+        },
+        {
+          "field_path": "zenodo_rows[10].page_unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_rows[10].morning_api_unique_views",
+          "value": 90
+        },
+        {
+          "field_path": "zenodo_rows[10].morning_api_unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_rows[10].unique_view_difference",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[10].unique_download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[0].views",
+          "value": 854
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[0].downloads",
+          "value": 54
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[0].previous_user_dashboard_views",
+          "value": 721
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[0].previous_user_dashboard_downloads",
+          "value": 51
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[0].view_difference",
+          "value": 133
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[0].download_difference",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[1].views",
+          "value": 741
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[1].downloads",
+          "value": 73
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[1].previous_user_dashboard_views",
+          "value": 638
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[1].previous_user_dashboard_downloads",
+          "value": 70
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[1].view_difference",
+          "value": 103
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[1].download_difference",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[2].views",
+          "value": 205
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[2].downloads",
+          "value": 5
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[2].previous_user_dashboard_views",
+          "value": 147
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[2].previous_user_dashboard_downloads",
+          "value": 5
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[2].view_difference",
+          "value": 58
+        },
+        {
+          "field_path": "workflowhub_dashboard_rows[2].download_difference",
+          "value": 0
+        },
+        {
+          "field_path": "workflowhub_previous_snapshot_exact_timestamp",
+          "value": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4862 @@
+{
+  "source_category": "独立采集",
+  "source_date_label": "2026-10-10",
+  "source_package_label": "independent-facility-audit-morning",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "CollectionContract.json",
+      "sha256": "7e21a8914954a268f4784cced9ffd60ed2430e961cdc8ba9f7c8eff975453f14",
+      "bytes": 4016,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ExtensionRequestLog.json",
+      "sha256": "42b1aa799c02c9d92ed5d97870ed4820954e4b1203d35fd8817fdca3a0bff21b",
+      "bytes": 29802,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "FollowupRequestLog.json",
+      "sha256": "c30a69d21ac50ec3ea45a1b78a0eed22a5aae0f439188ee432f7368f191db427",
+      "bytes": 13776,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "MorningSummary.json",
+      "sha256": "805a772995e595fa3020ccb90f276c50031a3ca5029e421c58e678feadd260bb",
+      "bytes": 26723,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "OpenAlexDoiResolution.csv",
+      "sha256": "dd970447e5d5a5e7c0392aa895b012068a4de5d8ddf978cfb4bdb6ba918ac50e",
+      "bytes": 4513,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "PlatformMatrix.csv",
+      "sha256": "9a601825f2442eb768d94f0160b53b8c0f5494f9008a1d4334403e76a5704d45",
+      "bytes": 3893,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "RequestLog.json",
+      "sha256": "77635eaae9043d56f1c1fada50acfa5dd8d38678c62d65a489ba4c6087d6b9cb",
+      "bytes": 91446,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Results.json",
+      "sha256": "feb9ba6ad3c588a240ceb1bba7159c1117db0eeb8b142db795173620cc06b6e5",
+      "bytes": 241918,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "3537eb7c8a41aed319f2dd038606259be7032aa1613dd6e6646ebebae2db5e0e",
+      "bytes": 37918,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Verification.json",
+      "sha256": "bc9f1b5fd8fb7ada54c3cbc2027d9994c716dc7bdea745c4dcfdaa213a26c0f3",
+      "bytes": 232,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "ZenodoStatistics.csv",
+      "sha256": "9045e5e6585ef1cae3bbc832a4d5455417b9634eac6ae7d2a6937c744cc8364b",
+      "bytes": 773,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "MorningSummary.json",
+      "sha256": "805a772995e595fa3020ccb90f276c50031a3ca5029e421c58e678feadd260bb",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "actual_started_at_local",
+          "value": "2026-10-10T08:03:13.003610+08:00"
+        },
+        {
+          "field_path": "actual_finished_at_local",
+          "value": "2026-10-10T08:09:40.172941+08:00"
+        },
+        {
+          "field_path": "request_count",
+          "value": 249
+        },
+        {
+          "field_path": "zenodo_fixed_ten.views",
+          "value": 990
+        },
+        {
+          "field_path": "zenodo_fixed_ten.unique_views",
+          "value": 864
+        },
+        {
+          "field_path": "zenodo_fixed_ten.downloads",
+          "value": 7
+        },
+        {
+          "field_path": "zenodo_fixed_ten.unique_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_views",
+          "value": 94
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_unique_views",
+          "value": 84
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_fixed_ten.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_eleven.views",
+          "value": 1041
+        },
+        {
+          "field_path": "zenodo_eleven.unique_views",
+          "value": 913
+        },
+        {
+          "field_path": "zenodo_eleven.downloads",
+          "value": 7
+        },
+        {
+          "field_path": "zenodo_eleven.unique_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "zenodo_eleven.version_views",
+          "value": 126
+        },
+        {
+          "field_path": "zenodo_eleven.version_unique_views",
+          "value": 115
+        },
+        {
+          "field_path": "zenodo_eleven.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_eleven.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[0].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "zenodo_rows[0].views",
+          "value": 216
+        },
+        {
+          "field_path": "zenodo_rows[0].unique_views",
+          "value": 135
+        },
+        {
+          "field_path": "zenodo_rows[0].downloads",
+          "value": 4
+        },
+        {
+          "field_path": "zenodo_rows[0].unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_rows[0].version_views",
+          "value": 13
+        },
+        {
+          "field_path": "zenodo_rows[0].version_unique_views",
+          "value": 12
+        },
+        {
+          "field_path": "zenodo_rows[0].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[0].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[0].views_change_from_evening",
+          "value": 108
+        },
+        {
+          "field_path": "zenodo_rows[1].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "zenodo_rows[1].views",
+          "value": 85
+        },
+        {
+          "field_path": "zenodo_rows[1].unique_views",
+          "value": 78
+        },
+        {
+          "field_path": "zenodo_rows[1].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[1].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[1].version_views",
+          "value": 11
+        },
+        {
+          "field_path": "zenodo_rows[1].version_unique_views",
+          "value": 6
+        },
+        {
+          "field_path": "zenodo_rows[1].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[1].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[1].views_change_from_evening",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo_rows[2].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "zenodo_rows[2].views",
+          "value": 102
+        },
+        {
+          "field_path": "zenodo_rows[2].unique_views",
+          "value": 95
+        },
+        {
+          "field_path": "zenodo_rows[2].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[2].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[2].version_views",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo_rows[2].version_unique_views",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo_rows[2].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[2].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[2].views_change_from_evening",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[3].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "zenodo_rows[3].views",
+          "value": 63
+        },
+        {
+          "field_path": "zenodo_rows[3].unique_views",
+          "value": 60
+        },
+        {
+          "field_path": "zenodo_rows[3].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[3].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[3].version_views",
+          "value": 4
+        },
+        {
+          "field_path": "zenodo_rows[3].version_unique_views",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_rows[3].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[3].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[3].views_change_from_evening",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo_rows[4].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "zenodo_rows[4].views",
+          "value": 88
+        },
+        {
+          "field_path": "zenodo_rows[4].unique_views",
+          "value": 81
+        },
+        {
+          "field_path": "zenodo_rows[4].downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[4].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[4].version_views",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_rows[4].version_unique_views",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_rows[4].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[4].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[4].views_change_from_evening",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[5].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "zenodo_rows[5].views",
+          "value": 100
+        },
+        {
+          "field_path": "zenodo_rows[5].unique_views",
+          "value": 94
+        },
+        {
+          "field_path": "zenodo_rows[5].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[5].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[5].version_views",
+          "value": 19
+        },
+        {
+          "field_path": "zenodo_rows[5].version_unique_views",
+          "value": 18
+        },
+        {
+          "field_path": "zenodo_rows[5].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[5].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[5].views_change_from_evening",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[6].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "zenodo_rows[6].views",
+          "value": 105
+        },
+        {
+          "field_path": "zenodo_rows[6].unique_views",
+          "value": 101
+        },
+        {
+          "field_path": "zenodo_rows[6].downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[6].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[6].version_views",
+          "value": 18
+        },
+        {
+          "field_path": "zenodo_rows[6].version_unique_views",
+          "value": 18
+        },
+        {
+          "field_path": "zenodo_rows[6].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[6].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[6].views_change_from_evening",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo_rows[7].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "zenodo_rows[7].views",
+          "value": 77
+        },
+        {
+          "field_path": "zenodo_rows[7].unique_views",
+          "value": 75
+        },
+        {
+          "field_path": "zenodo_rows[7].downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[7].unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo_rows[7].version_views",
+          "value": 6
+        },
+        {
+          "field_path": "zenodo_rows[7].version_unique_views",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo_rows[7].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[7].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[7].views_change_from_evening",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[8].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "zenodo_rows[8].views",
+          "value": 69
+        },
+        {
+          "field_path": "zenodo_rows[8].unique_views",
+          "value": 63
+        },
+        {
+          "field_path": "zenodo_rows[8].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[8].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[8].version_views",
+          "value": 8
+        },
+        {
+          "field_path": "zenodo_rows[8].version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "zenodo_rows[8].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[8].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[8].views_change_from_evening",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo_rows[9].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "zenodo_rows[9].views",
+          "value": 85
+        },
+        {
+          "field_path": "zenodo_rows[9].unique_views",
+          "value": 82
+        },
+        {
+          "field_path": "zenodo_rows[9].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[9].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[9].version_views",
+          "value": 7
+        },
+        {
+          "field_path": "zenodo_rows[9].version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "zenodo_rows[9].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[9].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[9].views_change_from_evening",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo_rows[10].object_id",
+          "value": "COMPANION"
+        },
+        {
+          "field_path": "zenodo_rows[10].views",
+          "value": 51
+        },
+        {
+          "field_path": "zenodo_rows[10].unique_views",
+          "value": 49
+        },
+        {
+          "field_path": "zenodo_rows[10].downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[10].unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[10].version_views",
+          "value": 32
+        },
+        {
+          "field_path": "zenodo_rows[10].version_unique_views",
+          "value": 31
+        },
+        {
+          "field_path": "zenodo_rows[10].version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[10].version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_rows[10].views_change_from_evening",
+          "value": 2
+        },
+        {
+          "field_path": "previous_evening_fixed_ten.views",
+          "value": 870
+        },
+        {
+          "field_path": "previous_evening_fixed_ten.unique_views",
+          "value": 822
+        },
+        {
+          "field_path": "previous_evening_fixed_ten.downloads",
+          "value": 7
+        },
+        {
+          "field_path": "previous_evening_fixed_ten.unique_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "previous_evening_fixed_ten.version_views",
+          "value": 88
+        },
+        {
+          "field_path": "previous_evening_fixed_ten.version_unique_views",
+          "value": 78
+        },
+        {
+          "field_path": "previous_evening_fixed_ten.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "previous_evening_fixed_ten.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "orcid.group_count",
+          "value": 14
+        },
+        {
+          "field_path": "orcid.summary_count",
+          "value": 61
+        },
+        {
+          "field_path": "orcid.fixed_corpus_groups",
+          "value": 10
+        },
+        {
+          "field_path": "orcid.fixed_corpus_summaries",
+          "value": 50
+        },
+        {
+          "field_path": "openalex.count",
+          "value": 16
+        },
+        {
+          "field_path": "openalex.default_query_count",
+          "value": 16
+        },
+        {
+          "field_path": "openalex.all_corpora_query_count",
+          "value": 16
+        },
+        {
+          "field_path": "openalex_profiles.primary.works_count",
+          "value": 43
+        },
+        {
+          "field_path": "openalex_profiles.primary.updated_date",
+          "value": "2026-10-07T12:33:31"
+        },
+        {
+          "field_path": "openalex_profiles.secondary.works_count",
+          "value": 1
+        },
+        {
+          "field_path": "openalex_profiles.secondary.updated_date",
+          "value": "2026-10-07T12:33:31"
+        },
+        {
+          "field_path": "workflowhub[0].latest_version",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub[0].attributes.latest_version",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub[0].attributes.versions[0].version",
+          "value": 1
+        },
+        {
+          "field_path": "workflowhub[0].attributes.versions[0].doi",
+          "value": "10.48546/workflowhub.workflow.2332.1"
+        },
+        {
+          "field_path": "workflowhub[0].attributes.versions[1].version",
+          "value": 2
+        },
+        {
+          "field_path": "workflowhub[0].attributes.versions[1].doi",
+          "value": "10.48546/workflowhub.workflow.2332.2"
+        },
+        {
+          "field_path": "workflowhub[0].attributes.versions[2].version",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub[0].attributes.versions[2].doi",
+          "value": "10.48546/workflowhub.workflow.2332.3"
+        },
+        {
+          "field_path": "workflowhub[0].attributes.version",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub[0].attributes.created_at",
+          "value": "2026-10-09T13:30:51.000Z"
+        },
+        {
+          "field_path": "workflowhub[0].attributes.updated_at",
+          "value": "2026-10-09T13:32:48.000Z"
+        },
+        {
+          "field_path": "workflowhub[0].attributes.doi",
+          "value": "10.48546/workflowhub.workflow.2332.3"
+        },
+        {
+          "field_path": "workflowhub[0].activity.views",
+          "value": 143
+        },
+        {
+          "field_path": "workflowhub[0].activity.downloads",
+          "value": 13
+        },
+        {
+          "field_path": "workflowhub[0].versions[0].version",
+          "value": 1
+        },
+        {
+          "field_path": "workflowhub[0].versions[0].doi",
+          "value": "10.48546/workflowhub.workflow.2332.1"
+        },
+        {
+          "field_path": "workflowhub[0].versions[0].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "workflowhub[0].versions[0].openalex_http_status",
+          "value": 200
+        },
+        {
+          "field_path": "workflowhub[0].versions[1].version",
+          "value": 2
+        },
+        {
+          "field_path": "workflowhub[0].versions[1].doi",
+          "value": "10.48546/workflowhub.workflow.2332.2"
+        },
+        {
+          "field_path": "workflowhub[0].versions[1].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "workflowhub[0].versions[1].openalex_http_status",
+          "value": 200
+        },
+        {
+          "field_path": "workflowhub[0].versions[2].version",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub[0].versions[2].doi",
+          "value": "10.48546/workflowhub.workflow.2332.3"
+        },
+        {
+          "field_path": "workflowhub[0].versions[2].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "workflowhub[0].versions[2].openalex_http_status",
+          "value": 404
+        },
+        {
+          "field_path": "workflowhub[1].latest_version",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub[1].attributes.latest_version",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub[1].attributes.versions[0].version",
+          "value": 1
+        },
+        {
+          "field_path": "workflowhub[1].attributes.versions[0].doi",
+          "value": "10.48546/workflowhub.workflow.2334.1"
+        },
+        {
+          "field_path": "workflowhub[1].attributes.versions[1].version",
+          "value": 2
+        },
+        {
+          "field_path": "workflowhub[1].attributes.versions[1].doi",
+          "value": "10.48546/workflowhub.workflow.2334.2"
+        },
+        {
+          "field_path": "workflowhub[1].attributes.versions[2].version",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub[1].attributes.versions[2].doi",
+          "value": "10.48546/workflowhub.workflow.2334.3"
+        },
+        {
+          "field_path": "workflowhub[1].attributes.version",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub[1].attributes.created_at",
+          "value": "2026-10-09T13:28:30.000Z"
+        },
+        {
+          "field_path": "workflowhub[1].attributes.updated_at",
+          "value": "2026-10-09T13:43:01.000Z"
+        },
+        {
+          "field_path": "workflowhub[1].attributes.doi",
+          "value": "10.48546/workflowhub.workflow.2334.3"
+        },
+        {
+          "field_path": "workflowhub[1].activity.views",
+          "value": 221
+        },
+        {
+          "field_path": "workflowhub[1].activity.downloads",
+          "value": 8
+        },
+        {
+          "field_path": "workflowhub[1].versions[0].version",
+          "value": 1
+        },
+        {
+          "field_path": "workflowhub[1].versions[0].doi",
+          "value": "10.48546/workflowhub.workflow.2334.1"
+        },
+        {
+          "field_path": "workflowhub[1].versions[0].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "workflowhub[1].versions[0].openalex_http_status",
+          "value": 200
+        },
+        {
+          "field_path": "workflowhub[1].versions[1].version",
+          "value": 2
+        },
+        {
+          "field_path": "workflowhub[1].versions[1].doi",
+          "value": "10.48546/workflowhub.workflow.2334.2"
+        },
+        {
+          "field_path": "workflowhub[1].versions[1].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "workflowhub[1].versions[1].openalex_http_status",
+          "value": 200
+        },
+        {
+          "field_path": "workflowhub[1].versions[2].version",
+          "value": 3
+        },
+        {
+          "field_path": "workflowhub[1].versions[2].doi",
+          "value": "10.48546/workflowhub.workflow.2334.3"
+        },
+        {
+          "field_path": "workflowhub[1].versions[2].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "workflowhub[1].versions[2].openalex_http_status",
+          "value": 404
+        },
+        {
+          "field_path": "rsd_count",
+          "value": 11
+        },
+        {
+          "field_path": "rrid_http_status",
+          "value": 403
+        },
+        {
+          "field_path": "osf_http_status",
+          "value": 200
+        },
+        {
+          "field_path": "internet_archive_http_status",
+          "value": 200
+        },
+        {
+          "field_path": "rse_pull_state",
+          "value": "open"
+        },
+        {
+          "field_path": "platform_states.version_family_verified",
+          "value": 10
+        },
+        {
+          "field_path": "platform_states.four_doi_findable",
+          "value": 10
+        },
+        {
+          "field_path": "platform_states.family_group_observed",
+          "value": 10
+        },
+        {
+          "field_path": "platform_states.version_doi_resolves_to_work",
+          "value": 10
+        },
+        {
+          "field_path": "failures[0].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[1].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[2].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[3].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[4].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[5].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[6].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[7].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[8].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[9].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[10].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[11].http_status",
+          "value": 404
+        },
+        {
+          "field_path": "failures[12].http_status",
+          "value": 403
+        },
+        {
+          "field_path": "failures[13].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[14].http_status",
+          "value": 404
+        },
+        {
+          "field_path": "failures[15].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[16].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[17].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[18].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[19].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[20].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[21].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[22].http_status",
+          "value": 404
+        },
+        {
+          "field_path": "failures[23].http_status",
+          "value": 404
+        },
+        {
+          "field_path": "failures[24].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[25].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[26].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[27].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[28].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[29].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[30].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[31].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[32].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[33].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[34].http_status",
+          "value": null
+        },
+        {
+          "field_path": "failures[35].http_status",
+          "value": null
+        },
+        {
+          "field_path": "openalex_resolved_doi_matches_requested",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "source_file": "Results.json",
+      "sha256": "feb9ba6ad3c588a240ceb1bba7159c1117db0eeb8b142db795173620cc06b6e5",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "date",
+          "value": "2026-10-10"
+        },
+        {
+          "field_path": "collection_contract.started_at_utc",
+          "value": "2026-10-10T00:03:12.966432+00:00"
+        },
+        {
+          "field_path": "collection_contract.finished_at_utc",
+          "value": "2026-10-10T00:06:01.878389+00:00"
+        },
+        {
+          "field_path": "collection_contract.analytical_layers",
+          "value": 6
+        },
+        {
+          "field_path": "collection_contract.possible_core_platform_checks",
+          "value": 70
+        },
+        {
+          "field_path": "collection_contract.timeout_seconds",
+          "value": 25
+        },
+        {
+          "field_path": "collection_contract.request_count",
+          "value": 171
+        },
+        {
+          "field_path": "collection_contract.scope",
+          "value": "Fixed ten, 40 DOI identities, current releases, origin visits/snapshots; OSF and supplementary public surfaces"
+        },
+        {
+          "field_path": "collection_contract.total_request_count_including_extensions_and_followups",
+          "value": 249
+        },
+        {
+          "field_path": "collection_contract.single_transport_followup_timeout_seconds",
+          "value": 55
+        },
+        {
+          "field_path": "objects[0].zenodo.stats.downloads",
+          "value": 4
+        },
+        {
+          "field_path": "objects[0].zenodo.stats.unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "objects[0].zenodo.stats.views",
+          "value": 216
+        },
+        {
+          "field_path": "objects[0].zenodo.stats.unique_views",
+          "value": 135
+        },
+        {
+          "field_path": "objects[0].zenodo.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[0].zenodo.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[0].zenodo.stats.version_unique_views",
+          "value": 12
+        },
+        {
+          "field_path": "objects[0].zenodo.stats.version_views",
+          "value": 13
+        },
+        {
+          "field_path": "objects[0].zenodo.version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "objects[0].orcid_group_count",
+          "value": 1
+        },
+        {
+          "field_path": "objects[0].orcid_source_summaries",
+          "value": 5
+        },
+        {
+          "field_path": "objects[0].swh.github_visit.date",
+          "value": "2026-09-29T13:20:19.474000+00:00"
+        },
+        {
+          "field_path": "objects[0].swh.github_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[0].swh.zenodo_visit.date",
+          "value": "2026-10-04T13:00:41.918000+00:00"
+        },
+        {
+          "field_path": "objects[0].swh.zenodo_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[0].swh.deposit_anchors[0].object.date",
+          "value": "2026-10-04T00:00:00+00:00"
+        },
+        {
+          "field_path": "objects[1].zenodo.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[1].zenodo.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[1].zenodo.stats.views",
+          "value": 85
+        },
+        {
+          "field_path": "objects[1].zenodo.stats.unique_views",
+          "value": 78
+        },
+        {
+          "field_path": "objects[1].zenodo.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[1].zenodo.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[1].zenodo.stats.version_unique_views",
+          "value": 6
+        },
+        {
+          "field_path": "objects[1].zenodo.stats.version_views",
+          "value": 11
+        },
+        {
+          "field_path": "objects[1].zenodo.version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "objects[1].orcid_group_count",
+          "value": 1
+        },
+        {
+          "field_path": "objects[1].orcid_source_summaries",
+          "value": 5
+        },
+        {
+          "field_path": "objects[1].swh.github_visit.date",
+          "value": "2026-10-05T21:41:06.261000+00:00"
+        },
+        {
+          "field_path": "objects[1].swh.github_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[1].swh.zenodo_visit.date",
+          "value": "2026-10-04T13:00:55.157000+00:00"
+        },
+        {
+          "field_path": "objects[1].swh.zenodo_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[1].swh.deposit_anchors[0].object.date",
+          "value": "2026-10-04T00:00:00+00:00"
+        },
+        {
+          "field_path": "objects[2].zenodo.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[2].zenodo.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[2].zenodo.stats.views",
+          "value": 102
+        },
+        {
+          "field_path": "objects[2].zenodo.stats.unique_views",
+          "value": 95
+        },
+        {
+          "field_path": "objects[2].zenodo.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[2].zenodo.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[2].zenodo.stats.version_unique_views",
+          "value": 5
+        },
+        {
+          "field_path": "objects[2].zenodo.stats.version_views",
+          "value": 5
+        },
+        {
+          "field_path": "objects[2].zenodo.version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "objects[2].orcid_group_count",
+          "value": 1
+        },
+        {
+          "field_path": "objects[2].orcid_source_summaries",
+          "value": 5
+        },
+        {
+          "field_path": "objects[2].swh.github_visit.date",
+          "value": "2026-09-16T07:30:35.238000+00:00"
+        },
+        {
+          "field_path": "objects[2].swh.github_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[2].swh.zenodo_visit.date",
+          "value": "2026-10-04T13:00:54.142000+00:00"
+        },
+        {
+          "field_path": "objects[2].swh.zenodo_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[2].swh.deposit_anchors[0].object.date",
+          "value": "2026-10-04T00:00:00+00:00"
+        },
+        {
+          "field_path": "objects[3].zenodo.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[3].zenodo.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[3].zenodo.stats.views",
+          "value": 63
+        },
+        {
+          "field_path": "objects[3].zenodo.stats.unique_views",
+          "value": 60
+        },
+        {
+          "field_path": "objects[3].zenodo.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[3].zenodo.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[3].zenodo.stats.version_unique_views",
+          "value": 3
+        },
+        {
+          "field_path": "objects[3].zenodo.stats.version_views",
+          "value": 4
+        },
+        {
+          "field_path": "objects[3].zenodo.version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "objects[3].orcid_group_count",
+          "value": 1
+        },
+        {
+          "field_path": "objects[3].orcid_source_summaries",
+          "value": 5
+        },
+        {
+          "field_path": "objects[3].swh.github_visit.date",
+          "value": "2026-09-28T18:46:05.460000+00:00"
+        },
+        {
+          "field_path": "objects[3].swh.github_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[3].swh.zenodo_visit.date",
+          "value": "2026-10-04T13:00:58.442000+00:00"
+        },
+        {
+          "field_path": "objects[3].swh.zenodo_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[3].swh.deposit_anchors[0].object.date",
+          "value": "2026-10-04T00:00:00+00:00"
+        },
+        {
+          "field_path": "objects[4].zenodo.stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "objects[4].zenodo.stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "objects[4].zenodo.stats.views",
+          "value": 88
+        },
+        {
+          "field_path": "objects[4].zenodo.stats.unique_views",
+          "value": 81
+        },
+        {
+          "field_path": "objects[4].zenodo.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[4].zenodo.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[4].zenodo.stats.version_unique_views",
+          "value": 3
+        },
+        {
+          "field_path": "objects[4].zenodo.stats.version_views",
+          "value": 3
+        },
+        {
+          "field_path": "objects[4].zenodo.version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "objects[4].orcid_group_count",
+          "value": 1
+        },
+        {
+          "field_path": "objects[4].orcid_source_summaries",
+          "value": 5
+        },
+        {
+          "field_path": "objects[4].swh.github_visit.date",
+          "value": "2026-09-16T07:32:06.452000+00:00"
+        },
+        {
+          "field_path": "objects[4].swh.github_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[4].swh.zenodo_visit.date",
+          "value": "2026-10-04T13:01:08.321000+00:00"
+        },
+        {
+          "field_path": "objects[4].swh.zenodo_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[4].swh.deposit_anchors[0].object.date",
+          "value": "2026-10-04T00:00:00+00:00"
+        },
+        {
+          "field_path": "objects[5].zenodo.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[5].zenodo.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[5].zenodo.stats.views",
+          "value": 100
+        },
+        {
+          "field_path": "objects[5].zenodo.stats.unique_views",
+          "value": 94
+        },
+        {
+          "field_path": "objects[5].zenodo.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[5].zenodo.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[5].zenodo.stats.version_unique_views",
+          "value": 18
+        },
+        {
+          "field_path": "objects[5].zenodo.stats.version_views",
+          "value": 19
+        },
+        {
+          "field_path": "objects[5].zenodo.version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "objects[5].orcid_group_count",
+          "value": 1
+        },
+        {
+          "field_path": "objects[5].orcid_source_summaries",
+          "value": 5
+        },
+        {
+          "field_path": "objects[5].swh.github_visit.date",
+          "value": "2026-09-28T00:59:57.737000+00:00"
+        },
+        {
+          "field_path": "objects[5].swh.github_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[5].swh.zenodo_visit.date",
+          "value": "2026-10-04T13:01:08.375000+00:00"
+        },
+        {
+          "field_path": "objects[5].swh.zenodo_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[5].swh.deposit_anchors[0].object.date",
+          "value": "2026-10-04T00:00:00+00:00"
+        },
+        {
+          "field_path": "objects[6].zenodo.stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "objects[6].zenodo.stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "objects[6].zenodo.stats.views",
+          "value": 105
+        },
+        {
+          "field_path": "objects[6].zenodo.stats.unique_views",
+          "value": 101
+        },
+        {
+          "field_path": "objects[6].zenodo.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[6].zenodo.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[6].zenodo.stats.version_unique_views",
+          "value": 18
+        },
+        {
+          "field_path": "objects[6].zenodo.stats.version_views",
+          "value": 18
+        },
+        {
+          "field_path": "objects[6].zenodo.version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "objects[6].orcid_group_count",
+          "value": 1
+        },
+        {
+          "field_path": "objects[6].orcid_source_summaries",
+          "value": 5
+        },
+        {
+          "field_path": "objects[6].swh.github_visit.date",
+          "value": "2026-09-28T01:02:35.538000+00:00"
+        },
+        {
+          "field_path": "objects[6].swh.github_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[6].swh.zenodo_visit.date",
+          "value": "2026-10-04T13:01:12.345000+00:00"
+        },
+        {
+          "field_path": "objects[6].swh.zenodo_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[6].swh.deposit_anchors[0].object.date",
+          "value": "2026-10-04T00:00:00+00:00"
+        },
+        {
+          "field_path": "objects[7].zenodo.stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "objects[7].zenodo.stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "objects[7].zenodo.stats.views",
+          "value": 77
+        },
+        {
+          "field_path": "objects[7].zenodo.stats.unique_views",
+          "value": 75
+        },
+        {
+          "field_path": "objects[7].zenodo.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[7].zenodo.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[7].zenodo.stats.version_unique_views",
+          "value": 5
+        },
+        {
+          "field_path": "objects[7].zenodo.stats.version_views",
+          "value": 6
+        },
+        {
+          "field_path": "objects[7].zenodo.version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "objects[7].orcid_group_count",
+          "value": 1
+        },
+        {
+          "field_path": "objects[7].orcid_source_summaries",
+          "value": 5
+        },
+        {
+          "field_path": "objects[7].swh.github_visit.date",
+          "value": "2026-09-16T07:35:28.635000+00:00"
+        },
+        {
+          "field_path": "objects[7].swh.github_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[7].swh.zenodo_visit.date",
+          "value": "2026-10-04T13:01:20.550000+00:00"
+        },
+        {
+          "field_path": "objects[7].swh.zenodo_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[7].swh.deposit_anchors[0].object.date",
+          "value": "2026-10-04T00:00:00+00:00"
+        },
+        {
+          "field_path": "objects[8].zenodo.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[8].zenodo.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[8].zenodo.stats.views",
+          "value": 69
+        },
+        {
+          "field_path": "objects[8].zenodo.stats.unique_views",
+          "value": 63
+        },
+        {
+          "field_path": "objects[8].zenodo.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[8].zenodo.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[8].zenodo.stats.version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "objects[8].zenodo.stats.version_views",
+          "value": 8
+        },
+        {
+          "field_path": "objects[8].zenodo.version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "objects[8].orcid_group_count",
+          "value": 1
+        },
+        {
+          "field_path": "objects[8].orcid_source_summaries",
+          "value": 5
+        },
+        {
+          "field_path": "objects[8].swh.github_visit.date",
+          "value": "2026-10-02T05:57:26.956000+00:00"
+        },
+        {
+          "field_path": "objects[8].swh.github_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[8].swh.zenodo_visit.date",
+          "value": "2026-10-04T13:01:12.373000+00:00"
+        },
+        {
+          "field_path": "objects[8].swh.zenodo_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[8].swh.deposit_anchors[0].object.date",
+          "value": "2026-10-04T00:00:00+00:00"
+        },
+        {
+          "field_path": "objects[9].zenodo.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[9].zenodo.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[9].zenodo.stats.views",
+          "value": 85
+        },
+        {
+          "field_path": "objects[9].zenodo.stats.unique_views",
+          "value": 82
+        },
+        {
+          "field_path": "objects[9].zenodo.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[9].zenodo.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "objects[9].zenodo.stats.version_unique_views",
+          "value": 7
+        },
+        {
+          "field_path": "objects[9].zenodo.stats.version_views",
+          "value": 7
+        },
+        {
+          "field_path": "objects[9].zenodo.version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "objects[9].orcid_group_count",
+          "value": 1
+        },
+        {
+          "field_path": "objects[9].orcid_source_summaries",
+          "value": 5
+        },
+        {
+          "field_path": "objects[9].swh.github_visit.date",
+          "value": "2026-09-28T22:50:01.041000+00:00"
+        },
+        {
+          "field_path": "objects[9].swh.github_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[9].swh.zenodo_visit.date",
+          "value": "2026-10-04T13:01:20.484000+00:00"
+        },
+        {
+          "field_path": "objects[9].swh.zenodo_visit.status",
+          "value": "full"
+        },
+        {
+          "field_path": "objects[9].swh.deposit_anchors[0].object.date",
+          "value": "2026-10-04T00:00:00+00:00"
+        },
+        {
+          "field_path": "platform_cells[0].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "platform_cells[0].platform",
+          "value": "GitHub"
+        },
+        {
+          "field_path": "platform_cells[0].state",
+          "value": "release_verified"
+        },
+        {
+          "field_path": "platform_cells[1].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "platform_cells[1].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "platform_cells[1].state",
+          "value": "version_family_verified"
+        },
+        {
+          "field_path": "platform_cells[2].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "platform_cells[2].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "platform_cells[2].state",
+          "value": "four_doi_findable"
+        },
+        {
+          "field_path": "platform_cells[3].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "platform_cells[3].platform",
+          "value": "ORCID"
+        },
+        {
+          "field_path": "platform_cells[3].state",
+          "value": "family_group_observed"
+        },
+        {
+          "field_path": "platform_cells[4].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "platform_cells[4].platform",
+          "value": "SWH"
+        },
+        {
+          "field_path": "platform_cells[4].state",
+          "value": "deposit_release_directory_verified"
+        },
+        {
+          "field_path": "platform_cells[5].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "platform_cells[5].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "platform_cells[5].state",
+          "value": "query_unresolved"
+        },
+        {
+          "field_path": "platform_cells[6].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "platform_cells[6].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "platform_cells[6].state",
+          "value": "version_doi_resolves_to_work"
+        },
+        {
+          "field_path": "platform_cells[7].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "platform_cells[7].platform",
+          "value": "GitHub"
+        },
+        {
+          "field_path": "platform_cells[7].state",
+          "value": "release_verified"
+        },
+        {
+          "field_path": "platform_cells[8].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "platform_cells[8].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "platform_cells[8].state",
+          "value": "version_family_verified"
+        },
+        {
+          "field_path": "platform_cells[9].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "platform_cells[9].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "platform_cells[9].state",
+          "value": "four_doi_findable"
+        },
+        {
+          "field_path": "platform_cells[10].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "platform_cells[10].platform",
+          "value": "ORCID"
+        },
+        {
+          "field_path": "platform_cells[10].state",
+          "value": "family_group_observed"
+        },
+        {
+          "field_path": "platform_cells[11].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "platform_cells[11].platform",
+          "value": "SWH"
+        },
+        {
+          "field_path": "platform_cells[11].state",
+          "value": "deposit_release_directory_verified"
+        },
+        {
+          "field_path": "platform_cells[12].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "platform_cells[12].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "platform_cells[12].state",
+          "value": "query_unresolved"
+        },
+        {
+          "field_path": "platform_cells[13].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "platform_cells[13].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "platform_cells[13].state",
+          "value": "version_doi_resolves_to_work"
+        },
+        {
+          "field_path": "platform_cells[14].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "platform_cells[14].platform",
+          "value": "GitHub"
+        },
+        {
+          "field_path": "platform_cells[14].state",
+          "value": "release_verified"
+        },
+        {
+          "field_path": "platform_cells[15].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "platform_cells[15].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "platform_cells[15].state",
+          "value": "version_family_verified"
+        },
+        {
+          "field_path": "platform_cells[16].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "platform_cells[16].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "platform_cells[16].state",
+          "value": "four_doi_findable"
+        },
+        {
+          "field_path": "platform_cells[17].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "platform_cells[17].platform",
+          "value": "ORCID"
+        },
+        {
+          "field_path": "platform_cells[17].state",
+          "value": "family_group_observed"
+        },
+        {
+          "field_path": "platform_cells[18].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "platform_cells[18].platform",
+          "value": "SWH"
+        },
+        {
+          "field_path": "platform_cells[18].state",
+          "value": "deposit_release_directory_verified"
+        },
+        {
+          "field_path": "platform_cells[19].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "platform_cells[19].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "platform_cells[19].state",
+          "value": "query_unresolved"
+        },
+        {
+          "field_path": "platform_cells[20].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "platform_cells[20].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "platform_cells[20].state",
+          "value": "version_doi_resolves_to_work"
+        },
+        {
+          "field_path": "platform_cells[21].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "platform_cells[21].platform",
+          "value": "GitHub"
+        },
+        {
+          "field_path": "platform_cells[21].state",
+          "value": "release_verified"
+        },
+        {
+          "field_path": "platform_cells[22].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "platform_cells[22].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "platform_cells[22].state",
+          "value": "version_family_verified"
+        },
+        {
+          "field_path": "platform_cells[23].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "platform_cells[23].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "platform_cells[23].state",
+          "value": "four_doi_findable"
+        },
+        {
+          "field_path": "platform_cells[24].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "platform_cells[24].platform",
+          "value": "ORCID"
+        },
+        {
+          "field_path": "platform_cells[24].state",
+          "value": "family_group_observed"
+        },
+        {
+          "field_path": "platform_cells[25].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "platform_cells[25].platform",
+          "value": "SWH"
+        },
+        {
+          "field_path": "platform_cells[25].state",
+          "value": "deposit_release_directory_verified"
+        },
+        {
+          "field_path": "platform_cells[26].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "platform_cells[26].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "platform_cells[26].state",
+          "value": "query_unresolved"
+        },
+        {
+          "field_path": "platform_cells[27].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "platform_cells[27].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "platform_cells[27].state",
+          "value": "version_doi_resolves_to_work"
+        },
+        {
+          "field_path": "platform_cells[28].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "platform_cells[28].platform",
+          "value": "GitHub"
+        },
+        {
+          "field_path": "platform_cells[28].state",
+          "value": "release_verified"
+        },
+        {
+          "field_path": "platform_cells[29].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "platform_cells[29].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "platform_cells[29].state",
+          "value": "version_family_verified"
+        },
+        {
+          "field_path": "platform_cells[30].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "platform_cells[30].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "platform_cells[30].state",
+          "value": "four_doi_findable"
+        },
+        {
+          "field_path": "platform_cells[31].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "platform_cells[31].platform",
+          "value": "ORCID"
+        },
+        {
+          "field_path": "platform_cells[31].state",
+          "value": "family_group_observed"
+        },
+        {
+          "field_path": "platform_cells[32].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "platform_cells[32].platform",
+          "value": "SWH"
+        },
+        {
+          "field_path": "platform_cells[32].state",
+          "value": "deposit_release_directory_verified"
+        },
+        {
+          "field_path": "platform_cells[33].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "platform_cells[33].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "platform_cells[33].state",
+          "value": "query_unresolved"
+        },
+        {
+          "field_path": "platform_cells[34].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "platform_cells[34].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "platform_cells[34].state",
+          "value": "version_doi_resolves_to_work"
+        },
+        {
+          "field_path": "platform_cells[35].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "platform_cells[35].platform",
+          "value": "GitHub"
+        },
+        {
+          "field_path": "platform_cells[35].state",
+          "value": "release_verified"
+        },
+        {
+          "field_path": "platform_cells[36].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "platform_cells[36].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "platform_cells[36].state",
+          "value": "version_family_verified"
+        },
+        {
+          "field_path": "platform_cells[37].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "platform_cells[37].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "platform_cells[37].state",
+          "value": "four_doi_findable"
+        },
+        {
+          "field_path": "platform_cells[38].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "platform_cells[38].platform",
+          "value": "ORCID"
+        },
+        {
+          "field_path": "platform_cells[38].state",
+          "value": "family_group_observed"
+        },
+        {
+          "field_path": "platform_cells[39].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "platform_cells[39].platform",
+          "value": "SWH"
+        },
+        {
+          "field_path": "platform_cells[39].state",
+          "value": "deposit_release_directory_verified"
+        },
+        {
+          "field_path": "platform_cells[40].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "platform_cells[40].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "platform_cells[40].state",
+          "value": "query_unresolved"
+        },
+        {
+          "field_path": "platform_cells[41].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "platform_cells[41].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "platform_cells[41].state",
+          "value": "version_doi_resolves_to_work"
+        },
+        {
+          "field_path": "platform_cells[42].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "platform_cells[42].platform",
+          "value": "GitHub"
+        },
+        {
+          "field_path": "platform_cells[42].state",
+          "value": "release_verified"
+        },
+        {
+          "field_path": "platform_cells[43].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "platform_cells[43].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "platform_cells[43].state",
+          "value": "version_family_verified"
+        },
+        {
+          "field_path": "platform_cells[44].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "platform_cells[44].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "platform_cells[44].state",
+          "value": "four_doi_findable"
+        },
+        {
+          "field_path": "platform_cells[45].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "platform_cells[45].platform",
+          "value": "ORCID"
+        },
+        {
+          "field_path": "platform_cells[45].state",
+          "value": "family_group_observed"
+        },
+        {
+          "field_path": "platform_cells[46].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "platform_cells[46].platform",
+          "value": "SWH"
+        },
+        {
+          "field_path": "platform_cells[46].state",
+          "value": "deposit_release_directory_verified"
+        },
+        {
+          "field_path": "platform_cells[47].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "platform_cells[47].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "platform_cells[47].state",
+          "value": "query_unresolved"
+        },
+        {
+          "field_path": "platform_cells[48].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "platform_cells[48].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "platform_cells[48].state",
+          "value": "version_doi_resolves_to_work"
+        },
+        {
+          "field_path": "platform_cells[49].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "platform_cells[49].platform",
+          "value": "GitHub"
+        },
+        {
+          "field_path": "platform_cells[49].state",
+          "value": "release_verified"
+        },
+        {
+          "field_path": "platform_cells[50].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "platform_cells[50].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "platform_cells[50].state",
+          "value": "version_family_verified"
+        },
+        {
+          "field_path": "platform_cells[51].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "platform_cells[51].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "platform_cells[51].state",
+          "value": "four_doi_findable"
+        },
+        {
+          "field_path": "platform_cells[52].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "platform_cells[52].platform",
+          "value": "ORCID"
+        },
+        {
+          "field_path": "platform_cells[52].state",
+          "value": "family_group_observed"
+        },
+        {
+          "field_path": "platform_cells[53].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "platform_cells[53].platform",
+          "value": "SWH"
+        },
+        {
+          "field_path": "platform_cells[53].state",
+          "value": "deposit_release_directory_verified"
+        },
+        {
+          "field_path": "platform_cells[54].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "platform_cells[54].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "platform_cells[54].state",
+          "value": "query_unresolved"
+        },
+        {
+          "field_path": "platform_cells[55].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "platform_cells[55].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "platform_cells[55].state",
+          "value": "version_doi_resolves_to_work"
+        },
+        {
+          "field_path": "platform_cells[56].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "platform_cells[56].platform",
+          "value": "GitHub"
+        },
+        {
+          "field_path": "platform_cells[56].state",
+          "value": "release_verified"
+        },
+        {
+          "field_path": "platform_cells[57].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "platform_cells[57].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "platform_cells[57].state",
+          "value": "version_family_verified"
+        },
+        {
+          "field_path": "platform_cells[58].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "platform_cells[58].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "platform_cells[58].state",
+          "value": "four_doi_findable"
+        },
+        {
+          "field_path": "platform_cells[59].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "platform_cells[59].platform",
+          "value": "ORCID"
+        },
+        {
+          "field_path": "platform_cells[59].state",
+          "value": "family_group_observed"
+        },
+        {
+          "field_path": "platform_cells[60].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "platform_cells[60].platform",
+          "value": "SWH"
+        },
+        {
+          "field_path": "platform_cells[60].state",
+          "value": "deposit_release_directory_verified"
+        },
+        {
+          "field_path": "platform_cells[61].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "platform_cells[61].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "platform_cells[61].state",
+          "value": "query_unresolved"
+        },
+        {
+          "field_path": "platform_cells[62].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "platform_cells[62].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "platform_cells[62].state",
+          "value": "version_doi_resolves_to_work"
+        },
+        {
+          "field_path": "platform_cells[63].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "platform_cells[63].platform",
+          "value": "GitHub"
+        },
+        {
+          "field_path": "platform_cells[63].state",
+          "value": "release_verified"
+        },
+        {
+          "field_path": "platform_cells[64].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "platform_cells[64].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "platform_cells[64].state",
+          "value": "version_family_verified"
+        },
+        {
+          "field_path": "platform_cells[65].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "platform_cells[65].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "platform_cells[65].state",
+          "value": "four_doi_findable"
+        },
+        {
+          "field_path": "platform_cells[66].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "platform_cells[66].platform",
+          "value": "ORCID"
+        },
+        {
+          "field_path": "platform_cells[66].state",
+          "value": "family_group_observed"
+        },
+        {
+          "field_path": "platform_cells[67].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "platform_cells[67].platform",
+          "value": "SWH"
+        },
+        {
+          "field_path": "platform_cells[67].state",
+          "value": "deposit_release_directory_verified"
+        },
+        {
+          "field_path": "platform_cells[68].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "platform_cells[68].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "platform_cells[68].state",
+          "value": "query_unresolved"
+        },
+        {
+          "field_path": "platform_cells[69].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "platform_cells[69].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "platform_cells[69].state",
+          "value": "version_doi_resolves_to_work"
+        },
+        {
+          "field_path": "zenodo_totals.views",
+          "value": 990
+        },
+        {
+          "field_path": "zenodo_totals.unique_views",
+          "value": 864
+        },
+        {
+          "field_path": "zenodo_totals.downloads",
+          "value": 7
+        },
+        {
+          "field_path": "zenodo_totals.unique_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "zenodo_totals.version_views",
+          "value": 94
+        },
+        {
+          "field_path": "zenodo_totals.version_unique_views",
+          "value": 84
+        },
+        {
+          "field_path": "zenodo_totals.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo_totals.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "datacite_fixed_dois[0].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "datacite_fixed_dois[0].version",
+          "value": "concept"
+        },
+        {
+          "field_path": "datacite_fixed_dois[0].expected_doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "datacite_fixed_dois[0].doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "datacite_fixed_dois[0].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[1].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "datacite_fixed_dois[1].version",
+          "value": "v1"
+        },
+        {
+          "field_path": "datacite_fixed_dois[1].expected_doi",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "datacite_fixed_dois[1].doi",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "datacite_fixed_dois[1].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[2].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "datacite_fixed_dois[2].version",
+          "value": "v2"
+        },
+        {
+          "field_path": "datacite_fixed_dois[2].expected_doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "datacite_fixed_dois[2].doi",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "datacite_fixed_dois[2].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[3].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "datacite_fixed_dois[3].version",
+          "value": "v3"
+        },
+        {
+          "field_path": "datacite_fixed_dois[3].expected_doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "datacite_fixed_dois[3].doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "datacite_fixed_dois[3].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[4].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "datacite_fixed_dois[4].version",
+          "value": "concept"
+        },
+        {
+          "field_path": "datacite_fixed_dois[4].expected_doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "datacite_fixed_dois[4].doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "datacite_fixed_dois[4].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[5].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "datacite_fixed_dois[5].version",
+          "value": "v1"
+        },
+        {
+          "field_path": "datacite_fixed_dois[5].expected_doi",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "datacite_fixed_dois[5].doi",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "datacite_fixed_dois[5].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[6].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "datacite_fixed_dois[6].version",
+          "value": "v2"
+        },
+        {
+          "field_path": "datacite_fixed_dois[6].expected_doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "datacite_fixed_dois[6].doi",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "datacite_fixed_dois[6].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[7].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "datacite_fixed_dois[7].version",
+          "value": "v3"
+        },
+        {
+          "field_path": "datacite_fixed_dois[7].expected_doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "datacite_fixed_dois[7].doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "datacite_fixed_dois[7].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[8].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "datacite_fixed_dois[8].version",
+          "value": "concept"
+        },
+        {
+          "field_path": "datacite_fixed_dois[8].expected_doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "datacite_fixed_dois[8].doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "datacite_fixed_dois[8].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[9].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "datacite_fixed_dois[9].version",
+          "value": "v1"
+        },
+        {
+          "field_path": "datacite_fixed_dois[9].expected_doi",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "datacite_fixed_dois[9].doi",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "datacite_fixed_dois[9].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[10].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "datacite_fixed_dois[10].version",
+          "value": "v2"
+        },
+        {
+          "field_path": "datacite_fixed_dois[10].expected_doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "datacite_fixed_dois[10].doi",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "datacite_fixed_dois[10].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[11].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "datacite_fixed_dois[11].version",
+          "value": "v3"
+        },
+        {
+          "field_path": "datacite_fixed_dois[11].expected_doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "datacite_fixed_dois[11].doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "datacite_fixed_dois[11].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[12].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "datacite_fixed_dois[12].version",
+          "value": "concept"
+        },
+        {
+          "field_path": "datacite_fixed_dois[12].expected_doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "datacite_fixed_dois[12].doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "datacite_fixed_dois[12].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[13].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "datacite_fixed_dois[13].version",
+          "value": "v1"
+        },
+        {
+          "field_path": "datacite_fixed_dois[13].expected_doi",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "datacite_fixed_dois[13].doi",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "datacite_fixed_dois[13].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[14].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "datacite_fixed_dois[14].version",
+          "value": "v2"
+        },
+        {
+          "field_path": "datacite_fixed_dois[14].expected_doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "datacite_fixed_dois[14].doi",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "datacite_fixed_dois[14].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[15].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "datacite_fixed_dois[15].version",
+          "value": "v3"
+        },
+        {
+          "field_path": "datacite_fixed_dois[15].expected_doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "datacite_fixed_dois[15].doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "datacite_fixed_dois[15].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[16].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "datacite_fixed_dois[16].version",
+          "value": "concept"
+        },
+        {
+          "field_path": "datacite_fixed_dois[16].expected_doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "datacite_fixed_dois[16].doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "datacite_fixed_dois[16].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[17].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "datacite_fixed_dois[17].version",
+          "value": "v1"
+        },
+        {
+          "field_path": "datacite_fixed_dois[17].expected_doi",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "datacite_fixed_dois[17].doi",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "datacite_fixed_dois[17].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[18].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "datacite_fixed_dois[18].version",
+          "value": "v2"
+        },
+        {
+          "field_path": "datacite_fixed_dois[18].expected_doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "datacite_fixed_dois[18].doi",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "datacite_fixed_dois[18].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[19].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "datacite_fixed_dois[19].version",
+          "value": "v3"
+        },
+        {
+          "field_path": "datacite_fixed_dois[19].expected_doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "datacite_fixed_dois[19].doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "datacite_fixed_dois[19].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[20].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "datacite_fixed_dois[20].version",
+          "value": "concept"
+        },
+        {
+          "field_path": "datacite_fixed_dois[20].expected_doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "datacite_fixed_dois[20].doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "datacite_fixed_dois[20].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[21].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "datacite_fixed_dois[21].version",
+          "value": "v1"
+        },
+        {
+          "field_path": "datacite_fixed_dois[21].expected_doi",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "datacite_fixed_dois[21].doi",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "datacite_fixed_dois[21].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[22].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "datacite_fixed_dois[22].version",
+          "value": "v2"
+        },
+        {
+          "field_path": "datacite_fixed_dois[22].expected_doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "datacite_fixed_dois[22].doi",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "datacite_fixed_dois[22].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[23].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "datacite_fixed_dois[23].version",
+          "value": "v3"
+        },
+        {
+          "field_path": "datacite_fixed_dois[23].expected_doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "datacite_fixed_dois[23].doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "datacite_fixed_dois[23].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[24].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "datacite_fixed_dois[24].version",
+          "value": "concept"
+        },
+        {
+          "field_path": "datacite_fixed_dois[24].expected_doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "datacite_fixed_dois[24].doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "datacite_fixed_dois[24].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[25].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "datacite_fixed_dois[25].version",
+          "value": "v1"
+        },
+        {
+          "field_path": "datacite_fixed_dois[25].expected_doi",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "datacite_fixed_dois[25].doi",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "datacite_fixed_dois[25].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[26].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "datacite_fixed_dois[26].version",
+          "value": "v2"
+        },
+        {
+          "field_path": "datacite_fixed_dois[26].expected_doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "datacite_fixed_dois[26].doi",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "datacite_fixed_dois[26].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[27].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "datacite_fixed_dois[27].version",
+          "value": "v3"
+        },
+        {
+          "field_path": "datacite_fixed_dois[27].expected_doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "datacite_fixed_dois[27].doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "datacite_fixed_dois[27].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[28].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "datacite_fixed_dois[28].version",
+          "value": "concept"
+        },
+        {
+          "field_path": "datacite_fixed_dois[28].expected_doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "datacite_fixed_dois[28].doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "datacite_fixed_dois[28].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[29].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "datacite_fixed_dois[29].version",
+          "value": "v1"
+        },
+        {
+          "field_path": "datacite_fixed_dois[29].expected_doi",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "datacite_fixed_dois[29].doi",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "datacite_fixed_dois[29].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[30].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "datacite_fixed_dois[30].version",
+          "value": "v2"
+        },
+        {
+          "field_path": "datacite_fixed_dois[30].expected_doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "datacite_fixed_dois[30].doi",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "datacite_fixed_dois[30].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[31].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "datacite_fixed_dois[31].version",
+          "value": "v3"
+        },
+        {
+          "field_path": "datacite_fixed_dois[31].expected_doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "datacite_fixed_dois[31].doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "datacite_fixed_dois[31].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[32].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "datacite_fixed_dois[32].version",
+          "value": "concept"
+        },
+        {
+          "field_path": "datacite_fixed_dois[32].expected_doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "datacite_fixed_dois[32].doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "datacite_fixed_dois[32].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[33].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "datacite_fixed_dois[33].version",
+          "value": "v1"
+        },
+        {
+          "field_path": "datacite_fixed_dois[33].expected_doi",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "datacite_fixed_dois[33].doi",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "datacite_fixed_dois[33].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[34].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "datacite_fixed_dois[34].version",
+          "value": "v2"
+        },
+        {
+          "field_path": "datacite_fixed_dois[34].expected_doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "datacite_fixed_dois[34].doi",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "datacite_fixed_dois[34].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[35].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "datacite_fixed_dois[35].version",
+          "value": "v3"
+        },
+        {
+          "field_path": "datacite_fixed_dois[35].expected_doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "datacite_fixed_dois[35].doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "datacite_fixed_dois[35].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[36].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "datacite_fixed_dois[36].version",
+          "value": "concept"
+        },
+        {
+          "field_path": "datacite_fixed_dois[36].expected_doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "datacite_fixed_dois[36].doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "datacite_fixed_dois[36].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[37].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "datacite_fixed_dois[37].version",
+          "value": "v1"
+        },
+        {
+          "field_path": "datacite_fixed_dois[37].expected_doi",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "datacite_fixed_dois[37].doi",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "datacite_fixed_dois[37].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[38].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "datacite_fixed_dois[38].version",
+          "value": "v2"
+        },
+        {
+          "field_path": "datacite_fixed_dois[38].expected_doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "datacite_fixed_dois[38].doi",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "datacite_fixed_dois[38].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite_fixed_dois[39].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "datacite_fixed_dois[39].version",
+          "value": "v3"
+        },
+        {
+          "field_path": "datacite_fixed_dois[39].expected_doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "datacite_fixed_dois[39].doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "datacite_fixed_dois[39].state",
+          "value": "findable"
+        },
+        {
+          "field_path": "openalex.count",
+          "value": 16
+        },
+        {
+          "field_path": "openalex.query_scope",
+          "value": "explicit corpus=all"
+        },
+        {
+          "field_path": "openalex.default_query_count",
+          "value": 16
+        },
+        {
+          "field_path": "openalex.all_corpora_query_count",
+          "value": 16
+        },
+        {
+          "field_path": "openalex.open_access_count",
+          "value": 16
+        },
+        {
+          "field_path": "openalex.registration.publication_date",
+          "value": "2026-10-05"
+        },
+        {
+          "field_path": "openalex.registration.primary_location.version",
+          "value": null
+        },
+        {
+          "field_path": "openalex.registration.open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.registration.open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.registration.countries_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "openalex.registration.institutions_distinct_count",
+          "value": 0
+        },
+        {
+          "field_path": "openalex.registration.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "openalex.registration.locations_count",
+          "value": 1
+        },
+        {
+          "field_path": "openalex.registration.locations[0].version",
+          "value": null
+        },
+        {
+          "field_path": "openalex.registration.best_oa_location.version",
+          "value": null
+        },
+        {
+          "field_path": "openalex.registration.referenced_works_count",
+          "value": 1
+        },
+        {
+          "field_path": "openalex.registration.abstract_inverted_index.repository,[0]",
+          "value": 28
+        },
+        {
+          "field_path": "openalex.registration.abstract_inverted_index.time[0]",
+          "value": 53
+        },
+        {
+          "field_path": "openalex.registration.abstract_inverted_index.counting[0]",
+          "value": 58
+        },
+        {
+          "field_path": "openalex.registration.abstract_inverted_index.counting[1]",
+          "value": 75
+        },
+        {
+          "field_path": "openalex.registration.abstract_inverted_index.timestamps,[0]",
+          "value": 60
+        },
+        {
+          "field_path": "openalex.registration.abstract_inverted_index.states[0]",
+          "value": 63
+        },
+        {
+          "field_path": "openalex.registration.abstract_inverted_index.state[0]",
+          "value": 73
+        },
+        {
+          "field_path": "openalex.registration.abstract_inverted_index.state[1]",
+          "value": 96
+        },
+        {
+          "field_path": "openalex.registration.abstract_inverted_index.time-stamped[0]",
+          "value": 92
+        },
+        {
+          "field_path": "openalex.registration.abstract_inverted_index.cross-layer[0]",
+          "value": 95
+        },
+        {
+          "field_path": "openalex.registration.abstract_inverted_index.counterexamples,[0]",
+          "value": 108
+        },
+        {
+          "field_path": "openalex.registration.updated_date",
+          "value": "2026-10-09T09:14:12.587421"
+        },
+        {
+          "field_path": "openalex.registration.created_date",
+          "value": "2026-10-06T00:00:00"
+        },
+        {
+          "field_path": "orcid.group_count",
+          "value": 14
+        },
+        {
+          "field_path": "orcid.summary_count",
+          "value": 61
+        },
+        {
+          "field_path": "orcid.fixed_corpus_groups",
+          "value": 10
+        },
+        {
+          "field_path": "orcid.fixed_corpus_summaries",
+          "value": 50
+        },
+        {
+          "field_path": "supplementary.rsd_records[0].concept_doi",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "supplementary.rsd_records[0].short_statement",
+          "value": "Bilingual theory, evidence, and architecture-decision foundation for agent systems, with canonical sources, explicit claim states, implementation boundaries, validation states, and reproducibility discipline"
+        },
+        {
+          "field_path": "supplementary.rsd_records[0].created_at",
+          "value": "2026-10-06T17:16:08.800916+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[0].updated_at",
+          "value": "2026-10-06T17:17:56.025492+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[1].concept_doi",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "supplementary.rsd_records[1].short_statement",
+          "value": "Bilingual, source-grounded observatory tracing global AI from its intellectual and computational roots to the agentic frontier across models, protocols, runtimes, evaluation, safety, governance, and ecosystems"
+        },
+        {
+          "field_path": "supplementary.rsd_records[1].created_at",
+          "value": "2026-10-06T16:54:20.748877+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[1].updated_at",
+          "value": "2026-10-09T08:50:59.234958+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[2].concept_doi",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "supplementary.rsd_records[2].short_statement",
+          "value": "AST-driven research-document compiler for typed Markdown, structural-change evidence, diagnostics, artifact records and lineage, SARIF interchange, multi-format synchronization, and RO-Crate packaging"
+        },
+        {
+          "field_path": "supplementary.rsd_records[2].created_at",
+          "value": "2026-10-06T17:21:37.807981+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[2].updated_at",
+          "value": "2026-10-06T17:23:10.33993+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[3].concept_doi",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "supplementary.rsd_records[3].short_statement",
+          "value": "Dependency-free Python reference implementation for explicit data contracts, canonicalization, measurable state transitions, KL-divergence checks, validation, and reproducible repository boundaries"
+        },
+        {
+          "field_path": "supplementary.rsd_records[3].created_at",
+          "value": "2026-10-06T17:10:32.920248+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[3].updated_at",
+          "value": "2026-10-06T17:12:37.213804+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[4].concept_doi",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "supplementary.rsd_records[4].short_statement",
+          "value": "Bilingual, source-grounded observatory of China's AI and agent ecosystem across history, policy, standards, research, open source, infrastructure, industry, applications, evaluation, safety, and governance"
+        },
+        {
+          "field_path": "supplementary.rsd_records[4].created_at",
+          "value": "2026-10-06T16:44:32.968147+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[4].updated_at",
+          "value": "2026-10-06T16:52:46.53881+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[5].concept_doi",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "supplementary.rsd_records[5].short_statement",
+          "value": "Evidence-aware state-machine framework for research workflows with explicit claims, evidence, conflicts, runtime policy, checkpoints, provenance, claim verification, bounded transfer, and portable evidence handoff"
+        },
+        {
+          "field_path": "supplementary.rsd_records[5].created_at",
+          "value": "2026-10-06T17:23:40.290725+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[5].updated_at",
+          "value": "2026-10-06T17:24:48.699804+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[6].concept_doi",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "supplementary.rsd_records[6].short_statement",
+          "value": "Standard-library Python reference for versioned graph storage, SQLite persistence, FTS5 lexical retrieval, bounded graph analysis, entropy metrics, transactional ingestion, and evidence-aware reflection"
+        },
+        {
+          "field_path": "supplementary.rsd_records[6].created_at",
+          "value": "2026-10-06T17:13:04.43721+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[6].updated_at",
+          "value": "2026-10-06T17:15:19.256206+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[7].concept_doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "supplementary.rsd_records[7].short_statement",
+          "value": "A research software and study infrastructure for preregistered longitudinal auditing of research software identity propagation across open scholarly infrastructures, with explicit contracts, provenance, evidence, schemas, and reproducible observations"
+        },
+        {
+          "field_path": "supplementary.rsd_records[7].created_at",
+          "value": "2026-10-06T15:25:52.98348+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[7].updated_at",
+          "value": "2026-10-06T15:53:30.839532+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[8].concept_doi",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "supplementary.rsd_records[8].short_statement",
+          "value": "Declarative scientific-figure compiler with explicit uncertainty semantics, accessibility intent, communication audits, provenance sidecars, portable figure evidence, and publisher-target boundaries"
+        },
+        {
+          "field_path": "supplementary.rsd_records[8].created_at",
+          "value": "2026-10-06T17:25:46.497518+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[8].updated_at",
+          "value": "2026-10-06T17:28:41.248005+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[9].concept_doi",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "supplementary.rsd_records[9].short_statement",
+          "value": "Public portal and research gateway for an edge-first AI research system spanning agent research, evidence engineering, research infrastructure, digital archaeology, and deterministic knowledge lifecycles"
+        },
+        {
+          "field_path": "supplementary.rsd_records[9].created_at",
+          "value": "2026-10-06T17:00:55.891673+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[9].updated_at",
+          "value": "2026-10-06T17:07:50.179297+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[10].concept_doi",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "supplementary.rsd_records[10].short_statement",
+          "value": "Standard-library research laboratory for deterministic state, evidence, reliability boundaries, agent action integrity, reproducible ledgers, and edge-native execution"
+        },
+        {
+          "field_path": "supplementary.rsd_records[10].created_at",
+          "value": "2026-10-06T17:04:06.280456+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_records[10].updated_at",
+          "value": "2026-10-06T17:06:52.087891+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_project[0].date_end",
+          "value": null
+        },
+        {
+          "field_path": "supplementary.rsd_project[0].date_start",
+          "value": "2026-10-07"
+        },
+        {
+          "field_path": "supplementary.rsd_project[0].created_at",
+          "value": "2026-10-06T16:28:19.530397+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_project[0].updated_at",
+          "value": "2026-10-06T23:38:36.812197+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_companion[0].concept_doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "supplementary.rsd_companion[0].short_statement",
+          "value": "A research software and study infrastructure for preregistered longitudinal auditing of research software identity propagation across open scholarly infrastructures, with explicit contracts, provenance, evidence, schemas, and reproducible observations"
+        },
+        {
+          "field_path": "supplementary.rsd_companion[0].created_at",
+          "value": "2026-10-06T15:25:52.98348+00:00"
+        },
+        {
+          "field_path": "supplementary.rsd_companion[0].updated_at",
+          "value": "2026-10-06T15:53:30.839532+00:00"
+        },
+        {
+          "field_path": "supplementary.osf.data.attributes.date_created",
+          "value": "2026-10-05T14:04:13.825314"
+        },
+        {
+          "field_path": "supplementary.osf.data.attributes.date_modified",
+          "value": "2026-10-06T09:49:34.548421"
+        },
+        {
+          "field_path": "supplementary.osf.data.attributes.current_user_is_contributor_or_group_member",
+          "value": false
+        },
+        {
+          "field_path": "supplementary.osf.data.attributes.reviews_state",
+          "value": "accepted"
+        },
+        {
+          "field_path": "supplementary.osf.data.attributes.article_doi",
+          "value": null
+        },
+        {
+          "field_path": "supplementary.osf.data.attributes.date_registered",
+          "value": "2026-10-05T14:04:13.783851"
+        },
+        {
+          "field_path": "supplementary.osf.data.attributes.date_withdrawn",
+          "value": null
+        },
+        {
+          "field_path": "supplementary.osf.data.attributes.embargo_end_date",
+          "value": null
+        },
+        {
+          "field_path": "supplementary.osf.data.attributes.revision_state",
+          "value": "approved"
+        },
+        {
+          "field_path": "supplementary.osf.meta.version",
+          "value": "2.0"
+        },
+        {
+          "field_path": "supplementary.internet_archive.created",
+          "value": 1791590665
+        },
+        {
+          "field_path": "supplementary.internet_archive.files[0].mtime",
+          "value": "1791280779"
+        },
+        {
+          "field_path": "supplementary.internet_archive.files[0].filecount",
+          "value": "12"
+        },
+        {
+          "field_path": "supplementary.internet_archive.files[1].mtime",
+          "value": "1791280870"
+        },
+        {
+          "field_path": "supplementary.internet_archive.files[3].mtime",
+          "value": "1791280825"
+        },
+        {
+          "field_path": "supplementary.internet_archive.files[4].mtime",
+          "value": "1791280869"
+        },
+        {
+          "field_path": "supplementary.internet_archive.files_count",
+          "value": 5
+        },
+        {
+          "field_path": "supplementary.internet_archive.item_last_updated",
+          "value": 1791280870
+        },
+        {
+          "field_path": "supplementary.internet_archive.metadata.date",
+          "value": "2026-10-05"
+        },
+        {
+          "field_path": "supplementary.internet_archive.metadata.osf_registration_doi",
+          "value": "10.17605/OSF.IO/5B329"
+        },
+        {
+          "field_path": "supplementary.internet_archive.metadata.publicdate",
+          "value": "2026-10-05 14:08:25"
+        },
+        {
+          "field_path": "supplementary.internet_archive.metadata.addeddate",
+          "value": "2026-10-05 14:08:25"
+        },
+        {
+          "field_path": "supplementary.internet_archive.metadata.modified",
+          "value": "2026-10-06 09:59:40.760083+00:00"
+        },
+        {
+          "field_path": "supplementary.rrid_request.platform",
+          "value": "SciCrunch RRID"
+        },
+        {
+          "field_path": "supplementary.rrid_request.started_at_utc",
+          "value": "2026-10-10T00:04:57.579631+00:00"
+        },
+        {
+          "field_path": "supplementary.rrid_request.http_status",
+          "value": 403
+        },
+        {
+          "field_path": "supplementary.rrid_request.finished_at_utc",
+          "value": "2026-10-10T00:04:58.771177+00:00"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.doi",
+          "value": "10.17605/osf.io/5b329"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.dates[0].date",
+          "value": "2026-10-05"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.dates[0].dateType",
+          "value": "Created"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.dates[1].date",
+          "value": "2026-10-06"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.dates[1].dateType",
+          "value": "Updated"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.version",
+          "value": null
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.metadataVersion",
+          "value": 3
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.referenceCount",
+          "value": 3
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.versionOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.created",
+          "value": "2026-10-05T14:05:58.000Z"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_osf.data.attributes.updated",
+          "value": "2026-10-06T09:49:36.000Z"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.dates[0].date",
+          "value": "2026-10-06"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.version",
+          "value": "v2026.10-initial-research-runtime"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.metadataVersion",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.citationCount",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.citationsOverTime[0].total",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.versionCount",
+          "value": 2
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.versionOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.created",
+          "value": "2026-10-05T15:45:50.000Z"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_concept.data.attributes.updated",
+          "value": "2026-10-06T02:48:22.000Z"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.doi",
+          "value": "10.5281/zenodo.23166491"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.dates[0].date",
+          "value": "2026-10-05"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.version",
+          "value": "beta"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.citationCount",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.citationsOverTime[0].total",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.created",
+          "value": "2026-10-05T15:45:50.000Z"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_beta.data.attributes.updated",
+          "value": "2026-10-05T15:45:50.000Z"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.doi",
+          "value": "10.5281/zenodo.23176748"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.dates[0].date",
+          "value": "2026-10-06"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.version",
+          "value": "v2026.10-initial-research-runtime"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.citationCount",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.citationsOverTime[0].total",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.created",
+          "value": "2026-10-06T02:48:21.000Z"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current.data.attributes.updated",
+          "value": "2026-10-06T02:48:21.000Z"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.doi",
+          "value": "10.5281/zenodo.23176748"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.dates[0].date",
+          "value": "2026-10-06"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.version",
+          "value": "v2026.10-initial-research-runtime"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.citationCount",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.citationsOverTime[0].total",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.created",
+          "value": "2026-10-06T02:48:21.000Z"
+        },
+        {
+          "field_path": "supplementary.datacite.supplement_datacite_companion_current_transport_followup.data.attributes.updated",
+          "value": "2026-10-06T02:48:21.000Z"
+        },
+        {
+          "field_path": "request_failures[0].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "request_failures[0].started_at_utc",
+          "value": "2026-10-10T00:03:15.757860+00:00"
+        },
+        {
+          "field_path": "request_failures[0].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[0].finished_at_utc",
+          "value": "2026-10-10T00:03:36.796421+00:00"
+        },
+        {
+          "field_path": "request_failures[1].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[1].started_at_utc",
+          "value": "2026-10-10T00:03:13.004626+00:00"
+        },
+        {
+          "field_path": "request_failures[1].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[1].finished_at_utc",
+          "value": "2026-10-10T00:03:39.630478+00:00"
+        },
+        {
+          "field_path": "request_failures[2].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[2].started_at_utc",
+          "value": "2026-10-10T00:03:18.936737+00:00"
+        },
+        {
+          "field_path": "request_failures[2].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[2].finished_at_utc",
+          "value": "2026-10-10T00:03:44.651766+00:00"
+        },
+        {
+          "field_path": "request_failures[3].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[3].started_at_utc",
+          "value": "2026-10-10T00:03:32.228956+00:00"
+        },
+        {
+          "field_path": "request_failures[3].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[3].finished_at_utc",
+          "value": "2026-10-10T00:03:57.935998+00:00"
+        },
+        {
+          "field_path": "request_failures[4].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "request_failures[4].started_at_utc",
+          "value": "2026-10-10T00:03:40.955570+00:00"
+        },
+        {
+          "field_path": "request_failures[4].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[4].finished_at_utc",
+          "value": "2026-10-10T00:04:02.010863+00:00"
+        },
+        {
+          "field_path": "request_failures[5].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[5].started_at_utc",
+          "value": "2026-10-10T00:03:44.651766+00:00"
+        },
+        {
+          "field_path": "request_failures[5].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[5].finished_at_utc",
+          "value": "2026-10-10T00:04:10.322655+00:00"
+        },
+        {
+          "field_path": "request_failures[6].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[6].started_at_utc",
+          "value": "2026-10-10T00:03:57.244415+00:00"
+        },
+        {
+          "field_path": "request_failures[6].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[6].finished_at_utc",
+          "value": "2026-10-10T00:04:22.924817+00:00"
+        },
+        {
+          "field_path": "request_failures[7].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[7].started_at_utc",
+          "value": "2026-10-10T00:04:04.596242+00:00"
+        },
+        {
+          "field_path": "request_failures[7].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[7].finished_at_utc",
+          "value": "2026-10-10T00:04:30.268277+00:00"
+        },
+        {
+          "field_path": "request_failures[8].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[8].started_at_utc",
+          "value": "2026-10-10T00:04:12.410367+00:00"
+        },
+        {
+          "field_path": "request_failures[8].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[8].finished_at_utc",
+          "value": "2026-10-10T00:04:38.125958+00:00"
+        },
+        {
+          "field_path": "request_failures[9].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "request_failures[9].started_at_utc",
+          "value": "2026-10-10T00:04:26.355665+00:00"
+        },
+        {
+          "field_path": "request_failures[9].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[9].finished_at_utc",
+          "value": "2026-10-10T00:04:47.399837+00:00"
+        },
+        {
+          "field_path": "request_failures[10].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[10].started_at_utc",
+          "value": "2026-10-10T00:04:23.091907+00:00"
+        },
+        {
+          "field_path": "request_failures[10].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[10].finished_at_utc",
+          "value": "2026-10-10T00:04:48.808624+00:00"
+        },
+        {
+          "field_path": "request_failures[11].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "request_failures[11].started_at_utc",
+          "value": "2026-10-10T00:04:54.140582+00:00"
+        },
+        {
+          "field_path": "request_failures[11].http_status",
+          "value": 404
+        },
+        {
+          "field_path": "request_failures[11].finished_at_utc",
+          "value": "2026-10-10T00:04:54.905929+00:00"
+        },
+        {
+          "field_path": "request_failures[12].platform",
+          "value": "SciCrunch RRID"
+        },
+        {
+          "field_path": "request_failures[12].started_at_utc",
+          "value": "2026-10-10T00:04:57.579631+00:00"
+        },
+        {
+          "field_path": "request_failures[12].http_status",
+          "value": 403
+        },
+        {
+          "field_path": "request_failures[12].finished_at_utc",
+          "value": "2026-10-10T00:04:58.771177+00:00"
+        },
+        {
+          "field_path": "request_failures[13].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[13].started_at_utc",
+          "value": "2026-10-10T00:04:38.126471+00:00"
+        },
+        {
+          "field_path": "request_failures[13].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[13].finished_at_utc",
+          "value": "2026-10-10T00:05:03.819298+00:00"
+        },
+        {
+          "field_path": "request_failures[14].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "request_failures[14].started_at_utc",
+          "value": "2026-10-10T00:05:06.326277+00:00"
+        },
+        {
+          "field_path": "request_failures[14].http_status",
+          "value": 404
+        },
+        {
+          "field_path": "request_failures[14].finished_at_utc",
+          "value": "2026-10-10T00:05:07.147490+00:00"
+        },
+        {
+          "field_path": "request_failures[15].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[15].started_at_utc",
+          "value": "2026-10-10T00:04:48.106905+00:00"
+        },
+        {
+          "field_path": "request_failures[15].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[15].finished_at_utc",
+          "value": "2026-10-10T00:05:13.823650+00:00"
+        },
+        {
+          "field_path": "request_failures[16].platform",
+          "value": "DataCite"
+        },
+        {
+          "field_path": "request_failures[16].started_at_utc",
+          "value": "2026-10-10T00:05:01.506747+00:00"
+        },
+        {
+          "field_path": "request_failures[16].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[16].finished_at_utc",
+          "value": "2026-10-10T00:05:22.523320+00:00"
+        },
+        {
+          "field_path": "request_failures[17].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "request_failures[17].started_at_utc",
+          "value": "2026-10-10T00:05:01.639259+00:00"
+        },
+        {
+          "field_path": "request_failures[17].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[17].finished_at_utc",
+          "value": "2026-10-10T00:05:22.665146+00:00"
+        },
+        {
+          "field_path": "request_failures[18].platform",
+          "value": "Zenodo"
+        },
+        {
+          "field_path": "request_failures[18].started_at_utc",
+          "value": "2026-10-10T00:05:07.147490+00:00"
+        },
+        {
+          "field_path": "request_failures[18].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[18].finished_at_utc",
+          "value": "2026-10-10T00:05:28.184606+00:00"
+        },
+        {
+          "field_path": "request_failures[19].platform",
+          "value": "WorkflowHub"
+        },
+        {
+          "field_path": "request_failures[19].started_at_utc",
+          "value": "2026-10-10T00:05:14.583615+00:00"
+        },
+        {
+          "field_path": "request_failures[19].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[19].finished_at_utc",
+          "value": "2026-10-10T00:05:35.654573+00:00"
+        },
+        {
+          "field_path": "request_failures[20].platform",
+          "value": "WorkflowHub"
+        },
+        {
+          "field_path": "request_failures[20].started_at_utc",
+          "value": "2026-10-10T00:06:01.900248+00:00"
+        },
+        {
+          "field_path": "request_failures[20].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[20].finished_at_utc",
+          "value": "2026-10-10T00:06:22.943427+00:00"
+        },
+        {
+          "field_path": "request_failures[21].platform",
+          "value": "WorkflowHub"
+        },
+        {
+          "field_path": "request_failures[21].started_at_utc",
+          "value": "2026-10-10T00:06:01.900248+00:00"
+        },
+        {
+          "field_path": "request_failures[21].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[21].finished_at_utc",
+          "value": "2026-10-10T00:06:22.942740+00:00"
+        },
+        {
+          "field_path": "request_failures[22].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "request_failures[22].started_at_utc",
+          "value": "2026-10-10T00:06:05.318371+00:00"
+        },
+        {
+          "field_path": "request_failures[22].http_status",
+          "value": 404
+        },
+        {
+          "field_path": "request_failures[22].finished_at_utc",
+          "value": "2026-10-10T00:06:06.128792+00:00"
+        },
+        {
+          "field_path": "request_failures[23].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "request_failures[23].started_at_utc",
+          "value": "2026-10-10T00:06:08.126142+00:00"
+        },
+        {
+          "field_path": "request_failures[23].http_status",
+          "value": 404
+        },
+        {
+          "field_path": "request_failures[23].finished_at_utc",
+          "value": "2026-10-10T00:06:08.948577+00:00"
+        },
+        {
+          "field_path": "request_failures[24].platform",
+          "value": "OpenAlex"
+        },
+        {
+          "field_path": "request_failures[24].started_at_utc",
+          "value": "2026-10-10T00:06:12.074970+00:00"
+        },
+        {
+          "field_path": "request_failures[24].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[24].finished_at_utc",
+          "value": "2026-10-10T00:06:33.096154+00:00"
+        },
+        {
+          "field_path": "request_failures[25].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[25].started_at_utc",
+          "value": "2026-10-10T00:06:39.667158+00:00"
+        },
+        {
+          "field_path": "request_failures[25].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[25].finished_at_utc",
+          "value": "2026-10-10T00:07:35.440291+00:00"
+        },
+        {
+          "field_path": "request_failures[25].timeout_seconds",
+          "value": 55
+        },
+        {
+          "field_path": "request_failures[26].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[26].started_at_utc",
+          "value": "2026-10-10T00:06:39.668661+00:00"
+        },
+        {
+          "field_path": "request_failures[26].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[26].finished_at_utc",
+          "value": "2026-10-10T00:07:00.756712+00:00"
+        },
+        {
+          "field_path": "request_failures[26].timeout_seconds",
+          "value": 55
+        },
+        {
+          "field_path": "request_failures[27].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[27].started_at_utc",
+          "value": "2026-10-10T00:06:39.668661+00:00"
+        },
+        {
+          "field_path": "request_failures[27].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[27].finished_at_utc",
+          "value": "2026-10-10T00:07:35.440797+00:00"
+        },
+        {
+          "field_path": "request_failures[27].timeout_seconds",
+          "value": 55
+        },
+        {
+          "field_path": "request_failures[28].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[28].started_at_utc",
+          "value": "2026-10-10T00:06:42.490996+00:00"
+        },
+        {
+          "field_path": "request_failures[28].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[28].finished_at_utc",
+          "value": "2026-10-10T00:07:38.181404+00:00"
+        },
+        {
+          "field_path": "request_failures[28].timeout_seconds",
+          "value": 55
+        },
+        {
+          "field_path": "request_failures[29].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[29].started_at_utc",
+          "value": "2026-10-10T00:07:00.756712+00:00"
+        },
+        {
+          "field_path": "request_failures[29].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[29].finished_at_utc",
+          "value": "2026-10-10T00:07:56.492014+00:00"
+        },
+        {
+          "field_path": "request_failures[29].timeout_seconds",
+          "value": 55
+        },
+        {
+          "field_path": "request_failures[30].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[30].started_at_utc",
+          "value": "2026-10-10T00:07:35.440291+00:00"
+        },
+        {
+          "field_path": "request_failures[30].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[30].finished_at_utc",
+          "value": "2026-10-10T00:08:31.154020+00:00"
+        },
+        {
+          "field_path": "request_failures[30].timeout_seconds",
+          "value": 55
+        },
+        {
+          "field_path": "request_failures[31].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[31].started_at_utc",
+          "value": "2026-10-10T00:07:35.440797+00:00"
+        },
+        {
+          "field_path": "request_failures[31].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[31].finished_at_utc",
+          "value": "2026-10-10T00:08:31.138721+00:00"
+        },
+        {
+          "field_path": "request_failures[31].timeout_seconds",
+          "value": 55
+        },
+        {
+          "field_path": "request_failures[32].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[32].started_at_utc",
+          "value": "2026-10-10T00:07:39.552274+00:00"
+        },
+        {
+          "field_path": "request_failures[32].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[32].finished_at_utc",
+          "value": "2026-10-10T00:08:35.276960+00:00"
+        },
+        {
+          "field_path": "request_failures[32].timeout_seconds",
+          "value": 55
+        },
+        {
+          "field_path": "request_failures[33].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[33].started_at_utc",
+          "value": "2026-10-10T00:07:56.492014+00:00"
+        },
+        {
+          "field_path": "request_failures[33].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[33].finished_at_utc",
+          "value": "2026-10-10T00:08:52.211577+00:00"
+        },
+        {
+          "field_path": "request_failures[33].timeout_seconds",
+          "value": 55
+        },
+        {
+          "field_path": "request_failures[34].platform",
+          "value": "OpenAIRE"
+        },
+        {
+          "field_path": "request_failures[34].started_at_utc",
+          "value": "2026-10-10T00:08:31.138721+00:00"
+        },
+        {
+          "field_path": "request_failures[34].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[34].finished_at_utc",
+          "value": "2026-10-10T00:08:52.210725+00:00"
+        },
+        {
+          "field_path": "request_failures[34].timeout_seconds",
+          "value": 55
+        },
+        {
+          "field_path": "request_failures[35].platform",
+          "value": "WorkflowHub"
+        },
+        {
+          "field_path": "request_failures[35].started_at_utc",
+          "value": "2026-10-10T00:08:52.219966+00:00"
+        },
+        {
+          "field_path": "request_failures[35].http_status",
+          "value": null
+        },
+        {
+          "field_path": "request_failures[35].finished_at_utc",
+          "value": "2026-10-10T00:09:13.279171+00:00"
+        },
+        {
+          "field_path": "request_failures[36].platform",
+          "value": "WorkflowHub"
+        },
+        {
+          "field_path": "request_failures[36].started_at_utc",
+          "value": "2026-10-10T00:09:13.280764+00:00"
+        },
+        {
+          "field_path": "request_failures[36].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "request_failures[36].finished_at_utc",
+          "value": "2026-10-10T00:09:15.298823+00:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "sources": [
+    {
+      "role": "AllVersionRecords.json",
+      "sha256": "0da71d395f315f3b0742b9318c0269f2db0c7e58de18841bbbea385f9ee7b2fc",
+      "bytes": 110345
+    },
+    {
+      "role": "FamilySummary.json",
+      "sha256": "899240c3210ea30679829127ef630589a7bcf7b74b9773f65175bde89fd07c30",
+      "bytes": 7950
+    },
+    {
+      "role": "Verification.json",
+      "sha256": "991e8caa41575739706261c1ccfdbc2209d86de9b200648533b29e15691aff55",
+      "bytes": 335
+    }
+  ],
+  "original_http_bytes_published": false,
+  "file_checksum_semantics": "returned metadata; archives not redownloaded"
+}

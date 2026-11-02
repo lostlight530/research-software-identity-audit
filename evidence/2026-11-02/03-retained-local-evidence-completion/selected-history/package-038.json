@@ -1,0 +1,63 @@
+{
+  "source_category": "独立采集",
+  "source_date_label": "2026-10-07",
+  "source_package_label": "companion-day-one",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "DayOneComparison.json",
+      "sha256": "084f53c4f7de399da965138800979135cb611c93624b79358f77479c1432eb9a",
+      "bytes": 744,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Request.json",
+      "sha256": "8e4bc9f241d16dde4cd8e5f5d8313081b0b759fbdf99da35b959478e3ebf64e7",
+      "bytes": 267,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Response.json",
+      "sha256": "4cfe6255ab618c441065c8c63d9b77befb1304b0663006382bc2424a23748c96",
+      "bytes": 4675,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "DayOneComparison.json",
+      "sha256": "084f53c4f7de399da965138800979135cb611c93624b79358f77479c1432eb9a",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "old_views",
+          "value": 2
+        },
+        {
+          "field_path": "new_views",
+          "value": 33
+        },
+        {
+          "field_path": "views_delta",
+          "value": 31
+        },
+        {
+          "field_path": "new_unique_views",
+          "value": 31
+        },
+        {
+          "field_path": "new_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "current_version_views",
+          "value": 19
+        }
+      ]
+    }
+  ]
+}

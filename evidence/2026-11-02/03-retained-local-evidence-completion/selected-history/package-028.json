@@ -1,0 +1,672 @@
+{
+  "source_category": "平台专项",
+  "source_date_label": "2026-10-31",
+  "source_package_label": "zenodo-all-versions",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "AllVersionRecords.json",
+      "sha256": "68cd33ee2435627ab87469fb2814b09f161fca6f1ef93c2a24d676e57f347e04",
+      "bytes": 107167,
+      "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+      "cloud_locator": "evidence/2026-10-31/04-zenodo-all-version-statistics/source-provenance.json"
+    },
+    {
+      "source_file": "AllVersions.csv",
+      "sha256": "ea85fbcc723a0ba4a648bace994a102baec81b6f15200a173033c805f2db6e04",
+      "bytes": 7702,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Contract.json",
+      "sha256": "4b2e84cfb7fc9f8718feb0f5d98231c41e9955ac21688122af933bc8a0a9c4ee",
+      "bytes": 417,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "FamilySummary.json",
+      "sha256": "38e00fdc5fd434d300b47f057047a2e44fbe98a36b3599b9e17e0bbd3a41fcfe",
+      "bytes": 7900,
+      "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+      "cloud_locator": "evidence/2026-10-31/04-zenodo-all-version-statistics/source-provenance.json"
+    },
+    {
+      "source_file": "FamilyVersionReconciliation.json",
+      "sha256": "78917379aa6b30b84c0e9813c09627ca895b0caf2249c80a74ed377adaa4fe16",
+      "bytes": 6913,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "RequestLog.json",
+      "sha256": "91876304036c99ee30018770a4835b4ebe6e2040c34909a20e4bec2794f3ba81",
+      "bytes": 63019,
+      "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+      "cloud_locator": "evidence/2026-10-31/04-zenodo-all-version-statistics/source-provenance.json"
+    },
+    {
+      "source_file": "SHA256Manifest.json",
+      "sha256": "c80ea335af55320ecbc89a8fcaa2dac4d7aa94c30ed5b635f79eaf5cb36136a6",
+      "bytes": 17943,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    },
+    {
+      "source_file": "Verification.json",
+      "sha256": "59dfd011166958b4b81d3a17aef95e364e4afab4ae20cdfa4963ec5ac3f4a569",
+      "bytes": 623,
+      "coverage_state": "CURRENT_MAIN_CITES_SOURCE_DIGEST",
+      "cloud_locator": "evidence/2026-10-31/04-zenodo-all-version-statistics/source-provenance.json"
+    },
+    {
+      "source_file": "VersionWaveSummary.json",
+      "sha256": "74a7902246d96ea6a036b2760a2e594319b5e96151bba39bb5290b8ebd6c4a55",
+      "bytes": 1551,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "FamilyVersionReconciliation.json",
+      "sha256": "78917379aa6b30b84c0e9813c09627ca895b0caf2249c80a74ed377adaa4fe16",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "[0].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "[0].sum_version",
+          "value": 355
+        },
+        {
+          "field_path": "[1].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "[1].sum_version",
+          "value": 264
+        },
+        {
+          "field_path": "[2].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "[2].sum_version",
+          "value": 6
+        },
+        {
+          "field_path": "[3].repository",
+          "value": "welcome-to-github"
+        },
+        {
+          "field_path": "[3].sum_version",
+          "value": 5
+        },
+        {
+          "field_path": "[4].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "[4].sum_version",
+          "value": 314
+        },
+        {
+          "field_path": "[5].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "[5].sum_version",
+          "value": 221
+        },
+        {
+          "field_path": "[6].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "[6].sum_version",
+          "value": 1
+        },
+        {
+          "field_path": "[7].repository",
+          "value": "zero-entropy-lab"
+        },
+        {
+          "field_path": "[7].sum_version",
+          "value": 1
+        },
+        {
+          "field_path": "[8].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "[8].sum_version",
+          "value": 354
+        },
+        {
+          "field_path": "[9].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "[9].sum_version",
+          "value": 260
+        },
+        {
+          "field_path": "[10].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "[10].sum_version",
+          "value": 1
+        },
+        {
+          "field_path": "[11].repository",
+          "value": "Axiom-0"
+        },
+        {
+          "field_path": "[11].sum_version",
+          "value": 1
+        },
+        {
+          "field_path": "[12].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "[12].sum_version",
+          "value": 276
+        },
+        {
+          "field_path": "[13].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "[13].sum_version",
+          "value": 189
+        },
+        {
+          "field_path": "[14].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "[14].sum_version",
+          "value": 1
+        },
+        {
+          "field_path": "[15].repository",
+          "value": "reflective-continuum"
+        },
+        {
+          "field_path": "[15].sum_version",
+          "value": 1
+        },
+        {
+          "field_path": "[16].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "[16].sum_version",
+          "value": 319
+        },
+        {
+          "field_path": "[17].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "[17].sum_version",
+          "value": 230
+        },
+        {
+          "field_path": "[18].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "[18].sum_version",
+          "value": 2
+        },
+        {
+          "field_path": "[19].repository",
+          "value": "agent-foundations"
+        },
+        {
+          "field_path": "[19].sum_version",
+          "value": 2
+        },
+        {
+          "field_path": "[20].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "[20].sum_version",
+          "value": 305
+        },
+        {
+          "field_path": "[21].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "[21].sum_version",
+          "value": 217
+        },
+        {
+          "field_path": "[22].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "[22].sum_version",
+          "value": 0
+        },
+        {
+          "field_path": "[23].repository",
+          "value": "auto-doc-engine"
+        },
+        {
+          "field_path": "[23].sum_version",
+          "value": 0
+        },
+        {
+          "field_path": "[24].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "[24].sum_version",
+          "value": 316
+        },
+        {
+          "field_path": "[25].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "[25].sum_version",
+          "value": 227
+        },
+        {
+          "field_path": "[26].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "[26].sum_version",
+          "value": 1
+        },
+        {
+          "field_path": "[27].repository",
+          "value": "epistemic-pipeline"
+        },
+        {
+          "field_path": "[27].sum_version",
+          "value": 1
+        },
+        {
+          "field_path": "[28].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "[28].sum_version",
+          "value": 304
+        },
+        {
+          "field_path": "[29].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "[29].sum_version",
+          "value": 223
+        },
+        {
+          "field_path": "[30].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "[30].sum_version",
+          "value": 2
+        },
+        {
+          "field_path": "[31].repository",
+          "value": "sci-render-kit"
+        },
+        {
+          "field_path": "[31].sum_version",
+          "value": 2
+        },
+        {
+          "field_path": "[32].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "[32].sum_version",
+          "value": 322
+        },
+        {
+          "field_path": "[33].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "[33].sum_version",
+          "value": 230
+        },
+        {
+          "field_path": "[34].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "[34].sum_version",
+          "value": 1
+        },
+        {
+          "field_path": "[35].repository",
+          "value": "china-agentic-observatory"
+        },
+        {
+          "field_path": "[35].sum_version",
+          "value": 1
+        },
+        {
+          "field_path": "[36].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "[36].sum_version",
+          "value": 335
+        },
+        {
+          "field_path": "[37].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "[37].sum_version",
+          "value": 246
+        },
+        {
+          "field_path": "[38].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "[38].sum_version",
+          "value": 2
+        },
+        {
+          "field_path": "[39].repository",
+          "value": "agentic-frontier-observatory"
+        },
+        {
+          "field_path": "[39].sum_version",
+          "value": 2
+        },
+        {
+          "field_path": "[40].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "[40].sum_version",
+          "value": 151
+        },
+        {
+          "field_path": "[41].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "[41].sum_version",
+          "value": 142
+        },
+        {
+          "field_path": "[42].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "[42].sum_version",
+          "value": 5
+        },
+        {
+          "field_path": "[43].repository",
+          "value": "research-software-identity-audit"
+        },
+        {
+          "field_path": "[43].sum_version",
+          "value": 5
+        },
+        {
+          "field_path": "[44].repository",
+          "value": "life-science-ecosystem-lab"
+        },
+        {
+          "field_path": "[44].sum_version",
+          "value": 12
+        },
+        {
+          "field_path": "[45].repository",
+          "value": "life-science-ecosystem-lab"
+        },
+        {
+          "field_path": "[45].sum_version",
+          "value": 9
+        },
+        {
+          "field_path": "[46].repository",
+          "value": "life-science-ecosystem-lab"
+        },
+        {
+          "field_path": "[46].sum_version",
+          "value": 5
+        },
+        {
+          "field_path": "[47].repository",
+          "value": "life-science-ecosystem-lab"
+        },
+        {
+          "field_path": "[47].sum_version",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "source_file": "VersionWaveSummary.json",
+      "sha256": "74a7902246d96ea6a036b2760a2e594319b5e96151bba39bb5290b8ebd6c4a55",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "v2026.10-30-evidence-snapshot.versions",
+          "value": 10
+        },
+        {
+          "field_path": "v2026.10-30-evidence-snapshot.views",
+          "value": 22
+        },
+        {
+          "field_path": "v2026.10-30-evidence-snapshot.unique_views",
+          "value": 20
+        },
+        {
+          "field_path": "v2026.10-30-evidence-snapshot.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "v2026.10-30-evidence-snapshot.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "v2026.10-fourteen-day-evidence-checkpoint.versions",
+          "value": 10
+        },
+        {
+          "field_path": "v2026.10-fourteen-day-evidence-checkpoint.views",
+          "value": 192
+        },
+        {
+          "field_path": "v2026.10-fourteen-day-evidence-checkpoint.unique_views",
+          "value": 186
+        },
+        {
+          "field_path": "v2026.10-fourteen-day-evidence-checkpoint.downloads",
+          "value": 9
+        },
+        {
+          "field_path": "v2026.10-fourteen-day-evidence-checkpoint.unique_downloads",
+          "value": 9
+        },
+        {
+          "field_path": "v2026.10-open-research-production-framework.versions",
+          "value": 10
+        },
+        {
+          "field_path": "v2026.10-open-research-production-framework.views",
+          "value": 227
+        },
+        {
+          "field_path": "v2026.10-open-research-production-framework.unique_views",
+          "value": 212
+        },
+        {
+          "field_path": "v2026.10-open-research-production-framework.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "v2026.10-open-research-production-framework.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "v2026.09-natural-month-close.versions",
+          "value": 10
+        },
+        {
+          "field_path": "v2026.09-natural-month-close.views",
+          "value": 318
+        },
+        {
+          "field_path": "v2026.09-natural-month-close.unique_views",
+          "value": 300
+        },
+        {
+          "field_path": "v2026.09-natural-month-close.downloads",
+          "value": 5
+        },
+        {
+          "field_path": "v2026.09-natural-month-close.unique_downloads",
+          "value": 4
+        },
+        {
+          "field_path": "v2026.09-open-research-baseline.versions",
+          "value": 10
+        },
+        {
+          "field_path": "v2026.09-open-research-baseline.views",
+          "value": 2441
+        },
+        {
+          "field_path": "v2026.09-open-research-baseline.unique_views",
+          "value": 1589
+        },
+        {
+          "field_path": "v2026.09-open-research-baseline.downloads",
+          "value": 2
+        },
+        {
+          "field_path": "v2026.09-open-research-baseline.unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "v2026.10-evidence-integrity.versions",
+          "value": 1
+        },
+        {
+          "field_path": "v2026.10-evidence-integrity.views",
+          "value": 29
+        },
+        {
+          "field_path": "v2026.10-evidence-integrity.unique_views",
+          "value": 29
+        },
+        {
+          "field_path": "v2026.10-evidence-integrity.downloads",
+          "value": 2
+        },
+        {
+          "field_path": "v2026.10-evidence-integrity.unique_downloads",
+          "value": 2
+        },
+        {
+          "field_path": "v2026.10-evidence-reconciliation.versions",
+          "value": 1
+        },
+        {
+          "field_path": "v2026.10-evidence-reconciliation.views",
+          "value": 33
+        },
+        {
+          "field_path": "v2026.10-evidence-reconciliation.unique_views",
+          "value": 30
+        },
+        {
+          "field_path": "v2026.10-evidence-reconciliation.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "v2026.10-evidence-reconciliation.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "v2026.10-initial-research-runtime.versions",
+          "value": 1
+        },
+        {
+          "field_path": "v2026.10-initial-research-runtime.views",
+          "value": 59
+        },
+        {
+          "field_path": "v2026.10-initial-research-runtime.unique_views",
+          "value": 57
+        },
+        {
+          "field_path": "v2026.10-initial-research-runtime.downloads",
+          "value": 3
+        },
+        {
+          "field_path": "v2026.10-initial-research-runtime.unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "beta.versions",
+          "value": 1
+        },
+        {
+          "field_path": "beta.views",
+          "value": 30
+        },
+        {
+          "field_path": "beta.unique_views",
+          "value": 26
+        },
+        {
+          "field_path": "beta.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "beta.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "v0.4.0.versions",
+          "value": 1
+        },
+        {
+          "field_path": "v0.4.0.views",
+          "value": 12
+        },
+        {
+          "field_path": "v0.4.0.unique_views",
+          "value": 9
+        },
+        {
+          "field_path": "v0.4.0.downloads",
+          "value": 5
+        },
+        {
+          "field_path": "v0.4.0.unique_downloads",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}

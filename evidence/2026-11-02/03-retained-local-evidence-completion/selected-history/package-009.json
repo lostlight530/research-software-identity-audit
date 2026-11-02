@@ -1,0 +1,2353 @@
+{
+  "source_category": "历史散件",
+  "source_date_label": "2026-10-06",
+  "source_package_label": "ten-repository-research-identity-evidence.json",
+  "source_date_is_not_import_clock": true,
+  "classification": "retrospective local diagnostic field projection, not new live validation",
+  "source_files": [
+    {
+      "source_file": "ten-repository-research-identity-evidence.json",
+      "sha256": "a90fc329e79474e930fca82046b8091d46df3ab78e7bdd8123d959f65b76da64",
+      "bytes": 282121,
+      "coverage_state": "LOCAL_SELECTED_FIELDS_PENDING_REVIEW",
+      "cloud_locator": null
+    }
+  ],
+  "projections": [
+    {
+      "source_file": "ten-repository-research-identity-evidence.json",
+      "sha256": "a90fc329e79474e930fca82046b8091d46df3ab78e7bdd8123d959f65b76da64",
+      "original_claims_revalidated": false,
+      "selected_original_fields": [
+        {
+          "field_path": "timezone",
+          "value": "Asia/Shanghai"
+        },
+        {
+          "field_path": "fixed_corpus.object_count",
+          "value": 10
+        },
+        {
+          "field_path": "fixed_corpus.concept_doi_count",
+          "value": 10
+        },
+        {
+          "field_path": "fixed_corpus.version_doi_count",
+          "value": 30
+        },
+        {
+          "field_path": "fixed_corpus.total_doi_count",
+          "value": 40
+        },
+        {
+          "field_path": "datacite.corpus_query.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "datacite.corpus_query.meta_total",
+          "value": 40
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[0]",
+          "value": "10.5281/zenodo.22790907"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[1]",
+          "value": "10.5281/zenodo.22790908"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[2]",
+          "value": "10.5281/zenodo.22791081"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[3]",
+          "value": "10.5281/zenodo.22791082"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[4]",
+          "value": "10.5281/zenodo.22791103"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[5]",
+          "value": "10.5281/zenodo.22791104"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[6]",
+          "value": "10.5281/zenodo.22791141"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[7]",
+          "value": "10.5281/zenodo.22791142"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[8]",
+          "value": "10.5281/zenodo.22791169"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[9]",
+          "value": "10.5281/zenodo.22791170"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[10]",
+          "value": "10.5281/zenodo.22791309"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[11]",
+          "value": "10.5281/zenodo.22791310"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[12]",
+          "value": "10.5281/zenodo.22791334"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[13]",
+          "value": "10.5281/zenodo.22791335"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[14]",
+          "value": "10.5281/zenodo.22791375"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[15]",
+          "value": "10.5281/zenodo.22791376"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[16]",
+          "value": "10.5281/zenodo.22791404"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[17]",
+          "value": "10.5281/zenodo.22791405"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[18]",
+          "value": "10.5281/zenodo.22791463"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[19]",
+          "value": "10.5281/zenodo.22791464"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[20]",
+          "value": "10.5281/zenodo.23068144"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[21]",
+          "value": "10.5281/zenodo.23068145"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[22]",
+          "value": "10.5281/zenodo.23068260"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[23]",
+          "value": "10.5281/zenodo.23068261"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[24]",
+          "value": "10.5281/zenodo.23068262"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[25]",
+          "value": "10.5281/zenodo.23068347"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[26]",
+          "value": "10.5281/zenodo.23068352"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[27]",
+          "value": "10.5281/zenodo.23068471"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[28]",
+          "value": "10.5281/zenodo.23068472"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[29]",
+          "value": "10.5281/zenodo.23068494"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[30]",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[31]",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[32]",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[33]",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[34]",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[35]",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[36]",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[37]",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[38]",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "datacite.corpus_query.dois[39]",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.doi",
+          "value": "10.17605/osf.io/5b329"
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.dates[0].date",
+          "value": "2026-10-05"
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.dates[0].dateType",
+          "value": "Created"
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.dates[1].date",
+          "value": "2026-10-05"
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.dates[1].dateType",
+          "value": "Updated"
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.version",
+          "value": null
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.metadataVersion",
+          "value": 1
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.referenceCount",
+          "value": 1
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.versionOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.created",
+          "value": "2026-10-05T14:05:58Z"
+        },
+        {
+          "field_path": "datacite.osf_registration.attributes.updated",
+          "value": "2026-10-05T16:03:55Z"
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.doi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.dates[0].date",
+          "value": "2026-10-05"
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.version",
+          "value": "beta"
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.citationCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.versionCount",
+          "value": 1
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.versionOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.created",
+          "value": "2026-10-05T15:45:50Z"
+        },
+        {
+          "field_path": "datacite.companion_concept.attributes.updated",
+          "value": "2026-10-05T15:45:50Z"
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.doi",
+          "value": "10.5281/zenodo.23166491"
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.dates[0].date",
+          "value": "2026-10-05"
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.dates[0].dateType",
+          "value": "Issued"
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.version",
+          "value": "beta"
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.metadataVersion",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.state",
+          "value": "findable"
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.viewCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.downloadCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.referenceCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.citationCount",
+          "value": 1
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.citationsOverTime[0].total",
+          "value": 1
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.partCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.partOfCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.versionCount",
+          "value": 0
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.versionOfCount",
+          "value": 1
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.created",
+          "value": "2026-10-05T15:45:50Z"
+        },
+        {
+          "field_path": "datacite.companion_version.attributes.updated",
+          "value": "2026-10-05T15:45:50Z"
+        },
+        {
+          "field_path": "orcid.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "orcid.work_group_count",
+          "value": 12
+        },
+        {
+          "field_path": "orcid.work_summary_count",
+          "value": 54
+        },
+        {
+          "field_path": "orcid.response.group[0].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "orcid.response.group[1].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "orcid.response.group[2].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "orcid.response.group[3].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "orcid.response.group[4].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "orcid.response.group[5].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "orcid.response.group[6].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "orcid.response.group[7].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "orcid.response.group[8].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "orcid.response.group[9].work-summary[2].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "orcid.response.group[11].work-summary[0].publication-date",
+          "value": null
+        },
+        {
+          "field_path": "openalex.works_query.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.works_query.meta_count",
+          "value": 40
+        },
+        {
+          "field_path": "openalex.works_query.results[0].publication_date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "openalex.works_query.results[0].updated_date",
+          "value": "2026-09-17T07:59:56.861425"
+        },
+        {
+          "field_path": "openalex.works_query.results[0].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[0].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[1].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[1].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[1].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[1].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[2].publication_date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "openalex.works_query.results[2].updated_date",
+          "value": "2026-09-17T07:59:56.861425"
+        },
+        {
+          "field_path": "openalex.works_query.results[2].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[2].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[3].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[3].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[3].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[3].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[4].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[4].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[4].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[4].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[5].publication_date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "openalex.works_query.results[5].updated_date",
+          "value": "2026-09-17T07:59:56.861425"
+        },
+        {
+          "field_path": "openalex.works_query.results[5].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[5].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[6].publication_date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "openalex.works_query.results[6].updated_date",
+          "value": "2026-09-17T07:59:56.861425"
+        },
+        {
+          "field_path": "openalex.works_query.results[6].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[6].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[7].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[7].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[7].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[7].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[8].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[8].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[8].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[8].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[9].publication_date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "openalex.works_query.results[9].updated_date",
+          "value": "2026-09-17T07:59:56.861425"
+        },
+        {
+          "field_path": "openalex.works_query.results[9].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[9].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[10].publication_date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "openalex.works_query.results[10].updated_date",
+          "value": "2026-09-17T07:59:56.861425"
+        },
+        {
+          "field_path": "openalex.works_query.results[10].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[10].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[11].publication_date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "openalex.works_query.results[11].updated_date",
+          "value": "2026-09-17T07:59:56.861425"
+        },
+        {
+          "field_path": "openalex.works_query.results[11].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[11].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[12].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[12].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[12].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[12].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[13].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[13].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[13].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[13].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[14].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[14].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[14].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[14].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[15].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[15].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[15].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[15].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[16].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[16].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[16].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[16].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[17].publication_date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "openalex.works_query.results[17].updated_date",
+          "value": "2026-09-17T07:59:56.861425"
+        },
+        {
+          "field_path": "openalex.works_query.results[17].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[17].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[18].publication_date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "openalex.works_query.results[18].updated_date",
+          "value": "2026-09-17T07:59:56.861425"
+        },
+        {
+          "field_path": "openalex.works_query.results[18].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[18].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[19].publication_date",
+          "value": "2026-09-16"
+        },
+        {
+          "field_path": "openalex.works_query.results[19].updated_date",
+          "value": "2026-09-17T07:59:56.861425"
+        },
+        {
+          "field_path": "openalex.works_query.results[19].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[19].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[20].publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "openalex.works_query.results[20].updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "openalex.works_query.results[20].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[20].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[21].publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "openalex.works_query.results[21].updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "openalex.works_query.results[21].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[21].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[22].publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "openalex.works_query.results[22].updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "openalex.works_query.results[22].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[22].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[23].publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "openalex.works_query.results[23].updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "openalex.works_query.results[23].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[23].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[24].publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "openalex.works_query.results[24].updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "openalex.works_query.results[24].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[24].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[25].publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "openalex.works_query.results[25].updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "openalex.works_query.results[25].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[25].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[26].publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "openalex.works_query.results[26].updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "openalex.works_query.results[26].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[26].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[27].publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "openalex.works_query.results[27].updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "openalex.works_query.results[27].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[27].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[28].publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "openalex.works_query.results[28].updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "openalex.works_query.results[28].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[28].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[29].publication_date",
+          "value": "2026-09-30"
+        },
+        {
+          "field_path": "openalex.works_query.results[29].updated_date",
+          "value": "2026-10-02T10:15:12.560889"
+        },
+        {
+          "field_path": "openalex.works_query.results[29].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[29].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[30].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[30].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[30].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[30].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[31].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[31].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[31].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[31].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[32].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[32].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[32].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[32].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[33].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[33].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[33].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[33].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[34].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[34].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[34].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[34].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[35].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[35].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[35].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[35].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[36].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[36].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[36].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[36].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[37].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[37].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[37].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[37].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[38].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[38].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[38].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[38].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.works_query.results[39].publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.works_query.results[39].updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.works_query.results[39].open_access.oa_status",
+          "value": "green"
+        },
+        {
+          "field_path": "openalex.works_query.results[39].open_access.any_repository_has_fulltext",
+          "value": true
+        },
+        {
+          "field_path": "openalex.author.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.author.works_count",
+          "value": 30
+        },
+        {
+          "field_path": "openalex.author.cited_by_count",
+          "value": 0
+        },
+        {
+          "field_path": "openalex.author.updated_date",
+          "value": "2026-10-01T12:39:15"
+        },
+        {
+          "field_path": "openalex.latest_versions[0].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "openalex.latest_versions[0].doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "openalex.latest_versions[0].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.latest_versions[0].work.publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.latest_versions[0].work.updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.latest_versions[1].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "openalex.latest_versions[1].doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "openalex.latest_versions[1].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.latest_versions[1].work.publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.latest_versions[1].work.updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.latest_versions[2].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "openalex.latest_versions[2].doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "openalex.latest_versions[2].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.latest_versions[2].work.publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.latest_versions[2].work.updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.latest_versions[3].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "openalex.latest_versions[3].doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "openalex.latest_versions[3].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.latest_versions[3].work.publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.latest_versions[3].work.updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.latest_versions[4].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "openalex.latest_versions[4].doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "openalex.latest_versions[4].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.latest_versions[4].work.publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.latest_versions[4].work.updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.latest_versions[5].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "openalex.latest_versions[5].doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "openalex.latest_versions[5].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.latest_versions[5].work.publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.latest_versions[5].work.updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.latest_versions[6].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "openalex.latest_versions[6].doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "openalex.latest_versions[6].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.latest_versions[6].work.publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.latest_versions[6].work.updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.latest_versions[7].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "openalex.latest_versions[7].doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "openalex.latest_versions[7].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.latest_versions[7].work.publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.latest_versions[7].work.updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.latest_versions[8].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "openalex.latest_versions[8].doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "openalex.latest_versions[8].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.latest_versions[8].work.publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.latest_versions[8].work.updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.latest_versions[9].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "openalex.latest_versions[9].doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "openalex.latest_versions[9].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openalex.latest_versions[9].work.publication_date",
+          "value": "2026-10-04"
+        },
+        {
+          "field_path": "openalex.latest_versions[9].work.updated_date",
+          "value": "2026-10-05T09:50:58.205359"
+        },
+        {
+          "field_path": "openalex.osf_registration.http_status",
+          "value": 404
+        },
+        {
+          "field_path": "openalex.companion_version.http_status",
+          "value": 404
+        },
+        {
+          "field_path": "openaire.latest_versions[0].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "openaire.latest_versions[0].doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "openaire.latest_versions[0].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.latest_versions[0].total",
+          "value": 1
+        },
+        {
+          "field_path": "openaire.latest_versions[0].status",
+          "value": "UNDER_CURATION"
+        },
+        {
+          "field_path": "openaire.latest_versions[1].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "openaire.latest_versions[1].doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "openaire.latest_versions[1].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.latest_versions[1].total",
+          "value": 1
+        },
+        {
+          "field_path": "openaire.latest_versions[1].status",
+          "value": "UNDER_CURATION"
+        },
+        {
+          "field_path": "openaire.latest_versions[2].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "openaire.latest_versions[2].doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "openaire.latest_versions[2].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.latest_versions[2].total",
+          "value": 1
+        },
+        {
+          "field_path": "openaire.latest_versions[2].status",
+          "value": "UNDER_CURATION"
+        },
+        {
+          "field_path": "openaire.latest_versions[3].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "openaire.latest_versions[3].doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "openaire.latest_versions[3].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.latest_versions[3].total",
+          "value": 1
+        },
+        {
+          "field_path": "openaire.latest_versions[3].status",
+          "value": "UNDER_CURATION"
+        },
+        {
+          "field_path": "openaire.latest_versions[4].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "openaire.latest_versions[4].doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "openaire.latest_versions[4].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.latest_versions[4].total",
+          "value": 1
+        },
+        {
+          "field_path": "openaire.latest_versions[4].status",
+          "value": "UNDER_CURATION"
+        },
+        {
+          "field_path": "openaire.latest_versions[5].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "openaire.latest_versions[5].doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "openaire.latest_versions[5].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.latest_versions[5].total",
+          "value": 1
+        },
+        {
+          "field_path": "openaire.latest_versions[5].status",
+          "value": "UNDER_CURATION"
+        },
+        {
+          "field_path": "openaire.latest_versions[6].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "openaire.latest_versions[6].doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "openaire.latest_versions[6].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.latest_versions[6].total",
+          "value": 1
+        },
+        {
+          "field_path": "openaire.latest_versions[6].status",
+          "value": "UNDER_CURATION"
+        },
+        {
+          "field_path": "openaire.latest_versions[7].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "openaire.latest_versions[7].doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "openaire.latest_versions[7].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.latest_versions[7].total",
+          "value": 1
+        },
+        {
+          "field_path": "openaire.latest_versions[7].status",
+          "value": "UNDER_CURATION"
+        },
+        {
+          "field_path": "openaire.latest_versions[8].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "openaire.latest_versions[8].doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "openaire.latest_versions[8].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.latest_versions[8].total",
+          "value": 1
+        },
+        {
+          "field_path": "openaire.latest_versions[8].status",
+          "value": "UNDER_CURATION"
+        },
+        {
+          "field_path": "openaire.latest_versions[9].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "openaire.latest_versions[9].doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "openaire.latest_versions[9].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.latest_versions[9].total",
+          "value": 1
+        },
+        {
+          "field_path": "openaire.latest_versions[9].status",
+          "value": "UNDER_CURATION"
+        },
+        {
+          "field_path": "openaire.osf_registration.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.osf_registration.total",
+          "value": "0"
+        },
+        {
+          "field_path": "openaire.companion_version.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "openaire.companion_version.total",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].object_id",
+          "value": "RS01"
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].record_id",
+          "value": "23137203"
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].doi",
+          "value": "10.5281/zenodo.23137203"
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].created",
+          "value": "2026-10-04T21:00:17.968806+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].updated",
+          "value": "2026-10-04T21:00:18.21552+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].stats.downloads",
+          "value": 4
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].stats.unique_downloads",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].stats.views",
+          "value": 78
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].stats.unique_views",
+          "value": 76
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].stats.version_unique_views",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].stats.version_views",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[0].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].object_id",
+          "value": "RS02"
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].record_id",
+          "value": "23137204"
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].doi",
+          "value": "10.5281/zenodo.23137204"
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].created",
+          "value": "2026-10-04T21:00:20.82072+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].updated",
+          "value": "2026-10-04T21:00:21.045352+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].stats.views",
+          "value": 54
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].stats.unique_views",
+          "value": 50
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].stats.version_unique_views",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].stats.version_views",
+          "value": 5
+        },
+        {
+          "field_path": "zenodo.latest_versions[1].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].object_id",
+          "value": "RS03"
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].record_id",
+          "value": "23137205"
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].doi",
+          "value": "10.5281/zenodo.23137205"
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].created",
+          "value": "2026-10-04T21:00:22.053791+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].updated",
+          "value": "2026-10-04T21:00:22.279579+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].stats.views",
+          "value": 75
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].stats.unique_views",
+          "value": 71
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].stats.version_unique_views",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].stats.version_views",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo.latest_versions[2].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].object_id",
+          "value": "RS04"
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].record_id",
+          "value": "23137206"
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].doi",
+          "value": "10.5281/zenodo.23137206"
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].created",
+          "value": "2026-10-04T21:00:25.221226+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].updated",
+          "value": "2026-10-04T21:00:25.688625+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].stats.views",
+          "value": 38
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].stats.unique_views",
+          "value": 37
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].stats.version_unique_views",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].stats.version_views",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[3].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].object_id",
+          "value": "RS05"
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].record_id",
+          "value": "23137207"
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].doi",
+          "value": "10.5281/zenodo.23137207"
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].created",
+          "value": "2026-10-04T21:00:27.746064+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].updated",
+          "value": "2026-10-04T21:00:27.95704+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].stats.views",
+          "value": 63
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].stats.unique_views",
+          "value": 58
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].stats.version_unique_views",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].stats.version_views",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[4].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].object_id",
+          "value": "RS06"
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].record_id",
+          "value": "23137211"
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].doi",
+          "value": "10.5281/zenodo.23137211"
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].created",
+          "value": "2026-10-04T21:00:30.660928+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].updated",
+          "value": "2026-10-04T21:00:30.95294+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].stats.views",
+          "value": 62
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].stats.unique_views",
+          "value": 59
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].stats.version_unique_views",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].stats.version_views",
+          "value": 3
+        },
+        {
+          "field_path": "zenodo.latest_versions[5].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].object_id",
+          "value": "RS07"
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].record_id",
+          "value": "23137214"
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].doi",
+          "value": "10.5281/zenodo.23137214"
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].created",
+          "value": "2026-10-04T21:00:34.062341+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].updated",
+          "value": "2026-10-04T21:00:34.291448+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].stats.views",
+          "value": 65
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].stats.unique_views",
+          "value": 61
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].stats.version_unique_views",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].stats.version_views",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[6].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].object_id",
+          "value": "RS08"
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].record_id",
+          "value": "23137219"
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].doi",
+          "value": "10.5281/zenodo.23137219"
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].created",
+          "value": "2026-10-04T21:01:01.041528+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].updated",
+          "value": "2026-10-04T21:01:01.234847+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].stats.downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].stats.unique_downloads",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].stats.views",
+          "value": 50
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].stats.unique_views",
+          "value": 50
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].stats.version_unique_views",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].stats.version_views",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[7].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].object_id",
+          "value": "RS09"
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].record_id",
+          "value": "23137215"
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].doi",
+          "value": "10.5281/zenodo.23137215"
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].created",
+          "value": "2026-10-04T21:00:36.996897+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].updated",
+          "value": "2026-10-04T21:00:37.239931+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].stats.views",
+          "value": 39
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].stats.unique_views",
+          "value": 38
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].stats.version_unique_views",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].stats.version_views",
+          "value": 2
+        },
+        {
+          "field_path": "zenodo.latest_versions[8].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].object_id",
+          "value": "RS10"
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].record_id",
+          "value": "23137216"
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].doi",
+          "value": "10.5281/zenodo.23137216"
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].version",
+          "value": "v2026.10-open-research-production-framework"
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].created",
+          "value": "2026-10-04T21:00:40.388317+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].updated",
+          "value": "2026-10-04T21:00:40.570346+08:00"
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].stats.views",
+          "value": 57
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].stats.unique_views",
+          "value": 56
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].stats.version_unique_views",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].stats.version_views",
+          "value": 1
+        },
+        {
+          "field_path": "zenodo.latest_versions[9].http_status",
+          "value": 200
+        },
+        {
+          "field_path": "zenodo.totals.views",
+          "value": 581
+        },
+        {
+          "field_path": "zenodo.totals.unique_views",
+          "value": 556
+        },
+        {
+          "field_path": "zenodo.totals.version_views",
+          "value": 15
+        },
+        {
+          "field_path": "zenodo.totals.version_unique_views",
+          "value": 13
+        },
+        {
+          "field_path": "zenodo.totals.downloads",
+          "value": 7
+        },
+        {
+          "field_path": "zenodo.totals.unique_downloads",
+          "value": 6
+        },
+        {
+          "field_path": "zenodo.totals.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.totals.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.companion_version.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "zenodo.companion_version.response.created",
+          "value": "2026-10-05T23:45:49.391026+08:00"
+        },
+        {
+          "field_path": "zenodo.companion_version.response.modified",
+          "value": "2026-10-05T23:45:49.676403+08:00"
+        },
+        {
+          "field_path": "zenodo.companion_version.response.conceptrecid",
+          "value": "23166490"
+        },
+        {
+          "field_path": "zenodo.companion_version.response.doi",
+          "value": "10.5281/zenodo.23166491"
+        },
+        {
+          "field_path": "zenodo.companion_version.response.conceptdoi",
+          "value": "10.5281/zenodo.23166490"
+        },
+        {
+          "field_path": "zenodo.companion_version.response.metadata.doi",
+          "value": "10.5281/zenodo.23166491"
+        },
+        {
+          "field_path": "zenodo.companion_version.response.metadata.publication_date",
+          "value": "2026-10-05"
+        },
+        {
+          "field_path": "zenodo.companion_version.response.metadata.version",
+          "value": "beta"
+        },
+        {
+          "field_path": "zenodo.companion_version.response.updated",
+          "value": "2026-10-05T23:45:49.676403+08:00"
+        },
+        {
+          "field_path": "zenodo.companion_version.response.recid",
+          "value": "23166491"
+        },
+        {
+          "field_path": "zenodo.companion_version.response.status",
+          "value": "published"
+        },
+        {
+          "field_path": "zenodo.companion_version.response.stats.downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.companion_version.response.stats.unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.companion_version.response.stats.views",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.companion_version.response.stats.unique_views",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.companion_version.response.stats.version_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.companion_version.response.stats.version_unique_downloads",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.companion_version.response.stats.version_unique_views",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.companion_version.response.stats.version_views",
+          "value": 0
+        },
+        {
+          "field_path": "zenodo.companion_version.response.state",
+          "value": "done"
+        },
+        {
+          "field_path": "github_companion_repository.http_status",
+          "value": 200
+        },
+        {
+          "field_path": "github_companion_repository.response.owner.user_view_type",
+          "value": "public"
+        },
+        {
+          "field_path": "github_companion_repository.response.created_at",
+          "value": "2026-10-05T14:59:45Z"
+        },
+        {
+          "field_path": "github_companion_repository.response.updated_at",
+          "value": "2026-10-05T16:51:33Z"
+        },
+        {
+          "field_path": "github_companion_repository.response.stargazers_count",
+          "value": 0
+        },
+        {
+          "field_path": "github_companion_repository.response.watchers_count",
+          "value": 0
+        },
+        {
+          "field_path": "github_companion_repository.response.has_downloads",
+          "value": false
+        },
+        {
+          "field_path": "github_companion_repository.response.forks_count",
+          "value": 0
+        },
+        {
+          "field_path": "github_companion_repository.response.open_issues_count",
+          "value": 0
+        },
+        {
+          "field_path": "github_companion_repository.response.network_count",
+          "value": 0
+        },
+        {
+          "field_path": "github_companion_repository.response.subscribers_count",
+          "value": 0
+        },
+        {
+          "field_path": "user_supplied_openalex_page.works",
+          "value": 40
+        },
+        {
+          "field_path": "software_heritage_boundary.latest_october_version_content_identity",
+          "value": "NOT_VERIFIED"
+        },
+        {
+          "field_path": "counting_boundaries[0]",
+          "value": "40 OpenAlex Works are DOI-level graph records, not 40 software families"
+        },
+        {
+          "field_path": "counting_boundaries[1]",
+          "value": "54 ORCID work summaries belong to 12 work groups, not 54 independent works"
+        },
+        {
+          "field_path": "counting_boundaries[2]",
+          "value": "summed unique Zenodo metrics are not globally deduplicated people"
+        },
+        {
+          "field_path": "counting_boundaries[3]",
+          "value": "the companion repository is not an eleventh object in the fixed corpus"
+        },
+        {
+          "field_path": "counting_boundaries[4]",
+          "value": "OpenAlex and OpenAIRE remain separate observation layers"
+        },
+        {
+          "field_path": "counting_boundaries[5]",
+          "value": "Software Heritage October content identity is not fully verified"
+        }
+      ]
+    }
+  ]
+}
