@@ -195,3 +195,5 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 - [2026-11-02/01-complete-institutional-recheck](2026-11-02/01-complete-institutional-recheck/README.md) — 34 service rows, 90 DOI attempts and partial OpenAIRE results; diagnostic/retrospective only, zero prospective cells
 - [2026-11-02/02-all-version-recheck](2026-11-02/02-all-version-recheck/README.md) — 57 Zenodo versions and 48 family joins; diagnostic/retrospective only, zero prospective cells
 - [2026-11-02/03-retained-local-evidence-completion](2026-11-02/03-retained-local-evidence-completion/README.md) — source-dated local coverage inventory and missing selected fields; diagnostic/retrospective only, zero prospective cells
+
+- [2026-11-02 / attempt-ledger column-semantic reconciliation](2026-11-02/01-complete-institutional-recheck/source-attempts-column-reconciliation.md) — append-only clarification that the published `source-attempts.csv` column labeled `platform` actually contains 1–34 surface IDs; the original source bytes, manifest, attempt outcomes and scientific denominator remain unchanged
