@@ -11,6 +11,8 @@ Canonical research object:
 
 This file maps the repository runtime to the frozen OSF registration. It does not replace or silently amend the registered object.
 
+**2026-11-03 original-versus-approved-version authority:** [OSF Registration and Schema Response governance reconciliation](osf-registration-version-governance-2026-11-03.md) explicitly distinguishes the October 5 original response, October 6 approved `344-83` exploratory wording revision, current GitHub operational mapping and the unmodified 60-unit contract. This is an additive interpretation/authority index, **not** an OSF write, amendment, or claim of fresh full-byte origin-capture.
+
 ## Frozen boundaries
 
 - fixed corpus: 10 research software objects
