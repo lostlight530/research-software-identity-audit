@@ -201,3 +201,8 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## November 3 bounded identity and infrastructure recheck
 
 - [2026-11-03 / 01-bounded-identity-infrastructure-recheck](2026-11-03/01-bounded-identity-infrastructure-recheck/README.md) — 11 current core main/PR/Release/tag reads and source-pinned SHA comparisons against the previous explicitly retained main-head ledger, 34 exact supplementary URL attempts with cached/failure states, seven-platform evidence-freshness boundaries, current RSE/RSD interaction states, and CI status limits. Append-only diagnostic; **no new preregistered cells, DOI, Release or frozen-contract change**.
+
+## November 3 full-history semantic correction
+
+- [2026-11-03 / 02-source-attempt-surface-id-reconciliation](2026-11-03/02-source-attempt-surface-id-reconciliation/README.md) — derived 482/482 attempt-key to numeric surface-ID / 34-surface-name correction of the **November 2** original source-attempt ledger, original two Git blobs and retrieval clocks preserved, 0 unmatched dictionary keys. This does not create new HTTP attempts, a scheduled prospective study cell, an analytical layer or an OSF amendment
+- [First-day-to-current file and Git history classification](../docs/research-control-first-day-to-current-governance-audit-2026-11-03.md) — pinned retrospective 104-commit / 620-file / 58-event inventory and original-versus-revised OSF authority mapping; the later derived event is not backfilled into the pinned source snapshot
