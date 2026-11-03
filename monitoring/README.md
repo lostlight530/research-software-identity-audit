@@ -197,3 +197,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 - [2026-11-02/03-retained-local-evidence-completion](2026-11-02/03-retained-local-evidence-completion/README.md) — source-dated local coverage inventory and missing selected fields; diagnostic/retrospective only, zero prospective cells
 
 - [2026-11-02 / attempt-ledger column-semantic reconciliation](2026-11-02/01-complete-institutional-recheck/source-attempts-column-reconciliation.md) — append-only clarification that the published `source-attempts.csv` column labeled `platform` actually contains 1–34 surface IDs; the original source bytes, manifest, attempt outcomes and scientific denominator remain unchanged
+
+## November 3 bounded identity and infrastructure recheck
+
+- [2026-11-03 / 01-bounded-identity-infrastructure-recheck](2026-11-03/01-bounded-identity-infrastructure-recheck/README.md) — 11 current core main/PR/Release/tag reads and source-pinned SHA comparisons against the previous explicitly retained main-head ledger, 34 exact supplementary URL attempts with cached/failure states, seven-platform evidence-freshness boundaries, current RSE/RSD interaction states, and CI status limits. Append-only diagnostic; **no new preregistered cells, DOI, Release or frozen-contract change**.
