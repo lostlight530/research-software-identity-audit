@@ -1,0 +1,115 @@
+{
+  "record_class": "bounded_diagnostic_selected_field_source_recheck_not_prospective",
+  "logical_date": "2026-11-03",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_client_utc": "2026-11-03T03:12:24.536Z",
+  "github_sources_read_completed_client_utc": "2026-11-03T03:09:19.860Z",
+  "historical_comparison_clocks": {
+    "fixed_github_main": "2026-11-01T11:49:20.853Z",
+    "control_last_commit": "2026-11-02T13:23:13Z",
+    "institutional_last_capture": [
+      "2026-11-01T16:46:51.998125Z",
+      "2026-11-01T16:52:25.453058Z"
+    ],
+    "zenodo_version_last_capture": [
+      "2026-11-01T16:47:47.812669Z",
+      "2026-11-01T16:48:33.064199Z"
+    ]
+  },
+  "github": {
+    "fixed_main_changed_since_retained_sha_read": 10,
+    "fixed_main_ahead_commits_sum": 219,
+    "fixed_main_behind_commits_sum": 0,
+    "two_endpoint_changed_file_path_count_sum": 161,
+    "open_pr_count_all_11": 0,
+    "fixed_sample_release_counts": 50,
+    "fixed_sample_git_tag_counts": 50,
+    "control_release_count": 5,
+    "control_tag_count": 5,
+    "new_fixed_releases": 0,
+    "new_control_releases": 0,
+    "control_main_before_this_record": "c12c56bf4a9ffc6b8b972b42efebdb3446bfdeb1",
+    "note": "219 commits and 161 changed paths compare retained November 1 SHA samples to November 3 endpoints, not solely November 2 to November 3"
+  },
+  "upstream": {
+    "rse_pr_498": "OPEN_UNMERGED_ZERO_REVIEWS",
+    "rsd_issue_1870": "CLOSED_COMPLETED",
+    "rsd_issue_1871": "OPEN",
+    "rsd_latest_published_release": "v6.7.5",
+    "new_institutional_acceptance": "NOT_VERIFIED"
+  },
+  "supplementary_surfaces": {
+    "attempted_url_count": 34,
+    "extractor_success": 28,
+    "extractor_errors": 6,
+    "connected_github_current_verified": 2,
+    "extractor_acquired_utc_day_2026_11_03": 1,
+    "extractor_acquired_utc_day_2026_11_02": 1,
+    "older_extractor_acquisitions_except_github": 24,
+    "failed_surface_ids": [
+      11,
+      13,
+      14,
+      15,
+      24,
+      25
+    ],
+    "receipts": [
+      "extract_5c758ed8ca2a63c31e027a01cf0f3a9a",
+      "extract_fdb7b82b7cffffcd2dbd004dec6a7999"
+    ],
+    "source_origin_raw_http_bytes_retained": false,
+    "per_url_provider_clock_known": false
+  },
+  "platform": {
+    "GitHub": "11 main SHAs, PRs, Releases and tags freshly connected; selected CI run states",
+    "Zenodo": "one exact version/latest endpoint extractor acquired 2026-11-03 UTC day; no current all-family counter census",
+    "DataCite": "OSF exact DOI extractor acquired 2026-10-30 only; previous 90 DOI list as 2026-11-02 baseline",
+    "ORCID": "selected public Works extractor acquired 2026-10-27; previous 17 groups/106 summaries only",
+    "Software_Heritage": "older origin extractor; 10 latest full visits are previous 2026-11-02 evidence, today's HEAD preservation unverified",
+    "OpenAIRE": "selected DOI excerpt acquired 2026-10-27; previous 88/90 query outcomes with two failures, no fresh full census",
+    "OpenAlex": "author API excerpt acquired 2026-10-06; previous 32 works enumeration only; no fresh recount"
+  },
+  "previous_numeric_evidence_not_today": {
+    "doi_identifiers": 90,
+    "orcid_groups": 17,
+    "orcid_summaries": 106,
+    "openalex_author_works": 32,
+    "zenodo_fixed_ten_views": 3308,
+    "zenodo_fixed_ten_downloads": 17,
+    "zenodo_fixed_ten_versions": 50,
+    "zenodo_all_versions_including_supplementary": 57
+  },
+  "contract": {
+    "osf_registration": "https://osf.io/5b329/overview",
+    "original_schema_response": "6ac3ae5e6da32e3d0576ed72",
+    "approved_revision_schema_response": "6ac4c12fed97b8b77ce88a9c",
+    "schema_response_field_difference": "344-83_exploratory_only",
+    "fixed_objects": 10,
+    "analytical_layers": 6,
+    "preregistered_units_per_eligible_timepoint": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_units": 70,
+    "concrete_schedule_offsets_declared": false,
+    "prospective_cells_added": 0,
+    "prospective_dataset_member": false,
+    "osf_modified": false,
+    "baseline_or_raw_history_modified": false
+  },
+  "limitations": [
+    "third-party day-granular acquired_at may be stale cached content",
+    "extractor receipts are not original provider HTTP bytes, original HTTP response headers, full payload hashes or per-request clocks",
+    "no fresh like-for-like Zenodo usage difference or ORCID/OpenAlex/OpenAIRE full census",
+    "upstream issue closed/completed is not a proven deployed fix",
+    "failed/404/403/HTML challenge is not global absence",
+    "source snapshots across separate tools are not one simultaneous cross-platform census"
+  ],
+  "actual_scientific_source_repair": "NO_CHANGE_REQUIRED",
+  "disposition": "SOURCE_MAIN_DELTA_10__NO_NEW_FIXED_RELEASE_OR_TAG__EXTERNAL_PARTIAL_UNKNOWN__NO_CHANGE_REQUIRED",
+  "record_paths": [
+    "monitoring/2026-11-03/01-bounded-identity-infrastructure-recheck/README.md",
+    "monitoring/2026-11-03/01-bounded-identity-infrastructure-recheck/record.json",
+    "monitoring/2026-11-03/01-bounded-identity-infrastructure-recheck/github-main-deltas.csv",
+    "monitoring/2026-11-03/01-bounded-identity-infrastructure-recheck/surface-access-recheck.csv"
+  ]
+}
