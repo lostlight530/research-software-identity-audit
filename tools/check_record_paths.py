@@ -106,6 +106,149 @@ def check_projection_ledger(event: Path, record: dict) -> list[str]:
     return errors
 
 
+
+def check_surface_id_reconciliation(event: Path, record: dict, root: Path = ROOT) -> list[str]:
+    """Replay one explicitly derived surface-ID join against retained CSV inputs.
+
+    Checks source Git-blob identity and row-level referential integrity, not
+    original HTTP responses, platform freshness, or scientific truth.
+    """
+    errors: list[str] = []
+    label = event.as_posix()
+    if record.get("record_class") != (
+        "retrospective_machine_column_semantics_reconciliation_not_new_platform_capture"
+    ):
+        return errors
+
+    def error(message: str) -> None:
+        errors.append(f"{label}: {message}")
+
+    def input_file(key: str) -> Path | None:
+        relative = record.get(key)
+        if not isinstance(relative, str) or not relative.startswith("monitoring/"):
+            error(f"{key} must name a monitored repository-relative file")
+            return None
+        path = (root / relative).resolve()
+        if not path.is_relative_to(root.resolve()) or not path.is_file():
+            error(f"{key} is missing or escapes the repository: {relative}")
+            return None
+        return path
+
+    source = input_file("source_attempts_path")
+    dictionary = input_file("source_results_path")
+    output = event / "source-attempts-derived-surface-join.csv"
+    if not output.is_file():
+        error("derived join CSV missing")
+        return errors
+    if source is None or dictionary is None:
+        return errors
+
+    import hashlib
+
+    for field, path in (("source_attempts_blob_sha", source),
+                        ("source_results_blob_sha", dictionary)):
+        raw = path.read_bytes()
+        actual = hashlib.sha1(b"blob " + str(len(raw)).encode("ascii") + b"\0" + raw).hexdigest()
+        if record.get(field) != actual:
+            error(f"{field} does not match retained Git blob bytes")
+
+    try:
+        def rows(path: Path) -> tuple[list[str], list[dict[str, str]]]:
+            with path.open(encoding="utf-8-sig", newline="") as handle:
+                reader = csv.DictReader(handle)
+                return list(reader.fieldnames or []), list(reader)
+
+        raw_header, raw_rows = rows(source)
+        lookup_header, lookup_rows = rows(dictionary)
+        derived_header, derived_rows = rows(output)
+    except (OSError, UnicodeError, csv.Error) as exc:
+        error(f"CSV read failure: {exc}")
+        return errors
+
+    if not {"attempt_id", "platform"}.issubset(raw_header):
+        error("source CSV must retain attempt_id and original numeric platform column")
+        return errors
+    if not {"surface", "name"}.issubset(lookup_header):
+        error("surface dictionary must retain surface and name")
+        return errors
+    required = {
+        "source_row_ordinal", "source_attempt_key", "original_platform_column_numeric_value",
+        "derived_surface_id", "derived_surface_name", "operational_platform_if_core",
+        "core_or_supplementary_class", "source_package_date_label",
+        "derivation_provenance_class",
+    }
+    if not required.issubset(derived_header):
+        error(f"derived join missing columns: {sorted(required - set(derived_header))}")
+        return errors
+
+    if len(raw_rows) != record.get("original_attempt_rows"):
+        error("original_attempt_rows does not match retained source CSV")
+    if len(lookup_rows) != record.get("surface_dictionary_rows"):
+        error("surface_dictionary_rows does not match source dictionary")
+    if len(derived_rows) != record.get("normalized_output_rows"):
+        error("normalized_output_rows does not match derived CSV")
+    if len(derived_rows) != len(raw_rows):
+        error("derived row count differs from retained source attempts")
+
+    dictionary_by_id: dict[str, str] = {}
+    for entry in lookup_rows:
+        ident, name = entry.get("surface"), entry.get("name")
+        if not ident or not ident.isdecimal() or not name or ident in dictionary_by_id:
+            error(f"invalid or duplicate source surface ID: {ident!r}")
+        else:
+            dictionary_by_id[ident] = name
+
+    core_map = record.get("core_mapping")
+    if not isinstance(core_map, dict) or set(core_map.values()) != {
+        "github", "zenodo", "datacite", "orcid", "software_heritage", "openaire", "openalex"
+    } or len(core_map) != 7:
+        error("core_mapping must contain exactly seven distinct operational platforms")
+        return errors
+
+    counts: dict[str, int] = {}
+    keys: set[str] = set()
+    for ordinal, (src, derived) in enumerate(zip(raw_rows, derived_rows), 1):
+        attempt, surface = src.get("attempt_id"), src.get("platform")
+        if not attempt or attempt in keys:
+            error(f"blank or duplicate retained attempt key at row {ordinal}")
+        keys.add(attempt)
+        counts[surface] = counts.get(surface, 0) + 1
+        if surface not in dictionary_by_id:
+            error(f"unknown original surface {surface!r} at row {ordinal}")
+            continue
+        core = core_map.get(surface, "")
+        expected = {
+            "source_row_ordinal": str(ordinal),
+            "source_attempt_key": attempt,
+            "original_platform_column_numeric_value": surface,
+            "derived_surface_id": surface,
+            "derived_surface_name": dictionary_by_id[surface],
+            "operational_platform_if_core": core,
+            "core_or_supplementary_class": (
+                "CORE_PLATFORM_SURFACE_ONLY_NOT_A_NEW_UNIT"
+                if core else "SUPPLEMENTARY_OR_STANDARDS_SURFACE"
+            ),
+            "source_package_date_label": record.get("source_package_date_label"),
+            "derivation_provenance_class": (
+                "DERIVED_FROM_EXISTING_PUBLIC_LEDGER_NOT_NEW_HTTP_REQUEST"
+            ),
+        }
+        for field, value in expected.items():
+            if derived.get(field) != value:
+                error(f"derived row {ordinal} field {field} does not match source join")
+
+    if record.get("source_surface_counts") != counts:
+        error("source_surface_counts does not match retained source attempt frequencies")
+    if record.get("distinct_attempt_keys") != len(keys):
+        error("distinct_attempt_keys differs from retained source")
+    if record.get("distinct_surface_ids_used") != len(counts):
+        error("distinct_surface_ids_used differs from retained source")
+    if (record.get("not_prospective") is not True
+            or record.get("prospective_cells_added") != 0
+            or record.get("new_http_requests_to_reconstruct_old_2026_11_02_attempts") != 0):
+        error("derived reconciliation must not be labelled as prospective or a new capture")
+    return errors
+
 def valid_date(s: str) -> bool:
     try:
         return bool(DATE_RE.fullmatch(s) and date.fromisoformat(s).isoformat() == s)
@@ -169,6 +312,8 @@ def check() -> dict:
                     if type(parsed["source_attempt_rows"]) is int:
                         projection_rows_declared += parsed["source_attempt_rows"]
                     errors.extend(check_projection_ledger(event, parsed))
+                if isinstance(parsed, dict):
+                    errors.extend(check_surface_id_reconciliation(event, parsed))
             except (ValueError, UnicodeError) as e:
                 errors.append(f"Malformed machine JSON record in {rel}: {e}")
         elif rel in OFFLINE_ONLY_EVENTS:
