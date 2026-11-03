@@ -66,3 +66,18 @@ An audit of the *current checked-out tree* found 35 dated monitoring event direc
 4. The OSF preregistration, RS01–RS10, six analytical layers, seven operational platforms, frozen baseline and undeclared concrete schedule are not affected by this path convention. CONTROL and PILOT are not new sample IDs
 5. Historical path changes require a **separate old-path → new-path map and original Git blob identities**. Do not rename published evidence or mutate capture manifests for cosmetic consistency. Reclassification is explicit and append-only
 6. The local checker `python -B tools/check_record_paths.py` validates dated event envelopes, entrypoints, normal machine-record variants, documented offline-only exception, monitoring index coverage and evidence/monitoring companions. It checks **structure, not source validity or scientific truth**
+
+## November 3 first-day-to-current classification and derived-column correction (forward rule)
+
+The [dated full-history classification](../docs/research-control-first-day-to-current-governance-audit-2026-11-03.md) pins **104 reachable main commits / 620 pre-audit tracked files / 58 dated monitoring event directories / 20 dated evidence companions** to main `b6aa40231bcba62da98e089673652839952118cf`. These are snapshots, **not** continuously refreshed counts or a study denominator. The complete [file owner/name/temporal-policy index](../docs/research-control-file-ownership-snapshot-2026-11-03.csv) is path-level evidence and must not be cited as a manual body/content audit of every file.
+
+**Forward naming and semantic normalization:**
+
+- A valid historical path must **not** be moved simply to make an old record's slug match today's preferred terminology. For `2026-10-06/01-wave-01`, the current display/semantic alias is **pre-eligibility diagnostic**, retaining the old Git path/bytes rather than pretending it was a preregistered prospective timepoint
+- Every new `monitoring/YYYY-MM-DD/NN-kebab-case/` event must carry an entrypoint and a machine summary **unless** separately declared as a true offline replay-only exception with no new measurement; record.yaml/record.json are accepted historical variants, not competing observation units
+- The capture date path, original source retrieval timestamp, derived compilation timestamp, Git commit time and OSF study event date are independent provenance fields. A later correction always gives its **real** later clock
+- The November 2 source ledger uses `platform` for numeric **34-surface IDs**. The [November 3 482-row derived normalization](2026-11-03/02-source-attempt-surface-id-reconciliation/README.md) joins it to surface labels without rewriting historical CSV or promoting 34 surfaces into 34 new preregistered platforms. New *derived* ledgers must instead use explicit `surface_id`, `surface_name` and optional separate `operational_platform`
+- Research sample RS01–RS10, the independent CONTROL runtime, supplementary software and OSF registration are separate identities; platform counts, repository commits, software versions and file counts must never be renamed as the **60** object-layer denominator
+- Current citation/contract documentation may add an alias/index to an older source; actual historical-source relocation requires original path/blob mapping, linked references, audit of manifest/hash impact, and an explicit later correction. No silent delete/rename of original evidence, version tags, DOI objects or OSF revisions
+
+This rule is forward-looking repository governance, **not** a post hoc amendment to the originally registered study or evidence of new prospective observation cells.
