@@ -66,10 +66,6 @@
   "github": {
     "connected_source": "GitHub REST",
     "as_of": "2026-11-04 client session; exact per-request UTC times not recorded",
-    "fixed_main_changed_repos_from_nov3_end": [
-      "RS01",
-      "RS02"
-    ],
     "fixed_main_ahead_commits_total": 3,
     "other_fixed_main_unchanged": 8,
     "control_main": "b00f4fa99307051cf827ab9d3162c2b54f584be2",
@@ -91,6 +87,15 @@
       "run": 41573633210,
       "conclusion": "success",
       "scope": "advisory"
+    },
+    "fixed_main_changed_repos_since_nov3_source_read": [
+      "RS01",
+      "RS02"
+    ],
+    "source_comparison_baseline": {
+      "source_record": "monitoring/2026-11-03/01-bounded-identity-infrastructure-recheck/github-main-deltas.csv",
+      "main_read_completion_client_utc": "2026-11-03T03:09:19.860Z",
+      "clock_scope": "batch-completion envelope, not each repository request time and not November 3 end-of-day"
     }
   },
   "selected_zenodo": {
@@ -154,5 +159,26 @@
     "Zenodo full fixed-ten usage delta",
     "current 34-surface full object-level lifecycle"
   ],
-  "disposition": "PARTIAL__SOURCE_MAIN_DELTA_2__SELECTED_ZENODO_METRIC_DELTA__NO_NEW_FIXED_RELEASE__NO_CHANGE_REQUIRED"
+  "disposition": "PARTIAL__SOURCE_MAIN_DELTA_2__SELECTED_ZENODO_METRIC_DELTA__NO_NEW_FIXED_RELEASE__NO_CHANGE_REQUIRED",
+  "correction_history": [
+    {
+      "date": "2026-11-04",
+      "type": "DERIVED_COMPARISON_CLOCK_LABEL_CORRECTION",
+      "supersedes_derived_labels": [
+        "github-main-heads.csv:nov3_end_main_sha",
+        "github-main-heads.csv:ahead_since_nov3_end",
+        "record.json:github.fixed_main_changed_repos_from_nov3_end",
+        "README.md:November 3 end-of-day"
+      ],
+      "new_machine_key": "github.fixed_main_changed_repos_since_nov3_source_read",
+      "source_baseline_client_envelope_utc": "2026-11-03T03:09:19.860Z",
+      "prior_public_commit": "2425a79518f9dbbed5f12564e2122c573babc659",
+      "prior_record_blob": "3634d802a0e0b8a3b72a9f90b800af04f5e14f5f",
+      "source_commit_comparison_counts_unchanged": true,
+      "source_shas_unchanged": true,
+      "raw_evidence_modified": false,
+      "explanation": "The November 3 source ledger was a mid-day Beijing read, not a day-end snapshot. This is semantic correction of the derived comparison anchor only.",
+      "note_ref": "monitoring/2026-11-04/01-periodic-identity-infrastructure-recheck/clock-anchor-correction.md"
+    }
+  ]
 }
