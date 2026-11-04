@@ -1,0 +1,158 @@
+{
+  "record_class": "bounded_diagnostic_source_access_not_prospective",
+  "logical_date": "2026-11-04",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_client_utc": "2026-11-04T04:58:49.666Z",
+  "surface_batch_client_started_utc": "2026-11-04T04:58:20.194Z",
+  "surface_batch_client_finished_utc": "2026-11-04T04:58:49.665Z",
+  "receipt_ids": [
+    "extract_63b79fb8ed0ee5a40d66debf51b4b0e7",
+    "extract_e895fc108d06802af02a8aa187e5eba2"
+  ],
+  "surface_url_attempt_count": 34,
+  "surface_extracted_representations": 28,
+  "surface_errors": 6,
+  "utc_day_2026_11_04_extractor_acquired_surface_ids": [
+    17,
+    18,
+    19,
+    20,
+    22,
+    23,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "error_rows": [
+    {
+      "id": 11,
+      "error": "connect_error",
+      "http": null
+    },
+    {
+      "id": 13,
+      "error": "http_error",
+      "http": 404
+    },
+    {
+      "id": 14,
+      "error": "http_error",
+      "http": 404
+    },
+    {
+      "id": 15,
+      "error": "fetch_error",
+      "http": 200
+    },
+    {
+      "id": 24,
+      "error": "http_error",
+      "http": 404
+    },
+    {
+      "id": 25,
+      "error": "http_error",
+      "http": 403
+    }
+  ],
+  "source_url_manifest": "monitoring/2026-11-03/01-bounded-identity-infrastructure-recheck/surface-access-recheck.csv",
+  "source_receipt_type": "third-party text/excerpt extractor, acquired_at UTC-day precision; no original provider HTTP bodies, complete headers, body SHA256 or individual origin time",
+  "github": {
+    "connected_source": "GitHub REST",
+    "as_of": "2026-11-04 client session; exact per-request UTC times not recorded",
+    "fixed_main_changed_repos_from_nov3_end": [
+      "RS01",
+      "RS02"
+    ],
+    "fixed_main_ahead_commits_total": 3,
+    "other_fixed_main_unchanged": 8,
+    "control_main": "b00f4fa99307051cf827ab9d3162c2b54f584be2",
+    "open_prs": [
+      {
+        "repo": "welcome-to-github",
+        "number": 901
+      },
+      {
+        "repo": "zero-entropy-lab",
+        "number": 792
+      }
+    ],
+    "open_prs_control": 0,
+    "published_releases_fixed": 50,
+    "published_releases_control": 5,
+    "new_fixed_releases": 0,
+    "prior_main_ci": {
+      "run": 41573633210,
+      "conclusion": "success",
+      "scope": "advisory"
+    }
+  },
+  "selected_zenodo": {
+    "object_id": "RS01",
+    "record_id": 23811380,
+    "source": "https://zenodo.org/api/records/23811380",
+    "source_excerpt_receipt": "extract_c1717da3311da6df82d2dcd3339bf1e5",
+    "source_acquired_day": "2026-11-04T00:00:00Z",
+    "before_source": "evidence/2026-11-02/02-all-version-recheck/all-version-statistics.csv",
+    "before_family_views": 369,
+    "after_family_views": 386,
+    "views_delta": 17,
+    "before_family_downloads": 6,
+    "after_family_downloads": 7,
+    "downloads_delta": 1,
+    "scope": "same-record attached family counter; not cross-version unique people or 10-family total"
+  },
+  "historical_reference_not_today": {
+    "as_of": "2026-11-02 (Beijing) independent capture",
+    "doi_identities": 90,
+    "orcid_groups": 17,
+    "orcid_summaries": 106,
+    "openalex_author_works": 32,
+    "openaire_returned": 88,
+    "openaire_attempted": 90,
+    "zenodo_fixed_versions": 50,
+    "zenodo_all_versions": 57,
+    "zenodo_fixed_views": 3308,
+    "zenodo_fixed_downloads": 17
+  },
+  "upstream": {
+    "rse_498": "OPEN_UNMERGED_ZERO_REVIEWS",
+    "rsd_1870": "CLOSED_COMPLETED_NO_NEW_UI_RETEST",
+    "rsd_1871": "OPEN",
+    "rsd_release": "v6.7.5",
+    "rrid_scr_029105": "PREVIOUSLY_RESOLVED_CURATOR_COMPLETION_UNKNOWN",
+    "new_formal_research_collaboration": "NOT_VERIFIED"
+  },
+  "contract": {
+    "osf": "https://osf.io/5b329/overview",
+    "original_response_id": "6ac3ae5e6da32e3d0576ed72",
+    "approved_revised_response_id": "6ac4c12fed97b8b77ce88a9c",
+    "compared_fields": 29,
+    "changed_exploratory_field": "344-83",
+    "fixed_rs": 10,
+    "layers": 6,
+    "units_per_scheduled_timepoint": 60,
+    "operational_platforms": 7,
+    "possible_checks_not_units": 70,
+    "concrete_schedule_offsets_declared": false,
+    "prospective_cells_added": 0,
+    "prospective_dataset_member": false,
+    "osf_modified": false,
+    "historical_raw_modified": false
+  },
+  "not_verified": [
+    "fresh 90 DOI census",
+    "fresh ORCID/OpenAlex/OpenAIRE full enumeration",
+    "preservation of all newest GitHub main SHAs",
+    "external institutional adoption or formal affiliation",
+    "Zenodo full fixed-ten usage delta",
+    "current 34-surface full object-level lifecycle"
+  ],
+  "disposition": "PARTIAL__SOURCE_MAIN_DELTA_2__SELECTED_ZENODO_METRIC_DELTA__NO_NEW_FIXED_RELEASE__NO_CHANGE_REQUIRED"
+}
