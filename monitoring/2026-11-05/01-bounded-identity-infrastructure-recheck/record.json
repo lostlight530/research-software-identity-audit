@@ -110,7 +110,14 @@
     "new_project_creation_cutoff": "2026-11-16",
     "existing_projects_read_only_date": "2027-02-19",
     "registration_preprint_scope": "unaffected_by_project_transition",
-    "project_wa5v8_actual_permission_effect": "NOT_VERIFIED"
+    "project_wa5v8_actual_permission_effect": "NOT_VERIFIED",
+    "official_page_last_updated": "2026-11-02",
+    "source_internal_date_conflict": {
+      "status": "SOURCE_INTERNAL_CONFLICT_UNRESOLVED",
+      "project_read_only_date_repeated": "2027-02-19",
+      "api_project_edit_deprecation_date_single_sentence": "2026-02-19",
+      "note": "Official OSF help article contradicts itself on the API editing-deprecation date; neither date can be substituted for an authenticated API test of this project. Do not infer exact API retirement clock."
+    }
   },
   "historical_reference_not_today": {
     "reference_date": "2026-11-02 Asia/Shanghai",
@@ -149,5 +156,19 @@
     "scientific_source_defect_repair": "NO_CHANGE_REQUIRED",
     "new_release_or_doi": "NONE"
   },
-  "disposition": "PARTIAL__GITHUB_MAIN_DELTA_5__SELECTED_ZENODO_VIEWS_PLUS_5__OSF_PROJECT_POLICY_CHANGE__NO_SCIENTIFIC_SOURCE_REPAIR_REQUIRED"
+  "disposition": "PARTIAL__GITHUB_MAIN_DELTA_5__SELECTED_ZENODO_VIEWS_PLUS_5__OSF_PROJECT_POLICY_CHANGE__NO_SCIENTIFIC_SOURCE_REPAIR_REQUIRED",
+  "correction_history": [
+    {
+      "type": "ADDITIVE_SOURCE_INTERNAL_DATE_CONFLICT_CLARIFICATION",
+      "compiled_client_utc": "2026-11-05T05:36:02.671Z",
+      "original_report_merge_commit": "74334f9aaffccff579935bc2137a879eedf6775e",
+      "previous_machine_record_blob_sha": "b26101fbb2d44e397a047b49f033e3a5ca4ca712",
+      "previous_readme_blob_sha": "c1cd1c7591e33cebca98cae10ec3d7bdd397b296",
+      "original_extractor_receipt": "extract_6b24bea19ee2addfde1e6abc987ee5c7",
+      "official_source": "https://help.osf.io/article/759-details-of-osf-projects-transition",
+      "previous_platform_and_numerical_measurements_unchanged": true,
+      "raw_historical_evidence_modified": false,
+      "osf_contract_modified": false
+    }
+  ]
 }
