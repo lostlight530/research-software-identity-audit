@@ -249,6 +249,211 @@ def check_surface_id_reconciliation(event: Path, record: dict, root: Path = ROOT
         error("derived reconciliation must not be labelled as prospective or a new capture")
     return errors
 
+
+def check_bounded_surface_ledger(event: Path, record: dict) -> list[str]:
+    """Check Nov-style selected-field surface ledgers against their own summaries.
+
+    Source-level access errors remain errors, not evidence of absent resources.
+    This checks only retained CSV/JSON consistency, not original HTTP transport
+    authenticity, extractor freshness, or scientific validity.
+    """
+    if record.get("record_class") != "bounded_diagnostic_source_access_not_prospective":
+        return []
+
+    label = event.as_posix()
+    errors: list[str] = []
+
+    def error(reason: str) -> None:
+        errors.append(f"{label}: {reason}")
+
+    data = record.get("supplementary_surfaces")
+    newer = isinstance(data, dict)
+    if newer:
+        count = data.get("attempt_count")
+        extracted = data.get("extractor_representations")
+        failures = data.get("errors")
+        receipts = data.get("receipts")
+        error_ids = data.get("error_surface_ids")
+    else:
+        count = record.get("surface_url_attempt_count")
+        extracted = record.get("surface_extracted_representations")
+        failures = record.get("surface_errors")
+        receipts = record.get("receipt_ids")
+        original_errors = record.get("error_rows")
+        error_ids = ([x.get("id") for x in original_errors]
+                     if isinstance(original_errors, list)
+                     and all(isinstance(x, dict) for x in original_errors)
+                     else None)
+
+    if (type(count) is not int or count < 1
+            or type(extracted) is not int or extracted < 0
+            or type(failures) is not int or failures < 0
+            or extracted + failures != count):
+        error("invalid declared surface attempt/extraction/error totals")
+        return errors
+    if (not isinstance(receipts, list) or not receipts
+            or not all(isinstance(x, str) and x for x in receipts)
+            or len(set(receipts)) != len(receipts)):
+        error("invalid or duplicate declared extractor receipts")
+        return errors
+    if (not isinstance(error_ids, list)
+            or any(type(x) is not int for x in error_ids)
+            or len(set(error_ids)) != failures):
+        error("declared error surface IDs do not match error total")
+        return errors
+
+    contract = record.get("contract")
+    if (not isinstance(contract, dict)
+            or contract.get("prospective_cells_added") != 0
+            or contract.get("prospective_dataset_member") is not False):
+        error("diagnostic surface ledger cannot declare prospective observations")
+
+    path = event / "surface-access-recheck.csv"
+    if not path.is_file():
+        error("surface-access-recheck.csv missing")
+        return errors
+    try:
+        with path.open(encoding="utf-8-sig", newline="") as handle:
+            reader = csv.DictReader(handle)
+            required = {
+                "surface_id", "surface_name", "exact_source_locator",
+                "access_state", "extractor_acquired_at_utc_day",
+                "error_type", "http_status_if_reported",
+                "tool_receipt_id", "provenance_class",
+            }
+            if not required.issubset(reader.fieldnames or []):
+                error(f"surface ledger missing columns: {sorted(required - set(reader.fieldnames or []))}")
+                return errors
+            rows = list(reader)
+            has_client_clock = "client_batch_started_utc" in (reader.fieldnames or [])
+            if has_client_clock != ("client_batch_finished_utc" in (reader.fieldnames or [])):
+                error("client batch clock columns must appear together")
+                return errors
+    except (OSError, UnicodeError, csv.Error) as exc:
+        error(f"surface ledger unreadable: {exc}")
+        return errors
+
+    if len(rows) != count:
+        error(f"declared surface attempt count {count} != CSV rows {len(rows)}")
+
+    found_errors: set[int] = set()
+    found_ids: list[int] = []
+    found_receipts: set[str] = set()
+    success_count = 0
+    current_day = record.get("logical_date")
+    try:
+        current_date = date.fromisoformat(current_day)
+    except (TypeError, ValueError):
+        error("missing or invalid logical_date")
+        current_date = None
+    daily_counts = {"current": 0, "previous": 0, "older": 0}
+    batch_pairs = data.get("batch_window_utc") if newer else None
+    receipt_pairs: dict[str, tuple[datetime, datetime]] = {}
+    if has_client_clock:
+        if (not isinstance(batch_pairs, list)
+                or len(batch_pairs) != len(receipts)):
+            error("client batch window/receipt length mismatch")
+        else:
+            for receipt, pair in zip(receipts, batch_pairs):
+                if not isinstance(pair, list) or len(pair) != 2:
+                    error("invalid declared client batch window")
+                    continue
+                start, end = _aware_clock(pair[0]), _aware_clock(pair[1])
+                if start is None or end is None or end < start:
+                    error("invalid or unordered declared client batch window")
+                else:
+                    receipt_pairs[receipt] = (start, end)
+
+    for n, row in enumerate(rows, 2):
+        if None in row:
+            error(f"extra CSV fields at row {n}")
+        ident = row.get("surface_id", "")
+        if not isinstance(ident, str) or not ident.isdecimal():
+            error(f"invalid surface ID at row {n}")
+            continue
+        sid = int(ident)
+        found_ids.append(sid)
+        if (not row.get("surface_name") or
+                not str(row.get("exact_source_locator", "")).startswith(("https://", "http://")) or
+                not row.get("provenance_class")):
+            error(f"missing surface name/source/provenance at ID {sid}")
+        receipt = row.get("tool_receipt_id", "")
+        if receipt:
+            found_receipts.add(receipt)
+        state = row.get("access_state")
+        if state == "ERROR":
+            found_errors.add(sid)
+            if not row.get("error_type"):
+                error(f"ERROR without error_type for surface {sid}")
+            if row.get("extractor_acquired_at_utc_day"):
+                error(f"ERROR with extracted acquisition day for surface {sid}")
+        elif state == "EXTRACTED":
+            success_count += 1
+            if row.get("error_type"):
+                error(f"EXTRACTED with error_type for surface {sid}")
+            value = row.get("extractor_acquired_at_utc_day", "")
+            if (not isinstance(value, str)
+                    or not re.fullmatch(r"\d{4}-\d{2}-\d{2}T00:00:00Z", value)):
+                error(f"invalid extractor UTC-day acquisition label for surface {sid}")
+            else:
+                acquired = _aware_clock(value)
+                if acquired is None:
+                    error(f"invalid extractor acquisition date for surface {sid}")
+                elif current_date is not None:
+                    day = acquired.date()
+                    if day == current_date:
+                        daily_counts["current"] += 1
+                    elif day == current_date.fromordinal(current_date.toordinal() - 1):
+                        daily_counts["previous"] += 1
+                    else:
+                        daily_counts["older"] += 1
+        else:
+            error(f"invalid access_state {state!r} at surface {sid}")
+
+        if has_client_clock:
+            start = _aware_clock(row.get("client_batch_started_utc"))
+            end = _aware_clock(row.get("client_batch_finished_utc"))
+            if start is None or end is None or end < start:
+                error(f"invalid or unordered row client batch clock for surface {sid}")
+            elif receipt not in receipt_pairs or (start, end) != receipt_pairs[receipt]:
+                error(f"row client batch clock/receipt mismatch for surface {sid}")
+
+    if found_ids != list(range(1, count + 1)):
+        error("surface IDs must enumerate 1..attempt_count in order")
+    if found_errors != set(error_ids):
+        error("CSV error surface IDs differ from machine summary")
+    if success_count != extracted or len(found_errors) != failures:
+        error("CSV extracted/error state counts differ from machine summary")
+    if found_receipts != set(receipts):
+        error("CSV extractor receipts differ from machine summary")
+
+    if newer:
+        for key, label_key in (
+            ("acquired_utc_day_nov5_count", "current"),
+            ("acquired_utc_day_nov4_count", "previous"),
+            ("older_acquisition_count", "older"),
+        ):
+            # These dated keys are legacy report fields, not a generic date schema.
+            if key in data and data[key] != daily_counts[label_key]:
+                error(f"{key} differs from CSV acquisition-day rows")
+    else:
+        if (current_date is not None
+                and "utc_day_2026_11_04_extractor_acquired_surface_ids" in record):
+            actual = {
+                int(row["surface_id"]) for row in rows
+                if row.get("extractor_acquired_at_utc_day") == "2026-11-04T00:00:00Z"
+                and str(row.get("surface_id", "")).isdecimal()
+            }
+            if actual != set(record["utc_day_2026_11_04_extractor_acquired_surface_ids"]):
+                error("declared Nov 4 UTC-day surface IDs differ from CSV")
+        start = _aware_clock(record.get("surface_batch_client_started_utc"))
+        end = _aware_clock(record.get("surface_batch_client_finished_utc"))
+        if start is None or end is None or end < start:
+            error("invalid or unordered declared surface client batch envelope")
+
+    return errors
+
+
 def valid_date(s: str) -> bool:
     try:
         return bool(DATE_RE.fullmatch(s) and date.fromisoformat(s).isoformat() == s)
@@ -314,6 +519,7 @@ def check() -> dict:
                     errors.extend(check_projection_ledger(event, parsed))
                 if isinstance(parsed, dict):
                     errors.extend(check_surface_id_reconciliation(event, parsed))
+                    errors.extend(check_bounded_surface_ledger(event, parsed))
             except (ValueError, UnicodeError) as e:
                 errors.append(f"Malformed machine JSON record in {rel}: {e}")
         elif rel in OFFLINE_ONLY_EVENTS:
