@@ -10,7 +10,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
-from check_record_paths import check_projection_ledger, check_surface_id_reconciliation
+from check_record_paths import (check_projection_ledger, check_surface_id_reconciliation,
+                                check_bounded_surface_ledger)
 
 
 class BoundedProjectionLedgerTests(unittest.TestCase):
@@ -201,6 +202,110 @@ class SyntheticSurfaceReconciliationTests(unittest.TestCase):
             ),
             [],
         )
+
+
+
+class BoundedSurfaceAccessTests(unittest.TestCase):
+    """Three synthetic service rows, no provider requests or historical mutations."""
+
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.event = Path(self.temp.name) / "monitoring/2026-11-05/01-synthetic"
+        self.event.mkdir(parents=True)
+        self.record = {
+            "record_class": "bounded_diagnostic_source_access_not_prospective",
+            "logical_date": "2026-11-05",
+            "supplementary_surfaces": {
+                "attempt_count": 3,
+                "extractor_representations": 2,
+                "errors": 1,
+                "error_surface_ids": [3],
+                "receipts": ["extract_demo"],
+                "batch_window_utc": [[
+                    "2026-11-05T05:00:00Z", "2026-11-05T05:01:00Z"
+                ]],
+                "acquired_utc_day_nov5_count": 1,
+                "acquired_utc_day_nov4_count": 1,
+                "older_acquisition_count": 0,
+            },
+            "contract": {"prospective_cells_added": 0,
+                         "prospective_dataset_member": False},
+        }
+        self.rows = []
+        for n, (status, acquired, error_type) in enumerate([
+            ("EXTRACTED", "2026-11-05T00:00:00Z", ""),
+            ("EXTRACTED", "2026-11-04T00:00:00Z", ""),
+            ("ERROR", "", "connect_error"),
+        ], 1):
+            self.rows.append({
+                "surface_id": str(n),
+                "surface_name": f"service-{n}",
+                "exact_source_locator": f"https://example.org/service/{n}",
+                "access_state": status,
+                "extractor_acquired_at_utc_day": acquired,
+                "error_type": error_type,
+                "http_status_if_reported": "",
+                "tool_receipt_id": "extract_demo",
+                "provenance_class": "EXTRACTOR_SELECTED_FIELDS_NOT_ORIGIN_BYTES",
+                "client_batch_started_utc": "2026-11-05T05:00:00Z",
+                "client_batch_finished_utc": "2026-11-05T05:01:00Z",
+            })
+        self.write_csv()
+
+    def write_csv(self):
+        with (self.event / "surface-access-recheck.csv").open(
+            "w", encoding="utf-8", newline=""
+        ) as handle:
+            writer = csv.DictWriter(handle, fieldnames=list(self.rows[0]))
+            writer.writeheader()
+            writer.writerows(self.rows)
+
+    def errors(self):
+        return check_bounded_surface_ledger(self.event, self.record)
+
+    def test_valid_bounded_surface_ledger(self):
+        self.assertEqual(self.errors(), [])
+
+    def test_removed_row_is_detected(self):
+        self.rows.pop()
+        self.write_csv()
+        self.assertIn("attempt count", " ".join(self.errors()))
+
+    def test_changed_error_status_is_detected(self):
+        self.rows[2]["access_state"] = "EXTRACTED"
+        self.rows[2]["error_type"] = ""
+        self.rows[2]["extractor_acquired_at_utc_day"] = "2026-11-04T00:00:00Z"
+        self.write_csv()
+        self.assertIn("error surface IDs", " ".join(self.errors()))
+
+    def test_duplicate_surface_id_is_detected(self):
+        self.rows[1]["surface_id"] = "1"
+        self.write_csv()
+        self.assertIn("surface IDs must enumerate", " ".join(self.errors()))
+
+    def test_wrong_receipt_is_detected(self):
+        self.rows[0]["tool_receipt_id"] = "unknown_receipt"
+        self.write_csv()
+        self.assertIn("receipts differ", " ".join(self.errors()))
+
+    def test_wrong_day_granularity_is_detected(self):
+        self.rows[0]["extractor_acquired_at_utc_day"] = "2026-11-05T05:00:15Z"
+        self.write_csv()
+        self.assertIn("UTC-day acquisition", " ".join(self.errors()))
+
+    def test_client_batch_receipt_mismatch_is_detected(self):
+        self.rows[1]["client_batch_finished_utc"] = "2026-11-05T05:00:30Z"
+        self.write_csv()
+        self.assertIn("clock/receipt mismatch", " ".join(self.errors()))
+
+    def test_synthetic_cannot_be_promoted_to_prospective(self):
+        self.record["contract"]["prospective_cells_added"] = 60
+        self.assertIn("cannot declare prospective", " ".join(self.errors()))
+
+    def test_unrelated_historical_format_is_not_reinterpreted(self):
+        self.assertEqual(check_bounded_surface_ledger(
+            self.event, {"record_class": "legacy"}), [])
 
 
 if __name__ == "__main__":

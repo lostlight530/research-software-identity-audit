@@ -24,6 +24,8 @@ The study is publicly preregistered on OSF and examines how a fixed corpus of re
 
 **Reconstructed control-repository lifecycle through October 28, 2026:** [pinned 87-commit / 437-file OSF contract and evidence audit](docs/control-repository-lifecycle-audit-through-2026-10-28.md). This is a retrospective Git snapshot, not a scheduled prospective observation. The [October 29 diagnostic clock correction](monitoring/2026-10-29/01-bounded-contract-recheck/clock-provenance-correction.md) is explicitly after the historical cutoff.
 
+**2026-11-05 first-day-to-current full-tree maintenance:** [Pinned 110 main commits, 637 tracked Git file identities, 61 dated diagnostics, 20 evidence companions and bounded ledger-checker repair](docs/research-control-first-day-to-2026-11-05-file-maintenance.md). The source snapshot is pinned to pre-maintenance `main`; historical archive bytes, OSF contract, schedule and formal prospective observations are not rewritten.
+
 **2026-11-03 full-history audit:** [104 reachable main commits, all 620 pre-audit tracked paths, dated-event naming/classification and OSF version authority](docs/research-control-first-day-to-current-governance-audit-2026-11-03.md). A real [482-attempt surface-ID correction](monitoring/2026-11-03/02-source-attempt-surface-id-reconciliation/README.md) is additive and leaves historical request bytes unchanged. The pinned catalog is not a claim of a complete per-file scientific replay or a new prospective wave.
 
 ## Start here — documentation and repository navigation
