@@ -142,3 +142,7 @@ individual HTTP request timestamp. This validator neither authenticates third-pa
 response bytes nor proves freshness, completeness, the correctness of numeric
 claims, OSF prospective eligibility, or independent reproducibility. Keep the
 CI step advisory while schemas and evidence representation mature.
+
+## November 5 bounded 34-surface monitoring ledger consistency preflight
+
+The existing read-only `python -B tools/check_record_paths.py` now additionally validates the **November 4–5** `bounded_diagnostic_source_access_not_prospective` summary and `surface-access-recheck.csv` pairs: exact surface IDs, row and status counts, retained failure IDs, extractor receipt identities, UTC-day acquisition label precision, and when supplied, client-batch clock/receipt agreement. Two historical machine-summary layouts are supported without rewriting either. Synthetic-only negative/positive cases are included in `tests/test_monitoring_projection.py`, already invoked by advisory GitHub Actions. This guard checks **retained record structure**, not provider-byte provenance, external freshness, adoption or OSF prospective eligibility. Its source and dated full-repository rationale are documented in [November 5 file maintenance audit](../docs/research-control-first-day-to-2026-11-05-file-maintenance.md). No new dependency or strict CI gate is introduced.
