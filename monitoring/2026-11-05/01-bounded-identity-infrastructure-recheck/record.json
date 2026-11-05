@@ -1,0 +1,153 @@
+{
+  "record_class": "bounded_diagnostic_source_access_not_prospective",
+  "logical_date": "2026-11-05",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_client_utc": "2026-11-05T05:32:47.559Z",
+  "github_query_clock": "2026-11-05 client session; exact per-GitHub-request UTC timestamps not saved; results non-atomic",
+  "baseline": {
+    "source": "monitoring/2026-11-04/01-periodic-identity-infrastructure-recheck/github-main-heads.csv",
+    "source_clock": "Nov 4 client session; not a certified day-end snapshot",
+    "surface_source": "monitoring/2026-11-04/01-periodic-identity-infrastructure-recheck/surface-access-recheck.csv"
+  },
+  "github": {
+    "changed_fixed_repositories": [
+      "RS01",
+      "RS02",
+      "RS08",
+      "RS09",
+      "RS10"
+    ],
+    "changed_fixed_repositories_count": 5,
+    "ahead_by_sum_fixed": 46,
+    "behind_by_sum_fixed": 0,
+    "control_ahead_by": 2,
+    "open_prs_all_core": [
+      {
+        "object_id": "RS05",
+        "repo": "agent-foundations",
+        "number": 378,
+        "draft": true,
+        "do_not_merge_here": true
+      }
+    ],
+    "other_ten_core_open_pr_count": 0,
+    "fixed_published_release_count": 50,
+    "control_published_release_count": 5,
+    "latest_fixed_release_tag": "v2026.10-30-evidence-snapshot",
+    "new_fixed_published_releases": 0,
+    "prior_control_main": "b00f4fa99307051cf827ab9d3162c2b54f584be2",
+    "control_main_before_new_patrol": "bdfb7ed1edfbd6752b1ad7bb7082d35a60aff7fb",
+    "prior_control_main_ci": {
+      "run_id": 41779294755,
+      "head_sha": "bdfb7ed1edfbd6752b1ad7bb7082d35a60aff7fb",
+      "conclusion": "success",
+      "scope": "advisory_only"
+    }
+  },
+  "supplementary_surfaces": {
+    "manifest_source": "monitoring/2026-11-04/01-periodic-identity-infrastructure-recheck/surface-access-recheck.csv",
+    "attempt_count": 34,
+    "extractor_representations": 28,
+    "errors": 6,
+    "error_surface_ids": [
+      11,
+      13,
+      14,
+      15,
+      24,
+      25
+    ],
+    "acquired_utc_day_nov5_count": 1,
+    "acquired_utc_day_nov4_count": 14,
+    "older_acquisition_count": 13,
+    "receipts": [
+      "extract_60e86aa1f3494a091633241a441ba512",
+      "extract_76f2fb1635ed5d4b633dca04bc81e918"
+    ],
+    "batch_window_utc": [
+      [
+        "2026-11-05T05:28:20.899Z",
+        "2026-11-05T05:28:43.813Z"
+      ],
+      [
+        "2026-11-05T05:29:11.839Z",
+        "2026-11-05T05:29:17.313Z"
+      ]
+    ],
+    "acquisition_clock_is_utc_day_truncated": true,
+    "provider_origin_raw_bytes_retained": false,
+    "semantics_warning": "An EXTRACTED representation is not verified live provider data; surface 21 is a bot page and 29 is API documentation, not structured preservation state"
+  },
+  "selected_zenodo": {
+    "object_id": "RS01",
+    "record_id": 23811380,
+    "canonical_source": "https://zenodo.org/api/records/23811380",
+    "alternate_equivalent_route": "https://zenodo.org/api/records/23365504/versions/latest",
+    "extract_receipt": "extract_6b24bea19ee2addfde1e6abc987ee5c7",
+    "extract_acquired_utc_day": "2026-11-05T00:00:00Z",
+    "previous_source": "monitoring/2026-11-04/01-periodic-identity-infrastructure-recheck/record.json",
+    "previous_attached_family_views": 386,
+    "observed_attached_family_views": 391,
+    "views_delta": 5,
+    "previous_attached_family_downloads": 7,
+    "observed_attached_family_downloads": 7,
+    "downloads_delta": 0,
+    "scope": "same record attached-family field; not distinct people, per-version sums, or fixed-ten total"
+  },
+  "upstream": {
+    "rse_pr_498": "OPEN_UNMERGED_0_REVIEWS",
+    "rsd_issue_1870": "CLOSED_COMPLETED_2026-10-16_NO_PRODUCTION_UI_RETEST",
+    "rsd_issue_1871": "OPEN",
+    "rsd_latest_published_release": "v6.7.5",
+    "rrid_scr_029105": "INDEXED_RESOURCE_PRIOR_EVIDENCE__CURRENT_CURATOR_VALIDATION_UNKNOWN",
+    "new_direct_institutional_interaction": "NOT_VERIFIED"
+  },
+  "external_governance": {
+    "source": "https://help.osf.io/article/759-details-of-osf-projects-transition",
+    "source_type": "official_OSF_help",
+    "extract_acquired_day": "2026-11-04T00:00:00Z",
+    "receipt": "extract_6b24bea19ee2addfde1e6abc987ee5c7",
+    "new_project_creation_cutoff": "2026-11-16",
+    "existing_projects_read_only_date": "2027-02-19",
+    "registration_preprint_scope": "unaffected_by_project_transition",
+    "project_wa5v8_actual_permission_effect": "NOT_VERIFIED"
+  },
+  "historical_reference_not_today": {
+    "reference_date": "2026-11-02 Asia/Shanghai",
+    "known_doi_identities": 90,
+    "orcid_groups": 17,
+    "orcid_summaries": 106,
+    "openalex_enumerated_author_works": 32,
+    "openaire_returns_of_90": 88,
+    "zenodo_fixed_versions": 50,
+    "zenodo_all_versions_including_supplementary": 57,
+    "zenodo_fixed_views": 3308,
+    "zenodo_fixed_downloads": 17
+  },
+  "contract": {
+    "original_osf_registration": "https://osf.io/5b329/overview",
+    "original_schema_response_id": "6ac3ae5e6da32e3d0576ed72",
+    "approved_revision_id": "6ac4c12fed97b8b77ce88a9c",
+    "only_compared_changed_field": "344-83_exploratory",
+    "fixed_samples": 10,
+    "layers": 6,
+    "planned_object_layer_units_per_eligible_timepoint": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_units": 70,
+    "declared_concrete_schedule_offsets": false,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_modified": false,
+    "historical_raw_modified": false
+  },
+  "verification": {
+    "github_connected_api": "EXECUTED",
+    "external_public_extractor": "EXECUTED_WITH_CACHED_CONTENT",
+    "offline_full_doi_census": "NOT_EXECUTED",
+    "original_transport_byte_capture": "NOT_AVAILABLE",
+    "independent_full_zenodo_ten_family_recount": "NOT_EXECUTED",
+    "scientific_source_defect_repair": "NO_CHANGE_REQUIRED",
+    "new_release_or_doi": "NONE"
+  },
+  "disposition": "PARTIAL__GITHUB_MAIN_DELTA_5__SELECTED_ZENODO_VIEWS_PLUS_5__OSF_PROJECT_POLICY_CHANGE__NO_SCIENTIFIC_SOURCE_REPAIR_REQUIRED"
+}
