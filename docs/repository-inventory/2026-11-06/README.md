@@ -22,6 +22,8 @@
 
 **Total: 8,802 Git-tracked file blobs across 11 repositories.** This is a tree-entry count, not 8,802 individually content-reviewed documents. CONTROL is the research contract/runtime/evidence repository and is not RS11.
 
+The CONTROL repository's first-day-to-current Git history is continued from the November 5 pinned 110-commit report by the [12-commit delta ledger](control-main-commit-delta-since-2026-11-05.csv). GitHub compare from the first commit on 2026-10-05 to the current source main reports 121 commits ahead of the first commit (122 reachable commits including the initial commit). The delta includes the merged November 5 full-tree audit, the merged November 6 diagnostic patrol and ten direct-main catalog additions; the latter are explicitly recorded as a process deviation below.
+
 ## 2. Machine-readable catalogs
 
 Each CSV records repository and object ID, exact pinned source main commit, tracked path, Git blob SHA, Git-reported byte size, deterministic path classification, and extension.
