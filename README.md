@@ -26,6 +26,8 @@ The study is publicly preregistered on OSF and examines how a fixed corpus of re
 
 **2026-11-05 first-day-to-current full-tree maintenance:** [Pinned 110 main commits, 637 tracked Git file identities, 61 dated diagnostics, 20 evidence companions and bounded ledger-checker repair](docs/research-control-first-day-to-2026-11-05-file-maintenance.md). The source snapshot is pinned to pre-maintenance `main`; historical archive bytes, OSF contract, schedule and formal prospective observations are not rewritten.
 
+**2026-11-06 cross-repository inventory:** [Complete 11-repository path/blob/size catalog and OSF workspace boundary](docs/repository-inventory/2026-11-06/README.md) — 8,802 tracked blobs across RS01–RS10 plus CONTROL, exact source main SHAs, deterministic path classification, preservation decisions, OSF Project GitHub mirror status and a recorded direct-main index-write deviation. This is a path-identity inventory, not an 8,802-file content review; no source rename/deletion or OSF mutation was performed.
+
 **2026-11-03 full-history audit:** [104 reachable main commits, all 620 pre-audit tracked paths, dated-event naming/classification and OSF version authority](docs/research-control-first-day-to-current-governance-audit-2026-11-03.md). A real [482-attempt surface-ID correction](monitoring/2026-11-03/02-source-attempt-surface-id-reconciliation/README.md) is additive and leaves historical request bytes unchanged. The pinned catalog is not a claim of a complete per-file scientific replay or a new prospective wave.
 
 ## Start here — documentation and repository navigation
