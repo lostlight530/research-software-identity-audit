@@ -214,3 +214,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## November 5 bounded identity and infrastructure recheck
 
 - [2026-11-05 / 01-bounded-identity-infrastructure-recheck](2026-11-05/01-bounded-identity-infrastructure-recheck/README.md) — eleven current main/PR/Release comparisons against explicitly dated Nov 4 source SHAs, 34 exact supplementary URL extraction attempts with source acquisition-day limits and six retained errors, selected RS01 Zenodo attached-family +5 views / 0 downloads, unchanged RSE/RSD PR/Issue states, and official OSF Project read-only policy notice. Dated diagnostic only; **zero prospective observations, no new DOI or Release, no frozen-contract change**.
+
+## November 6 bounded identity and infrastructure recheck
+
+- [2026-11-06 / 01-periodic-identity-infrastructure-recheck](2026-11-06/01-periodic-identity-infrastructure-recheck/README.md) — eleven connected GitHub mains, five Draft PRs, ten fixed sample mains advanced 359 commits in total against Nov 5 source SHA ledger with zero new published Release, 34 exact surface URL attempts retaining six errors and 27 cached older representations, selected RS01 Zenodo attached family views +17 / downloads +0, unchanged independent RSE/RSD interaction states, a raw-response retention rate-limit gap, and a date-neutral advisory checker fix. **Diagnostic only, zero prospective cells and no OSF/DOI/Release rewrite**.
