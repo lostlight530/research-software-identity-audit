@@ -140,3 +140,7 @@ The inventory package was merged through [PR #94](https://github.com/lostlight53
 - The Home Wiki remains the existing version 4 entry-point statement; it was not modified.
 
 OSF provider acquisition labels are UTC-day granularity from the public extractor, while per-entry `last_touched` values are returned by the OSF representation. This verifies the GitHub-provider projection after merge, not an authenticated OSF write, not an independent OSF file upload, and not a change to the frozen registration.
+
+## Cloud asset organization and OSF surface review (2026-11-06)
+
+See [cloud asset organization, document classification and OSF surface reconciliation](cloud-asset-organization-and-osf-surface-2026-11-06.md), with separate [ancillary repository register](ancillary-repositories.csv) and [OSF surface ledger](osf-surface-register.csv). This addendum distinguishes 11 core repositories from three account-visible ancillary repositories, reconciles the current 8,806 tracked blobs, records the GitHub-provider-only OSF Project arrangement and preserves all exact-blob duplicate candidates for content/reference-aware review. No destructive cleanup or OSF write was performed.
