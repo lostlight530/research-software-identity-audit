@@ -82,7 +82,13 @@ The [public API surface ledger](osf-surface-register.csv) records exact endpoint
 - Public project node read acquired **2026-11-06**; node reports public, `registration=false`, and `current_user_permissions=[]` / `current_user_is_contributor=false` in this unauthenticated read context.
 - Child-node endpoint returns an empty list. Native OSF Storage returns **zero files**.
 - GitHub provider exposes **33 top-level files/folders** over four pages, with per-entry `last_touched` up to **2026-11-06T15:55:26Z** in the source representation. This is a GitHub-connected view of the CONTROL repository, not an independent duplicate OSF upload.
-- One Project Home Wiki page exists: ID `6973a`, version **4**, 742 bytes, last modified `2026-10-31T02:08:31.671891Z`. Its text explicitly describes the Project as an entry point only, points to the frozen registration DOI, Zenodo concept DOI and GitHub control repository, and says it holds no data or files.
+- One Project Home Wiki page exists: ID `6973a`, version **4**, 742 bytes, last modified `2026-10-31T02:08:31.671891Z`. Its text describes the Project as an entry point, points to the frozen registration DOI, Zenodo concept DOI and GitHub control repository, and says it holds no data or files.
+
+**Documentation ambiguity discovered after the provider recheck:** the phrase “holds no data or files” is accurate for the **native OSF Storage provider** (zero files), but is not a literal description of the entire Project file browser because the connected GitHub provider exposes CONTROL repository files. This is not evidence of duplicate OSF uploads. A proposed clarification, **not applied**, is:
+
+> This project is an entry point and discovery surface. Its native OSF Storage is empty. The project file browser exposes the connected GitHub repository as a provider view; the canonical source files and evidence remain maintained in GitHub, while immutable software archives are cited through Zenodo. This project does not modify or replace the frozen OSF Registration.
+
+No Wiki change was attempted because the current session has no authenticated OSF write connector and the public node read exposes no current-user permissions.
 
 **OSF action boundary:** this session has no authenticated OSF write connector. Public API `Allow: PUT/PATCH/DELETE` headers are not account authorization. No OSF write was attempted. No duplicate OSF uploads should be made simply to populate the file browser. If the user later wants a Project Wiki wording update or a native OSF upload, it requires an authenticated OSF session/authorized connector; it must not alter Registration `5b329`.
 
