@@ -4,7 +4,7 @@
 
 ## 1. Scope and exact repository boundary
 
-The authenticated GitHub connection lists **14 public repositories** owned by `lostlight530`. The research project’s defined core remains **11 repositories**: RS01–RS10 plus the separate CONTROL repository. The other three are ancillary and are explicitly not study objects.
+The authenticated GitHub connection lists **14 repositories visible to the authenticated GitHub connection** owned by `lostlight530`. The research project’s defined core remains **11 repositories**: RS01–RS10 plus the separate CONTROL repository. The other three are ancillary and are explicitly not study objects.
 
 | ID | Repository | Main | Tracked blobs | Classification |
 |---|---|---|---:|---|
