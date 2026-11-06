@@ -42,6 +42,12 @@ Each CSV records repository and object ID, exact pinned source main commit, trac
 
 These are path/blob/size identity catalogs, not independently computed content-body hashes, source-body scientific reviews, or proof that every path is a human-facing document.
 
+### Exact same-blob path groups (RS01–RS10)
+
+[Duplicate blob identity ledger](rs01-rs10-duplicate-blob-groups.csv) contains **159 groups / 611 path entries** where two or more distinct paths share an identical Git blob SHA within the same repository. Distribution: RS01 77 groups / 273 paths; RS02 60 / 228; RS03 0; RS04 9 / 84; RS05 9 / 18; RS06 0; RS07 0; RS08 0; RS09 4 / 8; RS10 0.
+
+These are exact byte-identical content groups, not confirmed redundant documents. Many are date-labelled Daily/Weekly/Monthly or telemetry records. A repeated body may represent a legitimate no-change state, a template/sidecar, or a copied stale record; the blob hash alone cannot decide. The ledger therefore marks every group REVIEW_REQUIRED_NO_DELETE. No file was removed, renamed or collapsed. Selected examples were content-read: RS01 early quantitative-dashboard/radar files carry no embedded observation date; RS02 telemetry files are date-labelled but byte-identical; RS04 repeated cortex self-check bodies are date-labelled; RS05 daily/weekly architecture documents are identical across different owner paths; RS09 C3/C4/C5/C6 no-material-change entries are identical across two days. Their historical semantics remain unresolved pending each repo's own SOP and source evidence.
+
 ## 3. Classification vocabulary and interpretation
 
 The catalogs use deterministic path-based buckets with fixed precedence:
