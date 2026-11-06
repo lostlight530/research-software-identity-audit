@@ -1,0 +1,4 @@
+repository,role,default_branch,current_main_sha,tracked_blob_count,recursive_tree_complete,open_pr_count,published_release_count,relationship,scope_decision
+software,upstream_contribution_fork_of_rseng/software,master,f94306e9ef35c84cc921e762f7baf96e3b2baccf,24324,false,0,0,fork_parent_rseng/software,Ancillary upstream contribution surface; not one of RS01-RS10 and not CONTROL; tree response truncated so count is returned partial tree entries only
+life-science-ecosystem-lab,independent_life_science_research_and_evidence_tooling,main,5965f81d133623ea01cd826f25a5c1e48770b6fa,305,true,0,2,standalone_repository,Ancillary project; not one of RS01-RS10 and not CONTROL
+ling-cookbook,language_and_agent_skill_cookbook,main,e3c588778afd9aa33e28ec30af50874b3a6299a9,163,true,0,0,standalone_repository,Ancillary project; not one of RS01-RS10 and not CONTROL
