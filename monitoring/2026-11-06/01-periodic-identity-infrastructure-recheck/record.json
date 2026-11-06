@@ -1,0 +1,230 @@
+{
+  "record_class": "bounded_diagnostic_source_access_not_prospective",
+  "logical_date": "2026-11-06",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_client_utc": "2026-11-06T10:13:33.296Z",
+  "baseline": {
+    "nov5_event": "monitoring/2026-11-05/01-bounded-identity-infrastructure-recheck",
+    "nov5_github_csv_blob_sha": "760fb02850ca6aefb19002352195e1b3595550dc",
+    "nov5_surface_csv_blob_sha": "cd92b1addf96f5dce6089e9e36fd7f51edd9c758",
+    "nov5_record_json_blob_sha": "bf2dbd24141aef72801385329fcb08bfb980c3ab",
+    "nov5_source_clock": "non-atomic source-session reads, not an asserted Beijing day-end snapshot"
+  },
+  "github": {
+    "current_read_batch_client_utc": {
+      "branches": [
+        "2026-11-06T10:04:32.888Z",
+        "2026-11-06T10:04:35.201Z"
+      ],
+      "open_pr": [
+        "2026-11-06T10:04:44.638Z",
+        "2026-11-06T10:04:46.739Z"
+      ],
+      "published_releases": [
+        "2026-11-06T10:04:55.044Z",
+        "2026-11-06T10:04:56.376Z"
+      ],
+      "sha_comparisons": [
+        "2026-11-06T10:05:10.326Z",
+        "2026-11-06T10:05:13.286Z"
+      ]
+    },
+    "fixed_sample_mains_advanced": 10,
+    "sum_main_reachable_commits_ahead_since_nov5_source_sha": 359,
+    "behind_sum": 0,
+    "changed_repositories": [
+      "RS01",
+      "RS02",
+      "RS03",
+      "RS04",
+      "RS05",
+      "RS06",
+      "RS07",
+      "RS08",
+      "RS09",
+      "RS10"
+    ],
+    "draft_open_prs": 5,
+    "open_prs": [
+      {
+        "object_id": "RS01",
+        "number": 916,
+        "draft": true
+      },
+      {
+        "object_id": "RS01",
+        "number": 915,
+        "draft": true
+      },
+      {
+        "object_id": "RS02",
+        "number": 807,
+        "draft": true
+      },
+      {
+        "object_id": "RS05",
+        "number": 378,
+        "draft": true
+      },
+      {
+        "object_id": "RS10",
+        "number": 249,
+        "draft": true
+      }
+    ],
+    "control_open_prs": 0,
+    "control_main_unchanged": "756558f770099bc1676c6ca7dee14cf9419dd898",
+    "fixed_published_release_count": 50,
+    "control_published_release_count": 5,
+    "new_published_release_count": 0,
+    "fixed_latest_tag": "v2026.10-30-evidence-snapshot",
+    "source": "github-main-heads.csv",
+    "interpretation": "main commits are not new published release/DOI events; many commits reflect historic/daily research documentation and some runtime/metadata changes"
+  },
+  "supplementary_surfaces": {
+    "source": "surface-access-recheck.csv",
+    "previous_34_url_dictionary": "monitoring/2026-11-05/01-bounded-identity-infrastructure-recheck/surface-access-recheck.csv",
+    "attempt_count": 34,
+    "extractor_representations": 28,
+    "errors": 6,
+    "error_surface_ids": [
+      11,
+      13,
+      14,
+      15,
+      24,
+      25
+    ],
+    "receipts": [
+      "extract_509b7dd0af360c17235f328147171f33",
+      "extract_6762bce0d87a227689efd3e26f0735a4"
+    ],
+    "batch_window_utc": [
+      [
+        "2026-11-06T10:05:49.161Z",
+        "2026-11-06T10:06:31.650Z"
+      ],
+      [
+        "2026-11-06T10:06:46.800Z",
+        "2026-11-06T10:06:51.453Z"
+      ]
+    ],
+    "acquisition_day_bucket_counts": {
+      "logical_utc_day": 1,
+      "previous_utc_day": 0,
+      "older_utc_day": 27
+    },
+    "provider_origin_raw_bytes_retained": false,
+    "source_acquired_at_is_UTC_DAY_ONLY": true,
+    "HAL_surface_21": "BOT_PAGE_NOT_RECORD_VERIFICATION",
+    "SWH_surface_29": "API_DOCUMENTATION_NOT_ORIGIN_VISIT_JSON",
+    "classification_comparison": "SAME_28_EXTRACTED_6_ERRORS_AS_NOV5",
+    "error_does_not_prove_absence": true
+  },
+  "selected_zenodo": {
+    "object_id": "RS01",
+    "source_locator": "https://zenodo.org/api/records/23811380",
+    "alternate_route_same_record": "https://zenodo.org/api/records/23365504/versions/latest",
+    "record_id": 23811380,
+    "record_version_doi": "10.5281/zenodo.23811380",
+    "concept_doi": "10.5281/zenodo.22790907",
+    "metadata_publication_date": "2026-10-30",
+    "extractor_acquired_utc_day": "2026-11-06T00:00:00Z",
+    "extract_receipt": "extract_529c4df76fa201067c14a102f7cd3cc8",
+    "client_read_batch_utc": [
+      "2026-11-06T10:07:19.149Z",
+      "2026-11-06T10:07:20.965Z"
+    ],
+    "attached_family_views_previous": 391,
+    "attached_family_views_observed": 408,
+    "attached_family_views_delta": 17,
+    "attached_family_downloads_previous": 7,
+    "attached_family_downloads_observed": 7,
+    "attached_family_downloads_delta": 0,
+    "attached_family_unique_views_observed": 317,
+    "version_views_observed": 19,
+    "version_downloads_observed": 1,
+    "scope": "selected record attached family counters vs local version counters, not unique users or ten-family total",
+    "origin_response_bytes_retained": false,
+    "subsequent_attempt_to_retain_full_source": "RATE_LIMITED_NO_NEW_SOURCE_EVIDENCE"
+  },
+  "seven_operational_platforms": {
+    "github": "CURRENT_CONNECTED_REPOSITORY_MAIN_RELEASE_PR_READS",
+    "zenodo": "NOV6_SELECTED_RS01_RECORD_EXTRACTOR_REPRESENTATION",
+    "datacite": "NOV4_CACHED_OSF_REGISTRATION_DOI_AND_OCT31_CACHED_RS01_VERSION_DOI",
+    "orcid": "OCT27_CACHED_AUTHOR_WORKS_REPRESENTATION",
+    "software_heritage": "NOV4_CACHED_API_DOCUMENTATION_ONLY_NO_VISIT_JSON",
+    "openaire": "NOV4_CACHED_SELECTED_DOI_QUERY_REPRESENTATION",
+    "openalex": "NOV4_CACHED_AUTHOR_PROFILE_REPRESENTATION",
+    "full_10_by_7_current_census": "NOT_PERFORMED"
+  },
+  "external_relation": {
+    "rse_498": {
+      "state": "OPEN_UNMERGED",
+      "reviews": 0,
+      "updated_at": "2026-10-07T13:02:55Z"
+    },
+    "rsd_1870": {
+      "state": "CLOSED_COMPLETED",
+      "closed_at": "2026-10-16T12:11:19Z",
+      "production_UI_retest": "NOT_VERIFIED"
+    },
+    "rsd_1871": {
+      "state": "OPEN",
+      "updated_at": "2026-10-16T08:05:49Z"
+    },
+    "rsd_latest_release": "v6.7.5",
+    "rrid_index": "EARLIER_EVIDENCE_PRESENT_CURRENT_CURATOR_STATE_UNKNOWN",
+    "new_institutional_response": "NOT_VERIFIED",
+    "internal_workflowhub_draft_proposals": "NOT_EXTERNAL_PLATFORM_APPROVAL"
+  },
+  "osf_contract": {
+    "registration": "https://osf.io/5b329/overview",
+    "original_schema_response_id": "6ac3ae5e6da32e3d0576ed72",
+    "approved_revised_response_id": "6ac4c12fed97b8b77ce88a9c",
+    "compared_field_count_prior": 29,
+    "changed_field_prior": "344-83_EXPLORATORY_ONLY",
+    "live_original_revision_extractor_acquired_utc_day": "2026-11-01T00:00:00Z",
+    "live_new_osf_revision": "NOT_VERIFIED",
+    "fixed_corpus_object_count": 10,
+    "analytical_layers": 6,
+    "units_per_eligible_scheduled_timepoint": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_analytical_units": 70,
+    "concrete_schedule_offsets_declared": false,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "baseline_modified": false,
+    "osf_modified": false
+  },
+  "known_limitations": {
+    "historical_reference_Nov2_only": {
+      "known_doi_identifiers": 90,
+      "orcid_groups": 17,
+      "orcid_summaries": 106,
+      "openalex_author_works": 32,
+      "openaire_return_count_of_90": 88,
+      "zenodo_fixed_versions": 50,
+      "zenodo_all_versions_including_supplementary": 57,
+      "zenodo_fixed_views": 3308,
+      "zenodo_fixed_downloads": 17
+    },
+    "not_current_full_census": true,
+    "source_origin_http_bytes_not_retained": true,
+    "rate_limit_observed": "PARALLEL_MCP_RATE_LIMITED_DURING_SECOND_ZENODO_FULL_BODY_RETENTION_ATTEMPT",
+    "osf_policy_API_date_conflict": "SOURCE_INTERNAL_CONFLICT_UNRESOLVED_AS_PREVIOUSLY_RECORDED",
+    "no_imputation": true,
+    "ci_is_advisory": true
+  },
+  "verification": {
+    "source_ledger_count_validation": "PREWRITE_MATCH_34",
+    "github_sha_delta": "TEN_AHEAD_359",
+    "new_release_or_doi_created": "NONE",
+    "release_count": "UNCHANGED",
+    "source_level_scientific_defect_verified": false,
+    "necessary_small_repair": "DATE_NEUTRAL_SURFACE_ACQUISITION_BUCKET_CHECKER",
+    "source_raw_or_historical_file_rewritten": false,
+    "python_offline_test": "NOT_EXECUTED_BEFORE_PR_CI"
+  },
+  "disposition": "PARTIAL__GITHUB_ALL_TEN_MAIN_AHEAD_359__NO_NEW_RELEASE__ZENODO_RS01_FAMILY_VIEWS_PLUS_17__UPSTREAM_NO_CHANGE__EXTRACTOR_RAW_CAPTURE_RATE_LIMITED__NO_PROSPECTIVE_CELLS"
+}
