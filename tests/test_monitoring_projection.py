@@ -303,6 +303,26 @@ class BoundedSurfaceAccessTests(unittest.TestCase):
         self.record["contract"]["prospective_cells_added"] = 60
         self.assertIn("cannot declare prospective", " ".join(self.errors()))
 
+    def test_next_day_generic_acquisition_buckets(self):
+        self.record["logical_date"] = "2026-11-06"
+        self.rows[0]["extractor_acquired_at_utc_day"] = "2026-11-06T00:00:00Z"
+        self.rows[1]["extractor_acquired_at_utc_day"] = "2026-11-04T00:00:00Z"
+        self.record["supplementary_surfaces"].pop("acquired_utc_day_nov5_count")
+        self.record["supplementary_surfaces"].pop("acquired_utc_day_nov4_count")
+        self.record["supplementary_surfaces"].pop("older_acquisition_count")
+        self.record["supplementary_surfaces"]["acquisition_day_bucket_counts"] = {
+            "logical_utc_day": 1,
+            "previous_utc_day": 0,
+            "older_utc_day": 1,
+        }
+        self.write_csv()
+        self.assertEqual(self.errors(), [])
+
+    def test_generic_acquisition_bucket_mismatch_rejected(self):
+        self.test_next_day_generic_acquisition_buckets()
+        self.record["supplementary_surfaces"]["acquisition_day_bucket_counts"]["older_utc_day"] = 0
+        self.assertIn("acquisition_day_bucket_counts differs", " ".join(self.errors()))
+
     def test_unrelated_historical_format_is_not_reinterpreted(self):
         self.assertEqual(check_bounded_surface_ledger(
             self.event, {"record_class": "legacy"}), [])
