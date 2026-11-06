@@ -127,3 +127,16 @@ This is an execution-process deviation, not a research-contract amendment or a n
 - **Not implied:** no new prospective observations, no OSF amendment, no new Release/DOI, no evidence that a file is current merely because it exists on main.
 
 **Disposition:** WHOLE_11_REPO_PATH_INVENTORY_CREATED · 8802_TRACKED_BLOBS · NO_SOURCE_RENAMES_OR_DELETIONS · OSF_PROJECT_ENTRYPOINT_ONLY · OSF_WRITE_BLOCKED_NO_AUTH_CONNECTOR · DIRECT_MAIN_INDEX_WRITE_DEVIATION_RECORDED
+
+## 9. Post-merge verification (2026-11-06)
+
+The inventory package was merged through [PR #94](https://github.com/lostlight530/research-software-identity-audit/pull/94) at **2026-11-06T15:51:52Z**. Final CONTROL main is **67ea02a27996b0836d4544a71371742abbf19ece**. Its complete recursive tree contains **661 tracked blobs**; the 11 source-tree catalogs above remain pinned to their stated source SHAs. The CONTROL tree therefore grew from the pinned 657-file source snapshot by four inventory artifacts (CONTROL path catalog, duplicate-blob ledger, commit-delta ledger and inventory README). The current aggregate across the ten unchanged sample trees plus current CONTROL main is **8,806 tracked blobs**; the reproducible pre-self-reference catalog total remains **8,802**.
+
+- PR #94 validation workflow: [42246818596](https://github.com/lostlight530/research-software-identity-audit/actions/runs/42246818596), completed success
+- Post-merge CONTROL main workflow: [42246997767](https://github.com/lostlight530/research-software-identity-audit/actions/runs/42246997767), completed success
+- PR #94 is merged; CONTROL Open PR count returned to zero
+- OSF Associated Project GitHub provider re-read after merge returned the new folder path `/docs/repository-inventory/2026-11-06/` with **14 entries across two pages**, including all 11 path catalogs, the duplicate ledger, commit-delta ledger and README. Its parent docs collection reports 32 entries.
+- OSF Project native osfstorage still returns **0 files**; frozen Registration 5b329 osfstorage still returns **0 files**. No duplicate upload was created.
+- The Home Wiki remains the existing version 4 entry-point statement; it was not modified.
+
+OSF provider acquisition labels are UTC-day granularity from the public extractor, while per-entry `last_touched` values are returned by the OSF representation. This verifies the GitHub-provider projection after merge, not an authenticated OSF write, not an independent OSF file upload, and not a change to the frozen registration.
