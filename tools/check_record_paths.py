@@ -428,6 +428,20 @@ def check_bounded_surface_ledger(event: Path, record: dict) -> list[str]:
         error("CSV extractor receipts differ from machine summary")
 
     if newer:
+        # Forward-compatible, date-neutral buckets for monitoring after Nov 5.
+        # Historical records retain their original date-named fields below.
+        buckets = data.get("acquisition_day_bucket_counts")
+        if buckets is not None:
+            expected = {
+                "logical_utc_day": daily_counts["current"],
+                "previous_utc_day": daily_counts["previous"],
+                "older_utc_day": daily_counts["older"],
+            }
+            if (not isinstance(buckets, dict)
+                    or set(buckets) != set(expected)
+                    or any(type(v) is not int for v in buckets.values())
+                    or buckets != expected):
+                error("acquisition_day_bucket_counts differs from CSV UTC-day rows")
         for key, label_key in (
             ("acquired_utc_day_nov5_count", "current"),
             ("acquired_utc_day_nov4_count", "previous"),
