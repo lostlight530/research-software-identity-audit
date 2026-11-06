@@ -62,6 +62,10 @@ Document roles should be read in this order: repository README and domain index;
 
 **Cleanup result:** no rename, move, merge, or deletion is justified by current evidence. The next safe cleanup unit is a content/reference-aware candidate review: read body → inspect inbound/outbound references and manifests → read owning repo SOP → record disposition (`KEEP`, `SUPERSEDED_BUT_RETAIN`, `ALIAS`, `MOVE_WITH_MIGRATION`, or `DELETE_CONFIRMED`). No destructive bulk operation is authorized by a path or hash match alone.
 
+### Filename-level cleanup scan
+
+A fresh recursive-tree path scan covered all ten fixed sample repositories, current CONTROL, and the two ancillary standalone repositories with complete trees. No `.tmp`, `.bak`, `.old`, `.orig`, editor swap, `.pyc`, `__pycache__`, `node_modules`, virtual-environment, `dist`, or `build` artifact paths were found in the ten fixed sample repositories or the two ancillary standalone repositories. CONTROL returned eight pattern matches only because the generic scan term `coverage` also matches the legitimate `monitoring/coverage/` research calendar and evidence ledgers; those eight files are retained research records, not build output. The `software` fork's recursive tree is truncated, so a complete path scan of that large fork was not possible. This is a filename-pattern scan, not a binary-content or dependency audit.
+
 ## 4. OSF: frozen Registration and live Project are separate
 
 The [public API surface ledger](osf-surface-register.csv) records exact endpoints, extractor receipt IDs, UTC-day acquisition labels and limits.
