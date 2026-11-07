@@ -323,6 +323,17 @@ class BoundedSurfaceAccessTests(unittest.TestCase):
         self.record["supplementary_surfaces"]["acquisition_day_bucket_counts"]["older_utc_day"] = 0
         self.assertIn("acquisition_day_bucket_counts differs", " ".join(self.errors()))
 
+    def test_nov6_osf_contract_key_is_accepted_without_rewriting_source(self):
+        historical_contract = self.record.pop("contract")
+        self.record["osf_contract"] = historical_contract
+        self.assertEqual(self.errors(), [])
+
+    def test_nov6_osf_contract_still_rejects_prospective_promotion(self):
+        historical_contract = self.record.pop("contract")
+        historical_contract["prospective_cells_added"] = 60
+        self.record["osf_contract"] = historical_contract
+        self.assertIn("cannot declare prospective", " ".join(self.errors()))
+
     def test_unrelated_historical_format_is_not_reinterpreted(self):
         self.assertEqual(check_bounded_surface_ledger(
             self.event, {"record_class": "legacy"}), [])
