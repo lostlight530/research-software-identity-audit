@@ -302,7 +302,11 @@ def check_bounded_surface_ledger(event: Path, record: dict) -> list[str]:
         error("declared error surface IDs do not match error total")
         return errors
 
+    # The November 6 diagnostic used osf_contract for the same bounded
+    # non-prospective assertion. Preserve that historical record's bytes.
     contract = record.get("contract")
+    if contract is None:
+        contract = record.get("osf_contract")
     if (not isinstance(contract, dict)
             or contract.get("prospective_cells_added") != 0
             or contract.get("prospective_dataset_member") is not False):
