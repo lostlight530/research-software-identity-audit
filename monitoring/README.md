@@ -218,3 +218,8 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## November 6 bounded identity and infrastructure recheck
 
 - [2026-11-06 / 01-periodic-identity-infrastructure-recheck](2026-11-06/01-periodic-identity-infrastructure-recheck/README.md) — eleven connected GitHub mains, five Draft PRs, ten fixed sample mains advanced 359 commits in total against Nov 5 source SHA ledger with zero new published Release, 34 exact surface URL attempts retaining six errors and 27 cached older representations, selected RS01 Zenodo attached family views +17 / downloads +0, unchanged independent RSE/RSD interaction states, a raw-response retention rate-limit gap, and a date-neutral advisory checker fix. **Diagnostic only, zero prospective cells and no OSF/DOI/Release rewrite**.
+
+## November 7 bounded identity and infrastructure recheck
+
+- [2026-11-07 / 01-periodic-identity-infrastructure-recheck](2026-11-07/01-periodic-identity-infrastructure-recheck/README.md) — 11 pinned GitHub main/PR/Release comparisons, exact 34-surface source-access ledger with date-bounded extractor representations and six retained errors, selected RS01 Zenodo family views +4, institution-facing status checks and explicit 0 prospective units. The [dated November 7 compatibility reconciliation](2026-11-07/01-periodic-identity-infrastructure-recheck/reconciliation.md) corrects the diagnostic CSV/machine-summary schema without pretending new provider evidence or rewriting the original October historical sources
+
