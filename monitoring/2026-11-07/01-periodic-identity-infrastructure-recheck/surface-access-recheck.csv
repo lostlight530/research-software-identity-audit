@@ -1,4 +1,4 @@
-surface_row,surface,source_locator,extractor_result,acquired_utc_day_only,error_type,http_status,extract_receipt,prior_comparison,evidence_class
+surface_id,surface_name,exact_source_locator,access_state,extractor_acquired_at_utc_day,error_type,http_status_if_reported,tool_receipt_id,prior_comparison,provenance_class
 1,WorkflowHub,https://workflowhub.eu/workflows/2332,EXTRACTED,2026-11-06T00:00:00Z,,,extract_98f9d8dfbf3e39a4fb8011133e23bc75,NO_CONFIRMED_MATERIAL_CHANGE,SELECTED_EXCERPTS_NOT_ORIGIN_HTTP_TRANSPORT_BYTES
 2,LifeMonitor,https://api.lifemonitor.eu/openapi.json,EXTRACTED,2026-11-06T00:00:00Z,,,extract_98f9d8dfbf3e39a4fb8011133e23bc75,NO_CONFIRMED_MATERIAL_CHANGE,SELECTED_EXCERPTS_NOT_ORIGIN_HTTP_TRANSPORT_BYTES
 3,Helmholtz RSD,https://helmholtz.software/,EXTRACTED,2026-11-06T00:00:00Z,,,extract_98f9d8dfbf3e39a4fb8011133e23bc75,NO_CONFIRMED_MATERIAL_CHANGE,SELECTED_EXCERPTS_NOT_ORIGIN_HTTP_TRANSPORT_BYTES
