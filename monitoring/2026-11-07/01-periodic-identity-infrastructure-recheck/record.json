@@ -6,7 +6,7 @@
   "comparison": {
     "previous_source": "monitoring/2026-11-06/01-periodic-identity-infrastructure-recheck",
     "previous_record_blob_sha": "2557a83455762dd7f5d0dd6df0d261d271374c0b",
-    "previous_surface_blob_sha": "",
+    "previous_surface_blob_sha": "51ee03be561ca709e447a70846113a5d46640934",
     "source_clocks": "non_atomic_connected_requests; no per-request origin timestamps or HTTP response-body hashes",
     "github_rows": "github-main-heads.csv",
     "surface_rows": "surface-access-recheck.csv"
