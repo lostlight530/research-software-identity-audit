@@ -1,0 +1,12 @@
+object_id,repository,pinned_main_sha,tracked_blob_count,prior_nov6_inventory_tracked_blob_count,delta_from_prior_inventory,recursive_tree_truncated,flagged_transient_path_count,source_locator
+RS01,welcome-to-github,174fb95f787c604f0fd40a8cdabea4da2c3f3aa2,1560,1549,11,false,0,https://api.github.com/repos/lostlight530/welcome-to-github/git/trees/174fb95f787c604f0fd40a8cdabea4da2c3f3aa2?recursive=1
+RS02,zero-entropy-lab,f7006d3b98440f61ba7095bf24a1885320cf5ff5,2393,2344,49,false,0,https://api.github.com/repos/lostlight530/zero-entropy-lab/git/trees/f7006d3b98440f61ba7095bf24a1885320cf5ff5?recursive=1
+RS03,Axiom-0,aa1c692c10a371e7815034bcc81f05b644bf6444,509,509,0,false,0,https://api.github.com/repos/lostlight530/Axiom-0/git/trees/aa1c692c10a371e7815034bcc81f05b644bf6444?recursive=1
+RS04,reflective-continuum,2cbbd11710cb45efadb2b7980861740784b0ef6b,617,617,0,false,0,https://api.github.com/repos/lostlight530/reflective-continuum/git/trees/2cbbd11710cb45efadb2b7980861740784b0ef6b?recursive=1
+RS05,agent-foundations,79474f8efa89dc549b5893558decb0170eaab605,160,160,0,false,0,https://api.github.com/repos/lostlight530/agent-foundations/git/trees/79474f8efa89dc549b5893558decb0170eaab605?recursive=1
+RS06,auto-doc-engine,7eb7bd903d9b0a118df89533f857f4f1c2088c98,336,336,0,false,0,https://api.github.com/repos/lostlight530/auto-doc-engine/git/trees/7eb7bd903d9b0a118df89533f857f4f1c2088c98?recursive=1
+RS07,epistemic-pipeline,5817bd41ec9922fc29ca78c9291fbb06786f3649,337,337,0,false,0,https://api.github.com/repos/lostlight530/epistemic-pipeline/git/trees/5817bd41ec9922fc29ca78c9291fbb06786f3649?recursive=1
+RS08,sci-render-kit,003e8c9691c00cad7ab4c6336bb00a475f6815ef,347,347,0,false,0,https://api.github.com/repos/lostlight530/sci-render-kit/git/trees/003e8c9691c00cad7ab4c6336bb00a475f6815ef?recursive=1
+RS09,china-agentic-observatory,43035f9af841a7e7d8fb83bf3c1d3d191faac9ab,1013,1013,0,false,0,https://api.github.com/repos/lostlight530/china-agentic-observatory/git/trees/43035f9af841a7e7d8fb83bf3c1d3d191faac9ab?recursive=1
+RS10,agentic-frontier-observatory,9afbc25a74e1cf825b7598de4c83d6a82f004140,933,933,0,false,0,https://api.github.com/repos/lostlight530/agentic-frontier-observatory/git/trees/9afbc25a74e1cf825b7598de4c83d6a82f004140?recursive=1
+CONTROL,research-software-identity-audit,d5bddfd5b292f40e6c216e27ca03906fe3571d09,668,657,11,false,0,https://api.github.com/repos/lostlight530/research-software-identity-audit/git/trees/d5bddfd5b292f40e6c216e27ca03906fe3571d09?recursive=1
