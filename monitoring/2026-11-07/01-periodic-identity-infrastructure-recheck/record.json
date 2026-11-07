@@ -64,38 +64,6 @@
     "control_open_prs": 0,
     "head_pinned_in_csv": true
   },
-  "surface_check": {
-    "manifest_rows": 34,
-    "extracted_representations": 28,
-    "errors": 6,
-    "error_surface_ids": [
-      11,
-      13,
-      14,
-      15,
-      24,
-      25
-    ],
-    "day_only_acquisition_buckets": {
-      "2026-11-07": 1,
-      "2026-11-06": 11,
-      "earlier": 16
-    },
-    "receipts": [
-      "extract_98f9d8dfbf3e39a4fb8011133e23bc75",
-      "extract_6fe2586dbbdd13896e229ceec8de0a04"
-    ],
-    "source_bytes_retained": false,
-    "errors_not_absence": true,
-    "changed_error": {
-      "surface_id": 13,
-      "prior": "http_error:404",
-      "new": "timeout"
-    },
-    "hal_is_bot_challenge": true,
-    "software_heritage_not_fresh_structured_visit": true,
-    "full_present_day_34_live_provider_verification": false
-  },
   "zenodo_selected": {
     "source_record": "https://zenodo.org/api/records/23811380",
     "equivalent_route": "https://zenodo.org/api/records/23365504/versions/latest",
@@ -178,5 +146,56 @@
     "new_release_or_doi": "NONE",
     "ci_verification_at_authoring": "NOT_EXECUTED"
   },
-  "disposition": "PARTIAL__GITHUB_3_FIXED_MAIN_AHEAD_46__CONTROL_AHEAD_16__NO_NEW_RELEASE__RS01_ZENODO_FAMILY_PLUS_4__RSE_RSD_NO_CHANGE__SURFACE_ACCESS_28_6__NO_PROSPECTIVE_CELLS"
+  "disposition": "PARTIAL__GITHUB_3_FIXED_MAIN_AHEAD_46__CONTROL_AHEAD_16__NO_NEW_RELEASE__RS01_ZENODO_FAMILY_PLUS_4__RSE_RSD_NO_CHANGE__SURFACE_ACCESS_28_6__NO_PROSPECTIVE_CELLS",
+  "supplementary_surfaces": {
+    "source": "surface-access-recheck.csv",
+    "attempt_count": 34,
+    "extractor_representations": 28,
+    "errors": 6,
+    "error_surface_ids": [
+      11,
+      13,
+      14,
+      15,
+      24,
+      25
+    ],
+    "receipts": [
+      "extract_98f9d8dfbf3e39a4fb8011133e23bc75",
+      "extract_6fe2586dbbdd13896e229ceec8de0a04"
+    ],
+    "acquisition_day_bucket_counts": {
+      "logical_utc_day": 1,
+      "previous_utc_day": 11,
+      "older_utc_day": 16
+    },
+    "origin_transport_bytes_retained": false,
+    "error_does_not_prove_absence": true,
+    "changed_error": {
+      "surface_id": 13,
+      "prior": "http_error:404",
+      "new": "timeout"
+    },
+    "HAL_surface_21": "BOT_PAGE_NOT_RECORD_EVIDENCE",
+    "SWH_surface_29": "DOCUMENTATION_NOT_CURRENT_VISIT_JSON",
+    "full_34_live_provider_verification": false
+  },
+  "contract": {
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "contract_note": "Diagnostic source access only, distinct from OSF preregistered observation units"
+  },
+  "correction_history": [
+    {
+      "class": "DERIVED_PROJECTION_SCHEMA_AND_SURFACE_CSV_COLUMN_RECONCILIATION",
+      "corrected_at_utc": "2026-11-07T11:32:47.201Z",
+      "original_main_commit": "d5bddfd5b292f40e6c216e27ca03906fe3571d09",
+      "original_record_git_blob_sha": "85b0cf60644b498349b20dcc2695789443b6aba8",
+      "original_surface_csv_git_blob_sha": "78a37acabe17d9c92ed211a3b80bcc05b2c2757c",
+      "source": "monitoring/2026-11-07/01-periodic-identity-infrastructure-recheck/reconciliation.md",
+      "data_values_preserved": true,
+      "provider_response_recaptured": false,
+      "prospective_cells_created": 0
+    }
+  ]
 }
