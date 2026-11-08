@@ -223,3 +223,8 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 - [2026-11-07 / 01-periodic-identity-infrastructure-recheck](2026-11-07/01-periodic-identity-infrastructure-recheck/README.md) — 11 pinned GitHub main/PR/Release comparisons, exact 34-surface source-access ledger with date-bounded extractor representations and six retained errors, selected RS01 Zenodo family views +4, institution-facing status checks and explicit 0 prospective units. The [dated November 7 compatibility reconciliation](2026-11-07/01-periodic-identity-infrastructure-recheck/reconciliation.md) corrects the diagnostic CSV/machine-summary schema without pretending new provider evidence or rewriting the original October historical sources
 
+## November 8 end-of-day pages and independent institutional recheck
+
+- [2026-11-08/01-end-of-day-user-pages](2026-11-08/01-end-of-day-user-pages/README.md) — user Zenodo cards, WorkflowHub Dashboard and 15 OpenAIRE ORCID links; diagnostic only, zero prospective cells
+- [2026-11-08/02-complete-institutional-recheck](2026-11-08/02-complete-institutional-recheck/README.md) — 34 surfaces, 92 DOI queries, 17 distinct OpenAIRE IDs and source attempt clocks; diagnostic only, zero prospective cells
+- [2026-11-08/03-all-version-recheck](2026-11-08/03-all-version-recheck/README.md) — 57 Zenodo versions, 48 field joins and separate family/version counters; diagnostic only, zero prospective cells

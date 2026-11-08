@@ -1,0 +1,224 @@
+{
+  "baseline_window": [
+    "2026-11-01T16:46:51.998125+00:00",
+    "2026-11-01T16:52:25.453058+00:00"
+  ],
+  "current_window": [
+    "2026-11-08T15:10:29.687232+00:00",
+    "2026-11-08T15:16:32.485383+00:00"
+  ],
+  "metrics": {
+    "doi_total": {
+      "baseline": 90,
+      "current": 92
+    },
+    "orcid_query_total": {
+      "baseline": 89,
+      "current": 91
+    },
+    "orcid_groups": {
+      "baseline": 17,
+      "current": 19
+    },
+    "orcid_summaries": {
+      "baseline": 106,
+      "current": 108
+    },
+    "openalex_enumerated": {
+      "baseline": 32,
+      "current": 32
+    },
+    "rsd_published": {
+      "baseline": 12,
+      "current": 12
+    },
+    "swh_latest_full": {
+      "baseline": 10,
+      "current": 10
+    }
+  },
+  "workflow": [
+    {
+      "id": 2332,
+      "baseline_views": 2489,
+      "current_views": 3177,
+      "delta_views": 688,
+      "baseline_downloads": 334,
+      "current_downloads": 473,
+      "delta_downloads": 139
+    },
+    {
+      "id": 2334,
+      "baseline_views": 2839,
+      "current_views": 3535,
+      "delta_views": 696,
+      "baseline_downloads": 310,
+      "current_downloads": 453,
+      "delta_downloads": 143
+    },
+    {
+      "id": 2337,
+      "baseline_views": 988,
+      "current_views": 1253,
+      "delta_views": 265,
+      "baseline_downloads": 60,
+      "current_downloads": 90,
+      "delta_downloads": 30
+    },
+    {
+      "id": 2347,
+      "baseline_views": 1038,
+      "current_views": 1478,
+      "delta_views": 440,
+      "baseline_downloads": 182,
+      "current_downloads": 224,
+      "delta_downloads": 42
+    }
+  ],
+  "zenodo": [
+    {
+      "repository": "welcome-to-github",
+      "baseline_record": 23811380,
+      "current_record": 23811380,
+      "family_delta": {
+        "views": 50,
+        "unique_views": 49,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "baseline_record": 23811394,
+      "current_record": 23811394,
+      "family_delta": {
+        "views": 37,
+        "unique_views": 35,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    },
+    {
+      "repository": "Axiom-0",
+      "baseline_record": 23811393,
+      "current_record": 23811393,
+      "family_delta": {
+        "views": 46,
+        "unique_views": 42,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    },
+    {
+      "repository": "reflective-continuum",
+      "baseline_record": 23811392,
+      "current_record": 23811392,
+      "family_delta": {
+        "views": 31,
+        "unique_views": 28,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    },
+    {
+      "repository": "agent-foundations",
+      "baseline_record": 23811389,
+      "current_record": 23811389,
+      "family_delta": {
+        "views": 41,
+        "unique_views": 38,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    },
+    {
+      "repository": "auto-doc-engine",
+      "baseline_record": 23811383,
+      "current_record": 23811383,
+      "family_delta": {
+        "views": 37,
+        "unique_views": 36,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "baseline_record": 23811384,
+      "current_record": 23811384,
+      "family_delta": {
+        "views": 33,
+        "unique_views": 33,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    },
+    {
+      "repository": "sci-render-kit",
+      "baseline_record": 23811397,
+      "current_record": 23811397,
+      "family_delta": {
+        "views": 31,
+        "unique_views": 28,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "baseline_record": 23811388,
+      "current_record": 23811388,
+      "family_delta": {
+        "views": 42,
+        "unique_views": 41,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "baseline_record": 23811387,
+      "current_record": 23811387,
+      "family_delta": {
+        "views": 39,
+        "unique_views": 37,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "baseline_record": 23839900,
+      "current_record": 23839900,
+      "family_delta": {
+        "views": 15,
+        "unique_views": 12,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    },
+    {
+      "repository": "life-science-ecosystem-lab",
+      "baseline_record": 23839899,
+      "current_record": 23839899,
+      "family_delta": {
+        "views": 14,
+        "unique_views": 8,
+        "downloads": 1,
+        "unique_downloads": 1
+      },
+      "same_version": true
+    }
+  ]
+}

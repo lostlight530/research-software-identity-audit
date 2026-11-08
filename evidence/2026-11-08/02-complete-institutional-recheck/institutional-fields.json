@@ -1,0 +1,1589 @@
+{
+  "started_at": "2026-11-08T15:10:29.687232+00:00",
+  "finished_at": "2026-11-08T15:16:32.485383+00:00",
+  "requests": 492,
+  "status_counts": {
+    "200": 474,
+    "403": 8,
+    "None": 4,
+    "404": 2,
+    "500": 1,
+    "429": 3
+  },
+  "doi_total": 92,
+  "doi_types": {
+    "Workflow": 21,
+    "Software": 69,
+    "Text": 1,
+    "StudyRegistration": 1
+  },
+  "orcid_query_total": 91,
+  "exact_query_total": 91,
+  "orcid_groups": 19,
+  "orcid_summaries": 108,
+  "orcid_sources": {
+    "DataCite": 80,
+    "OpenAIRE": 15,
+    "SELF": 13
+  },
+  "openalex_profile_count": 32,
+  "openalex_query_count": 32,
+  "openalex_enumerated": 32,
+  "openalex_types": {
+    "software": 12,
+    "preprint": 1,
+    "other": 19
+  },
+  "openalex_green": 32,
+  "rsd_published": 12,
+  "swh_latest_full": 10,
+  "software": [
+    {
+      "repository": "welcome-to-github",
+      "record_id": 23811380,
+      "doi": "10.5281/zenodo.23811380",
+      "concept_doi": "10.5281/zenodo.22790907",
+      "version": "v2026.10-30-evidence-snapshot",
+      "stats": {
+        "downloads": 7,
+        "unique_downloads": 6,
+        "views": 419,
+        "unique_views": 327,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 21,
+        "version_views": 22
+      },
+      "version_count": 5
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "record_id": 23811394,
+      "doi": "10.5281/zenodo.23811394",
+      "concept_doi": "10.5281/zenodo.22791081",
+      "version": "v2026.10-30-evidence-snapshot",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 361,
+        "unique_views": 266,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 9,
+        "version_views": 10
+      },
+      "version_count": 5
+    },
+    {
+      "repository": "Axiom-0",
+      "record_id": 23811393,
+      "doi": "10.5281/zenodo.23811393",
+      "concept_doi": "10.5281/zenodo.22791103",
+      "version": "v2026.10-30-evidence-snapshot",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 411,
+        "unique_views": 310,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 12,
+        "version_views": 12
+      },
+      "version_count": 5
+    },
+    {
+      "repository": "reflective-continuum",
+      "record_id": 23811392,
+      "doi": "10.5281/zenodo.23811392",
+      "concept_doi": "10.5281/zenodo.22791141",
+      "version": "v2026.10-30-evidence-snapshot",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 322,
+        "unique_views": 232,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 9,
+        "version_views": 9
+      },
+      "version_count": 5
+    },
+    {
+      "repository": "agent-foundations",
+      "record_id": 23811389,
+      "doi": "10.5281/zenodo.23811389",
+      "concept_doi": "10.5281/zenodo.22791169",
+      "version": "v2026.10-30-evidence-snapshot",
+      "stats": {
+        "downloads": 3,
+        "unique_downloads": 3,
+        "views": 373,
+        "unique_views": 281,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 13,
+        "version_views": 14
+      },
+      "version_count": 5
+    },
+    {
+      "repository": "auto-doc-engine",
+      "record_id": 23811383,
+      "doi": "10.5281/zenodo.23811383",
+      "concept_doi": "10.5281/zenodo.22791404",
+      "version": "v2026.10-30-evidence-snapshot",
+      "stats": {
+        "downloads": 1,
+        "unique_downloads": 1,
+        "views": 350,
+        "unique_views": 261,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 8,
+        "version_views": 8
+      },
+      "version_count": 5
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "record_id": 23811384,
+      "doi": "10.5281/zenodo.23811384",
+      "concept_doi": "10.5281/zenodo.22791463",
+      "version": "v2026.10-30-evidence-snapshot",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 360,
+        "unique_views": 271,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 6,
+        "version_views": 6
+      },
+      "version_count": 5
+    },
+    {
+      "repository": "sci-render-kit",
+      "record_id": 23811397,
+      "doi": "10.5281/zenodo.23811397",
+      "concept_doi": "10.5281/zenodo.22791375",
+      "version": "v2026.10-30-evidence-snapshot",
+      "stats": {
+        "downloads": 3,
+        "unique_downloads": 3,
+        "views": 341,
+        "unique_views": 257,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 8,
+        "version_views": 8
+      },
+      "version_count": 5
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "record_id": 23811388,
+      "doi": "10.5281/zenodo.23811388",
+      "concept_doi": "10.5281/zenodo.22791309",
+      "version": "v2026.10-30-evidence-snapshot",
+      "stats": {
+        "downloads": 2,
+        "unique_downloads": 2,
+        "views": 374,
+        "unique_views": 281,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 16,
+        "version_views": 16
+      },
+      "version_count": 5
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "record_id": 23811387,
+      "doi": "10.5281/zenodo.23811387",
+      "concept_doi": "10.5281/zenodo.22791334",
+      "version": "v2026.10-30-evidence-snapshot",
+      "stats": {
+        "downloads": 3,
+        "unique_downloads": 3,
+        "views": 384,
+        "unique_views": 293,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 11,
+        "version_views": 11
+      },
+      "version_count": 5
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "record_id": 23839900,
+      "doi": "10.5281/zenodo.23839900",
+      "concept_doi": "10.5281/zenodo.23166490",
+      "version": "v2026.10-control-lifecycle-reconciliation",
+      "stats": {
+        "downloads": 6,
+        "unique_downloads": 6,
+        "views": 191,
+        "unique_views": 174,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 19,
+        "version_views": 22
+      },
+      "version_count": 5
+    },
+    {
+      "repository": "life-science-ecosystem-lab",
+      "record_id": 23839899,
+      "doi": "10.5281/zenodo.23839899",
+      "concept_doi": "10.5281/zenodo.23447088",
+      "version": "v0.5.0",
+      "stats": {
+        "downloads": 6,
+        "unique_downloads": 4,
+        "views": 28,
+        "unique_views": 18,
+        "version_downloads": 1,
+        "version_unique_downloads": 1,
+        "version_unique_views": 5,
+        "version_views": 11
+      },
+      "version_count": 2
+    }
+  ],
+  "workflows": [
+    {
+      "id": 2332,
+      "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+      "latest_version": 9,
+      "doi": "10.48546/workflowhub.workflow.2332.9",
+      "views": 3177,
+      "downloads": 473,
+      "crate_files": 3,
+      "crate_metadata_parseable": true,
+      "crate_sha256": "9e8b6e77e5d0de41c03405b59450ab46e5864cc91863a7dce6f59e994b6ba1c0"
+    },
+    {
+      "id": 2334,
+      "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+      "latest_version": 9,
+      "doi": "10.48546/workflowhub.workflow.2334.9",
+      "views": 3535,
+      "downloads": 453,
+      "crate_files": 3,
+      "crate_metadata_parseable": true,
+      "crate_sha256": "3264cae21b468ea8b3ecdaa2372ebac3b4ca9bbb4f7cd0f689d4cd7193530e61"
+    },
+    {
+      "id": 2337,
+      "title": "Brain Evolution — welcome-to-github",
+      "latest_version": 1,
+      "doi": "10.48546/workflowhub.workflow.2337.1",
+      "views": 1253,
+      "downloads": 90,
+      "crate_files": 3,
+      "crate_metadata_parseable": true,
+      "crate_sha256": "8ac791065710600b8f35584934f2983b14ce33277716d8f238a3e8e1fc184ad4"
+    },
+    {
+      "id": 2347,
+      "title": "Life Science Knowledge Workflow",
+      "latest_version": 2,
+      "doi": "10.48546/workflowhub.workflow.2347.2",
+      "views": 1478,
+      "downloads": 224,
+      "crate_files": 56,
+      "crate_metadata_parseable": true,
+      "crate_sha256": "f89b0a929fcbe1c767a73c364c7d7d977630dd66a7ea9e2aa8fb737a6672d033"
+    }
+  ],
+  "swh_origins": [
+    {
+      "repository": "welcome-to-github",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/welcome-to-github",
+        "visit": 4,
+        "date": "2026-10-24T15:41:45.044000+00:00",
+        "status": "full",
+        "snapshot": "371992368a1988590993dcb2195a1c7397a33290",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/371992368a1988590993dcb2195a1c7397a33290/"
+      },
+      "http_outcomes": "swh_welcome-to-github=200"
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/zero-entropy-lab",
+        "visit": 3,
+        "date": "2026-10-26T03:41:56.095000+00:00",
+        "status": "full",
+        "snapshot": "38de7f466f4a4cf667af2774c3c486816c6dfe98",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/zero-entropy-lab/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/38de7f466f4a4cf667af2774c3c486816c6dfe98/"
+      },
+      "http_outcomes": "swh_zero-entropy-lab=200"
+    },
+    {
+      "repository": "Axiom-0",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/Axiom-0",
+        "visit": 3,
+        "date": "2026-10-29T19:47:29.140000+00:00",
+        "status": "full",
+        "snapshot": "f7f684cd790cdcb2f529892141dd5f0f20ffb10e",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/Axiom-0/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/f7f684cd790cdcb2f529892141dd5f0f20ffb10e/"
+      },
+      "http_outcomes": "swh_Axiom-0=200"
+    },
+    {
+      "repository": "reflective-continuum",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/reflective-continuum",
+        "visit": 4,
+        "date": "2026-10-30T04:35:52.579000+00:00",
+        "status": "full",
+        "snapshot": "bc5af906cbb227fc9c583eec07986bee85536abc",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/reflective-continuum/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/bc5af906cbb227fc9c583eec07986bee85536abc/"
+      },
+      "http_outcomes": "swh_reflective-continuum=200"
+    },
+    {
+      "repository": "agent-foundations",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/agent-foundations",
+        "visit": 2,
+        "date": "2026-11-04T04:58:27.396000+00:00",
+        "status": "full",
+        "snapshot": "00931b3870ca57b01a48986643d7a11afd5c5b0b",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agent-foundations/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/00931b3870ca57b01a48986643d7a11afd5c5b0b/"
+      },
+      "http_outcomes": "swh_agent-foundations=200"
+    },
+    {
+      "repository": "auto-doc-engine",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/auto-doc-engine",
+        "visit": 3,
+        "date": "2026-10-24T08:17:11.577000+00:00",
+        "status": "full",
+        "snapshot": "db610f5f2bf818e3c48b889613a8e1afdcebaba0",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/auto-doc-engine/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/db610f5f2bf818e3c48b889613a8e1afdcebaba0/"
+      },
+      "http_outcomes": "swh_auto-doc-engine=200"
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/epistemic-pipeline",
+        "visit": 4,
+        "date": "2026-10-29T16:48:31.118000+00:00",
+        "status": "full",
+        "snapshot": "b633fd924cf810082cf935d9a93f48119434bcbc",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/epistemic-pipeline/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/b633fd924cf810082cf935d9a93f48119434bcbc/"
+      },
+      "http_outcomes": "swh_epistemic-pipeline=200"
+    },
+    {
+      "repository": "sci-render-kit",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/sci-render-kit",
+        "visit": 2,
+        "date": "2026-11-04T04:56:33.496000+00:00",
+        "status": "full",
+        "snapshot": "acb7ce169537133e6147571095b4c26cb8a2937a",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/sci-render-kit/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/acb7ce169537133e6147571095b4c26cb8a2937a/"
+      },
+      "http_outcomes": "swh_sci-render-kit=200"
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/china-agentic-observatory",
+        "visit": 3,
+        "date": "2026-11-04T04:57:04.677000+00:00",
+        "status": "full",
+        "snapshot": "7b08b51c621283c9c32fbf3ca9a3501669496af8",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/china-agentic-observatory/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/7b08b51c621283c9c32fbf3ca9a3501669496af8/"
+      },
+      "http_outcomes": "swh_china-agentic-observatory=200"
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/agentic-frontier-observatory",
+        "visit": 3,
+        "date": "2026-11-04T04:55:41.819000+00:00",
+        "status": "full",
+        "snapshot": "93733970f4f61a53c4c5609a2ce4ef852c465362",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agentic-frontier-observatory/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/93733970f4f61a53c4c5609a2ce4ef852c465362/"
+      },
+      "http_outcomes": "swh_agentic-frontier-observatory=200"
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/research-software-identity-audit",
+        "visit": 1,
+        "date": "2026-11-04T04:56:54.255000+00:00",
+        "status": "full",
+        "snapshot": "8aa413ad2a93f04cf521b3563a396ff3014a583d",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/research-software-identity-audit/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/8aa413ad2a93f04cf521b3563a396ff3014a583d/"
+      },
+      "http_outcomes": "swh_research-software-identity-audit=200"
+    },
+    {
+      "repository": "life-science-ecosystem-lab",
+      "latest_visit": {
+        "origin": "https://github.com/lostlight530/life-science-ecosystem-lab",
+        "visit": 1,
+        "date": "2026-10-31T23:40:11.004000+00:00",
+        "status": "full",
+        "snapshot": "a9e492ea8eaa5062c77c9cb9cbc0213f01902dc3",
+        "type": "git",
+        "metadata": {},
+        "origin_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/life-science-ecosystem-lab/get/",
+        "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/a9e492ea8eaa5062c77c9cb9cbc0213f01902dc3/"
+      },
+      "http_outcomes": "swh_life-science-ecosystem-lab=200"
+    }
+  ],
+  "handles": [
+    {
+      "doi": "10.17605/osf.io/5b329",
+      "success": true
+    },
+    {
+      "doi": "10.17605/osf.io/wa5v8",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.1",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.2",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.3",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.4",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.5",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.6",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.7",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.8",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.9",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.1",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.2",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.3",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.4",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.5",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.6",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.7",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.8",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.9",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2337.1",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2347.1",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2347.2",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22790907",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22790908",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791081",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791082",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791103",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791104",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791141",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791142",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791169",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791170",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791309",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791310",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791334",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791335",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791375",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791376",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791404",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791405",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791463",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791464",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068144",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068145",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068260",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068261",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068262",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068347",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068352",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068471",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068472",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068494",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137203",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137204",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137205",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137206",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137207",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137211",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137214",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137215",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137216",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137219",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23166490",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23166491",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23176748",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23284570",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365504",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365510",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365517",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365525",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365534",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365540",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365543",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365548",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365551",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365567",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23446162",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23447088",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23447089",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811380",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811383",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811384",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811387",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811388",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811389",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811392",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811393",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811394",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811397",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23839899",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23839900",
+      "success": true
+    }
+  ],
+  "agencies": [
+    {
+      "doi": "10.17605/osf.io/5b329",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.17605/osf.io/wa5v8",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.1",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.2",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.3",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.4",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.5",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.6",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.7",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.8",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.9",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.1",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.2",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.3",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.4",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.5",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.6",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.7",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.8",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.9",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2337.1",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2347.1",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2347.2",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22790907",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22790908",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791081",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791082",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791103",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791104",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791141",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791142",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791169",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791170",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791309",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791310",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791334",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791335",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791375",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791376",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791404",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791405",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791463",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.22791464",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068144",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068145",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068260",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068261",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068262",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068347",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068352",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068471",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068472",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23068494",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137203",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137204",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137205",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137206",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137207",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137211",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137214",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137215",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137216",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23137219",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23166490",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23166491",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23176748",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23284570",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365504",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365510",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365517",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365525",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365534",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365540",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365543",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365548",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365551",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23365567",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23446162",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23447088",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23447089",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811380",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811383",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811384",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811387",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811388",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811389",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811392",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811393",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811394",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23811397",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23839899",
+      "agency": "datacite",
+      "success": true
+    },
+    {
+      "doi": "10.5281/zenodo.23839900",
+      "agency": "datacite",
+      "success": true
+    }
+  ],
+  "metadata": [
+    {
+      "repository": "welcome-to-github",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "Axiom-0",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "reflective-continuum",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "agent-foundations",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "auto-doc-engine",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "sci-render-kit",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    },
+    {
+      "repository": "life-science-ecosystem-lab",
+      "cff_present": true,
+      "codemeta_json_parseable": true
+    }
+  ],
+  "citeas": [
+    {
+      "repository": "welcome-to-github",
+      "doi": "10.5281/ZENODO.22790907"
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "doi": "10.5281/ZENODO.22791081"
+    },
+    {
+      "repository": "Axiom-0",
+      "doi": "10.5281/ZENODO.22791103"
+    },
+    {
+      "repository": "reflective-continuum",
+      "doi": "10.5281/ZENODO.22791141"
+    },
+    {
+      "repository": "agent-foundations",
+      "doi": "10.5281/ZENODO.22791169"
+    },
+    {
+      "repository": "auto-doc-engine",
+      "doi": "10.5281/ZENODO.22791404"
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "doi": "10.5281/ZENODO.22791463"
+    },
+    {
+      "repository": "sci-render-kit",
+      "doi": "10.5281/ZENODO.22791375"
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "doi": "10.5281/ZENODO.22791309"
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "doi": "10.5281/ZENODO.22791334"
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "doi": "10.5281/ZENODO.23166490"
+    }
+  ],
+  "edam_terms": [
+    {
+      "uri": "http://edamontology.org/data_1460",
+      "found": true,
+      "labels": [
+        "Protein structure"
+      ]
+    },
+    {
+      "uri": "http://edamontology.org/data_2955",
+      "found": true,
+      "labels": [
+        "Sequence report"
+      ]
+    },
+    {
+      "uri": "http://edamontology.org/data_2976",
+      "found": true,
+      "labels": [
+        "Protein sequence"
+      ]
+    },
+    {
+      "uri": "http://edamontology.org/format_1476",
+      "found": true,
+      "labels": [
+        "PDB"
+      ]
+    },
+    {
+      "uri": "http://edamontology.org/format_1929",
+      "found": true,
+      "labels": [
+        "FASTA"
+      ]
+    },
+    {
+      "uri": "http://edamontology.org/operation_2403",
+      "found": true,
+      "labels": [
+        "Sequence analysis"
+      ]
+    },
+    {
+      "uri": "http://edamontology.org/operation_2406",
+      "found": true,
+      "labels": [
+        "Protein structure analysis"
+      ]
+    },
+    {
+      "uri": "http://edamontology.org/topic_0078",
+      "found": true,
+      "labels": [
+        "Proteins"
+      ]
+    },
+    {
+      "uri": "http://edamontology.org/topic_0080",
+      "found": true,
+      "labels": [
+        "Sequence analysis"
+      ]
+    }
+  ],
+  "ia_bag_md5_matches": true,
+  "openaire_summary": {
+    "doi_queries": 92,
+    "successful_queries": 92,
+    "matched_doi_count": 59,
+    "result_occurrences": 59,
+    "distinct_ids": 17,
+    "unique_id_types": {
+      "software": 17
+    },
+    "all_pages_complete": true,
+    "failed_queries": []
+  },
+  "osf_public": true,
+  "osf_withdrawn": false,
+  "osf_resources": 4,
+  "lifemonitor": {
+    "aggregate_test_status": "all_passing",
+    "latest_builds": [
+      {
+        "build_id": "42369007482",
+        "duration": 37,
+        "instance": {
+          "links": {
+            "origin": "https://github.com/lostlight530/life-science-ecosystem-lab/actions/workflows/validate.yml"
+          },
+          "managed": false,
+          "name": "GitHub Actions integration validation",
+          "resource": "repos/lostlight530/life-science-ecosystem-lab/actions/workflows/validate.yml",
+          "roc_instance": "#gh-test",
+          "service": {
+            "type": "github",
+            "url": "https://api.github.com",
+            "uuid": "5812bfda-cff0-46ac-9e79-5e211367eac1"
+          },
+          "uuid": "916f25cd-11eb-402b-b2d7-cfad64ee5ba6"
+        },
+        "links": {
+          "origin": "https://api.github.com/repos/lostlight530/life-science-ecosystem-lab/actions/runs/42369007482/runs/1",
+          "self": "https://api.lifemonitor.eu/workflows/de72071c-e60b-4bd4-95b9-863b408dda4d/status"
+        },
+        "status": "passed",
+        "suite_uuid": "6f3bd2f9-a5bd-4a5c-8a81-c59e430596eb",
+        "timestamp": "1794051489"
+      }
+    ],
+    "links": {
+      "self": "https://api.lifemonitor.eu/workflows/de72071c-e60b-4bd4-95b9-863b408dda4d/status"
+    },
+    "meta": {
+      "api_version": "0.21.0",
+      "base_url": "https://api.lifemonitor.eu",
+      "created": 1792302871.233717,
+      "modified": 1793102725.126249,
+      "resource": "/workflows/de72071c-e60b-4bd4-95b9-863b408dda4d/status"
+    },
+    "name": "Life Science Knowledge Workflow",
+    "public": true,
+    "registries": [
+      {
+        "identifier": "wfhub",
+        "name": "WorkflowHub",
+        "type": "seek",
+        "uri": "https://workflowhub.eu",
+        "uuid": "b556d831-a393-43bd-8047-98505b7fc20c"
+      }
+    ],
+    "ro_crate": {
+      "links": {
+        "download": "https://api.lifemonitor.eu/workflows/de72071c-e60b-4bd4-95b9-863b408dda4d/rocrate/2/download",
+        "metadata": "https://api.lifemonitor.eu/workflows/de72071c-e60b-4bd4-95b9-863b408dda4d/rocrate/2/metadata",
+        "origin": "https://workflowhub.eu/workflows/2347/ro_crate?version=2",
+        "registries": {
+          "wfhub": "https://workflowhub.eu/workflows/2347?version=2"
+        }
+      }
+    },
+    "subscriptions": [],
+    "uuid": "de72071c-e60b-4bd4-95b9-863b408dda4d",
+    "version": {
+      "authors": [
+        {
+          "name": "Xuanyi Jiang",
+          "url": null
+        }
+      ],
+      "is_latest": true,
+      "links": {
+        "origin": "https://workflowhub.eu/workflows/2347/ro_crate?version=2",
+        "registries": {
+          "wfhub": "https://workflowhub.eu/workflows/2347?version=2"
+        }
+      },
+      "name": "Life Science Knowledge Workflow",
+      "uuid": "571e0f9f-5ea8-4c8d-a40c-b08d91245b90",
+      "version": "2"
+    }
+  }
+}

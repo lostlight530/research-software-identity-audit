@@ -1,0 +1,75 @@
+{
+  "scope": "selected public artifact bytes; original HTTP bodies remain local",
+  "files": [
+    {
+      "path": "evidence/2026-11-08/02-complete-institutional-recheck/comparison-vs-november-2.json",
+      "bytes": 5085,
+      "sha256": "87525b697357d6a807cc44e3cc8ad277884e82669617b987648307e6ad475676"
+    },
+    {
+      "path": "evidence/2026-11-08/02-complete-institutional-recheck/doi-identifiers.csv",
+      "bytes": 3624,
+      "sha256": "4fb51bdcd908cdfa994e0722a03eba4c07cf9bd8c90d35dd652fbada8d5c9872"
+    },
+    {
+      "path": "evidence/2026-11-08/02-complete-institutional-recheck/doi-inventory-change.json",
+      "bytes": 153,
+      "sha256": "2c4a1b97f9e828f4fddbda851e4a2f461759e89f1635392e0b258577f5ca5a8f"
+    },
+    {
+      "path": "evidence/2026-11-08/02-complete-institutional-recheck/institutional-fields.json",
+      "bytes": 40617,
+      "sha256": "c5b072f683979de5760df3f435d9b481918e533f37f0a85e3eae844acbe3cd52"
+    },
+    {
+      "path": "evidence/2026-11-08/02-complete-institutional-recheck/openaire-cross-type-inventory.json",
+      "bytes": 52933,
+      "sha256": "5a7d58ba0552d6748f59b50dbcfb630e03e160261928bb818ff58a5d52d5318e"
+    },
+    {
+      "path": "evidence/2026-11-08/02-complete-institutional-recheck/openaire-current-version-queries.json",
+      "bytes": 1594,
+      "sha256": "553e07ec236d8bf183ac0802197eaf79545abbd06477f6042c4d7a890a7a984f"
+    },
+    {
+      "path": "evidence/2026-11-08/02-complete-institutional-recheck/openaire-id-doi-groups.csv",
+      "bytes": 4271,
+      "sha256": "5212d1dc0c7ae8eebc77c92be195b4081e46d927ba6ab9101fc7dd9397dc71a6"
+    },
+    {
+      "path": "evidence/2026-11-08/02-complete-institutional-recheck/README.md",
+      "bytes": 472,
+      "sha256": "a4d568026ef88ea564ba46a02a57ad6deb583d57417279b0ced40a623d7c1935"
+    },
+    {
+      "path": "evidence/2026-11-08/02-complete-institutional-recheck/source-provenance.json",
+      "bytes": 686,
+      "sha256": "ae44e72eb1bfa3e658825b8f86117ae4a095663dfa97270bd000a3b9f0bc62bc"
+    },
+    {
+      "path": "evidence/2026-11-08/02-complete-institutional-recheck/surface-results.json",
+      "bytes": 21435,
+      "sha256": "a2508f7a152dbbbefed538098c88922b67640ce17bb7dbb427da3a77ccd537cf"
+    },
+    {
+      "path": "monitoring/2026-11-08/02-complete-institutional-recheck/platform-results.csv",
+      "bytes": 13740,
+      "sha256": "e6865ff35a141170aecdb9e2a58b2b4156d774236e6e2241c498b303c5631c48"
+    },
+    {
+      "path": "monitoring/2026-11-08/02-complete-institutional-recheck/README.md",
+      "bytes": 3439,
+      "sha256": "e2d03bd00e8ad7a7ff32be7c988bcc3191364c418cec00e574087f7eb980b067"
+    },
+    {
+      "path": "monitoring/2026-11-08/02-complete-institutional-recheck/record.json",
+      "bytes": 937,
+      "sha256": "33c6c40cac587a2aabdb63dcfce8732531d817b3524f27f8511f1c47b1227a3b"
+    },
+    {
+      "path": "monitoring/2026-11-08/02-complete-institutional-recheck/source-attempts.csv",
+      "bytes": 150816,
+      "sha256": "e614d3b27b5cbbe0f66bb211ec6fed842face52995a085112a7dbeaff98342c5"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "source_files": [
+    {
+      "source_file": "AllRequests.json",
+      "bytes": 357261,
+      "sha256": "4c8538dd63c807f31ecfdfeddda08247451d1fa0efdf492ade607f6f4682d058"
+    },
+    {
+      "source_file": "VerifiedFields.json",
+      "bytes": 40617,
+      "sha256": "c5b072f683979de5760df3f435d9b481918e533f37f0a85e3eae844acbe3cd52"
+    },
+    {
+      "source_file": "Verification.json",
+      "bytes": 416,
+      "sha256": "d4633025136eaa20973fa0cd7f2dd04d861dd91ee3597a4458a73e38282ef69a"
+    }
+  ],
+  "original_http_bytes_published": false,
+  "raw_payload_digests_in_attempt_ledger": true,
+  "source_clock": "per-request actual UTC, distinct from logical day and compile time"
+}

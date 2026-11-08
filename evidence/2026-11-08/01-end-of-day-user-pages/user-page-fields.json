@@ -1,0 +1,231 @@
+{
+  "logical_date": "2026-11-08",
+  "source_capture_time": null,
+  "workflowhub_period_selection": null,
+  "source_class": "user-provided portal/dashboard text, not API",
+  "source_files": [
+    {
+      "file": "zenodo-source.txt",
+      "bytes": 13545,
+      "sha256": "2aaef57909203590ed50508e01c4c17abcff9c6608b084f15935e311b92e8d80",
+      "source": "user pasted original text",
+      "source_capture_time": null
+    },
+    {
+      "file": "openaire-source.txt",
+      "bytes": 14305,
+      "sha256": "b5d07efab2a999c73a739a345c3176806659b5a6e232a9f59e1a41d74c39534e",
+      "source": "user pasted original text",
+      "source_capture_time": null
+    }
+  ],
+  "zenodo": [
+    {
+      "repository": "welcome-to-github",
+      "original_joined_digits": "3276",
+      "unique_views": 327,
+      "unique_downloads": 6,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": true
+    },
+    {
+      "repository": "Axiom-0",
+      "original_joined_digits": "3102",
+      "unique_views": 310,
+      "unique_downloads": 2,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": true
+    },
+    {
+      "repository": "agentic-frontier-observatory",
+      "original_joined_digits": "2933",
+      "unique_views": 293,
+      "unique_downloads": 3,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": true
+    },
+    {
+      "repository": "agent-foundations",
+      "original_joined_digits": "2813",
+      "unique_views": 281,
+      "unique_downloads": 3,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": true
+    },
+    {
+      "repository": "china-agentic-observatory",
+      "original_joined_digits": "2812",
+      "unique_views": 281,
+      "unique_downloads": 2,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": true
+    },
+    {
+      "repository": "epistemic-pipeline",
+      "original_joined_digits": "2712",
+      "unique_views": 271,
+      "unique_downloads": 2,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": true
+    },
+    {
+      "repository": "zero-entropy-lab",
+      "original_joined_digits": "2662",
+      "unique_views": 266,
+      "unique_downloads": 2,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": true
+    },
+    {
+      "repository": "auto-doc-engine",
+      "original_joined_digits": "2611",
+      "unique_views": 261,
+      "unique_downloads": 1,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": true
+    },
+    {
+      "repository": "sci-render-kit",
+      "original_joined_digits": "2573",
+      "unique_views": 257,
+      "unique_downloads": 3,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": true
+    },
+    {
+      "repository": "reflective-continuum",
+      "original_joined_digits": "2322",
+      "unique_views": 232,
+      "unique_downloads": 2,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": true
+    },
+    {
+      "repository": "research-software-identity-audit",
+      "original_joined_digits": "1746",
+      "unique_views": 174,
+      "unique_downloads": 6,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": false
+    },
+    {
+      "repository": "life-science-ecosystem-lab",
+      "original_joined_digits": "184",
+      "unique_views": 18,
+      "unique_downloads": 4,
+      "field_interpretation": "user portal card unique counts; last digit download, preceding digits view",
+      "fixed_corpus": false
+    }
+  ],
+  "zenodo_totals": {
+    "fixed_ten_unique_views": 2779,
+    "fixed_ten_unique_downloads": 26,
+    "twelve_unique_views": 2971,
+    "twelve_unique_downloads": 36
+  },
+  "workflowhub": [
+    {
+      "id": 2334,
+      "views": 3587,
+      "downloads": 459
+    },
+    {
+      "id": 2332,
+      "views": 3204,
+      "downloads": 481
+    },
+    {
+      "id": 2347,
+      "views": 1519,
+      "downloads": 210
+    },
+    {
+      "id": 2337,
+      "views": 1293,
+      "downloads": 91
+    }
+  ],
+  "workflowhub_totals": {
+    "views": 9603,
+    "downloads": 1241
+  },
+  "openaire": {
+    "reported_orcid_links": 15,
+    "visible_no_result_entries": 4,
+    "no_result_pids": [
+      "10.17605/osf.io/5b329",
+      "10.17605/osf.io/wa5v8",
+      "10.5281/zenodo.23446162",
+      "10.5281/zenodo.23447089"
+    ],
+    "visible_result_groups": 11,
+    "doi_groups": [
+      [
+        "10.5281/zenodo.23166491"
+      ],
+      [
+        "10.5281/zenodo.22791375",
+        "10.5281/zenodo.22791376",
+        "10.5281/zenodo.23068472",
+        "10.5281/zenodo.23137219"
+      ],
+      [
+        "10.5281/zenodo.22791169",
+        "10.5281/zenodo.22791170",
+        "10.5281/zenodo.23068262",
+        "10.5281/zenodo.23137207"
+      ],
+      [
+        "10.5281/zenodo.22791081",
+        "10.5281/zenodo.22791082",
+        "10.5281/zenodo.23068144",
+        "10.5281/zenodo.23137204"
+      ],
+      [
+        "10.5281/zenodo.22790907",
+        "10.5281/zenodo.22790908",
+        "10.5281/zenodo.23068145",
+        "10.5281/zenodo.23137203"
+      ],
+      [
+        "10.5281/zenodo.22791404",
+        "10.5281/zenodo.22791405",
+        "10.5281/zenodo.23068471",
+        "10.5281/zenodo.23137215"
+      ],
+      [
+        "10.5281/zenodo.22791334",
+        "10.5281/zenodo.22791335",
+        "10.5281/zenodo.23068352",
+        "10.5281/zenodo.23137214"
+      ],
+      [
+        "10.5281/zenodo.22791309",
+        "10.5281/zenodo.22791310",
+        "10.5281/zenodo.23068347",
+        "10.5281/zenodo.23137211"
+      ],
+      [
+        "10.5281/zenodo.22791103",
+        "10.5281/zenodo.22791104",
+        "10.5281/zenodo.23068261",
+        "10.5281/zenodo.23137205"
+      ],
+      [
+        "10.5281/zenodo.22791141",
+        "10.5281/zenodo.22791142",
+        "10.5281/zenodo.23068260",
+        "10.5281/zenodo.23137206"
+      ],
+      [
+        "10.5281/zenodo.22791463",
+        "10.5281/zenodo.22791464",
+        "10.5281/zenodo.23068494",
+        "10.5281/zenodo.23137216"
+      ]
+    ],
+    "distinct_dois_in_result_groups": 41,
+    "displayed_last_synchronization": "Oct 10, 2026",
+    "source_display_message_is_not_current_api_absence": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source_files": [
+    {
+      "source_file": "AllVersionRecords.json",
+      "bytes": 110651,
+      "sha256": "c63cb5b53aa19b988ea36692b79a7cece19199ece501c46aeb53c96a005f2b20"
+    },
+    {
+      "source_file": "FamilySummary.json",
+      "bytes": 7950,
+      "sha256": "40802ef1ddea4b448f308052ec0320b5b64c37bd4383ff749078ddd45687faad"
+    },
+    {
+      "source_file": "RequestLog.json",
+      "bytes": 50850,
+      "sha256": "ecedf454cae2ce22abf63d38a35346d597bbfb1d48b66f158c5109e703780896"
+    },
+    {
+      "source_file": "Verification.json",
+      "bytes": 335,
+      "sha256": "f6e35d9476b4557ea97fde15c0b72356ad8fa8665686cbfbc6c9c737ec1176f7"
+    }
+  ],
+  "original_http_bytes_published": false,
+  "file_checksums": "provider-returned metadata, no software archive redownload"
+}

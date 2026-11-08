@@ -1,0 +1,37 @@
+{
+  "record_class": "diagnostic_monitoring_selected_public_fields",
+  "logical_date": "2026-11-08",
+  "batch_start_utc": "2026-11-08T15:10:39.619346+00:00",
+  "batch_end_utc": "2026-11-08T15:11:13.173118+00:00",
+  "source_attempt_rows": 81,
+  "families": 12,
+  "individually_retrieved_versions": 57,
+  "fixed_ten_totals": {
+    "views": 3695,
+    "unique_views": 2779,
+    "downloads": 27,
+    "unique_downloads": 26
+  },
+  "descriptive_twelve_totals": {
+    "views": 3914,
+    "unique_views": 2971,
+    "downloads": 39,
+    "unique_downloads": 36
+  },
+  "family_joins": 48,
+  "all_family_joins_match": true,
+  "contract": {
+    "fixed_corpus": "RS01-RS10",
+    "fixed_objects": 10,
+    "analytical_layers": 6,
+    "eligible_object_layer_units": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_units": 70,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_written": false,
+    "schedule_changed": false
+  },
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0
+}

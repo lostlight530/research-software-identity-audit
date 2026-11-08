@@ -1,0 +1,50 @@
+{
+  "scope": "selected public artifact bytes; original HTTP bodies remain local",
+  "files": [
+    {
+      "path": "evidence/2026-11-08/03-all-version-recheck/all-version-fields.json",
+      "bytes": 107346,
+      "sha256": "8240a392b9e3f0e68d976247cc9eb8b57234a01da2713221de2b5ac2af6d5f6a"
+    },
+    {
+      "path": "evidence/2026-11-08/03-all-version-recheck/all-version-statistics.csv",
+      "bytes": 7925,
+      "sha256": "be5a8b11902a6da0274b60a728016eb036f395df83c6eac5aa703487b67da81a"
+    },
+    {
+      "path": "evidence/2026-11-08/03-all-version-recheck/family-reconciliation.json",
+      "bytes": 6579,
+      "sha256": "c6538732e9c2304a44bc62a0ee956559a770c9cede3cd63f4df4786caaf29f8a"
+    },
+    {
+      "path": "evidence/2026-11-08/03-all-version-recheck/family-summary.json",
+      "bytes": 7629,
+      "sha256": "a373f9fcc0e5ea4c14faa43faf9a01401afa790f15267b93272f31648bb92937"
+    },
+    {
+      "path": "evidence/2026-11-08/03-all-version-recheck/README.md",
+      "bytes": 321,
+      "sha256": "17370720c9ab70c1198955cae75e777aa542e08ef38fec2c3f70e0d64f0c46cb"
+    },
+    {
+      "path": "evidence/2026-11-08/03-all-version-recheck/source-provenance.json",
+      "bytes": 793,
+      "sha256": "d3e4e4000b491f5d890af0c133f92f5967984d1cc63e089280e9d47ccdd7852f"
+    },
+    {
+      "path": "monitoring/2026-11-08/03-all-version-recheck/README.md",
+      "bytes": 1563,
+      "sha256": "0867414a0df398ac42cda2a28ff34ead5a4abd8912e5560fec08b1b24c5bcdb7"
+    },
+    {
+      "path": "monitoring/2026-11-08/03-all-version-recheck/record.json",
+      "bytes": 1036,
+      "sha256": "02e27db31e91f46c02692535b8499eebd97526c9a861528fa644a043ab1d39c4"
+    },
+    {
+      "path": "monitoring/2026-11-08/03-all-version-recheck/source-attempts.csv",
+      "bytes": 20584,
+      "sha256": "fa42bddd35b524ef6531504df5746e971273e0b62a64d83aae14e5ef0f55ba7b"
+    }
+  ]
+}
