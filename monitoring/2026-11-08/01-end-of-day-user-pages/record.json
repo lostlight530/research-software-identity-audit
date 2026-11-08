@@ -1,0 +1,45 @@
+{
+  "record_class": "user_supplied_end_of_day_page_observation_not_api",
+  "logical_date": "2026-11-08",
+  "logical_timezone": "Asia/Shanghai",
+  "source_capture_time": null,
+  "dashboard_period_selection": null,
+  "zenodo": {
+    "fixed_ten_unique_views": 2779,
+    "fixed_ten_unique_downloads": 26,
+    "twelve_unique_views": 2971,
+    "twelve_unique_downloads": 36
+  },
+  "workflowhub": {
+    "views": 9603,
+    "downloads": 1241
+  },
+  "openaire": {
+    "reported_orcid_links": 15,
+    "visible_no_result_entries": 4,
+    "no_result_pids": [
+      "10.17605/osf.io/5b329",
+      "10.17605/osf.io/wa5v8",
+      "10.5281/zenodo.23446162",
+      "10.5281/zenodo.23447089"
+    ],
+    "visible_result_groups": 11,
+    "distinct_dois_in_result_groups": 41,
+    "displayed_last_synchronization": "Oct 10, 2026",
+    "source_display_message_is_not_current_api_absence": true
+  },
+  "contract": {
+    "fixed_corpus": "RS01-RS10",
+    "fixed_objects": 10,
+    "analytical_layers": 6,
+    "eligible_object_layer_units": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_units": 70,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_written": false,
+    "schedule_changed": false
+  },
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0
+}

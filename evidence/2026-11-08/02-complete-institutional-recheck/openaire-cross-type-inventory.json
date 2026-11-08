@@ -1,0 +1,2204 @@
+{
+  "doi_queries": 92,
+  "successful_queries": 92,
+  "matched_doi_count": 59,
+  "result_occurrences": 59,
+  "distinct_ids": 17,
+  "unique_id_types": {
+    "software": 17
+  },
+  "all_pages_complete": true,
+  "failed_queries": [],
+  "doi_groups": [
+    {
+      "doi": "10.17605/osf.io/5b329",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_0",
+      "status": 200
+    },
+    {
+      "doi": "10.17605/osf.io/wa5v8",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_1",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.1",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_2",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.2",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_3",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.3",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_4",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.4",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_5",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.5",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_6",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.6",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_7",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.7",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_8",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.8",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_9",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2332.9",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_10",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.1",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_11",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.2",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_12",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.3",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_13",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.4",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_14",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.5",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_15",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.6",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_16",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.7",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_17",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.8",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_18",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2334.9",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_19",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2337.1",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_20",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2347.1",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_21",
+      "status": 200
+    },
+    {
+      "doi": "10.48546/workflowhub.workflow.2347.2",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_22",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22790907",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_23",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22790908",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_24",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791081",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_25",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791082",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_26",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791103",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_27",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791104",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_28",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791141",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_29",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791142",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_30",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791169",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_31",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791170",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_32",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791309",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_33",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791310",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_34",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791334",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_35",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791335",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_36",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791375",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_37",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791376",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_38",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791404",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_39",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791405",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_40",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791463",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_41",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.22791464",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_42",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23068144",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_43",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23068145",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_44",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23068260",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_45",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23068261",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_46",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23068262",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_47",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23068347",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_48",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23068352",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_49",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23068471",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_50",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23068472",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_51",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23068494",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_52",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23137203",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_53",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23137204",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_54",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23137205",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_55",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23137206",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_56",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23137207",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_57",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23137211",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_58",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23137214",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_59",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23137215",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_60",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23137216",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_61",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23137219",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_62",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23166490",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_63",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23166491",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_64",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23176748",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_65",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23284570",
+      "total": 1,
+      "returned": 1,
+      "complete": true,
+      "request_key": "openaire_all_66",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23365504",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_67",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23365510",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_68",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23365517",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_69",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23365525",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_70",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23365534",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_71",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23365540",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_72",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23365543",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_73",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23365548",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_74",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23365551",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_75",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23365567",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_76",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23446162",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_77",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23447088",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_78",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23447089",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_79",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23811380",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_80",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23811383",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_81",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23811384",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_82",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23811387",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_83",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23811388",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_84",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23811389",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_85",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23811392",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_86",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23811393",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_87",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23811394",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_88",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23811397",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_89",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23839899",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_90",
+      "status": 200
+    },
+    {
+      "doi": "10.5281/zenodo.23839900",
+      "total": 0,
+      "returned": 0,
+      "complete": true,
+      "request_key": "openaire_all_91",
+      "status": 200
+    }
+  ],
+  "records": [
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2332.1",
+      "id": "doi_dedup___::032412f01063e1cbf2b1568e30f98826",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2332.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.1",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_2"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2332.2",
+      "id": "doi_________::e0673eceb564b5f0d4e26bb42a79051e",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2332.2",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_3"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2332.3",
+      "id": "doi_dedup___::032412f01063e1cbf2b1568e30f98826",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2332.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.1",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_4"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2332.4",
+      "id": "doi_dedup___::032412f01063e1cbf2b1568e30f98826",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2332.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.1",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_5"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2332.5",
+      "id": "doi_dedup___::032412f01063e1cbf2b1568e30f98826",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2332.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.1",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_6"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2332.6",
+      "id": "doi_dedup___::032412f01063e1cbf2b1568e30f98826",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2332.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.1",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_7"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2332.7",
+      "id": "doi_dedup___::032412f01063e1cbf2b1568e30f98826",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2332.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.1",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2332.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_8"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2334.1",
+      "id": "doi_________::3788e212b24cd8ed54cd9e55f34f2b0e",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2334.1",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_11"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2334.2",
+      "id": "doi_dedup___::23f31b835060ad50464af8994cbfffe3",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2334.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.2",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_12"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2334.3",
+      "id": "doi_dedup___::23f31b835060ad50464af8994cbfffe3",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2334.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.2",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_13"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2334.4",
+      "id": "doi_dedup___::23f31b835060ad50464af8994cbfffe3",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2334.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.2",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_14"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2334.5",
+      "id": "doi_dedup___::23f31b835060ad50464af8994cbfffe3",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2334.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.2",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_15"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2334.6",
+      "id": "doi_dedup___::23f31b835060ad50464af8994cbfffe3",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2334.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.2",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_16"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2334.7",
+      "id": "doi_dedup___::23f31b835060ad50464af8994cbfffe3",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2334.3",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.6",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.7",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.5",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.2",
+          "class": "doi"
+        },
+        {
+          "value": "10.48546/workflowhub.workflow.2334.4",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_17"
+    },
+    {
+      "queried_doi": "10.48546/workflowhub.workflow.2337.1",
+      "id": "doi_________::d84fbda3592202d91d65ace2efc337d9",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.48546/workflowhub.workflow.2337.1",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_20"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22790907",
+      "id": "doi_dedup___::99673829fdd66f7c398d1e25300ce755",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22790907",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22790908",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137203",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068145",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_23"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22790908",
+      "id": "doi_dedup___::99673829fdd66f7c398d1e25300ce755",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22790907",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22790908",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137203",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068145",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_24"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791081",
+      "id": "doi_dedup___::96c0fa3d8bd0ff5b8311d47d56adcf3b",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137204",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791082",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791081",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068144",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_25"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791082",
+      "id": "doi_dedup___::96c0fa3d8bd0ff5b8311d47d56adcf3b",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137204",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791082",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791081",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068144",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_26"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791103",
+      "id": "doi_dedup___::66b01745779fb477542a157f6c75d72d",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137205",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068261",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791104",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791103",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_27"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791104",
+      "id": "doi_dedup___::66b01745779fb477542a157f6c75d72d",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137205",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068261",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791104",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791103",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_28"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791141",
+      "id": "doi_dedup___::600ffa248674ef2979d0929840f80bf3",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137206",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791142",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791141",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068260",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_29"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791142",
+      "id": "doi_dedup___::600ffa248674ef2979d0929840f80bf3",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137206",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791142",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791141",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068260",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_30"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791169",
+      "id": "doi_dedup___::d1f0d06308e69c08558c5c13d68dc410",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791169",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137207",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068262",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791170",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_31"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791170",
+      "id": "doi_dedup___::d1f0d06308e69c08558c5c13d68dc410",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791169",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137207",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068262",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791170",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_32"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791309",
+      "id": "doi_dedup___::731f401b2252c215a0b653b7053a8d6f",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23068347",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791310",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137211",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791309",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_33"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791310",
+      "id": "doi_dedup___::731f401b2252c215a0b653b7053a8d6f",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23068347",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791310",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137211",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791309",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_34"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791334",
+      "id": "doi_dedup___::197faf3d6a390cc039ede4196bb0d6b4",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791335",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791334",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068352",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137214",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_35"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791335",
+      "id": "doi_dedup___::197faf3d6a390cc039ede4196bb0d6b4",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791335",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791334",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068352",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137214",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_36"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791375",
+      "id": "doi_dedup___::0758044ef5d1310f2481e9c9aab342e9",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791376",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068472",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791375",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137219",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_37"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791376",
+      "id": "doi_dedup___::0758044ef5d1310f2481e9c9aab342e9",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791376",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068472",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791375",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137219",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_38"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791404",
+      "id": "doi_dedup___::056a0c4806a1b4d625821f75496b2b9c",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791405",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791404",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137215",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068471",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_39"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791405",
+      "id": "doi_dedup___::056a0c4806a1b4d625821f75496b2b9c",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791405",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791404",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137215",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068471",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_40"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791463",
+      "id": "doi_dedup___::9a52df834de54670d325cae45df0ef3b",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137216",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791464",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791463",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068494",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_41"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.22791464",
+      "id": "doi_dedup___::9a52df834de54670d325cae45df0ef3b",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137216",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791464",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791463",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068494",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_42"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068144",
+      "id": "doi_dedup___::96c0fa3d8bd0ff5b8311d47d56adcf3b",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137204",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791082",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791081",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068144",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_43"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068145",
+      "id": "doi_dedup___::99673829fdd66f7c398d1e25300ce755",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22790907",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22790908",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137203",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068145",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_44"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068260",
+      "id": "doi_dedup___::600ffa248674ef2979d0929840f80bf3",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137206",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791142",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791141",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068260",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_45"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068261",
+      "id": "doi_dedup___::66b01745779fb477542a157f6c75d72d",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137205",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068261",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791104",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791103",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_46"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068262",
+      "id": "doi_dedup___::d1f0d06308e69c08558c5c13d68dc410",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791169",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137207",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068262",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791170",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_47"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068347",
+      "id": "doi_dedup___::731f401b2252c215a0b653b7053a8d6f",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23068347",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791310",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137211",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791309",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_48"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068352",
+      "id": "doi_dedup___::197faf3d6a390cc039ede4196bb0d6b4",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791335",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791334",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068352",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137214",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_49"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068471",
+      "id": "doi_dedup___::056a0c4806a1b4d625821f75496b2b9c",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791405",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791404",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137215",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068471",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_50"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068472",
+      "id": "doi_dedup___::0758044ef5d1310f2481e9c9aab342e9",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791376",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068472",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791375",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137219",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_51"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23068494",
+      "id": "doi_dedup___::9a52df834de54670d325cae45df0ef3b",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137216",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791464",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791463",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068494",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_52"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137203",
+      "id": "doi_dedup___::99673829fdd66f7c398d1e25300ce755",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22790907",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22790908",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137203",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068145",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_53"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137204",
+      "id": "doi_dedup___::96c0fa3d8bd0ff5b8311d47d56adcf3b",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137204",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791082",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791081",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068144",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_54"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137205",
+      "id": "doi_dedup___::66b01745779fb477542a157f6c75d72d",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137205",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068261",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791104",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791103",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_55"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137206",
+      "id": "doi_dedup___::600ffa248674ef2979d0929840f80bf3",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137206",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791142",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791141",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068260",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_56"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137207",
+      "id": "doi_dedup___::d1f0d06308e69c08558c5c13d68dc410",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791169",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137207",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068262",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791170",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_57"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137211",
+      "id": "doi_dedup___::731f401b2252c215a0b653b7053a8d6f",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23068347",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791310",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137211",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791309",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_58"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137214",
+      "id": "doi_dedup___::197faf3d6a390cc039ede4196bb0d6b4",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791335",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791334",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068352",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137214",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_59"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137215",
+      "id": "doi_dedup___::056a0c4806a1b4d625821f75496b2b9c",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791405",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791404",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137215",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068471",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_60"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137216",
+      "id": "doi_dedup___::9a52df834de54670d325cae45df0ef3b",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23137216",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791464",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791463",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068494",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_61"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23137219",
+      "id": "doi_dedup___::0758044ef5d1310f2481e9c9aab342e9",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.22791376",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23068472",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.22791375",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23137219",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_62"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23166490",
+      "id": "doi_dedup___::d6770664f967a21c4e7dd1af07a24177",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23284570",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23166490",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23176748",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_63"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23166491",
+      "id": "doi_________::6216d747a38567521a40440d77c381f3",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23166491",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_64"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23176748",
+      "id": "doi_dedup___::d6770664f967a21c4e7dd1af07a24177",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23284570",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23166490",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23176748",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_65"
+    },
+    {
+      "queried_doi": "10.5281/zenodo.23284570",
+      "id": "doi_dedup___::d6770664f967a21c4e7dd1af07a24177",
+      "type": "software",
+      "pids": [
+        {
+          "value": "10.5281/zenodo.23284570",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23166490",
+          "class": "doi"
+        },
+        {
+          "value": "10.5281/zenodo.23176748",
+          "class": "doi"
+        }
+      ],
+      "request_key": "openaire_all_66"
+    }
+  ]
+}

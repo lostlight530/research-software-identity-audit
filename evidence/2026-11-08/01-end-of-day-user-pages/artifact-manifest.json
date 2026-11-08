@@ -1,0 +1,35 @@
+{
+  "scope": "selected public artifact bytes; original HTTP bodies remain local",
+  "files": [
+    {
+      "path": "evidence/2026-11-08/01-end-of-day-user-pages/README.md",
+      "bytes": 294,
+      "sha256": "e82a6586577e6b32c4a9fa8c245c338ccb2ab14af1c1fe6e214f31b22ed2bdd7"
+    },
+    {
+      "path": "evidence/2026-11-08/01-end-of-day-user-pages/user-page-fields.json",
+      "bytes": 6769,
+      "sha256": "bedc7302dc718cb916f140a9ffd51481f7d0eeb9a1c27acffd783619412e3843"
+    },
+    {
+      "path": "evidence/2026-11-08/01-end-of-day-user-pages/workflowhub-dashboard-statistics.csv",
+      "bytes": 74,
+      "sha256": "2aa1a6a45c00a10508150d74285f60341a23ad675f9359bf52e2fb1dcb1ae150"
+    },
+    {
+      "path": "evidence/2026-11-08/01-end-of-day-user-pages/zenodo-card-statistics.csv",
+      "bytes": 1461,
+      "sha256": "23c67648310e0ed2d1c99216e549a72fd85310b922545c5189e54771f48680b8"
+    },
+    {
+      "path": "monitoring/2026-11-08/01-end-of-day-user-pages/README.md",
+      "bytes": 1421,
+      "sha256": "199f20e3ce2e48a9cb0111a93fd1a0ae2fd7d17c0beec87a04aeed394981fd2e"
+    },
+    {
+      "path": "monitoring/2026-11-08/01-end-of-day-user-pages/record.json",
+      "bytes": 1303,
+      "sha256": "a4b12009266d4fa1ff64461338bab2623b8e9acf2fc41f7f5b9118b8b65bf91c"
+    }
+  ]
+}

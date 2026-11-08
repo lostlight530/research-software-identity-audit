@@ -1,0 +1,31 @@
+{
+  "record_class": "diagnostic_monitoring_selected_public_fields",
+  "logical_date": "2026-11-08",
+  "batch_start_utc": "2026-11-08T15:10:29.687232+00:00",
+  "batch_end_utc": "2026-11-08T15:16:32.485383+00:00",
+  "source_attempt_rows": 492,
+  "scope_rows": 34,
+  "doi_total": 92,
+  "orcid_query_total": 91,
+  "orcid_groups": 19,
+  "orcid_summaries": 108,
+  "openalex_enumerated": 32,
+  "openaire_queries": 92,
+  "openaire_successful_queries": 92,
+  "openaire_matched_dois": 59,
+  "openaire_distinct_ids": 17,
+  "contract": {
+    "fixed_corpus": "RS01-RS10",
+    "fixed_objects": 10,
+    "analytical_layers": 6,
+    "eligible_object_layer_units": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_units": 70,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_written": false,
+    "schedule_changed": false
+  },
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0
+}
