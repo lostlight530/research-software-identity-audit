@@ -1,0 +1,189 @@
+{
+  "record_class": "bounded_diagnostic_source_access_not_prospective",
+  "logical_date": "2026-11-09",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_client_utc": "2026-11-09T15:47:07.753Z",
+  "comparison": {
+    "github_main_source": "monitoring/2026-11-07/01-periodic-identity-infrastructure-recheck/github-main-heads.csv",
+    "authoritative_previous_cross_platform": "monitoring/2026-11-08/02-complete-institutional-recheck/",
+    "authoritative_previous_versions": "monitoring/2026-11-08/03-all-version-recheck/",
+    "historical_nov8_capture_window_utc": [
+      "2026-11-08T15:10:29.687232+00:00",
+      "2026-11-08T15:16:32.485383+00:00"
+    ],
+    "github_comparison_units": "main-reachable commits from exact Nov7 recorded main SHA, summed across distinct repos; not same-day commits",
+    "third_party_extractor_clock_limit": "acquired_at is UTC-day truncated, not original source HTTP response timestamp"
+  },
+  "contract": {
+    "fixed_corpus": "RS01-RS10",
+    "fixed_objects": 10,
+    "control_is_rs11": false,
+    "analytical_layers": 6,
+    "eligible_object_layer_units": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_units": 70,
+    "schedule_offsets_declared": false,
+    "eligible_fixed_corpus_new_published_release": false,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_written": false
+  },
+  "github": {
+    "scope": "11 direct main branch SHAs, open PR search, published release listings, compare API, selected PRs",
+    "main_heads": "github-main-heads.csv",
+    "fixed_main_ahead_sum_vs_nov7": 461,
+    "control_main_ahead_vs_nov7": 4,
+    "behind_sum": 0,
+    "new_published_releases": 0,
+    "fixed_published_releases": 50,
+    "control_published_releases": 5,
+    "latest_fixed_published_tag": "v2026.10-30-evidence-snapshot",
+    "latest_control_published_tag": "v2026.10-control-lifecycle-reconciliation",
+    "open_pr_count": 1,
+    "open_prs": [
+      {
+        "object_id": "RS05",
+        "repo": "agent-foundations",
+        "number": 378,
+        "draft": true
+      }
+    ],
+    "closed_since_nov7_list": [
+      {
+        "object_id": "RS01",
+        "number": 923,
+        "merged": true,
+        "merged_at_utc": "2026-11-07T05:39:38Z"
+      },
+      {
+        "object_id": "RS02",
+        "number": 813,
+        "merged": true,
+        "merged_at_utc": "2026-11-07T05:41:54Z"
+      },
+      {
+        "object_id": "RS09",
+        "number": 245,
+        "merged": true,
+        "merged_at_utc": "2026-11-07T13:51:47Z"
+      }
+    ],
+    "control_open_prs_before_this_record": 0
+  },
+  "seven_platforms": {
+    "github": "DIRECT_CONNECTED_11_MAIN_PR_RELEASE_COMPARE",
+    "zenodo": "NOV9_RS01_SELECTED_RECORD_ONLY_NOT_12_FAMILY_REFRESH",
+    "datacite": "NOV8_92_ATTRIBUTABLE_BASELINE_NO_NOV9_COMPLETE_QUERY",
+    "orcid": "NOV8_19_GROUPS_108_SUMMARIES_NO_NOV9_FRESH_RECOUNT",
+    "software_heritage": "NOV8_12_LATEST_FULL_ORIGINS_NOV9_EXTRACT_ONLY_CACHED_DOCUMENTATION",
+    "openaire": "NOV8_92_QUERIES_59_MATCHED_17_DISTINCT_SOFTWARE_IDS_NO_NOV9_FULL_REFRESH",
+    "openalex": "NOV8_32_ENUMERATED_NO_NOV9_FRESH_RECOUNT",
+    "current_ten_by_seven_census": "NOT_EXECUTED"
+  },
+  "zenodo_selected": {
+    "endpoint": "https://zenodo.org/api/records/23811380",
+    "equivalent_endpoint": "https://zenodo.org/api/records/23365504/versions/latest",
+    "record_id": 23811380,
+    "version_doi": "10.5281/zenodo.23811380",
+    "concept_doi": "10.5281/zenodo.22790907",
+    "extractor_receipt": "extract_fb83b19ab9f47ee6be9de6dbde914319",
+    "extractor_acquired_utc_day": "2026-11-09T00:00:00Z",
+    "nov8_family_views": 419,
+    "nov9_family_views": 422,
+    "delta_family_views": 3,
+    "nov8_family_unique_views": 327,
+    "nov9_family_unique_views": 330,
+    "delta_family_unique_views": 3,
+    "family_downloads_both": 7,
+    "version_views_both": 22,
+    "version_downloads_both": 1,
+    "raw_provider_bytes_preserved": false,
+    "scope_warning": "Single family selected record; no new release, no ten-family totals, no unique humans"
+  },
+  "institutional": {
+    "rse_pr498": {
+      "state": "OPEN",
+      "merged": false,
+      "last_updated_at_utc": "2026-10-07T13:02:55Z",
+      "direct_github": true
+    },
+    "rsd_issue1870": {
+      "state": "CLOSED",
+      "closed_at_utc": "2026-10-16T12:11:19Z",
+      "deployed_ui_retest": "NOT_VERIFIED"
+    },
+    "rsd_issue1871": {
+      "state": "OPEN",
+      "last_updated_at_utc": "2026-10-16T08:05:49Z"
+    },
+    "rsd_last_published_release": "v6.7.5",
+    "rrid": "SCR_029105",
+    "curator_validation_and_new_ownership": "UNKNOWN",
+    "hal_moderation_receipt": "NOT_OBTAINED",
+    "new_confirmed_direct_institutional_interaction": "NOT_VERIFIED",
+    "no_institutional_affiliation_inference": true
+  },
+  "previous_nov8_measurements_not_recollected": {
+    "known_doi_identities": 92,
+    "orcid_groups": 19,
+    "orcid_summaries": 108,
+    "openalex_works": 32,
+    "openaire_doi_queries": 92,
+    "openaire_dois_matched": 59,
+    "openaire_distinct_result_ids": 17,
+    "zenodo_fixed_families": 10,
+    "zenodo_fixed_versions": 50,
+    "zenodo_fixed_family_views": 3695,
+    "zenodo_fixed_family_downloads": 27,
+    "zenodo_all_versions_twelve_families": 57,
+    "full_all_version_recheck": "NOT_EXECUTED_ON_NOV9"
+  },
+  "supplementary_surfaces": {
+    "source": "surface-access-recheck.csv",
+    "attempt_count": 34,
+    "extractor_representations": 28,
+    "errors": 6,
+    "error_surface_ids": [
+      11,
+      13,
+      14,
+      15,
+      24,
+      25
+    ],
+    "receipts": [
+      "extract_e9e78d7a55974b68301dea7a726f8b46",
+      "extract_6b0e3d1b0da2720b13e98685ef6a3bed"
+    ],
+    "acquisition_day_bucket_counts": {
+      "logical_utc_day": 1,
+      "previous_utc_day": 1,
+      "older_utc_day": 26
+    },
+    "origin_transport_bytes_retained": false,
+    "full_34_live_provider_verification": false,
+    "no_origin_server_time_or_headers": true,
+    "access_error_not_absence": true,
+    "hal_bot_page_not_positive_record": true,
+    "swh_docs_not_live_origin_json": true
+  },
+  "provenance": {
+    "github": "Authorized GitHub connected REST; exact pinned commits and source URLs in github-main-heads.csv",
+    "third_party": "Parallel selected excerpts with separate source receipt IDs and day-only acquisition labels",
+    "current_original_http_bodies_headers_sha256_retained": false,
+    "archived_nov8_primary_attempts": "monitoring/2026-11-08/02-complete-institutional-recheck/source-attempts.csv",
+    "new_software_archive_or_workflow_downloads": false
+  },
+  "change_and_approval": {
+    "research_source_defect_confirmed": false,
+    "code_or_schema_repair": "NO_CHANGE_REQUIRED",
+    "diagnostic_record": "APPEND_ONLY",
+    "github_branch": "audit/2026-11-09-periodic-identity-infrastructure",
+    "ci_at_authoring": "NOT_EXECUTED",
+    "new_release_or_doi": "NONE",
+    "historical_evidence_rewritten": false
+  },
+  "disposition": "PARTIAL__11_MAIN_ADVANCED__NO_NEW_RELEASE__RS01_FAMILY_VIEWS_PLUS3__34_ATTEMPTS_28_EXTRACTS_6_ERRORS__INSTITUTION_NO_MATERIAL_CHANGE__PROSPECTIVE_CELLS_0",
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0
+}
