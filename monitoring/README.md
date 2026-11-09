@@ -228,3 +228,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 - [2026-11-08/01-end-of-day-user-pages](2026-11-08/01-end-of-day-user-pages/README.md) — user Zenodo cards, WorkflowHub Dashboard and 15 OpenAIRE ORCID links; diagnostic only, zero prospective cells
 - [2026-11-08/02-complete-institutional-recheck](2026-11-08/02-complete-institutional-recheck/README.md) — 34 surfaces, 92 DOI queries, 17 distinct OpenAIRE IDs and source attempt clocks; diagnostic only, zero prospective cells
 - [2026-11-08/03-all-version-recheck](2026-11-08/03-all-version-recheck/README.md) — 57 Zenodo versions, 48 field joins and separate family/version counters; diagnostic only, zero prospective cells
+
+## November 9 bounded identity and infrastructure recheck
+
+- [2026-11-09 / 01-periodic-identity-infrastructure-recheck](2026-11-09/01-periodic-identity-infrastructure-recheck/README.md) — eleven exact main/PR/release checks against November 7 pinned SHAs, 34 pre-existing services and standards with 28 dated excerpts and six retained errors, one November 9 RS01 Zenodo comparable family counter (+3 views), independent RSE/RSD status checks and explicit zero prospective observations. No source repair, DOI or Release; prior November 8 full cross-platform capture remains a separate historical observation
