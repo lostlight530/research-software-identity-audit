@@ -19,7 +19,7 @@ TEXT_SUFFIXES = {
 TEXT_FILENAMES = {".gitignore", ".gitattributes"}
 INLINE_LINK = re.compile(r"!?\[[^\]]*\]\((<[^>]+>|[^)\s]+)(?:\s+[^)]*)?\)")
 REFERENCE_LINK = re.compile(r"^\s{0,3}\[[^\]]+\]:\s*(<[^>]+>|\S+)")
-HTML_HREF = re.compile(r"\bhref\s*=\s*([\\"'])(.*?)\1", re.IGNORECASE)
+HTML_HREF = re.compile(r"\bhref\s*=\s*([\x22'])(.*?)\1", re.IGNORECASE)
 FENCE = re.compile(r"^\s{0,3}(\x60{3,}|~{3,})")
 INLINE_CODE = re.compile(r"(\x60+).*?\1")
 

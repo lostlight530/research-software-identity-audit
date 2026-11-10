@@ -49,6 +49,14 @@ class RepositoryTextIntegrityTests(unittest.TestCase):
         text = "# title\n\n[section](#title)\n\n" + "\x60" * 3 + "md\n[example](not-a-real-file.md)\n" + "\x60" * 3 + "\n"
         self.assertEqual(list(markdown_targets(text)), [(3, "#title")])
 
+
+    def test_reference_definition_and_html_href_links(self):
+        self.write("docs/target.md", "# target\n")
+        self.write("docs/source.md", '[ref]: target.md\n<a href="target.md">target</a>\n')
+        result = audit(self.root, ["docs/target.md", "docs/source.md"])
+        self.assertEqual(result["error_count"], 0)
+        self.assertEqual(result["relative_markdown_targets_checked"], 2)
+
     def test_root_relative_link_resolves_from_repository_root(self):
         self.write("target.md", "# target\n")
         self.write("docs/source.md", "[target](/target.md)\n")
