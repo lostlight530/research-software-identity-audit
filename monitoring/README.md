@@ -232,3 +232,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## November 9 bounded identity and infrastructure recheck
 
 - [2026-11-09 / 01-periodic-identity-infrastructure-recheck](2026-11-09/01-periodic-identity-infrastructure-recheck/README.md) — eleven exact main/PR/release checks against November 7 pinned SHAs, 34 pre-existing services and standards with 28 dated excerpts and six retained errors, one November 9 RS01 Zenodo comparable family counter (+3 views), independent RSE/RSD status checks and explicit zero prospective observations. No source repair, DOI or Release; prior November 8 full cross-platform capture remains a separate historical observation
+
+## November 10 bounded identity and infrastructure recheck
+
+- [2026-11-10 / 01-periodic-identity-infrastructure-recheck](2026-11-10/01-periodic-identity-infrastructure-recheck/README.md) — current eleven GitHub main/PR/Release SHA comparison (+183 fixed-corpus main-reachable commits since Nov 9, no Published Release), 34 established service/standard URL access outcomes with six retained errors and dated caches, selected Nov 10 RS01 Zenodo family views +2, institution-facing unchanged RSE/RSD states and explicit zero prospective cells. No OSF, release, DOI, baseline or schema change
