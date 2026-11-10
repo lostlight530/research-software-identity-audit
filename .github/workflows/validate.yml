@@ -14,9 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7.1.0
         with:
           python-version: "3.12"
       - name: Run advisory contract checker
@@ -54,6 +56,12 @@ jobs:
       - name: Test bounded monitoring source-ledger consistency (advisory)
         continue-on-error: true
         run: python -m unittest discover -s tests -p "test_monitoring_projection.py" -v
+      - name: Check tracked text syntax and local links (advisory)
+        continue-on-error: true
+        run: python -B tools/check_repository_text_integrity.py
+      - name: Test repository text integrity checker (advisory)
+        continue-on-error: true
+        run: python -m unittest discover -s tests -p "test_repository_text_integrity.py" -v
       - name: Check dated record paths and ownership (advisory)
         continue-on-error: true
         run: python -B tools/check_record_paths.py
