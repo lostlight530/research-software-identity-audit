@@ -1,0 +1,58 @@
+{
+  "record_class": "supplementary_diagnostic_usage_metric",
+  "logical_date": "2026-11-10",
+  "agreed_observation_anchor": "2026-11-10T20:20:00+08:00",
+  "object": {
+    "title": "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures",
+    "doi": "10.17605/osf.io/5b329",
+    "object_type": "StudyRegistration",
+    "repository": "Open Science Framework"
+  },
+  "metric": {
+    "name": "unique-dataset-investigations-regular",
+    "value": 30,
+    "display_label": "30 Views",
+    "reporting_period": {
+      "start": "2026-10-01T00:00:00Z",
+      "end": "2026-10-31T00:00:00Z",
+      "granularity": "monthly"
+    },
+    "source_attribution": "da_COS.OSF",
+    "report_id": "3f646169-571d-48ab-9f43-e6b283792c0e",
+    "event_id": "a201d96d-d59e-4748-91b1-231febf315cc",
+    "event_occurred_at": "2026-10-01T00:00:00.000Z",
+    "event_recorded_at": "2026-11-01T04:30:49.536Z"
+  },
+  "provenance": {
+    "event_api_url": "https://api.datacite.org/events?doi=10.17605%2Fosf.io%2F5b329&source-id=datacite-usage",
+    "report_api_url": "https://api.datacite.org/reports/3f646169-571d-48ab-9f43-e6b283792c0e",
+    "event_extract_receipt": "extract_c7074ae862e4c1b621696913d8721d7d",
+    "report_extract_receipt": "extract_e1bcc2aaef0afff9e4f34255ee7ff0b7",
+    "extractor_acquired_at_utc_day": "2026-11-10T00:00:00Z",
+    "acquisition_timestamp_precision": "UTC day label only; not an exact HTTP response timestamp",
+    "original_http_response_bytes_preserved": false,
+    "original_http_headers_preserved": false,
+    "source_user_interface": "User-supplied DataCite Commons page text",
+    "source_user_interface_display": "30 Views reported since publication in 2026",
+    "user_supplied_observation_anchor": "2026-11-10T20:20:00+08:00"
+  },
+  "interpretation": {
+    "bounded_claim": "DataCite records 30 unique regular dataset investigations for the OSF preregistration DOI in the October 2026 OSF-submitted usage report; the Commons page supplied by the user displays 30 Views.",
+    "unique_semantics": "DataCite Event Data defines unique usage as counting access once per content item within a unique user session.",
+    "regular_semantics": "The regular category is distinct from the machine access category.",
+    "not_person_count": true,
+    "not_proof_of_zero_automated_traffic": true,
+    "independent_of_this_patrol_agent": "The usage event is attributed to the OSF DataCite client da_COS.OSF and concerns the October reporting period, not this patrol's retrieval requests."
+  },
+  "research_contract": {
+    "fixed_sample": "RS01-RS10",
+    "control_is_rs11": false,
+    "analytical_layers": 6,
+    "eligible_object_layer_units": 60,
+    "this_metric_is_sample_object_observation": false,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_registration_or_revision_changed": false
+  },
+  "disposition": "RECORDED_30_UNIQUE_REGULAR_INVESTIGATIONS_ONLY"
+}
