@@ -19,6 +19,8 @@ For the scientific background start with the [main README](../README.md); for th
 
 **2026-11-08 CONTROL-only first-day-to-current file governance:** [Pinned 130-commit / 703-file path-and-blob classification closeout](repository-inventory/2026-11-08/README.md), [703-row catalog](repository-inventory/2026-11-08/control-tracked-paths.csv), [46 added / 6 changed / 0 removed delta](repository-inventory/2026-11-08/control-delta-since-2026-11-06.csv), [20 newer commits](repository-inventory/2026-11-08/main-commits-since-2026-11-05.csv), [12 retained same-blob groups](repository-inventory/2026-11-08/control-identical-blob-review.csv). Only the independent research-control repository is in scope; original contracts and historical files are unchanged. File identity classification is complete for the pinned tree; full body-level scientific review remains partial.
 
+**2026-11-10 CONTROL-only pinned first-day-to-current cleanup and file governance:** [135-commit / 106-PR / 724-file current-tree audit and explicit no-deletion disposition](repository-inventory/2026-11-10/README.md) · [complete 724-path Git-object catalog](repository-inventory/2026-11-10/control-tracked-paths.csv) · [21 added / 2 modified / 0 removed comparison](repository-inventory/2026-11-10/control-delta-since-2026-11-08.csv) · [12 retained identical-blob review groups](repository-inventory/2026-11-10/control-identical-blob-review.csv). Older dated source inventories remain frozen; small `.gitignore` excludes only standard local execution byproducts, not scholarly evidence or failure records.
+
 ## 1. Authority and object boundaries
 
 | Surface | Authority and purpose | What it does **not** imply |

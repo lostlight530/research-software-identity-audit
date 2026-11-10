@@ -1,0 +1,12 @@
+# Local tooling byproducts only — never ignore scholarly records or retained evidence
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
