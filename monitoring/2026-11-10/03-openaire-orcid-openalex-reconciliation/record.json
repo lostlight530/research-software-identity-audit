@@ -1,0 +1,181 @@
+{
+  "record_class": "user_supplied_scholarly_interface_observation_not_api",
+  "logical_date": "2026-11-10",
+  "logical_timezone": "Asia/Shanghai",
+  "source_capture_time": null,
+  "conversation_received_at": "2026-11-10T20:55:00+08:00",
+  "conversation_received_at_semantics": "receipt time only; not source retrieval time",
+  "source": {
+    "source_class": "maintainer_supplied_textual_UI_excerpts",
+    "screenshots_supplied": false,
+    "original_http_response_bytes_preserved": false,
+    "original_http_headers_preserved": false,
+    "per_request_retrieval_timestamps_available": false,
+    "attached_text_artifact": {
+      "filename": "粘贴的文本 (1).txt",
+      "bytes": 25229,
+      "sha256": "36a1e12c3fe31261854327ebe128e6a214feba2098ce3d2ba535d5e2d1869e81",
+      "scope": "OpenAIRE PID result excerpts; unrelated attachment text omitted from repository transcription"
+    },
+    "direct_message_excerpt_scope": "OpenAlex Work and author profile display; OpenAIRE My ORCID links pages 2 and 3"
+  },
+  "openaire": {
+    "pid_results": [
+      {
+        "doi": "10.17605/osf.io/5b329",
+        "object_scope": "OSF preregistration outside fixed sample",
+        "displayed_result_count": 13,
+        "displayed_type_counts": {
+          "software": 1,
+          "dataset": 12
+        },
+        "prior_2026_11_08_exact_api_total": 0,
+        "prior_2026_11_08_http_status": 200,
+        "prior_2026_11_08_request_key": "openaire_all_0"
+      },
+      {
+        "doi": "10.5281/zenodo.23446162",
+        "object_scope": "CONTROL Zenodo version; CONTROL is not RS11",
+        "displayed_result_count": 8,
+        "displayed_type_counts": {
+          "software": 2,
+          "dataset": 6
+        },
+        "prior_2026_11_08_exact_api_total": 0,
+        "prior_2026_11_08_http_status": 200,
+        "prior_2026_11_08_request_key": "openaire_all_77"
+      },
+      {
+        "doi": "10.17605/osf.io/wa5v8",
+        "object_scope": "associated OSF Project outside fixed sample",
+        "displayed_result_count": 10,
+        "displayed_type_counts": {
+          "software": 0,
+          "dataset": 10
+        },
+        "prior_2026_11_08_exact_api_total": 0,
+        "prior_2026_11_08_http_status": 200,
+        "prior_2026_11_08_request_key": "openaire_all_1"
+      },
+      {
+        "doi": "10.5281/zenodo.23166491",
+        "object_scope": "CONTROL beta Zenodo version; CONTROL is not RS11",
+        "displayed_result_count": 4,
+        "displayed_type_counts": {
+          "software": 2,
+          "dataset": 2
+        },
+        "prior_2026_11_08_exact_api_total": 1,
+        "prior_2026_11_08_http_status": 200,
+        "prior_2026_11_08_request_key": "openaire_all_64"
+      }
+    ],
+    "comparison_limit": "User-interface result counts and November 8 exact-DOI API totals are different observable surfaces. New UI capture time is unknown; no numeric delta, first-seen time, or propagation latency is derivable.",
+    "prior_2026_11_08_full_query_context": {
+      "doi_queries": 92,
+      "successful_queries": 92,
+      "matched_doi_queries": 59,
+      "distinct_software_result_ids": 17,
+      "source_record": "monitoring/2026-11-08/02-complete-institutional-recheck/record.json"
+    }
+  },
+  "openalex": {
+    "author": {
+      "openalex_author_id": "A5151904252",
+      "orcid": "0009-0001-3617-0832",
+      "works_count": 33,
+      "citation_count": 1,
+      "h_index": 1,
+      "i10_index": null,
+      "work_type_counts": {
+        "other": 20,
+        "software": 12,
+        "preprint": 1
+      },
+      "displayed_topic_counts": {
+        "Scientific Computing and Data Management": 26,
+        "Software Engineering Research": 1,
+        "Multi-Agent Systems and Negotiation": 1,
+        "Ethics and Social Impacts of AI": 1,
+        "Security and Verification in Computing": 1
+      },
+      "displayed_topic_count_sum": 30,
+      "topic_list_exhaustiveness": "NOT_STATED"
+    },
+    "work": {
+      "openalex_work_id": "W7220380722",
+      "doi": "10.17605/osf.io/5b329",
+      "title": "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures",
+      "year": 2026,
+      "work_type_as_supplied": "preprint",
+      "source_name": "OSF Preprints",
+      "source_openalex_id": "S4306401127",
+      "author_name_as_supplied": "Xuanyi Jiang",
+      "author_openalex_id": "A5151904252",
+      "author_orcid": "0009-0001-3617-0832",
+      "language": "English",
+      "work_cites_displayed": 1,
+      "related_works_displayed": 10,
+      "topic": "Research Data Management Practices",
+      "subfield": "Information Systems",
+      "field": "Computer Science",
+      "domain": "Physical Sciences",
+      "open_access_status": "green"
+    },
+    "dated_comparison": {
+      "same_work_id_prior_2026_10_10_type": "other",
+      "prior_source": "monitoring/2026-10-10/03-openalex-work-aggregation/openalex-author-works.csv",
+      "current_source_capture_time": null,
+      "classification_comparison_state": "DATED_TYPE_OR_SURFACE_DISCREPANCY",
+      "prior_2026_11_08_author_works_enumeration_count": 32,
+      "current_profile_works_count": 33,
+      "count_comparison_state": "PROFILE_VS_ENUMERATION_NOT_DIRECTLY_COMPARABLE",
+      "comparable_count_delta": "NOT_DERIVABLE"
+    }
+  },
+  "openaire_my_orcid_links": {
+    "displayed_link_count": 15,
+    "displayed_page_count": 3,
+    "supplied_pages": [
+      2,
+      3
+    ],
+    "last_synchronization_display": "2026-10-10",
+    "fixed_corpus_rows_supplied": 10,
+    "doi_per_row": 4,
+    "exact_rows": "my-orcid-links-rs01-rs10.csv",
+    "interpretation": "OpenAIRE My ORCID links UI count; not an ORCID Registry group or Work-summary count"
+  },
+  "rs01_welcome_to_github_aggregation": {
+    "openaire_result_id": "doi_dedup___::99673829fdd66f7c398d1e25300ce755",
+    "source": "evidence/2026-11-08/02-complete-institutional-recheck/openaire-id-doi-groups.csv",
+    "mapped_dois": [
+      "10.5281/zenodo.22790907",
+      "10.5281/zenodo.22790908",
+      "10.5281/zenodo.23068145",
+      "10.5281/zenodo.23137203"
+    ],
+    "later_version_dois_in_same_result": [
+      "10.5281/zenodo.23068145",
+      "10.5281/zenodo.23137203"
+    ],
+    "interpretation": "Distinct DOI version identities grouped under one OpenAIRE software result ID; no Zenodo/DataCite DOI merge implied"
+  },
+  "research_contract": {
+    "fixed_sample": "RS01-RS10",
+    "fixed_objects": 10,
+    "control_is_rs11": false,
+    "analytical_layers": 6,
+    "eligible_object_layer_units_per_timepoint": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_analytical_units": 70,
+    "openaire_and_openalex_map_to_same_layer": "discovery_graph",
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_registration_modified": false,
+    "baseline_rewritten": false,
+    "schedule_changed": false,
+    "schema_changed": false
+  },
+  "disposition": "USER_SUPPLIED_UI_ONLY__OPENAIRE_CROSS_SURFACE_RECONCILIATION_REQUIRED__OPENALEX_PROFILE_COUNT_NOT_COMPARABLE__NO_PROSPECTIVE_CELLS"
+}

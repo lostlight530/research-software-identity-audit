@@ -240,3 +240,8 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## November 10 OSF preregistration usage metric
 
 - [2026-11-10 / 02-osf-registration-usage](2026-11-10/02-osf-registration-usage/README.md) — OSF-reported DataCite usage event for preregistration DOI 10.17605/osf.io/5b329: 30 `unique-dataset-investigations-regular` during October 2026. Supplementary diagnostic signal only; not an RS01–RS10 object-layer observation or prospective cell
+
+
+## November 10 user-supplied OpenAIRE, OpenAlex and ORCID-link reconciliation
+
+- [2026-11-10/03-openaire-orcid-openalex-reconciliation](2026-11-10/03-openaire-orcid-openalex-reconciliation/README.md) — maintainer-supplied OpenAIRE PID UI counts (13 / 8 / 10 / 4), OpenAlex author profile Works 33 and Work `W7220380722`, plus the OpenAIRE “My ORCID links” 15-link page showing RS01–RS10 DOI families. Includes the RS01 four-DOI / one-OpenAIRE-result-ID aggregation case. Source capture time unknown; UI/API surfaces are not treated as directly comparable; diagnostic only, zero prospective cells.

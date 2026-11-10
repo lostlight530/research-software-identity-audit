@@ -1,0 +1,5 @@
+doi,object_scope,displayed_result_count,displayed_software_records,displayed_dataset_records,prior_2026_11_08_exact_api_total,prior_2026_11_08_http_status,prior_2026_11_08_request_key,comparison_state
+10.17605/osf.io/5b329,OSF preregistration outside fixed sample,13,1,12,0,200,openaire_all_0,USER_UI_VS_PRIOR_API_NOT_COMPARABLE
+10.5281/zenodo.23446162,CONTROL Zenodo version not RS11,8,2,6,0,200,openaire_all_77,USER_UI_VS_PRIOR_API_NOT_COMPARABLE
+10.17605/osf.io/wa5v8,associated OSF Project outside fixed sample,10,0,10,0,200,openaire_all_1,USER_UI_VS_PRIOR_API_NOT_COMPARABLE
+10.5281/zenodo.23166491,CONTROL beta Zenodo version not RS11,4,2,2,1,200,openaire_all_64,USER_UI_VS_PRIOR_API_NOT_COMPARABLE
