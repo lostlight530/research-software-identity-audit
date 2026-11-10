@@ -236,3 +236,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## November 10 bounded identity and infrastructure recheck
 
 - [2026-11-10 / 01-periodic-identity-infrastructure-recheck](2026-11-10/01-periodic-identity-infrastructure-recheck/README.md) — current eleven GitHub main/PR/Release SHA comparison (+183 fixed-corpus main-reachable commits since Nov 9, no Published Release), 34 established service/standard URL access outcomes with six retained errors and dated caches, selected Nov 10 RS01 Zenodo family views +2, institution-facing unchanged RSE/RSD states and explicit zero prospective cells. No OSF, release, DOI, baseline or schema change
+
+## November 10 OSF preregistration usage metric
+
+- [2026-11-10 / 02-osf-registration-usage](2026-11-10/02-osf-registration-usage/README.md) — OSF-reported DataCite usage event for preregistration DOI 10.17605/osf.io/5b329: 30 `unique-dataset-investigations-regular` during October 2026. Supplementary diagnostic signal only; not an RS01–RS10 object-layer observation or prospective cell
