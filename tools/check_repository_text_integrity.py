@@ -17,11 +17,11 @@ TEXT_SUFFIXES = {
     ".yaml", ".yml", ".toml", ".ini", ".cfg", ".py", ".sh", ".xml",
 }
 TEXT_FILENAMES = {".gitignore", ".gitattributes"}
-INLINE_LINK = re.compile(r"!?\\[[^\\]]*\\]\\((<[^>]+>|[^)\\s]+)(?:\\s+[^)]*)?\\)")
-REFERENCE_LINK = re.compile(r"^\\s{0,3}\\[[^\\]]+\\]:\\s*(<[^>]+>|\\S+)")
-HTML_HREF = re.compile(r"\\bhref\\s*=\\s*([\\\"'])(.*?)\\1", re.IGNORECASE)
-FENCE = re.compile(r"^\\s{0,3}(\\x60{3,}|~{3,})")
-INLINE_CODE = re.compile(r"(\\x60+).*?\\1")
+INLINE_LINK = re.compile(r"!?\[[^\]]*\]\((<[^>]+>|[^)\s]+)(?:\s+[^)]*)?\)")
+REFERENCE_LINK = re.compile(r"^\s{0,3}\[[^\]]+\]:\s*(<[^>]+>|\S+)")
+HTML_HREF = re.compile(r"\bhref\s*=\s*([\\"'])(.*?)\1", re.IGNORECASE)
+FENCE = re.compile(r"^\s{0,3}(\x60{3,}|~{3,})")
+INLINE_CODE = re.compile(r"(\x60+).*?\1")
 
 
 def tracked_paths(root: Path) -> list[str]:
@@ -29,7 +29,7 @@ def tracked_paths(root: Path) -> list[str]:
         ["git", "ls-files", "-z"], cwd=root, check=True,
         stdout=subprocess.PIPE, stderr=subprocess.PIPE,
     )
-    return sorted(p.decode("utf-8") for p in result.stdout.split(b"\\0") if p)
+    return sorted(p.decode("utf-8") for p in result.stdout.split(b"\0") if p)
 
 
 def markdown_lines_without_code(text: str):
