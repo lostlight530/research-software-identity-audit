@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "path": "evidence/2026-11-13/01-full-institutional-recheck/README.md",
+      "bytes": 1413,
+      "sha256": "c137f28331c3c6267def7abcc7e4bb48c8b4aa6e1204b767a74057895a2e9649"
+    },
+    {
+      "path": "evidence/2026-11-13/01-full-institutional-recheck/selected-fields.jsonl",
+      "bytes": 136986,
+      "sha256": "a7dde6b15c5639653454be1c17980e30fdff1975feaf1a2a122241c7eb68982f"
+    },
+    {
+      "path": "evidence/2026-11-13/01-full-institutional-recheck/sha256-manifest.txt",
+      "bytes": 255,
+      "sha256": "2871474408ed3fcb18e327b76231078a2d1a0d645c2413d0c5163b9f9f45a46f"
+    },
+    {
+      "path": "evidence/2026-11-13/01-full-institutional-recheck/source-attempts.jsonl",
+      "bytes": 257969,
+      "sha256": "d52b84134f0e88f30c71cee87d1718ae34d34b0863726c35cc4c271c06e8084e"
+    },
+    {
+      "path": "evidence/2026-11-13/01-full-institutional-recheck/summary.json",
+      "bytes": 3283,
+      "sha256": "aaf683f70ce286e46c057bb617f97c741afe29f73cb5ae58d129b35d39380fb1"
+    }
+  ],
+  "scope": "Published minimized public diagnostic evidence; source snapshots not original HTTP payloads"
+}
