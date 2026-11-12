@@ -1,0 +1,10 @@
+{
+  "logical_date": "2026-11-12",
+  "state": "DEFERRED_AFTER_TRANSPORT_TIMEOUTS",
+  "planned_doi_queries": 102,
+  "completed_batch_log_available": false,
+  "executed_attempt_count": null,
+  "retained_full_doi_query_responses": 0,
+  "public_product_absence_inferred": false,
+  "reason": "Maintainer requested selfcheck first and timeout remeasurement later. Initial latest-version requests timed out; supplementary all-DOI batch was interrupted after no raw response was retained. No query totals or absence conclusions are derived from the interrupted batch."
+}

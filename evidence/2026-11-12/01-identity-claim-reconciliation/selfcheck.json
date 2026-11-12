@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "strict_research_contract": "PASS",
+    "record_paths_and_ownership": "PASS",
+    "existing_22_public_manifests_333_artifacts": "PASS",
+    "unit_tests": {
+      "tests": 66,
+      "status": "PASS",
+      "environment": "Dedicated writable temporary directory after default sandbox temp PermissionError"
+    },
+    "orcid_source_arithmetic": "PASS",
+    "user_search_16_records_58_dois": "PASS",
+    "zenodo_12_families_67_distinct_versions": "PASS",
+    "privacy_pattern_scan": "PASS"
+  },
+  "source_api_failures_preserved": true,
+  "scientific_validity_claim": false,
+  "ai_assistance": "Codex-assisted public metadata capture, field projection and deterministic offline validation"
+}

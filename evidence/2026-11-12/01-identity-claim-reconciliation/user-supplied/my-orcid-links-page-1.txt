@@ -1,0 +1,170 @@
+My ORCID links
+Did you link a result with your ORCID  but the green icon is missing?
+No worries! It will appear, as soon as we synchronize again with ORCID data. Latest synchronization was on Oct 10, 2026. Read more 
+11 Orcid links, page 1 of 3
+1
+2
+3
+chevron_right
+Life Science Ecosystem Lab — Knowledge Workflow, Evidence Tool and Bio Tool
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+Publisher:Zenodo
+Authors:
+Jiang, Xuanyi;
+doi: 10.5281/zenodo.23447089 
+
+Life Science Ecosystem Lab v0.4.0 — Registry-Integrated Research Software Baseline Life Science Ecosystem Lab v0.4.0 establishes the first release baseline of three independently callable life-science research-software assets maintained within one evidence-governed repository Life Science Knowledge Workflow Life Science Evidence Tool Life Science Protein File Audit Each asset has a separate callable interface, validation path and evidence boundary GitHub Actions is the native execution environment for the Knowledge Workflow and is not presented as a fourth research-software asset Life Science Knowledge Workflow The Knowledge Workflow implements a deterministic, source-grounded repository lifecycle for approved public GitHub evidence It can be executed through the native GitHub Actions lifecycle, the ls-knowledge command-line interface and a portable CWL v1.2 representation Its verified lifecycle includes: approved-source collection immutable Git object and content identity checks deterministic aggregation source-linked knowledge extraction schema and provenance validation rebuildable JSONL graph projection bounded SQLite FTS5/BM25 search explicit unknown and coverage-gap reporting guarded persistence to the accepted data/ boundary The first verified live production snapshot was accepted in GitHub Actions Run 38995485443 and commit b2d1d31f715275823f7ea0440d0a14a552f35e2a This historical acceptance demonstrates one verified production execution and does not by itself establish continuous availability or external scientific certification The portable CWL interface now includes human-readable labels and descriptions for every public input, step and output These metadata additions do not change the CWL execution graph, file types, command lines, step connections or deterministic output paths Life Science Evidence Tool The independently callable ls-evidence tool provides bounded research-software and evidence verification functions, including: source collection and deterministic aggregation evidence and schema validation nonexecuting external-repository inspection documentation-manifest auditing local Markdown-link auditing knowledge and ecosystem readiness checks JSON, Markdown and SARIF reports proposal-only external research-case validation The Evidence Tool distinguishes verified findings, observed conditions, unknowns and unverified external claims It does not convert repository metadata, registry presence or automated checks into claims of scientific validity Life Science Protein File Audit The independently callable ls-bio tool performs offline and deterministic bioinformatics processing for: amino-acid composition and ambiguous-residue analysis in protein FASTA files observed first-model C-alpha residue inventory in PDB coordinate files source SHA-256 reporting bounded input and quality warnings deterministic JSON reports Portable CWL CommandLineTool wrappers are supplied for the supported FASTA and PDB operations The tool does not predict protein structures, validate molecular geometry, infer biological mechanisms or provide clinical interpretation Its maintainer-observed bio.tools identity is: bio.tools ID: life-science-protein-file-audit CURIE: biotools:life-science-protein-file-audit Record: https://bio.tools/life-science-protein-file-audit The repository preserves the visible registry identity while keeping API verification, registry curation status, OpenEBench evaluation and scientific validity as separate evidence claims External registry and monitoring records WorkflowHub Workflow: Life Science Knowledge Workflow Record: https://workflowhub.eu/workflows/2347 Version 1: https://workflowhub.eu/workflows/2347?version=1 Workflow DOI: https://doi.org/10.48546/workflowhub.workflow.2347.1 Workflow type: Common Workflow Language WorkflowHub Version 1 remains the frozen initial workflow registration Future WorkflowHub versions may improve descriptive or packaging metadata without rewriting Version 1 or changing the identity of the repository-level software release LifeMonitor Workflow UUID: cc202b33-cd3e-48cc-8004-8e8db87bd200 Test suite UUID: fc958fb2-1a36-48df-a978-72ace9114eb9 Workflow type: CWL Origin: local Workflow RO-Crate upload Observed result: 1 Passing, 0 Some passing, 0 Failing and 0 Unavailable The LifeMonitor result is independent execution-monitoring evidence for the enrolled workflow test suite A passing suite does not independently establish biological, clinical or scientific validity bio.tools Tool: Life Science Protein File Audit Record: https://bio.tools/life-science-protein-file-audit CURIE: biotools:life-science-protein-file-audit The visible registry identity is recorded as maintainer-observed This release does not claim an independently verified bio.tools API response, a particular curation tier or an OpenEBench evaluation Validation The exact release commit passed the repository's four independent GitHub Actions validation planes: repository, Knowledge Workflow and portable-package contracts Evidence Tool verification Bio Tool processing and CWL checks institutional and project self-checks The verified contracts cover: complete automated tests on the GitHub Linux runner native Knowledge Workflow validation portable CWL execution source-versus-distributed execution comparison deterministic source and portable RO-Crate construction Evidence Tool execution Bio Tool CLI and CWL execution metadata consistency documentation-manifest integrity publication boundaries generated-cache exclusion path and symbolic-link safety declared public interfaces Reproducibility and publication boundaries Workflow RO-Crate archives used for external workflow registration must be rebuilt from the exact release commit and recorded with: source commit SHA archive SHA-256 archive size file count software version mainEntity build timestamp The project deliberately separates: repository implementation from external registry records the native GitHub Actions lifecycle from its portable CWL representation GitHub Actions automation from independently callable research-software assets observed registry identity from independently verified registry state executable validation from scientific validation repository-level software archiving from workflow-specific RO-Crate registration synthetic replay fixtures from externally obtained scientific examples Agent contributions from independently reproduced scientific results Publication model The release uses separate channels for separate research objects: GitHub Release and Zenodo: the complete repository-level research-software version and its software DOI WorkflowHub: the portable CWL Workflow RO-Crate and workflow-version DOI LifeMonitor: workflow test execution and monitoring evidence bio.tools: bioinformatics-tool discovery metadata These records are related but are not interchangeable Release identity Version: 0.4.0 Git tag: v0.4.0 Source commit: c09d4f3d0a8ebe28970dd511c7ab1e96f2ee0ea6 Workflow language: CWL v1.2 Primary implementation language: Python Required Python version: Python 3.11 or later License: MIT Repository: https://github.com/lostlight530/life-science-ecosystem-lab This release does not claim a Zenodo DOI until Zenodo has actually archived the GitHub release and returned the corresponding record
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+ORCID 
+ORCID logo
+ ACTIONS
+visibility
+View ORCID work
+refresh
+Update ORCID work
+delete
+Remove
+sci-render-kit
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.22791376 , 10.5281/zenodo.23068472 , 10.5281/zenodo.22791375 , 10.5281/zenodo.23137219 
+
+Declarative scientific-figure compilation with backend-bounded rendering, provenance and figure-evidence sidecars, explicit uncertainty semantics, accessibility contracts, and publisher-target boundaries. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+ORCID 
+ORCID logo
+ ACTIONS
+visibility
+View ORCID work
+refresh
+Update ORCID work
+delete
+Remove
+Agent Foundations
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.22791169 , 10.5281/zenodo.23137207 , 10.5281/zenodo.23068262 , 10.5281/zenodo.22791170 
+
+A bilingual theory, evidence, and architecture-decision foundation for reasoning about agent systems with explicit claim, implementation, and validation boundaries. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+ORCID 
+ORCID logo
+ ACTIONS
+visibility
+View ORCID work
+refresh
+Update ORCID work
+delete
+Remove
+Zero-Entropy Lab
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.23137204 , 10.5281/zenodo.22791082 , 10.5281/zenodo.22791081 , 10.5281/zenodo.23068144 
+
+A standard-library research laboratory for deterministic state, explicit evidence handling, reproducible ledgers, and edge-native execution with bounded trust and security assumptions. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+ORCID 
+ORCID logo
+ ACTIONS
+visibility
+View ORCID work
+refresh
+Update ORCID work
+delete
+Remove
+welcome-to-github
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.22790907 , 10.5281/zenodo.22790908 , 10.5281/zenodo.23137203 , 10.5281/zenodo.23068145 
+
+Public portal, trust gateway, and digital museum for an edge-first research system with a deterministic, append-only knowledge lifecycle and explicit provenance and validation boundaries. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+ORCID 
+ORCID logo
+ ACTIONS
+visibility
+View ORCID work
+refresh
+Update ORCID work
+delete
+Remove

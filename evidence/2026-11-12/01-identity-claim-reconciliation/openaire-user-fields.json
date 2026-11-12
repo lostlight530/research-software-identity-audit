@@ -1,0 +1,185 @@
+{
+  "source_capture_time": null,
+  "source_class": "USER_SUPPLIED_UI_TEXT",
+  "displayed_sync_date": "2026-10-10",
+  "my_orcid_links_displayed": 11,
+  "my_orcid_links_pages": 3,
+  "my_orcid_links_membership": "Ten fixed software families plus Life Science Ecosystem Lab, based on supplied page 1 attachment and conversation pages 2 and 3",
+  "author_orcid_search_records": 16,
+  "author_search_doi_occurrences": 58,
+  "author_search_distinct_dois": 58,
+  "author_search_records": [
+    {
+      "title": "Agent Foundations",
+      "dois": [
+        "10.5281/zenodo.22791169",
+        "10.5281/zenodo.23137207",
+        "10.5281/zenodo.23068262",
+        "10.5281/zenodo.22791170"
+      ]
+    },
+    {
+      "title": "Title NEXUS CORTEX Life Cycle — zero-entropy-lab",
+      "dois": [
+        "10.48546/workflowhub.workflow.2334.1"
+      ]
+    },
+    {
+      "title": "Brain Evolution — welcome-to-github",
+      "dois": [
+        "10.48546/workflowhub.workflow.2337.1"
+      ]
+    },
+    {
+      "title": "Title NEXUS CORTEX Life Cycle — welcome-to-github",
+      "dois": [
+        "10.48546/workflowhub.workflow.2332.2"
+      ]
+    },
+    {
+      "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+      "dois": [
+        "10.48546/workflowhub.workflow.2332.3",
+        "10.48546/workflowhub.workflow.2332.1",
+        "10.48546/workflowhub.workflow.2332.5",
+        "10.48546/workflowhub.workflow.2332.6",
+        "10.48546/workflowhub.workflow.2332.7",
+        "10.48546/workflowhub.workflow.2332.4"
+      ]
+    },
+    {
+      "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+      "dois": [
+        "10.48546/workflowhub.workflow.2334.3",
+        "10.48546/workflowhub.workflow.2334.6",
+        "10.48546/workflowhub.workflow.2334.7",
+        "10.48546/workflowhub.workflow.2334.5",
+        "10.48546/workflowhub.workflow.2334.2",
+        "10.48546/workflowhub.workflow.2334.4"
+      ]
+    },
+    {
+      "title": "Research Software Identity Audit",
+      "dois": [
+        "10.5281/zenodo.23284570",
+        "10.5281/zenodo.23166490",
+        "10.5281/zenodo.23176748"
+      ]
+    },
+    {
+      "title": "auto-doc-engine",
+      "dois": [
+        "10.5281/zenodo.22791405",
+        "10.5281/zenodo.22791404",
+        "10.5281/zenodo.23137215",
+        "10.5281/zenodo.23068471"
+      ]
+    },
+    {
+      "title": "sci-render-kit",
+      "dois": [
+        "10.5281/zenodo.22791376",
+        "10.5281/zenodo.23068472",
+        "10.5281/zenodo.22791375",
+        "10.5281/zenodo.23137219"
+      ]
+    },
+    {
+      "title": "Agentic Frontier Observatory",
+      "dois": [
+        "10.5281/zenodo.22791335",
+        "10.5281/zenodo.22791334",
+        "10.5281/zenodo.23068352",
+        "10.5281/zenodo.23137214"
+      ]
+    },
+    {
+      "title": "Reflective Continuum",
+      "dois": [
+        "10.5281/zenodo.23137206",
+        "10.5281/zenodo.22791142",
+        "10.5281/zenodo.22791141",
+        "10.5281/zenodo.23068260"
+      ]
+    },
+    {
+      "title": "Axiom-0",
+      "dois": [
+        "10.5281/zenodo.23137205",
+        "10.5281/zenodo.23068261",
+        "10.5281/zenodo.22791104",
+        "10.5281/zenodo.22791103"
+      ]
+    },
+    {
+      "title": "China Agentic Observatory",
+      "dois": [
+        "10.5281/zenodo.23068347",
+        "10.5281/zenodo.22791310",
+        "10.5281/zenodo.23137211",
+        "10.5281/zenodo.22791309"
+      ]
+    },
+    {
+      "title": "Zero-Entropy Lab",
+      "dois": [
+        "10.5281/zenodo.23137204",
+        "10.5281/zenodo.22791082",
+        "10.5281/zenodo.22791081",
+        "10.5281/zenodo.23068144"
+      ]
+    },
+    {
+      "title": "welcome-to-github",
+      "dois": [
+        "10.5281/zenodo.22790907",
+        "10.5281/zenodo.22790908",
+        "10.5281/zenodo.23137203",
+        "10.5281/zenodo.23068145"
+      ]
+    },
+    {
+      "title": "Epistemic Pipeline",
+      "dois": [
+        "10.5281/zenodo.23137216",
+        "10.5281/zenodo.22791464",
+        "10.5281/zenodo.22791463",
+        "10.5281/zenodo.23068494"
+      ]
+    }
+  ],
+  "maintainer_claim_policy": {
+    "fixed_ten": "retain family aggregation claims",
+    "life_science_ecosystem_lab": "retain software claim",
+    "control_early_lostlight530_named_records": "defer claim",
+    "osf_project_wa5v8": "defer claim",
+    "workflowhub_records": "defer claim",
+    "osf_preregistration_5b329": "no new decision supplied"
+  },
+  "later_adjustments_reported_complete": true,
+  "final_account_page_count_after_later_adjustments": null,
+  "policy_is_maintainer_statement_not_independent_account_verification": true,
+  "attachments": [
+    {
+      "path": "user-supplied/my-orcid-links-page-1.txt",
+      "bytes": 10867,
+      "sha256": "59738d097384a37b8980764a29ad803f5c8e265692506b321d63431db2e36c77",
+      "provenance_class": "USER_SUPPLIED_UI_TEXT",
+      "capture_time": null
+    },
+    {
+      "path": "user-supplied/author-search-part-1.txt",
+      "bytes": 8033,
+      "sha256": "7357c1693168ffd3c2e77a23c8ee88baec7336b4d8b59aedf400db8762ee31c6",
+      "provenance_class": "USER_SUPPLIED_UI_TEXT",
+      "capture_time": null
+    },
+    {
+      "path": "user-supplied/author-search-part-2.txt",
+      "bytes": 6667,
+      "sha256": "a71eaccd034a6e6f4e4a214f5f56eab8c5f572ccfb95cbaa6ab22921a335d8a3",
+      "provenance_class": "USER_SUPPLIED_UI_TEXT",
+      "capture_time": null
+    }
+  ]
+}

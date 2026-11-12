@@ -245,3 +245,5 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## November 10 user-supplied OpenAIRE, OpenAlex and ORCID-link reconciliation
 
 - [2026-11-10/03-openaire-orcid-openalex-reconciliation](2026-11-10/03-openaire-orcid-openalex-reconciliation/README.md) — maintainer-supplied OpenAIRE PID UI counts (13 / 8 / 10 / 4), OpenAlex author profile Works 33 and Work `W7220380722`, plus the OpenAIRE “My ORCID links” 15-link page showing RS01–RS10 DOI families. Includes the RS01 four-DOI / one-OpenAIRE-result-ID aggregation case. Source capture time unknown; UI/API surfaces are not treated as directly comparable; diagnostic only, zero prospective cells.
+
+- [2026-11-12 / 01-identity-claim-reconciliation](2026-11-12/01-identity-claim-reconciliation/) — independent public-source recheck and separately attributed OpenAIRE claim reconciliation

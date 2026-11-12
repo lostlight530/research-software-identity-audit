@@ -1,0 +1,3005 @@
+{
+  "group_count": 17,
+  "summary_count": 115,
+  "source_counts": {
+    "DataCite": 90,
+    "OpenAIRE": 12,
+    "SELF": 13
+  },
+  "groups": [
+    {
+      "title": "Agent Foundations",
+      "summary_count": 8,
+      "source_counts": {
+        "DataCite": 6,
+        "OpenAIRE": 1,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 228340895,
+          "title": "Agent Foundations",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796237522,
+          "modified_epoch_ms": 1794321644261,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791169",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791170",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068262",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137207",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365540",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811389",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112465",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228340875,
+          "title": "Agent Foundations",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796230287,
+          "modified_epoch_ms": 1791011762685,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068262",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791169",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228621085,
+          "title": "Agent Foundations",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1791018073595,
+          "modified_epoch_ms": 1794465302414,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791169",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137207",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068262",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791170",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 228686998,
+          "title": "Agent Foundations",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791118830271,
+          "modified_epoch_ms": 1791118830271,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137207",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791169",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 229954462,
+          "title": "Agent Foundations",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977026793,
+          "modified_epoch_ms": 1791977026793,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365540",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791169",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231751602,
+          "title": "Agent Foundations",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793375073506,
+          "modified_epoch_ms": 1793375073506,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811389",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791169",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 232900492,
+          "title": "Agent Foundations",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794321643147,
+          "modified_epoch_ms": 1794321643147,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112465",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791169",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 227011523,
+          "title": "Agent Foundations",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1789645432727,
+          "modified_epoch_ms": 1791011762685,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/ZENODO.22791169",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Agentic Frontier Observatory",
+      "summary_count": 8,
+      "source_counts": {
+        "DataCite": 6,
+        "OpenAIRE": 1,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 228340916,
+          "title": "Agentic Frontier Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796249387,
+          "modified_epoch_ms": 1794321647587,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791334",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137214",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068352",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791335",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365543",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811387",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112468",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228340907,
+          "title": "Agentic Frontier Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796243282,
+          "modified_epoch_ms": 1790796243282,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068352",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791334",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228620643,
+          "title": "Agentic Frontier Observatory",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1791017706055,
+          "modified_epoch_ms": 1794465263441,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791335",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791334",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068352",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137214",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 228687002,
+          "title": "Agentic Frontier Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791118836089,
+          "modified_epoch_ms": 1791118836089,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137214",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791334",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 229954467,
+          "title": "Agentic Frontier Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977027797,
+          "modified_epoch_ms": 1791977027797,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365543",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791334",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231751596,
+          "title": "Agentic Frontier Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793375067085,
+          "modified_epoch_ms": 1793375067085,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811387",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791334",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 232900495,
+          "title": "Agentic Frontier Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794321646270,
+          "modified_epoch_ms": 1794321646270,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112468",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791334",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 227012111,
+          "title": "Agentic Frontier Observatory",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1789645958731,
+          "modified_epoch_ms": 1789645958731,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/ZENODO.22791334",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Axiom-0",
+      "summary_count": 8,
+      "source_counts": {
+        "DataCite": 6,
+        "OpenAIRE": 1,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 228340890,
+          "title": "Axiom-0",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796236704,
+          "modified_epoch_ms": 1794321643691,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791103",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811393",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137205",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791104",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068261",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365534",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112463",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228340892,
+          "title": "Axiom-0",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796237290,
+          "modified_epoch_ms": 1790796237290,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068261",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791103",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228620639,
+          "title": "Axiom-0",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1791017694727,
+          "modified_epoch_ms": 1794465271620,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137205",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068261",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791104",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791103",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 228686994,
+          "title": "Axiom-0",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791118825156,
+          "modified_epoch_ms": 1791118825156,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137205",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791103",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 229954457,
+          "title": "Axiom-0",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977025761,
+          "modified_epoch_ms": 1791977025761,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365534",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791103",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231751609,
+          "title": "Axiom-0",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793375082307,
+          "modified_epoch_ms": 1793375082307,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811393",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791103",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 232900488,
+          "title": "Axiom-0",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794321638412,
+          "modified_epoch_ms": 1794321638412,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112463",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791103",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 227010982,
+          "title": "Axiom-0",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1789645205497,
+          "modified_epoch_ms": 1789645205497,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/ZENODO.22791103",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "China Agentic Observatory",
+      "summary_count": 8,
+      "source_counts": {
+        "DataCite": 6,
+        "OpenAIRE": 1,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 228340900,
+          "title": "China Agentic Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796239766,
+          "modified_epoch_ms": 1794321649981,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791309",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365548",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791310",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137211",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068347",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112469",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811388",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228340894,
+          "title": "China Agentic Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796237423,
+          "modified_epoch_ms": 1790796237423,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068347",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791309",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228620641,
+          "title": "China Agentic Observatory",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1791017699675,
+          "modified_epoch_ms": 1794465275874,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068347",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791310",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137211",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791309",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 228687001,
+          "title": "China Agentic Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791118832985,
+          "modified_epoch_ms": 1791118832985,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137211",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791309",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 229954464,
+          "title": "China Agentic Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977027045,
+          "modified_epoch_ms": 1791977027045,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365548",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791309",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231751599,
+          "title": "China Agentic Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793375069376,
+          "modified_epoch_ms": 1793375069376,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811388",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791309",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 232900497,
+          "title": "China Agentic Observatory",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794321649249,
+          "modified_epoch_ms": 1794321649249,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112469",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791309",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 227011738,
+          "title": "China Agentic Observatory",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1789645622442,
+          "modified_epoch_ms": 1789645622442,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/ZENODO.22791309",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Epistemic Pipeline",
+      "summary_count": 8,
+      "source_counts": {
+        "DataCite": 6,
+        "OpenAIRE": 1,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 228340993,
+          "title": "Epistemic Pipeline",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796298940,
+          "modified_epoch_ms": 1794321656935,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791463",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068494",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365517",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791464",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137216",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112474",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811384",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228340992,
+          "title": "Epistemic Pipeline",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796298940,
+          "modified_epoch_ms": 1790796298940,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068494",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791463",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228620560,
+          "title": "Epistemic Pipeline",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1791017472170,
+          "modified_epoch_ms": 1794465267970,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137216",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791464",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791463",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068494",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 228687008,
+          "title": "Epistemic Pipeline",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791118860249,
+          "modified_epoch_ms": 1791118860249,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137216",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791463",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 229954459,
+          "title": "Epistemic Pipeline",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977025935,
+          "modified_epoch_ms": 1791977025935,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365517",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791463",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231751592,
+          "title": "Epistemic Pipeline",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793375062902,
+          "modified_epoch_ms": 1793375062902,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811384",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791463",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 232900537,
+          "title": "Epistemic Pipeline",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794321654565,
+          "modified_epoch_ms": 1794321654565,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112474",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791463",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 227012534,
+          "title": "Epistemic Pipeline",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1789646178275,
+          "modified_epoch_ms": 1789646178275,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/ZENODO.22791463",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reflective Continuum",
+      "summary_count": 8,
+      "source_counts": {
+        "DataCite": 6,
+        "OpenAIRE": 1,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 228340893,
+          "title": "Reflective Continuum",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796237410,
+          "modified_epoch_ms": 1794321643829,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791141",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068260",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137206",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791142",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365567",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112458",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811392",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228340904,
+          "title": "Reflective Continuum",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796242194,
+          "modified_epoch_ms": 1790796242194,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068260",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791141",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228686996,
+          "title": "Reflective Continuum",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791118827993,
+          "modified_epoch_ms": 1791118827993,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137206",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791141",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 229954469,
+          "title": "Reflective Continuum",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977028362,
+          "modified_epoch_ms": 1791977028362,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365567",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791141",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231751605,
+          "title": "Reflective Continuum",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793375076198,
+          "modified_epoch_ms": 1793375076198,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811392",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791141",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 232900484,
+          "title": "Reflective Continuum",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794321636263,
+          "modified_epoch_ms": 1794321636263,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112458",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791141",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 233207082,
+          "title": "Reflective Continuum",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1794465358376,
+          "modified_epoch_ms": 1794465358376,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137206",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791142",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791141",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068260",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 227011487,
+          "title": "Reflective Continuum",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1789645368891,
+          "modified_epoch_ms": 1789645368891,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/ZENODO.22791141",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Zero-Entropy Lab",
+      "summary_count": 8,
+      "source_counts": {
+        "DataCite": 6,
+        "OpenAIRE": 1,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 228340880,
+          "title": "Zero-Entropy Lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796232431,
+          "modified_epoch_ms": 1794321636420,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791081",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068144",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365551",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791082",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137204",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811394",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112455",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228686993,
+          "title": "Zero-Entropy Lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791118823505,
+          "modified_epoch_ms": 1791255129889,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137204",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791081",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228340867,
+          "title": "Zero-Entropy Lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796225985,
+          "modified_epoch_ms": 1790796225985,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068144",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791081",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228620911,
+          "title": "Zero-Entropy Lab",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1791018043725,
+          "modified_epoch_ms": 1794465303683,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137204",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791082",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791081",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068144",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229954463,
+          "title": "Zero-Entropy Lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977026889,
+          "modified_epoch_ms": 1791977026889,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365551",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791081",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231751616,
+          "title": "Zero-Entropy Lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793375089849,
+          "modified_epoch_ms": 1793375089849,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811394",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791081",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 232900482,
+          "title": "Zero-Entropy Lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794321635580,
+          "modified_epoch_ms": 1794321635580,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112455",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791081",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 227010940,
+          "title": "Zero-Entropy Lab",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1789645157999,
+          "modified_epoch_ms": 1789645157999,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/ZENODO.22791081",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "auto-doc-engine",
+      "summary_count": 8,
+      "source_counts": {
+        "DataCite": 6,
+        "OpenAIRE": 1,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 228340930,
+          "title": "auto-doc-engine",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796252592,
+          "modified_epoch_ms": 1794321653306,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791404",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365510",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137215",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068471",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791405",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811383",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112471",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228340931,
+          "title": "auto-doc-engine",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796252656,
+          "modified_epoch_ms": 1790796252656,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068471",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791404",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228620649,
+          "title": "auto-doc-engine",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1791017716463,
+          "modified_epoch_ms": 1794465259273,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791405",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791404",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137215",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068471",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 228687003,
+          "title": "auto-doc-engine",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791118839739,
+          "modified_epoch_ms": 1791118839739,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137215",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791404",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 229954460,
+          "title": "auto-doc-engine",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977026334,
+          "modified_epoch_ms": 1791977026334,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365510",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791404",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231751589,
+          "title": "auto-doc-engine",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793375059952,
+          "modified_epoch_ms": 1793375059952,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811383",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791404",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 232900501,
+          "title": "auto-doc-engine",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794321652337,
+          "modified_epoch_ms": 1794321652337,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112471",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791404",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 227012487,
+          "title": "auto-doc-engine",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1789646136253,
+          "modified_epoch_ms": 1789646136253,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/ZENODO.22791404",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "sci-render-kit",
+      "summary_count": 8,
+      "source_counts": {
+        "DataCite": 6,
+        "OpenAIRE": 1,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 228340932,
+          "title": "sci-render-kit",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796253068,
+          "modified_epoch_ms": 1794321658940,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791375",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137219",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791376",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068472",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365525",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811397",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112475",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228340937,
+          "title": "sci-render-kit",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796255641,
+          "modified_epoch_ms": 1790796255641,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068472",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791375",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228621088,
+          "title": "sci-render-kit",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1791018089433,
+          "modified_epoch_ms": 1794465292892,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791376",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068472",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791375",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137219",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 228687028,
+          "title": "sci-render-kit",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791118863647,
+          "modified_epoch_ms": 1791118863647,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137219",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791375",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 229954455,
+          "title": "sci-render-kit",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977025190,
+          "modified_epoch_ms": 1791977025190,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365525",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791375",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231751625,
+          "title": "sci-render-kit",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793375103848,
+          "modified_epoch_ms": 1793375103848,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811397",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791375",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 232900544,
+          "title": "sci-render-kit",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794321658681,
+          "modified_epoch_ms": 1794321658681,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112475",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22791375",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 227012388,
+          "title": "sci-render-kit",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1789646095248,
+          "modified_epoch_ms": 1789646095248,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/ZENODO.22791375",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "welcome-to-github",
+      "summary_count": 8,
+      "source_counts": {
+        "DataCite": 6,
+        "OpenAIRE": 1,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 228340877,
+          "title": "welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796231334,
+          "modified_epoch_ms": 1794321633883,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22790907",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137203",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068145",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365504",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22790908",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112453",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811380",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228340866,
+          "title": "welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1790796225960,
+          "modified_epoch_ms": 1790796225960,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068145",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22790907",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228620858,
+          "title": "welcome-to-github",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1791017992695,
+          "modified_epoch_ms": 1794465305303,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22790907",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22790908",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137203",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23068145",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 228686991,
+          "title": "welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791118821091,
+          "modified_epoch_ms": 1791118821091,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23137203",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22790907",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 229954474,
+          "title": "welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977029261,
+          "modified_epoch_ms": 1791977029261,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23365504",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22790907",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231751586,
+          "title": "welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793375059674,
+          "modified_epoch_ms": 1793375059674,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23811380",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22790907",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 232900481,
+          "title": "welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794321633572,
+          "modified_epoch_ms": 1794321633572,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.24112453",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.22790907",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 227010837,
+          "title": "welcome-to-github",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1789645097000,
+          "modified_epoch_ms": 1789645097000,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/ZENODO.22790907",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Research Software Identity Audit",
+      "summary_count": 7,
+      "source_counts": {
+        "DataCite": 6,
+        "OpenAIRE": 1
+      },
+      "summaries": [
+        {
+          "put_code": 228845890,
+          "title": "Research Software Identity Audit",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791254904390,
+          "modified_epoch_ms": 1793462114924,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23166490",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23166491",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23176748",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23284570",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23839900",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23446162",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 228845888,
+          "title": "Research Software Identity Audit",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791254902765,
+          "modified_epoch_ms": 1791255115486,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23176748",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23166490",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 229356278,
+          "title": "lostlight530/research-software-identity-audit: Beta— Research Runtime Bootstrap",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "APP-A12FJQ67LRK3QL53",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1791562482024,
+          "modified_epoch_ms": 1791562482024,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23166491",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23166490",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 229474335,
+          "title": "Research Software Identity Audit",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791647149559,
+          "modified_epoch_ms": 1791647149559,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23284570",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23166490",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 230361210,
+          "title": "Research Software Identity Audit",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1792298343798,
+          "modified_epoch_ms": 1792298343798,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23446162",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23166490",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231832863,
+          "title": "Research Software Identity Audit",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793462112929,
+          "modified_epoch_ms": 1793462112929,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23839900",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23166490",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 233207305,
+          "title": "Research Software Identity Audit",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1794465510347,
+          "modified_epoch_ms": 1794465510347,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23284570",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23166490",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23176748",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Life Science Ecosystem Lab — Knowledge Workflow, Evidence Tool and Bio Tool",
+      "summary_count": 4,
+      "source_counts": {
+        "DataCite": 3,
+        "OpenAIRE": 1
+      },
+      "summaries": [
+        {
+          "put_code": 230362310,
+          "title": "Life Science Ecosystem Lab — Knowledge Workflow, Evidence Tool and Bio Tool",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1792301530120,
+          "modified_epoch_ms": 1792301530120,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23447089",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23447088",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 230362311,
+          "title": "Life Science Ecosystem Lab — Knowledge Workflow, Evidence Tool and Bio Tool",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1792301530120,
+          "modified_epoch_ms": 1793462111097,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23447088",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23447089",
+              "relationship": "version-of"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23839899",
+              "relationship": "version-of"
+            }
+          ]
+        },
+        {
+          "put_code": 231793714,
+          "title": "Life Science Ecosystem Lab — Knowledge Workflow, Evidence Tool and Bio Tool",
+          "source_class": "OpenAIRE",
+          "source_orcid": null,
+          "source_client_id": "APP-IN0O56SBVVTB7NN4",
+          "assertion_origin_orcid": "0009-0001-3617-0832",
+          "created_epoch_ms": 1793417164546,
+          "modified_epoch_ms": 1793417164546,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23447089",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 231832858,
+          "title": "Life Science Ecosystem Lab — Knowledge Workflow, Evidence Tool and Bio Tool",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793462110597,
+          "modified_epoch_ms": 1793462110597,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23839899",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.5281/zenodo.23447088",
+              "relationship": "version-of"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Brain Evolution — welcome-to-github",
+      "summary_count": 1,
+      "source_counts": {
+        "DataCite": 1
+      },
+      "summaries": [
+        {
+          "put_code": 229549110,
+          "title": "Brain Evolution — welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791730454360,
+          "modified_epoch_ms": 1791730454360,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2337.1",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Life Science Knowledge Workflow",
+      "summary_count": 3,
+      "source_counts": {
+        "DataCite": 2,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 230363255,
+          "title": "Life Science Knowledge Workflow",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1792302992837,
+          "modified_epoch_ms": 1792307869154,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2347.2",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 230329899,
+          "title": "Life Science Knowledge Workflow",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1792249973542,
+          "modified_epoch_ms": 1792249973542,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2347.1",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 230365868,
+          "title": "Life Science Knowledge Workflow",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1792306707318,
+          "modified_epoch_ms": 1792306707318,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2347.1",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2347.2",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures",
+      "summary_count": 2,
+      "source_counts": {
+        "DataCite": 2
+      },
+      "summaries": [
+        {
+          "put_code": 228780507,
+          "title": "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791210290194,
+          "modified_epoch_ms": 1791210290194,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.17605/osf.io/5b329",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 231792081,
+          "title": "Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1793413497549,
+          "modified_epoch_ms": 1793413497549,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.17605/osf.io/wa5v8",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.17605/osf.io/5b329",
+              "relationship": "version-of"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+      "summary_count": 9,
+      "source_counts": {
+        "DataCite": 8,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 232569563,
+          "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794121835264,
+          "modified_epoch_ms": 1794152143626,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.9",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229954515,
+          "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977053627,
+          "modified_epoch_ms": 1791980794989,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.8",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229420881,
+          "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791611082073,
+          "modified_epoch_ms": 1791612251734,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.4",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229332907,
+          "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791553469506,
+          "modified_epoch_ms": 1791554749097,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.3",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229421875,
+          "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791612139575,
+          "modified_epoch_ms": 1794152051593,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.3",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.7",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.5",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.8",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.9",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.4",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.6",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.1",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229031993,
+          "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791381167672,
+          "modified_epoch_ms": 1791381167672,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.1",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229549194,
+          "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791730462834,
+          "modified_epoch_ms": 1791730462834,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.5",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229644637,
+          "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791804376491,
+          "modified_epoch_ms": 1791804376491,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.6",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229839328,
+          "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791905412202,
+          "modified_epoch_ms": 1791905412202,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2332.7",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+      "summary_count": 9,
+      "source_counts": {
+        "DataCite": 8,
+        "SELF": 1
+      },
+      "summaries": [
+        {
+          "put_code": 232569564,
+          "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1794121837471,
+          "modified_epoch_ms": 1794152105741,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.9",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229954514,
+          "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791977047967,
+          "modified_epoch_ms": 1791980812902,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.8",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229420882,
+          "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791611086522,
+          "modified_epoch_ms": 1791612294519,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.4",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229037190,
+          "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791384070812,
+          "modified_epoch_ms": 1791611795738,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.2",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229332969,
+          "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791553484488,
+          "modified_epoch_ms": 1791554677761,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.3",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229549155,
+          "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791730458451,
+          "modified_epoch_ms": 1791730458451,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.5",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229644671,
+          "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791804392340,
+          "modified_epoch_ms": 1791804392340,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.6",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229839347,
+          "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+          "source_class": "DataCite",
+          "source_orcid": null,
+          "source_client_id": "0000-0001-8099-6984",
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791905421981,
+          "modified_epoch_ms": 1791905421981,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.7",
+              "relationship": "self"
+            }
+          ]
+        },
+        {
+          "put_code": 229333774,
+          "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+          "source_class": "SELF",
+          "source_orcid": "0009-0001-3617-0832",
+          "source_client_id": null,
+          "assertion_origin_orcid": null,
+          "created_epoch_ms": 1791553606570,
+          "modified_epoch_ms": 1794152051586,
+          "external_ids": [
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.2",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.7",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.9",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.3",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.4",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.5",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.6",
+              "relationship": "self"
+            },
+            {
+              "type": "doi",
+              "value": "10.48546/workflowhub.workflow.2334.8",
+              "relationship": "self"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "self_source_semantics": "Source identifies this ORCID account as the record creator/importer; it does not establish manual entry method or a new edit in this batch. App source and assertion origin are retained separately."
+}

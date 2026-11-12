@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "errors": [],
+  "families": 12,
+  "listed_records": 67,
+  "individually_retrieved_records": 67,
+  "version_list_and_details_complete": true,
+  "actual_window_utc": [
+    "2026-11-12T06:50:12.889748+00:00",
+    "2026-11-12T06:50:46.345386+00:00"
+  ],
+  "requests": 91,
+  "new_cloud_mutations": false
+}

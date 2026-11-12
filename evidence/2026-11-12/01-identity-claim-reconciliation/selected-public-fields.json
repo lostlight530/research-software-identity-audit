@@ -1,0 +1,158 @@
+{
+  "orcid": {
+    "group_count": 17,
+    "summary_count": 115,
+    "source_counts": {
+      "DataCite": 90,
+      "OpenAIRE": 12,
+      "SELF": 13
+    }
+  },
+  "datacite": {
+    "orcid_query_total": 101,
+    "attributable_distinct_dois_including_beta": 102,
+    "resource_types": {
+      "Software": 79,
+      "Workflow": 21,
+      "Text": 1,
+      "StudyRegistration": 1
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/A5151904252",
+    "works_count": 33,
+    "cited_by_count": 1,
+    "summary_stats": {
+      "2yr_mean_citedness": 0.030303030303030304,
+      "h_index": 1,
+      "i10_index": 0
+    }
+  },
+  "workflowhub": [
+    {
+      "id": 2332,
+      "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+      "latest_version": 9,
+      "views": 3496,
+      "downloads": 497,
+      "counter_surface": "public workflow detail Activity; not team Dashboard",
+      "metadata_attempt_statuses": [
+        200
+      ],
+      "metadata_state": "HTTP_200_FIELDS_EXTRACTED",
+      "activity_attempt_statuses": [
+        200
+      ],
+      "activity_state": "HTTP_200_FIELDS_EXTRACTED"
+    },
+    {
+      "id": 2334,
+      "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+      "latest_version": 9,
+      "views": 3920,
+      "downloads": 486,
+      "counter_surface": "public workflow detail Activity; not team Dashboard",
+      "metadata_attempt_statuses": [
+        200
+      ],
+      "metadata_state": "HTTP_200_FIELDS_EXTRACTED",
+      "activity_attempt_statuses": [
+        200
+      ],
+      "activity_state": "HTTP_200_FIELDS_EXTRACTED"
+    },
+    {
+      "id": 2337,
+      "title": "Brain Evolution — welcome-to-github",
+      "latest_version": 1,
+      "views": 1425,
+      "downloads": 101,
+      "counter_surface": "public workflow detail Activity; not team Dashboard",
+      "metadata_attempt_statuses": [
+        200
+      ],
+      "metadata_state": "HTTP_200_FIELDS_EXTRACTED",
+      "activity_attempt_statuses": [
+        200
+      ],
+      "activity_state": "HTTP_200_FIELDS_EXTRACTED"
+    },
+    {
+      "id": 2347,
+      "title": "Life Science Knowledge Workflow",
+      "latest_version": 2,
+      "views": 1651,
+      "downloads": 234,
+      "counter_surface": "public workflow detail Activity; not team Dashboard",
+      "metadata_attempt_statuses": [
+        200
+      ],
+      "metadata_state": "HTTP_200_FIELDS_EXTRACTED",
+      "activity_attempt_statuses": [
+        200
+      ],
+      "activity_state": "HTTP_200_FIELDS_EXTRACTED"
+    }
+  ],
+  "zenodo": {
+    "families": 12,
+    "versions": 67,
+    "fixed_ten_totals": {
+      "views": 3836,
+      "unique_views": 2912,
+      "downloads": 37,
+      "unique_downloads": 36
+    },
+    "twelve_family_totals": {
+      "views": 4056,
+      "unique_views": 3105,
+      "downloads": 50,
+      "unique_downloads": 47
+    }
+  },
+  "institutional_attempts": 527,
+  "institutional_surface_ids_attempted": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "institutional_statuses": {
+    "200": 350,
+    "403": 33,
+    "None": 130,
+    "404": 2,
+    "500": 1,
+    "429": 11
+  }
+}

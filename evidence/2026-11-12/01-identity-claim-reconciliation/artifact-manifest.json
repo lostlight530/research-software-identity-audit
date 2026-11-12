@@ -1,0 +1,85 @@
+{
+  "files": [
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/openaire-deferred.json",
+      "bytes": 562,
+      "sha256": "2b80cb1740417a582b805b5a204b7dc330afa59ffb4c2ae1fbd75b0e0807f363"
+    },
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/openaire-user-fields.json",
+      "bytes": 5348,
+      "sha256": "3eee95e6bc2b55efbbc51eef5d33940c1f40d15a30a58c1aae2113641b33ad35"
+    },
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/orcid-source-fields.json",
+      "bytes": 92778,
+      "sha256": "bdd8a4ec82924e23665a59499b6049daf4e8ff4c7638ee2ba6470e51e2856123"
+    },
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/README.md",
+      "bytes": 473,
+      "sha256": "dc62891c9f7cb6882433db1e4052485c6ead23e909dd458103a4b8fe51a8f745"
+    },
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/selected-public-fields.json",
+      "bytes": 3290,
+      "sha256": "22145c29da1de4a0f76ce8d429b9b6b6d1bbb594008cafe8abe7efe2a52752fe"
+    },
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/selfcheck.json",
+      "bytes": 707,
+      "sha256": "db54cd19b0bb0d5ab5cac4a6e1e448aea12f4bf3e7c70235cda55e5231e9315e"
+    },
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/user-supplied/author-search-part-1.txt",
+      "bytes": 8033,
+      "sha256": "7357c1693168ffd3c2e77a23c8ee88baec7336b4d8b59aedf400db8762ee31c6"
+    },
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/user-supplied/author-search-part-2.txt",
+      "bytes": 6667,
+      "sha256": "a71eaccd034a6e6f4e4a214f5f56eab8c5f572ccfb95cbaa6ab22921a335d8a3"
+    },
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/user-supplied/my-orcid-links-page-1.txt",
+      "bytes": 10867,
+      "sha256": "59738d097384a37b8980764a29ad803f5c8e265692506b321d63431db2e36c77"
+    },
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/zenodo-all-version-statistics.csv",
+      "bytes": 9354,
+      "sha256": "7582f499469a12d5ee61aa32a123045abf5900053d6f92f471731689df63c488"
+    },
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/zenodo-capture-verification.json",
+      "bytes": 323,
+      "sha256": "9fae44bd128474a20e9f947868767dbcdbc04bd17dab7b049e656031d1ebe772"
+    },
+    {
+      "path": "evidence/2026-11-12/01-identity-claim-reconciliation/zenodo-family-fields.json",
+      "bytes": 7859,
+      "sha256": "4c368eafa4910af3c5be7d5076d8ec6f29c1c65463c4bdd77e7851f8f5ec4594"
+    },
+    {
+      "path": "monitoring/2026-11-12/01-identity-claim-reconciliation/README.md",
+      "bytes": 3245,
+      "sha256": "eb02fcab64e69b18bd6228dafabcb3b6dea0b82850afed0c91277563f9b4f983"
+    },
+    {
+      "path": "monitoring/2026-11-12/01-identity-claim-reconciliation/record.json",
+      "bytes": 1201,
+      "sha256": "42e5446fe5c0b621bf2af73c4e33fb35278c10c722ab99b4e80265758edc0c51"
+    },
+    {
+      "path": "monitoring/2026-11-12/01-identity-claim-reconciliation/source-attempts.csv",
+      "bytes": 161014,
+      "sha256": "3ef0721fecb125d97e5c4868401eb06f5047679c2e24611f9de07080dfdb52f8"
+    },
+    {
+      "path": "monitoring/2026-11-12/01-identity-claim-reconciliation/surface-attempt-summary.csv",
+      "bytes": 2866,
+      "sha256": "f1433ad32c1a61afa62a595f5d5f4f67888ddcdb01b9f8bd8c2928fd4788b5fd"
+    }
+  ],
+  "scope": "Published artifact bytes; source and scientific interpretation bounded by provenance"
+}
