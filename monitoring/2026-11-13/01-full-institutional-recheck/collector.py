@@ -101,22 +101,23 @@ def fetch(item):
                     q=obj.get("data",{}).get("attributes",{});fields={"doi":q.get("doi"),"state":q.get("state"),"registered":q.get("registered"),"resource_type":q.get("types",{}).get("resourceTypeGeneral")}
                 elif scope=="openaire_doi":
                     t=obj.get("response",{}).get("header",{}).get("total");fields={"result_total":t.get("$") if isinstance(t,dict) else t}
-                elif scope=="openalex_doi":fields={"work_id":obj.get("id"),"doi":obj.get("doi"),"type":obj.get("type")}
+                elif scope=="openalex_doi":fields={"work_id":obj.get("id"),"doi":obj.get("doi"),"type":obj.get("type"),"canonical_doi_exact_match":(obj.get("doi") or "").lower().rstrip("/")==("https://doi.org/"+key).lower()}
                 elif scope=="zenodo_version":
                     z=obj.get("stats",{});fields={"id":obj.get("id"),"doi":obj.get("doi"),"conceptdoi":obj.get("conceptdoi"),"version_views":z.get("version_views"),"version_downloads":z.get("version_downloads"),"family_views_attached":z.get("views"),"family_downloads_attached":z.get("downloads")}
                 elif scope=="github_main":fields={"sha":obj.get("commit",{}).get("sha")}
                 elif scope=="github_releases":fields={"releases":len(obj),"latest_tag":obj[0].get("tag_name") if obj else None,"latest_published_at":obj[0].get("published_at") if obj else None}
                 elif scope=="swh_origin":fields={"visit":obj.get("visit"),"status":obj.get("status"),"date":obj.get("date"),"snapshot":obj.get("snapshot")}
                 elif scope=="rsd_issue":fields={"state":obj.get("state"),"updated_at":obj.get("updated_at"),"closed_at":obj.get("closed_at")}
-                elif scope=="workflowhub":fields={"id":obj.get("id"),"title":obj.get("title"),"version":obj.get("version")}
+                elif scope=="workflowhub":
+                    data=obj.get("data") or {}; attrs=data.get("attributes") or {}; fields={"id":obj.get("id") or data.get("id"),"title":obj.get("title") or attrs.get("title"),"version":obj.get("version") or attrs.get("version"),"json_top_level_keys":sorted(obj.keys())[:12]}
                 elif scope=="surface" and key.startswith("16:"):
                     groups=obj.get("group",[])
-                    src=Counter(s.get("source",{}).get("source-name",{}).get("value","UNKNOWN") if s.get("source") else "UNKNOWN" for g in groups for s in g.get("work-summary",[]))
-                    fields={"groups":len(groups),"summaries":sum(len(g.get("work-summary",[])) for g in groups),"source_counts":dict(src)}
+                    src=Counter((((s.get("source") or {}).get("source-name") or {}).get("value") or "UNKNOWN") for g in groups for s in (g.get("work-summary") or []))
+                    fields={"groups":len(groups),"summaries":sum(len(g.get("work-summary") or []) for g in groups),"source_counts":dict(src)}
                 elif scope=="surface" and key.startswith("22:"):
                     fields={"works_count":obj.get("works_count"),"cited_by_count":obj.get("cited_by_count"),"id":obj.get("id")}
             except Exception as e:
-                fields={"parse_status":"UNPARSEABLE_JSON_OR_UNSUPPORTED_SHAPE","error_kind":type(e).__name__}
+                fields={"representation":"PUBLIC_HTTP_200_NON_JSON_OR_UNSUPPORTED","semantic_identity_status":"NOT_VERIFIED","parse_kind":type(e).__name__}
         return {"scope":scope,"key":key,"locator":url,"started_at_utc":a,"finished_at_utc":b,"http_status":status,"failure":err,"raw_sha256":hashlib.sha256(raw).hexdigest() if raw else None,"response_bytes_read":len(raw),"content_length":size_header,"selected_public_fields":fields}
 with ThreadPoolExecutor(max_workers=10) as pool:
     rows=list(pool.map(fetch,tasks))
@@ -125,10 +126,23 @@ with (OUT/"source-attempts.jsonl").open("w",encoding="utf8") as f:
 with (OUT/"selected-fields.jsonl").open("w",encoding="utf8") as f:
     for row in rows:
         if row["selected_public_fields"]:f.write(json.dumps({k:row[k] for k in ["scope","key","started_at_utc","finished_at_utc","selected_public_fields"]},ensure_ascii=False)+"\n")
-summary={"record_class":"bounded_public_cloud_retest_not_prospective","start_utc":start,"end_utc":utc(),"source":"GitHub Actions runner / unauthenticated public scholarly endpoints, GitHub token for public GitHub only","fixed_corpus":"RS01-RS10","control_is_rs11":False,"osf_changed":False,"layers":6,"preregistered_units_per_eligible_timepoint":60,"new_prospective_cells":0,"surface_count":len(surfaces),"known_doi_inventory":len(dois),"scope_counts":{},"limits":["all results are diagnostic attempts, not a complete confirmed indexing census","HTTP 200 does not imply object identity verified","HTTP 404/403/429 and timeout do not imply nonexistence","response SHA-256 only; original response bytes are not published","no authenticated OSF/ORCID/RSD account access or UI claim action","timestamp is client receipt, not first indexed or published"]}
+summary={"record_class":"bounded_public_cloud_retest_not_prospective","start_utc":start,"end_utc":utc(),"source":"GitHub Actions runner / unauthenticated public scholarly endpoints, GitHub token for public GitHub only","fixed_corpus":"RS01-RS10","control_is_rs11":False,"osf_write_attempted":False,"layers":6,"preregistered_units_per_eligible_timepoint":60,"new_prospective_cells":0,"surface_count":len(surfaces),"known_doi_inventory":len(dois),"scope_counts":{},"limits":["all results are diagnostic attempts, not a complete confirmed indexing census","HTTP 200 does not imply object identity verified","HTTP 404/403/429 and timeout do not imply nonexistence","response SHA-256 only; original response bytes are not published","no authenticated OSF/ORCID/RSD account access or UI claim action","timestamp is client receipt, not first indexed or published","OpenAlex 200 does not mean canonical requested DOI equals returned Work DOI","public HTML document response is not independent identity verification"]}
 for scope in sorted({row["scope"] for row in rows}):
     x=[row for row in rows if row["scope"]==scope]
     summary["scope_counts"][scope]={"attempted":len(x),"http_statuses":dict(Counter(str(q["http_status"]) for q in x)),"failed_or_partial":sum(q["failure"] is not None for q in x)}
+ax=[r for r in rows if r["scope"]=="openalex_doi"]
+oa=[r for r in rows if r["scope"]=="openaire_doi"]
+zv=[r for r in rows if r["scope"]=="zenodo_version"]
+oc=[r for r in rows if r["scope"]=="surface" and r["key"].startswith("16:")]
+summary["derived_diagnostic_not_study_units"]={
+ "openalex_exact_canonical_doi_matches":sum(r["selected_public_fields"].get("canonical_doi_exact_match",False) for r in ax),
+ "openalex_distinct_returned_work_ids":len({r["selected_public_fields"].get("work_id") for r in ax if r["selected_public_fields"].get("work_id")}),
+ "openaire_positive_exact_doi_queries":sum(str(r["selected_public_fields"].get("result_total","0")).isdigit() and int(r["selected_public_fields"].get("result_total","0"))>0 for r in oa),
+ "zenodo_total_version_views_fixed_ten":sum(int(r["selected_public_fields"].get("version_views") or 0) for r in zv if r["key"].split(":")[0] in fixed),
+ "zenodo_total_version_downloads_fixed_ten":sum(int(r["selected_public_fields"].get("version_downloads") or 0) for r in zv if r["key"].split(":")[0] in fixed),
+ "orcid_public_work_groups":oc[0]["selected_public_fields"].get("groups") if oc else None,
+ "orcid_public_work_summaries":oc[0]["selected_public_fields"].get("summaries") if oc else None,
+}
 with (OUT/"summary.json").open("w",encoding="utf8") as f:json.dump(summary,f,indent=2,ensure_ascii=False)
 with (OUT/"sha256-manifest.txt").open("w",encoding="utf8") as f:
     for path in sorted(OUT.glob("*")):
