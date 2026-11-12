@@ -1,0 +1,25 @@
+{
+  "record_class": "diagnostic_monitoring_and_maintainer_claim_reconciliation",
+  "logical_date": "2026-11-12",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_at_utc": "2026-11-12T06:56:26.598787+00:00",
+  "independent_batch_window_utc": [
+    "2026-11-12T06:48:30.859883+00:00",
+    "2026-11-12T06:53:14.607271+00:00"
+  ],
+  "source_attempts": 618,
+  "independent_fields": "../../../evidence/2026-11-12/01-identity-claim-reconciliation/selected-public-fields.json",
+  "user_fields": "../../../evidence/2026-11-12/01-identity-claim-reconciliation/openaire-user-fields.json",
+  "contract": {
+    "fixed_corpus": "RS01-RS10",
+    "control_is_rs11": false,
+    "analytical_layers": 6,
+    "eligible_object_layer_units": 60,
+    "operational_platforms": 7,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_written": false,
+    "baseline_rewritten": false
+  },
+  "limit": "Public API source records, supplied account UI, public search products, DOI identifiers and maintainer claim policy have separate units and clocks. No account action or external-use inference. Supplementary all-DOI OpenAIRE recheck deferred after timeouts; no API search count established."
+}

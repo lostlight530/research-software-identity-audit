@@ -1,0 +1,198 @@
+Advanced search in
+Research products
+arrow_drop_down
+Simple Search
+unfold_less
+Compact
+1
+Author ORCID
+arrow_drop_down
+is
+arrow_drop_down
+0009-0001-3617-0832
+
+close
+
+add
+
+add
+
+search
+Search
+Filters
+Access
+Open Access
+Closed Access
+Restricted
+Open Source
+Embargo
+Type
+Publications
+Research data
+Research software
+Other research products
+Year range
+1800
+-
+2036
+This year
+Last 5 years
+Last 10 years
+Source
+ZENODO (11)
+16 Research products (1 rule applied)
+Sort by
+Date (most recent)
+arrow_drop_down
+unfold_less
+Compact results
+download
+Download search results
+Agent Foundations
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.22791169 , 10.5281/zenodo.23137207 , 10.5281/zenodo.23068262 , 10.5281/zenodo.22791170 
+
+A bilingual theory, evidence, and architecture-decision foundation for reasoning about agent systems with explicit claim, implementation, and validation boundaries. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+Title NEXUS CORTEX Life Cycle — zero-entropy-lab
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:WorkflowHub
+Authors:
+orcid bw
+Jiang, Xuanyi;
+doi: 10.48546/workflowhub.workflow.2334.1 
+
+Description Historical executable generation of the NEXUS CORTEX lifecycle workflow for the zero-entropy-lab research software lineage, recorded from repository state 12287364d5915b4e51a6146996d6d8a95d547c22 on 2026-10-07. The workflow implements a graph-based, bounded research lifecycle with read-only validation and guarded application paths. It validates runtime contracts and active ledgers, harvests and projects approved external evidence, canonicalizes the active graph, rebuilds and ingests memory, verifies graph and hash-chain integrity, produces bounded lifecycle projections, checks the permitted write boundary and repository world-line, and applies only a stable and meaningful candidate. This WorkflowHub record preserves an externally registered historical workflow generation. The canonical implementation history remains in the source Git repository; the corresponding AGI record stores identity, verification and recovery metadata rather than a second executable copy.
+
+https://dx.doi.org/1...
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+Brain Evolution — welcome-to-github
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:WorkflowHub
+Authors:
+orcid bw
+Jiang, Xuanyi;
+doi: 10.48546/workflowhub.workflow.2337.1 
+
+Historical executable precursor of the NEXUS CORTEX research workflow lineage in welcome-to-github, preserved from repository commit a01c6e8df1f5e8ba80726ede6cbdb5de692e8741 on 2026-02-15. This daily GitHub Actions workflow harvested external evidence, produced dated intelligence artifacts, and opened a pull request for human review rather than applying its findings directly. It established an early observe–record–review pattern, but was named Brain Evolution and must not be retrospectively presented as a version of the later NEXUS CORTEX Life Cycle. The canonical executable is .github/workflows/brain_evolution.yml at the recorded Git commit; the AGI lineage record preserves its identity and recovery evidence without containing a second executable copy.
+
+https://dx.doi.org/1...
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+Title NEXUS CORTEX Life Cycle — welcome-to-github
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:WorkflowHub
+Authors:
+orcid bw
+Jiang, Xuanyi;
+doi: 10.48546/workflowhub.workflow.2332.2 
+
+Historical executable generation of the NEXUS CORTEX lifecycle workflow for the welcome-to-github research software lineage, recorded from repository state 0b2e45c0b2eff554cf40431ce3c53693d86bc290 on 2026-10-07. The workflow implements a graph-based, bounded research lifecycle with read-only validation and guarded application paths. It validates runtime contracts and active ledgers, harvests and projects approved external evidence, canonicalizes the active graph, rebuilds and ingests memory, produces bounded lifecycle projections, verifies graph and runtime integrity, checks the permitted write boundary and repository world-line, and applies only a stable and meaningful candidate. This WorkflowHub record preserves an externally registered historical workflow generation. The canonical implementation history remains in the source Git repository; the corresponding AGI record stores identity, verification and recovery metadata rather than a second executable copy.
+
+https://dx.doi.org/1...
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+NEXUS CORTEX Life Cycle — welcome-to-github
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:WorkflowHub
+Authors:
+orcid bw
+Jiang, Xuanyi;
+doi: 10.48546/workflowhub.workflow.2332.3 , 10.48546/workflowhub.workflow.2332.1 , 10.48546/workflowhub.workflow.2332.5 , 10.48546/workflowhub.workflow.2332.6 , 10.48546/workflowhub.workflow.2332.7 , 10.48546/workflowhub.workflow.2332.4 
+
+Historical executable generation of the NEXUS CORTEX lifecycle workflow for the welcome-to-github research software lineage, recorded from repository state 0b2e45c0b2eff554cf40431ce3c53693d86bc290 on 2026-10-07. The workflow implements a graph-based, bounded research lifecycle with read-only validation and guarded application paths. It validates runtime contracts and active ledgers, harvests and projects approved external evidence, canonicalizes the active graph, rebuilds and ingests memory, produces bounded lifecycle projections, verifies graph and runtime integrity, checks the permitted write boundary and repository world-line, and applies only a stable and meaningful candidate. This WorkflowHub record preserves an externally registered historical workflow generation. The canonical implementation history remains in the source Git repository; the corresponding AGI record stores identity, verification and recovery metadata rather than a second executable copy.
+
+https://dx.doi.org/1...
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+NEXUS CORTEX Life Cycle — zero-entropy-lab
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:WorkflowHub
+Authors:
+orcid bw
+Jiang, Xuanyi;
+doi: 10.48546/workflowhub.workflow.2334.3 , 10.48546/workflowhub.workflow.2334.6 , 10.48546/workflowhub.workflow.2334.7 , 10.48546/workflowhub.workflow.2334.5 , 10.48546/workflowhub.workflow.2334.2 , 10.48546/workflowhub.workflow.2334.4 
+
+Description Historical executable generation of the NEXUS CORTEX lifecycle workflow for the zero-entropy-lab research software lineage, recorded from repository state 12287364d5915b4e51a6146996d6d8a95d547c22 on 2026-10-07. The workflow implements a graph-based, bounded research lifecycle with read-only validation and guarded application paths. It validates runtime contracts and active ledgers, harvests and projects approved external evidence, canonicalizes the active graph, rebuilds and ingests memory, verifies graph and hash-chain integrity, produces bounded lifecycle projections, checks the permitted write boundary and repository world-line, and applies only a stable and meaningful candidate. This WorkflowHub record preserves an externally registered historical workflow generation. The canonical implementation history remains in the source Git repository; the corresponding AGI record stores identity, verification and recovery metadata rather than a second executable copy.
+
+https://dx.doi.org/1...
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+chevron_left
+1
+2
+Powered by OpenAIRE graph

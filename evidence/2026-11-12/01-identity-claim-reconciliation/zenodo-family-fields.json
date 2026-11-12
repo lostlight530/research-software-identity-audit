@@ -1,0 +1,333 @@
+[
+  {
+    "repository": "welcome-to-github",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22790907",
+    "version_count": 6,
+    "latest_record_id": 24112453,
+    "latest_version": "v2026.11-ten-day-evidence-checkpoint",
+    "family_stats": {
+      "views": 433,
+      "unique_views": 341,
+      "downloads": 8,
+      "unique_downloads": 7
+    },
+    "summed_version_stats": {
+      "version_views": 433,
+      "version_unique_views": 341,
+      "version_downloads": 8,
+      "version_unique_downloads": 7
+    },
+    "version_record_ids": [
+      22790908,
+      23068145,
+      23137203,
+      23365504,
+      23811380,
+      24112453
+    ]
+  },
+  {
+    "repository": "zero-entropy-lab",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791081",
+    "version_count": 6,
+    "latest_record_id": 24112455,
+    "latest_version": "v2026.11-ten-day-evidence-checkpoint",
+    "family_stats": {
+      "views": 376,
+      "unique_views": 279,
+      "downloads": 3,
+      "unique_downloads": 3
+    },
+    "summed_version_stats": {
+      "version_views": 376,
+      "version_unique_views": 279,
+      "version_downloads": 3,
+      "version_unique_downloads": 3
+    },
+    "version_record_ids": [
+      22791082,
+      23068144,
+      23137204,
+      23365551,
+      23811394,
+      24112455
+    ]
+  },
+  {
+    "repository": "Axiom-0",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791103",
+    "version_count": 6,
+    "latest_record_id": 24112463,
+    "latest_version": "v2026.11-ten-day-evidence-checkpoint",
+    "family_stats": {
+      "views": 425,
+      "unique_views": 324,
+      "downloads": 3,
+      "unique_downloads": 3
+    },
+    "summed_version_stats": {
+      "version_views": 425,
+      "version_unique_views": 324,
+      "version_downloads": 3,
+      "version_unique_downloads": 3
+    },
+    "version_record_ids": [
+      22791104,
+      23068261,
+      23137205,
+      23365534,
+      23811393,
+      24112463
+    ]
+  },
+  {
+    "repository": "reflective-continuum",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791141",
+    "version_count": 6,
+    "latest_record_id": 24112458,
+    "latest_version": "v2026.11-ten-day-evidence-checkpoint",
+    "family_stats": {
+      "views": 333,
+      "unique_views": 242,
+      "downloads": 3,
+      "unique_downloads": 3
+    },
+    "summed_version_stats": {
+      "version_views": 333,
+      "version_unique_views": 242,
+      "version_downloads": 3,
+      "version_unique_downloads": 3
+    },
+    "version_record_ids": [
+      22791142,
+      23068260,
+      23137206,
+      23365567,
+      23811392,
+      24112458
+    ]
+  },
+  {
+    "repository": "agent-foundations",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791169",
+    "version_count": 6,
+    "latest_record_id": 24112465,
+    "latest_version": "v2026.11-ten-day-evidence-checkpoint",
+    "family_stats": {
+      "views": 390,
+      "unique_views": 297,
+      "downloads": 4,
+      "unique_downloads": 4
+    },
+    "summed_version_stats": {
+      "version_views": 390,
+      "version_unique_views": 297,
+      "version_downloads": 4,
+      "version_unique_downloads": 4
+    },
+    "version_record_ids": [
+      22791170,
+      23068262,
+      23137207,
+      23365540,
+      23811389,
+      24112465
+    ]
+  },
+  {
+    "repository": "auto-doc-engine",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791404",
+    "version_count": 6,
+    "latest_record_id": 24112471,
+    "latest_version": "v2026.11-ten-day-evidence-checkpoint",
+    "family_stats": {
+      "views": 361,
+      "unique_views": 271,
+      "downloads": 2,
+      "unique_downloads": 2
+    },
+    "summed_version_stats": {
+      "version_views": 361,
+      "version_unique_views": 271,
+      "version_downloads": 2,
+      "version_unique_downloads": 2
+    },
+    "version_record_ids": [
+      22791405,
+      23068471,
+      23137215,
+      23365510,
+      23811383,
+      24112471
+    ]
+  },
+  {
+    "repository": "epistemic-pipeline",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791463",
+    "version_count": 6,
+    "latest_record_id": 24112474,
+    "latest_version": "v2026.11-ten-day-evidence-checkpoint",
+    "family_stats": {
+      "views": 376,
+      "unique_views": 287,
+      "downloads": 3,
+      "unique_downloads": 3
+    },
+    "summed_version_stats": {
+      "version_views": 376,
+      "version_unique_views": 287,
+      "version_downloads": 3,
+      "version_unique_downloads": 3
+    },
+    "version_record_ids": [
+      22791464,
+      23068494,
+      23137216,
+      23365517,
+      23811384,
+      24112474
+    ]
+  },
+  {
+    "repository": "sci-render-kit",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791375",
+    "version_count": 6,
+    "latest_record_id": 24112475,
+    "latest_version": "v2026.11-ten-day-evidence-checkpoint",
+    "family_stats": {
+      "views": 354,
+      "unique_views": 269,
+      "downloads": 4,
+      "unique_downloads": 4
+    },
+    "summed_version_stats": {
+      "version_views": 354,
+      "version_unique_views": 269,
+      "version_downloads": 4,
+      "version_unique_downloads": 4
+    },
+    "version_record_ids": [
+      22791376,
+      23068472,
+      23137219,
+      23365525,
+      23811397,
+      24112475
+    ]
+  },
+  {
+    "repository": "china-agentic-observatory",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791309",
+    "version_count": 6,
+    "latest_record_id": 24112469,
+    "latest_version": "v2026.11-ten-day-evidence-checkpoint",
+    "family_stats": {
+      "views": 391,
+      "unique_views": 297,
+      "downloads": 3,
+      "unique_downloads": 3
+    },
+    "summed_version_stats": {
+      "version_views": 391,
+      "version_unique_views": 297,
+      "version_downloads": 3,
+      "version_unique_downloads": 3
+    },
+    "version_record_ids": [
+      22791310,
+      23068347,
+      23137211,
+      23365548,
+      23811388,
+      24112469
+    ]
+  },
+  {
+    "repository": "agentic-frontier-observatory",
+    "fixed_corpus": true,
+    "concept_doi": "10.5281/zenodo.22791334",
+    "version_count": 6,
+    "latest_record_id": 24112468,
+    "latest_version": "v2026.11-ten-day-evidence-checkpoint",
+    "family_stats": {
+      "views": 397,
+      "unique_views": 305,
+      "downloads": 4,
+      "unique_downloads": 4
+    },
+    "summed_version_stats": {
+      "version_views": 397,
+      "version_unique_views": 305,
+      "version_downloads": 4,
+      "version_unique_downloads": 4
+    },
+    "version_record_ids": [
+      22791335,
+      23068352,
+      23137214,
+      23365543,
+      23811387,
+      24112468
+    ]
+  },
+  {
+    "repository": "research-software-identity-audit",
+    "fixed_corpus": false,
+    "concept_doi": "10.5281/zenodo.23166490",
+    "version_count": 5,
+    "latest_record_id": 23839900,
+    "latest_version": "v2026.10-control-lifecycle-reconciliation",
+    "family_stats": {
+      "views": 192,
+      "unique_views": 175,
+      "downloads": 6,
+      "unique_downloads": 6
+    },
+    "summed_version_stats": {
+      "version_views": 192,
+      "version_unique_views": 175,
+      "version_downloads": 6,
+      "version_unique_downloads": 6
+    },
+    "version_record_ids": [
+      23166491,
+      23176748,
+      23284570,
+      23446162,
+      23839900
+    ]
+  },
+  {
+    "repository": "life-science-ecosystem-lab",
+    "fixed_corpus": false,
+    "concept_doi": "10.5281/zenodo.23447088",
+    "version_count": 2,
+    "latest_record_id": 23839899,
+    "latest_version": "v0.5.0",
+    "family_stats": {
+      "views": 28,
+      "unique_views": 18,
+      "downloads": 7,
+      "unique_downloads": 5
+    },
+    "summed_version_stats": {
+      "version_views": 28,
+      "version_unique_views": 18,
+      "version_downloads": 7,
+      "version_unique_downloads": 5
+    },
+    "version_record_ids": [
+      23447089,
+      23839899
+    ]
+  }
+]

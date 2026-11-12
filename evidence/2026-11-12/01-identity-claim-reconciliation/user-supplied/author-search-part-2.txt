@@ -1,0 +1,251 @@
+16 Research products (1 rule applied)
+Sort by
+Date (most recent)
+arrow_drop_down
+unfold_less
+Compact results
+download
+Download search results
+Research Software Identity Audit
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.23284570 , 10.5281/zenodo.23166490 , 10.5281/zenodo.23176748 
+
+Operational, evidence, provenance, and reproducibility infrastructure for the OSF-preregistered longitudinal audit of research software identity propagation across open scholarly infrastructures. This repository supports the study and is not an eleventh research-software object in the fixed ten-object corpus. The OSF registration is the frozen research contract. GitHub and Zenodo provide the live implementation and archival/citation surfaces for this research infrastructure.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+auto-doc-engine
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.22791405 , 10.5281/zenodo.22791404 , 10.5281/zenodo.23137215 , 10.5281/zenodo.23068471 
+
+An AST-driven research-document toolkit for data binding, typed Markdown parsing, structural-change evidence, cross-document diagnostics, bounded research metadata, SARIF interchange, optional synchronization, and RO-Crate packaging. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+sci-render-kit
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.22791376 , 10.5281/zenodo.23068472 , 10.5281/zenodo.22791375 , 10.5281/zenodo.23137219 
+
+Declarative scientific-figure compilation with backend-bounded rendering, provenance and figure-evidence sidecars, explicit uncertainty semantics, accessibility contracts, and publisher-target boundaries. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+Agentic Frontier Observatory
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.22791335 , 10.5281/zenodo.22791334 , 10.5281/zenodo.23068352 , 10.5281/zenodo.23137214 
+
+A bilingual, source-grounded observatory tracing artificial intelligence from its intellectual and computational roots to the agentic frontier with daily, weekly, and monthly evidence-bounded research surfaces. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+Reflective Continuum
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.23137206 , 10.5281/zenodo.22791142 , 10.5281/zenodo.22791141 , 10.5281/zenodo.23068260 
+
+A standard-library Python reference for versioned graph storage, lexical retrieval, bounded graph analysis, transactional ingestion, and explicit evidence and validation boundaries. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+Axiom-0
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.23137205 , 10.5281/zenodo.23068261 , 10.5281/zenodo.22791104 , 10.5281/zenodo.22791103 
+
+A dependency-free Python reference implementation for explicit data contracts, canonicalization, measurable state transitions, validation, and reproducible repository checks. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+China Agentic Observatory
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.23068347 , 10.5281/zenodo.22791310 , 10.5281/zenodo.23137211 , 10.5281/zenodo.22791309 
+
+A bilingual source-grounded observatory for China's artificial-intelligence system across history, policy, standards, research, open source, industry, infrastructure, applications, and governance. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+Zero-Entropy Lab
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.23137204 , 10.5281/zenodo.22791082 , 10.5281/zenodo.22791081 , 10.5281/zenodo.23068144 
+
+A standard-library research laboratory for deterministic state, explicit evidence handling, reproducible ledgers, and edge-native execution with bounded trust and security assumptions. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+welcome-to-github
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.22790907 , 10.5281/zenodo.22790908 , 10.5281/zenodo.23137203 , 10.5281/zenodo.23068145 
+
+Public portal, trust gateway, and digital museum for an edge-first research system with a deterministic, append-only knowledge lifecycle and explicit provenance and validation boundaries. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+Epistemic Pipeline
+integration_instructions
+Research software
+keyboard_double_arrow_right
+Software 
+2026
+Publisher:Zenodo
+Authors:
+orcid bw
+lightlost;
+doi: 10.5281/zenodo.23137216 , 10.5281/zenodo.22791464 , 10.5281/zenodo.22791463 , 10.5281/zenodo.23068494 
+
+An evidence-aware state-machine research execution toolkit with explicit runtime policies, bounded score propagation, digest-bound checkpoints, provenance, claim verification, and portable evidence handoff. If you use this repository in your work, please cite it using the metadata below.
+
+ZENODO
+arrow_drop_down
+link
+Link to
+share
+share
+Share
+cite
+Cite
+0
+1
+2
+chevron_right
