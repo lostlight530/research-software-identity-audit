@@ -6,11 +6,6 @@
       "sha256": "c137f28331c3c6267def7abcc7e4bb48c8b4aa6e1204b767a74057895a2e9649"
     },
     {
-      "path": "evidence/2026-11-13/01-full-institutional-recheck/artifact-manifest.json",
-      "bytes": 1136,
-      "sha256": "a7793c3c9364b478fcefc7bf619002c2bd83608e875c5d559a9ab7fd0fc74639"
-    },
-    {
       "path": "evidence/2026-11-13/01-full-institutional-recheck/selected-fields.jsonl",
       "bytes": 136986,
       "sha256": "a7dde6b15c5639653454be1c17980e30fdff1975feaf1a2a122241c7eb68982f"
