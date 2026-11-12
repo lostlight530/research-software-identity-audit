@@ -1,0 +1,33 @@
+name: November 13 public infrastructure retest
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/cloud-source-retest-2026-11-13.yml"
+      - "monitoring/2026-11-13/01-full-institutional-recheck/collector.py"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.12"
+      - name: Execute bounded read-only public source census
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          AUDIT_OUTPUT: cloud-institutional-retest
+        run: python -B monitoring/2026-11-13/01-full-institutional-recheck/collector.py
+      - name: Upload minimized evidence and failed-attempt ledger
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: institutional-retest-2026-11-13
+          path: cloud-institutional-retest/
+          if-no-files-found: warn
+          retention-days: 90
