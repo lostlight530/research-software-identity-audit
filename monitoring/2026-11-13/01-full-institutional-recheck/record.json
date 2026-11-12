@@ -1,0 +1,142 @@
+{
+  "record_class": "bounded_public_cloud_diagnostic_recheck_not_prospective",
+  "logical_date": "2026-11-13",
+  "logical_timezone": "Asia/Shanghai",
+  "source_capture": {
+    "original_cloud_run": 43265103686,
+    "corrected_cloud_run": 43265914410,
+    "original_attempts_retained_in_separate_actions_artifact": true,
+    "corrected_run_start_utc": "2026-11-12T17:06:46.320272+00:00",
+    "corrected_run_end_utc": "2026-11-12T17:07:52.118572+00:00",
+    "source_attempt_count": 458,
+    "source_ledger_sha256": "d52b84134f0e88f30c71cee87d1718ae34d34b0863726c35cc4c271c06e8084e",
+    "source_attempts_path": "evidence/2026-11-13/01-full-institutional-recheck/source-attempts.jsonl",
+    "artifact_manifest_path": "evidence/2026-11-13/01-full-institutional-recheck/artifact-manifest.json",
+    "provider_raw_http_response_bodies_retained_in_public_repository": false,
+    "source_authentication": "GITHUB_TOKEN used only for public GitHub API; no external scholarly account sessions",
+    "unknown_source_capture_origin_time_not_substituted": true
+  },
+  "contract": {
+    "frozen_osf_registration": "https://osf.io/5b329/overview",
+    "original_schema_response": "6ac3ae5e6da32e3d0576ed72",
+    "approved_revision_schema_response": "6ac4c12fed97b8b77ce88a9c",
+    "fixed_sample": "RS01-RS10",
+    "fixed_sample_objects": 10,
+    "control_is_rs11": false,
+    "analytical_layers": 6,
+    "planned_object_layer_units_per_eligible_timepoint": 60,
+    "operational_platforms": 7,
+    "possible_object_platform_checks_not_analytical_units": 70,
+    "post_registration_fixed_corpus_releases_present": true,
+    "operational_offsets_declared": false,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_written": false,
+    "historical_baseline_rewritten": false
+  },
+  "scoped_coverage": {
+    "established_surfaces_attempted": 34,
+    "surface_http_200": 25,
+    "surface_http_403": 3,
+    "surface_http_404": 2,
+    "surface_transport_no_http": 4,
+    "surface_http_200_truncated": 1,
+    "known_doi_inventory": 102,
+    "datacite_exact_doi_requests_200_and_findable": 102,
+    "openaire_exact_doi_requests_http_200": 102,
+    "openaire_positive_exact_doi_query_results": 94,
+    "openalex_doi_requests_http_200": 102,
+    "openalex_returned_distinct_work_ids": 33,
+    "openalex_returned_canonical_doi_matches_requested": 33,
+    "openalex_response_doi_nonidentical_to_requested": 69,
+    "zenodo_individual_versions_queried_http_200": 67,
+    "zenodo_families_in_version_inventory": 12,
+    "fixed_ten_zenodo_versions": 60,
+    "swh_fixed_ten_latest_origin_requests_full": 10,
+    "github_main_pins": 11,
+    "github_release_inventories": 11,
+    "rsd_public_software_pages_http_200": 11,
+    "rsd_public_person_page_http_200": 1,
+    "rsd_public_project_page_http_200": 1,
+    "workflowhub_public_metadata_documents_http_200": 4,
+    "rsd_upstream_issues_checked": 2
+  },
+  "comparable_deltas": {
+    "zenodo_fixed_ten_same_version_cohort": {
+      "prior_record": "evidence/2026-11-12/01-identity-claim-reconciliation/zenodo-family-fields.json",
+      "prior_family_views": 3836,
+      "now_family_views_from_60_version_views": 3849,
+      "delta_views": 13,
+      "prior_downloads": 37,
+      "now_downloads": 37,
+      "delta_downloads": 0,
+      "unique_views_people_interpretation_allowed": false
+    },
+    "orcid_public_works": {
+      "prior_date": "2026-11-12",
+      "prior_groups": 17,
+      "now_groups": 18,
+      "prior_source_summaries": 115,
+      "now_source_summaries": 117,
+      "current_source_name_DataCite": 92,
+      "current_source_name_OpenAIRE": 12,
+      "current_source_name_unknown": 13,
+      "prior_DataCite_summaries": 90,
+      "account_origin_interpretation_of_current_unknown": "NOT_DERIVABLE"
+    },
+    "openaire_same_92_known_doi_cohort": {
+      "prior_date": "2026-11-08",
+      "prior_query_positive": 59,
+      "now_query_positive": 84,
+      "delta_positive_queries": 25,
+      "new_ten_november_10_version_doi_queries_positive": 10,
+      "now_all_102_query_positive": 94,
+      "distinct_result_entities_from_query_count": "NOT_DERIVABLE",
+      "first_discovery_timestamps": "UNKNOWN"
+    },
+    "openalex_source_representation": {
+      "query_successful_200": 102,
+      "canonical_doi_exact": 33,
+      "canonical_doi_not_equal": 69,
+      "distinct_returned_works": 33,
+      "individual_doi_works_inference": false
+    }
+  },
+  "institutional_interactions": {
+    "RSD_1870": {
+      "state": "CLOSED",
+      "closed_at_utc": "2026-10-16T12:11:19Z",
+      "fix_deployed": "NOT_VERIFIED"
+    },
+    "RSD_1871": {
+      "state": "OPEN",
+      "last_updated_at_utc": "2026-10-16T08:05:49Z",
+      "fix_deployed": "NOT_VERIFIED"
+    },
+    "RSE_498": {
+      "state": "OPEN",
+      "merged": false,
+      "maintainer_acceptance": "NOT_VERIFIED"
+    },
+    "SciCrunch_RRID_029105": {
+      "current_public_resolver": "TIMEOUT",
+      "previous_registered_identity_still_historical_evidence": true
+    },
+    "external_account_claims": {
+      "state": "NOT_CHECKED_AUTH_REQUIRED",
+      "last_auth_account_counts": "UNKNOWN"
+    }
+  },
+  "exceptions_and_unknowns": [
+    "34 surface HTTP 200 does not by itself verify exact displayed project identity or completed institutional review",
+    "SciCrunch/RRID/NIF resolver timeouts, dkNET/InterLex/N2T 403, HAL/Identifiers.org 404 and truncated EDAM are retained and not interpreted as disappearance",
+    "OpenAlex noncanonical DOI response identity is not a canonical DOI equality match, nor independent work count",
+    "OpenAIRE per-DOI query hits can share underlying result IDs and cannot establish 94 distinct scholarly works",
+    "ORCID 13 records have missing source-name in current selected extract and cannot be promoted into account SELF/manual claims",
+    "SWH origin visit dates may precede the current retrieval; current HTTP success does not imply new archival visit",
+    "No private logged-in RSD/ORCID/OpenAIRE/WorkflowHub administrative workflows were exercised",
+    "Original HTTP bodies not preserved in repository; response digests are not replayable raw bytes",
+    "No confirmed eligible operational schedule or 60-cell prospective timepoint is asserted"
+  ],
+  "disposition": "PARTIAL_WITH_VERIFIED_PUBLIC_IDENTITY_DELTAS_AND_PRESERVED_UNKNOWN"
+}
