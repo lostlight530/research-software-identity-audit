@@ -16,6 +16,12 @@ Participants should:
 - respect privacy, security boundaries, attribution, copyright, and third-party licenses;
 - avoid spam, harassment, discrimination, threats, impersonation, fabricated evidence, or knowingly misleading validation claims.
 
+### 科研诚信与证据状态 / Research integrity and evidence state
+
+公开协作要区分真实原始观测、诊断采集、推断、静态文档检查与已执行回放，准确保留未执行、部分完成、失败、限流和不可核实状态；发现错误通过显式更正或有时间戳的后续记录处理，不伪造成功或倒改冻结证据
+
+Public collaboration distinguishes raw eligible observations, diagnostics, inference, static document checks and actual replays. Keep NOT_EXECUTED, PARTIAL, FAILED, rate-limited and unresolved status visible. Correct mistakes through explicit dated reconciliation rather than fabricating success or rewriting frozen evidence
+
 ## Research and engineering integrity
 
 Do not present an unexecuted check as passed, an unobserved state as observed,
