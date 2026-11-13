@@ -53,6 +53,12 @@ Prefer:
 
 Avoid retaining full pages or payloads when a smaller evidence artifact proves the same point.
 
+### 最小化采集与可复核身份 / Minimal collection with reproducible identity
+
+保留对科研判断真正必要的来源永久链接、对象／层级、取得时间、内容哈希或归档引用、脱敏错误状态，避免在公开 PR、日志或阶段展示中复制无关私人数据；数据公开可见不等于可以无限制重分发，也不证明其在过去时点具有相同表示
+
+Retain only relevant stable links, object/layer identity, retrieval time, content digest or archive reference, and sanitized failure state. Do not replicate unrelated private information in PRs, logs or stage displays. Public accessibility neither grants unlimited redistribution rights nor proves historical availability
+
 ## Public does not mean historical
 
 A public live endpoint observed today is evidence of the state visible at retrieval time.

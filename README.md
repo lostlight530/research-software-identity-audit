@@ -30,6 +30,14 @@ The study is publicly preregistered on OSF and examines how a fixed corpus of re
 
 **2026-11-03 full-history audit:** [104 reachable main commits, all 620 pre-audit tracked paths, dated-event naming/classification and OSF version authority](docs/research-control-first-day-to-current-governance-audit-2026-11-03.md). A real [482-attempt surface-ID correction](monitoring/2026-11-03/02-source-attempt-surface-id-reconciliation/README.md) is additive and leaves historical request bytes unchanged. The pinned catalog is not a claim of a complete per-file scientific replay or a new prospective wave.
 
+## 数据层与阶段展示的证据关系 / Longitudinal research and stage-display evidence
+
+**中文**：本研究的固定样本是 `RS01–RS10`，CONTROL 仓库不是 RS11；OSF 注册 DOI `10.17605/OSF.IO/5B329` 指向冻结的预注册研究合同，GitHub `main` 指向可演进的执行／治理软件，`baseline/` 是历史基线，`monitoring/` 是诊断观测，`observations/` 才是适格的前瞻性观测归属面；不能把十个对象、六层计数、旧快照统计、页面聚合数或某次 API 读数混成统一分母，也不能将文档存在写成实际采集完成
+
+**English**: The frozen corpus is RS01–RS10; CONTROL is not RS11. The OSF registration DOI identifies the frozen preregistration, live GitHub `main` owns evolving implementation/governance, `baseline/` retains historical baseline, `monitoring/` holds diagnostics, and `observations/` is the eligible prospective observation surface. Never combine ten objects, six evidence layers, dated inventory counts, frontend aggregates, or single API observations into a shared denominator; a present file does not establish that eligible acquisition ran
+
+**长期阶段显示 / Longitudinal stage display:** 展示条目应返回 corpus/object ID、infrastructure layer、observation eligibility、source URL、retrieval timestamp、exact Git revision、raw or derived provenance、verification state、missing/blocked reason，以及所引用归档 DOI 的 **concept/version/OSF registration** 类型；对长期趋势进行比较时，必须声明时间窗和统计口径；A display entry must preserve those identifiers and denominators rather than silently upgrading diagnostic evidence to prospective results
+
 ## Start here — documentation and repository navigation
 
 For contributors and independent reviewers, the [**documentation map**](docs/README.md) identifies the authoritative owner of each folder, study/object boundaries, evidence levels, and the docs-only maintenance process.
@@ -790,6 +798,8 @@ The objective is narrower:
 
 Current research stage:
 
+**中文说明 / English reading:** 下述箭头为研究生命周期示意，不声明每个阶段已按计划执行；The sequence below is a research-lifecycle map, not an executed-run inventory
+
 ```text
 Historical audit
       ↓
@@ -823,7 +833,8 @@ The frozen preregistered research plan can be cited as:
 The research software infrastructure is also archived and citable through Zenodo:
 
 - **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.23166490
-- **Latest archived release:** `v2026.10-evidence-integrity` (2026-10-18) — https://doi.org/10.5281/zenodo.23446162
+- **Latest GitHub archived release observed at 2026-11-13 review:** [`v2026.10-control-lifecycle-reconciliation`](https://github.com/lostlight530/research-software-identity-audit/releases/tag/v2026.10-control-lifecycle-reconciliation) (published 2026-10-31) — version DOI https://doi.org/10.5281/zenodo.23839900
+- **Previous evidence-integrity release:** `v2026.10-evidence-integrity` (2026-10-18) — https://doi.org/10.5281/zenodo.23446162
 - **Previous evidence-reconciliation release:** https://doi.org/10.5281/zenodo.23284570
 - **Previous initial-runtime release:** https://doi.org/10.5281/zenodo.23176748
 - **Historical `beta` release:** https://doi.org/10.5281/zenodo.23166491
