@@ -44,6 +44,11 @@ State one bounded question that can be contradicted by evidence.
 
 If the record is purely descriptive and no hypothesis is appropriate, say so.
 
+### Stage and publication linkage / 阶段与出版关联
+
+- 中文：填写 RS 对象／infrastructure layer、观测适格性、源修订与取得时间、原始／派生口径、缺失状态、OSF 预注册或软件 version DOI 的身份；不允许由 concept DOI 推断原始观察或实验执行
+- English: Record RS object/infrastructure layer, eligibility, source revision and retrieval time, raw/derived denominator, missing state, and whether an identifier names the OSF preregistration or a software version DOI. A concept DOI cannot establish original observation or execution
+
 ## Evidence/source basis / 证据基础
 
 For each material source record:

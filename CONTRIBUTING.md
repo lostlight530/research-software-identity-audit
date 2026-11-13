@@ -23,6 +23,12 @@ Before proposing a change, identify what owns it:
 
 A change in one surface does not automatically authorize changes in another.
 
+### 根目录文档和科研数据的分界 / Root documentation versus research data
+
+根目录 README、研究政策和引用说明可以维护，但 OSF 冻结预注册、RS01–RS10 固定样本、六层计数契约、原始观测、历史日志和 DOI 对应的归档字节不能因文档改版而被修改或重新归类；引用阶段统计时声明源文件、观察时间、样本／层级分母、版本与完整性状态
+
+The root README, research policy and citation guidance can be maintained; the frozen OSF registration, RS01–RS10 corpus, six-layer contract, raw observations, historical logs and DOI-archived bytes must not be silently reclassified or changed as a consequence. Stage statistics need source path, observation time, denominator, version and completeness status
+
 ## Documentation-only contributions
 
 For link/navigation improvements, prose clarification, maintainer guidance, and non-data documentation hygiene, use the [docs-only guide](docs/README.md#4-docs-only-maintenance-workflow).

@@ -9,8 +9,8 @@ English is the canonical/default language of this contract. Chinese text may be
 used for accessibility and interpretation. Repository evidence and the frozen
 OSF registration remain authoritative over prose summaries.
 
-英文为本开放科研契约的默认规范语言；中文可用于辅助理解。仓库证据与冻结的 OSF
-注册始终高于解释性文字。
+英文为本开放科研契约的默认规范语言；中文可用于辅助理解；仓库证据与冻结的 OSF
+注册始终高于解释性文字；
 
 ## Authority
 
@@ -186,6 +186,12 @@ Do not rewrite point-in-time history merely to make later records look cleaner.
 These surfaces improve openness and reproducibility; they do not establish
 scientific validity by themselves.
 
+### Research-series data contract / 研究序列数据契约
+
+**中文**：固定十对象与六基础设施层的原始观测必须按对象 ID、层、适格时间点、来源版本、取得时间、状态和失败原因回溯；`monitoring/` 的诊断统计不可进入 `observations/` 的前瞻性分母；阶段展示的聚合数字只表示按所声明口径计算的结果，不能替代 raw evidence 或 frozen OSF 合同
+
+**English**: Every eligible original observation is keyed by fixed object ID, infrastructure layer, eligible timepoint, source revision, acquisition time, outcome and failure cause. Monitoring diagnostics are not prospective denominator cells. Aggregated stage displays must declare their calculation and cannot supersede raw evidence or the frozen OSF contract
+
 ## Release and scholarly metadata
 
 Before a new archival release, verify agreement across:
@@ -217,7 +223,7 @@ current state != historical state
 
 ## 中文摘要
 
-本仓是冻结 OSF 研究合同的执行、证据、provenance 与分析运行层，不是第 11 个样本。
-研究固定十个对象、六个分析层；七个平台只是采集粒度。历史 baseline 与 prospective
-dataset 必须分离，失败、未知、429、部分验证与无结论均为合法研究结果。任何公开结论
-都应尽可能追溯到原始证据与时间戳。
+本仓是冻结 OSF 研究合同的执行、证据、provenance 与分析运行层，不是第 11 个样本；
+研究固定十个对象、六个分析层；七个平台只是采集粒度；历史 baseline 与 prospective
+dataset 必须分离，失败、未知、429、部分验证与无结论均为合法研究结果；任何公开结论
+都应尽可能追溯到原始证据与时间戳；

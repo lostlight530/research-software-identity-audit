@@ -20,6 +20,12 @@ applicable.
 
 Only the minimum evidence needed to support a research claim should be retained.
 
+### 中英权利边界 / Bilingual rights boundary
+
+仓库自有代码与文档的 MIT 授权不改变第三方网页、API 响应、截图及引用材料原有版权或使用条款；为科研存证而引用外部材料，不表示将其重新授权为 MIT，也不等同于该外部机构认可本研究结论
+
+The MIT license for repository-owned materials does not relicense third-party webpages, API responses, screenshots or quotations. Evidence capture does not imply an MIT grant over external material or institutional endorsement of the study
+
 ## Separate scholarly objects
 
 The OSF preregistration is a separate scholarly object and is released under

@@ -14,6 +14,12 @@ release tags as immutable point-in-time snapshots.
 - Preserve failed, partial, unresolved, and rate-limited research states in archived records.
 - A release is not evidence that a scheduled observation executed or that a scientific conclusion is valid.
 
+## Publication identities and longitudinal evidence / 出版身份与长期研究证据
+
+**中文**：该软件自身的 concept DOI `10.5281/zenodo.23166490` 与 `v2026.10-control-lifecycle-reconciliation` 的 version DOI `10.5281/zenodo.23839900` 不等同；冻结 OSF 预注册 DOI `10.17605/OSF.IO/5B329` 是另一个独立研究对象；GitHub Release、`CITATION.cff`、`codemeta.json`、归档字节、研究 observation 和 `main` 当前状态必须分别核对；源研究文件和任何阶段展示应保留样本 ID、时间、层级、修订和失败状态，出版不自动证明观察或科学效度
+
+**English**: Concept DOI `10.5281/zenodo.23166490` identifies the control-software version family; version DOI `10.5281/zenodo.23839900` identifies the archived control-lifecycle release. The OSF preregistration DOI `10.17605/OSF.IO/5B329` is a separate frozen research object. Releases, CFF, CodeMeta, archive bytes, observations and current `main` require separate identity checks. Neither a DOI nor a stage dashboard proves an eligible observation or scientific validity
+
 ## Existing archive
 
 The initial research-runtime release is:
