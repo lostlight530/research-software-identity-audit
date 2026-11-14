@@ -2,7 +2,7 @@
 
 **Record class:** diagnostic, non-prospective, source- and time-bounded. Logical research date: **2026-11-14 Asia/Shanghai**. This is neither an OSF amendment nor a complete same-time 70-platform-check census. External extractor retrieval dates below are UTC **day labels**, not verified fresh origin timestamps.
 
-[Machine summary](record.json) · [11 current GitHub SHAs and exact prior comparisons](github-main-heads.csv) · [34 service/standard access attempts and provenance](surface-access-recheck.csv)
+[Machine summary](record.json) · [11 current GitHub SHAs and exact prior comparisons](github-main-heads.csv) · [34 service/standard access attempts and provenance](surface-access-recheck.csv) · [Branch-batch clock-scope correction](reconciliation.md)
 
 ## Contract and first-day governance
 
@@ -13,7 +13,7 @@
 
 ## Current verified changes versus the Nov 13 retained source-capture cohort
 
-- Direct GitHub REST branch/PR/release comparisons for **all 11** current mains (batch **2026-11-14T05:17:13.240Z–05:17:14.548Z**): **all 11 ahead**, each **behind 0**, sum **309** main-reachable commits across ten fixed repositories and **4** in CONTROL, for **313 distinct per-repo commit counts** versus original capture on **2026-11-12T17:06–17:07Z** (Nov 13 Shanghai logical day). Do not call the entire 313 “Nov 14 commits”
+- Direct GitHub REST branch, PR and Release checks for **all 11** repositories: the recorded **2026-11-14T05:17:13.240Z–05:17:14.548Z** client batch covers **only the final 11 main-branch SHA recheck**. Separate PR and Release requests were made in earlier connector batches without retained per-request source clocks, so they are **not** assigned to that branch-only window. At those captured main SHAs: **all 11 ahead**, each **behind 0**, sum **309** main-reachable commits across ten fixed repositories and **4** in CONTROL, for **313 distinct per-repo commit counts** versus original capture on **2026-11-12T17:06–17:07Z** (Nov 13 Shanghai logical day). Do not call the entire 313 “Nov 14 commits”
 - Current open PRs **0 across 11**. All ten latest fixed repo main commits include a newly merged **Nov 14 monthly research relation**. Published Release count: **6 in each fixed repo**, latest `v2026.11-ten-day-evidence-checkpoint` published Nov 10; **CONTROL 5 releases**, latest Oct 31. No confirmed new published GitHub Release since the preceding Nov 13 diagnostic. Work on `main` is not a new DOI or eligible prospective observation
 - Selected Zenodo **RS01** latest-record response `24112453` / DOI `10.5281/zenodo.24112453`: its **attached family views 447**, downloads **9**, versus Nov 13 six-version captured attached family values **435 / 8**, yielding **+12 views, +1 download** at matched attached-family-field scope. Extractor acquisition is only **2026-11-14 UTC day**, receipt `extract_83601ada238462b7163bdf2fcb547385`. Current entire six-version sum was **not** re-enumerated, and views are not human users or software adoption
 

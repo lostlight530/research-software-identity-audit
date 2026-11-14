@@ -51,7 +51,9 @@
     "latest_fixed_release_date_utc": "2026-11-10",
     "new_fixed_releases_since_nov13": 0,
     "merge_events_current_nov14_fixed_ten_confirmed": 10,
-    "per_repo_latest_sha_and_compare_in_csv": true
+    "per_repo_latest_sha_and_compare_in_csv": true,
+    "client_batch_window_scope": "final_main_branch_sha_recheck_only",
+    "separate_pr_release_request_windows": "NOT_RETAINED_DO_NOT_INFER_FROM_MAIN_BRANCH_BATCH"
   },
   "selected_zenodo": {
     "object_id": "RS01",
@@ -143,7 +145,8 @@
     "external_extractor_origins_may_be_cached": true,
     "claims_of_nov14_openalex_orcid_full_counts": "UNKNOWN",
     "no_external_adoption_claim": true,
-    "no_nov14_all_doi_census": true
+    "no_nov14_all_doi_census": true,
+    "github_pr_and_release_request_clocks": "NOT_RETAINED_PER_REQUEST"
   },
   "changes": {
     "source_or_schema_defect_verified": false,
@@ -152,7 +155,8 @@
     "prior_raw_modified": false,
     "new_release_or_doi": "NONE",
     "ci_status_at_authoring": "NOT_EXECUTED",
-    "pr_status_at_authoring": "NOT_CREATED"
+    "pr_status_at_authoring": "NOT_CREATED",
+    "derived_provenance_scope_reconciliation": "reconciliation.md"
   },
   "disposition": "PARTIAL_WITH_VERIFIED_GITHUB_DELTAS_AND_SELECTED_RS01_ZENODO_COUNTER_AND_PRESERVED_PLATFORM_UNKNOWNS"
 }
