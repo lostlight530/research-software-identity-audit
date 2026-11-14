@@ -248,3 +248,5 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 - [2026-11-12 / 01-identity-claim-reconciliation](2026-11-12/01-identity-claim-reconciliation/) — independent public-source recheck and separately attributed OpenAIRE claim reconciliation
 - [2026-11-13 / 01-full-institutional-recheck](2026-11-13/01-full-institutional-recheck/) — corrected GitHub cloud 458-attempt public audit, 34 surfaces, exact DOI identity reconciliation, ORCID/Zenodo deltas, SWH and institution interaction evidence; diagnostic, no prospective cells.
+
+- [2026-11-14 / 01-periodic-identity-infrastructure-recheck](2026-11-14/01-periodic-identity-infrastructure-recheck/README.md) — 11 direct GitHub main/PR/Release comparisons against the Nov 13 original source captures (309 RS + 4 CONTROL ahead commits), 34 attempted supplementary sources with 29 day-bucket extracts and five explicit errors, selected RS01 Zenodo attached family delta (+12 views / +1 download), unchanged directly verified institution-facing PR/Issue states and explicit zero prospective cells; full Nov 14 seven-platform DOI census not executed
