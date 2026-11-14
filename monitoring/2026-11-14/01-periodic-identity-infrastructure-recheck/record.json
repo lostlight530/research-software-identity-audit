@@ -1,0 +1,158 @@
+{
+  "record_class": "bounded_diagnostic_source_access_not_prospective",
+  "logical_date": "2026-11-14",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_client_utc": "2026-11-14T05:21:14.742Z",
+  "prior_source": {
+    "reference": "monitoring/2026-11-13/01-full-institutional-recheck/record.json",
+    "capture_start_utc": "2026-11-12T17:06:46.320272+00:00",
+    "capture_end_utc": "2026-11-12T17:07:52.118572+00:00",
+    "known_doi_inventory": 102,
+    "prior_full_attempts": 458,
+    "prior_family_zenodo_views_fixed_ten": 3849,
+    "prior_family_zenodo_downloads_fixed_ten": 37
+  },
+  "contract": {
+    "frozen_osf_registration": "https://osf.io/5b329/overview",
+    "original_schema_response": "6ac3ae5e6da32e3d0576ed72",
+    "approved_revision": "6ac4c12fed97b8b77ce88a9c",
+    "changed_original_vs_approved_field": "344-83",
+    "fixed_sample": "RS01-RS10",
+    "fixed_sample_objects": 10,
+    "control_is_rs11": false,
+    "analytical_layers": 6,
+    "planned_object_layer_units_per_eligible_timepoint": 60,
+    "operational_platforms": 7,
+    "possible_platform_checks_not_analytical_units": 70,
+    "declared_operational_schedule_offsets": false,
+    "prospective_dataset_member": false,
+    "prospective_cells_added": 0,
+    "osf_written": false,
+    "baseline_rewritten": false
+  },
+  "github": {
+    "source": "direct_GitHub_connector_REST_API",
+    "client_batch_window_utc": [
+      "2026-11-14T05:17:13.240Z",
+      "2026-11-14T05:17:14.548Z"
+    ],
+    "heads": "github-main-heads.csv",
+    "pinned_prior_from_original_nov13_attempts": true,
+    "repository_count": 11,
+    "open_pr_count": 0,
+    "mains_ahead": 11,
+    "mains_behind": 0,
+    "comparison_sum_main_reachable_commits": 313,
+    "fixed_ten_sum_main_reachable_commits": 309,
+    "control_main_reachable_commits": 4,
+    "published_releases_fixed_ten": 60,
+    "control_releases": 5,
+    "latest_fixed_release": "v2026.11-ten-day-evidence-checkpoint",
+    "latest_fixed_release_date_utc": "2026-11-10",
+    "new_fixed_releases_since_nov13": 0,
+    "merge_events_current_nov14_fixed_ten_confirmed": 10,
+    "per_repo_latest_sha_and_compare_in_csv": true
+  },
+  "selected_zenodo": {
+    "object_id": "RS01",
+    "source_locator": "https://zenodo.org/api/records/23365504/versions/latest",
+    "current_version_record_id": 24112453,
+    "version_doi": "10.5281/zenodo.24112453",
+    "concept_doi": "10.5281/zenodo.22790907",
+    "version": "v2026.11-ten-day-evidence-checkpoint",
+    "prior_nov13_attached_family_views": 435,
+    "selected_nov14_attached_family_views": 447,
+    "delta_views": 12,
+    "prior_attached_family_downloads": 8,
+    "selected_attached_family_downloads": 9,
+    "delta_downloads": 1,
+    "selected_version_views": 5,
+    "selected_version_downloads": 1,
+    "extractor_acquired_utc_day": "2026-11-14T00:00:00Z",
+    "extractor_receipt": "extract_83601ada238462b7163bdf2fcb547385",
+    "current_full_six_version_sum_not_recomputed": true,
+    "original_http_bytes_retained": false,
+    "provider_http_response_clock_unknown": true,
+    "unique_human_adoption_inferred": false
+  },
+  "seven_platforms": {
+    "github": "DIRECT_CURRENT_ELEVEN_HEADS_OPEN_PRS_RELEASES",
+    "zenodo": "SELECTED_RS01_UTC_DAY_EXTRACT_ONLY_NOT_CURRENT_TEN_FAMILY_CENSUS",
+    "datacite": "NOV13_102_FINDABLE_LAST_FULL_NOT_RECHECKED_TODAY",
+    "orcid": "NOV13_18_GROUPS_117_SUMMARIES_LAST_FULL_NOT_RECOUNTED_TODAY",
+    "software_heritage": "NOV13_10_FULL_LATEST_ORIGIN_VISITS_NOT_RECHECKED_TODAY_EXTRACT_IS_DOCUMENTATION",
+    "openaire": "NOV13_94_OF_102_DOI_QUERY_POSITIVE_LAST_FULL_NOT_RECHECKED_TODAY",
+    "openalex": "NOV13_33_EXACT_CANONICAL_AND_69_NONMATCH_LAST_FULL_NOT_RECHECKED_TODAY",
+    "complete_current_ten_by_seven_platform_census": false
+  },
+  "supplementary_surfaces": {
+    "attempt_count": 34,
+    "extractor_representations": 29,
+    "errors": 5,
+    "error_surface_ids": [
+      11,
+      13,
+      14,
+      24,
+      25
+    ],
+    "receipts": [
+      "extract_c2052be9537d8db645eab2ac394c1632",
+      "extract_b335feb673f5855fa7e80d31ee32b06c"
+    ],
+    "acquisition_day_bucket_counts": {
+      "logical_utc_day": 3,
+      "previous_utc_day": 1,
+      "older_utc_day": 25
+    },
+    "source_csv": "surface-access-recheck.csv",
+    "original_provider_http_body_bytes_saved": false,
+    "successful_extraction_is_provider_live_state": false,
+    "known_200_semantic_validation_not_assumed": true,
+    "extraction_source_clock_granularity": "UTC_DAY_ONLY"
+  },
+  "institutional": {
+    "RSD_1870": "CLOSED_2026-10-16_UNCHANGED_DEPLOYMENT_UNVERIFIED",
+    "RSD_1871": "OPEN_UPDATED_2026-10-16_UNCHANGED",
+    "RSE_PR_498": "OPEN_UNMERGED_LAST_UPDATE_2026-10-07",
+    "SciCrunch_RRID": "SCR_029105_PUBLIC_SEARCH_HISTORICAL_NOT_FRESH_CURATION",
+    "new_confirmed_direct_institutional_interaction": "NOT_VERIFIED",
+    "account_authentication_check": "NOT_EXECUTED",
+    "scientific_endorsement_inferred": false
+  },
+  "lifecycle_pinned": {
+    "control_repository_created_utc": "2026-10-05T14:59:45Z",
+    "control_first_main_commit": "e5ba0a0e7dc548bd5bd3e79b4d7fc0cb95e528aa",
+    "control_nov03_pre_audit_commits": 104,
+    "control_nov03_pre_audit_files": 620,
+    "control_nov05_pre_maintenance_commits": 110,
+    "control_nov05_pre_maintenance_files": 637,
+    "control_nov14_pre_new_record_commits": 143,
+    "control_nov14_pre_new_record_files": 760,
+    "control_nov14_dated_monitoring_events": 72,
+    "control_nov14_dated_evidence_companions": 26,
+    "control_nov14_pr_total": 112,
+    "control_nov14_pr_merged": 111,
+    "control_nov14_pr_closed_unmerged": 1,
+    "inventory_is_not_full_source_body_replay": true,
+    "earlier_point_in_time_counters_not_rewritten": true
+  },
+  "evidence_and_failures": {
+    "original_current_provider_http_bodies_and_headers": "NOT_RETAINED",
+    "hashes_of_nov13_previous_source": "d52b84134f0e88f30c71cee87d1718ae34d34b0863726c35cc4c271c06e8084e",
+    "external_extractor_origins_may_be_cached": true,
+    "claims_of_nov14_openalex_orcid_full_counts": "UNKNOWN",
+    "no_external_adoption_claim": true,
+    "no_nov14_all_doi_census": true
+  },
+  "changes": {
+    "source_or_schema_defect_verified": false,
+    "source_code_or_schema_repair": "NO_CHANGE_REQUIRED",
+    "new_monitoring_entry": "APPEND_ONLY",
+    "prior_raw_modified": false,
+    "new_release_or_doi": "NONE",
+    "ci_status_at_authoring": "NOT_EXECUTED",
+    "pr_status_at_authoring": "NOT_CREATED"
+  },
+  "disposition": "PARTIAL_WITH_VERIFIED_GITHUB_DELTAS_AND_SELECTED_RS01_ZENODO_COUNTER_AND_PRESERVED_PLATFORM_UNKNOWNS"
+}
