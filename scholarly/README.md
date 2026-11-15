@@ -17,6 +17,8 @@ This repository participates in a wider scholarly-object graph, but each surface
 
 Machine-readable identifier roles are recorded in `identifiers.yaml`. Human citation guidance is in `CITATION.md`.
 
+**2026-11-15 maintainer-interface cross-platform crosswalk:** [ORCID / DataCite / OpenAIRE / OpenAlex / WorkflowHub / OSF count and identifier reconciliation](maintainer-interface-crosswalk-2026-11-15.md) compares the separately sourced 102-known-DOI direct request cohort with the supplied 103-DOI DataCite ORCID facet, records two independent OSF Registration/Project pairs and OpenAlex version-aggregation semantics, and preserves unresolved membership/clock gaps. This is interpretive, non-prospective, not an amendment, provider recapture, new DOI or scientific adoption result.
+
 ## Zenodo role
 
 The Zenodo concept DOI identifies the evolving repository across versions.
