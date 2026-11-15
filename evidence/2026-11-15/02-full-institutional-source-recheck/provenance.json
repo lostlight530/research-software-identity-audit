@@ -1,0 +1,14 @@
+{
+  "authorization_headers_retained": false,
+  "capture_end_utc": "2026-11-15T14:13:54.131351+00:00",
+  "capture_start_utc": "2026-11-15T14:13:01.443173+00:00",
+  "class": "source_attempt_provenance_not_prospective",
+  "github_ref": "research/2026-11-15-full-public-capture",
+  "github_run_id": "43723123557",
+  "github_sha": "4628e07f2b3c9fea35502b6a7a82f2bdeee33de1",
+  "prior_ledger_sha256": "d52b84134f0e88f30c71cee87d1718ae34d34b0863726c35cc4c271c06e8084e",
+  "provider_raw_bytes_retained": false,
+  "reconcile_script": "monitoring/2026-11-15/02-full-institutional-source-recheck/reconcile.py",
+  "source_collector": "monitoring/2026-11-13/01-full-institutional-recheck/collector.py",
+  "source_ledger_sha256": "2da942cd595f34d959d26333f7521f06780f887da885255b0122a6b87093785d"
+}

@@ -1,0 +1,183 @@
+{
+  "by_scope": {
+    "datacite_doi": {
+      "attempted": 102,
+      "failed_or_partial": 0,
+      "http_200": 102,
+      "http_statuses": {
+        "200": 102
+      },
+      "relations": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 102
+      }
+    },
+    "github_main": {
+      "attempted": 11,
+      "failed_or_partial": 0,
+      "http_200": 11,
+      "http_statuses": {
+        "200": 11
+      },
+      "relations": {
+        "SELECTED_FIELDS_CHANGED": 11
+      }
+    },
+    "github_releases": {
+      "attempted": 11,
+      "failed_or_partial": 0,
+      "http_200": 11,
+      "http_statuses": {
+        "200": 11
+      },
+      "relations": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 11
+      }
+    },
+    "openaire_doi": {
+      "attempted": 102,
+      "failed_or_partial": 0,
+      "http_200": 102,
+      "http_statuses": {
+        "200": 102
+      },
+      "relations": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 102
+      }
+    },
+    "openalex_doi": {
+      "attempted": 102,
+      "failed_or_partial": 0,
+      "http_200": 102,
+      "http_statuses": {
+        "200": 102
+      },
+      "relations": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 100,
+        "SELECTED_FIELDS_CHANGED": 2
+      }
+    },
+    "rsd_issue": {
+      "attempted": 2,
+      "failed_or_partial": 0,
+      "http_200": 2,
+      "http_statuses": {
+        "200": 2
+      },
+      "relations": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 2
+      }
+    },
+    "rsd_person": {
+      "attempted": 1,
+      "failed_or_partial": 0,
+      "http_200": 1,
+      "http_statuses": {
+        "200": 1
+      },
+      "relations": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 1
+      }
+    },
+    "rsd_project": {
+      "attempted": 1,
+      "failed_or_partial": 0,
+      "http_200": 1,
+      "http_statuses": {
+        "200": 1
+      },
+      "relations": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 1
+      }
+    },
+    "rsd_software": {
+      "attempted": 11,
+      "failed_or_partial": 0,
+      "http_200": 11,
+      "http_statuses": {
+        "200": 11
+      },
+      "relations": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 11
+      }
+    },
+    "surface": {
+      "attempted": 34,
+      "failed_or_partial": 7,
+      "http_200": 27,
+      "http_statuses": {
+        "200": 28,
+        "403": 3,
+        "404": 2,
+        "None": 1
+      },
+      "relations": {
+        "RECOVERED": 3,
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 23,
+        "SELECTED_FIELDS_CHANGED": 1,
+        "UNRESOLVED": 7
+      }
+    },
+    "swh_origin": {
+      "attempted": 10,
+      "failed_or_partial": 0,
+      "http_200": 10,
+      "http_statuses": {
+        "200": 10
+      },
+      "relations": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 10
+      }
+    },
+    "workflowhub": {
+      "attempted": 4,
+      "failed_or_partial": 0,
+      "http_200": 4,
+      "http_statuses": {
+        "200": 4
+      },
+      "relations": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 4
+      }
+    },
+    "zenodo_version": {
+      "attempted": 67,
+      "failed_or_partial": 0,
+      "http_200": 67,
+      "http_statuses": {
+        "200": 67
+      },
+      "relations": {
+        "SELECTED_FIELDS_CHANGED": 67
+      }
+    }
+  },
+  "computed_utc": "2026-11-15T14:13:54.256428+00:00",
+  "current": {
+    "datacite_findable": 102,
+    "openaire_positive_queries": 94,
+    "openalex_distinct_returned_work_ids": 33,
+    "openalex_exact_canonical_matches": 33,
+    "orcid_groups": 18,
+    "orcid_summaries": 117,
+    "rsd_issues": {
+      "1870": "closed",
+      "1871": "open"
+    },
+    "swh_full_origin_latest_visits": 10,
+    "workflowhub_json_success": 4,
+    "zenodo_all67_success_rows": 67,
+    "zenodo_fixed60_success_rows": 60,
+    "zenodo_fixed60_version_downloads": 39,
+    "zenodo_fixed60_version_views": 4059
+  },
+  "derived_from": "exact 458 source keys from Nov 13 and Nov 15",
+  "new_prospective_cells": 0,
+  "not_original_http_byte_comparison": true,
+  "old": {
+    "openaire_positive": 94,
+    "orcid_groups": 18,
+    "orcid_summaries": 117,
+    "zenodo_downloads": 37,
+    "zenodo_views": 3849
+  }
+}
