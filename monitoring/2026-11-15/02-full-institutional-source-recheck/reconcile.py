@@ -66,7 +66,7 @@ for scope,count in sorted(EXPECTED.items()):
                     "http_statuses":dict(Counter(str(x["http_status"]) for x in cur)),
                     "relations":dict(states)}
 with (M/"request-delta-vs-2026-11-13.csv").open("w",newline="",encoding="utf-8") as f:
-    w=csv.writer(f)
+    w=csv.writer(f,lineterminator="\n")
     w.writerow(["scope","key","locator","previous_http","current_http",
                 "previous_failure","current_failure","derived_relation","retrieved_at_utc"])
     w.writerows(changes)
