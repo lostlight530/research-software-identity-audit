@@ -1,0 +1,25 @@
+{
+  "scope": "Published minimised public diagnostics: file integrity, not third-party origin HTTP bytes",
+  "files": [
+    {
+      "path": "evidence/2026-11-15/02-full-institutional-source-recheck/source-attempts.jsonl",
+      "bytes": 258133,
+      "sha256": "2da942cd595f34d959d26333f7521f06780f887da885255b0122a6b87093785d"
+    },
+    {
+      "path": "evidence/2026-11-15/02-full-institutional-source-recheck/selected-fields.jsonl",
+      "bytes": 136988,
+      "sha256": "08cf239b424f97ae463597e5751ed898356552cfaca70f9add27485bd75b4960"
+    },
+    {
+      "path": "evidence/2026-11-15/02-full-institutional-source-recheck/summary.json",
+      "bytes": 3282,
+      "sha256": "bb4046368002fc560fe63059a26ad323dd1e21d4b4cea074ebb9b4fb52e87a0e"
+    },
+    {
+      "path": "evidence/2026-11-15/02-full-institutional-source-recheck/provenance.json",
+      "bytes": 785,
+      "sha256": "eb53cabf2b38bedb3c0e5d359e3ad5694d32b8ceec76f33d0f2edc9c47206963"
+    }
+  ]
+}
