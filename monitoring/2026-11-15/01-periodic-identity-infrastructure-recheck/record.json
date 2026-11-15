@@ -1,0 +1,94 @@
+{
+  "record_class": "repository_first_diagnostic_identity_and_surface_access_not_prospective",
+  "logical_date": "2026-11-15",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_utc": "2026-11-15T13:55:13.444Z",
+  "source_clock_limitation": "earlier per-request client retrieval clocks not retained; GitHub provider commit timestamps are NOT API retrieval timestamps; web crawl dates vary",
+  "contract": {
+    "original_osf_registration": "https://osf.io/5b329/overview",
+    "original_schema_response": "6ac3ae5e6da32e3d0576ed72",
+    "approved_oct06_schema_response": "6ac4c12fed97b8b77ce88a9c",
+    "only_changed_exploratory_field": "344-83",
+    "sample_ids": "RS01-RS10",
+    "control_is_rs11": false,
+    "analytical_layers": 6,
+    "units_per_eligible_timepoint": 60,
+    "platforms": 7,
+    "possible_platform_checks_not_units": 70,
+    "operational_offsets_declared": false,
+    "new_prospective_cells": 0
+  },
+  "github": {
+    "head_csv": "github-main-heads.csv",
+    "compare_from": "monitoring/2026-11-14/01-periodic-identity-infrastructure-recheck/github-main-heads.csv",
+    "current_pre_record_control_main": "51892b6720fc039d3603c60b857707dcccbf1732",
+    "eleven_main_branches_checked": true,
+    "eleven_open_pr_lists_checked": true,
+    "all_open_pr_counts_zero": true,
+    "all_behind_by_zero": true,
+    "main_reachable_commits_ahead": 126,
+    "fixed_ten_commits_ahead": 124,
+    "control_commits_ahead": 2,
+    "not_all_commits_created_nov15": true,
+    "ten_fixed_release_count": 60,
+    "control_release_count": 5,
+    "latest_fixed_release": "v2026.11-ten-day-evidence-checkpoint",
+    "nov15_new_published_fixed_release": false,
+    "previous_control_main_ci": {
+      "url": "https://github.com/lostlight530/research-software-identity-audit/actions/runs/43580590514",
+      "result": "success",
+      "advisory_not_origin_replay": true
+    }
+  },
+  "tree": {
+    "source": "11 untruncated GitHub recursive trees pinned to pre-record main",
+    "summary_csv": "repository-tree-summary.csv",
+    "tracked_blob_count": 9193,
+    "common_transient_path_pattern_matches": 0,
+    "body_level_semantic_review": "PARTIAL",
+    "no_proven_safe_deletion": true,
+    "renames_executed": 0,
+    "deletions_executed": 0,
+    "prior_same_blob_candidates": "12 groups 26 paths, Nov10 CONTROL snapshot, not rehashed this run"
+  },
+  "surfaces": {
+    "canonical_list": "34 original URLs from Nov13 collector.py",
+    "attempts": 34,
+    "github_structured": 2,
+    "web_html_extracted": 6,
+    "web_extractor_unavailable_or_unsupported": 26,
+    "ledger_csv": "surface-access-recheck.csv",
+    "origin_http_bytes_retained": false,
+    "per_request_http_codes_retained": false,
+    "web_content_not_always_current": true,
+    "not_a_complete_indexing_census": true
+  },
+  "seven_operational_platforms": {
+    "github": "DIRECT_11_REPO_READS",
+    "zenodo": "NOV15_COHORT_NOT_EXECUTED",
+    "datacite": "NOV15_102_DOI_RECHECK_NOT_EXECUTED",
+    "orcid": "NOV15_GROUP_RECOUNT_NOT_EXECUTED",
+    "software_heritage": "NOV15_FULL_ORIGIN_RECHECK_NOT_EXECUTED",
+    "openaire": "NOV15_DOI_RECHECK_NOT_EXECUTED",
+    "openalex": "NOV15_DOI_RECHECK_NOT_EXECUTED",
+    "dated_nov13_prior": "monitoring/2026-11-13/01-full-institutional-recheck/record.json"
+  },
+  "institutional": {
+    "rsd_1870": "CLOSED_2026-10-16_FIX_DEPLOYMENT_UNKNOWN",
+    "rsd_1871": "OPEN_LAST_UPDATE_2026-10-16",
+    "rse_498": "OPEN_UNMERGED_LAST_UPDATE_2026-10-07",
+    "scicrunch": "RRID_SCR_029105_CURRENT_CURATION_UNKNOWN",
+    "private_account_or_institution_action": "NOT_EXECUTED"
+  },
+  "decision": {
+    "identity_source": "CURRENT_CORPUS_MANIFEST_NOT_OLD_HANDOFF",
+    "cleanup": "NO_SAFE_RENAME_OR_DELETE",
+    "code_fix": "NO_CHANGE_REQUIRED_BASED_ON_BOUNDED_SCAN",
+    "osf_modified": false,
+    "history_modified": false,
+    "release_created": false,
+    "doi_created": false,
+    "prospective_promoted": false,
+    "full_scientific_validation": "NOT_CLAIMED"
+  }
+}
