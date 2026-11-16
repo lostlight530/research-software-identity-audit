@@ -1,0 +1,110 @@
+name: TEMPORARY portfolio runtime and 458-source selftest
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/temporary-full-selftest-2026-11-17.yml'
+      - 'tools/temporary_portfolio_selftest_20261117.py'
+      - 'tools/temporary_full_source_compare_20261117.py'
+permissions:
+  contents: read
+jobs:
+  repository-runtime:
+    name: runtime-${{ matrix.repo }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 11
+      matrix:
+        include:
+          - { repo: welcome-to-github, sha: "90a1273d7be2f5f3e495e72ce5076d392219c8a8", python: "3.10", node: "20" }
+          - { repo: zero-entropy-lab, sha: "0443b69925f2fc29d4c9d68a832fed53f77104ae", python: "3.10", node: "24" }
+          - { repo: Axiom-0, sha: "18b16ac4fd6518d190850522ea332e409908c828", python: "3.12", node: "24" }
+          - { repo: reflective-continuum, sha: "43702e21e65a64cc97cfa5de6207eb07b3ba1756", python: "3.12", node: "24" }
+          - { repo: agent-foundations, sha: "9916fff1c7e75f8e93db5182949ca095cdc078c9", python: "3.12", node: "24" }
+          - { repo: auto-doc-engine, sha: "9a570d7708b5ca1087838dfc62cfc6c92d7764a9", python: "3.13", node: "24" }
+          - { repo: epistemic-pipeline, sha: "6cad6973fd5b708d4101fe15b9b8d35492b9d1d3", python: "3.13", node: "24" }
+          - { repo: sci-render-kit, sha: "0cf783fe9664874e541af4e79fcebdb6d9044b63", python: "3.13", node: "24" }
+          - { repo: china-agentic-observatory, sha: "54b8dc0d9da3c342dff0df6ab7972f66e78f9b64", python: "3.12", node: "24" }
+          - { repo: agentic-frontier-observatory, sha: "e54710d74bc938c90f6cbcbca8aa210206d7353c", python: "3.12", node: "24" }
+          - { repo: research-software-identity-audit, sha: "66bb844b4147cf3c34984a17389b9884230b880e", python: "3.12", node: "24" }
+    steps:
+      - name: Checkout isolated temporary test driver
+        uses: actions/checkout@v4
+        with:
+          path: driver
+          persist-credentials: false
+      - name: Checkout pinned public source
+        uses: actions/checkout@v4
+        with:
+          repository: lostlight530/${{ matrix.repo }}
+          ref: ${{ matrix.sha }}
+          path: target
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Run all published repository-native tests or document structural-only scope
+        run: |
+          python -B driver/tools/temporary_portfolio_selftest_20261117.py \
+            --repo "${{ matrix.repo }}" \
+            --source target \
+            --expected-sha "${{ matrix.sha }}" \
+            --output "${{ runner.temp }}/portfolio-results/${{ matrix.repo }}"
+      - name: Upload per-repository execution receipts and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: repo-${{ matrix.repo }}-${{ github.run_id }}
+          path: ${{ runner.temp }}/portfolio-results/${{ matrix.repo }}/
+          retention-days: 30
+          if-no-files-found: warn
+
+  public-source-cohort:
+    name: read-only-458-sources
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: driver
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Recapture exact 102 DOI plus 67 Zenodo versions and 34 supplementary URLs
+        env:
+          AUDIT_OUTPUT: ${{ runner.temp }}/public-458/evidence
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -B driver/monitoring/2026-11-13/01-full-institutional-recheck/collector.py
+      - name: Assert 458 exact keys against 15 Nov comparator and maintain unknowns
+        run: |
+          python -B driver/tools/temporary_full_source_compare_20261117.py \
+            --previous driver/evidence/2026-11-15/02-full-institutional-source-recheck/source-attempts.jsonl \
+            --current "${{ runner.temp }}/public-458/evidence/source-attempts.jsonl" \
+            --output "${{ runner.temp }}/public-458/comparison"
+      - name: Upload UTC request ledgers, response SHA256, selected fields and exact-key reconciliation
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-458-${{ github.run_id }}
+          path: ${{ runner.temp }}/public-458/
+          retention-days: 30
+          if-no-files-found: warn
+
+  receipts:
+    name: all-job-status-receipt
+    runs-on: ubuntu-latest
+    needs: [repository-runtime, public-source-cohort]
+    if: always()
+    steps:
+      - name: Summarize actual matrix and source-run state
+        env:
+          REPOS: ${{ needs.repository-runtime.result }}
+          SOURCES: ${{ needs.public-source-cohort.result }}
+        run: |
+          printf 'REPOSITORY_MATRIX=%s\nSOURCE_458=%s\n' "$REPOS" "$SOURCES"
+          test "$REPOS" = success && test "$SOURCES" = success
