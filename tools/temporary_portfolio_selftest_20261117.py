@@ -76,6 +76,8 @@ elif name=="reflective-continuum":
 elif name=="agent-foundations":
     run("foundation_validate",[python,"FOUNDATION/validate.py"])
     run("foundation_contract",[python,"-m","unittest","FOUNDATION.test_contract","-v"])
+    run("fetch_origin_main_for_protected_path",["git","fetch","origin","main"])
+    run("validate_explicit_readme_exception",[python,"FOUNDATION/validate.py","--base-ref","origin/main","--allow-protected","README.md"])
 elif name in ["auto-doc-engine","epistemic-pipeline","sci-render-kit"]:
     # Python 3.13 observed pin file is an environment description, not a scientific lock.
     run("install_repo_python_deps",[python,"-m","pip","install","-r","requirements-python313.txt"],timeout=900)
