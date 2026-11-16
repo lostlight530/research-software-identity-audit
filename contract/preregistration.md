@@ -1,5 +1,27 @@
 # Frozen research contract
 
+## 中文专业对应与范围 / Chinese subject counterpart and scope
+
+**实质研究对象 / Exact subject:** OSF 冻结研究方案覆盖 RS01–RS10、六层、每计划时点 60 个对象层单位，绝不把七平台 70 项检查替代原始设计
+
+**English owning title:** Frozen research contract
+
+**冻结保护 / Freeze guard:** 本段只是原有条款的非规范性语言指引，不构成对 OSF Registration 的写入、增补、修订或新计划时点 / This is a non-normative translation aid, not an amendment to the registered contract
+
+**单位与版本 / Unit and version:** 读者需要同时确认 RS01–RS10、六层与七具体平台的不同口径，以及原始研究、版本化软件发行、实时外部平台数据的独立身份，任何未知保持未核实 / Keep distinct denominators, exact release identity, observation clocks, unknown source responses and the frozen preregistered boundary
+
+| English original section / 原文章节 | 中文定位 / Chinese mapping |
+| --- | --- |
+| Frozen boundaries | 冻结的研究边界 |
+| Evidence rule | 证据认定规则 |
+| Schedule representation | 时间计划与真实执行 |
+| Authority order | 权威先后关系 |
+| Clause-level Overview crosswalk (2026-10-08) | 对应的受限研究过程与原始记录 |
+| Dated OSF Schema Response version reconciliation (2026-10-30) | 对应的受限研究过程与原始记录 |
+
+**历史不回写 / Non-retroactivity:** 此语言补充不改变原始 OSF、历史样本、注册版本、计数或先前失败记录 / This explanatory layer does not modify any historical observation or external registration
+
+
 Canonical research object:
 
 - **Title:** Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures
