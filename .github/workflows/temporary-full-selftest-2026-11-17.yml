@@ -21,13 +21,13 @@ jobs:
           - { repo: zero-entropy-lab, sha: "0443b69925f2fc29d4c9d68a832fed53f77104ae", python: "3.10", node: "24" }
           - { repo: Axiom-0, sha: "18b16ac4fd6518d190850522ea332e409908c828", python: "3.12", node: "24" }
           - { repo: reflective-continuum, sha: "43702e21e65a64cc97cfa5de6207eb07b3ba1756", python: "3.12", node: "24" }
-          - { repo: agent-foundations, sha: "9916fff1c7e75f8e93db5182949ca095cdc078c9", python: "3.12", node: "24" }
+          - { repo: agent-foundations, sha: "95e35a47c6c85ba89b869efad931b08c0adf75e5", python: "3.12", node: "24" }
           - { repo: auto-doc-engine, sha: "9a570d7708b5ca1087838dfc62cfc6c92d7764a9", python: "3.13", node: "24" }
           - { repo: epistemic-pipeline, sha: "6cad6973fd5b708d4101fe15b9b8d35492b9d1d3", python: "3.13", node: "24" }
           - { repo: sci-render-kit, sha: "0cf783fe9664874e541af4e79fcebdb6d9044b63", python: "3.13", node: "24" }
           - { repo: china-agentic-observatory, sha: "54b8dc0d9da3c342dff0df6ab7972f66e78f9b64", python: "3.12", node: "24" }
           - { repo: agentic-frontier-observatory, sha: "e54710d74bc938c90f6cbcbca8aa210206d7353c", python: "3.12", node: "24" }
-          - { repo: research-software-identity-audit, sha: "66bb844b4147cf3c34984a17389b9884230b880e", python: "3.12", node: "24" }
+          - { repo: research-software-identity-audit, sha: "d8c1b89f7c653f2cf7828f9ff40951de23a12752", python: "3.12", node: "24" }
     steps:
       - name: Checkout isolated temporary test driver
         uses: actions/checkout@v4
