@@ -1,0 +1,498 @@
+{
+  "record_class": "bounded_diagnostic_git_api_primary_and_caching_extractor_supplementary_NOT_prospective",
+  "logical_date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "compiled_at_utc": "2026-11-16T18:55:47.618Z",
+  "source_clocks": {
+    "github": "Direct connected GitHub REST and GitHub comparison API in this session; per-request collector UTC receipts not retained",
+    "extractor": "Parallel external extraction acquired_at is UTC day granularity and can be old cache; not original provider response time",
+    "status_codes": "Parallel extractor error HTTP codes, not conclusive provider existence tests",
+    "retrieval_window_exact": "UNKNOWN"
+  },
+  "contract": {
+    "fixed_corpus": "RS01-RS10",
+    "control_is_rs11": false,
+    "analytical_layers": 6,
+    "units_per_eligible_timepoint": 60,
+    "operational_platforms": 7,
+    "possible_object_platform_checks_not_units": 70,
+    "extra_surfaces": 34,
+    "osf_registration": "5b329",
+    "original_schema_response": "6ac3ae5e6da32e3d0576ed72",
+    "oct06_approved_revision": "6ac4c12fed97b8b77ce88a9c",
+    "changed_exploratory_field": "344-83",
+    "operational_time_offsets_declared": false,
+    "new_prospective_cells": 0
+  },
+  "comparator": {
+    "main_sha_source": "2026-11-15 repository-first SHA file for RS01-RS10; for CONTROL its Nov15 post-reconciliation final main 1097d441; not a same-time full 458 key re-capture",
+    "diagnostic_cohort": "monitoring/2026-11-15/02-full-institutional-source-recheck/record.json",
+    "source_458_start": "2026-11-15T14:13:01.443173Z",
+    "source_458_end": "2026-11-15T14:13:54.131351Z"
+  },
+  "github": {
+    "repositories": [
+      {
+        "object_id": "RS01",
+        "repository": "lostlight530/welcome-to-github",
+        "prior_main_sha": "654eb11459e362d1ad168f63cdc29cc1ae681f4e",
+        "pre_record_main_sha": "90a1273d7be2f5f3e495e72ce5076d392219c8a8",
+        "ahead_by": 20,
+        "behind_by": 0,
+        "open_prs": 0,
+        "releases": 6,
+        "latest_release": "v2026.11-ten-day-evidence-checkpoint",
+        "main_url": "https://github.com/lostlight530/welcome-to-github/tree/90a1273d7be2f5f3e495e72ce5076d392219c8a8",
+        "compare_url": "https://github.com/lostlight530/welcome-to-github/compare/654eb11459e362d1ad168f63cdc29cc1ae681f4e...90a1273d7be2f5f3e495e72ce5076d392219c8a8"
+      },
+      {
+        "object_id": "RS02",
+        "repository": "lostlight530/zero-entropy-lab",
+        "prior_main_sha": "432c86f1591afa23cca037f932cbd2eb341c48d5",
+        "pre_record_main_sha": "0443b69925f2fc29d4c9d68a832fed53f77104ae",
+        "ahead_by": 20,
+        "behind_by": 0,
+        "open_prs": 0,
+        "releases": 6,
+        "latest_release": "v2026.11-ten-day-evidence-checkpoint",
+        "main_url": "https://github.com/lostlight530/zero-entropy-lab/tree/0443b69925f2fc29d4c9d68a832fed53f77104ae",
+        "compare_url": "https://github.com/lostlight530/zero-entropy-lab/compare/432c86f1591afa23cca037f932cbd2eb341c48d5...0443b69925f2fc29d4c9d68a832fed53f77104ae"
+      },
+      {
+        "object_id": "RS03",
+        "repository": "lostlight530/Axiom-0",
+        "prior_main_sha": "555ed4ea5c2a7bec99e86e595147c1c53f1d9086",
+        "pre_record_main_sha": "18b16ac4fd6518d190850522ea332e409908c828",
+        "ahead_by": 50,
+        "behind_by": 0,
+        "open_prs": 0,
+        "releases": 6,
+        "latest_release": "v2026.11-ten-day-evidence-checkpoint",
+        "main_url": "https://github.com/lostlight530/Axiom-0/tree/18b16ac4fd6518d190850522ea332e409908c828",
+        "compare_url": "https://github.com/lostlight530/Axiom-0/compare/555ed4ea5c2a7bec99e86e595147c1c53f1d9086...18b16ac4fd6518d190850522ea332e409908c828"
+      },
+      {
+        "object_id": "RS04",
+        "repository": "lostlight530/reflective-continuum",
+        "prior_main_sha": "0abc7321f17853fcd6874ad81ee98f6ffb48e899",
+        "pre_record_main_sha": "43702e21e65a64cc97cfa5de6207eb07b3ba1756",
+        "ahead_by": 45,
+        "behind_by": 0,
+        "open_prs": 0,
+        "releases": 6,
+        "latest_release": "v2026.11-ten-day-evidence-checkpoint",
+        "main_url": "https://github.com/lostlight530/reflective-continuum/tree/43702e21e65a64cc97cfa5de6207eb07b3ba1756",
+        "compare_url": "https://github.com/lostlight530/reflective-continuum/compare/0abc7321f17853fcd6874ad81ee98f6ffb48e899...43702e21e65a64cc97cfa5de6207eb07b3ba1756"
+      },
+      {
+        "object_id": "RS05",
+        "repository": "lostlight530/agent-foundations",
+        "prior_main_sha": "608bf59eb503effdf211aa2f9b448f24d3ede0dc",
+        "pre_record_main_sha": "9916fff1c7e75f8e93db5182949ca095cdc078c9",
+        "ahead_by": 79,
+        "behind_by": 0,
+        "open_prs": 0,
+        "releases": 6,
+        "latest_release": "v2026.11-ten-day-evidence-checkpoint",
+        "main_url": "https://github.com/lostlight530/agent-foundations/tree/9916fff1c7e75f8e93db5182949ca095cdc078c9",
+        "compare_url": "https://github.com/lostlight530/agent-foundations/compare/608bf59eb503effdf211aa2f9b448f24d3ede0dc...9916fff1c7e75f8e93db5182949ca095cdc078c9"
+      },
+      {
+        "object_id": "RS06",
+        "repository": "lostlight530/auto-doc-engine",
+        "prior_main_sha": "bb21be87f0ccc62245a01fbacb05cc70a53340f9",
+        "pre_record_main_sha": "9a570d7708b5ca1087838dfc62cfc6c92d7764a9",
+        "ahead_by": 15,
+        "behind_by": 0,
+        "open_prs": 0,
+        "releases": 6,
+        "latest_release": "v2026.11-ten-day-evidence-checkpoint",
+        "main_url": "https://github.com/lostlight530/auto-doc-engine/tree/9a570d7708b5ca1087838dfc62cfc6c92d7764a9",
+        "compare_url": "https://github.com/lostlight530/auto-doc-engine/compare/bb21be87f0ccc62245a01fbacb05cc70a53340f9...9a570d7708b5ca1087838dfc62cfc6c92d7764a9"
+      },
+      {
+        "object_id": "RS07",
+        "repository": "lostlight530/epistemic-pipeline",
+        "prior_main_sha": "12f203ffb78e7ee97b96f3438811a60b53cac934",
+        "pre_record_main_sha": "6cad6973fd5b708d4101fe15b9b8d35492b9d1d3",
+        "ahead_by": 16,
+        "behind_by": 0,
+        "open_prs": 0,
+        "releases": 6,
+        "latest_release": "v2026.11-ten-day-evidence-checkpoint",
+        "main_url": "https://github.com/lostlight530/epistemic-pipeline/tree/6cad6973fd5b708d4101fe15b9b8d35492b9d1d3",
+        "compare_url": "https://github.com/lostlight530/epistemic-pipeline/compare/12f203ffb78e7ee97b96f3438811a60b53cac934...6cad6973fd5b708d4101fe15b9b8d35492b9d1d3"
+      },
+      {
+        "object_id": "RS08",
+        "repository": "lostlight530/sci-render-kit",
+        "prior_main_sha": "df9c2424f661b2f0ef258f0064f4480dc8395913",
+        "pre_record_main_sha": "0cf783fe9664874e541af4e79fcebdb6d9044b63",
+        "ahead_by": 20,
+        "behind_by": 0,
+        "open_prs": 0,
+        "releases": 6,
+        "latest_release": "v2026.11-ten-day-evidence-checkpoint",
+        "main_url": "https://github.com/lostlight530/sci-render-kit/tree/0cf783fe9664874e541af4e79fcebdb6d9044b63",
+        "compare_url": "https://github.com/lostlight530/sci-render-kit/compare/df9c2424f661b2f0ef258f0064f4480dc8395913...0cf783fe9664874e541af4e79fcebdb6d9044b63"
+      },
+      {
+        "object_id": "RS09",
+        "repository": "lostlight530/china-agentic-observatory",
+        "prior_main_sha": "eecf2bb94812ae052ad9a1385e32fea452792367",
+        "pre_record_main_sha": "54b8dc0d9da3c342dff0df6ab7972f66e78f9b64",
+        "ahead_by": 27,
+        "behind_by": 0,
+        "open_prs": 0,
+        "releases": 6,
+        "latest_release": "v2026.11-ten-day-evidence-checkpoint",
+        "main_url": "https://github.com/lostlight530/china-agentic-observatory/tree/54b8dc0d9da3c342dff0df6ab7972f66e78f9b64",
+        "compare_url": "https://github.com/lostlight530/china-agentic-observatory/compare/eecf2bb94812ae052ad9a1385e32fea452792367...54b8dc0d9da3c342dff0df6ab7972f66e78f9b64"
+      },
+      {
+        "object_id": "RS10",
+        "repository": "lostlight530/agentic-frontier-observatory",
+        "prior_main_sha": "1c7079f890a7f0772e9a69726242f964d524a206",
+        "pre_record_main_sha": "e54710d74bc938c90f6cbcbca8aa210206d7353c",
+        "ahead_by": 20,
+        "behind_by": 0,
+        "open_prs": 0,
+        "releases": 6,
+        "latest_release": "v2026.11-ten-day-evidence-checkpoint",
+        "main_url": "https://github.com/lostlight530/agentic-frontier-observatory/tree/e54710d74bc938c90f6cbcbca8aa210206d7353c",
+        "compare_url": "https://github.com/lostlight530/agentic-frontier-observatory/compare/1c7079f890a7f0772e9a69726242f964d524a206...e54710d74bc938c90f6cbcbca8aa210206d7353c"
+      },
+      {
+        "object_id": "CONTROL",
+        "repository": "lostlight530/research-software-identity-audit",
+        "prior_main_sha": "1097d441ab043b2adbc9a8fc6f7f89145a22ee72",
+        "pre_record_main_sha": "2dbf8cfd5ef6705fc3a9e2cd146e4b58b4760b58",
+        "ahead_by": 2,
+        "behind_by": 0,
+        "open_prs": 0,
+        "releases": 6,
+        "latest_release": "v2026.11-nov15-identity-reconciliation",
+        "main_url": "https://github.com/lostlight530/research-software-identity-audit/tree/2dbf8cfd5ef6705fc3a9e2cd146e4b58b4760b58",
+        "compare_url": "https://github.com/lostlight530/research-software-identity-audit/compare/1097d441ab043b2adbc9a8fc6f7f89145a22ee72...2dbf8cfd5ef6705fc3a9e2cd146e4b58b4760b58"
+      }
+    ],
+    "main_ahead_sum_different_repo_grains": 314,
+    "fixed_release_new_since_nov15": false,
+    "control_release_after_nov15_full_capture": "v2026.11-nov15-identity-reconciliation",
+    "control_current_head_ci": {
+      "run_id": 43924524915,
+      "status": "success",
+      "url": "https://github.com/lostlight530/research-software-identity-audit/actions/runs/43924524915"
+    },
+    "full_source_validation": "NOT_EXECUTED"
+  },
+  "institution": {
+    "rsd_issue_1871": {
+      "previous": "open",
+      "current": "closed",
+      "closed_at": "2026-11-16T14:13:33Z",
+      "issue": "https://github.com/research-software-directory/RSD-as-a-service/issues/1871",
+      "upstream_fix_pr": "https://github.com/research-software-directory/RSD-as-a-service/pull/1897",
+      "fix_merged_at": "2026-11-16T14:13:31Z",
+      "fix_merge_commit": "4557b7271cb113c62f95da515d674f20b0924ac5",
+      "change": "MUI Select/MenuItem wraps long options; chip remains one line with full title on hover",
+      "deployed": "UNKNOWN",
+      "user_environment_retest": "NOT_EXECUTED"
+    },
+    "rsd_issue_1870": {
+      "state": "closed",
+      "closed_at": "2026-10-16T12:11:19Z"
+    },
+    "rse_pr_498": {
+      "state": "open",
+      "merged": false,
+      "official_reviews": 0
+    },
+    "scicrunch_rrid_029105": {
+      "curation_status": "UNKNOWN",
+      "ownership": "UNKNOWN"
+    }
+  },
+  "supplementary": {
+    "canonical_urls": "monitoring/2026-11-15/01-periodic-identity-infrastructure-recheck/surface-access-recheck.csv",
+    "extract_ids": [
+      "extract_69ba51a7c9b64ac7b6f68bec2a4c10de",
+      "extract_6521e60335e83ca6b21e00f0d340790e"
+    ],
+    "attempted": 34,
+    "extractor_returned_representations": 29,
+    "extractor_errors": 5,
+    "provider_live_current_verified_count": "NOT_DERIVABLE",
+    "source_results": [
+      {
+        "source_id": 1,
+        "source_name": "WorkflowHub",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-09",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 2,
+        "source_name": "LifeMonitor",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-09",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 3,
+        "source_name": "Helmholtz RSD",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-12",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 4,
+        "source_name": "RSD",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-13",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 5,
+        "source_name": "nfdi.software",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-09",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 6,
+        "source_name": "bio.tools",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-09",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 7,
+        "source_name": "OpenEBench",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-09",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 8,
+        "source_name": "RSE Encyclopedia",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-09",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 9,
+        "source_name": "SciCrunch",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-09",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 10,
+        "source_name": "RRID Portal",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-09",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 11,
+        "source_name": "ScreenIT ASWG",
+        "outcome": "CONNECT_ERROR",
+        "acquired_utc_day": null,
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 12,
+        "source_name": "NIF",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-09",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 13,
+        "source_name": "dkNET",
+        "outcome": "HTTP_ERROR",
+        "acquired_utc_day": null,
+        "extractor_http_error": 403
+      },
+      {
+        "source_id": 14,
+        "source_name": "InterLex",
+        "outcome": "HTTP_ERROR",
+        "acquired_utc_day": null,
+        "extractor_http_error": 404
+      },
+      {
+        "source_id": 15,
+        "source_name": "EDAM",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-16",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 16,
+        "source_name": "ORCID",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-12",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 17,
+        "source_name": "Zenodo",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-14",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 18,
+        "source_name": "DataCite",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 19,
+        "source_name": "OSF Registration",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 20,
+        "source_name": "Internet Archive",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 21,
+        "source_name": "HAL",
+        "outcome": "EXTRACTED_BOT_CHALLENGE",
+        "acquired_utc_day": "2026-10-30",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 22,
+        "source_name": "OpenAlex",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 23,
+        "source_name": "OpenAIRE",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 24,
+        "source_name": "Identifiers.org",
+        "outcome": "HTTP_ERROR",
+        "acquired_utc_day": null,
+        "extractor_http_error": 404
+      },
+      {
+        "source_id": 25,
+        "source_name": "N2T",
+        "outcome": "HTTP_ERROR",
+        "acquired_utc_day": null,
+        "extractor_http_error": 403
+      },
+      {
+        "source_id": 26,
+        "source_name": "Bioregistry",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 27,
+        "source_name": "Handle DOI",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 28,
+        "source_name": "Crossref agency",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 29,
+        "source_name": "Software Heritage",
+        "outcome": "EXTRACTED_DOCUMENTATION_NOT_LATEST_VISIT",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 30,
+        "source_name": "GitHub",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 31,
+        "source_name": "CiteAs",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 32,
+        "source_name": "CWL Viewer",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 33,
+        "source_name": "RO-Crate",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-02-01",
+        "extractor_http_error": null
+      },
+      {
+        "source_id": 34,
+        "source_name": "CFF",
+        "outcome": "EXTRACTED",
+        "acquired_utc_day": "2026-11-04",
+        "extractor_http_error": null
+      }
+    ],
+    "limits": [
+      "cache ages vary; extracted content is not a current-origin census",
+      "HAL challenge and SWH documentation are not scientific identity proof",
+      "403/404 and connection errors do not establish global nonexistence"
+    ]
+  },
+  "platforms": {
+    "github": "DIRECT_11_MAIN_PR_RELEASE_CHECKS",
+    "zenodo": "CURRENT_67_VERSION_COHORT_NOT_EXECUTED; old 4059 views / 39 downloads are Nov15 only",
+    "datacite": "CURRENT_102_KEY_DIRECT_COHORT_NOT_EXECUTED; old 102/102 findable is Nov15 only",
+    "orcid": "CURRENT_STRUCTURED_GROUP_RECOUNT_NOT_EXECUTED; old 18/117 is Nov15 only",
+    "software_heritage": "CURRENT_10_ORIGIN_COHORT_NOT_EXECUTED; old 10 full is Nov15 only",
+    "openaire": "CURRENT_102_KEY_DIRECT_COHORT_NOT_EXECUTED; old 94 positive is Nov15 only",
+    "openalex": "CURRENT_102_KEY_EXACT_CANONICAL_RECHECK_NOT_EXECUTED; old 33 canonical matches is Nov15 only"
+  },
+  "disposition": {
+    "state": "PARTIAL_VERIFIED_GITHUB_AND_RSD_UPSTREAM_CHANGE",
+    "code_fix": "NO_CHANGE_REQUIRED",
+    "new_release": false,
+    "new_doi": false,
+    "baseline_or_historical_raw_rewritten": false,
+    "osf_modified": false,
+    "source_raw_response_bytes_saved": false,
+    "new_prospective_cells": 0,
+    "remaining_unknowns": [
+      "RSD #1897 production deployment and browser verification",
+      "latest full seven-platform and 102-key DOI census",
+      "current Zenodo 60-version comparable usage sums",
+      "34 live provider-origin response status and exact clocks",
+      "SciCrunch curation and ORCID ownership"
+    ]
+  }
+}
