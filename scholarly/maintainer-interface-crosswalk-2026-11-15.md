@@ -1,5 +1,12 @@
 # 2026-11-15 scholarly-interface identity and counting crosswalk
 
+## 中文证据与学术身份对照 / Chinese scholarly identity guidance
+
+**引用界限 / Citation boundary:** OSF Registration DOI 指向冻结研究设计，Zenodo concept DOI 指向软件版本家族，单独 version DOI 只指向精确归档版本，不能将 10 月 31 日 DOI 赋给 11 月 15 日尚未核实的新归档 / Frozen study, software family and exact released artifacts are non-equivalent citation objects
+
+**计数界限 / Population boundary:** 102 个直接查询的 DOI 与维护者界面显示的 103 个 DOI 来源样本不同，缺少独立完整枚举时不能进行集合并算或推导多出的一项身份 / Distinct provider populations must retain their own denominators and source clocks
+
+
 **Status:** maintainer-supplied multi-platform UI transcription reconciled against an existing bounded GitHub-captured source cohort; **not** independently recaptured provider UI, a new positive DOI census, a new research claim, or a prospective study timepoint.
 
 **Receipt date:** 2026-11-15 (Asia/Shanghai conversation date). Original screenshot/page retrieval times, dashboard reporting period, request/response bytes, and UI session identity were **not supplied**. This date is a reconciliation/receipt label, not an invented provider observation timestamp.
