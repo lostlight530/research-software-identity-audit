@@ -1,27 +1,5 @@
 # OSF Overview → repository contract crosswalk (2026-10-08)
 
-## 中文专业对应与范围 / Chinese subject counterpart and scope
-
-**实质研究对象 / Exact subject:** OSF Overview 的条款映射有明确审查截点，原注册与批准后的描述版本必须分开
-
-**English owning title:** OSF Overview → repository contract crosswalk (2026-10-08)
-
-**单位与版本 / Unit and version:** 读者需要同时确认 RS01–RS10、六层与七具体平台的不同口径，以及原始研究、版本化软件发行、实时外部平台数据的独立身份，任何未知保持未核实 / Keep distinct denominators, exact release identity, observation clocks, unknown source responses and the frozen preregistered boundary
-
-| English original section / 原文章节 | 中文定位 / Chinese mapping |
-| --- | --- |
-| Scope and authority | 对应的受限研究过程与原始记录 |
-| Preregistered design and sample | 对应的受限研究过程与原始记录 |
-| RQ-to-analysis map | 对应的受限研究过程与原始记录 |
-| Measured-variable coverage (12 source categories) | 对应的受限研究过程与原始记录 |
-| Six derived analyses and explicit exclusions | 对应的受限研究过程与原始记录 |
-| Eligibility, stopping and schedule: current unresolved operational prerequisite | 对应的受限研究过程与原始记录 |
-| Prior knowledge, missing states and exploratory analysis | 对应的受限研究过程与原始记录 |
-| Alignment disposition | 对应的受限研究过程与原始记录 |
-
-**历史不回写 / Non-retroactivity:** 此语言补充不改变原始 OSF、历史样本、注册版本、计数或先前失败记录 / This explanatory layer does not modify any historical observation or external registration
-
-
 ## Scope and authority
 
 - **Study:** Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures

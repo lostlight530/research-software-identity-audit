@@ -1,29 +1,5 @@
 # Known limitations and contract ambiguities
 
-## 中文专业对应与范围 / Chinese subject counterpart and scope
-
-**实质研究对象 / Exact subject:** 已知局限需要保持类型化未知，缺少历史来源字节或第一个索引时间时不可推导传播延迟
-
-**English owning title:** Known limitations and contract ambiguities
-
-**单位与版本 / Unit and version:** 读者需要同时确认 RS01–RS10、六层与七具体平台的不同口径，以及原始研究、版本化软件发行、实时外部平台数据的独立身份，任何未知保持未核实 / Keep distinct denominators, exact release identity, observation clocks, unknown source responses and the frozen preregistered boundary
-
-| English original section / 原文章节 | 中文定位 / Chinese mapping |
-| --- | --- |
-| KL-001 — Concrete observation offsets are not enumerated in the frozen text export | 对应的受限研究过程与原始记录 |
-| KL-002 — Live endpoints are not historical proof | 对应的受限研究过程与原始记录 |
-| KL-003 — Infrastructure clocks and object semantics differ | 对应的受限研究过程与原始记录 |
-| KL-004 — External access conditions affect observation | 对应的受限研究过程与原始记录 |
-| KL-005 — Analytical layers and operational platforms differ | 对应的受限研究过程与原始记录 |
-| KL-006 — Supplementary institution-facing surfaces are outside the frozen platform vocabulary | 对应的受限研究过程与原始记录 |
-| KL-007 — Summary-level imports do not substitute for raw request evidence | 对应的受限研究过程与原始记录 |
-| KL-008 — Zenodo version-level and attached-family counters may disagree | 对应的受限研究过程与原始记录 |
-| KL-009 — Public institutional listing and RRID index have distinct authority | 对应的受限研究过程与原始记录 |
-| KL-010 — OpenAlex author profile response conflict | 对应的受限研究过程与原始记录 |
-
-**历史不回写 / Non-retroactivity:** 此语言补充不改变原始 OSF、历史样本、注册版本、计数或先前失败记录 / This explanatory layer does not modify any historical observation or external registration
-
-
 This ledger records known representational or operational limitations without rewriting the frozen study contract.
 
 ## KL-001 — Concrete observation offsets are not enumerated in the frozen text export

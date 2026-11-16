@@ -1,5 +1,27 @@
 # Documentation map and maintenance guide
 
+## 2026-11-17 bilingual scholarly-control navigation / 双语科研控制合同导航
+
+**文档责任 / Ownership:** 这是只读导航和解释层，非注册合同、统计 schema、科研观察或研究原始记录的修订 / This is an explanatory pointer only, not a study amendment, new observation or executable schema change
+
+| Canonical owner / 原始拥有者 | 中文解释 / Chinese reading key | English evidence boundary |
+| --- | --- | --- |
+| [Frozen preregistration](../contract/preregistration.md) | 十个固定研究软件对象与六类基础设施层，每次合格观测的分析单位为六十 | The frozen OSF registration remains the sole owner of preregistered scope |
+| [Known limitations](../contract/known-limitations.md) | 不可用的来源、未知索引时钟和缺少原始响应字节不能自动补齐 | Missing, failed or inaccessible provider records remain typed unknowns |
+| [OSF Overview crosswalk](../contract/osf-overview-crosswalk-2026-10-08.md) | 早期条款解释保留原观察截点与当时未知 | A dated crosswalk does not silently absorb later OSF version evidence |
+| [OSF registration versions](../contract/osf-registration-version-governance-2026-11-03.md) | 原始注册与后续获批修订是两个来源身份，不回填为同一历史版本 | Approved revisions do not retroactively modify the original registration text |
+| [Counting rules](../schema/counting-rules.md) | 预注册的六十个对象层单位不同于七个平台潜在的七十个检查 | `10 × 6 = 60` planned analytic cells and `10 × 7 = 70` platform checks are distinct |
+| [Analysis guidance](../analysis/README.md) | 描述性主分析、探索性计算和正式前瞻观测须分开 | Exploratory analysis is not newly preregistered primary inference |
+| [Historical baseline](../baseline/README.md) | 基线身份不会由后续重新采集更改 | Later reconciliations cannot rewrite historical observation time |
+| [Provenance index](../provenance/README.md) | 原始响应、外部服务字段、衍生表和文档解释各自有来源 | Raw, derived, presentation and later interpretation are separate evidence grades |
+| [Amendment ledger](../AMENDMENTS.md) | 仅真实、单独审批的正式研究修订才能形成 amendment 条目 | An explanatory translation is not a new formal amendment |
+| [Deviation ledger](../DEVIATIONS.md) | 保留 2026-11-06 的真实仓库维护偏差与修正链 | The recorded direct-main process deviation remains historically visible |
+
+**当前发行身份 / Release identity:** The November 15 GitHub Release is distinct from the October 31 exact-version Zenodo DOI, whose last independently documented value is `10.5281/zenodo.23839900`, and the November 15 new version DOI is not verified by this document / 新的 GitHub Release 不能继承旧 Zenodo 版本 DOI
+
+**门禁 / Review gate:** Under the existing [documentation-only acceptance boundary](#4-docs-only-maintenance-workflow), this page may clarify contract owners but may not edit their files or silently create research findings / 本文仅承担中英导航，受保护合同的任何内容变更需独立合同审查
+
+
 This file is an **orientation and contribution guide** for the live GitHub research-control repository. It is **not** a new research protocol, operational schedule, observation, correction event, or amendment of the [registered OSF study](https://osf.io/5b329/overview).
 
 For the scientific background start with the [main README](../README.md); for the research-production discipline see [OPEN_RESEARCH.md](../OPEN_RESEARCH.md). The DOI of the separate frozen research plan is [10.17605/OSF.IO/5B329](https://doi.org/10.17605/OSF.IO/5B329).
