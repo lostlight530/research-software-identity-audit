@@ -1,0 +1,186 @@
+{
+  "record_class": "temporary_pr_timestamped_458_request_diagnostic_NOT_PROSPECTIVE",
+  "started_at_utc": "2026-11-16T19:23:09.605189+00:00",
+  "ended_at_utc": "2026-11-16T19:24:10.859130+00:00",
+  "requests": 458,
+  "previous_requests": 458,
+  "identical_key_cohort": true,
+  "new_prospective_cells": 0,
+  "source_previous_ledger_sha256": "2da942cd595f34d959d26333f7521f06780f887da885255b0122a6b87093785d",
+  "source_new_ledger_sha256": "68e9fffee0d0bb876e5164b73d5f7d1294804e2c99a24bfb8b123e71cc7c4d7a",
+  "scope_counts": {
+    "surface": {
+      "attempted": 34,
+      "http_200_without_failure": 27,
+      "failed_or_partial": 7,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 26,
+        "UNRESOLVED": 7,
+        "SELECTED_FIELDS_CHANGED": 1
+      },
+      "http_statuses": {
+        "200": 28,
+        "None": 1,
+        "403": 3,
+        "404": 2
+      }
+    },
+    "datacite_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 102
+      },
+      "http_statuses": {
+        "200": 102
+      }
+    },
+    "openaire_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 102
+      },
+      "http_statuses": {
+        "200": 102
+      }
+    },
+    "openalex_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 102
+      },
+      "http_statuses": {
+        "200": 102
+      }
+    },
+    "zenodo_version": {
+      "attempted": 67,
+      "http_200_without_failure": 67,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SELECTED_FIELDS_CHANGED": 67
+      },
+      "http_statuses": {
+        "200": 67
+      }
+    },
+    "github_main": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SELECTED_FIELDS_CHANGED": 11
+      },
+      "http_statuses": {
+        "200": 11
+      }
+    },
+    "github_releases": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 10,
+        "SELECTED_FIELDS_CHANGED": 1
+      },
+      "http_statuses": {
+        "200": 11
+      }
+    },
+    "rsd_software": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 11
+      },
+      "http_statuses": {
+        "200": 11
+      }
+    },
+    "swh_origin": {
+      "attempted": 10,
+      "http_200_without_failure": 10,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 10
+      },
+      "http_statuses": {
+        "200": 10
+      }
+    },
+    "rsd_issue": {
+      "attempted": 2,
+      "http_200_without_failure": 2,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 1,
+        "SELECTED_FIELDS_CHANGED": 1
+      },
+      "http_statuses": {
+        "200": 2
+      }
+    },
+    "rsd_person": {
+      "attempted": 1,
+      "http_200_without_failure": 1,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 1
+      },
+      "http_statuses": {
+        "200": 1
+      }
+    },
+    "rsd_project": {
+      "attempted": 1,
+      "http_200_without_failure": 1,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 1
+      },
+      "http_statuses": {
+        "200": 1
+      }
+    },
+    "workflowhub": {
+      "attempted": 4,
+      "http_200_without_failure": 4,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 4
+      },
+      "http_statuses": {
+        "200": 4
+      }
+    }
+  },
+  "selected_figures": {
+    "datacite_findable": 102,
+    "openaire_positive_requests": 94,
+    "openalex_exact_canonical_doi_matches": 33,
+    "openalex_distinct_returned_work_ids": 33,
+    "zenodo_fixed60_success": 60,
+    "zenodo_fixed60_version_views": 4105,
+    "zenodo_fixed60_version_downloads": 41,
+    "orcid_groups": 18,
+    "orcid_summaries": 119,
+    "swh_full_latest_visits": 10,
+    "rsd_issues": {
+      "1870": "closed",
+      "1871": "closed"
+    }
+  },
+  "limits": [
+    "Totals use null if any fixed-version record is unavailable; do not turn missing into zero",
+    "HTTP 200 does not imply canonical DOI match; source raw bytes not retained",
+    "No first-index timestamp, no causal attribution, no human visitor count",
+    "Origin retrieval UTC clocks are client recorded, raw HTTP bodies only hashed",
+    "No new release, OSF write, account interaction or planned observation timepoint"
+  ]
+}
