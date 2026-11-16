@@ -6,7 +6,9 @@ This repository participates in a wider scholarly-object graph, but each surface
 
 - **GitHub repository:** https://github.com/lostlight530/research-software-identity-audit
 - **Zenodo concept DOI (all versions):** https://doi.org/10.5281/zenodo.23166490
-- **Latest archived release DOI (2026-10-18):** https://doi.org/10.5281/zenodo.23446162
+- **Most recent independently documented exact Zenodo version DOI / 当前证据最后核实的 Zenodo 版本 DOI:** https://doi.org/10.5281/zenodo.23839900 — October 31, 2026 control-software release, verified in the repository's November 1 release reconciliation
+- **Latest GitHub Release observed on 2026-11-17 / 2026-11-17 核对的最新 GitHub 发行版:** [`v2026.11-nov15-identity-reconciliation`](https://github.com/lostlight530/research-software-identity-audit/releases/tag/v2026.11-nov15-identity-reconciliation) — published 2026-11-15T15:55:57Z; its corresponding new Zenodo exact-version DOI is `NOT_VERIFIED` in this review / 本次未核实该版本对应的新 Zenodo DOI
+- **Historical October 18 evidence-integrity version DOI / 10 月 18 日历史版本 DOI:** https://doi.org/10.5281/zenodo.23446162
 - **Previous evidence-reconciliation release DOI (2026-10-10):** https://doi.org/10.5281/zenodo.23284570
 - **Previous initial-runtime release DOI:** https://doi.org/10.5281/zenodo.23176748
 - **Zenodo historical beta release DOI:** https://doi.org/10.5281/zenodo.23166491
@@ -33,7 +35,7 @@ while the archived beta snapshot is identified by:
 
 `10.5281/zenodo.23166491`
 
-The latest archived version at the October 18 update is `v2026.10-evidence-integrity`, version DOI `10.5281/zenodo.23446162`; the October 10 `v2026.10-evidence-reconciliation` archive remains a historical release. See [citation guidance](CITATION.md) and the [archived citation metadata discrepancy](../RELEASE_POLICY.md#archived-evidence-reconciliation-release--2026-10-10).
+At the October 18 cutoff, the latest verified archived version was `v2026.10-evidence-integrity`, version DOI `10.5281/zenodo.23446162`; the October 10 `v2026.10-evidence-reconciliation` archive remains a historical release. The October 31 version and November 15 GitHub release are separate later objects listed above / 该句仅保留 10 月 18 日的历史观察口径，后续版本不应被倒填到旧截点 See [citation guidance](CITATION.md) and the [archived citation metadata discrepancy](../RELEASE_POLICY.md#archived-evidence-reconciliation-release--2026-10-10).
 
 Future releases must preserve this concept/version distinction.
 
