@@ -1,0 +1,46 @@
+name: TEMPORARY stage verified 2026-11-17 selftest evidence
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/temporary-stage-selftest-2026-11-17.yml'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  stage-minimized-public-evidence:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout isolated temporary staging script
+        uses: actions/checkout@v4
+        with:
+          path: driver
+          persist-credentials: false
+      - name: Checkout CLEAN evidence branch at current corrected main
+        uses: actions/checkout@v4
+        with:
+          ref: research/2026-11-17-full-selftest-evidence
+          path: deposit
+          persist-credentials: true
+      - name: Download all 12 result artifacts from successful 11-run and 458-source job
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 43938763232
+          github-token: ${{ github.token }}
+          pattern: '*-43938763232'
+          path: deposit/artifact-bundle
+      - name: Verify 458 exact unique keys, 11 green results and stage minimized evidence
+        working-directory: deposit
+        run: python -B ../driver/tools/temporary_stage_selftest_20261117.py
+      - name: Review machine checksum and commit to evidence-only branch
+        working-directory: deposit
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add monitoring/README.md monitoring/2026-11-17/02-full-selftest/ evidence/2026-11-17/02-full-selftest/
+          git diff --cached --check
+          git diff --cached --stat
+          git commit -m 'research(evidence): retain complete Nov 17 selftest and 458 source attempt projections'
+          git push origin HEAD:refs/heads/research/2026-11-17-full-selftest-evidence
