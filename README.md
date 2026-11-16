@@ -833,7 +833,9 @@ The frozen preregistered research plan can be cited as:
 The research software infrastructure is also archived and citable through Zenodo:
 
 - **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.23166490
-- **Latest GitHub archived release observed at 2026-11-13 review:** [`v2026.10-control-lifecycle-reconciliation`](https://github.com/lostlight530/research-software-identity-audit/releases/tag/v2026.10-control-lifecycle-reconciliation) (published 2026-10-31) — version DOI https://doi.org/10.5281/zenodo.23839900
+- **Latest GitHub Release observed at the 2026-11-17 repository review / 2026-11-17 核对的最新 GitHub 发行版:** [`v2026.11-nov15-identity-reconciliation`](https://github.com/lostlight530/research-software-identity-audit/releases/tag/v2026.11-nov15-identity-reconciliation) (published 2026-11-15T15:55:57Z) — its new exact Zenodo version DOI is **NOT_VERIFIED** in this review / 本次未核实该发行版的新 Zenodo 版本 DOI
+- **Most recent exact Zenodo version DOI independently documented here / 本仓现有证据最后确认的 Zenodo 版本 DOI:** [`v2026.10-control-lifecycle-reconciliation`](https://github.com/lostlight530/research-software-identity-audit/releases/tag/v2026.10-control-lifecycle-reconciliation) (published 2026-10-31) — https://doi.org/10.5281/zenodo.23839900
+- **Identity rule / 身份规则:** A newer GitHub Release does not by itself establish a new Zenodo archive or DOI, and a current `main` citation field does not retrospectively change immutable archived tag bytes / 新 GitHub 发行版不自动证明已有新 Zenodo 归档或 DOI，当前 `main` 的引用字段不能倒改旧归档字节
 - **Previous evidence-integrity release:** `v2026.10-evidence-integrity` (2026-10-18) — https://doi.org/10.5281/zenodo.23446162
 - **Previous evidence-reconciliation release:** https://doi.org/10.5281/zenodo.23284570
 - **Previous initial-runtime release:** https://doi.org/10.5281/zenodo.23176748
@@ -875,7 +877,7 @@ https://osf.io/wa5v8
 
 https://doi.org/10.5281/zenodo.23166490
 
-### Zenodo — latest archived evidence-integrity release
+### Zenodo — historical October 18 evidence-integrity release
 
 https://doi.org/10.5281/zenodo.23446162
 
