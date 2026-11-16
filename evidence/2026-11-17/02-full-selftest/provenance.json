@@ -1,0 +1,16 @@
+{
+  "record_class": "public_evidence_provenance_diagnostic_not_prospective",
+  "execution_run_id": 43938763232,
+  "head_pr_test_branch_sha": "660aceefac924817404b3e3bf5e3c2e67811d8e6",
+  "source_ledger_sha256": "68e9fffee0d0bb876e5164b73d5f7d1294804e2c99a24bfb8b123e71cc7c4d7a",
+  "previous_ledger_sha256": "2da942cd595f34d959d26333f7521f06780f887da885255b0122a6b87093785d",
+  "runner_source_start_utc": "2026-11-16T19:23:09.605189+00:00",
+  "runner_source_end_utc": "2026-11-16T19:24:10.859130+00:00",
+  "origin_HTTP_body_bytes_retained": false,
+  "authorization_headers_retained": false,
+  "artifact_zip_retention_days": 30,
+  "collector_source": "monitoring/2026-11-13/01-full-institutional-recheck/collector.py",
+  "comparator_source": "tools/temporary_full_source_compare_20261117.py (unmerged temporary PR #121)",
+  "postmerge_fixed_main_test_run": 43939409812,
+  "capture_records_are_not_prospective": true
+}

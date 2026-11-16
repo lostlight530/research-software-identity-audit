@@ -1,0 +1,212 @@
+{
+  "record_class": "complete_attempt_cohort_and_11_repo_selftest_diagnostic_NOT_prospective",
+  "logical_date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "run_id": 43938763232,
+  "run_url": "https://github.com/lostlight530/research-software-identity-audit/actions/runs/43938763232",
+  "source_start_utc": "2026-11-16T19:23:09.605189+00:00",
+  "source_end_utc": "2026-11-16T19:24:10.859130+00:00",
+  "source_current_sha256": "68e9fffee0d0bb876e5164b73d5f7d1294804e2c99a24bfb8b123e71cc7c4d7a",
+  "source_previous_sha256": "2da942cd595f34d959d26333f7521f06780f887da885255b0122a6b87093785d",
+  "source_attempts": 458,
+  "http_200_no_failure": 451,
+  "other_failure_or_partial": 7,
+  "observed_study_objects": "RS01-RS10",
+  "control_is_rs11": false,
+  "preregistered_layers": 6,
+  "units_per_eligible_timepoint": 60,
+  "operational_platforms": 7,
+  "possible_operational_checks_not_units": 70,
+  "supplementary_surfaces": 34,
+  "new_prospective_cells": 0,
+  "repository_tests": 11,
+  "runnable_tests_pass": 9,
+  "structural_only_pass": 2,
+  "failed_repo_jobs": 0,
+  "scope_counts": {
+    "surface": {
+      "attempted": 34,
+      "http_200_without_failure": 27,
+      "failed_or_partial": 7,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 26,
+        "UNRESOLVED": 7,
+        "SELECTED_FIELDS_CHANGED": 1
+      },
+      "http_statuses": {
+        "200": 28,
+        "None": 1,
+        "403": 3,
+        "404": 2
+      }
+    },
+    "datacite_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 102
+      },
+      "http_statuses": {
+        "200": 102
+      }
+    },
+    "openaire_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 102
+      },
+      "http_statuses": {
+        "200": 102
+      }
+    },
+    "openalex_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 102
+      },
+      "http_statuses": {
+        "200": 102
+      }
+    },
+    "zenodo_version": {
+      "attempted": 67,
+      "http_200_without_failure": 67,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SELECTED_FIELDS_CHANGED": 67
+      },
+      "http_statuses": {
+        "200": 67
+      }
+    },
+    "github_main": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SELECTED_FIELDS_CHANGED": 11
+      },
+      "http_statuses": {
+        "200": 11
+      }
+    },
+    "github_releases": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 10,
+        "SELECTED_FIELDS_CHANGED": 1
+      },
+      "http_statuses": {
+        "200": 11
+      }
+    },
+    "rsd_software": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 11
+      },
+      "http_statuses": {
+        "200": 11
+      }
+    },
+    "swh_origin": {
+      "attempted": 10,
+      "http_200_without_failure": 10,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 10
+      },
+      "http_statuses": {
+        "200": 10
+      }
+    },
+    "rsd_issue": {
+      "attempted": 2,
+      "http_200_without_failure": 2,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 1,
+        "SELECTED_FIELDS_CHANGED": 1
+      },
+      "http_statuses": {
+        "200": 2
+      }
+    },
+    "rsd_person": {
+      "attempted": 1,
+      "http_200_without_failure": 1,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 1
+      },
+      "http_statuses": {
+        "200": 1
+      }
+    },
+    "rsd_project": {
+      "attempted": 1,
+      "http_200_without_failure": 1,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 1
+      },
+      "http_statuses": {
+        "200": 1
+      }
+    },
+    "workflowhub": {
+      "attempted": 4,
+      "http_200_without_failure": 4,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 4
+      },
+      "http_statuses": {
+        "200": 4
+      }
+    }
+  },
+  "selected_figures": {
+    "datacite_findable": 102,
+    "openaire_positive_requests": 94,
+    "openalex_exact_canonical_doi_matches": 33,
+    "openalex_distinct_returned_work_ids": 33,
+    "zenodo_fixed60_success": 60,
+    "zenodo_fixed60_version_views": 4105,
+    "zenodo_fixed60_version_downloads": 41,
+    "orcid_groups": 18,
+    "orcid_summaries": 119,
+    "swh_full_latest_visits": 10,
+    "rsd_issues": {
+      "1870": "closed",
+      "1871": "closed"
+    }
+  },
+  "source_latest_raw_http_body_bytes_retained": false,
+  "artifact_run_log_retention_days": 30,
+  "fix_prs": {
+    "agent-foundations": 440,
+    "research-software-identity-audit": 122
+  },
+  "postmerge_11_repo_success_run": 43939409812,
+  "limitations": [
+    "same 102-key known DOI cohort not a global DOI universe",
+    "partial request outcomes are preserved, not object absence",
+    "SWH visit status not proof of a newly executed preservation visit",
+    "HTTP 200 for OpenAlex is not exact canonical DOI match",
+    "Zenodo version views/downloads are not unique humans or institutional adoption",
+    "original third-party response bytes not retained, hashes and selected fields only",
+    "two observatories are structural checks, not runnable scientific-validation suites",
+    "the last 11-repository post-merge test is a separate job without redundant 458 external calls",
+    "no declared OSF operational schedule offsets and no prospective cells"
+  ]
+}
