@@ -34,6 +34,17 @@ class PublicSourceTransportTests(unittest.TestCase):
         self.assertEqual(len(data), cap + 1)
         self.assertEqual(failure, "TRUNCATED_RESPONSE_LIMIT")
 
+
+    def test_new_collector_help_is_executable_without_network(self):
+        import subprocess
+        proc = subprocess.run(
+            [sys.executable, str(Path(__file__).resolve().parents[1] /
+                                "tools/public_source_recheck.py"), "--help"],
+            capture_output=True, text=True, check=False, timeout=15,
+        )
+        self.assertEqual(proc.returncode, 0, proc.stderr)
+        self.assertIn("--only-key", proc.stdout)
+
     def test_non_edam_key_cannot_inherit_ontology_exception(self):
         self.assertEqual(response_limit("surface", "14:InterLex"), DEFAULT_BODY_LIMIT)
         self.assertEqual(response_limit("zenodo_version", "15:EDAM"), DEFAULT_BODY_LIMIT)
