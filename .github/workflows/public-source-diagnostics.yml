@@ -47,6 +47,38 @@ jobs:
           else
             python tools/public_source_recheck.py --output "$RUNNER_TEMP/public-source-diagnostic" --only-key '15:EDAM'
           fi
+      - name: Sample one previously timed-out OpenAIRE DOI with revised timeout
+        if: github.event_name == 'pull_request'
+        run: |
+          python tools/public_source_recheck.py \
+            --output "$RUNNER_TEMP/public-source-diagnostic/openaire-one-key" \
+            --only-scope openaire_doi --only-key '10.17605/osf.io/5b329'
+      - name: Report OpenAIRE single-key transport, never full-102 coverage
+        if: always() && github.event_name == 'pull_request'
+        env:
+          PROBE_PATH: ${{ runner.temp }}/public-source-diagnostic/openaire-one-key/source-attempts.jsonl
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path(os.environ["PROBE_PATH"])
+          with Path(os.environ["GITHUB_STEP_SUMMARY"]).open("a") as f:
+              if not p.is_file():
+                  f.write("### OpenAIRE sample: NOT_EXECUTED\n")
+                  print("::warning title=OPENAIRE_SAMPLE_NOT_EXECUTED::No sample ledger exists")
+              else:
+                  rows = [json.loads(line) for line in p.read_text().splitlines() if line.strip()]
+                  if len(rows) != 1 or rows[0]["scope"] != "openaire_doi":
+                      raise RuntimeError("OpenAIRE sample did not preserve exact one-key scope")
+                  r = rows[0]
+                  f.write(f"### OpenAIRE one-key transport probe: "
+                          f"HTTP={r['http_status']}, failure={r['failure']}, "
+                          f"timeout={r['client_timeout_seconds']} seconds\n\n")
+                  f.write("One sampled DOI is not 102-key coverage, object absence, "
+                          "institutional indexing or a prospective observation.\n")
+                  if r["failure"] or r["http_status"] != 200:
+                      print("::warning title=OPENAIRE_SAMPLE_UNRESOLVED::Read-only DOI probe did not obtain HTTP 200; not DOI absence")
+          PY
       - name: Publish transport result without claiming identity verification
         if: always()
         env:
