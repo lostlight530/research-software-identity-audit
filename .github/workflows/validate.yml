@@ -24,44 +24,121 @@ jobs:
       - name: Run advisory contract checker
         run: python tools/check.py --mode advisory
       - name: Strict contract validation (advisory)
+        id: strict_contract
         continue-on-error: true
         run: python tools/check.py --mode strict
       - name: Test observation semantic guards (advisory)
+        id: observation_guards
         continue-on-error: true
         run: python -m unittest discover -s tests -p "test_observation_semantics.py" -v
       - name: Verify all published public artifact hashes (advisory)
+        id: public_hashes
         continue-on-error: true
         run: python -B tools/check_public_artifact_manifest.py --all
       - name: Test public manifest integrity (advisory)
+        id: manifest_tests
         continue-on-error: true
         run: python -m unittest discover -s tests -p "test_public_artifact_manifest.py" -v
       - name: Replay existing retained evidence (advisory)
+        id: retained_evidence
         continue-on-error: true
         run: python tools/check_retained_all.py
       - name: Validate October 18 corrected public package (advisory)
+        id: oct18
         continue-on-error: true
         run: python -B tools/check_research_capture_20261018.py
 
       - name: Validate October 20 reconciled public package (advisory)
+        id: oct20
         continue-on-error: true
         run: python -B tools/check_research_recheck_20261020.py
       - name: Recheck retained Zenodo family arithmetic (advisory)
+        id: zenodo_arithmetic
         continue-on-error: true
         run: python -B tools/check_zenodo_family_rollup.py
 
       - name: Verify October 24 local-history handoff transport (advisory)
+        id: local_history
         continue-on-error: true
         run: python -B tools/check_local_handoff_20261024.py
 
       - name: Test bounded monitoring source-ledger consistency (advisory)
+        id: monitoring_ledger
         continue-on-error: true
         run: python -m unittest discover -s tests -p "test_monitoring_projection.py" -v
+      - name: Test future public source transport bounds and status semantics (advisory)
+        id: transport_tests
+        continue-on-error: true
+        run: python -m unittest discover -s tests -p "test_public_source_transport.py" -v
       - name: Check tracked text syntax and local links (advisory)
+        id: text_integrity
         continue-on-error: true
         run: python -B tools/check_repository_text_integrity.py
       - name: Test repository text integrity checker (advisory)
+        id: text_tests
         continue-on-error: true
         run: python -m unittest discover -s tests -p "test_repository_text_integrity.py" -v
       - name: Check dated record paths and ownership (advisory)
+        id: record_paths
         continue-on-error: true
         run: python -B tools/check_record_paths.py
+
+      # Explicitly distinguish a green advisory workflow from all checks passing.
+      # Do not turn unstable schemas into a CI gate during baseline convergence.
+      - name: Publish every advisory outcome (not an all-pass claim)
+        if: always()
+        env:
+          STRICT_CONTRACT: ${{ steps.strict_contract.outcome }}
+          OBSERVATION_GUARDS: ${{ steps.observation_guards.outcome }}
+          PUBLIC_HASHES: ${{ steps.public_hashes.outcome }}
+          MANIFEST_TESTS: ${{ steps.manifest_tests.outcome }}
+          RETAINED_EVIDENCE: ${{ steps.retained_evidence.outcome }}
+          OCT18: ${{ steps.oct18.outcome }}
+          OCT20: ${{ steps.oct20.outcome }}
+          ZENODO_ARITHMETIC: ${{ steps.zenodo_arithmetic.outcome }}
+          LOCAL_HISTORY: ${{ steps.local_history.outcome }}
+          MONITORING_LEDGER: ${{ steps.monitoring_ledger.outcome }}
+          TEXT_INTEGRITY: ${{ steps.text_integrity.outcome }}
+          TEXT_TESTS: ${{ steps.text_tests.outcome }}
+          RECORD_PATHS: ${{ steps.record_paths.outcome }}
+          TRANSPORT_TESTS: ${{ steps.transport_tests.outcome }}
+        run: |
+          echo '### Advisory validation outcomes' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Workflow success does not imply every advisory step passed.' >> "$GITHUB_STEP_SUMMARY"
+          echo '| Check | Outcome |' >> "$GITHUB_STEP_SUMMARY"
+          echo '| --- | --- |' >> "$GITHUB_STEP_SUMMARY"
+          degraded=0
+          echo '| strict_contract | '${STRICT_CONTRACT}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$STRICT_CONTRACT" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| observation_guards | '${OBSERVATION_GUARDS}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$OBSERVATION_GUARDS" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| public_hashes | '${PUBLIC_HASHES}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$PUBLIC_HASHES" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| manifest_tests | '${MANIFEST_TESTS}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$MANIFEST_TESTS" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| retained_evidence | '${RETAINED_EVIDENCE}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$RETAINED_EVIDENCE" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| oct18 | '${OCT18}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$OCT18" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| oct20 | '${OCT20}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$OCT20" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| zenodo_arithmetic | '${ZENODO_ARITHMETIC}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$ZENODO_ARITHMETIC" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| local_history | '${LOCAL_HISTORY}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$LOCAL_HISTORY" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| monitoring_ledger | '${MONITORING_LEDGER}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$MONITORING_LEDGER" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| text_integrity | '${TEXT_INTEGRITY}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$TEXT_INTEGRITY" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| text_tests | '${TEXT_TESTS}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$TEXT_TESTS" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| record_paths | '${RECORD_PATHS}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$RECORD_PATHS" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| transport_tests | '${TRANSPORT_TESTS}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$TRANSPORT_TESTS" != "success" ]; then degraded=$((degraded + 1)); fi
+          if [ "$degraded" -gt 0 ]; then
+            echo "**DEGRADED:** $degraded advisory steps were not successful; inspect individual logs." >> "$GITHUB_STEP_SUMMARY"
+            echo "::warning title=ADVISORY_DEGRADED::$degraded advisory checks did not succeed; do not report all tests passing"
+          else
+            echo "**All listed advisory steps succeeded** (not external provider verification)." >> "$GITHUB_STEP_SUMMARY"
+          fi
