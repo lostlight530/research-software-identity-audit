@@ -45,6 +45,7 @@ class PublicSourceTransportTests(unittest.TestCase):
         )
         self.assertEqual(proc.returncode, 0, proc.stderr)
         self.assertIn("--only-key", proc.stdout)
+        self.assertIn("--only-scope", proc.stdout)
 
     def test_non_edam_key_cannot_inherit_ontology_exception(self):
         self.assertEqual(response_limit("surface", "14:InterLex"), DEFAULT_BODY_LIMIT)
