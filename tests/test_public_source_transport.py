@@ -7,7 +7,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 from public_source_transport import (
     DEFAULT_BODY_LIMIT, EDAM_OWL_BODY_LIMIT, complete_integer_total,
-    read_bounded, response_limit, transport_state,
+    read_bounded, response_limit, transport_state, request_timeout_seconds,
+    complete_positive_count,
 )
 
 
@@ -56,6 +57,43 @@ class PublicSourceTransportTests(unittest.TestCase):
         self.assertEqual(transport_state(None, "URLError"), "RETRIEVAL_UNRESOLVED")
         self.assertEqual(transport_state(200, "TRUNCATED_RESPONSE_LIMIT"), "PARTIAL_RESPONSE")
         self.assertEqual(transport_state(200, None), "HTTP_200_TRANSPORT_ONLY")
+
+    def test_open_aire_timeout_is_explicit_and_host_specific(self):
+        self.assertEqual(request_timeout_seconds("https://api.openaire.eu/search/software"), 12)
+        self.assertEqual(request_timeout_seconds("https://api.datacite.org/dois/example"), 7)
+        self.assertEqual(request_timeout_seconds("https://api.openaire.eu.evil.invalid/a"), 7)
+
+    def test_partial_doi_queries_must_not_claim_full_coverage(self):
+        expected = {"a", "b"}
+        rows = [
+            {"key": "a", "http_status": 200, "failure": None,
+             "selected_public_fields": {"result_total": "1"}},
+            {"key": "b", "http_status": None, "failure": "TimeoutError",
+             "selected_public_fields": {}},
+        ]
+        self.assertIsNone(complete_positive_count(
+            rows, expected_keys=expected, field="result_total", mode="nonnegative_integer"))
+        rows[1] = {"key": "b", "http_status": 200, "failure": None,
+                   "selected_public_fields": {"result_total": "0"}}
+        self.assertEqual(complete_positive_count(
+            rows, expected_keys=expected, field="result_total", mode="nonnegative_integer"), 1)
+        rows[1]["selected_public_fields"] = {}
+        self.assertIsNone(complete_positive_count(
+            rows, expected_keys=expected, field="result_total", mode="nonnegative_integer"))
+
+    def test_openalex_exact_requires_full_boolean_evidence(self):
+        wanted = {"a", "b"}
+        rows = [
+            {"key": "a", "http_status": 200, "failure": None,
+             "selected_public_fields": {"canonical_doi_exact_match": True}},
+            {"key": "b", "http_status": 200, "failure": None,
+             "selected_public_fields": {"canonical_doi_exact_match": False}},
+        ]
+        self.assertEqual(complete_positive_count(
+            rows, expected_keys=wanted, field="canonical_doi_exact_match", mode="boolean"), 1)
+        rows[1]["selected_public_fields"]["canonical_doi_exact_match"] = None
+        self.assertIsNone(complete_positive_count(
+            rows, expected_keys=wanted, field="canonical_doi_exact_match", mode="boolean"))
 
     def test_complete_integer_total_requires_every_key_and_valid_counter(self):
         wanted = {"repo:1", "repo:2"}
