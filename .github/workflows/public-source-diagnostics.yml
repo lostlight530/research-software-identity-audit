@@ -38,7 +38,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cohort="edam"
+          cohort="all"  # TEMPORARY PR-ONLY FULL SELFTEST; revert before merge
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             cohort="${{ inputs.cohort }}"
           fi
