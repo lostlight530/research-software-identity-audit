@@ -14,7 +14,8 @@ from datetime import datetime,timezone
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument("--output",required=True,help="New directory for diagnostic evidence; never a historical path")
-parser.add_argument("--only-key",help="Optional exact unique source key, e.g. 15:EDAM; omit for all 458")
+parser.add_argument("--only-key",help="Optional exact source key, e.g. 15:EDAM; pair with --only-scope for DOI keys")
+parser.add_argument("--only-scope",help="Optional exact scope, e.g. openaire_doi; omit for all scopes")
 args=parser.parse_args()
 OUT=pathlib.Path(args.output)
 if OUT.exists() and any(OUT.iterdir()):
@@ -87,6 +88,10 @@ for i in [2332,2334,2337,2347]:
     tasks.append(("workflowhub","workflow-"+str(i),f"https://workflowhub.eu/workflows/{i}.json"))
 assert len(tasks)==34+306+67+33+10+2+2+4
 assert len({(scope,key) for scope,key,_ in tasks})==458
+if args.only_scope:
+    tasks=[task for task in tasks if task[0]==args.only_scope]
+    if not tasks:
+        parser.error("--only-scope not found in the fixed request cohort")
 if args.only_key:
     tasks=[task for task in tasks if task[1]==args.only_key]
     if len(tasks)!=1:
@@ -154,7 +159,8 @@ summary={"record_class":"bounded_public_cloud_retest_not_prospective","start_utc
          "github_api_authentication":"GITHUB_TOKEN_PRESENT" if os.getenv("GITHUB_TOKEN") else "UNAUTHENTICATED",
          "fixed_corpus":"RS01-RS10","control_is_rs11":False,"osf_write_attempted":False,"layers":6,"preregistered_units_per_eligible_timepoint":60,"new_prospective_cells":0,"surface_count":len(surfaces),"known_doi_inventory":len(dois),
          "fixed_cohort_size":458,"attempted_requests":len(tasks),
-         "exact_key_subset":args.only_key,"full_cohort":len(tasks)==458,
+         "exact_key_subset":args.only_key,"exact_scope_subset":args.only_scope,
+         "full_cohort":len(tasks)==458,
          "body_limit_default_bytes":2000000,"body_limit_edam_owl_bytes":4194304,
          "scope_counts":{},"limits":["all results are diagnostic attempts, not a complete confirmed indexing census","HTTP 200 does not imply object identity verified","HTTP 404/403/429 and timeout do not imply nonexistence","response SHA-256 only; original response bytes are not published","no authenticated OSF/ORCID/RSD account access or UI claim action","timestamp is client receipt, not first indexed or published","OpenAlex 200 does not mean canonical requested DOI equals returned Work DOI","public HTML document response is not independent identity verification"]}
 for scope in sorted({row["scope"] for row in rows}):
