@@ -1,0 +1,85 @@
+name: Bounded public-source transport diagnostic
+
+on:
+  pull_request:
+    paths:
+      - tools/public_source_recheck.py
+      - tools/public_source_transport.py
+      - tests/test_public_source_transport.py
+      - .github/workflows/public-source-diagnostics.yml
+  workflow_dispatch:
+    inputs:
+      cohort:
+        description: "edam (single transport probe) or all (same 458 fixed source keys)"
+        required: true
+        type: choice
+        options: [edam, all]
+        default: edam
+
+permissions:
+  contents: read
+
+jobs:
+  public-source-diagnostic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out exact proposed code
+        uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.12"
+      - name: Run synthetic bounded-transport regression tests
+        run: python -m unittest discover -s tests -p "test_public_source_transport.py" -v
+      - name: Read only public source URLs, without editing research data
+        shell: bash
+        run: |
+          set -euo pipefail
+          cohort="edam"
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            cohort="${{ inputs.cohort }}"
+          fi
+          if [[ "$cohort" == "all" ]]; then
+            python tools/public_source_recheck.py --output "$RUNNER_TEMP/public-source-diagnostic"
+          else
+            python tools/public_source_recheck.py --output "$RUNNER_TEMP/public-source-diagnostic" --only-key '15:EDAM'
+          fi
+      - name: Publish transport result without claiming identity verification
+        if: always()
+        env:
+          RESULT_PATH: ${{ runner.temp }}/public-source-diagnostic/source-attempts.jsonl
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          source = Path(os.environ["RESULT_PATH"])
+          report = Path(os.environ["GITHUB_STEP_SUMMARY"])
+          if not source.is_file():
+              print("::warning title=NO_CAPTURE_LEDGER::Transport execution produced no source ledger")
+              with report.open("a") as f:
+                  f.write("### Public source transport: NO_CAPTURE_LEDGER\n")
+          else:
+              rows = [json.loads(line) for line in source.read_text().splitlines() if line.strip()]
+              unsuccessful = [r for r in rows if r["http_status"] != 200 or r["failure"] is not None]
+              state = "COMPLETE_TRANSPORT_ATTEMPTS" if not unsuccessful else "DEGRADED_OR_PARTIAL"
+              with report.open("a") as f:
+                  f.write(f"### Public source diagnostic: {state}\n\n")
+                  f.write(f"Attempted {len(rows)} requests; HTTP 200 and no failure "
+                          f"{len(rows) - len(unsuccessful)}. Provider identity is NOT verified.\n\n")
+                  for r in unsuccessful:
+                      f.write(f"- {r['scope']} / {r['key']}: "
+                              f"status={r['http_status']} failure={r['failure']}\n")
+              if unsuccessful:
+                  print(f"::warning title=PUBLIC_SOURCE_DEGRADED::{len(unsuccessful)} public requests blocked, failed or partial; not evidence of object absence")
+          PY
+      - name: Retain minimized read-only diagnostic outputs (30 days)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-source-diagnostic-${{ github.run_id }}
+          path: ${{ runner.temp }}/public-source-diagnostic/
+          retention-days: 30
+          if-no-files-found: warn
