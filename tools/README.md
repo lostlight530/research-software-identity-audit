@@ -164,6 +164,9 @@ For **new diagnostic captures**, use the standalone read-only collector:
 # One fresh, bounded EDAM OWL attempt (not a successful-identity assertion)
 python tools/public_source_recheck.py --output /tmp/public-edam-diagnostic --only-key '15:EDAM'
 
+# Distinct source-key + scope selection; never treat one DOI as global coverage
+python tools/public_source_recheck.py --output /tmp/public-openaire-diagnostic --only-scope openaire_doi --only-key '10.17605/osf.io/5b329'
+
 # An explicit new attempt of all the same 458 known source keys
 python tools/public_source_recheck.py --output /tmp/public-458-diagnostic
 
@@ -197,7 +200,7 @@ fresh preservation, institutional use, or a human visit. No provider response
 bodies, credentials, or restricted metadata are archived.
 
 [The manually dispatchable public-source diagnostic workflow](../.github/workflows/public-source-diagnostics.yml)
-makes a **single EDAM request on collector-related PR changes** and can run
+makes **one EDAM request and one separate OpenAIRE DOI sample on collector-related PR changes** and can run
 all 458 fixed keys **only when explicitly selected** in Actions. It stores
 minimized request clocks, error/status, hash, public projections and provenance
 in short-lived artifacts; nothing is silently promoted into a prospective
