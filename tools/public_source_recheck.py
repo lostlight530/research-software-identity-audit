@@ -17,7 +17,6 @@ args=parser.parse_args()
 OUT=pathlib.Path(args.output)
 if OUT.exists() and any(OUT.iterdir()):
     parser.error("output must be new or empty; do not overwrite earlier evidence")
-OUT.mkdir(exist_ok=True,parents=True)
 utc=lambda:datetime.now(timezone.utc).isoformat()
 start=utc()
 ua="lostlight530-research-identity-audit/future-readonly-diagnostic"
@@ -85,10 +84,12 @@ tasks.extend([("rsd_person","person","https://research-software-directory.org/pe
 for i in [2332,2334,2337,2347]:
     tasks.append(("workflowhub","workflow-"+str(i),f"https://workflowhub.eu/workflows/{i}.json"))
 assert len(tasks)==34+306+67+33+10+2+2+4
+assert len({(scope,key) for scope,key,_ in tasks})==458
 if args.only_key:
     tasks=[task for task in tasks if task[1]==args.only_key]
     if len(tasks)!=1:
         parser.error("--only-key must match exactly one source in the fixed request cohort")
+OUT.mkdir(exist_ok=True,parents=True)
 locks=defaultdict(lambda:threading.BoundedSemaphore(2))
 def fetch(item):
     scope,key,url=item
@@ -145,7 +146,9 @@ with (OUT/"source-attempts.jsonl").open("w",encoding="utf8") as f:
 with (OUT/"selected-fields.jsonl").open("w",encoding="utf8") as f:
     for row in rows:
         if row["selected_public_fields"]:f.write(json.dumps({k:row[k] for k in ["scope","key","started_at_utc","finished_at_utc","selected_public_fields"]},ensure_ascii=False)+"\n")
-summary={"record_class":"bounded_public_cloud_retest_not_prospective","start_utc":start,"end_utc":utc(),"source":"GitHub Actions runner / unauthenticated public scholarly endpoints, GitHub token for public GitHub only","fixed_corpus":"RS01-RS10","control_is_rs11":False,"osf_write_attempted":False,"layers":6,"preregistered_units_per_eligible_timepoint":60,"new_prospective_cells":0,"surface_count":len(surfaces),"known_doi_inventory":len(dois),
+summary={"record_class":"bounded_public_cloud_retest_not_prospective","start_utc":start,"end_utc":utc(),"source":"read-only public HTTP diagnostics; optional token limited to public GitHub API",
+         "github_api_authentication":"GITHUB_TOKEN_PRESENT" if os.getenv("GITHUB_TOKEN") else "UNAUTHENTICATED",
+         "fixed_corpus":"RS01-RS10","control_is_rs11":False,"osf_write_attempted":False,"layers":6,"preregistered_units_per_eligible_timepoint":60,"new_prospective_cells":0,"surface_count":len(surfaces),"known_doi_inventory":len(dois),
          "fixed_cohort_size":458,"attempted_requests":len(tasks),
          "exact_key_subset":args.only_key,"full_cohort":len(tasks)==458,
          "body_limit_default_bytes":2000000,"body_limit_edam_owl_bytes":4194304,
