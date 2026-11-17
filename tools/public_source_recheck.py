@@ -5,7 +5,9 @@ Uses the dated fixed 34-surface/102-DOI/67-version source inventory,
 with an EDAM-specific body cap and no absent-counter-to-zero coercion.
 """
 import argparse,csv,hashlib,json,os,pathlib,threading,urllib.error,urllib.parse,urllib.request
-from public_source_transport import read_bounded, response_limit, transport_state, complete_integer_total
+from public_source_transport import (read_bounded, response_limit, transport_state,
+                                     complete_integer_total, complete_positive_count,
+                                     request_timeout_seconds)
 from collections import Counter,defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime,timezone
@@ -97,11 +99,12 @@ def fetch(item):
     with locks[hostname]:
         a=utc();status=None;err=None;raw=b"";fields={};size_header=None
         body_limit=response_limit(scope,key)
+        client_timeout=request_timeout_seconds(url)
         h={"User-Agent":ua,"Accept":"application/json, text/html;q=0.8, */*;q=0.2"}
         if hostname=="api.github.com" and os.getenv("GITHUB_TOKEN"):
             h["Authorization"]="Bearer "+os.environ["GITHUB_TOKEN"]
         try:
-            with urllib.request.urlopen(urllib.request.Request(url,headers=h),timeout=7) as r:
+            with urllib.request.urlopen(urllib.request.Request(url,headers=h),timeout=client_timeout) as r:
                 status=r.status; raw,err,_=read_bounded(r,scope,key)
                 size_header=r.headers.get("Content-Length")
         except urllib.error.HTTPError as e:
@@ -138,6 +141,7 @@ def fetch(item):
             except Exception as e:
                 fields={"representation":"PUBLIC_HTTP_200_NON_JSON_OR_UNSUPPORTED","semantic_identity_status":"NOT_VERIFIED","parse_kind":type(e).__name__}
         return {"scope":scope,"key":key,"locator":url,"started_at_utc":a,"finished_at_utc":b,"http_status":status,"failure":err,"raw_sha256":hashlib.sha256(raw).hexdigest() if raw else None,"response_bytes_read":len(raw),"content_length":size_header,"response_limit_bytes":body_limit,
+                "client_timeout_seconds":client_timeout,
                 "transport_state":transport_state(status,err),"selected_public_fields":fields}
 with ThreadPoolExecutor(max_workers=10) as pool:
     rows=list(pool.map(fetch,tasks))
@@ -161,9 +165,17 @@ oa=[r for r in rows if r["scope"]=="openaire_doi"]
 zv=[r for r in rows if r["scope"]=="zenodo_version"]
 oc=[r for r in rows if r["scope"]=="surface" and r["key"].startswith("16:")]
 summary["derived_diagnostic_not_study_units"]={
- "openalex_exact_canonical_doi_matches":(sum(r["selected_public_fields"].get("canonical_doi_exact_match",False) for r in ax) if len(ax)==102 else None),
- "openalex_distinct_returned_work_ids":(len({r["selected_public_fields"].get("work_id") for r in ax if r["selected_public_fields"].get("work_id")}) if len(ax)==102 else None),
- "openaire_positive_exact_doi_queries":(sum(str(r["selected_public_fields"].get("result_total","0")).isdigit() and int(r["selected_public_fields"].get("result_total","0"))>0 for r in oa) if len(oa)==102 else None),
+ "openalex_exact_canonical_doi_matches":complete_positive_count(ax,expected_keys=dois,
+     field="canonical_doi_exact_match",mode="boolean"),
+ "openalex_distinct_returned_work_ids":(len({r["selected_public_fields"].get("work_id") for r in ax if r["selected_public_fields"].get("work_id")})
+     if len(ax)==102 and all(r["http_status"]==200 and r["failure"] is None for r in ax) else None),
+ "openaire_positive_exact_doi_queries":complete_positive_count(oa,expected_keys=dois,
+     field="result_total",mode="nonnegative_integer"),
+ "openaire_successful_transport_queries":sum(r["http_status"]==200 and r["failure"] is None for r in oa),
+ "openaire_positive_among_successful_queries":sum(
+     str(r["selected_public_fields"].get("result_total","")).isdecimal() and
+     int(r["selected_public_fields"].get("result_total") or 0)>0
+     for r in oa if r["http_status"]==200 and r["failure"] is None),
  "zenodo_total_version_views_fixed_ten":complete_integer_total(zv,expected_keys={v["repository"]+":"+v["record_id"] for v in versions if v["repository"] in fixed},field="version_views"),
  "zenodo_total_version_downloads_fixed_ten":complete_integer_total(zv,expected_keys={v["repository"]+":"+v["record_id"] for v in versions if v["repository"] in fixed},field="version_downloads"),
  "orcid_public_work_groups":oc[0]["selected_public_fields"].get("groups") if oc else None,
