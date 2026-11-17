@@ -20,7 +20,7 @@ if OUT.exists() and any(OUT.iterdir()):
 OUT.mkdir(exist_ok=True,parents=True)
 utc=lambda:datetime.now(timezone.utc).isoformat()
 start=utc()
-ua="lostlight530-research-identity-audit/2026-11-13 public read-only"
+ua="lostlight530-research-identity-audit/future-readonly-diagnostic"
 SURFACES="""WorkflowHub|https://workflowhub.eu/workflows/2332
 LifeMonitor|https://api.lifemonitor.eu/openapi.json
 Helmholtz RSD|https://helmholtz.software/
