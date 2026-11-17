@@ -178,6 +178,20 @@ allowed **4 MiB**, and other successful responses retain the 2 MB bound.
 Non-200, rate limits, 404s, timeout, byte limits and missing fields remain
 explicit blocked/partial/unresolved results. A complete Zenodo fixed-version
 sum requires all 60 valid counters; absent counts produce `null`, not zero.
+The subsequent 2026-11-17 full 458-attempt diagnostic exposed **79
+`TimeoutError` outcomes among 102 OpenAIRE DOI queries at a 7-second client
+timeout**, not 79 proven DOI absences. For future captures, the
+`api.openaire.eu` host alone now receives a **12-second per-request
+socket timeout**, recorded on each attempt. There are no silent retries,
+the 2-request per-host semaphore remains, and partial request outcomes
+remain legitimate outcomes. This is a revised **instrument setting**:
+comparisons with older 7-second attempts must disclose the difference.
+The 102-DOI *full-cohort* positive count is `null` unless every requested
+key has a successful parseable response, while a separate
+`openaire_positive_among_successful_queries` is explicitly only a
+partial-response subset count. OpenAlex canonical matches follow the
+same all-keys rule; Zenodo fixed-version totals require all 60 records.
+
 A successful public HTTP retrieval still does not prove identity, indexing,
 fresh preservation, institutional use, or a human visit. No provider response
 bodies, credentials, or restricted metadata are archived.
