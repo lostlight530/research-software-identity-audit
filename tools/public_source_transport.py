@@ -28,6 +28,52 @@ def read_bounded(stream: BinaryIO, scope: str, key: str) -> tuple[bytes, str | N
     return raw, ("TRUNCATED_RESPONSE_LIMIT" if len(raw) > limit else None), limit
 
 
+def request_timeout_seconds(locator: str) -> int:
+    """Explicit per-service budget: OpenAIRE showed many 7-second timeouts.
+
+    This is a NEW instrument setting, not a retrospective reinterpretation.
+    No auto-retry is performed and the actual timeout is logged per request.
+    """
+    from urllib.parse import urlsplit
+    return 12 if urlsplit(locator).hostname == "api.openaire.eu" else 7
+
+
+def complete_positive_count(
+    rows: Iterable[Mapping[str, object]],
+    *,
+    expected_keys: set[str],
+    field: str,
+    mode: str,
+) -> int | None:
+    """A full-cohort positive count must never treat failed requests as negative."""
+    if mode not in {"boolean", "nonnegative_integer"}:
+        raise ValueError("unsupported positive-count field type")
+    values: dict[str, int] = {}
+    for row in rows:
+        key = row.get("key")
+        if key not in expected_keys:
+            continue
+        if not isinstance(key, str) or key in values:
+            return None
+        if row.get("http_status") != 200 or row.get("failure") is not None:
+            return None
+        fields = row.get("selected_public_fields")
+        value = fields.get(field) if isinstance(fields, dict) else None
+        if mode == "boolean":
+            if type(value) is not bool:
+                return None
+            values[key] = int(value)
+        else:
+            if type(value) is int and value >= 0:
+                count = value
+            elif isinstance(value, str) and value.isdecimal():
+                count = int(value)
+            else:
+                return None
+            values[key] = int(count > 0)
+    return sum(values.values()) if set(values) == expected_keys else None
+
+
 def transport_state(http_status: int | None, failure: str | None) -> str:
     """A transport classification, never a platform identity claim."""
     if failure:
