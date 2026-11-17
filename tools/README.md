@@ -151,3 +151,47 @@ The existing read-only `python -B tools/check_record_paths.py` now additionally 
 ## Repository-wide tracked text integrity preflight (2026-11-10)
 
 Run `python -B tools/check_repository_text_integrity.py` to perform a read-only, dependency-free scan of every Git-tracked text file in the checkout. It checks UTF-8 decoding, JSON syntax, CSV row-width consistency, and repository-relative Markdown inline/reference/HTML links. The checker skips binary/non-text files, makes no network requests, and modifies no files. It does **not** parse YAML semantics, validate Markdown fragment anchors, fetch external links, or establish scientific validity. The workflow runs it in **advisory** mode; its synthetic parser tests are separate and do not replace source-record checks.
+
+## Future bounded public-source transport, November 17 remediation
+
+The dated `monitoring/2026-11-13/01-full-institutional-recheck/collector.py` and
+the November 15/17 archived ledgers are **historical sources** and are not edited
+to pretend that their previously recorded EDAM truncation did not occur.
+
+For **new diagnostic captures**, use the standalone read-only collector:
+
+```bash
+# One fresh, bounded EDAM OWL attempt (not a successful-identity assertion)
+python tools/public_source_recheck.py --output /tmp/public-edam-diagnostic --only-key '15:EDAM'
+
+# An explicit new attempt of all the same 458 known source keys
+python tools/public_source_recheck.py --output /tmp/public-458-diagnostic
+
+# No HTTP or archival mutation: synthetic tests and CLI parsing
+python -m unittest discover -s tests -p "test_public_source_transport.py" -v
+```
+
+The new collector preserves the dated 34 supplementary URLs, the 102 known-DOI
+cohort at three discovery services, 67 Zenodo version records, and the original
+11 GitHub/RSD/10 SWH/WorkflowHub checks. The EDAM 3.4 MB ontology alone is
+allowed **4 MiB**, and other successful responses retain the 2 MB bound.
+Non-200, rate limits, 404s, timeout, byte limits and missing fields remain
+explicit blocked/partial/unresolved results. A complete Zenodo fixed-version
+sum requires all 60 valid counters; absent counts produce `null`, not zero.
+A successful public HTTP retrieval still does not prove identity, indexing,
+fresh preservation, institutional use, or a human visit. No provider response
+bodies, credentials, or restricted metadata are archived.
+
+[The manually dispatchable public-source diagnostic workflow](../.github/workflows/public-source-diagnostics.yml)
+makes a **single EDAM request on collector-related PR changes** and can run
+all 458 fixed keys **only when explicitly selected** in Actions. It stores
+minimized request clocks, error/status, hash, public projections and provenance
+in short-lived artifacts; nothing is silently promoted into a prospective
+observation or historical baseline. Investigate the 403/404/dns failures
+at their owning service rather than replacing them with invented success.
+
+[The contract CI](../.github/workflows/validate.yml) still runs other checks
+advisory during schema convergence. Its job summary now prints the original
+`steps.<id>.outcome` for every advisory step and emits `ADVISORY_DEGRADED`
+when any test fails, even when the GitHub workflow's overall status is green.
+Treat a green badge as workflow completion, **not** blanket evidence of checks.
