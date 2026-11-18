@@ -50,6 +50,11 @@
       "path": "monitoring/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/summary.json",
       "bytes": 1002,
       "sha256": "6e3b81c1351170aa29bd305a0c2a68d440c42e6927980a0ece4ae73a0ecd318e"
+    },
+    {
+      "path": "monitoring/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/record.json",
+      "bytes": 1925,
+      "sha256": "cabfad7f38b52d8b5308aae7fddf416b361acda6c96c7e114645f8144443f999"
     }
   ]
 }
