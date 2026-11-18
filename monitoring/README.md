@@ -265,4 +265,8 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 - [2026-11-19 / 01-complete-institutional-recheck](2026-11-19/01-complete-institutional-recheck/README.md) — 34 supplementary surfaces, 102 DOI keys across DataCite/OpenAIRE/OpenAlex, 67 Zenodo versions, OpenAIRE result-ID aggregation/split and OpenAlex version-to-Work reconciliation; diagnostic only, zero prospective cells
 
-- [2026-11-19 / 01-complete-institutional-recheck](2026-11-19/01-complete-institutional-recheck/README.md) — 34 supplementary surfaces, 102 DOI keys across DataCite/OpenAIRE/OpenAlex, 67 Zenodo versions, OpenAIRE result-ID aggregation/split and OpenAlex version-to-Work reconciliation; diagnostic only, zero prospective cells
+
+
+- [2026-11-19 / 02-complete-institutional-recheck](2026-11-19/02-complete-institutional-recheck/README.md) — append-only 458-attempt recapture; 28/34 direct surfaces HTTP 200, 67/67 known Zenodo versions, 102 DOI keys each for DataCite/OpenAIRE/OpenAlex; zero prospective cells
+- [2026-11-19 / 03-web-assisted-surface-review](2026-11-19/03-web-assisted-surface-review/README.md) — adaptive web review of all 34 surfaces, source locators, unresolved states, OpenAIRE/OpenAlex interpretation, maintainer-supplied dashboard reconciliation and explicit counter discrepancies
+- [2026-11-19 / evidence-path correction history](2026-11-19/03-web-assisted-surface-review/correction-history.md) — records the reused 01 evidence path, preserved Git commit identity and append-only path guard
