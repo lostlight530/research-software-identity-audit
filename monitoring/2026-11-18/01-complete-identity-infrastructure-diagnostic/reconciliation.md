@@ -27,7 +27,7 @@ Supplementary surface failures in the actual November 18 source ledger: SciCrunc
 - 34 supplementary service/standards URLs do not expand the population; **0 new prospective cells**
 - No OSF edit, release DOI issue, Zenodo deposit, authentication write or historical source rewrite
 - **NO_CHANGE_REQUIRED** for research runtime/contract: 11 pinned repository checks passed; this cycle only adds bounded new diagnostic evidence and source-aware classification, not a correction of any old raw record
-- Correct the common interpretation error by preserving the Nov18 partial Zenodo aggregates as `null`; do not publish inferred -4085 views or any synthetic trend
+- Correct the common interpretation error by preserving the Nov18 partial Zenodo aggregates as `null`; do not publish a fabricated negative usage trend or any synthetic count
 - Date fields are client retrieval clocks, not initial propagation or first indexed timestamps; original external HTTP bodies are not stored, only their SHA-256/length and selected public projections
 
 **Trace:** [source requests](../../../evidence/2026-11-18/01-complete-identity-infrastructure-diagnostic/source-attempts.jsonl) → [selected public fields](../../../evidence/2026-11-18/01-complete-identity-infrastructure-diagnostic/selected-fields.jsonl) → [458-key comparison](request-delta.csv) → [normalized record](record.json) → this reconciliation. [Previous full request ledger](../../../evidence/2026-11-17/02-full-selftest/source-attempts.jsonl) remains unchanged. Correction history is additive; no retrospective replacement
