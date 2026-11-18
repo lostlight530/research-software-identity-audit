@@ -55,3 +55,7 @@ The independently extracted 32-version table is retained under [monitoring/2026-
 
 - [2026-10-26 / 01-morning-institutional-recheck](2026-10-26/01-morning-institutional-recheck/README.md) — 405 timestamped attempts; 34 supplemental surfaces, 77 identified DOI records, 12-family fields; diagnostic only, zero prospective cells
 - [2026-10-26 / 02-evening-institutional-recheck](2026-10-26/02-evening-institutional-recheck/README.md) — 384 timestamped attempts; 34 supplemental surfaces, 77 identified DOI records, 12-family fields; diagnostic only, zero prospective cells
+
+## November 19 supplementary Zenodo version identity reconciliation
+
+- [2026-11-19 / 04-zenodo-supplementary-inventory-reconciliation](2026-11-19/04-zenodo-supplementary-inventory-reconciliation/README.md) — selected Zenodo, DataCite and GitHub release metadata for two previously unkeyed supplementary versions; connector-normalized projections only, with explicit retrieval window and artifact digests

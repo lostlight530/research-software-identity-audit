@@ -1,0 +1,55 @@
+{
+  "scope": "published selected UTF-8 LF projection bytes; excludes this manifest and mutable global navigation",
+  "files": [
+    {
+      "path": "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/README.md",
+      "bytes": 3512,
+      "sha256": "10dfebf17f9f03011c1acc258988ee1d8ffbd7814580fb07357771df49c557ed"
+    },
+    {
+      "path": "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/provenance.json",
+      "bytes": 2223,
+      "sha256": "6d71c34e3650905a5ad5e90e1f46a4a7198ff42ff75c76387593cbdcf2a2ee5b"
+    },
+    {
+      "path": "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/selected-fields.jsonl",
+      "bytes": 2645,
+      "sha256": "d77f550f281404ce17a0d3c0213f80436d2d65d9c95ce412625f3d2cd2643980"
+    },
+    {
+      "path": "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/source-attempts.jsonl",
+      "bytes": 5121,
+      "sha256": "e250853f022ad65fad1944dbdf8eecb3c849968bdc1f3008eead2eb718888875"
+    },
+    {
+      "path": "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/summary.json",
+      "bytes": 2276,
+      "sha256": "5425e752ef75dad4657bdcadc382884ba5886ef8a4512525a306ebc15a789b8c"
+    },
+    {
+      "path": "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/sha256-manifest.txt",
+      "bytes": 255,
+      "sha256": "5004dea47573d7679df57fab3aee143379b79d9ac5a2a9ba946d2f33e2aa67a2"
+    },
+    {
+      "path": "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/file-sha256-manifest.txt",
+      "bytes": 499,
+      "sha256": "64153a4160624255cdd422029eb9e1a14243db40cd11192031bcefe52bdea972"
+    },
+    {
+      "path": "monitoring/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/README.md",
+      "bytes": 2432,
+      "sha256": "4e5c6eca0abfe2cdbbd32ee56c1df179c8aa752201e83294adb4d5118738950b"
+    },
+    {
+      "path": "monitoring/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/reconciliation.csv",
+      "bytes": 1781,
+      "sha256": "b8fcfc6eb109723fbf78a2aca22d0016ede194811a22e093b12cd42ed239b486"
+    },
+    {
+      "path": "monitoring/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/summary.json",
+      "bytes": 1002,
+      "sha256": "6e3b81c1351170aa29bd305a0c2a68d440c42e6927980a0ece4ae73a0ecd318e"
+    }
+  ]
+}
