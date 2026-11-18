@@ -60,9 +60,10 @@ class PublicSourceTransportTests(unittest.TestCase):
         self.assertEqual(transport_state(200, None), "HTTP_200_TRANSPORT_ONLY")
 
     def test_open_aire_timeout_is_explicit_and_host_specific(self):
-        self.assertEqual(request_timeout_seconds("https://api.openaire.eu/search/software"), 12)
-        self.assertEqual(request_timeout_seconds("https://api.datacite.org/dois/example"), 7)
-        self.assertEqual(request_timeout_seconds("https://api.openaire.eu.evil.invalid/a"), 7)
+        self.assertEqual(request_timeout_seconds("https://api.openaire.eu/search/software"), 15)
+        self.assertEqual(request_timeout_seconds("https://zenodo.org/api/records/1"), 15)
+        self.assertEqual(request_timeout_seconds("https://api.datacite.org/dois/example"), 10)
+        self.assertEqual(request_timeout_seconds("https://api.openaire.eu.evil.invalid/a"), 10)
 
     def test_partial_doi_queries_must_not_claim_full_coverage(self):
         expected = {"a", "b"}
