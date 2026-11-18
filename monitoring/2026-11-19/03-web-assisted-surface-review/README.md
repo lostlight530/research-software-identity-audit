@@ -42,7 +42,7 @@
 - All 67 DOI keys in the existing version inventory returned HTTP 200. The fixed RS01–RS10 subset contains 60 complete version rows, totaling 4,208 version views and 44 version downloads.
 - The 67-key inventory contains 5 CONTROL and 2 LSEL versions, with latest known entries dated before the maintainer-supplied 2026-11-15 RSIA and LSEL v0.5.1 releases. Those two latest supplementary releases are **not represented in this 67-key inventory**; their DOI/record IDs must be reconciled before claiming complete current supplementary version coverage.
 - Maintainer-supplied 12 record page counters total 3,489 views when the rows are summed, while the supplied total says 3,589; downloads sum correctly to 56. The 100-view discrepancy is preserved as UNKNOWN, not silently repaired.
-- These page-level counters are not interchangeable with the 60 version-specific API counters.
+- These page-level counters are not interchangeable with the 60 version-specific API counters. The unkeyed 2026-11-15 RSIA and LSEL v0.5.1 entries are separately listed in [zenodo-supplementary-inventory-gap.csv](zenodo-supplementary-inventory-gap.csv); their DOI and record IDs remain UNKNOWN.
 
 ## Other important findings
 
