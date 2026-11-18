@@ -66,7 +66,7 @@ def validate(root: Path = ROOT) -> list[str]:
     observed: dict[str, dict[str, object]] = {}
     for line, row in enumerate(files, 2):
         p = row.get("source_path", "")
-        if not p or p in paths or p.startswith("/") or "\\x00" in p or ".." in Path(p).parts:
+        if not p or p in paths or p.startswith("/") or "\x00" in p or ".." in Path(p).parts:
             errors.append(f"duplicate/unsafe source path on row {line}: {p!r}")
         paths.add(p)
         if not re.fullmatch(r"[0-9a-f]{40}", row.get("source_git_blob_sha", "")):
@@ -80,12 +80,12 @@ def validate(root: Path = ROOT) -> list[str]:
             errors.append(f"missing classification role at {p}")
         planes[category] += 1
         roles[role] += 1
-        if re.match(r"^(monitoring|evidence)/\\d{4}-\\d{2}-\\d{2}/\\d{2}-", p):
+        if re.match(r"^(monitoring|evidence)/\d{4}-\d{2}-\d{2}/\d{2}-", p):
             if row.get("rename_or_alias_action") not in {
                 "PRESERVE_HISTORICAL_PATH_BLOB", "PRE_ELIGIBILITY_DIAGNOSTIC_ALIAS"
             }:
                 errors.append(f"unjustified historical path rename at {p}")
-            m = re.match(r"^((?:monitoring|evidence)/\\d{4}-\\d{2}-\\d{2}/\\d{2}-[^/]+)/(.+)$", p)
+            m = re.match(r"^((?:monitoring|evidence)/\d{4}-\d{2}-\d{2}/\d{2}-[^/]+)/(.+)$", p)
             if m:
                 event = m.group(1)
                 drow = observed.setdefault(event, {"count": 0, "readme": False, "yaml": False, "json": False})
