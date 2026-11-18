@@ -29,13 +29,18 @@ def read_bounded(stream: BinaryIO, scope: str, key: str) -> tuple[bytes, str | N
 
 
 def request_timeout_seconds(locator: str) -> int:
-    """Explicit per-service budget: OpenAIRE showed many 7-second timeouts.
+    """Explicit future-only per-service budgets for slow scholarly endpoints.
 
-    This is a NEW instrument setting, not a retrospective reinterpretation.
-    No auto-retry is performed and the actual timeout is logged per request.
+    November 19 increases the Zenodo and OpenAIRE budgets after repeated
+    timeout/partial attempts. This is an instrument change, not a retrospective
+    reinterpretation. No automatic retries are performed; actual timeout is
+    retained per request.
     """
     from urllib.parse import urlsplit
-    return 12 if urlsplit(locator).hostname == "api.openaire.eu" else 7
+    host = urlsplit(locator).hostname
+    if host in {"api.openaire.eu", "zenodo.org"}:
+        return 15
+    return 10
 
 
 def complete_positive_count(

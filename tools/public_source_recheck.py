@@ -11,6 +11,7 @@ from public_source_transport import (read_bounded, response_limit, transport_sta
 from collections import Counter,defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime,timezone
+from openaire_identity_projection import project_response
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument("--output",required=True,help="New directory for diagnostic evidence; never a historical path")
@@ -72,7 +73,7 @@ assert len(versions)==67
 tasks=[("surface",f"{i:02d}:{name}",url) for i,(name,url) in enumerate(surfaces,1)]
 for d in sorted(dois):
     tasks.extend([("datacite_doi",d,"https://api.datacite.org/dois/"+d),
-      ("openaire_doi",d,"https://api.openaire.eu/search/software?"+urllib.parse.urlencode({"doi":d,"format":"json"})),
+      ("openaire_doi",d,"https://api.openaire.eu/search/software?"+urllib.parse.urlencode({"doi":d,"format":"json","size":100})),
       ("openalex_doi",d,"https://api.openalex.org/works/https://doi.org/"+d)])
 for row in versions:
     tasks.append(("zenodo_version",row["repository"]+":"+row["record_id"],"https://zenodo.org/api/records/"+row["record_id"]))
@@ -127,7 +128,7 @@ def fetch(item):
                 if scope=="datacite_doi":
                     q=obj.get("data",{}).get("attributes",{});fields={"doi":q.get("doi"),"state":q.get("state"),"registered":q.get("registered"),"resource_type":q.get("types",{}).get("resourceTypeGeneral")}
                 elif scope=="openaire_doi":
-                    t=obj.get("response",{}).get("header",{}).get("total");fields={"result_total":t.get("$") if isinstance(t,dict) else t}
+                    fields=project_response(obj)
                 elif scope=="openalex_doi":fields={"work_id":obj.get("id"),"doi":obj.get("doi"),"type":obj.get("type"),"canonical_doi_exact_match":(obj.get("doi") or "").lower().rstrip("/")==("https://doi.org/"+key).lower()}
                 elif scope=="zenodo_version":
                     z=obj.get("stats",{});fields={"id":obj.get("id"),"doi":obj.get("doi"),"conceptdoi":obj.get("conceptdoi"),"version_views":z.get("version_views"),"version_downloads":z.get("version_downloads"),"family_views_attached":z.get("views"),"family_downloads_attached":z.get("downloads")}
@@ -162,7 +163,7 @@ summary={"record_class":"bounded_public_cloud_retest_not_prospective","start_utc
          "exact_key_subset":args.only_key,"exact_scope_subset":args.only_scope,
          "full_cohort":len(tasks)==458,
          "body_limit_default_bytes":2000000,"body_limit_edam_owl_bytes":4194304,
-         "scope_counts":{},"limits":["all results are diagnostic attempts, not a complete confirmed indexing census","HTTP 200 does not imply object identity verified","HTTP 404/403/429 and timeout do not imply nonexistence","response SHA-256 only; original response bytes are not published","no authenticated OSF/ORCID/RSD account access or UI claim action","timestamp is client receipt, not first indexed or published","OpenAlex 200 does not mean canonical requested DOI equals returned Work DOI","public HTML document response is not independent identity verification"]}
+         "scope_counts":{},"limits":["all results are diagnostic attempts, not a complete confirmed indexing census","HTTP 200 does not imply object identity verified","HTTP 404/403/429 and timeout do not imply nonexistence","response SHA-256 only; original response bytes are not published","no authenticated OSF/ORCID/RSD account access or UI claim action","timestamp is client receipt, not first indexed or published","OpenAlex 200 does not mean canonical requested DOI equals returned Work DOI","OpenAIRE result IDs, query DOI and original repository identifiers are distinct identity fields","OpenAIRE exact-DOI requests use size=100; result_page_complete must be true before using full result grouping","public HTML document response is not independent identity verification"]}
 for scope in sorted({row["scope"] for row in rows}):
     x=[row for row in rows if row["scope"]==scope]
     summary["scope_counts"][scope]={"attempted":len(x),"http_statuses":dict(Counter(str(q["http_status"]) for q in x)),"failed_or_partial":sum(q["failure"] is not None for q in x)}
