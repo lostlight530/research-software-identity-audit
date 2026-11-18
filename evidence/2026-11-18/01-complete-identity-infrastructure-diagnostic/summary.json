@@ -1,0 +1,141 @@
+{
+  "record_class": "bounded_public_cloud_retest_not_prospective",
+  "start_utc": "2026-11-18T15:35:32.034791+00:00",
+  "end_utc": "2026-11-18T15:39:43.508949+00:00",
+  "source": "read-only public HTTP diagnostics; optional token limited to public GitHub API",
+  "github_api_authentication": "UNAUTHENTICATED",
+  "fixed_corpus": "RS01-RS10",
+  "control_is_rs11": false,
+  "osf_write_attempted": false,
+  "layers": 6,
+  "preregistered_units_per_eligible_timepoint": 60,
+  "new_prospective_cells": 0,
+  "surface_count": 34,
+  "known_doi_inventory": 102,
+  "fixed_cohort_size": 458,
+  "attempted_requests": 458,
+  "exact_key_subset": null,
+  "exact_scope_subset": null,
+  "full_cohort": true,
+  "body_limit_default_bytes": 2000000,
+  "body_limit_edam_owl_bytes": 4194304,
+  "scope_counts": {
+    "datacite_doi": {
+      "attempted": 102,
+      "http_statuses": {
+        "200": 102
+      },
+      "failed_or_partial": 0
+    },
+    "github_main": {
+      "attempted": 11,
+      "http_statuses": {
+        "200": 11
+      },
+      "failed_or_partial": 0
+    },
+    "github_releases": {
+      "attempted": 11,
+      "http_statuses": {
+        "200": 11
+      },
+      "failed_or_partial": 0
+    },
+    "openaire_doi": {
+      "attempted": 102,
+      "http_statuses": {
+        "200": 102
+      },
+      "failed_or_partial": 0
+    },
+    "openalex_doi": {
+      "attempted": 102,
+      "http_statuses": {
+        "200": 102
+      },
+      "failed_or_partial": 0
+    },
+    "rsd_issue": {
+      "attempted": 2,
+      "http_statuses": {
+        "200": 2
+      },
+      "failed_or_partial": 0
+    },
+    "rsd_person": {
+      "attempted": 1,
+      "http_statuses": {
+        "200": 1
+      },
+      "failed_or_partial": 0
+    },
+    "rsd_project": {
+      "attempted": 1,
+      "http_statuses": {
+        "200": 1
+      },
+      "failed_or_partial": 0
+    },
+    "rsd_software": {
+      "attempted": 11,
+      "http_statuses": {
+        "200": 11
+      },
+      "failed_or_partial": 0
+    },
+    "surface": {
+      "attempted": 34,
+      "http_statuses": {
+        "200": 24,
+        "None": 5,
+        "403": 3,
+        "404": 2
+      },
+      "failed_or_partial": 10
+    },
+    "swh_origin": {
+      "attempted": 10,
+      "http_statuses": {
+        "200": 10
+      },
+      "failed_or_partial": 0
+    },
+    "workflowhub": {
+      "attempted": 4,
+      "http_statuses": {
+        "200": 4
+      },
+      "failed_or_partial": 0
+    },
+    "zenodo_version": {
+      "attempted": 67,
+      "http_statuses": {
+        "200": 21,
+        "None": 45,
+        "500": 1
+      },
+      "failed_or_partial": 46
+    }
+  },
+  "limits": [
+    "all results are diagnostic attempts, not a complete confirmed indexing census",
+    "HTTP 200 does not imply object identity verified",
+    "HTTP 404/403/429 and timeout do not imply nonexistence",
+    "response SHA-256 only; original response bytes are not published",
+    "no authenticated OSF/ORCID/RSD account access or UI claim action",
+    "timestamp is client receipt, not first indexed or published",
+    "OpenAlex 200 does not mean canonical requested DOI equals returned Work DOI",
+    "public HTML document response is not independent identity verification"
+  ],
+  "derived_diagnostic_not_study_units": {
+    "openalex_exact_canonical_doi_matches": 34,
+    "openalex_distinct_returned_work_ids": 34,
+    "openaire_positive_exact_doi_queries": 94,
+    "openaire_successful_transport_queries": 102,
+    "openaire_positive_among_successful_queries": 94,
+    "zenodo_total_version_views_fixed_ten": null,
+    "zenodo_total_version_downloads_fixed_ten": null,
+    "orcid_public_work_groups": 18,
+    "orcid_public_work_summaries": 119
+  }
+}

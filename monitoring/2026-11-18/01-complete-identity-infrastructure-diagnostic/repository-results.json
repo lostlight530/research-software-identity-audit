@@ -1,0 +1,1080 @@
+[
+  {
+    "record_class": "isolated_temporary_pr_selftest_not_prospective",
+    "repo": "Axiom-0",
+    "expected_sha": "a67dd08db0ddb475784d2e473f345abe96173d76",
+    "observed_sha": "a67dd08db0ddb475784d2e473f345abe96173d76",
+    "started_at_utc": "2026-11-18T15:35:35.436326+00:00",
+    "ended_at_utc": "2026-11-18T15:36:16.681575+00:00",
+    "check_class": "REPO_RUNTIME_TESTS",
+    "steps": [
+      {
+        "label": "pinned_head_matches",
+        "status": "PASS",
+        "expected": "a67dd08db0ddb475784d2e473f345abe96173d76",
+        "observed": "a67dd08db0ddb475784d2e473f345abe96173d76",
+        "started_at_utc": "2026-11-18T15:35:35.438219+00:00",
+        "ended_at_utc": "2026-11-18T15:35:35.438228+00:00"
+      },
+      {
+        "label": "research_identity_documents",
+        "status": "PASS",
+        "fields": {
+          "README.md": true,
+          "OPEN_RESEARCH.md": true,
+          "RESEARCH_TEMPLATE.md": true
+        },
+        "started_at_utc": "2026-11-18T15:35:35.438293+00:00",
+        "ended_at_utc": "2026-11-18T15:35:35.438295+00:00"
+      },
+      {
+        "label": "parse_codemeta.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:35.438391+00:00",
+        "ended_at_utc": "2026-11-18T15:35:35.438393+00:00"
+      },
+      {
+        "label": "python_unittests",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:35.438433+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:36.253744+00:00",
+        "duration_seconds": 0.815
+      },
+      {
+        "label": "frontend_npm_ci",
+        "command": [
+          "npm",
+          "ci"
+        ],
+        "cwd": "FRONTEND",
+        "started_at_utc": "2026-11-18T15:35:36.259365+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:36:12.269188+00:00",
+        "duration_seconds": 36.01
+      },
+      {
+        "label": "frontend_lint",
+        "command": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "cwd": "FRONTEND",
+        "started_at_utc": "2026-11-18T15:36:12.269334+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:36:13.838481+00:00",
+        "duration_seconds": 1.569
+      },
+      {
+        "label": "frontend_build",
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "cwd": "FRONTEND",
+        "started_at_utc": "2026-11-18T15:36:13.838617+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:36:16.115882+00:00",
+        "duration_seconds": 2.277
+      },
+      {
+        "label": "frontend_snapshot",
+        "command": [
+          "node",
+          "--test",
+          "tests/final-snapshot.test.mjs"
+        ],
+        "cwd": "FRONTEND",
+        "started_at_utc": "2026-11-18T15:36:16.116019+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:36:16.681479+00:00",
+        "duration_seconds": 0.565
+      }
+    ],
+    "failed_steps": 0,
+    "result": "PASS",
+    "external_institution_interaction": "NONE",
+    "study_cells_added": 0,
+    "notes": [
+      "No remote GitHub write from source checkout",
+      "Status class STRUCTURAL_ONLY does not imply a runnable repo-native test suite",
+      "CLI failure is retained, not converted to a success"
+    ]
+  },
+  {
+    "record_class": "isolated_temporary_pr_selftest_not_prospective",
+    "repo": "agent-foundations",
+    "expected_sha": "4e8f2eb456739f5560b5f70e0d178e3f24c9a63f",
+    "observed_sha": "4e8f2eb456739f5560b5f70e0d178e3f24c9a63f",
+    "started_at_utc": "2026-11-18T15:35:35.643050+00:00",
+    "ended_at_utc": "2026-11-18T15:35:38.422022+00:00",
+    "check_class": "REPO_RUNTIME_TESTS",
+    "steps": [
+      {
+        "label": "pinned_head_matches",
+        "status": "PASS",
+        "expected": "4e8f2eb456739f5560b5f70e0d178e3f24c9a63f",
+        "observed": "4e8f2eb456739f5560b5f70e0d178e3f24c9a63f",
+        "started_at_utc": "2026-11-18T15:35:35.644766+00:00",
+        "ended_at_utc": "2026-11-18T15:35:35.644772+00:00"
+      },
+      {
+        "label": "research_identity_documents",
+        "status": "PASS",
+        "fields": {
+          "README.md": true,
+          "OPEN_RESEARCH.md": true,
+          "RESEARCH_TEMPLATE.md": true
+        },
+        "started_at_utc": "2026-11-18T15:35:35.644848+00:00",
+        "ended_at_utc": "2026-11-18T15:35:35.644851+00:00"
+      },
+      {
+        "label": "parse_codemeta.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:35.644931+00:00",
+        "ended_at_utc": "2026-11-18T15:35:35.644935+00:00"
+      },
+      {
+        "label": "foundation_validate",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "FOUNDATION/validate.py"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:35.645012+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:35.709018+00:00",
+        "duration_seconds": 0.064
+      },
+      {
+        "label": "foundation_contract",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "-m",
+          "unittest",
+          "FOUNDATION.test_contract",
+          "-v"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:35.709398+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:36.424896+00:00",
+        "duration_seconds": 0.716
+      },
+      {
+        "label": "unshallow_history_for_protected_path",
+        "command": [
+          "git",
+          "fetch",
+          "--unshallow",
+          "origin"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:36.425062+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:38.092720+00:00",
+        "duration_seconds": 1.668
+      },
+      {
+        "label": "fetch_origin_main_for_protected_path",
+        "command": [
+          "git",
+          "fetch",
+          "origin",
+          "main:refs/remotes/origin/main"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:38.092847+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:38.357593+00:00",
+        "duration_seconds": 0.265
+      },
+      {
+        "label": "validate_explicit_readme_exception",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "FOUNDATION/validate.py",
+          "--base-ref",
+          "origin/main",
+          "--allow-protected",
+          "README.md"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:38.357719+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:38.421936+00:00",
+        "duration_seconds": 0.064
+      }
+    ],
+    "failed_steps": 0,
+    "result": "PASS",
+    "external_institution_interaction": "NONE",
+    "study_cells_added": 0,
+    "notes": [
+      "No remote GitHub write from source checkout",
+      "Status class STRUCTURAL_ONLY does not imply a runnable repo-native test suite",
+      "CLI failure is retained, not converted to a success"
+    ]
+  },
+  {
+    "record_class": "isolated_temporary_pr_selftest_not_prospective",
+    "repo": "agentic-frontier-observatory",
+    "expected_sha": "dcce44c0a6b5050989e534579feb169b2c7b27fa",
+    "observed_sha": "dcce44c0a6b5050989e534579feb169b2c7b27fa",
+    "started_at_utc": "2026-11-18T15:35:32.314142+00:00",
+    "ended_at_utc": "2026-11-18T15:35:32.316776+00:00",
+    "check_class": "STRUCTURAL_ONLY",
+    "steps": [
+      {
+        "label": "pinned_head_matches",
+        "status": "PASS",
+        "expected": "dcce44c0a6b5050989e534579feb169b2c7b27fa",
+        "observed": "dcce44c0a6b5050989e534579feb169b2c7b27fa",
+        "started_at_utc": "2026-11-18T15:35:32.316357+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.316365+00:00"
+      },
+      {
+        "label": "research_identity_documents",
+        "status": "PASS",
+        "fields": {
+          "README.md": true,
+          "OPEN_RESEARCH.md": true,
+          "RESEARCH_TEMPLATE.md": true
+        },
+        "started_at_utc": "2026-11-18T15:35:32.316449+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.316453+00:00"
+      },
+      {
+        "label": "parse_codemeta.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.316541+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.316545+00:00"
+      },
+      {
+        "label": "structural_METHODOLOGY.md",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.316607+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.316611+00:00"
+      },
+      {
+        "label": "structural_SCOPE.md",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.316631+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.316633+00:00"
+      },
+      {
+        "label": "structural_TAXONOMY.md",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.316651+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.316653+00:00"
+      },
+      {
+        "label": "structural_SOURCE_REGISTRY.md",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.316689+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.316692+00:00"
+      },
+      {
+        "label": "structural_watchlist/ACTIVE.md",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.316714+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.316716+00:00"
+      },
+      {
+        "label": "structural_reports/daily",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.316734+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.316736+00:00"
+      },
+      {
+        "label": "structural_reports/weekly",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.316752+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.316754+00:00"
+      },
+      {
+        "label": "structural_reports/monthly",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.316770+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.316772+00:00"
+      }
+    ],
+    "failed_steps": 0,
+    "result": "PASS",
+    "external_institution_interaction": "NONE",
+    "study_cells_added": 0,
+    "notes": [
+      "No remote GitHub write from source checkout",
+      "Status class STRUCTURAL_ONLY does not imply a runnable repo-native test suite",
+      "CLI failure is retained, not converted to a success"
+    ]
+  },
+  {
+    "record_class": "isolated_temporary_pr_selftest_not_prospective",
+    "repo": "auto-doc-engine",
+    "expected_sha": "b069abd92cd4de3ec2bb611ca5f2d2d9371752c8",
+    "observed_sha": "b069abd92cd4de3ec2bb611ca5f2d2d9371752c8",
+    "started_at_utc": "2026-11-18T15:35:33.443940+00:00",
+    "ended_at_utc": "2026-11-18T15:35:37.787291+00:00",
+    "check_class": "REPO_RUNTIME_TESTS",
+    "steps": [
+      {
+        "label": "pinned_head_matches",
+        "status": "PASS",
+        "expected": "b069abd92cd4de3ec2bb611ca5f2d2d9371752c8",
+        "observed": "b069abd92cd4de3ec2bb611ca5f2d2d9371752c8",
+        "started_at_utc": "2026-11-18T15:35:33.445768+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.445775+00:00"
+      },
+      {
+        "label": "research_identity_documents",
+        "status": "PASS",
+        "fields": {
+          "README.md": true,
+          "OPEN_RESEARCH.md": true,
+          "RESEARCH_TEMPLATE.md": true
+        },
+        "started_at_utc": "2026-11-18T15:35:33.445836+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.445838+00:00"
+      },
+      {
+        "label": "parse_codemeta.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:33.445920+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.445922+00:00"
+      },
+      {
+        "label": "install_repo_python_deps",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.13.18/x64/bin/python",
+          "-m",
+          "pip",
+          "install",
+          "-r",
+          "requirements-python313.txt"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:33.451210+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:35.518658+00:00",
+        "duration_seconds": 2.067
+      },
+      {
+        "label": "repo_make_test",
+        "command": [
+          "make",
+          "test"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:35.518820+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:37.787216+00:00",
+        "duration_seconds": 2.268
+      }
+    ],
+    "failed_steps": 0,
+    "result": "PASS",
+    "external_institution_interaction": "NONE",
+    "study_cells_added": 0,
+    "notes": [
+      "No remote GitHub write from source checkout",
+      "Status class STRUCTURAL_ONLY does not imply a runnable repo-native test suite",
+      "CLI failure is retained, not converted to a success"
+    ]
+  },
+  {
+    "record_class": "isolated_temporary_pr_selftest_not_prospective",
+    "repo": "china-agentic-observatory",
+    "expected_sha": "2e0f9064c2b808501dfb511979fab53c295ea501",
+    "observed_sha": "2e0f9064c2b808501dfb511979fab53c295ea501",
+    "started_at_utc": "2026-11-18T15:35:32.018440+00:00",
+    "ended_at_utc": "2026-11-18T15:35:32.020348+00:00",
+    "check_class": "STRUCTURAL_ONLY",
+    "steps": [
+      {
+        "label": "pinned_head_matches",
+        "status": "PASS",
+        "expected": "2e0f9064c2b808501dfb511979fab53c295ea501",
+        "observed": "2e0f9064c2b808501dfb511979fab53c295ea501",
+        "started_at_utc": "2026-11-18T15:35:32.020130+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.020135+00:00"
+      },
+      {
+        "label": "research_identity_documents",
+        "status": "PASS",
+        "fields": {
+          "README.md": true,
+          "OPEN_RESEARCH.md": true,
+          "RESEARCH_TEMPLATE.md": true
+        },
+        "started_at_utc": "2026-11-18T15:35:32.020183+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.020185+00:00"
+      },
+      {
+        "label": "parse_codemeta.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.020242+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.020243+00:00"
+      },
+      {
+        "label": "structural_METHODOLOGY.md",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.020275+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.020276+00:00"
+      },
+      {
+        "label": "structural_SCOPE.md",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.020285+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.020286+00:00"
+      },
+      {
+        "label": "structural_TAXONOMY.md",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.020296+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.020297+00:00"
+      },
+      {
+        "label": "structural_SOURCE_REGISTRY.md",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.020305+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.020306+00:00"
+      },
+      {
+        "label": "structural_watchlist/ACTIVE.md",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.020315+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.020316+00:00"
+      },
+      {
+        "label": "structural_reports/daily",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.020325+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.020327+00:00"
+      },
+      {
+        "label": "structural_reports/weekly",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.020335+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.020336+00:00"
+      },
+      {
+        "label": "structural_reports/monthly",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:32.020344+00:00",
+        "ended_at_utc": "2026-11-18T15:35:32.020345+00:00"
+      }
+    ],
+    "failed_steps": 0,
+    "result": "PASS",
+    "external_institution_interaction": "NONE",
+    "study_cells_added": 0,
+    "notes": [
+      "No remote GitHub write from source checkout",
+      "Status class STRUCTURAL_ONLY does not imply a runnable repo-native test suite",
+      "CLI failure is retained, not converted to a success"
+    ]
+  },
+  {
+    "record_class": "isolated_temporary_pr_selftest_not_prospective",
+    "repo": "epistemic-pipeline",
+    "expected_sha": "09af1d5fe422e7ac4032a2fc00abd4c2ba627707",
+    "observed_sha": "09af1d5fe422e7ac4032a2fc00abd4c2ba627707",
+    "started_at_utc": "2026-11-18T15:35:34.058349+00:00",
+    "ended_at_utc": "2026-11-18T15:35:40.812501+00:00",
+    "check_class": "REPO_RUNTIME_TESTS",
+    "steps": [
+      {
+        "label": "pinned_head_matches",
+        "status": "PASS",
+        "expected": "09af1d5fe422e7ac4032a2fc00abd4c2ba627707",
+        "observed": "09af1d5fe422e7ac4032a2fc00abd4c2ba627707",
+        "started_at_utc": "2026-11-18T15:35:34.060032+00:00",
+        "ended_at_utc": "2026-11-18T15:35:34.060039+00:00"
+      },
+      {
+        "label": "research_identity_documents",
+        "status": "PASS",
+        "fields": {
+          "README.md": true,
+          "OPEN_RESEARCH.md": true,
+          "RESEARCH_TEMPLATE.md": true
+        },
+        "started_at_utc": "2026-11-18T15:35:34.060099+00:00",
+        "ended_at_utc": "2026-11-18T15:35:34.060101+00:00"
+      },
+      {
+        "label": "parse_codemeta.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:34.060172+00:00",
+        "ended_at_utc": "2026-11-18T15:35:34.060175+00:00"
+      },
+      {
+        "label": "install_repo_python_deps",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.13.18/x64/bin/python",
+          "-m",
+          "pip",
+          "install",
+          "-r",
+          "requirements-python313.txt"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:34.064949+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:38.689702+00:00",
+        "duration_seconds": 4.625
+      },
+      {
+        "label": "repo_make_test",
+        "command": [
+          "make",
+          "test"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:38.689864+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:40.812413+00:00",
+        "duration_seconds": 2.123
+      }
+    ],
+    "failed_steps": 0,
+    "result": "PASS",
+    "external_institution_interaction": "NONE",
+    "study_cells_added": 0,
+    "notes": [
+      "No remote GitHub write from source checkout",
+      "Status class STRUCTURAL_ONLY does not imply a runnable repo-native test suite",
+      "CLI failure is retained, not converted to a success"
+    ]
+  },
+  {
+    "record_class": "isolated_temporary_pr_selftest_not_prospective",
+    "repo": "reflective-continuum",
+    "expected_sha": "4a65f90026b9b626710157a7f43e74963ec18043",
+    "observed_sha": "4a65f90026b9b626710157a7f43e74963ec18043",
+    "started_at_utc": "2026-11-18T15:35:33.135831+00:00",
+    "ended_at_utc": "2026-11-18T15:35:34.673329+00:00",
+    "check_class": "REPO_RUNTIME_TESTS",
+    "steps": [
+      {
+        "label": "pinned_head_matches",
+        "status": "PASS",
+        "expected": "4a65f90026b9b626710157a7f43e74963ec18043",
+        "observed": "4a65f90026b9b626710157a7f43e74963ec18043",
+        "started_at_utc": "2026-11-18T15:35:33.137508+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.137516+00:00"
+      },
+      {
+        "label": "research_identity_documents",
+        "status": "PASS",
+        "fields": {
+          "README.md": true,
+          "OPEN_RESEARCH.md": true,
+          "RESEARCH_TEMPLATE.md": true
+        },
+        "started_at_utc": "2026-11-18T15:35:33.137578+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.137580+00:00"
+      },
+      {
+        "label": "parse_codemeta.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:33.137655+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.137658+00:00"
+      },
+      {
+        "label": "python_unittests",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:33.137700+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:34.654955+00:00",
+        "duration_seconds": 1.517
+      }
+    ],
+    "failed_steps": 0,
+    "result": "PASS",
+    "external_institution_interaction": "NONE",
+    "study_cells_added": 0,
+    "notes": [
+      "No remote GitHub write from source checkout",
+      "Status class STRUCTURAL_ONLY does not imply a runnable repo-native test suite",
+      "CLI failure is retained, not converted to a success"
+    ]
+  },
+  {
+    "record_class": "isolated_temporary_pr_selftest_not_prospective",
+    "repo": "research-software-identity-audit",
+    "expected_sha": "78a617c1a4975da6b475a05b36e5ffe6487f1630",
+    "observed_sha": "78a617c1a4975da6b475a05b36e5ffe6487f1630",
+    "started_at_utc": "2026-11-18T15:35:33.393392+00:00",
+    "ended_at_utc": "2026-11-18T15:35:34.762262+00:00",
+    "check_class": "REPO_RUNTIME_TESTS",
+    "steps": [
+      {
+        "label": "pinned_head_matches",
+        "status": "PASS",
+        "expected": "78a617c1a4975da6b475a05b36e5ffe6487f1630",
+        "observed": "78a617c1a4975da6b475a05b36e5ffe6487f1630",
+        "started_at_utc": "2026-11-18T15:35:33.395072+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.395077+00:00"
+      },
+      {
+        "label": "research_identity_documents",
+        "status": "PASS",
+        "fields": {
+          "README.md": true,
+          "OPEN_RESEARCH.md": true,
+          "RESEARCH_TEMPLATE.md": true
+        },
+        "started_at_utc": "2026-11-18T15:35:33.395137+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.395139+00:00"
+      },
+      {
+        "label": "parse_codemeta.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:33.395214+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.395217+00:00"
+      },
+      {
+        "label": "parse_.zenodo.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:33.395269+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.395270+00:00"
+      },
+      {
+        "label": "contract_advisory",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "tools/check.py",
+          "--mode",
+          "advisory"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:33.395290+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:33.459222+00:00",
+        "duration_seconds": 0.064
+      },
+      {
+        "label": "contract_strict",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "tools/check.py",
+          "--mode",
+          "strict"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:33.459584+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:33.523882+00:00",
+        "duration_seconds": 0.064
+      },
+      {
+        "label": "all_unittests",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:33.524008+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:33.939000+00:00",
+        "duration_seconds": 0.415
+      },
+      {
+        "label": "manifest_integrity",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "tools/check_public_artifact_manifest.py",
+          "--all"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:33.939142+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:34.053529+00:00",
+        "duration_seconds": 0.114
+      },
+      {
+        "label": "retained_evidence",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "tools/check_retained_all.py"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:34.053655+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:34.167935+00:00",
+        "duration_seconds": 0.114
+      },
+      {
+        "label": "zenodo_family_arithmetic",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "tools/check_zenodo_family_rollup.py"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:34.168082+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:34.232364+00:00",
+        "duration_seconds": 0.064
+      },
+      {
+        "label": "record_paths",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "tools/check_record_paths.py"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:34.232496+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:34.346807+00:00",
+        "duration_seconds": 0.114
+      },
+      {
+        "label": "repository_text_integrity",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+          "tools/check_repository_text_integrity.py"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:34.346964+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:34.762182+00:00",
+        "duration_seconds": 0.415
+      }
+    ],
+    "failed_steps": 0,
+    "result": "PASS",
+    "external_institution_interaction": "NONE",
+    "study_cells_added": 0,
+    "notes": [
+      "No remote GitHub write from source checkout",
+      "Status class STRUCTURAL_ONLY does not imply a runnable repo-native test suite",
+      "CLI failure is retained, not converted to a success"
+    ]
+  },
+  {
+    "record_class": "isolated_temporary_pr_selftest_not_prospective",
+    "repo": "sci-render-kit",
+    "expected_sha": "5f30225b0734566de015b1b63fe579ecc936272d",
+    "observed_sha": "5f30225b0734566de015b1b63fe579ecc936272d",
+    "started_at_utc": "2026-11-18T15:35:33.016100+00:00",
+    "ended_at_utc": "2026-11-18T15:35:49.216953+00:00",
+    "check_class": "REPO_RUNTIME_TESTS",
+    "steps": [
+      {
+        "label": "pinned_head_matches",
+        "status": "PASS",
+        "expected": "5f30225b0734566de015b1b63fe579ecc936272d",
+        "observed": "5f30225b0734566de015b1b63fe579ecc936272d",
+        "started_at_utc": "2026-11-18T15:35:33.017996+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.018003+00:00"
+      },
+      {
+        "label": "research_identity_documents",
+        "status": "PASS",
+        "fields": {
+          "README.md": true,
+          "OPEN_RESEARCH.md": true,
+          "RESEARCH_TEMPLATE.md": true
+        },
+        "started_at_utc": "2026-11-18T15:35:33.018083+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.018087+00:00"
+      },
+      {
+        "label": "parse_codemeta.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:33.018169+00:00",
+        "ended_at_utc": "2026-11-18T15:35:33.018173+00:00"
+      },
+      {
+        "label": "install_repo_python_deps",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.13.18/x64/bin/python",
+          "-m",
+          "pip",
+          "install",
+          "-r",
+          "requirements-python313.txt"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:33.024079+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:42.556634+00:00",
+        "duration_seconds": 9.533
+      },
+      {
+        "label": "repo_make_test",
+        "command": [
+          "make",
+          "test"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:42.556788+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:47.184060+00:00",
+        "duration_seconds": 4.627
+      },
+      {
+        "label": "install_js_deps_nonlocked",
+        "command": [
+          "npm",
+          "install",
+          "--ignore-scripts",
+          "--no-audit",
+          "--no-fund"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:47.184195+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:48.951907+00:00",
+        "duration_seconds": 1.768
+      },
+      {
+        "label": "observable_offline",
+        "command": [
+          "node",
+          "tests/test_observable_offline.js"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:48.952059+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:49.216863+00:00",
+        "duration_seconds": 0.265
+      }
+    ],
+    "failed_steps": 0,
+    "result": "PASS",
+    "external_institution_interaction": "NONE",
+    "study_cells_added": 0,
+    "notes": [
+      "No remote GitHub write from source checkout",
+      "Status class STRUCTURAL_ONLY does not imply a runnable repo-native test suite",
+      "CLI failure is retained, not converted to a success"
+    ]
+  },
+  {
+    "record_class": "isolated_temporary_pr_selftest_not_prospective",
+    "repo": "welcome-to-github",
+    "expected_sha": "5997a0d81525204673fad1d9663194b95b9dab86",
+    "observed_sha": "5997a0d81525204673fad1d9663194b95b9dab86",
+    "started_at_utc": "2026-11-18T15:35:45.487565+00:00",
+    "ended_at_utc": "2026-11-18T15:35:47.474285+00:00",
+    "check_class": "REPO_RUNTIME_TESTS",
+    "steps": [
+      {
+        "label": "pinned_head_matches",
+        "status": "PASS",
+        "expected": "5997a0d81525204673fad1d9663194b95b9dab86",
+        "observed": "5997a0d81525204673fad1d9663194b95b9dab86",
+        "started_at_utc": "2026-11-18T15:35:45.489185+00:00",
+        "ended_at_utc": "2026-11-18T15:35:45.489191+00:00"
+      },
+      {
+        "label": "research_identity_documents",
+        "status": "PASS",
+        "fields": {
+          "README.md": true,
+          "OPEN_RESEARCH.md": true,
+          "RESEARCH_TEMPLATE.md": true
+        },
+        "started_at_utc": "2026-11-18T15:35:45.489239+00:00",
+        "ended_at_utc": "2026-11-18T15:35:45.489241+00:00"
+      },
+      {
+        "label": "parse_codemeta.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:45.489295+00:00",
+        "ended_at_utc": "2026-11-18T15:35:45.489297+00:00"
+      },
+      {
+        "label": "python_unittests",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.10.22/x64/bin/python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-p",
+          "test*.py",
+          "-v"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:45.489336+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:46.004301+00:00",
+        "duration_seconds": 0.515
+      },
+      {
+        "label": "npm_ci",
+        "command": [
+          "npm",
+          "ci"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:46.004461+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:47.124682+00:00",
+        "duration_seconds": 1.12
+      },
+      {
+        "label": "pages_build",
+        "command": [
+          "npm",
+          "run",
+          "build",
+          "--",
+          "--base=/welcome-to-github/"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:47.124790+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:47.441584+00:00",
+        "duration_seconds": 0.317
+      },
+      {
+        "label": "pages_memorial_asset_copy",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:47.442027+00:00",
+        "ended_at_utc": "2026-11-18T15:35:47.442034+00:00"
+      },
+      {
+        "label": "verify_pages_routes",
+        "command": [
+          "node",
+          "tools/verify-welcome-public-surface.mjs"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:47.442048+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:47.474214+00:00",
+        "duration_seconds": 0.032
+      }
+    ],
+    "failed_steps": 0,
+    "result": "PASS",
+    "external_institution_interaction": "NONE",
+    "study_cells_added": 0,
+    "notes": [
+      "No remote GitHub write from source checkout",
+      "Status class STRUCTURAL_ONLY does not imply a runnable repo-native test suite",
+      "CLI failure is retained, not converted to a success"
+    ]
+  },
+  {
+    "record_class": "isolated_temporary_pr_selftest_not_prospective",
+    "repo": "zero-entropy-lab",
+    "expected_sha": "a3fd02a1ef4a9e6eea8b79db8444d9c9cdc26b9d",
+    "observed_sha": "a3fd02a1ef4a9e6eea8b79db8444d9c9cdc26b9d",
+    "started_at_utc": "2026-11-18T15:35:53.978065+00:00",
+    "ended_at_utc": "2026-11-18T15:35:57.200553+00:00",
+    "check_class": "REPO_RUNTIME_TESTS",
+    "steps": [
+      {
+        "label": "pinned_head_matches",
+        "status": "PASS",
+        "expected": "a3fd02a1ef4a9e6eea8b79db8444d9c9cdc26b9d",
+        "observed": "a3fd02a1ef4a9e6eea8b79db8444d9c9cdc26b9d",
+        "started_at_utc": "2026-11-18T15:35:53.979472+00:00",
+        "ended_at_utc": "2026-11-18T15:35:53.979476+00:00"
+      },
+      {
+        "label": "research_identity_documents",
+        "status": "PASS",
+        "fields": {
+          "README.md": true,
+          "OPEN_RESEARCH.md": true,
+          "RESEARCH_TEMPLATE.md": true
+        },
+        "started_at_utc": "2026-11-18T15:35:53.979511+00:00",
+        "ended_at_utc": "2026-11-18T15:35:53.979513+00:00"
+      },
+      {
+        "label": "parse_codemeta.json",
+        "status": "PASS",
+        "started_at_utc": "2026-11-18T15:35:53.979573+00:00",
+        "ended_at_utc": "2026-11-18T15:35:53.979575+00:00"
+      },
+      {
+        "label": "foundation_full_test_runner",
+        "command": [
+          "/opt/hostedtoolcache/Python/3.10.22/x64/bin/python",
+          "tests/run_tests.py"
+        ],
+        "cwd": ".",
+        "started_at_utc": "2026-11-18T15:35:53.979596+00:00",
+        "exit_code": 0,
+        "status": "PASS",
+        "ended_at_utc": "2026-11-18T15:35:57.200462+00:00",
+        "duration_seconds": 3.221
+      }
+    ],
+    "failed_steps": 0,
+    "result": "PASS",
+    "external_institution_interaction": "NONE",
+    "study_cells_added": 0,
+    "notes": [
+      "No remote GitHub write from source checkout",
+      "Status class STRUCTURAL_ONLY does not imply a runnable repo-native test suite",
+      "CLI failure is retained, not converted to a success"
+    ]
+  }
+]

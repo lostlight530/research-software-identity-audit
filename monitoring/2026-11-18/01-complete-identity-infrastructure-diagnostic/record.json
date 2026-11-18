@@ -1,0 +1,210 @@
+{
+  "record_class": "complete_attempt_cohort_and_11_repo_selftest_diagnostic_NOT_prospective",
+  "logical_date": "2026-11-18",
+  "timezone": "Asia/Shanghai",
+  "run_id": 44337384660,
+  "run_url": "https://github.com/lostlight530/research-software-identity-audit/actions/runs/44337384660",
+  "source_start_utc": "2026-11-18T15:35:32.034791+00:00",
+  "source_end_utc": "2026-11-18T15:39:43.508949+00:00",
+  "source_current_sha256": "69999c464f420c72309b4e9b778f4c716ba7e7d24b3b990c6a65a96d82bb68f4",
+  "source_previous_sha256": "68e9fffee0d0bb876e5164b73d5f7d1294804e2c99a24bfb8b123e71cc7c4d7a",
+  "source_attempts": 458,
+  "http_200_no_failure": 402,
+  "other_failure_or_partial": 56,
+  "failure_count_by_scope": {
+    "surface": 10,
+    "zenodo_version": 46
+  },
+  "fixed_objects": "RS01-RS10",
+  "control_is_rs11": false,
+  "preregistered_layers": 6,
+  "units_per_eligible_timepoint": 60,
+  "operational_platforms": 7,
+  "possible_operational_checks_not_units": 70,
+  "supplementary_surfaces": 34,
+  "new_prospective_cells": 0,
+  "repo_selftests": 11,
+  "runnable_suites": 9,
+  "structural_only": 2,
+  "failed_repo_jobs": 0,
+  "scope_counts": {
+    "surface": {
+      "attempted": 34,
+      "http_200_without_failure": 24,
+      "failed_or_partial": 10,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 23,
+        "DEGRADED": 4,
+        "UNRESOLVED": 6,
+        "RECOVERED": 1
+      },
+      "http_statuses": {
+        "200": 24,
+        "None": 5,
+        "403": 3,
+        "404": 2
+      }
+    },
+    "datacite_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 102
+      },
+      "http_statuses": {
+        "200": 102
+      }
+    },
+    "openaire_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 102
+      },
+      "http_statuses": {
+        "200": 102
+      }
+    },
+    "openalex_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 101,
+        "SELECTED_FIELDS_CHANGED": 1
+      },
+      "http_statuses": {
+        "200": 102
+      }
+    },
+    "zenodo_version": {
+      "attempted": 67,
+      "http_200_without_failure": 21,
+      "failed_or_partial": 46,
+      "relation_counts": {
+        "SELECTED_FIELDS_CHANGED": 21,
+        "DEGRADED": 46
+      },
+      "http_statuses": {
+        "200": 21,
+        "None": 45,
+        "500": 1
+      }
+    },
+    "github_main": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SELECTED_FIELDS_CHANGED": 11
+      },
+      "http_statuses": {
+        "200": 11
+      }
+    },
+    "github_releases": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 11
+      },
+      "http_statuses": {
+        "200": 11
+      }
+    },
+    "rsd_software": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 11
+      },
+      "http_statuses": {
+        "200": 11
+      }
+    },
+    "swh_origin": {
+      "attempted": 10,
+      "http_200_without_failure": 10,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 10
+      },
+      "http_statuses": {
+        "200": 10
+      }
+    },
+    "rsd_issue": {
+      "attempted": 2,
+      "http_200_without_failure": 2,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 2
+      },
+      "http_statuses": {
+        "200": 2
+      }
+    },
+    "rsd_person": {
+      "attempted": 1,
+      "http_200_without_failure": 1,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 1
+      },
+      "http_statuses": {
+        "200": 1
+      }
+    },
+    "rsd_project": {
+      "attempted": 1,
+      "http_200_without_failure": 1,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 1
+      },
+      "http_statuses": {
+        "200": 1
+      }
+    },
+    "workflowhub": {
+      "attempted": 4,
+      "http_200_without_failure": 4,
+      "failed_or_partial": 0,
+      "relation_counts": {
+        "SAME_SELECTED_FIELDS_NOT_SAME_ORIGIN_BYTES": 4
+      },
+      "http_statuses": {
+        "200": 4
+      }
+    }
+  },
+  "diagnostic_fields": {
+    "openalex_exact_canonical_doi_matches": 34,
+    "openalex_distinct_returned_work_ids": 34,
+    "openaire_positive_exact_doi_queries": 94,
+    "openaire_successful_transport_queries": 102,
+    "openaire_positive_among_successful_queries": 94,
+    "zenodo_total_version_views_fixed_ten": null,
+    "zenodo_total_version_downloads_fixed_ten": null,
+    "orcid_public_work_groups": 18,
+    "orcid_public_work_summaries": 119
+  },
+  "origin_http_body_bytes_retained": false,
+  "runner_artifact_retention_days": 30,
+  "historical_provider_state_backdated": false,
+  "limitations": [
+    "Source attempts 458; exactly 56 failed/partial, no fabricated zero or success",
+    "Zenodo fixed-version aggregate null because version requests were incomplete",
+    "403/404/500/timeout/URLError are not software absence or failed scholarly identity",
+    "OpenAlex exact DOI is not same as HTTP 200; Work IDs are not DOI counts",
+    "openAIRE positive DOI queries are not distinct software works",
+    "GitHub main ahead counts are not GitHub releases",
+    "two observatories are structural-only, not scientific runtime tests",
+    "no original provider HTTP bodies, only client receipts, digests, minimised public fields",
+    "no OSF prospective eligibility or declared operational schedule offsets inferred"
+  ]
+}
