@@ -82,9 +82,12 @@ def main():
     # All 34 supplementary surfaces.
     surface_rows=[]
     for index,item in enumerate(surfaces,1):
-        key=f"{index:02d}:{item['surface']}"; row=current_by_key[("surface",key)]; fields=row.get("selected_public_fields") or {}
-        surface_rows.append({"surface_row":index,"surface":item["surface"],"source_locator":item["source_locator"],"http_status":row.get("http_status"),"failure":row.get("failure"),"transport_state":row.get("transport_state"),"response_bytes_read":row.get("response_bytes_read"),"response_sha256":row.get("raw_sha256"),"semantic_identity_status":fields.get("semantic_identity_status") or ("SELECTED_FIELDS_AVAILABLE" if fields else "NOT_VERIFIED_BY_THIS_EXTRACTOR"),"selected_public_fields":fields})
-    write_csv(args.output/"surface-results.csv",["surface_row","surface","source_locator","http_status","failure","transport_state","response_bytes_read","response_sha256","semantic_identity_status","selected_public_fields"],surface_rows)
+        row=next((candidate for candidate in current if candidate["scope"]=="surface" and candidate["key"].startswith(f"{index:02d}:")),None)
+        if row is None: raise SystemExit(f"missing surface request row {index:02d}")
+        collector_key=row["key"]
+        fields=row.get("selected_public_fields") or {}
+        surface_rows.append({"surface_row":index,"surface":item["surface"],"collector_key":collector_key,"source_locator":item["source_locator"],"http_status":row.get("http_status"),"failure":row.get("failure"),"transport_state":row.get("transport_state"),"response_bytes_read":row.get("response_bytes_read"),"response_sha256":row.get("raw_sha256"),"semantic_identity_status":fields.get("semantic_identity_status") or ("SELECTED_FIELDS_AVAILABLE" if fields else "NOT_VERIFIED_BY_THIS_EXTRACTOR"),"selected_public_fields":fields})
+    write_csv(args.output/"surface-results.csv",["surface_row","surface","collector_key","source_locator","http_status","failure","transport_state","response_bytes_read","response_sha256","semantic_identity_status","selected_public_fields"],surface_rows)
 
     # DataCite exact DOI state and resource-type projection.
     datacite_rows=[]
