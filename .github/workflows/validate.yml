@@ -78,6 +78,12 @@ jobs:
         id: text_tests
         continue-on-error: true
         run: python -m unittest discover -s tests -p "test_repository_text_integrity.py" -v
+      - name: Verify Oct05-Nov18 pinned path and blob classification (advisory)
+        id: history_inventory
+        continue-on-error: true
+        run: |
+          python -B tools/check_research_inventory_20261118.py
+          python -m unittest discover -s tests -p "test_research_inventory_20261118.py" -v
       - name: Check dated record paths and ownership (advisory)
         id: record_paths
         continue-on-error: true
@@ -101,6 +107,7 @@ jobs:
           TEXT_INTEGRITY: ${{ steps.text_integrity.outcome }}
           TEXT_TESTS: ${{ steps.text_tests.outcome }}
           RECORD_PATHS: ${{ steps.record_paths.outcome }}
+          HISTORY_INVENTORY: ${{ steps.history_inventory.outcome }}
           TRANSPORT_TESTS: ${{ steps.transport_tests.outcome }}
         run: |
           echo '### Advisory validation outcomes' >> "$GITHUB_STEP_SUMMARY"
@@ -132,6 +139,8 @@ jobs:
           if [ "$TEXT_INTEGRITY" != "success" ]; then degraded=$((degraded + 1)); fi
           echo '| text_tests | '${TEXT_TESTS}' |' >> "$GITHUB_STEP_SUMMARY"
           if [ "$TEXT_TESTS" != "success" ]; then degraded=$((degraded + 1)); fi
+          echo '| history_inventory | '${HISTORY_INVENTORY}' |' >> "$GITHUB_STEP_SUMMARY"
+          if [ "$HISTORY_INVENTORY" != "success" ]; then degraded=$((degraded + 1)); fi
           echo '| record_paths | '${RECORD_PATHS}' |' >> "$GITHUB_STEP_SUMMARY"
           if [ "$RECORD_PATHS" != "success" ]; then degraded=$((degraded + 1)); fi
           echo '| transport_tests | '${TRANSPORT_TESTS}' |' >> "$GITHUB_STEP_SUMMARY"
