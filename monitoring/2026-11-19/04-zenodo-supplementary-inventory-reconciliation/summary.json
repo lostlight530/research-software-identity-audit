@@ -1,0 +1,30 @@
+{
+  "record_class": "supplementary_inventory_reconciliation_not_prospective",
+  "logical_date_asia_shanghai": "2026-11-19",
+  "retrieval_window_utc": {
+    "start": "2026-11-18T18:36:56.430Z",
+    "end": "2026-11-18T18:36:57.436Z"
+  },
+  "prior_inventory_rows": 67,
+  "resolved_supplementary_version_rows": 2,
+  "resulting_known_version_identities": 69,
+  "breakdown": {
+    "fixed_RS01_RS10": 60,
+    "control_not_RS11": 6,
+    "supplementary_LSEL_not_sample": 3
+  },
+  "no_contract_or_study_effects": {
+    "new_research_objects": 0,
+    "new_object_layer_units": 0,
+    "new_prospective_cells": 0,
+    "osf_write_attempted": false,
+    "schedule_changed": false,
+    "frozen_contract_changed": false,
+    "original_458_request_cohort_changed": false,
+    "original_67_key_inventory_overwritten": false
+  },
+  "unresolved_items_not_addressed": [
+    "100-view discrepancy in maintainer-supplied 12-record page counters",
+    "other unqueried Zenodo records outside the bounded known inventory"
+  ]
+}
