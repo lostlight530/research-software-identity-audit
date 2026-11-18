@@ -1,0 +1,46 @@
+name: TEMPORARY stage Nov18 verified 458-source and 11-repository evidence
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/temporary-stage-verified-2026-11-18.yml'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  stage-minimised-evidence:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - name: Check out isolated temporary verification script
+        uses: actions/checkout@v4
+        with:
+          path: driver
+          persist-credentials: false
+      - name: Check out the separate ADDITIVE classification/evidence PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: research/2026-11-18-history-classification
+          path: deposit
+          persist-credentials: true
+      - name: Download all source and eleven pinned-repository artifacts from completed run
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 44337384660
+          github-token: ${{ github.token }}
+          pattern: '*-44337384660'
+          path: deposit/artifact-bundle
+      - name: Verify exact keys, digest, 11 runtime receipts; stage non-prospective projections
+        working-directory: deposit
+        run: python -B ../driver/tools/temporary_stage_verified_20261118.py
+      - name: Review diff and push ONLY evidence additions to the separate PR branch
+        working-directory: deposit
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add monitoring/README.md monitoring/2026-11-18/01-complete-identity-infrastructure-diagnostic/ evidence/2026-11-18/01-complete-identity-infrastructure-diagnostic/
+          git diff --cached --check
+          git diff --cached --stat
+          git commit -m 'research(evidence): retain Nov18 fixed-cohort 458-source and pinned 11-repo receipts'
+          git push origin HEAD:refs/heads/research/2026-11-18-history-classification
