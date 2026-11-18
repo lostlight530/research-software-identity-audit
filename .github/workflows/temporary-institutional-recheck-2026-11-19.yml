@@ -73,6 +73,8 @@ jobs:
           LOGICAL_DATE: '2026-11-19'
         run: |
           set -euo pipefail
+          test ! -e deposit/evidence/2026-11-19/02-complete-institutional-recheck
+          test ! -e deposit/monitoring/2026-11-19/02-complete-institutional-recheck
           mkdir -p deposit/evidence/2026-11-19/02-complete-institutional-recheck
           mkdir -p deposit/monitoring/2026-11-19/02-complete-institutional-recheck
           cp "${{ runner.temp }}/nov19-source/source-attempts.jsonl" deposit/evidence/2026-11-19/02-complete-institutional-recheck/
@@ -114,14 +116,10 @@ jobs:
               for p in sorted(e.iterdir()) if p.is_file() and p.name != "file-sha256-manifest.txt"
           ), encoding="utf-8")
           PY
-          cat >> deposit/monitoring/README.md <<'EOF'
-
-          - [2026-11-19 / 02-complete-institutional-recheck](2026-11-19/02-complete-institutional-recheck/README.md) — 34 supplementary surfaces, 102 DOI keys across DataCite/OpenAIRE/OpenAlex, 67 Zenodo versions, OpenAIRE result-ID aggregation/split and OpenAlex version-to-Work reconciliation; diagnostic only, zero prospective cells
-          EOF
           cd deposit
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add evidence/2026-11-19/02-complete-institutional-recheck/ monitoring/2026-11-19/02-complete-institutional-recheck/ monitoring/README.md
+          git add evidence/2026-11-19/02-complete-institutional-recheck/ monitoring/2026-11-19/02-complete-institutional-recheck/
           git diff --cached --check
           git diff --cached --stat
           git commit -m 'research(evidence): Nov19 complete 34-surface and 458-source recheck'
