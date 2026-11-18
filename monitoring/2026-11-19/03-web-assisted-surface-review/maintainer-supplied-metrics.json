@@ -138,9 +138,10 @@
     "license": {
       "MIT": 80,
       "CC-BY-4.0": 4,
-      "unspecified_or_other": 21
+      "not_in_supplied_license_facets": 21
     },
-    "note": "Facet totals are a Commons ORCID-filtered scope; they are not the fixed 102 DOI-key inventory"
+    "note": "Facet totals are a Commons ORCID-filtered scope; they are not the fixed 102 DOI-key inventory",
+    "license_note": "The supplied facets list MIT 80 and CC-BY-4.0 4 only; the remaining 21 records' license values are not inferable from the pasted facets."
   },
   "maintainer_statements": {
     "openaire": "12 repository families; generally one aggregation and one split, some with two splits",
