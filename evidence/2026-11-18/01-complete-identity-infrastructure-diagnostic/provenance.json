@@ -1,0 +1,17 @@
+{
+  "record_class": "new_provider_request_attempt_provenance_diagnostic_NOT_PROSPECTIVE",
+  "source_workflow_run_id": 44337384660,
+  "source_run_url": "https://github.com/lostlight530/research-software-identity-audit/actions/runs/44337384660",
+  "source_collector": "tools/public_source_recheck.py@temporary PR #125 (code exists in CONTROL main)",
+  "comparator": "tools/temporary_full_source_compare_20261118.py@temporary PR #125 (intentionally unmerged)",
+  "source_ledger_sha256": "69999c464f420c72309b4e9b778f4c716ba7e7d24b3b990c6a65a96d82bb68f4",
+  "prior_2026_11_17_ledger_sha256": "68e9fffee0d0bb876e5164b73d5f7d1294804e2c99a24bfb8b123e71cc7c4d7a",
+  "capture_start_utc": "2026-11-18T15:35:32.034791+00:00",
+  "capture_end_utc": "2026-11-18T15:39:43.508949+00:00",
+  "source_attempt_count": 458,
+  "provider_http_raw_body_bytes_retained": false,
+  "authorization_headers_retained": false,
+  "artifact_zip_retention_days": 30,
+  "osf_write_attempted": false,
+  "new_prospective_cells": 0
+}
