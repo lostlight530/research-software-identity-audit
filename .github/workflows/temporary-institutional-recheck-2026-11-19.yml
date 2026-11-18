@@ -1,0 +1,125 @@
+name: TEMPORARY 2026-11-19 34-surface and 458-source institutional recheck
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/temporary-institutional-recheck-2026-11-19.yml'
+      - 'tools/public_source_recheck.py'
+      - 'tools/public_source_transport.py'
+      - 'tools/openaire_identity_projection.py'
+      - 'tools/reconcile_identity_groupings_20261119.py'
+      - 'tests/test_openaire_identity_projection.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  recapture-and-stage:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out the temporary runner branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          path: driver
+          persist-credentials: false
+      - name: Check out the separate append-only evidence branch
+        uses: actions/checkout@v4
+        with:
+          ref: research/2026-11-19-institutional-recheck-evidence
+          path: deposit
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run all 458 bounded public-source requests
+        working-directory: driver
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -B tools/public_source_recheck.py --output "${{ runner.temp }}/nov19-source"
+      - name: Derive OpenAIRE and OpenAlex identity grouping and compare exact prior keys
+        working-directory: driver
+        run: |
+          python -B tools/reconcile_identity_groupings_20261119.py \
+            --input "${{ runner.temp }}/nov19-source" \
+            --previous evidence/2026-11-18/01-complete-identity-infrastructure-diagnostic/source-attempts.jsonl \
+            --versions evidence/2026-11-12/01-identity-claim-reconciliation/zenodo-all-version-statistics.csv \
+            --surface-registry docs/research-independent-34-surface-access-2026-10-31.csv \
+            --output "${{ runner.temp }}/nov19-derived"
+      - name: Run offline OpenAIRE projection regressions and syntax checks
+        working-directory: driver
+        run: |
+          python -m unittest discover -s tests -p "test_openaire_identity_projection.py" -v
+          python -m py_compile tools/public_source_recheck.py tools/openaire_identity_projection.py tools/reconcile_identity_groupings_20261119.py
+      - name: Stage immutable source ledger and derived diagnostic package
+        env:
+          RUN_ID: ${{ github.run_id }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          RUNNER_SOURCE_SHA: ${{ github.event.pull_request.head.sha }}
+          LOGICAL_DATE: '2026-11-19'
+        run: |
+          set -euo pipefail
+          mkdir -p deposit/evidence/2026-11-19/01-complete-institutional-recheck
+          mkdir -p deposit/monitoring/2026-11-19/01-complete-institutional-recheck
+          cp "${{ runner.temp }}/nov19-source/source-attempts.jsonl" deposit/evidence/2026-11-19/01-complete-institutional-recheck/
+          cp "${{ runner.temp }}/nov19-source/selected-fields.jsonl" deposit/evidence/2026-11-19/01-complete-institutional-recheck/
+          cp "${{ runner.temp }}/nov19-source/summary.json" deposit/evidence/2026-11-19/01-complete-institutional-recheck/
+          cp "${{ runner.temp }}/nov19-source/sha256-manifest.txt" deposit/evidence/2026-11-19/01-complete-institutional-recheck/
+          cp "${{ runner.temp }}/nov19-derived/"* deposit/monitoring/2026-11-19/01-complete-institutional-recheck/
+          python - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          e = Path("deposit/evidence/2026-11-19/01-complete-institutional-recheck")
+          m = Path("deposit/monitoring/2026-11-19/01-complete-institutional-recheck")
+          ledger = e / "source-attempts.jsonl"
+          rows = [json.loads(x) for x in ledger.read_text(encoding="utf-8").splitlines() if x.strip()]
+          prov = {
+              "record_class": "new_public_source_request_attempt_provenance_not_prospective",
+              "workflow_run_id": int(os.environ["RUN_ID"]),
+              "workflow_run_url": os.environ["RUN_URL"],
+              "runner_source_sha": os.environ["RUNNER_SOURCE_SHA"],
+              "logical_date": os.environ["LOGICAL_DATE"],
+              "source_start_utc": min(x["started_at_utc"] for x in rows),
+              "source_end_utc": max(x["finished_at_utc"] for x in rows),
+              "source_attempts": len(rows),
+              "source_ledger_sha256": hashlib.sha256(ledger.read_bytes()).hexdigest(),
+              "provider_response_bodies_retained": False,
+              "authorization_headers_retained": False,
+              "osf_write_attempted": False,
+              "new_prospective_cells": 0
+          }
+          (e / "provenance.json").write_text(json.dumps(prov, indent=2) + "\n", encoding="utf-8")
+          (e / "README.md").write_text(
+              "# 2026-11-19 source-attempt evidence projections\n\n"
+              "458 exact public request attempts, per-request UTC clocks, response digests, "
+              "transport states and minimized selected fields. Original provider response bodies "
+              "and authorization headers are not retained. See the owning monitoring report.\n",
+              encoding="utf-8")
+          (e / "file-sha256-manifest.txt").write_text("".join(
+              hashlib.sha256(p.read_bytes()).hexdigest() + "  " + p.name + "\n"
+              for p in sorted(e.iterdir()) if p.is_file() and p.name != "file-sha256-manifest.txt"
+          ), encoding="utf-8")
+          PY
+          cat >> deposit/monitoring/README.md <<'EOF'
+
+          - [2026-11-19 / 01-complete-institutional-recheck](2026-11-19/01-complete-institutional-recheck/README.md) — 34 supplementary surfaces, 102 DOI keys across DataCite/OpenAIRE/OpenAlex, 67 Zenodo versions, OpenAIRE result-ID aggregation/split and OpenAlex version-to-Work reconciliation; diagnostic only, zero prospective cells
+          EOF
+          cd deposit
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/2026-11-19/01-complete-institutional-recheck/ monitoring/2026-11-19/01-complete-institutional-recheck/ monitoring/README.md
+          git diff --cached --check
+          git diff --cached --stat
+          git commit -m 'research(evidence): Nov19 complete 34-surface and 458-source recheck'
+          git push origin HEAD:refs/heads/research/2026-11-19-institutional-recheck-evidence
+      - name: Upload a temporary workflow artifact as a secondary copy
+        uses: actions/upload-artifact@v4
+        with:
+          name: nov19-institutional-recheck-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/nov19-source/
+            ${{ runner.temp }}/nov19-derived/
+          if-no-files-found: error
+          retention-days: 30
