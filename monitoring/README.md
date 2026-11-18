@@ -264,3 +264,5 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 - [2026-11-18 / 01-complete-identity-infrastructure-diagnostic](2026-11-18/01-complete-identity-infrastructure-diagnostic/README.md) — pinned 11-repo full selftest and matched 458-key source diagnostic; 402 source requests HTTP200/no failure, 56 failed/partial including 46 Zenodo version attempts; comparison to Nov17 retains unknown, zero prospective cells
 
 - [2026-11-19 / 01-complete-institutional-recheck](2026-11-19/01-complete-institutional-recheck/README.md) — 34 supplementary surfaces, 102 DOI keys across DataCite/OpenAIRE/OpenAlex, 67 Zenodo versions, OpenAIRE result-ID aggregation/split and OpenAlex version-to-Work reconciliation; diagnostic only, zero prospective cells
+
+- [2026-11-19 / 01-complete-institutional-recheck](2026-11-19/01-complete-institutional-recheck/README.md) — 34 supplementary surfaces, 102 DOI keys across DataCite/OpenAIRE/OpenAlex, 67 Zenodo versions, OpenAIRE result-ID aggregation/split and OpenAlex version-to-Work reconciliation; diagnostic only, zero prospective cells

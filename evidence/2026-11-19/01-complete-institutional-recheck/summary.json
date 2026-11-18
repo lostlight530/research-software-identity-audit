@@ -1,7 +1,7 @@
 {
   "record_class": "bounded_public_cloud_retest_not_prospective",
-  "start_utc": "2026-11-18T16:52:38.613406+00:00",
-  "end_utc": "2026-11-18T16:53:59.137020+00:00",
+  "start_utc": "2026-11-18T17:11:45.789447+00:00",
+  "end_utc": "2026-11-18T17:12:52.060010+00:00",
   "source": "read-only public HTTP diagnostics; optional token limited to public GitHub API",
   "github_api_authentication": "GITHUB_TOKEN_PRESENT",
   "fixed_corpus": "RS01-RS10",
@@ -86,12 +86,12 @@
     "surface": {
       "attempted": 34,
       "http_statuses": {
-        "200": 25,
-        "None": 4,
+        "200": 28,
+        "None": 1,
         "403": 3,
         "404": 2
       },
-      "failed_or_partial": 9
+      "failed_or_partial": 6
     },
     "swh_origin": {
       "attempted": 10,
@@ -110,10 +110,9 @@
     "zenodo_version": {
       "attempted": 67,
       "http_statuses": {
-        "200": 63,
-        "500": 4
+        "200": 67
       },
-      "failed_or_partial": 4
+      "failed_or_partial": 0
     }
   },
   "limits": [
@@ -134,8 +133,8 @@
     "openaire_positive_exact_doi_queries": 94,
     "openaire_successful_transport_queries": 102,
     "openaire_positive_among_successful_queries": 94,
-    "zenodo_total_version_views_fixed_ten": null,
-    "zenodo_total_version_downloads_fixed_ten": null,
+    "zenodo_total_version_views_fixed_ten": 4208,
+    "zenodo_total_version_downloads_fixed_ten": 44,
     "orcid_public_work_groups": 18,
     "orcid_public_work_summaries": 119
   }

@@ -1,7 +1,7 @@
 {
   "record_class": "bounded_public_infrastructure_recheck_not_prospective",
   "logical_date": "2026-11-19",
-  "generated_at_utc": "2026-11-18T16:53:59.213598+00:00",
+  "generated_at_utc": "2026-11-18T17:12:52.148534+00:00",
   "fixed_corpus": "RS01-RS10",
   "control_is_rs11": false,
   "preregistered_layers": 6,
@@ -63,8 +63,8 @@
     },
     "surface": {
       "attempted": 34,
-      "http_200_without_failure": 25,
-      "failed_or_partial": 9
+      "http_200_without_failure": 28,
+      "failed_or_partial": 6
     },
     "swh_origin": {
       "attempted": 10,
@@ -78,12 +78,12 @@
     },
     "zenodo_version": {
       "attempted": 67,
-      "http_200_without_failure": 63,
-      "failed_or_partial": 4
+      "http_200_without_failure": 67,
+      "failed_or_partial": 0
     }
   },
-  "supplementary_surface_http_200": 25,
-  "supplementary_surface_failures_or_partial": 9,
+  "supplementary_surface_http_200": 28,
+  "supplementary_surface_failures_or_partial": 6,
   "datacite": {
     "requests": 102,
     "http_200": 102,
@@ -129,11 +129,11 @@
   },
   "zenodo": {
     "version_requests": 67,
-    "http_200": 63,
+    "http_200": 67,
     "fixed_ten_version_rows": 60,
-    "fixed_ten_complete": false,
-    "fixed_ten_version_views": null,
-    "fixed_ten_version_downloads": null,
+    "fixed_ten_complete": true,
+    "fixed_ten_version_views": 4208,
+    "fixed_ten_version_downloads": 44,
     "family_counts": {
       "welcome-to-github": 6,
       "zero-entropy-lab": 6,
@@ -230,7 +230,7 @@
       "attempted": 102,
       "transport_changed": 0,
       "selected_fields_changed": 0,
-      "response_digest_changed": 49
+      "response_digest_changed": 57
     },
     "rsd_issue": {
       "attempted": 2,
@@ -258,9 +258,9 @@
     },
     "surface": {
       "attempted": 34,
-      "transport_changed": 1,
+      "transport_changed": 4,
       "selected_fields_changed": 1,
-      "response_digest_changed": 11
+      "response_digest_changed": 14
     },
     "swh_origin": {
       "attempted": 10,
@@ -276,9 +276,9 @@
     },
     "zenodo_version": {
       "attempted": 67,
-      "transport_changed": 47,
-      "selected_fields_changed": 44,
-      "response_digest_changed": 47
+      "transport_changed": 46,
+      "selected_fields_changed": 48,
+      "response_digest_changed": 48
     }
   }
 }

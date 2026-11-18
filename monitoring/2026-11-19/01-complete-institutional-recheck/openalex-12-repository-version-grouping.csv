@@ -1,13 +1,13 @@
 repository,object_role,version_doi_count,successful_doi_queries,missing_work_responses,exact_version_doi_primary_matches,distinct_work_ids,work_ids_shared_by_multiple_version_doi_queries,shared_work_ids,version_primary_doi_matches,concept_primary_doi_matches
 Axiom-0,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213395896""]",0,6
 agent-foundations,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213400679""]",0,6
-agentic-frontier-observatory,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213433288""]",0,4
-auto-doc-engine,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213415068""]",0,5
+agentic-frontier-observatory,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213433288""]",0,6
+auto-doc-engine,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213415068""]",0,6
 china-agentic-observatory,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213401383""]",0,6
 epistemic-pipeline,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213434988""]",0,6
 life-science-ecosystem-lab,SUPPLEMENTARY_NOT_SAMPLE,2,2,0,0,1,1,"[""https://openalex.org/W7222883692""]",0,2
 reflective-continuum,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213417036""]",0,6
 research-software-identity-audit,CONTROL_NOT_RS11,5,5,0,0,1,1,"[""https://openalex.org/W7220365356""]",0,5
-sci-render-kit,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213431981""]",0,5
+sci-render-kit,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213431981""]",0,6
 welcome-to-github,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213430624""]",0,6
 zero-entropy-lab,FIXED_RS01_RS10,6,6,0,0,1,1,"[""https://openalex.org/W7213429607""]",0,6
