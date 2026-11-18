@@ -1,0 +1,284 @@
+{
+  "record_class": "bounded_public_infrastructure_recheck_not_prospective",
+  "logical_date": "2026-11-19",
+  "generated_at_utc": "2026-11-18T16:53:59.213598+00:00",
+  "fixed_corpus": "RS01-RS10",
+  "control_is_rs11": false,
+  "preregistered_layers": 6,
+  "eligible_units_per_scheduled_timepoint": 60,
+  "operational_platforms": 7,
+  "possible_platform_checks_not_units": 70,
+  "supplementary_surfaces": 34,
+  "known_doi_inventory": 102,
+  "zenodo_version_inventory": 67,
+  "source_attempts": 458,
+  "source_request_keys_identical_to_2026-11-18": true,
+  "new_prospective_cells": 0,
+  "osf_write_attempted": false,
+  "scope_counts": {
+    "datacite_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0
+    },
+    "github_main": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0
+    },
+    "github_releases": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0
+    },
+    "openaire_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0
+    },
+    "openalex_doi": {
+      "attempted": 102,
+      "http_200_without_failure": 102,
+      "failed_or_partial": 0
+    },
+    "rsd_issue": {
+      "attempted": 2,
+      "http_200_without_failure": 2,
+      "failed_or_partial": 0
+    },
+    "rsd_person": {
+      "attempted": 1,
+      "http_200_without_failure": 1,
+      "failed_or_partial": 0
+    },
+    "rsd_project": {
+      "attempted": 1,
+      "http_200_without_failure": 1,
+      "failed_or_partial": 0
+    },
+    "rsd_software": {
+      "attempted": 11,
+      "http_200_without_failure": 11,
+      "failed_or_partial": 0
+    },
+    "surface": {
+      "attempted": 34,
+      "http_200_without_failure": 25,
+      "failed_or_partial": 9
+    },
+    "swh_origin": {
+      "attempted": 10,
+      "http_200_without_failure": 10,
+      "failed_or_partial": 0
+    },
+    "workflowhub": {
+      "attempted": 4,
+      "http_200_without_failure": 4,
+      "failed_or_partial": 0
+    },
+    "zenodo_version": {
+      "attempted": 67,
+      "http_200_without_failure": 63,
+      "failed_or_partial": 4
+    }
+  },
+  "supplementary_surface_http_200": 25,
+  "supplementary_surface_failures_or_partial": 9,
+  "datacite": {
+    "requests": 102,
+    "http_200": 102,
+    "states": {
+      "findable": 102
+    },
+    "resource_types": {
+      "StudyRegistration": 1,
+      "Text": 1,
+      "Workflow": 21,
+      "Software": 79
+    }
+  },
+  "openaire": {
+    "doi_queries": 102,
+    "complete_queries": 102,
+    "positive_complete_queries": 94,
+    "distinct_result_ids": 66,
+    "result_occurrences": 108,
+    "zenodo_repository_families": 12,
+    "repository_grouping_complete": true,
+    "aggregate_result_ids_within_repository": 11,
+    "split_doi_queries_within_repository": 14
+  },
+  "openalex": {
+    "doi_queries": 102,
+    "successful_queries": 102,
+    "exact_canonical_doi_matches": 34,
+    "distinct_work_ids": 34,
+    "author_profile_works_count": 35,
+    "author_profile_cited_by_count": 3,
+    "zenodo_repository_families": 12
+  },
+  "orcid": {
+    "http_status": 200,
+    "groups": 18,
+    "work_summaries": 119,
+    "source_counts": {
+      "DataCite": 94,
+      "OpenAIRE": 12,
+      "UNKNOWN": 13
+    }
+  },
+  "zenodo": {
+    "version_requests": 67,
+    "http_200": 63,
+    "fixed_ten_version_rows": 60,
+    "fixed_ten_complete": false,
+    "fixed_ten_version_views": null,
+    "fixed_ten_version_downloads": null,
+    "family_counts": {
+      "welcome-to-github": 6,
+      "zero-entropy-lab": 6,
+      "Axiom-0": 6,
+      "reflective-continuum": 6,
+      "agent-foundations": 6,
+      "auto-doc-engine": 6,
+      "epistemic-pipeline": 6,
+      "sci-render-kit": 6,
+      "china-agentic-observatory": 6,
+      "agentic-frontier-observatory": 6,
+      "research-software-identity-audit": 5,
+      "life-science-ecosystem-lab": 2
+    }
+  },
+  "workflowhub": [
+    {
+      "key": "workflow-2332",
+      "id": "2332",
+      "json_top_level_keys": [
+        "data",
+        "jsonapi"
+      ],
+      "title": "NEXUS CORTEX Life Cycle — welcome-to-github",
+      "version": 9
+    },
+    {
+      "key": "workflow-2334",
+      "id": "2334",
+      "json_top_level_keys": [
+        "data",
+        "jsonapi"
+      ],
+      "title": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+      "version": 9
+    },
+    {
+      "key": "workflow-2337",
+      "id": "2337",
+      "json_top_level_keys": [
+        "data",
+        "jsonapi"
+      ],
+      "title": "Brain Evolution — welcome-to-github",
+      "version": 1
+    },
+    {
+      "key": "workflow-2347",
+      "id": "2347",
+      "json_top_level_keys": [
+        "data",
+        "jsonapi"
+      ],
+      "title": "Life Science Knowledge Workflow",
+      "version": 2
+    }
+  ],
+  "limits": [
+    "OpenAIRE aggregate: one result ID matches multiple queried DOI values within a repository family",
+    "OpenAIRE split: one exact DOI query returns multiple distinct result IDs",
+    "only complete OpenAIRE result pages enter grouping",
+    "OpenAlex exact DOI matches and Work IDs are not equivalent to distinct software objects",
+    "HTTP 200 is transport success, not proof of indexing identity or independent adoption",
+    "403/404/timeout/truncation remain unresolved or blocked, never absence",
+    "no original provider HTTP bodies retained; SHA-256, byte length, clocks and selected fields only",
+    "no OSF write, schedule change, new Release, new DOI or prospective study cell"
+  ],
+  "comparison_to_2026-11-18": {
+    "datacite_doi": {
+      "attempted": 102,
+      "transport_changed": 0,
+      "selected_fields_changed": 0,
+      "response_digest_changed": 0
+    },
+    "github_main": {
+      "attempted": 11,
+      "transport_changed": 0,
+      "selected_fields_changed": 1,
+      "response_digest_changed": 1
+    },
+    "github_releases": {
+      "attempted": 11,
+      "transport_changed": 0,
+      "selected_fields_changed": 0,
+      "response_digest_changed": 0
+    },
+    "openaire_doi": {
+      "attempted": 102,
+      "transport_changed": 0,
+      "selected_fields_changed": 102,
+      "response_digest_changed": 102
+    },
+    "openalex_doi": {
+      "attempted": 102,
+      "transport_changed": 0,
+      "selected_fields_changed": 0,
+      "response_digest_changed": 49
+    },
+    "rsd_issue": {
+      "attempted": 2,
+      "transport_changed": 0,
+      "selected_fields_changed": 0,
+      "response_digest_changed": 0
+    },
+    "rsd_person": {
+      "attempted": 1,
+      "transport_changed": 0,
+      "selected_fields_changed": 0,
+      "response_digest_changed": 1
+    },
+    "rsd_project": {
+      "attempted": 1,
+      "transport_changed": 0,
+      "selected_fields_changed": 0,
+      "response_digest_changed": 1
+    },
+    "rsd_software": {
+      "attempted": 11,
+      "transport_changed": 0,
+      "selected_fields_changed": 0,
+      "response_digest_changed": 11
+    },
+    "surface": {
+      "attempted": 34,
+      "transport_changed": 1,
+      "selected_fields_changed": 1,
+      "response_digest_changed": 11
+    },
+    "swh_origin": {
+      "attempted": 10,
+      "transport_changed": 0,
+      "selected_fields_changed": 0,
+      "response_digest_changed": 0
+    },
+    "workflowhub": {
+      "attempted": 4,
+      "transport_changed": 0,
+      "selected_fields_changed": 0,
+      "response_digest_changed": 0
+    },
+    "zenodo_version": {
+      "attempted": 67,
+      "transport_changed": 47,
+      "selected_fields_changed": 44,
+      "response_digest_changed": 47
+    }
+  }
+}

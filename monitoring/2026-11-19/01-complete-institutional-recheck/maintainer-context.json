@@ -1,0 +1,9 @@
+{
+  "record_class": "maintainer_supplied_context_not_provider_capture",
+  "source_capture_time": null,
+  "received_in_conversation_logical_date": "2026-11-19",
+  "openaire": "12 repository families; generally one aggregate and one split, some two splits",
+  "openalex": "34; 8 and 9 version split (maintainer wording retained verbatim; exact counting unit not further specified)",
+  "datacite_orcid": "maintainer reports no change",
+  "interpretation": "These statements are comparison context, not independently timestamped provider evidence; API recapture and identity grouping outputs are separate."
+}

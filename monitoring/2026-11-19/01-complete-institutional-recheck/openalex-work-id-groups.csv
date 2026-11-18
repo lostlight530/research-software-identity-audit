@@ -1,0 +1,35 @@
+openalex_work_id,queried_doi_count,queried_dois,zenodo_repositories,zenodo_repository_count,multiple_doi_queries_same_work
+https://openalex.org/W7213395896,7,"[""10.5281/zenodo.22791103"", ""10.5281/zenodo.22791104"", ""10.5281/zenodo.23068261"", ""10.5281/zenodo.23137205"", ""10.5281/zenodo.23365534"", ""10.5281/zenodo.23811393"", ""10.5281/zenodo.24112463""]","[""Axiom-0""]",1,True
+https://openalex.org/W7213400679,7,"[""10.5281/zenodo.22791169"", ""10.5281/zenodo.22791170"", ""10.5281/zenodo.23068262"", ""10.5281/zenodo.23137207"", ""10.5281/zenodo.23365540"", ""10.5281/zenodo.23811389"", ""10.5281/zenodo.24112465""]","[""agent-foundations""]",1,True
+https://openalex.org/W7213401383,7,"[""10.5281/zenodo.22791309"", ""10.5281/zenodo.22791310"", ""10.5281/zenodo.23068347"", ""10.5281/zenodo.23137211"", ""10.5281/zenodo.23365548"", ""10.5281/zenodo.23811388"", ""10.5281/zenodo.24112469""]","[""china-agentic-observatory""]",1,True
+https://openalex.org/W7213415068,7,"[""10.5281/zenodo.22791404"", ""10.5281/zenodo.22791405"", ""10.5281/zenodo.23068471"", ""10.5281/zenodo.23137215"", ""10.5281/zenodo.23365510"", ""10.5281/zenodo.23811383"", ""10.5281/zenodo.24112471""]","[""auto-doc-engine""]",1,True
+https://openalex.org/W7213417036,7,"[""10.5281/zenodo.22791141"", ""10.5281/zenodo.22791142"", ""10.5281/zenodo.23068260"", ""10.5281/zenodo.23137206"", ""10.5281/zenodo.23365567"", ""10.5281/zenodo.23811392"", ""10.5281/zenodo.24112458""]","[""reflective-continuum""]",1,True
+https://openalex.org/W7213429607,7,"[""10.5281/zenodo.22791081"", ""10.5281/zenodo.22791082"", ""10.5281/zenodo.23068144"", ""10.5281/zenodo.23137204"", ""10.5281/zenodo.23365551"", ""10.5281/zenodo.23811394"", ""10.5281/zenodo.24112455""]","[""zero-entropy-lab""]",1,True
+https://openalex.org/W7213430624,7,"[""10.5281/zenodo.22790907"", ""10.5281/zenodo.22790908"", ""10.5281/zenodo.23068145"", ""10.5281/zenodo.23137203"", ""10.5281/zenodo.23365504"", ""10.5281/zenodo.23811380"", ""10.5281/zenodo.24112453""]","[""welcome-to-github""]",1,True
+https://openalex.org/W7213431981,7,"[""10.5281/zenodo.22791375"", ""10.5281/zenodo.22791376"", ""10.5281/zenodo.23068472"", ""10.5281/zenodo.23137219"", ""10.5281/zenodo.23365525"", ""10.5281/zenodo.23811397"", ""10.5281/zenodo.24112475""]","[""sci-render-kit""]",1,True
+https://openalex.org/W7213433288,7,"[""10.5281/zenodo.22791334"", ""10.5281/zenodo.22791335"", ""10.5281/zenodo.23068352"", ""10.5281/zenodo.23137214"", ""10.5281/zenodo.23365543"", ""10.5281/zenodo.23811387"", ""10.5281/zenodo.24112468""]","[""agentic-frontier-observatory""]",1,True
+https://openalex.org/W7213434988,7,"[""10.5281/zenodo.22791463"", ""10.5281/zenodo.22791464"", ""10.5281/zenodo.23068494"", ""10.5281/zenodo.23137216"", ""10.5281/zenodo.23365517"", ""10.5281/zenodo.23811384"", ""10.5281/zenodo.24112474""]","[""epistemic-pipeline""]",1,True
+https://openalex.org/W7220365356,6,"[""10.5281/zenodo.23166490"", ""10.5281/zenodo.23166491"", ""10.5281/zenodo.23176748"", ""10.5281/zenodo.23284570"", ""10.5281/zenodo.23446162"", ""10.5281/zenodo.23839900""]","[""research-software-identity-audit""]",1,True
+https://openalex.org/W7220380722,2,"[""10.17605/osf.io/5b329"", ""10.17605/osf.io/wa5v8""]",[],0,True
+https://openalex.org/W7220948089,1,"[""10.48546/workflowhub.workflow.2334.1""]",[],0,False
+https://openalex.org/W7220962531,1,"[""10.48546/workflowhub.workflow.2332.2""]",[],0,False
+https://openalex.org/W7220966944,1,"[""10.48546/workflowhub.workflow.2334.2""]",[],0,False
+https://openalex.org/W7220969795,1,"[""10.48546/workflowhub.workflow.2332.1""]",[],0,False
+https://openalex.org/W7221127912,1,"[""10.48546/workflowhub.workflow.2334.3""]",[],0,False
+https://openalex.org/W7221188636,1,"[""10.48546/workflowhub.workflow.2332.3""]",[],0,False
+https://openalex.org/W7221337272,1,"[""10.48546/workflowhub.workflow.2332.4""]",[],0,False
+https://openalex.org/W7221366684,1,"[""10.48546/workflowhub.workflow.2334.4""]",[],0,False
+https://openalex.org/W7221441548,1,"[""10.48546/workflowhub.workflow.2332.5""]",[],0,False
+https://openalex.org/W7221455900,1,"[""10.48546/workflowhub.workflow.2337.1""]",[],0,False
+https://openalex.org/W7221460162,1,"[""10.48546/workflowhub.workflow.2334.5""]",[],0,False
+https://openalex.org/W7221516570,1,"[""10.48546/workflowhub.workflow.2334.6""]",[],0,False
+https://openalex.org/W7221566397,1,"[""10.48546/workflowhub.workflow.2332.6""]",[],0,False
+https://openalex.org/W7221612767,1,"[""10.48546/workflowhub.workflow.2334.7""]",[],0,False
+https://openalex.org/W7221654297,1,"[""10.48546/workflowhub.workflow.2332.7""]",[],0,False
+https://openalex.org/W7221754327,1,"[""10.48546/workflowhub.workflow.2332.8""]",[],0,False
+https://openalex.org/W7221802864,1,"[""10.48546/workflowhub.workflow.2334.8""]",[],0,False
+https://openalex.org/W7222828651,1,"[""10.48546/workflowhub.workflow.2347.1""]",[],0,False
+https://openalex.org/W7222883692,3,"[""10.5281/zenodo.23447088"", ""10.5281/zenodo.23447089"", ""10.5281/zenodo.23839899""]","[""life-science-ecosystem-lab""]",1,True
+https://openalex.org/W7222894066,1,"[""10.48546/workflowhub.workflow.2347.2""]",[],0,False
+https://openalex.org/W7225559577,1,"[""10.48546/workflowhub.workflow.2334.9""]",[],0,False
+https://openalex.org/W7234696653,1,"[""10.48546/workflowhub.workflow.2332.9""]",[],0,False
