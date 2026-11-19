@@ -84,7 +84,7 @@ The fixed-corpus ORCID subset contained fifty-two work summaries in ten groups:
 | Author-added | 10 |
 | **Total** | **52** |
 
-Third-party sources contributed forty-two summaries compared with ten author-added summaries, a 4.2:1 ratio within the fixed-corpus subset. The later 6 October baseline reconciliation recorded twelve groups and fifty-four summaries across the full visible ORCID record, while the fixed-corpus subset remained ten groups and fifty-two summaries. This is a scope distinction, not a change to the ten-object sample. The ratio is a source-record ratio, not an independent-work ratio. ORCID groups work records according to external identifiers and their relationships to the work; source summaries within a group remain distinct assertions [5]. The preferred display entry can also depend on the registry's display-index behavior, so a newly ingested DOI does not necessarily become the preferred representation.
+Third-party sources contributed forty-two summaries compared with ten author-added summaries, a 4.2:1 ratio within the fixed-corpus subset. The later 6 October baseline reconciliation recorded twelve groups and fifty-four summaries across the full visible ORCID record, while the fixed-corpus subset remained ten groups and fifty-two summaries. This is a scope distinction, not a change to the ten-object sample. The ratio is a source-record ratio, not an independent-work ratio. ORCID distinguishes the entity that added an assertion (the source) from the entity that established the connection between the researcher and the work (the assertion origin); those roles can differ [5, 13]. ORCID groups work records according to external identifiers and their relationships to the work; source summaries within a group remain distinct assertions [5]. The preferred display entry can also depend on the registry's display-index behavior, so a newly ingested DOI does not necessarily become the preferred representation.
 
 ### 4.3 Preservation
 
@@ -125,7 +125,7 @@ A later read-only public-source diagnostic executed from 15:35:32.034791 to 15:3
 | Software Heritage | 10/10 latest-origin responses | Origin response does not prove a fresh preservation visit |
 | GitHub Releases | 11 release signatures unchanged in the comparison | Source commits do not imply a new tagged release |
 
-The 102 DOI requests belong to the known diagnostic DOI inventory and must not be read as 102 fixed research objects. The 34 supplementary service/standards surfaces are likewise not additional analytical layers. The 11 pinned repositories include the ten sample repositories and the control repository; the control remains outside RS01–RS10.
+The 102 DOI requests belong to the known diagnostic DOI inventory and must not be read as 102 fixed research objects. The 34 supplementary service/standards surfaces are likewise not additional analytical layers. The 11 pinned repositories include the ten sample repositories and the control repository; the control remains outside RS01–RS10. OpenAlex can retain different DOIs on different locations of one Work, so the diagnostic's strict canonical-DOI match count is narrower than a complete DOI-to-location reconciliation [14, 15].
 
 The diagnostic retained 458 source-attempt projections with client UTC clocks, locators, response digests, status/error classifications, and selected public fields. Original provider response bodies were not published. Therefore, the SHA-256 values support comparison of the retained representation but do not make the original response bytes independently replayable.
 
@@ -183,3 +183,6 @@ AI-assisted tools supported literature discovery, drafting organization, languag
 10. DataCite. Versioning. https://support.datacite.org/docs/versioning
 11. Jiang, X. Y. (2026). Baseline package — cutoff 2026-10-05; reconciliation collected approximately 2026-10-06 00:33:54 Asia/Shanghai. https://github.com/lostlight530/research-software-identity-audit/tree/main/baseline/2026-10-05
 12. Jiang, X. Y. (2026). 2026-11-18 complete identity-infrastructure diagnostic. https://github.com/lostlight530/research-software-identity-audit/tree/main/monitoring/2026-11-18/01-complete-identity-infrastructure-diagnostic
+13. ORCID. Integration and API FAQ: source and assertion origin. https://info.orcid.org/documentation/integration-and-api-faq/
+14. OpenAlex. Matching and merging Works. https://help.openalex.org/data/works/matching/
+15. OpenAlex. DOIs and locations in Works. https://help.openalex.org/data/works/dois/
