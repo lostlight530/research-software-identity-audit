@@ -11,7 +11,7 @@
 
 Research software can acquire multiple scholarly identities as it moves from a source repository into archival repositories, identifier registries, author registries, preservation archives, and discovery graphs. These infrastructures represent different object types and apply different matching, aggregation, and update rules. A DOI, an author-registry summary, a preservation snapshot, and a discovery-graph Work are therefore not interchangeable observations of one uniform record.
 
-This paper reports an auditable historical case involving ten research-software repositories observed across three release waves from 16 September to 4 October 2026. At the retained 3–4 October snapshot, forty DataCite-registered DOIs represented ten software families and thirty version records. The author's ORCID record contained fifty-two work summaries grouped into ten groups: thirty-two DataCite-origin summaries, ten OpenAIRE-origin summaries, and ten author-added summaries. Third-party source summaries therefore outnumbered author-added summaries 42 to 10, a ratio of 4.2:1. Software Heritage recorded ten archived origins; all ten had full snapshots at the 3 October audit, while the 4 October recheck fully verified two chains and partially verified one. All ten September-version DOIs matched in OpenAlex; October-version discovery queries were not run before the historical record closed.
+This paper reports an auditable historical case involving ten research-software repositories observed across three release waves from 16 September to 4 October 2026. At the retained 3–4 October snapshot, forty DataCite-registered DOIs represented ten software families and thirty version records. The fixed-corpus subset of the author's ORCID record contained fifty-two work summaries grouped into ten groups: thirty-two DataCite-origin summaries, ten OpenAIRE-origin summaries, and ten author-added summaries. Third-party source summaries therefore outnumbered author-added summaries 42 to 10, a ratio of 4.2:1. Software Heritage recorded ten archived origins; all ten had full snapshots at the 3 October audit, while the 4 October recheck fully verified two chains and partially verified one. All ten September-version DOIs matched in OpenAlex within the 3–4 October capture. October-version queries were not part of that capture; a separate 6 October baseline reconciliation later recorded ten latest-version records found in OpenAlex.
 
 The paper distinguishes this historical case from later read-only diagnostics. On 18 November 2026, a fixed 458-key public-source diagnostic produced 402 HTTP-200 attempts without recorded failure and 56 failed or partial attempts. It reported 102/102 successful DataCite requests, 94/102 positive OpenAIRE DOI queries, 34 exact canonical OpenAlex DOI matches, and 18 ORCID groups containing 119 work summaries. Zenodo's sixty-version aggregate remained unknown because the diagnostic retrieved only 21 of 67 version requests successfully. These later figures are diagnostic source checks, not prospective repeated-measures observations and not replacements for the historical snapshot.
 
@@ -75,7 +75,7 @@ The counts refer to different object types. Forty identifiers are not forty soft
 
 ### 4.2 Author-registry aggregation
 
-The retained ORCID record contained fifty-two work summaries in ten groups:
+The fixed-corpus ORCID subset contained fifty-two work summaries in ten groups:
 
 | Source attribution | Summaries |
 |---|---:|
@@ -84,7 +84,7 @@ The retained ORCID record contained fifty-two work summaries in ten groups:
 | Author-added | 10 |
 | **Total** | **52** |
 
-Third-party sources contributed forty-two summaries compared with ten author-added summaries, a 4.2:1 ratio. This is a source-record ratio, not an independent-work ratio. ORCID groups work records according to external identifiers and their relationships to the work; source summaries within a group remain distinct assertions [5]. The preferred display entry can also depend on the registry's display-index behavior, so a newly ingested DOI does not necessarily become the preferred representation.
+Third-party sources contributed forty-two summaries compared with ten author-added summaries, a 4.2:1 ratio within the fixed-corpus subset. The later 6 October baseline reconciliation recorded twelve groups and fifty-four summaries across the full visible ORCID record, while the fixed-corpus subset remained ten groups and fifty-two summaries. This is a scope distinction, not a change to the ten-object sample. The ratio is a source-record ratio, not an independent-work ratio. ORCID groups work records according to external identifiers and their relationships to the work; source summaries within a group remain distinct assertions [5]. The preferred display entry can also depend on the registry's display-index behavior, so a newly ingested DOI does not necessarily become the preferred representation.
 
 ### 4.3 Preservation
 
@@ -94,7 +94,7 @@ These states must remain separate. A previous full snapshot does not mean a late
 
 ### 4.4 Discovery
 
-All ten September-version DOIs matched in OpenAlex in the retained historical check. The October DOIs were already confirmed at the registry and author-identity layers, but the October OpenAlex queries had not been run when the record closed. This is an explicit coverage limit, not a measured ingestion delay.
+All ten September-version DOIs matched in OpenAlex in the retained 3–4 October historical check. October-version queries were not included in that capture. The subsequent baseline reconciliation, collected at approximately 2026-10-06 00:33:54 Asia/Shanghai, recorded forty fixed-corpus OpenAlex Work records and ten latest-version records found. The later query closes part of the historical discovery-coverage gap, but it does not reveal the first time at which those records entered OpenAlex and therefore does not supply a propagation-latency measurement.
 
 OpenAlex models scholarly Works and their locations. It can use persistent identifiers and declared relations, and it also applies matching to records without shared persistent identifiers [7]. OpenAIRE separately aggregates research-product records and applies duplicate-identification and grouping procedures [8]. A positive result in one graph cannot be substituted for a result in the other.
 
@@ -105,7 +105,7 @@ OpenAlex models scholarly Works and their locations. It can use persistent ident
 | GitHub October release/tag | Observed for all ten objects | A release record is not the full tag universe |
 | DataCite family and version DOIs | 40 identifiers findable | Registration is not discovery or scientific review |
 | ORCID October DOI in group | Observed for all ten objects | Group and source-summary counts differ |
-| Zenodo and OpenAlex September-version records | Observed for all ten objects | Does not establish October discovery |
+| Zenodo and OpenAlex September-version records | Observed for all ten objects in the 3–4 October capture | The separate 6 October baseline reconciliation later found all ten latest-version records in OpenAlex |
 | Software Heritage recheck | Two full, one partial; two rate-limited; five not re-reached | Does not establish all October content identity |
 
 The matrix describes retained observations only. It does not imply complete October discovery, complete content-equivalence checks, or bit-level equality between independent archive paths.
@@ -181,3 +181,5 @@ AI-assisted tools supported literature discovery, drafting organization, languag
 8. OpenAIRE. Graph API and research-product deduplication. https://graph.openaire.eu/docs/11.2.0/apis/graph-api/
 9. OpenAlex. Getting indexed. https://help.openalex.org/how-to/getting-indexed/
 10. DataCite. Versioning. https://support.datacite.org/docs/versioning
+11. Jiang, X. Y. (2026). Baseline package — cutoff 2026-10-05; reconciliation collected approximately 2026-10-06 00:33:54 Asia/Shanghai. https://github.com/lostlight530/research-software-identity-audit/tree/main/baseline/2026-10-05
+12. Jiang, X. Y. (2026). 2026-11-18 complete identity-infrastructure diagnostic. https://github.com/lostlight530/research-software-identity-audit/tree/main/monitoring/2026-11-18/01-complete-identity-infrastructure-diagnostic
