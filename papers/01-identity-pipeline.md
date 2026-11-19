@@ -203,7 +203,7 @@ AI-assisted tools supported literature discovery, drafting organization, languag
 9. OpenAlex. Works overview and repository indexing. https://help.openalex.org/data/works/
 10. OpenAIRE. Graph API documentation. https://graph.openaire.eu/docs/11.2.0/apis/graph-api/
 11. W3C. PROV-O: The PROV Ontology. https://www.w3.org/TR/prov-o/
-
+12. ORCID. Integration and API FAQ: source and assertion origin. https://info.orcid.org/documentation/integration-and-api-faq/
 
 ### Repository evidence
 
