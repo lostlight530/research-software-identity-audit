@@ -51,11 +51,11 @@ The operational path can be represented as six scholarly-infrastructure layers i
 | Archival repository | Zenodo | Version record and concept/family record |
 | Identifier registration | DataCite | DOI registration metadata and relations |
 | Author registry | ORCID | Work groups and source-attributed summaries |
-| Preservation archive | Software Heritage | Origin visits, snapshots, revisions, directories, SWHIDs |
+| Preservation archive | Software Heritage | Origin visits, snapshots, revisions, directories, SWHIDs [8] |
 | Discovery graph | OpenAIRE | Research-product records and aggregation |
 | Discovery graph | OpenAlex | Work records, locations, author entities |
 
-The six-layer model is analytical. The seven-platform vocabulary is operational. OpenAIRE and OpenAlex remain distinct platforms within the single preregistered discovery-graph layer. Ten objects multiplied by six layers yields sixty planned object-layer units per eligible timepoint; ten objects multiplied by seven platforms yields seventy possible object-platform checks. The latter is not a replacement denominator.
+The six-layer model is analytical. The seven-platform vocabulary is operational. OpenAIRE and OpenAlex remain distinct platforms within the single preregistered discovery-graph layer [9, 10]. Ten objects multiplied by six layers yields sixty planned object-layer units per eligible timepoint; ten objects multiplied by seven platforms yields seventy possible object-platform checks. The latter is not a replacement denominator.
 
 ### 3.2 Five-stage release-triggered path
 
@@ -64,7 +64,7 @@ The historical identity pipeline has five connected stages:
 1. **Release.** A Git tag and corresponding release event establish a versioned source-control event.
 2. **Archival minting.** Repository-to-Zenodo integration is enabled per repository. Subsequent eligible release events produce a version record and a concept/family identity.
 3. **Identifier registration.** DataCite exposes the registered DOI metadata, including creator metadata and the author's ORCID iD.
-4. **Author-registry propagation.** With the required account authorization and metadata conditions, DataCite Auto-Update can add registered works to the author's ORCID record.
+4. **Author-registry propagation.** With the required account authorization and metadata conditions, DataCite Auto-Update can add registered works to the author's ORCID record [7].
 5. **Preservation and discovery.** Software Heritage can expose origin visits and snapshots; discovery graphs ingest scholarly records according to their own source and matching processes.
 
 Zenodo's concept DOI represents all versions of a record, while a version DOI identifies a specific deposited version. Zenodo recommends citing the specific version when exact reproducibility is required [4]. DataCite represents version relationships through directed relation types such as `HasVersion` and `IsVersionOf`; the direction of the relation must be retained rather than silently treated as symmetric [5].
@@ -100,7 +100,7 @@ The third-party-source to author-source summary ratio within the fixed-corpus su
 
 For preservation, sixteen visits across ten origins were retained, with all ten origins showing full snapshots at the 3 October audit. On 4 October, two chains were re-verified end to end and one partially. Two repositories returned rate limits, and five were not re-reached before the historical record closed. These are different coverage states and must not be collapsed into “ten re-verified on 4 October.”
 
-For discovery, all ten September-version DOIs matched in OpenAlex in the retained 3–4 October historical check. October-version DOIs were not queried within that capture window. The subsequent baseline reconciliation, collected at approximately 2026-10-06 00:33:54 Asia/Shanghai, recorded ten latest-version records found in OpenAlex and forty fixed-corpus Work records. This later result is a separate observation with its own retrieval clock; it does not alter what was or was not queried on 3–4 October.
+For discovery, all ten September-version DOIs matched in OpenAlex in the retained 3–4 October historical check. October-version DOIs were not queried within that capture window. The subsequent baseline reconciliation, collected at approximately 2026-10-06 00:33:54 Asia/Shanghai, recorded ten latest-version records found in OpenAlex and forty fixed-corpus Work records. This later result is a separate observation with its own retrieval clock; it does not alter what was or was not queried on 3–4 October [14].
 
 ## 5. From a one-off pipeline to an auditable research runtime
 
@@ -119,7 +119,7 @@ The repository's current schedule declares no concrete operational offsets. Acco
 
 ### 5.1 Later diagnostic, separate from the historical case
 
-A read-only diagnostic executed on 18 November 2026 attempted 458 exact public-source request keys. The client retrieval window was 15:35:32.034791–15:39:43.508949 UTC. The record reported 402 HTTP-200 requests without recorded failure and 56 failed or partial attempts. Within that diagnostic:
+A read-only diagnostic executed on 18 November 2026 attempted 458 exact public-source request keys [15]. The client retrieval window was 15:35:32.034791–15:39:43.508949 UTC. The record reported 402 HTTP-200 requests without recorded failure and 56 failed or partial attempts. Within that diagnostic:
 
 - DataCite: 102/102 requests returned HTTP 200;
 - OpenAIRE: 102/102 requests returned HTTP 200, with 94 positive DOI queries;
@@ -128,7 +128,7 @@ A read-only diagnostic executed on 18 November 2026 attempted 458 exact public-s
 - Software Heritage: 10/10 latest-origin responses;
 - Zenodo: 21/67 version requests returned HTTP 200; 45 timed out and one returned HTTP 500.
 
-The fixed-ten, sixty-version Zenodo views/download totals were retained as `null`, not zero, because the version retrieval was incomplete. The 458 attempts are a diagnostic request cohort, not 458 research units. The 102 DOI requests are not 102 software objects. The November diagnostic does not rewrite the October historical snapshot and does not create prospective observations.
+The fixed-ten, sixty-version Zenodo views/download totals were retained as `null`, not zero, because the version retrieval was incomplete [15]. The 458 attempts are a diagnostic request cohort, not 458 research units. The 102 DOI requests are not 102 software objects. The November diagnostic does not rewrite the October historical snapshot and does not create prospective observations.
 
 ### 5.2 Semantic extraction as a separate layer
 
