@@ -148,3 +148,8 @@ The same report records the public OSF boundary: frozen Registration 5b329 remai
 ## 2026-11-07 follow-up: current path hygiene and advisory CI correction
 
 [Exact 11-main Git-tree identity delta and bounded cleanup decision](repository-inventory/2026-11-07/README.md) pins **8,873 tracked path entries** across fixed RS01–RS10 plus separate CONTROL, without treating path counts as research units or file bodies as independently reviewed. It finds no high-confidence temporary-file pathname candidate and therefore performs **no speculative deletion**. The same review links the [November 7 machine-record / surface ledger / monitoring index reconciliation](../monitoring/2026-11-07/01-periodic-identity-infrastructure-recheck/reconciliation.md) and the original advisory checker exit-code failure hidden by overall workflow-level success. Historical source files, OSF contract and prospective status are preserved
+
+
+## 2026-11-19 manuscript series: identity, propagation, and governance
+
+The three revised working manuscripts are indexed in [`papers/README.md`](../papers/README.md): (1) the engineering of an auditable identity pipeline, (2) the historical ten-object identity-propagation case and its boundary to the preregistered longitudinal design, and (3) trust boundaries, evidence semantics, and failure-mode governance. These are version-controlled Markdown manuscript sources, not claims of peer review or publication. They preserve RS01–RS10, the six-layer/60-unit contract, the separate seven-platform/70-check vocabulary, and the distinction between historical baseline, diagnostic monitoring, and prospective observations. Consult the owning source records before reusing any numerical claim.
