@@ -91,7 +91,7 @@ Depositing the same software object independently in multiple services can split
 
 **Status:** Observed.
 
-In the October historical snapshot, ORCID exposed fifty-two source summaries in ten groups: thirty-two DataCite, ten OpenAIRE, and ten author-added summaries. The third-party-to-author source-summary ratio was 42:10. In the 18 November diagnostic, the public ORCID response contained eighteen groups and 119 work summaries.
+In the October historical fixed-corpus subset, ORCID exposed fifty-two source summaries in ten groups: thirty-two DataCite, ten OpenAIRE, and ten author-added summaries. The third-party-to-author source-summary ratio was 42:10. A separate 6 October baseline reconciliation recorded fifty-four summaries in twelve groups across the full visible ORCID record, while the fixed-corpus subset remained fifty-two summaries in ten groups. In the 18 November diagnostic, the public ORCID response contained eighteen groups and 119 work summaries. These are three dated/scope-specific snapshots, not one cumulative total.
 
 These counts do not represent independent software objects. The same work group can contain multiple source assertions and alternate representations. The platform's grouping and display behavior must be inspected rather than inferred from a single total.
 
@@ -101,7 +101,7 @@ These counts do not represent independent software objects. The same work group 
 
 **Status:** Coverage limit, not a measured latency result.
 
-The October-version OpenAlex queries were not run when the historical record closed. The November diagnostic did not establish first-index timestamps for the full cohort. Client retrieval time is not the platform's internal ingestion time.
+The 3–4 October historical capture did not include October-version OpenAlex queries. A separate 6 October baseline reconciliation later recorded ten latest-version records found in OpenAlex, but did not establish their first-index timestamps. The November diagnostic likewise did not establish first-index timestamps for the full cohort. Client retrieval time is not the platform's internal ingestion time.
 
 **Rule:** calculate latency only where release-event and first qualifying downstream timestamps are directly observed and comparable. Otherwise report unqueried, first observed, interval-bounded, or unknown. Do not invent a latency value from a later successful query.
 
@@ -241,3 +241,6 @@ AI-assisted tools supported literature discovery, drafting organization, languag
 8. W3C. (2013). PROV-O: The PROV Ontology. https://www.w3.org/TR/prov-o/
 9. Jiang, X. Y. (2026). Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures. OSF Registration. https://doi.org/10.17605/OSF.IO/5B329
 10. Barker, M., et al. (2022). Introducing the FAIR Principles for research software. *Scientific Data, 9*, 622. https://doi.org/10.1038/s41597-022-01710-x
+11. Jiang, X. Y. (2026). Baseline package — cutoff 2026-10-05; reconciliation collected approximately 2026-10-06 00:33:54 Asia/Shanghai. https://github.com/lostlight530/research-software-identity-audit/tree/main/baseline/2026-10-05
+12. Jiang, X. Y. (2026). 2026-11-18 complete identity-infrastructure diagnostic. https://github.com/lostlight530/research-software-identity-audit/tree/main/monitoring/2026-11-18/01-complete-identity-infrastructure-diagnostic
+13. Jiang, X. Y. (2026). Observation assurance and claim boundaries. https://github.com/lostlight530/research-software-identity-audit/blob/main/docs/observation-assurance-2026-10-25.md
