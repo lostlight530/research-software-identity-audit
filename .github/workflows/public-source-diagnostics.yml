@@ -6,6 +6,8 @@ on:
       - tools/public_source_recheck.py
       - tools/public_source_transport.py
       - tests/test_public_source_transport.py
+      - tools/public_source_semantics.py
+      - tests/test_public_source_semantics.py
       - .github/workflows/public-source-diagnostics.yml
   workflow_dispatch:
     inputs:
@@ -34,6 +36,8 @@ jobs:
           python-version: "3.12"
       - name: Run synthetic bounded-transport regression tests
         run: python -m unittest discover -s tests -p "test_public_source_transport.py" -v
+      - name: Run source-specific semantic projection regression tests
+        run: python -m unittest discover -s tests -p "test_public_source_semantics.py" -v
       - name: Read only public source URLs, without editing research data
         shell: bash
         run: |

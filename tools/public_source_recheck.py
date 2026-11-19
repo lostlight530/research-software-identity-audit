@@ -8,6 +8,7 @@ import argparse,csv,hashlib,json,os,pathlib,threading,urllib.error,urllib.parse,
 from public_source_transport import (read_bounded, response_limit, transport_state,
                                      complete_integer_total, complete_positive_count,
                                      request_timeout_seconds)
+from public_source_semantics import project_surface, SEMANTIC_SURFACE_KEYS
 from collections import Counter,defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime,timezone
@@ -146,6 +147,10 @@ def fetch(item):
                     fields={"works_count":obj.get("works_count"),"cited_by_count":obj.get("cited_by_count"),"id":obj.get("id")}
             except Exception as e:
                 fields={"representation":"PUBLIC_HTTP_200_NON_JSON_OR_UNSUPPORTED","semantic_identity_status":"NOT_VERIFIED","parse_kind":type(e).__name__}
+        # New diagnostic captures only: source-specific semantic projection.
+        # Do not rewrite 2026-11-19/01-04 retained attempts or parse partial bodies.
+        if scope=="surface" and key in SEMANTIC_SURFACE_KEYS:
+            fields=project_surface(key,raw,http_status=status,failure=err)
         return {"scope":scope,"key":key,"locator":url,"started_at_utc":a,"finished_at_utc":b,"http_status":status,"failure":err,"raw_sha256":hashlib.sha256(raw).hexdigest() if raw else None,"response_bytes_read":len(raw),"content_length":size_header,"response_limit_bytes":body_limit,
                 "client_timeout_seconds":client_timeout,
                 "transport_state":transport_state(status,err),"selected_public_fields":fields}
