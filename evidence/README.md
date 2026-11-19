@@ -59,3 +59,7 @@ The independently extracted 32-version table is retained under [monitoring/2026-
 ## November 19 supplementary Zenodo version identity reconciliation
 
 - [2026-11-19 / 04-zenodo-supplementary-inventory-reconciliation](2026-11-19/04-zenodo-supplementary-inventory-reconciliation/README.md) — selected Zenodo, DataCite and GitHub release metadata for two previously unkeyed supplementary versions; connector-normalized projections only, with explicit retrieval window and artifact digests
+
+## November 19 targeted surface semantics and path-entrypoint reconciliation
+
+- [2026-11-19 / 05-targeted-surface-semantic-reconciliation](2026-11-19/05-targeted-surface-semantic-reconciliation/README.md) — minimal public identity projections, original EDAM runner digest and source locators; unresolved InterLex/HAL preserved
