@@ -45,6 +45,7 @@ For contributors and independent reviewers, the [**documentation map**](docs/REA
 | Task | Start with |
 | --- | --- |
 | Read what was registered | [OSF study registration](https://osf.io/5b329/overview) and [repository contract mapping](contract/preregistration.md) |
+| Read the three revised manuscripts | [Manuscript series index](papers/README.md) — identity pipeline, propagation case study, and trust-boundary governance |
 | Check fixed samples and counting rules | [RS01–RS10 manifest](corpus/object-manifest.csv) and [six-layer counting contract](schema/counting-rules.md) |
 | Understand historical versus prospective status | [Initial baseline](baseline/README.md), [operational schedule](schedule/README.md), [prospective raw observation area](observations/raw/README.md) |
 | Review diagnostic measurements and retained evidence | [Dated monitoring index](monitoring/README.md), [evidence inventory](evidence/README.md), [provenance discipline](provenance/README.md) |
