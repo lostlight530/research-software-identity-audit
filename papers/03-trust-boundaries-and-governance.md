@@ -235,14 +235,14 @@ AI-assisted tools supported literature discovery, drafting organization, languag
 2. DataCite. Versioning and related identifiers. https://support.datacite.org/docs/versioning
 3. ORCID. How are items grouped together in an ORCID record? https://info.orcid.org/ufaqs/how-are-items-grouped-together-in-an-orcid-record/
 4. ORCID. Integration and API FAQ: source and assertion origin. https://info.orcid.org/documentation/integration-and-api-faq/
-4. Software Heritage. SWHIDs and persistent identifiers. https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html
-5. OpenAlex. Matching and merging Works. https://help.openalex.org/data/works/matching/
-6. OpenAlex. DOIs and locations in Works. https://help.openalex.org/data/works/dois/
-6. OpenAIRE. Research-product deduplication. https://graph.openaire.eu/docs/11.3.0/graph-production-workflow/deduplication/research-products/
-7. Zenodo. DOI versioning. https://support.zenodo.org/help/en-gb/1-upload-deposit/97-what-is-doi-versioning
-8. W3C. (2013). PROV-O: The PROV Ontology. https://www.w3.org/TR/prov-o/
-9. Jiang, X. Y. (2026). Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures. OSF Registration. https://doi.org/10.17605/OSF.IO/5B329
-10. Barker, M., et al. (2022). Introducing the FAIR Principles for research software. *Scientific Data, 9*, 622. https://doi.org/10.1038/s41597-022-01710-x
-11. Jiang, X. Y. (2026). Baseline package — cutoff 2026-10-05; reconciliation collected approximately 2026-10-06 00:33:54 Asia/Shanghai. https://github.com/lostlight530/research-software-identity-audit/tree/main/baseline/2026-10-05
-12. Jiang, X. Y. (2026). 2026-11-18 complete identity-infrastructure diagnostic. https://github.com/lostlight530/research-software-identity-audit/tree/main/monitoring/2026-11-18/01-complete-identity-infrastructure-diagnostic
-13. Jiang, X. Y. (2026). Observation assurance and claim boundaries. https://github.com/lostlight530/research-software-identity-audit/blob/main/docs/observation-assurance-2026-10-25.md
+5. Software Heritage. SWHIDs and persistent identifiers. https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html
+6. OpenAlex. Matching and merging Works. https://help.openalex.org/data/works/matching/
+7. OpenAlex. DOIs and locations in Works. https://help.openalex.org/data/works/dois/
+8. OpenAIRE. Research-product deduplication. https://graph.openaire.eu/docs/11.3.0/graph-production-workflow/deduplication/research-products/
+9. Zenodo. DOI versioning. https://support.zenodo.org/help/en-gb/1-upload-deposit/97-what-is-doi-versioning
+10. W3C. (2013). PROV-O: The PROV Ontology. https://www.w3.org/TR/prov-o/
+11. Jiang, X. Y. (2026). Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures. OSF Registration. https://doi.org/10.17605/OSF.IO/5B329
+12. Barker, M., et al. (2022). Introducing the FAIR Principles for research software. *Scientific Data, 9*, 622. https://doi.org/10.1038/s41597-022-01710-x
+13. Jiang, X. Y. (2026). Baseline package — cutoff 2026-10-05; reconciliation collected approximately 2026-10-06 00:33:54 Asia/Shanghai. https://github.com/lostlight530/research-software-identity-audit/tree/main/baseline/2026-10-05
+14. Jiang, X. Y. (2026). 2026-11-18 complete identity-infrastructure diagnostic. https://github.com/lostlight530/research-software-identity-audit/tree/main/monitoring/2026-11-18/01-complete-identity-infrastructure-diagnostic
+15. Jiang, X. Y. (2026). Observation assurance and claim boundaries. https://github.com/lostlight530/research-software-identity-audit/blob/main/docs/observation-assurance-2026-10-25.md
