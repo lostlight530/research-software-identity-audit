@@ -39,7 +39,7 @@ DataCite's metadata schema defines typed relations, including `HasVersion`, `IsV
 
 ### 2.2 Attribution
 
-An author registry can expose work assertions, their source attribution, external identifiers, and grouping relationships. A source-attributed entry indicates who supplied an assertion to the registry. It does not automatically constitute independent scientific review, institutional endorsement, employment, or validation of the software.
+An author registry can expose work assertions, their source attribution, external identifiers, and grouping relationships. A source-attributed entry indicates the system or person that added an assertion to the registry. ORCID separately distinguishes the assertion origin that connected the researcher to the work; source and assertion origin can differ. Neither field automatically constitutes independent scientific review, institutional endorsement, employment, or validation of the software [3].
 
 ORCID groups works according to identifiers and identifier relationships. It distinguishes identifiers referring to the work itself, identifiers for a whole of which the work is part, and identifiers for alternate versions [3]. A work group, an individual summary, and an independent scholarly work are therefore different units.
 
@@ -91,7 +91,7 @@ Depositing the same software object independently in multiple services can split
 
 **Status:** Observed.
 
-In the October historical fixed-corpus subset, ORCID exposed fifty-two source summaries in ten groups: thirty-two DataCite, ten OpenAIRE, and ten author-added summaries. The third-party-to-author source-summary ratio was 42:10. A separate 6 October baseline reconciliation recorded fifty-four summaries in twelve groups across the full visible ORCID record, while the fixed-corpus subset remained fifty-two summaries in ten groups. In the 18 November diagnostic, the public ORCID response contained eighteen groups and 119 work summaries. These are three dated/scope-specific snapshots, not one cumulative total.
+In the October historical fixed-corpus subset, ORCID exposed fifty-two source summaries in ten groups: thirty-two DataCite, ten OpenAIRE, and ten author-added summaries. The third-party-to-author source-summary ratio was 42:10. A separate 6 October baseline reconciliation recorded fifty-four summaries in twelve groups across the full visible ORCID record, while the fixed-corpus subset remained fifty-two summaries in ten groups. In the 18 November diagnostic, the public ORCID response contained eighteen groups and 119 work summaries. These are three dated/scope-specific snapshots, not one cumulative total. They count ORCID source labels, not necessarily the actors that originally initiated the researcher-work association; ORCID's source and assertion-origin fields represent distinct roles [3].
 
 These counts do not represent independent software objects. The same work group can contain multiple source assertions and alternate representations. The platform's grouping and display behavior must be inspected rather than inferred from a single total.
 
@@ -117,7 +117,7 @@ Human-readable ordinal labels can drift from platform identifiers and from the r
 
 **Status:** Observed as a necessary distinction in the expanded diagnostics.
 
-On 18 November, all 102 known DataCite DOI requests and all 102 OpenAIRE DOI requests returned HTTP 200. OpenAIRE produced 94 positive DOI queries. OpenAlex returned 34 exact canonical DOI matches and 34 distinct Work IDs. These are not equivalent measures: HTTP completion is a transport result, a positive query is a source result, and an exact canonical DOI match is an identity result.
+On 18 November, all 102 known DataCite DOI requests and all 102 OpenAIRE DOI requests returned HTTP 200. OpenAIRE produced 94 positive DOI queries. OpenAlex returned 34 exact canonical DOI matches and 34 distinct Work IDs. These are not equivalent measures: HTTP completion is a transport result, a positive query is a source result, and an exact canonical DOI match is an identity result. OpenAlex can attach multiple DOI-bearing locations to one Work; a strict canonical DOI match count is therefore narrower than a full reconciliation of every queried DOI against every Work location [5, 6].
 
 The 458-request diagnostic as a whole contained 402 HTTP-200 attempts without recorded failure and 56 failed or partial attempts. A complete request ledger can therefore coexist with incomplete semantic coverage.
 
@@ -234,8 +234,10 @@ AI-assisted tools supported literature discovery, drafting organization, languag
 1. DataCite Metadata Working Group. (2026). *DataCite Metadata Schema Documentation*, Version 4.7. https://doi.org/10.14454/qdd3-ps68
 2. DataCite. Versioning and related identifiers. https://support.datacite.org/docs/versioning
 3. ORCID. How are items grouped together in an ORCID record? https://info.orcid.org/ufaqs/how-are-items-grouped-together-in-an-orcid-record/
+4. ORCID. Integration and API FAQ: source and assertion origin. https://info.orcid.org/documentation/integration-and-api-faq/
 4. Software Heritage. SWHIDs and persistent identifiers. https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html
-5. OpenAlex. Works overview. https://help.openalex.org/data/works/
+5. OpenAlex. Matching and merging Works. https://help.openalex.org/data/works/matching/
+6. OpenAlex. DOIs and locations in Works. https://help.openalex.org/data/works/dois/
 6. OpenAIRE. Research-product deduplication. https://graph.openaire.eu/docs/11.3.0/graph-production-workflow/deduplication/research-products/
 7. Zenodo. DOI versioning. https://support.zenodo.org/help/en-gb/1-upload-deposit/97-what-is-doi-versioning
 8. W3C. (2013). PROV-O: The PROV Ontology. https://www.w3.org/TR/prov-o/
