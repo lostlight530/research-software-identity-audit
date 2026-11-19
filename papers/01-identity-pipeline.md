@@ -11,7 +11,7 @@
 
 Research software moves through several infrastructures after a source-code release. A Git tag identifies a source-control event; an archival repository can mint a version DOI and a family DOI; a registration agency exposes DOI metadata; an author registry may ingest and group work assertions; a preservation archive may retain a content-addressed snapshot; and discovery services may later represent the software as a searchable scholarly object. These transitions are related, but they do not share one object model, one clock, or one guarantee.
 
-This technical note describes an auditable identity pipeline built by an independent researcher across ten public research-software repositories. The historical case used three release waves between 16 September and 4 October 2026. At the retained 3–4 October snapshot, forty DataCite-registered DOIs represented ten software families and thirty version records. The fixed-corpus subset of the author's ORCID record contained fifty-two work summaries in ten groups, with thirty-two DataCite-origin summaries, ten OpenAIRE-origin summaries, and ten author-added summaries. Software Heritage showed ten origins archived; the retained 3 October audit recorded full snapshots for all ten origins, while the 4 October recheck fully re-verified two chains and partially re-verified one. October-version discovery queries were not part of that 3–4 October capture. A separate 6 October baseline reconciliation later recorded ten latest-version records found in OpenAlex; that later retrieval is not backdated into the earlier snapshot.
+This technical note describes an auditable identity pipeline built by an independent researcher across ten public research-software repositories. The historical case used three release waves between 16 September and 4 October 2026. At the retained 3–4 October snapshot, forty DataCite-registered DOIs represented ten software families and thirty version records. The fixed-corpus subset of the author's ORCID record contained fifty-two work summaries in ten groups, with thirty-two DataCite-source summaries, ten OpenAIRE-source summaries, and ten author-source summaries. Software Heritage showed ten origins archived; the retained 3 October audit recorded full snapshots for all ten origins, while the 4 October recheck fully re-verified two chains and partially re-verified one. October-version discovery queries were not part of that 3–4 October capture. A separate 6 October baseline reconciliation later recorded ten latest-version records found in OpenAlex; that later retrieval is not backdated into the earlier snapshot.
 
 The note then describes the repository-side control architecture that preserves the distinction between a frozen research contract, a mutable operational implementation, historical baseline evidence, diagnostic monitoring, and eligible prospective observations. By 18 November, a later read-only diagnostic had attempted 458 fixed public-source requests, but it remained diagnostic rather than a prospective study wave. The central engineering contribution is not a claim of universal automation: it is a field-level contract for stating exactly what was configured, what was observed, what was derived, and what remains unknown.
 
@@ -96,7 +96,7 @@ At the retained 3–4 October 2026 snapshot:
 | OpenAIRE summaries | 10 | Source-attributed summaries |
 | Author summaries | 10 | Author-added assertions |
 
-The third-party-to-author source-summary ratio within the fixed-corpus subset was 42:10, or 4.2:1. The later 6 October baseline reconciliation separately recorded 54 summaries in 12 groups across the full visible ORCID record; the fixed-corpus subset remained 52 summaries in 10 groups. The difference reflects scope, not an extra two research objects. These ratios count source summaries, not independent works, independent software objects, or endorsements. ORCID groups works according to identifiers and identifier relationships; the group and the individual source assertions are different units [6].
+The third-party-source to author-source summary ratio within the fixed-corpus subset was 42:10, or 4.2:1. The later 6 October baseline reconciliation separately recorded 54 summaries in 12 groups across the full visible ORCID record; the fixed-corpus subset remained 52 summaries in 10 groups. The difference reflects scope, not an extra two research objects. These counts describe ORCID source labels (the entity that added an assertion), not necessarily the assertion origin (the person or system that established the researcher–work connection); those roles can differ [12]. They count source summaries, not independent works, software objects, or endorsements. ORCID groups works according to identifiers and identifier relationships; the group and individual source assertions are different units [6].
 
 For preservation, sixteen visits across ten origins were retained, with all ten origins showing full snapshots at the 3 October audit. On 4 October, two chains were re-verified end to end and one partially. Two repositories returned rate limits, and five were not re-reached before the historical record closed. These are different coverage states and must not be collapsed into “ten re-verified on 4 October.”
 
@@ -123,7 +123,7 @@ A read-only diagnostic executed on 18 November 2026 attempted 458 exact public-s
 
 - DataCite: 102/102 requests returned HTTP 200;
 - OpenAIRE: 102/102 requests returned HTTP 200, with 94 positive DOI queries;
-- OpenAlex: 34 exact canonical DOI matches and 34 distinct returned Work IDs;
+- OpenAlex: 34 exact canonical DOI matches and 34 distinct returned Work IDs; a strict canonical match is narrower than matching every DOI-bearing Work location;
 - ORCID: 18 public work groups and 119 work summaries;
 - Software Heritage: 10/10 latest-origin responses;
 - Zenodo: 21/67 version requests returned HTTP 200; 45 timed out and one returned HTTP 500.
@@ -207,5 +207,5 @@ AI-assisted tools supported literature discovery, drafting organization, languag
 
 ### Repository evidence
 
-12. Jiang, X. Y. (2026). Baseline package — cutoff 2026-10-05; reconciliation collected approximately 2026-10-06 00:33:54 Asia/Shanghai. https://github.com/lostlight530/research-software-identity-audit/tree/main/baseline/2026-10-05
-13. Jiang, X. Y. (2026). 2026-11-18 complete identity-infrastructure diagnostic. https://github.com/lostlight530/research-software-identity-audit/tree/main/monitoring/2026-11-18/01-complete-identity-infrastructure-diagnostic
+13. Jiang, X. Y. (2026). Baseline package — cutoff 2026-10-05; reconciliation collected approximately 2026-10-06 00:33:54 Asia/Shanghai. https://github.com/lostlight530/research-software-identity-audit/tree/main/baseline/2026-10-05
+14. Jiang, X. Y. (2026). 2026-11-18 complete identity-infrastructure diagnostic. https://github.com/lostlight530/research-software-identity-audit/tree/main/monitoring/2026-11-18/01-complete-identity-infrastructure-diagnostic
