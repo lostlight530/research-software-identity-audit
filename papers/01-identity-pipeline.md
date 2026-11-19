@@ -205,7 +205,7 @@ AI-assisted tools supported literature discovery, drafting organization, languag
 11. W3C. PROV-O: The PROV Ontology. https://www.w3.org/TR/prov-o/
 
 
-## References — repository evidence
+### Repository evidence
 
 12. Jiang, X. Y. (2026). Baseline package — cutoff 2026-10-05; reconciliation collected approximately 2026-10-06 00:33:54 Asia/Shanghai. https://github.com/lostlight530/research-software-identity-audit/tree/main/baseline/2026-10-05
 13. Jiang, X. Y. (2026). 2026-11-18 complete identity-infrastructure diagnostic. https://github.com/lostlight530/research-software-identity-audit/tree/main/monitoring/2026-11-18/01-complete-identity-infrastructure-diagnostic
