@@ -123,7 +123,7 @@ A read-only diagnostic executed on 18 November 2026 attempted 458 exact public-s
 
 - DataCite: 102/102 requests returned HTTP 200;
 - OpenAIRE: 102/102 requests returned HTTP 200, with 94 positive DOI queries;
-- OpenAlex: 34 exact canonical DOI matches and 34 distinct returned Work IDs; a strict canonical match is narrower than matching every DOI-bearing Work location;
+- OpenAlex: 34 exact canonical DOI matches and 34 distinct returned Work IDs; a strict canonical match is narrower than reconciling every DOI-bearing Work location [15];
 - ORCID: 18 public work groups and 119 work summaries;
 - Software Heritage: 10/10 latest-origin responses;
 - Zenodo: 21/67 version requests returned HTTP 200; 45 timed out and one returned HTTP 500.
@@ -204,8 +204,9 @@ AI-assisted tools supported literature discovery, drafting organization, languag
 10. OpenAIRE. Graph API documentation. https://graph.openaire.eu/docs/11.2.0/apis/graph-api/
 11. W3C. PROV-O: The PROV Ontology. https://www.w3.org/TR/prov-o/
 12. ORCID. Integration and API FAQ: source and assertion origin. https://info.orcid.org/documentation/integration-and-api-faq/
+13. OpenAlex. DOIs and locations in Works. https://help.openalex.org/data/works/dois/
 
 ### Repository evidence
 
-13. Jiang, X. Y. (2026). Baseline package — cutoff 2026-10-05; reconciliation collected approximately 2026-10-06 00:33:54 Asia/Shanghai. https://github.com/lostlight530/research-software-identity-audit/tree/main/baseline/2026-10-05
-14. Jiang, X. Y. (2026). 2026-11-18 complete identity-infrastructure diagnostic. https://github.com/lostlight530/research-software-identity-audit/tree/main/monitoring/2026-11-18/01-complete-identity-infrastructure-diagnostic
+14. Jiang, X. Y. (2026). Baseline package — cutoff 2026-10-05; reconciliation collected approximately 2026-10-06 00:33:54 Asia/Shanghai. https://github.com/lostlight530/research-software-identity-audit/tree/main/baseline/2026-10-05
+15. Jiang, X. Y. (2026). 2026-11-18 complete identity-infrastructure diagnostic. https://github.com/lostlight530/research-software-identity-audit/tree/main/monitoring/2026-11-18/01-complete-identity-infrastructure-diagnostic
