@@ -178,7 +178,7 @@ AI-assisted tools supported literature discovery, drafting organization, languag
 5. ORCID. How are items grouped together in an ORCID record? https://info.orcid.org/ufaqs/how-are-items-grouped-together-in-an-orcid-record/
 6. Software Heritage. SWHIDs and origin visits. https://docs.softwareheritage.org/devel/swh-model/persistent-identifiers.html
 7. OpenAlex. Works overview and repositories. https://help.openalex.org/data/works/
-8. OpenAIRE. Graph API and research-product deduplication. https://graph.openaire.eu/docs/11.2.0/apis/graph-api/
+8. OpenAIRE. Research-product deduplication and grouping. https://graph.openaire.eu/docs/11.3.0/graph-production-workflow/deduplication/research-products/
 9. OpenAlex. Getting indexed. https://help.openalex.org/how-to/getting-indexed/
 10. DataCite. Versioning. https://support.datacite.org/docs/versioning
 11. Jiang, X. Y. (2026). Baseline package — cutoff 2026-10-05; reconciliation collected approximately 2026-10-06 00:33:54 Asia/Shanghai. https://github.com/lostlight530/research-software-identity-audit/tree/main/baseline/2026-10-05
