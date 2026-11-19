@@ -1,0 +1,23 @@
+{
+  "record_class": "late_machine_entrypoint_reconciliation_not_new_capture",
+  "logical_date": "2026-11-19",
+  "logical_timezone": "Asia/Shanghai",
+  "entrypoint_created_at_utc": "2026-11-19T00:38:51.244Z",
+  "original_run_id": 44355868835,
+  "source_start_utc": "2026-11-18T17:11:45.792065+00:00",
+  "source_end_utc": "2026-11-18T17:12:52.053320+00:00",
+  "source_attempt_count": 458,
+  "source_ledger_sha256": "631a5812c44976afff78b5e0f40db05850a259c6b6d3176677fbfa1f537505f6",
+  "evidence_provenance_path": "evidence/2026-11-19/01-complete-institutional-recheck/provenance.json",
+  "source_summary_path": "monitoring/2026-11-19/01-complete-institutional-recheck/summary.json",
+  "correction_history_path": "monitoring/2026-11-19/03-web-assisted-surface-review/correction-history.md",
+  "correction_note": "01 path was reused earlier; the original 44352245857 run is recoverable from commit 50a9649138d34ce32bc1c6692f17694f45b99cae; this is NOT a historical overwrite",
+  "original_source_files_modified": false,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "osf_write_attempted": false,
+  "fixed_corpus": "RS01-RS10",
+  "control_is_rs11": false,
+  "preregistered_layers": 6,
+  "analytical_units_per_eligible_timepoint": 60
+}
