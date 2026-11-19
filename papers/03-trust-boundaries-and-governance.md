@@ -29,7 +29,7 @@ This paper asks: **who guarantees what, at which boundary, and what evidence is 
 
 ## 2. Four guarantee classes
 
-The framework begins with four classes.
+The framework begins with four classes and builds on the treatment of research software as a citable research output [12].
 
 ### 2.1 Registration and existence
 
@@ -83,7 +83,7 @@ Deposit forms can invite category errors, such as placing a software family DOI 
 
 **Status:** Risk configured against.
 
-Depositing the same software object independently in multiple services can split records and usage metrics. Publishing versions without a family-level identity can multiply representations.
+Depositing the same software object independently in multiple services can split records and usage metrics. Publishing versions without a family-level identity can multiply representations. Zenodo's concept/version DOI distinction is relevant to this family-versus-version boundary [9].
 
 **Rule:** use one canonical archival deposit path where possible; use links and typed relations elsewhere rather than creating unnecessary copies. A family DOI and a version DOI must be retained as separate object types [7].
 
@@ -91,7 +91,7 @@ Depositing the same software object independently in multiple services can split
 
 **Status:** Observed.
 
-In the October historical fixed-corpus subset, ORCID exposed fifty-two source summaries in ten groups: thirty-two DataCite-source, ten OpenAIRE-source, and ten author-source summaries. The third-party-source to author-source summary ratio was 42:10. A separate 6 October baseline reconciliation recorded fifty-four summaries in twelve groups across the full visible ORCID record, while the fixed-corpus subset remained fifty-two summaries in ten groups. In the 18 November diagnostic, the public ORCID response contained eighteen groups and 119 work summaries. These are three dated/scope-specific snapshots, not one cumulative total. They count ORCID source labels, not necessarily the actors that originally initiated the researcher–work association; ORCID distinguishes the source from the assertion origin [4].
+In the October historical fixed-corpus subset, ORCID exposed fifty-two source summaries in ten groups: thirty-two DataCite-source, ten OpenAIRE-source, and ten author-source summaries. The third-party-source to author-source summary ratio was 42:10. A separate 6 October baseline reconciliation recorded fifty-four summaries in twelve groups across the full visible ORCID record, while the fixed-corpus subset remained fifty-two summaries in ten groups [13]. In the 18 November diagnostic, the public ORCID response contained eighteen groups and 119 work summaries [14]. These are three dated/scope-specific snapshots, not one cumulative total. They count ORCID source labels, not necessarily the actors that originally initiated the researcher–work association; ORCID distinguishes the source from the assertion origin [4].
 
 These counts do not represent independent software objects. The same work group can contain multiple source assertions and alternate representations. The platform's grouping and display behavior must be inspected rather than inferred from a single total [3].
 
@@ -119,7 +119,7 @@ Human-readable ordinal labels can drift from platform identifiers and from the r
 
 On 18 November, all 102 known DataCite DOI requests and all 102 OpenAIRE DOI requests returned HTTP 200. OpenAIRE produced 94 positive DOI queries. OpenAlex returned 34 exact canonical DOI matches and 34 distinct Work IDs. These are not equivalent measures: HTTP completion is a transport result, a positive query is a source result, and an exact canonical DOI match is an identity result. OpenAlex can attach multiple DOI-bearing locations to one Work; a strict canonical DOI match count is therefore narrower than a full reconciliation of every queried DOI against every Work location [6, 7].
 
-The 458-request diagnostic as a whole contained 402 HTTP-200 attempts without recorded failure and 56 failed or partial attempts. A complete request ledger can therefore coexist with incomplete semantic coverage.
+The 458-request diagnostic as a whole contained 402 HTTP-200 attempts without recorded failure and 56 failed or partial attempts [14]. A complete request ledger can therefore coexist with incomplete semantic coverage.
 
 **Rule:** record transport state and semantic identity state as separate fields. Do not count HTTP 200 as an identity match.
 
@@ -145,7 +145,7 @@ A separate 10 October RS07 case showed a version record with attached `stats.vie
 
 **Status:** Explicitly guarded by the frozen contract.
 
-The fixed corpus is RS01–RS10. The research-control repository is not RS11. Six analytical layers produce sixty preregistered object-layer units per eligible timepoint; seven operational platforms produce up to seventy possible platform checks. Thirty-four supplementary surfaces are outside the seven-platform vocabulary.
+The fixed corpus is RS01–RS10 under the frozen OSF registration [11]. The research-control repository is not RS11. Six analytical layers produce sixty preregistered object-layer units per eligible timepoint; seven operational platforms produce up to seventy possible platform checks. Thirty-four supplementary surfaces are outside the seven-platform vocabulary.
 
 **Rule:** never add the control repository, supplementary services, DOI records, retries, source summaries, or HTTP requests to the preregistered sample denominator.
 
@@ -153,7 +153,7 @@ The fixed corpus is RS01–RS10. The research-control repository is not RS11. Si
 
 **Status:** Explicitly guarded by the repository assurance model.
 
-The repository checker validates selected structural and semantic constraints. GitHub Actions runs some tests in advisory mode. Synthetic fixtures test code behavior, not live provider state. A green workflow does not prove that every test passed as a blocking gate, that all external sources were checked, or that a scientific claim is true.
+The repository checker validates selected structural and semantic constraints. GitHub Actions runs some tests in advisory mode, as defined in the repository's observation-assurance rules [15]. Synthetic fixtures test code behavior, not live provider state. A green workflow does not prove that every test passed as a blocking gate, that all external sources were checked, or that a scientific claim is true.
 
 **Rule:** report the exact workflow, job, step, exit outcome, and scope. Distinguish test success, repository integrity, external observation, independent verification, and scientific acceptance.
 
