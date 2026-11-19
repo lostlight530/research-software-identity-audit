@@ -69,7 +69,7 @@ The retained field-level captures were taken on 3 and 4 October. Earlier events 
 
 ### 4.1 Identifier registration and versioning
 
-At the retained DataCite snapshot, ten software families had ten family DOIs and thirty version DOIs, for forty findable identifiers. The family DOI represents the evolving software concept; each version DOI identifies a frozen deposit. Zenodo documents this distinction and recommends citing a specific version when the exact artifact used must be recoverable [4].
+At the retained DataCite snapshot, ten software families had ten family DOIs and thirty version DOIs, for forty findable identifiers. The family DOI represents the evolving software concept; each version DOI identifies a frozen deposit. Zenodo documents this distinction and recommends citing a specific version when the exact artifact used must be recoverable [4, 10].
 
 The counts refer to different object types. Forty identifiers are not forty software objects, and thirty version records are not thirty additional families.
 
@@ -94,7 +94,7 @@ These states must remain separate. A previous full snapshot does not mean a late
 
 ### 4.4 Discovery
 
-All ten September-version DOIs matched in OpenAlex in the retained 3–4 October historical check. October-version queries were not included in that capture. The subsequent baseline reconciliation, collected at approximately 2026-10-06 00:33:54 Asia/Shanghai, recorded forty fixed-corpus OpenAlex Work records and ten latest-version records found. The later query closes part of the historical discovery-coverage gap, but it does not reveal the first time at which those records entered OpenAlex and therefore does not supply a propagation-latency measurement.
+All ten September-version DOIs matched in OpenAlex in the retained 3–4 October historical check. October-version queries were not included in that capture. The subsequent baseline reconciliation, collected at approximately 2026-10-06 00:33:54 Asia/Shanghai, recorded forty fixed-corpus OpenAlex Work records and ten latest-version records found [11]. The later query closes part of the historical discovery-coverage gap, but it does not reveal the first time at which those records entered OpenAlex and therefore does not supply a propagation-latency measurement.
 
 OpenAlex models scholarly Works and their locations. It can use persistent identifiers and declared relations, and it also applies matching to records without shared persistent identifiers [7, 14, 15]. A single Work can contain several DOI-bearing locations, so a strict canonical DOI match is narrower than a full reconciliation of all requested DOI values against every Work location [15]. OpenAIRE separately aggregates research-product records and applies duplicate-identification and grouping procedures [8]. A positive result in one graph cannot be substituted for a result in the other.
 
@@ -112,7 +112,7 @@ The matrix describes retained observations only. It does not imply complete Octo
 
 ## 5. Later diagnostic evidence: 18 November 2026
 
-A later read-only public-source diagnostic executed from 15:35:32.034791 to 15:39:43.508949 UTC on 18 November. It attempted the same 458 exact source keys as the 17 November diagnostic. This is a fixed diagnostic request cohort, not a new sample or a prospective timepoint.
+A later read-only public-source diagnostic executed from 15:35:32.034791 to 15:39:43.508949 UTC on 18 November [12]. It attempted the same 458 exact source keys as the 17 November diagnostic. This is a fixed diagnostic request cohort, not a new sample or a prospective timepoint.
 
 | Diagnostic surface | 18 November result | Interpretation boundary |
 |---|---|---|
