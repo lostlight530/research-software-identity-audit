@@ -123,7 +123,7 @@ A read-only diagnostic executed on 18 November 2026 attempted 458 exact public-s
 
 - DataCite: 102/102 requests returned HTTP 200;
 - OpenAIRE: 102/102 requests returned HTTP 200, with 94 positive DOI queries;
-- OpenAlex: 34 exact canonical DOI matches and 34 distinct returned Work IDs; a strict canonical match is narrower than reconciling every DOI-bearing Work location [15];
+- OpenAlex: 34 exact canonical DOI matches and 34 distinct returned Work IDs; a strict canonical match is narrower than reconciling every DOI-bearing Work location [13];
 - ORCID: 18 public work groups and 119 work summaries;
 - Software Heritage: 10/10 latest-origin responses;
 - Zenodo: 21/67 version requests returned HTTP 200; 45 timed out and one returned HTTP 500.
@@ -140,7 +140,7 @@ The associated tests use synthetic fixtures and are network-free. They test pars
 
 Every material claim should be traceable through:
 
-`source locator → request/reading event → raw or retained source representation → normalized observation → derivation → interpretation`
+`source locator → request/reading event → raw or retained source representation → normalized observation → derivation → interpretation` [11]
 
 At minimum, the observation record should preserve the object identity, platform, analytical layer, exact target, query shape, retrieval clock, transport outcome, source fields, evidence reference, verification status, and failure reason where applicable.
 
