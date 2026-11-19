@@ -212,3 +212,24 @@ advisory during schema convergence. Its job summary now prints the original
 `steps.<id>.outcome` for every advisory step and emits `ADVISORY_DEGRADED`
 when any test fails, even when the GitHub workflow's overall status is green.
 Treat a green badge as workflow completion, **not** blanket evidence of checks.
+
+## Source-specific public surface semantic projection (future-only)
+
+`tools/public_source_semantics.py` projects a bounded, complete fresh response for six
+existing 34-surface diagnostic keys: bio.tools, OpenEBench tool metadata,
+Handle URL mapping, Crossref DOI registration agency, CiteAs citation
+metadata and EDAM OWL/RDF-XML. It is dependency-free, network-free, conservative
+on exact identifiers, and never returns raw provider bodies or unrelated
+contact fields. Importantly, a registry entry does not imply adoption, a
+monitoring tool card does not imply benchmark execution, and Crossref's agency
+lookup does not imply Crossref registered the DOI.
+
+The existing `tools/public_source_recheck.py` uses these projections for
+future **successful complete** requests. A 403/404/timeout/truncated request
+remains blocked/unknown. Historical source-attempt ledgers and their SHA-256
+manifests are unchanged. The original DOI and Zenodo denominators remain fixed.
+
+Run offline regressions with:
+```bash
+python -m unittest discover -s tests -p 'test_public_source_semantics.py' -v
+```
