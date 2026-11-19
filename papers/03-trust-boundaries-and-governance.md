@@ -39,7 +39,7 @@ DataCite's metadata schema defines typed relations, including `HasVersion`, `IsV
 
 ### 2.2 Attribution
 
-An author registry can expose work assertions, their source attribution, external identifiers, and grouping relationships. A source-attributed entry indicates the system or person that added an assertion to the registry. ORCID separately distinguishes the assertion origin that connected the researcher to the work; source and assertion origin can differ. Neither field automatically constitutes independent scientific review, institutional endorsement, employment, or validation of the software [3].
+An author registry can expose work assertions, their source attribution, external identifiers, and grouping relationships. ORCID distinguishes the source (the system or person that added an assertion to the record) from the assertion origin (the entity that established the connection between the researcher and the work); these roles can differ [4]. Neither field automatically constitutes independent scientific review, institutional endorsement, employment, or validation of the software.
 
 ORCID groups works according to identifiers and identifier relationships. It distinguishes identifiers referring to the work itself, identifiers for a whole of which the work is part, and identifiers for alternate versions [3]. A work group, an individual summary, and an independent scholarly work are therefore different units.
 
@@ -47,13 +47,13 @@ ORCID groups works according to identifiers and identifier relationships. It dis
 
 A preservation archive can establish that a specific origin, visit, snapshot, revision, directory, or content object is represented and resolvable under its observable API. A successful origin lookup is not equivalent to proof that a new visit occurred during the current audit. A resolvable snapshot does not, by itself, prove bit-level equality between two independent deposit paths.
 
-Software Heritage's content-addressed identifiers allow specific archived objects to be referenced and traversed through the archive graph [4]. The exact object type matters: origin, snapshot, revision, directory, and content identifiers should not be collapsed into one generic “archive verified” label.
+Software Heritage's content-addressed identifiers allow specific archived objects to be referenced and traversed through the archive graph [5]. The exact object type matters: origin, snapshot, revision, directory, and content identifiers should not be collapsed into one generic “archive verified” label.
 
 ### 2.4 Discovery
 
 A discovery graph can establish that a particular record or location is represented under a specific query and retrieval time. It does not guarantee registration, attribution, preservation, scientific review, or adoption.
 
-OpenAlex models Works and their locations, using persistent identifiers and declared relations as well as matching mechanisms for records without shared identifiers [5]. OpenAIRE separately performs research-product deduplication and grouping [6]. Their representations and matching behavior are not interchangeable. A positive result in one graph is not evidence that the other graph contains the same representation.
+OpenAlex models Works and their locations, using persistent identifiers and declared relations as well as matching mechanisms for records without shared identifiers [6, 7]. OpenAIRE separately performs research-product deduplication and grouping [8]. Their representations and matching behavior are not interchangeable. A positive result in one graph is not evidence that the other graph contains the same representation.
 
 ## 3. Trust-boundary matrix
 
@@ -91,9 +91,9 @@ Depositing the same software object independently in multiple services can split
 
 **Status:** Observed.
 
-In the October historical fixed-corpus subset, ORCID exposed fifty-two source summaries in ten groups: thirty-two DataCite, ten OpenAIRE, and ten author-added summaries. The third-party-to-author source-summary ratio was 42:10. A separate 6 October baseline reconciliation recorded fifty-four summaries in twelve groups across the full visible ORCID record, while the fixed-corpus subset remained fifty-two summaries in ten groups. In the 18 November diagnostic, the public ORCID response contained eighteen groups and 119 work summaries. These are three dated/scope-specific snapshots, not one cumulative total. They count ORCID source labels, not necessarily the actors that originally initiated the researcher-work association; ORCID's source and assertion-origin fields represent distinct roles [3].
+In the October historical fixed-corpus subset, ORCID exposed fifty-two source summaries in ten groups: thirty-two DataCite-source, ten OpenAIRE-source, and ten author-source summaries. The third-party-source to author-source summary ratio was 42:10. A separate 6 October baseline reconciliation recorded fifty-four summaries in twelve groups across the full visible ORCID record, while the fixed-corpus subset remained fifty-two summaries in ten groups. In the 18 November diagnostic, the public ORCID response contained eighteen groups and 119 work summaries. These are three dated/scope-specific snapshots, not one cumulative total. They count ORCID source labels, not necessarily the actors that originally initiated the researcher–work association; ORCID distinguishes the source from the assertion origin [4].
 
-These counts do not represent independent software objects. The same work group can contain multiple source assertions and alternate representations. The platform's grouping and display behavior must be inspected rather than inferred from a single total.
+These counts do not represent independent software objects. The same work group can contain multiple source assertions and alternate representations. The platform's grouping and display behavior must be inspected rather than inferred from a single total [3].
 
 **Rule:** retain group identity, source identity, external identifier type/value/relationship, and display index where available. Count groups and summaries separately.
 
@@ -117,7 +117,7 @@ Human-readable ordinal labels can drift from platform identifiers and from the r
 
 **Status:** Observed as a necessary distinction in the expanded diagnostics.
 
-On 18 November, all 102 known DataCite DOI requests and all 102 OpenAIRE DOI requests returned HTTP 200. OpenAIRE produced 94 positive DOI queries. OpenAlex returned 34 exact canonical DOI matches and 34 distinct Work IDs. These are not equivalent measures: HTTP completion is a transport result, a positive query is a source result, and an exact canonical DOI match is an identity result. OpenAlex can attach multiple DOI-bearing locations to one Work; a strict canonical DOI match count is therefore narrower than a full reconciliation of every queried DOI against every Work location [5, 6].
+On 18 November, all 102 known DataCite DOI requests and all 102 OpenAIRE DOI requests returned HTTP 200. OpenAIRE produced 94 positive DOI queries. OpenAlex returned 34 exact canonical DOI matches and 34 distinct Work IDs. These are not equivalent measures: HTTP completion is a transport result, a positive query is a source result, and an exact canonical DOI match is an identity result. OpenAlex can attach multiple DOI-bearing locations to one Work; a strict canonical DOI match count is therefore narrower than a full reconciliation of every queried DOI against every Work location [6, 7].
 
 The 458-request diagnostic as a whole contained 402 HTTP-200 attempts without recorded failure and 56 failed or partial attempts. A complete request ledger can therefore coexist with incomplete semantic coverage.
 
@@ -178,7 +178,7 @@ A practical evidence ladder is:
 5. **Derived analysis:** calculations linked to named inputs and an attributable method.
 6. **Interpretation:** a bounded explanation that cites the evidence and states uncertainty.
 
-W3C PROV-O provides a vocabulary for entities, activities, and agents [8]. The repository uses the conceptual distinction without claiming that all records are serialized as a PROV-O graph. A source request is an activity; the response or retained projection is an entity; the researcher or software collector is an agent. A digest does not independently authenticate the agent or the provider.
+W3C PROV-O provides a vocabulary for entities, activities, and agents [10]. The repository uses the conceptual distinction without claiming that all records are serialized as a PROV-O graph. A source request is an activity; the response or retained projection is an entity; the researcher or software collector is an agent. A digest does not independently authenticate the agent or the provider.
 
 ## 6. Correction-surface governance
 
