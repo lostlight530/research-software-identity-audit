@@ -1,0 +1,10 @@
+attempt_id,surface_row,surface,connector_outcome,semantic_identity_status,locator,provider_http_status,source_run_id
+"06:bio.tools","6","bio.tools","CONTENT_RETURNED","EXACT_TOOL_RECORD_MATCH","https://bio.tools/api/tool/life-science-protein-file-audit/?format=json","",""
+"07:OpenEBench","7","OpenEBench","CONTENT_RETURNED","EXACT_MONITOR_TOOL_METADATA_MATCH","https://openebench.bsc.es/monitor/tool/life-science-protein-file-audit","",""
+"27:Handle DOI","27","Handle DOI resolver","CONTENT_RETURNED","HANDLE_URL_MAPPING_VERIFIED","https://hdl.handle.net/api/handles/10.17605/osf.io/5b329","",""
+"28:Crossref agency","28","Crossref Agency","CONTENT_RETURNED","DOI_REGISTRATION_AGENCY_IDENTIFIED","https://api.crossref.org/works/10.17605/osf.io/5b329/agency","",""
+"31:CiteAs","31","CiteAs","CONTENT_RETURNED","CITATION_METADATA_RECORD_MATCH","https://api.citeas.org/product/https%3A%2F%2Fgithub.com%2Flostlight530%2Fwelcome-to-github","",""
+"14:InterLex:page","14","InterLex","HTML_APP_TEMPLATE_ONLY","TARGET_UNKNOWN","https://scicrunch.org/scicrunch/interlex/view/ilx_0381348","",""
+"14:InterLex:uri","14","InterLex","CRAWL_HTTP_520","BLOCKED_UNKNOWN","https://uri.interlex.org/base/ilx_0381348","",""
+"21:HAL","21","HAL","CRAWL_TIMEOUT","TARGET_UNKNOWN","https://api.archives-ouvertes.fr/search/?q=halId_s%3A%22hal-05780132%22%26rows=1%26wt=json","",""
+"15:EDAM","15","EDAM","GITHUB_ACTIONS_HTTP_200_COMPLETE","EDAM_ONTOLOGY_RETRIEVED","https://edamontology.org/EDAM.owl","200","44429333624"
