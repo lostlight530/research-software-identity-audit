@@ -12,6 +12,8 @@ The study is publicly preregistered on OSF and examines how a fixed corpus of re
 
 > **Important:** This repository supports the study. It is **not an eleventh research-software object** in the fixed ten-object study corpus.
 
+**2026-11-20 cross-repository current file classification:** [11 pinned source trees / 9,675 current tracked paths / exact per-repo Nov 6→Nov 20 Git blob deltas](docs/repository-inventory/2026-11-20/cross-repositories/README.md). Path-level source inventory only, not 9,675 independently audited scientific documents or a study corpus expansion
+
 **2026-11-20 first-day-to-current repository and research-infrastructure audit:** [Complete 903 Git blob / 158 main-commit / 83 dated-event pinned source classification](docs/repository-inventory/2026-11-20/README.md) · [New bounded 160-source-attempt diagnostic, including 69 Zenodo version identities](monitoring/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md). Pinned historical file counts exclude this new audit itself; original OSF plan and approved revision remain distinct, with no new prospective cells. 2026-11-19 evidence formerly merged only to its research branch was restored to main through [PR #132](https://github.com/lostlight530/research-software-identity-audit/pull/132) using unchanged Git blob identities.
 
 

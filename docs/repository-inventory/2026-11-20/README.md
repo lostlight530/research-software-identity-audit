@@ -69,3 +69,7 @@ GitHub recursive tree and commit list were retrieved at pinned source; rows are 
 ## Additive current diagnostic (not a new historical file pin)
 
 The separate [November 20 source-bounded review](../../../monitoring/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md) appends current version-counter and seven-platform checks **after** the pinned `5bbdd7ecc0f0513e7f9857f87e4539abd58f9c58` tree. Its files therefore are **not** counted among the original 903 blobs / 158 commits / 83 dated events. The additional records have their own true retrieval windows; this audit intentionally does not recast their creation date as the historical source date.
+
+## 2026-11-20 cross-repository current files and exact path changes
+
+The separately source-pinned [11-repository complete tracked-path classification](cross-repositories/README.md) contains **9,675 Git blobs**, **11 per-repository full path catalogs** and **11 exact Nov 6→Nov 20 path/SHA delta catalogs**. It includes the fixed ten study repositories and the distinct CONTROL source at a *later* main pin. This **does not retroactively replace** the 903-file CONTROL pinned snapshot and does not assert that 9,675 file bodies were scientifically reviewed.
