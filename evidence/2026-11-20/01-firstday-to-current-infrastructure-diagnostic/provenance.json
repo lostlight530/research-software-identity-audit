@@ -1,0 +1,77 @@
+{
+  "record_class": "bounded_connected_source_capture_provenance_not_prospective",
+  "logical_date": "2026-11-20",
+  "logical_timezone": "Asia/Shanghai",
+  "record_written_at_utc": "2026-11-20T00:36:21.522Z",
+  "source_main_research_control_pin": "5bbdd7ecc0f0513e7f9857f87e4539abd58f9c58",
+  "source_tree_sha": "7bcbe08a4a100b7d68b9f76df944885b23ab9f0e",
+  "source_main_history_reachable_commit_count": 158,
+  "source_file_identity_count": 903,
+  "source_first_main_commit": "e5ba0a0e7dc548bd5bd3e79b4d7fc0cb95e528aa",
+  "events_total_before_this_event": 83,
+  "evidence_companions_before_this_event": 34,
+  "capture_methods": [
+    {
+      "scope": "zenodo_known_69_version_identity_keys",
+      "connector": "Exa web_fetch_exa",
+      "start_utc": "2026-11-20T00:26:08.804Z",
+      "end_utc": "2026-11-20T00:26:21.051Z",
+      "attempt_log": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/zenodo-source-attempts.jsonl"
+    },
+    {
+      "scope": "supplementary_existing_34_surfaces",
+      "connector": "Exa web_fetch_exa",
+      "start_utc": "2026-11-20T00:28:07.525Z",
+      "end_utc": "2026-11-20T00:28:23.359Z",
+      "attempt_log": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/surface-source-attempts.jsonl"
+    },
+    {
+      "scope": "github_11_main",
+      "connector": "GitHub connector /branch/main",
+      "start_utc": "2026-11-20T00:29:10.311Z",
+      "end_utc": "2026-11-20T00:29:12.240Z",
+      "attempt_log": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-main-attempts.jsonl"
+    },
+    {
+      "scope": "github_11_latest_releases",
+      "connector": "GitHub connector /releases?per_page=1",
+      "start_utc": "2026-11-20T00:29:34.747Z",
+      "end_utc": "2026-11-20T00:29:36.589Z",
+      "attempt_log": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-latest-releases.jsonl"
+    },
+    {
+      "scope": "github_11_open_prs",
+      "connector": "GitHub connector /pulls?state=open",
+      "start_utc": "2026-11-20T00:29:54.582Z",
+      "end_utc": "2026-11-20T00:29:56.341Z",
+      "attempt_log": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-open-prs.jsonl"
+    },
+    {
+      "scope": "four_public_issue_pr_interactions",
+      "connector": "GitHub connector /issues and /pulls",
+      "start_utc": "2026-11-20T00:30:24.315Z",
+      "end_utc": "2026-11-20T00:30:25.381Z",
+      "attempt_log": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/public-interactions.jsonl"
+    },
+    {
+      "scope": "targeted_3_DOIs_10_SWH_1_ORCID_3_platforms",
+      "connector": "Exa web_fetch_exa",
+      "start_utc": "2026-11-20T00:31:46.564Z",
+      "end_utc": "2026-11-20T00:31:54.072Z",
+      "attempt_log": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/core-platform-targeted-attempts.jsonl"
+    }
+  ],
+  "total_documented_attempt_records": 160,
+  "unique_external_urls_not_equated_to_attempts": true,
+  "origin_http_body_bytes_retained": false,
+  "http_status_exposed_by_exa": false,
+  "github_connector_raw_response_bodies_retained": false,
+  "source_byte_evidence": "exact Git object identities and selected provider fields, NOT sealed HTTP origin bytes",
+  "prior_2026_11_19_capture_run_id": 44356891292,
+  "prior_2026_11_19_source_attempts_ledger_sha256": "3533de5328d954d1650e01dccfedf084b84a6e9bcdc559973f1ed9e97794877d",
+  "prior_2026_11_19_counter_source": "monitoring/2026-11-19/02-complete-institutional-recheck/zenodo-67-version-records.csv",
+  "supplemental_2026_11_19_zenodo_reconciliation": "monitoring/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/README.md",
+  "baseline_and_prospective_separated": true,
+  "no_osf_write_attempted": true,
+  "prospective_cells_added": 0
+}

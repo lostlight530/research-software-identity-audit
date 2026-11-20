@@ -1,0 +1,9 @@
+platform_or_scope,layer,attempt_scope,selected_result,source_method,interpretation,critical_limit
+"github","source_repository","11 main/11 release/11 open PR","11/11 main+release+PR","GitHub connector","CURRENT_SELECTED_IDENTITIES","not source adoption"
+"zenodo","archival_repository","69 known version record URLs","69/69 parsed; 60 fixed; 9 non-sample","Exa normalized JSON","CURRENT_SELECTED_IDENTITIES_AND_COUNTERS","no original raw HTTP bytes, counters not unique people"
+"datacite","identifier_registration","3 targeted DOI API URLs","3/3 exact DOI findable","Exa normalized JSON","TARGETED_POSITIVE","not a 102 DOI cohort census"
+"orcid","author_registry","one public Works URL","flattened / not structured","Exa extracted text","PARTIAL_UNKNOWN","cannot count groups"
+"software_heritage","preservation_archive","10 origin latest visits","0 confirmed current visits","Exa failed/crawler empty","UNRESOLVED","never absence"
+"openaire","discovery_graph","3 targeted DOI queries","2 parsed query totals","Exa normalized JSON","PARTIAL","not an exact aggregate identity audit"
+"openalex","discovery_graph","3 exact DOI work lookups","0 confirmed from returned content","Exa source unavailable","UNRESOLVED","not a claim of zero Work records"
+"supplementary_34","NOT_PREREGISTERED_LAYER","34 registered URLs","11 JSON + 7 page text + 7 unprojected + 9 unavailable","Exa clean-text","PARTIAL","cannot compare direct provider HTTP rate to prior"
