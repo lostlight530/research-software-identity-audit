@@ -12,6 +12,8 @@ The study is publicly preregistered on OSF and examines how a fixed corpus of re
 
 > **Important:** This repository supports the study. It is **not an eleventh research-software object** in the fixed ten-object study corpus.
 
+**2026-11-20 first-day-to-current repository and research-infrastructure audit:** [Complete 903 Git blob / 158 main-commit / 83 dated-event pinned source classification](docs/repository-inventory/2026-11-20/README.md) · [New bounded 160-source-attempt diagnostic, including 69 Zenodo version identities](monitoring/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md). Pinned historical file counts exclude this new audit itself; original OSF plan and approved revision remain distinct, with no new prospective cells. 2026-11-19 evidence formerly merged only to its research branch was restored to main through [PR #132](https://github.com/lostlight530/research-software-identity-audit/pull/132) using unchanged Git blob identities.
+
 
 
 **October 18, 2026 research maintenance handoff:** [Consolidated evidence and repo continuity record](docs/research-session-closeout-2026-10-18.md) · [Latest independently verified control-software release and archival metadata caveat](scholarly/release-identity-reconciliation-2026-10-18.md) · [ORCID–OpenAIRE user-confirmed Beta update](monitoring/2026-10-18/02-orcid-openaire-work-refresh/README.md). These are dated state reports; the OSF registration remains frozen and the control repository remains outside RS01–RS10.

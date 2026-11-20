@@ -63,3 +63,7 @@ The independently extracted 32-version table is retained under [monitoring/2026-
 ## November 19 targeted surface semantics and path-entrypoint reconciliation
 
 - [2026-11-19 / 05-targeted-surface-semantic-reconciliation](2026-11-19/05-targeted-surface-semantic-reconciliation/README.md) — minimal public identity projections, original EDAM runner digest and source locators; unresolved InterLex/HAL preserved
+
+## November 20 first-day-to-current infrastructure evidence
+
+- [2026-11-20 / 01-firstday-to-current-infrastructure-diagnostic](2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md) — scoped 160 source attempt records with batch retrieval windows and selected public fields; provider HTTP original bodies not retained; 60 fixed-sample Zenodo versions independently identified in current records

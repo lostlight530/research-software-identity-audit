@@ -65,3 +65,7 @@ Original [OSF registration](https://osf.io/5b329), its [approved version reconci
 GitHub recursive tree and commit list were retrieved at pinned source; rows are machine-generated from exact Git returned paths, blob SHA, size, Git commit metadata, and path conventions. **This is not a line-by-line semantic audit of 903 files**, and the historical reachability ledger is not the complete universe of all previously created branches, deleted paths, unpublished source bytes or provider HTTP responses. A Git blob is source-byte custody, not independent platform authenticity. Existing checker/manifest CI must be independently inspected before merging these artifacts.
 
 **Outcome:** `PATH_INVENTORY_903` / `REACHABLE_MAIN_COMMITS_158` / `EVENT_TAXONOMY_83` / `NO_BULK_REWRITE` / `NO_NEW_PROSPECTIVE_CELLS`
+
+## Additive current diagnostic (not a new historical file pin)
+
+The separate [November 20 source-bounded review](../../../monitoring/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md) appends current version-counter and seven-platform checks **after** the pinned `5bbdd7ecc0f0513e7f9857f87e4539abd58f9c58` tree. Its files therefore are **not** counted among the original 903 blobs / 158 commits / 83 dated events. The additional records have their own true retrieval windows; this audit intentionally does not recast their creation date as the historical source date.
