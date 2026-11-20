@@ -1,0 +1,88 @@
+{
+  "record_class": "published_selection_file_integrity_not_origin_http_authenticity",
+  "generated_at_utc": "2026-11-20T00:40:12.401Z",
+  "scope_note": "14 retained source evidence files plus two manifest text files. The artifact-manifest itself is not self-hashed",
+  "source_main_pin": "5bbdd7ecc0f0513e7f9857f87e4539abd58f9c58",
+  "files": [
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md",
+      "sha256": "9ada74279e6c840cb56f73d0cc40a9b9f40f45880847f6eeb231a7ac5c219275",
+      "bytes": 1815
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/core-platform-targeted-attempts.jsonl",
+      "sha256": "61f83184da14074452bf9bac0f820720e8573664b3360198c97c626823ad795a",
+      "bytes": 11352
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/core-platform-targeted-summary.json",
+      "sha256": "31ffc4f6fd6db26fb7965d2509db02f6be9dd5627dba44ff839e72788a6bc049",
+      "bytes": 1983
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-latest-releases.jsonl",
+      "sha256": "123d8a87d16efe466a940d72d0a24ca27de9027c197ad1b7b93154d45bfe5023",
+      "bytes": 6187
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-main-attempts.jsonl",
+      "sha256": "b7e58a005f528448c9b0d91c4aa1f260770a83cc7be9373d33c881dab873b227",
+      "bytes": 5402
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-open-prs.jsonl",
+      "sha256": "3c50ba9de4f3a28ba1ab412d6f3560cd0ba66651c91d30ceedf4463a315bf7fb",
+      "bytes": 4579
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/provenance.json",
+      "sha256": "d9119714533a429f107ac8280f39faec3e9cc8d3da01df5e83d036d21d2f8ca6",
+      "bytes": 3797
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/public-interactions.jsonl",
+      "sha256": "e3e07d7223155e62ecff3f80c92a0def2943274ca4d4545ffd7865168d1e5da7",
+      "bytes": 2745
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/surface-bounded-summary.json",
+      "sha256": "e87fee00e2a6a734c24a7b181a7bffd3df133ae325a41577cc137404b1d8e729",
+      "bytes": 2735
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/surface-selected-fields.jsonl",
+      "sha256": "78ef9692feb987528852347433c21f082d2597b34e7776c6a1abc3d2191d3049",
+      "bytes": 6528
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/surface-source-attempts.jsonl",
+      "sha256": "a03094f36cfecf12cca60f92e56e59ba09e622e81fd52c07eb4dcdf3eec00ee4",
+      "bytes": 19885
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/zenodo-bounded-summary.json",
+      "sha256": "95b28112dc9bc8fb2b1efcdc50a422c2af80c37e96617bfe709201396e1b0c4c",
+      "bytes": 2202
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/zenodo-selected-fields.jsonl",
+      "sha256": "df5366a708706b034eb22e59e339c3e50c8b3a5f8704f76ecfa3e0ab7281b66f",
+      "bytes": 40571
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/zenodo-source-attempts.jsonl",
+      "sha256": "1b2cd3f205d56edbe496c064db4b8707c0cda1ac628c2d5df548617765bd1016",
+      "bytes": 65009
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/sha256-manifest.txt",
+      "sha256": "616496782b5d72f7addd2a7b1293602e61d28e152be5b704f3e588d01217a08a",
+      "bytes": 1303
+    },
+    {
+      "path": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/file-sha256-manifest.txt",
+      "sha256": "27eb1b12c5553a63650c7a072d9988b033a59b0d22e8bfa0643e0bb7eded91e0",
+      "bytes": 1389
+    }
+  ]
+}
