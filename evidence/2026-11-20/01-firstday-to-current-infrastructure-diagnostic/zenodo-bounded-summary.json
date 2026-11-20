@@ -1,0 +1,65 @@
+{
+  "record_class": "bounded_69_known_zenodo_version_identity_and_counter_diagnostic_not_prospective",
+  "logical_date_asia_shanghai": "2026-11-20",
+  "captured_batch_window_utc": {
+    "start_utc": "2026-11-20T00:26:08.804Z",
+    "end_utc": "2026-11-20T00:26:21.051Z",
+    "batches": [
+      {
+        "start_utc": "2026-11-20T00:26:08.805Z",
+        "end_utc": "2026-11-20T00:26:11.435Z",
+        "requests": 12,
+        "returned_complete": 12
+      },
+      {
+        "start_utc": "2026-11-20T00:26:11.438Z",
+        "end_utc": "2026-11-20T00:26:13.168Z",
+        "requests": 12,
+        "returned_complete": 12
+      },
+      {
+        "start_utc": "2026-11-20T00:26:13.170Z",
+        "end_utc": "2026-11-20T00:26:15.603Z",
+        "requests": 12,
+        "returned_complete": 12
+      },
+      {
+        "start_utc": "2026-11-20T00:26:15.605Z",
+        "end_utc": "2026-11-20T00:26:17.253Z",
+        "requests": 12,
+        "returned_complete": 12
+      },
+      {
+        "start_utc": "2026-11-20T00:26:17.255Z",
+        "end_utc": "2026-11-20T00:26:19.198Z",
+        "requests": 12,
+        "returned_complete": 12
+      },
+      {
+        "start_utc": "2026-11-20T00:26:19.200Z",
+        "end_utc": "2026-11-20T00:26:21.049Z",
+        "requests": 9,
+        "returned_complete": 9
+      }
+    ]
+  },
+  "source_connector": "Exa normalized provider public JSON; not raw provider HTTP bytes",
+  "requested_known_version_identifiers": 69,
+  "source_attempt_rows": 69,
+  "parsed_exact_identity_count": 69,
+  "fixed_ten_expected_version_records": 60,
+  "fixed_ten_complete": true,
+  "fixed_ten_prior_2026_11_19_views": 4208,
+  "fixed_ten_prior_2026_11_19_downloads": 44,
+  "fixed_ten_current_views": 4281,
+  "fixed_ten_current_downloads": 45,
+  "fixed_ten_version_views_delta": 73,
+  "fixed_ten_version_downloads_delta": 1,
+  "non_sample_supplementary_count": 9,
+  "non_sample_nonresponse_count": 0,
+  "comparison_rule": "same canonical record id and stats.version_views/version_downloads, no family-attached summation or cross-platform overlap",
+  "original_response_bytes_saved": false,
+  "origin_http_status_codes_exposed": false,
+  "no_prospective_cells": true,
+  "osf_write_attempted": false
+}
