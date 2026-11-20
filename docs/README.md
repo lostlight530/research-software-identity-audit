@@ -1,5 +1,12 @@
 # Documentation map and maintenance guide
 
+## Latest: 2026-11-20 complete first-day-to-current CONTROL source tree
+
+[Exact pinned 903-file Git blob catalog, 158 reachable-main commit chronology and 83 dated monitoring event classification](repository-inventory/2026-11-20/README.md) · [November 19 source branch custody correction](repository-inventory/2026-11-20/source-branch-custody-reconciliation.md) · [November 20 bounded platform diagnostic](../monitoring/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md)
+
+All are retrospective documentation / current diagnostic records, **not** changes to the OSF frozen study, historical source bodies or prospective observation schedule
+
+
 ## 2026-11-17 bilingual scholarly-control navigation / 双语科研控制合同导航
 
 **文档责任 / Ownership:** 这是只读导航和解释层，非注册合同、统计 schema、科研观察或研究原始记录的修订 / This is an explanatory pointer only, not a study amendment, new observation or executable schema change

@@ -1,0 +1,75 @@
+{
+  "record_class": "bounded_selected_core_platform_probe_not_102_doi_census",
+  "logical_date": "2026-11-20",
+  "window_utc": {
+    "start": "2026-11-20T00:31:46.564Z",
+    "end": "2026-11-20T00:31:54.072Z",
+    "batches": [
+      {
+        "start_utc": "2026-11-20T00:31:46.564Z",
+        "end_utc": "2026-11-20T00:31:47.972Z",
+        "attempted": 5
+      },
+      {
+        "start_utc": "2026-11-20T00:31:47.974Z",
+        "end_utc": "2026-11-20T00:31:49.570Z",
+        "attempted": 5
+      },
+      {
+        "start_utc": "2026-11-20T00:31:49.577Z",
+        "end_utc": "2026-11-20T00:31:52.151Z",
+        "attempted": 5
+      },
+      {
+        "start_utc": "2026-11-20T00:31:52.151Z",
+        "end_utc": "2026-11-20T00:31:54.071Z",
+        "attempted": 5
+      }
+    ]
+  },
+  "attempts": 20,
+  "platforms": {
+    "DataCite": {
+      "attempts": 3,
+      "selected_parsed": 3,
+      "not_returned": 0
+    },
+    "OpenAIRE": {
+      "attempts": 3,
+      "selected_parsed": 2,
+      "not_returned": 0
+    },
+    "OpenAlex": {
+      "attempts": 3,
+      "selected_parsed": 0,
+      "not_returned": 3
+    },
+    "ORCID": {
+      "attempts": 1,
+      "selected_parsed": 0,
+      "not_returned": 0
+    },
+    "SoftwareHeritage": {
+      "attempts": 10,
+      "selected_parsed": 0,
+      "not_returned": 9
+    }
+  },
+  "requested_doi_keys": [
+    "10.17605/osf.io/5b329",
+    "10.5281/zenodo.24249720",
+    "10.5281/zenodo.24249719"
+  ],
+  "provider_http_status_unknown": true,
+  "original_response_bytes_not_preserved": true,
+  "fixed_corpus": "RS01-RS10",
+  "control_not_rs11": true,
+  "no_prospective_cells": true,
+  "limits": [
+    "three targeted DOI keys are not the November 19 102-key census",
+    "source-level crawler failures do not imply absence",
+    "OpenAIRE query result does not by itself validate exact DOI/record identity",
+    "OpenAlex DOI exact-match flag only when returned canonical DOI matches",
+    "one ORCID public read is not 102 version-key checks"
+  ]
+}

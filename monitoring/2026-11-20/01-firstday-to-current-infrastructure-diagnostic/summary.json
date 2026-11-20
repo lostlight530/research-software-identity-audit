@@ -1,0 +1,92 @@
+{
+  "record_class": "firstday_repo_snapshot_and_bounded_current_public_infrastructure_diagnostic_not_prospective",
+  "logical_date": "2026-11-20",
+  "logical_timezone": "Asia/Shanghai",
+  "compiled_at_utc": "2026-11-20T00:36:21.522Z",
+  "control_main_snapshot_sha": "5bbdd7ecc0f0513e7f9857f87e4539abd58f9c58",
+  "first_main_sha": "e5ba0a0e7dc548bd5bd3e79b4d7fc0cb95e528aa",
+  "fixed_research_objects": "RS01-RS10",
+  "fixed_object_count": 10,
+  "control_is_rs11": false,
+  "preregistered_layers": 6,
+  "analytical_units_per_eligible_scheduled_timepoint": 60,
+  "operational_platform_count": 7,
+  "possible_platform_checks_not_units": 70,
+  "past_main_reachable_commits": 158,
+  "tracked_files_at_pin": 903,
+  "dated_monitoring_event_dirs_at_pin": 83,
+  "evidence_companions_at_pin": 34,
+  "documented_attempts": 160,
+  "not_the_full_458_request_cohort": true,
+  "github": {
+    "main_checks": 11,
+    "main_shas_changed_vs_prior_selected_snapshot": 11,
+    "releases_checked": 11,
+    "latest_release_tags_changed": 0,
+    "open_pr_checked_repositories": 11,
+    "open_pr_count": 1,
+    "open_pr_identity": "epistemic-pipeline#261",
+    "fixed_ten_new_published_releases": 0
+  },
+  "zenodo": {
+    "known_version_requests": 69,
+    "exact_record_and_doi_parsed": 69,
+    "fixed_ten_version_records": 60,
+    "fixed_ten_counter_complete": true,
+    "fixed_ten_version_views_prior": 4208,
+    "fixed_ten_version_views_now": 4281,
+    "fixed_ten_version_views_delta": 73,
+    "fixed_ten_version_downloads_prior": 44,
+    "fixed_ten_version_downloads_now": 45,
+    "fixed_ten_version_downloads_delta": 1,
+    "fixed_ten_complete_family_count": 10,
+    "supplementary_records": 9,
+    "supplementary_breakdown": {
+      "control": 6,
+      "pilot_lsel": 3
+    },
+    "counts_are": "sum of per-record version_views/version_downloads; not unique people nor attached-family total"
+  },
+  "supplementary_surfaces": {
+    "attempts": 34,
+    "returned_json_selected": 11,
+    "returned_bounded_text": 7,
+    "returned_content_unprojected": 7,
+    "connector_not_returned": 9,
+    "provider_http_200_count": null,
+    "source_status": "PARTIAL_SEMANTICALLY_NON_COMPARABLE_TO_NOV19_DIRECT_HTTP"
+  },
+  "other_platforms": {
+    "datacite_targeted_dois_findable": 3,
+    "datacite_targeted_dois_checked": 3,
+    "openaire_selected_query_totals_extracted": 2,
+    "openaire_queries_attempted": 3,
+    "openalex_targeted_requests_attempted": 3,
+    "openalex_targeted_exact_results_confirmed": 0,
+    "orcid_work_request_attempted": 1,
+    "orcid_structured_groups_confirmed": null,
+    "software_heritage_origin_requests_attempted": 10,
+    "software_heritage_current_visits_confirmed": 0
+  },
+  "public_interactions": {
+    "rsd_1870": "CLOSED_2026-10-16_NOT_DEPLOYMENT_PROOF",
+    "rsd_1871": "CLOSED_2026-11-16_NOT_DEPLOYMENT_PROOF",
+    "rse_498": "OPEN_UNMERGED",
+    "epistemic_261": "OPEN_UNMERGED_AS_OF_BATCH"
+  },
+  "unresolved": [
+    "InterLex target term unconfirmed",
+    "HAL target record unconfirmed",
+    "source crawler does not expose reliable OpenAlex and Software Heritage current state",
+    "ORCID direct structured count not obtained",
+    "previous maintainer-supplied Zenodo 100-view display total discrepancy remains unresolved",
+    "no full 102-key same-date DataCite/OpenAIRE/OpenAlex census or full 458-key repeat executed",
+    "source connectors do not preserve original HTTP response bytes or status"
+  ],
+  "interpretation": "real current Git main changes and bounded per-version counter changes; NO confirmed new fixed-ten releases or new prospective observations",
+  "errors_requiring_rewrite_of_frozen_contract": 0,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "osf_write_attempted": false,
+  "today_classification": "BOUNDED_DIAGNOSTIC_WITH_COMPLETE_ZENODO_KNOWN_VERSION_COHORT_AND_PARTIAL_OTHER_PLATFORM_COVERAGE"
+}

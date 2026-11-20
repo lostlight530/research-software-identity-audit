@@ -1,0 +1,53 @@
+{
+  "record_class": "firstday_repo_snapshot_and_bounded_current_public_infrastructure_diagnostic_not_prospective",
+  "logical_date": "2026-11-20",
+  "logical_timezone": "Asia/Shanghai",
+  "created_at_utc": "2026-11-20T00:36:21.522Z",
+  "source_systems": [
+    "GitHub",
+    "Zenodo",
+    "DataCite",
+    "ORCID",
+    "Software Heritage",
+    "OpenAIRE",
+    "OpenAlex",
+    "34 existing supplementary surfaces"
+  ],
+  "source_attempt_records": 160,
+  "source_attempt_ledger_files": [
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/zenodo-source-attempts.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/surface-source-attempts.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-main-attempts.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-latest-releases.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-open-prs.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/public-interactions.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/core-platform-targeted-attempts.jsonl"
+  ],
+  "provider_http_original_bytes_retained": false,
+  "historical_first_main_commit": "e5ba0a0e7dc548bd5bd3e79b4d7fc0cb95e528aa",
+  "source_main_pin": "5bbdd7ecc0f0513e7f9857f87e4539abd58f9c58",
+  "source_history_inventory": "docs/repository-inventory/2026-11-20/current-main-tracked-file-catalog.csv",
+  "summary_file": "monitoring/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/summary.json",
+  "provenance_file": "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/provenance.json",
+  "evidence_references": [
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/zenodo-source-attempts.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/surface-source-attempts.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-main-attempts.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-latest-releases.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/github-open-prs.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/public-interactions.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/core-platform-targeted-attempts.jsonl",
+    "evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/provenance.json"
+  ],
+  "fixed_corpus": "RS01-RS10",
+  "control_is_rs11": false,
+  "preregistered_layers": 6,
+  "planned_object_layer_units": 60,
+  "operational_platforms": 7,
+  "possible_checks_not_units": 70,
+  "eligible_new_release_observed_this_batch": false,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "osf_write_attempted": false,
+  "source_data_unmodified": true
+}

@@ -1,0 +1,103 @@
+{
+  "record_class": "bounded_34_supplementary_surface_connector_review_not_prospective",
+  "logical_date_asia_shanghai": "2026-11-20",
+  "capture_window_utc": {
+    "start_utc": "2026-11-20T00:28:07.525Z",
+    "end_utc": "2026-11-20T00:28:23.359Z",
+    "batches": [
+      {
+        "start_utc": "2026-11-20T00:28:07.525Z",
+        "end_utc": "2026-11-20T00:28:10.546Z",
+        "requested": 7
+      },
+      {
+        "start_utc": "2026-11-20T00:28:10.550Z",
+        "end_utc": "2026-11-20T00:28:12.452Z",
+        "requested": 7
+      },
+      {
+        "start_utc": "2026-11-20T00:28:12.454Z",
+        "end_utc": "2026-11-20T00:28:15.829Z",
+        "requested": 7
+      },
+      {
+        "start_utc": "2026-11-20T00:28:15.834Z",
+        "end_utc": "2026-11-20T00:28:21.380Z",
+        "requested": 7
+      },
+      {
+        "start_utc": "2026-11-20T00:28:21.381Z",
+        "end_utc": "2026-11-20T00:28:23.356Z",
+        "requested": 6
+      }
+    ]
+  },
+  "requested_surface_keys": 34,
+  "attempted": 34,
+  "by_outcome": {
+    "CONTENT_RETURNED_BUT_NOT_VALID_JSON_PROJECTION": 7,
+    "BOUNDED_PUBLIC_PAGE_TEXT_ONLY": 7,
+    "JSON_MINIMIZED_FIELDS_PARSED": 11,
+    "CONNECTOR_NOT_RETURNED": 9
+  },
+  "source_method": "Exa clean text / normalized JSON, NOT raw HTTP transport",
+  "http_200_success_count": null,
+  "protected_semantic_limits": [
+    "HTTP status not independently exposed",
+    "no origin response bytes retained",
+    "public page/title not independent adoption or institutional acceptance",
+    "record lookup identity distinct from validated or benchmarks",
+    "failed 403/404/timeout do not imply absence",
+    "EDAM RDF/XML extraction needs independent complete byte read; previous Nov19 Actions run available"
+  ],
+  "unresolved": [
+    {
+      "row": 11,
+      "surface": "ScreenIT ASWG",
+      "reason": "CRAWL_UNKNOWN_ERROR"
+    },
+    {
+      "row": 13,
+      "surface": "dkNET",
+      "reason": "CRAWL_NOT_FOUND"
+    },
+    {
+      "row": 14,
+      "surface": "InterLex",
+      "reason": "CRAWL_NOT_FOUND"
+    },
+    {
+      "row": 15,
+      "surface": "EDAM",
+      "reason": "CRAWL_UNEXPECTED_CONTENT_TYPE"
+    },
+    {
+      "row": 20,
+      "surface": "Internet Archive",
+      "reason": "CONTENT_NOT_CACHED"
+    },
+    {
+      "row": 21,
+      "surface": "HAL",
+      "reason": "SOURCE_NOT_AVAILABLE"
+    },
+    {
+      "row": 22,
+      "surface": "OpenAlex",
+      "reason": "SOURCE_NOT_AVAILABLE"
+    },
+    {
+      "row": 24,
+      "surface": "Identifiers.org",
+      "reason": "CRAWL_NOT_FOUND"
+    },
+    {
+      "row": 29,
+      "surface": "Software Heritage",
+      "reason": "CRAWL_EMPTY_CONTENT"
+    }
+  ],
+  "no_sample_expansion": true,
+  "no_osf_write": true,
+  "new_prospective_cells": 0
+}

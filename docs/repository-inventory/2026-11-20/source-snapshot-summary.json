@@ -1,0 +1,59 @@
+{
+  "record_class": "pinned_main_full_tracked_path_history_taxonomy_not_prospective",
+  "created_at_utc": "2026-11-20T00:24:19.494Z",
+  "source_repository": "lostlight530/research-software-identity-audit",
+  "source_main_commit": "5bbdd7ecc0f0513e7f9857f87e4539abd58f9c58",
+  "source_recursive_tree_sha": "7bcbe08a4a100b7d68b9f76df944885b23ab9f0e",
+  "source_tree_truncated": false,
+  "source_main_commit_history_count": 158,
+  "source_history_first_commit": "e5ba0a0e7dc548bd5bd3e79b4d7fc0cb95e528aa",
+  "source_history_first_commit_utc": "2026-10-05T14:59:46Z",
+  "source_history_latest_commit": "5bbdd7ecc0f0513e7f9857f87e4539abd58f9c58",
+  "first_day_tree_blob_paths": [
+    "README.md"
+  ],
+  "tracked_blobs": 903,
+  "directories": 211,
+  "tree_entries": 1114,
+  "dated_monitoring_event_directories": 83,
+  "dated_evidence_companion_directories": 34,
+  "dated_events_without_machine_record": [
+    "monitoring/2026-10-24/03-offline-family-stat-replay"
+  ],
+  "owner_file_counts": {
+    "ROOT": 19,
+    ".github": 8,
+    "analysis": 3,
+    "baseline": 10,
+    "contract": 5,
+    "corpus": 1,
+    "docs": 66,
+    "evidence": 318,
+    "monitoring": 411,
+    "observations": 2,
+    "provenance": 2,
+    "schedule": 1,
+    "schema": 5,
+    "scholarly": 12,
+    "templates": 11,
+    "tests": 8,
+    "tools": 21
+  },
+  "frozen_corpus_count": 10,
+  "control_not_rs11": true,
+  "preregistered_infrastructure_layers": 6,
+  "analytical_object_layer_units_per_scheduled_timepoint": 60,
+  "distinct_operational_platforms": 7,
+  "possible_platform_checks_not_units": 70,
+  "prospective_cells_created": 0,
+  "osf_modified": false,
+  "exclusions": [
+    "the inventory files and this branch are not in its pinned source tree",
+    "historical deleted/renamed paths not enumerated",
+    "non-main refs and unreachable commits excluded from this 158-commit ledger",
+    "content validity not established by a path list",
+    "origin HTTP byte authenticity not established by Git blob",
+    "Git commit clock is not platform retrieval timestamp",
+    "no inferred prospective observations"
+  ]
+}
