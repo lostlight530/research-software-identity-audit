@@ -1,0 +1,206 @@
+{
+  "record_class": "non_atomic_cross_repository_pinned_current_tree_and_two_endpoint_exact_path_delta_not_prospective",
+  "logical_date": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "generated_at_utc": "2026-11-20T00:57:29.238Z",
+  "source_repositories": 11,
+  "fixed_research_objects": "RS01-RS10",
+  "control_repository_is_rs11": false,
+  "source_snapshot_previous_date": "2026-11-06",
+  "source_snapshot_previous_catalog": "docs/repository-inventory/2026-11-06/README.md",
+  "source_snapshot_current_date": "2026-11-20",
+  "source_snapshot_current_control_main_sha": "8ecefe06fee39f299f4006342f743a5c024eb99e",
+  "non_atomic_source_read_windows_utc": [
+    {
+      "start": "2026-11-20T00:44:51.608Z",
+      "end": "2026-11-20T00:44:53.572Z",
+      "roles": [
+        "RS01",
+        "RS02",
+        "RS03",
+        "RS04",
+        "RS05"
+      ]
+    },
+    {
+      "start": "2026-11-20T00:45:42.365Z",
+      "end": "2026-11-20T00:45:43.665Z",
+      "roles": [
+        "RS06",
+        "RS07",
+        "RS08"
+      ]
+    },
+    {
+      "start": "2026-11-20T00:47:15.935Z",
+      "end": "2026-11-20T00:47:17.750Z",
+      "roles": [
+        "RS09",
+        "RS10",
+        "CONTROL"
+      ]
+    }
+  ],
+  "git_recursive_tree_count": 11,
+  "all_trees_truncated_false": true,
+  "nov6_tracked_blobs": 8802,
+  "nov20_tracked_blobs": 9675,
+  "net_path_delta": 873,
+  "now_only_paths": 1391,
+  "prior_only_paths": 518,
+  "same_path_changed_blob": 390,
+  "file_catalogs": 11,
+  "delta_catalogs": 11,
+  "rows": [
+    {
+      "object_id": "RS01",
+      "repository": "welcome-to-github",
+      "previous_tracked_paths": 1549,
+      "current_tracked_paths": 1566,
+      "now_only_paths": 162,
+      "prior_only_paths": 145,
+      "same_path_changed_blob": 31,
+      "current_pinned_main_sha": "f5a77ff7afd2cc370215a66be1e491e919994a94",
+      "current_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/rs01-welcome-to-github.csv",
+      "delta_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/delta-rs01-welcome-to-github.csv"
+    },
+    {
+      "object_id": "RS02",
+      "repository": "zero-entropy-lab",
+      "previous_tracked_paths": 2344,
+      "current_tracked_paths": 2448,
+      "now_only_paths": 290,
+      "prior_only_paths": 186,
+      "same_path_changed_blob": 36,
+      "current_pinned_main_sha": "43f6b2352033a66e0cd312cd80e296e8391758d4",
+      "current_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/rs02-zero-entropy-lab.csv",
+      "delta_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/delta-rs02-zero-entropy-lab.csv"
+    },
+    {
+      "object_id": "RS03",
+      "repository": "Axiom-0",
+      "previous_tracked_paths": 509,
+      "current_tracked_paths": 522,
+      "now_only_paths": 62,
+      "prior_only_paths": 49,
+      "same_path_changed_blob": 56,
+      "current_pinned_main_sha": "20b296f6d56c6d5db2e46a244f1b2781fc4ae6d1",
+      "current_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/rs03-Axiom-0.csv",
+      "delta_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/delta-rs03-Axiom-0.csv"
+    },
+    {
+      "object_id": "RS04",
+      "repository": "reflective-continuum",
+      "previous_tracked_paths": 617,
+      "current_tracked_paths": 608,
+      "now_only_paths": 79,
+      "prior_only_paths": 88,
+      "same_path_changed_blob": 40,
+      "current_pinned_main_sha": "0c01fa393ebb63d8e80651d3aab2c8817123bde7",
+      "current_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/rs04-reflective-continuum.csv",
+      "delta_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/delta-rs04-reflective-continuum.csv"
+    },
+    {
+      "object_id": "RS05",
+      "repository": "agent-foundations",
+      "previous_tracked_paths": 160,
+      "current_tracked_paths": 159,
+      "now_only_paths": 45,
+      "prior_only_paths": 46,
+      "same_path_changed_blob": 33,
+      "current_pinned_main_sha": "edd74644fea96c2775fbcf47bd72bed8fe793c89",
+      "current_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/rs05-agent-foundations.csv",
+      "delta_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/delta-rs05-agent-foundations.csv"
+    },
+    {
+      "object_id": "RS06",
+      "repository": "auto-doc-engine",
+      "previous_tracked_paths": 336,
+      "current_tracked_paths": 373,
+      "now_only_paths": 37,
+      "prior_only_paths": 0,
+      "same_path_changed_blob": 27,
+      "current_pinned_main_sha": "6ca5c066772c5357d9c4800d62c2d6c458aa850a",
+      "current_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/rs06-auto-doc-engine.csv",
+      "delta_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/delta-rs06-auto-doc-engine.csv"
+    },
+    {
+      "object_id": "RS07",
+      "repository": "epistemic-pipeline",
+      "previous_tracked_paths": 337,
+      "current_tracked_paths": 375,
+      "now_only_paths": 38,
+      "prior_only_paths": 0,
+      "same_path_changed_blob": 36,
+      "current_pinned_main_sha": "a553b3d7817e5a01a59bab7ae39c736e58abeb79",
+      "current_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/rs07-epistemic-pipeline.csv",
+      "delta_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/delta-rs07-epistemic-pipeline.csv"
+    },
+    {
+      "object_id": "RS08",
+      "repository": "sci-render-kit",
+      "previous_tracked_paths": 347,
+      "current_tracked_paths": 384,
+      "now_only_paths": 37,
+      "prior_only_paths": 0,
+      "same_path_changed_blob": 28,
+      "current_pinned_main_sha": "575e7088f0f8d5433ce21a692b2d160b6eb00983",
+      "current_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/rs08-sci-render-kit.csv",
+      "delta_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/delta-rs08-sci-render-kit.csv"
+    },
+    {
+      "object_id": "RS09",
+      "repository": "china-agentic-observatory",
+      "previous_tracked_paths": 1013,
+      "current_tracked_paths": 1196,
+      "now_only_paths": 185,
+      "prior_only_paths": 2,
+      "same_path_changed_blob": 37,
+      "current_pinned_main_sha": "b91f931c620814c2bc85ddc87e2fedef1595d0fb",
+      "current_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/rs09-china-agentic-observatory.csv",
+      "delta_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/delta-rs09-china-agentic-observatory.csv"
+    },
+    {
+      "object_id": "RS10",
+      "repository": "agentic-frontier-observatory",
+      "previous_tracked_paths": 933,
+      "current_tracked_paths": 1112,
+      "now_only_paths": 181,
+      "prior_only_paths": 2,
+      "same_path_changed_blob": 36,
+      "current_pinned_main_sha": "d57268a7e00ccadfc56c0a5a30695ff13fd572dc",
+      "current_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/rs10-agentic-frontier-observatory.csv",
+      "delta_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/delta-rs10-agentic-frontier-observatory.csv"
+    },
+    {
+      "object_id": "CONTROL",
+      "repository": "research-software-identity-audit",
+      "previous_tracked_paths": 657,
+      "current_tracked_paths": 932,
+      "now_only_paths": 275,
+      "prior_only_paths": 0,
+      "same_path_changed_blob": 30,
+      "current_pinned_main_sha": "8ecefe06fee39f299f4006342f743a5c024eb99e",
+      "current_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/control-research-software-identity-audit.csv",
+      "delta_catalog_path": "docs/repository-inventory/2026-11-20/cross-repositories/delta-control-research-software-identity-audit.csv"
+    }
+  ],
+  "scope_limits": [
+    "source snapshots are pinned per repo but not one atomic 11-repo transaction",
+    "this counts tracked blob paths, not scientific observations, semantic validations or distinct content bodies",
+    "new-only/old-only denote endpoint tree membership, not exact change chronology or verified Git rename",
+    "historical removed file revisions and non-main Git refs are not exhaustively inventoried",
+    "CONTROL first-day-to-current reachable main history is separately enumerated at its previous pinned source, not all 11 repository histories",
+    "path-based classes do not prove file content correctness, source-body authenticity or independent adoption",
+    "the cross-repository catalog and resulting PR are excluded from their own pinned source trees",
+    "no historical source files, OSF registration, schedule, baseline or prospective data are changed"
+  ],
+  "preregistered_objects": 10,
+  "preregistered_infrastructure_layers": 6,
+  "object_layer_units_per_eligible_timepoint": 60,
+  "operational_platforms": 7,
+  "possible_checks_not_analytical_units": 70,
+  "osf_write_attempted": false,
+  "prospective_cells_added": 0,
+  "release_or_doi_created": false
+}

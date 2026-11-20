@@ -1,5 +1,9 @@
 # Documentation map and maintenance guide
 
+## 2026-11-20 all eleven repositories — complete current tracked paths
+
+[All 11 pinned source Git trees: 9,675 file paths and 11 exact Nov 6→Nov 20 per-repo delta ledgers](repository-inventory/2026-11-20/cross-repositories/README.md), with original and current path membership, exact Git blobs, byte sizes and strictly separated CONTROL role. This is a non-atomic multi-repo path-level survey and does **not** claim full body/semantic verification
+
 ## Latest: 2026-11-20 complete first-day-to-current CONTROL source tree
 
 [Exact pinned 903-file Git blob catalog, 158 reachable-main commit chronology and 83 dated monitoring event classification](repository-inventory/2026-11-20/README.md) · [November 19 source branch custody correction](repository-inventory/2026-11-20/source-branch-custody-reconciliation.md) · [November 20 bounded platform diagnostic](../monitoring/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md)
