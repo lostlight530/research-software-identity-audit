@@ -262,3 +262,13 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 - [2026-11-17 / 02-full-selftest](2026-11-17/02-full-selftest/README.md) — full 458-key source diagnostic and 11-repository pinned-SHA selftest, 451 nonfailed HTTP-200, seven retained partial/failed surfaces, matched Nov 15 deltas, 2 minimal fixed regressions and postmerge test success; 0 prospective cells
 
 - [2026-11-18 / 01-complete-identity-infrastructure-diagnostic](2026-11-18/01-complete-identity-infrastructure-diagnostic/README.md) — pinned 11-repo full selftest and matched 458-key source diagnostic; 402 source requests HTTP200/no failure, 56 failed/partial including 46 Zenodo version attempts; comparison to Nov17 retains unknown, zero prospective cells
+
+- [2026-11-19 / 01-complete-institutional-recheck](2026-11-19/01-complete-institutional-recheck/README.md) — 34 supplementary surfaces, 102 DOI keys across DataCite/OpenAIRE/OpenAlex, 67 Zenodo versions, OpenAIRE result-ID aggregation/split and OpenAlex version-to-Work reconciliation; diagnostic only, zero prospective cells
+
+
+
+- [2026-11-19 / 02-complete-institutional-recheck](2026-11-19/02-complete-institutional-recheck/README.md) — append-only 458-attempt recapture; 28/34 direct surfaces HTTP 200, 67/67 known Zenodo versions, 102 DOI keys each for DataCite/OpenAIRE/OpenAlex; zero prospective cells
+- [2026-11-19 / 03-web-assisted-surface-review](2026-11-19/03-web-assisted-surface-review/README.md) — adaptive web review of all 34 surfaces, source locators, unresolved states, OpenAIRE/OpenAlex interpretation, maintainer-supplied dashboard reconciliation and explicit counter discrepancies
+- [2026-11-19 / 04-zenodo-supplementary-inventory-reconciliation](2026-11-19/04-zenodo-supplementary-inventory-reconciliation/README.md) — resolves two previously unknown 2026-11-15 supplementary Zenodo version identities; additive 67→69 known-version inventory view, with zero prospective cells
+- [2026-11-19 / 05-targeted-surface-semantic-reconciliation](2026-11-19/05-targeted-surface-semantic-reconciliation/README.md) — eight targeted surfaces, six source-specific semantic findings and two unresolved cases; 01–03 machine entrypoint repairs, zero prospective cells
+- [2026-11-19 / evidence-path correction history](2026-11-19/03-web-assisted-surface-review/correction-history.md) — records the reused 01 evidence path, preserved Git commit identity and append-only path guard

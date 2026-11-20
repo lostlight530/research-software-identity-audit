@@ -1,0 +1,40 @@
+{
+  "record_class": "supplementary_zenodo_inventory_reconciliation_not_prospective",
+  "logical_date": "2026-11-19",
+  "logical_timezone": "Asia/Shanghai",
+  "batch_start_utc": "2026-11-18T18:36:56.430Z",
+  "batch_end_utc": "2026-11-18T18:36:57.436Z",
+  "recorded_at_utc": "2026-11-18T18:36:57.436Z",
+  "source_systems": [
+    "Zenodo",
+    "DataCite",
+    "GitHub"
+  ],
+  "source_attempt_count": 6,
+  "source_attempts_file": "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/source-attempts.jsonl",
+  "selected_fields_file": "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/selected-fields.jsonl",
+  "provenance_file": "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/provenance.json",
+  "summary_file": "monitoring/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/summary.json",
+  "evidence_references": [
+    "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/source-attempts.jsonl",
+    "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/selected-fields.jsonl",
+    "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/provenance.json",
+    "evidence/2026-11-19/04-zenodo-supplementary-inventory-reconciliation/artifact-manifest.json",
+    "monitoring/2026-11-19/03-web-assisted-surface-review/zenodo-supplementary-inventory-gap.csv"
+  ],
+  "source_response_representation": "connector-normalized selected public fields; original provider HTTP response bytes not retained",
+  "http_status_codes_exposed": false,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "contract": {
+    "fixed_objects": 10,
+    "sample": "RS01-RS10",
+    "control_is_rs11": false,
+    "preregistered_layers": 6,
+    "eligible_object_layer_units": 60,
+    "operational_platforms": 7,
+    "possible_checks_not_analytic_units": 70,
+    "osf_modified": false,
+    "schedule_modified": false
+  }
+}

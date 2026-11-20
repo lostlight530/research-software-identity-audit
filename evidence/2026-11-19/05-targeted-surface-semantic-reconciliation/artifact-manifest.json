@@ -1,0 +1,60 @@
+{
+  "record_class": "targeted_public_source_semantic_projection_not_prospective",
+  "files": [
+    {
+      "path": "evidence/2026-11-19/05-targeted-surface-semantic-reconciliation/README.md",
+      "bytes": 1237,
+      "sha256": "24a3fad014079acdefa18e433d6ea643712fb49bcab59e0bdaccf5e36497fc75"
+    },
+    {
+      "path": "evidence/2026-11-19/05-targeted-surface-semantic-reconciliation/provenance.json",
+      "bytes": 1383,
+      "sha256": "a66edf4467138e773c3b29ab40f9a051d4ab4ab590ab0fcbfff47477742f55e0"
+    },
+    {
+      "path": "evidence/2026-11-19/05-targeted-surface-semantic-reconciliation/selected-fields.jsonl",
+      "bytes": 2672,
+      "sha256": "daca0c2e1deed18cbc36e41fac9aa5222016769c0820d706e27d66687526b071"
+    },
+    {
+      "path": "evidence/2026-11-19/05-targeted-surface-semantic-reconciliation/source-attempts.jsonl",
+      "bytes": 7806,
+      "sha256": "d22dbb16bff4a4f5588c9a1308d33ca00d59c07af3653e5584daa16fc75c3415"
+    },
+    {
+      "path": "evidence/2026-11-19/05-targeted-surface-semantic-reconciliation/summary.json",
+      "bytes": 1551,
+      "sha256": "d4121be933e79dde8e7c8ed98b14f656253fda72d477b0e9e3b4fb6f3ef5da34"
+    },
+    {
+      "path": "monitoring/2026-11-19/05-targeted-surface-semantic-reconciliation/README.md",
+      "bytes": 1974,
+      "sha256": "b88f931b8ff653bab05e98cffeb68ca5b16b39f5bb832cc42c966a46361ef88a"
+    },
+    {
+      "path": "monitoring/2026-11-19/05-targeted-surface-semantic-reconciliation/record.json",
+      "bytes": 1545,
+      "sha256": "bb66d9850af2ffc655236c80bb0d3f4a3fa78459dd13fcac6c7b54e2ce7cd486"
+    },
+    {
+      "path": "monitoring/2026-11-19/05-targeted-surface-semantic-reconciliation/semantic-matrix.csv",
+      "bytes": 1495,
+      "sha256": "78e028e49c0ad1d04ac8d999b058581e3d99e7d710de07b1389b6b2574a50691"
+    },
+    {
+      "path": "monitoring/2026-11-19/05-targeted-surface-semantic-reconciliation/summary.json",
+      "bytes": 1551,
+      "sha256": "d4121be933e79dde8e7c8ed98b14f656253fda72d477b0e9e3b4fb6f3ef5da34"
+    },
+    {
+      "path": "evidence/2026-11-19/05-targeted-surface-semantic-reconciliation/sha256-manifest.txt",
+      "bytes": 337,
+      "sha256": "04aeec382d0405dbba3f91d6b79122227c19a22a7a52cb7fa20385b2f6440843"
+    },
+    {
+      "path": "evidence/2026-11-19/05-targeted-surface-semantic-reconciliation/file-sha256-manifest.txt",
+      "bytes": 499,
+      "sha256": "ca3ba663c65d2acfdb730646219c64f6d40c598516b31ef35763e3f91b9bcfdf"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "record_class": "maintainer_supplied_dashboard_observation_not_provider_raw_capture",
+  "received_logical_date": "2026-11-19",
+  "exact_capture_timestamp_utc": null,
+  "workflowhub_team_dashboard": {
+    "period": "since team creation",
+    "most_viewed_assets": [
+      {
+        "asset": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+        "views": 4495
+      },
+      {
+        "asset": "NEXUS CORTEX Life Cycle — welcome-to-github",
+        "views": 4028
+      },
+      {
+        "asset": "Life Science Knowledge Workflow",
+        "views": 1926
+      },
+      {
+        "asset": "Brain Evolution — welcome-to-github",
+        "views": 1650
+      }
+    ],
+    "most_downloaded_assets": [
+      {
+        "asset": "NEXUS CORTEX Life Cycle — zero-entropy-lab",
+        "downloads": 591
+      },
+      {
+        "asset": "NEXUS CORTEX Life Cycle — welcome-to-github",
+        "downloads": 584
+      },
+      {
+        "asset": "Life Science Knowledge Workflow",
+        "downloads": 242
+      },
+      {
+        "asset": "Brain Evolution — welcome-to-github",
+        "downloads": 114
+      }
+    ]
+  },
+  "zenodo_12_record_page_metrics": {
+    "metric_scope": "page-level counters supplied by maintainer; not the 67 version-API cohort",
+    "records": [
+      {
+        "record": "welcome-to-github",
+        "views": 373,
+        "downloads": 8
+      },
+      {
+        "record": "Axiom-0",
+        "views": 359,
+        "downloads": 4
+      },
+      {
+        "record": "agent-foundations",
+        "views": 342,
+        "downloads": 4
+      },
+      {
+        "record": "china-agentic-observatory",
+        "views": 336,
+        "downloads": 3
+      },
+      {
+        "record": "agentic-frontier-observatory",
+        "views": 332,
+        "downloads": 4
+      },
+      {
+        "record": "epistemic-pipeline",
+        "views": 328,
+        "downloads": 5
+      },
+      {
+        "record": "zero-entropy-lab",
+        "views": 319,
+        "downloads": 5
+      },
+      {
+        "record": "auto-doc-engine",
+        "views": 299,
+        "downloads": 2
+      },
+      {
+        "record": "sci-render-kit",
+        "views": 295,
+        "downloads": 4
+      },
+      {
+        "record": "reflective-continuum",
+        "views": 279,
+        "downloads": 4
+      },
+      {
+        "record": "research-software-identity-audit 2026-11-15",
+        "views": 199,
+        "downloads": 7
+      },
+      {
+        "record": "life-science-ecosystem-lab v0.5.1 2026-11-15",
+        "views": 28,
+        "downloads": 6
+      }
+    ],
+    "reported_totals": {
+      "views": 3589,
+      "downloads": 56
+    },
+    "recomputed_row_totals": {
+      "views": 3489,
+      "downloads": 56
+    },
+    "discrepancy": {
+      "views": 100,
+      "downloads": 0
+    },
+    "disposition": "VIEWS_TOTAL_CONFLICT_UNRESOLVED; do not silently overwrite either supplied total or row values"
+  },
+  "datacite_commons_orcid_facets": {
+    "orcid": "0009-0001-3617-0832",
+    "publication_year": 2026,
+    "registration_agency": "DataCite",
+    "total_records": 105,
+    "work_type": {
+      "Software": 80,
+      "Workflow": 21,
+      "Project": 2,
+      "Study Registration": 2
+    },
+    "repository": {
+      "Zenodo": 80,
+      "WorkflowHub": 21,
+      "Open Science Framework": 4
+    },
+    "license": {
+      "MIT": 80,
+      "CC-BY-4.0": 4,
+      "not_in_supplied_license_facets": 21
+    },
+    "note": "Facet totals are a Commons ORCID-filtered scope; they are not the fixed 102 DOI-key inventory",
+    "license_note": "The supplied facets list MIT 80 and CC-BY-4.0 4 only; the remaining 21 records' license values are not inferable from the pasted facets."
+  },
+  "maintainer_statements": {
+    "openaire": "12 repository families; generally one aggregation and one split, some with two splits",
+    "openalex": "34 Work IDs; WorkflowHub versions 8 and 9 are separately represented",
+    "datacite_orcid": "No material change reported by maintainer"
+  },
+  "comparison_caveats": [
+    "WorkflowHub team-dashboard asset counters differ in scope from individual workflow version counters",
+    "Zenodo 12 page-level counters are not interchangeable with the 60 fixed-ten version-specific API counters",
+    "DataCite Commons 105 is not the same query cohort as the 102 fixed DOI keys",
+    "No source capture timestamp was supplied for these dashboard snippets"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "record_class": "late_machine_entrypoint_reconciliation_not_new_capture",
+  "logical_date": "2026-11-19",
+  "logical_timezone": "Asia/Shanghai",
+  "entrypoint_created_at_utc": "2026-11-19T00:38:51.244Z",
+  "original_run_id": 44356891292,
+  "source_start_utc": "2026-11-18T17:17:02.782970+00:00",
+  "source_end_utc": "2026-11-18T17:18:09.923285+00:00",
+  "source_attempt_count": 458,
+  "source_ledger_sha256": "3533de5328d954d1650e01dccfedf084b84a6e9bcdc559973f1ed9e97794877d",
+  "evidence_provenance_path": "evidence/2026-11-19/02-complete-institutional-recheck/provenance.json",
+  "source_summary_path": "monitoring/2026-11-19/02-complete-institutional-recheck/summary.json",
+  "correction_history_path": "monitoring/2026-11-19/03-web-assisted-surface-review/correction-history.md",
+  "correction_note": "02 is the final append-only recheck; adding this entrypoint does not recapture or redate source evidence",
+  "original_source_files_modified": false,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "osf_write_attempted": false,
+  "fixed_corpus": "RS01-RS10",
+  "control_is_rs11": false,
+  "preregistered_layers": 6,
+  "analytical_units_per_eligible_timepoint": 60
+}
