@@ -1,0 +1,59 @@
+{
+  "record_class": "targeted_surface_semantic_reconciliation_not_prospective",
+  "created_at_utc": "2026-11-19T00:40:20.962Z",
+  "total_source_attempts": 9,
+  "unique_surfaces": 8,
+  "semantic_positive_surfaces": 6,
+  "still_unresolved_surfaces": 2,
+  "positive_results": [
+    {
+      "surface": "bio.tools",
+      "state": "EXACT_TOOL_RECORD_MATCH"
+    },
+    {
+      "surface": "OpenEBench",
+      "state": "EXACT_MONITOR_TOOL_METADATA_MATCH"
+    },
+    {
+      "surface": "Handle DOI resolver",
+      "state": "HANDLE_URL_MAPPING_VERIFIED"
+    },
+    {
+      "surface": "Crossref Agency",
+      "state": "DOI_REGISTRATION_AGENCY_IDENTIFIED"
+    },
+    {
+      "surface": "CiteAs",
+      "state": "CITATION_METADATA_RECORD_MATCH"
+    },
+    {
+      "surface": "EDAM",
+      "state": "EDAM_ONTOLOGY_RETRIEVED"
+    }
+  ],
+  "unresolved": [
+    {
+      "surface": "InterLex",
+      "identifier": "ilx_0381348",
+      "state": "UNKNOWN",
+      "reason": "term-page shell; canonical URI crawl 520"
+    },
+    {
+      "surface": "HAL",
+      "identifier": "hal-05780132v1",
+      "state": "UNKNOWN",
+      "reason": "prior HTTP404 plus timed-out and overencoded alternate attempt; corrected retry also timed out"
+    }
+  ],
+  "excluded_claims": [
+    "institutional endorsement",
+    "independent adoption",
+    "benchmark execution",
+    "citation uptake",
+    "InterLex/HAL absence"
+  ],
+  "original_458_requests_modified": false,
+  "zenodo_100_views_discrepancy_resolved": false,
+  "preregistered_sample": "RS01-RS10",
+  "new_prospective_cells": 0
+}

@@ -1,0 +1,39 @@
+{
+  "record_class": "supplementary_source_reconciliation_provenance_not_prospective",
+  "logical_date_asia_shanghai": "2026-11-19",
+  "recorded_at_utc": "2026-11-18T18:36:57.436Z",
+  "retrieval_window_utc": {
+    "start": "2026-11-18T18:36:56.430Z",
+    "end": "2026-11-18T18:36:57.436Z"
+  },
+  "retrieval_methods": [
+    "Exa web_fetch_exa for Zenodo Records API and DataCite exact DOI search API",
+    "GitHub connector read-only fetch for GitHub Releases API"
+  ],
+  "response_representation": "connector-returned normalized text parsed into minimized selected public fields",
+  "original_provider_response_bytes_retained": false,
+  "authorization_headers_retained": false,
+  "http_status_codes_exposed_by_retrieval_connectors": false,
+  "source_attempts_file": "source-attempts.jsonl",
+  "selected_fields_file": "selected-fields.jsonl",
+  "summary_file": "summary.json",
+  "sources": [
+    {
+      "repository": "research-software-identity-audit",
+      "role": "CONTROL_NOT_RS11",
+      "github_release_api": "https://api.github.com/repos/lostlight530/research-software-identity-audit/releases/tags/v2026.11-nov15-identity-reconciliation",
+      "zenodo_record_api": "https://zenodo.org/api/records/24249720",
+      "datacite_exact_doi_query": "https://api.datacite.org/dois?query=doi%3A10.5281%2Fzenodo.24249720&fields%5Bdois%5D=doi%2Cversion%2CrelatedIdentifiers%2Cregistered%2Cstate&page%5Bsize%5D=5"
+    },
+    {
+      "repository": "life-science-ecosystem-lab",
+      "role": "SUPPLEMENTARY_NOT_SAMPLE",
+      "github_release_api": "https://api.github.com/repos/lostlight530/life-science-ecosystem-lab/releases/tags/v0.5.1",
+      "zenodo_record_api": "https://zenodo.org/api/records/24249719",
+      "datacite_exact_doi_query": "https://api.datacite.org/dois?query=doi%3A10.5281%2Fzenodo.24249719&fields%5Bdois%5D=doi%2Cversion%2CrelatedIdentifiers%2Cregistered%2Cstate&page%5Bsize%5D=5"
+    }
+  ],
+  "interpretation_boundary": "The records were published before this reconciliation. This retrieval resolves previously unknown canonical identifiers; it does not create a new release, DOI, study object, observation timepoint, or prospective cell.",
+  "osf_write_attempted": false,
+  "new_prospective_cells": 0
+}

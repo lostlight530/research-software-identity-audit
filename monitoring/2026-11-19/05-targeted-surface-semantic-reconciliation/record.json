@@ -1,0 +1,35 @@
+{
+  "record_class": "targeted_surface_semantic_reconciliation_not_prospective",
+  "logical_date": "2026-11-19",
+  "logical_timezone": "Asia/Shanghai",
+  "created_at_utc": "2026-11-19T00:40:20.962Z",
+  "source_attempt_count": 9,
+  "distinct_surface_count": 8,
+  "positive_semantic_surface_count": 6,
+  "unresolved_surface_count": 2,
+  "source_attempts_path": "evidence/2026-11-19/05-targeted-surface-semantic-reconciliation/source-attempts.jsonl",
+  "selected_fields_path": "evidence/2026-11-19/05-targeted-surface-semantic-reconciliation/selected-fields.jsonl",
+  "source_provenance_path": "evidence/2026-11-19/05-targeted-surface-semantic-reconciliation/provenance.json",
+  "summary_path": "monitoring/2026-11-19/05-targeted-surface-semantic-reconciliation/summary.json",
+  "original_458_attempt_run_id": 44356891292,
+  "original_458_attempt_ledger_sha256": "3533de5328d954d1650e01dccfedf084b84a6e9bcdc559973f1ed9e97794877d",
+  "source_capture_windows_utc": {
+    "exa_batch": {
+      "start": "2026-11-19T00:24:15.744Z",
+      "end": "2026-11-19T00:24:24.953Z"
+    },
+    "edam_actions": {
+      "start": "2026-11-19T00:29:11.255325+00:00",
+      "end": "2026-11-19T00:29:13.048377+00:00"
+    }
+  },
+  "original_source_files_modified": false,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "osf_write_attempted": false,
+  "fixed_corpus": "RS01-RS10",
+  "control_is_rs11": false,
+  "preregistered_layers": 6,
+  "units_per_eligible_timepoint": 60,
+  "supplementary_operational_surfaces_not_preregistered_units": true
+}

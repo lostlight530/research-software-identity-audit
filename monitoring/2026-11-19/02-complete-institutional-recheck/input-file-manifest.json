@@ -1,0 +1,22 @@
+[
+  {
+    "path": "selected-fields.jsonl",
+    "sha256": "d9b2e0c2627187fddcd14c742123902149235085e57f28a0f7e2594e41d8250f",
+    "bytes": 216253
+  },
+  {
+    "path": "sha256-manifest.txt",
+    "sha256": "1a7062d1436f44fbe91c1cdd6f23b4b0b05e5658aa18c972293153550e36319c",
+    "bytes": 255
+  },
+  {
+    "path": "source-attempts.jsonl",
+    "sha256": "3533de5328d954d1650e01dccfedf084b84a6e9bcdc559973f1ed9e97794877d",
+    "bytes": 388049
+  },
+  {
+    "path": "summary.json",
+    "sha256": "8d52b285c274cb9143d5b4febbb8d2e4d4d4aa3bef160118704787f6550ee1a0",
+    "bytes": 3853
+  }
+]
