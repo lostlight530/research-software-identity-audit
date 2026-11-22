@@ -1,0 +1,185 @@
+{
+  "record_class": "diagnostic_periodic_recheck_not_preregistered_prospective",
+  "logical_date_asia_shanghai": "2026-11-22",
+  "compiled_at_utc": "2026-11-22T15:05:30.872Z",
+  "frozen_contract": {
+    "corpus": "RS01-RS10",
+    "control_is_rs11": false,
+    "layers": 6,
+    "units_per_eligible_scheduled_timepoint": 60,
+    "operational_platforms": 7,
+    "platform_checks_not_units": 70,
+    "schedule_declared_concrete_offsets": false,
+    "prospective_cells_added": 0,
+    "osf_registration_write": false
+  },
+  "comparison": {
+    "prior_monitoring": "monitoring/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/summary.json",
+    "older_broad_comparator": "monitoring/2026-11-19/02-complete-institutional-recheck/summary.json",
+    "comparison_rule": "exact same-version counters only; do not compare 2026-11-20 partial source methods to 2026-11-19 full cohort"
+  },
+  "github": {
+    "main_checked": 11,
+    "main_head_changed_from_nov20": 11,
+    "release_queries": 11,
+    "rs01_rs10_new_nov20_release_tag_count": 10,
+    "open_pr_checked": 11,
+    "current_open_pr_total": 0,
+    "previously_open_epistemic_261_now_merged": true
+  },
+  "zenodo": {
+    "old_same_key_version_requests": 60,
+    "old_same_key_exact_comparable": 60,
+    "views_old": 4281,
+    "views_now": 4397,
+    "views_delta": 116,
+    "downloads_old": 45,
+    "downloads_now": 51,
+    "downloads_delta": 6,
+    "new_nov20_version_requests": 10,
+    "new_exact_published_version_records": 10,
+    "new_version_views": 12,
+    "new_version_downloads": 11,
+    "current_observed_70_version_view_sum": 4409,
+    "current_observed_70_version_download_sum": 62,
+    "counter_semantics": "per-version stats.version_views/version_downloads, do not mix attached-family counters"
+  },
+  "datacite": {
+    "new_doi_checks": 10,
+    "exact_identity_findable": 10
+  },
+  "openaire": {
+    "new_doi_query_count": 10,
+    "parsed_query_positive": 10,
+    "distinct_record_aggregation_not_independently_established": true
+  },
+  "openalex": {
+    "exact_new_doi_census_completed": false,
+    "state": "UNKNOWN_OR_BLOCKED",
+    "reason": "Exa access unavailable and Parallel free-tier rate-limited; not absence evidence"
+  },
+  "orcid": {
+    "structured_live_groups_count": null,
+    "state": "PARTIAL",
+    "reason": "third-party normalized works extract not sufficient for trustworthy grouped count"
+  },
+  "software_heritage": {
+    "origin_attempts": 10,
+    "extracted_document_or_page": 3,
+    "connector_errors": 7,
+    "live_structured_visits_confirmed": 0
+  },
+  "supplementary_34": {
+    "attempts": 34,
+    "connector_content_returned": 26,
+    "connector_errors": 8,
+    "verified_provider_http_status_count": null
+  },
+  "rsd": {
+    "software_project_person_public_page_attempts": 13,
+    "connector_content_returned": 13
+  },
+  "public_interactions": {
+    "rsd_1870": {
+      "state": "closed",
+      "merged": null,
+      "closed_at_utc": "2026-10-16T12:11:19Z"
+    },
+    "rsd_1871": {
+      "state": "closed",
+      "merged": null,
+      "closed_at_utc": "2026-11-16T14:13:33Z"
+    },
+    "rse_498": {
+      "state": "open",
+      "merged": false,
+      "closed_at_utc": null
+    },
+    "epistemic_261": {
+      "state": "closed",
+      "merged": true,
+      "closed_at_utc": "2026-11-20T02:22:51Z"
+    }
+  },
+  "osf": {
+    "registration": "5b329",
+    "public_accepted_seen_in_bounded_independent_read": true,
+    "later_34_surface_attempt_error": "CRAWL_HTTP_500",
+    "original_vs_approved_revision_previously_reconciled": true,
+    "workspace_transition_announced": {
+      "new_project_creation_disallowed_after": "2026-11-16",
+      "associated_projects_read_only_from": "2027-02-19",
+      "registrations_unaffected": true,
+      "source": "https://help.osf.io/article/727-osf-projects-transition"
+    }
+  },
+  "test_status": "NOT_EXECUTED_LOCALLY_NO_NETWORK_CLONE",
+  "external_provider_original_bytes_retained": false,
+  "evidence": [
+    {
+      "path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/supplementary-source-attempts.jsonl",
+      "git_blob_sha": "539a3b90a67efa87140d5972ddfeb965c6df4980",
+      "rows": 34
+    },
+    {
+      "path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/zenodo-latest-ten.jsonl",
+      "git_blob_sha": "7db7a1c978812373402b9cce66bd8c637a50cbaf",
+      "rows": 10
+    },
+    {
+      "path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/zenodo-60-same-version-attempts.jsonl",
+      "git_blob_sha": "6ed77996eadb3cb7d034c9d0bee6f3cc4edf6368",
+      "rows": 60
+    },
+    {
+      "path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/datacite-ten-new-doi.jsonl",
+      "git_blob_sha": "f1d0fa4519a81a1d8f710418db4613c8e9ec0718",
+      "rows": 10
+    },
+    {
+      "path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/openaire-ten-new-doi.jsonl",
+      "git_blob_sha": "d2c4b2722700be740849c44842311c038589a561",
+      "rows": 10
+    },
+    {
+      "path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/github-main-11.jsonl",
+      "git_blob_sha": "5a8face65cb4ec50c69fc116d96d4cfb2c448c39",
+      "rows": 11
+    },
+    {
+      "path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/github-latest-releases-11.jsonl",
+      "git_blob_sha": "96090f351bb2b90940487459a84af8eed49fa38b",
+      "rows": 11
+    },
+    {
+      "path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/github-open-prs-11.jsonl",
+      "git_blob_sha": "b0e8bee1458e462d2024129e81e3146c2360496b",
+      "rows": 11
+    },
+    {
+      "path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/rsd-11-software-project-person.jsonl",
+      "git_blob_sha": "c1f2227b2c7b551a37ce786e6f8f7a6df60551db",
+      "rows": 13
+    },
+    {
+      "path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/swh-ten-origin-probes.jsonl",
+      "git_blob_sha": "21bb0cf171f5a89ac5e376ced5e10851a6d1facd",
+      "rows": 10
+    },
+    {
+      "path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/public-interactions.jsonl",
+      "git_blob_sha": "cc265af6995dc23dbcda4b761e8c43cc4ff06aec",
+      "rows": 4
+    }
+  ],
+  "limits": [
+    "third-party extractor output is not provider origin HTTP response body",
+    "batch clocks are not origin first-index timestamps",
+    "no provider raw status reliably supplied by Exa",
+    "OpenAIRE query positivity is not ten distinct scholarly software objects",
+    "34 supplementary URLs include standards/homepages; appearance is not adoption",
+    "SWH returned HTML API documentation not structured direct provider JSON",
+    "release cohort after Nov20 early capture does not override earlier eligible event or missing operational schedule"
+  ],
+  "disposition": "DIAGNOSTIC_REAL_RELEASE_AND_DOI_CHANGE_WITH_PARTIAL_DISCOVERY_AND_NO_PROSPECTIVE_CELLS"
+}
