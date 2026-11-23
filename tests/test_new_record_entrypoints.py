@@ -108,17 +108,17 @@ class GitEntrypointCLITests(unittest.TestCase):
             git("config", "user.email", "fixture@example.invalid")
             (root / "monitoring").mkdir()
             (root / "evidence").mkdir()
-            (root / "monitoring/README.md").write_text("# Monitoring\\n", encoding="utf-8")
-            (root / "evidence/README.md").write_text("# Evidence\\n", encoding="utf-8")
+            (root / "monitoring/README.md").write_text("# Monitoring\n", encoding="utf-8")
+            (root / "evidence/README.md").write_text("# Evidence\n", encoding="utf-8")
             git("add", ".")
             git("commit", "-qm", "fixture base")
             base_sha = git("rev-parse", "HEAD")
 
             (root / M).mkdir(parents=True)
             (root / E).mkdir(parents=True)
-            (root / (M + "README.md")).write_text("# New event\\n", encoding="utf-8")
-            (root / (M + "record.json")).write_text("{}\\n", encoding="utf-8")
-            (root / (E + "source.jsonl")).write_text("{}\\n", encoding="utf-8")
+            (root / (M + "README.md")).write_text("# New event\n", encoding="utf-8")
+            (root / (M + "record.json")).write_text("{}\n", encoding="utf-8")
+            (root / (E + "source.jsonl")).write_text("{}\n", encoding="utf-8")
             git("add", ".")
             command = [
                 sys.executable, "-B", str(script),
@@ -128,7 +128,7 @@ class GitEntrypointCLITests(unittest.TestCase):
             self.assertEqual(failed.returncode, 1, failed.stderr)
             self.assertEqual(json.loads(failed.stdout)["failed"], 2)
 
-            (root / (E + "README.md")).write_text("# Evidence event\\n", encoding="utf-8")
+            (root / (E + "README.md")).write_text("# Evidence event\n", encoding="utf-8")
             (root / "monitoring/README.md").write_text(INDEX, encoding="utf-8")
             git("add", ".")
             passed = subprocess.run(command, capture_output=True, text=True)
