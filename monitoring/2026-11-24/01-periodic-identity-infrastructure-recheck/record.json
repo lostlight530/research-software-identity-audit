@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "record_class": "diagnostic_not_prospective",
+  "logical_date": "2026-11-24",
+  "timezone": "Asia/Shanghai",
+  "compiled_at_utc": "2026-11-23T16:26:48.299Z",
+  "source_record": "monitoring/2026-11-24/01-periodic-identity-infrastructure-recheck/summary.json",
+  "evidence_root": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/",
+  "original_comparator": "monitoring/2026-11-22/01-periodic-identity-infrastructure-recheck/summary.json",
+  "source_control_main_at_capture": "cd816f00d0ad515e03e52c8042f7a0c2319dcdcc",
+  "fixed_sample": "RS01-RS10",
+  "control_is_rs11": false,
+  "preregistered_layers": 6,
+  "units_per_eligible_scheduled_timepoint": 60,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "amends_osf": false,
+  "adds_release_or_doi": false,
+  "source_http_bytes_not_retained": true,
+  "correction_history_preserved": true
+}
