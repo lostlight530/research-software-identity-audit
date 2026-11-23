@@ -1,0 +1,32 @@
+{
+  "record_class": "retrospective_entrypoint_correction_not_new_capture",
+  "logical_date": "2026-11-22",
+  "logical_timezone": "Asia/Shanghai",
+  "entrypoint_added_at_utc": "2026-11-23T02:42:26.055Z",
+  "source_compiled_at_utc": "2026-11-22T15:05:30.872Z",
+  "source_head_at_capture": "794dd6bc4af235b51871bc5b0bf51d1f73e10d87",
+  "source_summary_path": "monitoring/2026-11-22/01-periodic-identity-infrastructure-recheck/summary.json",
+  "source_report_path": "monitoring/2026-11-22/01-periodic-identity-infrastructure-recheck/README.md",
+  "evidence_companion_path": "evidence/2026-11-22/01-periodic-identity-infrastructure-recheck/README.md",
+  "correction": {
+    "reason": "Nov22 append-only package lacked required monitoring record, evidence README, and monitoring index entry; prior advisory CI stayed green while path checker failed 3 checks",
+    "source_ci_run": "https://github.com/lostlight530/research-software-identity-audit/actions/runs/45036674186",
+    "source_main_merge_commit": "579c958308d9fc9aec30747c14e71f97c569429e",
+    "correction_type": "add_metadata_entrypoints_and_navigation_only",
+    "original_source_attempts_unchanged": true,
+    "origin_retrieval_times_not_reconstructed": true,
+    "original_http_bytes_not_added": true
+  },
+  "source_ledger_file_count": 11,
+  "source_ledger_scope": "184 source-ledger rows across overlapping query groups; not 184 unique URLs, DOI identities, or preregistered cells",
+  "fixed_corpus": "RS01-RS10",
+  "control_is_rs11": false,
+  "preregistered_layers": 6,
+  "analytical_units_per_eligible_scheduled_timepoint": 60,
+  "operational_platforms": 7,
+  "possible_object_platform_checks_not_units": 70,
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "osf_write_attempted": false,
+  "release_or_doi_created_by_correction": false
+}
