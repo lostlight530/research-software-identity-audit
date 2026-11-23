@@ -233,3 +233,34 @@ Run offline regressions with:
 ```bash
 python -m unittest discover -s tests -p 'test_public_source_semantics.py' -v
 ```
+
+## Narrow pull-request guard for newly introduced dated record envelopes
+
+`tools/check_new_record_entrypoints.py` prevents a repeat of the November 22
+entrypoint omission: for a **new** `monitoring/YYYY-MM-DD/NN-event/` package it
+checks `README.md`, exactly one `record.json` or `record.yaml`, and a
+`monitoring/README.md` index reference. A **new**
+`evidence/YYYY-MM-DD/NN-event/` companion must have `README.md` and a
+matching monitoring event. Pre-existing event directories are intentionally
+excluded from this narrow PR-only gate, so historical baseline repair and
+scientific evidence consistency remain covered by the existing *advisory*
+checkers, not silently converted into strict enforcement.
+
+The GitHub Actions PR job compares tracked paths at the immutable PR base SHA
+against the candidate checkout with a two-commit shallow checkout; no API
+calls, provider fetches, schedule declarations, releases, or observations are
+performed by the checker. The unit tests run on PR and main push; the new-event
+structural check blocks only PRs that introduce an incomplete dated package.
+It does not attest JSON/YAML scientific semantics, origin HTTP response
+authenticity, or the prospective execution schedule.
+
+Reproduce with Python 3.12 in a checkout where the base SHA is available:
+
+```bash
+python -B -m unittest discover -s tests -p 'test_new_record_entrypoints.py' -v
+python -B tools/check_new_record_entrypoints.py --base <40-character-pr-base-commit-sha>
+```
+
+A green workflow remains insufficient evidence of successful *advisory*
+checks: inspect the workflow's advisory outcome table and actual checker
+results separately.
