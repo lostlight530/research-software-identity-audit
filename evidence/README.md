@@ -67,3 +67,7 @@ The independently extracted 32-version table is retained under [monitoring/2026-
 ## November 20 first-day-to-current infrastructure evidence
 
 - [2026-11-20 / 01-firstday-to-current-infrastructure-diagnostic](2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md) — scoped 160 source attempt records with batch retrieval windows and selected public fields; provider HTTP original bodies not retained; 60 fixed-sample Zenodo versions independently identified in current records
+
+## November 22 periodic diagnostic evidence and entrypoint reconciliation
+
+- [2026-11-22 / 01-periodic-identity-infrastructure-recheck](2026-11-22/01-periodic-identity-infrastructure-recheck/README.md) — 11 retained public-source JSONL ledgers with original connector batch UTC bounds, selected provider fields, explicit unknowns, and Git blob source identities; the documentation entrypoint was added after [PR #136](https://github.com/lostlight530/research-software-identity-audit/pull/136) because the prior advisory path checker reported a missing evidence README; historical source JSONL files were not changed
