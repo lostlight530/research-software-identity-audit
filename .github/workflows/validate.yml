@@ -17,10 +17,21 @@ jobs:
         uses: actions/checkout@v7.0.1
         with:
           persist-credentials: false
+          # PR merge ref plus its base parent, for offline comparison of new paths.
+          fetch-depth: 2
       - name: Set up Python
         uses: actions/setup-python@v7.1.0
         with:
           python-version: "3.12"
+      # Block only missing navigation/record envelopes for newly added
+      # dated events. Historical packages and research semantics remain advisory.
+      - name: Test narrow new-record entrypoint guard
+        run: python -B -m unittest discover -s tests -p "test_new_record_entrypoints.py" -v
+      - name: Guard new dated record entrypoints (PR only)
+        if: github.event_name == 'pull_request'
+        env:
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python -B tools/check_new_record_entrypoints.py --base "$PR_BASE_SHA"
       - name: Run advisory contract checker
         run: python tools/check.py --mode advisory
       - name: Strict contract validation (advisory)
