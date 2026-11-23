@@ -1,0 +1,150 @@
+{
+  "record_class": "diagnostic_periodic_identity_infrastructure_recheck_not_preregistered_prospective",
+  "logical_date_asia_shanghai": "2026-11-24",
+  "compiled_at_utc": "2026-11-23T16:26:48.299Z",
+  "source_capture_window_utc": [
+    "2026-11-23T16:13:17.652Z",
+    "2026-11-23T16:24:26.422Z"
+  ],
+  "original_osf_registration": "https://osf.io/5b329/overview",
+  "original_schema_response_id": "6ac3ae5e6da32e3d0576ed72",
+  "subsequent_approved_response_id": "6ac4c12fed97b8b77ce88a9c",
+  "osf_write": false,
+  "contract_modified": false,
+  "formal_prospective_cells_added": 0,
+  "operational_schedule_offsets_declared": false,
+  "fixed_corpus": "RS01-RS10",
+  "control_repo_not_rs11": true,
+  "preregistered_layers": 6,
+  "planned_object_layer_units_per_eligible_timepoint": 60,
+  "operational_platforms": 7,
+  "potential_object_platform_checks_not_statistical_units": 70,
+  "previous_comparator": "monitoring/2026-11-22/01-periodic-identity-infrastructure-recheck/summary.json",
+  "non_equivalent_full_cohort_comparator": "monitoring/2026-11-19/02-complete-institutional-recheck/summary.json",
+  "github": {
+    "main_heads_checked": 11,
+    "changed_heads_from_nov22": 11,
+    "open_prs_checked": 11,
+    "open_pr_total": 0,
+    "new_published_releases_since_nov22": 0,
+    "latest_fixed_corpus_tag": "v2026.11-twenty-day-evidence-checkpoint",
+    "control_latest_tag": "v2026.11-nov15-identity-reconciliation"
+  },
+  "zenodo": {
+    "scope": "the exact same 70 version-record IDs observed 2026-11-22, not preregistered cells",
+    "exact_id_and_doi_matches": 70,
+    "previous_version_views_sum": 4409,
+    "current_version_views_sum": 4464,
+    "delta_version_views": 55,
+    "previous_version_downloads_sum": 62,
+    "current_version_downloads_sum": 62,
+    "delta_version_downloads": 0,
+    "old_60_prior_views": 4397,
+    "old_60_current_views": 4447,
+    "new_10_prior_views": 12,
+    "new_10_current_views": 17,
+    "unique_visitors_not_calculated": true
+  },
+  "datacite": {
+    "same_new_nov20_doi_keys": 10,
+    "exact_doi_matched": 10,
+    "findable": 10,
+    "observed_new_doi_this_run": 0
+  },
+  "openaire": {
+    "same_new_nov20_doi_query_attempts": 10,
+    "current": "UNKNOWN_CONNECTOR_TIMEOUT",
+    "prior_2026_11_22": "QUERY_POSITIVE_10",
+    "absence_inferred": false
+  },
+  "openalex": {
+    "new_version_exact_doi_probe": "UNKNOWN_SOURCE_NOT_AVAILABLE",
+    "author_surface": "CONNECTOR_ERROR",
+    "no_absence_inference": true
+  },
+  "orcid": {
+    "public_works_content_returned": true,
+    "current_structured_work_groups": null,
+    "current_structured_summary_count": null,
+    "state": "PARTIAL"
+  },
+  "software_heritage": {
+    "origin_attempts": 10,
+    "documentation_or_example_extractions": 3,
+    "connector_errors": 7,
+    "live_structured_visits_verified": 0,
+    "state": "PARTIAL_UNKNOWN"
+  },
+  "supplementary_34": {
+    "source_locator_attempts": 34,
+    "connector_content_returned": 26,
+    "connector_errors": 8,
+    "transport_state_changed_surfaces": [
+      "OSF Registries",
+      "OpenAIRE"
+    ],
+    "provider_http_statuses_verified": 0,
+    "software_adoption_inferred": false
+  },
+  "openebench": {
+    "previous_api_timestamp": "2026-11-21T23:09:15.895324023Z",
+    "current_api_timestamp": "2026-11-22T23:08:32.784636089Z",
+    "description_changed": false,
+    "credits_length": 0,
+    "publications_length": 0,
+    "repositories_length": 0,
+    "synchronization_execution_proven": false
+  },
+  "external_interactions": {
+    "rsd_1870": "closed_unchanged",
+    "rsd_1871": "closed_unchanged",
+    "rse_498": "open_unmerged_unchanged",
+    "rs07_261": "merged_unchanged"
+  },
+  "osf_workspace_policy": {
+    "projects_no_new_creation_after": "2026-11-16",
+    "projects_read_only_from": "2027-02-19",
+    "registrations_unaffected": true,
+    "project_wa5v8_material_migration_need": "UNKNOWN",
+    "source": "https://help.osf.io/article/727-osf-projects-transition"
+  },
+  "evidence": [
+    {
+      "path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/zenodo-70-version-rows.jsonl",
+      "rows": 70,
+      "git_blob_sha": "6d5970ec8fd0247891ca8adcf8924ed210a0a96e"
+    },
+    {
+      "path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/supplementary-34-source-attempts.jsonl",
+      "rows": 34,
+      "git_blob_sha": "e396920089f09586cc9ce1615b1a2fe1ddae5259"
+    },
+    {
+      "path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/github-11-main-pr-release.jsonl",
+      "rows": 11,
+      "git_blob_sha": "12da0ebe6d6526bf784e5880ade853c3292ee70d"
+    },
+    {
+      "path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/datacite-ten-doi.jsonl",
+      "rows": 10,
+      "git_blob_sha": "1592c4a81c28fce0039bcf32c737bdc06780c583"
+    },
+    {
+      "path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/partial-platforms-and-public-interactions.jsonl",
+      "rows": 26,
+      "git_blob_sha": "ce69839a0ac0b5163d67fef93c4e28ec07592046"
+    }
+  ],
+  "provenance_limitations": [
+    "Public provider data passed through connector/extractor; provider origin HTTP body bytes and independent HTTP status receipts are not retained",
+    "Connector batch timestamps are not the provider's first publication, indexing, or ingestion time",
+    "OpenAIRE and OpenAlex connector errors do not establish discovery absence",
+    "SWH documentation examples are not real structured visit receipts",
+    "Platform/surface attempt rows overlap and are not unique scientific objects or research cells",
+    "Version views are not unique people or evidence of adoption"
+  ],
+  "verified_code_defect_found": false,
+  "code_correction_required": false,
+  "new_release_or_doi_minted": false,
+  "disposition": "RECORD_REAL_GITHUB_AND_ZENODO_COUNTER_CHANGE_KEEP_PARTIAL_AND_UNKNOWN_NO_CODE_CORRECTION_NO_PROSPECTIVE_DATASET_START"
+}
