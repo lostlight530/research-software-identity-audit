@@ -120,7 +120,7 @@ def validate(root: Path = ROOT) -> dict:
     desc = (study / "public-project-description.md").read_text(encoding="utf-8").rstrip("\n")
     need(desc == EXPECTED_DESCRIPTION, "AUHJF Project Description mirror differs from owner-confirmed text")
     entry = (study / "README.md").read_text(encoding="utf-8")
-    need("not the current VSHWK protocol authority" in entry,
+    need("current VSHWK protocol authority" in entry and "project-level text" in entry,
          "Study 2 entrypoint must distinguish public Description from current protocol authority")
     need(EXPECTED_RESPONSE in entry, "Study 2 entrypoint must cite the approved response")
     need((study / "contract/endpoint-scope-crosswalk.md").is_file(), "missing endpoint scope crosswalk")
