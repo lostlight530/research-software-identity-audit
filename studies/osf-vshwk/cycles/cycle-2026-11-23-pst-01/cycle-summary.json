@@ -612,5 +612,43 @@
     "raw_evidence_files_renamed": false,
     "raw_evidence_files_rewritten": false
   },
-  "summary_role": "DERIVED_MACHINE_CLASSIFICATION; original source ledgers remain unchanged"
+  "summary_role": "DERIVED_MACHINE_CLASSIFICATION; original source ledgers remain unchanged",
+  "scope_coverage_limits": [
+    {
+      "layer": "L6_testing_monitoring_execution",
+      "surface": "WorkflowHub-displayed testing metadata",
+      "status": "NOT_SEPARATELY_ASSESSED_IN_MANIFEST_V1",
+      "note": "Named in approved L6 scope; no dedicated v1 endpoint. Partial L2 page captures are not promoted to L6 evidence."
+    },
+    {
+      "layer": "L6_testing_monitoring_execution",
+      "surface": "LifeMonitor",
+      "status": "CONDITIONAL_NOT_SELECTED_IN_MANIFEST_V1",
+      "note": "Approved scope allows inclusion where an explicit workflow relationship can be established."
+    },
+    {
+      "layer": "L6_testing_monitoring_execution",
+      "surface": "OpenEBench",
+      "status": "CONDITIONAL_NOT_SELECTED_IN_MANIFEST_V1",
+      "note": "Approved scope allows inclusion where an explicit workflow relationship can be established."
+    },
+    {
+      "layer": "L7_researcher_attribution",
+      "surface": "WorkflowHub creator information",
+      "status": "NOT_SEPARATELY_NORMALIZED_IN_MANIFEST_V1",
+      "note": "The v1 L7 endpoint is the shared ORCID works endpoint; L2 page fields are not silently promoted to L7."
+    },
+    {
+      "layer": "L8_discovery_aggregation",
+      "surface": "Research Software Directory",
+      "status": "NOT_SELECTED_IN_MANIFEST_V1",
+      "note": "Named in approved L8 scope; no dedicated v1 endpoint or absence inference."
+    },
+    {
+      "layer": "L8_discovery_aggregation",
+      "surface": "nfdi.software",
+      "status": "NOT_SELECTED_IN_MANIFEST_V1",
+      "note": "Named in approved L8 scope; no dedicated v1 endpoint or absence inference."
+    }
+  ]
 }

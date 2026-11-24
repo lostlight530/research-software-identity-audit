@@ -123,7 +123,17 @@ def validate(root: Path = ROOT) -> dict:
     need("current VSHWK protocol authority" in entry and "project-level text" in entry,
          "Study 2 entrypoint must distinguish public Description from current protocol authority")
     need(EXPECTED_RESPONSE in entry, "Study 2 entrypoint must cite the approved response")
-    need((study / "contract/endpoint-scope-crosswalk.md").is_file(), "missing endpoint scope crosswalk")
+    crosswalk_path = study / "contract/endpoint-scope-crosswalk.md"
+    need(crosswalk_path.is_file(), "missing endpoint scope crosswalk")
+    crosswalk_text = crosswalk_path.read_text(encoding="utf-8")
+    for required_surface in (
+        "WorkflowHub-displayed testing metadata",
+        "WorkflowHub creator information",
+        "Research Software Directory",
+        "nfdi.software",
+    ):
+        need(required_surface in crosswalk_text,
+             f"scope crosswalk missing approved surface: {required_surface}")
     need((study / "cycles/record-template.md").is_file(), "missing cycle record template")
 
     cycle_dirs = sorted(p for p in (study / "cycles").glob("cycle-*") if p.is_dir())
