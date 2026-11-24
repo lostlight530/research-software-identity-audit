@@ -1,7 +1,7 @@
 # VSHWK Cycle 01 — Project 490 paired-lineage endpoint census
 
 **Disposition:** `CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS`  
-**Protocol authority:** [approved VSHWK amendment](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefdc6/)  
+**Protocol authority:** [approved VSHWK amendment](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/)  
 **Manifest:** [immutable endpoint manifest v1](../../contract/endpoints-v1.json)
 
 ## 1. Case, sample and denominators

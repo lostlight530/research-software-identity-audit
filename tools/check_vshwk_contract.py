@@ -13,7 +13,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 STUDY_REL = Path("studies/osf-vshwk")
-EXPECTED_RESPONSE = "6afdcc7108de91a0f0cefdc6"
+EXPECTED_RESPONSE = "6afdcc7108de91a0f0cefd6c"
 EXPECTED_LAYER_COUNTS = {
     "L1_source_repository": 4, "L2_workflow_registry": 3,
     "L3_archival_repository": 2, "L4_identifier_registration_resolution": 4,

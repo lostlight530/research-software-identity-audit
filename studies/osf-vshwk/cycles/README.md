@@ -3,7 +3,7 @@
 **Study:** OSF VSHWK  
 **Current case:** WorkflowHub Project 490  
 **Embedded lineages:** 2332 v9 (A) and 2334 v9 (B)  
-**Authority:** approved Schema Response `6afdcc7108de91a0f0cefdc6`
+**Authority:** approved Schema Response `6afdcc7108de91a0f0cefd6c`
 
 ## Cycle initiation policy
 
