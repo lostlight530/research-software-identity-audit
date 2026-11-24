@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/1405944227.svg)](https://doi.org/10.5281/zenodo.23166490)
 
-> Research infrastructure for a prospective longitudinal audit of research software identity propagation across open scholarly infrastructures.
+> Shared research-control, evidence, provenance, and reproducibility infrastructure for two independent OSF-registered prospective longitudinal observational studies.
 
 This repository is the shared operational, evidence, provenance, and reproducibility workspace for two separately governed OSF studies. Their registrations, research objects, observation contracts, evidence streams, and denominators remain independent.
 
@@ -12,6 +12,24 @@ This repository is the shared operational, evidence, provenance, and reproducibi
 The studies share this CONTROL repository only as a governance and evidence-custody location. Shared repository ownership does not merge their scientific objects, sample frames, observation records, or denominators.
 
 > **Important:** This repository is not RS11, not a third WorkflowHub lineage, and not an additional research sample in either study.
+
+## Current OSF authority — 2026-11-24
+
+Both studies have formal OSF preregistrations and approved current schema-response revisions. “Prospective” describes their registered research designs; it does not mean every future observation cycle has already occurred or every external provider must respond successfully.
+
+| Study | OSF registration | Current approved schema response | Current registered frame |
+| --- | --- | --- | --- |
+| **Study 1 — RSIA identity propagation** | [5b329](https://osf.io/5b329/) | [6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/) · submitted 2026-11-18 · approved | RS01–RS10; six analytical layers; seven operational platforms; 60 object-layer units per scheduled timepoint; RSIA is supporting research-control/evidence/provenance infrastructure, not a sample object |
+| **Study 2 — Open research workflow** | [VSHWK](https://osf.io/vshwk/) | [6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/) · submitted 2026-11-18 · approved | One WorkflowHub Project 490 case; paired lineages 2332 v9 and 2334 v9; eight layers; event- or documented-review-initiated cycles without a fixed calendar interval, wave count, or end date |
+
+### Current authority details
+
+- **5b329:** the 2026-11-18 approved response updates registered fields 344-47 and 344-86. It explicitly leaves the five research questions, fixed corpus, six layers, seven-platform scope, 60-unit denominator, observation schedule, variables, analyses, missing-data handling, and non-causal interpretation unchanged. See the [current approved-revision crosswalk](contract/osf-approved-revision-2026-11-18.md).
+- **VSHWK:** the 2026-11-18 approved response makes Project 490 with lineages 2332 v9 / 2334 v9 the current case and replaces the former fixed three-wave design with repeated event- or documented-review-initiated cycles. WorkflowHub 2347 v2 remains historical context.
+- **VSHWK registration-page metadata:** OSF API date_modified is 2026-11-24T12:00:17.626133Z (2026-11-24 20:00:17.626 Asia/Shanghai). Its Description names Project 490 and both current lineages but still contains the phrase “three prospective observation waves”; the approved Schema Response, not that descriptive metadata sentence, governs the protocol.
+- **AUHJF:** this separate public OSF project is an entry point only and holds no data/files. Its project-level Description retains the 2347 v2 / three-wave wording and is not the VSHWK protocol authority.
+
+**Status rule:** both formal prospective research contracts are in force. Diagnostic monitoring, pre-eligibility checks, and eligible prospective observation records remain distinct evidence classes. Study 1 must not be described as “diagnostic-only” merely because a particular record is classified as monitoring; monitoring records must also not be silently promoted into its prospective dataset.
 
 **2026-11-20 cross-repository current file classification:** [11 pinned source trees / 9,675 current tracked paths / exact per-repo Nov 6→Nov 20 Git blob deltas](docs/repository-inventory/2026-11-20/cross-repositories/README.md). Path-level source inventory only, not 9,675 independently audited scientific documents or a study corpus expansion
 
@@ -57,7 +75,7 @@ For contributors and independent reviewers, the [**documentation map**](docs/REA
 | Reproduce or review a contribution | [Tools and advisory checks](tools/README.md), [contributing instructions](CONTRIBUTING.md), [open research method](OPEN_RESEARCH.md) |
 | Cite the correct scholarly object | [Citation and identifier guide](scholarly/CITATION.md), [release policy](RELEASE_POLICY.md) |
 
-**Operational-status boundary (documentation review, 2026-10-17):** The [schedule record](schedule/README.md) has **no declared concrete offsets**. The October 14 fixed-ten public release cohort is independently recorded, but the existing diagnostic monitoring packages must **not** be relabeled as scheduled prospective observations. Current `main` and older immutable Zenodo release tags describe different snapshots.
+**Historical operational-status note (as-of 2026-10-17):** At that dated review, the [local schedule record](schedule/README.md) had no declared numerical offsets. The October 14 fixed-ten public release cohort was recorded separately, and diagnostic monitoring packages were not eligible for retrospective promotion into the prospective dataset. This dated note is not a statement that Study 1 lacks a formal OSF prospective registration. The current approved 2026-11-18 OSF authority is documented above. The registered event eligibility and follow-up rules remain in force; numerical offsets must not be invented or backdated.
 
 
 ---
