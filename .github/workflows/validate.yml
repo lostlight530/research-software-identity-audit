@@ -23,6 +23,11 @@ jobs:
         uses: actions/setup-python@v7.1.0
         with:
           python-version: "3.12"
+      # Study 2 has its own versioned protocol and evidence contract.
+      - name: Test OSF VSHWK contract guard
+        run: python -B -m unittest discover -s tests -p "test_vshwk_contract.py" -v
+      - name: Validate OSF VSHWK study package
+        run: python -B tools/check_vshwk_contract.py
       # Block only missing navigation/record envelopes for newly added
       # dated events. Historical packages and research semantics remain advisory.
       - name: Test narrow new-record entrypoint guard
