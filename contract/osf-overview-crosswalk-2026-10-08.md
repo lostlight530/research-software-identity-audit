@@ -1,5 +1,7 @@
 # OSF Overview → repository contract crosswalk (2026-10-08)
 
+> **Historical scope notice (updated 2026-11-24):** This document remains a faithful crosswalk of the researcher-supplied OSF Overview as reviewed on 2026-10-08. Its “current unresolved operational prerequisite” wording is an as-of-2026-10-08 assessment, not a current statement that OSF 5b329 lacks a formal prospective registration. The current approved OSF response is [6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/), approved 2026-11-18. It explicitly leaves the observation schedule unchanged and confirms the registered event-anchored prospective design. The structured response still does not enumerate numerical offsets. See the [current approved-revision crosswalk](osf-approved-revision-2026-11-18.md) and [schedule record](../schedule/README.md). Historical statements below are retained rather than silently rewritten.
+
 ## 中文专业对应与范围 / Chinese subject counterpart and scope
 
 **实质研究对象 / Exact subject:** OSF Overview 的条款映射有明确审查截点，原注册与批准后的描述版本必须分开
