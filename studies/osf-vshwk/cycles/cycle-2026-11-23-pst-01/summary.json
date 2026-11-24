@@ -340,7 +340,9 @@
     "live_swh_visits_confirmed": 0,
     "verified_github_actions_executions": 0,
     "verified_workflow_zenodo_archive_links": 0,
-    "verified_openaire_openalex_workflow_links": 0
+    "verified_openaire_openalex_workflow_links": 0,
+    "source_version_difference_classification": "EXPECTED_VERSION_EVOLUTION_NOT_ANOMALY",
+    "source_version_comparison_interpretation": "Registered v9 source revisions are immutable historical anchors; later main revisions are expected to evolve. Differing exact Git workflow blob hashes measure a source state change only and are not a defect, conflict, preregistration violation or workflow failure."
   },
   "evidence_fidelity": {
     "provider_origin_http_body_bytes_retained": false,
