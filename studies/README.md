@@ -5,10 +5,16 @@ The public repository `lostlight530/research-software-identity-audit` is the onl
 ## Study 1 — Research software identity propagation
 
 - Registration: [OSF 5b329](https://osf.io/5b329/) · DOI [10.17605/OSF.IO/5B329](https://doi.org/10.17605/OSF.IO/5B329)
+- **Current approved revision:** [Schema Response 6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/), submitted 2026-11-18T18:58:21.950303Z, approved
+- **Formal design status:** registered prospective longitudinal repeated-measures observational study; the current approved response clarifies the operational scope and RSIA's supporting role
 - Sample: fixed objects RS01–RS10
 - Analytical frame: six infrastructure layers × ten objects = 60 object-layer units per eligible observation timepoint
+- Operational platform scope: seven platforms; OpenAIRE and OpenAlex are separate platforms within the single discovery_graph layer, so 70 possible platform checks do not replace the 60-unit analytical denominator
+- Registered timing rule: begin after the first eligible post-registration fixed-corpus release event; observe at predefined follow-up points; stop after the final preregistered point has been attempted across all ten objects and six layers. Failed or unresolved attempts do not extend the window
+- The 2026-11-18 approved revision explicitly makes no change to the observation schedule. The current structured response does not enumerate numerical offsets; this operational-detail boundary does **not** downgrade the formal OSF prospective registration
 - Repository ownership: root-level `contract/`, `monitoring/`, `evidence/`, and conditional `observations/`
-- Diagnostic records are not silently promoted to prospective observations; the concrete operational schedule remains a separate question
+- Monitoring/diagnostic records remain a distinct evidence class and are not silently promoted into the prospective dataset
+- Current authority crosswalk: [2026-11-18 approved revision](../contract/osf-approved-revision-2026-11-18.md)
 
 ## Study 2 — Open research workflow identity
 
@@ -16,6 +22,7 @@ The public repository `lostlight530/research-software-identity-audit` is the onl
 - Registration: [OSF VSHWK](https://osf.io/vshwk/overview) · Registration DOI [10.17605/OSF.IO/VSHWK](https://doi.org/10.17605/OSF.IO/VSHWK)
 - Public Project Description: preserved verbatim in [public-project-description.md](osf-vshwk/public-project-description.md). Its 2347 v2 / three-wave wording is project-level description text, not the current approved VSHWK protocol
 - Current protocol authority: approved amendment Schema Response [6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/), submitted 2026-11-18T18:58:20.050020Z
+- Registration-page metadata was subsequently updated at `2026-11-24T12:00:17.626133Z` UTC (2026-11-24 20:00:17.626 Asia/Shanghai); this metadata update is not a new schema amendment
 - Current case: one WorkflowHub Project 490 case with paired embedded lineages 2332 v9 (welcome-to-github) and 2334 v9 (zero-entropy-lab); 2347 v2 remains historical context only
 - Per complete cycle: eight project-layer bundles and sixteen nested lineage-layer evidence bundles; the sixteen nested bundles are not independent samples
 - Operational endpoint contract: immutable [manifest v1](osf-vshwk/contract/endpoints-v1.json), 22 bounded endpoints across all eight layer categories
