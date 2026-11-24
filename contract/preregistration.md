@@ -32,6 +32,23 @@ Canonical research object:
 - **Registration license:** CC BY 4.0
 
 This file maps the repository runtime to the frozen OSF registration. It does not replace or silently amend the registered object.
+## Current approved OSF revision — 2026-11-18
+
+The current approved Schema Response for OSF 5b329 is [6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/).
+
+- Created: `2026-11-18T16:03:06.533991Z`
+- Submitted: `2026-11-18T18:58:21.950303Z`
+- Modified: `2026-11-18T18:58:29.183773Z`
+- OSF review state: `approved`
+- Updated registered response fields: `344-47` and `344-86`
+
+The approved revision clarifies the relationship between the fixed RS01–RS10 corpus, six preregistered infrastructure layers, seven operational platforms, and the 60 object-layer analytical units per scheduled observation point. OpenAIRE and OpenAlex remain separate operational platforms within the single `discovery_graph` layer. It also explicitly identifies Research Software Identity Audit (RSIA) as supporting research-control, evidence, provenance, and reproducibility infrastructure—not an additional research object, platform, layer, or prospective observation unit.
+
+The revision justification explicitly states that it does **not** change the five research questions, fixed corpus, six layers, seven-platform scope, 60-unit denominator, sampling strategy, observation schedule, measured variables, derived variables, primary descriptive analyses, inference criteria, missing-data handling, or non-causal interpretation.
+
+The current prospective timing rule remains: begin after the first eligible post-registration release event; use predefined follow-up points; stop after the final preregistered follow-up point has been attempted for all ten objects across all six layers. Failed, rate-limited, missing, or unresolved attempts do not by themselves extend the window. The approved response does not enumerate numerical offsets; do not invent or backdate them.
+
+This is an additive authority crosswalk. The original registration and the 2026-10-06 approved revision remain distinct historical objects. See [the full 2026-11-18 revision record](osf-approved-revision-2026-11-18.md).
 
 **2026-11-03 original-versus-approved-version authority:** [OSF Registration and Schema Response governance reconciliation](osf-registration-version-governance-2026-11-03.md) explicitly distinguishes the October 5 original response, October 6 approved `344-83` exploratory wording revision, current GitHub operational mapping and the unmodified 60-unit contract. This is an additive interpretation/authority index, **not** an OSF write, amendment, or claim of fresh full-byte origin-capture.
 
