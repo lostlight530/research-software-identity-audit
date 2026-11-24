@@ -2,10 +2,11 @@
 
 ## Authority precedence
 
-1. **Scientific protocol authority:** OSF VSHWK approved amendment Schema Response [6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/), submitted 2026-11-18T18:58:20.050020Z, `reviews_state=approved`
-2. **Historical registration context:** the original VSHWK response and outer metadata may describe WorkflowHub 2347 v2 and the earlier three-wave framing; these do not override the approved amendment
-3. **Public project description:** AUHJF's owner-confirmed Description is preserved verbatim at [public-project-description.md](../public-project-description.md). It is project-level text, not a schema response or amendment
-4. **Operational implementation:** this directory, the endpoint manifest, cycle records, and validators implement the approved protocol; they do not amend OSF
+1. **Scientific protocol authority:** OSF VSHWK approved amendment Schema Response [6afdcc7108de91a0f0cefdc6](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefdc6/), submitted 2026-11-18T18:58:20.050020Z, `reviews_state=approved`
+2. **Historical registration context:** the original VSHWK response `6af56f49221ba1b47e9f7490` preserves the initial WorkflowHub 2347 v2 framing and earlier three-wave wording; that original framing is historical, not the current case authority
+3. **Current VSHWK registration-page metadata:** the owner-supplied OSF Metadata snapshot displays `Date Updated: Nov 24, 2026, 8:00 PM` and a Description naming WorkflowHub Project 490, Lineage A (2332 v9), Lineage B (2334 v9), and 2347 v2 as historical context. The Description still contains the sentence about "three prospective observation waves". The supplied display does not expose its timezone. This descriptive metadata is not a schema response or amendment; the approved response above governs operational cycle initiation and timing
+4. **Public project description:** AUHJF's separate owner-confirmed Description is preserved verbatim at [public-project-description.md](../public-project-description.md). It is project-level text, not a VSHWK schema response or amendment; its 2347 v2 / three-wave wording is not the current VSHWK protocol
+5. **Operational implementation:** this directory, the endpoint manifest, cycle records, and validators implement the approved protocol; they do not amend OSF
 
 The current approved case is WorkflowHub Project 490 with paired embedded lineages 2332 v9 (welcome-to-github) and 2334 v9 (zero-entropy-lab). WorkflowHub 2347 v2 remains historical context only.
 
