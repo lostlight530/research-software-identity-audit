@@ -32,6 +32,7 @@ Canonical research object:
 - **Registration license:** CC BY 4.0
 
 This file maps the repository runtime to the frozen OSF registration. It does not replace or silently amend the registered object.
+
 ## Current approved OSF revision — 2026-11-18
 
 The current approved Schema Response for OSF 5b329 is [6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/).
