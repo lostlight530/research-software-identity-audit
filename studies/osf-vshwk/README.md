@@ -8,6 +8,7 @@
 - The owner-confirmed AUHJF Project Description is mirrored **verbatim** in [public-project-description.md](public-project-description.md)
 - That public Description retains its stated historical focal case (WorkflowHub 2347 v2) and three-wave wording. It is project-level text, **not** the current VSHWK protocol authority
 - **Current protocol authority:** VSHWK approved amendment [Schema Response 6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/), submitted 2026-11-18T18:58:20.050020Z, `reviews_state=approved`
+- **Latest registration-page metadata update:** OSF API `date_modified=2026-11-24T12:00:17.626133Z` (2026-11-24 20:00:17.626 Asia/Shanghai); this descriptive metadata update does not replace or amend the approved Schema Response
 - Original VSHWK response `6af56f49221ba1b47e9f7490` and its 2347 v2 framing remain registration history; the approved amendment governs current prospective collection
 
 ## Current approved research case
