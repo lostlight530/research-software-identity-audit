@@ -1,0 +1,492 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "vshwk-project490-endpoints-v1",
+  "version": 1,
+  "declared_at_utc": "2026-11-24T07:05:22.196Z",
+  "authority": {
+    "registration_id": "vshwk",
+    "latest_approved_response_id": "6afdcc7108de91a0f0cefd6c",
+    "submitted_at_utc": "2026-11-18T18:58:20.050020Z",
+    "reviews_state": "approved",
+    "source_url": "https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/"
+  },
+  "study_case": {
+    "project_id": 490,
+    "shared_project_url": "https://workflowhub.org/projects/490",
+    "lineages": [
+      {
+        "id": "A",
+        "repo": "welcome-to-github",
+        "record": 2332,
+        "doi": "10.48546/workflowhub.workflow.2332.9",
+        "registered_commit": "1c71b0d983021fd8fbcf6cc8cd2ccbbe7d0d6d2a",
+        "source_repository": "https://github.com/lostlight530/welcome-to-github"
+      },
+      {
+        "id": "B",
+        "repo": "zero-entropy-lab",
+        "record": 2334,
+        "doi": "10.48546/workflowhub.workflow.2334.9",
+        "registered_commit": "5b360ed531812107cdd8fc1d26c808dcb393a4b8",
+        "source_repository": "https://github.com/lostlight530/zero-entropy-lab"
+      }
+    ],
+    "project_level_bundle_count_per_complete_cycle": 8,
+    "nested_lineage_bundle_count_per_complete_cycle": 16,
+    "independent_sample_count": 1
+  },
+  "method": {
+    "query_mode": "GET-only read-only; no changes to external repos or platforms",
+    "all_eight_layers_required": true,
+    "initiating_reason_precollection": true,
+    "failed_or_unattempted_endpoint_requires_explicit_record": true,
+    "shared_project_evidence_single_source": true,
+    "endpoint_retrieval_state_vocabulary": [
+      "RESPONSE_COMPLETE",
+      "RESPONSE_PARTIAL",
+      "NOT_FOUND_AT_QUERIED_ENDPOINT",
+      "RATE_LIMITED",
+      "ACCESS_BLOCKED",
+      "ENDPOINT_ERROR",
+      "NOT_QUERIED",
+      "NOT_APPLICABLE"
+    ],
+    "relationship_verification_state_vocabulary": [
+      "VERIFIED_DIRECT_LINK",
+      "RECORD_FOUND_LINK_UNVERIFIED",
+      "UNRESOLVED",
+      "CONFLICT",
+      "NOT_ASSESSED",
+      "NOT_APPLICABLE"
+    ],
+    "record_condition_flags": [
+      "STALE_METADATA",
+      "DUPLICATE_REPRESENTATION",
+      "CONFLICTING_METADATA"
+    ],
+    "retry_policy": "At most one researcher-initiated retry for transient 5xx/timeouts/rate limits, respect visible Retry-After; if intermediary hides HTTP response, record opaque transport and do not claim retry compliance",
+    "original_and_derived_distinct": true,
+    "no_imputation": true,
+    "no_fallback_unregistered_endpoint": true,
+    "pagination": "first page bounded; if provider indicates next pages, classify RESPONSE_PARTIAL and note it",
+    "origin_http_bytes_absent_must_be_explicit": true
+  },
+  "coverage": {
+    "endpoints": 22,
+    "by_layer": {
+      "L1_source_repository": 4,
+      "L2_workflow_registry": 3,
+      "L3_archival_repository": 2,
+      "L4_identifier_registration_resolution": 4,
+      "L5_source_preservation": 2,
+      "L6_testing_monitoring_execution": 2,
+      "L7_researcher_attribution": 1,
+      "L8_discovery_aggregation": 4
+    }
+  },
+  "endpoint_manifest": [
+    {
+      "endpoint_id": "L1-A-head",
+      "layer": "L1_source_repository",
+      "platform": "GitHub",
+      "method": "GET",
+      "url": "https://api.github.com/repos/lostlight530/welcome-to-github/commits/main",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "A",
+      "expected_record_type": "repository main commit",
+      "identity_verification_rule": "exact owner/repo and returned SHA; registered commit preserved as different historical anchor",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L1-A-workflow",
+      "layer": "L1_source_repository",
+      "platform": "GitHub",
+      "method": "GET",
+      "url": "https://api.github.com/repos/lostlight530/welcome-to-github/contents/.github/workflows/nexus-life-cycle.yml?ref=main",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "A",
+      "expected_record_type": "workflow definition content/blob",
+      "identity_verification_rule": "exact path and exact source SHA; presence does not prove execution",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L1-B-head",
+      "layer": "L1_source_repository",
+      "platform": "GitHub",
+      "method": "GET",
+      "url": "https://api.github.com/repos/lostlight530/zero-entropy-lab/commits/main",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "B",
+      "expected_record_type": "repository main commit",
+      "identity_verification_rule": "exact owner/repo and returned SHA; registered commit preserved as different historical anchor",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L1-B-workflow",
+      "layer": "L1_source_repository",
+      "platform": "GitHub",
+      "method": "GET",
+      "url": "https://api.github.com/repos/lostlight530/zero-entropy-lab/contents/.github/workflows/nexus-life-cycle.yml?ref=main",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "B",
+      "expected_record_type": "workflow definition content/blob",
+      "identity_verification_rule": "exact path and exact source SHA; presence does not prove execution",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L2-A-version9",
+      "layer": "L2_workflow_registry",
+      "platform": "WorkflowHub",
+      "method": "GET",
+      "url": "https://workflowhub.org/workflows/2332?version=9",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "A",
+      "expected_record_type": "workflow 2332/2334 at v9",
+      "identity_verification_rule": "exact record and requested version, DOI and documented commit link",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L2-B-version9",
+      "layer": "L2_workflow_registry",
+      "platform": "WorkflowHub",
+      "method": "GET",
+      "url": "https://workflowhub.org/workflows/2334?version=9",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "B",
+      "expected_record_type": "workflow 2332/2334 at v9",
+      "identity_verification_rule": "exact record and requested version, DOI and documented commit link",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L2-shared-project490",
+      "layer": "L2_workflow_registry",
+      "platform": "WorkflowHub",
+      "method": "GET",
+      "url": "https://workflowhub.org/projects/490",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "shared",
+      "expected_record_type": "project page and membership",
+      "identity_verification_rule": "project identity 490, both focal workflow IDs; share source ONCE, reference in both nested analyses",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L3-A-zenodo-search",
+      "layer": "L3_archival_repository",
+      "platform": "Zenodo",
+      "method": "GET",
+      "url": "https://zenodo.org/api/records?q=10.48546%2Fworkflowhub.workflow.2332.9&size=25",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "A",
+      "expected_record_type": "candidate archival search results",
+      "identity_verification_rule": "strict direct DOI/source/provenance check; empty result does not establish global absence",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": "candidate-only query not proof of an archive of the workflow; no inferred concept DOI"
+    },
+    {
+      "endpoint_id": "L3-B-zenodo-search",
+      "layer": "L3_archival_repository",
+      "platform": "Zenodo",
+      "method": "GET",
+      "url": "https://zenodo.org/api/records?q=10.48546%2Fworkflowhub.workflow.2334.9&size=25",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "B",
+      "expected_record_type": "candidate archival search results",
+      "identity_verification_rule": "strict direct DOI/source/provenance check; empty result does not establish global absence",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": "candidate-only query not proof of an archive of the workflow; no inferred concept DOI"
+    },
+    {
+      "endpoint_id": "L4-A-datacite",
+      "layer": "L4_identifier_registration_resolution",
+      "platform": "DataCite",
+      "method": "GET",
+      "url": "https://api.datacite.org/dois/10.48546%2Fworkflowhub.workflow.2332.9",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "A",
+      "expected_record_type": "DataCite DOI metadata",
+      "identity_verification_rule": "exact DOI metadata, registration agency/type and related identifiers, not adoption",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L4-A-doi-resolve",
+      "layer": "L4_identifier_registration_resolution",
+      "platform": "DOI resolver",
+      "method": "GET",
+      "url": "https://doi.org/10.48546/workflowhub.workflow.2332.9",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "A",
+      "expected_record_type": "redirect or landing page",
+      "identity_verification_rule": "exact DOI request; preserve resolver target only if observed",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L4-B-datacite",
+      "layer": "L4_identifier_registration_resolution",
+      "platform": "DataCite",
+      "method": "GET",
+      "url": "https://api.datacite.org/dois/10.48546%2Fworkflowhub.workflow.2334.9",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "B",
+      "expected_record_type": "DataCite DOI metadata",
+      "identity_verification_rule": "exact DOI metadata, registration agency/type and related identifiers, not adoption",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L4-B-doi-resolve",
+      "layer": "L4_identifier_registration_resolution",
+      "platform": "DOI resolver",
+      "method": "GET",
+      "url": "https://doi.org/10.48546/workflowhub.workflow.2334.9",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "B",
+      "expected_record_type": "redirect or landing page",
+      "identity_verification_rule": "exact DOI request; preserve resolver target only if observed",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L5-A-swh-visit",
+      "layer": "L5_source_preservation",
+      "platform": "Software Heritage",
+      "method": "GET",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "A",
+      "expected_record_type": "origin latest visit structured record",
+      "identity_verification_rule": "must be actual structured visit response, NOT example/documentation",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": "failed origin lookup does not establish no archived origin"
+    },
+    {
+      "endpoint_id": "L5-B-swh-visit",
+      "layer": "L5_source_preservation",
+      "platform": "Software Heritage",
+      "method": "GET",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/zero-entropy-lab/visit/latest/",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "B",
+      "expected_record_type": "origin latest visit structured record",
+      "identity_verification_rule": "must be actual structured visit response, NOT example/documentation",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": "failed origin lookup does not establish no archived origin"
+    },
+    {
+      "endpoint_id": "L6-A-actions",
+      "layer": "L6_testing_monitoring_execution",
+      "platform": "GitHub Actions",
+      "method": "GET",
+      "url": "https://api.github.com/repos/lostlight530/welcome-to-github/actions/workflows/nexus-life-cycle.yml/runs?per_page=20",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "A",
+      "expected_record_type": "workflow-run list",
+      "identity_verification_rule": "workflow name/path, run id/attempt, event, SHA, status/conclusion; CodeQL/unrelated runs excluded",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": "must not infer success from workflow definition; no authorizing workflow dispatch"
+    },
+    {
+      "endpoint_id": "L6-B-actions",
+      "layer": "L6_testing_monitoring_execution",
+      "platform": "GitHub Actions",
+      "method": "GET",
+      "url": "https://api.github.com/repos/lostlight530/zero-entropy-lab/actions/workflows/nexus-life-cycle.yml/runs?per_page=20",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "B",
+      "expected_record_type": "workflow-run list",
+      "identity_verification_rule": "workflow name/path, run id/attempt, event, SHA, status/conclusion; CodeQL/unrelated runs excluded",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": "must not infer success from workflow definition; no authorizing workflow dispatch"
+    },
+    {
+      "endpoint_id": "L7-shared-orcid-works",
+      "layer": "L7_researcher_attribution",
+      "platform": "ORCID",
+      "method": "GET",
+      "url": "https://pub.orcid.org/v3.0/0009-0001-3617-0832/works",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "shared_candidate",
+      "expected_record_type": "public researcher works",
+      "identity_verification_rule": "only direct DOI/source assertion linking author to specific lineage; ORCID profile alone does not establish a work relation",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": "public candidate; do not infer ORCID match from same display name"
+    },
+    {
+      "endpoint_id": "L8-A-openaire",
+      "layer": "L8_discovery_aggregation",
+      "platform": "OpenAIRE",
+      "method": "GET",
+      "url": "https://api.openaire.eu/search/software?doi=10.48546%2Fworkflowhub.workflow.2332.9&format=json",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "A",
+      "expected_record_type": "DOI-keyed discovery results",
+      "identity_verification_rule": "exact DOI in actual result and record type; connector failure is UNKNOWN",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L8-A-openalex",
+      "layer": "L8_discovery_aggregation",
+      "platform": "OpenAlex",
+      "method": "GET",
+      "url": "https://api.openalex.org/works/https://doi.org/10.48546/workflowhub.workflow.2332.9",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "A",
+      "expected_record_type": "DOI-keyed Work lookup",
+      "identity_verification_rule": "exact DOI and type, no assumption that Work equals source software",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L8-B-openaire",
+      "layer": "L8_discovery_aggregation",
+      "platform": "OpenAIRE",
+      "method": "GET",
+      "url": "https://api.openaire.eu/search/software?doi=10.48546%2Fworkflowhub.workflow.2334.9&format=json",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "B",
+      "expected_record_type": "DOI-keyed discovery results",
+      "identity_verification_rule": "exact DOI in actual result and record type; connector failure is UNKNOWN",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    },
+    {
+      "endpoint_id": "L8-B-openalex",
+      "layer": "L8_discovery_aggregation",
+      "platform": "OpenAlex",
+      "method": "GET",
+      "url": "https://api.openalex.org/works/https://doi.org/10.48546/workflowhub.workflow.2334.9",
+      "query_parameters": "fixed as encoded in url; no unrecorded query expansion",
+      "scope": "B",
+      "expected_record_type": "DOI-keyed Work lookup",
+      "identity_verification_rule": "exact DOI and type, no assumption that Work equals source software",
+      "access": "public read only",
+      "pagination": {
+        "policy": "single page bounded; mark incomplete if response advertises additional pages",
+        "page_limit": 1
+      },
+      "retention": "actual connector result or documented error, returned source fields, UTC retrieval window, source locator, body hash only where actual bytes available",
+      "notes": ""
+    }
+  ],
+  "additional_candidate_platforms_not_silently_substituted": [
+    "RSD",
+    "nfdi.software",
+    "LifeMonitor",
+    "OpenEBench"
+  ],
+  "change_control": "Version and reason of any future endpoint, scope, retry or transport modification must be explicitly logged before affected future collection; never edit historical manifest or observations"
+}
