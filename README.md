@@ -969,3 +969,7 @@ The external rseng PR #498 is **not** a merged upstream record; local GitHub doc
 ## October 15 morning diagnostic recheck
 
 [Full morning record](monitoring/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated
+
+## Second independently preregistered workflow study (separate contract)
+
+The same existing 11th CONTROL repository also holds [OSF vshwk / WorkflowHub Project 490 study custody](studies/osf-vshwk/README.md) in the separate `studies/osf-vshwk/` namespace. Its approved amended case (2332/2334; eight project-level and sixteen nested lineage-level bundles per complete cycle) is **not part of the fixed RS01–RS10 / six-layer / 60-unit 5b329 design**. All other ten source repositories are read-only research subjects; see the [two-study boundary](studies/README.md).

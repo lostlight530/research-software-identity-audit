@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "study": "OSF_VSHWK",
+  "cycle_id": "cycle-2026-11-23-pst-01",
+  "status": "INITIATED_PENDING_COLLECTION",
+  "declared_at_utc": "2026-11-24T07:05:22.196Z",
+  "reporting_day": {
+    "date": "2026-11-23",
+    "timezone": "America/Los_Angeles",
+    "utc_offset_at_event": "-08:00"
+  },
+  "protocol_clock_zones": [
+    "UTC",
+    "Asia/Shanghai"
+  ],
+  "manifest_ref": "studies/osf-vshwk/contract/endpoints-v1.json",
+  "manifest_version": 1,
+  "registration": "https://osf.io/vshwk/",
+  "latest_approved_schema_response": "6afdcc7108de91a0f0cefd6c",
+  "amendment_submitted_at_utc": "2026-11-18T18:58:20.050020Z",
+  "reason_before_collection": "Documented full-scope review of the amended WorkflowHub Project 490 dual-lineage case, including source/registry version divergence and cross-infrastructure verifiability, performed on the US Pacific Monday review day; intentionally chosen independently of anticipated favorable or negative results",
+  "case_project_id": 490,
+  "lineages": [
+    2332,
+    2334
+  ],
+  "expected_project_layer_bundles": 8,
+  "expected_nested_lineage_layer_bundles": 16,
+  "predeclared_endpoint_count": 22,
+  "collection_started": false,
+  "observation_records_at_intent_time": 0,
+  "declared_source_repos_read_only": true,
+  "all_other_platforms_read_only": true,
+  "mutable_repo": "lostlight530/research-software-identity-audit",
+  "original_pre_amendment_data_kept_historical": true,
+  "rsia_5b329_dataset_cells_claimed": 0
+}
