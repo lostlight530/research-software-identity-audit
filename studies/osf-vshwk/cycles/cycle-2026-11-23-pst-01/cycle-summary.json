@@ -392,10 +392,225 @@
       "git_blob_sha": "28a5e7507bd8b3d54f644049d3e6fcd095f24006"
     }
   ],
-  "endpoint_outcome_index": "studies/osf-vshwk/cycles/cycle-2026-11-23-pst-01/endpoint-outcomes.jsonl",
+  "endpoint_outcome_index": "studies/osf-vshwk/cycles/cycle-2026-11-23-pst-01/endpoint-outcome-index.jsonl",
   "external_writes": false,
   "only_modified_repository": "lostlight530/research-software-identity-audit",
   "study_one_5b329_prospective_cells_added": 0,
   "conclusion": "CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS",
-  "assembled_at_utc": "2026-11-24T07:15:45.400Z"
+  "assembled_at_utc": "2026-11-24T07:15:45.400Z",
+  "relationship_verification_statuses": {
+    "VERIFIED_DIRECT_LINK": 8,
+    "RECORD_FOUND_LINK_UNVERIFIED": 3,
+    "NOT_ASSESSED": 11
+  },
+  "per_layer_classification": [
+    {
+      "layer": "L1_source_repository",
+      "endpoint_count": 4,
+      "retrieval_status_counts": {
+        "RESPONSE_COMPLETE": 4
+      },
+      "relationship_verification_status_counts": {
+        "VERIFIED_DIRECT_LINK": 4
+      }
+    },
+    {
+      "layer": "L2_workflow_registry",
+      "endpoint_count": 3,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 3
+      },
+      "relationship_verification_status_counts": {
+        "RECORD_FOUND_LINK_UNVERIFIED": 3
+      }
+    },
+    {
+      "layer": "L3_archival_repository",
+      "endpoint_count": 2,
+      "retrieval_status_counts": {
+        "ENDPOINT_ERROR": 2
+      },
+      "relationship_verification_status_counts": {
+        "NOT_ASSESSED": 2
+      }
+    },
+    {
+      "layer": "L4_identifier_registration_resolution",
+      "endpoint_count": 4,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 4
+      },
+      "relationship_verification_status_counts": {
+        "VERIFIED_DIRECT_LINK": 4
+      }
+    },
+    {
+      "layer": "L5_source_preservation",
+      "endpoint_count": 2,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 1,
+        "ENDPOINT_ERROR": 1
+      },
+      "relationship_verification_status_counts": {
+        "NOT_ASSESSED": 2
+      }
+    },
+    {
+      "layer": "L6_testing_monitoring_execution",
+      "endpoint_count": 2,
+      "retrieval_status_counts": {
+        "ENDPOINT_ERROR": 2
+      },
+      "relationship_verification_status_counts": {
+        "NOT_ASSESSED": 2
+      }
+    },
+    {
+      "layer": "L7_researcher_attribution",
+      "endpoint_count": 1,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 1
+      },
+      "relationship_verification_status_counts": {
+        "NOT_ASSESSED": 1
+      }
+    },
+    {
+      "layer": "L8_discovery_aggregation",
+      "endpoint_count": 4,
+      "retrieval_status_counts": {
+        "ENDPOINT_ERROR": 4
+      },
+      "relationship_verification_status_counts": {
+        "NOT_ASSESSED": 4
+      }
+    }
+  ],
+  "per_scope_classification": [
+    {
+      "scope": "A",
+      "endpoint_count": 10,
+      "retrieval_status_counts": {
+        "RESPONSE_COMPLETE": 2,
+        "RESPONSE_PARTIAL": 4,
+        "ENDPOINT_ERROR": 4
+      },
+      "relationship_verification_status_counts": {
+        "VERIFIED_DIRECT_LINK": 4,
+        "RECORD_FOUND_LINK_UNVERIFIED": 1,
+        "NOT_ASSESSED": 5
+      }
+    },
+    {
+      "scope": "B",
+      "endpoint_count": 10,
+      "retrieval_status_counts": {
+        "RESPONSE_COMPLETE": 2,
+        "RESPONSE_PARTIAL": 3,
+        "ENDPOINT_ERROR": 5
+      },
+      "relationship_verification_status_counts": {
+        "VERIFIED_DIRECT_LINK": 4,
+        "RECORD_FOUND_LINK_UNVERIFIED": 1,
+        "NOT_ASSESSED": 5
+      }
+    },
+    {
+      "scope": "shared",
+      "endpoint_count": 1,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 1
+      },
+      "relationship_verification_status_counts": {
+        "RECORD_FOUND_LINK_UNVERIFIED": 1
+      }
+    },
+    {
+      "scope": "shared_candidate",
+      "endpoint_count": 1,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 1
+      },
+      "relationship_verification_status_counts": {
+        "NOT_ASSESSED": 1
+      }
+    }
+  ],
+  "record_condition_flags_assessment": {
+    "status": "NOT_SERIALIZED_IN_V1_ENDPOINT_INDEX",
+    "zero_count_inferred": false,
+    "note": "The normalized v1 endpoint rows do not serialize record_condition_flags; no zero count is claimed."
+  },
+  "error_classification": [
+    {
+      "endpoint_id": "L3-A-zenodo-search",
+      "class": "PROVIDER_OR_EXTRACTOR_ERROR",
+      "code": "CRAWL_HTTP_500",
+      "qualification": "Primary fragment is truncated; separate follow-up preserves the full code."
+    },
+    {
+      "endpoint_id": "L3-B-zenodo-search",
+      "class": "PROVIDER_OR_EXTRACTOR_ERROR",
+      "code": "CRAWL_HTTP_500"
+    },
+    {
+      "endpoint_id": "L5-B-swh-visit",
+      "class": "EXTRACTOR_EMPTY_CONTENT",
+      "code": "CRAWL_EMPTY_CONTENT"
+    },
+    {
+      "endpoint_id": "L6-A-actions",
+      "class": "CONNECTOR_POLICY_REJECTION",
+      "code": "INVALID_ARGUMENT",
+      "qualification": "Not a provider HTTP response."
+    },
+    {
+      "endpoint_id": "L6-B-actions",
+      "class": "CONNECTOR_POLICY_REJECTION",
+      "code": "INVALID_ARGUMENT",
+      "qualification": "Not a provider HTTP response."
+    },
+    {
+      "endpoint_id": "L8-A-openaire",
+      "class": "EXTRACTOR_TIMEOUT",
+      "code": "CRAWL_LIVECRAWL_TIMEOUT"
+    },
+    {
+      "endpoint_id": "L8-A-openalex",
+      "class": "SOURCE_UNAVAILABLE_TO_EXTRACTOR",
+      "code": "SOURCE_NOT_AVAILABLE"
+    },
+    {
+      "endpoint_id": "L8-B-openaire",
+      "class": "EXTRACTOR_TIMEOUT",
+      "code": "CRAWL_LIVECRAWL_TIMEOUT"
+    },
+    {
+      "endpoint_id": "L8-B-openalex",
+      "class": "SOURCE_UNAVAILABLE_TO_EXTRACTOR",
+      "code": "SOURCE_NOT_AVAILABLE"
+    }
+  ],
+  "followup_batch": {
+    "rows": 5,
+    "started_at_utc": "2026-11-24T07:10:34.454Z",
+    "ended_at_utc": "2026-11-24T07:10:45.145Z",
+    "interpretation": "Five endpoint-specific outcomes in one bounded multi-URL batch; not five separate acquisition windows."
+  },
+  "derived_interpretation": {
+    "workflow_version_evolution": "EXPECTED_SOURCE_VERSION_EVOLUTION_NOT_ANOMALY",
+    "github_actions": "NO_LIFECYCLE_EXECUTION_VERIFIED; connector policy rejection does not establish absence of runs",
+    "zenodo": "NO_WORKFLOW_ARCHIVE_RELATIONSHIP_VERIFIED; errors do not establish archive absence",
+    "software_heritage": "NO_LIVE_STRUCTURED_VISIT_CONFIRMED; documentation/empty content is not a negative visit receipt",
+    "discovery": "OPENAIRE_AND_OPENALEX_STATUS_UNKNOWN; extraction errors are not negative records",
+    "condition_flags": "NOT_COMPUTED_FROM_V1_INDEX"
+  },
+  "path_migration": {
+    "intent.json": "precollection-intent.json",
+    "endpoint-outcomes.jsonl": "endpoint-outcome-index.jsonl",
+    "summary.json": "cycle-summary.json",
+    "raw_evidence_files_renamed": false,
+    "raw_evidence_files_rewritten": false
+  },
+  "summary_role": "DERIVED_MACHINE_CLASSIFICATION; original source ledgers remain unchanged"
 }

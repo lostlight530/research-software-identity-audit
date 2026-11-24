@@ -1,5 +1,18 @@
 # Tools
 
+## Study 2 — OSF VSHWK contract and cycle validation
+
+Run `python -B tools/check_vshwk_contract.py` to validate the independent Study 2 namespace offline. It checks the approved-response and Project 490 identity anchors, immutable endpoint manifest, cycle accounting, retrieval and relationship-state denominators, UTC / Asia-Shanghai / Pacific reporting-day consistency, source-ledger Git blob identities, and source-versus-derived evidence separation. It makes no network requests and does not modify records.
+
+Synthetic regression tests:
+
+```bash
+python -B -m unittest discover -s tests -p "test_vshwk_contract.py" -v
+```
+
+This validator is separate from the Study 1 RS01–RS10 checker. It does not query providers or convert endpoint errors into evidence of absence.
+
+
 ## Read-only retained-evidence verification
 
 Run `python tools/check_retained_all.py` to verify the retained October 14–15 diagnostic packages without rewriting their `offline-verification.json` files. The command calls the existing verification functions, prints an aggregate summary and returns a nonzero exit code if any check fails. It makes no network requests and does not create a new observation.

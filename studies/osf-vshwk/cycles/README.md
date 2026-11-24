@@ -1,9 +1,30 @@
-# vshwk prospective observation-cycle ledger
+# VSHWK prospective observation-cycle ledger
 
-Case: WorkflowHub Project 490, lineages 2332 / 2334. This namespace is distinct from the older research-one `monitoring/` and `observations/` records.
+**Study:** OSF VSHWK  
+**Current case:** WorkflowHub Project 490  
+**Embedded lineages:** 2332 v9 (A) and 2334 v9 (B)  
+**Authority:** approved Schema Response `6afdcc7108de91a0f0cefd6c`
 
-A cycle has immutable, chronological pieces: **declared endpoint manifest** → **precollection intent** → **timestamped endpoint attempts** → **scope/coverage accounting** → **bounded result or incomplete-state conclusion** → **append-only correction if later needed**.
+## Cycle initiation policy
 
-The cycle ID is an identity key, not a claim of completeness. The first candidate is [cycle-2026-11-23-pst-01](./cycle-2026-11-23-pst-01/intent.json). No observation is retroactively credited before its live acquisition clock. A write to these CONTROL records does not mutate WorkflowHub, GitHub source repositories, OSF, DOI metadata or external infrastructure.
+The approved protocol does **not** prescribe a fixed daily schedule, calendar interval, predetermined wave count, or fixed end date. Each cycle is initiated by a relevant public-infrastructure event or a documented full-scope research review. Its reason and manifest version must be recorded before acquisition begins.
 
-- [cycle-2026-11-23-pst-01](cycle-2026-11-23-pst-01/README.md) — post-approved-amendment Project 490 dual-lineage first full 22/22 endpoint attempt census; 8 project and 16 nested lineage bundles, all failures/partial/unknown retained, source HTTP fidelity degraded
+A reporting-day label is not an acquisition timestamp. Retain actual source clocks in UTC and Asia/Shanghai; use America/Los_Angeles only as a reporting-day label. Never backdate a cycle or inherit a previous run's source state.
+
+## Cycle accounting
+
+Every cycle applies its declared versioned manifest to both lineages and all eight analytical layers. Every endpoint must have either an actual attempt record or an explicit `NOT_QUERIED` / `NOT_APPLICABLE` disposition with a reason. Attempt accounting can be complete while provider retrieval remains partial or failed.
+
+The primary analytical unit is one project × one layer × one cycle: **8 project-layer bundles** per complete cycle. The two lineages add **16 nested lineage-layer evidence bundles**, not 16 independent samples. Shared Project 490 and ORCID evidence are retained once.
+
+## Cycle index
+
+| Cycle | Reporting day | Manifest | Endpoint accounting | Disposition |
+|---|---|---|---:|---|
+| [Cycle 01](cycle-2026-11-23-pst-01/README.md) | 2026-11-23 America/Los_Angeles | [v1](../contract/endpoints-v1.json) | 22/22 attempted | `CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS` |
+
+Cycle 01's actual acquisition window was 2026-11-24T07:07:37.297Z–2026-11-24T07:09:58.002Z. The reporting-day label is 2026-11-23 Pacific; the actual China acquisition date is 2026-11-24.
+
+## Reusable entrypoint
+
+Use the [cycle record template](record-template.md) for future cycles. It is a structure guide only, not a research record and not an observation. Do not copy Cycle 01 results into a later cycle.

@@ -4,13 +4,14 @@
 
 > Research infrastructure for a prospective longitudinal audit of research software identity propagation across open scholarly infrastructures.
 
-This repository is the operational, evidence, provenance, and reproducibility workspace for the study:
+This repository is the shared operational, evidence, provenance, and reproducibility workspace for two separately governed OSF studies. Their registrations, research objects, observation contracts, evidence streams, and denominators remain independent.
 
-**Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures**
+- **Study 1 — Research software identity propagation:** OSF registration [5b329](https://osf.io/5b329/), with the fixed corpus RS01–RS10 and its six-layer / 60 object-layer-unit contract
+- **Study 2 — Open research workflow identity:** OSF public project [AUHJF](https://osf.io/auhjf/) and separate registration [VSHWK](https://osf.io/vshwk/), with the amended WorkflowHub Project 490 case and paired lineages 2332 v9 / 2334 v9
 
-The study is publicly preregistered on OSF and examines how a fixed corpus of research software objects is represented, propagated, preserved, aggregated, discovered, corrected, or left unresolved across multiple scholarly-infrastructure layers over time.
+The studies share this CONTROL repository only as a governance and evidence-custody location. Shared repository ownership does not merge their scientific objects, sample frames, observation records, or denominators.
 
-> **Important:** This repository supports the study. It is **not an eleventh research-software object** in the fixed ten-object study corpus.
+> **Important:** This repository is not RS11, not a third WorkflowHub lineage, and not an additional research sample in either study.
 
 **2026-11-20 cross-repository current file classification:** [11 pinned source trees / 9,675 current tracked paths / exact per-repo Nov 6→Nov 20 Git blob deltas](docs/repository-inventory/2026-11-20/cross-repositories/README.md). Path-level source inventory only, not 9,675 independently audited scientific documents or a study corpus expansion
 
@@ -51,6 +52,7 @@ For contributors and independent reviewers, the [**documentation map**](docs/REA
 | Read what was registered | [OSF study registration](https://osf.io/5b329/overview) and [repository contract mapping](contract/preregistration.md) |
 | Check fixed samples and counting rules | [RS01–RS10 manifest](corpus/object-manifest.csv) and [six-layer counting contract](schema/counting-rules.md) |
 | Understand historical versus prospective status | [Initial baseline](baseline/README.md), [operational schedule](schedule/README.md), [prospective raw observation area](observations/raw/README.md) |
+| Review the separate OSF workflow study | [Two-study index](studies/README.md), [Study 2 current contract and cycle ledger](studies/osf-vshwk/README.md) |
 | Review diagnostic measurements and retained evidence | [Dated monitoring index](monitoring/README.md), [evidence inventory](evidence/README.md), [provenance discipline](provenance/README.md) |
 | Reproduce or review a contribution | [Tools and advisory checks](tools/README.md), [contributing instructions](CONTRIBUTING.md), [open research method](OPEN_RESEARCH.md) |
 | Cite the correct scholarly object | [Citation and identifier guide](scholarly/CITATION.md), [release policy](RELEASE_POLICY.md) |
@@ -61,6 +63,8 @@ For contributors and independent reviewers, the [**documentation map**](docs/REA
 ---
 
 ## Research registration
+
+This section documents **Study 1 (OSF 5b329) only**. Study 2 has a separate registration and protocol namespace; see the [two-study index](studies/README.md) and [VSHWK current contract](studies/osf-vshwk/README.md).
 
 **OSF Preregistration**
 
