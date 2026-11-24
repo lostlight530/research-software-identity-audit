@@ -10,7 +10,7 @@
 
 | English original section / 原文章节 | 中文定位 / Chinese mapping |
 | --- | --- |
-| KL-001 — Concrete observation offsets are not enumerated in the frozen text export | 对应的受限研究过程与原始记录 |
+| KL-001 — Numerical observation offsets are not enumerated in the accessible registered response | 对应的受限研究过程与原始记录 |
 | KL-002 — Live endpoints are not historical proof | 对应的受限研究过程与原始记录 |
 | KL-003 — Infrastructure clocks and object semantics differ | 对应的受限研究过程与原始记录 |
 | KL-004 — External access conditions affect observation | 对应的受限研究过程与原始记录 |
