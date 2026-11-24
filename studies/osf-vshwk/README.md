@@ -7,7 +7,7 @@
 - AUHJF is an entry point only; the OSF overview states that it holds no data or files
 - The owner-confirmed AUHJF Project Description is mirrored **verbatim** in [public-project-description.md](public-project-description.md)
 - That public Description retains its stated historical focal case (WorkflowHub 2347 v2) and three-wave wording. It is project-level text, **not** the current VSHWK protocol authority
-- **Current protocol authority:** VSHWK approved amendment [Schema Response 6afdcc7108de91a0f0cefdc6](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefdc6/), submitted 2026-11-18T18:58:20.050020Z, `reviews_state=approved`
+- **Current protocol authority:** VSHWK approved amendment [Schema Response 6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/), submitted 2026-11-18T18:58:20.050020Z, `reviews_state=approved`
 - Original VSHWK response `6af56f49221ba1b47e9f7490` and its 2347 v2 framing remain registration history; the approved amendment governs current prospective collection
 
 ## Current approved research case

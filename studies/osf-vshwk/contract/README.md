@@ -2,7 +2,7 @@
 
 ## Authority precedence
 
-1. **Scientific protocol authority:** OSF VSHWK approved amendment Schema Response [6afdcc7108de91a0f0cefdc6](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefdc6/), submitted 2026-11-18T18:58:20.050020Z, `reviews_state=approved`
+1. **Scientific protocol authority:** OSF VSHWK approved amendment Schema Response [6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/), submitted 2026-11-18T18:58:20.050020Z, `reviews_state=approved`
 2. **Historical registration context:** the original VSHWK response and outer metadata may describe WorkflowHub 2347 v2 and the earlier three-wave framing; these do not override the approved amendment
 3. **Public project description:** AUHJF's owner-confirmed Description is preserved verbatim at [public-project-description.md](../public-project-description.md). It is project-level text, not a schema response or amendment
 4. **Operational implementation:** this directory, the endpoint manifest, cycle records, and validators implement the approved protocol; they do not amend OSF
