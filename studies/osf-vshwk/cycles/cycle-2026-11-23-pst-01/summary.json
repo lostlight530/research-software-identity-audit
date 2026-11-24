@@ -1,0 +1,399 @@
+{
+  "schema_version": "1.0",
+  "study": "OSF_VSHWK",
+  "cycle_id": "cycle-2026-11-23-pst-01",
+  "classification": "POST_APPROVED_AMENDMENT_PROSPECTIVE_ATTEMPT_CENSUS",
+  "latest_approved_response_id": "6afdcc7108de91a0f0cefd6c",
+  "manifest_id": "vshwk-project490-endpoints-v1",
+  "manifest_version": 1,
+  "manifest_git_blob_sha": "d34e53993100b54da870c4808e4cd441bd90c10f",
+  "manifest_prior_main_commit": "3fbf55962e576329ffcf0f1bbde07f433a196dd1",
+  "intent_declared_at_utc": "2026-11-24T07:05:22.196Z",
+  "logical_day": {
+    "date": "2026-11-23",
+    "tz": "America/Los_Angeles"
+  },
+  "capture_window_utc": [
+    "2026-11-24T07:07:37.297Z",
+    "2026-11-24T07:09:58.002Z"
+  ],
+  "primary_endpoint_attempts": 22,
+  "expected_endpoints": 22,
+  "unattempted_endpoint_ids": [],
+  "primary_retrieval_statuses": {
+    "RESPONSE_COMPLETE": 4,
+    "RESPONSE_PARTIAL": 9,
+    "ENDPOINT_ERROR": 9
+  },
+  "independent_error_followups": 5,
+  "source_file_crosschecks": 2,
+  "registered_version_crosschecks": 2,
+  "complete_by_attempts": true,
+  "complete_by_all_success": false,
+  "quality": "DEGRADED_CONNECTOR_NORMALIZED_AND_PARTIAL",
+  "project_level_bundles": [
+    {
+      "layer": "L1_source_repository",
+      "endpoint_ids": [
+        "L1-A-head",
+        "L1-A-workflow",
+        "L1-B-head",
+        "L1-B-workflow"
+      ],
+      "unique_attempts": 4,
+      "complete": 4,
+      "partial": 0,
+      "errors": 0
+    },
+    {
+      "layer": "L2_workflow_registry",
+      "endpoint_ids": [
+        "L2-A-version9",
+        "L2-B-version9",
+        "L2-shared-project490"
+      ],
+      "unique_attempts": 3,
+      "complete": 0,
+      "partial": 3,
+      "errors": 0
+    },
+    {
+      "layer": "L3_archival_repository",
+      "endpoint_ids": [
+        "L3-A-zenodo-search",
+        "L3-B-zenodo-search"
+      ],
+      "unique_attempts": 2,
+      "complete": 0,
+      "partial": 0,
+      "errors": 2
+    },
+    {
+      "layer": "L4_identifier_registration_resolution",
+      "endpoint_ids": [
+        "L4-A-datacite",
+        "L4-A-doi-resolve",
+        "L4-B-datacite",
+        "L4-B-doi-resolve"
+      ],
+      "unique_attempts": 4,
+      "complete": 0,
+      "partial": 4,
+      "errors": 0
+    },
+    {
+      "layer": "L5_source_preservation",
+      "endpoint_ids": [
+        "L5-A-swh-visit",
+        "L5-B-swh-visit"
+      ],
+      "unique_attempts": 2,
+      "complete": 0,
+      "partial": 1,
+      "errors": 1
+    },
+    {
+      "layer": "L6_testing_monitoring_execution",
+      "endpoint_ids": [
+        "L6-A-actions",
+        "L6-B-actions"
+      ],
+      "unique_attempts": 2,
+      "complete": 0,
+      "partial": 0,
+      "errors": 2
+    },
+    {
+      "layer": "L7_researcher_attribution",
+      "endpoint_ids": [
+        "L7-shared-orcid-works"
+      ],
+      "unique_attempts": 1,
+      "complete": 0,
+      "partial": 1,
+      "errors": 0
+    },
+    {
+      "layer": "L8_discovery_aggregation",
+      "endpoint_ids": [
+        "L8-A-openaire",
+        "L8-A-openalex",
+        "L8-B-openaire",
+        "L8-B-openalex"
+      ],
+      "unique_attempts": 4,
+      "complete": 0,
+      "partial": 0,
+      "errors": 4
+    }
+  ],
+  "nested_lineage_level_bundles": [
+    {
+      "lineage": "A",
+      "layer": "L1_source_repository",
+      "endpoint_ids": [
+        "L1-A-head",
+        "L1-A-workflow"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_RETURNED",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "A",
+      "layer": "L2_workflow_registry",
+      "endpoint_ids": [
+        "L2-A-version9",
+        "L2-shared-project490"
+      ],
+      "shared_refs_not_duplicate_counts": [
+        "L2-shared-project490"
+      ],
+      "state": "ATTEMPTED_PARTIAL",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "A",
+      "layer": "L3_archival_repository",
+      "endpoint_ids": [
+        "L3-A-zenodo-search"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_WITH_ERRORS",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "A",
+      "layer": "L4_identifier_registration_resolution",
+      "endpoint_ids": [
+        "L4-A-datacite",
+        "L4-A-doi-resolve"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_PARTIAL",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "A",
+      "layer": "L5_source_preservation",
+      "endpoint_ids": [
+        "L5-A-swh-visit"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_PARTIAL",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "A",
+      "layer": "L6_testing_monitoring_execution",
+      "endpoint_ids": [
+        "L6-A-actions"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_WITH_ERRORS",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "A",
+      "layer": "L7_researcher_attribution",
+      "endpoint_ids": [
+        "L7-shared-orcid-works"
+      ],
+      "shared_refs_not_duplicate_counts": [
+        "L7-shared-orcid-works"
+      ],
+      "state": "ATTEMPTED_PARTIAL",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "A",
+      "layer": "L8_discovery_aggregation",
+      "endpoint_ids": [
+        "L8-A-openaire",
+        "L8-A-openalex"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_WITH_ERRORS",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "B",
+      "layer": "L1_source_repository",
+      "endpoint_ids": [
+        "L1-B-head",
+        "L1-B-workflow"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_RETURNED",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "B",
+      "layer": "L2_workflow_registry",
+      "endpoint_ids": [
+        "L2-B-version9",
+        "L2-shared-project490"
+      ],
+      "shared_refs_not_duplicate_counts": [
+        "L2-shared-project490"
+      ],
+      "state": "ATTEMPTED_PARTIAL",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "B",
+      "layer": "L3_archival_repository",
+      "endpoint_ids": [
+        "L3-B-zenodo-search"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_WITH_ERRORS",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "B",
+      "layer": "L4_identifier_registration_resolution",
+      "endpoint_ids": [
+        "L4-B-datacite",
+        "L4-B-doi-resolve"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_PARTIAL",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "B",
+      "layer": "L5_source_preservation",
+      "endpoint_ids": [
+        "L5-B-swh-visit"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_WITH_ERRORS",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "B",
+      "layer": "L6_testing_monitoring_execution",
+      "endpoint_ids": [
+        "L6-B-actions"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_WITH_ERRORS",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "B",
+      "layer": "L7_researcher_attribution",
+      "endpoint_ids": [
+        "L7-shared-orcid-works"
+      ],
+      "shared_refs_not_duplicate_counts": [
+        "L7-shared-orcid-works"
+      ],
+      "state": "ATTEMPTED_PARTIAL",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    },
+    {
+      "lineage": "B",
+      "layer": "L8_discovery_aggregation",
+      "endpoint_ids": [
+        "L8-B-openaire",
+        "L8-B-openalex"
+      ],
+      "shared_refs_not_duplicate_counts": [],
+      "state": "ATTEMPTED_WITH_ERRORS",
+      "lineage_relationship": "ONLY_WHERE_EXACT_FIELDS_SUPPORT_IT"
+    }
+  ],
+  "study_units": {
+    "project_case_count": 1,
+    "project_layers": 8,
+    "project_layer_bundles": 8,
+    "paired_lineages": 2,
+    "nested_lineage_layer_bundles": 16,
+    "independent_statistical_samples_not_16": true
+  },
+  "observed_data": {
+    "lineage_A_main_sha": "413ffe432073f5bb8b4dd57e8099b6d25bdb04ec",
+    "lineage_B_main_sha": "00b48696bd875c107c32f5b04f811b5354e6ac08",
+    "lineage_A_registered_blob": "ef9cc9c4ec508167e728bb018505504de88ede6c",
+    "lineage_A_current_blob": "85017c64e2f1197a588ce7cc1fbbb3f484f8b08c",
+    "lineage_B_registered_blob": "30bea759d044dc0c834fcd0dd155dcb311c0e61b",
+    "lineage_B_current_blob": "9f7c430fa244e3e772b802a963d7e2e434820195",
+    "both_workflow_source_blobs_changed": true,
+    "datacite_exact_doi_results": [
+      {
+        "id": "L4-A-datacite",
+        "doi": "10.48546/workflowhub.workflow.2332.9",
+        "state": "findable",
+        "resource_type": "Workflow",
+        "returned_related_identifiers": 0
+      },
+      {
+        "id": "L4-B-datacite",
+        "doi": "10.48546/workflowhub.workflow.2334.9",
+        "state": "findable",
+        "resource_type": "Workflow",
+        "returned_related_identifiers": 0
+      }
+    ],
+    "live_swh_visits_confirmed": 0,
+    "verified_github_actions_executions": 0,
+    "verified_workflow_zenodo_archive_links": 0,
+    "verified_openaire_openalex_workflow_links": 0
+  },
+  "evidence_fidelity": {
+    "provider_origin_http_body_bytes_retained": false,
+    "provider_origin_http_status_retained": false,
+    "connector_extractor_nearby_segment_contamination_count": 5,
+    "interpretation": "All attempts preserved; not full origin-HTTP reproducibility; never promote errors to negative provider responses"
+  },
+  "source_ledgers": [
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-23-pst-01/evidence/github-attempts.jsonl",
+      "rows": 6,
+      "git_blob_sha": "53550bd57e00530e58aad39756bfc50af94f6904"
+    },
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-23-pst-01/evidence/external-attempts-batch-01.jsonl",
+      "rows": 4,
+      "git_blob_sha": "cd6c8ebdcdd8e23d0547d2380be1384927fb3a76"
+    },
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-23-pst-01/evidence/external-attempts-batch-02.jsonl",
+      "rows": 4,
+      "git_blob_sha": "bb427834da8e2053295221b7afccd5161ce8f7c8"
+    },
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-23-pst-01/evidence/external-attempts-batch-03.jsonl",
+      "rows": 4,
+      "git_blob_sha": "179216715a4ab4fa4b103ee192637615b6684cc8"
+    },
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-23-pst-01/evidence/external-attempts-batch-04.jsonl",
+      "rows": 4,
+      "git_blob_sha": "29019357332fe3bdec108044b73c7912a65a57e2"
+    },
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-23-pst-01/evidence/external-error-followup.jsonl",
+      "rows": 5,
+      "git_blob_sha": "b9e7fbd3db888738e7e91e8260861d77714a2e8a"
+    },
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-23-pst-01/evidence/github-workflow-content-crosscheck.jsonl",
+      "rows": 2,
+      "git_blob_sha": "2bb44d3c3caf5ae6187b1561be1b3df2d91f5121"
+    },
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-23-pst-01/evidence/registered-source-version-crosscheck.jsonl",
+      "rows": 2,
+      "git_blob_sha": "28a5e7507bd8b3d54f644049d3e6fcd095f24006"
+    }
+  ],
+  "endpoint_outcome_index": "studies/osf-vshwk/cycles/cycle-2026-11-23-pst-01/endpoint-outcomes.jsonl",
+  "external_writes": false,
+  "only_modified_repository": "lostlight530/research-software-identity-audit",
+  "study_one_5b329_prospective_cells_added": 0,
+  "conclusion": "CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS",
+  "assembled_at_utc": "2026-11-24T07:15:45.400Z"
+}
