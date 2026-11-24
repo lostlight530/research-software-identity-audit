@@ -110,15 +110,21 @@ Neither response establishes that the source is absent from Software Heritage.
 
 Both predeclared GitHub Actions workflow-run URLs were rejected by the connector's URL policy (`INVALID_ARGUMENT`). This is a connector access failure, not a provider response and not evidence that the workflows have no runs. No NEXUS CORTEX lifecycle execution was verified in this cycle.
 
+The approved L6 scope also names WorkflowHub-displayed testing metadata. Manifest v1 has no dedicated L6 endpoint for that metadata; the partial L2 WorkflowHub page captures are not separately normalized or promoted to L6 testing evidence. LifeMonitor and OpenEBench are conditional surfaces and were not selected as v1 endpoints.
+
 The separate pinned workflow-file reads prove that workflow definitions were present at the observed commits; they do not prove that any run executed.
 
 ### Researcher attribution
 
 The shared ORCID works response was flattened. No exact WorkflowHub DOI attribution relationship to either lineage was established in the returned representation. Attribution remains not assessed.
 
+The approved L7 scope also names WorkflowHub creator information. Manifest v1 has no separate creator-metadata endpoint; creator fields incidentally present in L2 page captures are not promoted to separately verified L7 attribution evidence.
+
 ### Discovery and aggregation
 
 The four exact DOI endpoints returned errors: OpenAIRE `CRAWL_LIVECRAWL_TIMEOUT`; OpenAlex `SOURCE_NOT_AVAILABLE`. The first grouped call and the later five-URL follow-up are retained separately. Neither error establishes a negative discovery result.
+
+The approved L8 scope also names Research Software Directory and nfdi.software. Neither has a manifest-v1 endpoint; no query was made and no absence conclusion is available.
 
 ## 7. Error and follow-up classification
 
@@ -164,9 +170,10 @@ The strongest direct observations are the two source-repository states, exact wo
 
 Priorities for a later cycle:
 1. Improve origin-level transport fidelity where provider access permits; retain original bytes, response headers and status rather than reconstructing them
-2. Resolve the GitHub Actions endpoint access method without changing the declared v1 historical record; any future endpoint change must be versioned and predeclared
-3. Establish exact query and identity contracts before selecting conditional WorkflowHub testing, LifeMonitor, OpenEBench, Research Software Directory, or nfdi.software surfaces
-4. Preserve all unresolved and failed states; do not optimize for all-green reporting
+2. Define whether WorkflowHub testing metadata and creator information need dedicated L6 / L7 endpoints; if so, declare them in a new manifest version before collection
+3. Resolve the GitHub Actions endpoint access method without changing the declared v1 historical record
+4. Establish exact query and identity contracts before selecting conditional LifeMonitor, OpenEBench, Research Software Directory, or nfdi.software surfaces
+5. Preserve all unresolved and failed states; do not optimize for all-green reporting
 
 ## 11. Record reading order
 

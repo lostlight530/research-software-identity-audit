@@ -22,17 +22,16 @@ This crosswalk distinguishes the eight OSF-approved analytical layers from the b
 
 The denominator is 22 endpoint locators per manifest-v1 cycle. It is not 22 independent research objects, and it does not change the one-case / eight-project-layer / sixteen-nested-lineage-layer structure.
 
-## Approved scope named conditionally but not selected as v1 endpoints
+## Approved scope surfaces not separately endpointized or assessed in v1
 
-The approved schema response also describes possible evidence surfaces subject to an exact, directly supportable relationship with the focal project or lineage:
+The approved schema response names the following surfaces in its layer descriptions. Manifest v1 does not provide a dedicated endpoint for each one, so their states must be reported as coverage limits rather than provider absence:
 
-- WorkflowHub-displayed testing metadata
-- LifeMonitor
-- OpenEBench
-- Research Software Directory
-- nfdi.software
+- **L6 — WorkflowHub-displayed testing metadata:** explicitly named in the approved L6 scope, but no dedicated L6 endpoint was declared in v1. The partial L2 WorkflowHub page captures are not separately normalized or promoted to L6 testing evidence
+- **L6 — LifeMonitor and OpenEBench:** conditional surfaces, to be included only where an explicit relationship to the focal workflow can be established; neither has a v1 endpoint
+- **L7 — WorkflowHub creator information:** named in the approved L7 scope, but v1 has only the shared ORCID works endpoint. Creator information incidentally present in an L2 page is not silently promoted to a separately verified L7 attribution record
+- **L8 — Research Software Directory and nfdi.software:** named discovery / aggregation surfaces, but neither has a v1 endpoint
 
-These surfaces are **not endpoint locators in manifest v1**. Their absence from v1 means `NOT_SELECTED_IN_MANIFEST_V1`, not `NOT_FOUND`, provider absence, or a negative study result. The v1 contract avoids inventing fallback URLs or broad searches without a verified query and identity contract.
+These limits mean `NOT_SEPARATELY_ASSESSED_IN_MANIFEST_V1`, not `NOT_FOUND`, provider absence, or a negative study result. They do not change the 22-endpoint v1 denominator or invalidate its attempt accounting; they bound claims about the breadth of platform coverage within the approved layers.
 
 If a surface is judged necessary for a later cycle, first document its exact locator, query semantics, identity rule, evidence-retention method, and scope rationale in a new manifest version. Declare that version before collection. Do not add it retroactively to Cycle 01 or rewrite manifest v1.
 
