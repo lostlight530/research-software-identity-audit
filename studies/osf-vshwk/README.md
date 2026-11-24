@@ -4,10 +4,37 @@
 
 ## Authority and historical-to-prospective boundary
 
-- Study 2 registration: [OSF vshwk](https://osf.io/vshwk/), original response `6af56f49221ba1b47e9f7490` retained as history; its original 2347 v2 subject and three proposed waves **are not current protocol authority**
-- [Latest approved amendment](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/) response `6afdcc7108de91a0f0cefd6c`, submitted **2026-11-18T18:58:20.050020Z**, `reviews_state: approved` changes focal case to Project 490 with paired lineages 2332 v9 and 2334 v9
+- Public OSF project: [AUHJF](https://osf.io/auhjf/overview), Project DOI [10.17605/OSF.IO/AUHJF](https://doi.org/10.17605/OSF.IO/AUHJF); its public Project Description is mirrored below
+- Study 2 registration: [OSF vshwk](https://osf.io/vshwk/), Registration DOI [10.17605/OSF.IO/VSHWK](https://doi.org/10.17605/OSF.IO/VSHWK); original response `6af56f49221ba1b47e9f7490` retained as history; its original 2347 v2 subject and three proposed waves **are not current protocol authority**
+- [Latest approved amendment](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefdc6/) response `6afdcc7108de91a0f0cefdc6`, submitted **2026-11-18T18:58:20.050020Z**, `reviews_state: approved` changes focal case to Project 490 with paired lineages 2332 v9 and 2334 v9
 - Historic source commits, old workflow versions, pre-amendment evidence, and older audits remain `HISTORICAL/CONTEXT`, never promoted retrospectively to prospective records
 - The prospective period is eligible **after amendment submission**, subject to a versioned endpoint manifest and a precollection cycle reason. No predetermined wave count, calendar interval, or end date. Completion requires documented attempts (or explicit reasons why unattempted) for every predefined endpoint
+
+## Public OSF Project Description — AUHJF
+
+**Metadata field:** Project → Metadata → Description  
+**Source:** owner-confirmed saved text on the public [AUHJF Project](https://osf.io/auhjf/overview). This repository section mirrors the project-level Description; it is not an OSF API response export, a registration record, or an amendment to VSHWK.
+
+### Current public Description
+
+This study examines how a publicly documented open research workflow is represented, linked, versioned, and monitored across independently operated scholarly infrastructures.
+
+The current focal case, under the latest approved revision (Schema Response `6afdcc7108de91a0f0cefdc6`), is WorkflowHub Project 490, comprising two associated workflow lineages:
+
+- Lineage A: WorkflowHub record 2332, version 9
+- Lineage B: WorkflowHub record 2334, version 9
+
+The original WorkflowHub record 2347, version 2 is retained solely as historical research context and is no longer the current primary study object.
+
+The study examines eight predefined infrastructure layers: source repositories, workflow registries, archival repositories, identifier registration and resolution services, source-preservation services, workflow testing and monitoring services, researcher-attribution services, and scholarly discovery and aggregation services.
+
+Records will be included only when exact identifiers or documented provenance relationships support their association with the focal workflow. Independent software assets within the same research ecosystem will not automatically be treated as components of the focal workflow.
+
+The research adopts a longitudinal descriptive observational case-study design. It separates historical evidence from three prospective observation waves and examines workflow identity, version lineage, metadata consistency, provenance relationships, timestamped changes, infrastructure states, and unresolved cross-platform discrepancies.
+
+The expected outcomes are a reproducible cross-infrastructure evidence map, a timestamped record of observable identity and metadata changes, and a bounded assessment of the capabilities and limitations of existing scholarly infrastructure.
+
+The study does not infer causal relationships or claim that registration, archival availability, passing tests, researcher attribution, or public discovery independently establish scientific validity, institutional endorsement, adoption, or universal reproducibility.
 
 ## Owner, objects and denominators
 
