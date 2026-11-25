@@ -1,0 +1,113 @@
+{
+  "record_class": "repository_path_migration_not_new_observation",
+  "project": "wa5v8",
+  "registration": "5b329",
+  "source_commit": "7197110dac7aa1ea9bbb0406c5914df3a7f1e287",
+  "day0_source_label": "2026-11-24",
+  "source_label_timezone": "Asia/Shanghai",
+  "day1_source_status": "NO_SEPARATE_PACIFIC_DAY1_PACKAGE_IDENTIFIED_IN_PINNED_MAIN",
+  "day_assignment_basis": "Owner-confirmed Pacific calendar; source acquisition and Git merge clocks for PRs 139 and 140 fall on November 23 Pacific; original source label remains November 24 Asia/Shanghai.",
+  "source_prs": [
+    139,
+    140
+  ],
+  "prospective_cells_added": 0,
+  "records": [
+    {
+      "old_path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/README.md",
+      "new_path": "studies/osf-wa5v8/day0/evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/README.md",
+      "original_git_blob_sha": "f0e08b8d33f58fbeadb63d5d531105a525ab28ac",
+      "relocated_git_blob_sha": "f0e08b8d33f58fbeadb63d5d531105a525ab28ac",
+      "disposition": "byte_preserved"
+    },
+    {
+      "old_path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/datacite-ten-doi.jsonl",
+      "new_path": "studies/osf-wa5v8/day0/evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/datacite-ten-doi.jsonl",
+      "original_git_blob_sha": "1592c4a81c28fce0039bcf32c737bdc06780c583",
+      "relocated_git_blob_sha": "1592c4a81c28fce0039bcf32c737bdc06780c583",
+      "disposition": "byte_preserved"
+    },
+    {
+      "old_path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/github-11-main-pr-release.jsonl",
+      "new_path": "studies/osf-wa5v8/day0/evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/github-11-main-pr-release.jsonl",
+      "original_git_blob_sha": "12da0ebe6d6526bf784e5880ade853c3292ee70d",
+      "relocated_git_blob_sha": "12da0ebe6d6526bf784e5880ade853c3292ee70d",
+      "disposition": "byte_preserved"
+    },
+    {
+      "old_path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/partial-platforms-and-public-interactions.jsonl",
+      "new_path": "studies/osf-wa5v8/day0/evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/partial-platforms-and-public-interactions.jsonl",
+      "original_git_blob_sha": "ce69839a0ac0b5163d67fef93c4e28ec07592046",
+      "relocated_git_blob_sha": "ce69839a0ac0b5163d67fef93c4e28ec07592046",
+      "disposition": "byte_preserved"
+    },
+    {
+      "old_path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/supplementary-34-source-attempts.jsonl",
+      "new_path": "studies/osf-wa5v8/day0/evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/supplementary-34-source-attempts.jsonl",
+      "original_git_blob_sha": "e396920089f09586cc9ce1615b1a2fe1ddae5259",
+      "relocated_git_blob_sha": "e396920089f09586cc9ce1615b1a2fe1ddae5259",
+      "disposition": "byte_preserved"
+    },
+    {
+      "old_path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/zenodo-70-version-rows.jsonl",
+      "new_path": "studies/osf-wa5v8/day0/evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/zenodo-70-version-rows.jsonl",
+      "original_git_blob_sha": "6d5970ec8fd0247891ca8adcf8924ed210a0a96e",
+      "relocated_git_blob_sha": "6d5970ec8fd0247891ca8adcf8924ed210a0a96e",
+      "disposition": "byte_preserved"
+    },
+    {
+      "old_path": "evidence/2026-11-24/02-supplementary-failure-custody-reconciliation/README.md",
+      "new_path": "studies/osf-wa5v8/day0/evidence/2026-11-24/02-supplementary-failure-custody-reconciliation/README.md",
+      "original_git_blob_sha": "104c0528566bbbd7c1b31dab71c08e4a81f539a4",
+      "relocated_git_blob_sha": "b5a796abde24e82646282fd49fb81e5652eceb3f",
+      "disposition": "locator_only_update"
+    },
+    {
+      "old_path": "evidence/2026-11-24/02-supplementary-failure-custody-reconciliation/source-attempts.jsonl",
+      "new_path": "studies/osf-wa5v8/day0/evidence/2026-11-24/02-supplementary-failure-custody-reconciliation/source-attempts.jsonl",
+      "original_git_blob_sha": "945558da357387f7f4f8c068e7fda4c022b1d86a",
+      "relocated_git_blob_sha": "945558da357387f7f4f8c068e7fda4c022b1d86a",
+      "disposition": "byte_preserved"
+    },
+    {
+      "old_path": "monitoring/2026-11-24/01-periodic-identity-infrastructure-recheck/README.md",
+      "new_path": "studies/osf-wa5v8/day0/monitoring/2026-11-24/01-periodic-identity-infrastructure-recheck/README.md",
+      "original_git_blob_sha": "7e7730285ea7b09baa4e3ac0466f402407993002",
+      "relocated_git_blob_sha": "55fcc636f300483d04de6aa2495e4ede52da0b65",
+      "disposition": "locator_only_update"
+    },
+    {
+      "old_path": "monitoring/2026-11-24/01-periodic-identity-infrastructure-recheck/record.json",
+      "new_path": "studies/osf-wa5v8/day0/monitoring/2026-11-24/01-periodic-identity-infrastructure-recheck/record.json",
+      "original_git_blob_sha": "4af95a365ec30408fc0d07bdf25349856aef163c",
+      "relocated_git_blob_sha": "78456769f962c219cc1d3a8c4b5e39e0c0ce96ab",
+      "disposition": "locator_only_update"
+    },
+    {
+      "old_path": "monitoring/2026-11-24/01-periodic-identity-infrastructure-recheck/summary.json",
+      "new_path": "studies/osf-wa5v8/day0/monitoring/2026-11-24/01-periodic-identity-infrastructure-recheck/summary.json",
+      "original_git_blob_sha": "c6e418c600ffc41c2c21f269253808a6359a2d89",
+      "relocated_git_blob_sha": "0db4b9103e777e8524c8ad4fb4a1c15792f1a8b4",
+      "disposition": "locator_only_update"
+    },
+    {
+      "old_path": "monitoring/2026-11-24/02-supplementary-failure-custody-reconciliation/README.md",
+      "new_path": "studies/osf-wa5v8/day0/monitoring/2026-11-24/02-supplementary-failure-custody-reconciliation/README.md",
+      "original_git_blob_sha": "0877e51e3ffaa6d56b7a5c015eebce1e888aa3f0",
+      "relocated_git_blob_sha": "094739707e15105c61745d86f0a23709c3b6f6fb",
+      "disposition": "locator_only_update"
+    },
+    {
+      "old_path": "monitoring/2026-11-24/02-supplementary-failure-custody-reconciliation/record.json",
+      "new_path": "studies/osf-wa5v8/day0/monitoring/2026-11-24/02-supplementary-failure-custody-reconciliation/record.json",
+      "original_git_blob_sha": "4db9468d151a279db0c977c2614ecabc91374c21",
+      "relocated_git_blob_sha": "c974e724a340df07c9268d3aaf0824c2c9dc9955",
+      "disposition": "locator_only_update"
+    }
+  ],
+  "day0_reporting_date": "2026-11-23",
+  "day1_reporting_date": "2026-11-24",
+  "day2_reporting_date": "2026-11-25",
+  "reporting_timezone": "America/Los_Angeles",
+  "day2_new_acquisition_owner_reported": false
+}

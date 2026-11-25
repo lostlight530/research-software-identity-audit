@@ -110,27 +110,27 @@
   },
   "evidence": [
     {
-      "path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/zenodo-70-version-rows.jsonl",
+      "path": "studies/osf-wa5v8/day0/evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/zenodo-70-version-rows.jsonl",
       "rows": 70,
       "git_blob_sha": "6d5970ec8fd0247891ca8adcf8924ed210a0a96e"
     },
     {
-      "path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/supplementary-34-source-attempts.jsonl",
+      "path": "studies/osf-wa5v8/day0/evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/supplementary-34-source-attempts.jsonl",
       "rows": 34,
       "git_blob_sha": "e396920089f09586cc9ce1615b1a2fe1ddae5259"
     },
     {
-      "path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/github-11-main-pr-release.jsonl",
+      "path": "studies/osf-wa5v8/day0/evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/github-11-main-pr-release.jsonl",
       "rows": 11,
       "git_blob_sha": "12da0ebe6d6526bf784e5880ade853c3292ee70d"
     },
     {
-      "path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/datacite-ten-doi.jsonl",
+      "path": "studies/osf-wa5v8/day0/evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/datacite-ten-doi.jsonl",
       "rows": 10,
       "git_blob_sha": "1592c4a81c28fce0039bcf32c737bdc06780c583"
     },
     {
-      "path": "evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/partial-platforms-and-public-interactions.jsonl",
+      "path": "studies/osf-wa5v8/day0/evidence/2026-11-24/01-periodic-identity-infrastructure-recheck/partial-platforms-and-public-interactions.jsonl",
       "rows": 26,
       "git_blob_sha": "ce69839a0ac0b5163d67fef93c4e28ec07592046"
     }
