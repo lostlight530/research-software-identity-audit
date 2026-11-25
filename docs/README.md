@@ -4,7 +4,7 @@
 
 This repository supports **two independent formal OSF prospective observational studies**. Their current approved schema responses, not a shared GitHub document or a project-level Description, govern each study's protocol.
 
-- **Study 1 — OSF 5b329:** current approved response [6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/), submitted 2026-11-18 and approved. It confirms RS01–RS10, six analytical layers, seven operational platforms, 60 object-layer units per scheduled point, and RSIA's supporting infrastructure role. It does not change the observation schedule. Read the [current revision crosswalk](../contract/osf-approved-revision-2026-11-18.md).
+- **Study 1 — OSF 5b329:** current approved response [6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/), submitted 2026-11-18 and approved. It confirms RS01–RS10, six analytical layers, seven operational platforms, 60 object-layer units per scheduled point, and RSIA's supporting infrastructure role. It does not change the observation schedule. Read the [current revision crosswalk](../studies/osf-wa5v8/day1/contract/osf-approved-revision-2026-11-18.md).
 - **Study 2 — OSF VSHWK:** current approved response [6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/), submitted 2026-11-18 and approved. It defines Project 490 with lineages 2332 v9 and 2334 v9, and repeated event- or documented-review-initiated cycles without fixed calendar intervals, wave count, or end date. The VSHWK registration Description was subsequently updated on 2026-11-24; that metadata update is not a new schema amendment.
 - **AUHJF** is the separate public project entry point, not a substitute for the VSHWK registration. Its project Description retains the original 2347 v2 / three-wave wording as historical project-level text.
 
@@ -31,7 +31,7 @@ All are retrospective documentation / current diagnostic records, **not** change
 | [Known limitations](../contract/known-limitations.md) | 不可用的来源、未知索引时钟和缺少原始响应字节不能自动补齐 | Missing, failed or inaccessible provider records remain typed unknowns |
 | [OSF Overview crosswalk](../contract/osf-overview-crosswalk-2026-10-08.md) | 早期条款解释保留原观察截点与当时未知 | A dated crosswalk does not silently absorb later OSF version evidence |
 | [OSF registration versions](../contract/osf-registration-version-governance-2026-11-03.md) | 原始注册与后续获批修订是两个来源身份，不回填为同一历史版本 | Approved revisions do not retroactively modify the original registration text |
-| [Current 2026-11-18 approved 5b329 revision](../contract/osf-approved-revision-2026-11-18.md) | 当前 5b329 获批版本与 RSIA 支撑基础设施边界 | Current approved authority is distinct from the original and 2026-10-06 revisions |
+| [Current 2026-11-18 approved 5b329 revision](../studies/osf-wa5v8/day1/contract/osf-approved-revision-2026-11-18.md) | 当前 5b329 获批版本与 RSIA 支撑基础设施边界 | Current approved authority is distinct from the original and 2026-10-06 revisions |
 | [Counting rules](../schema/counting-rules.md) | 预注册的六十个对象层单位不同于七个平台潜在的七十个检查 | `10 × 6 = 60` planned analytic cells and `10 × 7 = 70` platform checks are distinct |
 | [Analysis guidance](../analysis/README.md) | 描述性主分析、探索性计算和正式前瞻观测须分开 | Exploratory analysis is not newly preregistered primary inference |
 | [Historical baseline](../baseline/README.md) | 基线身份不会由后续重新采集更改 | Later reconciliations cannot rewrite historical observation time |

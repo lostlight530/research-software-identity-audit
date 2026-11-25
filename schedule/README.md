@@ -31,4 +31,4 @@ No separate numerical offset table or numbered operational timepoint list is dec
 
 The 2026-10-06–08 monitoring packages remain historical monitoring records. A later schedule clarification cannot retroactively promote them into prospective evidence. Conversely, their monitoring classification does not downgrade the formal prospective status of OSF 5b329.
 
-See the [2026-10-08 historical OSF Overview crosswalk](../contract/osf-overview-crosswalk-2026-10-08.md) and [2026-11-18 current approved-revision crosswalk](../contract/osf-approved-revision-2026-11-18.md). This documentation update does not create a new schedule declaration.
+See the [2026-10-08 historical OSF Overview crosswalk](../contract/osf-overview-crosswalk-2026-10-08.md) and [2026-11-18 current approved-revision crosswalk](../studies/osf-wa5v8/day1/contract/osf-approved-revision-2026-11-18.md). This documentation update does not create a new schedule declaration.

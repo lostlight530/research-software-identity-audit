@@ -1,0 +1,50 @@
+{
+  "record_class": "completed_contract_governance_not_new_acquisition",
+  "project": "wa5v8",
+  "registration": "5b329",
+  "reporting_date": "2026-11-24",
+  "reporting_timezone": "America/Los_Angeles",
+  "source_pr": 147,
+  "source_commit": "c84a738a6fbf7b4ed96feeaada5158f6c9bb3a3e",
+  "merge_timestamp_utc": "2026-11-24T13:23:11Z",
+  "approved_schema_response": "6afdcc3a7fb0a89b0e3dd7e4",
+  "osf_write": false,
+  "prospective_cells_added": 0,
+  "records": [
+    {
+      "source_path": "contract/osf-approved-revision-2026-11-18.md",
+      "source_commit": "c84a738a6fbf7b4ed96feeaada5158f6c9bb3a3e",
+      "source_git_blob_sha": "544650cdb91e92979869265955cb73961bb45d8c",
+      "disposition": "physically_relocated_byte_identical",
+      "current_path": "studies/osf-wa5v8/day1/contract/osf-approved-revision-2026-11-18.md"
+    },
+    {
+      "source_path": "contract/preregistration.md",
+      "source_commit": "c84a738a6fbf7b4ed96feeaada5158f6c9bb3a3e",
+      "source_git_blob_sha": "ecf920a4cab3ffaec084bea41b109d16330ada11",
+      "disposition": "live_governance_retained_pinned_day1_version",
+      "current_path": "contract/preregistration.md"
+    },
+    {
+      "source_path": "contract/known-limitations.md",
+      "source_commit": "c84a738a6fbf7b4ed96feeaada5158f6c9bb3a3e",
+      "source_git_blob_sha": "58667ebc75e4522d6d338e460569d6fd593789fe",
+      "disposition": "live_governance_retained_pinned_day1_version",
+      "current_path": "contract/known-limitations.md"
+    },
+    {
+      "source_path": "contract/osf-overview-crosswalk-2026-10-08.md",
+      "source_commit": "c84a738a6fbf7b4ed96feeaada5158f6c9bb3a3e",
+      "source_git_blob_sha": "e0b0e06f661a073e8c3560d758c42a6d5cd18f15",
+      "disposition": "live_governance_retained_pinned_day1_version",
+      "current_path": "contract/osf-overview-crosswalk-2026-10-08.md"
+    },
+    {
+      "source_path": "schedule/README.md",
+      "source_commit": "c84a738a6fbf7b4ed96feeaada5158f6c9bb3a3e",
+      "source_git_blob_sha": "6d2583f27ec85c5968859a896dd5c8a7dd7407e4",
+      "disposition": "live_governance_retained_pinned_day1_version",
+      "current_path": "schedule/README.md"
+    }
+  ]
+}

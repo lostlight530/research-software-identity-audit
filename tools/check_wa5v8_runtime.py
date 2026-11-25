@@ -33,6 +33,19 @@ def main():
             errors.append(f"relocated file missing or changed: {new}")
         if old.endswith(".jsonl") and (row["disposition"] != "byte_preserved" or row["original_git_blob_sha"] != row["relocated_git_blob_sha"]):
             errors.append(f"source ledger identity changed: {old}")
+    day1 = json.loads((PROJECT / "day1/contract/record.json").read_text(encoding="utf-8"))
+    if day1.get("source_commit") != "c84a738a6fbf7b4ed96feeaada5158f6c9bb3a3e" or day1.get("source_pr") != 147 or day1.get("reporting_date") != "2026-11-24":
+        errors.append("incorrect Day 1 contract source identity")
+    moved = [r for r in day1["records"] if r["disposition"] == "physically_relocated_byte_identical"]
+    if len(moved) != 1 or moved[0]["source_path"] != "contract/osf-approved-revision-2026-11-18.md" or moved[0]["current_path"] != "studies/osf-wa5v8/day1/contract/osf-approved-revision-2026-11-18.md":
+        errors.append("incorrect Day 1 contract relocation")
+    else:
+        row = moved[0]
+        path = ROOT / row["current_path"]
+        if (ROOT / row["source_path"]).exists() or not path.is_file() or blob(path) != row["source_git_blob_sha"]:
+            errors.append("Day 1 contract relocation lost original identity or duplicated old path")
+    if len(day1["records"]) != 5 or day1.get("prospective_cells_added") != 0:
+        errors.append("incorrect Day 1 contract scope")
     if not (PROJECT / "day1/README.md").is_file():
         errors.append("missing Day 1 navigation")
     print(json.dumps({"relocated_files": len(records), "source_ledgers": sum(r["old_path"].endswith(".jsonl") for r in records), "errors": errors, "scientific_interpretation_verified": False}, indent=2))

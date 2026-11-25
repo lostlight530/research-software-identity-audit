@@ -5,7 +5,7 @@
   "source_commit": "7197110dac7aa1ea9bbb0406c5914df3a7f1e287",
   "day0_source_label": "2026-11-24",
   "source_label_timezone": "Asia/Shanghai",
-  "day1_source_status": "NO_SEPARATE_PACIFIC_DAY1_PACKAGE_IDENTIFIED_IN_PINNED_MAIN",
+  "day1_source_status": "CONTRACT_ALIGNMENT_LOCATED_PR_147",
   "day_assignment_basis": "Owner-confirmed Pacific calendar; source acquisition and Git merge clocks for PRs 139 and 140 fall on November 23 Pacific; original source label remains November 24 Asia/Shanghai.",
   "source_prs": [
     139,
@@ -109,5 +109,6 @@
   "day1_reporting_date": "2026-11-24",
   "day2_reporting_date": "2026-11-25",
   "reporting_timezone": "America/Los_Angeles",
-  "day2_new_acquisition_owner_reported": false
+  "day2_new_acquisition_owner_reported": false,
+  "day1_contract_record": "studies/osf-wa5v8/day1/contract/record.json"
 }
