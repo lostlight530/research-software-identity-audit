@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "record_class": "APPEND_ONLY_TASK_DAY_LABEL_CORRECTION",
+  "study": "OSF_VSHWK",
+  "related_cycle_id": "cycle-2026-11-24-pst-01",
+  "correction_recorded_at_utc": "2026-11-25T11:28:20Z",
+  "authority": "Owner clarification in the current conversation",
+  "corrected_interpretation": "The Day 1 OSF task, including the recovery review and PR #148 merge, was still Day 1 when completed. The owner now identifies the current task day as Day 2. The earlier assistant incorrectly inferred a Day 2 task assignment from the Pacific calendar date changing to November 25.",
+  "task_day_semantics": "Owner-supplied operational task-day labels. They are not calendar dates, cycle identifiers, reporting-day labels, acquisition timestamps, or observation windows. A single task day may span more than one America/Los_Angeles calendar date.",
+  "day_1_activities": [
+    {
+      "activity": "Cycle 02 evidence-custody index entered main",
+      "commit": "4b91ff61a7d74d38bd43671779ad1db3d36b3369",
+      "occurred_at_utc": "2026-11-24T14:07:48Z",
+      "occurred_at_america_los_angeles": "2026-11-24T06:07:48-08:00",
+      "task_day": "DAY_1"
+    },
+    {
+      "activity": "Historical recovery review; original records not recovered through the access paths checked",
+      "reviewed_at_utc": "2026-11-25T09:35:06Z",
+      "reviewed_at_america_los_angeles": "2026-11-25T01:35:06-08:00",
+      "task_day": "DAY_1"
+    },
+    {
+      "activity": "PR #148 squash merge",
+      "pr": 148,
+      "merge_commit": "4082673c9196269dafa31c2758d59ab3b38384b2",
+      "merged_at_utc": "2026-11-25T09:36:14Z",
+      "merged_at_america_los_angeles": "2026-11-25T01:36:14-08:00",
+      "task_day": "DAY_1"
+    }
+  ],
+  "day_2": {
+    "owner_declared_current_task_day": "DAY_2",
+    "recorded_at_utc": "2026-11-25T11:28:20Z",
+    "recorded_at_america_los_angeles": "2026-11-25T03:28:20-08:00",
+    "exact_day_transition_time": null
+  },
+  "recovery_access": {
+    "original_records_recovered_during_day_1_review": false,
+    "remote_device_status": "OFFLINE",
+    "remote_device_status_scope": "The local remote-device access path was offline during the Day 1 recovery attempt, as confirmed by the owner.",
+    "exact_device_status_timestamp_utc": null,
+    "raw_device_status_output_retained_in_repository": false,
+    "interpretation": "An unavailable access path and failure to recover the listed files do not prove that the original records never existed, were destroyed, or are unavailable through every other source."
+  },
+  "custody_disposition": {
+    "status_retained": "BLOCKED_ORIGINAL_RECORDS_NOT_AVAILABLE",
+    "scope": "Records were not recovered through the access paths checked during the Day 1 review.",
+    "absence_inferred": false,
+    "primary_endpoint_attempts": null,
+    "actual_acquisition_window_utc": null
+  },
+  "unchanged_fields": {
+    "cycle_reporting_day": {
+      "date": "2026-11-24",
+      "timezone": "America/Los_Angeles"
+    },
+    "original_index_git_blob_sha": "658d4b9384f1b511eb60a36163adb9f8a349dff1",
+    "approved_osf_contract": true,
+    "manifest_v1": true,
+    "cycle_01_evidence": true
+  },
+  "day_2_observation_created": false,
+  "non_retroactivity": "This correction changes only the interpretation of the operational task-day label. It does not alter original Git commit timestamps, source evidence, acquisition clocks, cycle reporting date, frozen OSF authority, or the existing custody-gap record. No later observation is substituted or backdated."
+}
