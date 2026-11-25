@@ -15,6 +15,10 @@ def main():
     manifest = json.loads((PROJECT / "path-migration-2026-11-25.json").read_text(encoding="utf-8"))
     records = manifest["records"]
     errors = []
+    if (manifest.get("reporting_timezone") != "America/Los_Angeles" or
+            [manifest.get(f"day{i}_reporting_date") for i in range(3)] !=
+            ["2026-11-23", "2026-11-24", "2026-11-25"]):
+        errors.append("incorrect Pacific reporting calendar")
     if len(records) != 13 or len({r["old_path"] for r in records}) != 13:
         errors.append("relocation inventory must retain exactly 13 distinct original paths")
     for row in records:

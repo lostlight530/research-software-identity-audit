@@ -1,3 +1,5 @@
-# Day 1 — wa5v8
+# Day 1 — wa5v8 — 2026-11-24 Pacific
 
-Reserved for the owner-identified November 25 operational material. The pre-migration main tree did not contain a separate `monitoring/2026-11-25/` or `evidence/2026-11-25/` package. No source content is manufactured or imported from another study. This navigation entry is not evidence of completed acquisition, failure, or absence outside the checked tree. Original materials may be archived here when located with their actual provenance.
+The shared owner-confirmed daily calendar assigns November 24 Pacific to Day 1. No independent wa5v8 acquisition package dated November 24 Pacific was identified in the pinned pre-migration GitHub main tree. The November 24 Asia/Shanghai-labelled packages belong to Day 0 because their actual capture and GitHub merge timestamps fall on November 23 Pacific. This is a navigation entry only, not an assertion of a completed or failed acquisition or absence outside the checked repository. Preserve any later recovered original material with its actual provenance.
+
+November 25 Pacific is Day 2; the owner confirms neither OSF project has new acquisition material for that date as of this review. Do not treat maintenance as acquisition.

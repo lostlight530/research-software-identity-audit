@@ -2,6 +2,10 @@
 
 The public repository `lostlight530/research-software-identity-audit` is the only mutable research-control/evidence repository in this workflow. The ten fixed source repositories and all external scholarly platforms remain read-only research targets.
 
+## Shared daily workspace calendar
+
+Owner-confirmed reporting timezone: `America/Los_Angeles`. Day 0 = 2026-11-23; Day 1 = 2026-11-24; Day 2 = 2026-11-25. The same calendar applies to both independent projects. Original source labels (including Asia/Shanghai dates), acquisition clocks, and Git timestamps remain unchanged. Later maintenance, migration, CI, and documentation are not new research acquisitions. The owner confirms neither project has a new research acquisition on Day 2 at this review. This calendar clarification supersedes the operational task-day interpretation in PR #149 for daily folder attribution only; it does not alter historical records or scientific eligibility.
+
 ## Study 1 — Research software identity propagation
 
 - Registration: [OSF 5b329](https://osf.io/5b329/) · DOI [10.17605/OSF.IO/5B329](https://doi.org/10.17605/OSF.IO/5B329)
@@ -13,7 +17,7 @@ The public repository `lostlight530/research-software-identity-audit` is the onl
 - Registered timing rule: begin after the first eligible post-registration fixed-corpus release event; observe at predefined follow-up points; stop after the final preregistered point has been attempted across all ten objects and six layers. Failed or unresolved attempts do not extend the window
 - The 2026-11-18 approved revision explicitly makes no change to the observation schedule. The current structured response does not enumerate numerical offsets; this operational-detail boundary does **not** downgrade the formal OSF prospective registration
 - Public project: [OSF wa5v8](https://osf.io/wa5v8/overview)
-- Daily operational runtime: [wa5v8 Day folders](osf-wa5v8/README.md). Root-level `contract/`, earlier `monitoring/`, earlier `evidence/`, and conditional `observations/` retain established governance and historical paths; the November 24 packages have been relocated with an explicit map.
+- Daily operational runtime: [wa5v8 Day folders](osf-wa5v8/README.md). Root-level `contract/`, earlier `monitoring/`, earlier `evidence/`, and conditional `observations/` retain established governance and historical paths; the original Asia/Shanghai November 24 packages (Pacific Day 0) have been relocated with an explicit map.
 - Monitoring/diagnostic records remain a distinct evidence class and are not silently promoted into the prospective dataset
 - Current authority crosswalk: [2026-11-18 approved revision](../contract/osf-approved-revision-2026-11-18.md)
 

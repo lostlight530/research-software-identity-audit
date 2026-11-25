@@ -1,6 +1,6 @@
-# Day 0 — wa5v8
+# Day 0 — wa5v8 — 2026-11-23 Pacific
 
-Operational archive of the owner-identified November 24 materials (PRs [#139](https://github.com/lostlight530/research-software-identity-audit/pull/139) and [#140](https://github.com/lostlight530/research-software-identity-audit/pull/140)). Day numbering is a workspace label, not a scheduled study timepoint. The original source label is 2026-11-24 Asia/Shanghai; original acquisition UTC timestamps and original record classifications are preserved. Both packages belong to the same source-date archive; the supplementary reads are not a second daily run.
+PRs [#139](https://github.com/lostlight530/research-software-identity-audit/pull/139) and [#140](https://github.com/lostlight530/research-software-identity-audit/pull/140) merged on 2026-11-23 at 08:30:21 and 08:43:56 PST respectively. Their original source folder label is 2026-11-24 Asia/Shanghai; actual source capture and follow-up also occurred on November 23 Pacific. Keep the original source label and acquisition UTC clocks. Both packages belong to Day 0; the supplementary reads are not a separate daily run.
 
 - [Monitoring](monitoring/README.md)
 - [Evidence](evidence/README.md)
