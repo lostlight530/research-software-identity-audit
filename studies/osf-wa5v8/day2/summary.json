@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "record_class": "INDEPENDENT_DAY2_BOUNDED_DIAGNOSTIC_NOT_SCHEDULED_PROSPECTIVE",
+  "study": "OSF_5B329",
+  "project": "wa5v8",
+  "task_day": "DAY_2",
+  "reporting_day": "2026-11-25",
+  "reporting_timezone": "America/Los_Angeles",
+  "current_approved_osf_response": "6afdcc3a7fb0a89b0e3dd7e4",
+  "precollection_declaration": "studies/osf-wa5v8/day2/precollection-declaration.json",
+  "actual_collector_window_utc": {
+    "start": "2026-11-25T13:37:24.215Z",
+    "end": "2026-11-25T13:39:29.001Z",
+    "precision": "per-source connector invocation or bounded batch envelope, not provider acquisition clock"
+  },
+  "design": {
+    "fixed_corpus_count": 10,
+    "preregistered_layers": 6,
+    "operational_platforms": 7,
+    "analytical_units_per_eligible_timepoint": 60,
+    "potential_object_platform_checks": 70,
+    "study_control_repo_is_not_rs11": true
+  },
+  "day2_independence": {
+    "day1_input_records_used": 0,
+    "day0_input_metrics_used": 0,
+    "previous_observation_imputed": false,
+    "research_event": "new researcher-requested bounded review; not a new OSF registration"
+  },
+  "observed_check_rows": {
+    "total": 81,
+    "github_main_heads": 10,
+    "github_latest_nonprerelease_releases": 10,
+    "github_pinned_citation_metadata": 10,
+    "zenodo_concept_query": 10,
+    "datacite_doi_query": 10,
+    "openaire_scoped_query": 10,
+    "openalex_doi_query": 10,
+    "swh_origin_query": 10,
+    "orcid_shared_work_query": 1,
+    "not_a_count_of_preregistered_observations": true
+  },
+  "github": {
+    "main_sha_identified": 10,
+    "latest_release_identified": 10,
+    "latest_release_tags": [
+      "v2026.11-twenty-day-evidence-checkpoint"
+    ],
+    "latest_release_publish_times_utc": [
+      {
+        "object_id": "RS01",
+        "published_at": "2026-11-20T04:55:43Z"
+      },
+      {
+        "object_id": "RS02",
+        "published_at": "2026-11-20T04:55:40Z"
+      },
+      {
+        "object_id": "RS03",
+        "published_at": "2026-11-20T04:55:33Z"
+      },
+      {
+        "object_id": "RS04",
+        "published_at": "2026-11-20T04:55:36Z"
+      },
+      {
+        "object_id": "RS05",
+        "published_at": "2026-11-20T04:55:47Z"
+      },
+      {
+        "object_id": "RS06",
+        "published_at": "2026-11-20T04:55:29Z"
+      },
+      {
+        "object_id": "RS07",
+        "published_at": "2026-11-20T04:55:22Z"
+      },
+      {
+        "object_id": "RS08",
+        "published_at": "2026-11-20T04:55:25Z"
+      },
+      {
+        "object_id": "RS09",
+        "published_at": "2026-11-20T04:55:19Z"
+      },
+      {
+        "object_id": "RS10",
+        "published_at": "2026-11-20T04:55:50Z"
+      }
+    ],
+    "release_eligibility_under_formal_schedule_not_established": true
+  },
+  "citation": {
+    "pinned_source_doi_links": [
+      {
+        "id": "RS01",
+        "concept_doi": "10.5281/zenodo.22790907",
+        "pinned_source_commit": "c70431a36a2fb57960a17e4ac9aee593ee787ea8",
+        "citation_git_blob_sha": "306728bef7e58a2fbcbaa647dbbb91917bc62b49"
+      },
+      {
+        "id": "RS02",
+        "concept_doi": "10.5281/zenodo.22791081",
+        "pinned_source_commit": "c7ddd749541fe0892431dee2f76ec72b9d026a08",
+        "citation_git_blob_sha": "01a03cf00248d851ff663a12afba98523c2962ec"
+      },
+      {
+        "id": "RS03",
+        "concept_doi": "10.5281/zenodo.22791103",
+        "pinned_source_commit": "32dbdf1e1512ce54616993eaa56d5f891a67e495",
+        "citation_git_blob_sha": "21fbd335ab846a7a1412f0d4603b10fa8a476664"
+      },
+      {
+        "id": "RS04",
+        "concept_doi": "10.5281/zenodo.22791141",
+        "pinned_source_commit": "5aabe1c718e28296751d566c87e0b10ccb58217b",
+        "citation_git_blob_sha": "8442059cc888ad87a1a17286fe7db46f9b2ca8d5"
+      },
+      {
+        "id": "RS05",
+        "concept_doi": "10.5281/zenodo.22791169",
+        "pinned_source_commit": "4e9d81ca281d634d50b732831e42973ab3edf63c",
+        "citation_git_blob_sha": "20d1156bf18e22a81c46eb6032a8b5b1c92d1606"
+      },
+      {
+        "id": "RS06",
+        "concept_doi": "10.5281/zenodo.22791404",
+        "pinned_source_commit": "f8459a6f64f9eda161030abf228761c5ba28d355",
+        "citation_git_blob_sha": "a2c975d53fccde1b87f960098e3c5e49dd12907e"
+      },
+      {
+        "id": "RS07",
+        "concept_doi": "10.5281/zenodo.22791463",
+        "pinned_source_commit": "1576cd00e08c45788058784c4258c71debfb30ed",
+        "citation_git_blob_sha": "46f8a99e57b00c1ba30495aa5c712225e66a64bd"
+      },
+      {
+        "id": "RS08",
+        "concept_doi": "10.5281/zenodo.22791375",
+        "pinned_source_commit": "0f16b47d1794b56eecd1052f57041b84bedbfcf1",
+        "citation_git_blob_sha": "d1e3c3b59fb7283b9b74ee7fbdc1bb54694b7895"
+      },
+      {
+        "id": "RS09",
+        "concept_doi": "10.5281/zenodo.22791309",
+        "pinned_source_commit": "23feb9ddc451a667af42791c2b075dd5f9d1b7d4",
+        "citation_git_blob_sha": "8634fba8a65e30ade14d228afaeae56de30a8db0"
+      },
+      {
+        "id": "RS10",
+        "concept_doi": "10.5281/zenodo.22791334",
+        "pinned_source_commit": "ebce9e8d13f92417e1317a32b302948e39c595a1",
+        "citation_git_blob_sha": "76004c5934da73099c6cdaf708c059852a3e4739"
+      }
+    ],
+    "concept_doi_vs_version_doi_separate": true
+  },
+  "zenodo": {
+    "bounded_requests": 10,
+    "matching_concept_doi_excerpts": 10,
+    "returned_version_record_id_excerpts": 10,
+    "derived_crosswalk": "studies/osf-wa5v8/day2/zenodo-current-identity-crosswalk.json",
+    "provider_origin_http_bytes_retained": false
+  },
+  "datacite": {
+    "queries": 10,
+    "full_exact_doi_visible_in_retained_excerpt": 8,
+    "truncated_or_other_excerpt_unverified": 2
+  },
+  "openaire": {
+    "scoped_queries": 10,
+    "scoped_total_one_visible_in_excerpt": 8,
+    "scoped_total_unknown_in_excerpt": 2,
+    "zero_not_global_absence": true
+  },
+  "openalex": {
+    "scoped_queries": 10,
+    "exact_citation_doi_visible_in_excerpts": 10,
+    "work_record_not_equivalent_to_live_source_or_adoption": true
+  },
+  "software_heritage": {
+    "origin_queries": 10,
+    "documentation_style_fragments": 10,
+    "actual_structured_live_visit_verified": 0,
+    "absence_inferred": false
+  },
+  "orcid": {
+    "public_works_query_attempts": 1,
+    "source_representation": "partial extracted works, not exhaustive per-object lineage",
+    "all_ten_object_work_links_verified": false
+  },
+  "evidence_files": [
+    {
+      "path": "studies/osf-wa5v8/day2/evidence/github-fixed-corpus-rs01-rs05.jsonl",
+      "row_count": 10
+    },
+    {
+      "path": "studies/osf-wa5v8/day2/evidence/github-fixed-corpus-rs06-rs10.jsonl",
+      "row_count": 10
+    },
+    {
+      "path": "studies/osf-wa5v8/day2/evidence/pinned-citation-doi-attempts.jsonl",
+      "row_count": 10
+    },
+    {
+      "path": "studies/osf-wa5v8/day2/evidence/zenodo-datacite-current-attempts.jsonl",
+      "row_count": 20
+    },
+    {
+      "path": "studies/osf-wa5v8/day2/evidence/openaire-openalex-discovery-attempts.jsonl",
+      "row_count": 20
+    },
+    {
+      "path": "studies/osf-wa5v8/day2/evidence/swh-orcid-source-attempts.jsonl",
+      "row_count": 11
+    }
+  ],
+  "evidence_limitations": [
+    "GitHub connector returns selected normalized fields; original provider HTTP status/body are not retained",
+    "Public web extractor snippets are not original Zenodo/DataCite/OpenAIRE/OpenAlex/ORCID/SWH provider HTTP receipts",
+    "Software Heritage documentation snippets cannot be promoted into actual visit results",
+    "OpenAIRE and OpenAlex discovery types are distinct, discovery does not imply adoption",
+    "No Day 0 / Day 1 counts were carried forward or compared as new measurements",
+    "The latest released tag is an endpoint-local result, not sufficient to assert formal scheduled observation eligibility"
+  ],
+  "prospective_cells_added": 0,
+  "formal_scheduled_day2_timepoint_declared": false,
+  "new_osf_write": false,
+  "new_release_created": false,
+  "disposition": "DAY2_INDEPENDENT_DIAGNOSTIC_RETAINED_NO_UNSUPPORTED_PROSPECTIVE_PROMOTION"
+}

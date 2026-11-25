@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "study": "OSF_5B329",
+  "day": "DAY_2",
+  "derived_from": "studies/osf-wa5v8/day2/evidence/zenodo-datacite-current-attempts.jsonl",
+  "derived_at_utc": "2026-11-25T13:41:48.636Z",
+  "role": "bounded current concept-DOI to returned version-record source projection; not a new stable release or new DOI",
+  "rows": [
+    {
+      "object_id": "RS01",
+      "queried_concept_doi": "10.5281/zenodo.22790907",
+      "observed_concept_doi": "10.5281/zenodo.22790907",
+      "observed_record_id": "24387218",
+      "observed_version_doi": "10.5281/zenodo.24387218",
+      "record_identity_verified_within_excerpt": true,
+      "source_locator": "https://zenodo.org/api/records/22790907"
+    },
+    {
+      "object_id": "RS02",
+      "queried_concept_doi": "10.5281/zenodo.22791081",
+      "observed_concept_doi": "10.5281/zenodo.22791081",
+      "observed_record_id": "24387215",
+      "observed_version_doi": "10.5281/zenodo.24387215",
+      "record_identity_verified_within_excerpt": true,
+      "source_locator": "https://zenodo.org/api/records/22791081"
+    },
+    {
+      "object_id": "RS03",
+      "queried_concept_doi": "10.5281/zenodo.22791103",
+      "observed_concept_doi": "10.5281/zenodo.22791103",
+      "observed_record_id": "24387213",
+      "observed_version_doi": "10.5281/zenodo.24387213",
+      "record_identity_verified_within_excerpt": true,
+      "source_locator": "https://zenodo.org/api/records/22791103"
+    },
+    {
+      "object_id": "RS04",
+      "queried_concept_doi": "10.5281/zenodo.22791141",
+      "observed_concept_doi": "10.5281/zenodo.22791141",
+      "observed_record_id": "24387214",
+      "observed_version_doi": "10.5281/zenodo.24387214",
+      "record_identity_verified_within_excerpt": true,
+      "source_locator": "https://zenodo.org/api/records/22791141"
+    },
+    {
+      "object_id": "RS05",
+      "queried_concept_doi": "10.5281/zenodo.22791169",
+      "observed_concept_doi": "10.5281/zenodo.22791169",
+      "observed_record_id": "24387219",
+      "observed_version_doi": "10.5281/zenodo.24387219",
+      "record_identity_verified_within_excerpt": true,
+      "source_locator": "https://zenodo.org/api/records/22791169"
+    },
+    {
+      "object_id": "RS06",
+      "queried_concept_doi": "10.5281/zenodo.22791404",
+      "observed_concept_doi": "10.5281/zenodo.22791404",
+      "observed_record_id": "24387210",
+      "observed_version_doi": "10.5281/zenodo.24387210",
+      "record_identity_verified_within_excerpt": true,
+      "source_locator": "https://zenodo.org/api/records/22791404"
+    },
+    {
+      "object_id": "RS07",
+      "queried_concept_doi": "10.5281/zenodo.22791463",
+      "observed_concept_doi": "10.5281/zenodo.22791463",
+      "observed_record_id": "24387208",
+      "observed_version_doi": "10.5281/zenodo.24387208",
+      "record_identity_verified_within_excerpt": true,
+      "source_locator": "https://zenodo.org/api/records/22791463"
+    },
+    {
+      "object_id": "RS08",
+      "queried_concept_doi": "10.5281/zenodo.22791375",
+      "observed_concept_doi": "10.5281/zenodo.22791375",
+      "observed_record_id": "24387209",
+      "observed_version_doi": "10.5281/zenodo.24387209",
+      "record_identity_verified_within_excerpt": true,
+      "source_locator": "https://zenodo.org/api/records/22791375"
+    },
+    {
+      "object_id": "RS09",
+      "queried_concept_doi": "10.5281/zenodo.22791309",
+      "observed_concept_doi": "10.5281/zenodo.22791309",
+      "observed_record_id": "24387207",
+      "observed_version_doi": "10.5281/zenodo.24387207",
+      "record_identity_verified_within_excerpt": true,
+      "source_locator": "https://zenodo.org/api/records/22791309"
+    },
+    {
+      "object_id": "RS10",
+      "queried_concept_doi": "10.5281/zenodo.22791334",
+      "observed_concept_doi": "10.5281/zenodo.22791334",
+      "observed_record_id": "24387220",
+      "observed_version_doi": "10.5281/zenodo.24387220",
+      "record_identity_verified_within_excerpt": true,
+      "source_locator": "https://zenodo.org/api/records/22791334"
+    }
+  ]
+}
