@@ -6,7 +6,7 @@
 
 ## 1. Exact GitHub delta: substantial engineering maintenance, no new scholarly release
 
-All eleven independently connected GitHub `main` branches, Open PR lists and published Release lists were read. Compared with the previous [pinned eleven-ref ledger](../../../docs/research-core-main-heads-2026-10-31.csv):
+All eleven independently connected GitHub `main` branches, Open PR lists and published Release lists were read. Compared with the previous [pinned eleven-ref ledger](../../../docs/history/inventory-ledgers/research-core-main-heads-2026-10-31.csv):
 
 - **10/10 fixed sample source `main` SHAs changed**, each strictly ahead of its previous SHA with **0 behind**; the [individual compare ledger](github-main-deltas.csv) contains all original/current 40-character SHAs, ten compare URLs, timestamps, 109 accumulated additional *main-reachable Git commits* and 44 affected file paths counted per-repository two-tree diff. Those 44 path differences are **not** 44 new release artifacts, DOI records or independent objects
 - Latest new `main` commits were **2026-10-31 14:51–14:52 UTC** (22:51–22:52 Asia/Shanghai). Checked diffs concern research daily/monthly manifests, historical audit/source-custody notes, relations, errata and maintenance documentation. The exact commits and paths are in GitHub compare results, not merely inferred from an Actions success signal
@@ -33,7 +33,7 @@ External extractor calls were executed on October 31 within **15:10:31–15:11:5
 
 ## 3. Existing 34 surface inventory — access-status comparison only
 
-An independent evening fetch of the [exact 34 existing representative URLs](surface-access-recheck.csv) occurred in a client tool envelope **2026-10-31T15:09:44.408Z–15:10:21.760Z**. It returned **2 connected current GitHub structured reads, 2 Oct 31 UTC-day extracted representations, 24 older cached/day-labeled representations and 6 access failures**. These are the **same access classes** as the immediately preceding [independent access ledger](../../../docs/research-independent-34-surface-access-2026-10-31.csv), not proof that underlying source content never changed.
+An independent evening fetch of the [exact 34 existing representative URLs](surface-access-recheck.csv) occurred in a client tool envelope **2026-10-31T15:09:44.408Z–15:10:21.760Z**. It returned **2 connected current GitHub structured reads, 2 Oct 31 UTC-day extracted representations, 24 older cached/day-labeled representations and 6 access failures**. These are the **same access classes** as the immediately preceding [independent access ledger](../../../docs/history/diagnostic-and-closeout-reviews/research-independent-34-surface-access-2026-10-31.csv), not proof that underlying source content never changed.
 
 The six failures remain explicitly retained: ScreenIT ASWG connection error, dkNET 404, InterLex 404, EDAM fetch/extraction error despite HTTP 200, Identifiers.org 404 and N2T 403. HAL returns an anti-bot page, not a HAL metadata confirmation. The **34 rows include identity registries, services, resolvers and standards**, not 34 independent scientific institutions or complete checks of every research object.
 

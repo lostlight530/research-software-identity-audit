@@ -38,7 +38,7 @@ Public upstream interaction status: [RSD #1870](https://github.com/research-soft
 
 ## First day → last checked day: bounded longitudinal engineering history
 
-Retrospective reading of the [complete current `main` commit list](https://api.github.com/repos/lostlight530/research-software-identity-audit/commits?sha=main&per_page=100) yielded **91 main-reachable commits**, from `e5ba0a0e` on **2026-10-05T14:59:46Z** through `6546c9de` on **2026-10-29T16:11:49Z** (October 30 Beijing). These are **Git committer timestamps**, not captured historical API responses, unique experiments, PR counts or evidence objects. This extends the [as-of Oct 28 pinned 87-commit historical audit](../../../docs/control-repository-lifecycle-audit-through-2026-10-28.md) without altering its cutoff.
+Retrospective reading of the [complete current `main` commit list](https://api.github.com/repos/lostlight530/research-software-identity-audit/commits?sha=main&per_page=100) yielded **91 main-reachable commits**, from `e5ba0a0e` on **2026-10-05T14:59:46Z** through `6546c9de` on **2026-10-29T16:11:49Z** (October 30 Beijing). These are **Git committer timestamps**, not captured historical API responses, unique experiments, PR counts or evidence objects. This extends the [as-of Oct 28 pinned 87-commit historical audit](../../../docs/history/inventory-ledgers/control-repository-lifecycle-audit-through-2026-10-28.md) without altering its cutoff.
 
 | Beijing-local period | Source-grounded sequence |
 | --- | --- |

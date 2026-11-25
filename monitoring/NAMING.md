@@ -69,7 +69,7 @@ An audit of the *current checked-out tree* found 35 dated monitoring event direc
 
 ## November 3 first-day-to-current classification and derived-column correction (forward rule)
 
-The [dated full-history classification](../docs/research-control-first-day-to-current-governance-audit-2026-11-03.md) pins **104 reachable main commits / 620 pre-audit tracked files / 58 dated monitoring event directories / 20 dated evidence companions** to main `b6aa40231bcba62da98e089673652839952118cf`. These are snapshots, **not** continuously refreshed counts or a study denominator. The complete [file owner/name/temporal-policy index](../docs/research-control-file-ownership-snapshot-2026-11-03.csv) is path-level evidence and must not be cited as a manual body/content audit of every file.
+The [dated full-history classification](../docs/history/inventory-ledgers/research-control-first-day-to-current-governance-audit-2026-11-03.md) pins **104 reachable main commits / 620 pre-audit tracked files / 58 dated monitoring event directories / 20 dated evidence companions** to main `b6aa40231bcba62da98e089673652839952118cf`. These are snapshots, **not** continuously refreshed counts or a study denominator. The complete [file owner/name/temporal-policy index](../docs/history/inventory-ledgers/research-control-file-ownership-snapshot-2026-11-03.csv) is path-level evidence and must not be cited as a manual body/content audit of every file.
 
 **Forward naming and semantic normalization:**
 

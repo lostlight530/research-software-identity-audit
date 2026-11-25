@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "source_commit": "08acf3c79e5cdfbf5dc595b5047de3005041ab3b",
+  "source_file_followups": [
+    {
+      "endpoint_id": "L1-A-workflow",
+      "method": "pinned GitHub file follow-up, same repository path and observed source main SHA",
+      "source_url": "https://github.com/lostlight530/welcome-to-github/blob/c70431a36a2fb57960a17e4ac9aee593ee787ea8/.github/workflows/nexus-life-cycle.yml",
+      "start_utc": "2026-11-25T13:40:04.229Z",
+      "end_utc": "2026-11-25T13:40:04.819Z",
+      "retrieval_state": "RESPONSE_COMPLETE",
+      "source_revision": "c70431a36a2fb57960a17e4ac9aee593ee787ea8",
+      "workflow_git_blob_sha": "85017c64e2f1197a588ce7cc1fbbb3f484f8b08c",
+      "workflow_path": ".github/workflows/nexus-life-cycle.yml",
+      "workflow_definition_present": true,
+      "workflow_execution_verified": false,
+      "origin_http_status": null,
+      "error": null
+    },
+    {
+      "endpoint_id": "L1-B-workflow",
+      "method": "pinned GitHub file follow-up, same repository path and observed source main SHA",
+      "source_url": "https://github.com/lostlight530/zero-entropy-lab/blob/c7ddd749541fe0892431dee2f76ec72b9d026a08/.github/workflows/nexus-life-cycle.yml",
+      "start_utc": "2026-11-25T13:40:04.229Z",
+      "end_utc": "2026-11-25T13:40:04.818Z",
+      "retrieval_state": "RESPONSE_COMPLETE",
+      "source_revision": "c7ddd749541fe0892431dee2f76ec72b9d026a08",
+      "workflow_git_blob_sha": "9f7c430fa244e3e772b802a963d7e2e434820195",
+      "workflow_path": ".github/workflows/nexus-life-cycle.yml",
+      "workflow_definition_present": true,
+      "workflow_execution_verified": false,
+      "origin_http_status": null,
+      "error": null
+    }
+  ],
+  "actions_exact_url_followups": [
+    {
+      "endpoint_id": "L6-A-actions",
+      "source_url": "https://api.github.com/repos/lostlight530/welcome-to-github/actions/workflows/nexus-life-cycle.yml/runs?per_page=20",
+      "attempt_start_utc": "2026-11-25T13:40:04.819Z",
+      "attempt_end_utc": "2026-11-25T13:40:11.886Z",
+      "collector": "mcp__Parallel__web_fetch; supplemental after GitHub connector URL rejection",
+      "retrieval_state": "RESPONSE_PARTIAL",
+      "origin_http_body_retained": false,
+      "origin_http_status": null,
+      "excerpts": [
+        "{\n  \"total_count\": 840,\n  \"workflow_runs\": [\n    {\n      \"id\": 45549148507,\n      \"name\": \"NEXUS CORTEX Life Cycle\",\n      \"node_id\": \"WFR_kwLOOgjkAs8AAAAKmvDZWw\",\n      \"head_branch\": \"main\",\n      \"head_sha\": \"19680bbed54da4e2b5b45a605ca68556b96cc499\",\n      \"path\": \".github/workflows/nexus-life-cycle.yml\",\n\"display_title\": \"NEXUS CORTEX Life Cycle\",\n      \"run_number\": 900,\n      \"event\": \"schedule\",\n      \"status\": \"completed\",\n      \"conclusion\": \"success\",\n      \"workflow_id\": 243437551,\n      \"check_suite_id\": 123245620474,\n      \"check_suite_node_id\": \"CS_kwDOOgjkAs8AAAAcsgLs-g\",\n      \"url\":\n\n...\n\n\"head_sha\": \"aebb350e639e51f71493f8334649387bdc219698\",\n      \"path\": \".github/workflows/nexus-life-cycle.yml\",\n      \"display_title\": \"NEXUS CORTEX Life Cycle\",\n      \"run_number\": 899,\n      \"event\": \"schedule\",\n      \"status\": \"completed\",\n      \"conclusion\": \"success\",\n      \"workflow_id\": 243437551,\n      \"check_suite_id\": 122673142813,\n\n...\n\n\"head_sha\": \"d9f21644a8ad3bda81fd1610df007c01558a599b\",\n      \"path\": \".github/workflows/nexus-life-cycle.yml\",\n      \"display_title\": \"NEXUS CORTEX Life Cycle\",\n      \"run_number\": 898,\n      \"event\": \"schedule\",\n      \"status\": \"completed\",\n      \"conclusion\": \"success\",\n      \"workflow_id\": 243437551,\n      \"check_suite_id\": 122044979190,\n\n...\n\n\"head_sha\": \"d9f21644a8ad3bda81fd1610df007c01558a599b\",\n      \"path\": \".github/workflows/nexus-life-cycle.yml\",\n      \"display_title\": \"Merge pull request #1039 from lostlight530/fix/2026-11-22-nexus-sourc…\",\n      \"run_number\": 897,\n      \"event\": \"push\",\n      \"status\": \"completed\",\n      \"conclusion\": \"success\",\n\n...\n\n\"https://api.github.com/repos/lostlight530/welcome-to-github/actions/workflows/243437551\",\n      \"head_commit\": {\n        \"id\": \"d9f21644a8ad3bda81fd1610df007c01558a599b\",\n        \"tree_id\": \"d8fe307a5182ff104f12198a6430d15c80391f1c\",\n\n...\n\n\".github/workflows/nexus-life-cycle.yml\",\n      \"display_title\": \"fix(nexus): explicit verified-cache 404 guard (dormant for current sources)\",\n      \"run_number\": 896,\n      \"event\": \"pull_request\",\n      \"status\": \"completed\",\n      \"conclusion\": \"success\",\n      \"workflow_id\": 243437551,\n      \"check_suite_id\": 121861"
+      ],
+      "extractor_error": null,
+      "workflow_run_count_verified": null,
+      "workflow_execution_verified": false,
+      "absence_inferred": false
+    },
+    {
+      "endpoint_id": "L6-B-actions",
+      "source_url": "https://api.github.com/repos/lostlight530/zero-entropy-lab/actions/workflows/nexus-life-cycle.yml/runs?per_page=20",
+      "attempt_start_utc": "2026-11-25T13:40:04.819Z",
+      "attempt_end_utc": "2026-11-25T13:40:11.886Z",
+      "collector": "mcp__Parallel__web_fetch; supplemental after GitHub connector URL rejection",
+      "retrieval_state": "RESPONSE_PARTIAL",
+      "origin_http_body_retained": false,
+      "origin_http_status": null,
+      "excerpts": [
+        "{\n  \"total_count\": 615,\n  \"workflow_runs\": [\n    {\n      \"id\": 45548254443,\n      \"name\": \"NEXUS CORTEX Life Cycle\",\n      \"node_id\": \"WFR_kwLORl1wBc8AAAAKmuM06w\",\n      \"head_branch\": \"main\",\n      \"head_sha\": \"222b055f6ac010a302bbdb4e77a8b98df995d382\",\n      \"path\": \".github/workflows/nexus-life-cycle.yml\",\n\"display_title\": \"NEXUS CORTEX Life Cycle\",\n      \"run_number\": 679,\n      \"event\": \"schedule\",\n      \"status\": \"completed\",\n      \"conclusion\": \"success\",\n      \"workflow_id\": 245525083,\n      \"check_suite_id\": 123243253195,\n      \"check_suite_node_id\": \"CS_kwDORl1wBc8AAAAcsd7Nyw\",\n      \"url\":\n\n...\n\n\"https://api.github.com/repos/lostlight530/zero-entropy-lab/releases{/id}\",\n        \"deployments_url\": \"https://api.github.com/repos/lostlight530/zero-entropy-lab/deployments\"\n      }\n    },\n    {\n      \"id\": 45340796990,\n      \"name\": \"NEXUS CORTEX Life Cycle\",\n      \"node_id\": \"WFR_kwLORl1wBc8AAAAKjoWoPg\",\n      \"head_branch\": \"research/ballast-2026-11-24\",\n\"head_sha\": \"64b3458b7893df3c28da8c292792099962ab62c3\",\n      \"path\": \".github/workflows/nexus-life-cycle.yml\",\n      \"display_title\": \"review(ballast): native Node S3 delete verifier coverage and evidence\",\n      \"run_number\": 678,\n      \"event\": \"push\",\n      \"status\": \"completed\",\n      \"conclusion\": \"success\",\n\n...\n\n\"head_sha\": \"9be6ddb667d4ae4b26ea27c49be57a154991525e\",\n      \"path\": \".github/workflows/nexus-life-cycle.yml\",\n      \"display_title\": \"NEXUS CORTEX Life Cycle\",\n      \"run_number\": 677,\n      \"event\": \"schedule\",\n      \"status\": \"completed\",\n      \"conclusion\": \"success\",\n      \"workflow_id\": 245525083,\n      \"check_suite_id\": 122671506308,\n\n...\n\n\"head_sha\": \"90130be6ebd6584eac38d1aa5d56b088d059f8a3\",\n      \"path\": \".github/workflows/nexus-life-cycle.yml\",\n      \"display_title\": \"review(ballast): persist bounded effect-set replay and repair monthly…\",\n      \"run_number\": 676,\n      \"event\": \"push\",\n      \"status\": \"completed\",\n      \"conclusion\": \"success\",\n\n...\n\n\"head_sha\": \"2e5198f9336678a8397463a4e5a1739ce4669a8f\",\n      \"path\": \".github/workflows/nexus-life-cycle.yml\",\n      \"display_title\": \"NEXUS CORTEX Life Cycle\",\n      \"run_number\": 675,\n      \"event\": \"schedule\",\n      \"status\":"
+      ],
+      "extractor_error": null,
+      "workflow_run_count_verified": null,
+      "workflow_execution_verified": false,
+      "absence_inferred": false
+    }
+  ]
+}

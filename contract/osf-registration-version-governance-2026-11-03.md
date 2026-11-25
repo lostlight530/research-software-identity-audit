@@ -67,6 +67,6 @@ The independently retained [October 30 version comparison](../monitoring/2026-10
 - Original/revised [dated source overview](../monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/README.md)
 - Existing [clause-level initial crosswalk](osf-overview-crosswalk-2026-10-08.md) remains an as-of-October-8 artifact, **not** silently rewritten to pretend it already knew the later verified version history
 - [Canonical local contract mapping](preregistration.md) / [known limits](known-limitations.md) / [operational schedule](../schedule/README.md)
-- [November 3 first-day-to-current Git provenance and file taxonomy](../docs/research-control-first-day-to-current-governance-audit-2026-11-03.md)
+- [November 3 first-day-to-current Git provenance and file taxonomy](../docs/history/inventory-ledgers/research-control-first-day-to-current-governance-audit-2026-11-03.md)
 
 No frozen registration, historical raw evidence, metadata archive, Git tag, previous correction, schema, baseline, study corpus or prospective observation is changed by this documentation.

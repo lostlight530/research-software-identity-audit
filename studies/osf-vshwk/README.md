@@ -64,3 +64,4 @@ This Study 2 namespace is inside the existing CONTROL repository. It is not a tw
 4. [Prospective cycle ledger and SOP](cycles/README.md)
 5. [Reusable cycle record template](cycles/record-template.md)
 6. [Cycle 01 — full report and conclusion](cycles/cycle-2026-11-23-pst-01/README.md)
+7. [Day 2 — new independent full-scope review](day2/README.md) and [Cycle 2026-11-25 bounded report](cycles/cycle-2026-11-25-pst-01/README.md); Day 1 is only a format reference, while the historical November 24 custody gap retains its separate unresolved status

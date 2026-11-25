@@ -4,7 +4,7 @@ The public repository `lostlight530/research-software-identity-audit` is the onl
 
 ## Shared daily workspace calendar
 
-Owner-confirmed reporting timezone: `America/Los_Angeles`. Day 0 = 2026-11-23; Day 1 = 2026-11-24; Day 2 = 2026-11-25. The same calendar applies to both independent projects. Original source labels (including Asia/Shanghai dates), acquisition clocks, and Git timestamps remain unchanged. Later maintenance, migration, CI, and documentation are not new research acquisitions. The owner confirms neither project has a new research acquisition on Day 2 at this review. This calendar clarification supersedes the operational task-day interpretation in PR #149 for daily folder attribution only; it does not alter historical records or scientific eligibility.
+Owner-confirmed reporting timezone: `America/Los_Angeles`. Day 0 = 2026-11-23; Day 1 = 2026-11-24; Day 2 = 2026-11-25. The same calendar applies to both independent projects. Original source labels (including Asia/Shanghai dates), acquisition clocks, and Git timestamps remain unchanged. Later maintenance, migration, CI, and documentation are not new research acquisitions. At the earlier pre-acquisition review the owner confirmed no new Day 2 acquisition **yet**. Subsequent fresh, independently recorded Day 2 checks now exist under both study namespaces; this does not backdate an earlier acquisition or promote diagnostics to formal prospective cells. This calendar clarification supersedes the operational task-day interpretation in PR #149 for daily folder attribution only; it does not alter historical records or scientific eligibility.
 
 ## Study 1 — Research software identity propagation
 
@@ -20,6 +20,7 @@ Owner-confirmed reporting timezone: `America/Los_Angeles`. Day 0 = 2026-11-23; D
 - Daily operational runtime: [wa5v8 Day folders](osf-wa5v8/README.md). Root-level `contract/`, earlier `monitoring/`, earlier `evidence/`, and conditional `observations/` retain established governance and historical paths; the original Asia/Shanghai November 24 packages (Pacific Day 0) have been relocated with an explicit map. Day 1 contains the approved-contract alignment from PR #147; the current revision crosswalk is physically held in that day.
 - Monitoring/diagnostic records remain a distinct evidence class and are not silently promoted into the prospective dataset
 - Current authority crosswalk: [2026-11-18 approved revision](osf-wa5v8/day1/contract/osf-approved-revision-2026-11-18.md)
+- **Day 2 independent work:** [new bounded seven-platform diagnostic, source ledgers and concept/version DOI crosswalk](osf-wa5v8/day2/README.md) — new source attempts, not yesterday's values or a declared scheduled prospective observation
 
 ## Study 2 — Open research workflow identity
 
@@ -33,6 +34,7 @@ Owner-confirmed reporting timezone: `America/Los_Angeles`. Day 0 = 2026-11-23; D
 - Operational endpoint contract: immutable [manifest v1](osf-vshwk/contract/endpoints-v1.json), 22 bounded endpoints across all eight layer categories
 - Timing: event- or documented-review-initiated cycles; no predetermined calendar interval, fixed wave count, or fixed end date
 - Full entrypoint: [Study 2 contract, scope crosswalk, cycle ledger and Cycle 01 report](osf-vshwk/README.md)
+- **Day 2 independent work:** [newly declared full-scope Cycle 2026-11-25 and exact 22-endpoint evidence accounting](osf-vshwk/day2/README.md), without replacing or repairing the historical Cycle 02 custody gap
 
 ## Non-merging rule
 
