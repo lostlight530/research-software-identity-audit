@@ -8,6 +8,12 @@ This directory contains **relocated historical repository-control reports**, not
 - [`method-and-integrity-reviews/`](method-and-integrity-reviews/) — dated semantic/path/integrity assurance notes and local preflights
 - [`diagnostic-and-closeout-reviews/`](diagnostic-and-closeout-reviews/) — bounded platform snapshots, correction notes, and research-session closeouts
 
+## Existing dated monitoring and evidence records
+
+The [retained-file role index](legacy-monitoring-evidence-file-roles-2026-11-25.csv) classifies **all 768 then-tracked paths** across legacy `monitoring/` (421) and `evidence/` (347), preserving original paths and Git blob SHAs. This is a **file-role inventory inferred from filenames**, not a review of scientific content, proof of successful provider acquisition, formal observation eligibility, or a new sample. Values classified `other_*` are intentionally not assigned invented meanings.
+
+These already date/event-scoped source packages remain in their original locations because validators, sealed manifests, historical references, and external deep links depend on their paths. The docs move below is a separate, explicitly enumerated relocation.
+
 ## Preserved history and migration
 
 - [Exact file-by-file migration map](path-migration-2026-11-25.csv) records each former flat path, its new classified path, and the **original Git blob SHA**
