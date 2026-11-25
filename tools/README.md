@@ -1,5 +1,22 @@
 # Tools
 
+## Tool lifecycle map
+
+Use the narrowest existing checker for the surface being reviewed. This index groups current files by lifecycle and does not introduce new workflow authority, execution, or study observations.
+
+| Lifecycle / scope | Entry points | What the check can establish |
+| --- | --- | --- |
+| Study 1 contract and record semantics | [`check.py`](check.py) · [observation tests](../tests/test_observation_semantics.py) | Repository contract and prospective-record structure, not external platform truth |
+| Study 1 operational custody | [`check_wa5v8_runtime.py`](check_wa5v8_runtime.py) | Relocated day-workspace paths and retained source identities; not a new acquisition |
+| Study 2 approved protocol / cycles | [`check_vshwk_contract.py`](check_vshwk_contract.py) · [cycle contract tests](../tests/test_vshwk_contract.py) | Separate VSHWK manifest, cycle accounting and source/derived boundaries |
+| Public artifact and path integrity | [`check_public_artifact_manifest.py`](check_public_artifact_manifest.py) · [`check_repository_text_integrity.py`](check_repository_text_integrity.py) · [`check_record_paths.py`](check_record_paths.py) | Byte digests, tracked-text syntax, links and path shape; not scientific validity |
+| Retained historical diagnostics | [`check_retained_all.py`](check_retained_all.py) and dated `check_research_*` / `check_retained_*` scripts | Bounded source-specific rechecks, not a complete historical API replay |
+| Newly added dated records | [`check_new_record_entrypoints.py`](check_new_record_entrypoints.py) | PR-only structural entrypoint guard, not a retroactive requirement for old packages |
+| Public source diagnostic / projection | [`public_source_recheck.py`](public_source_recheck.py) · [`public_source_transport.py`](public_source_transport.py) · [`public_source_semantics.py`](public_source_semantics.py) | Bounded explicit diagnostics, not automatic enrollment in prospective data |
+| Exploratory analysis | [Analysis guidance](../analysis/README.md) · [Zenodo benchmark workflow](../.github/workflows/exploratory-zenodo-benchmark.yml) | Labeled exploratory comparisons, not preregistered primary inference |
+
+**CI entrypoint:** [`validate.yml`](../.github/workflows/validate.yml) distinguishes blocking structural checks from advisory results and publishes individual outcomes. A green job cannot certify external evidence or scholarly interpretations. See [contribution rules](../CONTRIBUTING.md) before tightening enforcement.
+
 ## Study 2 — OSF VSHWK contract and cycle validation
 
 Run `python -B tools/check_vshwk_contract.py` to validate the independent Study 2 namespace offline. It checks the approved-response and Project 490 identity anchors, immutable endpoint manifest, cycle accounting, retrieval and relationship-state denominators, UTC / Asia-Shanghai / Pacific reporting-day consistency, source-ledger Git blob identities, and source-versus-derived evidence separation. It makes no network requests and does not modify records.

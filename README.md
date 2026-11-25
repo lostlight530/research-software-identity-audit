@@ -13,6 +13,34 @@ The studies share this CONTROL repository only as a governance and evidence-cust
 
 > **Important:** This repository is not RS11, not a third WorkflowHub lineage, and not an additional research sample in either study.
 
+## Start here — documentation and repository navigation
+
+This is the architecture entrypoint for the shared CONTROL repository. The [documentation map](docs/README.md) owns directory responsibilities, evidence classes, and docs-only maintenance rules; each approved OSF registration and revision remains the authority for its respective scientific protocol.
+
+| Scope | Current operational entrypoints | Ownership boundary |
+| --- | --- | --- |
+| **Shared CONTROL infrastructure** | [Directory map](docs/README.md#2-directory-map-where-to-read-and-where-a-future-contribution-belongs) · [tools](tools/README.md) | Shared governance and evidence custody do not combine study datasets |
+| **Study 1 · 5b329 / wa5v8** | [Two-study index](studies/README.md) · [wa5v8 day workspace](studies/osf-wa5v8/README.md) · existing root-level contract, corpus, baseline, monitoring, evidence, and conditional observations | Root historical paths retain Study 1 ownership; daily workspaces are not new analytical timepoints |
+| **Study 2 · VSHWK** | [VSHWK contract and cycles](studies/osf-vshwk/README.md) | Project 490 / paired workflow lineages retain their own approved protocol, endpoint manifest, and denominator |
+
+### Find the right file by task
+
+| Task | Start with |
+| --- | --- |
+| Read what was registered | [OSF study registration](https://osf.io/5b329/overview) and [repository contract mapping](contract/preregistration.md) |
+| Check fixed samples and counting rules | [RS01–RS10 manifest](corpus/object-manifest.csv) and [six-layer counting contract](schema/counting-rules.md) |
+| Understand historical versus prospective status | [Initial baseline](baseline/README.md), [operational schedule](schedule/README.md), [prospective raw observation area](observations/raw/README.md) |
+| Review the separate OSF workflow study | [Two-study index](studies/README.md), [Study 2 current contract and cycle ledger](studies/osf-vshwk/README.md) |
+| Review wa5v8 daily operational materials | [wa5v8 runtime](studies/osf-wa5v8/README.md) |
+| Review historical diagnostic measurements and retained evidence | [Dated monitoring index](monitoring/README.md), [evidence inventory](evidence/README.md), [provenance discipline](provenance/README.md) |
+| Reproduce or review a contribution | [Tools and advisory checks](tools/README.md), [contributing instructions](CONTRIBUTING.md), [open research method](OPEN_RESEARCH.md) |
+| Cite the correct scholarly object | [Citation and identifier guide](scholarly/CITATION.md), [release policy](RELEASE_POLICY.md) |
+
+**Historical operational-status note (as-of 2026-10-17):** At that dated review, the [local schedule record](schedule/README.md) had no declared numerical offsets. The October 14 fixed-ten public release cohort was recorded separately, and diagnostic monitoring packages were not eligible for retrospective promotion into the prospective dataset. This dated note is not a statement that Study 1 lacks a formal OSF prospective registration. The current approved 2026-11-18 OSF authority is documented in the following section. The registered event eligibility and follow-up rules remain in force; numerical offsets must not be invented or backdated.
+
+
+---
+
 ## Current OSF authority — 2026-11-24
 
 Both studies have formal OSF preregistrations and approved current schema-response revisions. “Prospective” describes their registered research designs; it does not mean every future observation cycle has already occurred or every external provider must respond successfully.
@@ -31,27 +59,7 @@ Both studies have formal OSF preregistrations and approved current schema-respon
 
 **Status rule:** both formal prospective research contracts are in force. Diagnostic monitoring, pre-eligibility checks, and eligible prospective observation records remain distinct evidence classes. Study 1 must not be described as “diagnostic-only” merely because a particular record is classified as monitoring; monitoring records must also not be silently promoted into its prospective dataset.
 
-**2026-11-20 cross-repository current file classification:** [11 pinned source trees / 9,675 current tracked paths / exact per-repo Nov 6→Nov 20 Git blob deltas](docs/repository-inventory/2026-11-20/cross-repositories/README.md). Path-level source inventory only, not 9,675 independently audited scientific documents or a study corpus expansion
-
-**2026-11-20 first-day-to-current repository and research-infrastructure audit:** [Complete 903 Git blob / 158 main-commit / 83 dated-event pinned source classification](docs/repository-inventory/2026-11-20/README.md) · [New bounded 160-source-attempt diagnostic, including 69 Zenodo version identities](monitoring/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md). Pinned historical file counts exclude this new audit itself; original OSF plan and approved revision remain distinct, with no new prospective cells. 2026-11-19 evidence formerly merged only to its research branch was restored to main through [PR #132](https://github.com/lostlight530/research-software-identity-audit/pull/132) using unchanged Git blob identities.
-
-
-
-**October 18, 2026 research maintenance handoff:** [Consolidated evidence and repo continuity record](docs/research-session-closeout-2026-10-18.md) · [Latest independently verified control-software release and archival metadata caveat](scholarly/release-identity-reconciliation-2026-10-18.md) · [ORCID–OpenAIRE user-confirmed Beta update](monitoring/2026-10-18/02-orcid-openaire-work-refresh/README.md). These are dated state reports; the OSF registration remains frozen and the control repository remains outside RS01–RS10.
-
-**October 18, 22:41–22:42 independent research verification:** [Dated diagnostic and archive-byte inspection](monitoring/2026-10-18/03-independent-research-verification/README.md). DataCite 76 records; OpenAlex profile 29 / query 30; fixed-ten family counters and immutable archive metadata drift are separately retained.
-
-**October 20 research recheck:** [Independent 19:08–19:10 diagnostic](monitoring/2026-10-20/01-independent-research-recheck/README.md): all 12 page/API unique counter pairs agree; 40 fixed-corpus versions enumerated; author profile/query 32/32; origin preservation and checkpoint-chain evidence remain separate. A post-review correction now reconciles four derived object IDs against the frozen manifest; see [correction reconciliation](evidence/2026-10-20/01-independent-research-recheck/correction-reconciliation-01.md).
-
-**October 21, 2026 complete control-repository path inventory:** [Dated file classification and main-history audit](docs/control-repository-inventory-2026-10-21.md) · [path-level catalog](docs/control-repository-file-catalog-2026-10-21.csv) · [71-commit main history](docs/control-repository-main-commit-ledger-2026-10-21.csv). Snapshot documentation only; this repository is **not RS11**.
-
-**Reconstructed control-repository lifecycle through October 28, 2026:** [pinned 87-commit / 437-file OSF contract and evidence audit](docs/control-repository-lifecycle-audit-through-2026-10-28.md). This is a retrospective Git snapshot, not a scheduled prospective observation. The [October 29 diagnostic clock correction](monitoring/2026-10-29/01-bounded-contract-recheck/clock-provenance-correction.md) is explicitly after the historical cutoff.
-
-**2026-11-05 first-day-to-current full-tree maintenance:** [Pinned 110 main commits, 637 tracked Git file identities, 61 dated diagnostics, 20 evidence companions and bounded ledger-checker repair](docs/research-control-first-day-to-2026-11-05-file-maintenance.md). The source snapshot is pinned to pre-maintenance `main`; historical archive bytes, OSF contract, schedule and formal prospective observations are not rewritten.
-
-**2026-11-06 cross-repository inventory:** [Complete 11-repository path/blob/size catalog and OSF workspace boundary](docs/repository-inventory/2026-11-06/README.md) — 8,802 tracked blobs across RS01–RS10 plus CONTROL, exact source main SHAs, deterministic path classification, preservation decisions, OSF Project GitHub mirror status and a recorded direct-main index-write deviation. This is a path-identity inventory, not an 8,802-file content review; no source rename/deletion or OSF mutation was performed.
-
-**2026-11-03 full-history audit:** [104 reachable main commits, all 620 pre-audit tracked paths, dated-event naming/classification and OSF version authority](docs/research-control-first-day-to-current-governance-audit-2026-11-03.md). A real [482-attempt surface-ID correction](monitoring/2026-11-03/02-source-attempt-surface-id-reconciliation/README.md) is additive and leaves historical request bytes unchanged. The pinned catalog is not a claim of a complete per-file scientific replay or a new prospective wave.
+**Dated inventories and diagnostics:** see the [historical repository inventory and review index](docs/README.md#historical-repository-inventory-and-review-index). Snapshot file/commit counts, provider outcomes, and retrospective reviews remain tied to their original source and observation windows; they are not current HEAD metrics or prospective study results.
 
 ## 数据层与阶段展示的证据关系 / Longitudinal research and stage-display evidence
 
@@ -60,26 +68,6 @@ Both studies have formal OSF preregistrations and approved current schema-respon
 **English**: The frozen corpus is RS01–RS10; CONTROL is not RS11. The OSF registration DOI identifies the frozen preregistration, live GitHub `main` owns evolving implementation/governance, `baseline/` retains historical baseline, `monitoring/` holds diagnostics, and `observations/` is the eligible prospective observation surface. Never combine ten objects, six evidence layers, dated inventory counts, frontend aggregates, or single API observations into a shared denominator; a present file does not establish that eligible acquisition ran
 
 **长期阶段显示 / Longitudinal stage display:** 展示条目应返回 corpus/object ID、infrastructure layer、observation eligibility、source URL、retrieval timestamp、exact Git revision、raw or derived provenance、verification state、missing/blocked reason，以及所引用归档 DOI 的 **concept/version/OSF registration** 类型；对长期趋势进行比较时，必须声明时间窗和统计口径；A display entry must preserve those identifiers and denominators rather than silently upgrading diagnostic evidence to prospective results
-
-## Start here — documentation and repository navigation
-
-For contributors and independent reviewers, the [**documentation map**](docs/README.md) identifies the authoritative owner of each folder, study/object boundaries, evidence levels, and the docs-only maintenance process.
-
-| Task | Start with |
-| --- | --- |
-| Read what was registered | [OSF study registration](https://osf.io/5b329/overview) and [repository contract mapping](contract/preregistration.md) |
-| Check fixed samples and counting rules | [RS01–RS10 manifest](corpus/object-manifest.csv) and [six-layer counting contract](schema/counting-rules.md) |
-| Understand historical versus prospective status | [Initial baseline](baseline/README.md), [operational schedule](schedule/README.md), [prospective raw observation area](observations/raw/README.md) |
-| Review the separate OSF workflow study | [Two-study index](studies/README.md), [Study 2 current contract and cycle ledger](studies/osf-vshwk/README.md) |
-| Review wa5v8 daily operational materials | [wa5v8 runtime](studies/osf-wa5v8/README.md) |
-| Review historical diagnostic measurements and retained evidence | [Dated monitoring index](monitoring/README.md), [evidence inventory](evidence/README.md), [provenance discipline](provenance/README.md) |
-| Reproduce or review a contribution | [Tools and advisory checks](tools/README.md), [contributing instructions](CONTRIBUTING.md), [open research method](OPEN_RESEARCH.md) |
-| Cite the correct scholarly object | [Citation and identifier guide](scholarly/CITATION.md), [release policy](RELEASE_POLICY.md) |
-
-**Historical operational-status note (as-of 2026-10-17):** At that dated review, the [local schedule record](schedule/README.md) had no declared numerical offsets. The October 14 fixed-ten public release cohort was recorded separately, and diagnostic monitoring packages were not eligible for retrospective promotion into the prospective dataset. This dated note is not a statement that Study 1 lacks a formal OSF prospective registration. The current approved 2026-11-18 OSF authority is documented above. The registered event eligibility and follow-up rules remain in force; numerical offsets must not be invented or backdated.
-
-
----
 
 ## Research registration
 
