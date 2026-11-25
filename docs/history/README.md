@@ -10,6 +10,8 @@ This directory contains **relocated historical repository-control reports**, not
 
 ## Existing dated monitoring and evidence records
 
+**Source commit:** `264c051aae27fdfbf5b344b502a7bcaedfccae3e` (before this path-classification PR). Git blob SHA values in the file-role index are explicitly pinned to that source tree; the link-rebased `monitoring/README.md` has a new blob on this PR branch, while all 767 other listed legacy files retain the original blobs.
+
 The [retained-file role index](legacy-monitoring-evidence-file-roles-2026-11-25.csv) classifies **all 768 then-tracked paths** across legacy `monitoring/` (421) and `evidence/` (347), preserving original paths and Git blob SHAs. This is a **file-role inventory inferred from filenames**, not a review of scientific content, proof of successful provider acquisition, formal observation eligibility, or a new sample. Values classified `other_*` are intentionally not assigned invented meanings.
 
 These already date/event-scoped source packages remain in their original locations because validators, sealed manifests, historical references, and external deep links depend on their paths. The docs move below is a separate, explicitly enumerated relocation.

@@ -1,4 +1,4 @@
-surface,source_path,event_folder,file_role,git_blob_sha,classification_basis
+surface,source_path,event_folder,file_role,git_blob_sha_at_source_commit,classification_basis
 evidence,evidence/2026-10-08/01-morning-recheck/README.md,2026-10-08/01-morning-recheck,package_documentation,aef5c1e3b6eb267d98c4a42efaed24f45977d611,filename_only
 evidence,evidence/2026-10-08/01-morning-recheck/artifact-manifest.json,2026-10-08/01-morning-recheck,integrity_or_capture_manifest,8f207c2ff65c0128e81f12a92a2f434e46e5f724,filename_only
 evidence,evidence/2026-10-08/01-morning-recheck/capture-manifest.json,2026-10-08/01-morning-recheck,integrity_or_capture_manifest,8cad61c9a1101db491425724418fab2ce98f0829,filename_only
