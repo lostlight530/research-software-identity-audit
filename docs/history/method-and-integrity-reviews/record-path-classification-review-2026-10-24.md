@@ -4,7 +4,7 @@
 
 This is a **repository-structure and naming review**, not an observational study result, OSF amendment, external platform verification, new release or scientific conclusion. Audited `main` baseline: `5c64e157c26d848854e44d2845b5576b28a8bf00` (after PR #60). The scan read a complete, non-truncated Git tree of **458 entries**. This document reports the original scan and the bounded non-destructive repairs proposed here; completion must be confirmed by the actual branch CI and merge state
 
-Authority: [OSF frozen research contract](../contract/preregistration.md), [corpus manifest](../corpus/object-manifest.csv), [contribution / provenance policy](../CONTRIBUTING.md), and [path convention](../monitoring/NAMING.md). This review does **not** reinterpret source material
+Authority: [OSF frozen research contract](../../../contract/preregistration.md), [corpus manifest](../../../corpus/object-manifest.csv), [contribution / provenance policy](../../../CONTRIBUTING.md), and [path convention](../../../monitoring/NAMING.md). This review does **not** reinterpret source material
 
 ## Classified owning surfaces
 
@@ -38,4 +38,4 @@ No new prospective cells are created. The fixed ten RS objects, six layers, seve
 
 **Naming consistency here means a stable convention with explicit historical compatibility**, not forced byte-for-byte identical filenames for semantically different and already published records
 
-For actual execution outcomes inspect [GitHub Actions](../.github/workflows/validate.yml) and the linked pull request, including whether the new advisory path step really executed successfully
+For actual execution outcomes inspect [GitHub Actions](../../../.github/workflows/validate.yml) and the linked pull request, including whether the new advisory path step really executed successfully

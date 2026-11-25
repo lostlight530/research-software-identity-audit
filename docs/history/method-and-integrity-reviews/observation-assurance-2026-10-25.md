@@ -1,6 +1,6 @@
 # Observation assurance and claim boundaries — operational logic review (2026-10-25)
 
-**Classification:** repository implementation/assurance guide, **not** an OSF amendment, preregistration update, observation, synthetic result, new schedule, research finding, or release. Source for study authority: [frozen registration mapping](../contract/preregistration.md) and [OSF crosswalk](../contract/osf-overview-crosswalk-2026-10-08.md). Current GitHub implementation may be corrected without changing what was originally registered.
+**Classification:** repository implementation/assurance guide, **not** an OSF amendment, preregistration update, observation, synthetic result, new schedule, research finding, or release. Source for study authority: [frozen registration mapping](../../../contract/preregistration.md) and [OSF crosswalk](../../../contract/osf-overview-crosswalk-2026-10-08.md). Current GitHub implementation may be corrected without changing what was originally registered.
 
 ## The distinction being protected
 
@@ -35,7 +35,7 @@ The **60** fixed object-layer units per eligible scheduled timepoint are not **7
 6. A candidate explicitly marked `prospective` needs a release-event timestamp and cannot at the same time be flagged as retrospective reconstruction.
 7. Files added under `observations/raw/` require `dataset_phase=prospective` and a repository-side **active** schedule declaration with a parsable ID and offset-aware `declared_at` clock no later than each candidate retrieval. This checks a declared time against the record's own timestamp; it does **not** prove the Git commit was published before observations, that the schedule covers every timepoint, that an eligible first release actually occurred, or that all 60 cells were attempted.
 
-This is deliberately **preflight validation**, not scientific acceptance. The current [schedule status](../schedule/README.md) records no active concrete offsets. An absence of qualifying raw prospective records is not a statement that all future observation logic has been executed.
+This is deliberately **preflight validation**, not scientific acceptance. The current [schedule status](../../../schedule/README.md) records no active concrete offsets. An absence of qualifying raw prospective records is not a statement that all future observation logic has been executed.
 
 **Test recipe**, offline and without new research observations:
 
@@ -56,7 +56,7 @@ The existing October 25 published field-projection manifest is checked by a new 
 
 ### Raw and derived are different record types
 
-`observations/raw/` represents **source-facing attempted object-layer checks**, while `observations/derived/` represents **calculations over referenced raw observations**. A derived result must not masquerade as a new platform request or a new analytical unit. The checker now applies a distinct, minimal lineage/chronology preflight to JSON derived artifacts: declared derivation ID/method/time, actual repository-relative raw input paths, and derivation time no earlier than any source retrieval. `NO_CONCLUSION` and null derived results are permitted; numeric/result success is not fabricated. This is not a full derivation schema or scientific calculation verifier. See [derived record ownership](../observations/derived/README.md#operational-json-lineage-preflight-2026-10-25).
+`observations/raw/` represents **source-facing attempted object-layer checks**, while `observations/derived/` represents **calculations over referenced raw observations**. A derived result must not masquerade as a new platform request or a new analytical unit. The checker now applies a distinct, minimal lineage/chronology preflight to JSON derived artifacts: declared derivation ID/method/time, actual repository-relative raw input paths, and derivation time no earlier than any source retrieval. `NO_CONCLUSION` and null derived results are permitted; numeric/result success is not fabricated. This is not a full derivation schema or scientific calculation verifier. See [derived record ownership](../../../observations/derived/README.md#operational-json-lineage-preflight-2026-10-25).
 
 ## Researcher/agent provenance and independent evidence
 

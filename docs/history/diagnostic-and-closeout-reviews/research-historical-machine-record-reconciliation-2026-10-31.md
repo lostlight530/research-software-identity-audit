@@ -6,8 +6,8 @@ The October 31 post-merge PR #77 [path check](https://github.com/lostlight530/re
 
 | Previously missing machine index | Existing source material | Repair |
 | --- | --- | --- |
-| [October 29 independent GitHub Release-gate check](../monitoring/2026-10-29/02-independent-release-gate-recheck/README.md) | Original README and [11-row selected field ledger](../monitoring/2026-10-29/02-independent-release-gate-recheck/source-ledger.csv) | New [record.json](../monitoring/2026-10-29/02-independent-release-gate-recheck/record.json) |
-| [October 30 OSF Schema Response version comparison](../monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/README.md) | Original README and [29-field structured difference](../monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/field-diff.json) | New [record.json](../monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/record.json) |
+| [October 29 independent GitHub Release-gate check](../../../monitoring/2026-10-29/02-independent-release-gate-recheck/README.md) | Original README and [11-row selected field ledger](../../../monitoring/2026-10-29/02-independent-release-gate-recheck/source-ledger.csv) | New [record.json](../../../monitoring/2026-10-29/02-independent-release-gate-recheck/record.json) |
+| [October 30 OSF Schema Response version comparison](../../../monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/README.md) | Original README and [29-field structured difference](../../../monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/field-diff.json) | New [record.json](../../../monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/record.json) |
 
 Both new machine records carry their **true later assembly timestamp**, exact original source paths, earlier *tool-envelope* clocks and source-scope limits. `historical_source_record_existed=false` and `raw_origin_http_bytes_recovered=false` prevent confusing retrospective indexing with an authenticated historical raw response.
 

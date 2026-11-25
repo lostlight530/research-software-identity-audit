@@ -77,7 +77,7 @@ The existing `check.py` now checks **all seven platform-to-layer pairs**, offset
 python -m unittest discover -s tests -p "test_observation_semantics.py" -v
 ```
 
-CI runs these tests with an explicitly **advisory** step (`continue-on-error`). For source/agent responsibility, transport-versus-observation states, non-comparable counters, exception handling and **human acceptance** boundaries, see [observation assurance review](../docs/observation-assurance-2026-10-25.md). OSF, schema, baseline, schedule, and retained evidence are unchanged.
+CI runs these tests with an explicitly **advisory** step (`continue-on-error`). For source/agent responsibility, transport-versus-observation states, non-comparable counters, exception handling and **human acceptance** boundaries, see [observation assurance review](../docs/history/method-and-integrity-reviews/observation-assurance-2026-10-25.md). OSF, schema, baseline, schedule, and retained evidence are unchanged.
 
 ## Raw versus derived validation (2026-10-25)
 
@@ -96,7 +96,7 @@ The previous default command checked the October 25 artifact manifest only, so t
 
 Run `python -B tools/check_public_artifact_manifest.py --all` to discover every `evidence/**/artifact-manifest.json` on the checked-out branch and verify **all** declared published files. Output lists each manifest, row count and failures; a newly added manifest is automatically included, and no discovered manifests is an explicit failure. `--manifest PATH` and the historical no-argument default remain supported for targeted checks. The all-manifest step is still **advisory** in CI, consistent with bootstrap validation policy. Read the actual step log, not only the workflow conclusion.
 
-This verifier is offline and read-only. It does **not** assert historical raw HTTP bytes were independently replayed, nor does it validate platform authenticity, data interpretation, scientific conclusions or prospective eligibility. See the [dated coverage reconciliation](../docs/public-manifest-coverage-reconciliation-2026-10-26.md).
+This verifier is offline and read-only. It does **not** assert historical raw HTTP bytes were independently replayed, nor does it validate platform authenticity, data interpretation, scientific conclusions or prospective eligibility. See the [dated coverage reconciliation](../docs/history/method-and-integrity-reviews/public-manifest-coverage-reconciliation-2026-10-26.md).
 
 
 ## General tooling responsibilities
@@ -150,7 +150,7 @@ Run `python -B tools/check_local_handoff_20261024.py` for a local **offline and 
 
 ## Dated monitoring / evidence path and ownership check (2026-10-24)
 
-Run `python -B tools/check_record_paths.py` to validate the documented [naming contract](../monitoring/NAMING.md) **without renaming original records**. It checks event-directory date/ordinal/kebab envelopes, every human entrypoint, exactly one YAML/JSON machine record for monitoring events except the declared offline-only replay, date-local sequential numbering, full monitoring-index coverage, and matching event identity for separately stored evidence companions. It also validates the new additive legacy README links. CI runs it as an **advisory** step; read the step result, not merely the workflow's green status. This does not query scholarly services, verify source authenticity, or produce a prospective observation. See [the dated classification review](../docs/record-path-classification-review-2026-10-24.md).
+Run `python -B tools/check_record_paths.py` to validate the documented [naming contract](../monitoring/NAMING.md) **without renaming original records**. It checks event-directory date/ordinal/kebab envelopes, every human entrypoint, exactly one YAML/JSON machine record for monitoring events except the declared offline-only replay, date-local sequential numbering, full monitoring-index coverage, and matching event identity for separately stored evidence companions. It also validates the new additive legacy README links. CI runs it as an **advisory** step; read the step result, not merely the workflow's green status. This does not query scholarly services, verify source authenticity, or produce a prospective observation. See [the dated classification review](../docs/history/method-and-integrity-reviews/record-path-classification-review-2026-10-24.md).
 
 
 ## Bounded diagnostic monitoring projection consistency (2026-10-27)
@@ -175,7 +175,7 @@ CI step advisory while schemas and evidence representation mature.
 
 ## November 5 bounded 34-surface monitoring ledger consistency preflight
 
-The existing read-only `python -B tools/check_record_paths.py` now additionally validates the **November 4–5** `bounded_diagnostic_source_access_not_prospective` summary and `surface-access-recheck.csv` pairs: exact surface IDs, row and status counts, retained failure IDs, extractor receipt identities, UTC-day acquisition label precision, and when supplied, client-batch clock/receipt agreement. Two historical machine-summary layouts are supported without rewriting either. Synthetic-only negative/positive cases are included in `tests/test_monitoring_projection.py`, already invoked by advisory GitHub Actions. This guard checks **retained record structure**, not provider-byte provenance, external freshness, adoption or OSF prospective eligibility. Its source and dated full-repository rationale are documented in [November 5 file maintenance audit](../docs/research-control-first-day-to-2026-11-05-file-maintenance.md). No new dependency or strict CI gate is introduced.
+The existing read-only `python -B tools/check_record_paths.py` now additionally validates the **November 4–5** `bounded_diagnostic_source_access_not_prospective` summary and `surface-access-recheck.csv` pairs: exact surface IDs, row and status counts, retained failure IDs, extractor receipt identities, UTC-day acquisition label precision, and when supplied, client-batch clock/receipt agreement. Two historical machine-summary layouts are supported without rewriting either. Synthetic-only negative/positive cases are included in `tests/test_monitoring_projection.py`, already invoked by advisory GitHub Actions. This guard checks **retained record structure**, not provider-byte provenance, external freshness, adoption or OSF prospective eligibility. Its source and dated full-repository rationale are documented in [November 5 file maintenance audit](../docs/history/inventory-ledgers/research-control-first-day-to-2026-11-05-file-maintenance.md). No new dependency or strict CI gate is introduced.
 
 
 ## Repository-wide tracked text integrity preflight (2026-11-10)

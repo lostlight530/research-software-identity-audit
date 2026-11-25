@@ -1,6 +1,6 @@
 # Seven-platform observable contracts — reviewer decision map (2026-10-25)
 
-**Status:** explanatory implementation/review guidance for the already-registered research, not an OSF amendment, new sampling frame, schedule declaration, tool/API migration, research observation, or additional layer. Read together with [observation assurance](observation-assurance-2026-10-25.md), the [frozen-contract mapping](../contract/preregistration.md), [counting rules](../schema/counting-rules.md), and [concrete platform mapping](../schema/platforms.yaml). Primary sources below describe capabilities, **not** proof of this cohort's current state.
+**Status:** explanatory implementation/review guidance for the already-registered research, not an OSF amendment, new sampling frame, schedule declaration, tool/API migration, research observation, or additional layer. Read together with [observation assurance](observation-assurance-2026-10-25.md), the [frozen-contract mapping](../../../contract/preregistration.md), [counting rules](../../../schema/counting-rules.md), and [concrete platform mapping](../../../schema/platforms.yaml). Primary sources below describe capabilities, **not** proof of this cohort's current state.
 
 Every entry answers: what exactly can this endpoint establish, what cannot be inferred, and what source-dependent evidence is required for a stronger claim. Endpoint and response vocabulary may evolve; retain query and Accept/API version rather than silently normalizing across historical retrievals.
 
