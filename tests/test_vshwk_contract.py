@@ -25,8 +25,11 @@ class VshwkContractTests(unittest.TestCase):
     def test_current_study_package_passes(self):
         result = validate(self.root)
         self.assertEqual(result["manifest_endpoints"], 22)
-        self.assertEqual(len(result["cycles_validated"]), 1)
-        self.assertEqual(result["cycles_validated"][0]["endpoint_rows"], 22)
+        self.assertEqual(len(result["cycles_validated"]), 2)
+        self.assertEqual({item["cycle_id"] for item in result["cycles_validated"]}, {
+            "cycle-2026-11-23-pst-01", "cycle-2026-11-25-pst-01"
+        })
+        self.assertTrue(all(item["endpoint_rows"] == 22 for item in result["cycles_validated"]))
         self.assertEqual(len(result["incomplete_custody"]), 1)
         self.assertIsNone(result["incomplete_custody"][0]["endpoint_rows"])
         self.assertFalse(result["incomplete_custody"][0]["counted_as_validated_cycle"])

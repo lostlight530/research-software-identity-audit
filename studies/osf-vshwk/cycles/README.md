@@ -22,8 +22,11 @@ The primary analytical unit is one project × one layer × one cycle: **8 projec
 | Cycle | Reporting day | Manifest | Endpoint accounting | Disposition |
 |---|---|---|---:|---|
 | [Cycle 01](cycle-2026-11-23-pst-01/README.md) | 2026-11-23 America/Los_Angeles | [v1](../contract/endpoints-v1.json) | 22/22 attempted | `CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS` |
+| [Day 2 independent cycle](cycle-2026-11-25-pst-01/README.md) | 2026-11-25 America/Los_Angeles | [v1](../contract/endpoints-v1.json) | 22/22 attempted; original errors retained, follow-ups separate | `CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS` |
 
 Cycle 01's actual acquisition window was 2026-11-24T07:07:37.297Z–2026-11-24T07:09:58.002Z. The reporting-day label is 2026-11-23 Pacific; the actual China acquisition date is 2026-11-24.
+
+The 2026-11-25 entry is a new, separately declared research cycle, not a reconstruction of the incomplete historical 2026-11-24 custody package. It uses fresh Day 2 source attempts rather than reusing earlier results.
 
 ## Reusable entrypoint
 
