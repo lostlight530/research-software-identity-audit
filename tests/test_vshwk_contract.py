@@ -27,6 +27,28 @@ class VshwkContractTests(unittest.TestCase):
         self.assertEqual(result["manifest_endpoints"], 22)
         self.assertEqual(len(result["cycles_validated"]), 1)
         self.assertEqual(result["cycles_validated"][0]["endpoint_rows"], 22)
+        self.assertEqual(len(result["incomplete_custody"]), 1)
+        self.assertIsNone(result["incomplete_custody"][0]["endpoint_rows"])
+        self.assertFalse(result["incomplete_custody"][0]["counted_as_validated_cycle"])
+
+    def test_unclassified_orphan_is_rejected(self):
+        path = self.root / "studies/osf-vshwk/cycles/cycle-2026-11-24-pst-01/custody-gap.json"
+        path.unlink()
+        with self.assertRaisesRegex(ContractError, "missing required artifact"):
+            validate(self.root)
+
+    def test_partial_recovery_is_not_exempted(self):
+        path = self.root / "studies/osf-vshwk/cycles/cycle-2026-11-24-pst-01/precollection-intent.json"
+        path.write_text("{}\n", encoding="utf-8")
+        with self.assertRaisesRegex(ContractError, "partial recovery"):
+            validate(self.root)
+
+    def test_historical_custody_index_mutation_is_rejected(self):
+        path = self.root / "studies/osf-vshwk/cycles/cycle-2026-11-24-pst-01/evidence/README.md"
+        with path.open("a", encoding="utf-8") as handle:
+            handle.write("\n")
+        with self.assertRaisesRegex(ContractError, "custody index Git blob mismatch"):
+            validate(self.root)
 
     def test_duplicate_endpoint_row_is_rejected(self):
         path = (self.root / "studies/osf-vshwk/cycles/"

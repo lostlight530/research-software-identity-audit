@@ -141,6 +141,7 @@ def validate(root: Path = ROOT) -> dict:
     allowed_retrieval = set(manifest["method"]["endpoint_retrieval_state_vocabulary"])
     allowed_relationship = set(manifest["method"]["relationship_verification_state_vocabulary"])
     cycle_results = []
+    incomplete_custody = []
 
     for directory in cycle_dirs:
         intent_path = directory / "precollection-intent.json"
@@ -148,6 +149,37 @@ def validate(root: Path = ROOT) -> dict:
         index_path = directory / "endpoint-outcome-index.jsonl"
         report_path = directory / "README.md"
         evidence_readme = directory / "evidence/README.md"
+        # Exact historical orphan index introduced on 2026-11-24. No generic
+        # exemption for incomplete cycle packages; preserved separately from
+        # validated cycles, with the original index pinned by Git blob identity.
+        gap_path = directory / "custody-gap.json"
+        if directory.name == "cycle-2026-11-24-pst-01" and gap_path.is_file():
+            gap = read_json(gap_path)
+            need(gap.get("cycle_id") == directory.name and
+                 gap.get("record_class") == "HISTORICAL_CUSTODY_GAP_NOT_VALIDATED_CYCLE" and
+                 gap.get("status") == "BLOCKED_ORIGINAL_RECORDS_NOT_AVAILABLE" and
+                 gap.get("eligible_prospective_cycle_verified") is False and
+                 gap.get("primary_endpoint_attempts") is None and
+                 gap.get("actual_acquisition_window_utc") is None and
+                 gap.get("absence_inferred") is False,
+                 f"{directory}: invalid historical custody-gap classification")
+            need(gap.get("source_index_git_blob_sha") == "658d4b9384f1b511eb60a36163adb9f8a349dff1" and
+                 git_blob_sha(evidence_readme.read_bytes()) == "658d4b9384f1b511eb60a36163adb9f8a349dff1",
+                 f"{directory}: historical custody index Git blob mismatch")
+            required = (intent_path, summary_path, index_path, report_path)
+            if not all(path.is_file() for path in required):
+                actual = {p.relative_to(directory).as_posix()
+                          for p in directory.rglob("*") if p.is_file()}
+                need(actual == {"evidence/README.md", "custody-gap.json"},
+                     f"{directory}: partial recovery must not bypass cycle validation")
+                expected_missing = ["precollection-intent.json","cycle-summary.json","endpoint-outcome-index.jsonl","README.md","evidence/github-attempts.jsonl","evidence/workflow-A-current-main.yml","evidence/workflow-B-current-main.yml","evidence/workflow-content-followup.json","evidence/registered-source-version-crosscheck.jsonl","evidence/external-attempts-batch-01.json","evidence/external-attempts-batch-02.json","evidence/external-error-followup.json"]
+                need(gap.get("missing_paths") == expected_missing,
+                     f"{directory}: custody-gap missing-path ledger drift")
+                incomplete_custody.append({"cycle_id": directory.name,
+                                           "status": gap["status"],
+                                           "endpoint_rows": None,
+                                           "counted_as_validated_cycle": False})
+                continue
         for path in (intent_path, summary_path, index_path, report_path, evidence_readme):
             need(path.is_file(), f"{directory}: missing required artifact {path.name}")
 
@@ -292,7 +324,8 @@ def validate(root: Path = ROOT) -> dict:
         })
 
     return {"manifest_version": manifest.get("version"),
-            "manifest_endpoints": len(endpoint_ids), "cycles_validated": cycle_results}
+            "manifest_endpoints": len(endpoint_ids), "cycles_validated": cycle_results,
+            "incomplete_custody": incomplete_custody}
 
 
 def main() -> int:
@@ -304,7 +337,9 @@ def main() -> int:
     except (ContractError, OSError, KeyError, TypeError, ValueError) as exc:
         print(f"VSHWK CONTRACT: FAIL — {exc}", file=sys.stderr)
         return 1
-    print("VSHWK CONTRACT: PASS")
+    print("VSHWK CONTRACT: PASS (structural validation; incomplete custody is not cycle completion)")
+    if result["incomplete_custody"]:
+        print("VSHWK CUSTODY: DEGRADED — historical original records not available")
     print(json.dumps(result, indent=2, sort_keys=True))
     return 0
 
