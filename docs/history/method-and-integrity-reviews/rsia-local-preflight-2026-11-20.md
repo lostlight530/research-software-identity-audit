@@ -38,17 +38,17 @@ not retained as evidence or copied to the real `observations/` directory.
 
 ## Decisions required before formal collection
 
-1. Confirm the release anchor against the [frozen contract](../contract/preregistration.md)
-   and [OSF version authority mapping](../contract/osf-registration-version-governance-2026-11-03.md).
-   The [October 13 gate](../monitoring/2026-10-13/02-fixed-corpus-release-gate/README.md)
+1. Confirm the release anchor against the [frozen contract](../../../contract/preregistration.md)
+   and [OSF version authority mapping](../../../contract/osf-registration-version-governance-2026-11-03.md).
+   The [October 13 gate](../../../monitoring/2026-10-13/02-fixed-corpus-release-gate/README.md)
    found no later published GitHub Release within its checked scope; tag-list
-   access was not verified. The [October 14 reconstruction and diagnostic](../monitoring/2026-10-14/06-evening-facility-recheck/README.md)
+   access was not verified. The [October 14 reconstruction and diagnostic](../../../monitoring/2026-10-14/06-evening-facility-recheck/README.md)
    records the first observed eligible public release cohort in that retained
    scope. Do not relabel the later diagnostic as T0, or assume November 23
    supersedes the earlier trigger. Record missed or unresolved intervals as such.
 2. Decide the forward operational interpretation, including declared timepoints,
    tolerances, and the final attempted follow-up and stop rule, before interpreting
-   governed observations. The [schedule record](../schedule/README.md) currently
+   governed observations. The [schedule record](../../../schedule/README.md) currently
    has no concrete offsets. Do not backdate a declaration or silently replace the
    registered anchor. Keep any substantive change or deviation separate from the
    frozen record.
