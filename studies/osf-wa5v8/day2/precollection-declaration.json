@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "study": "OSF_5B329",
+  "project": "wa5v8",
+  "task_day": "DAY_2",
+  "reporting_day": "2026-11-25",
+  "timezone": "America/Los_Angeles",
+  "declared_at_utc": "2026-11-25T13:34:22.306Z",
+  "status": "INDEPENDENT_DAY2_DIAGNOSTIC_DECLARED_NOT_COLLECTED",
+  "reason": "Researcher-requested independent Day 2 bounded public-source review and release-event eligibility check; Day 1 is format reference only, not a data source.",
+  "corpus": "RS01-RS10",
+  "formal_analytical_layers": 6,
+  "platform_checks_possible": 70,
+  "formal_object_layer_units_per_eligible_timepoint": 60,
+  "planned_classification": "diagnostic_until_eligible_release_and_operational_schedule_are_independently_verified",
+  "collection_started": false,
+  "day1_source_values_reused": false,
+  "prospective_cells_added_at_intent": 0,
+  "osf_write": false,
+  "source_repo_mutation": false,
+  "precollection_repo_base_commit": "24bf35b102938fcc28980c14461971bb29af52e6"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "study": "OSF_VSHWK",
+  "task_day": "DAY_2",
+  "cycle_id": "cycle-2026-11-25-pst-01",
+  "status": "INITIATED_PENDING_COLLECTION",
+  "declared_at_utc": "2026-11-25T13:34:22.306Z",
+  "reporting_day": {
+    "date": "2026-11-25",
+    "timezone": "America/Los_Angeles",
+    "utc_offset_at_event": "-08:00"
+  },
+  "protocol_clock_zones": [
+    "UTC",
+    "Asia/Shanghai"
+  ],
+  "manifest_ref": "studies/osf-vshwk/contract/endpoints-v1.json",
+  "manifest_version": 1,
+  "latest_approved_schema_response": "6afdcc7108de91a0f0cefd6c",
+  "registration": "https://osf.io/vshwk/",
+  "reason_before_collection": "Researcher-requested independent Day 2 full-scope review of WorkflowHub Project 490, lineages 2332 v9 and 2334 v9. A new bounded attempt at every predeclared v1 locator; results and state not preselected. Day 1 is referenced for format only, never reused as Day 2 source evidence.",
+  "initiated_by": "explicit user request in this conversation",
+  "case_project_id": 490,
+  "lineages": [
+    2332,
+    2334
+  ],
+  "predeclared_endpoint_count": 22,
+  "expected_project_layer_bundles": 8,
+  "expected_nested_lineage_layer_bundles": 16,
+  "collection_started": false,
+  "observation_records_at_intent_time": 0,
+  "source_repositories_read_only": true,
+  "all_external_platforms_read_only": true,
+  "mutable_repo": "lostlight530/research-software-identity-audit",
+  "day1_data_reused": false,
+  "precollection_repo_base_commit": "24bf35b102938fcc28980c14461971bb29af52e6"
+}
