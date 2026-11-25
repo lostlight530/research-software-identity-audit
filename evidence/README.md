@@ -71,3 +71,7 @@ The independently extracted 32-version table is retained under [monitoring/2026-
 ## November 22 periodic diagnostic evidence and entrypoint reconciliation
 
 - [2026-11-22 / 01-periodic-identity-infrastructure-recheck](2026-11-22/01-periodic-identity-infrastructure-recheck/README.md) — 11 retained public-source JSONL ledgers with original connector batch UTC bounds, selected provider fields, explicit unknowns, and Git blob source identities; the documentation entrypoint was added after [PR #136](https://github.com/lostlight530/research-software-identity-audit/pull/136) because the prior advisory path checker reported a missing evidence README; historical source JSONL files were not changed
+
+## November 24 material relocated to wa5v8
+
+The original two evidence packages are now under [Day 0 evidence](../studies/osf-wa5v8/day0/evidence/README.md); see the [path and blob mapping](../studies/osf-wa5v8/path-migration-2026-11-25.json). The source ledgers remain byte-identical.

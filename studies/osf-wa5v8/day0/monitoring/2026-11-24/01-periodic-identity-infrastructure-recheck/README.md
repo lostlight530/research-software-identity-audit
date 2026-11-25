@@ -4,14 +4,14 @@
 
 **Observed source windows:** 2026-11-23 16:13:17–16:24:26 UTC, corresponding to 2026-11-24 00:13:17–00:24:26 Asia/Shanghai. This report was compiled separately; the timestamp is not a provider-side first-seen, publication, or indexing timestamp.
 
-**Comparator:** [November 22 periodic diagnostic](../../2026-11-22/01-periodic-identity-infrastructure-recheck/README.md), particularly its [machine summary](../../2026-11-22/01-periodic-identity-infrastructure-recheck/summary.json) and matching version-record identities. The November 19 broader capture has a **different denominator**, so this report must not be called a repeated complete 458-request census.
+**Comparator:** [November 22 periodic diagnostic](../../../../../../monitoring/2026-11-22/01-periodic-identity-infrastructure-recheck/README.md), particularly its [machine summary](../../../../../../monitoring/2026-11-22/01-periodic-identity-infrastructure-recheck/summary.json) and matching version-record identities. The November 19 broader capture has a **different denominator**, so this report must not be called a repeated complete 458-request census.
 
 ## Research contract and unit discipline
 
 - Original [OSF registration 5b329](https://osf.io/5b329/overview), October 5 original Schema Response and separately approved October 6 `344-83` wording revision remain distinct; no contract edits or retroactive promotion
 - Fixed sample is **RS01–RS10 only**; `research-software-identity-audit` is a CONTROL, never RS11; LSEL and the 34 supplementary surfaces are not new study samples
 - **Ten objects × six preregistered infrastructure layers = 60 object-layer units per eligible scheduled time point**. Seven operational platforms imply up to 70 potential object-platform checks, *not* 70 analytical units. The **70 Zenodo record keys** below are different version-level objects entirely
-- No precommitted concrete prospective timepoint offsets were found in [schedule/README.md](../../../schedule/README.md); the earlier October 14 eligible release candidate is not superseded by a November 20 release. **No prospective cells or OSF registration writes were created**
+- No precommitted concrete prospective timepoint offsets were found in [schedule/README.md](../../../../../../schedule/README.md); the earlier October 14 eligible release candidate is not superseded by a November 20 release. **No prospective cells or OSF registration writes were created**
 
 ## GitHub change and release reconciliation
 

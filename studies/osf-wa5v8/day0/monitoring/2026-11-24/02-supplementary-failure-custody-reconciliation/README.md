@@ -22,7 +22,7 @@ The seven exact source locators were re-attempted at **2026-11-23 16:39:19.236�
 - `CRAWL_NOT_FOUND` and `CONTENT_NOT_CACHED` describe extractor behavior and do not prove that a scholarly record, provider endpoint, software registration, or historical object does not exist.
 - No provider HTTP status or original provider response bytes were captured. The timestamps above bound the connector calls, not server-side first-index times or separate HTTP transaction completion times.
 - The seven rows overlap the 34 registered source locators; they are not seven new surfaces, new objects, or seven additional preregistered analytical units.
-- Original [OSF Registration 5b329](https://osf.io/5b329/overview) and approved `344-83` revision remain unchanged. Fixed **RS01–RS10 × 6 = 60** planned object-layer units per eligible timepoint; CONTROL is not RS11. The [operational schedule](../../../schedule/README.md) has no concrete offsets, so this is **not a formal prospective observation cycle**.
+- Original [OSF Registration 5b329](https://osf.io/5b329/overview) and approved `344-83` revision remain unchanged. Fixed **RS01–RS10 × 6 = 60** planned object-layer units per eligible timepoint; CONTROL is not RS11. The [operational schedule](../../../../../../schedule/README.md) has no concrete offsets, so this is **not a formal prospective observation cycle**.
 - This package changes no original observations, source blobs, source-counter values, historical baseline, endpoint manifest, Release, DOI or OSF state.
 
 **Disposition:** `SOURCE_FAILURE_REASON_FOLLOWUP_RETAINED / ORIGINAL_UNKNOWN_REMAINS_UNKNOWN / NO_DATASET_OR_CONTRACT_CHANGE`.

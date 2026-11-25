@@ -37,6 +37,8 @@ jobs:
         env:
           PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: python -B tools/check_new_record_entrypoints.py --base "$PR_BASE_SHA"
+      - name: Verify wa5v8 relocated runtime and retained blob identities
+        run: python -B tools/check_wa5v8_runtime.py
       - name: Run advisory contract checker
         run: python tools/check.py --mode advisory
       - name: Strict contract validation (advisory)

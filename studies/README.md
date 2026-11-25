@@ -12,7 +12,8 @@ The public repository `lostlight530/research-software-identity-audit` is the onl
 - Operational platform scope: seven platforms; OpenAIRE and OpenAlex are separate platforms within the single discovery_graph layer, so 70 possible platform checks do not replace the 60-unit analytical denominator
 - Registered timing rule: begin after the first eligible post-registration fixed-corpus release event; observe at predefined follow-up points; stop after the final preregistered point has been attempted across all ten objects and six layers. Failed or unresolved attempts do not extend the window
 - The 2026-11-18 approved revision explicitly makes no change to the observation schedule. The current structured response does not enumerate numerical offsets; this operational-detail boundary does **not** downgrade the formal OSF prospective registration
-- Repository ownership: root-level `contract/`, `monitoring/`, `evidence/`, and conditional `observations/`
+- Public project: [OSF wa5v8](https://osf.io/wa5v8/overview)
+- Daily operational runtime: [wa5v8 Day folders](osf-wa5v8/README.md). Root-level `contract/`, earlier `monitoring/`, earlier `evidence/`, and conditional `observations/` retain established governance and historical paths; the November 24 packages have been relocated with an explicit map.
 - Monitoring/diagnostic records remain a distinct evidence class and are not silently promoted into the prospective dataset
 - Current authority crosswalk: [2026-11-18 approved revision](../contract/osf-approved-revision-2026-11-18.md)
 
