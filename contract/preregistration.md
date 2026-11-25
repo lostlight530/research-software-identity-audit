@@ -49,7 +49,7 @@ The revision justification explicitly states that it does **not** change the fiv
 
 The current prospective timing rule remains: begin after the first eligible post-registration release event; use predefined follow-up points; stop after the final preregistered follow-up point has been attempted for all ten objects across all six layers. Failed, rate-limited, missing, or unresolved attempts do not by themselves extend the window. The approved response does not enumerate numerical offsets; do not invent or backdate them.
 
-This is an additive authority crosswalk. The original registration and the 2026-10-06 approved revision remain distinct historical objects. See [the full 2026-11-18 revision record](osf-approved-revision-2026-11-18.md).
+This is an additive authority crosswalk. The original registration and the 2026-10-06 approved revision remain distinct historical objects. See [the full 2026-11-18 revision record](../studies/osf-wa5v8/day1/contract/osf-approved-revision-2026-11-18.md).
 
 **2026-11-03 original-versus-approved-version authority:** [OSF Registration and Schema Response governance reconciliation](osf-registration-version-governance-2026-11-03.md) explicitly distinguishes the October 5 original response, October 6 approved `344-83` exploratory wording revision, current GitHub operational mapping and the unmodified 60-unit contract. This is an additive interpretation/authority index, **not** an OSF write, amendment, or claim of fresh full-byte origin-capture.
 
