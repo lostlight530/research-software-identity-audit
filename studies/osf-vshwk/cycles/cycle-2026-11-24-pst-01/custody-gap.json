@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "study": "OSF_VSHWK",
+  "cycle_id": "cycle-2026-11-24-pst-01",
+  "record_class": "HISTORICAL_CUSTODY_GAP_NOT_VALIDATED_CYCLE",
+  "reviewed_at_utc": "2026-11-25T09:35:06Z",
+  "reviewed_main_commit": "4b91ff61a7d74d38bd43671779ad1db3d36b3369",
+  "source_index": "evidence/README.md",
+  "source_index_git_blob_sha": "658d4b9384f1b511eb60a36163adb9f8a349dff1",
+  "reporting_day": {
+    "date": "2026-11-24",
+    "timezone": "America/Los_Angeles"
+  },
+  "status": "BLOCKED_ORIGINAL_RECORDS_NOT_AVAILABLE",
+  "missing_paths": [
+    "precollection-intent.json",
+    "cycle-summary.json",
+    "endpoint-outcome-index.jsonl",
+    "README.md",
+    "evidence/github-attempts.jsonl",
+    "evidence/workflow-A-current-main.yml",
+    "evidence/workflow-B-current-main.yml",
+    "evidence/workflow-content-followup.json",
+    "evidence/registered-source-version-crosscheck.jsonl",
+    "evidence/external-attempts-batch-01.json",
+    "evidence/external-attempts-batch-02.json",
+    "evidence/external-error-followup.json"
+  ],
+  "primary_endpoint_attempts": null,
+  "actual_acquisition_window_utc": null,
+  "eligible_prospective_cycle_verified": false,
+  "absence_inferred": false,
+  "recovery_rule": "Recover exact original source ledgers and original precollection intent with provenance; add a complete verified package in a separate correction. Do not substitute later observations or reconstruct missing clocks. Keep this historical custody-gap record."
+}

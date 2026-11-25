@@ -28,3 +28,9 @@ Cycle 01's actual acquisition window was 2026-11-24T07:07:37.297Z–2026-11-24T0
 ## Reusable entrypoint
 
 Use the [cycle record template](record-template.md) for future cycles. It is a structure guide only, not a research record and not an observation. Do not copy Cycle 01 results into a later cycle.
+
+## Historical custody gap — November 24 Pacific reporting day
+
+The separate [Cycle 02 custody index](cycle-2026-11-24-pst-01/evidence/README.md) entered main in commit [4b91ff61](https://github.com/lostlight530/research-software-identity-audit/commit/4b91ff61a7d74d38bd43671779ad1db3d36b3369), whose title calls it Day 1 evidence custody. The index itself calls the folder Cycle 02. These labels do not establish a completed observation. The pinned tree contains the index alone, not its listed source ledgers, original precollection intent, outcome index or summary. The November 25 review found no recovery branch or PR; historical acquisition clocks and attempt count remain unknown.
+
+See the [machine-readable custody-gap record](cycle-2026-11-24-pst-01/custody-gap.json). Disposition: `BLOCKED_ORIGINAL_RECORDS_NOT_AVAILABLE`. This is **not a validated cycle**, not a new observation, and not an endpoint failure count. The original index is retained unchanged. Restore the exact original records with provenance if they become available; no later read may be substituted or backdated. A separately initiated future review uses its own actual clocks and manifest.
