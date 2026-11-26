@@ -27,6 +27,14 @@
       "commit": "f72398efceaf020d4235f8433fa7e5a4ab585103",
       "redacted_count": 1,
       "reason": "Incidental Zenodo owner account IDs not needed; original branch checkpoint remains identified; no scientific fields changed."
+    },
+    {
+      "path": "studies/osf-wa5v8/day3/evidence/2026-11-26/01-periodic-identity-infrastructure-recheck/zenodo-concept-attempts.jsonl",
+      "original_git_blob_sha": "3f6dbca460bbece3de14d3711d8e73101590ae9b",
+      "redacted_git_blob_sha": "2cc18de3aa2f7edd75622bfe51c5106f522779d5",
+      "commit": "4fcf480da116bc0f9db1df2a05c58209417dc413",
+      "redacted_count": 10,
+      "reason": "Continuation batch retained public owner account identifiers; removed from proposed main tree, original checkpoint remains identified; scientific fields unchanged."
     }
   ],
   "limitations": "Initial extractor receipt retained more public metadata than necessary; selected projections and original blob identities are distinguished. Pattern scan is not a guarantee of absence of all sensitive information."
