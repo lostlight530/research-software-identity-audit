@@ -86,9 +86,9 @@ Repository owners:
 - `corpus/`: fixed RS01–RS10 manifest;
 - `schema/`: six-layer, seven-platform, state, and counting rules;
 - `schedule/`: operational schedule declarations and their provenance;
-- `monitoring/`: diagnostic and pre-eligibility records;
+- `history/diagnostics/`: diagnostic and pre-eligibility records;
 - `observations/raw/` and `observations/derived/`: eligible prospective records and traceable derivations;
-- `evidence/` and `provenance/`: retained source evidence and lineage.
+- `history/evidence/` and `provenance/`: retained source evidence and lineage.
 
 A monitoring record remains a monitoring record unless it independently satisfies the registered eligibility and observation rules. This evidence classification does not downgrade the formal status of OSF 5b329.
 

@@ -42,6 +42,6 @@ The separately reviewed correction on a **later GitHub branch** updates live `CI
 
 ## Study/source boundary and next action
 
-The preceding [2026-10-18 diagnostic source record](../monitoring/2026-10-18/01-eleven-hour-workflow-ci-crosscheck/README.md) contains DataCite 72 DOI Works, OpenAlex 29 Work IDs, Zenodo/WorkflowHub counts and private LifeMonitor status attribution. The [later ORCID Beta Work update](../monitoring/2026-10-18/02-orcid-openaire-work-refresh/README.md) is a distinct **user-initiated scholarly metadata refresh**, not a new release.
+The preceding [2026-10-18 diagnostic source record](../history/diagnostics/2026-10-18/01-eleven-hour-workflow-ci-crosscheck/README.md) contains DataCite 72 DOI Works, OpenAlex 29 Work IDs, Zenodo/WorkflowHub counts and private LifeMonitor status attribution. The [later ORCID Beta Work update](../history/diagnostics/2026-10-18/02-orcid-openaire-work-refresh/README.md) is a distinct **user-initiated scholarly metadata refresh**, not a new release.
 
 **For a future release:** a checked pre-tag worktree, actual strict/offline evidence checks, source ZIP integrity checks where available, and post-publication DOI relation verification are pending, not retroactively marked successful. CI advisory success alone cannot supply these gates.

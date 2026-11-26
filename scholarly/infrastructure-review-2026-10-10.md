@@ -45,7 +45,7 @@ Directly supported upgrades: **RRID publicly searchable**; RSD constellation/pub
 
 **No further platform accounts, new research objects, DOI uploads, amendments, prospective timepoints, or manual background alerts are justified by this review.**
 
-Related: [scholarly identifiers](identifiers.yaml), [known limitations](../contract/known-limitations.md), [October 10 version-level verification](../monitoring/2026-10-10/02-reconciliation/independent-version-verification.md), [OSF contract](../contract/preregistration.md).
+Related: [scholarly identifiers](identifiers.yaml), [known limitations](../contract/known-limitations.md), [October 10 version-level verification](../history/diagnostics/2026-10-10/02-reconciliation/independent-version-verification.md), [OSF contract](../contract/preregistration.md).
 
 ## Supplemental independent public cross-check (2026-10-10 14:30–14:34 UTC)
 

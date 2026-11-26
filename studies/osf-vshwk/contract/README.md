@@ -57,6 +57,6 @@ A workflow file's presence does not prove execution. A GitHub Actions connector 
 
 ## Physical separation
 
-- Study 1 [5b329](https://osf.io/5b329/) owns root-level `contract/`, `monitoring/`, `evidence/`, and conditional `observations/`
+- Study 1 [5b329](https://osf.io/5b329/) owns root-level `contract/`, `history/diagnostics/`, `history/evidence/`, and conditional `observations/`
 - Study 2 owns `studies/osf-vshwk/contract/` and `studies/osf-vshwk/cycles/`
 - No Study 2 cycle writes RS01–RS10, modifies either source repository, changes OSF registrations/projects, or writes to WorkflowHub, Zenodo, DataCite, Software Heritage, ORCID, OpenAIRE or OpenAlex
