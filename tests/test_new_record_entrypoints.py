@@ -13,8 +13,8 @@ from check_new_record_entrypoints import check_new_events, dated_events
 
 EVENT = "2026-11-24/01-synthetic-public-diagnostic"
 SCOPE = "studies/osf-wa5v8/day0/"
-M = SCOPE + f"monitoring/{EVENT}/"
-E = SCOPE + f"evidence/{EVENT}/"
+M = f"monitoring/{EVENT}/"
+E = f"evidence/{EVENT}/"
 INDEX = f"- [diagnostic]({EVENT}/README.md)\n"
 
 
@@ -116,11 +116,11 @@ class GitEntrypointCLITests(unittest.TestCase):
             git("commit", "-qm", "fixture base")
             base_sha = git("rev-parse", "HEAD")
 
-            (root / M).mkdir(parents=True)
-            (root / E).mkdir(parents=True)
-            (root / (M + "README.md")).write_text("# New event\n", encoding="utf-8")
-            (root / (M + "record.json")).write_text("{}\n", encoding="utf-8")
-            (root / (E + "source.jsonl")).write_text("{}\n", encoding="utf-8")
+            (root / SCOPE / M).mkdir(parents=True)
+            (root / SCOPE / E).mkdir(parents=True)
+            (root / SCOPE / (M + "README.md")).write_text("# New event\n", encoding="utf-8")
+            (root / SCOPE / (M + "record.json")).write_text("{}\n", encoding="utf-8")
+            (root / SCOPE / (E + "source.jsonl")).write_text("{}\n", encoding="utf-8")
             git("add", ".")
             command = [
                 sys.executable, "-B", str(script),
@@ -130,7 +130,7 @@ class GitEntrypointCLITests(unittest.TestCase):
             self.assertEqual(failed.returncode, 1, failed.stderr)
             self.assertEqual(json.loads(failed.stdout)["failed"], 2)
 
-            (root / (E + "README.md")).write_text("# Evidence event\n", encoding="utf-8")
+            (root / SCOPE / (E + "README.md")).write_text("# Evidence event\n", encoding="utf-8")
             (root / "studies/osf-wa5v8/day0/monitoring/README.md").write_text(INDEX, encoding="utf-8")
             git("add", ".")
             passed = subprocess.run(command, capture_output=True, text=True)
