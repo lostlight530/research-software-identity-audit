@@ -30,13 +30,15 @@ These locations are frozen archive surfaces. Do not create a new daily capture u
 
 - `YYYY-MM-DD` is the declared source observation/capture date, **not** ingestion, review, PR merge or CI time
 - `NN` orders event packages within the owning day; it is **not** a prospective wave or analytical unit
+- A retained `history/evidence/YYYY-MM-DD/NN-slug/` package reuses the matching `history/diagnostics/` event identity when the two surfaces are paired. The evidence archive may contain only a subset, so ordinal gaps and first entries above `01` are expected; never renumber evidence packages independently
 - Use lowercase kebab-case for event slugs and research record filenames
 - Do not use `latest`, `current` or `final` as canonical long-lived path-state markers
 - Preserve an original source's self-label inside its source record; do not promote a label such as “Wave 3 final” into contract authority
 
 | Canonical name | Role |
 |---|---|
-| `README.md` | Human-readable record entrypoint |
+| `README.md` | Human-readable record entrypoint; at an archive root, the current navigation index |
+| `README.source.md` | Byte-preserved source-era index or document; historical reference only, not the current navigation entrypoint |
 | `record.yaml` / `record.json` | Bounded machine summary; do not keep competing machine summaries in one event |
 | `source.md`, `source-01-*.md` | Preserved source identity and claims |
 | `verification.md` | Independent verifier's procedure and outcomes |
