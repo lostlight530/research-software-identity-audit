@@ -4,10 +4,10 @@
 
 ## Authority / contract gate
 
-- Fixed `RS01–RS10` in [object manifest](../../../../corpus/object-manifest.csv); independently monitored CONTROL is **not RS11**
+- Fixed `RS01–RS10` in [object manifest](../../../corpus/object-manifest.csv); independently monitored CONTROL is **not RS11**
 - Original OSF [5b329](https://osf.io/5b329/overview) versus **approved October 6 Schema Response revision** remain distinct. Previous 29-field comparison identified only field `344-83` as changed exploratory text; this patrol did not re-retrieve full original/revision bytes
 - Six preregistered analytical layers, **60 object-layer units per eligible scheduled timepoint**; seven operational platforms can yield **70 checks, not 70 units**. OpenAIRE and OpenAlex remain one `discovery_graph` layer
-- The [operational schedule](../../../../schedule/README.md) declares no numerical offsets; no new qualifying **fixed-corpus Published Release** was found. **Prospective cells added: 0**
+- The [operational schedule](../../../schedule/README.md) declares no numerical offsets; no new qualifying **fixed-corpus Published Release** was found. **Prospective cells added: 0**
 
 ## Current connected GitHub: eleven mains, PRs and Releases
 

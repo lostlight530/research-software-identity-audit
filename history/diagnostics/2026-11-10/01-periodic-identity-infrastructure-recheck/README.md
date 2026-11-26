@@ -5,9 +5,9 @@
 ## Contract / provenance gate
 
 - Original frozen [OSF 5b329](https://osf.io/5b329/overview) is distinct from its October 6 approved Schema Response revision. Previously retained 29-field comparison changed only `344-83` (exploratory examples); no new OSF source-byte diff or OSF write in this session
-- Exactly [RS01–RS10](../../../../corpus/object-manifest.csv) remain sample members; **CONTROL is not RS11**; the supplementary Life Science family is not added
+- Exactly [RS01–RS10](../../../corpus/object-manifest.csv) remain sample members; **CONTROL is not RS11**; the supplementary Life Science family is not added
 - Six preregistered analytical layers × ten objects = **60 eligible object-layer units per scheduled timepoint**. Seven operational platforms would mean 70 checks, **not** 70 analytical units; OpenAIRE and OpenAlex both map to `discovery_graph`
-- [schedule/README.md](../../../../schedule/README.md) still declares no concrete operational offsets; no **new fixed-corpus Published Release** was verified. **Zero prospective cells** created
+- [schedule/README.md](../../../schedule/README.md) still declares no concrete operational offsets; no **new fixed-corpus Published Release** was verified. **Zero prospective cells** created
 - No original baseline, prior raw attempt ledger, OSF amendments/deviations, historical file, release artifact, DOI or source citation identity is modified
 
 ## Direct current GitHub evidence

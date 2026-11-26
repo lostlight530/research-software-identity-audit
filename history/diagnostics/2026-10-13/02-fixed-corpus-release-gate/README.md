@@ -2,7 +2,7 @@
 
 **Class:** `diagnostic_monitoring`, independent supplement to the [October 13 noon control-only audit](../01-control-noon-recheck/README.md), **not** a preregistered prospective observation or a schedule declaration
 
-**Scope:** the frozen `RS01–RS10` repository mapping in [the object manifest](../../../../corpus/object-manifest.csv). The independent audit-control repository is **not** RS11. This review checks only public GitHub Release listings and attempts to check public Git tag listings. It does not claim a simultaneous multi-platform identity census or alter the frozen [OSF contract](../../../../contract/preregistration.md).
+**Scope:** the frozen `RS01–RS10` repository mapping in [the object manifest](../../../corpus/object-manifest.csv). The independent audit-control repository is **not** RS11. This review checks only public GitHub Release listings and attempts to check public Git tag listings. It does not claim a simultaneous multi-platform identity census or alter the frozen [OSF contract](../../../contract/preregistration.md).
 
 ## Direct source and retrieval provenance
 
@@ -30,7 +30,7 @@ All ten Release-list queries returned **three listed releases per repository**. 
 
 **Result, limited to this interface:** none of the ten freshly retrieved public GitHub Release listings showed a published Release after the **2026-10-05** OSF registration. Therefore this check provides **no evidence of a new eligible fixed-corpus GitHub Release event**. It does **not** prove that every possible tag, commit, private release, release-like external event, or contract-specific eligibility condition has been fully examined. The ten tag-list attempts were blocked and remain explicitly `NOT_VERIFIED`.
 
-The frozen preregistration's first-eligible-release gate and absent concrete [operational offsets](../../../../schedule/README.md) are **not satisfied or waived by this negative scoped listing result**. No prospective start, planned observation denominator, new timepoint, inferred propagation latency, or zero-count cross-platform observation matrix is declared.
+The frozen preregistration's first-eligible-release gate and absent concrete [operational offsets](../../../schedule/README.md) are **not satisfied or waived by this negative scoped listing result**. No prospective start, planned observation denominator, new timepoint, inferred propagation latency, or zero-count cross-platform observation matrix is declared.
 
 ## Governance and next retest
 

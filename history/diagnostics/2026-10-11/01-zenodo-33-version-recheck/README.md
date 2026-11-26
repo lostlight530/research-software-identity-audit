@@ -13,4 +13,4 @@ Reading order:
 
 **Important:** matching the user's earlier `23:54` reported values in a later API reading does not make this a byte-preserved historical capture of `23:54`. The old RS07 counter-field disagreement is absent at the later reading; the mechanism remains unknown. No claim of visitors' origin, human unique-person count, preregistered prospective dataset membership or expanded research corpus is made.
 
-[Earlier 32-version independent reviewer record](../../2026-10-10/02-reconciliation/independent-version-verification.md) · [Study counting contract](../../../../schema/counting-rules.md) · [Frozen OSF preregistration](../../../../contract/preregistration.md).
+[Earlier 32-version independent reviewer record](../../2026-10-10/02-reconciliation/independent-version-verification.md) · [Study counting contract](../../../schema/counting-rules.md) · [Frozen OSF preregistration](../../../contract/preregistration.md).

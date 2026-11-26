@@ -6,9 +6,9 @@
 
 ## OSF contract, sample and analytical boundary
 
-The [original OSF Registration](https://osf.io/5b329/overview) and [October 6 approved Schema Response revision](../../../../contract/osf-registration-version-governance-2026-11-03.md) retain separate authorities. A previous exact 29-field comparison identified only `344-83`, exploratory planned-analysis wording, as changed. The current extractor reused November 1 representations of both schema responses; **no new live OSF revision claim** is justified. No registration write was attempted.
+The [original OSF Registration](https://osf.io/5b329/overview) and [October 6 approved Schema Response revision](../../../contract/osf-registration-version-governance-2026-11-03.md) retain separate authorities. A previous exact 29-field comparison identified only `344-83`, exploratory planned-analysis wording, as changed. The current extractor reused November 1 representations of both schema responses; **no new live OSF revision claim** is justified. No registration write was attempted.
 
-The [fixed corpus](../../../../corpus/object-manifest.csv) remains **RS01–RS10** (ten research software objects), with the separate research-control repository **CONTROL, never RS11**. Six preregistered layers imply **60 object-layer cells per eligible scheduled timepoint**; seven operational platforms imply **70 possible object-platform checks**, not a new study denominator. The [schedule](../../../../schedule/README.md) still declares no concrete operational offsets. This package is diagnostic, creates **0** formal prospective observation cells and does not modify baseline, original source records or the frozen contract.
+The [fixed corpus](../../../corpus/object-manifest.csv) remains **RS01–RS10** (ten research software objects), with the separate research-control repository **CONTROL, never RS11**. Six preregistered layers imply **60 object-layer cells per eligible scheduled timepoint**; seven operational platforms imply **70 possible object-platform checks**, not a new study denominator. The [schedule](../../../schedule/README.md) still declares no concrete operational offsets. This package is diagnostic, creates **0** formal prospective observation cells and does not modify baseline, original source records or the frozen contract.
 
 ## GitHub: 11 current mains, all PRs and published Releases
 

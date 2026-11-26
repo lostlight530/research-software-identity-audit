@@ -14,4 +14,4 @@ This event is diagnostic, not scheduled prospective research. Its actual connect
 
 The source scopes add to 160 attempt rows, not 160 distinct DOI identities, not 160 raw HTTP bodies and not a replacement for the November 19 458-key full diagnostic.
 
-See [provenance](provenance.json), [monitoring summary](../../../diagnostics/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/summary.json) and [full history taxonomy](../../../repository-inventory/2026-11-20/README.md). Earlier source event files are not rewritten.
+See [provenance](provenance.json), [monitoring summary](../../../monitoring/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/summary.json) and [full history taxonomy](../../../docs/repository-inventory/2026-11-20/README.md). Earlier source event files are not rewritten.

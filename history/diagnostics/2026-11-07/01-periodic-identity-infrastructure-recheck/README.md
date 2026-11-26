@@ -9,7 +9,7 @@
 - Original frozen [OSF Registration 5b329](https://osf.io/5b329/overview) is separate from the approved October 6 Schema Response revision. Prior 29-field comparison has only field `344-83` changed (exploratory wording); **no new original-vs-revised full-byte comparison** performed in this patrol
 - Fixed `RS01–RS10`, independently tracked `CONTROL` repository (never RS11); six analytical layers -> **60 object-layer units per eligible scheduled timepoint**
 - Seven separate platforms -> **70 possible platform checks**, **not** 70 analytical units. OpenAIRE and OpenAlex map to the single discovery_graph layer
-- The [operational schedule](../../../../schedule/README.md) still declares **no concrete offsets**. No fixed-corpus new Published Release has been verified today, and no prospective event/timepoint is declared. **Prospective cells added: 0**
+- The [operational schedule](../../../schedule/README.md) still declares **no concrete offsets**. No fixed-corpus new Published Release has been verified today, and no prospective event/timepoint is declared. **Prospective cells added: 0**
 - Baseline cutoff, original source evidence, OSF, manifest, schema, schedule and amendment history are unchanged
 
 ## GitHub direct read: 11 current mains, 4 open Draft PRs, Published Releases

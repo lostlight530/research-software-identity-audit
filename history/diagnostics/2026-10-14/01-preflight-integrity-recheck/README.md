@@ -39,11 +39,11 @@ Compared with the **separate Oct 13 later matched** `91 views / 87 unique_views 
 | **OSF API** | Public extractor returned documentation-style Registration Detail rather than a trusted parsed native response plus a verified revision history | Keep complete native API JSON / exact version-diff state **NOT_VERIFIED** |
 | **OpenAIRE, ORCID, Software Heritage** | Targeted follow-up requests were blocked by the external extraction service's free-tier rate limit | **TOOL_BLOCKED / NOT_RECHECKED**; do not replace Oct 13 observations, infer API HTTP response, infer absence, or log 0 |
 
-The OSF page update date narrows the [Oct 8 OSF Overview crosswalk](../../../../contract/osf-overview-crosswalk-2026-10-08.md)'s previously unresolved chronology, **but it does not supply an original-versus-updated field diff**. The October 8 crosswalk is kept intact as a dated statement of then-available evidence; this record adds the later verification, not a silent rewrite.
+The OSF page update date narrows the [Oct 8 OSF Overview crosswalk](../../../contract/osf-overview-crosswalk-2026-10-08.md)'s previously unresolved chronology, **but it does not supply an original-versus-updated field diff**. The October 8 crosswalk is kept intact as a dated statement of then-available evidence; this record adds the later verification, not a silent rewrite.
 
 ## Research governance and preflight closeout
 
-- No edits to [frozen contract](../../../../contract/preregistration.md), [manifest](../../../../corpus/object-manifest.csv), [baseline](../../../../baseline/2026-10-05/manifest.yaml), [schema](../../../../schema/counting-rules.md), [schedule](../../../../schedule/README.md) or archived release/tag
+- No edits to [frozen contract](../../../contract/preregistration.md), [manifest](../../../corpus/object-manifest.csv), [baseline](../../../baseline/2026-10-05/manifest.yaml), [schema](../../../schema/counting-rules.md), [schedule](../../../schedule/README.md) or archived release/tag
 - Exactly **10 × 6 = 60** preregistered object-layer units per **eligible scheduled timepoint**; **10 × 7 = 70** possible concrete object-platform checks. This diagnostic report contributes **zero** new prospective cells
 - No release, tag, DOI, OSF amendment, new analytic model, numerical imputation, inferred propagation latency or constructed start timepoint
 - Earlier Oct 13 snapshots/failed attempts remain intact. The source-locator and status ledger reports this review's actual supported checks and unobserved paths

@@ -6,7 +6,7 @@
 
 ## Purpose
 
-Resolve the two rows previously marked `UNKNOWN` in [the 2026-11-19 web-assisted inventory gap](../../../diagnostics/2026-11-19/03-web-assisted-surface-review/zenodo-supplementary-inventory-gap.csv). This is an additive reconciliation. The original 67-key Zenodo inventory, its 458-request cohort, and the earlier gap record remain unchanged.
+Resolve the two rows previously marked `UNKNOWN` in [the 2026-11-19 web-assisted inventory gap](../../../monitoring/2026-11-19/03-web-assisted-surface-review/zenodo-supplementary-inventory-gap.csv). This is an additive reconciliation. The original 67-key Zenodo inventory, its 458-request cohort, and the earlier gap record remain unchanged.
 
 ## Resolved identities
 

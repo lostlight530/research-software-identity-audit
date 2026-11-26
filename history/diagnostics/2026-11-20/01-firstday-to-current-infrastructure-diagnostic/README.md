@@ -3,7 +3,7 @@
 **Scope:** new 2026-11-20 read-only diagnostic and retrospective full CONTROL Git file/history classification. NOT a preregistered prospective timepoint or a fresh full 458-key provider cohort
 
 - CONTROL main historical pin before this branch: `5bbdd7ecc0f0513e7f9857f87e4539abd58f9c58`
-- Full source-file [903 Git-blob catalog](../../../repository-inventory/2026-11-20/current-main-tracked-file-catalog.csv), [158-commit main chronology](../../../repository-inventory/2026-11-20/main-reachable-commits.csv), and [83 dated monitoring events](../../../repository-inventory/2026-11-20/dated-event-classification.csv)
+- Full source-file [903 Git-blob catalog](../../../docs/repository-inventory/2026-11-20/current-main-tracked-file-catalog.csv), [158-commit main chronology](../../../docs/repository-inventory/2026-11-20/main-reachable-commits.csv), and [83 dated monitoring events](../../../docs/repository-inventory/2026-11-20/dated-event-classification.csv)
 - Source windows and method boundaries: [evidence provenance](../../../evidence/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/provenance.json)
 - 160 recorded connected-source attempts across 69 known Zenodo versions, 34 supplementary URLs, 11 main, 11 latest releases, 11 PR lists, 4 public interaction records and 20 targeted core-platform attempts. Duplicated locators across scopes are not unique platform checks
 - **69/69** known Zenodo version identities and counters projected; 60/60 fixed sample version records

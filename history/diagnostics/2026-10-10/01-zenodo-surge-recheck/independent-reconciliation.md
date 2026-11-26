@@ -13,7 +13,7 @@
 
 The prior README calls `23068494` (RS07) and `23068352` (RS10) **"additional independent Zenodo concept families."** This object-type classification is **incorrect**.
 
-The preserved [canonical baseline DOI map](../../../../baseline/2026-10-05/doi-map.csv) explicitly identifies:
+The preserved [canonical baseline DOI map](../../../baseline/2026-10-05/doi-map.csv) explicitly identifies:
 
 | Fixed object | Actual existing concept DOI | Record cited as "additional concept" | Correct role |
 | --- | --- | --- | --- |

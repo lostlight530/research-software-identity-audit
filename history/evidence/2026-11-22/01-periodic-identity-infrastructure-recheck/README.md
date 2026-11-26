@@ -20,6 +20,6 @@ The machine summary holds **11 canonical Git blob SHA-1 identifiers** for these 
 
 **Counting boundary:** RS01–RS10 only, CONTROL is not RS11, six preregistered layers yield 60 analytical units per eligible scheduled timepoint. Version-row totals or supplementary endpoints cannot replace that denominator. Prospective rows generated: **0**.
 
-See [Nov22 monitoring report](../../../diagnostics/2026-11-22/01-periodic-identity-infrastructure-recheck/README.md), [machine summary](../../../diagnostics/2026-11-22/01-periodic-identity-infrastructure-recheck/summary.json) and [later entrypoint correction record](../../../diagnostics/2026-11-22/01-periodic-identity-infrastructure-recheck/record.json).
+See [Nov22 monitoring report](../../../monitoring/2026-11-22/01-periodic-identity-infrastructure-recheck/README.md), [machine summary](../../../monitoring/2026-11-22/01-periodic-identity-infrastructure-recheck/summary.json) and [later entrypoint correction record](../../../monitoring/2026-11-22/01-periodic-identity-infrastructure-recheck/record.json).
 
 **Correction provenance:** [Prior merged PR #136](https://github.com/lostlight530/research-software-identity-audit/pull/136) produced [advisory Actions run 45036674186](https://github.com/lostlight530/research-software-identity-audit/actions/runs/45036674186); its record-path checker returned three errors although the overall advisory workflow concluded `success`. This README repairs the missing entrypoint without changing source data or claiming another capture.

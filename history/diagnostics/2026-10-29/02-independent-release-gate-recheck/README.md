@@ -5,7 +5,7 @@
 
 ## Scope and source provenance
 
-- Frozen research contract: [OSF registration 5b329](https://osf.io/5b329/overview), DOI `10.17605/OSF.IO/5B329`; repository mapping: [contract/preregistration.md](../../../../contract/preregistration.md)
+- Frozen research contract: [OSF registration 5b329](https://osf.io/5b329/overview), DOI `10.17605/OSF.IO/5B329`; repository mapping: [contract/preregistration.md](../../../contract/preregistration.md)
 - GitHub source-control base: [`7d2b8b9b762ec18c415ceb4d3c09ad63e9c6c22f`](https://github.com/lostlight530/research-software-identity-audit/commit/7d2b8b9b762ec18c415ceb4d3c09ad63e9c6c22f); **0 open PRs** at inspection
 - Collection: connected GitHub `fetch` calls to the **11 exact Releases API list URLs** in [source-ledger.csv](source-ledger.csv), one list per frozen RS01–RS10 plus the separate CONTROL repository, `per_page=100`
 - **Tool-orchestration client clock envelope:** `2026-10-29T15:58:34.748Z`–`2026-10-29T15:58:36.538Z` (23:58:34–23:58:36 Asia/Shanghai), measured by JavaScript `Date` immediately before and after the awaited connector call batch; not independently signed, not per-request start/end, not server-origin timestamps or exact first-appearance times
@@ -24,8 +24,8 @@ All returned list entries were non-draft and the latest entries were not prerele
 
 ## Contract, CI and access review
 
-- [Schedule](../../../../schedule/README.md): still has **no declared concrete offsets or complete scheduled follow-up list**; an October 14 fixed-corpus Release does **not** on its own establish eligible prospective execution
-- [Raw observations](../../../../observations/raw/README.md): no prospective records created by this recheck, no missing outcomes reclassified as absence
+- [Schedule](../../../schedule/README.md): still has **no declared concrete offsets or complete scheduled follow-up list**; an October 14 fixed-corpus Release does **not** on its own establish eligible prospective execution
+- [Raw observations](../../../observations/raw/README.md): no prospective records created by this recheck, no missing outcomes reclassified as absence
 - At the inspected base SHA, [GitHub Actions run 40732181726](https://github.com/lostlight530/research-software-identity-audit/actions/runs/40732181726) concluded `success`; its job-step API separately reported `success` for the advisory checker, strict advisory check, observation tests, all-public-manifest verifier, retained-evidence checks, and record-path check. These are **implementation verification outcomes**, not new scientific or origin-source verification
 - Separate public-page attempts in the same review session could not retrieve the OSF Overview (`403`) or resolve the DOI through the available web reader. Those **access limitations do not negate** the earlier recorded OSF registration or establish its original/updated version difference; these attempts are not included as successful requests in the 11 GitHub rows
 - Zenodo, DataCite, ORCID, Software Heritage, OpenAIRE, and OpenAlex were **not independently recollected** in this pass. No claim of a contemporaneous full seven-platform recheck, external propagation change, latency, authorship aggregation, or missing object is justified

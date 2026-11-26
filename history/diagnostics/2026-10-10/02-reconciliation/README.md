@@ -20,6 +20,6 @@
 
 The 2026-10-10 evening independent retrieval reproduced the older reported numerical totals but **did not** prove an earlier 22:11 source response was identical or preserve the raw HTTP bytes for the 32 separate reads. `version-counters-independent.csv` is derived public metadata, with outer batch windows and no transport-byte hash.
 
-[Method boundary](../../../../schema/counting-rules.md#supplementary-zenodo-version-family-reconciliation-2026-10-10) · [Original October 10 collector](../01-zenodo-surge-recheck/README.md) · [External institutional review](../../../../scholarly/infrastructure-review-2026-10-10.md).
+[Method boundary](../../../schema/counting-rules.md#supplementary-zenodo-version-family-reconciliation-2026-10-10) · [Original October 10 collector](../01-zenodo-surge-recheck/README.md) · [External institutional review](../../../scholarly/infrastructure-review-2026-10-10.md).
 
 **Source lineage:** original source collector -> its preserved evidence and 02 interpretation -> separate later independent version comparison -> reviewer correction and unresolved states. Do not relabel the original author's collection as this reviewer's raw observation.

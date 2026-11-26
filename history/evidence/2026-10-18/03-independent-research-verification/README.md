@@ -8,4 +8,4 @@ This package publishes **minimal derived field extracts**, request URLs, per-req
 
 Private LifeMonitor identifiers, communications, access material, local paths and unrelated GitHub Traffic are excluded. Historical evidence packages are unchanged.
 
-See [the dated monitoring record](../../../diagnostics/2026-10-18/03-independent-research-verification/README.md).
+See [the dated monitoring record](../../../monitoring/2026-10-18/03-independent-research-verification/README.md).

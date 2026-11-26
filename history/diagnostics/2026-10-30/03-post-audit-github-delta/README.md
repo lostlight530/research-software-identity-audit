@@ -28,7 +28,7 @@ The prior same-day **34 representative URL attempts** remain at their original e
 
 - [OSF original/revised field reconciliation](../01-osf-schema-response-version-reconciliation/README.md) is already recorded: 29 compared response fields, only `Other planned analysis` revised; later benchmarking is not retroactive preregistration
 - RS01–RS10 fixed; CONTROL is **not RS11**; **six layers × ten objects = 60 units**, versus seven operational platforms/70 *possible checks*
-- [Schedule](../../../../schedule/README.md) still has **no concrete offsets**; October 14 Releases do not by themselves authorize an eligible scheduled prospective wave; zero prospective cells added
+- [Schedule](../../../schedule/README.md) still has **no concrete offsets**; October 14 Releases do not by themselves authorize an eligible scheduled prospective wave; zero prospective cells added
 - No change to OSF, corpus, baseline, schema, schedule, prior raw evidence, prior diagnostic records, tags, Releases, DOIs or external accounts. This record merely captures a proven **GitHub state transition** with precise source attribution
 - No new software defect or frozen-contract drift was established requiring a code repair: `NO_CHANGE_REQUIRED`; **external full-census status `PARTIAL / UNKNOWN`**
 

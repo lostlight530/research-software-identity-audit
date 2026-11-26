@@ -16,7 +16,7 @@
 - All **11** original pre-record Open PR lists empty; each fixed repo still has **6** published Releases, last `v2026.11-ten-day-evidence-checkpoint` (Nov 10), CONTROL **5**, last Oct 31. GitHub main commits are not new published version DOI objects
 - Nov 15 main includes research Daily and A1/A2 source/custody revisions in ten fixed repositories. Specifically Epistemic pipeline A2 date-relation regression was already corrected and merged in PR #246; Sci Render has changed accessibility source and tests. Do not overwrite those repairs or relabel them as unfinished
 - All 11 recursive Git trees returned **untruncated** at the pinned main SHA. **9,193 tracked blob paths**, zero common build/cache/temp filename pattern matches in this narrow static scan. This does *not* review 9,193 file contents for scientific validity or all semantic duplication
-- Prior [all-11 November 6 catalog](../../../repository-inventory/2026-11-06/README.md) and [November 10 CONTROL exact-path audit](../../../repository-inventory/2026-11-10/README.md) remain separate point-in-time evidence. No old evidence, record, tag or DOI is renamed/deleted merely for naming regularity
+- Prior [all-11 November 6 catalog](../../../docs/repository-inventory/2026-11-06/README.md) and [November 10 CONTROL exact-path audit](../../../docs/repository-inventory/2026-11-10/README.md) remain separate point-in-time evidence. No old evidence, record, tag or DOI is renamed/deleted merely for naming regularity
 
 ## Seven operational platforms, 34 supplementary URLs
 

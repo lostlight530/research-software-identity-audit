@@ -1,6 +1,6 @@
 # October 25 retained public field projections
 
-Companion of [monitoring record](../../../diagnostics/2026-10-25/02-independent-institutional-recheck/README.md)
+Companion of [monitoring record](../../../monitoring/2026-10-25/02-independent-institutional-recheck/README.md)
 
 - [Source attempts](source-attempts.csv): actual request clocks, endpoint/Accept shape, HTTP or transport outcome, original local response byte count and SHA-256
 - [Canonical object fields](canonical-object-fields.json): fixed IDs, DOI families/versions, release commits and chain predicates

@@ -6,9 +6,9 @@
 
 ## Contract and comparison
 
-- [Original OSF registration](https://osf.io/5b329/overview) is frozen; the [dated original/revised Schema Response reconciliation](../../../../contract/osf-registration-version-governance-2026-11-03.md) found 29 compared fields with one changed later-approved exploratory field `344-83`, not a new primary analysis
-- [Fixed manifest](../../../../corpus/object-manifest.csv): RS01–RS10 = ten samples, CONTROL excluded; six layers and **60** object-layer units per eligible scheduled timepoint, seven operational platforms and **70 possible checks**, not 70 research units
-- [Schedule](../../../../schedule/README.md) still has no declared concrete offsets. The October 14 fixed-ten release cohort does not retroactively make monitoring records scheduled prospective cells. This patrol adds **0 prospective cells**
+- [Original OSF registration](https://osf.io/5b329/overview) is frozen; the [dated original/revised Schema Response reconciliation](../../../contract/osf-registration-version-governance-2026-11-03.md) found 29 compared fields with one changed later-approved exploratory field `344-83`, not a new primary analysis
+- [Fixed manifest](../../../corpus/object-manifest.csv): RS01–RS10 = ten samples, CONTROL excluded; six layers and **60** object-layer units per eligible scheduled timepoint, seven operational platforms and **70 possible checks**, not 70 research units
+- [Schedule](../../../schedule/README.md) still has no declared concrete offsets. The October 14 fixed-ten release cohort does not retroactively make monitoring records scheduled prospective cells. This patrol adds **0 prospective cells**
 - Source comparators: [November 3 bounded patrol](../../2026-11-03/01-bounded-identity-infrastructure-recheck/README.md), [November 2 full institutional diagnostic](../../2026-11-02/01-complete-institutional-recheck/README.md), and [November 2 all-version Zenodo measurement](../../2026-11-02/02-all-version-recheck/README.md). Distinguish source date, extract acquisition day and this new review's compilation clock
 
 ## Connected GitHub observations

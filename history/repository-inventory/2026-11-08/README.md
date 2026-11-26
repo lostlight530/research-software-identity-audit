@@ -12,7 +12,7 @@
 | --- | ---: | --- |
 | Initial main commit | [`e5ba0a0e7dc548bd5bd3e79b4d7fc0cb95e528aa`](https://github.com/lostlight530/research-software-identity-audit/commit/e5ba0a0e7dc548bd5bd3e79b4d7fc0cb95e528aa) | 2026-10-05 14:59:46 UTC |
 | Initial commit tracked files | **1** | `README.md`; it still exists, though its content has evolved |
-| Main-reachable commits through pinned source | **130** | 110 in the [Nov 5 historical ledger](../../documentation/inventory-ledgers/research-control-main-history-through-2026-11-05.csv) and **20 verified additions** in [this additive delta](main-commits-since-2026-11-05.csv); 110/110 old SHAs were found in the current reachable set |
+| Main-reachable commits through pinned source | **130** | 110 in the [Nov 5 historical ledger](../../history/inventory-ledgers/research-control-main-history-through-2026-11-05.csv) and **20 verified additions** in [this additive delta](main-commits-since-2026-11-05.csv); 110/110 old SHAs were found in the current reachable set |
 | Historical PRs | **101** | 100 merged, 1 closed-unmerged, zero open at this check; PR status is a *separate* lifecycle object from Git commits |
 | Current tracked file path/blob identities | **703** | Full recursive Git Tree `truncated=false`; [complete 703-row catalog](control-tracked-paths.csv) |
 | [Nov 6 pinned CONTROL tree](../2026-11-06/control-research-software-identity-audit-tracked-paths.csv) | **657** | Older source commit `44b3defa6a67cf0eb45b6519fc8245827731c7a6`; do not retrospectively overwrite it |
@@ -63,7 +63,7 @@ All 26 candidate path occurrences are marked `REVIEW_REQUIRED_NO_DELETE`. Nothin
 - `schedule/README.md` still lacks concrete offsets; this file-governance change creates **0 prospective cells**.
 - Previous historical snapshots, raw source packages and their byte hashes are not silently changed. A current Git API response is not evidence of a past OSF or platform state.
 - Published Zenodo versions, Tags, all DOI identities and external OSF storage/wiki remain untouched.
-- The [Nov 7 correction](../../diagnostics/2026-11-07/01-periodic-identity-infrastructure-recheck/reconciliation.md) retains the initial checker failure and subsequent repair. Green CI is not a scientific content audit.
+- The [Nov 7 correction](../../../monitoring/2026-11-07/01-periodic-identity-infrastructure-recheck/reconciliation.md) retains the initial checker failure and subsequent repair. Green CI is not a scientific content audit.
 
 **Maintenance disposition:** `CONTROL_ONLY_FULL_CURRENT_TREE_IDENTITY_AUDITED`; `HISTORY_CONTINUITY_130_COMMITS`; `CLASSIFICATION_703_PATHS_0_UNCLASSIFIED`; `EXACT_BLOB_DUPLICATE_REVIEW_12_GROUPS_KEEP`; `CONTENT_REVIEW_PARTIAL`; `NO_BULK_RENAME_OR_DELETE`; `NO_FROZEN_CONTRACT_CHANGE`; `NO_NEW_PROSPECTIVE_CELLS`.
 
