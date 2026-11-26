@@ -1,5 +1,7 @@
 # OSF VSHWK scope-to-endpoint crosswalk
 
+**OSF Project / Study Registration pair:** [AUHJF](https://osf.io/auhjf/) / [VSHWK](https://osf.io/vshwk/) · [2026-11-26 pair crosswalk](../../osf-object-pairing-crosswalk-2026-11-26.md)
+
 **Protocol authority:** approved Schema Response `6afdcc7108de91a0f0cefd6c`  
 **Operational endpoint set:** [manifest v1](endpoints-v1.json), declared 2026-11-24T07:05:22.196Z before Cycle 01 acquisition  
 **Current case:** one WorkflowHub Project 490 case; paired embedded lineages 2332 v9 and 2334 v9

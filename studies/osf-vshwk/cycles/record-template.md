@@ -1,5 +1,7 @@
 # VSHWK cycle record template
 
+**OSF Project / Study Registration pair:** [AUHJF](https://osf.io/auhjf/) / [VSHWK](https://osf.io/vshwk/) · [2026-11-26 pair crosswalk](../../osf-object-pairing-crosswalk-2026-11-26.md)
+
 > **Template only.** This file is not a cycle, observation, endpoint attempt, or research result. Copy the structure into a new cycle directory only after a real precollection decision.
 
 ## Stable path and identity
