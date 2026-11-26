@@ -63,6 +63,27 @@ class RepositoryTextIntegrityTests(unittest.TestCase):
         result = audit(self.root, ["target.md", "docs/source.md"])
         self.assertEqual(result["error_count"], 0)
 
+    def test_migrated_history_links_resolve_from_original_source_path(self):
+        self.write("contract/preregistration.md", "# frozen contract\n")
+        self.write(
+            "history/diagnostics/2026-10-14/03-event/README.md",
+            "# retained diagnostic\n",
+        )
+        source = (
+            "[contract](../../../contract/preregistration.md)\n"
+            "[diagnostic](../../../monitoring/2026-10-14/03-event/README.md)\n"
+        )
+        self.write("history/evidence/2026-10-14/03-event/README.md", source)
+        result = audit(
+            self.root,
+            [
+                "contract/preregistration.md",
+                "history/diagnostics/2026-10-14/03-event/README.md",
+                "history/evidence/2026-10-14/03-event/README.md",
+            ],
+        )
+        self.assertEqual(result["error_count"], 0)
+
 
 if __name__ == "__main__":
     unittest.main()
