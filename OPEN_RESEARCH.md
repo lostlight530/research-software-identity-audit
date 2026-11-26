@@ -188,7 +188,7 @@ scientific validity by themselves.
 
 ### Research-series data contract / 研究序列数据契约
 
-**中文**：固定十对象与六基础设施层的原始观测必须按对象 ID、层、适格时间点、来源版本、取得时间、状态和失败原因回溯；`monitoring/` 的诊断统计不可进入 `observations/` 的前瞻性分母；阶段展示的聚合数字只表示按所声明口径计算的结果，不能替代 raw evidence 或 frozen OSF 合同
+**中文**：固定十对象与六基础设施层的原始观测必须按对象 ID、层、适格时间点、来源版本、取得时间、状态和失败原因回溯；`history/diagnostics/` 的诊断统计不可进入 `observations/` 的前瞻性分母；阶段展示的聚合数字只表示按所声明口径计算的结果，不能替代 raw evidence 或 frozen OSF 合同
 
 **English**: Every eligible original observation is keyed by fixed object ID, infrastructure layer, eligible timepoint, source revision, acquisition time, outcome and failure cause. Monitoring diagnostics are not prospective denominator cells. Aggregated stage displays must declare their calculation and cannot supersede raw evidence or the frozen OSF contract
 

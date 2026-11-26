@@ -62,7 +62,7 @@ The supplied `Other planned analysis — Updated` wording does not establish ini
 
 ## October 10 diagnostic version counts (exploratory)
 
-The [Zenodo version-level reconciliation](../monitoring/2026-10-10/02-reconciliation/independent-version-verification.md) verifies 11 concept families and 32 enumerated version records, with RS01–RS10 (30 versions) kept separate from the control repository (2 versions). In its own bounded retrieval window, the independent version-sum method yielded **1,813** views / **7** downloads for the fixed ten and **51** views / **0** downloads for the separately reported control.
+The [Zenodo version-level reconciliation](../history/diagnostics/2026-10-10/02-reconciliation/independent-version-verification.md) verifies 11 concept families and 32 enumerated version records, with RS01–RS10 (30 versions) kept separate from the control repository (2 versions). In its own bounded retrieval window, the independent version-sum method yielded **1,813** views / **7** downloads for the fixed ten and **51** views / **0** downloads for the separately reported control.
 
 A single RS07 version record exposes a conflicting attached family aggregate (`186`) against the derived version-view sum (`85`). This is an unresolved observable field disagreement, **not** a new software object or proven synchronization mechanism. Historical version-localized delta inference is blocked without matched earlier version-level snapshots. See the [supplementary counting rules](../schema/counting-rules.md#supplementary-zenodo-version-family-reconciliation-2026-10-10).
 
