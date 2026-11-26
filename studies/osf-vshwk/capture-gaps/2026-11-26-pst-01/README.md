@@ -6,6 +6,6 @@ The original precollection intent, gap record and report are preserved byte-for-
 - Status: BLOCKED_CAPTURE_ORCHESTRATION_LIMIT
 - Attempts: unknown; no retained endpoint ledgers; NO_CONCLUSION
 - [Original intent](precollection-intent.json) · [Original gap record](custody-gap.json) · [Original report](original-report.md)
-- [Startup gate evidence](../../startup-gate-review-2026-11-26.json)
+- [Startup gate evidence](../../../startup-gate-review-2026-11-26.json)
 
 A separately declared review with its own source clocks is not a repair or replacement of this attempt.

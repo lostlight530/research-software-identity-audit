@@ -26,6 +26,8 @@ The primary analytical unit is one project × one layer × one cycle: **8 projec
 | [Cycle 01](cycle-2026-11-23-pst-01/README.md) | 2026-11-23 America/Los_Angeles | [v1](../contract/endpoints-v1.json) | 22/22 attempted | `CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS` |
 | [Cycle 02 custody-gap record](cycle-2026-11-24-pst-01/custody-gap.json) | 2026-11-24 America/Los_Angeles | Not verifiable from retained records | Unknown (`primary_endpoint_attempts: null`) | `BLOCKED_ORIGINAL_RECORDS_NOT_AVAILABLE` — not a validated cycle |
 | [Day 2 independent cycle](cycle-2026-11-25-pst-01/README.md) | 2026-11-25 America/Los_Angeles | [v1](../contract/endpoints-v1.json) | 22/22 attempted; original errors retained, follow-ups separate | `CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS` |
+| [2026-11-26 capture attempt 01](../capture-gaps/2026-11-26-pst-01/README.md) | 2026-11-26 America/Los_Angeles | v1 intended | Unknown; no retained endpoint ledgers | `BLOCKED_CAPTURE_ORCHESTRATION_LIMIT` — not a validated cycle |
+| [2026-11-26 independent cycle 02](cycle-2026-11-26-pst-02/README.md) | 2026-11-26 America/Los_Angeles | [v1](../contract/endpoints-v1.json) | 22/22 attempted; 4 complete expected identity fields, 14 partial, 4 errors; cached dates retained | `CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS` |
 
 Cycle 01's actual acquisition window was 2026-11-24T07:07:37.297Z–2026-11-24T07:09:58.002Z. The reporting-day label is 2026-11-23 Pacific; the actual China acquisition date is 2026-11-24.
 
@@ -49,4 +51,4 @@ The `BLOCKED_ORIGINAL_RECORDS_NOT_AVAILABLE` disposition remains for the Day 1 r
 
 ## 2026-11-26 precollection gate and capture custody gap
 
-[Startup gate review](../../startup-gate-review-2026-11-26.json) records the fixed-ten public release candidate checks and two lineage source changes without adding Study 1 prospective cells. [Capture attempt 01](../capture-gaps/2026-11-26-pst-01/README.md) preserves an orchestration-limit custody gap; it is not a validated cycle and its attempted endpoint count is unknown. A separate full-scope review has its own intent and evidence.
+[Startup gate review](../../startup-gate-review-2026-11-26.json) records the fixed-ten public release candidate checks and two lineage source changes without adding Study 1 prospective cells. [Capture attempt 01](../capture-gaps/2026-11-26-pst-01/README.md) preserves an orchestration-limit custody gap; it is not a validated cycle and its attempted endpoint count is unknown. [Independent cycle 02](cycle-2026-11-26-pst-02/README.md) has its own intent and newly recorded attempts (UTC 08:10:03.138–08:10:59.971), with dated extractor representations explicitly distinguished from contemporaneous live origin evidence. It does not replace attempt 01. No owner task-day number is assigned.
