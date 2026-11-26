@@ -10,7 +10,7 @@ An actual cross-repository documentation ambiguity was found: all ten fixed rese
 
 **Actions:** one dedicated branch and one-file PR for each of RS01–RS10, appending the exact three Version DOI identities without erasing or backdating the September 16 source section. The older `CITATION.cff` and `codemeta.json` concept DOI references were **retained intentionally**. Version DOIs identify the archived snapshots; concept DOIs identify the evolving software family. No repository was told to re-release, move tags, backdate citation metadata or fabricate scholarly uptake.
 
-The per-repository DOI structure was cross-checked with public Zenodo `conceptrecid` version enumeration (three version records per object), direct version record identities, and corresponding GitHub `releases/latest` pages. The archived version-level collection and its limits are in [independent reviewer verification](../monitoring/2026-10-10/02-reconciliation/independent-version-verification.md).
+The per-repository DOI structure was cross-checked with public Zenodo `conceptrecid` version enumeration (three version records per object), direct version record identities, and corresponding GitHub `releases/latest` pages. The archived version-level collection and its limits are in [independent reviewer verification](../history/diagnostics/2026-10-10/02-reconciliation/independent-version-verification.md).
 
 ## Public release DOI traceability
 
