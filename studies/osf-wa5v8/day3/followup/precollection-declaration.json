@@ -1,0 +1,11 @@
+{
+  "record_class": "day3_supplementary_diagnostic_intent",
+  "task_day": "DAY_3",
+  "reporting_day": "2026-11-26",
+  "recorded_at_utc": "2026-11-26T15:10:41.188Z",
+  "base_main": "805617acbb0cc363dfa3ecffa1d0580919148c2f",
+  "authority": "6afdcc3a7fb0a89b0e3dd7e4",
+  "scope": "fixed RS01–RS10 release-list pagination and exact authority/identity gaps, preserve existing branch-only material by provenance reference; no new prospective observations",
+  "limits": "read-only sources, bounded batches, no retrospective eligibility promotion, no repeat retry loop, preserve original records, no Day 4",
+  "old_branch_head": "32b33c9f521dc6a636414ffa178028c9e08bdbcb"
+}
