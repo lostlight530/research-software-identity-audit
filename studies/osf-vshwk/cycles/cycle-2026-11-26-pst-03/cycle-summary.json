@@ -1,0 +1,314 @@
+{
+  "schema_version": "1.0",
+  "study": "OSF_VSHWK",
+  "cycle_id": "cycle-2026-11-26-pst-03",
+  "task_day": "DAY_3",
+  "logical_day": {
+    "date": "2026-11-26",
+    "tz": "America/Los_Angeles"
+  },
+  "latest_approved_schema_response": "6afdcc7108de91a0f0cefd6c",
+  "intent_declared_at_utc": "2026-11-26T13:58:37.717Z",
+  "precollection_committed_first_at": "2863079d6c860df3a0c772896b12e1083034dcfa",
+  "capture_window_utc": [
+    "2026-11-26T13:58:52.175Z",
+    "2026-11-26T13:59:39.693Z"
+  ],
+  "expected_endpoints": 22,
+  "primary_endpoint_attempts": 22,
+  "not_queried_endpoints": 0,
+  "primary_retrieval_statuses": {
+    "RESPONSE_COMPLETE": 2,
+    "ENDPOINT_ERROR": 4,
+    "RESPONSE_PARTIAL": 16
+  },
+  "relationship_verification_statuses": {
+    "VERIFIED_DIRECT_LINK": 9,
+    "UNRESOLVED": 8,
+    "RECORD_FOUND_LINK_UNVERIFIED": 5
+  },
+  "endpoint_outcome_index": "studies/osf-vshwk/cycles/cycle-2026-11-26-pst-03/endpoint-outcome-index.jsonl",
+  "per_layer_classification": [
+    {
+      "layer": "L1_source_repository",
+      "endpoint_count": 4,
+      "retrieval_status_counts": {
+        "RESPONSE_COMPLETE": 2,
+        "ENDPOINT_ERROR": 2
+      },
+      "relationship_verification_status_counts": {
+        "VERIFIED_DIRECT_LINK": 2,
+        "UNRESOLVED": 2
+      },
+      "classification": "ACCOUNTED_BOUNDED"
+    },
+    {
+      "layer": "L2_workflow_registry",
+      "endpoint_count": 3,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 3
+      },
+      "relationship_verification_status_counts": {
+        "VERIFIED_DIRECT_LINK": 3
+      },
+      "classification": "ACCOUNTED_BOUNDED"
+    },
+    {
+      "layer": "L3_archival_repository",
+      "endpoint_count": 2,
+      "retrieval_status_counts": {
+        "ENDPOINT_ERROR": 2
+      },
+      "relationship_verification_status_counts": {
+        "UNRESOLVED": 2
+      },
+      "classification": "ACCOUNTED_BOUNDED"
+    },
+    {
+      "layer": "L4_identifier_registration_resolution",
+      "endpoint_count": 4,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 4
+      },
+      "relationship_verification_status_counts": {
+        "RECORD_FOUND_LINK_UNVERIFIED": 2,
+        "VERIFIED_DIRECT_LINK": 2
+      },
+      "classification": "ACCOUNTED_BOUNDED"
+    },
+    {
+      "layer": "L5_source_preservation",
+      "endpoint_count": 2,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 2
+      },
+      "relationship_verification_status_counts": {
+        "UNRESOLVED": 2
+      },
+      "classification": "ACCOUNTED_BOUNDED"
+    },
+    {
+      "layer": "L6_testing_monitoring_execution",
+      "endpoint_count": 2,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 2
+      },
+      "relationship_verification_status_counts": {
+        "RECORD_FOUND_LINK_UNVERIFIED": 2
+      },
+      "classification": "ACCOUNTED_BOUNDED"
+    },
+    {
+      "layer": "L7_researcher_attribution",
+      "endpoint_count": 1,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 1
+      },
+      "relationship_verification_status_counts": {
+        "RECORD_FOUND_LINK_UNVERIFIED": 1
+      },
+      "classification": "ACCOUNTED_BOUNDED"
+    },
+    {
+      "layer": "L8_discovery_aggregation",
+      "endpoint_count": 4,
+      "retrieval_status_counts": {
+        "RESPONSE_PARTIAL": 4
+      },
+      "relationship_verification_status_counts": {
+        "UNRESOLVED": 2,
+        "VERIFIED_DIRECT_LINK": 2
+      },
+      "classification": "ACCOUNTED_BOUNDED"
+    }
+  ],
+  "nested_lineage_layer_classification": [
+    {
+      "lineage": "A",
+      "layer": "L1_source_repository",
+      "endpoint_ids": [
+        "L1-A-head",
+        "L1-A-workflow"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "A",
+      "layer": "L2_workflow_registry",
+      "endpoint_ids": [
+        "L2-A-version9",
+        "L2-shared-project490"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "A",
+      "layer": "L3_archival_repository",
+      "endpoint_ids": [
+        "L3-A-zenodo-search"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "A",
+      "layer": "L4_identifier_registration_resolution",
+      "endpoint_ids": [
+        "L4-A-datacite",
+        "L4-A-doi-resolve"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "A",
+      "layer": "L5_source_preservation",
+      "endpoint_ids": [
+        "L5-A-swh-visit"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "A",
+      "layer": "L6_testing_monitoring_execution",
+      "endpoint_ids": [
+        "L6-A-actions"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "A",
+      "layer": "L7_researcher_attribution",
+      "endpoint_ids": [
+        "L7-shared-orcid-works"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED",
+      "shared_evidence_not_double_counted": [
+        "L7-shared-orcid-works"
+      ]
+    },
+    {
+      "lineage": "A",
+      "layer": "L8_discovery_aggregation",
+      "endpoint_ids": [
+        "L8-A-openaire",
+        "L8-A-openalex"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "B",
+      "layer": "L1_source_repository",
+      "endpoint_ids": [
+        "L1-B-head",
+        "L1-B-workflow"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "B",
+      "layer": "L2_workflow_registry",
+      "endpoint_ids": [
+        "L2-B-version9",
+        "L2-shared-project490"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "B",
+      "layer": "L3_archival_repository",
+      "endpoint_ids": [
+        "L3-B-zenodo-search"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "B",
+      "layer": "L4_identifier_registration_resolution",
+      "endpoint_ids": [
+        "L4-B-datacite",
+        "L4-B-doi-resolve"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "B",
+      "layer": "L5_source_preservation",
+      "endpoint_ids": [
+        "L5-B-swh-visit"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "B",
+      "layer": "L6_testing_monitoring_execution",
+      "endpoint_ids": [
+        "L6-B-actions"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    },
+    {
+      "lineage": "B",
+      "layer": "L7_researcher_attribution",
+      "endpoint_ids": [
+        "L7-shared-orcid-works"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED",
+      "shared_evidence_not_double_counted": [
+        "L7-shared-orcid-works"
+      ]
+    },
+    {
+      "lineage": "B",
+      "layer": "L8_discovery_aggregation",
+      "endpoint_ids": [
+        "L8-B-openaire",
+        "L8-B-openalex"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+    }
+  ],
+  "study_units": {
+    "project_case_count": 1,
+    "project_layer_bundles": 8,
+    "nested_lineage_layer_bundles": 16,
+    "independent_statistical_samples_not_16": true
+  },
+  "source_ledgers": [
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-26-pst-03/evidence/github-attempts.jsonl",
+      "git_blob_sha": "c350427a572b3a2f1c1c0c45c31311f928426b11",
+      "rows": 4
+    },
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-26-pst-03/evidence/registry-archive-attempts.jsonl",
+      "git_blob_sha": "3bd1da717ae392b355fbeb42b90bb54cdf3a0616",
+      "rows": 5
+    },
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-26-pst-03/evidence/pid-preservation-attempts.jsonl",
+      "git_blob_sha": "660e8cc982e0ee4a4db2f900eb01a8eefe837503",
+      "rows": 6
+    },
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-26-pst-03/evidence/execution-attribution-discovery-attempts.jsonl",
+      "git_blob_sha": "0b45519e9a41a185bcf2bef4ee30874f9a46592c",
+      "rows": 7
+    }
+  ],
+  "supplementary_sources": [
+    {
+      "path": "studies/osf-vshwk/cycles/cycle-2026-11-26-pst-03/evidence/workflow-followup.jsonl",
+      "git_blob_sha": "0a5db462adea5473b59e9aaba0c3ab2dc634ae1d",
+      "role": "separate pinned followup after parse error"
+    }
+  ],
+  "prior_day_source_values_reused": false,
+  "provider_origin_http_bytes_retained": false,
+  "disposition": "CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS",
+  "derivation_correction_history": [
+    {
+      "at_utc": "2026-11-26T14:00:37.482Z",
+      "prior_summary_blob_sha": "a0e53e9635e431559c9a5a924e7ea2179280ef17",
+      "reason": "Initial derived nested filter missed shared ORCID scope label; reference the existing shared receipt in both L7 bundles, without changing raw ledger or endpoint counts."
+    }
+  ]
+}

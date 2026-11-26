@@ -57,3 +57,8 @@ The shared Day 0–2 labels are an **operational navigation calendar**, not a sh
 ## Non-merging rule
 
 Shared GitHub repository identities, contributors, or control-repository custody do not merge the two studies' scientific objects, sample counts, endpoint contracts, provenance streams, or analytical denominators. Historical evidence may be cited across studies only with its original producer identity, actual acquisition clocks, direct relationship evidence, and study-specific eligibility classification.
+
+## Day 3 — owner-declared operational review
+
+- [Study 1 Day 3](osf-wa5v8/day3/README.md): bounded diagnostic, no applicable predeclared schedule and zero prospective cells.
+- [Study 2 Day 3](osf-vshwk/day3/README.md): independent documented full-scope review, cycle 03, with 22 endpoint attempts and unresolved results.

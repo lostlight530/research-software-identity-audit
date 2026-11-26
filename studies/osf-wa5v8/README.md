@@ -16,3 +16,7 @@ The historical diagnostic classification is unchanged; there is no new acquisiti
 ## Independent Day 2 material
 
 [2026-11-25 fresh source-check results, machine summary, and provenance](day2/README.md) belong to Day 2 only. Day 1 governance is not republished as Day 2 evidence.
+
+## Day 3 independent material
+
+[2026-11-26 Day 3 diagnostic and release gate](day3/README.md) — matched-cohort recheck with zero scheduled prospective cells.
