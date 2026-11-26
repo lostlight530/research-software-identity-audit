@@ -19,9 +19,11 @@ This is the architecture entrypoint for the shared CONTROL repository. The [docu
 
 | Scope | Current operational entrypoints | Ownership boundary |
 | --- | --- | --- |
-| **Shared CONTROL infrastructure** | [Directory map](docs/README.md#2-directory-map-where-to-read-and-where-a-future-contribution-belongs) · [tools](tools/README.md) | Shared governance and evidence custody do not combine study datasets |
-| **Study 1 · 5b329 / wa5v8** | [Two-study index](studies/README.md) · [wa5v8 day workspace](studies/osf-wa5v8/README.md) · existing root-level contract, corpus, baseline, monitoring, evidence, and conditional observations | Root historical paths retain Study 1 ownership; daily workspaces are not new analytical timepoints |
-| **Study 2 · VSHWK** | [VSHWK contract and cycles](studies/osf-vshwk/README.md) | Project 490 / paired workflow lineages retain their own approved protocol, endpoint manifest, and denominator |
+| **Shared CONTROL infrastructure** | [Directory and ownership map](docs/README.md#2-directory-map-where-to-read-and-where-a-future-contribution-belongs) · [tools](tools/README.md) · [tests](tests/) | Shared governance, validation and evidence custody do not merge either study's scientific objects or denominators |
+| **Study 1 · 5b329 / wa5v8** | [Study entry](studies/osf-wa5v8/README.md) · [Day 0](studies/osf-wa5v8/day0/README.md) · [Day 1](studies/osf-wa5v8/day1/README.md) · [Day 2](studies/osf-wa5v8/day2/README.md) | Its canonical contract, fixed corpus, schema and schedule remain at established root paths; historical baseline, monitoring and evidence are retained there |
+| **Study 2 · VSHWK** | [Study entry](studies/osf-vshwk/README.md) · [Day 0](studies/osf-vshwk/day0/README.md) · [Day 1](studies/osf-vshwk/day1/README.md) · [Day 2](studies/osf-vshwk/day2/README.md) | Project 490 / paired lineages own a separate contract, cycle ledger and daily indexes under `studies/osf-vshwk/` |
+
+**Physical ownership rule:** historical Study 1 baseline, dated monitoring and retained evidence stay at their established root paths; historical repository reviews stay classified under `docs/history/` and `docs/repository-inventory/`. Current daily work is indexed under `studies/`. The root is intentionally mixed: Study 1's `contract/`, `corpus/`, `schema/` and `schedule/` remain canonical working surfaces, while `tools/`, `tests/` and `.github/` support the shared CONTROL runtime. No historical evidence is moved for cosmetic symmetry.
 
 ### Find the right file by task
 
@@ -983,4 +985,4 @@ The external rseng PR #498 is **not** a merged upstream record; local GitHub doc
 
 ## Second independently preregistered workflow study (separate contract)
 
-The same existing 11th CONTROL repository also holds [OSF vshwk / WorkflowHub Project 490 study custody](studies/osf-vshwk/README.md) in the separate `studies/osf-vshwk/` namespace. Its approved amended case (2332/2334; eight project-level and sixteen nested lineage-level bundles per complete cycle) is **not part of the fixed RS01–RS10 / six-layer / 60-unit 5b329 design**. All other ten source repositories are read-only research subjects; see the [two-study boundary](studies/README.md).
+The same shared CONTROL repository also holds [OSF vshwk / WorkflowHub Project 490 study custody](studies/osf-vshwk/README.md) in the separate `studies/osf-vshwk/` namespace. Its approved amended case (2332/2334; eight project-level and sixteen nested lineage-level bundles per complete cycle) is **not part of the fixed RS01–RS10 / six-layer / 60-unit 5b329 design**. All other ten source repositories are read-only research subjects; see the [two-study boundary](studies/README.md).

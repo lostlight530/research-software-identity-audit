@@ -51,10 +51,19 @@ Actual source clocks are retained in UTC and Asia/Shanghai. America/Los_Angeles 
 
 This Study 2 namespace is inside the existing CONTROL repository. It is not a twelfth repository, RS11, or a third workflow lineage.
 
-- Study 1 [5b329](https://osf.io/5b329/) retains root-level `contract/`, `monitoring/`, `evidence/`, and conditional `observations/`
-- Study 2 VSHWK owns only `studies/osf-vshwk/contract/` and `studies/osf-vshwk/cycles/`
+- Study 1 [5b329](https://osf.io/5b329/) retains its canonical root-level `contract/`, `corpus/`, `schema/`, and `schedule/`, plus established baseline, monitoring, evidence and conditional observation paths
+- Study 2 VSHWK owns the separate `studies/osf-vshwk/` namespace: its `contract/`, `cycles/`, and Day 0–2 navigation indexes
+- VSHWK day indexes point to canonical cycle/custody records; they do not copy evidence or turn a custody gap into a completed cycle
 - RS01–RS10, both focal source repositories, WorkflowHub and all external scholarly services are read-only research targets
 - Only the existing CONTROL repository receives study-control documentation and retained evidence
+
+## Daily workspace index
+
+- [Day 0 — 2026-11-23 Pacific](day0/README.md) → Cycle 01
+- [Day 1 — 2026-11-24 Pacific](day1/README.md) → historical Cycle 02 custody gap; original acquisition records remain unavailable
+- [Day 2 — 2026-11-25 Pacific](day2/README.md) → newly initiated, independent full-scope cycle
+
+These Day pages are navigation indexes only. The canonical protocol remains in `contract/`; canonical acquisition, endpoint and evidence records remain under `cycles/`. The Day 1 index does not create a validated cycle, and Day 2 does not replace its missing historical records.
 
 ## Operational entrypoints
 
@@ -63,5 +72,6 @@ This Study 2 namespace is inside the existing CONTROL repository. It is not a tw
 3. [Immutable endpoint manifest v1](contract/endpoints-v1.json)
 4. [Prospective cycle ledger and SOP](cycles/README.md)
 5. [Reusable cycle record template](cycles/record-template.md)
-6. [Cycle 01 — full report and conclusion](cycles/cycle-2026-11-23-pst-01/README.md)
-7. [Day 2 — new independent full-scope review](day2/README.md) and [Cycle 2026-11-25 bounded report](cycles/cycle-2026-11-25-pst-01/README.md); Day 1 is only a format reference, while the historical November 24 custody gap retains its separate unresolved status
+6. [Day 0 index and Cycle 01 report](day0/README.md)
+7. [Day 1 index and historical custody-gap record](day1/README.md)
+8. [Day 2 index and independent Cycle 2026-11-25 report](day2/README.md)
