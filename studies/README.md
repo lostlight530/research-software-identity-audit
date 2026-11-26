@@ -23,6 +23,7 @@ The shared Day 0–2 labels are an **operational navigation calendar**, not a sh
 
 - Public Project: [OSF wa5v8](https://osf.io/wa5v8/) · Project DOI [10.17605/OSF.IO/WA5V8](https://doi.org/10.17605/OSF.IO/WA5V8) · DataCite Work type `Project` (DOI registered 2026-10-31 in the supplied Works listing)
 - Study Registration: [OSF 5b329](https://osf.io/5b329/) · Registration DOI [10.17605/OSF.IO/5B329](https://doi.org/10.17605/OSF.IO/5B329) · DataCite Work type `Study Registration` (DOI registered 2026-10-05 in the supplied Works listing)
+- Daily research template: [Study 1 release-trigger and scheduled-observation gate](osf-wa5v8/daily-research-template.md)
 - **Current approved revision:** [Schema Response 6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/), submitted 2026-11-18T18:58:21.950303Z, approved
 - **Formal design status:** registered prospective longitudinal repeated-measures observational study; the current approved response clarifies the operational scope and RSIA's supporting role
 - Sample: fixed objects RS01–RS10
@@ -40,6 +41,7 @@ The shared Day 0–2 labels are an **operational navigation calendar**, not a sh
 
 - Public Project: [OSF AUHJF](https://osf.io/auhjf/overview) · Project DOI [10.17605/OSF.IO/AUHJF](https://doi.org/10.17605/OSF.IO/AUHJF) · DataCite Work type `Project` (DOI registered 2026-11-12 in the supplied Works listing)
 - Study Registration: [OSF VSHWK](https://osf.io/vshwk/overview) · Registration DOI [10.17605/OSF.IO/VSHWK](https://doi.org/10.17605/OSF.IO/VSHWK) · DataCite Work type `Study Registration` (DOI registered 2026-11-12 in the supplied Works listing)
+- Daily research template: [Study 2 trigger-surveillance and cycle-initiation gate](osf-vshwk/daily-research-template.md)
 - Public Project Description: the owner-confirmed OSF Project Description snapshot is preserved verbatim in [public-project-description.md](osf-vshwk/public-project-description.md). The supplied DataCite Commons Work description for AUHJF is a separate metadata representation naming Project 490 / lineages 2332 v9 and 2334 v9 while retaining the three-wave phrase; source-field equivalence and synchronization time are unknown. Neither description is the current approved VSHWK protocol. See the [pair crosswalk](osf-object-pairing-crosswalk-2026-11-26.md).
 - Current protocol authority: approved amendment Schema Response [6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/), submitted 2026-11-18T18:58:20.050020Z
 - Registration-page metadata was subsequently updated at `2026-11-24T12:00:17.626133Z` UTC (2026-11-24 20:00:17.626 Asia/Shanghai); this metadata update is not a new schema amendment

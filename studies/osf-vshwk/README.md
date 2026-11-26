@@ -2,7 +2,7 @@
 
 ## Project and registration identity
 
-This is **Pair 2** in the [2026-11-26 OSF Project–Registration crosswalk](../osf-object-pairing-crosswalk-2026-11-26.md): one public Project and one distinct Study Registration, not two study units.
+This is **Pair 2** in the [2026-11-26 OSF Project–Registration crosswalk](../osf-object-pairing-crosswalk-2026-11-26.md): one public Project and one distinct Study Registration, not two study units. **Daily research template:** [daily-research-template.md](daily-research-template.md), which separates minimal trigger surveillance from initiating a full 22-endpoint cycle.
 
 - **Public Project:** [OSF AUHJF](https://osf.io/auhjf/overview) · Project DOI [10.17605/OSF.IO/AUHJF](https://doi.org/10.17605/OSF.IO/AUHJF) · DataCite Work type `Project` (DOI registered 2026-11-12 in the supplied Works listing)
 - **Study Registration:** [OSF VSHWK](https://osf.io/vshwk/overview) · Registration DOI [10.17605/OSF.IO/VSHWK](https://doi.org/10.17605/OSF.IO/VSHWK) · DataCite Work type `Study Registration` (DOI registered 2026-11-12 in the supplied Works listing)
