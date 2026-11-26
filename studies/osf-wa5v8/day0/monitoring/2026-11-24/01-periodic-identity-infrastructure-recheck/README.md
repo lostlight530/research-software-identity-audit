@@ -4,7 +4,7 @@
 
 **Observed source windows:** 2026-11-23 16:13:17–16:24:26 UTC, corresponding to 2026-11-24 00:13:17–00:24:26 Asia/Shanghai. This report was compiled separately; the timestamp is not a provider-side first-seen, publication, or indexing timestamp.
 
-**Comparator:** [November 22 periodic diagnostic](../../../../../../history/diagnostics/2026-11-22/01-periodic-identity-infrastructure-recheck/README.md), particularly its [machine summary](../../../../../../history/diagnostics/2026-11-22/01-periodic-identity-infrastructure-recheck/summary.json) and matching version-record identities. The November 19 broader capture has a **different denominator**, so this report must not be called a repeated complete 458-request census.
+**Comparator:** [November 22 periodic diagnostic](../../../../../../monitoring/2026-11-22/01-periodic-identity-infrastructure-recheck/README.md), particularly its [machine summary](../../../../../../monitoring/2026-11-22/01-periodic-identity-infrastructure-recheck/summary.json) and matching version-record identities. The November 19 broader capture has a **different denominator**, so this report must not be called a repeated complete 458-request census.
 
 ## Research contract and unit discipline
 

@@ -78,7 +78,27 @@ def local_target_exists(root: Path, source: Path, target: str) -> bool:
         candidate.relative_to(root.resolve())
     except (OSError, ValueError):
         return False
-    return candidate.exists()
+    if candidate.exists():
+        return True
+    # Historical Markdown source records can retain their original relative
+    # locators. Resolve those through the append-only archive path migration
+    # without rewriting the source record itself.
+    relative = candidate.relative_to(root.resolve()).as_posix()
+    aliases = (
+        ("monitoring/NAMING.md", "docs/record-path-conventions.md"),
+        ("monitoring/path-migration-2026-10-08.csv", "history/migrations/monitoring-path-migration-2026-10-08.csv"),
+        ("monitoring/", "history/diagnostics/"),
+        ("evidence/", "history/evidence/"),
+        ("docs/history/legacy-monitoring-evidence-file-roles-2026-11-25.csv", "history/catalogs/legacy-monitoring-evidence-file-roles-2026-11-25.csv"),
+        ("docs/history/path-migration-2026-11-25.csv", "history/migrations/path-migration-2026-11-25.csv"),
+        ("docs/history/", "history/documentation/"),
+        ("docs/repository-inventory/", "history/repository-inventory/"),
+    )
+    for old_prefix, new_prefix in aliases:
+        if relative == old_prefix.rstrip("/") or relative.startswith(old_prefix):
+            destination = root / (new_prefix + relative[len(old_prefix):])
+            return destination.exists()
+    return False
 
 
 def audit(root: Path, paths: list[str]) -> dict:
