@@ -151,7 +151,7 @@ def run() -> dict:
             "Duplicate attempt row warning missing")
 
     # Transfer verification: every compressed byte and every content-addressed tar member.
-    archive_parts = [f"{EVIDENCE}/source-bundle-part-{i:02d}.json" for i in range(1, 15)]
+    archive_parts = [f"evidence/source-bundle-part-{i:02d}.json" for i in range(1, 15)]
     all_members = set()
     member_count = 0
     for path in archive_parts:
