@@ -62,9 +62,9 @@ CFF|https://citation-file-format.github.io/"""
 fixed=["welcome-to-github","zero-entropy-lab","Axiom-0","reflective-continuum","agent-foundations","auto-doc-engine","epistemic-pipeline","sci-render-kit","china-agentic-observatory","agentic-frontier-observatory"]
 surfaces=[x.split("|",1) for x in SURFACES.splitlines()]
 assert len(surfaces)==34
-with (ROOT/"evidence/2026-11-08/02-complete-institutional-recheck/doi-identifiers.csv").open(encoding="utf-8-sig",newline="") as f:
+with (ROOT/"history/evidence/2026-11-08/02-complete-institutional-recheck/doi-identifiers.csv").open(encoding="utf-8-sig",newline="") as f:
     dois={x["doi"].lower() for x in csv.DictReader(f)}
-with (ROOT/"evidence/2026-11-12/01-identity-claim-reconciliation/zenodo-all-version-statistics.csv").open(encoding="utf-8-sig",newline="") as f:
+with (ROOT/"history/evidence/2026-11-12/01-identity-claim-reconciliation/zenodo-all-version-statistics.csv").open(encoding="utf-8-sig",newline="") as f:
     versions=list(csv.DictReader(f))
 for x in versions:
     if x["repository"] in fixed and x["version_index"]=="5":

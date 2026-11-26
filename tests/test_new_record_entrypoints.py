@@ -12,8 +12,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 from check_new_record_entrypoints import check_new_events, dated_events
 
 EVENT = "2026-11-24/01-synthetic-public-diagnostic"
-M = f"monitoring/{EVENT}/"
-E = f"evidence/{EVENT}/"
+SCOPE = "studies/osf-wa5v8/day0/"
+M = SCOPE + f"monitoring/{EVENT}/"
+E = SCOPE + f"evidence/{EVENT}/"
 INDEX = f"- [diagnostic]({EVENT}/README.md)\n"
 
 
@@ -106,10 +107,11 @@ class GitEntrypointCLITests(unittest.TestCase):
             git("init", "-q")
             git("config", "user.name", "Fixture")
             git("config", "user.email", "fixture@example.invalid")
-            (root / "monitoring").mkdir()
-            (root / "evidence").mkdir()
-            (root / "monitoring/README.md").write_text("# Monitoring\n", encoding="utf-8")
-            (root / "evidence/README.md").write_text("# Evidence\n", encoding="utf-8")
+            day = root / "studies/osf-wa5v8/day0"
+            (day / "monitoring").mkdir(parents=True)
+            (day / "evidence").mkdir()
+            (day / "monitoring/README.md").write_text("# Monitoring\n", encoding="utf-8")
+            (day / "evidence/README.md").write_text("# Evidence\n", encoding="utf-8")
             git("add", ".")
             git("commit", "-qm", "fixture base")
             base_sha = git("rev-parse", "HEAD")
@@ -129,7 +131,7 @@ class GitEntrypointCLITests(unittest.TestCase):
             self.assertEqual(json.loads(failed.stdout)["failed"], 2)
 
             (root / (E + "README.md")).write_text("# Evidence event\n", encoding="utf-8")
-            (root / "monitoring/README.md").write_text(INDEX, encoding="utf-8")
+            (root / "studies/osf-wa5v8/day0/monitoring/README.md").write_text(INDEX, encoding="utf-8")
             git("add", ".")
             passed = subprocess.run(command, capture_output=True, text=True)
             self.assertEqual(passed.returncode, 0, passed.stderr)
