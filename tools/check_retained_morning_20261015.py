@@ -1,4 +1,11 @@
 """Offline source-aware verification for the October 15 morning package; no network."""
+def repo_path(value):
+ raw=Path(value).as_posix()
+ candidate=ROOT/raw
+ if candidate.is_file():return candidate
+ if raw.startswith('monitoring/'):return ROOT/'history/diagnostics'/raw[len('monitoring/'):]
+ if raw.startswith('evidence/'):return ROOT/'history/evidence'/raw[len('evidence/'):]
+ return candidate
 import collections,csv,datetime as dt,hashlib,json,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];M=ROOT/'history/diagnostics/2026-10-15/01-morning-facility-recheck';E=ROOT/'history/evidence/2026-10-15/01-morning-facility-recheck'
@@ -7,9 +14,9 @@ def verify():
  def check(n,v):c.append({'check':n,'passed':bool(v)})
  def rows(name):return list(csv.DictReader((M/name).open(encoding='utf-8-sig')))
  a=json.loads((E/'artifact-manifest.json').read_text(encoding='utf-8'))['artifacts']
- check('exact artifact inventory',{x['path'] for x in a}=={p.relative_to(ROOT).as_posix() for base in (M,E) for p in base.rglob('*') if p.is_file() and p.name not in ('artifact-manifest.json','offline-verification.json')})
+ check('exact artifact inventory',{repo_path(x['path']).relative_to(ROOT).as_posix() for x in a}=={p.relative_to(ROOT).as_posix() for base in (M,E) for p in base.rglob('*') if p.is_file() and p.name not in ('artifact-manifest.json','offline-verification.json')})
  for x in a:
-  b=(ROOT/x['path']).read_bytes();check('hash '+x['path'],len(b)==x['bytes'] and hashlib.sha256(b).hexdigest()==x['sha256'])
+  b=repo_path(x['path']).read_bytes();check('hash '+x['path'],len(b)==x['bytes'] and hashlib.sha256(b).hexdigest()==x['sha256'])
  ledger=json.loads((E/'capture-manifest.json').read_text(encoding='utf-8'))['requests'];fields=json.loads((E/'field-extracts.json').read_text(encoding='utf-8'));s=json.loads((M/'capture-summary.json').read_text(encoding='utf-8'));by={x['key']:x for x in ledger}
  for x in ledger:
   check('timestamp '+x['key'],dt.datetime.fromisoformat(x['started_at_utc'])<=dt.datetime.fromisoformat(x['finished_at_utc']))
