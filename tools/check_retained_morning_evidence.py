@@ -2,7 +2,7 @@
 from pathlib import Path
 import csv,json,hashlib,gzip,tarfile,io
 from collections import Counter
-ROOT=Path(__file__).resolve().parents[1];P=ROOT/'history/evidence/2026-10-08/01-morning-recheck';M=ROOT/'history/diagnostics/2026-10-08/01-morning-recheck'
+ROOT=Path(__file__).resolve().parents[1];P=ROOT/'evidence/2026-10-08/01-morning-recheck';M=ROOT/'monitoring/2026-10-08/01-morning-recheck'
 checks=[]
 def check(n,b):checks.append({'name':n,'passed':bool(b)})
 s=json.loads((M/'capture-summary.json').read_text(encoding='utf-8'))
