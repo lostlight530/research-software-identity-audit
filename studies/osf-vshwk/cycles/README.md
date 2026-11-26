@@ -1,5 +1,7 @@
 # VSHWK prospective observation-cycle ledger
 
+**OSF Project / Study Registration pair:** [AUHJF](https://osf.io/auhjf/) / [VSHWK](https://osf.io/vshwk/) · [2026-11-26 pair crosswalk](../../osf-object-pairing-crosswalk-2026-11-26.md)
+
 **Study:** OSF VSHWK  
 **Current case:** WorkflowHub Project 490  
 **Embedded lineages:** 2332 v9 (A) and 2334 v9 (B)  

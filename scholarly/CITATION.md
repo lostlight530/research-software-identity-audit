@@ -2,11 +2,22 @@
 
 This research project has multiple linked scholarly identifiers with **different referents**. Cite the identifier for the actual object used; do not interchange the frozen study, evolving software family, and exact archived release.
 
-## Frozen research design — OSF preregistration
+## Frozen research designs — OSF Study Registrations
 
-**Jiang, X. (2026). _Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures_. OSF. https://doi.org/10.17605/OSF.IO/5B329**
+**Study 1 — Research software identity propagation**  
+Jiang, X. (2026). _Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures_. OSF Study Registration. https://doi.org/10.17605/OSF.IO/5B329
 
-This refers to the **preregistered study contract**, not the GitHub software runtime. The OSF registration remains frozen.
+**Study 2 — Open research workflow identity**  
+Jiang, X. (2026). _Longitudinal Audit of an Open Research Workflow Across Scholarly Infrastructures_. OSF Study Registration. https://doi.org/10.17605/OSF.IO/VSHWK
+
+Each Registration DOI identifies its own **preregistered study contract**, not the GitHub software runtime or its associated Project DOI. The current approved protocol authorities remain the respective OSF Schema Responses. The two Project–Registration pairs are indexed in the [2026-11-26 crosswalk](../studies/osf-object-pairing-crosswalk-2026-11-26.md).
+
+## Associated OSF Project records — distinct from Study Registrations
+
+- **Study 1 Project:** Research Software Identity Propagation project, OSF wa5v8. https://doi.org/10.17605/OSF.IO/WA5V8
+- **Study 2 Project:** Open Research Workflow project, OSF AUHJF. https://doi.org/10.17605/OSF.IO/AUHJF
+
+Use these Project DOIs when citing the project-level records; do not substitute them for the Registration DOIs when citing the frozen study plans.
 
 ## Research-control software — concept DOI
 
@@ -36,7 +47,7 @@ The live `main` may contain work merged after the latest archival release; such 
 
 ## Boundary rule
 
-OSF preregistration DOI, Zenodo concept DOI, Zenodo release DOI, GitHub repository URL, OSF project URL, ORCID and downstream registry identifiers refer to non-equivalent objects. No release here adds an eleventh object to the fixed RS01–RS10 sample or proves scientific validation, reuse or a prospective timepoint.
+OSF Project DOI, OSF Study Registration DOI, Zenodo concept DOI, Zenodo release DOI, GitHub repository URL, ORCID and downstream registry identifiers refer to non-equivalent objects. No release here adds an eleventh object to the fixed RS01–RS10 sample or proves scientific validation, reuse or a prospective timepoint.
 
 ## Later verified control-software release — October 18, 2026
 
@@ -68,3 +79,9 @@ The OSF preregistration DOI still refers to the frozen study design; no RS11, qu
 - **Version DOI boundary / DOI 边界:** The last exact Zenodo version DOI independently documented by this repository's prior release reconciliation is `10.5281/zenodo.23839900`, belonging to the **October 31** release, not the November 15 tag / 已核实的 10 月 31 日 Zenodo DOI 不得转嫁给 11 月 15 日发行版
 - **Unknown / 未核实:** No new Zenodo exact-version DOI for the November 15 GitHub Release was established in this November 17 review, so cite the November 15 GitHub tag URL for that precise GitHub object until its Zenodo archive identity is independently verified / 未核实新 DOI 前，精确引用 11 月 15 日 GitHub Release 链接
 - **No retroactive edits / 不追溯改写:** No OSF preregistration change, RS11 addition, prospective observation, archive-byte revision, or automatically updated `CITATION.cff` / `codemeta.json` version identity follows from this documentation correction / 文档修正不改变冻结合同、研究总体、历史归档或机器元数据
+
+## November 26, 2026 — current-main OSF pair metadata scope update
+
+The live main-branch `CITATION.cff` and `codemeta.json` now describe the shared CONTROL repository as supporting both OSF study pairs and include the two Study Registration DOIs. This is a **current-main metadata clarification after the October 31, 2026 archived release**. It does not rewrite the October 31 Git tag or its Zenodo version archive; that immutable archived package is not retroactively claimed to contain the later VSHWK registration DOI or this two-pair description.
+
+No new GitHub Release or Zenodo version DOI is created by this update. Cite the exact archive when referring to the October 31 software version, and cite the OSF Project / Study Registration DOI appropriate to the scholarly object being discussed. The four-object mapping and DataCite source-fidelity limits are recorded in the [2026-11-26 OSF pair crosswalk](../studies/osf-object-pairing-crosswalk-2026-11-26.md).

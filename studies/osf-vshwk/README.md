@@ -2,14 +2,17 @@
 
 ## Project and registration identity
 
-- **Public project:** [OSF AUHJF](https://osf.io/auhjf/overview) · Project DOI [10.17605/OSF.IO/AUHJF](https://doi.org/10.17605/OSF.IO/AUHJF)
-- **Registration:** [OSF VSHWK](https://osf.io/vshwk/overview) · Registration DOI [10.17605/OSF.IO/VSHWK](https://doi.org/10.17605/OSF.IO/VSHWK)
+This is **Pair 2** in the [2026-11-26 OSF Project–Registration crosswalk](../osf-object-pairing-crosswalk-2026-11-26.md): one public Project and one distinct Study Registration, not two study units. **Daily research template:** [daily-research-template.md](daily-research-template.md), which separates minimal trigger surveillance from initiating a full 22-endpoint cycle.
+
+- **Public Project:** [OSF AUHJF](https://osf.io/auhjf/overview) · Project DOI [10.17605/OSF.IO/AUHJF](https://doi.org/10.17605/OSF.IO/AUHJF) · DataCite Work type `Project` (DOI registered 2026-11-12 in the supplied Works listing)
+- **Study Registration:** [OSF VSHWK](https://osf.io/vshwk/overview) · Registration DOI [10.17605/OSF.IO/VSHWK](https://doi.org/10.17605/OSF.IO/VSHWK) · DataCite Work type `Study Registration` (DOI registered 2026-11-12 in the supplied Works listing)
 - AUHJF is an entry point only; the OSF overview states that it holds no data or files
 - The owner-confirmed AUHJF Project Description is mirrored **verbatim** in [public-project-description.md](public-project-description.md)
-- That public Description retains its stated historical focal case (WorkflowHub 2347 v2) and three-wave wording. It is project-level text, **not** the current VSHWK protocol authority
+- That preserved OSF Project Description snapshot retains its stated historical focal case (WorkflowHub 2347 v2) and three-wave wording. It is project-level text, **not** the current VSHWK protocol authority. The supplied DataCite Commons Work listing separately presents an AUHJF Project DOI description naming Project 490 and lineages 2332 v9 / 2334 v9 while retaining the three-wave phrase. The two descriptions are distinct source representations; their field-level relationship and synchronization time are unknown. Preserve the original OSF text and see the [dated pair/metadata crosswalk](../osf-object-pairing-crosswalk-2026-11-26.md).
 - **Current protocol authority:** VSHWK approved amendment [Schema Response 6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/), submitted 2026-11-18T18:58:20.050020Z, `reviews_state=approved`
 - **Latest registration-page metadata update:** OSF API `date_modified=2026-11-24T12:00:17.626133Z` (2026-11-24 20:00:17.626 Asia/Shanghai); this descriptive metadata update does not replace or amend the approved Schema Response
 - Original VSHWK response `6af56f49221ba1b47e9f7490` and its 2347 v2 framing remain registration history; the approved amendment governs current prospective collection
+- The supplied DataCite Commons VSHWK Work description also retains the earlier three-wave phrase. DataCite Work descriptions and OSF registration-page descriptions are descriptive metadata, not Schema Responses; the approved response above controls the current protocol.
 
 ## Current approved research case
 
