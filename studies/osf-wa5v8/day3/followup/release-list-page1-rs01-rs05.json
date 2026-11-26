@@ -1,0 +1,407 @@
+[
+  {
+    "object_id": "RS01",
+    "url": "https://api.github.com/repos/lostlight530/welcome-to-github/releases?per_page=100&page=1",
+    "start": "2026-11-26T15:10:52.250Z",
+    "end": "2026-11-26T15:10:53.088Z",
+    "source": "GitHub connector projection",
+    "returned_count": 7,
+    "terminal_page_not_verified": true,
+    "releases": [
+      {
+        "id": 452284344,
+        "tag_name": "v2026.11-twenty-day-evidence-checkpoint",
+        "published_at": "2026-11-20T04:55:43Z",
+        "created_at": "2026-11-20T02:52:22Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.11-twenty-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 440481746,
+        "tag_name": "v2026.11-ten-day-evidence-checkpoint",
+        "published_at": "2026-11-10T14:40:19Z",
+        "created_at": "2026-11-10T10:58:57Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.11-ten-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 429207433,
+        "tag_name": "v2026.10-30-evidence-snapshot",
+        "published_at": "2026-10-30T15:44:08Z",
+        "created_at": "2026-10-30T11:24:45Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.10-30-evidence-snapshot",
+        "target_commitish": "main"
+      },
+      {
+        "id": 412628982,
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:14:44Z",
+        "created_at": "2026-10-14T09:16:44Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 403023685,
+        "tag_name": "v2026.10-open-research-production-framework",
+        "published_at": "2026-10-04T13:00:12Z",
+        "created_at": "2026-10-04T12:01:33Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.10-open-research-production-framework",
+        "target_commitish": "main"
+      },
+      {
+        "id": 400309244,
+        "tag_name": "v2026.09-natural-month-close",
+        "published_at": "2026-09-30T18:05:34Z",
+        "created_at": "2026-09-30T17:22:05Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.09-natural-month-close",
+        "target_commitish": "main"
+      },
+      {
+        "id": 389746525,
+        "tag_name": "v2026.09-open-research-baseline",
+        "published_at": "2026-09-16T08:26:48Z",
+        "created_at": "2026-09-16T08:18:32Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.09-open-research-baseline",
+        "target_commitish": "main"
+      }
+    ]
+  },
+  {
+    "object_id": "RS02",
+    "url": "https://api.github.com/repos/lostlight530/zero-entropy-lab/releases?per_page=100&page=1",
+    "start": "2026-11-26T15:10:52.251Z",
+    "end": "2026-11-26T15:10:53.087Z",
+    "source": "GitHub connector projection",
+    "returned_count": 7,
+    "terminal_page_not_verified": true,
+    "releases": [
+      {
+        "id": 452284304,
+        "tag_name": "v2026.11-twenty-day-evidence-checkpoint",
+        "published_at": "2026-11-20T04:55:40Z",
+        "created_at": "2026-11-20T00:51:35Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/zero-entropy-lab/releases/tag/v2026.11-twenty-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 440481832,
+        "tag_name": "v2026.11-ten-day-evidence-checkpoint",
+        "published_at": "2026-11-10T14:40:24Z",
+        "created_at": "2026-11-10T10:59:01Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/zero-entropy-lab/releases/tag/v2026.11-ten-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 429207959,
+        "tag_name": "v2026.10-30-evidence-snapshot",
+        "published_at": "2026-10-30T15:44:38Z",
+        "created_at": "2026-10-30T11:24:51Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/zero-entropy-lab/releases/tag/v2026.10-30-evidence-snapshot",
+        "target_commitish": "main"
+      },
+      {
+        "id": 412630124,
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:09Z",
+        "created_at": "2026-10-14T09:18:29Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/zero-entropy-lab/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 403023708,
+        "tag_name": "v2026.10-open-research-production-framework",
+        "published_at": "2026-10-04T13:00:14Z",
+        "created_at": "2026-10-04T12:01:37Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/zero-entropy-lab/releases/tag/v2026.10-open-research-production-framework",
+        "target_commitish": "main"
+      },
+      {
+        "id": 400309172,
+        "tag_name": "v2026.09-natural-month-close",
+        "published_at": "2026-09-30T18:05:28Z",
+        "created_at": "2026-09-30T17:23:04Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/zero-entropy-lab/releases/tag/v2026.09-natural-month-close",
+        "target_commitish": "main"
+      },
+      {
+        "id": 389750794,
+        "tag_name": "v2026.09-open-research-baseline",
+        "published_at": "2026-09-16T08:33:49Z",
+        "created_at": "2026-09-16T08:18:47Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/zero-entropy-lab/releases/tag/v2026.09-open-research-baseline",
+        "target_commitish": "main"
+      }
+    ]
+  },
+  {
+    "object_id": "RS03",
+    "url": "https://api.github.com/repos/lostlight530/Axiom-0/releases?per_page=100&page=1",
+    "start": "2026-11-26T15:10:52.251Z",
+    "end": "2026-11-26T15:10:53.088Z",
+    "source": "GitHub connector projection",
+    "returned_count": 7,
+    "terminal_page_not_verified": true,
+    "releases": [
+      {
+        "id": 452284242,
+        "tag_name": "v2026.11-twenty-day-evidence-checkpoint",
+        "published_at": "2026-11-20T04:55:33Z",
+        "created_at": "2026-11-20T02:21:10Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/Axiom-0/releases/tag/v2026.11-twenty-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 440482032,
+        "tag_name": "v2026.11-ten-day-evidence-checkpoint",
+        "published_at": "2026-11-10T14:40:30Z",
+        "created_at": "2026-11-10T10:59:05Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/Axiom-0/releases/tag/v2026.11-ten-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 429207905,
+        "tag_name": "v2026.10-30-evidence-snapshot",
+        "published_at": "2026-10-30T15:44:35Z",
+        "created_at": "2026-10-30T11:24:56Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/Axiom-0/releases/tag/v2026.10-30-evidence-snapshot",
+        "target_commitish": "main"
+      },
+      {
+        "id": 412629617,
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:30Z",
+        "created_at": "2026-10-14T09:24:21Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/Axiom-0/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 403023727,
+        "tag_name": "v2026.10-open-research-production-framework",
+        "published_at": "2026-10-04T13:00:17Z",
+        "created_at": "2026-10-04T12:01:40Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/Axiom-0/releases/tag/v2026.10-open-research-production-framework",
+        "target_commitish": "main"
+      },
+      {
+        "id": 400314185,
+        "tag_name": "v2026.09-natural-month-close",
+        "published_at": "2026-09-30T18:12:36Z",
+        "created_at": "2026-09-30T17:23:47Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/Axiom-0/releases/tag/v2026.09-natural-month-close",
+        "target_commitish": "main"
+      },
+      {
+        "id": 389751629,
+        "tag_name": "v2026.09-open-research-baseline",
+        "published_at": "2026-09-16T08:35:10Z",
+        "created_at": "2026-09-16T08:18:40Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/Axiom-0/releases/tag/v2026.09-open-research-baseline",
+        "target_commitish": "main"
+      }
+    ]
+  },
+  {
+    "object_id": "RS04",
+    "url": "https://api.github.com/repos/lostlight530/reflective-continuum/releases?per_page=100&page=1",
+    "start": "2026-11-26T15:10:52.251Z",
+    "end": "2026-11-26T15:10:53.089Z",
+    "source": "GitHub connector projection",
+    "returned_count": 7,
+    "terminal_page_not_verified": true,
+    "releases": [
+      {
+        "id": 452284266,
+        "tag_name": "v2026.11-twenty-day-evidence-checkpoint",
+        "published_at": "2026-11-20T04:55:36Z",
+        "created_at": "2026-11-20T00:56:17Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/reflective-continuum/releases/tag/v2026.11-twenty-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 440481909,
+        "tag_name": "v2026.11-ten-day-evidence-checkpoint",
+        "published_at": "2026-11-10T14:40:26Z",
+        "created_at": "2026-11-10T10:59:15Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/reflective-continuum/releases/tag/v2026.11-ten-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 429207799,
+        "tag_name": "v2026.10-30-evidence-snapshot",
+        "published_at": "2026-10-30T15:44:29Z",
+        "created_at": "2026-10-30T11:25:01Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/reflective-continuum/releases/tag/v2026.10-30-evidence-snapshot",
+        "target_commitish": "main"
+      },
+      {
+        "id": 412630422,
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:33Z",
+        "created_at": "2026-10-14T09:24:28Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/reflective-continuum/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 403023749,
+        "tag_name": "v2026.10-open-research-production-framework",
+        "published_at": "2026-10-04T13:00:21Z",
+        "created_at": "2026-10-04T12:01:44Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/reflective-continuum/releases/tag/v2026.10-open-research-production-framework",
+        "target_commitish": "main"
+      },
+      {
+        "id": 400314078,
+        "tag_name": "v2026.09-natural-month-close",
+        "published_at": "2026-09-30T18:12:26Z",
+        "created_at": "2026-09-30T17:24:37Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/reflective-continuum/releases/tag/v2026.09-natural-month-close",
+        "target_commitish": "main"
+      },
+      {
+        "id": 389752555,
+        "tag_name": "v2026.09-open-research-baseline",
+        "published_at": "2026-09-16T08:36:44Z",
+        "created_at": "2026-09-16T08:18:54Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/reflective-continuum/releases/tag/v2026.09-open-research-baseline",
+        "target_commitish": "main"
+      }
+    ]
+  },
+  {
+    "object_id": "RS05",
+    "url": "https://api.github.com/repos/lostlight530/agent-foundations/releases?per_page=100&page=1",
+    "start": "2026-11-26T15:10:52.251Z",
+    "end": "2026-11-26T15:10:53.089Z",
+    "source": "GitHub connector projection",
+    "returned_count": 7,
+    "terminal_page_not_verified": true,
+    "releases": [
+      {
+        "id": 452284386,
+        "tag_name": "v2026.11-twenty-day-evidence-checkpoint",
+        "published_at": "2026-11-20T04:55:47Z",
+        "created_at": "2026-11-20T00:56:27Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agent-foundations/releases/tag/v2026.11-twenty-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 440482096,
+        "tag_name": "v2026.11-ten-day-evidence-checkpoint",
+        "published_at": "2026-11-10T14:40:33Z",
+        "created_at": "2026-11-10T10:59:19Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agent-foundations/releases/tag/v2026.11-ten-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 429207740,
+        "tag_name": "v2026.10-30-evidence-snapshot",
+        "published_at": "2026-10-30T15:44:25Z",
+        "created_at": "2026-10-30T11:25:05Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agent-foundations/releases/tag/v2026.10-30-evidence-snapshot",
+        "target_commitish": "main"
+      },
+      {
+        "id": 412629718,
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:39Z",
+        "created_at": "2026-10-14T09:21:01Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agent-foundations/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 403023761,
+        "tag_name": "v2026.10-open-research-production-framework",
+        "published_at": "2026-10-04T13:00:23Z",
+        "created_at": "2026-10-04T12:01:47Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agent-foundations/releases/tag/v2026.10-open-research-production-framework",
+        "target_commitish": "main"
+      },
+      {
+        "id": 400314257,
+        "tag_name": "v2026.09-natural-month-close",
+        "published_at": "2026-09-30T18:12:43Z",
+        "created_at": "2026-09-30T17:25:56Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agent-foundations/releases/tag/v2026.09-natural-month-close",
+        "target_commitish": "main"
+      },
+      {
+        "id": 389753815,
+        "tag_name": "v2026.09-open-research-baseline",
+        "published_at": "2026-09-16T08:38:46Z",
+        "created_at": "2026-09-16T08:19:01Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agent-foundations/releases/tag/v2026.09-open-research-baseline",
+        "target_commitish": "main"
+      }
+    ]
+  }
+]
