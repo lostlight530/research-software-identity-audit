@@ -64,12 +64,12 @@ jobs:
       - name: Validate October 18 corrected public package (advisory)
         id: oct18
         continue-on-error: true
-        run: python -B tools/check_research_capture_20261018.py
+        run: python -B tools/archive/check_research_capture_20261018.py
 
       - name: Validate October 20 reconciled public package (advisory)
         id: oct20
         continue-on-error: true
-        run: python -B tools/check_research_recheck_20261020.py
+        run: python -B tools/archive/check_research_recheck_20261020.py
       - name: Recheck retained Zenodo family arithmetic (advisory)
         id: zenodo_arithmetic
         continue-on-error: true

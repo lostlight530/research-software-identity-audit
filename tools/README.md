@@ -134,11 +134,11 @@ Run `python tools/check_retained_morning_20261015.py` locally for the new source
 
 ## October 18 research capture
 
-Run `python -B tools/check_research_capture_20261018.py` for read-only public-artifact hashes, field joins and count consistency. Original raw response/ZIP bytes are locally retained and not included in this public field-extract package. This command is not added to cloud CI.
+Run `python -B tools/archive/check_research_capture_20261018.py` for read-only public-artifact hashes, field joins and count consistency. Original raw response/ZIP bytes are locally retained and not included in this public field-extract package. This command is not added to cloud CI.
 
 ## October 20 research recheck
 
-`python -B tools/check_research_recheck_20261020.py` verifies the new diagnostic package offline without writes or network. It is not added to cloud CI.
+`python -B tools/archive/check_research_recheck_20261020.py` verifies the new diagnostic package offline without writes or network. It is not added to cloud CI.
 
 ## Read-only Zenodo family/URL-shape replay (2026-10-24)
 
@@ -294,3 +294,10 @@ python -B tools/check_new_record_entrypoints.py --base <40-character-pr-base-com
 A green workflow remains insufficient evidence of successful *advisory*
 checks: inspect the workflow's advisory outcome table and actual checker
 results separately.
+
+
+## Archive-aware historical verifier entrypoints
+
+The original root-level `check_research_capture_20261018.py`, `check_research_recheck_20261020.py`, `check_retained_morning_evidence.py`, and `check_retained_facility_evidence.py` are retained byte-for-byte because their exact Git blobs are referenced by historical artifact manifests. They are source artifacts, not the current path-aware entrypoints.
+
+Current offline replays for the October 18 and October 20 packages live under `tools/archive/`. They resolve legacy `evidence/` and `monitoring/` locators to `history/evidence/` and `history/diagnostics/` without rewriting the historical manifests.
