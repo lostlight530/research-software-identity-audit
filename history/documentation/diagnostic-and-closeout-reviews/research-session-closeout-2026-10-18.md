@@ -18,14 +18,14 @@
 
 | Merge / snapshot | Verified contribution | Scope and evidence |
 | --- | --- | --- |
-| [PR #43](https://github.com/lostlight530/research-software-identity-audit/pull/43), merge `62da3316082566db195fbbe36e83bcc4ad629dc1` | October 16 Zenodo **11-family** family-level total vs unique counter crosscheck; fixed ten separate from control | [10/16 diagnostic](../../../monitoring/2026-10-16/01-noon-counter-contract-recheck/README.md) |
+| [PR #43](https://github.com/lostlight530/research-software-identity-audit/pull/43), merge `62da3316082566db195fbbe36e83bcc4ad629dc1` | October 16 Zenodo **11-family** family-level total vs unique counter crosscheck; fixed ten separate from control | [10/16 diagnostic](../../diagnostics/2026-10-16/01-noon-counter-contract-recheck/README.md) |
 | [PR #44](https://github.com/lostlight530/research-software-identity-audit/pull/44), `4e2274894507c71f15ae1866c98a1c95f27f761f` | Research repository navigation, ownership map and docs-only preservation boundaries | [Directory guide](../../README.md) |
-| [PR #45](https://github.com/lostlight530/research-software-identity-audit/pull/45), `ffce1be75fa7f4bfb8f6e1a86dd51b9db60d922b` | Correct concatenated Zenodo UI fields; four WorkflowHub identities; public bio.tools record | [10/17 diagnostic](../../../monitoring/2026-10-17/01-field-boundary-cross-platform-recheck/README.md) |
-| [PR #46](https://github.com/lostlight530/research-software-identity-audit/pull/46), `a78e5fdcac843c7752b2122f68267688a44674ef` | October 18 11-hour user page counters; independent DataCite 72/53/18/1; OpenAlex 29; GitHub CI success; initial **pre-package** review | [10/18 morning diagnostic](../../../monitoring/2026-10-18/01-eleven-hour-workflow-ci-crosscheck/README.md) |
+| [PR #45](https://github.com/lostlight530/research-software-identity-audit/pull/45), `ffce1be75fa7f4bfb8f6e1a86dd51b9db60d922b` | Correct concatenated Zenodo UI fields; four WorkflowHub identities; public bio.tools record | [10/17 diagnostic](../../diagnostics/2026-10-17/01-field-boundary-cross-platform-recheck/README.md) |
+| [PR #46](https://github.com/lostlight530/research-software-identity-audit/pull/46), `a78e5fdcac843c7752b2122f68267688a44674ef` | October 18 11-hour user page counters; independent DataCite 72/53/18/1; OpenAlex 29; GitHub CI success; initial **pre-package** review | [10/18 morning diagnostic](../../diagnostics/2026-10-18/01-eleven-hour-workflow-ci-crosscheck/README.md) |
 | October 18 **later publication** | Fourth control-software GitHub release `v2026.10-evidence-integrity`, Zenodo record **23446162** | [Verified postpublication reconciliation](../../../scholarly/release-identity-reconciliation-2026-10-18.md). See original **immutable** tag for actual archived content. |
-| October 18 ORCID refresh | User reports all **11 ORCID links** updated; Beta Work has **one explicit success receipt**; OpenAIRE source modified October 18 | [Attribution-preserving ORCID diagnostic](../../../monitoring/2026-10-18/02-orcid-openaire-work-refresh/README.md) |
+| October 18 ORCID refresh | User reports all **11 ORCID links** updated; Beta Work has **one explicit success receipt**; OpenAIRE source modified October 18 | [Attribution-preserving ORCID diagnostic](../../diagnostics/2026-10-18/02-orcid-openaire-work-refresh/README.md) |
 
-Prior scholarly/counter diagnostics remain under [monitoring/](../../../monitoring/README.md), [evidence/](../../../evidence/README.md), [scholarly/](../../../scholarly/README.md), and [provenance/](../../../provenance/README.md). These paths are stable evidence links: do **not** reorganize dated source or byte-sealed artifacts merely for a shorter tree.
+Prior scholarly/counter diagnostics remain under [monitoring/](../../diagnostics/README.md), [evidence/](../../evidence/README.md), [scholarly/](../../../scholarly/README.md), and [provenance/](../../../provenance/README.md). These paths are stable evidence links: do **not** reorganize dated source or byte-sealed artifacts merely for a shorter tree.
 
 ## C. Distinct counters, clocks and identities
 
@@ -41,7 +41,7 @@ Prior scholarly/counter diagnostics remain under [monitoring/](../../../monitori
 | LifeMonitor | October 18 user-authenticated **private** dashboard | Private `cwl` **1 Passed**, 0 Failed/Error; user attribution only | Not independently accessible by public API; no proved automatic WorkflowHub sync; no private access tokens/URLs archived |
 | WorkflowHub, bio.tools, OpenEBench | October 17–18 source checks | WorkflowHub project 490 **four public workflows**; bio.tools record `life-science-protein-file-audit` public; OpenEBench link visible | Different supplementary identity surfaces; bio.tools raw `validated=0` flag not given unsupported semantics; OpenEBench benchmark score unknown |
 
-The [October 18 field extracts](../../../monitoring/2026-10-18/01-eleven-hour-workflow-ci-crosscheck/record.json) and their CSVs should be preferred over any rounded narrative above. Counters above are **source-specific** and at different times, never a combined cross-platform traffic total.
+The [October 18 field extracts](../../diagnostics/2026-10-18/01-eleven-hour-workflow-ci-crosscheck/record.json) and their CSVs should be preferred over any rounded narrative above. Counters above are **source-specific** and at different times, never a combined cross-platform traffic total.
 
 ## D. Author identity, ORCID update and provenance
 
