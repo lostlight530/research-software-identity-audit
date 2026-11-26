@@ -8,7 +8,48 @@ It is not the destination for new daily research material. Current evidence belo
 
 Evidence and interpretation remain separate. Preserve original source identity, retrieval clocks, source locators, response conditions, digests and correction history. The directory consolidation does not re-capture, re-hash or rewrite the archived payloads. See the [path migration ledger](../migrations/path-migration-2026-11-26.csv) and [current path conventions](../../docs/record-path-conventions.md).
 
-## Retained packages
+## Directory naming
+
+All retained event directories use the same path envelope:
+
+`YYYY-MM-DD/NN-lowercase-kebab-case/`
+
+- `YYYY-MM-DD` is the declared source observation/capture date, not the later archive migration, review, PR merge or CI date
+- `NN` and the event slug preserve the event identity shared with the corresponding `history/diagnostics/` package
+- The evidence archive is a subset of the diagnostic event set. Gaps in the ordinal sequence, or a first retained package numbered `03` or later, are intentional; **do not renumber evidence packages independently**
+- Deeper directories such as `prior-index-snapshots/`, `selected-history/` and `user-supplied/` are artifact groupings inside an event package, not additional dated events
+- This `README.md` is the current archive index. `README.source.md` is the former root-level evidence index preserved byte-for-byte; it is not the current navigation entrypoint
+
+## Complete retained event index
+
+The following index lists all **36** retained evidence event directories. Links open each event's own `README.md`; names and ordinals are shown exactly as stored.
+
+| Source date | Retained event package |
+|---|---|
+| 2026-10-08 | [`01-morning-recheck`](2026-10-08/01-morning-recheck/README.md) |
+| 2026-10-09 | [`01-facility-recheck`](2026-10-09/01-facility-recheck/README.md) |
+| 2026-10-10 | [`01-zenodo-surge-recheck`](2026-10-10/01-zenodo-surge-recheck/README.md) |
+| 2026-10-14 | [`03-midnight-facility-recheck`](2026-10-14/03-midnight-facility-recheck/README.md); [`04-morning-facility-recheck`](2026-10-14/04-morning-facility-recheck/README.md); [`05-noon-user-pages`](2026-10-14/05-noon-user-pages/README.md); [`06-evening-facility-recheck`](2026-10-14/06-evening-facility-recheck/README.md) |
+| 2026-10-15 | [`01-morning-facility-recheck`](2026-10-15/01-morning-facility-recheck/README.md) |
+| 2026-10-18 | [`03-independent-research-verification`](2026-10-18/03-independent-research-verification/README.md) |
+| 2026-10-20 | [`01-independent-research-recheck`](2026-10-20/01-independent-research-recheck/README.md) |
+| 2026-10-24 | [`04-local-history-evidence-handoff`](2026-10-24/04-local-history-evidence-handoff/README.md) |
+| 2026-10-25 | [`02-independent-institutional-recheck`](2026-10-25/02-independent-institutional-recheck/README.md) |
+| 2026-10-26 | [`01-morning-institutional-recheck`](2026-10-26/01-morning-institutional-recheck/README.md); [`02-evening-institutional-recheck`](2026-10-26/02-evening-institutional-recheck/README.md) |
+| 2026-10-31 | [`02-noon-user-page-reconciliation`](2026-10-31/02-noon-user-page-reconciliation/README.md); [`03-independent-institutional-statistics`](2026-10-31/03-independent-institutional-statistics/README.md); [`04-zenodo-all-version-statistics`](2026-10-31/04-zenodo-all-version-statistics/README.md) |
+| 2026-11-02 | [`01-complete-institutional-recheck`](2026-11-02/01-complete-institutional-recheck/README.md); [`02-all-version-recheck`](2026-11-02/02-all-version-recheck/README.md); [`03-retained-local-evidence-completion`](2026-11-02/03-retained-local-evidence-completion/README.md) |
+| 2026-11-08 | [`01-end-of-day-user-pages`](2026-11-08/01-end-of-day-user-pages/README.md); [`02-complete-institutional-recheck`](2026-11-08/02-complete-institutional-recheck/README.md); [`03-all-version-recheck`](2026-11-08/03-all-version-recheck/README.md) |
+| 2026-11-10 | [`03-openaire-orcid-openalex-reconciliation`](2026-11-10/03-openaire-orcid-openalex-reconciliation/README.md) |
+| 2026-11-12 | [`01-identity-claim-reconciliation`](2026-11-12/01-identity-claim-reconciliation/README.md) |
+| 2026-11-13 | [`01-full-institutional-recheck`](2026-11-13/01-full-institutional-recheck/README.md) |
+| 2026-11-15 | [`02-full-institutional-source-recheck`](2026-11-15/02-full-institutional-source-recheck/README.md) |
+| 2026-11-17 | [`02-full-selftest`](2026-11-17/02-full-selftest/README.md) |
+| 2026-11-18 | [`01-complete-identity-infrastructure-diagnostic`](2026-11-18/01-complete-identity-infrastructure-diagnostic/README.md) |
+| 2026-11-19 | [`01-complete-institutional-recheck`](2026-11-19/01-complete-institutional-recheck/README.md); [`02-complete-institutional-recheck`](2026-11-19/02-complete-institutional-recheck/README.md); [`03-web-assisted-surface-review`](2026-11-19/03-web-assisted-surface-review/README.md); [`04-zenodo-supplementary-inventory-reconciliation`](2026-11-19/04-zenodo-supplementary-inventory-reconciliation/README.md); [`05-targeted-surface-semantic-reconciliation`](2026-11-19/05-targeted-surface-semantic-reconciliation/README.md) |
+| 2026-11-20 | [`01-firstday-to-current-infrastructure-diagnostic`](2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md) |
+| 2026-11-22 | [`01-periodic-identity-infrastructure-recheck`](2026-11-22/01-periodic-identity-infrastructure-recheck/README.md) |
+
+## Selected package notes
 
 - [2026-10-08 / 01-morning-recheck](2026-10-08/01-morning-recheck/) — 17 original public API responses, timestamp and hash manifest, original local offline verification outcome
 
