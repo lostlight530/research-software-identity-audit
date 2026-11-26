@@ -79,3 +79,9 @@ The OSF preregistration DOI still refers to the frozen study design; no RS11, qu
 - **Version DOI boundary / DOI 边界:** The last exact Zenodo version DOI independently documented by this repository's prior release reconciliation is `10.5281/zenodo.23839900`, belonging to the **October 31** release, not the November 15 tag / 已核实的 10 月 31 日 Zenodo DOI 不得转嫁给 11 月 15 日发行版
 - **Unknown / 未核实:** No new Zenodo exact-version DOI for the November 15 GitHub Release was established in this November 17 review, so cite the November 15 GitHub tag URL for that precise GitHub object until its Zenodo archive identity is independently verified / 未核实新 DOI 前，精确引用 11 月 15 日 GitHub Release 链接
 - **No retroactive edits / 不追溯改写:** No OSF preregistration change, RS11 addition, prospective observation, archive-byte revision, or automatically updated `CITATION.cff` / `codemeta.json` version identity follows from this documentation correction / 文档修正不改变冻结合同、研究总体、历史归档或机器元数据
+
+## November 26, 2026 — current-main OSF pair metadata scope update
+
+The live main-branch `CITATION.cff` and `codemeta.json` now describe the shared CONTROL repository as supporting both OSF study pairs and include the two Study Registration DOIs. This is a **current-main metadata clarification after the October 31, 2026 archived release**. It does not rewrite the October 31 Git tag or its Zenodo version archive; that immutable archived package is not retroactively claimed to contain the later VSHWK registration DOI or this two-pair description.
+
+No new GitHub Release or Zenodo version DOI is created by this update. Cite the exact archive when referring to the October 31 software version, and cite the OSF Project / Study Registration DOI appropriate to the scholarly object being discussed. The four-object mapping and DataCite source-fidelity limits are recorded in the [2026-11-26 OSF pair crosswalk](../studies/osf-object-pairing-crosswalk-2026-11-26.md).
