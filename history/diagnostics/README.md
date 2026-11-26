@@ -1,25 +1,12 @@
-# Monitoring
+# Historical diagnostics archive
 
-This directory stores useful measurements that occur outside the eligible
-prospective dataset.
+<badge>ARCHIVED · NO NEW ACQUISITIONS</badge>
 
-A monitoring record can be methodologically valuable without being promoted to a
-scheduled prospective observation.
+This is the former root-level `monitoring/` archive. It preserves dated diagnostic, pre-eligibility, reconciliation and retrospective records captured from **2026-10-06 through 2026-11-22** (43 date-labelled event directories).
 
-Use this area for:
+It is a historical archive, not a running monitor and not a prospective observation surface. Do not add new daily acquisitions here. Current Study 1 operational diagnostics belong in the owning `studies/osf-wa5v8/dayN/monitoring/` workspace; Study 2 uses its independent cycle structure under `studies/osf-vshwk/cycles/`. Eligible prospective records remain governed by `observations/raw/` and the frozen OSF contract.
 
-- pre-eligibility propagation checks;
-- infrastructure self-observation;
-- post-baseline state checks before the first eligible fixed-corpus release;
-- diagnostic captures whose timing does not satisfy the operational prospective schedule.
-
-Monitoring records must preserve true retrieval time and must not be relabeled
-later as preregistered prospective observations.
-
-
-Post-release reconciliation records may also be stored here when they observe
-the research-control repository or scholarly infrastructure before an eligible
-fixed-corpus release begins the prospective dataset.
+The original dated event folders, machine records, source timestamps and file contents are retained. The consolidation changes repository paths, not source acquisition clocks, record classifications, sample membership, or scientific interpretation. See the [path migration ledger](../migrations/path-migration-2026-11-26.csv) and [current path conventions](../../../docs/record-path-conventions.md).
 
 ## Records by observation day
 
@@ -29,7 +16,7 @@ fixed-corpus release begins the prospective dataset.
 - [2026-10-07 / 01-facility-audit](2026-10-07/01-facility-audit/) — supplied cross-platform audit and mapping reconciliation
 - [2026-10-08 / 01-morning-recheck](2026-10-08/01-morning-recheck/) — morning monitoring plus separately imported retained evidence
 
-For path rules and the complete old-to-new inventory, see [naming and migration](NAMING.md) and [path mapping](path-migration-2026-10-08.csv).
+For the earlier October 8 migration, see the preserved [historical path mapping](../migrations/monitoring-path-migration-2026-10-08.csv). Current path ownership is defined in [record-path conventions](../../../docs/record-path-conventions.md).
 
 The date is the record's source-observation date, not necessarily its retrieval or evidence-import date. Ordinals order packages within a date and are **not** prospective-wave identifiers.
 
@@ -72,11 +59,11 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 ## October 14 evening new-release propagation
 
-[Evening diagnostics and new-version evidence](../monitoring/2026-10-14/06-evening-facility-recheck/README.md) preserve ten new public releases, 72 findable DOIs, 15 ORCID groups / 85 sources and 43 enumerated versions; user pages and independent captures remain separate
+[Evening diagnostics and new-version evidence](../diagnostics/2026-10-14/06-evening-facility-recheck/README.md) preserve ten new public releases, 72 findable DOIs, 15 ORCID groups / 85 sources and 43 enumerated versions; user pages and independent captures remain separate
 
 ## October 15 morning diagnostic recheck
 
-[Full morning record](../monitoring/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated
+[Full morning record](../diagnostics/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated
 
 ## October 16 noon: 11 family Zenodo total vs unique counters and cross-platform verification
 - [2026-10-16 / 01-noon-counter-contract-recheck](2026-10-16/01-noon-counter-contract-recheck/README.md) — independently extracted [eleven Zenodo family counters](2026-10-16/01-noon-counter-contract-recheck/zenodo-family-api-stats.csv): **fixed ten 2,283 total / 1,449 unique views**, separately **control 103 / 96**, descriptive all-eleven sum **2,386 / 1,545**; downloads **20 total / 19 unique**. Control latest standalone API reply **74 / 71** conflicted with full 3-version family response **103 / 96** and remains recorded. [User-attributed WorkflowHub Dashboard](2026-10-16/01-noon-counter-contract-recheck/workflowhub-dashboard-user-extract.csv) lists three assets totaling 2,511 shown views / 204 shown downloads, with selected period unknown. [59 source/read paths](2026-10-16/01-noon-counter-contract-recheck/source-attempts.csv) and [machine summary](2026-10-16/01-noon-counter-contract-recheck/record.json) retain OpenAlex Works **29 vs author profile 26**, blocked SWH and incomplete ORCID structured read. **Only diagnostic preflight**: 11 software families are not 11 OSF analytical samples; no historic baseline rewrite, schedule declaration or prospective timepoint.
@@ -205,7 +192,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 ## November 3 full-history semantic correction
 
 - [2026-11-03 / 02-source-attempt-surface-id-reconciliation](2026-11-03/02-source-attempt-surface-id-reconciliation/README.md) — derived 482/482 attempt-key to numeric surface-ID / 34-surface-name correction of the **November 2** original source-attempt ledger, original two Git blobs and retrieval clocks preserved, 0 unmatched dictionary keys. This does not create new HTTP attempts, a scheduled prospective study cell, an analytical layer or an OSF amendment
-- [First-day-to-current file and Git history classification](../docs/history/inventory-ledgers/research-control-first-day-to-current-governance-audit-2026-11-03.md) — pinned retrospective 104-commit / 620-file / 58-event inventory and original-versus-revised OSF authority mapping; the later derived event is not backfilled into the pinned source snapshot
+- [First-day-to-current file and Git history classification](../documentation/inventory-ledgers/research-control-first-day-to-current-governance-audit-2026-11-03.md) — pinned retrospective 104-commit / 620-file / 58-event inventory and original-versus-revised OSF authority mapping; the later derived event is not backfilled into the pinned source snapshot
 
 ## November 4 bounded periodic identity and institution recheck
 
@@ -255,7 +242,7 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 - [2026-11-15 / 02-full-institutional-source-recheck](2026-11-15/02-full-institutional-source-recheck/README.md) — complete bounded 458-request public-source attempt recapture: 102 known DOI × 3, 67 Zenodo versions, ten SWH origins, 34 existing surfaces, GitHub, RSD and WorkflowHub; paired Nov 13 identities, actual request clocks, minimized public field/digest ledger, zero prospective units
 
-**Cross-surface scholarly interpretation (not another source-retrieval event):** [2026-11-15 maintainer-supplied UI crosswalk](../scholarly/maintainer-interface-crosswalk-2026-11-15.md) compares the 102-key pinned DOI cohort with the 103-record DataCite ORCID UI facet, 18 ORCID Works, 12 OpenAIRE link cards, 34 OpenAlex Works, 21 WorkflowHub version DOIs, and two OSF registration/project pairs. Source capture clocks and exact author-filter membership remain unresolved. This interpretive link is not a new monitoring ordinal, a count delta, or a prospective observation.
+**Cross-surface scholarly interpretation (not another source-retrieval event):** [2026-11-15 maintainer-supplied UI crosswalk](../../scholarly/maintainer-interface-crosswalk-2026-11-15.md) compares the 102-key pinned DOI cohort with the 103-record DataCite ORCID UI facet, 18 ORCID Works, 12 OpenAIRE link cards, 34 OpenAlex Works, 21 WorkflowHub version DOIs, and two OSF registration/project pairs. Source capture clocks and exact author-filter membership remain unresolved. This interpretive link is not a new monitoring ordinal, a count delta, or a prospective observation.
 
 - [2026-11-17 / 01-bounded-identity-infrastructure-recheck](2026-11-17/01-bounded-identity-infrastructure-recheck/README.md) — bounded 11-repository GitHub and 34-surface diagnostic with source-clock limits, upstream RSD #1871 / PR #1897 evidence, unchanged 60-unit contract and zero prospective cells; not a new 458-key complete provider capture
 
@@ -277,8 +264,8 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 
 - [2026-11-22 / 01-periodic-identity-infrastructure-recheck](2026-11-22/01-periodic-identity-infrastructure-recheck/README.md) — eleven GitHub main/PR/Release probes, ten newly published fixed-corpus Zenodo versions, exact DOI registration/discovery queries and 60 same-key version-counter comparisons, 34 supplementary access attempts and retained UNKNOWN states; the [machine entrypoint](2026-11-22/01-periodic-identity-infrastructure-recheck/record.json) was added retrospectively after the prior [advisory record-path failure](https://github.com/lostlight530/research-software-identity-audit/actions/runs/45036674186), without recapturing or rewriting evidence; zero prospective cells
 
-- [2026-11-24 / 01-periodic-identity-infrastructure-recheck](../studies/osf-wa5v8/day0/monitoring/2026-11-24/01-periodic-identity-infrastructure-recheck/README.md) — append-only diagnostic across eleven GitHub repositories, 70 exact matching Zenodo version records (+55 views, +0 downloads), ten stable DataCite DOI registrations, 34 existing supplementary source attempts and bounded public interactions; extractor failures and missing structural proofs retained as UNKNOWN, original OSF fixed 60-unit contract and all historical raw evidence unchanged, zero eligible prospective cells
+- [2026-11-24 / 01-periodic-identity-infrastructure-recheck](../../studies/osf-wa5v8/day0/monitoring/2026-11-24/01-periodic-identity-infrastructure-recheck/README.md) — append-only diagnostic across eleven GitHub repositories, 70 exact matching Zenodo version records (+55 views, +0 downloads), ten stable DataCite DOI registrations, 34 existing supplementary source attempts and bounded public interactions; extractor failures and missing structural proofs retained as UNKNOWN, original OSF fixed 60-unit contract and all historical raw evidence unchanged, zero eligible prospective cells
 
-- [2026-11-24 / 02-supplementary-failure-custody-reconciliation](../studies/osf-wa5v8/day0/monitoring/2026-11-24/02-supplementary-failure-custody-reconciliation/README.md) — seven fresh, separately timed follow-up attempts for surface errors whose per-item reason was missing from the 01 evidence ledger; retains actual connector reason codes without overwriting the original 34-source record or inferring provider absence; no prospective cells
+- [2026-11-24 / 02-supplementary-failure-custody-reconciliation](../../studies/osf-wa5v8/day0/monitoring/2026-11-24/02-supplementary-failure-custody-reconciliation/README.md) — seven fresh, separately timed follow-up attempts for surface errors whose per-item reason was missing from the 01 evidence ledger; retains actual connector reason codes without overwriting the original 34-source record or inferring provider absence; no prospective cells
 
-For new daily wa5v8 operational material, use [the project runtime](../studies/osf-wa5v8/README.md). Earlier root paths remain historical governance.
+For new daily wa5v8 operational material, use [the project runtime](../../studies/osf-wa5v8/README.md). Earlier root paths remain historical governance.

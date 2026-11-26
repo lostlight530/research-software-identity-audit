@@ -1,33 +1,24 @@
-# Evidence
+# Historical evidence archive
 
-This directory holds or indexes timestamped evidence supporting observation records.
+<badge>ARCHIVED · NO NEW ACQUISITIONS</badge>
 
-Evidence and interpretation are separate layers.
+This is the former root-level `evidence/` archive. It retains source-response packages, capture manifests, structured projections, event ledgers, reconciliation artifacts and package documentation from **2026-10-08 through 2026-11-22** (22 date-labelled event directories).
 
-A live endpoint observed later is not automatically proof of an earlier historical state.
+It is not the destination for new daily research material. Current evidence belongs to the corresponding Study 1 day workspace under `studies/osf-wa5v8/dayN/evidence/`, or to the independently governed Study 2 cycle under `studies/osf-vshwk/cycles/`. Eligible prospective evidence must be linked through the registered `observations/raw/` contract, not inferred from archive membership.
 
-Each retained evidence object should be linkable to:
-
-- source system;
-- source object or query surface;
-- retrieval timestamp;
-- related observation ID;
-- access or response condition;
-- provenance/capture method.
-
-Sensitive, private, credential-bearing, or redistribution-restricted material must not be committed merely for completeness.
+Evidence and interpretation remain separate. Preserve original source identity, retrieval clocks, source locators, response conditions, digests and correction history. The directory consolidation does not re-capture, re-hash or rewrite the archived payloads. See the [path migration ledger](../migrations/path-migration-2026-11-26.csv) and [current path conventions](../../docs/record-path-conventions.md).
 
 ## Retained packages
 
 - [2026-10-08 / 01-morning-recheck](2026-10-08/01-morning-recheck/) — 17 original public API responses, timestamp and hash manifest, original local offline verification outcome
 
-The original archive member names and source-response bytes are immutable through the path migration. See [monitoring naming rules](../monitoring/NAMING.md).
+The original archive member names and source-response bytes are immutable through the path migration. See [monitoring naming rules](../../docs/record-path-conventions.md).
 
 - [2026-10-09 / 01-facility-recheck](2026-10-09/01-facility-recheck/) — Timestamped original API responses and counter reconciliation
 
 - [2026-10-10 / 01-zenodo-surge-recheck](2026-10-10/01-zenodo-surge-recheck/capture-manifest.json) — 11 archived original concept-recID responses from the source collector, **not** the later independent 32-version extraction
 
-The independently extracted 32-version table is retained under [monitoring/2026-10-10/02-reconciliation](../monitoring/2026-10-10/02-reconciliation/version-counters-independent.csv) as **derived public fields** with bounded fetch windows, **not** original byte-level HTTP evidence. The October 10 institutional public-status investigation is separately recorded in [scholarly](../scholarly/infrastructure-review-2026-10-10.md).
+The independently extracted 32-version table is retained under [monitoring/2026-10-10/02-reconciliation](../diagnostics/2026-10-10/02-reconciliation/version-counters-independent.csv) as **derived public fields** with bounded fetch windows, **not** original byte-level HTTP evidence. The October 10 institutional public-status investigation is separately recorded in [scholarly](../../scholarly/infrastructure-review-2026-10-10.md).
 
 ## October 14 retained diagnostics and user pages
 
@@ -37,11 +28,11 @@ The independently extracted 32-version table is retained under [monitoring/2026-
 
 ## October 14 evening new-release propagation
 
-[Evening diagnostics and new-version evidence](../monitoring/2026-10-14/06-evening-facility-recheck/README.md) preserve ten new public releases, 72 findable DOIs, 15 ORCID groups / 85 sources and 43 enumerated versions; user pages and independent captures remain separate
+[Evening diagnostics and new-version evidence](../diagnostics/2026-10-14/06-evening-facility-recheck/README.md) preserve ten new public releases, 72 findable DOIs, 15 ORCID groups / 85 sources and 43 enumerated versions; user pages and independent captures remain separate
 
 ## October 15 morning diagnostic recheck
 
-[Full morning record](../monitoring/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated
+[Full morning record](../diagnostics/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated
 
 - [October 18 independent research field extracts](2026-10-18/03-independent-research-verification/README.md) — minimized public representation with explicit local-only raw bytes and source archive digest verification
 
@@ -74,4 +65,4 @@ The independently extracted 32-version table is retained under [monitoring/2026-
 
 ## November 24 material relocated to wa5v8
 
-The original two evidence packages are now under [Day 0 evidence](../studies/osf-wa5v8/day0/evidence/README.md); see the [path and blob mapping](../studies/osf-wa5v8/path-migration-2026-11-25.json). The source ledgers remain byte-identical.
+The original two evidence packages are now under [Day 0 evidence](../../studies/osf-wa5v8/day0/evidence/README.md); see the [path and blob mapping](../../studies/osf-wa5v8/path-migration-2026-11-25.json). The source ledgers remain byte-identical.
