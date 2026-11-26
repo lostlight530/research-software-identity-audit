@@ -177,8 +177,13 @@
     {
       "lineage": "A",
       "layer": "L7_researcher_attribution",
-      "endpoint_ids": [],
-      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+      "endpoint_ids": [
+        "L7-shared-orcid-works"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED",
+      "shared_evidence_not_double_counted": [
+        "L7-shared-orcid-works"
+      ]
     },
     {
       "lineage": "A",
@@ -243,8 +248,13 @@
     {
       "lineage": "B",
       "layer": "L7_researcher_attribution",
-      "endpoint_ids": [],
-      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED"
+      "endpoint_ids": [
+        "L7-shared-orcid-works"
+      ],
+      "classification": "ACCOUNTED_NOT_FULLY_VERIFIED",
+      "shared_evidence_not_double_counted": [
+        "L7-shared-orcid-works"
+      ]
     },
     {
       "lineage": "B",
@@ -293,5 +303,12 @@
   ],
   "prior_day_source_values_reused": false,
   "provider_origin_http_bytes_retained": false,
-  "disposition": "CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS"
+  "disposition": "CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS",
+  "derivation_correction_history": [
+    {
+      "at_utc": "2026-11-26T14:00:37.482Z",
+      "prior_summary_blob_sha": "a0e53e9635e431559c9a5a924e7ea2179280ef17",
+      "reason": "Initial derived nested filter missed shared ORCID scope label; reference the existing shared receipt in both L7 bundles, without changing raw ledger or endpoint counts."
+    }
+  ]
 }
