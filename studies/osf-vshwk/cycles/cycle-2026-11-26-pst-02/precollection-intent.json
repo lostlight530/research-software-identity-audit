@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "study": "OSF_VSHWK",
+  "task_day": null,
+  "cycle_id": "cycle-2026-11-26-pst-02",
+  "status": "INITIATED_PENDING_COLLECTION",
+  "declared_at_utc": "2026-11-26T08:09:38.402Z",
+  "reporting_day": {
+    "date": "2026-11-26",
+    "timezone": "America/Los_Angeles",
+    "utc_offset_at_event": "-08:00"
+  },
+  "protocol_clock_zones": [
+    "UTC",
+    "Asia/Shanghai"
+  ],
+  "manifest_ref": "studies/osf-vshwk/contract/endpoints-v1.json",
+  "manifest_version": 1,
+  "latest_approved_schema_response": "6afdcc7108de91a0f0cefd6c",
+  "authority_freshness": "latest documented approved response; dated extractor list supports it, live exhaustive revision census unavailable",
+  "registration": "https://osf.io/vshwk/",
+  "reason_before_collection": "New independently declared full-scope review following a capture-orchestration custody gap. The earlier relevant changes in both source lineages and their pinned workflow trigger paths motivate the review. The first cycle's results and attempts are unknown and are not replaced, reused, or counted here. Checkpoint minimized source receipts in bounded batches; no full-cycle results preselected.",
+  "initiated_by": "assistant executing user continuation request",
+  "case_project_id": 490,
+  "lineages": [
+    2332,
+    2334
+  ],
+  "predeclared_endpoint_count": 22,
+  "expected_project_layer_bundles": 8,
+  "expected_nested_lineage_layer_bundles": 16,
+  "collection_started": false,
+  "observation_records_at_intent_time": 0,
+  "source_repositories_read_only": true,
+  "all_external_platforms_read_only": true,
+  "mutable_repo": "lostlight530/research-software-identity-audit",
+  "prior_data_reused": false,
+  "precollection_repo_base_commit": "b33e30ee0729f7b5de9e51629f7ca6c0dbb2f2d2",
+  "trigger_evidence_ref": "studies/startup-gate-review-2026-11-26.json",
+  "prior_blocked_intent_commit": "276269337ec41674b5560dc3a5a3897dbc141015",
+  "prior_capture_gap_ref": "studies/osf-vshwk/capture-gaps/2026-11-26-pst-01/custody-gap.json",
+  "capture_policy": "Bounded batches, commit each receipt batch before starting the next; no retries in this review; retain provider extraction dates and limitations."
+}
