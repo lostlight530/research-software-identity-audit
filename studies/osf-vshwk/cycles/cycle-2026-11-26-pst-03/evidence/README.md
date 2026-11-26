@@ -1,0 +1,5 @@
+# Day 3 receipt custody
+
+Four primary ledgers (4+5+6+7 = 22 receipts) were committed and read back at 63d78794e5e9dc1afe907d8868bde42e78aae408, 6f84af6f20e6fed396187117fc6a676276e0fa5e, 5120dff7911cea496988a66dde4f519c1977c276 and 5f96b9956dab722761e35551e29270ee1cb5fe01. [Supplementary pinned workflows](workflow-followup.jsonl) checkpoint a87b0acdb5884d538804b79d2922df2babd1a4e8. Exact Git blob SHAs in [summary](../cycle-summary.json).
+
+Receipts contain selected GitHub fields or minimized, truncated extractor excerpts and acquisition dates; provider-origin HTTP bytes, headers and status are not retained. Local parse errors preserve the received error fragment, not the full discarded YAML; later pinned reads are separate. Extractor dates may predate collector invocation. No origin-response SHA-256 is manufactured; Git blobs identify retained receipt content. No retries in the primary manifest; supplementary pinned reads are distinct. No fresh global absence or provider metadata staleness inferred.
