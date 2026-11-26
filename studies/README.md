@@ -5,6 +5,7 @@ The public repository `lostlight530/research-software-identity-audit` is the onl
 ## Shared daily workspace calendar
 
 Owner-confirmed reporting timezone: `America/Los_Angeles`. Day 0 = 2026-11-23; Day 1 = 2026-11-24; Day 2 = 2026-11-25. The same calendar applies to both independent projects. Original source labels (including Asia/Shanghai dates), acquisition clocks, and Git timestamps remain unchanged. Later maintenance, migration, CI, and documentation are not new research acquisitions. At the earlier pre-acquisition review the owner confirmed no new Day 2 acquisition **yet**. Subsequent fresh, independently recorded Day 2 checks now exist under both study namespaces; this does not backdate an earlier acquisition or promote diagnostics to formal prospective cells. This calendar clarification supersedes the operational task-day interpretation in PR #149 for daily folder attribution only; it does not alter historical records or scientific eligibility.
+
 ## Daily workspace index — both studies, separate records
 
 The shared Day 0–2 labels are an **operational navigation calendar**, not a shared research wave. Each link opens that study's own daily record. The canonical evidence remains in its owning day package or VSHWK cycle directory; these indexes do not duplicate source material.

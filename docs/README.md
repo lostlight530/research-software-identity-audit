@@ -73,7 +73,7 @@ Read the repository by **ownership and evidence role**, not by assuming every to
 | `observations/derived/` | [Derived observation location](../observations/derived/README.md) | Derivations must cite actual raw observations; missing values are not imputed |
 | `provenance/` | [Provenance policy](../provenance/README.md) | Preserve source → raw → derived → interpretation lineage and correction history |
 | `analysis/` | [Descriptive research analysis](../analysis/README.md) | Keep exploratory work identified; no unregistered causal or inferential model |
-| `scholarly/` | [Archive and identifier guide](../scholarly/README.md), [citation guide](../scholarly/CITATION.md) | Keep control-software citation identity distinct from OSF study registrations and external research objects |
+| `scholarly/` | [Scholarly and archive index](../scholarly/README.md), [citation guide](../scholarly/CITATION.md) | Keep control-repository citation identity, OSF registration identity and external research-object identifiers distinct; dated reviews remain historical |
 | `docs/history/` | [Classified historical documentation archive](history/README.md) | Dated audits, inventory ledgers and closeouts remain historical; do not treat them as current contract authority |
 | `docs/repository-inventory/` | Dated [repository inventory packages](repository-inventory/2026-11-20/README.md) | Pinned point-in-time inventories; not current HEAD counts or new research observations |
 | `templates/` | [Reusable research templates](../templates/README.md), [human-facing template](../RESEARCH_TEMPLATE.md) | Templates are structure aids, not completed observations or evidence |
@@ -83,7 +83,7 @@ Read the repository by **ownership and evidence role**, not by assuming every to
 | `docs/` | This current documentation map plus the separately classified historical subdirectories above | Navigation and maintenance instructions, not observational evidence |
 | `RELEASE_POLICY.md` and root governance files | [Immutable release policy](../RELEASE_POLICY.md), amendments, deviations, data handling and open-research guidance | Repository governance and release history; not a substitute for either OSF registration |
 
-**Historical paths are deliberately retained.** Do not move or rename root-level `monitoring/`, `evidence/`, `baseline/`, or `provenance/` paths for cosmetic organization. Their manifests, source locators, hashes, PR links and paper references may depend on those paths. Historical documentation is classified under `docs/history/`; dated repository inventories remain under `docs/repository-inventory/`. The Study 2 day indexes under `studies/osf-vshwk/day*/` are navigation-only pointers to the canonical cycle and custody records.
+**Existing root paths are deliberately retained.** Do not move or rename root-level `monitoring/`, `evidence/`, `baseline/`, or `provenance/` paths for cosmetic organization. Their manifests, source locators, hashes, PR links and paper references may depend on those paths. Historical documentation is classified under `docs/history/`; dated repository inventories remain under `docs/repository-inventory/`. The Study 2 day indexes under `studies/osf-vshwk/day*/` are navigation-only pointers to the canonical cycle and custody records.
 ## 3. Read a result without mixing evidence levels
 
 Follow the narrowest source that actually supports the claim:
