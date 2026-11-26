@@ -1,6 +1,6 @@
 # Operational observation schedule
 
-**OSF Project / Study Registration pair:** [wa5v8](https://osf.io/wa5v8/) / [5b329](https://osf.io/5b329/) · [2026-11-26 pair crosswalk](studies/osf-object-pairing-crosswalk-2026-11-26.md)
+**OSF Project / Study Registration pair:** [wa5v8](https://osf.io/wa5v8/) / [5b329](https://osf.io/5b329/) · [2026-11-26 pair crosswalk](../studies/osf-object-pairing-crosswalk-2026-11-26.md)
 
 ## Formal OSF prospective-contract status
 
