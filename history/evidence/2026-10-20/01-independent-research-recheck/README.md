@@ -8,7 +8,7 @@ User-source page values remain explicitly separate from independent API and vers
 
 `artifact-manifest.json` seals the public artifacts. `offline-verification.json` is a local result, not a GitHub runner result. The checker is read-only, offline and not added to cloud CI.
 
-[Research record](../../../monitoring/2026-10-20/01-independent-research-recheck/README.md)
+[Research record](../../../diagnostics/2026-10-20/01-independent-research-recheck/README.md)
 
 ## Correction history
 

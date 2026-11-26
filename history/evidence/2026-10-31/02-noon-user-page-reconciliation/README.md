@@ -8,7 +8,7 @@ local attachment and original HTTP response bytes are not published here.
 - [Earlier API comparison fields](source-02-api-comparison-fields.json)
 - [Source clocks and local original digests](source-provenance.json)
 - [Published artifact manifest](artifact-manifest.json)
-- [Monitoring interpretation](../../../monitoring/2026-10-31/02-noon-user-page-reconciliation/README.md)
+- [Monitoring interpretation](../../../diagnostics/2026-10-31/02-noon-user-page-reconciliation/README.md)
 
 SHA-256 entries authenticate these published bytes, not the original provider
 transport or a new live measurement. Counter sums do not identify individual

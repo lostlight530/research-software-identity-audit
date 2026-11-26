@@ -1,6 +1,6 @@
 # October 26 morning public field projections
 
-Companion of [monitoring record](../../../monitoring/2026-10-26/01-morning-institutional-recheck/README.md)
+Companion of [monitoring record](../../../diagnostics/2026-10-26/01-morning-institutional-recheck/README.md)
 
 - [All request attempts](source-attempts.csv), including failed and retried routes
 - [34-row surface crosswalk](surface-attempt-crosswalk.json)
