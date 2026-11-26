@@ -72,7 +72,7 @@ A conversation-level or narrative audit summary may reference request logs, resp
 
 In the October 10 independent 32-version public-field extraction, the same RS07 concept family had version-local `version_views=45+33+7=85`, while one month-close version record attached `stats.views=186` and `stats.unique_views=106` versus sibling attached aggregate fields `85/82`. Count **versions by their local fields** under the explicitly declared exploratory method; keep the conflicting family-aggregate fields as observed discrepancies. **Do not** add 101 as extra family traffic, backfill any historical period, or claim a proven internal synchronization mechanism.
 
-The extractor supplied bounded execution windows rather than original HTTP bytes or per-request server times, so this secondary validation is **not** byte-identical evidence. See [2026-10-10 reviewer record](../monitoring/2026-10-10/02-reconciliation/independent-version-verification.md).
+The extractor supplied bounded execution windows rather than original HTTP bytes or per-request server times, so this secondary validation is **not** byte-identical evidence. See [2026-10-10 reviewer record](../history/diagnostics/2026-10-10/02-reconciliation/independent-version-verification.md).
 
 ## KL-009 — Public institutional listing and RRID index have distinct authority
 

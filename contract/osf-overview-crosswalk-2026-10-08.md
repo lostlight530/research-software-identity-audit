@@ -73,7 +73,7 @@ All legacy historical source files, baseline manifests, correction history, date
 | 11. Platform response and pagination | `platform_response`, `pagination_complete`, `attempt_status`, `failure_reason` | Record HTTP 404/429/timeout/403 and limits literally; no silent promotion |
 | 12. Correction/amendment events | `correction_event`, `amendment_ref`, `AMENDMENTS.md`, `DEVIATIONS.md` | Boolean marker alone does not replace a timestamped append-only correction history |
 
-The existing JSON schema encodes a **single operational observation record**, not an entire study execution, source-summary table, or historical archive. Monitoring before eligibility remains in `monitoring/` with `pre_eligibility_monitoring` classification, **not** a synthetic prospective record. Do not add monitoring as a seventh layer or as extra registered observations merely to satisfy a schema.
+The existing JSON schema encodes a **single operational observation record**, not an entire study execution, source-summary table, or historical archive. Monitoring before eligibility remains in `history/diagnostics/` with `pre_eligibility_monitoring` classification, **not** a synthetic prospective record. Do not add monitoring as a seventh layer or as extra registered observations merely to satisfy a schema.
 
 ## Six derived analyses and explicit exclusions
 
@@ -99,7 +99,7 @@ The supplied Overview states:
 
 `schedule/README.md` currently says **no concrete operational offsets are declared**. The supplied Overview does not enumerate such offsets, and no timepoint list can be invented from this excerpt. This is an **unresolved pre-execution operational specification**, not proof that an unobserved schedule existed or that current monitoring was eligible. Any real schedule declaration requires its own prior timestamp and provenance; do not retroactively claim that specific offsets were frozen in OSF.
 
-All 2026-10-06, 2026-10-07, and 2026-10-08 packages presently under `monitoring/` remain **pre-eligibility monitoring**, even where sources called them Wave 1/2/3 or prospective. A later valid eligible event cannot silently turn them into new-window results.
+All 2026-10-06, 2026-10-07, and 2026-10-08 packages presently under `history/diagnostics/` remain **pre-eligibility monitoring**, even where sources called them Wave 1/2/3 or prospective. A later valid eligible event cannot silently turn them into new-window results.
 
 ## Prior knowledge, missing states and exploratory analysis
 
@@ -115,4 +115,4 @@ All 2026-10-06, 2026-10-07, and 2026-10-08 packages presently under `monitoring/
 - **Unresolved / not invented:** exact operational offsets and initial-versus-updated OSF field revision provenance.
 - **Change class of this document:** append-only explanation and traceability enhancement. No historical observation, frozen preregistration, schema vocabulary, schedule, or numerical analysis is modified.
 
-Related authority: [frozen contract bridge](preregistration.md), [existing limitation record](known-limitations.md), [operational schedule](../schedule/README.md), [descriptive analysis](../analysis/README.md), [monitoring records](../monitoring/README.md).
+Related authority: [frozen contract bridge](preregistration.md), [existing limitation record](known-limitations.md), [operational schedule](../schedule/README.md), [descriptive analysis](../analysis/README.md), [monitoring records](../history/diagnostics/README.md).

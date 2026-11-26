@@ -71,7 +71,7 @@ The [ten-repository DOI and PR merge review](fixed-ten-release-identity-review-2
 
 ## Later October 10 OpenAlex–WorkflowHub author Works observation
 
-The [independent author Works aggregation check](../monitoring/2026-10-10/03-openalex-work-aggregation/README.md) directly retrieved **18 distinct Work/DOI associations** under OpenAlex Author `A5151904252`: ten fixed-software concept DOIs, one independent research-control software concept DOI, the OSF preregistration DOI, and six WorkflowHub **version** DOIs (two workflow identifiers, three OpenAlex-visible versions each). This improves current observability; it is not twelve additional research-software samples, evidence of scholarly impact, or an eligible prospective timepoint.
+The [independent author Works aggregation check](../history/diagnostics/2026-10-10/03-openalex-work-aggregation/README.md) directly retrieved **18 distinct Work/DOI associations** under OpenAlex Author `A5151904252`: ten fixed-software concept DOIs, one independent research-control software concept DOI, the OSF preregistration DOI, and six WorkflowHub **version** DOIs (two workflow identifiers, three OpenAlex-visible versions each). This improves current observability; it is not twelve additional research-software samples, evidence of scholarly impact, or an eligible prospective timepoint.
 
 The same review retained unresolved **OpenAlex author-profile 16 vs 30 vs filtered Works list 18** count semantics and two separately registered WorkflowHub v4 DOI metadata records not returned by the bounded OpenAlex DOI query. The prior October 10 institution review remains a valid earlier point-in-time account; no historical count is overwritten.
 
@@ -92,20 +92,20 @@ This later independently queried surface returned the audit-control's new `10.52
 
 The fourth public control GitHub Release `v2026.10-evidence-integrity` was independently confirmed with new Zenodo **version DOI `10.5281/zenodo.23446162`** and unchanged concept `10.5281/zenodo.23166490`. Its **immutable tag embeds older October 10 CITATION/CodeMeta version fields**; later live `main` metadata correction is not an archive rewrite. See [postpublication reconciliation](release-identity-reconciliation-2026-10-18.md) and [updated citation guidance](CITATION.md).
 
-The researcher's subsequent ORCID `Update ORCID work` action is documented separately for the old [Beta DOI](../monitoring/2026-10-18/02-orcid-openaire-work-refresh/README.md): **one explicit successful authenticated confirmation**, plus user-reported actions across 11 links; DataCite Software and OpenAIRE Dataset source views have the same DOI. No proven OpenAIRE green-icon sync or new scholarly object is inferred.
+The researcher's subsequent ORCID `Update ORCID work` action is documented separately for the old [Beta DOI](../history/diagnostics/2026-10-18/02-orcid-openaire-work-refresh/README.md): **one explicit successful authenticated confirmation**, plus user-reported actions across 11 links; DataCite Software and OpenAIRE Dataset source views have the same DOI. No proven OpenAIRE green-icon sync or new scholarly object is inferred.
 
 ## October 14 cross-infrastructure capture
 
-[Morning institutional results](../monitoring/2026-10-14/04-morning-facility-recheck/README.md) retain DataCite 60 findable identifiers, ORCID 15 groups / 72 summaries, OpenAlex query 26 vs profile 24, and ten-family DOI route convergence. Supplementary RSD, HAL, RRID, WorkflowHub, OSF and Internet Archive outcomes remain source-specific; historical states above are not overwritten
+[Morning institutional results](../history/diagnostics/2026-10-14/04-morning-facility-recheck/README.md) retain DataCite 60 findable identifiers, ORCID 15 groups / 72 summaries, OpenAlex query 26 vs profile 24, and ten-family DOI route convergence. Supplementary RSD, HAL, RRID, WorkflowHub, OSF and Internet Archive outcomes remain source-specific; historical states above are not overwritten
 
 ## October 14 evening new-release propagation
 
-[Evening diagnostics and new-version evidence](../monitoring/2026-10-14/06-evening-facility-recheck/README.md) preserve ten new public releases, 72 findable DOIs, 15 ORCID groups / 85 sources and 43 enumerated versions; user pages and independent captures remain separate
+[Evening diagnostics and new-version evidence](../history/diagnostics/2026-10-14/06-evening-facility-recheck/README.md) preserve ten new public releases, 72 findable DOIs, 15 ORCID groups / 85 sources and 43 enumerated versions; user pages and independent captures remain separate
 
 ## October 15 morning diagnostic recheck
 
-[Full morning record](../monitoring/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated
+[Full morning record](../history/diagnostics/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated
 
 ## October 18 independent archive-byte inspection
 
-The [22:41–22:42 diagnostic](../monitoring/2026-10-18/03-independent-research-verification/README.md) adds locally recomputed ZIP digests and extracted root Citation/CodeMeta version fields. It verifies the older embedded metadata in the October 18 control ZIP and the separate corrected live-main metadata without rewriting the earlier postpublication report or immutable tag.
+The [22:41–22:42 diagnostic](../history/diagnostics/2026-10-18/03-independent-research-verification/README.md) adds locally recomputed ZIP digests and extracted root Citation/CodeMeta version fields. It verifies the older embedded metadata in the October 18 control ZIP and the separate corrected live-main metadata without rewriting the earlier postpublication report or immutable tag.
