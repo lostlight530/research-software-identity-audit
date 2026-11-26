@@ -25,12 +25,18 @@ class VshwkContractTests(unittest.TestCase):
     def test_current_study_package_passes(self):
         result = validate(self.root)
         self.assertEqual(result["manifest_endpoints"], 22)
-        self.assertEqual(len(result["cycles_validated"]), 2)
-        self.assertEqual({item["cycle_id"] for item in result["cycles_validated"]}, {
-            "cycle-2026-11-23-pst-01", "cycle-2026-11-25-pst-01"
-        })
+        validated_ids = {item["cycle_id"] for item in result["cycles_validated"]}
+        self.assertEqual(len(validated_ids), len(result["cycles_validated"]))
+        self.assertTrue({
+            "cycle-2026-11-23-pst-01", "cycle-2026-11-25-pst-01",
+            "cycle-2026-11-26-pst-02",
+        }.issubset(validated_ids))
+        cycle_root = self.root / "studies" / "osf-vshwk" / "cycles"
+        discovered_ids = {p.name for p in cycle_root.glob("cycle-*") if p.is_dir()}
+        self.assertEqual(validated_ids, discovered_ids - {"cycle-2026-11-24-pst-01"})
         self.assertTrue(all(item["endpoint_rows"] == 22 for item in result["cycles_validated"]))
         self.assertEqual(len(result["incomplete_custody"]), 1)
+        self.assertEqual(result["incomplete_custody"][0]["cycle_id"], "cycle-2026-11-24-pst-01")
         self.assertIsNone(result["incomplete_custody"][0]["endpoint_rows"])
         self.assertFalse(result["incomplete_custody"][0]["counted_as_validated_cycle"])
 
