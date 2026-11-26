@@ -1,0 +1,14 @@
+{
+  "record_class": "bounded_diagnostic_not_prospective",
+  "task_day": "DAY_3",
+  "reporting_date": "2026-11-26",
+  "reporting_timezone": "America/Los_Angeles",
+  "declared_at_utc": "2026-11-26T13:58:35.774Z",
+  "base_commit": "54cbf279f694ff0462927a5d7f5a5470d983e044",
+  "authority": "6afdcc3a7fb0a89b0e3dd7e4",
+  "scope": "Fresh fixed corpus release gate and broad read-only diagnostic; CONTROL separate; external extracts not live origin bytes",
+  "schedule": "NOT_DECLARED",
+  "prospective_cells_added": 0,
+  "prior_values_reused": false,
+  "capture_policy": "Bounded batches; persist and verify each before next; minimize selected fields; no provider-origin HTTP status inferred"
+}
