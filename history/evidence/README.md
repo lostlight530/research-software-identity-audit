@@ -66,3 +66,8 @@ The independently extracted 32-version table is retained under [monitoring/2026-
 ## November 24 material relocated to wa5v8
 
 The original two evidence packages are now under [Day 0 evidence](../../studies/osf-wa5v8/day0/evidence/README.md); see the [path and blob mapping](../../studies/osf-wa5v8/path-migration-2026-11-25.json). The source ledgers remain byte-identical.
+
+
+## Preserved source-era index
+
+The former root [`evidence/README.md`](README.source.md) is retained byte-for-byte as `README.source.md`. Its original relative links and source-era path statements are intentionally unchanged; use this README as the current archive entrypoint. The original naming policy is preserved at [`record-path-conventions.source.md`](../documentation/record-path-conventions.source.md); current path ownership is defined in [`docs/record-path-conventions.md`](../../docs/record-path-conventions.md).

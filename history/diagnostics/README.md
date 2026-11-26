@@ -269,3 +269,8 @@ The 01 original report and the 02 earlier `interpretation.md` have distinct auth
 - [2026-11-24 / 02-supplementary-failure-custody-reconciliation](../../studies/osf-wa5v8/day0/monitoring/2026-11-24/02-supplementary-failure-custody-reconciliation/README.md) — seven fresh, separately timed follow-up attempts for surface errors whose per-item reason was missing from the 01 evidence ledger; retains actual connector reason codes without overwriting the original 34-source record or inferring provider absence; no prospective cells
 
 For new daily wa5v8 operational material, use [the project runtime](../../studies/osf-wa5v8/README.md). Earlier root paths remain historical governance.
+
+
+## Preserved source-era index
+
+The former root [`monitoring/README.md`](README.source.md) is retained byte-for-byte as `README.source.md`. Its original relative links and source-era path statements are intentionally unchanged; use this README as the current archive entrypoint. The original [`monitoring/NAMING.md`](../documentation/record-path-conventions.source.md) is also preserved byte-for-byte. Current path ownership is defined in [`docs/record-path-conventions.md`](../../docs/record-path-conventions.md).

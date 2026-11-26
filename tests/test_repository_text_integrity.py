@@ -85,5 +85,37 @@ class RepositoryTextIntegrityTests(unittest.TestCase):
         self.assertEqual(result["error_count"], 0)
 
 
+    def test_preserved_source_indexes_resolve_legacy_relative_links(self):
+        self.write("history/documentation/record-path-conventions.source.md", "# source naming\n")
+        self.write("history/migrations/monitoring-path-migration-2026-10-08.csv", "old,new\na,b\n")
+        self.write("history/diagnostics/2026-10-06/01-wave-01/README.md", "# event\n")
+        self.write(
+            "history/diagnostics/README.source.md",
+            "[naming](NAMING.md)\n"
+            "[migration](path-migration-2026-10-08.csv)\n"
+            "[event](2026-10-06/01-wave-01/README.md)\n",
+        )
+        self.write("history/documentation/inventory-ledgers/README.md", "# inventory\n")
+        self.write("history/migrations/path-migration-2026-11-25.csv", "old,new\na,b\n")
+        self.write(
+            "history/documentation/README.source.md",
+            "[inventory](inventory-ledgers/README.md)\n"
+            "[migration](path-migration-2026-11-25.csv)\n",
+        )
+        result = audit(
+            self.root,
+            [
+                "history/documentation/record-path-conventions.source.md",
+                "history/migrations/monitoring-path-migration-2026-10-08.csv",
+                "history/diagnostics/2026-10-06/01-wave-01/README.md",
+                "history/diagnostics/README.source.md",
+                "history/documentation/inventory-ledgers/README.md",
+                "history/migrations/path-migration-2026-11-25.csv",
+                "history/documentation/README.source.md",
+            ],
+        )
+        self.assertEqual(result["error_count"], 0)
+
+
 if __name__ == "__main__":
     unittest.main()

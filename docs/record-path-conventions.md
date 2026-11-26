@@ -1,6 +1,6 @@
 # Record path and ownership conventions
 
-This document governs repository presentation paths. It does **not** amend either OSF registration or change the scientific contract.
+This document governs current repository presentation paths. It does **not** amend either OSF registration or change the scientific contract. The source-era `monitoring/NAMING.md` is preserved byte-for-byte at `history/documentation/record-path-conventions.source.md`.
 
 ## Current execution and evidence surfaces
 

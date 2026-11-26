@@ -78,6 +78,7 @@ def local_target_exists(root: Path, source: Path, target: str) -> bool:
     # the append-only path ledger. Never rewrite the historical source bytes.
     source_relative = source.as_posix()
     source_aliases = (
+        ("history/documentation/record-path-conventions.source.md", "monitoring/NAMING.md"),
         ("history/diagnostics/", "monitoring/"),
         ("history/evidence/", "evidence/"),
         ("history/documentation/", "docs/history/"),
@@ -90,7 +91,7 @@ def local_target_exists(root: Path, source: Path, target: str) -> bool:
             break
 
     target_aliases = (
-        ("monitoring/NAMING.md", "docs/record-path-conventions.md"),
+        ("monitoring/NAMING.md", "history/documentation/record-path-conventions.source.md"),
         ("monitoring/path-migration-2026-10-08.csv", "history/migrations/monitoring-path-migration-2026-10-08.csv"),
         ("monitoring/", "history/diagnostics/"),
         ("evidence/", "history/evidence/"),
