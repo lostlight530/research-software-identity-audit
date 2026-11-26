@@ -1,0 +1,52 @@
+{
+  "recorded_at_utc": "2026-11-26T14:14:48.359Z",
+  "record_class": "batch_transport_failure_not_provider_endpoint_outcomes",
+  "collector": "Parallel extractor",
+  "requested_locators": [
+    {
+      "id": "RS01",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/"
+    },
+    {
+      "id": "RS02",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/zero-entropy-lab/visit/latest/"
+    },
+    {
+      "id": "RS03",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/Axiom-0/visit/latest/"
+    },
+    {
+      "id": "RS04",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/reflective-continuum/visit/latest/"
+    },
+    {
+      "id": "RS05",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agent-foundations/visit/latest/"
+    },
+    {
+      "id": "RS06",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/auto-doc-engine/visit/latest/"
+    },
+    {
+      "id": "RS07",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/epistemic-pipeline/visit/latest/"
+    },
+    {
+      "id": "RS08",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/sci-render-kit/visit/latest/"
+    },
+    {
+      "id": "RS09",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/china-agentic-observatory/visit/latest/"
+    },
+    {
+      "id": "RS10",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agentic-frontier-observatory/visit/latest/"
+    }
+  ],
+  "primary_provider_attempt_count": null,
+  "retained_endpoint_receipts": 0,
+  "error": "RATE_LIMITED: free-tier rate limit for Parallel MCP",
+  "origin_http_status": null,
+  "absence_inferred": false
+}
