@@ -1,0 +1,60 @@
+{
+  "record_class": "supplementary_projection_recovery_new_attempt",
+  "source": "Exa web fetch",
+  "reason": "Prior line-level minimization retained only URL headings; complete body not retained; use field-level projection without copying incidental fields. This does not replace original attempt.",
+  "prior_blob": "db5132ef51251a213e22fa7639fdb8b0ee20464d",
+  "invocation_start_utc": "2026-11-26T15:13:38.113Z",
+  "invocation_end_utc": "2026-11-26T15:13:38.529Z",
+  "provider_acquisition_timestamp": null,
+  "provider_origin_http_bytes_retained": false,
+  "rows": [
+    {
+      "url": "https://api.datacite.org/dois/10.48546%2Fworkflowhub.workflow.2332.9",
+      "returned_segment": true,
+      "body_character_count": 5462,
+      "parsed_json": true,
+      "fields": {
+        "id": "10.48546/workflowhub.workflow.2332.9",
+        "doi": "10.48546/workflowhub.workflow.2332.9",
+        "state": "findable",
+        "url": "https://workflowhub.eu/workflows/2332?version=9",
+        "types": {
+          "resourceType": "Workflow",
+          "resourceTypeGeneral": "Workflow"
+        },
+        "version": null,
+        "registered": "2026-11-08T07:10:34.000Z",
+        "updated": "2026-11-08T07:10:34.000Z",
+        "relatedIdentifiers": [],
+        "source_commit_mentions": []
+      },
+      "snippets": null,
+      "provider_origin_http_status": null
+    },
+    {
+      "url": "https://api.datacite.org/dois/10.48546%2Fworkflowhub.workflow.2334.9",
+      "returned_segment": true,
+      "body_character_count": 5465,
+      "parsed_json": true,
+      "fields": {
+        "id": "10.48546/workflowhub.workflow.2334.9",
+        "doi": "10.48546/workflowhub.workflow.2334.9",
+        "state": "findable",
+        "url": "https://workflowhub.eu/workflows/2334?version=9",
+        "types": {
+          "resourceType": "Workflow",
+          "resourceTypeGeneral": "Workflow"
+        },
+        "version": null,
+        "registered": "2026-11-08T07:10:36.000Z",
+        "updated": "2026-11-08T07:10:36.000Z",
+        "relatedIdentifiers": [],
+        "source_commit_mentions": []
+      },
+      "snippets": null,
+      "provider_origin_http_status": null
+    }
+  ],
+  "error": null,
+  "absence_inferred": false
+}

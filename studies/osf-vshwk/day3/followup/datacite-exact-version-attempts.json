@@ -1,0 +1,35 @@
+{
+  "record_class": "supplementary_extractor_representation",
+  "source": "Exa web fetch",
+  "requested_urls": [
+    "https://api.datacite.org/dois/10.48546%2Fworkflowhub.workflow.2332.9",
+    "https://api.datacite.org/dois/10.48546%2Fworkflowhub.workflow.2334.9"
+  ],
+  "invocation_start_utc": "2026-11-26T15:13:18.331Z",
+  "invocation_end_utc": "2026-11-26T15:13:19.565Z",
+  "provider_http_status": null,
+  "provider_acquisition_timestamp": null,
+  "original_provider_http_bytes_retained": false,
+  "selected_lines": [
+    {
+      "line": 1,
+      "text": "# 10.48546%2Fworkflowhub.workflow.2332.9"
+    },
+    {
+      "line": 2,
+      "text": "URL: https://api.datacite.org/dois/10.48546%2Fworkflowhub.workflow.2332.9"
+    },
+    {
+      "line": 6,
+      "text": "# 10.48546%2Fworkflowhub.workflow.2334.9"
+    },
+    {
+      "line": 7,
+      "text": "URL: https://api.datacite.org/dois/10.48546%2Fworkflowhub.workflow.2334.9"
+    }
+  ],
+  "selection_rule": "focal DOI/state/relationship/URL/type/date/commit lines; excludes incidental personal and credential-like fields; no provider-origin bytes",
+  "error": null,
+  "representation_characters": 11157,
+  "absence_inferred": false
+}

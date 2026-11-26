@@ -1,0 +1,407 @@
+[
+  {
+    "object_id": "RS06",
+    "url": "https://api.github.com/repos/lostlight530/auto-doc-engine/releases?per_page=100&page=1",
+    "start": "2026-11-26T15:11:02.472Z",
+    "end": "2026-11-26T15:11:03.176Z",
+    "source": "GitHub connector projection",
+    "returned_count": 7,
+    "terminal_page_not_verified": true,
+    "releases": [
+      {
+        "id": 452284206,
+        "tag_name": "v2026.11-twenty-day-evidence-checkpoint",
+        "published_at": "2026-11-20T04:55:29Z",
+        "created_at": "2026-11-20T01:04:37Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.11-twenty-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 440482316,
+        "tag_name": "v2026.11-ten-day-evidence-checkpoint",
+        "published_at": "2026-11-10T14:40:43Z",
+        "created_at": "2026-11-10T10:58:09Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.11-ten-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 429207502,
+        "tag_name": "v2026.10-30-evidence-snapshot",
+        "published_at": "2026-10-30T15:44:12Z",
+        "created_at": "2026-10-30T11:25:56Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.10-30-evidence-snapshot",
+        "target_commitish": "main"
+      },
+      {
+        "id": 412629124,
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:14:54Z",
+        "created_at": "2026-10-14T09:21:08Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 403023837,
+        "tag_name": "v2026.10-open-research-production-framework",
+        "published_at": "2026-10-04T13:00:32Z",
+        "created_at": "2026-10-04T12:01:57Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.10-open-research-production-framework",
+        "target_commitish": "main"
+      },
+      {
+        "id": 400322533,
+        "tag_name": "v2026.09-natural-month-close",
+        "published_at": "2026-09-30T18:24:23Z",
+        "created_at": "2026-09-30T17:26:37Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.09-natural-month-close",
+        "target_commitish": "main"
+      },
+      {
+        "id": 389760637,
+        "tag_name": "v2026.09-open-research-baseline",
+        "published_at": "2026-09-16T08:49:18Z",
+        "created_at": "2026-09-16T08:19:10Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.09-open-research-baseline",
+        "target_commitish": "main"
+      }
+    ]
+  },
+  {
+    "object_id": "RS07",
+    "url": "https://api.github.com/repos/lostlight530/epistemic-pipeline/releases?per_page=100&page=1",
+    "start": "2026-11-26T15:11:02.472Z",
+    "end": "2026-11-26T15:11:03.175Z",
+    "source": "GitHub connector projection",
+    "returned_count": 7,
+    "terminal_page_not_verified": true,
+    "releases": [
+      {
+        "id": 452284140,
+        "tag_name": "v2026.11-twenty-day-evidence-checkpoint",
+        "published_at": "2026-11-20T04:55:22Z",
+        "created_at": "2026-11-20T02:22:50Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.11-twenty-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 440482387,
+        "tag_name": "v2026.11-ten-day-evidence-checkpoint",
+        "published_at": "2026-11-10T14:40:46Z",
+        "created_at": "2026-11-10T10:59:23Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.11-ten-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 429207557,
+        "tag_name": "v2026.10-30-evidence-snapshot",
+        "published_at": "2026-10-30T15:44:16Z",
+        "created_at": "2026-10-30T11:26:01Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.10-30-evidence-snapshot",
+        "target_commitish": "main"
+      },
+      {
+        "id": 412629265,
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:04Z",
+        "created_at": "2026-10-14T09:21:16Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 403023854,
+        "tag_name": "v2026.10-open-research-production-framework",
+        "published_at": "2026-10-04T13:00:36Z",
+        "created_at": "2026-10-04T12:02:00Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.10-open-research-production-framework",
+        "target_commitish": "main"
+      },
+      {
+        "id": 400322647,
+        "tag_name": "v2026.09-natural-month-close",
+        "published_at": "2026-09-30T18:24:34Z",
+        "created_at": "2026-09-30T17:27:14Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.09-natural-month-close",
+        "target_commitish": "main"
+      },
+      {
+        "id": 389761788,
+        "tag_name": "v2026.09-open-research-baseline",
+        "published_at": "2026-09-16T08:51:00Z",
+        "created_at": "2026-09-16T08:19:18Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.09-open-research-baseline",
+        "target_commitish": "main"
+      }
+    ]
+  },
+  {
+    "object_id": "RS08",
+    "url": "https://api.github.com/repos/lostlight530/sci-render-kit/releases?per_page=100&page=1",
+    "start": "2026-11-26T15:11:02.472Z",
+    "end": "2026-11-26T15:11:03.176Z",
+    "source": "GitHub connector projection",
+    "returned_count": 7,
+    "terminal_page_not_verified": true,
+    "releases": [
+      {
+        "id": 452284169,
+        "tag_name": "v2026.11-twenty-day-evidence-checkpoint",
+        "published_at": "2026-11-20T04:55:25Z",
+        "created_at": "2026-11-20T02:21:18Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/sci-render-kit/releases/tag/v2026.11-twenty-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 440482444,
+        "tag_name": "v2026.11-ten-day-evidence-checkpoint",
+        "published_at": "2026-11-10T14:40:48Z",
+        "created_at": "2026-11-10T10:59:27Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/sci-render-kit/releases/tag/v2026.11-ten-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 429208315,
+        "tag_name": "v2026.10-30-evidence-snapshot",
+        "published_at": "2026-10-30T15:44:57Z",
+        "created_at": "2026-10-30T11:26:08Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/sci-render-kit/releases/tag/v2026.10-30-evidence-snapshot",
+        "target_commitish": "main"
+      },
+      {
+        "id": 412629447,
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:18Z",
+        "created_at": "2026-10-14T09:24:35Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/sci-render-kit/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 403023881,
+        "tag_name": "v2026.10-open-research-production-framework",
+        "published_at": "2026-10-04T13:00:39Z",
+        "created_at": "2026-10-04T12:02:04Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/sci-render-kit/releases/tag/v2026.10-open-research-production-framework",
+        "target_commitish": "main"
+      },
+      {
+        "id": 400322703,
+        "tag_name": "v2026.09-natural-month-close",
+        "published_at": "2026-09-30T18:24:39Z",
+        "created_at": "2026-09-30T17:27:51Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/sci-render-kit/releases/tag/v2026.09-natural-month-close",
+        "target_commitish": "main"
+      },
+      {
+        "id": 389759739,
+        "tag_name": "v2026.09-open-research-baseline",
+        "published_at": "2026-09-16T08:47:58Z",
+        "created_at": "2026-09-16T08:19:25Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/sci-render-kit/releases/tag/v2026.09-open-research-baseline",
+        "target_commitish": "main"
+      }
+    ]
+  },
+  {
+    "object_id": "RS09",
+    "url": "https://api.github.com/repos/lostlight530/china-agentic-observatory/releases?per_page=100&page=1",
+    "start": "2026-11-26T15:11:02.472Z",
+    "end": "2026-11-26T15:11:03.176Z",
+    "source": "GitHub connector projection",
+    "returned_count": 7,
+    "terminal_page_not_verified": true,
+    "releases": [
+      {
+        "id": 452284114,
+        "tag_name": "v2026.11-twenty-day-evidence-checkpoint",
+        "published_at": "2026-11-20T04:55:19Z",
+        "created_at": "2026-11-20T02:21:15Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.11-twenty-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 440482230,
+        "tag_name": "v2026.11-ten-day-evidence-checkpoint",
+        "published_at": "2026-11-10T14:40:39Z",
+        "created_at": "2026-11-10T10:59:34Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.11-ten-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 429207673,
+        "tag_name": "v2026.10-30-evidence-snapshot",
+        "published_at": "2026-10-30T15:44:22Z",
+        "created_at": "2026-10-30T11:26:19Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.10-30-evidence-snapshot",
+        "target_commitish": "main"
+      },
+      {
+        "id": 412630016,
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:00Z",
+        "created_at": "2026-10-14T09:11:32Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 403023788,
+        "tag_name": "v2026.10-open-research-production-framework",
+        "published_at": "2026-10-04T13:00:26Z",
+        "created_at": "2026-10-04T12:02:11Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.10-open-research-production-framework",
+        "target_commitish": "main"
+      },
+      {
+        "id": 400317364,
+        "tag_name": "v2026.09-natural-month-close",
+        "published_at": "2026-09-30T18:17:03Z",
+        "created_at": "2026-09-30T17:29:13Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.09-natural-month-close",
+        "target_commitish": "main"
+      },
+      {
+        "id": 389757851,
+        "tag_name": "v2026.09-open-research-baseline",
+        "published_at": "2026-09-16T08:45:06Z",
+        "created_at": "2026-09-16T08:19:32Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.09-open-research-baseline",
+        "target_commitish": "main"
+      }
+    ]
+  },
+  {
+    "object_id": "RS10",
+    "url": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/releases?per_page=100&page=1",
+    "start": "2026-11-26T15:11:02.472Z",
+    "end": "2026-11-26T15:11:03.176Z",
+    "source": "GitHub connector projection",
+    "returned_count": 7,
+    "terminal_page_not_verified": true,
+    "releases": [
+      {
+        "id": 452284405,
+        "tag_name": "v2026.11-twenty-day-evidence-checkpoint",
+        "published_at": "2026-11-20T04:55:50Z",
+        "created_at": "2026-11-20T02:21:12Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.11-twenty-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 440482155,
+        "tag_name": "v2026.11-ten-day-evidence-checkpoint",
+        "published_at": "2026-11-10T14:40:36Z",
+        "created_at": "2026-11-10T10:59:30Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.11-ten-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 429207619,
+        "tag_name": "v2026.10-30-evidence-snapshot",
+        "published_at": "2026-10-30T15:44:19Z",
+        "created_at": "2026-10-30T11:26:14Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.10-30-evidence-snapshot",
+        "target_commitish": "main"
+      },
+      {
+        "id": 412629902,
+        "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:53Z",
+        "created_at": "2026-10-14T09:11:24Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+        "target_commitish": "main"
+      },
+      {
+        "id": 403023806,
+        "tag_name": "v2026.10-open-research-production-framework",
+        "published_at": "2026-10-04T13:00:29Z",
+        "created_at": "2026-10-04T12:02:08Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.10-open-research-production-framework",
+        "target_commitish": "main"
+      },
+      {
+        "id": 400317396,
+        "tag_name": "v2026.09-natural-month-close",
+        "published_at": "2026-09-30T18:17:05Z",
+        "created_at": "2026-09-30T17:28:34Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.09-natural-month-close",
+        "target_commitish": "main"
+      },
+      {
+        "id": 389758532,
+        "tag_name": "v2026.09-open-research-baseline",
+        "published_at": "2026-09-16T08:46:10Z",
+        "created_at": "2026-09-16T08:19:40Z",
+        "draft": false,
+        "prerelease": false,
+        "html_url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.09-open-research-baseline",
+        "target_commitish": "main"
+      }
+    ]
+  }
+]

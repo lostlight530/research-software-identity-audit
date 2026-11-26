@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "record_class": "DAY_3_SUPPLEMENTARY_DIAGNOSTIC_RECONCILIATION",
+  "study": "OSF_5B329",
+  "project": "wa5v8",
+  "task_day": "DAY_3",
+  "reporting_day": "2026-11-26",
+  "reporting_timezone": "America/Los_Angeles",
+  "recorded_at_utc": "2026-11-26T15:15:17.976Z",
+  "original_main": "805617acbb0cc363dfa3ecffa1d0580919148c2f",
+  "original_record": "studies/osf-wa5v8/day3/monitoring/2026-11-26/01-periodic-identity-infrastructure-recheck/record.json",
+  "original_record_blob": "91fc7658b0073ef97940e1196416a32afbbc676e",
+  "evidence": [
+    {
+      "path": "studies/osf-wa5v8/day3/followup/release-list-page1-rs01-rs05.json",
+      "blob": "d5e705bc5d8de76434e76d710f3ed6a4bd0997a9"
+    },
+    {
+      "path": "studies/osf-wa5v8/day3/followup/release-list-page1-rs06-rs10.json",
+      "blob": "2e73937d2b8fb570ff2f4c73c85f73140fbdd60f"
+    },
+    {
+      "path": "studies/osf-wa5v8/day3/followup/release-list-page2-rs01-rs05.json",
+      "blob": "2820c37c1bd756fc9d4bc6bf6199774a4b4175dc"
+    },
+    {
+      "path": "studies/osf-wa5v8/day3/followup/release-list-page2-rs06-rs10.json",
+      "blob": "2d54e960af9be256aa1e5bfd4f9264e8b28a1cec"
+    },
+    {
+      "path": "studies/osf-wa5v8/day3/followup/osf-authority-attempt.json",
+      "blob": "589c9cdfaadfa7661a10bf2efbc065fa6dce5fc9"
+    },
+    {
+      "path": "studies/osf-wa5v8/day3/followup/recovered-rsd-13-locator-receipts.jsonl",
+      "blob": "83457a9ee5ea1ab6703fa0b20c8f1b1f3a253587"
+    },
+    {
+      "path": "studies/osf-wa5v8/day3/followup/precollection-declaration.json",
+      "blob": "67981b793a259f0062cc26a82b314e410b4bab4c"
+    }
+  ],
+  "release_census": {
+    "page_requests": 20,
+    "first_page_represented_releases": 70,
+    "distinct_release_ids": 70,
+    "terminal_page_empty": 10,
+    "first_page_each": 7,
+    "post_registration_date_candidates": 40,
+    "on_registration_calendar_date": 0,
+    "earliest_returned_candidate": {
+      "object_id": "RS01",
+      "id": 412628982,
+      "tag_name": "v2026.10-fourteen-day-evidence-checkpoint",
+      "published_at": "2026-10-14T11:14:44Z",
+      "created_at": "2026-10-14T09:16:44Z",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.10-fourteen-day-evidence-checkpoint",
+      "target_commitish": "main"
+    },
+    "earliest_candidates_by_object": [
+      {
+        "object_id": "RS01",
+        "release_id": 412628982,
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:14:44Z"
+      },
+      {
+        "object_id": "RS02",
+        "release_id": 412630124,
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:09Z"
+      },
+      {
+        "object_id": "RS03",
+        "release_id": 412629617,
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:30Z"
+      },
+      {
+        "object_id": "RS04",
+        "release_id": 412630422,
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:33Z"
+      },
+      {
+        "object_id": "RS05",
+        "release_id": 412629718,
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:39Z"
+      },
+      {
+        "object_id": "RS06",
+        "release_id": 412629124,
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:14:54Z"
+      },
+      {
+        "object_id": "RS07",
+        "release_id": 412629265,
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:04Z"
+      },
+      {
+        "object_id": "RS08",
+        "release_id": 412629447,
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:18Z"
+      },
+      {
+        "object_id": "RS09",
+        "release_id": 412630016,
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:16:00Z"
+      },
+      {
+        "object_id": "RS10",
+        "release_id": 412629902,
+        "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+        "published_at": "2026-10-14T11:15:53Z"
+      }
+    ],
+    "limits": "Exhausted the two requested pages in each current connector-visible release list. No historical/deleted/draft-access completeness, exact provider capture clock, or eligibility adjudication inferred."
+  },
+  "authority": {
+    "last_documented_approved_schema_response": "6afdcc3a7fb0a89b0e3dd7e4",
+    "new_list_attempt": "EXTRACTOR_TIMEOUT",
+    "full_live_revision_census_verified": false
+  },
+  "gate": {
+    "first_eligible_release_adjudicated": false,
+    "applicable_predeclared_schedule_established": false,
+    "prospective_cells_added": 0,
+    "backfill": false
+  },
+  "recovered_custody": {
+    "original_branch_head": "32b33c9f521dc6a636414ffa178028c9e08bdbcb",
+    "original_blob": "83457a9ee5ea1ab6703fa0b20c8f1b1f3a253587",
+    "byte_identical": true,
+    "locator_receipts": 13,
+    "meaning": "13 returned RSD locator excerpts, not a new sample, not independently verified records or expanded 34-locator cohort; original clocks retained. Other duplicate and overlapping branch-only receipts remain referenced by immutable original branch-head commit; do not merge duplicate corrections."
+  },
+  "unresolved": [
+    "complete provider-origin revision census",
+    "first eligible release adjudication and applicable predefined schedule",
+    "four unresolved OpenAIRE concept queries; ten latest-version OpenAlex locators",
+    "structured fresh SWH visits and current ORCID groups; exact provider clocks",
+    "origin response and archive byte custody"
+  ],
+  "disposition": "DAY_3_BOUNDED_FOLLOWUP_RETAINED_NO_PROSPECTIVE_PROMOTION",
+  "new_osf_write": false,
+  "day4_created": false
+}

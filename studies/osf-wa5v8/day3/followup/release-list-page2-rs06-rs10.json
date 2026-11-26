@@ -1,0 +1,47 @@
+[
+  {
+    "object_id": "RS06",
+    "url": "https://api.github.com/repos/lostlight530/auto-doc-engine/releases?per_page=100&page=2",
+    "start": "2026-11-26T15:11:19.376Z",
+    "end": "2026-11-26T15:11:20.029Z",
+    "source": "GitHub connector projection",
+    "returned_count": 0,
+    "releases": []
+  },
+  {
+    "object_id": "RS07",
+    "url": "https://api.github.com/repos/lostlight530/epistemic-pipeline/releases?per_page=100&page=2",
+    "start": "2026-11-26T15:11:19.377Z",
+    "end": "2026-11-26T15:11:20.029Z",
+    "source": "GitHub connector projection",
+    "returned_count": 0,
+    "releases": []
+  },
+  {
+    "object_id": "RS08",
+    "url": "https://api.github.com/repos/lostlight530/sci-render-kit/releases?per_page=100&page=2",
+    "start": "2026-11-26T15:11:19.377Z",
+    "end": "2026-11-26T15:11:20.029Z",
+    "source": "GitHub connector projection",
+    "returned_count": 0,
+    "releases": []
+  },
+  {
+    "object_id": "RS09",
+    "url": "https://api.github.com/repos/lostlight530/china-agentic-observatory/releases?per_page=100&page=2",
+    "start": "2026-11-26T15:11:19.377Z",
+    "end": "2026-11-26T15:11:20.029Z",
+    "source": "GitHub connector projection",
+    "returned_count": 0,
+    "releases": []
+  },
+  {
+    "object_id": "RS10",
+    "url": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/releases?per_page=100&page=2",
+    "start": "2026-11-26T15:11:19.377Z",
+    "end": "2026-11-26T15:11:20.029Z",
+    "source": "GitHub connector projection",
+    "returned_count": 0,
+    "releases": []
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "record_class": "supplementary_alternative_access_attempt",
+  "tool": "ChatGPT public web URL opener",
+  "invocation_envelope_utc": {
+    "not_before": "2026-11-26T15:13:38.529Z",
+    "not_after": "2026-11-26T15:14:04.958Z",
+    "precision": "bounds from adjacent recorded tool invocation and custody write; exact web invocation timestamps not exposed"
+  },
+  "rows": [
+    {
+      "source_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/",
+      "rendered_url": "https://archive.softwareheritage.org/api/1/origin/https%3A//github.com/lostlight530/welcome-to-github/visit/latest/",
+      "outcome": "TOOL_ACCESS_UNAVAILABLE",
+      "message": "URL is not accessible via this tool."
+    },
+    {
+      "source_url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/zero-entropy-lab/visit/latest/",
+      "rendered_url": "https://archive.softwareheritage.org/api/1/origin/https%3A//github.com/lostlight530/zero-entropy-lab/visit/latest/",
+      "outcome": "TOOL_ACCESS_UNAVAILABLE",
+      "message": "URL is not accessible via this tool."
+    },
+    {
+      "source_url": "https://pub.orcid.org/v3.0/0009-0001-3617-0832/works",
+      "outcome": "TOOL_ACCESS_UNAVAILABLE",
+      "message": "URL is not accessible via this tool."
+    }
+  ],
+  "provider_http_status": null,
+  "provider_origin_http_bytes_retained": false,
+  "absence_inferred": false,
+  "scope": "Two focal SWH origins and one shared ORCID work locator only; not a new primary endpoint cycle and not a claim about other eight SWH origins."
+}

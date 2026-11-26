@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "record_class": "DAY_3_SUPPLEMENTARY_CYCLE_RECONCILIATION_NOT_NEW_CYCLE",
+  "study": "OSF_VSHWK",
+  "project": "AUHJF",
+  "task_day": "DAY_3",
+  "reporting_day": "2026-11-26",
+  "reporting_timezone": "America/Los_Angeles",
+  "recorded_at_utc": "2026-11-26T15:15:38.287Z",
+  "base_main": "805617acbb0cc363dfa3ecffa1d0580919148c2f",
+  "related_cycle": "cycle-2026-11-26-pst-03",
+  "primary_cycle_summary_blob": "e34655c641caa156fd2efe4643b6a183f3429c26",
+  "primary_outcomes_unchanged": {
+    "expected_endpoints": 22,
+    "primary_attempts": 22,
+    "complete": 2,
+    "partial": 16,
+    "error": 4,
+    "relationship_direct": 9,
+    "relationship_link_unverified": 5,
+    "relationship_unresolved": 8
+  },
+  "evidence": [
+    {
+      "path": "studies/osf-vshwk/day3/followup/precollection-declaration.json",
+      "blob": "835449bec8186271eb549be742a65cebcd4f1b4d"
+    },
+    {
+      "path": "studies/osf-vshwk/day3/followup/known-run-metadata.json",
+      "blob": "f5f35c91a27e77f53035329dbeab8efdc36b5ac0"
+    },
+    {
+      "path": "studies/osf-vshwk/day3/followup/known-run-job-receipts.json",
+      "blob": "88c02cfa74bcd6d29ab1d9678e1a05dcb650519a"
+    },
+    {
+      "path": "studies/osf-vshwk/day3/followup/known-run-artifact-metadata.json",
+      "blob": "27aed730c0d45d288b539eab0a59e7b91e601341"
+    },
+    {
+      "path": "studies/osf-vshwk/day3/followup/osf-authority-attempt.json",
+      "blob": "00df979d7e1c2d50c383628862b85f91ff505887"
+    },
+    {
+      "path": "studies/osf-vshwk/day3/followup/datacite-exact-version-attempts.json",
+      "blob": "db5132ef51251a213e22fa7639fdb8b0ee20464d"
+    },
+    {
+      "path": "studies/osf-vshwk/day3/followup/datacite-field-projection-recheck.json",
+      "blob": "959c173692962733373ca9352d28997e80591500"
+    },
+    {
+      "path": "studies/osf-vshwk/day3/followup/alternative-access-attempts.json",
+      "blob": "33909330b0ed48009913931c906ae29408f7fde3"
+    }
+  ],
+  "authority": {
+    "last_documented_approved_schema_response": "6afdcc7108de91a0f0cefd6c",
+    "supplementary_list": "RESPONSE_PARTIAL",
+    "visible_id": "6afdcc7108de91a0f0cefd6c",
+    "new_approval_field_visible": false,
+    "full_live_revision_census_verified": false
+  },
+  "run_verification": {
+    "runs": [
+      {
+        "lineage": "A",
+        "run_id": 45549148507,
+        "head_sha": "19680bbed54da4e2b5b45a605ca68556b96cc499",
+        "event": "schedule",
+        "conclusion": "success",
+        "created_at": "2026-11-25T04:47:18Z",
+        "job_ids": [
+          138985858457,
+          138985858775
+        ],
+        "job_count": 2,
+        "artifact_metadata": [
+          {
+            "id": 14992807894,
+            "name": "welcome-lifecycle-manifest-45549148507",
+            "digest": "sha256:9744095565027ce318e82cc452b3ec3d7645199ebe9cfcee308c0bcc36f2d818",
+            "size_in_bytes": 1092,
+            "expired": false,
+            "expires_at": "2026-12-25T04:48:29Z"
+          }
+        ],
+        "artifact_bytes_verified": false
+      },
+      {
+        "lineage": "B",
+        "run_id": 45548254443,
+        "head_sha": "222b055f6ac010a302bbdb4e77a8b98df995d382",
+        "event": "schedule",
+        "conclusion": "success",
+        "created_at": "2026-11-25T04:39:16Z",
+        "job_ids": [
+          138982957826,
+          138982958132
+        ],
+        "job_count": 2,
+        "artifact_metadata": [
+          {
+            "id": 14992252697,
+            "name": "zero-lifecycle-manifest-45548254443",
+            "digest": "sha256:04a5905a670e8df8024e5bd29b2c62de1c4493976a62e8944b515025c9f4ba3b",
+            "size_in_bytes": 1106,
+            "expired": false,
+            "expires_at": "2026-12-25T04:40:44Z"
+          }
+        ],
+        "artifact_bytes_verified": false
+      }
+    ],
+    "scope": "Known November 25 scheduled runs only. Connector job step conclusions do not independently verify advisory or continue-on-error command outcomes. Artifact digest is provider metadata, not recomputed byte hash; no archive inspection, scientific reproducibility, or equivalence to historical v9 inferred."
+  },
+  "datacite_verification": {
+    "new_returned_representation_exact_version_dois": [
+      {
+        "id": "10.48546/workflowhub.workflow.2332.9",
+        "doi": "10.48546/workflowhub.workflow.2332.9",
+        "state": "findable",
+        "url": "https://workflowhub.eu/workflows/2332?version=9",
+        "types": {
+          "resourceType": "Workflow",
+          "resourceTypeGeneral": "Workflow"
+        },
+        "version": null,
+        "registered": "2026-11-08T07:10:34.000Z",
+        "updated": "2026-11-08T07:10:34.000Z",
+        "relatedIdentifiers": [],
+        "source_commit_mentions": []
+      },
+      {
+        "id": "10.48546/workflowhub.workflow.2334.9",
+        "doi": "10.48546/workflowhub.workflow.2334.9",
+        "state": "findable",
+        "url": "https://workflowhub.eu/workflows/2334?version=9",
+        "types": {
+          "resourceType": "Workflow",
+          "resourceTypeGeneral": "Workflow"
+        },
+        "version": null,
+        "registered": "2026-11-08T07:10:36.000Z",
+        "updated": "2026-11-08T07:10:36.000Z",
+        "relatedIdentifiers": [],
+        "source_commit_mentions": []
+      }
+    ],
+    "origin_http_bytes_retained": false,
+    "provider_acquisition_timestamp": null,
+    "interpretation": "Exact DOI identity and findable state visible in parsed returned representations; empty relatedIdentifiers is limited to those representations. No global absence, full provenance, or conflict adjudication."
+  },
+  "failure_correction": {
+    "initial_field_minimization_blob": "db5132ef51251a213e22fa7639fdb8b0ee20464d",
+    "followup_field_projection_blob": "959c173692962733373ca9352d28997e80591500",
+    "interpretation": "First projection discarded body-level identity fields; later independent request retained field-level values with its own clock. Earlier primary attempt and failed projection remain unchanged."
+  },
+  "unresolved": [
+    "complete OSF revision census and current approval field",
+    "provider-origin DataCite bytes and source-commit relationship",
+    "Zenodo archive searches from primary cycle",
+    "SWH structured fresh visits and current ORCID attribution; web opener unavailable at two focal origins and shared work locator",
+    "artifact content/hash verification and registered v9 execution equivalence",
+    "historical Day 1 and Day 3 capture custody gaps"
+  ],
+  "disposition": "DAY_3_SUPPLEMENTARY_VERIFICATION_RETAINED_WITH_UNRESOLVED_RESULTS",
+  "new_cycle": false,
+  "new_osf_write": false,
+  "day4_created": false
+}
