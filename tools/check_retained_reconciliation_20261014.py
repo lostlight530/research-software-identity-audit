@@ -2,18 +2,27 @@
 import collections,csv,datetime as dt,hashlib,json,re,sys,urllib.parse
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
+def repo_path(value):
+ path=Path(value)
+ if path.is_absolute():return path
+ candidate=ROOT/path
+ if candidate.is_file():return candidate
+ raw=path.as_posix()
+ if raw.startswith('monitoring/'):return ROOT/'history/diagnostics'/raw[len('monitoring/'):]
+ if raw.startswith('evidence/'):return ROOT/'history/evidence'/raw[len('evidence/'):]
+ return candidate
 def verify():
  checks=[]
  def check(name,value):checks.append({'check':name,'passed':bool(value)})
  def rows(p):return list(csv.DictReader(p.open(encoding='utf-8-sig')))
  fixed=rows(ROOT/'corpus/object-manifest.csv');expected={x['object_id']:x['software_family'] for x in fixed}
  for slug in ('03-midnight-facility-recheck','04-morning-facility-recheck','05-noon-user-pages'):
-  e=ROOT/'evidence/2026-10-14'/slug;m=ROOT/'monitoring/2026-10-14'/slug;s=json.loads((m/'capture-summary.json').read_text(encoding='utf-8'))
+  e=ROOT/'history/evidence/2026-10-14'/slug;m=ROOT/'history/diagnostics/2026-10-14'/slug;s=json.loads((m/'capture-summary.json').read_text(encoding='utf-8'))
   check(slug+' diagnostic only',s['record_class']=='diagnostic_monitoring' and s['prospective_dataset_member'] is False)
   manifest=json.loads((e/'artifact-manifest.json').read_text(encoding='utf-8'))['artifacts']
-  check(slug+' exact artifact membership',{x['path'] for x in manifest}=={p.relative_to(ROOT).as_posix() for base in (e,m) for p in base.rglob('*') if p.is_file() and p.name not in ('artifact-manifest.json','offline-verification.json')})
+  check(slug+' exact artifact membership',{repo_path(x['path']).relative_to(ROOT).as_posix() for x in manifest}=={p.relative_to(ROOT).as_posix() for base in (e,m) for p in base.rglob('*') if p.is_file() and p.name not in ('artifact-manifest.json','offline-verification.json')})
   for a in manifest:
-   p=ROOT/a['path'];b=p.read_bytes();check('hash '+a['path'],len(b)==a['bytes'] and hashlib.sha256(b).hexdigest()==a['sha256'])
+   p=repo_path(a['path']);b=p.read_bytes();check('hash '+a['path'],len(b)==a['bytes'] and hashlib.sha256(b).hexdigest()==a['sha256'])
   if slug=='05-noon-user-pages':
    source=json.loads((e/'user-page-transcription.json').read_text(encoding='utf-8'));z=rows(m/'zenodo-page-statistics.csv');w=rows(m/'workflowhub-dashboard-statistics.csv')
    check('user source timestamp remains unknown',source['source_kind']=='user_supplied_page_text' and source['exact_capture_timestamp'] is None and source['workflowhub_dashboard_selected_period'] is None)
@@ -71,16 +80,31 @@ def verify():
     w=obj(x['object_id']+'_openalex_doi_'+x['version']);check('OpenAlex route '+x['requested_doi'],w.get('id')==x['work_id'] and (w.get('doi') or '').removeprefix('https://doi.org/').lower()==x['returned_doi'])
    for oid in expected:check('family convergence '+oid,len({x['work_id'] for x in d if x['object_id']==oid})==1)
    check('no synthetic midnight delta',s['zenodo_delta'] is None and s['zenodo_last_complete_reference']['delta_to_current']['views']==47)
- for base in (ROOT/'monitoring/2026-10-14',ROOT/'evidence/2026-10-14'):
+ for base in (ROOT/'history/diagnostics/2026-10-14',ROOT/'history/evidence/2026-10-14'):
   for p in base.rglob('*.md'):
+   rel=p.relative_to(ROOT).as_posix()
+   if rel.startswith('history/diagnostics/'):
+    source_doc=ROOT/'monitoring'/rel[len('history/diagnostics/'):]
+   elif rel.startswith('history/evidence/'):
+    source_doc=ROOT/'evidence'/rel[len('history/evidence/'):]
+   else:
+    source_doc=p
    for link in re.findall(r'\]\(([^)\n]+)\)',p.read_text(encoding='utf-8')):
     if re.match(r'^[a-zA-Z][a-zA-Z0-9+.-]*:',link) or link.startswith('#'):continue
-    check('relative link '+str(p.relative_to(ROOT))+' '+link,(p.parent/urllib.parse.unquote(link.split('#')[0])).exists())
+    target=(source_doc.parent/urllib.parse.unquote(link.split('#')[0])).resolve()
+    try:
+     target.relative_to(ROOT.resolve())
+    except ValueError:
+     check('relative link '+str(p.relative_to(ROOT))+' '+link,False)
+     continue
+    if not target.exists():
+     target=repo_path(target.relative_to(ROOT).as_posix())
+    check('relative link '+str(p.relative_to(ROOT))+' '+link,target.exists())
  return {'mode':'local_offline','network_calls':0,'checks':len(checks),'failed':sum(not x['passed'] for x in checks),'results':checks}
 if __name__=='__main__':
  result=verify()
  for slug in ('03-midnight-facility-recheck','04-morning-facility-recheck','05-noon-user-pages'):
-  (ROOT/'evidence/2026-10-14'/slug/'offline-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+  (ROOT/'history/evidence/2026-10-14'/slug/'offline-verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  print(json.dumps({k:v for k,v in result.items() if k!='results'}))
  for c in result['results']:
   if not c['passed']:print('FAIL',c['check'])

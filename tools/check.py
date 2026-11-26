@@ -329,7 +329,7 @@ def check_canonical_object_mapping() -> None:
     if observed != expected:
         fail(f"baseline DOI map drifted from fixed corpus: {observed}")
 
-    delta_path = ROOT / "monitoring/2026-10-06/01-wave-01/zenodo-view-delta.csv"
+    delta_path = ROOT / "history/diagnostics/2026-10-06/01-wave-01/zenodo-view-delta.csv"
     if delta_path.exists():
         with delta_path.open(encoding="utf-8", newline="") as handle:
             delta_rows = list(csv.DictReader(handle))
@@ -346,7 +346,7 @@ def check_canonical_object_mapping() -> None:
 
 
 def check_20261007_monitoring() -> None:
-    base = ROOT / "monitoring/2026-10-07/01-facility-audit"
+    base = ROOT / "history/diagnostics/2026-10-07/01-facility-audit"
     summary_path = base / "record.yaml"
     snapshot_path = base / "cross-platform-snapshot.csv"
     swh_path = base / "software-heritage-routes.csv"
@@ -424,7 +424,7 @@ def check_20261007_monitoring() -> None:
 
 
 def check_20261008_morning() -> None:
-    base = ROOT / "monitoring/2026-10-08/01-morning-recheck"
+    base = ROOT / "history/diagnostics/2026-10-08/01-morning-recheck"
     summary_path = base / "record.yaml"
     delta_path = base / "zenodo-view-delta.csv"
     agent_path = base / "agent-cohort.csv"

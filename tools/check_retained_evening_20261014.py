@@ -1,15 +1,22 @@
 """Offline acceptance for the October 14 evening new-release package; no network."""
+def repo_path(value):
+ raw=Path(value).as_posix()
+ candidate=ROOT/raw
+ if candidate.is_file():return candidate
+ if raw.startswith('monitoring/'):return ROOT/'history/diagnostics'/raw[len('monitoring/'):]
+ if raw.startswith('evidence/'):return ROOT/'history/evidence'/raw[len('evidence/'):]
+ return candidate
 import collections,csv,datetime as dt,hashlib,json,sys
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1];M=ROOT/'monitoring/2026-10-14/06-evening-facility-recheck';E=ROOT/'evidence/2026-10-14/06-evening-facility-recheck'
+ROOT=Path(__file__).resolve().parents[1];M=ROOT/'history/diagnostics/2026-10-14/06-evening-facility-recheck';E=ROOT/'history/evidence/2026-10-14/06-evening-facility-recheck'
 def verify():
  checks=[]
  def check(n,v):checks.append({'check':n,'passed':bool(v)})
  def rows(n):return list(csv.DictReader((M/n).open(encoding='utf-8-sig')))
  manifest=json.loads((E/'artifact-manifest.json').read_text(encoding='utf-8'))['artifacts']
  for x in manifest:
-  b=(ROOT/x['path']).read_bytes();check('artifact '+x['path'],len(b)==x['bytes'] and hashlib.sha256(b).hexdigest()==x['sha256'])
- check('exact artifact membership',{x['path'] for x in manifest}=={p.relative_to(ROOT).as_posix() for base in (M,E) for p in base.rglob('*') if p.is_file() and p.name not in ('artifact-manifest.json','offline-verification.json')})
+  b=repo_path(x['path']).read_bytes();check('artifact '+x['path'],len(b)==x['bytes'] and hashlib.sha256(b).hexdigest()==x['sha256'])
+ check('exact artifact membership',{repo_path(x['path']).relative_to(ROOT).as_posix() for x in manifest}=={p.relative_to(ROOT).as_posix() for base in (M,E) for p in base.rglob('*') if p.is_file() and p.name not in ('artifact-manifest.json','offline-verification.json')})
  s=json.loads((M/'capture-summary.json').read_text(encoding='utf-8'));f=json.loads((E/'field-extracts.json').read_text(encoding='utf-8'));ledger=json.loads((E/'capture-manifest.json').read_text(encoding='utf-8'))['requests'];by={x['key']:x for x in ledger}
  for x in ledger:
   check('timestamp '+x['key'],dt.datetime.fromisoformat(x['started_at_utc'])<=dt.datetime.fromisoformat(x['finished_at_utc']))

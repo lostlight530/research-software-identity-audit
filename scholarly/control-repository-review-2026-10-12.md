@@ -48,7 +48,7 @@ The seven are source interfaces, **not seven preregistered study layers**. The a
 
 OpenAlex author-list and profile response semantics still diverged in this check: author-filtered Works query **21**, `GET /authors/A5151904252?select=id,works_count,updated_date` **21** (`updated_date=2026-10-11T12:31:35`) but unselected `GET /authors/A5151904252` **30** (`updated_date=2026-10-01T12:39:15`). Profile response selection and timestamp differ; **mechanism UNKNOWN**. Work `updated_date=2026-10-11T09:32:39.932853` for the new three is a field returned by the platform, **not independently verified first-indexed time**.
 
-**Prior dated reference:** the [October 10 independent OpenAlex review](../monitoring/2026-10-10/03-openalex-work-aggregation/README.md) obtained **18** author-filtered rows, without the three above. The newer **21** is a subsequent direct query result; it must not be relabeled as the Oct10 contemporaneous state. No model for exact propagation latency is warranted.
+**Prior dated reference:** the [October 10 independent OpenAlex review](../history/diagnostics/2026-10-10/03-openalex-work-aggregation/README.md) obtained **18** author-filtered rows, without the three above. The newer **21** is a subsequent direct query result; it must not be relabeled as the Oct10 contemporaneous state. No model for exact propagation latency is warranted.
 
 ## 3. Supplementary public scholarly identity surfaces
 

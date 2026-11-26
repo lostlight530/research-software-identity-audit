@@ -12,7 +12,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT = ("evidence/2026-10-25/02-independent-institutional-recheck/"
+DEFAULT = ("history/evidence/2026-10-25/02-independent-institutional-recheck/"
            "artifact-manifest.json")
 
 
@@ -49,6 +49,9 @@ def verify(manifest_path: Path, root: Path = ROOT) -> dict:
             continue
         seen.add(rel)
         resolved = (root / relative).resolve()
+        if not resolved.is_file():
+            legacy = rel.replace("evidence/", "history/evidence/", 1) if rel.startswith("evidence/") else rel.replace("monitoring/", "history/diagnostics/", 1) if rel.startswith("monitoring/") else rel
+            resolved = (root / legacy).resolve()
         if not resolved.is_relative_to(root) or resolved == manifest_path:
             errors.append(f"row {i}: external or self-referential artifact {rel}")
             continue
@@ -86,7 +89,7 @@ def verify(manifest_path: Path, root: Path = ROOT) -> dict:
 
 def discover_manifests(root: Path = ROOT) -> list[Path]:
     """Discover dated published-artifact manifests without relying on one cutoff day."""
-    return sorted((root.resolve() / "evidence").rglob("artifact-manifest.json"))
+    return sorted((root.resolve() / "history/evidence").rglob("artifact-manifest.json"))
 
 
 def verify_all(root: Path = ROOT) -> dict:
@@ -133,7 +136,7 @@ def main() -> int:
     selector.add_argument("--manifest", default=None,
                           help="One repository-relative artifact manifest (default: October 25)")
     selector.add_argument("--all", action="store_true",
-                          help="Verify all evidence/**/artifact-manifest.json files")
+                          help="Verify all history/evidence/**/artifact-manifest.json files")
     args = parser.parse_args()
     if args.all:
         result = verify_all(ROOT)

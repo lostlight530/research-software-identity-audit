@@ -35,7 +35,7 @@ The registration **precedes** GitHub control-repository creation. GitHub source 
 
 ## What is actually different between original and later approved response
 
-The independently retained [October 30 version comparison](../monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/field-diff.json) compared the accessible structured `revision_responses` values of **29 fields**. **28 were unchanged** and **one changed:** `344-83`, labelled **Other planned analysis** in the supplied Overview.
+The independently retained [October 30 version comparison](../history/diagnostics/2026-10-30/01-osf-schema-response-version-reconciliation/field-diff.json) compared the accessible structured `revision_responses` values of **29 fields**. **28 were unchanged** and **one changed:** `344-83`, labelled **Other planned analysis** in the supplied Overview.
 
 - **Original response:** permitted explicitly labelled secondary exploratory/post hoc work about unexpected state transitions, new aggregation, anomalies or unplanned infrastructure behaviors
 - **Later approved response:** additionally gave *examples* including contextual family benchmarking, bounded sensitivity of engagement counters and tie-aware rank or percentile summaries, still labelled exploratory or post hoc
@@ -63,10 +63,10 @@ The independently retained [October 30 version comparison](../monitoring/2026-10
 
 ## Reproducibility and evidence chain
 
-- Previous exact field-level [OSF diff](../monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/field-diff.json)
-- Original/revised [dated source overview](../monitoring/2026-10-30/01-osf-schema-response-version-reconciliation/README.md)
+- Previous exact field-level [OSF diff](../history/diagnostics/2026-10-30/01-osf-schema-response-version-reconciliation/field-diff.json)
+- Original/revised [dated source overview](../history/diagnostics/2026-10-30/01-osf-schema-response-version-reconciliation/README.md)
 - Existing [clause-level initial crosswalk](osf-overview-crosswalk-2026-10-08.md) remains an as-of-October-8 artifact, **not** silently rewritten to pretend it already knew the later verified version history
 - [Canonical local contract mapping](preregistration.md) / [known limits](known-limitations.md) / [operational schedule](../schedule/README.md)
-- [November 3 first-day-to-current Git provenance and file taxonomy](../docs/history/inventory-ledgers/research-control-first-day-to-current-governance-audit-2026-11-03.md)
+- [November 3 first-day-to-current Git provenance and file taxonomy](../history/documentation/inventory-ledgers/research-control-first-day-to-current-governance-audit-2026-11-03.md)
 
 No frozen registration, historical raw evidence, metadata archive, Git tag, previous correction, schema, baseline, study corpus or prospective observation is changed by this documentation.

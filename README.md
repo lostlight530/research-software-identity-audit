@@ -20,10 +20,10 @@ This is the architecture entrypoint for the shared CONTROL repository. The [docu
 | Scope | Current operational entrypoints | Ownership boundary |
 | --- | --- | --- |
 | **Shared CONTROL infrastructure** | [Directory and ownership map](docs/README.md#2-directory-map-where-to-read-and-where-a-future-contribution-belongs) · [tools](tools/README.md) · [tests](tests/) | Shared governance, validation and evidence custody do not merge either study's scientific objects or denominators |
-| **Study 1 · 5b329 / wa5v8** | [Study entry](studies/osf-wa5v8/README.md) · [Day 0](studies/osf-wa5v8/day0/README.md) · [Day 1](studies/osf-wa5v8/day1/README.md) · [Day 2](studies/osf-wa5v8/day2/README.md) | Its canonical contract, fixed corpus, schema and schedule remain at established root paths; historical baseline, monitoring and evidence are retained there |
+| **Study 1 · 5b329 / wa5v8** | [Study entry](studies/osf-wa5v8/README.md) · [Day 0](studies/osf-wa5v8/day0/README.md) · [Day 1](studies/osf-wa5v8/day1/README.md) · [Day 2](studies/osf-wa5v8/day2/README.md) | Its canonical contract, fixed corpus, schema and schedule remain at established root paths; the frozen baseline remains at root, while legacy diagnostics and evidence are consolidated under `history/` |
 | **Study 2 · VSHWK** | [Study entry](studies/osf-vshwk/README.md) · [Day 0](studies/osf-vshwk/day0/README.md) · [Day 1](studies/osf-vshwk/day1/README.md) · [Day 2](studies/osf-vshwk/day2/README.md) | Project 490 / paired lineages own a separate contract, cycle ledger and daily indexes under `studies/osf-vshwk/` |
 
-**Physical ownership rule:** historical Study 1 baseline, dated monitoring and retained evidence stay at their established root paths; historical repository reviews stay classified under `docs/history/` and `docs/repository-inventory/`. Current daily work is indexed under `studies/`. The root is intentionally mixed: Study 1's `contract/`, `corpus/`, `schema/` and `schedule/` remain canonical working surfaces, while `tools/`, `tests/` and `.github/` support the shared CONTROL runtime. No historical evidence is moved for cosmetic symmetry.
+**Physical ownership rule:** Study 1's frozen `baseline/` remains at its canonical root path. The former root-level diagnostic and evidence archives are consolidated under `history/diagnostics/` and `history/evidence/`; historical repository reviews and pinned inventories live under `history/documentation/` and `history/repository-inventory/`. Current operational work is indexed under `studies/`, while `tools/`, `tests/` and `.github/` remain shared CONTROL engineering. `history/` is not an active acquisition surface.
 
 ### Find the right file by task
 
@@ -34,7 +34,7 @@ This is the architecture entrypoint for the shared CONTROL repository. The [docu
 | Understand historical versus prospective status | [Initial baseline](baseline/README.md), [operational schedule](schedule/README.md), [prospective raw observation area](observations/raw/README.md) |
 | Review the separate OSF workflow study | [Two-study index](studies/README.md), [Study 2 current contract and cycle ledger](studies/osf-vshwk/README.md) |
 | Review wa5v8 daily operational materials | [wa5v8 runtime](studies/osf-wa5v8/README.md) |
-| Review historical diagnostic measurements and retained evidence | [Dated monitoring index](monitoring/README.md), [evidence inventory](evidence/README.md), [provenance discipline](provenance/README.md) |
+| Review historical diagnostic measurements and retained evidence | [Historical diagnostics index](history/diagnostics/README.md), [evidence inventory](history/evidence/README.md), [provenance discipline](provenance/README.md) |
 | Reproduce or review a contribution | [Tools and advisory checks](tools/README.md), [contributing instructions](CONTRIBUTING.md), [open research method](OPEN_RESEARCH.md) |
 | Cite the correct scholarly object | [Citation and identifier guide](scholarly/CITATION.md), [release policy](RELEASE_POLICY.md) |
 
@@ -49,7 +49,7 @@ Both studies have formal OSF preregistrations and approved current schema-respon
 
 | Study | OSF registration | Current approved schema response | Current registered frame |
 | --- | --- | --- | --- |
-| **Study 1 — RSIA identity propagation** | [5b329](https://osf.io/5b329/) | [6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/) · submitted 2026-11-18 · approved | RS01–RS10; six analytical layers; seven operational platforms; 60 object-layer units per scheduled timepoint; RSIA is supporting research-control/evidence/provenance infrastructure, not a sample object |
+| **Study 1 — RSIA identity propagation** | [5b329](https://osf.io/5b329/) | [6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/) · submitted 2026-11-18 · approved | RS01–RS10; six analytical layers; seven operational platforms; 60 object-layer units per scheduled timepoint; RSIA is supporting research-control/history/evidence/provenance infrastructure, not a sample object |
 | **Study 2 — Open research workflow** | [VSHWK](https://osf.io/vshwk/) | [6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/) · submitted 2026-11-18 · approved | One WorkflowHub Project 490 case; paired lineages 2332 v9 and 2334 v9; eight layers; event- or documented-review-initiated cycles without a fixed calendar interval, wave count, or end date |
 
 ### Current authority details
@@ -65,9 +65,9 @@ Both studies have formal OSF preregistrations and approved current schema-respon
 
 ## 数据层与阶段展示的证据关系 / Longitudinal research and stage-display evidence
 
-**中文**：本研究的固定样本是 `RS01–RS10`，CONTROL 仓库不是 RS11；OSF 注册 DOI `10.17605/OSF.IO/5B329` 指向冻结的预注册研究合同，GitHub `main` 指向可演进的执行／治理软件，`baseline/` 是历史基线，`monitoring/` 是诊断观测，`observations/` 才是适格的前瞻性观测归属面；不能把十个对象、六层计数、旧快照统计、页面聚合数或某次 API 读数混成统一分母，也不能将文档存在写成实际采集完成
+**中文**：本研究的固定样本是 `RS01–RS10`，CONTROL 仓库不是 RS11；OSF 注册 DOI `10.17605/OSF.IO/5B329` 指向冻结的预注册研究合同，GitHub `main` 指向可演进的执行／治理软件，`baseline/` 是历史基线，`history/diagnostics/` 是诊断观测，`observations/` 才是适格的前瞻性观测归属面；不能把十个对象、六层计数、旧快照统计、页面聚合数或某次 API 读数混成统一分母，也不能将文档存在写成实际采集完成
 
-**English**: The frozen corpus is RS01–RS10; CONTROL is not RS11. The OSF registration DOI identifies the frozen preregistration, live GitHub `main` owns evolving implementation/governance, `baseline/` retains historical baseline, `monitoring/` holds diagnostics, and `observations/` is the eligible prospective observation surface. Never combine ten objects, six evidence layers, dated inventory counts, frontend aggregates, or single API observations into a shared denominator; a present file does not establish that eligible acquisition ran
+**English**: The frozen corpus is RS01–RS10; CONTROL is not RS11. The OSF registration DOI identifies the frozen preregistration, live GitHub `main` owns evolving implementation/governance, `baseline/` retains historical baseline, `history/diagnostics/` holds diagnostics, and `observations/` is the eligible prospective observation surface. Never combine ten objects, six evidence layers, dated inventory counts, frontend aggregates, or single API observations into a shared denominator; a present file does not establish that eligible acquisition ran
 
 **长期阶段显示 / Longitudinal stage display:** 展示条目应返回 corpus/object ID、infrastructure layer、observation eligibility、source URL、retrieval timestamp、exact Git revision、raw or derived provenance、verification state、missing/blocked reason，以及所引用归档 DOI 的 **concept/version/OSF registration** 类型；对长期趋势进行比较时，必须声明时间窗和统计口径；A display entry must preserve those identifiers and denominators rather than silently upgrading diagnostic evidence to prospective results
 
@@ -643,13 +643,13 @@ Repository organization follows **responsibility and evidence role** rather than
 | --- | --- |
 | Frozen contract interpretation and fixed study identities | [`contract/`](contract/preregistration.md), [`corpus/`](corpus/object-manifest.csv), [`schema/`](schema/counting-rules.md) |
 | Historic data boundary and operational schedule | [`baseline/`](baseline/README.md), [`schedule/`](schedule/README.md) |
-| Diagnostic monitoring (not prospective) | [`monitoring/`](monitoring/README.md) |
+| Historical diagnostic archive (not prospective) | [`history/diagnostics/`](history/diagnostics/README.md) |
 | Schedule-governed prospective observations | [`observations/raw/`](observations/raw/README.md), [`observations/derived/`](observations/derived/README.md) |
-| Retained evidence, provenance and descriptive analysis | [`evidence/`](evidence/README.md), [`provenance/`](provenance/README.md), [`analysis/`](analysis/README.md) |
+| Retained historical evidence, provenance and descriptive analysis | [`history/evidence/`](history/evidence/README.md), [`provenance/`](provenance/README.md), [`analysis/`](analysis/README.md) |
 | Citation and reproducible implementation | [`scholarly/`](scholarly/README.md), [`templates/`](templates/README.md), [`tools/`](tools/README.md), [`.github/`](.github/PULL_REQUEST_TEMPLATE.md) |
 | Human-oriented repository documentation | [`docs/`](docs/README.md), [`OPEN_RESEARCH.md`](OPEN_RESEARCH.md), [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 
-Historical evidence/observation paths are intentionally **not moved for cosmetic cleanup**: earlier evidence manifests, digests and source locators must remain independently resolvable. The folder map is documentation, not an OSF amendment, release, scheduled wave, or new study-data record.
+Former root-level diagnostic/evidence paths have been consolidated under `history/`. The migration ledger preserves each old path and source Git blob identity; historical payload bytes and embedded manifests remain unchanged. Current daily evidence stays within its owning `studies/` workspace, while eligible prospective observations remain under `observations/`. This is a repository path migration, not an OSF amendment, release, scheduled wave, or new study-data record.
 
 ---
 
@@ -837,7 +837,7 @@ This repository provides the live operational layer for the prospective research
 
 Prospective observations are kept distinct from the historical baseline.
 
-Pre-eligibility monitoring is also kept separate from the prospective dataset under `monitoring/`.
+Pre-eligibility monitoring is also kept separate from the prospective dataset under `history/diagnostics/`.
 
 ---
 
@@ -958,8 +958,8 @@ That boundary is intentional and should remain explicit throughout the project l
 
 This repository's current supplementary records are deliberately separated by **evidence role**, and do not add a new fixed software object or new preregistered infrastructure layer:
 
-- [Zenodo October 10 source diagnostic](monitoring/2026-10-10/01-zenodo-surge-recheck/README.md) — original 11-concept source capture retained with source identity.
-- [Zenodo independent 32-version recheck](monitoring/2026-10-10/02-reconciliation/README.md) — separate reviewer, full version enumeration, version-summed **1,813 fixed-ten views / 7 downloads**, separately reported **51 control views**, and unresolved RS07 attached-family aggregate conflict (`186` vs version sum `85`).
+- [Zenodo October 10 source diagnostic](history/diagnostics/2026-10-10/01-zenodo-surge-recheck/README.md) — original 11-concept source capture retained with source identity.
+- [Zenodo independent 32-version recheck](history/diagnostics/2026-10-10/02-reconciliation/README.md) — separate reviewer, full version enumeration, version-summed **1,813 fixed-ten views / 7 downloads**, separately reported **51 control views**, and unresolved RS07 attached-family aggregate conflict (`186` vs version sum `85`).
 - [October 10 institutional public-status ledger](scholarly/infrastructure-review-2026-10-10.md) — RSD, SciCrunch RRID, rseng, DataCite/Zenodo, OSF, ORCID, OpenAlex and bounded SWH/OpenAIRE outcomes. **RRID SCR_029105 is now publicly searchable**; earlier pending status remains historically recorded.
 - [Supplementary Zenodo counting discipline](schema/counting-rules.md#supplementary-zenodo-version-family-reconciliation-2026-10-10) — no cross-version unique-person summation, no aggregate double-counting, no inferred version-level interval without comparable earlier version rows.
 
@@ -967,21 +967,21 @@ All October 10 records are **diagnostic/exploratory**, not eligible new-release 
 
 ## October 10 final documentary and institutional closeout
 
-The dated [October 10 final closeout](scholarly/closeout-review-2026-10-10.md) records a bounded repository contract/document audit, renewed institution-facing public status, external-source ownership, all ten **read-only** research template checks, and unresolved evidence limits. Supporting ledgers: [public scholarly-infrastructure review](scholarly/infrastructure-review-2026-10-10.md), [Zenodo 32-version reconciliation](monitoring/2026-10-10/02-reconciliation/README.md), and [release identity policy](RELEASE_POLICY.md).
+The dated [October 10 final closeout](scholarly/closeout-review-2026-10-10.md) records a bounded repository contract/document audit, renewed institution-facing public status, external-source ownership, all ten **read-only** research template checks, and unresolved evidence limits. Supporting ledgers: [public scholarly-infrastructure review](scholarly/infrastructure-review-2026-10-10.md), [Zenodo 32-version reconciliation](history/diagnostics/2026-10-10/02-reconciliation/README.md), and [release identity policy](RELEASE_POLICY.md).
 
 The external rseng PR #498 is **not** a merged upstream record; local GitHub documentation merges cannot substitute for that maintainer's decision. The research-control repository remains outside the fixed ten-object corpus. No new eligible release, operational schedule, prospective observation, scientific-impact claim or new registration is created by this documentation closeout.
 
 ## October 14 diagnostic records
 
-[Midnight](monitoring/2026-10-14/03-midnight-facility-recheck/README.md), [morning](monitoring/2026-10-14/04-morning-facility-recheck/README.md), and [noon user pages](monitoring/2026-10-14/05-noon-user-pages/README.md) retain separate source and time semantics. Forty fixed-family DOI routes resolve to ten OpenAlex Works in the morning capture. These records add no eligible prospective timepoint or fixed-corpus object
+[Midnight](history/diagnostics/2026-10-14/03-midnight-facility-recheck/README.md), [morning](history/diagnostics/2026-10-14/04-morning-facility-recheck/README.md), and [noon user pages](history/diagnostics/2026-10-14/05-noon-user-pages/README.md) retain separate source and time semantics. Forty fixed-family DOI routes resolve to ten OpenAlex Works in the morning capture. These records add no eligible prospective timepoint or fixed-corpus object
 
 ## October 14 evening new-release propagation
 
-[Evening diagnostics and new-version evidence](monitoring/2026-10-14/06-evening-facility-recheck/README.md) preserve ten new public releases, 72 findable DOIs, 15 ORCID groups / 85 sources and 43 enumerated versions; user pages and independent captures remain separate
+[Evening diagnostics and new-version evidence](history/diagnostics/2026-10-14/06-evening-facility-recheck/README.md) preserve ten new public releases, 72 findable DOIs, 15 ORCID groups / 85 sources and 43 enumerated versions; user pages and independent captures remain separate
 
 ## October 15 morning diagnostic recheck
 
-[Full morning record](monitoring/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated
+[Full morning record](history/diagnostics/2026-10-15/01-morning-facility-recheck/README.md) retains 27 author-query Works, 84 ORCID source summaries, 72 DOI records and source-specific counter reconciliation; earlier captures remain dated
 
 ## Second independently preregistered workflow study (separate contract)
 

@@ -16,10 +16,10 @@ class PublicArtifactManifestTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        (self.root / "evidence").mkdir()
-        self.payload = self.root / "evidence/test.json"
+        (self.root / "history/evidence").mkdir(parents=True)
+        self.payload = self.root / "history/evidence/test.json"
         self.payload.write_bytes(b'{"foo": 1}\n')
-        self.manifest = self.root / "evidence/artifact-manifest.json"
+        self.manifest = self.root / "history/evidence/artifact-manifest.json"
 
     def write_manifest(self, **changes):
         row = {
@@ -81,7 +81,7 @@ class PublicArtifactManifestTests(unittest.TestCase):
 
     def test_discovery_finds_later_manifest_and_checks_its_bytes(self):
         self.write_manifest()
-        later = self.root / "evidence/2026-10-26/01-review/artifact-manifest.json"
+        later = self.root / "history/evidence/2026-10-26/01-review/artifact-manifest.json"
         later.parent.mkdir(parents=True)
         later.write_text(json.dumps({"files": [{
             "path": "evidence/test.json",

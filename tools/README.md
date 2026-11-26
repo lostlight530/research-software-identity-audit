@@ -77,7 +77,7 @@ The existing `check.py` now checks **all seven platform-to-layer pairs**, offset
 python -m unittest discover -s tests -p "test_observation_semantics.py" -v
 ```
 
-CI runs these tests with an explicitly **advisory** step (`continue-on-error`). For source/agent responsibility, transport-versus-observation states, non-comparable counters, exception handling and **human acceptance** boundaries, see [observation assurance review](../docs/history/method-and-integrity-reviews/observation-assurance-2026-10-25.md). OSF, schema, baseline, schedule, and retained evidence are unchanged.
+CI runs these tests with an explicitly **advisory** step (`continue-on-error`). For source/agent responsibility, transport-versus-observation states, non-comparable counters, exception handling and **human acceptance** boundaries, see [observation assurance review](../history/documentation/method-and-integrity-reviews/observation-assurance-2026-10-25.md). OSF, schema, baseline, schedule, and retained evidence are unchanged.
 
 ## Raw versus derived validation (2026-10-25)
 
@@ -94,9 +94,9 @@ The manifest check is a **published-object integrity** check, **not** authentica
 
 The previous default command checked the October 25 artifact manifest only, so the new October 26 manifests were **not in the configured CI checksum step**, even though the rest of CI could be green. This was an assurance-coverage gap, not evidence that the October 26 artifacts were invalid or that third-party platform claims were correct.
 
-Run `python -B tools/check_public_artifact_manifest.py --all` to discover every `evidence/**/artifact-manifest.json` on the checked-out branch and verify **all** declared published files. Output lists each manifest, row count and failures; a newly added manifest is automatically included, and no discovered manifests is an explicit failure. `--manifest PATH` and the historical no-argument default remain supported for targeted checks. The all-manifest step is still **advisory** in CI, consistent with bootstrap validation policy. Read the actual step log, not only the workflow conclusion.
+Run `python -B tools/check_public_artifact_manifest.py --all` to discover every `history/evidence/**/artifact-manifest.json` on the checked-out branch and verify **all** declared published files. Output lists each manifest, row count and failures; a newly added manifest is automatically included, and no discovered manifests is an explicit failure. `--manifest PATH` and the historical no-argument default remain supported for targeted checks. The all-manifest step is still **advisory** in CI, consistent with bootstrap validation policy. Read the actual step log, not only the workflow conclusion.
 
-This verifier is offline and read-only. It does **not** assert historical raw HTTP bytes were independently replayed, nor does it validate platform authenticity, data interpretation, scientific conclusions or prospective eligibility. See the [dated coverage reconciliation](../docs/history/method-and-integrity-reviews/public-manifest-coverage-reconciliation-2026-10-26.md).
+This verifier is offline and read-only. It does **not** assert historical raw HTTP bytes were independently replayed, nor does it validate platform authenticity, data interpretation, scientific conclusions or prospective eligibility. See the [dated coverage reconciliation](../history/documentation/method-and-integrity-reviews/public-manifest-coverage-reconciliation-2026-10-26.md).
 
 
 ## General tooling responsibilities
@@ -116,7 +116,7 @@ No external API credentials, cookies, session data, or secrets belong in the rep
 
 ## October 10 Zenodo version extract
 
-The 32-row independent [version-counters-independent.csv](../monitoring/2026-10-10/02-reconciliation/version-counters-independent.csv) is a **derived** public-field extract reviewed against Zenodo search, `/versions`, and individual-version endpoints. It is **not** a preserved 32-response raw HTTP transport archive, and its batch windows are not per-request server times.
+The 32-row independent [version-counters-independent.csv](../history/diagnostics/2026-10-10/02-reconciliation/version-counters-independent.csv) is a **derived** public-field extract reviewed against Zenodo search, `/versions`, and individual-version endpoints. It is **not** a preserved 32-response raw HTTP transport archive, and its batch windows are not per-request server times.
 
 Its contract is specified in [schema/counting-rules.md](../schema/counting-rules.md#supplementary-zenodo-version-family-reconciliation-2026-10-10). Any locally executed replay/checker must retain per-family identifier joins and flag attached aggregate disagreements instead of fabricating missing counts. **No new retained-evidence checker is added to GitHub Actions**; the existing advisory CI validates only its configured contract checks.
 
@@ -134,23 +134,23 @@ Run `python tools/check_retained_morning_20261015.py` locally for the new source
 
 ## October 18 research capture
 
-Run `python -B tools/check_research_capture_20261018.py` for read-only public-artifact hashes, field joins and count consistency. Original raw response/ZIP bytes are locally retained and not included in this public field-extract package. This command is not added to cloud CI.
+Run `python -B tools/archive/check_research_capture_20261018.py` for read-only public-artifact hashes, field joins and count consistency. Original raw response/ZIP bytes are locally retained and not included in this public field-extract package. This command is not added to cloud CI.
 
 ## October 20 research recheck
 
-`python -B tools/check_research_recheck_20261020.py` verifies the new diagnostic package offline without writes or network. It is not added to cloud CI.
+`python -B tools/archive/check_research_recheck_20261020.py` verifies the new diagnostic package offline without writes or network. It is not added to cloud CI.
 
 ## Read-only Zenodo family/URL-shape replay (2026-10-24)
 
-Run `python -B tools/check_zenodo_family_rollup.py` (or pass `--directory PATH` for an equivalent retained package). It cross-checks 12 family identities, per-family version DOI rows, and normal/diagnostic URL statistics using Python's standard library, with **no network call**. The historically observed 2,681 versus 2,836 source-field difference is kept as `UNRESOLVED_TWO_URL_REPRESENTATIONS`, **not failed arithmetic, proven visit growth, or an uncached-origin claim**. The GitHub Actions step is explicitly advisory. See [the diagnostic-only replay note](../monitoring/2026-10-24/03-offline-family-stat-replay/README.md).
+Run `python -B tools/check_zenodo_family_rollup.py` (or pass `--directory PATH` for an equivalent retained package). It cross-checks 12 family identities, per-family version DOI rows, and normal/diagnostic URL statistics using Python's standard library, with **no network call**. The historically observed 2,681 versus 2,836 source-field difference is kept as `UNRESOLVED_TWO_URL_REPRESENTATIONS`, **not failed arithmetic, proven visit growth, or an uncached-origin claim**. The GitHub Actions step is explicitly advisory. See [the diagnostic-only replay note](../history/diagnostics/2026-10-24/03-offline-family-stat-replay/README.md).
 
 ## October 24 local-history handoff byte and object check
 
-Run `python -B tools/check_local_handoff_20261024.py` for a local **offline and read-only** consistency check of the separately attributed retrospective [handoff package](../monitoring/2026-10-24/04-local-history-evidence-handoff/README.md). It checks all 28 manifest-listed file bytes/SHA-256 (the manifest excludes itself), exact projection fields/allowed present source URLs and preserves 21 null public URL locators without guessing their sources, frozen RS01–RS10 mapping, content-addressed tar member SHA-256, ledger count, and non-prospective classification. CI runs the checker in an explicitly **advisory** step; inspect the step outcome rather than treating overall green CI as proof it passed. It does not reconstruct original HTTP transport, verify third-party claims, prove source freshness, or generate research observations. The [bounded post-handoff check](../monitoring/2026-10-24/05-post-handoff-integrity-recheck/README.md) records the independent same-day GitHub Releases read and separate evidence scopes.
+Run `python -B tools/check_local_handoff_20261024.py` for a local **offline and read-only** consistency check of the separately attributed retrospective [handoff package](../history/diagnostics/2026-10-24/04-local-history-evidence-handoff/README.md). It checks all 28 manifest-listed file bytes/SHA-256 (the manifest excludes itself), exact projection fields/allowed present source URLs and preserves 21 null public URL locators without guessing their sources, frozen RS01–RS10 mapping, content-addressed tar member SHA-256, ledger count, and non-prospective classification. CI runs the checker in an explicitly **advisory** step; inspect the step outcome rather than treating overall green CI as proof it passed. It does not reconstruct original HTTP transport, verify third-party claims, prove source freshness, or generate research observations. The [bounded post-handoff check](../history/diagnostics/2026-10-24/05-post-handoff-integrity-recheck/README.md) records the independent same-day GitHub Releases read and separate evidence scopes.
 
-## Dated monitoring / evidence path and ownership check (2026-10-24)
+## Historical diagnostic/evidence archive path and ownership check (2026-10-24)
 
-Run `python -B tools/check_record_paths.py` to validate the documented [naming contract](../monitoring/NAMING.md) **without renaming original records**. It checks event-directory date/ordinal/kebab envelopes, every human entrypoint, exactly one YAML/JSON machine record for monitoring events except the declared offline-only replay, date-local sequential numbering, full monitoring-index coverage, and matching event identity for separately stored evidence companions. It also validates the new additive legacy README links. CI runs it as an **advisory** step; read the step result, not merely the workflow's green status. This does not query scholarly services, verify source authenticity, or produce a prospective observation. See [the dated classification review](../docs/history/method-and-integrity-reviews/record-path-classification-review-2026-10-24.md).
+Run `python -B tools/check_record_paths.py` to validate the documented [record-path conventions](../docs/record-path-conventions.md) **without renaming original records**. It checks event-directory date/ordinal/kebab envelopes, every human entrypoint, exactly one YAML/JSON machine record for monitoring events except the declared offline-only replay, date-local sequential numbering, full monitoring-index coverage, and matching event identity for separately stored evidence companions. It also validates the new additive legacy README links. CI runs it as an **advisory** step; read the step result, not merely the workflow's green status. This does not query scholarly services, verify source authenticity, or produce a prospective observation. See [the dated classification review](../history/documentation/method-and-integrity-reviews/record-path-classification-review-2026-10-24.md).
 
 
 ## Bounded diagnostic monitoring projection consistency (2026-10-27)
@@ -175,7 +175,7 @@ CI step advisory while schemas and evidence representation mature.
 
 ## November 5 bounded 34-surface monitoring ledger consistency preflight
 
-The existing read-only `python -B tools/check_record_paths.py` now additionally validates the **November 4–5** `bounded_diagnostic_source_access_not_prospective` summary and `surface-access-recheck.csv` pairs: exact surface IDs, row and status counts, retained failure IDs, extractor receipt identities, UTC-day acquisition label precision, and when supplied, client-batch clock/receipt agreement. Two historical machine-summary layouts are supported without rewriting either. Synthetic-only negative/positive cases are included in `tests/test_monitoring_projection.py`, already invoked by advisory GitHub Actions. This guard checks **retained record structure**, not provider-byte provenance, external freshness, adoption or OSF prospective eligibility. Its source and dated full-repository rationale are documented in [November 5 file maintenance audit](../docs/history/inventory-ledgers/research-control-first-day-to-2026-11-05-file-maintenance.md). No new dependency or strict CI gate is introduced.
+The existing read-only `python -B tools/check_record_paths.py` now additionally validates the **November 4–5** `bounded_diagnostic_source_access_not_prospective` summary and `surface-access-recheck.csv` pairs: exact surface IDs, row and status counts, retained failure IDs, extractor receipt identities, UTC-day acquisition label precision, and when supplied, client-batch clock/receipt agreement. Two historical machine-summary layouts are supported without rewriting either. Synthetic-only negative/positive cases are included in `tests/test_monitoring_projection.py`, already invoked by advisory GitHub Actions. This guard checks **retained record structure**, not provider-byte provenance, external freshness, adoption or OSF prospective eligibility. Its source and dated full-repository rationale are documented in [November 5 file maintenance audit](../history/documentation/inventory-ledgers/research-control-first-day-to-2026-11-05-file-maintenance.md). No new dependency or strict CI gate is introduced.
 
 
 ## Repository-wide tracked text integrity preflight (2026-11-10)
@@ -184,7 +184,7 @@ Run `python -B tools/check_repository_text_integrity.py` to perform a read-only,
 
 ## Future bounded public-source transport, November 17 remediation
 
-The dated `monitoring/2026-11-13/01-full-institutional-recheck/collector.py` and
+The dated `history/diagnostics/2026-11-13/01-full-institutional-recheck/collector.py` and
 the November 15/17 archived ledgers are **historical sources** and are not edited
 to pretend that their previously recorded EDAM truncation did not occur.
 
@@ -267,10 +267,10 @@ python -m unittest discover -s tests -p 'test_public_source_semantics.py' -v
 ## Narrow pull-request guard for newly introduced dated record envelopes
 
 `tools/check_new_record_entrypoints.py` prevents a repeat of the November 22
-entrypoint omission: for a **new** `monitoring/YYYY-MM-DD/NN-event/` package it
+entrypoint omission: for a **new** `studies/osf-wa5v8/dayN/monitoring/YYYY-MM-DD/NN-event/` package it
 checks `README.md`, exactly one `record.json` or `record.yaml`, and a
-`monitoring/README.md` index reference. A **new**
-`evidence/YYYY-MM-DD/NN-event/` companion must have `README.md` and a
+`studies/osf-wa5v8/dayN/monitoring/README.md` index reference. A **new**
+`studies/osf-wa5v8/dayN/evidence/YYYY-MM-DD/NN-event/` companion must have `README.md` and a
 matching monitoring event. Pre-existing event directories are intentionally
 excluded from this narrow PR-only gate, so historical baseline repair and
 scientific evidence consistency remain covered by the existing *advisory*
@@ -294,3 +294,10 @@ python -B tools/check_new_record_entrypoints.py --base <40-character-pr-base-com
 A green workflow remains insufficient evidence of successful *advisory*
 checks: inspect the workflow's advisory outcome table and actual checker
 results separately.
+
+
+## Archive-aware historical verifier entrypoints
+
+The original root-level `check_research_capture_20261018.py`, `check_research_recheck_20261020.py`, `check_retained_morning_evidence.py`, and `check_retained_facility_evidence.py` are retained byte-for-byte because their exact Git blobs are referenced by historical artifact manifests. They are source artifacts, not the current path-aware entrypoints.
+
+Current offline replays for the October 18 and October 20 packages live under `tools/archive/`. They resolve legacy `evidence/` and `monitoring/` locators to `history/evidence/` and `history/diagnostics/` without rewriting the historical manifests.
