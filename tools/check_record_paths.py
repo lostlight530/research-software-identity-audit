@@ -573,12 +573,34 @@ def check() -> dict:
     ]
     link_pattern = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
     for doc in new_readmes:
+        rel = doc.relative_to(ROOT).as_posix()
+        if rel.startswith("history/diagnostics/"):
+            source_doc = ROOT / "monitoring" / rel[len("history/diagnostics/"):]
+        elif rel.startswith("history/evidence/"):
+            source_doc = ROOT / "evidence" / rel[len("history/evidence/"):]
+        else:
+            source_doc = doc
         for link in link_pattern.findall(doc.read_text(encoding="utf-8")):
             url = link.split("#", 1)[0]
             if not url or url.startswith(("https://", "http://", "mailto:")):
                 continue
-            resolved = (doc.parent / url).resolve()
-            if not resolved.is_relative_to(ROOT.resolve()) or not resolved.exists():
+            resolved = (source_doc.parent / url).resolve()
+            try:
+                resolved.relative_to(ROOT.resolve())
+            except ValueError:
+                errors.append(f"Broken new entrypoint link: {doc.relative_to(ROOT)} -> {url}")
+                continue
+            if not resolved.exists():
+                target = resolved.relative_to(ROOT).as_posix()
+                aliases = (
+                    ("monitoring/", "history/diagnostics/"),
+                    ("evidence/", "history/evidence/"),
+                )
+                for old_prefix, new_prefix in aliases:
+                    if target.startswith(old_prefix):
+                        resolved = ROOT / (new_prefix + target[len(old_prefix):])
+                        break
+            if not resolved.exists():
                 errors.append(f"Broken new entrypoint link: {doc.relative_to(ROOT)} -> {url}")
 
     return {

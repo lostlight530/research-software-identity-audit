@@ -82,9 +82,24 @@ def verify():
    check('no synthetic midnight delta',s['zenodo_delta'] is None and s['zenodo_last_complete_reference']['delta_to_current']['views']==47)
  for base in (ROOT/'history/diagnostics/2026-10-14',ROOT/'history/evidence/2026-10-14'):
   for p in base.rglob('*.md'):
+   rel=p.relative_to(ROOT).as_posix()
+   if rel.startswith('history/diagnostics/'):
+    source_doc=ROOT/'monitoring'/rel[len('history/diagnostics/'):]
+   elif rel.startswith('history/evidence/'):
+    source_doc=ROOT/'evidence'/rel[len('history/evidence/'):]
+   else:
+    source_doc=p
    for link in re.findall(r'\]\(([^)\n]+)\)',p.read_text(encoding='utf-8')):
     if re.match(r'^[a-zA-Z][a-zA-Z0-9+.-]*:',link) or link.startswith('#'):continue
-    check('relative link '+str(p.relative_to(ROOT))+' '+link,(p.parent/urllib.parse.unquote(link.split('#')[0])).exists())
+    target=(source_doc.parent/urllib.parse.unquote(link.split('#')[0])).resolve()
+    try:
+     target.relative_to(ROOT.resolve())
+    except ValueError:
+     check('relative link '+str(p.relative_to(ROOT))+' '+link,False)
+     continue
+    if not target.exists():
+     target=repo_path(target.relative_to(ROOT).as_posix())
+    check('relative link '+str(p.relative_to(ROOT))+' '+link,target.exists())
  return {'mode':'local_offline','network_calls':0,'checks':len(checks),'failed':sum(not x['passed'] for x in checks),'results':checks}
 if __name__=='__main__':
  result=verify()

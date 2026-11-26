@@ -72,19 +72,24 @@ def local_target_exists(root: Path, source: Path, target: str) -> bool:
     path_text = unquote(parsed.path)
     if not path_text:
         return True  # fragment-only link
-    candidate = (root / path_text.lstrip("/")) if path_text.startswith("/") else (root / source.parent / path_text)
-    try:
-        candidate = candidate.resolve()
-        candidate.relative_to(root.resolve())
-    except (OSError, ValueError):
-        return False
-    if candidate.exists():
-        return True
-    # Historical Markdown source records can retain their original relative
-    # locators. Resolve those through the append-only archive path migration
-    # without rewriting the source record itself.
-    relative = candidate.relative_to(root.resolve()).as_posix()
-    aliases = (
+
+    # A moved historical Markdown file keeps its original relative-link base.
+    # Resolve against that source location first, then map the target through
+    # the append-only path ledger. Never rewrite the historical source bytes.
+    source_relative = source.as_posix()
+    source_aliases = (
+        ("history/diagnostics/", "monitoring/"),
+        ("history/evidence/", "evidence/"),
+        ("history/documentation/", "docs/history/"),
+        ("history/repository-inventory/", "docs/repository-inventory/"),
+    )
+    source_candidates = [source]
+    for current_prefix, original_prefix in source_aliases:
+        if source_relative.startswith(current_prefix):
+            source_candidates.append(Path(original_prefix + source_relative[len(current_prefix):]))
+            break
+
+    target_aliases = (
         ("monitoring/NAMING.md", "docs/record-path-conventions.md"),
         ("monitoring/path-migration-2026-10-08.csv", "history/migrations/monitoring-path-migration-2026-10-08.csv"),
         ("monitoring/", "history/diagnostics/"),
@@ -94,10 +99,22 @@ def local_target_exists(root: Path, source: Path, target: str) -> bool:
         ("docs/history/", "history/documentation/"),
         ("docs/repository-inventory/", "history/repository-inventory/"),
     )
-    for old_prefix, new_prefix in aliases:
-        if relative == old_prefix.rstrip("/") or relative.startswith(old_prefix):
-            destination = root / (new_prefix + relative[len(old_prefix):])
-            return destination.exists()
+    for source_base in source_candidates:
+        candidate = ((root / path_text.lstrip("/")) if path_text.startswith("/")
+                     else (root / source_base.parent / path_text))
+        try:
+            candidate = candidate.resolve()
+            candidate.relative_to(root.resolve())
+        except (OSError, ValueError):
+            continue
+        if candidate.exists():
+            return True
+        relative = candidate.relative_to(root.resolve()).as_posix()
+        for old_prefix, new_prefix in target_aliases:
+            if relative == old_prefix.rstrip("/") or relative.startswith(old_prefix):
+                destination = root / (new_prefix + relative[len(old_prefix):])
+                if destination.exists():
+                    return True
     return False
 
 
