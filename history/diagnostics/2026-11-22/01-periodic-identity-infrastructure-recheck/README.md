@@ -6,10 +6,10 @@
 
 ## Contract and preserved identities
 
-- Original OSF Registration [5b329](https://osf.io/5b329/overview), original October 5 Schema Response, and separately approved October 6 `344-83` wording revision remain distinct authority objects; refer to [version reconciliation](../../../contract/osf-registration-version-governance-2026-11-03.md)
+- Original OSF Registration [5b329](https://osf.io/5b329/overview), original October 5 Schema Response, and separately approved October 6 `344-83` wording revision remain distinct authority objects; refer to [version reconciliation](../../../../contract/osf-registration-version-governance-2026-11-03.md)
 - Fixed `corpus/object-manifest.csv` is **RS01–RS10** only; CONTROL `research-software-identity-audit` is **not RS11**, and supplementary LSEL is not an added fixed sample
 - Six preregistered layers × ten objects = **60 object-layer analytical units per eligible scheduled point**. Seven operational platforms allow 70 potential object-platform checks. Neither is the count of Zenodo version rows
-- [Operational schedule](../../../schedule/README.md) still declares no concrete offsets. A historical October 14 observed candidate release event is already documented, and November 20 is **not** unilaterally redesignated the first eligible event or a retrospective T0. No formal prospective rows, baseline rewrites, OSF writes, schema changes, release creation or DOI minting occurred in this diagnostic
+- [Operational schedule](../../../../schedule/README.md) still declares no concrete offsets. A historical October 14 observed candidate release event is already documented, and November 20 is **not** unilaterally redesignated the first eligible event or a retrospective T0. No formal prospective rows, baseline rewrites, OSF writes, schema changes, release creation or DOI minting occurred in this diagnostic
 
 ## Same-source identity and change reconciliation
 

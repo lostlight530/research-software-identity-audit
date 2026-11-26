@@ -6,7 +6,7 @@ This is the former root-level `monitoring/` archive. It preserves dated diagnost
 
 It is a historical archive, not a running monitor and not a prospective observation surface. Do not add new daily acquisitions here. Current Study 1 operational diagnostics belong in the owning `studies/osf-wa5v8/dayN/monitoring/` workspace; Study 2 uses its independent cycle structure under `studies/osf-vshwk/cycles/`. Eligible prospective records remain governed by `observations/raw/` and the frozen OSF contract.
 
-The original dated event folders, machine records, source timestamps and file contents are retained. The consolidation changes repository paths, not source acquisition clocks, record classifications, sample membership, or scientific interpretation. See the [path migration ledger](../migrations/path-migration-2026-11-26.csv) and [current path conventions](../../../docs/record-path-conventions.md).
+The original dated event folders, machine records, source timestamps and file contents are retained. The consolidation changes repository paths, not source acquisition clocks, record classifications, sample membership, or scientific interpretation. See the [path migration ledger](../migrations/path-migration-2026-11-26.csv) and [current path conventions](../../docs/record-path-conventions.md).
 
 ## Records by observation day
 
@@ -16,7 +16,7 @@ The original dated event folders, machine records, source timestamps and file co
 - [2026-10-07 / 01-facility-audit](2026-10-07/01-facility-audit/) — supplied cross-platform audit and mapping reconciliation
 - [2026-10-08 / 01-morning-recheck](2026-10-08/01-morning-recheck/) — morning monitoring plus separately imported retained evidence
 
-For the earlier October 8 migration, see the preserved [historical path mapping](../migrations/monitoring-path-migration-2026-10-08.csv). Current path ownership is defined in [record-path conventions](../../../docs/record-path-conventions.md).
+For the earlier October 8 migration, see the preserved [historical path mapping](../migrations/monitoring-path-migration-2026-10-08.csv). Current path ownership is defined in [record-path conventions](../../docs/record-path-conventions.md).
 
 The date is the record's source-observation date, not necessarily its retrieval or evidence-import date. Ordinals order packages within a date and are **not** prospective-wave identifiers.
 
@@ -27,7 +27,7 @@ The date is the record's source-observation date, not necessarily its retrieval 
 - [2026-10-10 / 01-zenodo-surge-recheck](2026-10-10/01-zenodo-surge-recheck/) — source collector's original point-in-time Zenodo counters and the separately attributed corrective review; this is **not** an eligible prospective observation
 - [2026-10-10 / 02-reconciliation](2026-10-10/02-reconciliation/independent-version-verification.md) — independently reviewed 11 concept families / 32 versions, the [32-row extract](2026-10-10/02-reconciliation/version-counters-independent.csv), and unresolved RS07 aggregate-field disagreement
 
-The 01 original report and the 02 earlier `interpretation.md` have distinct author/provenance identity. The independent reviewer **does not adopt** the earlier suggestion of an identified Zenodo aggregation mechanism; it is a working hypothesis. Across October 9–10 the retained prior capture does not provide a matching 32-version enumeration, so per-version historical interval increments remain **NOT_DERIVABLE**. For the bounded version-counting procedure see [counting rules](../schema/counting-rules.md#supplementary-zenodo-version-family-reconciliation-2026-10-10).
+The 01 original report and the 02 earlier `interpretation.md` have distinct author/provenance identity. The independent reviewer **does not adopt** the earlier suggestion of an identified Zenodo aggregation mechanism; it is a working hypothesis. Across October 9–10 the retained prior capture does not provide a matching 32-version enumeration, so per-version historical interval increments remain **NOT_DERIVABLE**. For the bounded version-counting procedure see [counting rules](../../schema/counting-rules.md#supplementary-zenodo-version-family-reconciliation-2026-10-10).
 
 - [2026-10-10 / 03-openalex-work-aggregation](2026-10-10/03-openalex-work-aggregation/README.md) — independent author-filtered OpenAlex Works listing (**18 distinct DOI/Work records**), including six version-specific WorkflowHub Works; DataCite v4 DOI visibility vs OpenAlex v4 query non-observation, ORCID structural-count gap, and author profile counts 16/30 kept distinct. This is a **diagnostic** aggregation record, not a new RS object or prospective observation.
 
