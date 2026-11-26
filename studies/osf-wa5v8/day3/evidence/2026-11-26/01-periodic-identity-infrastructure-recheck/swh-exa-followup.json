@@ -1,0 +1,54 @@
+{
+  "start": "2026-11-26T14:14:56.614Z",
+  "end": "2026-11-26T14:14:57.999Z",
+  "requested_locators": [
+    {
+      "id": "RS01",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/"
+    },
+    {
+      "id": "RS02",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/zero-entropy-lab/visit/latest/"
+    },
+    {
+      "id": "RS03",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/Axiom-0/visit/latest/"
+    },
+    {
+      "id": "RS04",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/reflective-continuum/visit/latest/"
+    },
+    {
+      "id": "RS05",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agent-foundations/visit/latest/"
+    },
+    {
+      "id": "RS06",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/auto-doc-engine/visit/latest/"
+    },
+    {
+      "id": "RS07",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/epistemic-pipeline/visit/latest/"
+    },
+    {
+      "id": "RS08",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/sci-render-kit/visit/latest/"
+    },
+    {
+      "id": "RS09",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/china-agentic-observatory/visit/latest/"
+    },
+    {
+      "id": "RS10",
+      "url": "https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agentic-frontier-observatory/visit/latest/"
+    }
+  ],
+  "collector": "Exa extractor",
+  "error": null,
+  "provider_origin_http_status": null,
+  "provider_attempt_count": null,
+  "raw_result_type": "object",
+  "returned_result": "{\"text\":\"# /api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/\\n\\n\\n        –\\n        \\n          Software Heritage archive\\nURL: https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/\\n\\n/api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/ – Software Heritage archive \\n\\nGet information about the latest visit of a software origin.\\n\\n#### Request\\n\\n```\\nGET https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/visit/latest/\\n```\\n\\n##### Body\\n\\n```\\n{\\n    \\\"date\\\": \\\"2026-10-24T15:41:45.044000+00:00\\\",\\n    \\\"metadata\\\": {},\\n    \\\"origin\\\": \\\"https://github.com/lostlight530/welcome-to-github\\\",\\n    \\\"origin_url\\\": \\\"https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/welcome-to-github/get/\\\",\\n    \\\"snapshot\\\": \\\"371992368a1988590993dcb2195a1c7397a33290\\\",\\n    \\\"snapshot_url\\\": \\\"https://archive.softwareheritage.org/api/1/snapshot/371992368a1988590993dcb2195a1c7397a33290/\\\",\\n    \\\"status\\\": \\\"full\\\",\\n    \\\"type\\\": \\\"git\\\",\\n    \\\"visit\\\": 4\\n}\\n```\\n\\n| URL | Allowed Methods |\\n| --- | --- |\\n| https://archive.softwareheritage.org/api/1/origin/ (origin_url) /visit/latest/ | GET, HEAD, OPTIONS |\\n\\n#### Arguments\\n\\norigin_url (str)\\n: a software origin URL\\n\\n#### Query parameters\\n\\nrequire_snapshot (boolean)\\n: if true, only return a visit with a snapshot\\n\\nvisit_type (str)\\n: if provided, filter visits by type\\n\\n#### Request h\\n\\n# /api/1/origin/https://github.com/lostlight530/epistemic-pipeline/visit/latest/\\n\\n\\n        –\\n        \\n          Software Heritage archive\\nURL: https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/epistemic-pipeline/visit/latest/\\n\\n/api/1/origin/https://github.com/lostlight530/epistemic-pipeline/visit/latest/ – Software Heritage archive \\n\\nGet information about the latest visit of a software origin.\\n\\n#### Request\\n\\n```\\nGET https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/epistemic-pipeline/visit/latest/\\n```\\n\\n##### Body\\n\\n```\\n{\\n    \\\"date\\\": \\\"2026-10-29T16:48:31.118000+00:00\\\",\\n    \\\"metadata\\\": {},\\n    \\\"origin\\\": \\\"https://github.com/lostlight530/epistemic-pipeline\\\",\\n    \\\"origin_url\\\": \\\"https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/epistemic-pipeline/get/\\\",\\n    \\\"snapshot\\\": \\\"b633fd924cf810082cf935d9a93f48119434bcbc\\\",\\n    \\\"snapshot_url\\\": \\\"https://archive.softwareheritage.org/api/1/snapshot/b633fd924cf810082cf935d9a93f48119434bcbc/\\\",\\n    \\\"status\\\": \\\"full\\\",\\n    \\\"type\\\": \\\"git\\\",\\n    \\\"visit\\\": 4\\n}\\n```\\n\\n| URL | Allowed Methods |\\n| --- | --- |\\n| https://archive.softwareheritage.org/api/1/origin/ (origin_url) /visit/latest/ | GET, HEAD, OPTIONS |\\n\\n#### Arguments\\n\\norigin_url (str)\\n: a software origin URL\\n\\n#### Query parameters\\n\\nrequire_snapshot (boolean)\\n: if true, only return a visit with a snapshot\\n\\nvisit_type (str)\\n: if provided, filter visits by type\\n\\n#### Reque\\n\\n# /api/1/origin/https://github.com/lostlight530/china-agentic-observatory/visit/latest/\\n\\n\\n        –\\n        \\n          Software Heritage archive\\nURL: https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/china-agentic-observatory/visit/latest/\\n\\n/api/1/origin/https://github.com/lostlight530/china-agentic-observatory/visit/latest/ – Software Heritage archive \\n\\nGet information about the latest visit of a software origin.\\n\\n#### Request\\n\\n```\\nGET https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/china-agentic-observatory/visit/latest/\\n```\\n\\n#### Response\\n\\n##### Body\\n\\n```\\n{\\n    \\\"date\\\": \\\"2026-11-04T04:57:04.677000+00:00\\\",\\n    \\\"metadata\\\": {},\\n    \\\"origin\\\": \\\"https://github.com/lostlight530/china-agentic-observatory\\\",\\n    \\\"origin_url\\\": \\\"https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/china-agentic-observatory/get/\\\",\\n    \\\"snapshot\\\": \\\"7b08b51c621283c9c32fbf3ca9a3501669496af8\\\",\\n    \\\"snapshot_url\\\": \\\"https://archive.softwareheritage.org/api/1/snapshot/7b08b51c621283c9c32fbf3ca9a3501669496af8/\\\",\\n    \\\"status\\\": \\\"full\\\",\\n    \\\"type\\\": \\\"git\\\",\\n    \\\"visit\\\": 3\\n}\\n```\\n\\n| URL | Allowed Methods |\\n| --- | --- |\\n| https://archive.softwareheritage.org/api/1/origin/ (origin_url) /visit/latest/ | GET, HEAD, OPTIONS |\\n\\n#### Arguments\\n\\norigin_url (str)\\n: a software origin URL\\n\\n#### Query parameters\\n\\nrequire_snapshot (boolean)\\n: if true, only return a visit with a snapshot\\n\\nvisit_type (str)\\n: if \\n\\nError fetching https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/zero-entropy-lab/visit/latest/: CRAWL_EMPTY_CONTENT\\nError fetching https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/Axiom-0/visit/latest/: CRAWL_EMPTY_CONTENT\\nError fetching https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/reflective-continuum/visit/latest/: CRAWL_EMPTY_CONTENT\\nError fetching https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agent-foundations/visit/latest/: CRAWL_EMPTY_CONTENT\\nError fetching https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/auto-doc-engine/visit/latest/: CRAWL_EMPTY_CONTENT\\nError fetching https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/sci-render-kit/visit/latest/: CRAWL_EMPTY_CONTENT\\nError fetching https://archive.softwareheritage.org/api/1/origin/https://github.com/lostlight530/agentic-frontier-observatory/visit/latest/: CRAWL_EMPTY_CONTENT\"}",
+  "absence_inferred": false,
+  "role": "separate supplementary follow-up after Parallel quota block; no replacement of earlier failure"
+}
