@@ -33,6 +33,7 @@ This is the architecture entrypoint for the shared CONTROL repository. The [docu
 | Check fixed samples and counting rules | [RS01–RS10 manifest](corpus/object-manifest.csv) and [six-layer counting contract](schema/counting-rules.md) |
 | Understand historical versus prospective status | [Initial baseline](baseline/README.md), [operational schedule](schedule/README.md), [prospective raw observation area](observations/raw/README.md) |
 | Review the separate OSF workflow study | [Two-study index](studies/README.md), [Study 2 current contract and cycle ledger](studies/osf-vshwk/README.md) |
+| Distinguish the four OSF scholarly objects | [Two Project / two Study Registration pair crosswalk](studies/osf-object-pairing-crosswalk-2026-11-26.md) |
 | Review wa5v8 daily operational materials | [wa5v8 runtime](studies/osf-wa5v8/README.md) |
 | Review historical diagnostic measurements and retained evidence | [Historical diagnostics index](history/diagnostics/README.md), [evidence inventory](history/evidence/README.md), [provenance discipline](provenance/README.md) |
 | Reproduce or review a contribution | [Tools and advisory checks](tools/README.md), [contributing instructions](CONTRIBUTING.md), [open research method](OPEN_RESEARCH.md) |
@@ -985,4 +986,4 @@ The external rseng PR #498 is **not** a merged upstream record; local GitHub doc
 
 ## Second independently preregistered workflow study (separate contract)
 
-The same shared CONTROL repository also holds [OSF vshwk / WorkflowHub Project 490 study custody](studies/osf-vshwk/README.md) in the separate `studies/osf-vshwk/` namespace. Its approved amended case (2332/2334; eight project-level and sixteen nested lineage-level bundles per complete cycle) is **not part of the fixed RS01–RS10 / six-layer / 60-unit 5b329 design**. All other ten source repositories are read-only research subjects; see the [two-study boundary](studies/README.md).
+The same shared CONTROL repository also holds the separate **Study 2 pair — OSF Project AUHJF / Study Registration VSHWK** — and its [WorkflowHub Project 490 study custody](studies/osf-vshwk/README.md) in the `studies/osf-vshwk/` namespace. See the [2 × 2 OSF object crosswalk](studies/osf-object-pairing-crosswalk-2026-11-26.md). Its approved amended case (2332/2334; eight project-level and sixteen nested lineage-level bundles per complete cycle) is **not part of the fixed RS01–RS10 / six-layer / 60-unit 5b329 design**. All other ten source repositories are read-only research subjects; see the [two-study boundary](studies/README.md).
