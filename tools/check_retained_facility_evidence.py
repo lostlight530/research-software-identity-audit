@@ -4,8 +4,8 @@ from pathlib import Path
 import csv, datetime as dt, hashlib, json, tarfile
 
 ROOT=Path(__file__).resolve().parents[1]
-M=ROOT/'monitoring/2026-10-09/01-facility-recheck'
-E=ROOT/'evidence/2026-10-09/01-facility-recheck'
+M=ROOT/'history/diagnostics/2026-10-09/01-facility-recheck'
+E=ROOT/'history/evidence/2026-10-09/01-facility-recheck'
 
 def verify():
     checks=[]

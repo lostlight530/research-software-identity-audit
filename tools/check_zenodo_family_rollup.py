@@ -11,7 +11,7 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT = ROOT / "monitoring/2026-10-24/02-morning-infrastructure-and-zenodo-family-rollup"
+DEFAULT = ROOT / "history/diagnostics/2026-10-24/02-morning-infrastructure-and-zenodo-family-rollup"
 
 
 def read_csv(path):

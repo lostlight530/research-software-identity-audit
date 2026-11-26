@@ -1,7 +1,7 @@
 """Offline source-aware verification for the October 15 morning package; no network."""
 import collections,csv,datetime as dt,hashlib,json,sys
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1];M=ROOT/'monitoring/2026-10-15/01-morning-facility-recheck';E=ROOT/'evidence/2026-10-15/01-morning-facility-recheck'
+ROOT=Path(__file__).resolve().parents[1];M=ROOT/'history/diagnostics/2026-10-15/01-morning-facility-recheck';E=ROOT/'history/evidence/2026-10-15/01-morning-facility-recheck'
 def verify():
  c=[]
  def check(n,v):c.append({'check':n,'passed':bool(v)})
