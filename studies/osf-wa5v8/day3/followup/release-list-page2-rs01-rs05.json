@@ -1,0 +1,47 @@
+[
+  {
+    "object_id": "RS01",
+    "url": "https://api.github.com/repos/lostlight530/welcome-to-github/releases?per_page=100&page=2",
+    "start": "2026-11-26T15:11:11.127Z",
+    "end": "2026-11-26T15:11:11.920Z",
+    "source": "GitHub connector projection",
+    "returned_count": 0,
+    "releases": []
+  },
+  {
+    "object_id": "RS02",
+    "url": "https://api.github.com/repos/lostlight530/zero-entropy-lab/releases?per_page=100&page=2",
+    "start": "2026-11-26T15:11:11.127Z",
+    "end": "2026-11-26T15:11:11.920Z",
+    "source": "GitHub connector projection",
+    "returned_count": 0,
+    "releases": []
+  },
+  {
+    "object_id": "RS03",
+    "url": "https://api.github.com/repos/lostlight530/Axiom-0/releases?per_page=100&page=2",
+    "start": "2026-11-26T15:11:11.127Z",
+    "end": "2026-11-26T15:11:11.920Z",
+    "source": "GitHub connector projection",
+    "returned_count": 0,
+    "releases": []
+  },
+  {
+    "object_id": "RS04",
+    "url": "https://api.github.com/repos/lostlight530/reflective-continuum/releases?per_page=100&page=2",
+    "start": "2026-11-26T15:11:11.127Z",
+    "end": "2026-11-26T15:11:11.920Z",
+    "source": "GitHub connector projection",
+    "returned_count": 0,
+    "releases": []
+  },
+  {
+    "object_id": "RS05",
+    "url": "https://api.github.com/repos/lostlight530/agent-foundations/releases?per_page=100&page=2",
+    "start": "2026-11-26T15:11:11.127Z",
+    "end": "2026-11-26T15:11:11.920Z",
+    "source": "GitHub connector projection",
+    "returned_count": 0,
+    "releases": []
+  }
+]
