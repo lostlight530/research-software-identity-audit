@@ -52,3 +52,7 @@ The `BLOCKED_ORIGINAL_RECORDS_NOT_AVAILABLE` disposition remains for the Day 1 r
 ## 2026-11-26 precollection gate and capture custody gap
 
 [Startup gate review](../../startup-gate-review-2026-11-26.json) records the fixed-ten public release candidate checks and two lineage source changes without adding Study 1 prospective cells. [Capture attempt 01](../capture-gaps/2026-11-26-pst-01/README.md) preserves an orchestration-limit custody gap; it is not a validated cycle and its attempted endpoint count is unknown. [Independent cycle 02](cycle-2026-11-26-pst-02/README.md) has its own intent and newly recorded attempts (UTC 08:10:03.138–08:10:59.971), with dated extractor representations explicitly distinguished from contemporaneous live origin evidence. It does not replace attempt 01. No owner task-day number is assigned.
+
+## Owner-declared Day 3 independent review
+
+[2026-11-26 Pacific cycle 03](cycle-2026-11-26-pst-03/README.md) is separately initiated by documented full-scope review under manifest v1. Its 22 primary endpoint attempts are accounted for, with 2 complete expected-field responses, 16 partial and 4 errors. It does not relabel, replace or backfill either earlier same-date attempt. See [Day 3](../day3/README.md).
