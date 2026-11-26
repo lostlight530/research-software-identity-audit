@@ -328,6 +328,8 @@ osf_pair_register_2026_11_26:
     publication_year_2026: 4
     creator_xuanyi_jiang: 4
     repository_open_science_framework: 4
+    license_cc_by_4_0: 4
+    repository_type_repository: 4
     denominator_scope: "four Works in the supplied filtered query only; not a census of all OSF objects or all author works"
   pairs:
     - pair_id: "OSF_PAIR_01"

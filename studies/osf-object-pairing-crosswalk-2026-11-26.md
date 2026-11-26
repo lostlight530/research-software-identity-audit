@@ -23,7 +23,7 @@ The owner supplied a text transcription of a DataCite Commons Works search filte
 
 [DataCite Commons Works query](https://commons.datacite.org/doi.org/?query=creators_and_contributors.nameIdentifiers.nameIdentifier%3A%280009-0001-3617-0832+OR+%22https%3A%2F%2Forcid.org%2F0009-0001-3617-0832%22%29&registration-agency=datacite&client-id=cos.osf)
 
-The supplied listing reports four matching Works, with resource-type facets `Project = 2` and `Study Registration = 2`. The other displayed facets also report four results (creator Xuanyi Jiang, publication year 2026, DataCite, and Open Science Framework). These are counts inside this filtered Works result, not a census of all OSF objects or all works by the researcher.
+The supplied listing reports four matching Works, with resource-type facets `Project = 2` and `Study Registration = 2`. The other displayed facets also report four results: creator Xuanyi Jiang, publication year 2026, CC-BY-4.0 license, DataCite registration agency, Open Science Framework repository, and Repository repository type. These are counts inside this filtered Works result, not a census of all OSF objects or all works by the researcher.
 
 **Source fidelity:** received 2026-11-26; original UI retrieval time, screenshot/HTML, and provider-origin API bytes were not supplied. This is an owner-supplied rendered-text transcription, not an independently recaptured DataCite response. No more precise retrieval clock is inferred.
 
