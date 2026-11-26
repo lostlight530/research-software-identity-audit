@@ -12,9 +12,11 @@ This repository participates in a wider scholarly-object graph, but each surface
 - **Previous evidence-reconciliation release DOI (2026-10-10):** https://doi.org/10.5281/zenodo.23284570
 - **Previous initial-runtime release DOI:** https://doi.org/10.5281/zenodo.23176748
 - **Zenodo historical beta release DOI:** https://doi.org/10.5281/zenodo.23166491
-- **OSF Registration:** https://osf.io/5b329/overview
-- **OSF Registration DOI:** https://doi.org/10.17605/OSF.IO/5B329
-- **Associated OSF Project:** https://osf.io/wa5v8
+- **Study 1 OSF Project:** https://osf.io/wa5v8/ · Project DOI https://doi.org/10.17605/OSF.IO/WA5V8
+- **Study 1 OSF Registration:** https://osf.io/5b329/overview · Registration DOI https://doi.org/10.17605/OSF.IO/5B329
+- **Study 2 OSF Project:** https://osf.io/auhjf/ · Project DOI https://doi.org/10.17605/OSF.IO/AUHJF
+- **Study 2 OSF Registration:** https://osf.io/vshwk/overview · Registration DOI https://doi.org/10.17605/OSF.IO/VSHWK
+- **Two-pair crosswalk:** [OSF Project–Registration mapping and DataCite Commons reconciliation](../studies/osf-object-pairing-crosswalk-2026-11-26.md)
 - **Author ORCID:** https://orcid.org/0009-0001-3617-0832
 
 Machine-readable identifier roles are recorded in `identifiers.yaml`. Human citation guidance is in `CITATION.md`.
@@ -41,13 +43,13 @@ Future releases must preserve this concept/version distinction.
 
 ## OSF role
 
-The OSF registration DOI identifies the frozen preregistered research contract.
+There are **two independent Project–Registration pairs**: wa5v8 / 5b329 for Study 1, and AUHJF / VSHWK for Study 2. Each Project DOI identifies a project-level metadata/materials surface; each Registration DOI identifies the corresponding preregistered study plan and its revision history. The Project and Registration DOIs are not interchangeable.
 
-The associated OSF project is a separate project/materials surface and is distinct from the registration. As of this October 2026 documentation review, do not infer that project documents or later GitHub changes retroactively alter the preregistered plan.
+Project descriptions and DataCite Work descriptions are descriptive metadata, not protocol amendments. For Study 2, the supplied DataCite Commons AUHJF Work description differs from the verbatim OSF Project Description snapshot retained in `studies/osf-vshwk/public-project-description.md`; the field-level relationship and synchronization clock are unknown. The approved VSHWK Schema Response remains protocol authority. See the [dated pair crosswalk](../studies/osf-object-pairing-crosswalk-2026-11-26.md).
 
 **External platform lifecycle notice (not an OSF contract update):** [OSF's Projects-transition guidance](https://help.osf.io/article/727-osf-projects-transition) announces that existing OSF Projects will become read-only on **2027-02-19**; its [registration-specific guidance](https://help.osf.io/article/770-registrations) explicitly states that registrations/preregistrations continue unaffected. This is future provider policy, **not** a witnessed change to this project's October 2026 status. The GitHub research runtime and Zenodo archives remain separate operating and citation surfaces. Verify provider policy again before future workflow changes.
 
-Neither OSF identifier is interchangeable with a Zenodo software DOI.
+Neither OSF Project DOI nor OSF Registration DOI is interchangeable with a Zenodo software DOI.
 
 ## Scholarly-object boundary
 

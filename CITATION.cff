@@ -17,15 +17,19 @@ identifiers:
     description: "Zenodo concept DOI for all versions of this repository"
   - type: doi
     value: "10.17605/OSF.IO/5B329"
-    description: "DOI of the frozen OSF preregistration governing the study"
+    description: "DOI of the frozen OSF Study 1 preregistration (Project wa5v8 / Registration 5b329)"
+  - type: doi
+    value: "10.17605/OSF.IO/VSHWK"
+    description: "DOI of the frozen OSF Study 2 preregistration (Project AUHJF / Registration VSHWK)"
 date-released: 2026-10-31
 license: MIT
 abstract: >-
-  Operational, evidence, provenance, and reproducibility infrastructure for the
-  preregistered longitudinal audit of research software identity propagation
-  across open scholarly infrastructures. This repository is research
-  infrastructure and is not an eleventh object in the fixed ten-object study
-  corpus.
+  Operational, evidence, provenance, and reproducibility infrastructure for two
+  independent OSF-registered longitudinal observational studies: research software
+  identity propagation and open research workflow identity. The corresponding
+  Project and Study Registration objects remain distinct and are indexed separately.
+  This repository is research infrastructure and is not an eleventh object in the
+  fixed ten-object Study 1 corpus.
 keywords:
   - research software
   - scholarly infrastructure

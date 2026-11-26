@@ -305,3 +305,63 @@ postpublication_release_reconciliation_2026_10_18:
   control_repository_is_rs11: false
   prospective_dataset_member: false
   osf_registration_modified: false
+
+# Append-only 2026-11-26 OSF Project / Study Registration pair reconciliation.
+# This does not overwrite the 2026-10-07 osf block or any earlier source snapshot.
+osf_pair_register_2026_11_26:
+  record_class: "owner_supplied_datacite_commons_works_transcription_and_identity_crosswalk"
+  received_date: "2026-11-26"
+  source:
+    interface: "DataCite Commons Works"
+    query_url: "https://commons.datacite.org/doi.org/?query=creators_and_contributors.nameIdentifiers.nameIdentifier%3A%280009-0001-3617-0832+OR+%22https%3A%2F%2Forcid.org%2F0009-0001-3617-0832%22%29&registration-agency=datacite&client-id=cos.osf"
+    orcid: "0009-0001-3617-0832"
+    registration_agency: "DataCite"
+    client_id: "cos.osf"
+    retrieval_timestamp: null
+    original_screenshot_html_or_provider_api_bytes_retained: false
+    evidence_fidelity: "owner-supplied rendered-text transcription; not independently recaptured"
+  result:
+    works_returned: 4
+    resource_type_facets:
+      Project: 2
+      Study_Registration: 2
+    publication_year_2026: 4
+    creator_xuanyi_jiang: 4
+    repository_open_science_framework: 4
+    denominator_scope: "four Works in the supplied filtered query only; not a census of all OSF objects or all author works"
+  pairs:
+    - pair_id: "OSF_PAIR_01"
+      study: "Research software identity propagation"
+      project:
+        osf_id: "wa5v8"
+        doi: "10.17605/OSF.IO/WA5V8"
+        datacite_resource_type: "Project"
+        datacite_doi_registered_date: "2026-10-31"
+      study_registration:
+        osf_id: "5b329"
+        doi: "10.17605/OSF.IO/5B329"
+        datacite_resource_type: "Study Registration"
+        datacite_doi_registered_date: "2026-10-05"
+      current_approved_schema_response: "6afdcc3a7fb0a89b0e3dd7e4"
+      pairing_basis: "Study 1 frozen contract explicitly names wa5v8 as the associated OSF Project for registration 5b329"
+    - pair_id: "OSF_PAIR_02"
+      study: "Open research workflow identity"
+      project:
+        osf_id: "auhjf"
+        doi: "10.17605/OSF.IO/AUHJF"
+        datacite_resource_type: "Project"
+        datacite_doi_registered_date: "2026-11-12"
+      study_registration:
+        osf_id: "vshwk"
+        doi: "10.17605/OSF.IO/VSHWK"
+        datacite_resource_type: "Study Registration"
+        datacite_doi_registered_date: "2026-11-12"
+      current_approved_schema_response: "6afdcc7108de91a0f0cefd6c"
+      pairing_basis: "owner-confirmed current Study 2 Project/Registration mapping; matching DataCite Work title and distinct resource types are corroborative, not a standalone relation assertion"
+  auhjf_description_reconciliation:
+    preserved_osf_project_description: "studies/osf-vshwk/public-project-description.md"
+    datacite_commons_work_description: "owner-supplied transcription names Project 490 and lineages 2332 v9 / 2334 v9, while retaining three-wave wording"
+    representations_are_identical_source_field: "UNKNOWN"
+    synchronization_or_edit_timestamp: "UNKNOWN"
+    overwrite_preserved_osf_project_description: false
+    protocol_authority: "approved VSHWK Schema Response 6afdcc7108de91a0f0cefd6c"

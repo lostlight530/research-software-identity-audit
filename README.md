@@ -4,10 +4,10 @@
 
 > Shared research-control, evidence, provenance, and reproducibility infrastructure for two independent OSF-registered prospective longitudinal observational studies.
 
-This repository is the shared operational, evidence, provenance, and reproducibility workspace for two separately governed OSF studies. Their registrations, research objects, observation contracts, evidence streams, and denominators remain independent.
+This repository is the shared operational, evidence, provenance, and reproducibility workspace for two separately governed OSF studies. Each study has one public OSF Project and one separate Study Registration: **two Project records paired with two Study Registration records (2:2)**. Their registrations, research objects, observation contracts, evidence streams, and denominators remain independent. See the [dated OSF Project–Registration pair crosswalk](studies/osf-object-pairing-crosswalk-2026-11-26.md).
 
-- **Study 1 — Research software identity propagation:** OSF registration [5b329](https://osf.io/5b329/), with the fixed corpus RS01–RS10 and its six-layer / 60 object-layer-unit contract
-- **Study 2 — Open research workflow identity:** OSF public project [AUHJF](https://osf.io/auhjf/) and separate registration [VSHWK](https://osf.io/vshwk/), with the amended WorkflowHub Project 490 case and paired lineages 2332 v9 / 2334 v9
+- **Study 1 — Research software identity propagation:** public Project [wa5v8](https://osf.io/wa5v8/) ([Project DOI](https://doi.org/10.17605/OSF.IO/WA5V8)) paired with Study Registration [5b329](https://osf.io/5b329/) ([Registration DOI](https://doi.org/10.17605/OSF.IO/5B329)); fixed corpus RS01–RS10 and six-layer / 60 object-layer-unit contract
+- **Study 2 — Open research workflow identity:** public Project [AUHJF](https://osf.io/auhjf/) ([Project DOI](https://doi.org/10.17605/OSF.IO/AUHJF)) paired with Study Registration [VSHWK](https://osf.io/vshwk/) ([Registration DOI](https://doi.org/10.17605/OSF.IO/VSHWK)); amended WorkflowHub Project 490 case and paired lineages 2332 v9 / 2334 v9
 
 The studies share this CONTROL repository only as a governance and evidence-custody location. Shared repository ownership does not merge their scientific objects, sample frames, observation records, or denominators.
 
@@ -21,7 +21,7 @@ This is the architecture entrypoint for the shared CONTROL repository. The [docu
 | --- | --- | --- |
 | **Shared CONTROL infrastructure** | [Directory and ownership map](docs/README.md#2-directory-map-where-to-read-and-where-a-future-contribution-belongs) · [tools](tools/README.md) · [tests](tests/) | Shared governance, validation and evidence custody do not merge either study's scientific objects or denominators |
 | **Study 1 · 5b329 / wa5v8** | [Study entry](studies/osf-wa5v8/README.md) · [Day 0](studies/osf-wa5v8/day0/README.md) · [Day 1](studies/osf-wa5v8/day1/README.md) · [Day 2](studies/osf-wa5v8/day2/README.md) | Its canonical contract, fixed corpus, schema and schedule remain at established root paths; the frozen baseline remains at root, while legacy diagnostics and evidence are consolidated under `history/` |
-| **Study 2 · VSHWK** | [Study entry](studies/osf-vshwk/README.md) · [Day 0](studies/osf-vshwk/day0/README.md) · [Day 1](studies/osf-vshwk/day1/README.md) · [Day 2](studies/osf-vshwk/day2/README.md) | Project 490 / paired lineages own a separate contract, cycle ledger and daily indexes under `studies/osf-vshwk/` |
+| **Study 2 · AUHJF / VSHWK** | [Study entry](studies/osf-vshwk/README.md) · [Day 0](studies/osf-vshwk/day0/README.md) · [Day 1](studies/osf-vshwk/day1/README.md) · [Day 2](studies/osf-vshwk/day2/README.md) | Project 490 / paired lineages own a separate contract, cycle ledger and daily indexes under `studies/osf-vshwk/` |
 
 **Physical ownership rule:** Study 1's frozen `baseline/` remains at its canonical root path. The former root-level diagnostic and evidence archives are consolidated under `history/diagnostics/` and `history/evidence/`; historical repository reviews and pinned inventories live under `history/documentation/` and `history/repository-inventory/`. Current operational work is indexed under `studies/`, while `tools/`, `tests/` and `.github/` remain shared CONTROL engineering. `history/` is not an active acquisition surface.
 
@@ -43,21 +43,21 @@ This is the architecture entrypoint for the shared CONTROL repository. The [docu
 
 ---
 
-## Current OSF authority — 2026-11-24
+## Current OSF authority — 2026-11-26
 
 Both studies have formal OSF preregistrations and approved current schema-response revisions. “Prospective” describes their registered research designs; it does not mean every future observation cycle has already occurred or every external provider must respond successfully.
 
-| Study | OSF registration | Current approved schema response | Current registered frame |
-| --- | --- | --- | --- |
-| **Study 1 — RSIA identity propagation** | [5b329](https://osf.io/5b329/) | [6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/) · submitted 2026-11-18 · approved | RS01–RS10; six analytical layers; seven operational platforms; 60 object-layer units per scheduled timepoint; RSIA is supporting research-control/history/evidence/provenance infrastructure, not a sample object |
-| **Study 2 — Open research workflow** | [VSHWK](https://osf.io/vshwk/) | [6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/) · submitted 2026-11-18 · approved | One WorkflowHub Project 490 case; paired lineages 2332 v9 and 2334 v9; eight layers; event- or documented-review-initiated cycles without a fixed calendar interval, wave count, or end date |
+| Study | OSF public Project | OSF Study Registration | Current approved schema response | Current registered frame |
+| --- | --- | --- | --- | --- |
+| **Study 1 — RSIA identity propagation** | [wa5v8](https://osf.io/wa5v8/) · [Project DOI](https://doi.org/10.17605/OSF.IO/WA5V8) | [5b329](https://osf.io/5b329/) · [Registration DOI](https://doi.org/10.17605/OSF.IO/5B329) | [6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/) · submitted 2026-11-18 · approved | RS01–RS10; six analytical layers; seven operational platforms; 60 object-layer units per scheduled timepoint; RSIA is supporting research-control/history/evidence/provenance infrastructure, not a sample object |
+| **Study 2 — Open research workflow** | [AUHJF](https://osf.io/auhjf/) · [Project DOI](https://doi.org/10.17605/OSF.IO/AUHJF) | [VSHWK](https://osf.io/vshwk/) · [Registration DOI](https://doi.org/10.17605/OSF.IO/VSHWK) | [6afdcc7108de91a0f0cefd6c](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefd6c/) · submitted 2026-11-18 · approved | One WorkflowHub Project 490 case; paired lineages 2332 v9 and 2334 v9; eight layers; event- or documented-review-initiated cycles without a fixed calendar interval, wave count, or end date |
 
 ### Current authority details
 
 - **5b329:** the 2026-11-18 approved response updates registered fields 344-47 and 344-86. It explicitly leaves the five research questions, fixed corpus, six layers, seven-platform scope, 60-unit denominator, observation schedule, variables, analyses, missing-data handling, and non-causal interpretation unchanged. See the [current approved-revision crosswalk](studies/osf-wa5v8/day1/contract/osf-approved-revision-2026-11-18.md).
 - **VSHWK:** the 2026-11-18 approved response makes Project 490 with lineages 2332 v9 / 2334 v9 the current case and replaces the former fixed three-wave design with repeated event- or documented-review-initiated cycles. WorkflowHub 2347 v2 remains historical context.
 - **VSHWK registration-page metadata:** OSF API date_modified is 2026-11-24T12:00:17.626133Z (2026-11-24 20:00:17.626 Asia/Shanghai). Its Description names Project 490 and both current lineages but still contains the phrase “three prospective observation waves”; the approved Schema Response, not that descriptive metadata sentence, governs the protocol.
-- **AUHJF:** this separate public OSF project is an entry point only and holds no data/files. Its project-level Description retains the 2347 v2 / three-wave wording and is not the VSHWK protocol authority.
+- **AUHJF Project metadata:** the owner-confirmed OSF Project Description snapshot remains preserved verbatim at [public-project-description.md](studies/osf-vshwk/public-project-description.md) and describes the earlier 2347 v2 / three-wave framing. The supplied 2026-11-26 DataCite Commons Work listing shows a separate AUHJF DOI-record description naming Project 490 and lineages 2332/2334 while also retaining the three-wave phrase. These are distinct metadata representations with no captured source-field synchronization clock; neither supersedes the approved VSHWK Schema Response.
 
 **Status rule:** both formal prospective research contracts are in force. Diagnostic monitoring, pre-eligibility checks, and eligible prospective observation records remain distinct evidence classes. Study 1 must not be described as “diagnostic-only” merely because a particular record is classified as monitoring; monitoring records must also not be silently promoted into its prospective dataset.
 
@@ -73,7 +73,7 @@ Both studies have formal OSF preregistrations and approved current schema-respon
 
 ## Research registration
 
-This section documents **Study 1 (OSF 5b329) only**. Study 2 has a separate registration and protocol namespace; see the [two-study index](studies/README.md) and [VSHWK current contract](studies/osf-vshwk/README.md).
+This section documents **Study 1 (Project wa5v8 / Registration 5b329) only**. Study 2 has its own Project AUHJF / Registration VSHWK pair and separate protocol namespace; see the [two-study index](studies/README.md), [OSF pair crosswalk](studies/osf-object-pairing-crosswalk-2026-11-26.md), and [VSHWK current contract](studies/osf-vshwk/README.md).
 
 **OSF Preregistration**
 

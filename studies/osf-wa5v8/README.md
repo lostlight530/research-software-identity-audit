@@ -1,6 +1,8 @@
-# OSF wa5v8 — research software identity propagation
+# Study 1 — OSF Project wa5v8 / Study Registration 5b329 — research software identity propagation
 
-[OSF Project wa5v8](https://osf.io/wa5v8/) · [Registration 5b329](https://osf.io/5b329/)
+[OSF Project wa5v8](https://osf.io/wa5v8/) · [Project DOI 10.17605/OSF.IO/WA5V8](https://doi.org/10.17605/OSF.IO/WA5V8) · [Study Registration 5b329](https://osf.io/5b329/) · [Registration DOI 10.17605/OSF.IO/5B329](https://doi.org/10.17605/OSF.IO/5B329)
+
+This is **Pair 1** in the [2026-11-26 OSF Project–Registration crosswalk](../osf-object-pairing-crosswalk-2026-11-26.md). The Project DOI and Registration DOI identify distinct OSF/DataCite records; the registration is the frozen protocol object.
 
 Daily operational material belongs here. Calendar: America/Los_Angeles, Day 0 = 2026-11-23, Day 1 = 2026-11-24, Day 2 = 2026-11-25. At the earlier pre-acquisition review the owner confirmed no new Day 2 acquisition **yet**; subsequent independent Day 2 source reads now exist at [Day 2](day2/README.md), with their own timestamps and evidence. This is a later operational addition, not an alteration of the earlier review. [Day 0](day0/README.md), [Day 1](day1/README.md), and [Day 2](day2/README.md) are workspace folders, not registrations or scientific timepoints. Later days use the same scoped monitoring/evidence layout. The Day 1 contract alignment is archived in its day folder. Existing live contract entrypoints, fixed corpus, baseline, earlier historical governance and conditional prospective data retain their established root paths.
 

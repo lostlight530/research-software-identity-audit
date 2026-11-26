@@ -2,11 +2,22 @@
 
 This research project has multiple linked scholarly identifiers with **different referents**. Cite the identifier for the actual object used; do not interchange the frozen study, evolving software family, and exact archived release.
 
-## Frozen research design — OSF preregistration
+## Frozen research designs — OSF Study Registrations
 
-**Jiang, X. (2026). _Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures_. OSF. https://doi.org/10.17605/OSF.IO/5B329**
+**Study 1 — Research software identity propagation**  
+Jiang, X. (2026). _Longitudinal Audit of Research Software Identity Propagation Across Open Scholarly Infrastructures_. OSF Study Registration. https://doi.org/10.17605/OSF.IO/5B329
 
-This refers to the **preregistered study contract**, not the GitHub software runtime. The OSF registration remains frozen.
+**Study 2 — Open research workflow identity**  
+Jiang, X. (2026). _Longitudinal Audit of an Open Research Workflow Across Scholarly Infrastructures_. OSF Study Registration. https://doi.org/10.17605/OSF.IO/VSHWK
+
+Each Registration DOI identifies its own **preregistered study contract**, not the GitHub software runtime or its associated Project DOI. The current approved protocol authorities remain the respective OSF Schema Responses. The two Project–Registration pairs are indexed in the [2026-11-26 crosswalk](../studies/osf-object-pairing-crosswalk-2026-11-26.md).
+
+## Associated OSF Project records — distinct from Study Registrations
+
+- **Study 1 Project:** Research Software Identity Propagation project, OSF wa5v8. https://doi.org/10.17605/OSF.IO/WA5V8
+- **Study 2 Project:** Open Research Workflow project, OSF AUHJF. https://doi.org/10.17605/OSF.IO/AUHJF
+
+Use these Project DOIs when citing the project-level records; do not substitute them for the Registration DOIs when citing the frozen study plans.
 
 ## Research-control software — concept DOI
 
@@ -36,7 +47,7 @@ The live `main` may contain work merged after the latest archival release; such 
 
 ## Boundary rule
 
-OSF preregistration DOI, Zenodo concept DOI, Zenodo release DOI, GitHub repository URL, OSF project URL, ORCID and downstream registry identifiers refer to non-equivalent objects. No release here adds an eleventh object to the fixed RS01–RS10 sample or proves scientific validation, reuse or a prospective timepoint.
+OSF Project DOI, OSF Study Registration DOI, Zenodo concept DOI, Zenodo release DOI, GitHub repository URL, ORCID and downstream registry identifiers refer to non-equivalent objects. No release here adds an eleventh object to the fixed RS01–RS10 sample or proves scientific validation, reuse or a prospective timepoint.
 
 ## Later verified control-software release — October 18, 2026
 

@@ -2,7 +2,7 @@
   "@context": "https://w3id.org/codemeta/3.1",
   "@type": "SoftwareSourceCode",
   "name": "Research Software Identity Audit",
-  "description": "Operational, evidence, provenance, and reproducibility infrastructure for the preregistered longitudinal audit of research software identity propagation across open scholarly infrastructures. This repository is not an eleventh object in the fixed ten-object study corpus.",
+  "description": "Operational, evidence, provenance, and reproducibility infrastructure for two independent OSF-registered longitudinal observational studies: research software identity propagation and open research workflow identity. Their Project and Study Registration objects remain distinct. This repository is not an eleventh object in the fixed ten-object Study 1 corpus.",
   "codeRepository": "https://github.com/lostlight530/research-software-identity-audit",
   "url": "https://github.com/lostlight530/research-software-identity-audit",
   "identifier": "https://doi.org/10.5281/zenodo.23166490",

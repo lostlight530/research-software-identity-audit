@@ -1,11 +1,13 @@
-# Study 2 contract — OSF VSHWK
+# Study 2 contract — OSF Project AUHJF / Study Registration VSHWK
+
+**OSF object pair:** Project [AUHJF](https://osf.io/auhjf/) · Project DOI [10.17605/OSF.IO/AUHJF](https://doi.org/10.17605/OSF.IO/AUHJF) ↔ Study Registration [VSHWK](https://osf.io/vshwk/) · Registration DOI [10.17605/OSF.IO/VSHWK](https://doi.org/10.17605/OSF.IO/VSHWK). See the [2026-11-26 pair and DataCite metadata crosswalk](../../osf-object-pairing-crosswalk-2026-11-26.md). These are two distinct OSF/DataCite records for one study; the registration's approved Schema Response remains protocol authority.
 
 ## Authority precedence
 
 1. **Scientific protocol authority:** OSF VSHWK approved amendment Schema Response [6afdcc7108de91a0f0cefdc6](https://api.osf.io/v2/schema_responses/6afdcc7108de91a0f0cefdc6/), submitted 2026-11-18T18:58:20.050020Z, `reviews_state=approved`
 2. **Historical registration context:** the original VSHWK response `6af56f49221ba1b47e9f7490` preserves the initial WorkflowHub 2347 v2 framing and earlier three-wave wording; that original framing is historical, not the current case authority
 3. **Current VSHWK registration-page metadata:** the owner-supplied OSF Metadata snapshot displays `Date Updated: Nov 24, 2026, 8:00 PM`. The public OSF API reports `date_modified=2026-11-24T12:00:17.626133Z`, equivalent to `2026-11-24 20:00:17.626 Asia/Shanghai`. The current Description names WorkflowHub Project 490, Lineage A (2332 v9), Lineage B (2334 v9), and 2347 v2 as historical context, but it still contains the sentence about "three prospective observation waves". This is descriptive registration-page metadata, not a schema response or amendment; the approved response above governs operational cycle initiation and timing
-4. **Public project description:** AUHJF's separate owner-confirmed Description is preserved verbatim at [public-project-description.md](../public-project-description.md). It is project-level text, not a VSHWK schema response or amendment; its 2347 v2 / three-wave wording is not the current VSHWK protocol
+4. **Public project description:** AUHJF's owner-confirmed OSF Project Description snapshot is preserved verbatim at [public-project-description.md](../public-project-description.md). It is project-level text, not a VSHWK schema response or amendment; its 2347 v2 / three-wave wording is not the current VSHWK protocol. The supplied DataCite Commons AUHJF Work description is a separate metadata representation naming Project 490 / lineages 2332 v9 and 2334 v9 while retaining the three-wave phrase; its source-field relationship and synchronization time are unknown. Preserve both representations separately.
 5. **Operational implementation:** this directory, the endpoint manifest, cycle records, and validators implement the approved protocol; they do not amend OSF
 
 The current approved case is WorkflowHub Project 490 with paired embedded lineages 2332 v9 (welcome-to-github) and 2334 v9 (zero-entropy-lab). WorkflowHub 2347 v2 remains historical context only.

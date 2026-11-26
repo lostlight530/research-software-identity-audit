@@ -31,7 +31,7 @@ Canonical research object:
 - **Registered:** 2026-10-05
 - **Registration license:** CC BY 4.0
 
-This file maps the repository runtime to the frozen OSF registration. It does not replace or silently amend the registered object.
+This file maps the repository runtime to the frozen OSF Registration 5b329 in **Pair 1 (Project wa5v8 / Registration 5b329)**. The Project DOI and Registration DOI are distinct scholarly objects. This is the Study 1 contract mapping only; the separate Study 2 pair is Project AUHJF / Registration VSHWK and has its own protocol namespace. See the [2026-11-26 OSF Project–Registration crosswalk](../studies/osf-object-pairing-crosswalk-2026-11-26.md). This file does not replace or silently amend either registered object.
 
 ## Current approved OSF revision — 2026-11-18
 
