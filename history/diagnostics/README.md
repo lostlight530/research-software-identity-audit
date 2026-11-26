@@ -2,7 +2,7 @@
 
 <badge>ARCHIVED · NO NEW ACQUISITIONS</badge>
 
-This is the former root-level `monitoring/` archive. It preserves dated diagnostic, pre-eligibility, reconciliation and retrospective records captured from **2026-10-06 through 2026-11-22** (43 date-labelled event directories).
+This is the former root-level `monitoring/` archive. It preserves dated diagnostic, pre-eligibility, reconciliation and retrospective records captured from **2026-10-06 through 2026-11-22** (85 event directories across 43 date folders).
 
 It is a historical archive, not a running monitor and not a prospective observation surface. Do not add new daily acquisitions here. Current Study 1 operational diagnostics belong in the owning `studies/osf-wa5v8/dayN/monitoring/` workspace; Study 2 uses its independent cycle structure under `studies/osf-vshwk/cycles/`. Eligible prospective records remain governed by `observations/raw/` and the frozen OSF contract.
 

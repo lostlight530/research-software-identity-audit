@@ -2,6 +2,15 @@
 import collections,csv,datetime as dt,hashlib,json,re,sys,urllib.parse
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
+def repo_path(value):
+ path=Path(value)
+ if path.is_absolute():return path
+ candidate=ROOT/path
+ if candidate.is_file():return candidate
+ raw=path.as_posix()
+ if raw.startswith('monitoring/'):return ROOT/'history/diagnostics'/raw[len('monitoring/'):]
+ if raw.startswith('evidence/'):return ROOT/'history/evidence'/raw[len('evidence/'):]
+ return candidate
 def verify():
  checks=[]
  def check(name,value):checks.append({'check':name,'passed':bool(value)})
@@ -11,9 +20,9 @@ def verify():
   e=ROOT/'history/evidence/2026-10-14'/slug;m=ROOT/'history/diagnostics/2026-10-14'/slug;s=json.loads((m/'capture-summary.json').read_text(encoding='utf-8'))
   check(slug+' diagnostic only',s['record_class']=='diagnostic_monitoring' and s['prospective_dataset_member'] is False)
   manifest=json.loads((e/'artifact-manifest.json').read_text(encoding='utf-8'))['artifacts']
-  check(slug+' exact artifact membership',{x['path'] for x in manifest}=={p.relative_to(ROOT).as_posix() for base in (e,m) for p in base.rglob('*') if p.is_file() and p.name not in ('artifact-manifest.json','offline-verification.json')})
+  check(slug+' exact artifact membership',{repo_path(x['path']).relative_to(ROOT).as_posix() for x in manifest}=={p.relative_to(ROOT).as_posix() for base in (e,m) for p in base.rglob('*') if p.is_file() and p.name not in ('artifact-manifest.json','offline-verification.json')})
   for a in manifest:
-   p=ROOT/a['path'];b=p.read_bytes();check('hash '+a['path'],len(b)==a['bytes'] and hashlib.sha256(b).hexdigest()==a['sha256'])
+   p=repo_path(a['path']);b=p.read_bytes();check('hash '+a['path'],len(b)==a['bytes'] and hashlib.sha256(b).hexdigest()==a['sha256'])
   if slug=='05-noon-user-pages':
    source=json.loads((e/'user-page-transcription.json').read_text(encoding='utf-8'));z=rows(m/'zenodo-page-statistics.csv');w=rows(m/'workflowhub-dashboard-statistics.csv')
    check('user source timestamp remains unknown',source['source_kind']=='user_supplied_page_text' and source['exact_capture_timestamp'] is None and source['workflowhub_dashboard_selected_period'] is None)

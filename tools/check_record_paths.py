@@ -128,6 +128,7 @@ def check_surface_id_reconciliation(event: Path, record: dict, root: Path = ROOT
         if not isinstance(relative, str):
             error(f"{key} must name a historical diagnostic repository-relative file")
             return None
+        original_relative = relative
         if relative.startswith("monitoring/"):
             relative = "history/diagnostics/" + relative[len("monitoring/"):]
         elif relative.startswith("evidence/"):
@@ -136,6 +137,10 @@ def check_surface_id_reconciliation(event: Path, record: dict, root: Path = ROOT
             error(f"{key} must use a retained historical evidence/diagnostic locator")
             return None
         path = (root / relative).resolve()
+        if not path.is_file() and original_relative.startswith(("monitoring/", "evidence/")):
+            legacy_path = (root / original_relative).resolve()
+            if legacy_path.is_file():
+                path = legacy_path
         if not path.is_relative_to(root.resolve()) or not path.is_file():
             error(f"{key} is missing or escapes the repository: {relative}")
             return None

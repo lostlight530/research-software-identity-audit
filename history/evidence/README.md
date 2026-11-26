@@ -2,7 +2,7 @@
 
 <badge>ARCHIVED · NO NEW ACQUISITIONS</badge>
 
-This is the former root-level `evidence/` archive. It retains source-response packages, capture manifests, structured projections, event ledgers, reconciliation artifacts and package documentation from **2026-10-08 through 2026-11-22** (22 date-labelled event directories).
+This is the former root-level `evidence/` archive. It retains source-response packages, capture manifests, structured projections, event ledgers, reconciliation artifacts and package documentation from **2026-10-08 through 2026-11-22** (36 event directories across 22 date folders).
 
 It is not the destination for new daily research material. Current evidence belongs to the corresponding Study 1 day workspace under `studies/osf-wa5v8/dayN/evidence/`, or to the independently governed Study 2 cycle under `studies/osf-vshwk/cycles/`. Eligible prospective evidence must be linked through the registered `observations/raw/` contract, not inferred from archive membership.
 

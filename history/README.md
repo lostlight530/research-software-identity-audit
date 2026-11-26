@@ -6,8 +6,8 @@
 
 | Area | Former location | Contents | Boundary |
 |---|---|---|---|
-| [`diagnostics/`](diagnostics/README.md) | root `monitoring/` | 419 retained files across 43 date-labelled event directories, 2026-10-06–2026-11-22 | Historical diagnostic and pre-eligibility records; no new acquisitions |
-| [`evidence/`](evidence/README.md) | root `evidence/` | 347 retained files across 22 date-labelled event directories, 2026-10-08–2026-11-22 | Historical source, projection, manifest and reconciliation packages; no new acquisitions |
+| [`diagnostics/`](diagnostics/README.md) | root `monitoring/` | 419 retained files across 85 event directories in 43 date folders, 2026-10-06–2026-11-22 | Historical diagnostic and pre-eligibility records; no new acquisitions |
+| [`evidence/`](evidence/README.md) | root `evidence/` | 347 retained files across 36 event directories in 22 date folders, 2026-10-08–2026-11-22 | Historical source, projection, manifest and reconciliation packages; no new acquisitions |
 | [`documentation/`](documentation/README.md) | `docs/history/` | Dated audits, method/integrity reviews, diagnostic closeouts and governance ledgers | Historical repository documentation, not current authority |
 | [`repository-inventory/`](repository-inventory/README.md) | `docs/repository-inventory/` | Six pinned inventory packages (2026-11-06 through 2026-11-20) | Point-in-time Git tree inventories, not current HEAD metrics |
 | [`migrations/`](migrations/README.md) | Prior migration ledgers and this consolidation | Append-only old-path → new-path records with Git blob identities | Path custody only; not source revalidation |
