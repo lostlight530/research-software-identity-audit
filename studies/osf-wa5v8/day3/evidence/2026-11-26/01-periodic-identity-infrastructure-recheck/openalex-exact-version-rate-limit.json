@@ -1,0 +1,26 @@
+{
+  "record_class": "COLLECTOR_BATCH_ERROR",
+  "collector": "Parallel web_fetch",
+  "scope": "ten Nov 20 exact version DOI OpenAlex locators",
+  "requested_dois": [
+    "10.5281/zenodo.24387218",
+    "10.5281/zenodo.24387215",
+    "10.5281/zenodo.24387213",
+    "10.5281/zenodo.24387214",
+    "10.5281/zenodo.24387219",
+    "10.5281/zenodo.24387210",
+    "10.5281/zenodo.24387208",
+    "10.5281/zenodo.24387209",
+    "10.5281/zenodo.24387207",
+    "10.5281/zenodo.24387220"
+  ],
+  "error": "RATE_LIMITED: Parallel MCP free-tier limit; provider endpoint attempts and HTTP statuses unknown",
+  "batch_start_utc": null,
+  "batch_end_utc": null,
+  "recorded_at_utc": "2026-11-26T14:10:45.196Z",
+  "original_invocation_clock_not_retained": true,
+  "provider_attempt_count": null,
+  "provider_http_status": null,
+  "absence_inferred": false,
+  "disposition": "BLOCKED_OR_UNRESOLVED; no endpoint-level outcomes manufactured"
+}
