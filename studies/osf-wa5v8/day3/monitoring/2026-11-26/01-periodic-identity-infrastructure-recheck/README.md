@@ -16,6 +16,6 @@ Current documented authority: approved response `6afdcc3a7fb0a89b0e3dd7e4`. Nove
 - RSD issues #1870/#1871 closed; RSE PR #498 open/unmerged; RS07 PR #261 merged, unchanged. No new verified institutional affiliation.
 - CONTROL November 15 archive identity verified as Zenodo 24249720, DOI 10.5281/zenodo.24249720, concept DOI unchanged; DataCite exact/findable and IsVersionOf. Prior November 17 unknown remains historical. Immutable tag CFF/CodeMeta point to October 31; current-main citation correction prepared, not tag or archive repair. No release or DOI created.
 
-Comparators: Day 2 for sample source heads and identities; Day 0 for matched 70 version counters and 34 locator cohort. All current source attempt dates retained; no prior-day value reused as a current result. Study 2 is independently owned by [VSHWK Day 3](../../../../osf-vshwk/day3/README.md), not part of these counts.
+Comparators: Day 2 for sample source heads and identities; Day 0 for matched 70 version counters and 34 locator cohort. All current source attempt dates retained; no prior-day value reused as a current result. Study 2 is independently owned by [VSHWK Day 3](../../../../../osf-vshwk/day3/README.md), not part of these counts.
 
 **Disposition:** BOUNDED_DIAGNOSTIC_RETAINED_NO_PROSPECTIVE_PROMOTION_PARTIAL_EXTERNAL_EVIDENCE. See record for remaining unknowns and exact source blobs.
