@@ -1,0 +1,14 @@
+{
+  "collector": "Exa web fetch",
+  "invocation_start_utc": "2026-11-26T15:12:12.216Z",
+  "invocation_end_utc": "2026-11-26T15:12:24.096Z",
+  "provider_acquisition_timestamp": null,
+  "provider_http_status": null,
+  "original_provider_http_bytes_retained": false,
+  "representation": "selected text transcribed from the returned tool output; not a new request, not complete origin response; cross-study batched acquisition with separate custody",
+  "url": "https://api.osf.io/v2/registrations/5b329/schema_responses/",
+  "result": "ENDPOINT_ERROR",
+  "error": "Error fetching https://api.osf.io/v2/registrations/5b329/schema_responses/: CRAWL_LIVECRAWL_TIMEOUT",
+  "absence_inferred": false,
+  "full_revision_census_verified": false
+}
