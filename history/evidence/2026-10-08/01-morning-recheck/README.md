@@ -10,11 +10,11 @@ It is not a new live observation or a prospective timepoint
 `offline-verification.json` records the import verification result
 
 Raw filenames retain the historical local RS IDs
-The derived [Zenodo table](../../../monitoring/2026-10-08/01-morning-recheck/zenodo-statistics.csv) joins repositories to `corpus/object-manifest.csv`
+The derived [Zenodo table](../../../diagnostics/2026-10-08/01-morning-recheck/zenodo-statistics.csv) joins repositories to `corpus/object-manifest.csv`
 No corpus membership or preregistered layer changes are made
 
-The [reconciliation addendum](../../../monitoring/2026-10-08/01-morning-recheck/reconciliation.md) imports the collector's report
-The [capture summary](../../../monitoring/2026-10-08/01-morning-recheck/capture-summary.json) records counts separately from the earlier updater's verification state
+The [reconciliation addendum](../../../diagnostics/2026-10-08/01-morning-recheck/reconciliation.md) imports the collector's report
+The [capture summary](../../../diagnostics/2026-10-08/01-morning-recheck/capture-summary.json) records counts separately from the earlier updater's verification state
 The original full local identity capture remains with the author; only responses needed for the imported counter and group/list claims are included here
 
 Run `python -B tools/check_retained_morning_evidence.py` from the repository root to verify bytes, canonical joins and counts without network access
