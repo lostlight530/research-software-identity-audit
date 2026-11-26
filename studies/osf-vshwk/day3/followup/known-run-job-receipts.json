@@ -1,0 +1,518 @@
+[
+  {
+    "lineage": "A",
+    "repo_full_name": "lostlight530/welcome-to-github",
+    "run_id": 45549148507,
+    "start": "2026-11-26T15:11:33.859Z",
+    "end": "2026-11-26T15:11:34.767Z",
+    "source": "GitHub workflow jobs connector, first page latest attempt only",
+    "jobs": [
+      {
+        "id": 138985858457,
+        "name": "Scheduled candidate and guarded apply",
+        "run_id": 45549148507,
+        "status": "completed",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "number": 1,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Checkout base world-line",
+            "number": 2,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Set up Python",
+            "number": 3,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Record base world-line",
+            "number": 4,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Stabilize exact-blob checkout EOL baseline",
+            "number": 5,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Capture human baseline",
+            "number": 6,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate runtime contracts",
+            "number": 7,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate existing ledgers without rewriting",
+            "number": 8,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Harvest approved external documents",
+            "number": 9,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate bounded active source evidence",
+            "number": 10,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Project external evidence",
+            "number": 11,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Canonicalize and isolate active graph",
+            "number": 12,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Rebuild and ingest memory",
+            "number": 13,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate canonical graph",
+            "number": 14,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Produce bounded lifecycle projections",
+            "number": 15,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Final graph and runtime verification",
+            "number": 16,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Verify lifecycle write boundary",
+            "number": 17,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Compare base world-line",
+            "number": 18,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Build lifecycle manifest",
+            "number": 19,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Commit only a stable meaningful candidate",
+            "number": 20,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Finalize lifecycle manifest",
+            "number": 21,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Publish human lifecycle receipt",
+            "number": 22,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Preserve lifecycle manifest",
+            "number": 23,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Set up Python",
+            "number": 45,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Checkout base world-line",
+            "number": 46,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "number": 47,
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ]
+      },
+      {
+        "id": 138985858775,
+        "name": "Read-only lifecycle validation",
+        "run_id": 45549148507,
+        "status": "completed",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "number": 1,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Checkout reality",
+            "number": 2,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Set up Python",
+            "number": 3,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Stabilize exact-blob checkout EOL baseline",
+            "number": 4,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Capture human baseline",
+            "number": 5,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate runtime contracts",
+            "number": 6,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate active ledgers without rewriting",
+            "number": 7,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Verify read-only boundary",
+            "number": 8,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Publish human lifecycle receipt",
+            "number": 9,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Set up Python",
+            "number": 17,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Checkout reality",
+            "number": 18,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "number": 19,
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ],
+    "origin_http_status": null,
+    "artifact_custody_verified": false
+  },
+  {
+    "lineage": "B",
+    "repo_full_name": "lostlight530/zero-entropy-lab",
+    "run_id": 45548254443,
+    "start": "2026-11-26T15:11:33.860Z",
+    "end": "2026-11-26T15:11:34.767Z",
+    "source": "GitHub workflow jobs connector, first page latest attempt only",
+    "jobs": [
+      {
+        "id": 138982957826,
+        "name": "Read-only lifecycle validation",
+        "run_id": 45548254443,
+        "status": "completed",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "number": 1,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Checkout reality",
+            "number": 2,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Set up Python",
+            "number": 3,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Stabilize exact-blob checkout EOL baseline",
+            "number": 4,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Capture human baseline",
+            "number": 5,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate runtime contracts",
+            "number": 6,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate active ledgers without rewriting",
+            "number": 7,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Verify read-only boundary",
+            "number": 8,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Publish human lifecycle receipt",
+            "number": 9,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Set up Python",
+            "number": 17,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Checkout reality",
+            "number": 18,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "number": 19,
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ]
+      },
+      {
+        "id": 138982958132,
+        "name": "Scheduled candidate and guarded apply",
+        "run_id": 45548254443,
+        "status": "completed",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "number": 1,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Checkout base world-line",
+            "number": 2,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Set up Python",
+            "number": 3,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Record base world-line",
+            "number": 4,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Stabilize exact-blob checkout EOL baseline",
+            "number": 5,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Capture human baseline",
+            "number": 6,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate runtime contracts",
+            "number": 7,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate existing ledgers without rewriting",
+            "number": 8,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Harvest approved external documents",
+            "number": 9,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate bounded active source evidence",
+            "number": 10,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Project external evidence",
+            "number": 11,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Canonicalize and isolate active graph",
+            "number": 12,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Rebuild and ingest memory",
+            "number": 13,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate canonical graph and hash chain",
+            "number": 14,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Produce bounded lifecycle projections",
+            "number": 15,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Final graph and runtime verification",
+            "number": 16,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Verify lifecycle write boundary",
+            "number": 17,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Compare base world-line",
+            "number": 18,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Build lifecycle manifest",
+            "number": 19,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Commit only a stable meaningful candidate",
+            "number": 20,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Finalize lifecycle manifest",
+            "number": 21,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Publish human lifecycle receipt",
+            "number": 22,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Preserve lifecycle manifest",
+            "number": 23,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Set up Python",
+            "number": 45,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Checkout base world-line",
+            "number": 46,
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "number": 47,
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ],
+    "origin_http_status": null,
+    "artifact_custody_verified": false
+  }
+]
