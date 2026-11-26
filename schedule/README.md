@@ -1,5 +1,7 @@
 # Operational observation schedule
 
+**OSF Project / Study Registration pair:** [wa5v8](https://osf.io/wa5v8/) / [5b329](https://osf.io/5b329/) · [2026-11-26 pair crosswalk](studies/osf-object-pairing-crosswalk-2026-11-26.md)
+
 ## Formal OSF prospective-contract status
 
 OSF 5b329 is a formal, approved prospective longitudinal repeated-measures observational study. Its current approved Schema Response is [6afdcc3a7fb0a89b0e3dd7e4](https://api.osf.io/v2/schema_responses/6afdcc3a7fb0a89b0e3dd7e4/), approved 2026-11-18. The revision justification explicitly says the observation schedule is unchanged.
