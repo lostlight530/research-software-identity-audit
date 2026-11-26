@@ -1,0 +1,363 @@
+{
+  "record_class": "bounded_precollection_gate_review_not_prospective_observation",
+  "review_date": "2026-11-26",
+  "base_commit": "3ee675f402c50ddb2aca867f48d7834fc0f4e9f7",
+  "reporting_timezone": "America/Los_Angeles",
+  "owner_task_day": null,
+  "study1": {
+    "project": "wa5v8",
+    "registration": "5b329",
+    "authority": "6afdcc3a7fb0a89b0e3dd7e4",
+    "source_window_utc": [
+      "2026-11-26T08:06:07.674Z",
+      "2026-11-26T08:06:09.139Z"
+    ],
+    "source_clock_semantics": "GitHub connector invocation envelopes; provider HTTP bytes and pagination headers not retained",
+    "release_filter": "published non-draft non-prerelease returned public GitHub Releases; date boundary conservatively brackets original OSF response creation/modification 2026-10-05T14:04:14Z to 14:06:00Z; zero returned releases inside bracket",
+    "rows": [
+      {
+        "object_id": "RS01",
+        "repo": "welcome-to-github",
+        "source": "https://api.github.com/repos/lostlight530/welcome-to-github/releases?per_page=100",
+        "returned_public_release_rows": 7,
+        "last_pre_registration": {
+          "id": 403023685,
+          "published_at": "2026-10-04T13:00:12Z",
+          "tag": "v2026.10-open-research-production-framework",
+          "url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.10-open-research-production-framework"
+        },
+        "earliest_returned_post_registration_candidate": {
+          "id": 412628982,
+          "published_at": "2026-10-14T11:14:44Z",
+          "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        "latest_returned": {
+          "id": 452284344,
+          "published_at": "2026-11-20T04:55:43Z",
+          "tag": "v2026.11-twenty-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.11-twenty-day-evidence-checkpoint"
+        }
+      },
+      {
+        "object_id": "RS02",
+        "repo": "zero-entropy-lab",
+        "source": "https://api.github.com/repos/lostlight530/zero-entropy-lab/releases?per_page=100",
+        "returned_public_release_rows": 7,
+        "last_pre_registration": {
+          "id": 403023708,
+          "published_at": "2026-10-04T13:00:14Z",
+          "tag": "v2026.10-open-research-production-framework",
+          "url": "https://github.com/lostlight530/zero-entropy-lab/releases/tag/v2026.10-open-research-production-framework"
+        },
+        "earliest_returned_post_registration_candidate": {
+          "id": 412630124,
+          "published_at": "2026-10-14T11:16:09Z",
+          "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/zero-entropy-lab/releases/tag/v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        "latest_returned": {
+          "id": 452284304,
+          "published_at": "2026-11-20T04:55:40Z",
+          "tag": "v2026.11-twenty-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/zero-entropy-lab/releases/tag/v2026.11-twenty-day-evidence-checkpoint"
+        }
+      },
+      {
+        "object_id": "RS03",
+        "repo": "Axiom-0",
+        "source": "https://api.github.com/repos/lostlight530/Axiom-0/releases?per_page=100",
+        "returned_public_release_rows": 7,
+        "last_pre_registration": {
+          "id": 403023727,
+          "published_at": "2026-10-04T13:00:17Z",
+          "tag": "v2026.10-open-research-production-framework",
+          "url": "https://github.com/lostlight530/Axiom-0/releases/tag/v2026.10-open-research-production-framework"
+        },
+        "earliest_returned_post_registration_candidate": {
+          "id": 412629617,
+          "published_at": "2026-10-14T11:15:30Z",
+          "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/Axiom-0/releases/tag/v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        "latest_returned": {
+          "id": 452284242,
+          "published_at": "2026-11-20T04:55:33Z",
+          "tag": "v2026.11-twenty-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/Axiom-0/releases/tag/v2026.11-twenty-day-evidence-checkpoint"
+        }
+      },
+      {
+        "object_id": "RS04",
+        "repo": "reflective-continuum",
+        "source": "https://api.github.com/repos/lostlight530/reflective-continuum/releases?per_page=100",
+        "returned_public_release_rows": 7,
+        "last_pre_registration": {
+          "id": 403023749,
+          "published_at": "2026-10-04T13:00:21Z",
+          "tag": "v2026.10-open-research-production-framework",
+          "url": "https://github.com/lostlight530/reflective-continuum/releases/tag/v2026.10-open-research-production-framework"
+        },
+        "earliest_returned_post_registration_candidate": {
+          "id": 412630422,
+          "published_at": "2026-10-14T11:16:33Z",
+          "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/reflective-continuum/releases/tag/v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        "latest_returned": {
+          "id": 452284266,
+          "published_at": "2026-11-20T04:55:36Z",
+          "tag": "v2026.11-twenty-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/reflective-continuum/releases/tag/v2026.11-twenty-day-evidence-checkpoint"
+        }
+      },
+      {
+        "object_id": "RS05",
+        "repo": "agent-foundations",
+        "source": "https://api.github.com/repos/lostlight530/agent-foundations/releases?per_page=100",
+        "returned_public_release_rows": 7,
+        "last_pre_registration": {
+          "id": 403023761,
+          "published_at": "2026-10-04T13:00:23Z",
+          "tag": "v2026.10-open-research-production-framework",
+          "url": "https://github.com/lostlight530/agent-foundations/releases/tag/v2026.10-open-research-production-framework"
+        },
+        "earliest_returned_post_registration_candidate": {
+          "id": 412629718,
+          "published_at": "2026-10-14T11:15:39Z",
+          "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/agent-foundations/releases/tag/v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        "latest_returned": {
+          "id": 452284386,
+          "published_at": "2026-11-20T04:55:47Z",
+          "tag": "v2026.11-twenty-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/agent-foundations/releases/tag/v2026.11-twenty-day-evidence-checkpoint"
+        }
+      },
+      {
+        "object_id": "RS06",
+        "repo": "auto-doc-engine",
+        "source": "https://api.github.com/repos/lostlight530/auto-doc-engine/releases?per_page=100",
+        "returned_public_release_rows": 7,
+        "last_pre_registration": {
+          "id": 403023837,
+          "published_at": "2026-10-04T13:00:32Z",
+          "tag": "v2026.10-open-research-production-framework",
+          "url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.10-open-research-production-framework"
+        },
+        "earliest_returned_post_registration_candidate": {
+          "id": 412629124,
+          "published_at": "2026-10-14T11:14:54Z",
+          "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        "latest_returned": {
+          "id": 452284206,
+          "published_at": "2026-11-20T04:55:29Z",
+          "tag": "v2026.11-twenty-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/auto-doc-engine/releases/tag/v2026.11-twenty-day-evidence-checkpoint"
+        }
+      },
+      {
+        "object_id": "RS07",
+        "repo": "epistemic-pipeline",
+        "source": "https://api.github.com/repos/lostlight530/epistemic-pipeline/releases?per_page=100",
+        "returned_public_release_rows": 7,
+        "last_pre_registration": {
+          "id": 403023854,
+          "published_at": "2026-10-04T13:00:36Z",
+          "tag": "v2026.10-open-research-production-framework",
+          "url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.10-open-research-production-framework"
+        },
+        "earliest_returned_post_registration_candidate": {
+          "id": 412629265,
+          "published_at": "2026-10-14T11:15:04Z",
+          "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        "latest_returned": {
+          "id": 452284140,
+          "published_at": "2026-11-20T04:55:22Z",
+          "tag": "v2026.11-twenty-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/epistemic-pipeline/releases/tag/v2026.11-twenty-day-evidence-checkpoint"
+        }
+      },
+      {
+        "object_id": "RS08",
+        "repo": "sci-render-kit",
+        "source": "https://api.github.com/repos/lostlight530/sci-render-kit/releases?per_page=100",
+        "returned_public_release_rows": 7,
+        "last_pre_registration": {
+          "id": 403023881,
+          "published_at": "2026-10-04T13:00:39Z",
+          "tag": "v2026.10-open-research-production-framework",
+          "url": "https://github.com/lostlight530/sci-render-kit/releases/tag/v2026.10-open-research-production-framework"
+        },
+        "earliest_returned_post_registration_candidate": {
+          "id": 412629447,
+          "published_at": "2026-10-14T11:15:18Z",
+          "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/sci-render-kit/releases/tag/v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        "latest_returned": {
+          "id": 452284169,
+          "published_at": "2026-11-20T04:55:25Z",
+          "tag": "v2026.11-twenty-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/sci-render-kit/releases/tag/v2026.11-twenty-day-evidence-checkpoint"
+        }
+      },
+      {
+        "object_id": "RS09",
+        "repo": "china-agentic-observatory",
+        "source": "https://api.github.com/repos/lostlight530/china-agentic-observatory/releases?per_page=100",
+        "returned_public_release_rows": 7,
+        "last_pre_registration": {
+          "id": 403023788,
+          "published_at": "2026-10-04T13:00:26Z",
+          "tag": "v2026.10-open-research-production-framework",
+          "url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.10-open-research-production-framework"
+        },
+        "earliest_returned_post_registration_candidate": {
+          "id": 412630016,
+          "published_at": "2026-10-14T11:16:00Z",
+          "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        "latest_returned": {
+          "id": 452284114,
+          "published_at": "2026-11-20T04:55:19Z",
+          "tag": "v2026.11-twenty-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/china-agentic-observatory/releases/tag/v2026.11-twenty-day-evidence-checkpoint"
+        }
+      },
+      {
+        "object_id": "RS10",
+        "repo": "agentic-frontier-observatory",
+        "source": "https://api.github.com/repos/lostlight530/agentic-frontier-observatory/releases?per_page=100",
+        "returned_public_release_rows": 7,
+        "last_pre_registration": {
+          "id": 403023806,
+          "published_at": "2026-10-04T13:00:29Z",
+          "tag": "v2026.10-open-research-production-framework",
+          "url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.10-open-research-production-framework"
+        },
+        "earliest_returned_post_registration_candidate": {
+          "id": 412629902,
+          "published_at": "2026-10-14T11:15:53Z",
+          "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.10-fourteen-day-evidence-checkpoint"
+        },
+        "latest_returned": {
+          "id": 452284405,
+          "published_at": "2026-11-20T04:55:50Z",
+          "tag": "v2026.11-twenty-day-evidence-checkpoint",
+          "url": "https://github.com/lostlight530/agentic-frontier-observatory/releases/tag/v2026.11-twenty-day-evidence-checkpoint"
+        }
+      }
+    ],
+    "disposition": "POST_REGISTRATION_RELEASE_CANDIDATES_VERIFIED_SCHEDULE_NOT_DECLARED_ELIGIBILITY_NOT_ADJUDICATED",
+    "prospective_cells_added": 0,
+    "schedule_path": "schedule/README.md",
+    "limits": "Current surviving public list is not proof of all historical releases or their original retrieval. No qualifying trigger adjudication or retrospective timepoint declaration."
+  },
+  "authority_recheck": {
+    "source": "Parallel extractor; browser API reads inaccessible",
+    "extract_id": "extract_c14c37daa56595d6333a788900dbe9db",
+    "study1_list_acquired_day": "2026-10-31",
+    "study1_detail_acquired_day": "2026-11-22",
+    "study2_list_acquired_day": "2026-11-22",
+    "study2_detail_error": {
+      "error_type": "http_error",
+      "reported_status": 500
+    },
+    "latest_live_revision_list_independently_verified": false,
+    "study1_timing": "Returned 344-55 and 344-47 excerpts support previously recorded eligibility and predefined schedule; no numeric offsets in these excerpts.",
+    "study2_timing": "Returned VSHWK approved response list excerpt 344-55 explicitly includes modified source commits affecting NEXUS CORTEX workflows and documented full-scope reviews; current repository retains this approved response.",
+    "source_fidelity": "Date-level extractor metadata and excerpts only; not original HTTP bytes or a fresh exhaustive revision census"
+  },
+  "study2": {
+    "project": "auhjf",
+    "registration": "vshwk",
+    "authority": "6afdcc7108de91a0f0cefdc6",
+    "prior_cycle": "studies/osf-vshwk/cycles/cycle-2026-11-25-pst-01/cycle-summary.json",
+    "triggers": [
+      {
+        "repo": "welcome-to-github",
+        "previous_observed_head": "c70431a36a2fb57960a17e4ac9aee593ee787ea8",
+        "pinned_new_head": "d58327faf9811cc1931ebf4922999d65fc120485",
+        "compare_source": "https://api.github.com/repos/lostlight530/welcome-to-github/compare/c70431a36a2fb57960a17e4ac9aee593ee787ea8...d58327faf9811cc1931ebf4922999d65fc120485",
+        "compare_status": "ahead",
+        "ahead_by": 11,
+        "behind_by": 0,
+        "returned_changed_path_count": 19,
+        "matched_workflow_paths": [
+          "docs/brain/inputs/.harvester_state.json",
+          "docs/brain/inputs/archive/2026/11/complex-agent-systems/moonshotai_kimi_code/docs__en__customization__mcp.md__c6fe65e52e1f__9ff76d8e1982.md",
+          "docs/brain/inputs/archive/2026/11/complex-agent-systems/moonshotai_kimi_code/docs__en__reference__kimi-acp.md__4a2bbaffbd61__87011ba460b9.md",
+          "docs/brain/inputs/archive/2026/11/complex-agent-systems/moonshotai_kimi_code/docs__en__release-notes__changelog.md__34de9a3c456a__9ff76d8e1982.md",
+          "docs/brain/inputs/archive/2026/11/complex-agent-systems/openhands_openhands/README.md__230717460a24__adf71d626b81.md",
+          "docs/brain/inputs/current/complex-agent-systems/moonshotai_kimi_code/docs__en__customization__mcp.md__6da1e8844b47__59dda4ada5a5.md",
+          "docs/brain/inputs/current/complex-agent-systems/moonshotai_kimi_code/docs__en__reference__kimi-acp.md__91473c5b3a21__59dda4ada5a5.md",
+          "docs/brain/inputs/current/complex-agent-systems/moonshotai_kimi_code/docs__en__release-notes__changelog.md__61b6e73ad5b4__59dda4ada5a5.md",
+          "docs/brain/inputs/current/complex-agent-systems/openhands_openhands/README.md__0b656ab40185__6deb332c3602.md",
+          "docs/brain/knowledge/entities/external_document.jsonl",
+          "docs/brain/memories/20261126-quantitative-dashboard.md",
+          "docs/brain/memories/QUANTITATIVE_LEDGER.md"
+        ],
+        "workflow_file_source": "https://github.com/lostlight530/welcome-to-github/blob/d58327faf9811cc1931ebf4922999d65fc120485/.github/workflows/nexus-life-cycle.yml",
+        "workflow_blob_sha": "85017c64e2f1197a588ce7cc1fbbb3f484f8b08c",
+        "previous_workflow_blob_sha": "85017c64e2f1197a588ce7cc1fbbb3f484f8b08c",
+        "trigger_rule_excerpt": [
+          "    paths: ['.github/workflows/nexus-life-cycle.yml', 'docs/brain/**', 'src/**', 'tests/**']",
+          "    paths: ['.github/workflows/nexus-life-cycle.yml', 'docs/brain/**', 'src/**', 'tests/**']"
+        ],
+        "started_at_utc": "2026-11-26T08:07:04.607Z",
+        "ended_at_utc": "2026-11-26T08:07:05.659Z",
+        "source_fidelity": "connector JSON compare fields and pinned file text; no provider response headers",
+        "execution_verified": false
+      },
+      {
+        "repo": "zero-entropy-lab",
+        "previous_observed_head": "c7ddd749541fe0892431dee2f76ec72b9d026a08",
+        "pinned_new_head": "6a816f8843bf6c654cc439cf4875cfb47be2a4db",
+        "compare_source": "https://api.github.com/repos/lostlight530/zero-entropy-lab/compare/c7ddd749541fe0892431dee2f76ec72b9d026a08...6a816f8843bf6c654cc439cf4875cfb47be2a4db",
+        "compare_status": "ahead",
+        "ahead_by": 13,
+        "behind_by": 0,
+        "returned_changed_path_count": 29,
+        "matched_workflow_paths": [
+          "data/inputs/.harvester_state.json",
+          "data/inputs/archive/2026/11/agent-runtime/google_adk_python/CHANGELOG.md__df2f2515bf33__2b90353cd2f1.md",
+          "data/inputs/archive/2026/11/agent-runtime/pydantic_pydantic_ai/README.md__ec17e58df580__6cd9435dcbd2.md",
+          "data/inputs/archive/2026/11/serving-inference/nvidia_tensorrt_llm/README.md__4414e19fc01a__33d42fadb9a6.md",
+          "data/inputs/archive/2026/11/serving-inference/vllm_project_vllm/docs__design__cuda_graphs_multimodal.md__46a05e854c50__d39baa181a42.md",
+          "data/inputs/archive/2026/11/serving-inference/vllm_project_vllm/docs__design__custom_op.md__ef1653e28fd9__d39baa181a42.md",
+          "data/inputs/archive/2026/11/serving-inference/vllm_project_vllm/docs__design__hybrid_kv_cache_manager.md__3984000c7d8f__4e0681ed5654.md",
+          "data/inputs/current/agent-runtime/google_adk_python/CHANGELOG.md__00053f47b203__03725e8c67ca.md",
+          "data/inputs/current/agent-runtime/pydantic_pydantic_ai/README.md__5e41c7b1bfa0__0b98f7f04306.md",
+          "data/inputs/current/serving-inference/nvidia_tensorrt_llm/README.md__6bee26f02aba__c4b868196f8e.md",
+          "data/inputs/current/serving-inference/vllm_project_vllm/docs__design__cuda_graphs_multimodal.md__d6c77fc2b564__a53e0a051671.md",
+          "data/inputs/current/serving-inference/vllm_project_vllm/docs__design__custom_op.md__9bfd0f3db98b__a53e0a051671.md",
+          "data/inputs/current/serving-inference/vllm_project_vllm/docs__design__hybrid_kv_cache_manager.md__db526fe6b074__a53e0a051671.md",
+          "data/knowledge/entities/doc_section.jsonl",
+          "data/knowledge/entities/external_document.jsonl",
+          "data/knowledge/relations/canonical.jsonl"
+        ],
+        "workflow_file_source": "https://github.com/lostlight530/zero-entropy-lab/blob/6a816f8843bf6c654cc439cf4875cfb47be2a4db/.github/workflows/nexus-life-cycle.yml",
+        "workflow_blob_sha": "9f7c430fa244e3e772b802a963d7e2e434820195",
+        "previous_workflow_blob_sha": "9f7c430fa244e3e772b802a963d7e2e434820195",
+        "trigger_rule_excerpt": [
+          "    paths: ['.github/workflows/nexus-life-cycle.yml', 'data/inputs/**', 'data/knowledge/**', 'src/**', 'tests/**']",
+          "    paths: ['.github/workflows/nexus-life-cycle.yml', 'data/inputs/**', 'data/knowledge/**', 'src/**', 'tests/**']"
+        ],
+        "started_at_utc": "2026-11-26T08:07:05.659Z",
+        "ended_at_utc": "2026-11-26T08:07:06.794Z",
+        "source_fidelity": "connector JSON compare fields and pinned file text; no provider response headers",
+        "execution_verified": false
+      }
+    ],
+    "disposition": "RELEVANT_SOURCE_COMMIT_CHANGE_MATCHING_DECLARED_WORKFLOW_TRIGGER_PATHS",
+    "execution_caveat": "Exact Actions workflow-runs endpoint was rejected by GitHub connector during preliminary surveillance; no conclusion about run existence or success; later cycle attempt is separate."
+  }
+}
