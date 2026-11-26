@@ -1,0 +1,24 @@
+{
+  "collector": "Exa web fetch",
+  "invocation_start_utc": "2026-11-26T15:12:12.216Z",
+  "invocation_end_utc": "2026-11-26T15:12:24.096Z",
+  "provider_acquisition_timestamp": null,
+  "provider_http_status": null,
+  "original_provider_http_bytes_retained": false,
+  "representation": "selected text transcribed from the returned tool output; not a new request, not complete origin response; cross-study batched acquisition with separate custody",
+  "url": "https://api.osf.io/v2/registrations/vshwk/schema_responses/",
+  "result": "RESPONSE_PARTIAL",
+  "returned_rendered_http_text": "HTTP 200 OK",
+  "visible_response_id": "6afdcc7108de91a0f0cefd6c",
+  "date_submitted": "2026-11-18T18:58:20.050020Z",
+  "date_modified": "2026-11-18T18:58:27.281343Z",
+  "extracts": [
+    "The observation protocol does not impose fixed calendar dates, predetermined intervals, or a predetermined number of observation waves.",
+    "The two version-specific WorkflowHub records and their associated source commits provide the historical identity anchors for the two workflow lineages.",
+    "They do not restrict subsequent observations to those historical source revisions.",
+    "Categorical endpoint retrieval states, relationship-verification states, and record-condition flags will retain their separate predefined labels."
+  ],
+  "approved_state_visible_in_returned_excerpt": false,
+  "full_revision_census_verified": false,
+  "absence_inferred": false
+}
