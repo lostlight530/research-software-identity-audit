@@ -14,7 +14,7 @@ Before proposing a change, identify what owns it:
 - `schedule/` — operational observation scheduling;
 - `schema/` — machine-readable research and platform contracts;
 - `observations/` — raw and derived study observations;
-- `history/evidence/` — retained historical source support; `provenance/` — active claim lineage and traceability;
+- `history/diagnostics/` and `history/evidence/` — retained historical diagnostic/source packages; `provenance/` — active claim lineage and traceability;
 - `analysis/` — bounded descriptive analysis;
 - `scholarly/` — citation, archive, and identifier metadata;
 - `templates/` — prospective record templates;

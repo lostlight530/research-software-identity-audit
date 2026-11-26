@@ -20,7 +20,7 @@ This is the architecture entrypoint for the shared CONTROL repository. The [docu
 | Scope | Current operational entrypoints | Ownership boundary |
 | --- | --- | --- |
 | **Shared CONTROL infrastructure** | [Directory and ownership map](docs/README.md#2-directory-map-where-to-read-and-where-a-future-contribution-belongs) · [tools](tools/README.md) · [tests](tests/) | Shared governance, validation and evidence custody do not merge either study's scientific objects or denominators |
-| **Study 1 · 5b329 / wa5v8** | [Study entry](studies/osf-wa5v8/README.md) · [Day 0](studies/osf-wa5v8/day0/README.md) · [Day 1](studies/osf-wa5v8/day1/README.md) · [Day 2](studies/osf-wa5v8/day2/README.md) | Its canonical contract, fixed corpus, schema and schedule remain at established root paths; historical baseline, monitoring and evidence are retained there |
+| **Study 1 · 5b329 / wa5v8** | [Study entry](studies/osf-wa5v8/README.md) · [Day 0](studies/osf-wa5v8/day0/README.md) · [Day 1](studies/osf-wa5v8/day1/README.md) · [Day 2](studies/osf-wa5v8/day2/README.md) | Its canonical contract, fixed corpus, schema and schedule remain at established root paths; the frozen baseline remains at root, while legacy diagnostics and evidence are consolidated under `history/` |
 | **Study 2 · VSHWK** | [Study entry](studies/osf-vshwk/README.md) · [Day 0](studies/osf-vshwk/day0/README.md) · [Day 1](studies/osf-vshwk/day1/README.md) · [Day 2](studies/osf-vshwk/day2/README.md) | Project 490 / paired lineages own a separate contract, cycle ledger and daily indexes under `studies/osf-vshwk/` |
 
 **Physical ownership rule:** Study 1's frozen `baseline/` remains at its canonical root path. The former root-level diagnostic and evidence archives are consolidated under `history/diagnostics/` and `history/evidence/`; historical repository reviews and pinned inventories live under `history/documentation/` and `history/repository-inventory/`. Current operational work is indexed under `studies/`, while `tools/`, `tests/` and `.github/` remain shared CONTROL engineering. `history/` is not an active acquisition surface.
@@ -34,7 +34,7 @@ This is the architecture entrypoint for the shared CONTROL repository. The [docu
 | Understand historical versus prospective status | [Initial baseline](baseline/README.md), [operational schedule](schedule/README.md), [prospective raw observation area](observations/raw/README.md) |
 | Review the separate OSF workflow study | [Two-study index](studies/README.md), [Study 2 current contract and cycle ledger](studies/osf-vshwk/README.md) |
 | Review wa5v8 daily operational materials | [wa5v8 runtime](studies/osf-wa5v8/README.md) |
-| Review historical diagnostic measurements and retained evidence | [Dated monitoring index](history/diagnostics/README.md), [evidence inventory](history/evidence/README.md), [provenance discipline](provenance/README.md) |
+| Review historical diagnostic measurements and retained evidence | [Historical diagnostics index](history/diagnostics/README.md), [evidence inventory](history/evidence/README.md), [provenance discipline](provenance/README.md) |
 | Reproduce or review a contribution | [Tools and advisory checks](tools/README.md), [contributing instructions](CONTRIBUTING.md), [open research method](OPEN_RESEARCH.md) |
 | Cite the correct scholarly object | [Citation and identifier guide](scholarly/CITATION.md), [release policy](RELEASE_POLICY.md) |
 
@@ -649,7 +649,7 @@ Repository organization follows **responsibility and evidence role** rather than
 | Citation and reproducible implementation | [`scholarly/`](scholarly/README.md), [`templates/`](templates/README.md), [`tools/`](tools/README.md), [`.github/`](.github/PULL_REQUEST_TEMPLATE.md) |
 | Human-oriented repository documentation | [`docs/`](docs/README.md), [`OPEN_RESEARCH.md`](OPEN_RESEARCH.md), [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 
-Historical history/evidence/observation paths are intentionally **not moved for cosmetic cleanup**: earlier evidence manifests, digests and source locators must remain independently resolvable. The folder map is documentation, not an OSF amendment, release, scheduled wave, or new study-data record.
+Former root-level diagnostic/evidence paths have been consolidated under `history/`. The migration ledger preserves each old path and source Git blob identity; historical payload bytes and embedded manifests remain unchanged. Current daily evidence stays within its owning `studies/` workspace, while eligible prospective observations remain under `observations/`. This is a repository path migration, not an OSF amendment, release, scheduled wave, or new study-data record.
 
 ---
 

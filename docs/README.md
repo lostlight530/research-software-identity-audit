@@ -80,10 +80,10 @@ Read the repository by **ownership and evidence role**, not by assuming every to
 | `tools/` | [Offline and contract checker commands](../tools/README.md) | Validation establishes only the properties each checker actually tests |
 | `tests/` | Synthetic and regression tests for repository contracts and tooling | Tests exercise implementation behavior; they do not establish external platform truth |
 | `.github/` | [PR template](../.github/PULL_REQUEST_TEMPLATE.md), [CI workflow](../.github/workflows/validate.yml), issue templates | PR/issue automation is shared engineering support, not a change to either research contract |
-| `docs/` | This current documentation map plus the separately classified historical subdirectories above | Navigation and maintenance instructions, not observational evidence |
+| `docs/` | Current documentation, path conventions and maintenance guidance | Navigation and maintenance instructions; historical materials are grouped under `history/` |
 | `RELEASE_POLICY.md` and root governance files | [Immutable release policy](../RELEASE_POLICY.md), amendments, deviations, data handling and open-research guidance | Repository governance and release history; not a substitute for either OSF registration |
 
-**Existing root paths are deliberately retained.** Do not move or rename root-level `monitoring/`, `evidence/`, `baseline/`, or `provenance/` paths for cosmetic organization. Their manifests, source locators, hashes, PR links and paper references may depend on those paths. Historical documentation is classified under `docs/history/`; dated repository inventories remain under `docs/repository-inventory/`. The Study 2 day indexes under `studies/osf-vshwk/day*/` are navigation-only pointers to the canonical cycle and custody records.
+**Archive boundary:** former root-level diagnostic/evidence packages, historical repository documentation and pinned inventories are consolidated under `history/`. Do not add new acquisitions to these archive paths. `baseline/` remains the canonical frozen Study 1 baseline; `provenance/` remains active cross-cutting policy; current Study 1 and Study 2 records stay in their independent `studies/` namespaces. The Study 2 day indexes are navigation-only pointers to canonical cycle and custody records.
 ## 3. Read a result without mixing evidence levels
 
 Follow the narrowest source that actually supports the claim:
@@ -135,7 +135,7 @@ This page is an **index and maintenance explanation only**. When a summary disag
 
 ## Historical repository inventory and review index
 
-The former dated reports and catalogs previously mixed into the `docs/` root are now **physically classified** under [historical documentation](../history/documentation/README.md), with a [path-to-original-Git-blob migration ledger](../history/migrations/path-migration-2026-11-25.csv). The existing dated `repository-inventory/` packages retain their own folder identities.
+The former dated reports and catalogs are grouped under [historical documentation](../history/documentation/README.md); the earlier [November 25 documentation migration ledger](../history/migrations/path-migration-2026-11-25.csv) remains preserved. Dated repository inventories are consolidated under [history/repository-inventory](../history/repository-inventory/README.md), with their pinned source paths and contents unchanged.
 
 The dated catalogs, snapshots, closeouts, and review notes below are point-in-time material, not present-tense contract authority or newly eligible prospective observations. The original source links, claims, qualifiers, and retrieval boundaries are retained. Consult the current directory/ownership map and docs-only maintenance guidance above before using these historical records.
 
@@ -172,7 +172,7 @@ The [dated research record](../history/diagnostics/2026-10-18/03-independent-res
 
 ## October 24 dated record classification and naming review
 
-The [source-bounded path classification review](../history/documentation/method-and-integrity-reviews/record-path-classification-review-2026-10-24.md) explains monitoring versus evidence ownership, documents four additive historical entrypoints, and preserves compatibility between historical `record.yaml` and later `record.json` summaries. Read the [normative path and migration rules](../history/diagnostics/NAMING.md) and run the [offline path checker](../tools/check_record_paths.py) for structural integrity. The checker is advisory in CI; neither green workflow status nor path normalization creates a prospective observation or certifies original research evidence
+The [source-bounded path classification review](../history/documentation/method-and-integrity-reviews/record-path-classification-review-2026-10-24.md) explains monitoring versus evidence ownership, documents four additive historical entrypoints, and preserves compatibility between historical `record.yaml` and later `record.json` summaries. Read the [normative path and migration rules](record-path-conventions.md) and run the [offline path checker](../tools/check_record_paths.py) for structural integrity. The checker is advisory in CI; neither green workflow status nor path normalization creates a prospective observation or certifies original research evidence
 
 ## 2026-11-06 cross-repository file identity and OSF workspace inventory
 
