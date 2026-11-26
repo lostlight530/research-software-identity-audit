@@ -1,0 +1,11 @@
+{
+  "record_class": "day3_supplementary_verification_intent_not_new_cycle",
+  "task_day": "DAY_3",
+  "reporting_day": "2026-11-26",
+  "recorded_at_utc": "2026-11-26T15:10:43.870Z",
+  "base_main": "805617acbb0cc363dfa3ecffa1d0580919148c2f",
+  "authority": "6afdcc7108de91a0f0cefd6c",
+  "related_cycle": "cycle-2026-11-26-pst-03",
+  "scope": "verify retained exact run IDs through GitHub jobs connector and targeted existing identity gaps; separate supplementary receipts, no repeated transient retries, no overwrite primary records, no new cycle or Day 4",
+  "limits": "provider read-only; record unknown clocks and failure layer; remote recovery access currently offline"
+}
