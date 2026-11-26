@@ -6,9 +6,9 @@
 
 ## Frozen contract and comparable sources
 
-- The [OSF registration](https://osf.io/5b329/overview) and [original-versus-approved revision authority](../../../contract/osf-registration-version-governance-2026-11-03.md) remain distinct: 29 compared Schema Response fields, only later-approved exploratory field `344-83` changed. No new primary method or OSF write is claimed
-- [Fixed manifest](../../../corpus/object-manifest.csv): exactly RS01–RS10, independent CONTROL excluded; six preregistered layers = **60 object-layer units per valid scheduled timepoint**; seven operational platforms = **70 possible platform checks, never 70 analytical units**
-- [Schedule](../../../schedule/README.md) still does not declare numerical observation offsets. The October 14 and October 30 fixed-corpus Releases do not retroactively turn diagnostics into a planned longitudinal wave. **0 prospective cells** were added
+- The [OSF registration](https://osf.io/5b329/overview) and [original-versus-approved revision authority](../../../../contract/osf-registration-version-governance-2026-11-03.md) remain distinct: 29 compared Schema Response fields, only later-approved exploratory field `344-83` changed. No new primary method or OSF write is claimed
+- [Fixed manifest](../../../../corpus/object-manifest.csv): exactly RS01–RS10, independent CONTROL excluded; six preregistered layers = **60 object-layer units per valid scheduled timepoint**; seven operational platforms = **70 possible platform checks, never 70 analytical units**
+- [Schedule](../../../../schedule/README.md) still does not declare numerical observation offsets. The October 14 and October 30 fixed-corpus Releases do not retroactively turn diagnostics into a planned longitudinal wave. **0 prospective cells** were added
 - Exact preceding source: [Nov 4 bounded patrol](../../2026-11-04/01-periodic-identity-infrastructure-recheck/README.md), with its [clock-label correction](../../2026-11-04/01-periodic-identity-infrastructure-recheck/clock-anchor-correction.md). The prior source is a Nov 4 tool-session ledger, **not** certified end-of-day state
 
 ## GitHub: latest main, PRs and releases

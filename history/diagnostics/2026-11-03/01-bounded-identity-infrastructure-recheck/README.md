@@ -6,8 +6,8 @@
 
 ## Contract and comparison clocks
 
-- The frozen [OSF registration](https://osf.io/5b329/overview) and current [manifest](../../../corpus/object-manifest.csv) identify **RS01–RS10**, excluding the control repository and supplementary life-science software. Six layers give **60 object-layer units per eligible scheduled timepoint**. Seven concrete platforms give **70 possible object-platform checks**, not 70 preregistered units
-- The repository [operational schedule](../../../schedule/README.md) contains no concrete declared offsets; **0 prospective cells** are added. No original OSF schema, baseline, schedule, raw historical evidence, release or DOI is edited
+- The frozen [OSF registration](https://osf.io/5b329/overview) and current [manifest](../../../../corpus/object-manifest.csv) identify **RS01–RS10**, excluding the control repository and supplementary life-science software. Six layers give **60 object-layer units per eligible scheduled timepoint**. Seven concrete platforms give **70 possible object-platform checks**, not 70 preregistered units
+- The repository [operational schedule](../../../../schedule/README.md) contains no concrete declared offsets; **0 prospective cells** are added. No original OSF schema, baseline, schedule, raw historical evidence, release or DOI is edited
 - The prior [OSF original-versus-approved revision reconciliation](../../2026-10-30/01-osf-schema-response-version-reconciliation/README.md) found **29 compared fields / one changed exploratory field `344-83`**. We did not obtain a new original-provider full-byte registration revision capture
 - Main-SHA comparisons use the explicitly retained **2026-11-01T11:49:20.853Z** eleven-head ledger for RS01–RS10. The control head is separately compared with its **2026-11-02T13:23:13Z** main, and institutional / Zenodo counters retain their actual Nov 2 batch windows. This must **not** be described as a Nov 2-to-Nov 3 Git commit delta
 
