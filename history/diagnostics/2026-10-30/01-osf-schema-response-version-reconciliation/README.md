@@ -28,10 +28,10 @@ The original `344-83` allowed unexpected state transitions, new aggregation patt
 
 ## Contract resolution and non-resolution
 
-This explicitly **resolves the previously unverified original-versus-updated wording for these 29 registration-response fields**, which the [October 8 Overview crosswalk](../../../contract/osf-overview-crosswalk-2026-10-08.md) had correctly left `UNVERIFIED` *as of that earlier review*. The crosswalk is not retroactively rewritten; the original text of `344-83` is now identifiable, and the later wording is not backdated into the original preregistration.
+This explicitly **resolves the previously unverified original-versus-updated wording for these 29 registration-response fields**, which the [October 8 Overview crosswalk](../../../../contract/osf-overview-crosswalk-2026-10-08.md) had correctly left `UNVERIFIED` *as of that earlier review*. The crosswalk is not retroactively rewritten; the original text of `344-83` is now identifiable, and the later wording is not backdated into the original preregistration.
 
 - The original preregistration remains the source of the primary **RS01–RS10 / six layers / 60 analytical units** contract. The seven operational platforms and 70 possible platform checks remain separate implementation concepts.
-- Neither version establishes concrete T0/+24h/+72h/+7d offsets in the repo's [operational schedule](../../../schedule/README.md). Do not automatically treat an October 14 fixed-corpus release or this reconciliation as authorization for a scheduled prospective timepoint.
+- Neither version establishes concrete T0/+24h/+72h/+7d offsets in the repo's [operational schedule](../../../../schedule/README.md). Do not automatically treat an October 14 fixed-corpus release or this reconciliation as authorization for a scheduled prospective timepoint.
 - A revision's `date_created`, `date_submitted`, `date_modified` and `reviews_state` are distinct fields. They are **not** exact evidence of when a specific paragraph first became visible to an observer. The enclosing registration's own modification clock is also a separate object clock.
 - The observed difference concerns the **other/exploratory analysis response**. Benchmarking, percentile/rank or platform-engagement summaries must **not** be promoted into originally preregistered primary analyses on the basis of the later revision.
 - No new platform records, research samples, denominator, derived scientific results, archived release, DOI, raw or prospective observation cells are created in this review.

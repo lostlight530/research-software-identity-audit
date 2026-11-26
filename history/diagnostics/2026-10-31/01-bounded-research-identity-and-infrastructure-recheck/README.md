@@ -4,7 +4,7 @@
 **Logical day:** 2026-10-31 Asia/Shanghai  
 **Compiled:** 2026-10-31T00:18:02.002Z (UTC, report-construction clock only)  
 **Base CONTROL main:** [385f0bce3af8c465c74408df76789a6cc8dec1f1](https://github.com/lostlight530/research-software-identity-audit/commit/385f0bce3af8c465c74408df76789a6cc8dec1f1)  
-**Corpus authority:** [object-manifest.csv](../../../corpus/object-manifest.csv), **RS01–RS10** only; CONTROL is not RS11
+**Corpus authority:** [object-manifest.csv](../../../../corpus/object-manifest.csv), **RS01–RS10** only; CONTROL is not RS11
 
 ## Proven current GitHub release delta
 
@@ -28,7 +28,7 @@ Other retained results are appropriately **STALE/UNKNOWN**: ORCID Works acquired
 
 Direct GitHub source: [RSD #1870](https://github.com/research-software-directory/RSD-as-a-service/issues/1870) remains **closed** since 2026-10-16T12:11:19Z (upstream v6.7.3 documented a fix), but researcher production deployment and original reproduction-path retest remain **UNVERIFIED**; [RSD #1871](https://github.com/research-software-directory/RSD-as-a-service/issues/1871) remains **open**; [RSE #498](https://github.com/rseng/software/pull/498) remains **open and unmerged**, without submitted review evidence. No new institutional affiliation, formal endorsement, or independently verified interaction progress was inferred.
 
-**Contract gate:** ten objects × six fixed layers = **60 object-layer analytical units per eligible scheduled point**, while ten × seven operational platforms = **70 potential platform checks**, not 70 analytical units. The [schedule](../../../schedule/README.md) still has **no concrete offsets**. This October 30 ten-release cohort requires a bounded eligibility assessment, but is **not by itself proof of a declared scheduled prospective run**. **Zero prospective observation cells** were written. Original OSF registration, later approved revision, baseline, source evidence, schema, manifest and earlier records remain unchanged.
+**Contract gate:** ten objects × six fixed layers = **60 object-layer analytical units per eligible scheduled point**, while ten × seven operational platforms = **70 potential platform checks**, not 70 analytical units. The [schedule](../../../../schedule/README.md) still has **no concrete offsets**. This October 30 ten-release cohort requires a bounded eligibility assessment, but is **not by itself proof of a declared scheduled prospective run**. **Zero prospective observation cells** were written. Original OSF registration, later approved revision, baseline, source evidence, schema, manifest and earlier records remain unchanged.
 
 **Decision:** `MATERIAL_VERSION_IDENTITY_DELTA` for directly checked new GitHub release/tag, Zenodo version and DataCite DOI identities; `PARTIAL / UNKNOWN` for full seven-platform and 34-surface same-day census; `NO_CHANGE_REQUIRED` for source/code or metadata correction. No new Release, Tag, DOI, externally edited account, schedule or inference model created by this audit.
 

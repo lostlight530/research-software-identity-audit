@@ -39,7 +39,7 @@ Other direct web-reader attempts made during the review failed with 403, cache-m
 
 The study retains **ten** fixed objects RS01–RS10 across **six** analytical layers, giving **60 object-layer units per eligible scheduled timepoint**. The seven operational platforms provide at most **70 possible object-platform checks**, a different count. OpenAIRE and OpenAlex both belong to `discovery_graph` but have separate observable contracts. No additional source, DOI, monitoring request, or CONTROL Release changes this denominator.
 
-The [operational schedule](../../../schedule/README.md) declares **no concrete offsets**. The fixed-corpus October 14 releases have historical evidence, but cannot alone establish that the scheduled prospective collection gate was met. This record adds **zero** rows to `observations/raw/` or `observations/derived/`.
+The [operational schedule](../../../../schedule/README.md) declares **no concrete offsets**. The fixed-corpus October 14 releases have historical evidence, but cannot alone establish that the scheduled prospective collection gate was met. This record adds **zero** rows to `observations/raw/` or `observations/derived/`.
 
 **Status:** `PARTIAL / NO_CONCLUSION` for a same-day seven-platform observation; GitHub Release-list recheck is complete for its expressly stated API scope. No new claims of propagation timing, cross-layer absence, independent scholarly adoption or backend processing are warranted.
 
