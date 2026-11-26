@@ -324,7 +324,7 @@ osf_pair_register_2026_11_26:
     works_returned: 4
     resource_type_facets:
       Project: 2
-      Study_Registration: 2
+      "Study Registration": 2
     publication_year_2026: 4
     creator_xuanyi_jiang: 4
     repository_open_science_framework: 4
