@@ -19,9 +19,10 @@ The primary analytical unit is one project × one layer × one cycle: **8 projec
 
 ## Cycle index
 
-| Cycle | Reporting day | Manifest | Endpoint accounting | Disposition |
+| Record | Reporting day | Manifest | Endpoint accounting | Disposition |
 |---|---|---|---:|---|
 | [Cycle 01](cycle-2026-11-23-pst-01/README.md) | 2026-11-23 America/Los_Angeles | [v1](../contract/endpoints-v1.json) | 22/22 attempted | `CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS` |
+| [Cycle 02 custody-gap record](cycle-2026-11-24-pst-01/custody-gap.json) | 2026-11-24 America/Los_Angeles | Not verifiable from retained records | Unknown (`primary_endpoint_attempts: null`) | `BLOCKED_ORIGINAL_RECORDS_NOT_AVAILABLE` — not a validated cycle |
 | [Day 2 independent cycle](cycle-2026-11-25-pst-01/README.md) | 2026-11-25 America/Los_Angeles | [v1](../contract/endpoints-v1.json) | 22/22 attempted; original errors retained, follow-ups separate | `CYCLE_ATTEMPTS_CLOSED_WITH_UNRESOLVED_RESULTS` |
 
 Cycle 01's actual acquisition window was 2026-11-24T07:07:37.297Z–2026-11-24T07:09:58.002Z. The reporting-day label is 2026-11-23 Pacific; the actual China acquisition date is 2026-11-24.

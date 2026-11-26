@@ -6,6 +6,19 @@ The public repository `lostlight530/research-software-identity-audit` is the onl
 
 Owner-confirmed reporting timezone: `America/Los_Angeles`. Day 0 = 2026-11-23; Day 1 = 2026-11-24; Day 2 = 2026-11-25. The same calendar applies to both independent projects. Original source labels (including Asia/Shanghai dates), acquisition clocks, and Git timestamps remain unchanged. Later maintenance, migration, CI, and documentation are not new research acquisitions. At the earlier pre-acquisition review the owner confirmed no new Day 2 acquisition **yet**. Subsequent fresh, independently recorded Day 2 checks now exist under both study namespaces; this does not backdate an earlier acquisition or promote diagnostics to formal prospective cells. This calendar clarification supersedes the operational task-day interpretation in PR #149 for daily folder attribution only; it does not alter historical records or scientific eligibility.
 
+## Daily workspace index — both studies, separate records
+
+The shared Day 0–2 labels are an **operational navigation calendar**, not a shared research wave. Each link opens that study's own daily record. The canonical evidence remains in its owning day package or VSHWK cycle directory; these indexes do not duplicate source material.
+
+| Reporting day | Pacific date | Study 1 — OSF 5b329 / wa5v8 | Study 2 — OSF VSHWK | Reading boundary |
+| --- | --- | --- | --- | --- |
+| **Day 0** | 2026-11-23 | [Day 0 record](osf-wa5v8/day0/README.md) — retained diagnostic packages; original source labels and acquisition clocks remain intact | [Day 0 index](osf-vshwk/day0/README.md) → [Cycle 01](osf-vshwk/cycles/cycle-2026-11-23-pst-01/README.md) — 22/22 attempts: 4 complete, 9 partial, 9 endpoint errors | VSHWK's Pacific reporting date is Nov 23; its actual acquisition window is Nov 24 UTC / Asia-Shanghai |
+| **Day 1** | 2026-11-24 | [Day 1 record](osf-wa5v8/day1/README.md) — approved-contract authority alignment; no separate external acquisition asserted | [Day 1 index](osf-vshwk/day1/README.md) → [Cycle 02 custody gap](osf-vshwk/cycles/cycle-2026-11-24-pst-01/custody-gap.json) — original records unavailable; endpoint count and acquisition window unknown | `BLOCKED_ORIGINAL_RECORDS_NOT_AVAILABLE`; not a validated cycle, not zero attempts, and not an endpoint-failure count |
+| **Day 2** | 2026-11-25 | [Day 2 record](osf-wa5v8/day2/README.md) — 81 source-check rows; bounded diagnostic; zero scheduled prospective cells | [Day 2 index](osf-vshwk/day2/README.md) → [independent Cycle 2026-11-25](osf-vshwk/cycles/cycle-2026-11-25-pst-01/README.md) — 22/22 attempts: 2 complete, 16 partial, 4 endpoint errors | New independent content; unresolved results remain unresolved; no Day 1 evidence is substituted |
+
+**Protocol boundary:** Study 1 daily workspaces do not themselves create eligible scheduled prospective timepoints. Study 2's approved protocol initiates cycles from a relevant public-infrastructure event or a documented full-scope review; it prescribes no fixed daily interval or wave count. A Day label never replaces an actual UTC / Asia-Shanghai acquisition timestamp.
+
+
 ## Study 1 — Research software identity propagation
 
 - Registration: [OSF 5b329](https://osf.io/5b329/) · DOI [10.17605/OSF.IO/5B329](https://doi.org/10.17605/OSF.IO/5B329)

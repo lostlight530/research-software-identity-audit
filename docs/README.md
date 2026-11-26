@@ -53,28 +53,37 @@ Six preregistered infrastructure **layers** yield `10 × 6 = 60` object-layer un
 
 ## 2. Directory map: where to read and where a future contribution belongs
 
+Read the repository by **ownership and evidence role**, not by assuming every top-level directory has the same temporal status. The physical layout intentionally has three cooperating areas:
+
+1. **Current study workspaces — `studies/`:** the two OSF studies have separate namespaces and daily indexes. Day folders organize work; they do not create OSF waves, scheduled timepoints, or new analytical units.
+2. **Study 1's established root surfaces and retained history:** its canonical `contract/`, `corpus/`, `schema/`, and `schedule/` remain at the root. Historical `baseline/`, `monitoring/`, and `evidence/` packages also remain at their original root paths. `observations/raw/` remains a reserved eligibility-governed prospective surface, not a general historical archive.
+3. **Shared CONTROL engineering and documentation:** `tools/`, `tests/`, `.github/`, reusable templates, provenance guidance, and repository navigation support both studies without merging their scientific records.
+
 | Owner | Contents and canonical entry | Change boundary |
 | --- | --- | --- |
-| `contract/` | [Frozen registration mapping](../contract/preregistration.md), [OSF Overview crosswalk](../contract/osf-overview-crosswalk-2026-10-08.md), [limitations](../contract/known-limitations.md) | Explain the registered contract; don't silently edit what was registered |
+| `studies/` | [Two-study index and Day 0–2 matrix](../studies/README.md); [Study 1 wa5v8 workspace](../studies/osf-wa5v8/README.md); [Study 2 VSHWK workspace](../studies/osf-vshwk/README.md) | Separate OSF ownership. Day indexes point to canonical records; they do not copy evidence or imply a fixed wave count |
+| `contract/` | Study 1 [frozen registration mapping](../contract/preregistration.md), [OSF Overview crosswalk](../contract/osf-overview-crosswalk-2026-10-08.md), and [known limitations](../contract/known-limitations.md) | Study 1 root-level contract mapping only; OSF registration and approved responses remain authoritative |
 | `corpus/` | [Fixed-object manifest](../corpus/object-manifest.csv) | Exactly RS01–RS10; no new sample via documentation |
-| `baseline/` | [Historical baseline](../baseline/README.md) and [2026-10-05 package](../baseline/2026-10-05/README.md) | Baseline cutoff **2026-10-05 23:59:59 Asia/Shanghai**; later retrieval is not historical capture |
-| `schedule/` | [Registered timing rules and operational schedule record](../schedule/README.md) | The formal prospective contract is in force; the local record does not invent numerical offsets absent from the accessible OSF response |
-| `schema/` | [Counting rules](../schema/counting-rules.md), [layers](../schema/infrastructure-layers.yaml), [platforms](../schema/platforms.yaml), [state vocabulary](../schema/state-taxonomy.yaml), [observation JSON schema](../schema/observation.schema.json) | Only contract-aware, separately reviewed schema changes |
-| `monitoring/` | [Dated diagnostic and pre-eligibility records](../monitoring/README.md), [path conventions](../monitoring/NAMING.md) | Useful measurements, **not** auto-promoted to the prospective dataset |
-| `observations/raw/` | [Prospective raw observation location](../observations/raw/README.md) | Only eligible, schedule-governed observation records belong here |
-| `observations/derived/` | [Derived observation location](../observations/derived/README.md) | Derivations must cite actual raw observations; missing values not imputed |
-| `evidence/` | [Original captured evidence / manifests](../evidence/README.md) | Preserve source identity, retrieval clock and digests; don't rewrite sealed bytes |
-| `provenance/` | [Provenance policy](../provenance/README.md) | Traceable lineage through source → raw → derived → interpretation |
-| `analysis/` | [Descriptive research analysis](../analysis/README.md) | Exploratory work clearly identified; no unregistered causal/inferential model |
-| `scholarly/` | [Archive and identifier guide](../scholarly/README.md), [citation guide](../scholarly/CITATION.md) | Concept DOI, version DOI and OSF study DOI remain different identities |
-| `templates/` | [Reusable research templates](../templates/README.md), [human-facing template](../RESEARCH_TEMPLATE.md) | Templates are **not** completed observations or data |
-| `tools/` | [Offline and contract checker commands](../tools/README.md) | Advisory CI is a guardrail, not a claim of scientific verification |
-| `.github/` | [PR template](../.github/PULL_REQUEST_TEMPLATE.md), [CI workflow](../.github/workflows/validate.yml), issue templates | PR/issue process is not a change to the research contract |
-| `docs/` | This documentation map | Navigation and maintainership instructions, **not** observational evidence |
-| `RELEASE_POLICY.md` and `scholarly/release-readiness-2026-10-18.md` | [Immutable release policy](../RELEASE_POLICY.md) and [dated package-preflight checklist](../scholarly/release-readiness-2026-10-18.md) | A preflight is not a new tag, Zenodo version DOI, or archived release |
+| `schema/` | [Counting rules](../schema/counting-rules.md), [layers](../schema/infrastructure-layers.yaml), [platforms](../schema/platforms.yaml), [state vocabulary](../schema/state-taxonomy.yaml), [observation JSON schema](../schema/observation.schema.json) | Study 1 contract-aware schema; changes require separate review |
+| `schedule/` | [Registered timing rules and operational schedule record](../schedule/README.md) | Study 1 schedule authority; do not invent numerical offsets absent from the approved OSF response |
+| `baseline/` | [Historical baseline](../baseline/README.md) and [2026-10-05 package](../baseline/2026-10-05/README.md) | Frozen historical cutoff **2026-10-05 23:59:59 Asia/Shanghai**; later retrieval is not historical capture |
+| `monitoring/` | [Dated diagnostic and pre-eligibility records](../monitoring/README.md), [path conventions](../monitoring/NAMING.md) | Retained historical diagnostics; not auto-promoted into the prospective dataset |
+| `evidence/` | [Retained root-level evidence packages and manifests](../evidence/README.md) | Preserve original source identity, retrieval clocks, digests and established paths |
+| `observations/raw/` | [Prospective raw observation location](../observations/raw/README.md) | Reserved for eligible, schedule-governed Study 1 records; not a destination for historical monitoring |
+| `observations/derived/` | [Derived observation location](../observations/derived/README.md) | Derivations must cite actual raw observations; missing values are not imputed |
+| `provenance/` | [Provenance policy](../provenance/README.md) | Preserve source → raw → derived → interpretation lineage and correction history |
+| `analysis/` | [Descriptive research analysis](../analysis/README.md) | Keep exploratory work identified; no unregistered causal or inferential model |
+| `scholarly/` | [Scholarly and archive index](../scholarly/README.md), [citation guide](../scholarly/CITATION.md) | Keep control-repository citation identity, OSF registration identity and external research-object identifiers distinct; dated reviews remain historical |
+| `docs/history/` | [Classified historical documentation archive](history/README.md) | Dated audits, inventory ledgers and closeouts remain historical; do not treat them as current contract authority |
+| `docs/repository-inventory/` | Dated [repository inventory packages](repository-inventory/2026-11-20/README.md) | Pinned point-in-time inventories; not current HEAD counts or new research observations |
+| `templates/` | [Reusable research templates](../templates/README.md), [human-facing template](../RESEARCH_TEMPLATE.md) | Templates are structure aids, not completed observations or evidence |
+| `tools/` | [Offline and contract checker commands](../tools/README.md) | Validation establishes only the properties each checker actually tests |
+| `tests/` | Synthetic and regression tests for repository contracts and tooling | Tests exercise implementation behavior; they do not establish external platform truth |
+| `.github/` | [PR template](../.github/PULL_REQUEST_TEMPLATE.md), [CI workflow](../.github/workflows/validate.yml), issue templates | PR/issue automation is shared engineering support, not a change to either research contract |
+| `docs/` | This current documentation map plus the separately classified historical subdirectories above | Navigation and maintenance instructions, not observational evidence |
+| `RELEASE_POLICY.md` and root governance files | [Immutable release policy](../RELEASE_POLICY.md), amendments, deviations, data handling and open-research guidance | Repository governance and release history; not a substitute for either OSF registration |
 
-**Do not move or rename historical `monitoring/`, `evidence/`, `baseline/`, or `provenance/` paths for cosmetic organization.** Existing evidence manifests, source locators, hashes, PR links and paper references may depend on those paths. The historical [October 8 path-migration ledger](../monitoring/path-migration-2026-10-08.csv) is a **dated** migration record, not permission for another silent rewrite.
-
+**Existing root paths are deliberately retained.** Do not move or rename root-level `monitoring/`, `evidence/`, `baseline/`, or `provenance/` paths for cosmetic organization. Their manifests, source locators, hashes, PR links and paper references may depend on those paths. Historical documentation is classified under `docs/history/`; dated repository inventories remain under `docs/repository-inventory/`. The Study 2 day indexes under `studies/osf-vshwk/day*/` are navigation-only pointers to the canonical cycle and custody records.
 ## 3. Read a result without mixing evidence levels
 
 Follow the narrowest source that actually supports the claim:
