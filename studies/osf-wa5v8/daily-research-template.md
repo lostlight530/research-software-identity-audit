@@ -18,7 +18,7 @@
 The daily eligibility check is a **trigger gate**, not a 60-unit prospective observation. Do not collect or label a prospective timepoint merely because a day folder exists.
 
 1. Read fresh main, open PRs, the frozen contract, the current approved Schema Response, the operational schedule declaration (if any), the fixed corpus, schemas, and latest relevant records.
-2. Check whether the **first eligible new release event after registration** has been verified for any object in the fixed RS01–RS10 corpus. Preserve the exact repository/object ID, release tag or version, source timestamp, and evidence locator.
+2. Check whether the **first eligible new release event after registration** has been verified for any object in the fixed RS01–RS10 corpus. Preserve the exact repository/object ID, release tag or version, source timestamp, and evidence locator. Keep surviving public release candidates distinct from adjudicated eligibility; record list scope, filtering, pagination limits and the actual retrieval clock. A current release list does not establish complete historical release history.
 3. If no eligible event is verified, or the source evidence is insufficient, record the gate result as monitoring / unresolved only. Create **zero** prospective cells.
 4. If an eligible release event is verified, check for a concrete follow-up schedule declaration committed **before** the observations it governs.
 5. The current approved OSF response requires predefined/scheduled follow-up points but does not enumerate numerical offsets. The repository schedule currently records that no numerical offset table is declared. **Do not invent offsets or create a timepoint until an applicable schedule declaration exists.**
@@ -52,6 +52,8 @@ Use the existing [observation batch template](../../templates/observation-batch.
 ### Eligibility gate
 
 - First eligible post-registration fixed-corpus release event: VERIFIED / NOT_VERIFIED / UNRESOLVED
+- Candidate post-registration release record(s), if any:
+- Eligibility rationale and missing evidence:
 - Trigger object ID (RS01–RS10):
 - Exact release tag / version:
 - Source release timestamp and timezone:
@@ -80,6 +82,7 @@ Use the existing [observation batch template](../../templates/observation-batch.
 Choose a bounded description; do not force a positive result:
 
 - MONITORING_ONLY_NO_ELIGIBLE_EVENT_VERIFIED
+- POST_REGISTRATION_RELEASE_CANDIDATES_ELIGIBILITY_NOT_ADJUDICATED (record schedule status separately)
 - ELIGIBLE_EVENT_FOUND_SCHEDULE_NOT_DECLARED
 - SCHEDULED_POINT_ATTEMPTED
 - PARTIAL_OR_UNRESOLVED
@@ -100,6 +103,8 @@ Choose a bounded description; do not force a positive result:
 - A live read cannot be backdated into a historical baseline.
 - A monitoring package is not promoted to a prospective observation by later schedule clarification.
 - Keep raw evidence, normalized records, derived analysis, and interpretation separately traceable.
+- Use bounded acquisition batches and verify each persisted receipt checkpoint before further acquisition; preserve failed custody and unknown attempt counts separately from scientific outcomes. Do not infer an unretained response was not attempted.
+- Distinguish collector invocation clocks, source event timestamps and extractor acquisition dates/freshness. Do not label cached excerpts as live provider state or use today's retrieval to backdate an observation. Retain only necessary public evidence fields and disclose excerpt/redaction limits.
 - Use descriptive counts and the preregistered analyses only; do not add unregistered inferential or causal models.
 - Query failures do not automatically extend the preregistered observation window.
 

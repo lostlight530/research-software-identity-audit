@@ -57,6 +57,7 @@ This Study 2 namespace is inside the existing CONTROL repository. It is not a tw
 - Study 1 [5b329](https://osf.io/5b329/) retains its canonical root-level `contract/`, `corpus/`, `schema/`, and `schedule/`, plus established baseline, monitoring, evidence and conditional observation paths
 - Study 2 VSHWK owns the separate `studies/osf-vshwk/` namespace: its `contract/`, `cycles/`, and Day 0–2 navigation indexes
 - VSHWK day indexes point to canonical cycle/custody records; they do not copy evidence or turn a custody gap into a completed cycle
+- [Capture-gap procedure and index](capture-gaps/README.md): preserve blocked execution/custody separately from validated cycles, without reclassifying the historical November 24 gap
 - RS01–RS10, both focal source repositories, WorkflowHub and all external scholarly services are read-only research targets
 - Only the existing CONTROL repository receives study-control documentation and retained evidence
 

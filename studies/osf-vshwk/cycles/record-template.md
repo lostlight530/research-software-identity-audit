@@ -20,7 +20,7 @@ cycle-YYYY-MM-DD-pacific-NN/
     └── README.md
 ```
 
-Additional original source ledgers may be added under `evidence/`; never overwrite or normalize them in place.
+Additional original source ledgers may be added under `evidence/`; never overwrite or normalize them in place. A blocked capture that cannot satisfy the cycle package must be preserved separately under the [capture-gap procedure](../capture-gaps/README.md), not treated as a validated cycle.
 
 ## Before acquisition
 
@@ -38,6 +38,9 @@ The protocol has no fixed calendar interval, predetermined wave count, or fixed 
 - Keep one endpoint row per manifest locator, including failures and unattempted endpoints
 - Preserve exact source URL, collector, actual start/end UTC, Asia/Shanghai clock, reporting-day label, returned identity, retrieval state, relationship-verification state, record-condition flags, source evidence path and source blob SHA where available
 - Preserve original connector/provider errors; do not convert opaque connector errors into provider HTTP status
+- Use bounded batches with a verified durable checkpoint before the next batch: exact locator IDs, original minimized receipts, source clocks, ledger blob SHA and commit reference. Keep enough execution budget for the persistence steps. Batch sizes are implementation details, not new manifest versions or research units.
+- Record collector invocation times, provider event timestamps, extractor acquisition dates and freshness separately. A cached or undated extract is not a contemporaneous provider observation. A record condition flag needs its own evidence; extraction age alone is not proof of provider metadata staleness.
+- Keep only focal public identifiers and necessary verification fields; document excerpting/redaction and do not retain unrelated public-work entries or private/sensitive incidental material.
 - At most one researcher-initiated retry for transient 5xx / timeout / rate-limit cases; respect visible `Retry-After`; if the intermediary hides the provider response, record opaque transport and do not claim retry compliance
 - Capture shared Project 490 and ORCID evidence once; reference it in both lineage analyses without multiplying the underlying record
 - Do not infer workflow execution from a file, registry card, or schedule declaration; require exact workflow identity, run ID, source revision, event, conclusion and associated evidence
@@ -49,6 +52,7 @@ The protocol has no fixed calendar interval, predetermined wave count, or fixed 
 3. `cycle-summary.json` with denominators, retrieval-state counts, relationship-state counts, per-layer and per-lineage classifications, source-fidelity limits, and disposition
 4. `README.md` with the human-readable report and bounded conclusion
 5. Update the cycle index only after the package is retained
+6. Verify receipt-to-index coverage, exact manifest locators, unique IDs, clocks, ledger blob SHAs and summary counts. If acquisition/custody fails and the package cannot be closed faithfully, preserve the gap separately and keep unknown attempt counts unknown. Never use later acquisition to reconstruct missing originals.
 
 ## Required report sections
 

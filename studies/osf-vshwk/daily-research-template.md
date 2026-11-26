@@ -80,6 +80,8 @@ Capture shared Project 490 and shared ORCID evidence once. Reference it in both 
 - Declaration timestamp (Asia/Shanghai):
 - Reporting-day label (Pacific):
 - No prior-day source state reused: YES / NO
+- Planned bounded acquisition batches and checkpoint locations:
+- Source authority freshness / unavailable revision-list evidence:
 
 ### Acquisition window and endpoint accounting
 
@@ -92,6 +94,9 @@ Capture shared Project 490 and shared ORCID evidence once. Reference it in both 
 - Explicit NOT_APPLICABLE rows and reasons:
 - Follow-up attempts (kept separate from primary attempts):
 - Original source-ledger paths and blob SHAs:
+- Batch receipt commit(s), endpoint IDs and verified persistence:
+- Collector invocation clocks versus provider/extractor acquisition dates:
+- Retained, unavailable or unknown attempt counts (keep distinct):
 - Normalized endpoint outcome index:
 - Cycle machine summary:
 - Human-readable cycle report:
@@ -117,6 +122,10 @@ Capture shared Project 490 and shared ORCID evidence once. Reference it in both 
 
 - Account for every manifest locator with a primary attempt or explicit NOT_QUERIED / NOT_APPLICABLE reason.
 - Preserve original errors and partial results. A complete attempt ledger is not a successful retrieval cycle.
+- Use bounded batches sized to leave sufficient tool budget for evidence persistence; commit each receipt batch and verify its reachable blob before the next batch. Do not require one particular batch partition.
+- Separate actual collector invocation start/end from provider event timestamps, extractor acquisition dates and cache freshness. A new request can return an older representation. Unknown freshness is not live evidence; an older extract alone is not proof of `STALE_METADATA` at the provider.
+- Minimize retained public evidence to focal identifiers and relevant source fields. Exclude unrelated public-work entries, incidental personal information and secrets; label excerpting/redaction and preserve only necessary provenance. Distinguish expected-field completeness from raw HTTP-body custody.
+- If orchestration or persistence fails, preserve the original intent, reachable receipts, error and known/unknown attempt accounting under the [capture-gap procedure](capture-gaps/README.md). Never infer missing receipts were not attempted or fabricate endpoint outcomes. A separately initiated review needs a new intent and actual clocks; no silent replay or backfill.
 - At most one researcher-initiated retry for transient 5xx / timeout / rate-limit cases; respect visible Retry-After. If the intermediary hides the provider response, record opaque transport and do not claim retry compliance.
 - Do not infer global absence from HTTP 404, empty extraction, 429, timeout, connector rejection, or access failure.
 - Do not infer execution from a workflow file, registry record, or schedule.
