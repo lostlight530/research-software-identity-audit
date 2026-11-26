@@ -1,0 +1,33 @@
+{
+  "recorded_at_utc": "2026-11-26T14:11:31.627Z",
+  "record_class": "premerge_evidence_minimization_correction",
+  "source_attempts_and_clocks_unchanged": true,
+  "original_checkpoints_not_erased": true,
+  "changes": [
+    {
+      "path": "studies/osf-wa5v8/day3/evidence/2026-11-26/01-periodic-identity-infrastructure-recheck/zenodo-usage-exa-batch01.json",
+      "original_git_blob_sha": "05e77957ba35aa62f803651b28663b418cd730fa",
+      "redacted_git_blob_sha": "f813af1dc04f9ccb1681b86fa1bb66248d6ea8f9",
+      "commit": "acb3d22cda88ddf2ce88f88d99ca111c82f85ab2",
+      "redacted_count": 10,
+      "reason": "Incidental Zenodo owner account IDs not needed; original branch checkpoint remains identified; no scientific fields changed."
+    },
+    {
+      "path": "studies/osf-wa5v8/day3/evidence/2026-11-26/01-periodic-identity-infrastructure-recheck/zenodo-concept-latest.jsonl",
+      "original_git_blob_sha": "d72c07ad746d957afd50a3406b22ce9cf6879863",
+      "redacted_git_blob_sha": "5651221abc063bff97c8a6008cfc6c6f8ab5e4ae",
+      "commit": "0c0d6255e5b433cb1357792cff6ef2bec65397f6",
+      "redacted_count": 10,
+      "reason": "Incidental Zenodo owner account IDs not needed; original branch checkpoint remains identified; no scientific fields changed."
+    },
+    {
+      "path": "studies/osf-wa5v8/day3/evidence/2026-11-26/01-periodic-identity-infrastructure-recheck/control-archive-reconciliation.jsonl",
+      "original_git_blob_sha": "fd9845df8bad15730280f766c946734a9e315207",
+      "redacted_git_blob_sha": "de343f004666b418f121b17f0357cb1f12ce5670",
+      "commit": "f72398efceaf020d4235f8433fa7e5a4ab585103",
+      "redacted_count": 1,
+      "reason": "Incidental Zenodo owner account IDs not needed; original branch checkpoint remains identified; no scientific fields changed."
+    }
+  ],
+  "limitations": "Initial extractor receipt retained more public metadata than necessary; selected projections and original blob identities are distinguished. Pattern scan is not a guarantee of absence of all sensitive information."
+}
