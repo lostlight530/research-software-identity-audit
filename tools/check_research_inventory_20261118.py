@@ -17,7 +17,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-INVENTORY = "docs/repository-inventory/2026-11-18"
+INVENTORY = "history/repository-inventory/2026-11-18"
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:

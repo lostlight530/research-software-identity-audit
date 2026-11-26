@@ -15,8 +15,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}$")
 EVENT_RE = re.compile(r"(\d{2})-([a-z0-9]+(?:-[a-z0-9]+)*)$")
-MONITORING = ROOT / "monitoring"
-EVIDENCE = ROOT / "evidence"
+MONITORING = ROOT / "history/diagnostics"
+EVIDENCE = ROOT / "history/evidence"
 OFFLINE_ONLY_EVENTS = {"2026-10-24/03-offline-family-stat-replay"}
 
 
@@ -125,8 +125,15 @@ def check_surface_id_reconciliation(event: Path, record: dict, root: Path = ROOT
 
     def input_file(key: str) -> Path | None:
         relative = record.get(key)
-        if not isinstance(relative, str) or not relative.startswith("monitoring/"):
-            error(f"{key} must name a monitored repository-relative file")
+        if not isinstance(relative, str):
+            error(f"{key} must name a historical diagnostic repository-relative file")
+            return None
+        if relative.startswith("monitoring/"):
+            relative = "history/diagnostics/" + relative[len("monitoring/"):]
+        elif relative.startswith("evidence/"):
+            relative = "history/evidence/" + relative[len("evidence/"):]
+        elif not relative.startswith(("history/diagnostics/", "history/evidence/")):
+            error(f"{key} must use a retained historical evidence/diagnostic locator")
             return None
         path = (root / relative).resolve()
         if not path.is_relative_to(root.resolve()) or not path.is_file():
@@ -514,7 +521,7 @@ def check() -> dict:
     for dt in dates:
         ordinals = sorted(int(p.name[:2]) for p in monitoring if p.parts[-2] == dt)
         if ordinals != list(range(1, len(ordinals) + 1)):
-            errors.append(f"Monitoring event numbering not consecutive on {dt}: {ordinals}")
+            errors.append(f"Historical diagnostic event numbering not consecutive on {dt}: {ordinals}")
 
     for event in monitoring:
         rel = event.relative_to(MONITORING).as_posix()
@@ -571,10 +578,10 @@ def check() -> dict:
 
     return {
         "mode": "offline_path_and_ownership_check",
-        "monitoring_event_directories": len(monitoring),
-        "evidence_companion_directories": len(evidence),
-        "monitoring_yaml_records": yaml_count,
-        "monitoring_json_records": json_count,
+        "historical_diagnostic_event_directories": len(monitoring),
+        "historical_evidence_companion_directories": len(evidence),
+        "diagnostic_yaml_records": yaml_count,
+        "diagnostic_json_records": json_count,
         "projection_records_checked": projection_records_checked,
         "projection_rows_declared": projection_rows_declared,
         "offline_only_events_without_machine_record": offline_count,

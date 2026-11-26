@@ -132,8 +132,8 @@ def negative_regressions(fields, record):
 
 
 def verify():
-    ep = ROOT / "evidence" / EVENT
-    mp = ROOT / "monitoring" / EVENT
+    ep = ROOT / "history/evidence" / EVENT
+    mp = ROOT / "history/diagnostics" / EVENT
     fields = json.loads((ep / "field-extracts.json").read_text(encoding="utf-8"))
     record = json.loads((mp / "record.json").read_text(encoding="utf-8"))
     results = verify_fields(fields, record)

@@ -79,8 +79,8 @@ def verify_fields(fields, record, canonical):
 
 
 def verify():
-    ep = ROOT / "evidence" / EVENT
-    mp = ROOT / "monitoring" / EVENT
+    ep = ROOT / "history/evidence" / EVENT
+    mp = ROOT / "history/diagnostics" / EVENT
     fields = json.loads((ep / "field-extracts.json").read_text(encoding="utf-8"))
     record = json.loads((mp / "record.json").read_text(encoding="utf-8"))
     with (ROOT / "corpus" / "object-manifest.csv").open(encoding="utf-8", newline="") as f:

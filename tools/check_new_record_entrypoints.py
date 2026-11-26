@@ -73,8 +73,8 @@ def check_new_events(base: set[str], head: set[str], index: str) -> dict:
 
 def _tracked_paths(root: Path, *, base: str | None) -> set[str]:
     cmd = (
-        ["git", "ls-tree", "-r", "--name-only", "-z", base, "--", "monitoring", "evidence", "studies/osf-wa5v8"]
-        if base else ["git", "ls-files", "-z", "--", "monitoring", "evidence", "studies/osf-wa5v8"]
+        ["git", "ls-tree", "-r", "--name-only", "-z", base, "--", "studies/osf-wa5v8"]
+        if base else ["git", "ls-files", "-z", "--", "studies/osf-wa5v8"]
     )
     data = subprocess.run(cmd, cwd=root, check=True, capture_output=True).stdout
     return {path.decode("utf-8") for path in data.split(b"\0") if path}
@@ -91,14 +91,23 @@ def main() -> int:
     try:
         before = _tracked_paths(root, base=args.base)
         current = _tracked_paths(root, base=None)
-        index = (root / "monitoring/README.md").read_text(encoding="utf-8")
-        result = check_new_events(before, current, index)
-        # Each wa5v8 task-day has a distinct local event namespace.
+        # Root history/ is an immutable archive. Only Study 1 day workspaces
+        # may introduce new dated operational monitoring/evidence packages.
         scopes = sorted({
             "/".join(path.split("/")[:3]) for path in current
             if re.match(r"^studies/osf-wa5v8/day[0-9]+/(monitoring|evidence)/", path)
         })
-        result["wa5v8_day_scopes"] = {}
+        result = {
+            "mode": "pr_new_dated_record_entrypoints_only",
+            "new_monitoring_events": [],
+            "new_evidence_events": [],
+            "wa5v8_day_scopes": {},
+            "errors": [],
+            "failed": 0,
+            "network_calls": 0,
+            "existing_events_reclassified": 0,
+            "scientific_interpretation_verified": False,
+        }
         for scope in scopes:
             prefix = scope + "/"
             old_paths = {p[len(prefix):] for p in before if p.startswith(prefix)}
@@ -107,6 +116,8 @@ def main() -> int:
             day_index = index_path.read_text(encoding="utf-8") if index_path.is_file() else ""
             scoped = check_new_events(old_paths, new_paths, day_index)
             result["wa5v8_day_scopes"][scope] = scoped
+            result["new_monitoring_events"].extend(scoped["new_monitoring_events"])
+            result["new_evidence_events"].extend(scoped["new_evidence_events"])
             result["errors"].extend(f"{scope}: {e}" for e in scoped["errors"])
         result["failed"] = len(result["errors"])
     except (subprocess.CalledProcessError, OSError, UnicodeError) as exc:

@@ -19,8 +19,8 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-EVIDENCE = "evidence/2026-10-24/04-local-history-evidence-handoff"
-MONITORING = "monitoring/2026-10-24/04-local-history-evidence-handoff"
+EVIDENCE = "history/evidence/2026-10-24/04-local-history-evidence-handoff"
+MONITORING = "history/diagnostics/2026-10-24/04-local-history-evidence-handoff"
 SHA256 = re.compile(r"^[a-f0-9]{64}$")
 MAX_TAR_BYTES = 64 * 1024 * 1024
 
@@ -36,6 +36,9 @@ def safe_file(relative: str) -> Path:
     if parts.is_absolute() or ".." in parts.parts:
         raise ValueError(f"Escaping repository-relative locator: {relative!r}")
     resolved = (ROOT / parts).resolve()
+    if not resolved.is_file():
+        legacy = relative.replace("evidence/", "history/evidence/", 1) if relative.startswith("evidence/") else relative.replace("monitoring/", "history/diagnostics/", 1) if relative.startswith("monitoring/") else relative
+        resolved = (ROOT / legacy).resolve()
     if not resolved.is_relative_to(ROOT.resolve()) or not resolved.is_file():
         raise ValueError(f"Unresolvable committed file: {relative!r}")
     return resolved
