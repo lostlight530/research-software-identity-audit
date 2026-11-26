@@ -25,7 +25,7 @@ The control release `v2026.10-evidence-integrity` and DOI `10.5281/zenodo.234461
 
 Root `CITATION.cff` and `codemeta.json` inside that ZIP still declare `v2026.10-evidence-reconciliation`. The citation includes the previous version DOI `10.5281/zenodo.23284570`. At independently captured main commit `053bc6a6c6f3659d2f5c9cc0c0542760081c1218`, both metadata files declare `v2026.10-evidence-integrity`.
 
-This adds binary inspection to the earlier [postpublication reconciliation](../../../scholarly/release-identity-reconciliation-2026-10-18.md), which explicitly had not recomputed the ZIP checksum. It does not rewrite that historical limitation or the immutable release.
+This adds binary inspection to the earlier [postpublication reconciliation](../../../../scholarly/release-identity-reconciliation-2026-10-18.md), which explicitly had not recomputed the ZIP checksum. It does not rewrite that historical limitation or the immutable release.
 
 ## Supplementary research-software pilot
 

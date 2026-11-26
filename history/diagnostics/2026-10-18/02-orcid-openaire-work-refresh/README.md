@@ -42,4 +42,4 @@ The OpenAIRE interface also displayed a last ORCID synchronization notice **2026
 
 No account-authenticated cookies, user sessions, private URLs, or restricted response payloads are saved. Public ORCID and canonical DOI are legitimate scholarly reproducibility identities. No OSF registration, baseline, historical raw bytes, prospective timepoint, sample IDs, or workflow definitions change from this diagnostic note.
 
-[Machine summary](record.json) · [research-control citation guidance](../../../scholarly/CITATION.md).
+[Machine summary](record.json) · [research-control citation guidance](../../../../scholarly/CITATION.md).
