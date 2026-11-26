@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "cycle_id": "cycle-2026-11-26-pst-01",
+  "record_class": "capture_orchestration_custody_gap",
+  "status": "BLOCKED_CAPTURE_ORCHESTRATION_LIMIT",
+  "recorded_at_utc": "2026-11-26T08:08:51.861Z",
+  "precollection_intent_commit": "276269337ec41674b5560dc3a5a3897dbc141015",
+  "precollection_intent_path": "studies/osf-vshwk/cycles/cycle-2026-11-26-pst-01/precollection-intent.json",
+  "expected_endpoints": 22,
+  "primary_endpoint_attempts": null,
+  "endpoint_attempt_count_verified": false,
+  "provider_response_statuses": null,
+  "retained_endpoint_ledger_count": 0,
+  "observation_bundles_created": 0,
+  "original_error": "Code Mode exceeded the maximum number of tool calls.",
+  "source_of_error": "agent tool orchestration; not a scholarly provider HTTP error",
+  "explanation": "The post-intent collection-and-custody script terminated at its tool-call limit before returning a result or advancing the branch. The exact subset of attempted endpoints, invocation clocks, results and any unreferenced blobs cannot be established from retained output. A branch/tree recheck found only the precollection intent in the cycle directory. Do not infer zero attempts, 22 attempts, 22 endpoint errors, provider absence, or a completed cycle.",
+  "original_results_recovered": false,
+  "substitute_later_data_for_this_cycle": false,
+  "provider_errors_inferred": false,
+  "scientific_disposition": "NO_CONCLUSION",
+  "notes": "Future acquisition, if undertaken, must have separate intent, actual clocks and original result custody. This entry is not a validated cycle."
+}
