@@ -53,7 +53,7 @@
 
 - Old `2026-10-06/01-wave-01` is *pre-eligibility diagnostic* despite its legacy name
 - `2026-10-24/03-offline-family-stat-replay` is the intentional machine-record exception, not a missing prospective observation
-- `2026-11-19/01` path reuse is retained with [explicit correction history](../../../monitoring/2026-11-19/03-web-assisted-surface-review/correction-history.md); the later `02` capture and `03`–`05` reconciliations stay distinct
+- `2026-11-19/01` path reuse is retained with [explicit correction history](../../diagnostics/2026-11-19/03-web-assisted-surface-review/correction-history.md); the later `02` capture and `03`–`05` reconciliations stay distinct
 - Source-branch import into `main` happened later than the original source runs; its Git merge clock does **not** redefine provider capture clocks
 
 ## Contract boundary
@@ -68,7 +68,7 @@ GitHub recursive tree and commit list were retrieved at pinned source; rows are 
 
 ## Additive current diagnostic (not a new historical file pin)
 
-The separate [November 20 source-bounded review](../../../monitoring/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md) appends current version-counter and seven-platform checks **after** the pinned `5bbdd7ecc0f0513e7f9857f87e4539abd58f9c58` tree. Its files therefore are **not** counted among the original 903 blobs / 158 commits / 83 dated events. The additional records have their own true retrieval windows; this audit intentionally does not recast their creation date as the historical source date.
+The separate [November 20 source-bounded review](../../diagnostics/2026-11-20/01-firstday-to-current-infrastructure-diagnostic/README.md) appends current version-counter and seven-platform checks **after** the pinned `5bbdd7ecc0f0513e7f9857f87e4539abd58f9c58` tree. Its files therefore are **not** counted among the original 903 blobs / 158 commits / 83 dated events. The additional records have their own true retrieval windows; this audit intentionally does not recast their creation date as the historical source date.
 
 ## 2026-11-20 cross-repository current files and exact path changes
 
