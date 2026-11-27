@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.0",
+  "record_class": "bounded_day4_diagnostic_not_scheduled_prospective",
+  "task_day": "DAY_4",
+  "reporting_day": "2026-11-27",
+  "reporting_timezone": "America/Los_Angeles",
+  "recorded_at_utc": "2026-11-27T11:21:02.857Z",
+  "initial_main": "3b124fd40470f57c39f767cb006118470ff0855e",
+  "precollection_declaration": {
+    "path": "studies/osf-wa5v8/day4/precollection-declaration.json",
+    "commit": "a07457cdc17e28cb5786f03e831cee901c8edb5a"
+  },
+  "study": {
+    "project": "wa5v8",
+    "registration": "5b329",
+    "last_documented_approved_response": "6afdcc3a7fb0a89b0e3dd7e4",
+    "authority_list_extractor_day": "2026-11-26",
+    "authority_history_visible_approved_responses": [
+      "6ac3ae5e6da32e3d0576ed72",
+      "6ac4c12fed97b8b77ce88a9c",
+      "6af57c509950cc35b3fe0538",
+      "6afdcc3a7fb0a89b0e3dd7e4"
+    ],
+    "full_live_revision_census_verified": false
+  },
+  "fixed_corpus": "RS01–RS10",
+  "control_is_rs11": false,
+  "preregistered_layers": 6,
+  "operational_platforms": 7,
+  "analytical_units_per_eligible_scheduled_timepoint": 60,
+  "possible_platform_checks_not_analytical_units": 70,
+  "gate": {
+    "registration_timestamp_utc": "2026-10-05T14:04:13.783851Z",
+    "release_list_scope": "Fresh first pages per_page=30, 7 returned per fixed object; previous Day 3 terminal-page evidence remains historical, not a new Day 4 second-page check.",
+    "returned_fixed_ten_release_ids": 70,
+    "post_registration_date_candidates": 40,
+    "earliest_returned_candidate": {
+      "object_id": "RS01",
+      "id": 412628982,
+      "tag": "v2026.10-fourteen-day-evidence-checkpoint",
+      "published_at": "2026-10-14T11:14:44Z",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/lostlight530/welcome-to-github/releases/tag/v2026.10-fourteen-day-evidence-checkpoint"
+    },
+    "first_eligible_release_adjudicated": false,
+    "complete_historical_release_census": false,
+    "schedule_declared": false,
+    "prospective_batch_initiated": false,
+    "disposition": "POST_REGISTRATION_RELEASE_CANDIDATES_ELIGIBILITY_NOT_ADJUDICATED",
+    "reason": "Earliest surviving returned candidate is not complete historical release-event proof; no applicable predeclared schedule exists; no prospective promotion or backfill."
+  },
+  "prospective_dataset_member": false,
+  "prospective_cells_added": 0,
+  "github": {
+    "main_heads_checked": 11,
+    "open_pr_lists_checked": 11,
+    "release_first_pages_checked": 11,
+    "pinned_cff_checked": 11,
+    "open_pr_total_at_capture": 4,
+    "fixed_ten_heads_changed_vs_day3": 10,
+    "latest_release_ids_unchanged": 11,
+    "fixed_ten_cff_blobs_unchanged": 10,
+    "control_cff_changed_vs_pre_reconciliation_day3": true,
+    "open_prs": [
+      {
+        "object_id": "RS01",
+        "prs": [
+          {
+            "number": 1072,
+            "title": "Parallax H2 Special 30/30 and Oct–Nov canonical reconciliation",
+            "state": "open",
+            "head_sha": "52f5304ef06d5d3f5d7f07f4a3cf5da1e705a132"
+          }
+        ]
+      },
+      {
+        "object_id": "RS02",
+        "prs": [
+          {
+            "number": 955,
+            "title": "Ballast H2 Special 30/30 and Oct–Nov canonical reconciliation",
+            "state": "open",
+            "head_sha": "89a2307251ac6b951a8a67e3f2cae7053bf2b931"
+          }
+        ]
+      },
+      {
+        "object_id": "RS09",
+        "prs": [
+          {
+            "number": 338,
+            "title": "China Sep–Nov Special research and historical reconciliation",
+            "state": "open",
+            "head_sha": "af673b8a45f78e6810ca38db4d72a1b99cbfbb9b"
+          }
+        ]
+      },
+      {
+        "object_id": "RS10",
+        "prs": [
+          {
+            "number": 344,
+            "title": "Global Sep–Nov Special research and historical reconciliation",
+            "state": "open",
+            "head_sha": "b243e081c7b991187a49c5d3470f039b397da8f6"
+          }
+        ]
+      }
+    ]
+  },
+  "zenodo": {
+    "same_exact_version_keys": 70,
+    "exact_matching_rows": 70,
+    "count": 70,
+    "prior_views": 4605,
+    "views": 4655,
+    "prior_downloads": 64,
+    "downloads": 64,
+    "views_increased": 27,
+    "views_unchanged": 43,
+    "views_decreased": 0,
+    "downloads_increased": 0,
+    "downloads_decreased": 0,
+    "delta_views": 50,
+    "delta_downloads": 0,
+    "concept_latest_exact_matches": 10,
+    "concept_latest_extractor_day": "2026-11-26",
+    "provider_counter_acquisition_timestamp_unknown": true,
+    "unique_people_inferred": false
+  },
+  "datacite": {
+    "concept_exact_findable": 10,
+    "latest_version_exact_doi": 10,
+    "latest_version_findable_primary_excerpt": 1,
+    "latest_version_findable_followup": 10,
+    "control_exact_findable_followup": true,
+    "followup_provider_clock_unknown": true
+  },
+  "openaire": {
+    "concept_scoped_total_one": 10,
+    "concept_acquired_day": "2026-11-25",
+    "latest_version_scoped_total_one": 10,
+    "latest_version_acquired_day": "2026-11-26",
+    "global_absence_inferred": false
+  },
+  "openalex": {
+    "concept_exact_work_ids": 10,
+    "latest_version_requests": 10,
+    "latest_version_requests_returning_concept_work_id": 10,
+    "latest_version_doi_literal_visible_in_returned_excerpt": 4,
+    "distinct_exact_version_canonical_work_verified": 0,
+    "latest_version_extractor_day": "2026-11-26",
+    "interpretation": "Returned family-level representation, not proof of independent version record or absence."
+  },
+  "software_heritage": {
+    "fixed_ten_historical_visit_snapshot_fields_in_extract": 10,
+    "full_status_literals": 10,
+    "extractor_acquisition_days": "2026-10-31 / 2026-11-04",
+    "fresh_structured_live_visits_verified": 0
+  },
+  "orcid": {
+    "shared_works_request": 1,
+    "acquired_day": "2026-11-27",
+    "focal_doi_literals_only": true,
+    "current_group_count": null,
+    "current_source_summary_count": null,
+    "additional_separate_surface_request": true
+  },
+  "supplementary": {
+    "same_locator_cohort": 34,
+    "connector_content_returned": 29,
+    "connector_errors": 5,
+    "connector_outcome_changes_vs_day3": 0,
+    "challenge_content": [
+      "HAL"
+    ],
+    "error_surfaces": [
+      "ScreenIT ASWG",
+      "dkNET",
+      "InterLex",
+      "Identifiers.org",
+      "N2T.net"
+    ],
+    "not_34_identity_verifications": true
+  },
+  "interactions": {
+    "rsd_1870": "closed completed unchanged",
+    "rsd_1871": "closed completed unchanged",
+    "rse_498": "open unmerged unchanged",
+    "rs07_261": "merged unchanged",
+    "new_affiliation_or_endorsement_inferred": false
+  },
+  "control_archive": {
+    "latest_tag": "v2026.11-nov15-identity-reconciliation",
+    "version_doi": "10.5281/zenodo.24249720",
+    "concept_doi": "10.5281/zenodo.23166490",
+    "current_main_cff_blob": "6d38b7acf3a7e991fa4b2123d39a6a232a5912a4",
+    "version_doi_findable_followup": true,
+    "archive_bytes_verified": false,
+    "no_new_release_or_doi": true
+  },
+  "source_fidelity": "Minimized connector projections and dated/undated extractor excerpts, not provider-origin bytes/status. Git blob SHAs identify retained material, not original HTTP bytes. Prior clocks not reused as new acquisition.",
+  "correction_history": [
+    "Day 4 authority history includes intermediate approved 2026-11-12 response; amend local non-normative authority navigation only, not OSF or frozen clauses.",
+    "Evidence minimization corrections for OSF and shared ORCID before publication, with prior/new blob references.",
+    "Broad GitHub interrupted batch preserved separately; remaining scope acquired as new attempts, not silent replay.",
+    "Initial OSF extraction 11:10:47–11:10:51 not retained; later independent receipt documents that limitation."
+  ],
+  "limitations": [
+    "Provider-origin live revision census not verified",
+    "No concrete applicable schedule or historical release census",
+    "No raw provider response bytes, archive bytes or independent artifact hash verification",
+    "No complete current ORCID group/source-summary structure; SWH cached visits only",
+    "No private GitHub traffic, no inference of adoption or affiliation",
+    "34 surfaces field tokens and returned content do not establish all identity links",
+    "Day 3 RSD 13 supplemental locators not separately repeated; 34-locator cohort unchanged"
+  ],
+  "source_evidence_tree_commit": "bc483b1f4364f23a840f6fea3dfb728b00db53c9",
+  "evidence_files": [
+    {
+      "path": "studies/osf-wa5v8/day4/authority-2026-11-12-followup.json",
+      "git_blob_sha": "47b21aa20e4717ef0e2d5514657afab83b16cf60"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/authority-history-followup.jsonl",
+      "git_blob_sha": "1622fc119508dfe03b37cf909a214d9c4a523be3"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/authority-minimization-correction.json",
+      "git_blob_sha": "bbbc49a9e977d6f48e34e0f21942ac053d48fc8e"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/authority-receipt.json",
+      "git_blob_sha": "b6dc7a426c758f97a49665d34acb970f11143a22"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/capture-gap-github-batch.json",
+      "git_blob_sha": "90d96acc8cdf4c4345aacf314ee2468e00ac9e19"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/datacite-concept.jsonl",
+      "git_blob_sha": "d5dc2641ae8c46921242b55e983f501b36a05bcc"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/datacite-exact-version-field-followup.jsonl",
+      "git_blob_sha": "239661722db252704fa9eb0be20d063c5693270a"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/datacite-exact-version.jsonl",
+      "git_blob_sha": "6933e4820bbbe5e93c0d72ae7f949183719b3885"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/github-1-3.jsonl",
+      "git_blob_sha": "a9a4d2af947bb92b82fed7d8968d329c47130add"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/github-10-control.jsonl",
+      "git_blob_sha": "da16be2ecde53d67c05cc768939c6a45f1188619"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/github-4-6.jsonl",
+      "git_blob_sha": "47ed027d12a6e345ac12e0bba89ab519331d4526"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/github-7-9.jsonl",
+      "git_blob_sha": "d1aaf972d2cc5744763986b6a38ee473486e556b"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/github-comparison-derived.jsonl",
+      "git_blob_sha": "0c17701304c2adca6766100b8abc1d21e85434ae"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/institutional-interactions.jsonl",
+      "git_blob_sha": "a5602d92a144b908f9185954c3718274ba19190a"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/openaire-concept.jsonl",
+      "git_blob_sha": "fb49babb45e80e17bcbf66d3338511b0e476d18e"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/openaire-exact-version.jsonl",
+      "git_blob_sha": "4d8d9858d017c507adc9328e0347ca8037989f04"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/openalex-concept.jsonl",
+      "git_blob_sha": "c1f27b9ad6429f106ff1caf10c058652794eedb1"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/openalex-exact-version-followup.jsonl",
+      "git_blob_sha": "affca9a0dba33aef5a19221e3cc4e56a735722da"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/supplementary-surfaces-01-09.jsonl",
+      "git_blob_sha": "030906f2002df6589f09f7bf431cb21faf3cb602"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/supplementary-surfaces-10-18.jsonl",
+      "git_blob_sha": "70fb8d465e9fd704878b152de033ad178ba3a6c4"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/supplementary-surfaces-19-26.jsonl",
+      "git_blob_sha": "83165023375922aba702598225d97022240e6a72"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/supplementary-surfaces-27-34.jsonl",
+      "git_blob_sha": "090673893bb80bca30f1171c6d8ac2d85cfc7312"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/swh-orcid-control.jsonl",
+      "git_blob_sha": "66d137e242010a4a5598009b8212c423bdd28ac1"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-comparison-derived.json",
+      "git_blob_sha": "e290f918c2e2d0c3706ff30b7ae26d20cee33373"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-concept-latest.jsonl",
+      "git_blob_sha": "68ad722f87d34456e9f5231014b3c5daf8a54a1e"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-same-version-01-10.jsonl",
+      "git_blob_sha": "1f9be14be62b393e0ca48912d657399d64a854ef"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-same-version-11-25.jsonl",
+      "git_blob_sha": "90b8b84176753f93507033ff97eb5a2220b849c2"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-same-version-26-40.jsonl",
+      "git_blob_sha": "0d32ca7a70aa6e604c0f95e797bf98693297234a"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-same-version-41-55.jsonl",
+      "git_blob_sha": "0f187b6a665683f1af4c6f7879e01618e3dd9c7b"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-same-version-56-70.jsonl",
+      "git_blob_sha": "433b630e6961b0cdab964cf9b49c577298716dcd"
+    }
+  ],
+  "disposition": "BOUNDED_DIAGNOSTIC_RETAINED_NO_PROSPECTIVE_PROMOTION_PARTIAL_EXTERNAL_EVIDENCE"
+}

@@ -20,3 +20,7 @@ The historical diagnostic classification is unchanged; there is no new acquisiti
 ## Day 3 independent material
 
 [2026-11-26 Day 3 diagnostic and release gate](day3/README.md) — matched-cohort recheck with zero scheduled prospective cells.
+
+## Day 4 independent material
+
+[2026-11-27 bounded diagnostic and authority-history reconciliation](day4/README.md): zero prospective cells, fixed sample and schedule boundary preserved.
