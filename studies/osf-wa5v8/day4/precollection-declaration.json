@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "record_class": "bounded_day4_diagnostic_intent",
+  "task_day": "DAY_4",
+  "declared_at_utc": "2026-11-27T11:10:41.345Z",
+  "reporting_day": "2026-11-27",
+  "reporting_timezone": "America/Los_Angeles",
+  "base_main": "3b124fd40470f57c39f767cb006118470ff0855e",
+  "reason": "Owner explicitly requests full periodic identity and infrastructure recheck, independent Study 1 gate and Study 2 review.",
+  "last_documented_approved_response": "6afdcc3a7fb0a89b0e3dd7e4",
+  "fixed_corpus": "RS01–RS10",
+  "control_is_rs11": false,
+  "prospective_authorized": false,
+  "plan": "Bounded receipt batches; persist and verify each before proceeding. GitHub 11, seven platforms, same 34 surface locators and 70 exact version keys where access permits; no historical imputation. Study 2 separately declared.",
+  "source_minimization": "Retain focal public identity fields only; no unrelated account data or origin byte claims."
+}
