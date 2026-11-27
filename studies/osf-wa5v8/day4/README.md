@@ -1,0 +1,3 @@
+# Day 4 — OSF wa5v8 / 5b329
+
+[Diagnostic](monitoring/2026-11-27/01-periodic-identity-infrastructure-recheck/README.md), [machine record](monitoring/2026-11-27/01-periodic-identity-infrastructure-recheck/record.json), [evidence](evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/README.md), [precollection intent](precollection-declaration.json), [authority history](authority-history-followup.jsonl), [intermediate November 12 response](authority-2026-11-12-followup.json), [custody gap](capture-gap-github-batch.json). No scheduled prospective cells; no OSF write. Study 2 is [separate](../../osf-vshwk/day4/README.md).

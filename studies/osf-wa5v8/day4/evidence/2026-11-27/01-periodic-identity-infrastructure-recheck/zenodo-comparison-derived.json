@@ -1,0 +1,171 @@
+{
+  "scope": "same 70 exact version keys, Day 3 comparator",
+  "rows": {
+    "count": 70,
+    "prior_views": 4605,
+    "views": 4655,
+    "prior_downloads": 64,
+    "downloads": 64,
+    "views_increased": 27,
+    "views_unchanged": 43,
+    "views_decreased": 0,
+    "downloads_increased": 0,
+    "downloads_decreased": 0
+  },
+  "by_object": [
+    {
+      "object_id": "RS01",
+      "count": 7,
+      "prior_views": 503,
+      "views": 510,
+      "prior_downloads": 14,
+      "downloads": 14,
+      "views_increased": 4,
+      "views_unchanged": 3,
+      "views_decreased": 0,
+      "downloads_increased": 0,
+      "downloads_decreased": 0
+    },
+    {
+      "object_id": "RS02",
+      "count": 7,
+      "prior_views": 458,
+      "views": 462,
+      "prior_downloads": 7,
+      "downloads": 7,
+      "views_increased": 2,
+      "views_unchanged": 5,
+      "views_decreased": 0,
+      "downloads_increased": 0,
+      "downloads_decreased": 0
+    },
+    {
+      "object_id": "RS03",
+      "count": 7,
+      "prior_views": 523,
+      "views": 527,
+      "prior_downloads": 5,
+      "downloads": 5,
+      "views_increased": 2,
+      "views_unchanged": 5,
+      "views_decreased": 0,
+      "downloads_increased": 0,
+      "downloads_decreased": 0
+    },
+    {
+      "object_id": "RS04",
+      "count": 7,
+      "prior_views": 411,
+      "views": 418,
+      "prior_downloads": 6,
+      "downloads": 6,
+      "views_increased": 5,
+      "views_unchanged": 2,
+      "views_decreased": 0,
+      "downloads_increased": 0,
+      "downloads_decreased": 0
+    },
+    {
+      "object_id": "RS05",
+      "count": 7,
+      "prior_views": 480,
+      "views": 485,
+      "prior_downloads": 5,
+      "downloads": 5,
+      "views_increased": 2,
+      "views_unchanged": 5,
+      "views_decreased": 0,
+      "downloads_increased": 0,
+      "downloads_decreased": 0
+    },
+    {
+      "object_id": "RS06",
+      "count": 7,
+      "prior_views": 425,
+      "views": 431,
+      "prior_downloads": 6,
+      "downloads": 6,
+      "views_increased": 3,
+      "views_unchanged": 4,
+      "views_decreased": 0,
+      "downloads_increased": 0,
+      "downloads_decreased": 0
+    },
+    {
+      "object_id": "RS07",
+      "count": 7,
+      "prior_views": 455,
+      "views": 461,
+      "prior_downloads": 7,
+      "downloads": 7,
+      "views_increased": 4,
+      "views_unchanged": 3,
+      "views_decreased": 0,
+      "downloads_increased": 0,
+      "downloads_decreased": 0
+    },
+    {
+      "object_id": "RS08",
+      "count": 7,
+      "prior_views": 418,
+      "views": 421,
+      "prior_downloads": 5,
+      "downloads": 5,
+      "views_increased": 1,
+      "views_unchanged": 6,
+      "views_decreased": 0,
+      "downloads_increased": 0,
+      "downloads_decreased": 0
+    },
+    {
+      "object_id": "RS09",
+      "count": 7,
+      "prior_views": 464,
+      "views": 468,
+      "prior_downloads": 4,
+      "downloads": 4,
+      "views_increased": 2,
+      "views_unchanged": 5,
+      "views_decreased": 0,
+      "downloads_increased": 0,
+      "downloads_decreased": 0
+    },
+    {
+      "object_id": "RS10",
+      "count": 7,
+      "prior_views": 468,
+      "views": 472,
+      "prior_downloads": 5,
+      "downloads": 5,
+      "views_increased": 2,
+      "views_unchanged": 5,
+      "views_decreased": 0,
+      "downloads_increased": 0,
+      "downloads_decreased": 0
+    }
+  ],
+  "source_ledgers": [
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-same-version-01-10.jsonl",
+      "blob": "1f9be14be62b393e0ca48912d657399d64a854ef"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-same-version-11-25.jsonl",
+      "blob": "90b8b84176753f93507033ff97eb5a2220b849c2"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-same-version-26-40.jsonl",
+      "blob": "0d32ca7a70aa6e604c0f95e797bf98693297234a"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-same-version-41-55.jsonl",
+      "blob": "0f187b6a665683f1af4c6f7879e01618e3dd9c7b"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/evidence/2026-11-27/01-periodic-identity-infrastructure-recheck/zenodo-same-version-56-70.jsonl",
+      "blob": "433b630e6961b0cdab964cf9b49c577298716dcd"
+    }
+  ],
+  "provider_acquired_at": null,
+  "interpretation": "Returned representations, not a contemporaneous provider observation, unique persons, or adoption."
+}

@@ -1,0 +1,23 @@
+{
+  "source_url": "https://api.osf.io/v2/schema_responses/6af57c509950cc35b3fe0538/",
+  "start_utc": "2026-11-27T11:19:17.307Z",
+  "end_utc": "2026-11-27T11:19:19.807Z",
+  "extract_id": "extract_870e17b2d61a41821e9efc4579163f6b",
+  "acquired_at": "2026-11-27T00:00:00Z",
+  "selected_lines": [
+    "\"id\" : \"6af57c509950cc35b3fe0538\"",
+    "\"date_created\" : \"2026-11-12T08:44:00.609632Z\"",
+    "\"date_submitted\" : \"2026-11-12T08:58:50.391026Z\"",
+    "\"date_modified\" : \"2026-11-12T08:58:57.107915Z\"",
+    "\"revision_justification\" : \"This update clarifies the methodological role and research significance of the separately archived Research Software Identity Audit (RSIA) materials.\\n\\nAdditional descriptions are provided in the Data collection procedures and Context and additional information sections to document how the versioned research infrastructure supports machine-readable research-contract implementation, observation schemas, state and counting rules, evidence retention, provenance verification, correction lineage, archival integrity, and reproducibility.\\n\\nThe archived software releases document the evolution of the supporting research infrastructure. They are not additional research-software objects, prospective observations, or independent research findings.\\n\\nNo changes are made to the five research questions, fixed RS01–RS10 corpus, six predefined scholarly-infrastructure layers, 60 object-layer units per scheduled observation point, sampling strategy, observation schedule, primary measured variables, derived-variable definitions, primary descriptive analyses, inference criteria, missing-data handling, or non-causal interpretation.\\n\\nThe previously approved secondary exploratory/post hoc analysis provisions remain unchanged. No additional sample objects, analytical units, interventions, inferential models, or causal claims are introduced.\"",
+    "\"updated_response_keys\" : [ \"344-86\" , \"344-47\" ]",
+    "\"reviews_state\" : \"approved\"",
+    "\"is_original_response\" : false",
+    "\"id\" : \"5b329\""
+  ],
+  "error": null,
+  "origin_http_status": null,
+  "origin_bytes_retained": false,
+  "role": "Separate verification of intermediate historical approved revision seen in list, not a new revision or provider-origin byte capture.",
+  "minimization_note": "Field-level projection from previously retained excerpts, excludes relationships to unrelated schema/account identifiers; original receipt clock retained."
+}

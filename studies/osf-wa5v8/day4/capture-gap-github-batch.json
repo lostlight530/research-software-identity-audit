@@ -1,0 +1,22 @@
+{
+  "record_class": "OPERATIONAL_CAPTURE_CUSTODY_GAP",
+  "task_day": "DAY_4",
+  "reviewed_at_utc": "2026-11-27T11:13:56.400Z",
+  "stage": "broad GitHub diagnostic after verified RS01–RS03 checkpoint",
+  "error": "Code Mode exceeded the maximum number of tool calls.",
+  "failing_layer": "orchestration",
+  "last_reachable_commit": "3928710f506b1aa320ee0a418a8d26cd9fcacdd7",
+  "last_verified_blob": "a9a4d2af947bb92b82fed7d8968d329c47130add",
+  "retained_rows": 12,
+  "next_batch_intended": [
+    "RS04",
+    "RS05",
+    "RS06"
+  ],
+  "attempt_count_in_interrupted_batch": null,
+  "original_receipts_in_interrupted_batch": null,
+  "provider_error_inferred": false,
+  "absence_inferred": false,
+  "disposition": "BLOCKED_CAPTURE_ORCHESTRATION_LIMIT",
+  "recovery": "Separate fresh bounded acquisition for remaining scope, with actual clocks; no reconstruction or backfill."
+}
