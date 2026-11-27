@@ -1,0 +1,24 @@
+{
+  "recorded_at_utc": "2026-11-27T11:19:46.117Z",
+  "reason": "Pre-publication minimization of non-focal OSF relationship identifiers and overly broad excerpts; original capture clocks and approval/identity facts unchanged. Original blobs remain in branch history; no deletion claim.",
+  "changes": [
+    {
+      "path": "studies/osf-wa5v8/day4/authority-history-followup.jsonl",
+      "prior_blob": "91f3d3c447c23f68e7cb16186071c2282eea71f0",
+      "new_blob": "1622fc119508dfe03b37cf909a214d9c4a523be3",
+      "commit": "563e1d57317e6a74db1d75a53534b9ce12f194c6"
+    },
+    {
+      "path": "studies/osf-vshwk/day4/authority-history-followup.jsonl",
+      "prior_blob": "6ec8fde7b14ceaa5c240044545c3037441cf2274",
+      "new_blob": "48a88d3122b3e6a5f71e03731c8aa52a5a540b02",
+      "commit": "8bad60a7815332704dbc6eee1f2ceb006779c325"
+    },
+    {
+      "path": "studies/osf-wa5v8/day4/authority-2026-11-12-followup.json",
+      "prior_blob": "bd27c5c5598788a072e59de673dd64f85ac94fe8",
+      "new_blob": "47b21aa20e4717ef0e2d5514657afab83b16cf60",
+      "commit": "d57d8181460865d781c0061811be7e8ef66c2450"
+    }
+  ]
+}
