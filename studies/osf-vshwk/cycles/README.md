@@ -56,3 +56,7 @@ The `BLOCKED_ORIGINAL_RECORDS_NOT_AVAILABLE` disposition remains for the Day 1 r
 ## Owner-declared Day 3 independent review
 
 [2026-11-26 Pacific cycle 03](cycle-2026-11-26-pst-03/README.md) is separately initiated by documented full-scope review under manifest v1. Its 22 primary endpoint attempts are accounted for, with 2 complete expected-field responses, 16 partial and 4 errors. It does not relabel, replace or backfill either earlier same-date attempt. See [Day 3](../day3/README.md).
+
+## Owner-declared Day 4 independent review
+
+[2026-11-27 Pacific cycle 01](cycle-2026-11-27-pst-01/README.md): 22/22 primary attempts, {"RESPONSE_COMPLETE":2,"RESPONSE_PARTIAL":16,"ENDPOINT_ERROR":4}. Separate full-scope review; no prior cycle backfill.
