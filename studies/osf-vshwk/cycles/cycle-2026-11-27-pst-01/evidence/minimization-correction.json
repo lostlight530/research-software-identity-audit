@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-11-27T11:12:52.135Z",
+  "path": "studies/osf-vshwk/cycles/cycle-2026-11-27-pst-01/evidence/attribution-discovery-attempts.jsonl",
+  "prior_blob": "3985175f053da7e9c2d4087dca00badfda1a7f94",
+  "prior_checkpoint": "02e2044963f9179b738ab397ea9176f0be58a9ac",
+  "new_blob": "0a7025136e9be7fcd5a7e96ec58448721c44feca",
+  "new_checkpoint": "3a097c74eab0e3ead85e4ab1ae839ffb689b4e06",
+  "reason": "Remove unnecessary surrounding ORCID work/client fields; exact DOI literals retained, original connector capture clock and retrieval state unchanged. Original blob remains in branch history; not a claim of deletion.",
+  "original_excerpt_lines": 15,
+  "retained_focal_doi_literals": [
+    "10.48546/workflowhub.workflow.2332.9",
+    "10.48546/workflowhub.workflow.2334.9"
+  ]
+}
