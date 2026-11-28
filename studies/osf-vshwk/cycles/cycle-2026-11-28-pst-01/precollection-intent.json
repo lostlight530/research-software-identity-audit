@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "study": "OSF_VSHWK",
+  "task_day": "DAY_5",
+  "cycle_id": "cycle-2026-11-28-pst-01",
+  "status": "INITIATED_PENDING_COLLECTION",
+  "declared_at_utc": "2026-11-28T13:55:21.324Z",
+  "reporting_day": {
+    "date": "2026-11-28",
+    "timezone": "America/Los_Angeles",
+    "utc_offset_at_event": "-08:00"
+  },
+  "protocol_clock_zones": [
+    "UTC",
+    "Asia/Shanghai"
+  ],
+  "manifest_ref": "studies/osf-vshwk/contract/endpoints-v1.json",
+  "manifest_version": 1,
+  "manifest_blob": "d34e53993100b54da870c4808e4cd441bd90c10f",
+  "latest_approved_schema_response": "6afdcc7108de91a0f0cefd6c",
+  "authority_freshness": "Nov26 list and Nov22 approved detail extracts re-read; not live origin census.",
+  "reason_before_collection": "Owner explicitly requested independent full-scope review; no calendar trigger or reuse.",
+  "case_project_id": 490,
+  "lineages": [
+    2332,
+    2334
+  ],
+  "predeclared_endpoint_count": 22,
+  "expected_project_layer_bundles": 8,
+  "expected_nested_lineage_layer_bundles": 16,
+  "collection_started": false,
+  "observation_records_at_intent_time": 0,
+  "source_repositories_read_only": true,
+  "all_external_platforms_read_only": true,
+  "prior_data_reused": false,
+  "precollection_repo_base_commit": "db806380d99ea9b70d0d07d00604c64868658ad3",
+  "capture_policy": "One bounded batch per call, commit and verify before next. No retry; preserve opaque errors."
+}
