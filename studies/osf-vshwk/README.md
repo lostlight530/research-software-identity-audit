@@ -83,3 +83,5 @@ These Day pages are navigation indexes only. The canonical protocol remains in `
 - [Day 3 — 2026-11-26 Pacific](day3/README.md) — independent cycle 03, separate from earlier same-date cycles.
 
 - [Day 4 — 2026-11-27 Pacific](day4/README.md) — independent documented full-scope cycle; separate execution follow-ups.
+
+- [Day 5 — 2026-11-28 Pacific](day5/README.md) — independent full-scope cycle and supplementary execution checks.
