@@ -1,0 +1,14 @@
+{
+  "task_day": "DAY_5",
+  "schema_version": "1.0",
+  "record_class": "bounded_diagnostic_intent",
+  "declared_at_utc": "2026-11-28T13:54:52.048Z",
+  "reporting_day": "2026-11-28",
+  "reporting_timezone": "America/Los_Angeles",
+  "base_main": "db806380d99ea9b70d0d07d00604c64868658ad3",
+  "reason": "Owner requests next independent full periodic audit and both studies' execution review; task-day label sequential, not scientific timepoint.",
+  "fixed_corpus": "RS01–RS10",
+  "control_is_rs11": false,
+  "prospective_authorized": false,
+  "plan": "One bounded batch per execution call; verified commit before next acquisition. Same 34 surfaces, same 70 version keys, 11 repositories; separate Study 2 intent. Preserve only focal fields, no backfill."
+}
