@@ -1,0 +1,16 @@
+{
+  "record_class": "NON_NORMATIVE_AUTHORITY_LOCATOR_CORRECTION",
+  "recorded_at_utc": "2026-11-28T14:04:05.801Z",
+  "path": "studies/osf-vshwk/contract/README.md",
+  "prior_commit": "db806380d99ea9b70d0d07d00604c64868658ad3",
+  "prior_blob_sha": "82d9f928f8121ef3998f928b45d33ef19bcaf9e0",
+  "wrong_identifier": "6afdcc7108de91a0f0cefdc6",
+  "correct_identifier": "6afdcc7108de91a0f0cefd6c",
+  "changed_occurrences": 2,
+  "reason": "Transposed final two characters in displayed ID and URL; approved authority confirmed in existing manifest/template and new authority-history receipt. Only locator and display corrected; no scientific contract, manifest, authority version, OSF, sample or schedule change.",
+  "authority_evidence": {
+    "path": "studies/osf-vshwk/day5/authority-history.jsonl",
+    "blob": "3a38cd116cf044379bd3c4f826d4ec5dad3963de"
+  },
+  "original_history_retained": true
+}

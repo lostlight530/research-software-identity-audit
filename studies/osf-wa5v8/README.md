@@ -24,3 +24,7 @@ The historical diagnostic classification is unchanged; there is no new acquisiti
 ## Day 4 independent material
 
 [2026-11-27 bounded diagnostic and authority-history reconciliation](day4/README.md): zero prospective cells, fixed sample and schedule boundary preserved.
+
+## Day 5 independent material
+
+[2026-11-28 bounded diagnostic](day5/README.md), zero scheduled prospective cells.
